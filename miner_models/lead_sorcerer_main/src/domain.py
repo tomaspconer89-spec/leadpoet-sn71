@@ -744,6 +744,10 @@ class DomainTool:
             if cached:
                 cache_hits += 1
                 for item in cached["results"].get("items", []):
+                    # Skip LinkedIn results: Firecrawl doesn't support linkedin.com
+                    url = (item.get("link", "") or "").lower()
+                    if "linkedin.com" in url:
+                        continue
                     normalized_results.append(
                         self._normalize_serp_result(item, query, page)
                     )
@@ -757,6 +761,10 @@ class DomainTool:
                 self.search_cache.cache_results(query, page, results)
                 # Normalize
                 for item in results.get("items", []):
+                    # Skip LinkedIn results: Firecrawl doesn't support linkedin.com
+                    url = (item.get("link", "") or "").lower()
+                    if "linkedin.com" in url:
+                        continue
                     normalized_results.append(
                         self._normalize_serp_result(item, query, page)
                     )
