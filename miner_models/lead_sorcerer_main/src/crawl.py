@@ -16,9 +16,11 @@ Authoritative specifications: docs/brd.md §273-320
 import asyncio
 import json
 import os
+import re
 import time
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
+from urllib.request import Request, urlopen
 
 from .common import (
     AsyncSemaphorePool,
@@ -1466,11 +1468,266 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                     self.logger.warning(f"Timeout extracting from {domain}")
                     raise Exception("Firecrawl v2 scrape timed out")
                 except Exception as exc:
+                    if self._is_firecrawl_credit_error(exc):
+                        self.logger.warning(
+                            f"Firecrawl credits exhausted for {domain}; switching to local crawl fallback"
+                        )
+                        return await self._extract_with_local_fallback(
+                            domain=domain,
+                            icp_config=icp_config,
+                            urls_to_extract=urls_to_extract,
+                        )
                     self.logger.warning(f"Failed to extract from {domain}: {exc}")
                     raise
 
             except Exception as exc:
                 raise Exception(f"Firecrawl v2 scrape failed: {exc}")
+
+    def _is_firecrawl_credit_error(self, exc: Exception) -> bool:
+        """
+        Heuristic detection of Firecrawl "credits exhausted" responses.
+
+        Firecrawl may surface these as different exception classes/messages
+        depending on SDK version.
+        """
+        msg = str(exc).lower()
+        if not msg:
+            return False
+
+        credit_markers = [
+            "payment required",
+            "insufficient credits",
+            "out of credits",
+            "credits exhausted",
+            "firecrawl error 402",
+        ]
+        if any(marker in msg for marker in credit_markers):
+            return True
+
+        # Sometimes only the HTTP status code is present.
+        if re.search(r"\b402\b", msg):
+            return True
+
+        return False
+
+    async def _extract_with_local_fallback(
+        self,
+        domain: str,
+        icp_config: Dict[str, Any],
+        urls_to_extract: List[str],
+    ) -> Dict[str, Any]:
+        """
+        Best-effort local HTML extraction when Firecrawl credits run out.
+
+        This is intentionally conservative: it extracts obvious metadata and
+        LinkedIn/email links using lightweight regexes.
+        """
+        primary_url = (
+            urls_to_extract[0]
+            if urls_to_extract
+            else (f"https://{domain}" if not domain.startswith("http") else domain)
+        )
+
+        # Keep the blocking HTML fetch off the event loop.
+        return await asyncio.to_thread(
+            self._extract_with_local_fallback_sync,
+            primary_url,
+            domain,
+        )
+
+    def _extract_with_local_fallback_sync(
+        self, url: str, domain: str
+    ) -> Dict[str, Any]:
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Linux x86_64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0 Safari/537.36"
+            )
+        }
+
+        request = Request(url, headers=headers)
+        try:
+            with urlopen(request, timeout=15) as resp:
+                content_type = resp.headers.get("Content-Type", "")
+                raw = resp.read()
+        except Exception as exc:
+            self.logger.warning(
+                f"Local crawl fallback failed to fetch {url}: {exc}"
+            )
+            return {}
+
+        # Decode using a best-effort charset. Default to UTF-8.
+        charset = "utf-8"
+        m = re.search(r"charset=([A-Za-z0-9_\\-]+)", content_type, flags=re.I)
+        if m:
+            charset = m.group(1).strip("\"' ")
+
+        try:
+            html = raw.decode(charset, errors="ignore")
+        except Exception:
+            html = raw.decode("utf-8", errors="ignore")
+
+        # If installed, use trafilatura to extract main readable text.
+        # This improves the signal for email/LinkedIn regexes vs. raw HTML.
+        extracted_text = None
+        try:
+            import trafilatura  # type: ignore
+
+            extracted_text = trafilatura.extract(
+                html,
+                include_comments=False,
+                include_formatting=False,
+            )
+        except Exception:
+            extracted_text = None
+
+        text_for_regex = extracted_text or html
+
+        def dedupe_preserve_order(items: List[str]) -> List[str]:
+            seen = set()
+            out = []
+            for it in items:
+                if it not in seen:
+                    seen.add(it)
+                    out.append(it)
+            return out
+
+        def extract_first(pattern: str) -> str:
+            match = re.search(pattern, html, flags=re.I | re.S)
+            if not match:
+                return ""
+            val = match.group(1).strip()
+            # Strip common HTML entity artifacts.
+            return val
+
+        # Company name heuristics
+        og_title = extract_first(
+            r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)["\']'
+        )
+        title = extract_first(r"<title[^>]*>([^<]{1,200})</title>")
+        raw_name = og_title or title
+        company_name = raw_name.split("|")[0].split("•")[0].strip()
+        company_name = company_name if company_name else None
+
+        # LinkedIn URLs
+        linkedin_in_urls_html = re.findall(
+            r"https?://[^\s\"'<>]+linkedin\.com/in/[^\s\"'<>/]+",
+            html,
+            flags=re.I,
+        )
+        linkedin_in_urls_text = re.findall(
+            r"https?://[^\s\"'<>]+linkedin\.com/in/[^\s\"'<>/]+",
+            text_for_regex,
+            flags=re.I,
+        )
+
+        linkedin_company_urls_html = re.findall(
+            r"https?://[^\s\"'<>]+linkedin\.com/company/[^\s\"'<>/]+",
+            html,
+            flags=re.I,
+        )
+        linkedin_company_urls_text = re.findall(
+            r"https?://[^\s\"'<>]+linkedin\.com/company/[^\s\"'<>/]+",
+            text_for_regex,
+            flags=re.I,
+        )
+
+        linkedin_in_urls = dedupe_preserve_order(
+            [
+                u.rstrip("/")
+                for u in (linkedin_in_urls_html + linkedin_in_urls_text)
+            ]
+        )
+        linkedin_company_urls = dedupe_preserve_order(
+            [
+                u.rstrip("/")
+                for u in (linkedin_company_urls_html + linkedin_company_urls_text)
+            ]
+        )
+
+        linkedin_company_url = None
+        if linkedin_company_urls:
+            linkedin_company_url = linkedin_company_urls[0]
+
+        # Emails
+        emails = re.findall(
+            r"(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b",
+            text_for_regex,
+            flags=re.I,
+        )
+        emails = dedupe_preserve_order([e.lower() for e in emails])
+
+        # Build team members from LinkedIn in URLs (if present).
+        team_members = []
+        for i, in_url in enumerate(linkedin_in_urls[:3]):
+            link_type, slug = canonicalize_linkedin(in_url)
+            if link_type != "in" or not slug:
+                continue
+
+            # Infer a readable name from slug.
+            name_parts = re.split(r"[-_]+", slug)
+            full_name = " ".join(p.capitalize() for p in name_parts if p)
+            if not full_name:
+                full_name = "Decision Maker"
+
+            member = {
+                "name": full_name,
+                "role": "CEO",  # Best-effort default to keep record "contact-ready"
+                "department": None,
+                "linkedin": in_url,
+                "email": emails[i] if i < len(emails) else (emails[0] if emails else None),
+                "phone": None,
+                "location": None,
+                "decision_maker": True,
+            }
+            # Keep email key only if it is non-empty; downstream code checks truthiness.
+            if not member["email"]:
+                member.pop("email", None)
+
+            team_members.append(member)
+
+        intent_score = 0.5
+        intent_signals = []
+        intent_category = "medium"
+
+        extracted = {
+            "company": {
+                "name": company_name,
+                "description": extract_first(
+                    r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']'
+                )
+                or None,
+                "industry": "",
+                "sub_industry": "",
+                "hq_location": "",
+                "number_of_locations": 1,
+                "founded_year": None,
+                "employee_count": None,
+                "revenue_range": None,
+                "ownership_type": None,
+                "company_type": None,
+                "specialties": [],
+                "tech_stack": [],
+                "intent": {
+                    "business_intent_score": intent_score,
+                    "intent_signals": intent_signals,
+                    "intent_category": intent_category,
+                    "timeline_indicator": "Timeline unclear",
+                    "decision_maker_intent": "No decision maker statements found",
+                },
+                "emails": emails[:5],
+                "phone_numbers": [],
+                "socials": {
+                    "linkedin": linkedin_company_url,
+                },
+            },
+            # The downstream processor expects these keys exist.
+            "team_members": team_members,
+            "employees": [],
+        }
+
+        return extracted
 
     async def _extract_database_site(
         self, domain: str, icp_config: Dict[str, Any]
@@ -1583,9 +1840,20 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                         {"url": url, "data": {}, "success": False, "error": "timeout"}
                     )
                 except Exception as exc:
+                    if self._is_firecrawl_credit_error(exc):
+                        self.logger.warning(
+                            f"Firecrawl credits exhausted during database crawl for {domain}; "
+                            "falling back to single-company local crawl"
+                        )
+                        return await self._extract_single_company(domain, icp_config)
                     self.logger.warning(f"❌ Error extracting from URL {i + 1}: {exc}")
                     all_extractions.append(
-                        {"url": url, "data": {}, "success": False, "error": str(exc)}
+                        {
+                            "url": url,
+                            "data": {},
+                            "success": False,
+                            "error": str(exc),
+                        }
                     )
 
             # Merge all successful extractions
