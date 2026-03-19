@@ -22,6 +22,15 @@ export NETUID="${NETUID:-71}"
 export SUBTENSOR_NETWORK="${SUBTENSOR_NETWORK:-finney}"
 export PYTHONUNBUFFERED="${PYTHONUNBUFFERED:-1}"
 
+# Load .env (if present) so gateway/API keys are available.
+# This repo's .env uses KEY=VALUE lines (not "export KEY=VALUE"), so we auto-export on source.
+if [ -f ".env" ]; then
+  set -a
+  # shellcheck disable=SC1091
+  source ".env"
+  set +a
+fi
+
 # Optional: non-interactive and precheck (often set by run-miner-with-log.sh / run-miner-screen.sh)
 # ACCEPT_TERMS, USE_LEAD_PRECHECK, FRONTIER, etc. are passed through from caller
 
