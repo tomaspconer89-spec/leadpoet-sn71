@@ -1,0 +1,5 @@
+# Optional: for Hugging Face lead-quality models (USE_HF_INDUSTRY=1, USE_HF_EMAIL_INTENT_FILTER=1)
+# Install with: pip install -r requirements-hf.txt
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.20.0
