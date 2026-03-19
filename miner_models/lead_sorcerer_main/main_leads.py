@@ -14,6 +14,8 @@ import shutil
 from pathlib import Path
 from typing import List, Dict, Any
 import logging
+import re
+from urllib.parse import quote
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -88,6 +90,9 @@ else:
     # Suppress verbose logging from the lead sorcerer
     logging.getLogger("httpx").setLevel(logging.WARNING)
     logging.getLogger("openai").setLevel(logging.WARNING)
+
+    # Ensure httpx is available in this module namespace (used by Apify enrichment)
+    import httpx
 
     # ───────────────────────────────────────────────────────────────────
     #  Load canonical ICP template (must exist)
@@ -481,9 +486,190 @@ else:
 
             # Convert to legacy format
             legacy_leads = []
+            apify_enrich_limit = int(
+                os.getenv("APIFY_LINKEDIN_ENRICH_MAX", "5").strip() or "5"
+            )
+            apify_enrich_done = 0
             for record in lead_records:
                 try:
                     legacy_lead = convert_lead_record_to_legacy_format(record)
+
+                    # Ensure company_linkedin exists (crawler may only fill socials.linkedin)
+                    socials = legacy_lead.get("socials", {}) or {}
+                    if not legacy_lead.get("company_linkedin"):
+                        legacy_lead["company_linkedin"] = socials.get("linkedin", "") or ""
+
+                    # Apify-based LinkedIn enrichment if required fields are missing
+                    # (Only runs for leads likely to be rejected by gateway/precheck.)
+                    def _is_valid_linkedin_person(url: str) -> bool:
+                        if not url or not isinstance(url, str):
+                            return False
+                        return bool(
+                            re.match(
+                                r"^https?://(www\.)?linkedin\.com/in/[^/?#]+",
+                                url.strip(),
+                                flags=re.I,
+                            )
+                        )
+
+                    def _is_valid_linkedin_company(url: str) -> bool:
+                        if not url or not isinstance(url, str):
+                            return False
+                        return bool(
+                            re.match(
+                                r"^https?://(www\.)?linkedin\.com/company/[^/?#]+",
+                                url.strip(),
+                                flags=re.I,
+                            )
+                        )
+
+                    async def _apify_search(query: str, amount: int = 10) -> List[Any]:
+                        token = os.getenv("APIFY_API_TOKEN", "").strip()
+                        actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "").strip()
+                        if not token or not actor_id:
+                            return []
+
+                        # Apify accepts actorId as either:
+                        # - "username~actor-name"
+                        # - actor UUID
+                        # If env uses "username/actor-name", normalize it.
+                        normalized_actor_id = actor_id
+                        if "/" in normalized_actor_id and "~" not in normalized_actor_id:
+                            normalized_actor_id = normalized_actor_id.replace("/", "~", 1)
+
+                        encoded_actor_id = quote(normalized_actor_id, safe="~")
+
+                        # Apify REST: /v2/acts/:actorId/run-sync-get-dataset-items
+                        # Input schema for google-search-scraper uses `query` + `amount`.
+                        endpoint = f"https://api.apify.com/v2/acts/{encoded_actor_id}/run-sync-get-dataset-items"
+                        params = {
+                            "token": token,
+                            "timeout": 60,
+                            "format": "json",
+                            "clean": "1",
+                            "limit": amount,
+                        }
+
+                        payload = {"query": query, "amount": amount}
+
+                        async with httpx.AsyncClient(timeout=75) as client:
+                            resp = await client.post(
+                                endpoint, params=params, json=payload
+                            )
+                            resp.raise_for_status()
+                            # Response body is a JSON array: dataset items
+                            return resp.json() if resp.content else []
+
+                    def _extract_linkedin_urls(obj: Any) -> List[str]:
+                        urls: List[str] = []
+                        if isinstance(obj, str):
+                            urls.extend(
+                                re.findall(
+                                    r"https?://(?:www\.)?linkedin\.com/(in|company)/[^\"'\s<>?#]+",
+                                    obj,
+                                    flags=re.I,
+                                )
+                            )
+                        elif isinstance(obj, dict):
+                            for v in obj.values():
+                                urls.extend(_extract_linkedin_urls(v))
+                        elif isinstance(obj, list):
+                            for it in obj:
+                                urls.extend(_extract_linkedin_urls(it))
+                        return urls
+
+                    def _normalize_linkedin(url: str) -> str:
+                        if not url:
+                            return ""
+                        m = re.match(
+                            r"^(https?://(?:www\.)?linkedin\.com/(in|company)/)([^/?#]+)",
+                            url.strip(),
+                            flags=re.I,
+                        )
+                        if not m:
+                            return ""
+                        prefix = m.group(1).rstrip("/")
+                        slug = m.group(4)
+                        return f"{prefix}/{slug}"
+
+                    async def _enrich_linkedin_fields_if_missing() -> None:
+                        person_missing = not _is_valid_linkedin_person(
+                            legacy_lead.get("linkedin", "")
+                        )
+                        company_missing = not _is_valid_linkedin_company(
+                            legacy_lead.get("company_linkedin", "")
+                        )
+
+                        if not (person_missing or company_missing):
+                            return
+
+                        business = (legacy_lead.get("business") or "").strip()
+                        full_name = (legacy_lead.get("full_name") or "").strip()
+
+                        # If we don't have a decent business name, avoid wasting Apify calls.
+                        if not business:
+                            return
+
+                        # 1) Company LinkedIn
+                        if company_missing:
+                            items = await _apify_search(
+                                f'site:linkedin.com/company "{business}"',
+                                amount=10,
+                            )
+                            candidate_urls = []
+                            for it in items:
+                                candidate_urls.extend(_extract_linkedin_urls(it))
+
+                            # De-dupe preserve order
+                            seen = set()
+                            deduped: List[str] = []
+                            for u in candidate_urls:
+                                nu = _normalize_linkedin(u)
+                                if nu and nu not in seen:
+                                    seen.add(nu)
+                                    deduped.append(nu)
+
+                            for u in deduped:
+                                if _is_valid_linkedin_company(u):
+                                    legacy_lead["company_linkedin"] = u
+                                    break
+
+                        # 2) Person LinkedIn (if we have a name)
+                        if person_missing and full_name:
+                            items = await _apify_search(
+                                f'site:linkedin.com/in "{full_name}" "{business}"',
+                                amount=10,
+                            )
+                            candidate_urls = []
+                            for it in items:
+                                candidate_urls.extend(_extract_linkedin_urls(it))
+
+                            seen = set()
+                            deduped = []
+                            for u in candidate_urls:
+                                nu = _normalize_linkedin(u)
+                                if nu and nu not in seen:
+                                    seen.add(nu)
+                                    deduped.append(nu)
+
+                            for u in deduped:
+                                if _is_valid_linkedin_person(u):
+                                    legacy_lead["linkedin"] = u
+                                    break
+
+                    # Throttle Apify usage to control spend.
+                    person_missing = not _is_valid_linkedin_person(
+                        legacy_lead.get("linkedin", "")
+                    )
+                    company_missing = not _is_valid_linkedin_company(
+                        legacy_lead.get("company_linkedin", "")
+                    )
+                    if (
+                        apify_enrich_done < apify_enrich_limit
+                        and (person_missing or company_missing)
+                    ):
+                        await _enrich_linkedin_fields_if_missing()
+                        apify_enrich_done += 1
 
                     # Only include leads with valid email and business name
                     if legacy_lead.get("email") and legacy_lead.get("business"):
