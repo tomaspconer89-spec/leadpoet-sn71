@@ -1,10 +1,10 @@
 {
-  "source_file": "aleks-andar.com.json",
+  "source_file": "thefounderadvisory.com__1.json",
   "reason": "missing_required_fields: linkedin, company_linkedin",
   "lead_preview": {
-    "business": "Aleksandar Tutulic",
-    "email": "brand@aleks-andar.com",
-    "website": "https://aleks-andar.com",
+    "business": "The Founder Advisory",
+    "email": "hello@thefounderadvisory.com",
+    "website": "https://thefounderadvisory.com",
     "industry": "Consulting",
     "sub_industry": "Startup Advisory"
   },

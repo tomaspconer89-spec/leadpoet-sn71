@@ -7,5 +7,6 @@
     "website": "https://alphaadvisors.us",
     "industry": "Consulting",
     "sub_industry": "Business Management Consulting"
-  }
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
 }

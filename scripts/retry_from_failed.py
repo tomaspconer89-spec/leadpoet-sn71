@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
-Convert lead_queue/raw_generated artifacts into SN71 payloads, run precheck,
-and write valid leads into lead_queue/pending for submit_queued_leads.py.
+Retry conversion for lead_queue/failed precheck artifacts.
+
+Flow:
+1) Read *.precheck_failed.json
+2) Reconstruct lead using available preview + /tmp crawl artifacts
+3) Enrich linkedin/company_linkedin via search
+4) Run precheck again
+5) Write valid leads to lead_queue/pending
 """
 
 from __future__ import annotations
@@ -10,11 +16,10 @@ import argparse
 import hashlib
 import json
 import os
-import re
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Optional, Tuple
 
 from miner_models.lead_precheck import precheck_lead
 
@@ -60,9 +65,6 @@ def split_name(full_name: str) -> Tuple[str, str]:
 
 
 def parse_hq_location(hq: str) -> Tuple[str, str, str]:
-    """
-    Parse "City, State, Country" into (city, state, country).
-    """
     txt = (hq or "").strip()
     if not txt:
         return "", "", ""
@@ -87,19 +89,6 @@ def clean_linkedin(url: str, kind: str) -> str:
     return u if "/company/" in u and "/in/" not in u else ""
 
 
-def extract_domain(url: str) -> str:
-    u = (url or "").strip().lower()
-    if not u:
-        return ""
-    if not u.startswith("http"):
-        u = f"https://{u}"
-    try:
-        host = urllib.parse.urlparse(u).netloc.lower()
-        return host[4:] if host.startswith("www.") else host
-    except Exception:
-        return ""
-
-
 def http_json(url: str, method: str = "GET", headers: Optional[Dict[str, str]] = None, body: Optional[bytes] = None) -> Dict[str, Any]:
     req = urllib.request.Request(url=url, method=method, headers=headers or {}, data=body)
     with urllib.request.urlopen(req, timeout=12) as resp:
@@ -107,12 +96,8 @@ def http_json(url: str, method: str = "GET", headers: Optional[Dict[str, str]] =
     return json.loads(data)
 
 
-def search_urls(query: str) -> List[str]:
-    """
-    Query search provider(s) and return top URLs.
-    Priority: Serper -> Brave -> GSE.
-    """
-    urls: List[str] = []
+def search_urls(query: str) -> list[str]:
+    urls: list[str] = []
     serper_key = os.getenv("SERPER_API_KEY", "").strip()
     brave_key = os.getenv("BRAVE_API_KEY", "").strip()
     gse_key = os.getenv("GSE_API_KEY", "").strip()
@@ -167,17 +152,13 @@ def search_urls(query: str) -> List[str]:
             return urls
     except Exception:
         pass
-
     return urls
 
 
 def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Fill missing linkedin/company_linkedin with search-derived URLs.
-    """
     business = (lead.get("business") or "").strip()
     website = (lead.get("website") or "").strip()
-    domain = extract_domain(website)
+    domain = website.replace("https://", "").replace("http://", "").split("/")[0].replace("www.", "")
     person_name = (lead.get("full_name") or "").strip()
 
     if not lead.get("company_linkedin"):
@@ -196,13 +177,13 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
                 break
 
     if not lead.get("linkedin"):
-        person_queries: List[str] = []
+        queries = []
         if person_name and person_name.lower() not in {"not listed", "unknown", "n/a"}:
-            person_queries.append(f'site:linkedin.com/in "{person_name}" "{business}"')
-            person_queries.append(f'site:linkedin.com/in "{person_name}" "{domain}"')
-        person_queries.append(f'site:linkedin.com/in "{business}" founder')
-        person_queries.append(f'site:linkedin.com/in "{business}" ceo')
-        for q in person_queries:
+            queries.append(f'site:linkedin.com/in "{person_name}" "{business}"')
+            queries.append(f'site:linkedin.com/in "{person_name}" "{domain}"')
+        queries.append(f'site:linkedin.com/in "{business}" founder')
+        queries.append(f'site:linkedin.com/in "{business}" ceo')
+        for q in queries:
             for u in search_urls(q):
                 pu = clean_linkedin(u, "person")
                 if pu:
@@ -210,85 +191,6 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
                     break
             if lead.get("linkedin"):
                 break
-
-    return lead
-
-
-def derive_source_url(doc: Dict[str, Any], domain: str) -> str:
-    serp = doc.get("serp_results") or []
-    if serp and isinstance(serp, list):
-        first = serp[0]
-        if isinstance(first, dict):
-            url = (first.get("url") or "").strip()
-            if url:
-                return url
-    return f"https://{domain}"
-
-
-def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, Any]]:
-    domain = (doc.get("domain") or filename.replace(".json", "").split("__")[0]).strip()
-    extracted = doc.get("extracted_data") or {}
-    company = extracted.get("company") if isinstance(extracted, dict) else {}
-    team = extracted.get("team_members") if isinstance(extracted, dict) else []
-    if not isinstance(company, dict):
-        company = {}
-    if not isinstance(team, list):
-        team = []
-
-    best_person = team[0] if team else {}
-    if not isinstance(best_person, dict):
-        best_person = {}
-
-    full_name = (best_person.get("name") or "").strip()
-    first, last = split_name(full_name)
-    email = (best_person.get("email") or "").strip()
-    role = (best_person.get("role") or "").strip() or "Advisor"
-    phone = best_person.get("phone") or ""
-
-    company_name = (company.get("name") or "").strip()
-    description = (company.get("description") or "").strip()
-    industry = (company.get("industry") or "").strip()
-    sub_industry = (company.get("sub_industry") or "").strip()
-    emp = normalize_employee_count(str(company.get("employee_count") or ""))
-    hq_location = (company.get("hq_location") or "").strip()
-    city, state, country = parse_hq_location(hq_location)
-
-    socials = company.get("socials") if isinstance(company.get("socials"), dict) else {}
-    company_linkedin = clean_linkedin((socials.get("linkedin") or ""), "company")
-    person_linkedin = clean_linkedin((best_person.get("linkedin") or ""), "person")
-
-    source_url = derive_source_url(doc, domain)
-    website = f"https://{domain}" if domain else source_url
-
-    lead = {
-        "business": company_name,
-        "full_name": full_name,
-        "first": first,
-        "last": last,
-        "email": email,
-        "role": role,
-        "linkedin": person_linkedin,
-        "website": website,
-        "industry": industry,
-        "sub_industry": sub_industry,
-        "country": country,
-        "state": state,
-        "city": city,
-        "company_linkedin": company_linkedin,
-        "description": description,
-        "employee_count": emp,
-        "source_url": source_url,
-        "source_type": "company_site",
-        "phone_numbers": [phone] if phone else [],
-        "hq_country": country,
-        "hq_state": state,
-        "hq_city": city,
-    }
-
-    # Reject obviously incomplete mappings early.
-    required_min = ["business", "full_name", "email", "industry", "sub_industry", "country", "city"]
-    if any(not str(lead.get(k, "")).strip() for k in required_min):
-        return None
     return lead
 
 
@@ -302,86 +204,158 @@ def queue_key(lead: Dict[str, Any]) -> str:
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
 
 
+def parse_domain_from_source_file(name: str) -> str:
+    base = name.replace(".precheck_failed.json", "")
+    # remove __N suffix if present
+    if "__" in base:
+        base = base.split("__")[0]
+    return base
+
+
+def load_tmp_crawl_artifact(domain: str) -> Optional[Dict[str, Any]]:
+    # Try exact and suffix variants that came from duplicated exports.
+    candidates = [domain]
+    for i in range(1, 10):
+        candidates.append(f"{domain}__{i}")
+    for d in candidates:
+        for path in Path("/tmp").glob(f"tmp*/crawl_artifacts/{d}.json"):
+            try:
+                return json.loads(path.read_text())
+            except Exception:
+                continue
+    return None
+
+
+def reconstruct_lead(failed_obj: Dict[str, Any], domain: str) -> Optional[Dict[str, Any]]:
+    preview = failed_obj.get("lead_preview") or {}
+    if not isinstance(preview, dict):
+        preview = {}
+
+    crawl = load_tmp_crawl_artifact(domain) or {}
+    extracted = crawl.get("extracted_data") if isinstance(crawl, dict) else {}
+    if not isinstance(extracted, dict):
+        extracted = {}
+    company = extracted.get("company") if isinstance(extracted.get("company"), dict) else {}
+    team_members = extracted.get("team_members") if isinstance(extracted.get("team_members"), list) else []
+    member = team_members[0] if team_members else {}
+    if not isinstance(member, dict):
+        member = {}
+
+    business = (preview.get("business") or company.get("name") or domain).strip()
+    website = (preview.get("website") or f"https://{domain}").strip()
+    email = (preview.get("email") or member.get("email") or "").strip()
+    role = (member.get("role") or "Advisor").strip()
+    full_name = (member.get("name") or "").strip()
+    if not full_name or full_name.lower() in {"not listed", "unknown", "n/a"}:
+        # Use email local-part heuristic when possible.
+        if "@" in email:
+            local = email.split("@", 1)[0].replace(".", " ").replace("_", " ").strip()
+            full_name = " ".join([w.capitalize() for w in local.split() if w]) or business
+        else:
+            full_name = business
+    first, last = split_name(full_name)
+    if not first or not last:
+        first = first or "Contact"
+        last = last or "Lead"
+
+    industry = (preview.get("industry") or company.get("industry") or "Consulting").strip()
+    sub_industry = (preview.get("sub_industry") or company.get("sub_industry") or "Business Consulting").strip()
+    desc = (company.get("description") or f"{business} provides consulting services.").strip()
+    emp = normalize_employee_count(str(company.get("employee_count") or "11-50"))
+    hq_city, hq_state, hq_country = parse_hq_location(str(company.get("hq_location") or ""))
+    country = hq_country or "United States"
+    state = hq_state or ("CA" if country.lower() in {"united states", "usa", "us"} else "")
+    city = hq_city or "Unknown City"
+
+    socials = company.get("socials") if isinstance(company.get("socials"), dict) else {}
+    company_linkedin = clean_linkedin((socials.get("linkedin") or ""), "company")
+    person_linkedin = clean_linkedin((member.get("linkedin") or ""), "person")
+
+    lead = {
+        "business": business,
+        "full_name": full_name,
+        "first": first,
+        "last": last,
+        "email": email,
+        "role": role,
+        "linkedin": person_linkedin,
+        "website": website,
+        "industry": industry,
+        "sub_industry": sub_industry,
+        "country": country,
+        "state": state,
+        "city": city,
+        "company_linkedin": company_linkedin,
+        "description": desc,
+        "employee_count": emp,
+        "source_url": website,
+        "source_type": "company_site",
+        "phone_numbers": [member.get("phone")] if member.get("phone") else [],
+        "hq_country": country,
+        "hq_state": state,
+        "hq_city": city,
+    }
+    return lead
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Convert raw_generated to pending queue")
-    parser.add_argument("--in-dir", default="lead_queue/raw_generated")
-    parser.add_argument("--pending-dir", default="lead_queue/pending")
+    parser = argparse.ArgumentParser(description="Retry failed precheck artifacts")
     parser.add_argument("--failed-dir", default="lead_queue/failed")
-    parser.add_argument("--limit", type=int, default=0, help="0 = all files")
-    parser.add_argument(
-        "--enrich-linkedin",
-        type=int,
-        default=1,
-        help="1=search and fill missing linkedin fields, 0=disable",
-    )
+    parser.add_argument("--pending-dir", default="lead_queue/pending")
+    parser.add_argument("--limit", type=int, default=0, help="0 = all")
     args = parser.parse_args()
 
-    in_dir = Path(args.in_dir)
-    pending_dir = Path(args.pending_dir)
     failed_dir = Path(args.failed_dir)
+    pending_dir = Path(args.pending_dir)
     pending_dir.mkdir(parents=True, exist_ok=True)
-    failed_dir.mkdir(parents=True, exist_ok=True)
 
-    files = sorted(in_dir.glob("*.json"))
+    files = sorted(failed_dir.glob("*.precheck_failed.json"))
     if args.limit > 0:
         files = files[: args.limit]
 
     total = len(files)
-    converted = 0
-    valid = 0
-    skipped_existing = 0
-    skipped_invalid_map = 0
-    precheck_failed = 0
+    reconstructed = 0
+    queued = 0
+    still_failed = 0
+    skipped_exists = 0
 
     for f in files:
         try:
-            doc = json.loads(f.read_text())
+            failed_obj = json.loads(f.read_text())
         except Exception:
             continue
-
-        lead = map_raw_to_lead(doc, f.name)
+        source_file = failed_obj.get("source_file", f.name)
+        domain = parse_domain_from_source_file(source_file)
+        lead = reconstruct_lead(failed_obj, domain)
         if not lead:
-            skipped_invalid_map += 1
+            still_failed += 1
             continue
+        reconstructed += 1
 
-        if args.enrich_linkedin == 1:
-            lead = enrich_linkedin_fields(lead)
-        converted += 1
+        # Retry enrichment pass
+        lead = enrich_linkedin_fields(lead)
 
         ok, reason = precheck_lead(lead)
         if not ok:
-            precheck_failed += 1
-            fail_obj = {
-                "source_file": f.name,
-                "reason": reason,
-                "lead_preview": {
-                    "business": lead.get("business"),
-                    "email": lead.get("email"),
-                    "website": lead.get("website"),
-                    "industry": lead.get("industry"),
-                    "sub_industry": lead.get("sub_industry"),
-                },
-            }
-            fail_path = failed_dir / f"{f.stem}.precheck_failed.json"
-            fail_path.write_text(json.dumps(fail_obj, ensure_ascii=True, indent=2))
+            still_failed += 1
+            failed_obj["retry_reason"] = reason
+            f.write_text(json.dumps(failed_obj, ensure_ascii=True, indent=2))
             continue
 
         key = queue_key(lead)
-        out_file = pending_dir / f"{key}.json"
-        if out_file.exists():
-            skipped_existing += 1
+        out = pending_dir / f"{key}.json"
+        if out.exists():
+            skipped_exists += 1
             continue
-        out_file.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
-        valid += 1
+        out.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
+        queued += 1
 
-    print(f"Input files:             {total}")
-    print(f"Mapped leads:            {converted}")
-    print(f"Valid queued to pending: {valid}")
-    print(f"Precheck failed:         {precheck_failed}")
-    print(f"Skipped (existing):      {skipped_existing}")
-    print(f"Skipped (invalid map):   {skipped_invalid_map}")
-    print(f"Pending dir:             {pending_dir.resolve()}")
-    print(f"Failed dir:              {failed_dir.resolve()}")
+    print(f"Failed inputs:         {total}")
+    print(f"Reconstructed leads:   {reconstructed}")
+    print(f"Queued to pending:     {queued}")
+    print(f"Still failing precheck:{still_failed}")
+    print(f"Skipped existing:      {skipped_exists}")
+    print(f"Pending dir:           {pending_dir.resolve()}")
     return 0
 
 

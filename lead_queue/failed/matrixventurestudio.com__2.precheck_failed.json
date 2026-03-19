@@ -1,0 +1,12 @@
+{
+  "source_file": "matrixventurestudio.com__2.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "Matrix Venture Studio",
+    "email": "null",
+    "website": "https://matrixventurestudio.com",
+    "industry": "Business Consulting",
+    "sub_industry": "Startup Advisory and Immigration Consulting"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}

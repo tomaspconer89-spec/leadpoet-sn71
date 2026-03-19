@@ -7,5 +7,6 @@
     "website": "https://cansulta.com",
     "industry": "Consulting",
     "sub_industry": "Business Consulting"
-  }
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
 }

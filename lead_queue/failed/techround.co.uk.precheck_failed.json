@@ -1,0 +1,12 @@
+{
+  "source_file": "techround.co.uk.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "TechRound",
+    "email": "David@TechRound.co.uk",
+    "website": "https://techround.co.uk",
+    "industry": "Media",
+    "sub_industry": "News and Online Publications"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}

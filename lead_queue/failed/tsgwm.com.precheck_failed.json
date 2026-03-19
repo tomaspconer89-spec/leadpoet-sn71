@@ -1,0 +1,12 @@
+{
+  "source_file": "tsgwm.com.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "TSG Wealth Management",
+    "email": "not available",
+    "website": "https://tsgwm.com",
+    "industry": "Financial Services",
+    "sub_industry": "Wealth Management"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}

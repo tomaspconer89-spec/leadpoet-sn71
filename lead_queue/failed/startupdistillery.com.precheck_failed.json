@@ -1,12 +1,12 @@
 {
-  "source_file": "centriconsulting.com.json",
+  "source_file": "startupdistillery.com.json",
   "reason": "missing_required_fields: linkedin, company_linkedin",
   "lead_preview": {
-    "business": "Centri Consulting",
+    "business": "Startup Distillery",
     "email": "null",
-    "website": "https://centriconsulting.com",
+    "website": "https://startupdistillery.com",
     "industry": "Consulting",
-    "sub_industry": "Accounting and Advisory Services"
+    "sub_industry": "Startup Consulting"
   },
   "retry_reason": "missing_required_fields: linkedin, company_linkedin"
 }

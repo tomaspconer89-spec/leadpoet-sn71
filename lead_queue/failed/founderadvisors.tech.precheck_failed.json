@@ -1,0 +1,12 @@
+{
+  "source_file": "founderadvisors.tech.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "Founder Advisors",
+    "email": "Roger.Toennis@FounderAdvisors.Tech",
+    "website": "https://founderadvisors.tech",
+    "industry": "Business Services",
+    "sub_industry": "Startup Advisory and Consulting"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}

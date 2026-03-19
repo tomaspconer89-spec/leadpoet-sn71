@@ -1,0 +1,12 @@
+{
+  "source_file": "fi.co__1.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "Founder Institute",
+    "email": "null",
+    "website": "https://fi.co",
+    "industry": "Startup Accelerator",
+    "sub_industry": "Entrepreneurial Development"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}

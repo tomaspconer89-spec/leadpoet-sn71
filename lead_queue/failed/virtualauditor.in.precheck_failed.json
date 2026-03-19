@@ -1,0 +1,12 @@
+{
+  "source_file": "virtualauditor.in.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "Virtual Auditor",
+    "email": "support@virtualauditor.in",
+    "website": "https://virtualauditor.in",
+    "industry": "Accounting",
+    "sub_industry": "Valuation and Consulting Services"
+  },
+  "retry_reason": "missing_required_fields: linkedin, company_linkedin"
+}
