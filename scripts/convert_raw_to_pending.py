@@ -107,16 +107,88 @@ def http_json(url: str, method: str = "GET", headers: Optional[Dict[str, str]] =
     return json.loads(data)
 
 
+def _collect_linkedin_urls(obj: Any, out: List[str]) -> None:
+    if isinstance(obj, dict):
+        for v in obj.values():
+            _collect_linkedin_urls(v, out)
+        return
+    if isinstance(obj, list):
+        for v in obj:
+            _collect_linkedin_urls(v, out)
+        return
+    if isinstance(obj, str):
+        s = obj.strip()
+        if "linkedin.com/" in s.lower():
+            out.append(s)
+
+
+def harvest_search_urls(query: str) -> List[str]:
+    harvest_key = os.getenv("HARVEST_API_KEY", "").strip()
+    if not harvest_key:
+        return []
+    encoded_q = urllib.parse.quote(query)
+    try:
+        data = http_json(
+            f"https://api.harvest-api.com/linkedin/profile-search?search={encoded_q}",
+            headers={"X-API-Key": harvest_key, "Accept": "application/json"},
+        )
+        urls: List[str] = []
+        _collect_linkedin_urls(data, urls)
+        deduped: List[str] = []
+        seen = set()
+        for u in urls:
+            if u not in seen:
+                seen.add(u)
+                deduped.append(u)
+        return deduped
+    except Exception:
+        return []
+
+
+def apify_search_urls(query: str) -> List[str]:
+    token = os.getenv("APIFY_API_TOKEN", "").strip()
+    if not token:
+        return []
+    actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "apify/google-search-scraper").strip()
+    run_url = f"https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items?token={urllib.parse.quote(token)}"
+    payload = {
+        "queries": [query],
+        "resultsPerPage": 10,
+        "maxPagesPerQuery": 1,
+        "mobileResults": False,
+    }
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    try:
+        data = http_json(run_url, method="POST", headers=headers, body=json.dumps(payload).encode("utf-8"))
+        urls: List[str] = []
+        _collect_linkedin_urls(data, urls)
+        deduped: List[str] = []
+        seen = set()
+        for u in urls:
+            if u not in seen:
+                seen.add(u)
+                deduped.append(u)
+        return deduped
+    except Exception:
+        return []
+
+
 def search_urls(query: str) -> List[str]:
     """
     Query search provider(s) and return top URLs.
-    Priority: Serper -> Brave -> GSE.
+    Priority: HarvestAPI -> Apify -> Serper -> Brave -> GSE.
     """
     urls: List[str] = []
     serper_key = os.getenv("SERPER_API_KEY", "").strip()
     brave_key = os.getenv("BRAVE_API_KEY", "").strip()
     gse_key = os.getenv("GSE_API_KEY", "").strip()
     gse_cx = os.getenv("GSE_CX", "").strip()
+    harvest_urls = harvest_search_urls(query)
+    if harvest_urls:
+        return harvest_urls
+    apify_urls = apify_search_urls(query)
+    if apify_urls:
+        return apify_urls
 
     try:
         if serper_key:
