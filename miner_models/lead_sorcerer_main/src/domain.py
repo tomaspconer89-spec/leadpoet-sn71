@@ -199,6 +199,7 @@ class LLMScorer:
         self.primary_model = os.environ.get("OPENROUTER_PRIMARY_MODEL", "gpt-4o-mini")
         self.fallback_model = os.environ.get("OPENROUTER_FALLBACK_MODEL", "gpt-3.5-turbo")
         self.max_tokens = int(os.environ.get("OPENROUTER_MAX_TOKENS", "120"))
+        self.disable_llm = os.environ.get("OPENROUTER_DISABLE", "0") == "1"
 
     def _heuristic_fallback(
         self, title: str, snippet: str, query: str, icp_text: str
@@ -280,6 +281,12 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
         async with self.semaphore_pool:
             prompt = self._build_scoring_prompt(title, snippet, query, icp_text)
             prompt_fingerprint = hashlib.sha256(prompt.encode()).hexdigest()
+
+            if self.disable_llm:
+                score, reason, flags, model_used = self._heuristic_fallback(
+                    title, snippet, query, icp_text
+                )
+                return score, reason, flags, model_used, prompt_fingerprint
 
             try:
                 # Try primary model first
@@ -549,6 +556,14 @@ class DomainTool:
         self.llm_scorer = LLMScorer(
             api_key=os.environ["OPENROUTER_KEY"], semaphore_pool=self.semaphore_pool
         )
+        blocked_default = (
+            "linkedin.com,facebook.com,instagram.com,youtube.com,reddit.com,quora.com,"
+            "zoominfo.com,pitchbook.com,rocketreach.co,yelp.com"
+        )
+        blocked_csv = os.environ.get("DOMAIN_BLOCKLIST", blocked_default)
+        self.domain_blocklist = {
+            d.strip().lower() for d in blocked_csv.split(",") if d.strip()
+        }
 
         self.domain_history = DomainHistoryManager(data_dir)
         self.search_cache = SearchCache()
@@ -774,9 +789,9 @@ class DomainTool:
             if cached:
                 cache_hits += 1
                 for item in cached["results"].get("items", []):
-                    # Skip LinkedIn results: Firecrawl doesn't support linkedin.com
+                    # Skip noisy/non-company domains before scoring to save API cost.
                     url = (item.get("link", "") or "").lower()
-                    if "linkedin.com" in url:
+                    if any(domain in url for domain in self.domain_blocklist):
                         continue
                     normalized_results.append(
                         self._normalize_serp_result(item, query, page)
@@ -791,9 +806,9 @@ class DomainTool:
                 self.search_cache.cache_results(query, page, results)
                 # Normalize
                 for item in results.get("items", []):
-                    # Skip LinkedIn results: Firecrawl doesn't support linkedin.com
+                    # Skip noisy/non-company domains before scoring to save API cost.
                     url = (item.get("link", "") or "").lower()
-                    if "linkedin.com" in url:
+                    if any(domain in url for domain in self.domain_blocklist):
                         continue
                     normalized_results.append(
                         self._normalize_serp_result(item, query, page)
