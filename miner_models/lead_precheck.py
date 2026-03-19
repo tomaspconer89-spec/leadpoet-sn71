@@ -11,6 +11,7 @@ All checks are local (no external API). See docs/AVOID-REJECTIONS.md.
 from __future__ import annotations
 
 import re
+import os
 from typing import Any, Dict, List, Optional, Tuple
 
 # -----------------------------------------------------------------------------
@@ -233,13 +234,51 @@ def _check_location(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
     return True, None
 
 
+def _check_hq_location(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
+    """
+    Mirror recent subnet guidance:
+    - HQ country is expected.
+    - US leads should have US HQ country.
+    - If HQ country is US, HQ state should be populated.
+    """
+    country = _get(lead, "country")
+    hq_country = _get(lead, "hq_country")
+    hq_state = _get(lead, "hq_state")
+
+    if not hq_country:
+        return False, "hq_country_empty"
+
+    us_like = country.lower() in ("united states", "usa", "us", "u.s.", "u.s.a.")
+    hq_us_like = hq_country.lower() in ("united states", "usa", "us", "u.s.", "u.s.a.")
+
+    if us_like and not hq_us_like:
+        return False, "invalid_hq_country_for_usa"
+
+    if hq_us_like and not hq_state:
+        return False, "hq_state_empty_for_usa_hq"
+
+    return True, None
+
+
 def _check_source_url(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
     source_url = _get(lead, "source_url")
+    website = _get(lead, "website")
     source_type = _get(lead, "source_type")
     if source_type == "proprietary_database" and source_url != "proprietary_database":
         return False, "source_provenance_mismatch"
     if "linkedin" in source_url.lower():
         return False, "linkedin_not_allowed_in_source_url"
+    if "linkedin" in website.lower():
+        # Dynamic guardrail:
+        # - Default: allow LinkedIn website values (do not hard block).
+        # - Block only when reject pressure is high, or strict mode is explicitly enabled.
+        strict_mode = os.getenv("STRICT_LINKEDIN_WEBSITE_BLOCK", "0") == "1"
+        rejects_today = int(os.getenv("REJECTS_TODAY", "0") or "0")
+        max_rejections = int(os.getenv("MAX_REJECTIONS_DAILY", "200") or "200")
+        threshold = float(os.getenv("LINKEDIN_WEBSITE_BLOCK_THRESHOLD", "0.90") or "0.90")
+        near_limit = max_rejections > 0 and (rejects_today / max_rejections) >= threshold
+        if strict_mode or near_limit:
+            return False, "linkedin_not_allowed_in_website_when_rejects_high"
     return True, None
 
 
@@ -290,6 +329,7 @@ def precheck_lead(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
         _check_description,
         _check_linkedin_urls,
         _check_location,
+        _check_hq_location,
         _check_source_url,
         _check_email_domain_matches_website,
     ]

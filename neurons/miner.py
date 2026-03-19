@@ -243,6 +243,8 @@ class Miner(BaseMinerNeuron):
                         presign_result = gateway_get_presigned_url(self.wallet, lead)
                         if not presign_result:
                             print(f"⚠️  Failed to get presigned URL for {business_name}")
+                            print("   ℹ️  If multiple leads fail at presign, gateway may be under maintenance or backlog.")
+                            print("   ℹ️  Check SN71 announcements and retry later.")
                             continue
                         
                         # Step 2: Upload to S3 (gateway will mirror to MinIO automatically)
