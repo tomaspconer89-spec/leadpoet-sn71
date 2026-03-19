@@ -1,0 +1,44 @@
+{
+  "crawled_at": "2026-03-19T04:14:31.936753Z",
+  "content_hash": "60693857ff72624e357f5cf6d27643385d1295d7d16dd74d72e00d72153a6903",
+  "extracted_data": {
+    "company": {
+      "name": "The Startup Advisory",
+      "description": "We provide Revenue Strategy & Go To Market expertise to Founding CEO\u2019s getting ready to scale. I help early-stage B2B SaaS Founders in the USA and Australia get sales-ready, without the cost or commitment of a full-time Head of Sales or CRO.",
+      "industry": "Business Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "Melbourne, Australia",
+      "number_of_locations": 0,
+      "founded_year": 2026,
+      "employee_count": "not mentioned",
+      "revenue_range": "not mentioned",
+      "ownership_type": "not mentioned",
+      "company_type": "not mentioned",
+      "specialties": [
+        "Fractional Sales Leadership",
+        "Coaching",
+        "Upskilling",
+        "Project-Based Initiatives"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "We provide Revenue Strategy & Go To Market expertise",
+          "I help early-stage B2B SaaS Founders",
+          "High level revenue leadership for teams not ready to hire a full-time Chief Revenue Officer",
+          "Tap into our 25+ years of experience to enable accelerate revenue generation & GTM strategies"
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Jason Bulger",
+        "role": "Founder",
+        "email": "not mentioned",
+        "phone": "not mentioned",
+        "decision_maker": true
+      }
+    ]
+  }
+}
