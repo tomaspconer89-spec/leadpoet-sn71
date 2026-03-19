@@ -1,0 +1,39 @@
+{
+  "crawled_at": "2026-03-17T16:22:28.486140Z",
+  "content_hash": "f02b9518ae89de8b60cff073810b832a9de0f1dd852930ac00b174fce789f5b0",
+  "extracted_data": {
+    "company": {
+      "name": "Nuvos Advisory Services LLP",
+      "description": "Provides advisory services for startups and businesses.",
+      "industry": "Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "null",
+      "number_of_locations": 0,
+      "founded_year": 2026,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "LLP",
+      "company_type": "LLP",
+      "specialties": [
+        "startup advisory",
+        "business consulting",
+        "founder coaching",
+        "mentoring services",
+        "advisory board",
+        "startup support",
+        "entrepreneur guidance",
+        "business development",
+        "strategic planning",
+        "coaching services"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "No clear intent signals found."
+        ],
+        "intent_category": "low"
+      }
+    },
+    "team_members": []
+  }
+}

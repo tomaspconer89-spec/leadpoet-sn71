@@ -1,0 +1,32 @@
+{
+  "crawled_at": "2026-03-17T16:16:50.516083Z",
+  "content_hash": "5ee8f76162d9f2b0b850f80cdebd2c68375bb5cd3996c3b006996f51ebcda74b",
+  "extracted_data": {
+    "company": {
+      "name": "Microsoft",
+      "description": "Microsoft is a leading technology company that develops and sells software, hardware, and services, including cloud computing solutions and gaming platforms.",
+      "industry": "Technology",
+      "sub_industry": "Software and Hardware",
+      "hq_location": "Redmond, Washington, USA",
+      "number_of_locations": 0,
+      "founded_year": 1975,
+      "employee_count": "Over 200,000",
+      "revenue_range": "$198 billion (2022)",
+      "ownership_type": "Public",
+      "company_type": "Corp",
+      "specialties": [
+        "Cloud Computing",
+        "Software Development",
+        "Gaming",
+        "Artificial Intelligence",
+        "Productivity Software"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "low"
+      }
+    },
+    "team_members": []
+  }
+}

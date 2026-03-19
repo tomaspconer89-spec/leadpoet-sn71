@@ -1,0 +1,20 @@
+{
+  "domain": "mckinley-advisors.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.037725Z",
+  "serp_results": [
+    {
+      "url": "https://www.mckinley-advisors.com/",
+      "title": "McKinley Advisors: Leading Consulting Firm For Associations",
+      "snippet": "Turn to McKinley Advisors for insights, strategic guidance and support to address your association's key opportunities and challenges.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 3,
+      "fetched_at": "2026-03-19T04:11:34.001709Z",
+      "domain": "mckinley-advisors.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "813aabc6a29d64dc7c9986392cc187c38de01d2bb10a62e75c2214923cbbcad6"
+}

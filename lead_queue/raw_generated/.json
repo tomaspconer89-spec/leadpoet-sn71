@@ -1,0 +1,20 @@
+{
+  "domain": "",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:14:54.925124Z",
+  "serp_results": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Consulting_firm",
+      "title": "Consultingfirm- Wikipedia",
+      "snippet": "Aconsultingfirmor simplyconsultancyis a professional servicefirmthat provides expertise and specialised labour for a fee, through the use ofconsultants.The segmentation ofadvisoryservices varies widely across organizations and countries.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 1,
+      "fetched_at": "2026-03-17T16:14:30.766062Z",
+      "domain": ""
+    }
+  ],
+  "scoring_prompt_fingerprint": "d1d4dc0fcc6e39ba20d73dfb5cf7d9aff526636eb10aa79f8800c8e281cde15b"
+}

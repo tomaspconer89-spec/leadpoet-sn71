@@ -1,0 +1,45 @@
+{
+  "crawled_at": "2026-03-19T04:16:43.079469Z",
+  "content_hash": "09d142ad6e1a88d9e57f99ce9e36a96903cd23951a20787e475e866d8849b4e5",
+  "extracted_data": {
+    "company": {
+      "name": "Startup Distillery",
+      "description": "Startup consulting for first-time entrepreneurs focused on profitability and growth.",
+      "industry": "Consulting",
+      "sub_industry": "Startup Consulting",
+      "hq_location": "Chicago, Illinois, USA",
+      "number_of_locations": 1,
+      "founded_year": 2020,
+      "employee_count": ">1",
+      "revenue_range": ">$100,000",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "Startup Consulting",
+        "Business Plans",
+        "Financial Projections",
+        "Advising",
+        "Coaching"
+      ],
+      "intent": {
+        "business_intent_score": 1,
+        "intent_signals": [
+          "'I provide 1:1 startup consulting, advising, and coaching'",
+          "'99% of my clients seeking funding have secured it.'",
+          "'Let\u2019s build yours'",
+          "'Get my distilled insights on LinkedIn every week'"
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Diane Tarshis",
+        "role": "Founder and Principal",
+        "email": "null",
+        "phone": "+1 (773) 871-0110",
+        "decision_maker": true
+      }
+    ]
+  }
+}

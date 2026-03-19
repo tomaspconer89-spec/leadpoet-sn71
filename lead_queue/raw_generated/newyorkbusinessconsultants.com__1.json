@@ -1,0 +1,20 @@
+{
+  "domain": "newyorkbusinessconsultants.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:14:54.925784Z",
+  "serp_results": [
+    {
+      "url": "https://newyorkbusinessconsultants.com/",
+      "title": "New York Business Consultants LLC - About Us",
+      "snippet": "New York Business Consultants provides management consulting, business development market research and venture capital services ... Send us an email or ...",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-17T16:14:30.832731Z",
+      "domain": "newyorkbusinessconsultants.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "33d2d35f126f77caffebaec50a240cdb766f02352901877b33f4210ff90f5a36"
+}

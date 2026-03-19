@@ -1,0 +1,20 @@
+{
+  "domain": "thefounderadvisory.com",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.196966Z",
+  "serp_results": [
+    {
+      "url": "https://thefounderadvisory.com/",
+      "title": "The Founder Advisory",
+      "snippet": "TheFounderAdvisoryis a consulting group ofstartupoperators supported by an expert network with skill sets outside of engineering and product. We work as an extension of our client to commercialize ideas by developing go-to-market strategies that scale.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-17T16:19:44.937139Z",
+      "domain": "thefounderadvisory.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "782340049bfaceddf12eb06a8936b9e73d782bd960ffdd11f1d5eff26b811cca"
+}

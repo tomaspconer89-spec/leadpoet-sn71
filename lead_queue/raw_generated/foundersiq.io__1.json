@@ -1,0 +1,20 @@
+{
+  "domain": "foundersiq.io",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.196871Z",
+  "serp_results": [
+    {
+      "url": "https://www.foundersiq.io/",
+      "title": "FoundersIQ | Expert Fractional CFO, Accounting, Tax ...",
+      "snippet": "FoundersIQ partners with VC-backedstartups, offering trusted Fractional CFO and Accounting services, tax filing support, sales consulting, and fundraising assistance. Your go-toadvisorfor scaling your business with confidence.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 4,
+      "fetched_at": "2026-03-17T16:19:44.923345Z",
+      "domain": "foundersiq.io"
+    }
+  ],
+  "scoring_prompt_fingerprint": "6010602ef7c4f63e7c39b50e09ff103eaae93819ec9e42cfadbee2cece159c0f"
+}

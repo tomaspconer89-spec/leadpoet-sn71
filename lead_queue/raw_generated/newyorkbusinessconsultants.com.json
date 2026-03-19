@@ -1,0 +1,72 @@
+{
+  "crawled_at": "2026-03-17T16:18:26.818331Z",
+  "content_hash": "35c7e5c26bbc9da35334df8b9099db17c7e3e696ab90022832afa6509ba6fb16",
+  "extracted_data": {
+    "company": {
+      "name": "New York Business Consultants LLC",
+      "description": "Empowering business owners, sustainable development, and making a difference. They act as a coach and trainer while helping to find the right partners, investors, or distributors.",
+      "industry": "Business Consulting",
+      "sub_industry": "Management Consulting",
+      "hq_location": "New York, NY, USA",
+      "number_of_locations": 1,
+      "founded_year": 2014,
+      "employee_count": ">10",
+      "revenue_range": ">1 million",
+      "ownership_type": "LLC",
+      "company_type": "LLC",
+      "specialties": [
+        "Management Consulting",
+        "Business Development",
+        "Market Research",
+        "Professional Training",
+        "Strategic Planning"
+      ],
+      "intent": {
+        "business_intent_score": 0.9,
+        "intent_signals": [
+          "\"We help you grow your business, empower your team and achieve sustainable performance.\"",
+          "\"Let us help you grow...\"",
+          "\"The premier management consulting company to connect you with finance, distributors and partners.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Malko Ebers",
+        "role": "CEO",
+        "email": "info@newyorkbusinessconsultants.com",
+        "phone": "1-800-481-2707",
+        "decision_maker": true
+      },
+      {
+        "name": "Peter Fusaro",
+        "role": "Advisory Board Member",
+        "email": ".",
+        "phone": ".",
+        "decision_maker": false
+      },
+      {
+        "name": "Wazi Wazihullah",
+        "role": "Advisory Board Member",
+        "email": ".",
+        "phone": ".",
+        "decision_maker": false
+      },
+      {
+        "name": "Tom Jones",
+        "role": "CEO Enablevue",
+        "email": ".",
+        "phone": ".",
+        "decision_maker": false
+      },
+      {
+        "name": "Mark Romeo",
+        "role": "Advisory Board Member",
+        "email": ".",
+        "phone": ".",
+        "decision_maker": false
+      }
+    ]
+  }
+}

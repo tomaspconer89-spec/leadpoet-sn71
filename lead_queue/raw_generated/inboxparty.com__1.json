@@ -1,0 +1,20 @@
+{
+  "domain": "inboxparty.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:12:48.762777Z",
+  "serp_results": [
+    {
+      "url": "https://www.inboxparty.com/find-emails/consultants/",
+      "title": "Find Emails for Business Consultants & Advisory Firms ...",
+      "snippet": "Search and find verifiedemailaddresses forbusinessconsultants, managementadvisors, andconsultingfirmpartners. Pay-per-email.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 9,
+      "fetched_at": "2026-03-17T16:12:20.829868Z",
+      "domain": "inboxparty.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "08d09292a2cecf62902b67408cd513a7814a88e9663441d31ed8c0d565353de3"
+}

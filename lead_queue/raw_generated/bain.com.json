@@ -1,0 +1,20 @@
+{
+  "domain": "bain.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040707Z",
+  "serp_results": [
+    {
+      "url": "https://www.bain.com/about/our-people/",
+      "title": "Our People | Bain & Company",
+      "snippet": "Keith Bevans, partner and global head of consultant recruiting, dives deeper into the stories of some extraordinary Bain people, from their perspectives.",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 7,
+      "fetched_at": "2026-03-19T04:13:16.898963Z",
+      "domain": "bain.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "52f879469563973ac6e6aa02697a3e20a16bdee13236512da1472c3e257d178e"
+}

@@ -1,0 +1,108 @@
+{
+  "crawled_at": "2026-03-19T04:15:05.607390Z",
+  "content_hash": "943882046aa84a1f9b8cbc72f67fdd747f8b8169d9ade778ec4d3c69f66e8c41",
+  "extracted_data": {
+    "company": {
+      "name": "Cansulta",
+      "description": "Cansulta is an award-winning curated consulting hub connecting savvy entrepreneurs, leaders, and executives with verified independent consultants and business experts.",
+      "industry": "Consulting",
+      "sub_industry": "Business Consulting",
+      "hq_location": "Toronto, Ontario, Canada",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": ">215",
+      "revenue_range": "",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "Business 360\u00b0 assessments",
+        "Canpus & C3 Program",
+        "Corporate Solutions",
+        "Events",
+        "Gurus: AI-powered experts",
+        "Training & Education",
+        "Fractional Executives",
+        "Advisory & Coaching"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "No specific intent signals found."
+        ],
+        "intent_category": "low"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Alexandra",
+        "role": "CEO",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Gabriel",
+        "role": "Director",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Roderick",
+        "role": "Director",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Frank",
+        "role": "Director",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Shao",
+        "role": "Senior Consultant",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Anandi",
+        "role": "Consultant",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Jon",
+        "role": "Marketing Strategist",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Yuri",
+        "role": "Operations Expert",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Lisa",
+        "role": "Consultant",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Nigel",
+        "role": "Consultant",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      }
+    ]
+  }
+}

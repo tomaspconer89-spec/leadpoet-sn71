@@ -1,0 +1,45 @@
+{
+  "crawled_at": "2026-03-17T15:42:59.415971Z",
+  "content_hash": "331d460b260744f739dbeb42d4b462811b52218d37384597ea9da714cda1aeb8",
+  "extracted_data": {
+    "company": {
+      "name": "Matrix Venture Studio",
+      "description": "A passionate team of hybrid accelerators and startup visa consultants, helping immigrant entrepreneurs build businesses in Canada under the citizenship-by-investment program.",
+      "industry": "Business Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "Toronto, Ontario, Canada",
+      "number_of_locations": 2,
+      "founded_year": 2025,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "Inc",
+      "specialties": [
+        "Startup Advisory Services",
+        "Canada Startup Visa Consulting",
+        "Business Acquisition",
+        "Business Consulting",
+        "Ecosystem Building"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "We empower founders to scale, connect innovative startups with investors and industry partners.",
+          "We simplify your journey with our citizenship by investment, strategic business advisory, and business migration solutions.",
+          "End-to-end assistance with citizenship by investment.",
+          "Empowering global mobility solutions."
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "+1 (647) 521-8709",
+        "decision_maker": true
+      }
+    ]
+  }
+}

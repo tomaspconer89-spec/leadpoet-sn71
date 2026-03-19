@@ -1,0 +1,107 @@
+{
+  "crawled_at": "2026-03-17T15:11:23.573695Z",
+  "content_hash": "e44018a98d2d58962796c5516caeffbfdeca40acaee709c15cff7eaf9c6ec51a",
+  "extracted_data": {
+    "company": {
+      "name": "Matrix Venture Studio",
+      "description": "A passionate team of hybrid accelerators and startup visa consultants, helping immigrant entrepreneurs build businesses in Canada under the citizenship-by-investment program.",
+      "industry": "Business Consulting",
+      "sub_industry": "Startup Advisory and Immigration Consulting",
+      "hq_location": "Toronto, Ontario, Canada",
+      "number_of_locations": 2,
+      "founded_year": 2025,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "null",
+      "specialties": [
+        "Startup Advisory",
+        "Citizenship by Investment",
+        "Business Acquisition",
+        "Consulting Services"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "Our Startup Advisory Services are designed to help global entrepreneurs turn innovative ideas into viable Canadian businesses.",
+          "We provide tailored pathways for investors seeking Canadian residency by investment.",
+          "Facilitating acquisitions of existing Canadian businesses.",
+          "Your partners and accelerators in global mobility solutions."
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      }
+    ]
+  }
+}

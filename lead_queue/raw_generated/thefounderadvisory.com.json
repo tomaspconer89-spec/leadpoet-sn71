@@ -1,0 +1,36 @@
+{
+  "crawled_at": "2026-03-19T04:15:33.762834Z",
+  "content_hash": "c795fdb5053eb040e5717d5728f1e6ec4513ef153ac49ffeacf5d3990ec4afbc",
+  "extracted_data": {
+    "company": {
+      "name": "The Founder Advisory",
+      "description": "A consulting group of startup operators that helps businesses develop go-to-market strategies and scale.",
+      "industry": "Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "New York, NY, USA",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "",
+      "revenue_range": "",
+      "ownership_type": "",
+      "company_type": "",
+      "specialties": [
+        "Go-to-market strategies",
+        "Revenue generation",
+        "Fundraising support",
+        "Strategic partnerships",
+        "Operational efficiency"
+      ],
+      "intent": {
+        "business_intent_score": 0.9,
+        "intent_signals": [
+          "\"We transform initial traction into a repeatable pattern of growth.\"",
+          "\"We partner with senior leadership and map the next strategic move to drive revenue.\"",
+          "\"We accelerate early stage investments by supporting the fund's founders and improving portfolio performance.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": []
+  }
+}

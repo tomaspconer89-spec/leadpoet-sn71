@@ -1,0 +1,20 @@
+{
+  "domain": "nuvosadvisory.com",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.197145Z",
+  "serp_results": [
+    {
+      "url": "https://www.nuvosadvisory.com/startups",
+      "title": "Startup Advisory Services",
+      "snippet": "Our trusted partner network will helpfounderswith all aspects ofstartupformation, incorporation & compliance registrations including for your company, partnership firm or LLP.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 7,
+      "fetched_at": "2026-03-17T16:19:44.962254Z",
+      "domain": "nuvosadvisory.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "efc1a77d7a20c0feb65041619c5bf7cf26bdf9374b80b0b92e01829dee48078d"
+}

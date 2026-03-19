@@ -1,0 +1,65 @@
+{
+  "crawled_at": "2026-03-17T16:16:30.654487Z",
+  "content_hash": "c7bb1e7dd789dbeb7ee71c39f815791a3b699e337eec7168ee6973bf89d6311f",
+  "extracted_data": {
+    "company": {
+      "name": "Founder Institute",
+      "description": "The Founder Institute is the world\u2019s most proven network to turn ideas into fundable startups, and startups into global businesses. Since 2009, we have helped over 8,900 entrepreneurs raise over 2BN in funding through our structured accelerator programs.",
+      "industry": "Business Development",
+      "sub_industry": "Startup Accelerator",
+      "hq_location": "Silicon Valley, CA, USA",
+      "number_of_locations": 100,
+      "founded_year": 2009,
+      "employee_count": ">100",
+      "revenue_range": ">2BN",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "Startup Consulting",
+        "Entrepreneur Mentorship",
+        "Business Development",
+        "Startup Ecosystem Development",
+        "Venture Capital"
+      ],
+      "intent": {
+        "business_intent_score": 1,
+        "intent_signals": [
+          "\"We can help founders at the idea and pre-seed stages launch fast-growth businesses using AI to reach investment and sustained growth.\"",
+          "\"Our mission is to activate entrepreneurial potential and empower communities across the globe to build ventures with positive economic and societal impact.\"",
+          "\"Unlock Your Entrepreneurial Potential with AI.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Adeo Ressi",
+        "role": "CEO & Founder",
+        "email": "",
+        "phone": "",
+        "decision_maker": true
+      },
+      {
+        "name": "Christina Marie Reddick",
+        "role": "Founder",
+        "email": "",
+        "phone": "",
+        "decision_maker": true
+      },
+      {
+        "name": "Mercedes Bankston",
+        "role": "Founder",
+        "email": "",
+        "phone": "",
+        "decision_maker": true
+      },
+      {
+        "name": "Preeti Tikekar",
+        "role": "Founder/CEO",
+        "email": "",
+        "phone": "",
+        "decision_maker": true
+      }
+    ]
+  }
+}

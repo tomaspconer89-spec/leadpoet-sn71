@@ -1,0 +1,20 @@
+{
+  "domain": "ul.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040650Z",
+  "serp_results": [
+    {
+      "url": "https://ir.ul.com/leadership-and-governance/executive-management/default.aspx",
+      "title": "Executive Leadership - UL Solutions | Investor Relations",
+      "snippet": "Jennifer F. Scanlon is president and CEO of UL Solutions and a member of the board of directors, roles she has held since 2019.",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 6,
+      "fetched_at": "2026-03-19T04:13:16.886346Z",
+      "domain": "ul.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "40413b141d0c09d4a4f7a1c6e22d5caf77ea84d523193c97726de2c19a64efe4"
+}

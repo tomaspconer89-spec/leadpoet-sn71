@@ -1,0 +1,20 @@
+{
+  "domain": "thehardinggroup.biz",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.037602Z",
+  "serp_results": [
+    {
+      "url": "https://www.thehardinggroup.biz/services/business-advising-service-annapolis-md/",
+      "title": "Business Advising in Annapolis, Maryland - The Harding Group",
+      "snippet": "We offer a variety of services to start or maintain your business such as: Business Advising, Business Consulting, Tax services, Financial services & more in",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 2,
+      "fetched_at": "2026-03-19T04:11:33.985233Z",
+      "domain": "thehardinggroup.biz"
+    }
+  ],
+  "scoring_prompt_fingerprint": "d74da8c484bbde2728de407d65e11e62446501e60099bdcabb04440cc871fafa"
+}

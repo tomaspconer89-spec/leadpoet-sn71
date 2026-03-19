@@ -1,0 +1,62 @@
+{
+  "crawled_at": "2026-03-17T15:12:39.056384Z",
+  "content_hash": "82f114cf34216c0befcd6da19bac0231bc5b696961de0e3d9411d1bbc4c7daf8",
+  "extracted_data": {
+    "company": {
+      "name": "Softwisery",
+      "description": "A boutique software consultancy providing senior technical leadership and vetted engineering teams for startups in regulated industries.",
+      "industry": "Software Consulting",
+      "sub_industry": "Technical Leadership and Engineering Services",
+      "hq_location": "null",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "30+",
+      "revenue_range": "null",
+      "ownership_type": "LLC",
+      "company_type": "LLC",
+      "specialties": [
+        "Platform Development",
+        "Cloud & DevOps",
+        "Design & UX",
+        "Quality & Support"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "No specific business development intent signals found."
+        ],
+        "intent_category": "low"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Michael Ratnikov",
+        "role": "Founder & CEO",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Ivan Navrotskiy",
+        "role": "VP of Engineering",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Irina Pastushenko",
+        "role": "Head of Design",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      },
+      {
+        "name": "Margarita Svirina",
+        "role": "Head of Business Analysis",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      }
+    ]
+  }
+}

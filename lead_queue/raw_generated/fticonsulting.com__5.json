@@ -1,0 +1,20 @@
+{
+  "domain": "fticonsulting.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T15:09:42.030077Z",
+  "serp_results": [
+    {
+      "url": "https://www.fticonsulting.com/",
+      "title": "Business Consulting Firm & Global Management Advisory | FTI",
+      "snippet": "June 29, 2022 -FTI Consulting, a trusted business consulting firm providing expert advisory services to optimize performance and navigate complex challenges.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 3,
+      "fetched_at": "2026-03-17T15:09:15.327101Z",
+      "domain": "fticonsulting.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "d2176979198cd9c96c621bb6d6d6847248f0fe281553e7991893824a53c2163f"
+}

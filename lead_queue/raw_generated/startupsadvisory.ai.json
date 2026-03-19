@@ -1,0 +1,37 @@
+{
+  "crawled_at": "2026-03-19T04:15:58.758176Z",
+  "content_hash": "599dc3af1c44cd7d44709f829a410a5dcdf8cc5454a6206f8dfbf605d4e4a049",
+  "extracted_data": {
+    "company": {
+      "name": "Startups Advisory",
+      "description": "An AI-powered growth platform providing end-to-end support\u2014from branding, design, marketing, and development to strategic growth management\u2014helping startups scale faster while avoiding common pitfalls.",
+      "industry": "Business Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "Wilmington, DE, United States",
+      "number_of_locations": 0,
+      "founded_year": 2026,
+      "employee_count": "/",
+      "revenue_range": "/",
+      "ownership_type": "Private",
+      "company_type": "Corp",
+      "specialties": [
+        "Branding",
+        "Design",
+        "Marketing",
+        "Development",
+        "Growth Management"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "\"Your AI powered growth team brings more clients improves operations boosts revenue\"",
+          "\"Let's Get Your Business Talking\"",
+          "\"Free Up Your Time\"",
+          "\"Join us on a call and get a clear roadmap that shows how your business can increase clients improve consistency and grow steadily day by day.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "extraslice.com",
+  "queries": [
+    "tech startup founder contact page"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040030Z",
+  "serp_results": [
+    {
+      "url": "https://extraslice.com/blog/the-tech-founders-guide-to-emailing-investors/",
+      "title": "The Tech Founder's Guide to Emailing Investors I extraSlice",
+      "snippet": "For tech founders and entrepreneurs, building and sustaining connections with investors is key to business success. Whether you're emailing cold leads.",
+      "query": "tech startup founder contact page",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-19T04:12:46.620644Z",
+      "domain": "extraslice.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "4b8d1c2a515af6444bcc2886b9eb1de92552a718da5dfd3df9dba08b701c8f3d"
+}

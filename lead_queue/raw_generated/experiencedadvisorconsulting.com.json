@@ -1,0 +1,50 @@
+{
+  "crawled_at": "2026-03-19T04:19:18.760559Z",
+  "content_hash": "9d037c00d3a6799b129233c21ced7db3c3dbafb171e261947bb83b786b41d367",
+  "extracted_data": {
+    "company": {
+      "name": "Experienced Advisor Consulting",
+      "description": "Dedicated to Financial Advisors and their clients, helping them assess opportunities and make informed decisions regarding their firms.",
+      "industry": "Consulting",
+      "sub_industry": "Financial Advisory",
+      "hq_location": "Not specified",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "",
+      "revenue_range": "",
+      "ownership_type": "",
+      "company_type": "",
+      "specialties": [
+        "Financial Advisory",
+        "Practice Management Coaching",
+        "Legal Support",
+        "Buying & Selling Practices"
+      ],
+      "intent": {
+        "business_intent_score": 0.9,
+        "intent_signals": [
+          "'helps Financial Advisors find the right Practice Management coaches.'",
+          "'supports you and your firm.'",
+          "'helps Individual Advisors, teams, and firms sell their practice/firm.'"
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Louis Poulin",
+        "role": "Founder & Partner",
+        "email": "lpoulin.eac@gmail.com",
+        "phone": "914-924-0964",
+        "decision_maker": true
+      },
+      {
+        "name": "Bill Gibson, CFP\u00ae, RICP\u00ae, CPFA\u00ae",
+        "role": "Partner",
+        "email": "bgibson.eac@gmail.com",
+        "phone": "614-440-1069",
+        "decision_maker": true
+      }
+    ]
+  }
+}

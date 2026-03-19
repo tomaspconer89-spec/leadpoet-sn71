@@ -1,0 +1,34 @@
+{
+  "crawled_at": "2026-03-17T16:17:33.489319Z",
+  "content_hash": "1c1072924912b8565cad18cf52318a86615f4c887daa48e14dc96948c070eacc",
+  "extracted_data": {
+    "company": {
+      "name": "FTI Consulting",
+      "description": "The leading global expert firm for organizations facing crisis and transformation.",
+      "industry": "Consulting",
+      "sub_industry": "Business Consulting",
+      "hq_location": "Washington, D.C., USA",
+      "number_of_locations": 84,
+      "founded_year": 2001,
+      "employee_count": "Over 8,100",
+      "revenue_range": "",
+      "ownership_type": "Public",
+      "company_type": "Corporation",
+      "specialties": [
+        "Crisis Management",
+        "Business Transformation",
+        "Financial Services",
+        "Corporate Legal Services",
+        "Risk Mitigation"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "No clear evidence of seeking partners or expansion plans found."
+        ],
+        "intent_category": "low"
+      }
+    },
+    "team_members": []
+  }
+}

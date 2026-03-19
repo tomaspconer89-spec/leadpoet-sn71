@@ -1,0 +1,44 @@
+{
+  "crawled_at": "2026-03-17T15:11:41.563100Z",
+  "content_hash": "f2a226ce94b928f646931f602ef4911f78a6ca11533212e92a8f1b759a6b2ce6",
+  "extracted_data": {
+    "company": {
+      "name": "Your Startup Advisor",
+      "description": "Expert mentorship and advisory services for startup founders, with a focus on avoiding common mistakes and providing strategic guidance across all startup phases.",
+      "industry": "Business Consulting",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "null",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "null",
+      "specialties": [
+        "mentoring",
+        "startup support",
+        "business development",
+        "strategic planning",
+        "coaching services"
+      ],
+      "intent": {
+        "business_intent_score": 1,
+        "intent_signals": [
+          "\"Sharp insight, pure generosity, great guidance. Every founder should work with Charles.\"",
+          "\"Charles helped transform a concept into a funded startup while improving pitch, go-to-market strategy, and the program itself.\"",
+          "\"Charles taught me to think like an entrepreneur, not just act like one.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Charles Hope",
+        "role": "Founder & Startup Advisor",
+        "email": "charles@yourstartupadvisor.com",
+        "phone": "null",
+        "decision_maker": true
+      }
+    ]
+  }
+}

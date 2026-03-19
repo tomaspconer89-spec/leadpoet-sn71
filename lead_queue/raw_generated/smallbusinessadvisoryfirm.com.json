@@ -1,0 +1,40 @@
+{
+  "domain": "smallbusinessadvisoryfirm.com",
+  "queries": [
+    "small business advisory firm team page"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.038706Z",
+  "serp_results": [
+    {
+      "url": "https://www.smallbusinessadvisoryfirm.com/",
+      "title": "The Small Business Advisory Firm",
+      "snippet": "The Small Business Advisory Firm (SBAF) is your partner on your journey to becoming a successful Federal Contractor. \u00b7 We get it!",
+      "query": "small business advisory firm team page",
+      "page_index": 1,
+      "rank_on_page": 1,
+      "fetched_at": "2026-03-19T04:12:20.228146Z",
+      "domain": "smallbusinessadvisoryfirm.com"
+    },
+    {
+      "url": "https://www.smallbusinessadvisoryfirm.com/about",
+      "title": "About",
+      "snippet": "SBAF Training Academy is a training and membership site that focuses on helping small businesses navigate the world of government contracting.",
+      "query": "small business advisory firm team page",
+      "page_index": 1,
+      "rank_on_page": 2,
+      "fetched_at": "2026-03-19T04:12:20.397284Z",
+      "domain": "smallbusinessadvisoryfirm.com"
+    },
+    {
+      "url": "https://www.smallbusinessadvisoryfirm.com/contact-us",
+      "title": "Contact Us",
+      "snippet": "Small Business Advisory Firm. 41063 Rolling Pasture Lane. Aldie, VA 20105. 703-424-0964. Get In Touch! 866-519-1465 \u00b7 crainwater@smallbusinessadvisoryfirm.com ...",
+      "query": "small business advisory firm team page",
+      "page_index": 1,
+      "rank_on_page": 4,
+      "fetched_at": "2026-03-19T04:12:20.422791Z",
+      "domain": "smallbusinessadvisoryfirm.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "66ac1bab8fe9ddaf66dfbba3c4cfcd69ff1fb224e9ed91c9ceec91fd5fff74ba"
+}

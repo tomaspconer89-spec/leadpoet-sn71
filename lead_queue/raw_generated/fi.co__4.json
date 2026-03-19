@@ -1,0 +1,20 @@
+{
+  "domain": "fi.co",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T15:09:42.029484Z",
+  "serp_results": [
+    {
+      "url": "https://fi.co/mentors/13610",
+      "title": "FounderInstitute: World's largest pre-seedstartupaccelerator.",
+      "snippet": "Start-up& Scale-upAdvisor@ Google.TheFounderInstitute is the world\u2019s most proven network to turn ideas into fundablestartups, andstartupsinto global businesses. Since 2009, our structured accelerator programs have helped over 8,900 entrepreneurs raise over 2BN in funding.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 9,
+      "fetched_at": "2026-03-17T15:08:40.481591Z",
+      "domain": "fi.co"
+    }
+  ],
+  "scoring_prompt_fingerprint": "c0d3e78699ee3078ad749399e44c0522d920c0937897b6d2dbfed893ce3d59b2"
+}

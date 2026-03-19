@@ -1,0 +1,37 @@
+{
+  "crawled_at": "2026-03-17T16:22:14.462500Z",
+  "content_hash": "6ab45499da6cc14683897f962f485d9cbcd6a35b4ef06151326cd0df941f19b4",
+  "extracted_data": {
+    "company": {
+      "name": "Principio Group",
+      "description": "An early stage startup advisory firm that provides expert mentorship, technology development, and business support to help startups bring their ideas to market.",
+      "industry": "Business Services",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "null",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "null",
+      "specialties": [
+        "AI Integration & Optimization",
+        "Product Strategy & Development",
+        "Rapid Prototyping & Development",
+        "Sales & Partner Strategy",
+        "Marketing & Evangelism",
+        "Mentorship & Guidance"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "Mission to help early-stage founders avoid mistakes that kill most startups",
+          "Providing community and advisory support to startups",
+          "Offering AI-powered tools for business development"
+        ],
+        "intent_category": "medium"
+      }
+    },
+    "team_members": []
+  }
+}

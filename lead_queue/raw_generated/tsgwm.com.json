@@ -1,0 +1,54 @@
+{
+  "crawled_at": "2026-03-19T04:19:00.675458Z",
+  "content_hash": "41688bfd91efa31b7a51235566f539cf19fbcd357992a4b936159cf638b03e81",
+  "extracted_data": {
+    "company": {
+      "name": "TSG Wealth Management",
+      "description": "TSG Wealth Management provides a range of wealth management services including investment and retirement planning, tax management strategies, business advisory, and estate planning.",
+      "industry": "Financial Services",
+      "sub_industry": "Wealth Management",
+      "hq_location": "Long Beach, CA, USA",
+      "number_of_locations": 23,
+      "founded_year": 2000,
+      "employee_count": "201-500",
+      "revenue_range": "not disclosed",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "Investment Planning",
+        "Retirement Planning",
+        "Business Advisory",
+        "Estate Planning",
+        "Tax Management"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "low"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Allen Schreiber",
+        "role": "Partner",
+        "email": "not available",
+        "phone": "not available",
+        "decision_maker": true
+      },
+      {
+        "name": "Mark Schulten",
+        "role": "Managing Partner",
+        "email": "not available",
+        "phone": "not available",
+        "decision_maker": true
+      },
+      {
+        "name": "Lisa Petrie",
+        "role": "Managing Director",
+        "email": "not available",
+        "phone": "not available",
+        "decision_maker": true
+      }
+    ]
+  }
+}

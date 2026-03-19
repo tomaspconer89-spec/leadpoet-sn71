@@ -1,0 +1,20 @@
+{
+  "domain": "westexec.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.038465Z",
+  "serp_results": [
+    {
+      "url": "https://www.westexec.com/",
+      "title": "WestExec Advisors - WestExec Advisors",
+      "snippet": "WestExec Advisors is a strategic advisory firm that offers unique geopolitical and policy expertise to help business leaders make the best decisions.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 9,
+      "fetched_at": "2026-03-19T04:11:34.080608Z",
+      "domain": "westexec.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "7e76b5eb42f1b779e875c1f40a99d304392c7bc7697c8eca5d6472c1aa9c20d8"
+}

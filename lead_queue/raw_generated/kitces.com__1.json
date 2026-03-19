@@ -1,0 +1,20 @@
+{
+  "domain": "kitces.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:12:48.762491Z",
+  "serp_results": [
+    {
+      "url": "https://www.kitces.com/consulting/",
+      "title": "Advisor Strategy And Consultation With Michael Kitces",
+      "snippet": "Kitces Consulting provides a variety of services for tech vendors, platforms and investment firms on product strategy, research, execution and distribution.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 7,
+      "fetched_at": "2026-03-17T16:12:20.694039Z",
+      "domain": "kitces.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "d02c7770242165373b3b72ee4364b7985f06690783075368516e1b15597bcbba"
+}

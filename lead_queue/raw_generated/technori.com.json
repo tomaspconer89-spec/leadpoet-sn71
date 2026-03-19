@@ -1,0 +1,20 @@
+{
+  "domain": "technori.com",
+  "queries": [
+    "tech startup founder contact page"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040313Z",
+  "serp_results": [
+    {
+      "url": "https://technori.com/2018/08/2444-9-steps-to-get-any-startup-founders-email-address/robbieabed/",
+      "title": "9 Steps To Get Any Startup Founder's Email Address - Technori",
+      "snippet": "9 Steps To Get Any Startup Founder's Email Address \u00b7 Look on the company's website. \u00b7 Look up the company on crunchbase.com, which is probably the ...",
+      "query": "tech startup founder contact page",
+      "page_index": 1,
+      "rank_on_page": 10,
+      "fetched_at": "2026-03-19T04:12:46.682304Z",
+      "domain": "technori.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "bbdb9a8e02a31e4c4c226c6bd8e34ec5c9b36b62e1a95d577529d3461805e0d6"
+}

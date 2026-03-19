@@ -1,0 +1,20 @@
+{
+  "domain": "reaadvisory.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:14:54.925988Z",
+  "serp_results": [
+    {
+      "url": "https://reaadvisory.com/",
+      "title": "Rea Business Advisors | Accounting & Business Advisory",
+      "snippet": "Discoverexpert accounting and business advisory solutions at Rea. With a trusted team of advisors, we support businesses in achieving financial success.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 7,
+      "fetched_at": "2026-03-17T16:14:30.862419Z",
+      "domain": "reaadvisory.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "89aff070b88227f2b1bf468d56bd2c6353eb756878f504c7092d081d864d2e7b"
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "reddit.com",
+  "queries": [
+    "tech startup founder contact page"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.039777Z",
+  "serp_results": [
+    {
+      "url": "https://www.reddit.com/r/startups/comments/1jqi6ik/startup_founders_what_is_the_best_way_to_reach/",
+      "title": "Startup founders what is the best way to reach you? (I will not promote)",
+      "snippet": "Honestly most tech inclined start ups recruit via agencies or through direct intake via colleges. Since you're specifically looking for ...",
+      "query": "tech startup founder contact page",
+      "page_index": 1,
+      "rank_on_page": 1,
+      "fetched_at": "2026-03-19T04:12:46.408128Z",
+      "domain": "reddit.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "c9970a7200353ac3b5ef3f07ab8a7e11b2b66d1fea54d2058ee7294a3b8ad4ad"
+}

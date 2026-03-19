@@ -1,0 +1,20 @@
+{
+  "domain": "yourstartupadvisor.com",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.196761Z",
+  "serp_results": [
+    {
+      "url": "https://www.yourstartupadvisor.com/",
+      "title": "Your Startup Advisor | Expert Guidance for Founders",
+      "snippet": "Start with a free 30-minute call. I'll learn about yourstartup, provide immediate value, and propose aservicethat better aligns with your specific needs and goals.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 3,
+      "fetched_at": "2026-03-17T16:19:44.905323Z",
+      "domain": "yourstartupadvisor.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "55e830cee2239b9cbd7e4c59e6d8e887f92bf52c0970318b7484093ab6fcc300"
+}

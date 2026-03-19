@@ -1,0 +1,20 @@
+{
+  "domain": "centriconsulting.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T15:42:34.276523Z",
+  "serp_results": [
+    {
+      "url": "https://centriconsulting.com/",
+      "title": "Centri Business Consulting: Business Advisory Services",
+      "snippet": "Contact Centri's experienced business advisory services team, with expertise in accounting, finance, and management. Learn more.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 4,
+      "fetched_at": "2026-03-17T15:42:09.523059Z",
+      "domain": "centriconsulting.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "5945a31c9daa00bf647eb70b6c4d624ece1f82aee7e9dfcffa412960c93dc12e"
+}

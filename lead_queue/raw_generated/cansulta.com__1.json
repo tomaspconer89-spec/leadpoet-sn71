@@ -1,0 +1,20 @@
+{
+  "domain": "cansulta.com",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.036419Z",
+  "serp_results": [
+    {
+      "url": "https://www.cansulta.com/expertise/startups/",
+      "title": "Startup Consulting & Advisory Services - Cansulta",
+      "snippet": "Cansulta can help with expert Startup advisory services. Founders and entrepreneurs know that managing competing priorities while pushing to get to market can ...",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 3,
+      "fetched_at": "2026-03-19T04:11:03.848030Z",
+      "domain": "cansulta.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051"
+}

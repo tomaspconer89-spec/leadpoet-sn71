@@ -1,0 +1,20 @@
+{
+  "domain": "spokk.io",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.198042Z",
+  "serp_results": [
+    {
+      "url": "https://www.spokk.io/get-google-reviews/business-consultancy-firm",
+      "title": "Get Google Reviews for Your Business Consultancy Firm | Spokk",
+      "snippet": "ElevateBusinessAdvisorsdelivered outstanding results! Their Strategic Workshops were insightful, and the OperationalConsultingdirectly ...",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 10,
+      "fetched_at": "2026-03-17T16:20:15.776223Z",
+      "domain": "spokk.io"
+    }
+  ],
+  "scoring_prompt_fingerprint": "c2562563906f61166f95cf5e85585a8502151c02f148e7504b3497a75083e8f4"
+}

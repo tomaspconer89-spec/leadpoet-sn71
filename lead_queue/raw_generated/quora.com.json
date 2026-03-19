@@ -1,0 +1,20 @@
+{
+  "domain": "quora.com",
+  "queries": [
+    "tech startup founder contact page"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040086Z",
+  "serp_results": [
+    {
+      "url": "https://www.quora.com/How-can-I-find-contact-details-of-a-startup-founder",
+      "title": "How to find contact details of a startup founder - Quora",
+      "snippet": "Visit their website or social media accounts and find the contact section. You'll generally find an email or other means to contact them there.",
+      "query": "tech startup founder contact page",
+      "page_index": 1,
+      "rank_on_page": 6,
+      "fetched_at": "2026-03-19T04:12:46.632922Z",
+      "domain": "quora.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "32f30a05e0ff55eb526fb8b4916c6c7767de5a97cbf41ea4d3d5ab9842798129"
+}

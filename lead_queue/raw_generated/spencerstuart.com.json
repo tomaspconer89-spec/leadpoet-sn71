@@ -1,0 +1,20 @@
+{
+  "domain": "spencerstuart.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040966Z",
+  "serp_results": [
+    {
+      "url": "https://www.spencerstuart.com/",
+      "title": "Spencer Stuart: Executive Search, Board & Leadership Consulting",
+      "snippet": "Spencer Stuart is one of the world's leading global executive search and leadership consulting firms, specializing in chief executive, board director and ...",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 10,
+      "fetched_at": "2026-03-19T04:13:16.937105Z",
+      "domain": "spencerstuart.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "9c622f217270eb0b6656b2b9d8726e1fba43a9e992d0af33bde5d68687725d5b"
+}

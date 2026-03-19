@@ -1,0 +1,42 @@
+{
+  "crawled_at": "2026-03-19T04:16:14.929093Z",
+  "content_hash": "486f32ac6349bcc93d44399187ae09d272d25343042530d02062b084875638d1",
+  "extracted_data": {
+    "company": {
+      "name": "GoEmerald",
+      "description": "GoEmerald is not a consulting company; we are an outcome-focused innovation firm that provides advisory and delivery services to reduce consulting bills for public sector and businesses.",
+      "industry": "Business Consulting",
+      "sub_industry": "Innovation and Advisory Services",
+      "hq_location": "Toronto, Ontario, Canada",
+      "number_of_locations": 0,
+      "founded_year": 2015,
+      "employee_count": "",
+      "revenue_range": "",
+      "ownership_type": "Private",
+      "company_type": "Inc.",
+      "specialties": [
+        "Data-driven transformation",
+        "Innovation",
+        "Business model innovation",
+        "Startup advisory services"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "\"I build, innovate and scale success using business model strategy, governance, data and technology.\"",
+          "\"Let's meet to discuss specific challenges your teams are facing on enterprise-wide transformations.\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Gunjan Syal",
+        "role": "Founder & Data-driven CEO",
+        "email": "hello@goemerald.ca",
+        "phone": "416-697-8894",
+        "decision_maker": true
+      }
+    ]
+  }
+}

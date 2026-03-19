@@ -1,0 +1,43 @@
+{
+  "crawled_at": "2026-03-17T16:21:46.464945Z",
+  "content_hash": "132700f1c23d9c7244404b1d9a531754f7793e18b819d4a59a8cd7fb69480881",
+  "extracted_data": {
+    "company": {
+      "name": "FoundersIQ",
+      "description": "A smarter way to grow, offering financial services and fundraising support for startups and entrepreneurs.",
+      "industry": "Financial Services",
+      "sub_industry": "Startup Advisory",
+      "hq_location": "null",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "null",
+      "specialties": [
+        "CFO & Accounting",
+        "Sales",
+        "Tax Services",
+        "Fundraising"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "offering guidance in finance, sales, and fundraising",
+          "advising beyond the numbers",
+          "seeking to connect with potential clients"
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Ori",
+        "role": "CEO",
+        "email": "Ori@foundersiq.io",
+        "phone": "null",
+        "decision_maker": true
+      }
+    ]
+  }
+}

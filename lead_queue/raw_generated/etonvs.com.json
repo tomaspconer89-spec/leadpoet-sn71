@@ -1,0 +1,59 @@
+{
+  "crawled_at": "2026-03-17T16:15:08.147864Z",
+  "content_hash": "3e2cc4f0cd829038f240982e4291e9330aaaf6aa05e9cdbb8455420779fecf5d",
+  "extracted_data": {
+    "company": {
+      "name": "Eton Venture Services",
+      "description": "Eton provides audit-defensible business valuations across the entire business lifecycle. They help business owners, law firms, and financial institutions navigate complex valuation requirements.",
+      "industry": "Business Valuation",
+      "sub_industry": "Audit-Defensible Valuation Services",
+      "hq_location": "Pittsburgh, PA, USA",
+      "number_of_locations": 9,
+      "founded_year": 2010,
+      "employee_count": "50-200",
+      "revenue_range": "Not specified",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "409A Valuations",
+        "Gift & Estate Tax Valuation",
+        "Startup Valuation Services",
+        "Fairness Opinions",
+        "M&A Valuation Support",
+        "Transaction Opinions"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "Providing audit-defensible valuations for business sales",
+          "Helping clients navigate complex valuation requirements",
+          "Engaging closely with clients' leadership and boards"
+        ],
+        "intent_category": "medium"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Chris Walton, JD",
+        "role": "President & CEO",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Colton Owens, CFA",
+        "role": "Director of Valuation",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      },
+      {
+        "name": "Dalton Luong",
+        "role": "Manager of Valuation",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": true
+      }
+    ]
+  }
+}

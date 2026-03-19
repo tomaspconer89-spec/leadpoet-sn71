@@ -1,0 +1,20 @@
+{
+  "domain": "principiogroup.com",
+  "queries": [
+    "startup advisory services founder contact"
+  ],
+  "fetched_at": "2026-03-17T16:20:36.197059Z",
+  "serp_results": [
+    {
+      "url": "https://principiogroup.com/",
+      "title": "Startup Advisory Services for Early-Stage Founders ...",
+      "snippet": "We are an early stagestartupadvisoryfirm that provides expert mentorship, technology development, and business support to helpstartupsbring their ideas to market. Principio Group offers expertstartupadvisoryservicestailored for early-stagefounders.",
+      "query": "startup advisory services founder contact",
+      "page_index": 1,
+      "rank_on_page": 6,
+      "fetched_at": "2026-03-17T16:19:44.949744Z",
+      "domain": "principiogroup.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "8ee2c0c00c8bf214e97875a680fabb6a94ea1962cfcb1c154b9baabf150b6489"
+}

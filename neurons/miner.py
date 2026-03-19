@@ -4,6 +4,7 @@ import threading
 import argparse
 import traceback
 import sys
+import hashlib
 import bittensor as bt
 import socket
 from Leadpoet.base.miner import BaseMinerNeuron
@@ -177,6 +178,44 @@ class Miner(BaseMinerNeuron):
 
     async def sourcing_loop(self, interval: int, miner_hotkey: str):
         print(f"🔄 Starting continuous sourcing loop (interval: {interval}s)")
+
+        queue_root = Path("lead_queue")
+        pending_dir = queue_root / "pending"
+        submitted_dir = queue_root / "submitted"
+        failed_dir = queue_root / "failed"
+        pending_dir.mkdir(parents=True, exist_ok=True)
+        submitted_dir.mkdir(parents=True, exist_ok=True)
+        failed_dir.mkdir(parents=True, exist_ok=True)
+
+        def lead_queue_key(lead: Dict) -> str:
+            parts = [
+                str(lead.get("email", "")).strip().lower(),
+                str(lead.get("business", "")).strip().lower(),
+                str(lead.get("linkedin", "")).strip().lower(),
+                str(lead.get("website", "")).strip().lower(),
+            ]
+            return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
+
+        def enqueue_lead(lead: Dict) -> None:
+            key = lead_queue_key(lead)
+            pending_file = pending_dir / f"{key}.json"
+            submitted_file = submitted_dir / f"{key}.json"
+            if pending_file.exists() or submitted_file.exists():
+                return
+            pending_file.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
+
+        def load_pending(max_items: int = 200) -> List[Tuple[Path, Dict]]:
+            items: List[Tuple[Path, Dict]] = []
+            for path in sorted(pending_dir.glob("*.json"))[:max_items]:
+                try:
+                    lead = json.loads(path.read_text())
+                    if isinstance(lead, dict):
+                        items.append((path, lead))
+                except Exception:
+                    # Corrupted queue entry: move aside so it doesn't block processing.
+                    path.rename(failed_dir / path.name)
+            return items
+
         while True:
             try:
                 if not self.sourcing_mode:
@@ -195,6 +234,12 @@ class Miner(BaseMinerNeuron):
                 sanitized = [
                     sanitize_prospect(p, miner_hotkey) for p in validated_leads
                 ]
+
+                # Persist sanitized leads to a local queue so they can be submitted
+                # later when gateway connectivity returns.
+                for lead in sanitized:
+                    enqueue_lead(lead)
+
                 print(f"🔄 Sourced {len(sanitized)} new leads:")
                 for i, lead in enumerate(sanitized, 1):
                     business = lead.get('business', 'Unknown')
@@ -214,8 +259,12 @@ class Miner(BaseMinerNeuron):
                     submitted_count = 0
                     verified_count = 0
                     duplicate_count = 0
-                    
-                    for lead in sanitized:
+
+                    queued_leads = load_pending()
+                    if queued_leads:
+                        print(f"📦 Queue: {len(queued_leads)} pending lead(s) ready for submission attempts")
+
+                    for lead_path, lead in queued_leads:
                         business_name = lead.get('business', 'Unknown')
                         email = lead.get('email', '')
                         linkedin_url = lead.get('linkedin', '')
@@ -228,6 +277,7 @@ class Miner(BaseMinerNeuron):
                         if check_email_duplicate(email):
                             print(f"⏭️  Skipping duplicate email: {business_name} ({email})")
                             duplicate_count += 1
+                            lead_path.rename(failed_dir / lead_path.name)
                             continue
                         
                         # Check linkedin combo duplicate (same logic: approved/processing = skip, rejected = allow)
@@ -237,6 +287,7 @@ class Miner(BaseMinerNeuron):
                                 print(f"      LinkedIn: {linkedin_url[:50]}...")
                                 print(f"      Company: {company_linkedin_url[:50]}...")
                             duplicate_count += 1
+                            lead_path.rename(failed_dir / lead_path.name)
                             continue
                         
                         # Step 1: Get presigned URLs (gateway logs SUBMISSION_REQUEST with committed hash)
@@ -245,12 +296,14 @@ class Miner(BaseMinerNeuron):
                             print(f"⚠️  Failed to get presigned URL for {business_name}")
                             print("   ℹ️  If multiple leads fail at presign, gateway may be under maintenance or backlog.")
                             print("   ℹ️  Check SN71 announcements and retry later.")
-                            continue
+                            # Keep in pending to retry automatically on next cycle.
+                            break
                         
                         # Step 2: Upload to S3 (gateway will mirror to MinIO automatically)
                         s3_uploaded = gateway_upload_lead(presign_result['s3_url'], lead)
                         if not s3_uploaded:
                             print(f"⚠️  Failed to upload to S3: {business_name}")
+                            # Keep in pending to retry later.
                             continue
                         
                         print(f"✅ Lead uploaded to S3 (gateway will mirror to MinIO)")
@@ -271,12 +324,13 @@ class Miner(BaseMinerNeuron):
                         if verification_result:
                             verified_count += 1
                             print(f"✅ Verified: {business_name} (backends: {verification_result['storage_backends']})")
+                            lead_path.rename(submitted_dir / lead_path.name)
                         else:
                             print(f"⚠️  Verification failed: {business_name}")
                     
                     if verified_count > 0:
                         print(
-                            f"✅ Successfully submitted and verified {verified_count}/{len(sanitized)} leads "
+                            f"✅ Successfully submitted and verified {verified_count}/{len(queued_leads)} leads "
                             f"at {datetime.now(timezone.utc).strftime('%H:%M:%S')}"
                         )
                         if duplicate_count > 0:

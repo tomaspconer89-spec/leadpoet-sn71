@@ -1,0 +1,45 @@
+{
+  "crawled_at": "2026-03-19T04:17:55.251794Z",
+  "content_hash": "53f0fef3a09d74ed47975ca45d2070c83b0268935ca75b47825d37975b4555ea",
+  "extracted_data": {
+    "company": {
+      "name": "Centri Consulting",
+      "description": "Centri Consulting provides accounting and advisory services designed for any stage of the business lifecycle, focusing on growth and compliance needs.",
+      "industry": "Consulting",
+      "sub_industry": "Accounting and Advisory Services",
+      "hq_location": "Philadelphia, PA, USA",
+      "number_of_locations": 9,
+      "founded_year": 2011,
+      "employee_count": "100+",
+      "revenue_range": "null",
+      "ownership_type": "LLC",
+      "company_type": "LLC",
+      "specialties": [
+        "SEC Financial Reporting",
+        "M&A Advisory",
+        "Risk Advisory",
+        "Tax Advisory",
+        "Outsourced Accounting",
+        "CFO Advisory"
+      ],
+      "intent": {
+        "business_intent_score": 0.9,
+        "intent_signals": [
+          "Tailored to you, we provide accounting and advisory services designed for any stage of the business lifecycle.",
+          "We understand that you want to grow your business and reduce your risks.",
+          "Our consulting has led us to work with businesses of all sizes and structures, both private and public."
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "null",
+        "role": "null",
+        "email": "null",
+        "phone": "null",
+        "decision_maker": false
+      }
+    ]
+  }
+}

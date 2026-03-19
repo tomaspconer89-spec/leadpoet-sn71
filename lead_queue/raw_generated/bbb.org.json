@@ -1,0 +1,20 @@
+{
+  "domain": "bbb.org",
+  "queries": [
+    "digital marketing agency founder contact"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.041291Z",
+  "serp_results": [
+    {
+      "url": "https://www.bbb.org/us/ca/union-city/profile/digital-marketing/the-digital-marketing-agency-consulting-company-llc-1116-938507",
+      "title": "The Digital Marketing Agency & Consulting Company, LLC - BBB",
+      "snippet": "Business Management: Mr. Michael Galindo, Owner ; Number of Employees: 1 ; Principal Contacts: Mr. Michael Galindo, Owner ; Customer Contacts: Mr. Michael Galindo, ...",
+      "query": "digital marketing agency founder contact",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-19T04:13:48.206212Z",
+      "domain": "bbb.org"
+    }
+  ],
+  "scoring_prompt_fingerprint": "c24b1d86dc624286cc3bf2f208653655f5e3ce9f23a25c7a6383fe02171ec9ab"
+}

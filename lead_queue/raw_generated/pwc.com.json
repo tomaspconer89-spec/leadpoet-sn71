@@ -1,0 +1,20 @@
+{
+  "domain": "pwc.com",
+  "queries": [
+    "business consulting firm advisor email"
+  ],
+  "fetched_at": "2026-03-17T15:09:42.029976Z",
+  "serp_results": [
+    {
+      "url": "https://www.pwc.com/us/en/services/consulting.html",
+      "title": "Consulting Advisory Services: Business opportunities: PwC",
+      "snippet": "With equal parts bold vision and radical pragmatism, we\u2019ll help you drive your business to the leading edge. At PwC, we don\u2019t consult from the sidelines \u2014 through our consulting advisory services, we work side by side to reimagine how your business runs.",
+      "query": "business consulting firm advisor email",
+      "page_index": 1,
+      "rank_on_page": 2,
+      "fetched_at": "2026-03-17T15:09:15.310591Z",
+      "domain": "pwc.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "ab2a513c6c4a9240616958acba1d8f0aaf99ec65a2f6591c127b5885c63f60f0"
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "fticonsulting.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-19T04:14:14.040482Z",
+  "serp_results": [
+    {
+      "url": "https://www.fticonsulting.com/about/leadership/global-leadership",
+      "title": "Global Leadership - FTI Consulting",
+      "snippet": "FTI Consulting's leadership hold backgrounds in corporate finance, economic consulting, forensics and litigation, technology and strategic communications.",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 3,
+      "fetched_at": "2026-03-19T04:13:16.702860Z",
+      "domain": "fticonsulting.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "3a0cee756eb38b3c47942236b25ce4bfb5eae80a961d9c0f9dd4ea2fefbebdfe"
+}
