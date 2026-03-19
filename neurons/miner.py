@@ -183,9 +183,13 @@ class Miner(BaseMinerNeuron):
         pending_dir = queue_root / "pending"
         submitted_dir = queue_root / "submitted"
         failed_dir = queue_root / "failed"
+        sourced_dir = queue_root / "sourced"
+        attempted_dir = queue_root / "attempted"
         pending_dir.mkdir(parents=True, exist_ok=True)
         submitted_dir.mkdir(parents=True, exist_ok=True)
         failed_dir.mkdir(parents=True, exist_ok=True)
+        sourced_dir.mkdir(parents=True, exist_ok=True)
+        attempted_dir.mkdir(parents=True, exist_ok=True)
 
         def lead_queue_key(lead: Dict) -> str:
             parts = [
@@ -203,6 +207,32 @@ class Miner(BaseMinerNeuron):
             if pending_file.exists() or submitted_file.exists():
                 return
             pending_file.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
+
+        def save_audit_event(lead: Dict, event: str, extra: Dict = None) -> None:
+            """
+            Persist lead lifecycle events for post-mortem/debugging.
+            - sourced: successful output from sourcing pipeline
+            - attempted: each gateway attempt and final outcome
+            """
+            try:
+                key = lead_queue_key(lead)
+                ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+                payload = {
+                    "event": event,
+                    "ts": datetime.now(timezone.utc).isoformat(),
+                    "lead_key": key,
+                    "lead": lead,
+                }
+                if extra:
+                    payload["extra"] = extra
+                if event == "sourced":
+                    out_path = sourced_dir / f"{key}.json"
+                else:
+                    out_path = attempted_dir / f"{key}__{ts}__{event}.json"
+                out_path.write_text(json.dumps(payload, ensure_ascii=True, indent=2))
+            except Exception as _e:
+                # Never block sourcing/submission because of audit persistence.
+                print(f"⚠️  Failed to save audit event ({event}): {_e}")
 
         def load_pending(max_items: int = 200) -> List[Tuple[Path, Dict]]:
             items: List[Tuple[Path, Dict]] = []
@@ -239,6 +269,7 @@ class Miner(BaseMinerNeuron):
                 # later when gateway connectivity returns.
                 for lead in sanitized:
                     enqueue_lead(lead)
+                    save_audit_event(lead, "sourced")
 
                 print(f"🔄 Sourced {len(sanitized)} new leads:")
                 for i, lead in enumerate(sanitized, 1):
@@ -269,6 +300,11 @@ class Miner(BaseMinerNeuron):
                         email = lead.get('email', '')
                         linkedin_url = lead.get('linkedin', '')
                         company_linkedin_url = lead.get('company_linkedin', '')
+                        save_audit_event(
+                            lead,
+                            "attempt_started",
+                            {"business": business_name, "queue_file": str(lead_path)},
+                        )
                         
                         # Step 0: Check for duplicates BEFORE calling presign (saves time & rate limit)
                         # Check both email AND linkedin combo (person+company)
@@ -276,6 +312,11 @@ class Miner(BaseMinerNeuron):
                         # Check email duplicate (approved or processing = skip, rejected = allow)
                         if check_email_duplicate(email):
                             print(f"⏭️  Skipping duplicate email: {business_name} ({email})")
+                            save_audit_event(
+                                lead,
+                                "attempt_duplicate_email",
+                                {"business": business_name, "email": email},
+                            )
                             duplicate_count += 1
                             lead_path.rename(failed_dir / lead_path.name)
                             continue
@@ -286,6 +327,15 @@ class Miner(BaseMinerNeuron):
                                 print(f"⏭️  Skipping duplicate person+company: {business_name}")
                                 print(f"      LinkedIn: {linkedin_url[:50]}...")
                                 print(f"      Company: {company_linkedin_url[:50]}...")
+                                save_audit_event(
+                                    lead,
+                                    "attempt_duplicate_linkedin_combo",
+                                    {
+                                        "business": business_name,
+                                        "linkedin": linkedin_url,
+                                        "company_linkedin": company_linkedin_url,
+                                    },
+                                )
                             duplicate_count += 1
                             lead_path.rename(failed_dir / lead_path.name)
                             continue
@@ -296,6 +346,11 @@ class Miner(BaseMinerNeuron):
                             print(f"⚠️  Failed to get presigned URL for {business_name}")
                             print("   ℹ️  If multiple leads fail at presign, gateway may be under maintenance or backlog.")
                             print("   ℹ️  Check SN71 announcements and retry later.")
+                            save_audit_event(
+                                lead,
+                                "attempt_presign_failed",
+                                {"business": business_name},
+                            )
                             # Keep in pending to retry automatically on next cycle.
                             break
                         
@@ -303,6 +358,11 @@ class Miner(BaseMinerNeuron):
                         s3_uploaded = gateway_upload_lead(presign_result['s3_url'], lead)
                         if not s3_uploaded:
                             print(f"⚠️  Failed to upload to S3: {business_name}")
+                            save_audit_event(
+                                lead,
+                                "attempt_upload_failed",
+                                {"business": business_name, "lead_id": presign_result.get("lead_id")},
+                            )
                             # Keep in pending to retry later.
                             continue
                         
@@ -324,9 +384,23 @@ class Miner(BaseMinerNeuron):
                         if verification_result:
                             verified_count += 1
                             print(f"✅ Verified: {business_name} (backends: {verification_result['storage_backends']})")
+                            save_audit_event(
+                                lead,
+                                "attempt_verified",
+                                {
+                                    "business": business_name,
+                                    "lead_id": presign_result.get("lead_id"),
+                                    "storage_backends": verification_result.get("storage_backends"),
+                                },
+                            )
                             lead_path.rename(submitted_dir / lead_path.name)
                         else:
                             print(f"⚠️  Verification failed: {business_name}")
+                            save_audit_event(
+                                lead,
+                                "attempt_verification_failed",
+                                {"business": business_name, "lead_id": presign_result.get("lead_id")},
+                            )
                     
                     if verified_count > 0:
                         print(
