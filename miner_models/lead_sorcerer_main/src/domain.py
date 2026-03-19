@@ -98,6 +98,91 @@ class GSESearchClient:
                 return response.json()
 
 
+class SerperSearchClient:
+    """Client for Serper.dev Google Search API. Returns results in GSE-compatible format."""
+
+    def __init__(self, api_key: str, semaphore_pool: AsyncSemaphorePool):
+        self.api_key = api_key
+        self.semaphore_pool = semaphore_pool
+        # Serper uses the google subdomain for web search.
+        self.base_url = "https://google.serper.dev/search"
+
+    async def search(self, query: str, page: int = 1) -> Dict[str, Any]:
+        async with self.semaphore_pool:
+            # Serper pagination uses 1-based page numbers.
+            payload = {
+                "q": query,
+                "num": 10,
+                "page": page,
+            }
+            headers = {
+                "X-API-KEY": self.api_key,
+                "Content-Type": "application/json",
+            }
+
+            async with httpx.AsyncClient(timeout=(5.0, 20.0)) as client:
+                response = await client.post(
+                    self.base_url, json=payload, headers=headers
+                )
+                response.raise_for_status()
+                data = response.json()
+
+            items = []
+            for idx, result in enumerate(data.get("organic", []), start=1):
+                items.append(
+                    {
+                        "title": result.get("title", ""),
+                        "link": result.get("link", ""),
+                        "snippet": result.get("snippet", ""),
+                        "rank": idx,
+                    }
+                )
+
+            return {"items": items}
+
+
+class BraveSearchClient:
+    """Client for Brave Search API. Returns results in GSE-compatible format."""
+
+    def __init__(self, api_key: str, semaphore_pool: AsyncSemaphorePool):
+        self.api_key = api_key
+        self.semaphore_pool = semaphore_pool
+        self.base_url = "https://api.search.brave.com/res/v1/web/search"
+
+    async def search(self, query: str, page: int = 1) -> Dict[str, Any]:
+        async with self.semaphore_pool:
+            params = {
+                "q": query,
+                "count": 10,
+                "offset": (page - 1) * 10,
+            }
+            headers = {
+                "Accept": "application/json",
+                "Accept-Encoding": "gzip",
+                "X-Subscription-Token": self.api_key,
+            }
+
+            async with httpx.AsyncClient(timeout=(5.0, 15.0)) as client:
+                response = await client.get(
+                    self.base_url, params=params, headers=headers
+                )
+                response.raise_for_status()
+                data = response.json()
+
+            items = []
+            for idx, result in enumerate(
+                data.get("web", {}).get("results", []), start=1
+            ):
+                items.append({
+                    "title": result.get("title", ""),
+                    "link": result.get("url", ""),
+                    "snippet": result.get("description", ""),
+                    "rank": idx,
+                })
+
+            return {"items": items}
+
+
 # ============================================================================
 # LLM Scoring
 # ============================================================================
@@ -406,11 +491,30 @@ class DomainTool:
         )
         self.semaphore_pool = AsyncSemaphorePool(self.permit_manager)
 
-        self.gse_client = GSESearchClient(
-            api_key=os.environ["GSE_API_KEY"],
-            cx=os.environ["GSE_CX"],
-            semaphore_pool=self.semaphore_pool,
-        )
+        # Domain discovery provider selection:
+        # Prefer Serper (SERPER_API_KEY) -> Brave (BRAVE_API_KEY) -> Google (GSE_API_KEY).
+        serper_key = os.environ.get("SERPER_API_KEY", "").strip()
+        brave_key = os.environ.get("BRAVE_API_KEY", "").strip()
+
+        if serper_key:
+            self.gse_client = SerperSearchClient(
+                api_key=serper_key,
+                semaphore_pool=self.semaphore_pool,
+            )
+            logging.getLogger(TOOL_NAME).info("🔍 Using Serper Search API for domain discovery")
+        elif brave_key:
+            self.gse_client = BraveSearchClient(
+                api_key=brave_key,
+                semaphore_pool=self.semaphore_pool,
+            )
+            logging.getLogger(TOOL_NAME).info("🔍 Using Brave Search API for domain discovery")
+        else:
+            self.gse_client = GSESearchClient(
+                api_key=os.environ["GSE_API_KEY"],
+                cx=os.environ["GSE_CX"],
+                semaphore_pool=self.semaphore_pool,
+            )
+            logging.getLogger(TOOL_NAME).info("🔍 Using Google Custom Search API for domain discovery")
 
         self.llm_scorer = LLMScorer(
             api_key=os.environ["OPENROUTER_KEY"], semaphore_pool=self.semaphore_pool
