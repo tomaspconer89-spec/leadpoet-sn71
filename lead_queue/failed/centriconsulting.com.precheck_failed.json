@@ -1,0 +1,11 @@
+{
+  "source_file": "centriconsulting.com.json",
+  "reason": "missing_required_fields: linkedin, company_linkedin",
+  "lead_preview": {
+    "business": "Centri Consulting",
+    "email": "null",
+    "website": "https://centriconsulting.com",
+    "industry": "Consulting",
+    "sub_industry": "Accounting and Advisory Services"
+  }
+}

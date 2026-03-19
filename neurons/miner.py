@@ -183,9 +183,11 @@ class Miner(BaseMinerNeuron):
         pending_dir = queue_root / "pending"
         submitted_dir = queue_root / "submitted"
         failed_dir = queue_root / "failed"
+        steps_dir = queue_root / "steps"
         pending_dir.mkdir(parents=True, exist_ok=True)
         submitted_dir.mkdir(parents=True, exist_ok=True)
         failed_dir.mkdir(parents=True, exist_ok=True)
+        steps_dir.mkdir(parents=True, exist_ok=True)
 
         def lead_queue_key(lead: Dict) -> str:
             parts = [
@@ -216,6 +218,18 @@ class Miner(BaseMinerNeuron):
                     path.rename(failed_dir / path.name)
             return items
 
+        def write_step_snapshot(cycle_id: str, step_name: str, payload: Any) -> None:
+            cycle_dir = steps_dir / cycle_id
+            cycle_dir.mkdir(parents=True, exist_ok=True)
+            step_file = cycle_dir / f"{step_name}.json"
+            envelope = {
+                "cycle_id": cycle_id,
+                "step": step_name,
+                "ts_utc": datetime.now(timezone.utc).isoformat(),
+                "payload": payload,
+            }
+            step_file.write_text(json.dumps(envelope, ensure_ascii=True, indent=2, default=str))
+
         while True:
             try:
                 if not self.sourcing_mode:
@@ -225,20 +239,34 @@ class Miner(BaseMinerNeuron):
                     if not self.sourcing_mode:
                         continue
                     print("\n🔄 Sourcing new leads...")
+                cycle_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
                 new_leads = await get_leads(1, industry=None, region=None)
+                write_step_snapshot(cycle_id, "01_generated_raw", new_leads)
                 
                 # Process leads through source provenance validation (protocol level)
                 validated_leads = await self.process_generated_leads(new_leads)
+                write_step_snapshot(cycle_id, "02_source_provenance_validated", validated_leads)
                 
                 # Sanitize validated leads
                 sanitized = [
                     sanitize_prospect(p, miner_hotkey) for p in validated_leads
                 ]
+                write_step_snapshot(cycle_id, "03_sanitized", sanitized)
 
                 # Persist sanitized leads to a local queue so they can be submitted
                 # later when gateway connectivity returns.
                 for lead in sanitized:
                     enqueue_lead(lead)
+                write_step_snapshot(
+                    cycle_id,
+                    "04_enqueued",
+                    {
+                        "enqueued_count": len(sanitized),
+                        "pending_files": len(list(pending_dir.glob("*.json"))),
+                        "submitted_files": len(list(submitted_dir.glob("*.json"))),
+                        "failed_files": len(list(failed_dir.glob("*.json"))),
+                    },
+                )
 
                 print(f"🔄 Sourced {len(sanitized)} new leads:")
                 for i, lead in enumerate(sanitized, 1):
@@ -263,6 +291,14 @@ class Miner(BaseMinerNeuron):
                     queued_leads = load_pending()
                     if queued_leads:
                         print(f"📦 Queue: {len(queued_leads)} pending lead(s) ready for submission attempts")
+                    write_step_snapshot(
+                        cycle_id,
+                        "05_pending_loaded_for_submit",
+                        {
+                            "pending_loaded": len(queued_leads),
+                            "lead_files": [p.name for p, _ in queued_leads],
+                        },
+                    )
 
                     for lead_path, lead in queued_leads:
                         business_name = lead.get('business', 'Unknown')
@@ -278,6 +314,16 @@ class Miner(BaseMinerNeuron):
                             print(f"⏭️  Skipping duplicate email: {business_name} ({email})")
                             duplicate_count += 1
                             lead_path.rename(failed_dir / lead_path.name)
+                            write_step_snapshot(
+                                cycle_id,
+                                "06_duplicate_skipped",
+                                {
+                                    "reason": "email_duplicate",
+                                    "business": business_name,
+                                    "email": email,
+                                    "lead_file": lead_path.name,
+                                },
+                            )
                             continue
                         
                         # Check linkedin combo duplicate (same logic: approved/processing = skip, rejected = allow)
@@ -288,6 +334,17 @@ class Miner(BaseMinerNeuron):
                                 print(f"      Company: {company_linkedin_url[:50]}...")
                             duplicate_count += 1
                             lead_path.rename(failed_dir / lead_path.name)
+                            write_step_snapshot(
+                                cycle_id,
+                                "06_duplicate_skipped",
+                                {
+                                    "reason": "linkedin_company_duplicate",
+                                    "business": business_name,
+                                    "linkedin": linkedin_url,
+                                    "company_linkedin": company_linkedin_url,
+                                    "lead_file": lead_path.name,
+                                },
+                            )
                             continue
                         
                         # Step 1: Get presigned URLs (gateway logs SUBMISSION_REQUEST with committed hash)
@@ -296,18 +353,53 @@ class Miner(BaseMinerNeuron):
                             print(f"⚠️  Failed to get presigned URL for {business_name}")
                             print("   ℹ️  If multiple leads fail at presign, gateway may be under maintenance or backlog.")
                             print("   ℹ️  Check SN71 announcements and retry later.")
+                            write_step_snapshot(
+                                cycle_id,
+                                "07_presign_failed",
+                                {
+                                    "business": business_name,
+                                    "lead_file": lead_path.name,
+                                },
+                            )
                             # Keep in pending to retry automatically on next cycle.
                             break
+                        write_step_snapshot(
+                            cycle_id,
+                            "07_presign_ok",
+                            {
+                                "business": business_name,
+                                "lead_file": lead_path.name,
+                                "lead_id": presign_result.get("lead_id"),
+                            },
+                        )
                         
                         # Step 2: Upload to S3 (gateway will mirror to MinIO automatically)
                         s3_uploaded = gateway_upload_lead(presign_result['s3_url'], lead)
                         if not s3_uploaded:
                             print(f"⚠️  Failed to upload to S3: {business_name}")
+                            write_step_snapshot(
+                                cycle_id,
+                                "08_upload_failed",
+                                {
+                                    "business": business_name,
+                                    "lead_file": lead_path.name,
+                                    "lead_id": presign_result.get("lead_id"),
+                                },
+                            )
                             # Keep in pending to retry later.
                             continue
                         
                         print(f"✅ Lead uploaded to S3 (gateway will mirror to MinIO)")
                         submitted_count += 1
+                        write_step_snapshot(
+                            cycle_id,
+                            "08_uploaded_to_s3",
+                            {
+                                "business": business_name,
+                                "lead_file": lead_path.name,
+                                "lead_id": presign_result.get("lead_id"),
+                            },
+                        )
                         
                         # Step 4: Trigger gateway verification (BRD Section 4.1, Steps 5-6)
                         # Gateway will:
@@ -325,8 +417,27 @@ class Miner(BaseMinerNeuron):
                             verified_count += 1
                             print(f"✅ Verified: {business_name} (backends: {verification_result['storage_backends']})")
                             lead_path.rename(submitted_dir / lead_path.name)
+                            write_step_snapshot(
+                                cycle_id,
+                                "09_verified",
+                                {
+                                    "business": business_name,
+                                    "lead_file": lead_path.name,
+                                    "lead_id": presign_result.get("lead_id"),
+                                    "verification_result": verification_result,
+                                },
+                            )
                         else:
                             print(f"⚠️  Verification failed: {business_name}")
+                            write_step_snapshot(
+                                cycle_id,
+                                "09_verification_failed",
+                                {
+                                    "business": business_name,
+                                    "lead_file": lead_path.name,
+                                    "lead_id": presign_result.get("lead_id"),
+                                },
+                            )
                     
                     if verified_count > 0:
                         print(
@@ -343,6 +454,11 @@ class Miner(BaseMinerNeuron):
                         print("⚠️  Failed to submit any leads via gateway")
                 except Exception as e:
                     print(f"❌ Gateway submission exception: {e}")
+                    write_step_snapshot(
+                        cycle_id,
+                        "10_gateway_submission_exception",
+                        {"error": str(e)},
+                    )
                 await asyncio.sleep(interval)
             except asyncio.CancelledError:
                 print("🛑 Sourcing task cancelled")
