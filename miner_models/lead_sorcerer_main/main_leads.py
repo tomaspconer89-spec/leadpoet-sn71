@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 import logging
 import re
+from urllib.parse import quote
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -528,9 +529,19 @@ else:
                         if not token or not actor_id:
                             return []
 
+                        # Apify accepts actorId as either:
+                        # - "username~actor-name"
+                        # - actor UUID
+                        # If env uses "username/actor-name", normalize it.
+                        normalized_actor_id = actor_id
+                        if "/" in normalized_actor_id and "~" not in normalized_actor_id:
+                            normalized_actor_id = normalized_actor_id.replace("/", "~", 1)
+
+                        encoded_actor_id = quote(normalized_actor_id, safe="~")
+
                         # Apify REST: /v2/acts/:actorId/run-sync-get-dataset-items
                         # Input schema for google-search-scraper uses `query` + `amount`.
-                        endpoint = f"https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items"
+                        endpoint = f"https://api.apify.com/v2/acts/{encoded_actor_id}/run-sync-get-dataset-items"
                         params = {
                             "token": token,
                             "timeout": 60,
