@@ -196,8 +196,29 @@ class LLMScorer:
             api_key=api_key, base_url="https://openrouter.ai/api/v1"
         )
         self.semaphore_pool = semaphore_pool
-        self.primary_model = "gpt-4o-mini"
-        self.fallback_model = "gpt-3.5-turbo"
+        self.primary_model = os.environ.get("OPENROUTER_PRIMARY_MODEL", "gpt-4o-mini")
+        self.fallback_model = os.environ.get("OPENROUTER_FALLBACK_MODEL", "gpt-3.5-turbo")
+        self.max_tokens = int(os.environ.get("OPENROUTER_MAX_TOKENS", "120"))
+
+    def _heuristic_fallback(
+        self, title: str, snippet: str, query: str, icp_text: str
+    ) -> Tuple[float, str, List[str], str]:
+        """
+        Cheap fallback when OpenRouter credits are exhausted.
+        """
+        text = f"{title} {snippet}".lower()
+        icp_terms = [t for t in re.findall(r"[a-z0-9]{4,}", icp_text.lower()) if len(t) >= 4]
+        query_terms = [t for t in re.findall(r"[a-z0-9]{4,}", query.lower()) if len(t) >= 4]
+        terms = set(icp_terms[:30] + query_terms[:20])
+        if not terms:
+            return 0.0, "Heuristic fallback: no terms available", ["scoring_fallback"], "heuristic_no_credit"
+
+        hits = sum(1 for t in terms if t in text)
+        ratio = hits / max(1, len(terms))
+        score = round(max(0.0, min(1.0, ratio * 2.5)), 4)
+        reason = f"Heuristic fallback used (credit-limited). Term hits={hits}/{len(terms)}"
+        flags = ["scoring_fallback", "credit_limited"]
+        return score, reason, flags, "heuristic_no_credit"
 
     def _build_scoring_prompt(
         self, title: str, snippet: str, query: str, icp_text: str
@@ -266,18 +287,27 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
                     model=self.primary_model,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.0,
-                    max_tokens=500,
+                    max_tokens=self.max_tokens,
                 )
                 model_used = self.primary_model
-            except Exception:
-                # Fallback to secondary model
-                response = await self.client.chat.completions.create(
-                    model=self.fallback_model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0,
-                    max_tokens=500,
-                )
-                model_used = self.fallback_model
+            except Exception as primary_err:
+                try:
+                    # Fallback to secondary model
+                    response = await self.client.chat.completions.create(
+                        model=self.fallback_model,
+                        messages=[{"role": "user", "content": prompt}],
+                        temperature=0.0,
+                        max_tokens=self.max_tokens,
+                    )
+                    model_used = self.fallback_model
+                except Exception as fallback_err:
+                    error_text = f"{primary_err} | {fallback_err}".lower()
+                    if "requires more credits" in error_text or "code: 402" in error_text:
+                        score, reason, flags, model_used = self._heuristic_fallback(
+                            title, snippet, query, icp_text
+                        )
+                        return score, reason, flags, model_used, prompt_fingerprint
+                    raise
 
             content = response.choices[0].message.content.strip()
 
