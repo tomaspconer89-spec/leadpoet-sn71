@@ -554,9 +554,16 @@ class DomainTool:
             )
             logging.getLogger(TOOL_NAME).info("🔍 Using Google Custom Search API for domain discovery")
 
+        openrouter_key = os.environ.get("OPENROUTER_KEY", "").strip()
         self.llm_scorer = LLMScorer(
-            api_key=os.environ["OPENROUTER_KEY"], semaphore_pool=self.semaphore_pool
+            api_key=openrouter_key, semaphore_pool=self.semaphore_pool
         )
+        if not openrouter_key:
+            # Force deterministic heuristic scoring when no OpenRouter key is provided.
+            self.llm_scorer.disable_llm = True
+            logging.getLogger(TOOL_NAME).warning(
+                "OPENROUTER_KEY missing; using heuristic scorer fallback."
+            )
         blocked_default = (
             "linkedin.com,facebook.com,instagram.com,youtube.com,reddit.com,quora.com,"
             "zoominfo.com,pitchbook.com,rocketreach.co,yelp.com"

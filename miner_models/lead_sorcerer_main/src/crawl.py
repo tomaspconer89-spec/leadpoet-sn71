@@ -208,12 +208,14 @@ class CrawlTool:
 
         # Initialize Firecrawl client
         self.firecrawl_key = os.environ.get("FIRECRAWL_KEY")
-        if not self.firecrawl_key:
-            raise ValueError("FIRECRAWL_KEY environment variable is required")
-
-        from firecrawl import Firecrawl
-
-        self.firecrawl_client = Firecrawl(api_key=self.firecrawl_key)
+        self.firecrawl_client = None
+        if self.firecrawl_key:
+            from firecrawl import Firecrawl
+            self.firecrawl_client = Firecrawl(api_key=self.firecrawl_key)
+        else:
+            self.logger.warning(
+                "FIRECRAWL_KEY not set; CrawlTool will use local trafilatura fallback only."
+            )
         # Global permit manager for concurrency control
         self.permit_manager = PermitManager(
             max_permits=3
@@ -1349,6 +1351,15 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 )
 
                 try:
+                    if not self.firecrawl_client:
+                        self.logger.info(
+                            f"FIRECRAWL_KEY missing for {domain}; using local crawl fallback"
+                        )
+                        return await self._extract_with_local_fallback(
+                            domain=domain,
+                            icp_config=icp_config,
+                            urls_to_extract=urls_to_extract,
+                        )
                     self.logger.info(
                         f"🤖 Calling Firecrawl v2 API with urls={urls_to_extract} and schema+prompt..."
                     )

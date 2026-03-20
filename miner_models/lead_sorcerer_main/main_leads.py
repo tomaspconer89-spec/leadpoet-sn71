@@ -429,11 +429,22 @@ else:
         Returns:
             List of leads in the format expected by the existing miner system
         """
-        # Check if required environment variables are set
-        required_env_vars = [
-            "GSE_API_KEY", "GSE_CX", "OPENROUTER_KEY", "FIRECRAWL_KEY"
-        ]
+        # Check required environment variables with provider-aware logic.
+        # Search provider can be one of:
+        # - SERPER_API_KEY
+        # - BRAVE_API_KEY
+        # - GSE_API_KEY + GSE_CX
+        search_provider_ok = bool(
+            os.getenv("SERPER_API_KEY")
+            or os.getenv("BRAVE_API_KEY")
+            or (os.getenv("GSE_API_KEY") and os.getenv("GSE_CX"))
+        )
+        required_env_vars = []
+        if os.getenv("OPENROUTER_DISABLE", "0") != "1":
+            required_env_vars.append("OPENROUTER_KEY")
         missing_vars = [var for var in required_env_vars if not os.getenv(var)]
+        if not search_provider_ok:
+            missing_vars.append("SERPER_API_KEY|BRAVE_API_KEY|GSE_API_KEY+GSE_CX")
 
         if missing_vars:
             print(
@@ -465,7 +476,6 @@ else:
                     "GSE_API_KEY": "Google Programmable Search API key → https://programmablesearchengine.google.com/",
                     "GSE_CX": "Google Custom Search engine ID (same place as GSE_API_KEY)",
                     "OPENROUTER_KEY": "OpenRouter API key → https://openrouter.ai/",
-                    "FIRECRAWL_KEY": "Firecrawl API key → https://firecrawl.dev/",
                 }.get(var, "Set a real value in .env")
                 print(f"   - {var}: {hint}")
             print("   Then restart the miner.")
