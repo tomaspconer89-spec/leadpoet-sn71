@@ -127,6 +127,9 @@ docker-compose.gateway.yml
 docker-compose.minio.yml
 .env
 
+# Hugging Face / local model cache (do not commit)
+hf_cache/
+
 # Company name cache (runtime file)
 validator_models/company_name_cache.json
 neurons/.pending_equivocation_check.json

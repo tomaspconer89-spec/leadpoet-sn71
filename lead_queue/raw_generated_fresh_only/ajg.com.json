@@ -1,0 +1,20 @@
+{
+  "domain": "ajg.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-20T12:39:11.216143Z",
+  "serp_results": [
+    {
+      "url": "https://www.ajg.com/about-us/executive-team/",
+      "title": "Executive Management Team - Gallagher",
+      "snippet": "Meet Gallagher's Executive Team. J. Patrick Gallagher, Jr. Chairman of the Board and Chief Executive Officer.",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-20T12:39:08.412888Z",
+      "domain": "ajg.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "03c54262004f914fd11e9cf21ad18588a357d275a3a9c50ed1c4890407a0fe19"
+}

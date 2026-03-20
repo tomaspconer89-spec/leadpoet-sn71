@@ -1,0 +1,20 @@
+{
+  "domain": "ceritypartners.com",
+  "queries": [
+    "venture consulting firm partner email"
+  ],
+  "fetched_at": "2026-03-20T12:39:11.215738Z",
+  "serp_results": [
+    {
+      "url": "https://ceritypartners.com/corporations/corporate-venture-capital/",
+      "title": "Corporate Venture Capital | Cerity Partners",
+      "snippet": "We partner with leading corporations to help launch and manage their venture capital programs. We've partnered with over 25 corporations, including:.",
+      "query": "venture consulting firm partner email",
+      "page_index": 1,
+      "rank_on_page": 7,
+      "fetched_at": "2026-03-20T12:38:58.122478Z",
+      "domain": "ceritypartners.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "0c8a1498407d528ad33a782acfe7c895e9ec2194d840948511494b77c9267d1e"
+}

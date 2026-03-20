@@ -1,0 +1,20 @@
+{
+  "domain": "medialink.com",
+  "queries": [
+    "management consulting firm director email"
+  ],
+  "fetched_at": "2026-03-20T12:39:11.216174Z",
+  "serp_results": [
+    {
+      "url": "https://www.medialink.com/",
+      "title": "MediaLink: Management Consulting",
+      "snippet": "MediaLink helps companies accelerate change and growth, with business practices spanning across media, advertising, investment, and emerging technologies.",
+      "query": "management consulting firm director email",
+      "page_index": 1,
+      "rank_on_page": 8,
+      "fetched_at": "2026-03-20T12:39:08.425321Z",
+      "domain": "medialink.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "b4ed3e41a953ef379a4cc786969a11be5482a8a99347eda5f5e76c96ec8441fa"
+}

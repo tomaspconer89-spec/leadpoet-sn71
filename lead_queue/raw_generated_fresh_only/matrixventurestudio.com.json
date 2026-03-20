@@ -1,0 +1,37 @@
+{
+  "crawled_at": "2026-03-20T12:39:53.006667Z",
+  "content_hash": "f71cd738d62b34d35d96ef7ea1eaedf1a9adc9844b83f2dad8dc83d162520e36",
+  "extracted_data": {
+    "company": {
+      "name": "Empowering Entrepreneurs and Startups in Canada",
+      "description": "Launch &amp; scale your startups in Canada and globally with our expert startup visa consulting, startup advisory, business acquisition services.",
+      "industry": "",
+      "sub_industry": "",
+      "hq_location": "",
+      "number_of_locations": 1,
+      "founded_year": null,
+      "employee_count": null,
+      "revenue_range": null,
+      "ownership_type": null,
+      "company_type": null,
+      "specialties": [],
+      "tech_stack": [],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "medium",
+        "timeline_indicator": "Timeline unclear",
+        "decision_maker_intent": "No decision maker statements found"
+      },
+      "emails": [
+        "info@matrixventurestudio.com"
+      ],
+      "phone_numbers": [],
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/matrixventurestudio"
+      }
+    },
+    "team_members": [],
+    "employees": []
+  }
+}

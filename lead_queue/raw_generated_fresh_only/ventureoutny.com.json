@@ -1,0 +1,38 @@
+{
+  "crawled_at": "2026-03-20T12:39:13.751359Z",
+  "content_hash": "12bc3fa71f9d7edb932cd25e4159b369812315eb00dfe274fab872afc2c56444",
+  "extracted_data": {
+    "company": {
+      "name": "Home",
+      "description": null,
+      "industry": "",
+      "sub_industry": "",
+      "hq_location": "",
+      "number_of_locations": 1,
+      "founded_year": null,
+      "employee_count": null,
+      "revenue_range": null,
+      "ownership_type": null,
+      "company_type": null,
+      "specialties": [],
+      "tech_stack": [],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "medium",
+        "timeline_indicator": "Timeline unclear",
+        "decision_maker_intent": "No decision maker statements found"
+      },
+      "emails": [
+        "info@ventureoutny.com",
+        "hello@ventureoutny.com"
+      ],
+      "phone_numbers": [],
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/ventureoutny"
+      }
+    },
+    "team_members": [],
+    "employees": []
+  }
+}

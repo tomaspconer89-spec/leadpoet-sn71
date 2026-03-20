@@ -1,0 +1,41 @@
+{
+  "crawled_at": "2026-03-20T12:39:38.798213Z",
+  "content_hash": "433072e78731a9b735adeffe193d48b542c0d8f77026088ced1970e6546a39e6",
+  "extracted_data": {
+    "company": {
+      "name": "GoEmerald",
+      "description": "GoEmerald to bridge business, technology and data. GoEmerald is a future and data obsessed innovation firm. Let",
+      "industry": "",
+      "sub_industry": "",
+      "hq_location": "",
+      "number_of_locations": 1,
+      "founded_year": null,
+      "employee_count": null,
+      "revenue_range": null,
+      "ownership_type": null,
+      "company_type": null,
+      "specialties": [],
+      "tech_stack": [],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "medium",
+        "timeline_indicator": "Timeline unclear",
+        "decision_maker_intent": "No decision maker statements found"
+      },
+      "emails": [
+        "hello@goemerald.ca",
+        "enquiries@goemerald.ca",
+        "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "8c4075d5481d476e945486754f783364@sentry.io",
+        "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com"
+      ],
+      "phone_numbers": [],
+      "socials": {
+        "linkedin": "https://www.linkedin.com/company/goemerald"
+      }
+    },
+    "team_members": [],
+    "employees": []
+  }
+}

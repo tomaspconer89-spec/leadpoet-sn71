@@ -1,0 +1,20 @@
+{
+  "domain": "smallbusinessadvisory.com",
+  "queries": [
+    "small business advisory firm team page"
+  ],
+  "fetched_at": "2026-03-20T12:39:11.215890Z",
+  "serp_results": [
+    {
+      "url": "https://smallbusinessadvisory.com/examples/",
+      "title": "About Us | Business Advisors - Business Advisory Group",
+      "snippet": "We are a not-for-profit, volunteer organization of experienced business leaders, dedicated to helping businesses and entrepreneurs overcome obstacles.",
+      "query": "small business advisory firm team page",
+      "page_index": 1,
+      "rank_on_page": 5,
+      "fetched_at": "2026-03-20T12:39:00.580373Z",
+      "domain": "smallbusinessadvisory.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "5c14230c6571e45753a1254af22fcc6e5067f099559cfe71557d81edaea992f9"
+}

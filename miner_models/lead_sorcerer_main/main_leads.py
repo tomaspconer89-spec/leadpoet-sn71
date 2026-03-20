@@ -179,6 +179,25 @@ else:
         """
         company = lead_record.get("company", {})
         contacts = lead_record.get("contacts", [])
+        # Fallback: many crawl outputs only populate extracted_data.team_members.
+        if not contacts:
+            team_members = (
+                (lead_record.get("extracted_data") or {}).get("team_members") or []
+            )
+            if isinstance(team_members, list):
+                normalized = []
+                for m in team_members:
+                    if not isinstance(m, dict):
+                        continue
+                    normalized.append({
+                        "full_name": m.get("name", ""),
+                        "first_name": "",
+                        "last_name": "",
+                        "email": m.get("email", ""),
+                        "role": m.get("role", ""),
+                        "linkedin": m.get("linkedin", ""),
+                    })
+                contacts = normalized
 
         # Get the best contact (prefer one with an email, then any contact)
         best_contact = None
@@ -363,15 +382,12 @@ else:
                                                 try:
                                                     lead_record = json.loads(
                                                         line)
-                                                    # Include leads that have contacts
-                                                    if (lead_record.get(
-                                                            "contacts"
-                                                    ) and len(
-                                                            lead_record.get(
-                                                                "contacts",
-                                                                [])) > 0
-                                                            and len(leads)
-                                                            < num_leads):
+                                                    # Include leads that have contacts OR extracted team members.
+                                                    has_contacts = bool(lead_record.get("contacts"))
+                                                    has_team = bool(
+                                                        (lead_record.get("extracted_data") or {}).get("team_members")
+                                                    )
+                                                    if ((has_contacts or has_team) and len(leads) < num_leads):
                                                         leads.append(
                                                             lead_record)
                                                 except json.JSONDecodeError:
@@ -389,12 +405,15 @@ else:
                                         if line.strip():
                                             try:
                                                 lead_record = json.loads(line)
-                                                # Only include leads that passed ICP checks and have contacts
+                                                # Include ICP-passing leads with contacts OR extracted team members.
+                                                has_contacts = bool(lead_record.get("contacts"))
+                                                has_team = bool(
+                                                    (lead_record.get("extracted_data") or {}).get("team_members")
+                                                )
                                                 if (lead_record.get(
                                                         "icp",
                                                     {}).get("pre_pass")
-                                                        and lead_record.get(
-                                                            "contacts")
+                                                        and (has_contacts or has_team)
                                                         and len(leads)
                                                         < num_leads):
                                                     leads.append(lead_record)

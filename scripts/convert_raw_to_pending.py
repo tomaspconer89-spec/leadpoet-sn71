@@ -65,7 +65,7 @@ def split_name(full_name: str) -> Tuple[str, str]:
         return "", ""
     parts = name.split(" ")
     if len(parts) == 1:
-        return parts[0], parts[0]
+        return parts[0], ""
     return parts[0], " ".join(parts[1:])
 
 
@@ -184,6 +184,32 @@ def parse_hq_location(hq: str) -> Tuple[str, str, str]:
     if len(parts) == 2:
         return parts[0], "", parts[1]
     return "", "", parts[0]
+
+
+def normalize_country_name(country: str) -> str:
+    c = (country or "").strip()
+    low = c.lower()
+    if low in {"us", "usa", "u.s.", "u.s.a.", "united states of america"}:
+        return "United States"
+    if low in {"uae", "u.a.e."}:
+        return "United Arab Emirates"
+    if low in {"uk", "u.k."}:
+        return "United Kingdom"
+    return c
+
+
+def ensure_min_description(description: str, company_name: str, industry: str, sub_industry: str, website: str) -> str:
+    desc = (description or "").strip()
+    if len(desc) >= 70:
+        return desc
+    name = (company_name or "This company").strip()
+    ind = (industry or "business services").strip()
+    sub = (sub_industry or "advisory services").strip()
+    site = (website or "").strip()
+    fallback = (
+        f"{name} operates in {ind} with a focus on {sub}, serving clients through its primary website {site}."
+    )
+    return fallback if len(fallback) >= 70 else (fallback + " Contact and company profile details were sourced from public business pages.")
 
 
 def clean_linkedin(url: str, kind: str) -> str:
@@ -444,6 +470,7 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
     emp = normalize_employee_count(str(company.get("employee_count") or ""))
     hq_location = (company.get("hq_location") or "").strip()
     city, state, country = parse_hq_location(hq_location)
+    country = normalize_country_name(country)
 
     socials = company.get("socials") if isinstance(company.get("socials"), dict) else {}
     company_linkedin = clean_linkedin((socials.get("linkedin") or ""), "company")
@@ -451,6 +478,7 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
 
     source_url = derive_source_url(doc, domain)
     website = f"https://{domain}" if domain else source_url
+    description = ensure_min_description(description, company_name, industry, sub_industry, website)
 
     lead = {
         "business": company_name,

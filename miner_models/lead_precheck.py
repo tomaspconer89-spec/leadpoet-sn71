@@ -54,7 +54,7 @@ NAME_BLOCKLIST = {
 
 MIN_ROLE_LEN = 2
 MAX_ROLE_LEN = 80
-MIN_DESC_LEN = 20
+MIN_DESC_LEN = 70
 MIN_NAME_MATCH_LEN = 3
 
 EMAIL_RE = re.compile(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")
@@ -92,6 +92,10 @@ def _check_name_sanity(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
             for w in words:
                 if w in NAME_BLOCKLIST:
                     return False, f"name_credential: {field} contains '{w}'"
+    first = _get(lead, "first")
+    last = _get(lead, "last")
+    if first and last and first.lower() == last.lower():
+        return False, "name_duplicate:first_last_same"
     return True, None
 
 
@@ -228,9 +232,22 @@ def _check_location(lead: Dict[str, Any]) -> Tuple[bool, Optional[str]]:
         return False, "country_empty"
     if not city:
         return False, "city_empty"
-    us_like = country.lower() in ("united states", "usa", "us", "u.s.", "u.s.a.")
+    city_low = city.lower().strip()
+    country_low = country.lower()
+    us_like = country_low in ("united states", "usa", "us", "u.s.", "u.s.a.")
+    uae_like = country_low in ("united arab emirates", "uae", "u.a.e.")
+
+    # Current gateway policy in this workspace allows only:
+    # - United States leads
+    # - UAE leads only when city is Dubai and state is empty
+    if not (us_like or (uae_like and city_low == "dubai")):
+        return False, "invalid_region_format"
     if us_like and not state:
         return False, "state_empty_for_usa"
+    if uae_like and state:
+        return False, "invalid_region_format"
+    if "," in city or "," in state:
+        return False, "invalid_region_format"
     return True, None
 
 

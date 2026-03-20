@@ -1,0 +1,48 @@
+{
+  "crawled_at": "2026-03-20T12:39:19.295679Z",
+  "content_hash": "ebb76428d8deb22f318b3b76e92bc06b5e648c682c64d0d4862a910ba95d5706",
+  "extracted_data": {
+    "company": {
+      "name": "The Startup Advisory",
+      "description": "Helping early-stage B2B SaaS Founders in the US &amp; Australia get sales-ready. Fractional Head of Sales from $3k/month. Pre-Seed to Series A.",
+      "industry": "",
+      "sub_industry": "",
+      "hq_location": "",
+      "number_of_locations": 1,
+      "founded_year": null,
+      "employee_count": null,
+      "revenue_range": null,
+      "ownership_type": null,
+      "company_type": null,
+      "specialties": [],
+      "tech_stack": [],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "medium",
+        "timeline_indicator": "Timeline unclear",
+        "decision_maker_intent": "No decision maker statements found"
+      },
+      "emails": [
+        "user@domain.com"
+      ],
+      "phone_numbers": [],
+      "socials": {
+        "linkedin": null
+      }
+    },
+    "team_members": [
+      {
+        "name": "Jasonbulger",
+        "role": "CEO",
+        "department": null,
+        "linkedin": "https://www.linkedin.com/in/jasonbulger",
+        "email": "user@domain.com",
+        "phone": null,
+        "location": null,
+        "decision_maker": true
+      }
+    ],
+    "employees": []
+  }
+}

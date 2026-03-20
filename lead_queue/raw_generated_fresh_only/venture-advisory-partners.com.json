@@ -1,0 +1,20 @@
+{
+  "domain": "venture-advisory-partners.com",
+  "queries": [
+    "venture consulting firm partner email"
+  ],
+  "fetched_at": "2026-03-20T12:39:11.215605Z",
+  "serp_results": [
+    {
+      "url": "https://www.venture-advisory-partners.com/en/about",
+      "title": "About Venture Advisory Partners",
+      "snippet": "Venture Advisory Partners is a Frankfurt-based M&A advisory firm. We primarily work with profitable growth companies, ranging from e-commerce businesses to mid ...",
+      "query": "venture consulting firm partner email",
+      "page_index": 1,
+      "rank_on_page": 4,
+      "fetched_at": "2026-03-20T12:38:58.069392Z",
+      "domain": "venture-advisory-partners.com"
+    }
+  ],
+  "scoring_prompt_fingerprint": "870ea061be76be2e23988efbe5a315c57ef77be07db777dda0c79ca862cdbf72"
+}
