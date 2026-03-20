@@ -7,7 +7,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
+
+# Allow execution from any cwd.
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
+from dotenv import load_dotenv
+load_dotenv(_REPO_ROOT / ".env")
 
 import bittensor as bt
 
@@ -18,6 +27,7 @@ from Leadpoet.utils.cloud_db import (
     gateway_upload_lead,
     gateway_verify_submission,
 )
+from miner_models.lead_precheck import precheck_lead
 
 
 def main() -> int:
@@ -27,7 +37,7 @@ def main() -> int:
     parser.add_argument("--max", type=int, default=100, help="Max pending leads to try")
     args = parser.parse_args()
 
-    queue_root = Path("lead_queue")
+    queue_root = _REPO_ROOT / "lead_queue"
     pending_dir = queue_root / "pending"
     submitted_dir = queue_root / "submitted"
     failed_dir = queue_root / "failed"
@@ -58,6 +68,12 @@ def main() -> int:
         linkedin_url = lead.get("linkedin", "")
         company_linkedin_url = lead.get("company_linkedin", "")
 
+        ok_precheck, precheck_reason = precheck_lead(lead)
+        if not ok_precheck:
+            print(f"Skipping precheck-failed lead: {business_name} ({precheck_reason})")
+            path.rename(failed_dir / path.name)
+            continue
+
         if check_email_duplicate(email):
             print(f"Skipping duplicate email: {business_name} ({email})")
             duplicate_count += 1
@@ -72,8 +88,11 @@ def main() -> int:
 
         presign_result = gateway_get_presigned_url(wallet, lead)
         if not presign_result:
-            print(f"Failed presign for {business_name}; gateway may be down. Stopping.")
-            break
+            print(
+                f"Failed presign for {business_name}; gateway/network issue. "
+                "Keeping in pending and trying next lead."
+            )
+            continue
 
         if not gateway_upload_lead(presign_result["s3_url"], lead):
             print(f"Failed S3 upload for {business_name}; keeping in queue.")

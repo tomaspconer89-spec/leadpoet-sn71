@@ -286,6 +286,7 @@ class Miner(BaseMinerNeuron):
                         gateway_upload_lead,
                         gateway_verify_submission
                     )
+                    from miner_models.lead_precheck import precheck_lead
                     
                     submitted_count = 0
                     verified_count = 0
@@ -305,6 +306,19 @@ class Miner(BaseMinerNeuron):
                             "attempt_started",
                             {"business": business_name, "queue_file": str(lead_path)},
                         )
+
+                        # Step -1: Local precheck BEFORE any gateway call.
+                        # Prevents burning gateway quota on leads that are known-invalid.
+                        ok_precheck, precheck_reason = precheck_lead(lead)
+                        if not ok_precheck:
+                            print(f"⏭️  Precheck failed: {business_name} ({precheck_reason})")
+                            save_audit_event(
+                                lead,
+                                "attempt_precheck_failed",
+                                {"business": business_name, "reason": precheck_reason},
+                            )
+                            lead_path.rename(failed_dir / lead_path.name)
+                            continue
                         
                         # Step 0: Check for duplicates BEFORE calling presign (saves time & rate limit)
                         # Check both email AND linkedin combo (person+company)

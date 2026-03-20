@@ -6,10 +6,10 @@
 set -e
 cd "$(dirname "$0")"
 
-# Prefer venv312, then venv
-if [ -d "venv312" ]; then
+# Prefer venv312, then venv (only if activate script exists)
+if [ -f "venv312/bin/activate" ]; then
   source venv312/bin/activate
-elif [ -d "venv" ]; then
+elif [ -f "venv/bin/activate" ]; then
   source venv/bin/activate
 else
   echo "No venv or venv312 found. Create one and install deps (e.g. pip install -e .)" >&2
@@ -21,6 +21,8 @@ export WALLET_HOTKEY="${WALLET_HOTKEY:-YOUR_HOTKEY_NAME}"
 export NETUID="${NETUID:-71}"
 export SUBTENSOR_NETWORK="${SUBTENSOR_NETWORK:-finney}"
 export PYTHONUNBUFFERED="${PYTHONUNBUFFERED:-1}"
+# Ensure local packages (Leadpoet/, miner_models/, neurons/) are importable.
+export PYTHONPATH="$PWD${PYTHONPATH:+:$PYTHONPATH}"
 
 # Load .env (if present) so gateway/API keys are available.
 # This repo's .env uses KEY=VALUE lines (not "export KEY=VALUE"), so we auto-export on source.
@@ -39,19 +41,10 @@ echo "  Wallet: $WALLET_NAME / $WALLET_HOTKEY"
 echo "  NetUID: $NETUID  Network: $SUBTENSOR_NETWORK"
 echo ""
 
-# Use installed CLI if available, otherwise run neurons/miner.py directly
-if command -v leadpoet &>/dev/null; then
-  exec leadpoet \
-    --wallet_name "$WALLET_NAME" \
-    --wallet_hotkey "$WALLET_HOTKEY" \
-    --netuid "$NETUID" \
-    --subtensor_network "$SUBTENSOR_NETWORK" \
-    "$@"
-else
-  exec python -u neurons/miner.py \
-    --wallet_name "$WALLET_NAME" \
-    --wallet_hotkey "$WALLET_HOTKEY" \
-    --netuid "$NETUID" \
-    --subtensor_network "$SUBTENSOR_NETWORK" \
-    "$@"
-fi
+# Run miner module directly to avoid stale/broken entrypoint shebangs.
+exec python -u neurons/miner.py \
+  --wallet_name "$WALLET_NAME" \
+  --wallet_hotkey "$WALLET_HOTKEY" \
+  --netuid "$NETUID" \
+  --subtensor_network "$SUBTENSOR_NETWORK" \
+  "$@"

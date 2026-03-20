@@ -27,7 +27,7 @@ SUPABASE_ANON_KEY = (
     "cm9sZSI6ImFub24iLCJpYXQiOjE3NDQ4NDcwMDUsImV4cCI6MjA2MDQyMzAwNX0."
     "5E0WjAthYDXaCWY6qjzXm2k20EhadWfigak9hleKZk8"
 )
-GATEWAY_URL = os.getenv("GATEWAY_URL", "http://54.226.209.164:8000")
+GATEWAY_URL = os.getenv("GATEWAY_URL", "http://52.91.135.79:8000")
 
 
 def _headers():
