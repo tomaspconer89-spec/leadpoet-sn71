@@ -1,0 +1,43 @@
+{
+  "crawled_at": "2026-03-19T04:18:21.416196Z",
+  "content_hash": "4fdf09569b3f8ebaf637ec6cd15888f79db5bfb18e3ef8ab54112e5d9b125b48",
+  "extracted_data": {
+    "company": {
+      "name": "The Harding Group, Inc.",
+      "description": "We help small businesses thrive by offering expert business, accounting, and tax support.",
+      "industry": "Professional Services",
+      "sub_industry": "Business Advising",
+      "hq_location": "Annapolis, MD, USA",
+      "number_of_locations": 0,
+      "founded_year": 2006,
+      "employee_count": "Not specified",
+      "revenue_range": "Not specified",
+      "ownership_type": "Private",
+      "company_type": "Corp",
+      "specialties": [
+        "Business Advising",
+        "Tax Planning and Preparation",
+        "Bookkeeping and Accounting",
+        "Payroll",
+        "Training and Support for QuickBooks",
+        "Start-ups",
+        "Service-Based Businesses",
+        "Technology Firms"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [],
+        "intent_category": "low"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Marla Harding",
+        "role": "Owner",
+        "email": "marla@thehardinggroup.biz",
+        "phone": "410-573-9991",
+        "decision_maker": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "crawled_at": "2026-03-17T16:15:49.593051Z",
+  "content_hash": "c0fb483037a3a24eadfc1683cc713ab6e6fea3d0f1d510c31f62211e27c5cbc5",
+  "extracted_data": {
+    "company": {
+      "name": "Founder Advisors",
+      "description": "The world's first startup Advisory Team as a Service (ATaaS), providing proactive coaching, mentoring, and business guidance to startup founders.",
+      "industry": "Business Services",
+      "sub_industry": "Startup Advisory and Consulting",
+      "hq_location": "Boulder, CO, USA",
+      "number_of_locations": 0,
+      "founded_year": 0,
+      "employee_count": "null",
+      "revenue_range": "null",
+      "ownership_type": "null",
+      "company_type": "null",
+      "specialties": [
+        "Startup advisory",
+        "Business consulting",
+        "Mentoring services",
+        "Access to capital investment networks",
+        "Market access",
+        "Team support"
+      ],
+      "intent": {
+        "business_intent_score": 0.8,
+        "intent_signals": [
+          "\"proactive in helping you anticipate and overcome challenges\"",
+          "\"access to our combined professional networks\"",
+          "\"schedule a free advisory session\""
+        ],
+        "intent_category": "high"
+      }
+    },
+    "team_members": [
+      {
+        "name": "Roger Toennis",
+        "role": "Founder",
+        "email": "Roger.Toennis@FounderAdvisors.Tech",
+        "phone": "+1 303-522-5477",
+        "decision_maker": true
+      }
+    ]
+  }
+}

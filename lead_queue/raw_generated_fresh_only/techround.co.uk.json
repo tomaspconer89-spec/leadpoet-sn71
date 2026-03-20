@@ -1,0 +1,42 @@
+{
+  "crawled_at": "2026-03-17T16:17:14.609024Z",
+  "content_hash": "49b31ab050cd26c2d9d70ff9dd479f4c45c10df6d6e0eaca57a5a6687f8b508f",
+  "extracted_data": {
+    "company": {
+      "name": "TechRound",
+      "description": "Your Daily Dose Of Global Tech And Startup News.",
+      "industry": "Media",
+      "sub_industry": "News and Online Publications",
+      "hq_location": "London, United Kingdom",
+      "number_of_locations": 1,
+      "founded_year": 2022,
+      "employee_count": ">10",
+      "revenue_range": "Not specified",
+      "ownership_type": "Private",
+      "company_type": "LLC",
+      "specialties": [
+        "Startup news",
+        "Tech news",
+        "Business resources",
+        "Entrepreneur guidance",
+        "Advisory services"
+      ],
+      "intent": {
+        "business_intent_score": 0.5,
+        "intent_signals": [
+          "No explicit statements indicating intent to sell, grow or partner found."
+        ],
+        "intent_category": "low"
+      }
+    },
+    "team_members": [
+      {
+        "name": "David",
+        "role": "Contact",
+        "email": "David@TechRound.co.uk",
+        "phone": "/",
+        "decision_maker": true
+      }
+    ]
+  }
+}

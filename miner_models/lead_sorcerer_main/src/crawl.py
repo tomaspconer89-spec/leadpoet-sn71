@@ -216,6 +216,13 @@ class CrawlTool:
             self.logger.warning(
                 "FIRECRAWL_KEY not set; CrawlTool will use local trafilatura fallback only."
             )
+        # Crawl4AI local API (preferred when available)
+        self.crawl4ai_api_url = os.environ.get(
+            "CRAWL4AI_API_URL", "http://127.0.0.1:11235/scrape"
+        ).strip()
+        self.use_crawl4ai_first = (
+            os.environ.get("USE_CRAWL4AI_FIRST", "1").strip() != "0"
+        )
         # Global permit manager for concurrency control
         self.permit_manager = PermitManager(
             max_permits=3
@@ -1351,6 +1358,21 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 )
 
                 try:
+                    # Preferred path: local Crawl4AI API
+                    if self.use_crawl4ai_first and self.crawl4ai_api_url:
+                        self.logger.info(
+                            f"🕷️ Trying Crawl4AI API first for {domain}: {self.crawl4ai_api_url}"
+                        )
+                        crawl4ai_data = await self._extract_with_crawl4ai_api(
+                            domain=domain,
+                            urls_to_extract=urls_to_extract,
+                        )
+                        if crawl4ai_data:
+                            self.logger.info(
+                                f"✅ Crawl4AI API extraction successful for {domain}"
+                            )
+                            return crawl4ai_data
+
                     if not self.firecrawl_client:
                         self.logger.info(
                             f"FIRECRAWL_KEY missing for {domain}; using local crawl fallback"
@@ -1493,6 +1515,73 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
 
             except Exception as exc:
                 raise Exception(f"Firecrawl v2 scrape failed: {exc}")
+
+    async def _extract_with_crawl4ai_api(
+        self,
+        domain: str,
+        urls_to_extract: List[str],
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Use local Crawl4AI service to scrape a primary URL and map output
+        into the structure expected by downstream processing.
+        """
+        if not self.crawl4ai_api_url:
+            return None
+
+        target_url = urls_to_extract[0] if urls_to_extract else f"https://{domain}"
+        payload = json.dumps({"url": target_url, "timeout_ms": 45000}).encode("utf-8")
+        req = Request(
+            self.crawl4ai_api_url,
+            data=payload,
+            headers={"Content-Type": "application/json", "Accept": "application/json"},
+            method="POST",
+        )
+
+        try:
+            response_data = await asyncio.to_thread(
+                lambda: json.loads(urlopen(req, timeout=20).read().decode("utf-8"))
+            )
+        except Exception as exc:
+            self.logger.warning(f"Crawl4AI API unavailable for {domain}: {exc}")
+            return None
+
+        if not isinstance(response_data, dict) or not response_data.get("success"):
+            self.logger.warning(f"Crawl4AI API returned unsuccessful response for {domain}")
+            return None
+
+        markdown = str(response_data.get("markdown") or "")
+        title = str(response_data.get("title") or domain)
+        links = response_data.get("links") or []
+        if not isinstance(links, list):
+            links = []
+
+        # Minimal structured payload compatible with existing downstream fields.
+        return {
+            "company": {
+                "name": title[:120] if title else domain,
+                "description": markdown[:1000] if markdown else "",
+                "industry": "",
+                "sub_industry": "",
+                "hq_location": "",
+                "number_of_locations": 1,
+                "founded_year": None,
+                "employee_count": "",
+                "revenue_range": "",
+                "ownership_type": "",
+                "company_type": "",
+                "specialties": [],
+                "intent": {
+                    "business_intent_score": 0.5,
+                    "intent_signals": [],
+                    "intent_category": "medium",
+                },
+            },
+            "team_members": [],
+            "crawl4ai": {
+                "url": target_url,
+                "links_count": len(links),
+            },
+        }
 
     def _is_firecrawl_credit_error(self, exc: Exception) -> bool:
         """
