@@ -46,6 +46,32 @@ _industry_pipeline = None
 _email_intent_pipeline = None
 
 
+def _heuristic_email_intent(text: str) -> Tuple[Optional[str], float]:
+    """
+    Lightweight fallback when the HF email-intent model is unavailable.
+    """
+    s = (text or "").lower()
+    if not s.strip():
+        return None, 0.0
+    promo_markers = (
+        "sale",
+        "discount",
+        "offer",
+        "limited time",
+        "promo",
+        "promotion",
+        "buy now",
+        "coupon",
+        "deal",
+    )
+    if any(m in s for m in promo_markers):
+        return "PROMOTION", 0.65
+    meeting_markers = ("schedule", "meeting", "demo", "call", "book time")
+    if any(m in s for m in meeting_markers):
+        return "MEETING", 0.55
+    return "INFO", 0.50
+
+
 def _get_industry_pipeline():
     global _industry_pipeline
     if _industry_pipeline is not None:
@@ -117,7 +143,12 @@ def predict_email_intent(text: str) -> Tuple[Optional[str], float]:
     Returns (label, score) or (None, 0.0) if model unavailable.
     """
     pipe = _get_email_intent_pipeline()
-    if not pipe or not text or not text.strip():
+    if not text or not text.strip():
+        return None, 0.0
+    if not pipe:
+        # If HF filter is enabled but model load failed, keep filtering behavior via heuristic.
+        if os.getenv("USE_HF_EMAIL_INTENT_FILTER", "0") == "1":
+            return _heuristic_email_intent(text)
         return None, 0.0
     try:
         snippet = (text.strip()[:512] or "message")
@@ -136,9 +167,6 @@ def should_filter_lead_by_intent(lead_description: str, business_name: str = "")
     Return True if lead should be filtered out based on email intent (e.g. PROMOTION = spam).
     Only active when USE_HF_EMAIL_INTENT_FILTER=1 and model loaded.
     """
-    pipe = _get_email_intent_pipeline()
-    if not pipe:
-        return False
     text = f"{business_name} {lead_description}".strip() or "lead"
     label, _ = predict_email_intent(text)
     if label and label in EMAIL_INTENT_EXCLUDE:

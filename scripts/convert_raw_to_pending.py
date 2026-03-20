@@ -16,12 +16,22 @@ import urllib.request
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from dotenv import load_dotenv
 from miner_models.lead_precheck import precheck_lead
+from validator_models.industry_taxonomy import INDUSTRY_TAXONOMY
+
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(_REPO_ROOT / ".env")
 
 
 VALID_EMPLOYEE_COUNTS = {
     "0-1", "2-10", "11-50", "51-200", "201-500",
     "501-1,000", "1,001-5,000", "5,001-10,000", "10,001+",
+}
+
+GENERIC_EMAIL_PREFIXES = {
+    "info", "hello", "contact", "support", "admin", "office", "team",
+    "sales", "enquiries", "inquiries", "mail", "help", "hi",
 }
 
 
@@ -57,6 +67,108 @@ def split_name(full_name: str) -> Tuple[str, str]:
     if len(parts) == 1:
         return parts[0], parts[0]
     return parts[0], " ".join(parts[1:])
+
+
+def is_generic_email(email: str) -> bool:
+    e = (email or "").strip().lower()
+    if "@" not in e:
+        return True
+    local = e.split("@", 1)[0]
+    return local in GENERIC_EMAIL_PREFIXES
+
+
+def score_person(candidate: Dict[str, Any]) -> int:
+    """
+    Higher score = better chance of passing precheck.
+    Prefer person-like (non-generic) email + full name.
+    """
+    if not isinstance(candidate, dict):
+        return -1
+    email = (candidate.get("email") or "").strip()
+    name = (candidate.get("name") or "").strip()
+    first, last = split_name(name)
+    score = 0
+    if email and "@" in email:
+        score += 1
+        if not is_generic_email(email):
+            score += 4
+    if name:
+        score += 1
+    if first and last:
+        score += 2
+    if candidate.get("decision_maker") is True:
+        score += 1
+    return score
+
+
+def name_matches_email(name: str, email: str) -> bool:
+    n = " ".join((name or "").strip().lower().split())
+    e = (email or "").strip().lower()
+    if not n or "@" not in e:
+        return False
+    local = re.sub(r"[^a-z0-9]", "", e.split("@", 1)[0])
+    parts = [re.sub(r"[^a-z0-9]", "", p) for p in n.split(" ") if p.strip()]
+    if not parts:
+        return False
+    first = parts[0]
+    last = parts[-1] if len(parts) > 1 else ""
+    patterns = [first, last, f"{first}{last}"]
+    if first and last:
+        patterns.extend([f"{first[0]}{last}", f"{last}{first[0]}"])
+    patterns = [p for p in patterns if len(p) >= 3]
+    return any(p in local for p in patterns)
+
+
+def pick_best_person(team: List[Dict[str, Any]]) -> Dict[str, Any]:
+    if not team:
+        return {}
+    valid = [t for t in team if isinstance(t, dict)]
+    if not valid:
+        return {}
+    matched = [
+        t for t in valid
+        if name_matches_email((t.get("name") or "").strip(), (t.get("email") or "").strip())
+    ]
+    if matched:
+        return max(matched, key=score_person)
+    return max(valid, key=score_person)
+
+
+def normalize_sub_industry_and_industry(sub_industry: str, industry: str) -> Tuple[str, str]:
+    sub = (sub_industry or "").strip()
+    ind = (industry or "").strip()
+    if not sub:
+        return sub, ind
+
+    # Exact key match first
+    exact_key = next((k for k in INDUSTRY_TAXONOMY if k.lower() == sub.lower()), None)
+    if exact_key:
+        valid_inds = INDUSTRY_TAXONOMY[exact_key].get("industries", [])
+        if valid_inds and not any(i.lower() == ind.lower() for i in valid_inds):
+            ind = valid_inds[0]
+        return exact_key, ind
+
+    # Fuzzy contains match for common variants (e.g. "Startup Advisory Services")
+    sub_low = sub.lower()
+    contains_key = next(
+        (k for k in INDUSTRY_TAXONOMY if sub_low in k.lower() or k.lower() in sub_low),
+        None,
+    )
+    if contains_key:
+        valid_inds = INDUSTRY_TAXONOMY[contains_key].get("industries", [])
+        if valid_inds and not any(i.lower() == ind.lower() for i in valid_inds):
+            ind = valid_inds[0]
+        return contains_key, ind
+
+    # Heuristic fallback for advisory/consulting phrases to taxonomy-safe value.
+    if any(tok in sub_low for tok in ("advisory", "consult", "consulting", "advisor")):
+        fallback = "Management Consulting"
+        valid_inds = INDUSTRY_TAXONOMY[fallback].get("industries", [])
+        if valid_inds:
+            ind = valid_inds[0]
+        return fallback, ind
+
+    return sub, ind
 
 
 def parse_hq_location(hq: str) -> Tuple[str, str, str]:
@@ -150,9 +262,16 @@ def apify_search_urls(query: str) -> List[str]:
     if not token:
         return []
     actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "apify/google-search-scraper").strip()
-    run_url = f"https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items?token={urllib.parse.quote(token)}"
+    if "/" in actor_id and "~" not in actor_id:
+        actor_id = actor_id.replace("/", "~", 1)
+    run_url = (
+        "https://api.apify.com/v2/acts/"
+        f"{urllib.parse.quote(actor_id, safe='~')}/run-sync-get-dataset-items"
+        f"?token={urllib.parse.quote(token)}"
+    )
     payload = {
-        "queries": [query],
+        # google-search-scraper expects queries as a string
+        "queries": query,
         "resultsPerPage": 10,
         "maxPagesPerQuery": 1,
         "mobileResults": False,
@@ -307,7 +426,7 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
     if not isinstance(team, list):
         team = []
 
-    best_person = team[0] if team else {}
+    best_person = pick_best_person(team) if team else {}
     if not isinstance(best_person, dict):
         best_person = {}
 
@@ -321,6 +440,7 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
     description = (company.get("description") or "").strip()
     industry = (company.get("industry") or "").strip()
     sub_industry = (company.get("sub_industry") or "").strip()
+    sub_industry, industry = normalize_sub_industry_and_industry(sub_industry, industry)
     emp = normalize_employee_count(str(company.get("employee_count") or ""))
     hq_location = (company.get("hq_location") or "").strip()
     city, state, country = parse_hq_location(hq_location)
@@ -358,8 +478,14 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
     }
 
     # Reject obviously incomplete mappings early.
-    required_min = ["business", "full_name", "email", "industry", "sub_industry", "country", "city"]
+    # Also avoid generic inbox contacts that fail precheck quality gates.
+    required_min = [
+        "business", "full_name", "first", "last", "email",
+        "industry", "sub_industry", "country", "city"
+    ]
     if any(not str(lead.get(k, "")).strip() for k in required_min):
+        return None
+    if is_generic_email(lead.get("email", "")):
         return None
     return lead
 

@@ -550,7 +550,7 @@ else:
                         encoded_actor_id = quote(normalized_actor_id, safe="~")
 
                         # Apify REST: /v2/acts/:actorId/run-sync-get-dataset-items
-                        # Input schema for google-search-scraper uses `query` + `amount`.
+                        # Input schema for google-search-scraper expects `queries` as string.
                         endpoint = f"https://api.apify.com/v2/acts/{encoded_actor_id}/run-sync-get-dataset-items"
                         params = {
                             "token": token,
@@ -560,7 +560,12 @@ else:
                             "limit": amount,
                         }
 
-                        payload = {"query": query, "amount": amount}
+                        payload = {
+                            "queries": query,
+                            "maxPagesPerQuery": 1,
+                            "resultsPerPage": amount,
+                            "mobileResults": False,
+                        }
 
                         async with httpx.AsyncClient(timeout=75) as client:
                             resp = await client.post(

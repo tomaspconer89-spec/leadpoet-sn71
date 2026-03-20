@@ -2,14 +2,14 @@
   "name": "Startup Advisory Services - Test ICP",
   "icp_text": "Small startup advisory and consulting firms with founder and advisor contact information for business development and partnership opportunities.",
   "queries": [
-    "startup advisory services founder contact",
-    "business consulting firm advisor email",
-    "SaaS startup CEO contact information",
-    "venture consulting firm partner email",
-    "small business advisory firm team page",
-    "tech startup founder contact page",
-    "management consulting firm director email",
-    "digital marketing agency founder contact"
+    "startup advisory firm leadership team",
+    "startup advisory company about us team",
+    "venture consulting firm partner profile",
+    "business consulting boutique founder bio",
+    "startup consulting contact founder",
+    "growth advisory firm management team",
+    "fractional cfo advisory firm team page",
+    "site:linkedin.com/company startup advisory firm"
   ],
   "specific_urls": [],
   "default_contact_linkedin": "",
@@ -21,7 +21,7 @@
     "company": ["hq_location", "revenue_range", "employee_count", "specialties", "founded_year", "company_type", "number_of_locations", "ownership_type"],
     "contact": ["phone", "linkedin_url", "decision_maker", "department", "seniority"]
   },
-  "threshold": 0.3,
+  "threshold": 0.45,
   "filtering_strict": false,
   "mode": "fast",
   "refresh_policy": {
@@ -35,8 +35,8 @@
     "max_concurrent_requests": 3
   },
   "search": {
-    "max_pages": 5,
-    "max_results_per_query": 50
+    "max_pages": 2,
+    "max_results_per_query": 20
   },
   "testing": {
     "process_rejected": true,
@@ -69,7 +69,7 @@
   "exclusion_criteria": {
     "ownership_types": [],
     "max_locations": 10000,
-    "excluded_keywords": []
+    "excluded_keywords": ["directory", "listicle", "job board", "marketplace", "aggregator"]
   },
   "targeting": {
     "location_types": ["headquarters", "single_location"],
