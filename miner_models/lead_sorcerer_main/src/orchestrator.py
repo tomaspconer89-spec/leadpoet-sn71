@@ -75,13 +75,16 @@ class LeadSorcererOrchestrator:
         # Resolve data directory
         self.data_dir = self._resolve_data_dir()
 
-        # Establish a single shared log file for this run
-        logs_dir = Path(self.data_dir) / "logs"
-        logs_dir.mkdir(parents=True, exist_ok=True)
-        run_timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M")
-        shared_log_file = str(logs_dir / f"run_{run_timestamp}.log")
-        # Expose to child tools via env so all use the same file
-        os.environ["LEADSORCERER_LOG_FILE"] = shared_log_file
+        # Establish a single shared log file for this run.
+        # Respect caller-provided LEADSORCERER_LOG_FILE when present.
+        shared_log_file = (os.environ.get("LEADSORCERER_LOG_FILE") or "").strip()
+        if not shared_log_file:
+            logs_dir = Path(self.data_dir) / "logs"
+            logs_dir.mkdir(parents=True, exist_ok=True)
+            run_timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M")
+            shared_log_file = str(logs_dir / f"run_{run_timestamp}.log")
+            # Expose to child tools via env so all use the same file
+            os.environ["LEADSORCERER_LOG_FILE"] = shared_log_file
 
         # Setup logging after data_dir is resolved, using the shared log file
         self.logger = setup_logging("orchestrator",

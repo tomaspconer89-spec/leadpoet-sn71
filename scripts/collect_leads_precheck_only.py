@@ -14,6 +14,7 @@ import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 _REPO = Path(__file__).resolve().parent.parent
 if str(_REPO) not in sys.path:
@@ -26,7 +27,10 @@ load_dotenv(_REPO / ".env")
 
 def _miner_log_path() -> Path:
     raw = (os.environ.get("MINER_LOG_FILE") or "").strip()
-    return Path(raw) if raw else (_REPO / "miner.log")
+    if not raw:
+        return _REPO / "miner.log"
+    p = Path(raw)
+    return p if p.is_absolute() else (_REPO / p)
 
 
 def append_work_status(message: str) -> None:
@@ -38,8 +42,10 @@ def append_work_status(message: str) -> None:
         ensure_ascii=True,
     )
     try:
+        log_path.parent.mkdir(parents=True, exist_ok=True)
         with open(log_path, "a", encoding="utf-8") as f:
             f.write(line + "\n")
+            f.flush()
     except OSError:
         pass
 
@@ -54,6 +60,30 @@ def _queue_key(lead: dict) -> str:
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
 
 
+_BLOCK_REASONS = ("general_purpose_email:", "free_email_domain:")
+
+
+def _domain_from_url(raw: str) -> str:
+    if not raw:
+        return ""
+    val = str(raw).strip()
+    if not val:
+        return ""
+    parsed = urlparse(val if "://" in val else f"https://{val}")
+    host = (parsed.hostname or "").lower().strip()
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+def _lead_domain(lead: dict) -> str:
+    return (
+        _domain_from_url(lead.get("website", ""))
+        or _domain_from_url(lead.get("source_url", ""))
+        or _domain_from_url(lead.get("business_website", ""))
+    )
+
+
 async def _run(
     num: int,
     industry: str | None,
@@ -61,8 +91,26 @@ async def _run(
     target_pass: int | None,
     max_runs: int,
 ) -> int:
-    from miner_models.lead_sorcerer_main.main_leads import get_leads
-    from miner_models.lead_precheck import precheck_lead
+    # Force Lead Sorcerer tool logs into miner.log unless caller overrides explicitly.
+    os.environ.setdefault("LEADSORCERER_LOG_FILE", str(_miner_log_path()))
+
+    append_work_status(
+        "collect_leads_precheck_only START "
+        f"num={num} industry={industry!r} target_pass={target_pass} max_runs={max_runs} "
+        f"log={_miner_log_path()} leadsorcerer_log={os.environ.get('LEADSORCERER_LOG_FILE')}"
+    )
+
+    try:
+        from miner_models.lead_sorcerer_main.main_leads import get_leads
+        from miner_models.lead_precheck import precheck_lead
+    except Exception as e:
+        msg = (
+            "collect_leads_precheck_only ERROR "
+            f"dependency_import_failed={type(e).__name__}: {e}"
+        )
+        append_work_status(msg)
+        print(f"Dependency import failed: {e}")
+        return 1
 
     _conv = _REPO / "scripts" / "convert_raw_to_pending.py"
     if _conv.is_file():
@@ -79,20 +127,36 @@ async def _run(
     pass_dir.mkdir(parents=True, exist_ok=True)
     fail_dir.mkdir(parents=True, exist_ok=True)
 
-    append_work_status(
-        "collect_leads_precheck_only START "
-        f"num={num} industry={industry!r} target_pass={target_pass} max_runs={max_runs} "
-        f"log={_miner_log_path()}"
-    )
-
     ok_n = 0
     bad_n = 0
+    skipped_blocked_n = 0
     runs = 0
     existing_pass = len(list(pass_dir.glob("*.json")))
+    blocked_domains: set[str] = set()
+
+    for path in fail_dir.glob("*.precheck_failed.json"):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            reason = str(payload.get("reason", "")).strip()
+            if not reason.startswith(_BLOCK_REASONS):
+                continue
+            lead_obj = payload.get("lead", {}) if isinstance(payload, dict) else {}
+            if not isinstance(lead_obj, dict):
+                continue
+            dom = _lead_domain(lead_obj)
+            if dom:
+                blocked_domains.add(dom)
+        except Exception:
+            continue
 
     def _process_batch(leads: list) -> None:
-        nonlocal ok_n, bad_n
+        nonlocal ok_n, bad_n, skipped_blocked_n
         for lead in leads:
+            dom = _lead_domain(lead)
+            if dom and dom in blocked_domains:
+                skipped_blocked_n += 1
+                print(f"  SKIP blocked domain: {dom}")
+                continue
             if enrich_linkedin_fields is not None:
                 try:
                     lead = enrich_linkedin_fields(dict(lead))
@@ -113,6 +177,10 @@ async def _run(
                 payload = {"reason": reason, "business": business, "lead": lead}
                 path.write_text(json.dumps(payload, ensure_ascii=True, indent=2))
                 print(f"  FAIL precheck: {business} ({reason}) -> {path.name}")
+                if str(reason).startswith(_BLOCK_REASONS):
+                    dom = _lead_domain(lead)
+                    if dom:
+                        blocked_domains.add(dom)
                 bad_n += 1
 
     if target_pass is None:
@@ -147,7 +215,10 @@ async def _run(
                 )
                 break
 
-    print(f"Done. New precheck pass this session: {ok_n}, new fail: {bad_n}")
+    print(
+        f"Done. New precheck pass this session: {ok_n}, "
+        f"new fail: {bad_n}, skipped_blocked_domain: {skipped_blocked_n}"
+    )
     print(f"Pass dir: {pass_dir}")
     print(f"Fail dir: {fail_dir}")
     append_work_status(

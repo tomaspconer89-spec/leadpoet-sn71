@@ -1,5 +1,5 @@
 {
-  "reason": "general_purpose_email:info@",
+  "reason": "missing_required_fields: linkedin",
   "business": "Futurist Speakers: Best Keynote Speaker, Trends Expert Scott Steinberg",
   "lead": {
     "business": "Futurist Speakers: Best Keynote Speaker, Trends Expert Scott Steinberg",
@@ -13,7 +13,7 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "role": "Contact",
-    "linkedin": "https://www.linkedin.com/in/technologyexpert",
+    "linkedin": "",
     "region": "",
     "founded_year": "",
     "ownership_type": "",

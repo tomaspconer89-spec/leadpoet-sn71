@@ -642,7 +642,10 @@ else:
                             )
                         )
 
+                    apify_paywalled = False
+
                     async def _apify_search(query: str, amount: int = 10) -> List[Any]:
+                        nonlocal apify_paywalled
                         token = os.getenv("APIFY_API_TOKEN", "").strip()
                         actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "").strip()
                         if not token or not actor_id:
@@ -677,19 +680,98 @@ else:
                         }
 
                         async with httpx.AsyncClient(timeout=75) as client:
-                            resp = await client.post(
-                                endpoint, params=params, json=payload
-                            )
-                            resp.raise_for_status()
-                            # Response body is a JSON array: dataset items
-                            return resp.json() if resp.content else []
+                            try:
+                                resp = await client.post(
+                                    endpoint, params=params, json=payload
+                                )
+                                resp.raise_for_status()
+                                # Response body is a JSON array: dataset items
+                                return resp.json() if resp.content else []
+                            except httpx.HTTPStatusError as exc:
+                                if exc.response is not None and exc.response.status_code == 402:
+                                    apify_paywalled = True
+                                    print(
+                                        "⚠️ Apify returned 402 (payment required); "
+                                        "falling back to other enrichment providers."
+                                    )
+                                return []
+                            except Exception:
+                                return []
+
+                    async def _fallback_search(query: str, amount: int = 10) -> List[Any]:
+                        encoded_q = quote(query)
+                        async with httpx.AsyncClient(timeout=45) as client:
+                            # 1) Harvest API
+                            harvest_key = os.getenv("HARVEST_API_KEY", "").strip()
+                            if harvest_key:
+                                try:
+                                    resp = await client.get(
+                                        f"https://api.harvest-api.com/linkedin/profile-search?search={encoded_q}",
+                                        headers={"X-API-Key": harvest_key, "Accept": "application/json"},
+                                    )
+                                    resp.raise_for_status()
+                                    data = resp.json() if resp.content else []
+                                    if data:
+                                        return data if isinstance(data, list) else [data]
+                                except Exception:
+                                    pass
+
+                            # 2) Serper
+                            serper_key = os.getenv("SERPER_API_KEY", "").strip()
+                            if serper_key:
+                                try:
+                                    resp = await client.post(
+                                        "https://google.serper.dev/search",
+                                        headers={"X-API-KEY": serper_key, "Content-Type": "application/json"},
+                                        json={"q": query, "num": amount},
+                                    )
+                                    resp.raise_for_status()
+                                    data = resp.json() if resp.content else {}
+                                    if data:
+                                        return data if isinstance(data, list) else [data]
+                                except Exception:
+                                    pass
+
+                            # 3) Brave Search
+                            brave_key = os.getenv("BRAVE_API_KEY", "").strip()
+                            if brave_key:
+                                try:
+                                    resp = await client.get(
+                                        "https://api.search.brave.com/res/v1/web/search",
+                                        headers={"X-Subscription-Token": brave_key, "Accept": "application/json"},
+                                        params={"q": query, "count": amount},
+                                    )
+                                    resp.raise_for_status()
+                                    data = resp.json() if resp.content else {}
+                                    if data:
+                                        return data if isinstance(data, list) else [data]
+                                except Exception:
+                                    pass
+
+                            # 4) Google Custom Search (GSE)
+                            gse_key = os.getenv("GSE_API_KEY", "").strip()
+                            gse_cx = os.getenv("GSE_CX", "").strip()
+                            if gse_key and gse_cx:
+                                try:
+                                    resp = await client.get(
+                                        "https://www.googleapis.com/customsearch/v1",
+                                        params={"key": gse_key, "cx": gse_cx, "q": query, "num": min(amount, 10)},
+                                    )
+                                    resp.raise_for_status()
+                                    data = resp.json() if resp.content else {}
+                                    if data:
+                                        return data if isinstance(data, list) else [data]
+                                except Exception:
+                                    pass
+
+                        return []
 
                     def _extract_linkedin_urls(obj: Any) -> List[str]:
                         urls: List[str] = []
                         if isinstance(obj, str):
                             urls.extend(
                                 re.findall(
-                                    r"https?://(?:www\.)?linkedin\.com/(in|company)/[^\"'\s<>?#]+",
+                                    r"https?://(?:www\.)?linkedin\.com/(?:in|company)/[^\"'\s<>?#]+",
                                     obj,
                                     flags=re.I,
                                 )
@@ -740,6 +822,11 @@ else:
                                 f'site:linkedin.com/company "{business}"',
                                 amount=10,
                             )
+                            if not items and apify_paywalled:
+                                items = await _fallback_search(
+                                    f'site:linkedin.com/company "{business}"',
+                                    amount=10,
+                                )
                             candidate_urls = []
                             for it in items:
                                 candidate_urls.extend(_extract_linkedin_urls(it))
@@ -764,6 +851,11 @@ else:
                                 f'site:linkedin.com/in "{full_name}" "{business}"',
                                 amount=10,
                             )
+                            if not items and apify_paywalled:
+                                items = await _fallback_search(
+                                    f'site:linkedin.com/in "{full_name}" "{business}"',
+                                    amount=10,
+                                )
                             candidate_urls = []
                             for it in items:
                                 candidate_urls.extend(_extract_linkedin_urls(it))

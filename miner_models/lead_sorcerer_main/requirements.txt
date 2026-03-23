@@ -1,0 +1,7 @@
+httpx>=0.27.0
+openrouter>=0.1.0
+firecrawl>=0.1.0
+openai>=1.0.0
+phonenumbers>=8.13.0
+portalocker>=2.7.0
+publicsuffix2>=2.20191221
