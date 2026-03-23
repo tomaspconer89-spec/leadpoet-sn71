@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
 # Allow execution from any cwd.
@@ -20,12 +21,24 @@ load_dotenv(_REPO_ROOT / ".env")
 
 import bittensor as bt
 
+
+def _wallet(name: str, hotkey: str):
+    w = getattr(bt, "wallet", None)
+    if callable(w):
+        return w(name=name, hotkey=hotkey)
+    W = getattr(bt, "Wallet", None)
+    if W is not None:
+        return W(name=name, hotkey=hotkey)
+    raise RuntimeError("bittensor: cannot construct wallet (no bt.wallet / bt.Wallet)")
+
+
 from Leadpoet.utils.cloud_db import (
+    attach_gateway_attestation_fields,
     check_email_duplicate,
     check_linkedin_combo_duplicate,
     gateway_get_presigned_url,
     gateway_upload_lead,
-    gateway_verify_submission,
+    gateway_verify_submission_outcome,
 )
 from miner_models.lead_precheck import precheck_lead
 
@@ -35,6 +48,12 @@ def main() -> int:
     parser.add_argument("--wallet-name", default="YOUR_COLDKEY_NAME")
     parser.add_argument("--wallet-hotkey", default="culture")
     parser.add_argument("--max", type=int, default=100, help="Max pending leads to try")
+    parser.add_argument(
+        "--submit-delay-seconds",
+        type=float,
+        default=18.0,
+        help="Pause before each gateway submit after the first (anti-spam cooldown).",
+    )
     args = parser.parse_args()
 
     queue_root = _REPO_ROOT / "lead_queue"
@@ -45,7 +64,7 @@ def main() -> int:
     submitted_dir.mkdir(parents=True, exist_ok=True)
     failed_dir.mkdir(parents=True, exist_ok=True)
 
-    wallet = bt.wallet(name=args.wallet_name, hotkey=args.wallet_hotkey)
+    wallet = _wallet(args.wallet_name, args.wallet_hotkey)
     pending_files = sorted(pending_dir.glob("*.json"))[: args.max]
     if not pending_files:
         print("No queued leads found in lead_queue/pending")
@@ -54,6 +73,8 @@ def main() -> int:
     print(f"Found {len(pending_files)} queued lead(s)")
     verified_count = 0
     duplicate_count = 0
+    gateway_reject_count = 0
+    gateway_submit_serial = 0
 
     for path in pending_files:
         try:
@@ -86,6 +107,16 @@ def main() -> int:
             path.rename(failed_dir / path.name)
             continue
 
+        try:
+            lead = attach_gateway_attestation_fields(lead, wallet)
+        except RuntimeError as e:
+            print(f"Attestation setup failed for {business_name}: {e}")
+            continue
+
+        if gateway_submit_serial > 0 and args.submit_delay_seconds > 0:
+            time.sleep(args.submit_delay_seconds)
+        gateway_submit_serial += 1
+
         presign_result = gateway_get_presigned_url(wallet, lead)
         if not presign_result:
             print(
@@ -98,16 +129,39 @@ def main() -> int:
             print(f"Failed S3 upload for {business_name}; keeping in queue.")
             continue
 
-        verification_result = gateway_verify_submission(wallet, presign_result["lead_id"])
-        if verification_result:
+        verify_out = gateway_verify_submission_outcome(wallet, presign_result["lead_id"])
+        if verify_out.ok:
             verified_count += 1
             print(f"Verified: {business_name}")
             path.rename(submitted_dir / path.name)
+        elif verify_out.terminal_conflict:
+            gateway_reject_count += 1
+            reject_path = failed_dir / f"{path.stem}.gateway_rejected.json"
+            reject_path.write_text(
+                json.dumps(
+                    {
+                        "source_file": path.name,
+                        "lead_id": presign_result.get("lead_id"),
+                        "http_status": verify_out.http_status,
+                        "error": verify_out.error_code,
+                        "message": verify_out.message,
+                        "lead": lead,
+                    },
+                    ensure_ascii=True,
+                    indent=2,
+                    default=str,
+                )
+            )
+            path.unlink(missing_ok=True)
+            print(
+                f"Gateway conflict (terminal): {business_name} -> failed/{reject_path.name}"
+            )
         else:
             print(f"Verification failed: {business_name}; keeping in queue.")
 
     print(f"Verified/submitted: {verified_count}")
     print(f"Duplicates moved to failed: {duplicate_count}")
+    print(f"Gateway 409 rejects (failed/): {gateway_reject_count}")
     return 0
 
 

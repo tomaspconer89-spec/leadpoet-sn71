@@ -8,7 +8,8 @@ import time
 import base64
 import requests
 import bittensor as bt
-from typing import List, Dict
+from dataclasses import dataclass
+from typing import Any, Dict, List, Optional
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 from Leadpoet.utils.misc import generate_timestamp
@@ -1902,6 +1903,58 @@ def check_linkedin_combo_duplicate(linkedin_url: str, company_linkedin_url: str)
         return False
 
 
+def attach_gateway_attestation_fields(lead_data: Dict, wallet: bt.Wallet) -> Dict:
+    """
+    Return a shallow copy of the lead with regulatory fields required by gateway /submit
+    verification (see gateway/api/submit.py). wallet_ss58 must match the signing hotkey
+    (actor_hotkey); terms_version_hash must match the live canonical terms when the gateway
+    can fetch GitHub.
+    """
+    from pathlib import Path
+
+    out = dict(lead_data)
+    hotkey_ss58 = wallet.hotkey.ss58_address
+
+    terms_hash = None
+    try:
+        from Leadpoet.utils.contributor_terms import get_terms_version_hash
+
+        terms_hash = get_terms_version_hash()
+    except Exception:
+        pass
+    if not terms_hash:
+        repo_root = Path(__file__).resolve().parent.parent.parent
+        att_path = repo_root / "data" / "regulatory" / "miner_attestation.json"
+        if att_path.is_file():
+            try:
+                rec = json.loads(att_path.read_text(encoding="utf-8"))
+                terms_hash = rec.get("terms_version_hash")
+            except Exception:
+                pass
+    if not terms_hash:
+        raise RuntimeError(
+            "Could not resolve terms_version_hash: fetch from GitHub failed and "
+            "data/regulatory/miner_attestation.json is missing or invalid. "
+            "Check network or run the miner once (ACCEPT_TERMS=1) to create the attestation file."
+        )
+
+    out.setdefault("source_url", out.get("source_url") or "")
+    out.setdefault("source_type", out.get("source_type") or "")
+    out.update(
+        {
+            "wallet_ss58": hotkey_ss58,
+            "submission_timestamp": datetime.now(timezone.utc).isoformat(),
+            "terms_version_hash": terms_hash,
+            "lawful_collection": True,
+            "no_restricted_sources": True,
+            "license_granted": True,
+            "license_doc_hash": out.get("license_doc_hash", ""),
+            "license_doc_url": out.get("license_doc_url", ""),
+        }
+    )
+    return out
+
+
 def gateway_get_presigned_url(wallet: bt.Wallet, lead_data: Dict) -> Dict:
     """
     Get presigned URL from gateway for S3/MinIO upload.
@@ -2055,59 +2108,41 @@ def gateway_upload_lead(presigned_url: str, lead_data: Dict) -> bool:
         return False
 
 
-def gateway_verify_submission(wallet: bt.Wallet, lead_id: str) -> Dict:
+@dataclass
+class GatewayVerifyOutcome:
+    """Result of POST /submit/ (gateway_verify_submission)."""
+
+    ok: bool
+    result: Optional[Dict[str, Any]] = None
+    http_status: Optional[int] = None
+    error_code: Optional[str] = None
+    message: Optional[str] = None
+
+    @property
+    def terminal_conflict(self) -> bool:
+        """HTTP 409 — duplicate / conflict; same lead should not be retried."""
+        return (not self.ok) and self.http_status == 409
+
+
+def gateway_verify_submission_outcome(wallet: bt.Wallet, lead_id: str) -> GatewayVerifyOutcome:
     """
-    Trigger gateway verification of uploaded lead (BRD Section 4.1, Step 5-6).
-    
-    Called after miner uploads lead to both S3 and MinIO via presigned URLs.
-    Gateway will:
-    1. Fetch uploaded blobs from both mirrors
-    2. Verify SHA256 hashes match committed lead_blob_hash
-    3. Log STORAGE_PROOF events (one per mirror)
-    4. Store lead in leads_private table
-    5. Log SUBMISSION event
-    
-    This prevents blob substitution attacks.
-    
-    Args:
-        wallet: Miner's wallet
-        lead_id: UUID of the lead
-        
-    Returns:
-        Dict with: {status, lead_id, storage_backends, merkle_proof, submission_ts}
-        None if verification failed
+    Same as gateway_verify_submission but returns structured outcome (for queue scripts
+    that move leads to failed/ on terminal gateway conflicts).
     """
     try:
-        import uuid
         import hashlib
-        
+        import uuid
+
         print(f"🔐 Requesting gateway to verify uploaded lead...")
-        
-        # Generate UUID v4 nonce
+
         nonce = str(uuid.uuid4())
-        
-        # Create ISO timestamp
         ts = datetime.now(timezone.utc).isoformat()
-        
-        # Create payload
-        payload = {
-            "lead_id": lead_id
-        }
-        
-        # Compute payload hash (deterministic JSON)
-        payload_json = json.dumps(payload, sort_keys=True, separators=(',', ':'))
+        payload = {"lead_id": lead_id}
+        payload_json = json.dumps(payload, sort_keys=True, separators=(",", ":"))
         payload_hash = hashlib.sha256(payload_json.encode()).hexdigest()
-        
-        # Build ID
         build_id = os.getenv("BUILD_ID", "miner-client")
-        
-        # Construct message to sign (format: {event_type}:{actor_hotkey}:{nonce}:{ts}:{payload_hash}:{build_id})
         message = f"SUBMIT_LEAD:{wallet.hotkey.ss58_address}:{nonce}:{ts}:{payload_hash}:{build_id}"
-        
-        # Sign the message
         signature = wallet.hotkey.sign(message.encode()).hex()
-        
-        # Create full event object
         event = {
             "event_type": "SUBMIT_LEAD",
             "actor_hotkey": wallet.hotkey.ss58_address,
@@ -2116,55 +2151,64 @@ def gateway_verify_submission(wallet: bt.Wallet, lead_id: str) -> Dict:
             "payload_hash": payload_hash,
             "build_id": build_id,
             "signature": signature,
-            "payload": payload
+            "payload": payload,
         }
-        
-        # Request verification
+
         response = requests.post(
             f"{GATEWAY_URL}/submit/",
             json=event,
-            timeout=300  # 5 minutes timeout (allows for international network latency + gateway verification steps: S3, MinIO, DB, TEE)
+            timeout=300,
         )
         response.raise_for_status()
-        
+
         result = response.json()
         print(f"✅ Gateway verified lead: {result['lead_id'][:8]}...")
         print(f"   Storage backends: {result['storage_backends']}")
         print(f"   Submission time: {result['submission_timestamp']}")
-        
-        # Display rate limit stats
+
         if "rate_limit_stats" in result:
             stats = result["rate_limit_stats"]
-            print(f"   📊 Rate limits: {stats['submissions']}/{stats['max_submissions']} submissions, {stats['rejections']}/{stats['max_rejections']} rejections")
-        
-        return result
-        
+            print(
+                f"   📊 Rate limits: {stats['submissions']}/{stats['max_submissions']} submissions, "
+                f"{stats['rejections']}/{stats['max_rejections']} rejections"
+            )
+
+        return GatewayVerifyOutcome(ok=True, result=result)
+
     except requests.HTTPError as e:
         bt.logging.error(f"Failed to verify submission: {e}")
-        
-        # Try to extract detailed error info from response
+        http_status = e.response.status_code if e.response is not None else None
+        error_code: Optional[str] = None
+        message = str(e)
+
         try:
-            error_details = e.response.json()
+            error_details = e.response.json() if e.response is not None else {}
             if isinstance(error_details, dict):
                 if "detail" in error_details and isinstance(error_details["detail"], dict):
                     detail = error_details["detail"]
                     error_msg = detail.get("error", "unknown_error")
                     message = detail.get("message", str(e))
-                    
-                    # Check if it's a rate limit error (HTTP 429)
-                    if e.response.status_code == 429:
+                    error_code = error_msg
+
+                    if e.response is not None and e.response.status_code == 429:
                         print(f"\n{'='*70}")
                         print(f"🚫 RATE LIMIT EXCEEDED")
                         print(f"{'='*70}")
                         print(f"{message}")
-                        
+
                         if "stats" in detail:
                             stats = detail["stats"]
                             limit_type = stats.get("limit_type", "unknown")
                             if limit_type == "submissions":
-                                print(f"\n📊 Daily submission limit: {stats.get('submissions', 'N/A')}/{stats.get('max_submissions', '?')} reached")
+                                print(
+                                    f"\n📊 Daily submission limit: {stats.get('submissions', 'N/A')}/"
+                                    f"{stats.get('max_submissions', '?')} reached"
+                                )
                             elif limit_type == "rejections":
-                                print(f"\n📊 Daily rejection limit: {stats.get('rejections', 'N/A')}/{stats.get('max_rejections', '?')} reached")
+                                print(
+                                    f"\n📊 Daily rejection limit: {stats.get('rejections', 'N/A')}/"
+                                    f"{stats.get('max_rejections', '?')} reached"
+                                )
                             print(f"🕐 Resets at: {stats.get('reset_at', 'unknown')}")
                         print(f"{'='*70}\n")
                     else:
@@ -2172,37 +2216,68 @@ def gateway_verify_submission(wallet: bt.Wallet, lead_id: str) -> Dict:
                         print(f"❌ GATEWAY REJECTION: {error_msg}")
                         print(f"{'='*70}")
                         print(f"Reason: {message}")
-                        
-                        # Show missing fields if present
+
                         if "missing_fields" in detail:
                             print(f"\n⚠️  Missing required fields ({len(detail['missing_fields'])}):")
-                            for field in detail['missing_fields']:
+                            for field in detail["missing_fields"]:
                                 print(f"   • {field}")
-                            
+
                             if "required_fields" in detail:
                                 print(f"\n📋 All required fields:")
-                                for field in detail['required_fields']:
+                                for field in detail["required_fields"]:
                                     print(f"   • {field}")
-                        
-                        # Show rate limit stats for ALL errors (success or failure)
+
                         if "rate_limit_stats" in detail:
                             stats = detail["rate_limit_stats"]
-                            print(f"\n📊 Rate limits: {stats['submissions']}/{stats['max_submissions']} submissions, {stats['rejections']}/{stats['max_rejections']} rejections")
-                        
+                            print(
+                                f"\n📊 Rate limits: {stats['submissions']}/{stats['max_submissions']} submissions, "
+                                f"{stats['rejections']}/{stats['max_rejections']} rejections"
+                            )
+
                         print(f"{'='*70}\n")
                 else:
                     print(f"❌ Gateway error: {error_details}")
             else:
                 print(f"❌ Gateway error: {error_details}")
         except Exception:
-            # If we can't parse error details, just show the exception
             pass
-        
-        return None
-        
+
+        return GatewayVerifyOutcome(
+            ok=False,
+            http_status=http_status,
+            error_code=error_code,
+            message=message,
+        )
+
     except Exception as e:
         bt.logging.error(f"Failed to verify submission: {e}")
-        return None
+        return GatewayVerifyOutcome(ok=False, message=str(e))
+
+
+def gateway_verify_submission(wallet: bt.Wallet, lead_id: str) -> Optional[Dict]:
+    """
+    Trigger gateway verification of uploaded lead (BRD Section 4.1, Step 5-6).
+
+    Called after miner uploads lead to both S3 and MinIO via presigned URLs.
+    Gateway will:
+    1. Fetch uploaded blobs from both mirrors
+    2. Verify SHA256 hashes match committed lead_blob_hash
+    3. Log STORAGE_PROOF events (one per mirror)
+    4. Store lead in leads_private table
+    5. Log SUBMISSION event
+
+    This prevents blob substitution attacks.
+
+    Args:
+        wallet: Miner's wallet
+        lead_id: UUID of the lead
+
+    Returns:
+        Dict with: {status, lead_id, storage_backends, merkle_proof, submission_ts}
+        None if verification failed
+    """
+    out = gateway_verify_submission_outcome(wallet, lead_id)
+    return out.result if out.ok else None
 
 
 def gateway_get_epoch_leads(wallet: bt.Wallet, epoch_id: int) -> tuple:

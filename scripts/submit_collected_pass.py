@@ -6,7 +6,9 @@ gateway, and move verified files to lead_queue/submitted/.
 - Precheck failure: written to lead_queue/collected_precheck_fail/<stem>.precheck_failed.json,
   original removed from collected_pass.
 - Duplicate email / person+company LinkedIn: moved to lead_queue/failed/ (same as submit_queued_leads).
-- Presign / S3 / verify failure: file stays in collected_pass for retry.
+- Gateway HTTP 409 (e.g. duplicate_email_processing, duplicate_linkedin_combo): removed from
+  collected_pass; lead_queue/failed/<stem>.gateway_rejected.json records error + lead snapshot.
+- Presign / S3 / non-409 verify failure: file stays in collected_pass for retry.
 - If lead_queue/submitted/<same filename> already exists: skipped.
 
 Usage (from repo root):
@@ -22,6 +24,7 @@ import argparse
 import importlib.util
 import json
 import sys
+import time
 from pathlib import Path
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -45,11 +48,12 @@ def _wallet(name: str, hotkey: str):
 
 
 from Leadpoet.utils.cloud_db import (
+    attach_gateway_attestation_fields,
     check_email_duplicate,
     check_linkedin_combo_duplicate,
     gateway_get_presigned_url,
     gateway_upload_lead,
-    gateway_verify_submission,
+    gateway_verify_submission_outcome,
 )
 from miner_models.lead_precheck import precheck_lead
 
@@ -83,6 +87,12 @@ def main() -> int:
         help="After precheck + duplicate checks, copy to lead_queue/pending/ and remove from "
         "collected_pass (no gateway). Use when /presign rejects registration temporarily.",
     )
+    parser.add_argument(
+        "--submit-delay-seconds",
+        type=float,
+        default=18.0,
+        help="Pause before each gateway submit after the first (reduces anti-spam cooldown errors).",
+    )
     args = parser.parse_args()
 
     queue_root = _REPO_ROOT / "lead_queue"
@@ -104,6 +114,7 @@ def main() -> int:
     wallet = None if args.enqueue_pending else _wallet(args.wallet_name, args.wallet_hotkey)
     verified_count = 0
     duplicate_count = 0
+    gateway_reject_count = 0
     precheck_fail_count = 0
     skipped_count = 0
     enqueued_count = 0
@@ -112,6 +123,7 @@ def main() -> int:
     if args.enqueue_pending:
         print("Mode: --enqueue-pending (precheck → lead_queue/pending/, no gateway submit)")
 
+    gateway_submit_serial = 0
     for path in files:
         if (submitted_dir / path.name).exists():
             print(f"Skip (already in submitted): {path.name}")
@@ -173,6 +185,14 @@ def main() -> int:
             continue
 
         assert wallet is not None
+        try:
+            lead = attach_gateway_attestation_fields(lead, wallet)
+        except RuntimeError as e:
+            print(f"Attestation setup failed for {business_name}: {e}")
+            continue
+        if gateway_submit_serial > 0 and args.submit_delay_seconds > 0:
+            time.sleep(args.submit_delay_seconds)
+        gateway_submit_serial += 1
         presign_result = gateway_get_presigned_url(wallet, lead)
         if not presign_result:
             print(
@@ -186,16 +206,40 @@ def main() -> int:
             print(f"S3 upload failed for {business_name}; leaving {path.name} in collected_pass.")
             continue
 
-        if gateway_verify_submission(wallet, presign_result["lead_id"]):
+        verify_out = gateway_verify_submission_outcome(wallet, presign_result["lead_id"])
+        if verify_out.ok:
             verified_count += 1
             print(f"Verified: {business_name} -> submitted/{path.name}")
             path.rename(submitted_dir / path.name)
+        elif verify_out.terminal_conflict:
+            gateway_reject_count += 1
+            reject_path = failed_dir / f"{path.stem}.gateway_rejected.json"
+            reject_path.write_text(
+                json.dumps(
+                    {
+                        "source_file": path.name,
+                        "lead_id": presign_result.get("lead_id"),
+                        "http_status": verify_out.http_status,
+                        "error": verify_out.error_code,
+                        "message": verify_out.message,
+                        "lead": lead,
+                    },
+                    ensure_ascii=True,
+                    indent=2,
+                    default=str,
+                )
+            )
+            path.unlink(missing_ok=True)
+            print(
+                f"Gateway conflict (terminal, moved to failed): {business_name} -> failed/{reject_path.name}"
+            )
         else:
             print(f"Verify failed for {business_name}; leaving {path.name} in collected_pass.")
 
     print(
         f"Done. verified={verified_count} enqueued_pending={enqueued_count} "
         f"precheck_fail={precheck_fail_count} duplicates_to_failed={duplicate_count} "
+        f"gateway_rejected_to_failed={gateway_reject_count} "
         f"skipped_already_submitted={skipped_count}"
     )
     return 0
