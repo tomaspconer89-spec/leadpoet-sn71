@@ -13,4 +13,5 @@ export USE_HF_INDUSTRY="${USE_HF_INDUSTRY:-1}"
 export USE_HF_EMAIL_INTENT_FILTER="${USE_HF_EMAIL_INTENT_FILTER:-1}"
 
 echo "Logging to $LOG_FILE (watch with: tail -f $LOG_FILE)"
-exec ./run-miner.sh 2>&1 | tee -a "$LOG_FILE"
+# Avoid tee -a alone: it block-buffers the log file, so miner.log stays empty until ~4KB or exit.
+./run-miner.sh 2>&1 | tee >(stdbuf -oL cat >> "$LOG_FILE")

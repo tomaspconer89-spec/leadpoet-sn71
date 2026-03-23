@@ -6,7 +6,7 @@
 set -e
 cd "$(dirname "$0")/.."
 
-WALLET_NAME="${WALLET_NAME:-miner}"
+WALLET_NAME="${WALLET_NAME:-YOUR_COLDKEY_NAME}"
 NUM_HOTKEYS="${NUM_HOTKEYS:-3}"
 
 echo "=============================================="

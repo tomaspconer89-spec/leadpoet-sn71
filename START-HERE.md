@@ -2,6 +2,8 @@
 
 This folder contains the **LeadPoet (Subnet 71)** miner setup. Use it to mine on Bittensor SN71 from here.
 
+**This checkout’s wallets:** coldkey name **`YOUR_COLDKEY_NAME`** (literal btcli `wallet.name`), hotkey **`culture`**, SS58 **`5Ek4PGqroRd5JmyDNu22VLVViPd5FLJ94W2WroLXP49qf4Yj`**. These are set in `.env` as `WALLET_NAME` / `WALLET_HOTKEY`.
+
 ---
 
 ## Quick start
@@ -12,11 +14,11 @@ This folder contains the **LeadPoet (Subnet 71)** miner setup. Use it to mine on
 btcli subnet register \
   --netuid 71 \
   --subtensor.network finney \
-  --wallet.name miner \
-  --wallet.hotkey default
+  --wallet.name YOUR_COLDKEY_NAME \
+  --wallet.hotkey culture
 ```
 
-Use your own wallet name/hotkey if different. Replace `miner` / `default` as needed.
+If you use a different coldkey name in btcli, change `WALLET_NAME` in `.env`. Hotkey name must match the wallet entry you created (here: `culture`).
 
 ### 2. Run the miner
 
@@ -35,8 +37,8 @@ FRONTIER=1 ./run-miner.sh
 Or with custom wallet/network:
 
 ```bash
-WALLET_NAME=my_coldkey WALLET_HOTKEY=my_hotkey ./run-miner.sh
-FRONTIER=1 WALLET_NAME=my_coldkey WALLET_HOTKEY=my_hotkey ./run-miner.sh
+WALLET_NAME=YOUR_COLDKEY_NAME WALLET_HOTKEY=culture ./run-miner.sh
+FRONTIER=1 WALLET_NAME=YOUR_COLDKEY_NAME WALLET_HOTKEY=culture ./run-miner.sh
 ```
 
 Or run Python directly:
@@ -44,8 +46,8 @@ Or run Python directly:
 ```bash
 source venv/bin/activate
 python neurons/miner.py \
-  --wallet_name miner \
-  --wallet_hotkey default \
+  --wallet_name YOUR_COLDKEY_NAME \
+  --wallet_hotkey culture \
   --netuid 71 \
   --subtensor_network finney
 ```
@@ -83,8 +85,8 @@ For prerequisites, TAO, lead quality rules, and rate limits, see:
 To run **several miners** on the same subnet (one coldkey, multiple hotkeys):
 
 1. **Create hotkeys:** `NUM_HOTKEYS=3 ./scripts/create-hotkeys-sn71.sh`  
-2. **Register each on SN71:** `HOTKEYS="default miner_2 miner_3" ./scripts/register-hotkeys-sn71.sh`  
-3. **Run all:** `HOTKEYS="default miner_2 miner_3" ./scripts/run-multi-miners.sh`  
+2. **Register each on SN71:** `HOTKEYS="culture miner_2 miner_3" ./scripts/register-hotkeys-sn71.sh` (or override the list)  
+3. **Run all:** `HOTKEYS="culture miner_2 miner_3" ./scripts/run-multi-miners.sh`  
 
 See **`docs/MULTI-MINER-SETUP.md`** for the full step-by-step.
 
@@ -134,6 +136,8 @@ See **`docs/AVOID-REJECTIONS.md`** for why leads are rejected and what is checke
 For **qualification vs lead mining**, **what the accepted terms mean**, and **fixing "0 leads" (missing GSE/FIRECRAWL/OPENROUTER)**, see **`docs/QUALIFICATION-AND-TERMS.md`**.
 
 Before running the miner, check sourcing keys: **`./scripts/check-sourcing-env.sh`** (reports missing or placeholder keys).
+
+**Pipeline diagram (models + tools, Mermaid):** **`docs/MINER_PIPELINE-DIAGRAM.md`**. Step-by-step with code pointers: **`docs/WORKFLOW-WITH-CODE.md`**.
 
 ---
 

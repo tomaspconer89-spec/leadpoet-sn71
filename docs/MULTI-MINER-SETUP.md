@@ -2,6 +2,8 @@
 
 Use **one coldkey** and **multiple hotkeys**. Each hotkey registers as a separate miner (separate UID) on the subnet. You run one miner process per hotkey.
 
+**This repo’s single-miner defaults** use coldkey **`YOUR_COLDKEY_NAME`** (literal `wallet.name` in btcli) and hotkey **`culture`** (SS58 `5Ek4PGqroRd5JmyDNu22VLVViPd5FLJ94W2WroLXP49qf4Yj`). `run-miner.sh`, `register-hotkeys-sn71.sh`, and `run-multi-miners.sh` pick these up from `.env` / env unless you override them.
+
 ---
 
 ## 1. Prerequisites
@@ -106,7 +108,7 @@ screen -r sn71-miner_2    # attach to second miner
 **Option B – Custom hotkey list / frontier mode**
 
 ```bash
-WALLET_NAME=miner HOTKEYS="miner_2 miner_3 miner_4" FRONTIER=1 ./scripts/run-multi-miners.sh
+WALLET_NAME=YOUR_COLDKEY_NAME HOTKEYS="miner_2 miner_3 miner_4" FRONTIER=1 ./scripts/run-multi-miners.sh
 ```
 
 **Option C – Run one miner in foreground (single hotkey)**

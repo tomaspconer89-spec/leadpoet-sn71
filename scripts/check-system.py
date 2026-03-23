@@ -130,22 +130,64 @@ except Exception as e:
 print("\n4. Environment")
 if (REPO_ROOT / ".env").exists():
     ok(".env exists")
-    # Check for placeholder values
+    # Check for unfilled env.example template values (avoid matching literal wallet name YOUR_COLDKEY_NAME)
     env_path = REPO_ROOT / ".env"
     content = env_path.read_text()
-    placeholders = ["your_", "_here", "example", "placeholder"]
-    if any(p in content.lower() for p in placeholders):
-        warn(".env may still contain placeholder values (edit .env with real keys)")
+    template_markers = (
+        "your_supabase_anon_key_here",
+        "your_truelist_api_key_here",
+        "your_scrapingdog_api_key_here",
+        "your_openrouter_key_here",
+        "your_google_api_key_here",
+        "your_search_engine_id_here",
+        "your_firecrawl_key_here",
+    )
+    if any(m in content for m in template_markers):
+        warn(".env may still contain env.example placeholders (replace template API key lines)")
 else:
     warn(".env missing — copy env.example to .env and set GSE_API_KEY, GSE_CX, OPENROUTER_KEY, FIRECRAWL_KEY")
 
-# Wallet (for run-miner.sh)
-wallet_name = os.environ.get("WALLET_NAME", "")
-wallet_hotkey = os.environ.get("WALLET_HOTKEY", "")
-if wallet_name and wallet_hotkey and "YOUR_" not in (wallet_name + wallet_hotkey):
-    ok("WALLET_NAME and WALLET_HOTKEY set in environment")
+# Wallet (for run-miner.sh) — read .env if vars not exported
+def _wallet_from_dotenv():
+    path = REPO_ROOT / ".env"
+    if not path.exists():
+        return "", ""
+    wn, wh = "", ""
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, _, v = line.partition("=")
+        k, v = k.strip(), v.strip().strip('"').strip("'")
+        if k == "WALLET_NAME":
+            wn = v
+        elif k == "WALLET_HOTKEY":
+            wh = v
+    return wn, wh
+
+
+ewn, ewh = _wallet_from_dotenv()
+wallet_name = (os.environ.get("WALLET_NAME") or ewn).strip()
+wallet_hotkey = (os.environ.get("WALLET_HOTKEY") or ewh).strip()
+
+
+def _wallet_configured(name: str, hotkey: str) -> bool:
+    if not name or not hotkey:
+        return False
+    if "YOUR_" in hotkey:
+        return False
+    if name == "YOUR_COLDKEY_NAME":
+        return True
+    return "YOUR_" not in name
+
+
+if _wallet_configured(wallet_name, wallet_hotkey):
+    ok("WALLET_NAME and WALLET_HOTKEY set (coldkey + hotkey)")
 else:
-    warn("Set WALLET_NAME and WALLET_HOTKEY before running (e.g. export WALLET_NAME=your_coldkey WALLET_HOTKEY=default)")
+    warn(
+        "Set WALLET_NAME and WALLET_HOTKEY before running "
+        "(e.g. export WALLET_NAME=YOUR_COLDKEY_NAME WALLET_HOTKEY=culture)"
+    )
 
 # 5. Venv
 print("\n5. Virtual environment")

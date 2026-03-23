@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
-Convert lead_queue/raw_generated artifacts into SN71 payloads, run precheck,
+Convert raw crawl artifacts (e.g. lead_queue/raw_generated or
+lead_queue/raw_generated_fresh_only) into SN71 payloads, run precheck,
 and write valid leads into lead_queue/pending for submit_queued_leads.py.
+
+To submit from raw_generated_fresh_only without touching those files, use:
+  scripts/submit_raw_generated_readonly.py (or scripts/submit-from-raw-generated-fresh-only.sh).
+
+This script only builds lead_queue/pending when you want on-disk queue copies.
 """
 
 from __future__ import annotations
@@ -542,9 +548,15 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    in_dir = Path(args.in_dir)
-    pending_dir = Path(args.pending_dir)
-    failed_dir = Path(args.failed_dir)
+    def _queue_path(p: str) -> Path:
+        path = Path(p)
+        if path.is_absolute():
+            return path
+        return _REPO_ROOT / path
+
+    in_dir = _queue_path(args.in_dir)
+    pending_dir = _queue_path(args.pending_dir)
+    failed_dir = _queue_path(args.failed_dir)
     pending_dir.mkdir(parents=True, exist_ok=True)
     failed_dir.mkdir(parents=True, exist_ok=True)
 

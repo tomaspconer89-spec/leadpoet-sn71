@@ -3,10 +3,10 @@
 Miner Status Dashboard — check your miner's essential stats.
 
 Usage:
-    python scripts/miner_status.py --hotkey veil
-    python scripts/miner_status.py --hotkey veil --days 30
-    python scripts/miner_status.py --hotkey veil --hours 6
-    python scripts/miner_status.py --hotkey 5CAhh...Z
+    python scripts/miner_status.py --hotkey culture
+    python scripts/miner_status.py --hotkey culture --days 30
+    python scripts/miner_status.py --hotkey culture --hours 6
+    python scripts/miner_status.py --hotkey 5Ek4PGqroRd5JmyDNu22VLVViPd5FLJ94W2WroLXP49qf4Yj
 """
 
 import json
@@ -258,23 +258,23 @@ def parse_args():
         if a in ("-h", "--help"):
             print("Miner Status Dashboard")
             print()
-            print("  --hotkey NAME   hotkey name (e.g. veil) or SS58 address")
+            print("  --hotkey NAME   hotkey name (e.g. culture) or SS58 address")
             print("  --days N        look back N days (default: 7, use 0 for all time)")
             print("  --hours N       look back N hours (overrides --days)")
             print("  --wallet NAME   coldkey wallet name (default: YOUR_COLDKEY_NAME)")
             print("  --logfile PATH  path to miner.log for duplicate/error analysis")
             print()
             print("Examples:")
-            print("  python scripts/miner_status.py --hotkey veil")
-            print("  python scripts/miner_status.py --hotkey veil --days 30")
-            print("  python scripts/miner_status.py --hotkey veil --hours 6")
+            print("  python scripts/miner_status.py --hotkey culture")
+            print("  python scripts/miner_status.py --hotkey culture --days 30")
+            print("  python scripts/miner_status.py --hotkey culture --hours 6")
             print("  python scripts/miner_status.py --hotkey 5CAhh...Z --days 0")
             sys.exit(0)
         i += 1
 
     if not hotkey:
         print("Error: --hotkey is required")
-        print("  python scripts/miner_status.py --hotkey veil")
+        print("  python scripts/miner_status.py --hotkey culture")
         sys.exit(1)
 
     return hotkey, days, hours_arg, logfile, wallet_name
@@ -465,7 +465,7 @@ def main():
         print_header("MINER LOG")
         print("  No miner.log found. Run miner with logging:")
         print("    python neurons/miner.py ... 2>&1 | tee -a miner.log")
-        print("  Then: python scripts/miner_status.py --hotkey veil --logfile miner.log")
+        print("  Then: python scripts/miner_status.py --hotkey culture --logfile miner.log")
 
     # --- Summary ---
     print_header("SUMMARY")

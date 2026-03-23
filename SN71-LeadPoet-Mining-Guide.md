@@ -34,11 +34,11 @@ This guide walks you through mining on **Subnet 71 (LeadPoet)** — the decentra
 Create a wallet if you don’t have one:
 
 ```bash
-# Create coldkey (holds TAO)
-btcli wallet create --wallet.name miner
+# Create coldkey (holds TAO) — this checkout uses wallet.name YOUR_COLDKEY_NAME
+btcli wallet create --wallet.name YOUR_COLDKEY_NAME
 
-# Create hotkey (used for mining)
-btcli wallet create --wallet.name miner --wallet.hotkey default
+# Create hotkey (used for mining) — hotkey name `culture`
+btcli wallet create --wallet.name YOUR_COLDKEY_NAME --wallet.hotkey culture
 ```
 
 Keep coldkey seed phrase **offline and safe**. You need TAO in this wallet for registration and fees.
@@ -47,7 +47,7 @@ Keep coldkey seed phrase **offline and safe**. You need TAO in this wallet for r
 
 ## Step 2 — Get TAO for Registration
 
-1. Buy or transfer **TAO** to the coldkey you’ll use (e.g. `miner`).
+1. Buy or transfer **TAO** to the coldkey you’ll use (here: `YOUR_COLDKEY_NAME`).
 2. Check registration cost for subnet 71 (it changes):
    - Use [subnet71.com](https://www.subnet71.com) or TAO.app for current cost.
 3. Ensure balance is enough for **registration + a small buffer** for fees.
@@ -80,11 +80,11 @@ Register your hotkey on netuid 71 (Finney mainnet):
 btcli subnet register \
     --netuid 71 \
     --subtensor.network finney \
-    --wallet.name miner \
-    --wallet.hotkey default
+    --wallet.name YOUR_COLDKEY_NAME \
+    --wallet.hotkey culture
 ```
 
-- Replace `miner` and `default` with your wallet name and hotkey if different.
+- Replace `YOUR_COLDKEY_NAME` / `culture` only if your btcli names differ. Registered SS58 for `culture` in this deployment: `5Ek4PGqroRd5JmyDNu22VLVViPd5FLJ94W2WroLXP49qf4Yj`.
 - When prompted, use your **coldkey** password to pay the registration cost in TAO.
 - After success, your hotkey has a **UID** on subnet 71.
 
@@ -102,8 +102,8 @@ From the `Leadpoet` repo directory, with your venv activated:
 
 ```bash
 python neurons/miner.py \
-    --wallet_name miner \
-    --wallet_hotkey default \
+    --wallet_name YOUR_COLDKEY_NAME \
+    --wallet_hotkey culture \
     --netuid 71 \
     --subtensor_network finney
 ```
@@ -112,8 +112,8 @@ Optional: custom wallet path (if not using default `~/.bittensor/wallets`):
 
 ```bash
 python neurons/miner.py \
-    --wallet_name miner \
-    --wallet_hotkey default \
+    --wallet_name YOUR_COLDKEY_NAME \
+    --wallet_hotkey culture \
     --wallet_path /path/to/your/wallets \
     --netuid 71 \
     --subtensor_network finney
@@ -169,8 +169,8 @@ Beyond **sourcing** leads, you can run a **qualification model** that picks lead
 
 | Task              | Command |
 |-------------------|--------|
-| Register on SN71 | `btcli subnet register --netuid 71 --subtensor.network finney --wallet.name miner --wallet.hotkey default` |
-| Run miner         | `python neurons/miner.py --wallet_name miner --wallet_hotkey default --netuid 71 --subtensor_network finney` |
+| Register on SN71 | `btcli subnet register --netuid 71 --subtensor.network finney --wallet.name YOUR_COLDKEY_NAME --wallet.hotkey culture` |
+| Run miner         | `python neurons/miner.py --wallet_name YOUR_COLDKEY_NAME --wallet_hotkey culture --netuid 71 --subtensor_network finney` |
 | Check wallet/UID  | `btcli wallet overview --netuid 71` |
 
 ---

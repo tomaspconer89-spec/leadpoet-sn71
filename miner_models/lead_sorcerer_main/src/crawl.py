@@ -1559,7 +1559,8 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
         return {
             "company": {
                 "name": title[:120] if title else domain,
-                "description": markdown[:1000] if markdown else "",
+                # Keep a large slice so email/LinkedIn regexes see footer/contact blocks.
+                "description": (markdown[:20000] if markdown else ""),
                 "industry": "",
                 "sub_industry": "",
                 "hq_location": "",
@@ -2734,6 +2735,121 @@ Remember: Extract unique, valuable information about each individual business op
                 contact["evidence_urls"].append(f"https://{domain}")
 
             contacts.append(contact)
+
+        # Crawl4AI (and some thin Firecrawl) paths often leave team_members empty but
+        # put page text in company.description — recover a contact so exports/get_leads work.
+        if not contacts:
+            desc = company.get("description") or ""
+            found_addrs: List[str] = []
+            for m in re.finditer(
+                r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", desc
+            ):
+                addr = m.group(0).lower().strip()
+                if any(
+                    x in addr
+                    for x in (
+                        "example.com",
+                        "domain.com",
+                        "test.com",
+                        "yourname@",
+                        "user@",
+                        "name@",
+                    )
+                ):
+                    continue
+                if addr not in found_addrs:
+                    found_addrs.append(addr)
+            existing_em = company.get("emails") or []
+            if isinstance(existing_em, list):
+                for e in existing_em:
+                    if isinstance(e, str) and e.strip():
+                        low = e.strip().lower()
+                        if low not in found_addrs:
+                            found_addrs.insert(0, low)
+            company["emails"] = found_addrs[:8]
+            if found_addrs:
+                generic_local = frozenset(
+                    (
+                        "info",
+                        "hello",
+                        "contact",
+                        "support",
+                        "sales",
+                        "team",
+                        "admin",
+                    )
+                )
+                email0 = found_addrs[0]
+                for cand in found_addrs:
+                    loc = cand.split("@", 1)[0].lower()
+                    root = loc.split(".", 1)[0]
+                    if root not in generic_local:
+                        email0 = cand
+                        break
+                local = email0.split("@", 1)[0].lower()
+                tokens = [
+                    t
+                    for t in re.split(r"[._\-+]+", local)
+                    if t.isalpha() and len(t) > 1
+                ]
+                if len(tokens) >= 2:
+                    fn, ln = tokens[0].title(), tokens[-1].title()
+                    normalized_name = f"{fn} {ln}"
+                elif len(tokens) == 1:
+                    fn, ln = tokens[0].title(), "Lead"
+                    normalized_name = f"{fn} {ln}"
+                else:
+                    fn, ln = "Team", "Member"
+                    normalized_name = "Team Member"
+                normalized_role = "Contact"
+                contact_id = generate_contact_id(
+                    domain, normalized_name, normalized_role, ""
+                )
+                in_match = re.search(
+                    r"https?://(?:www\.)?linkedin\.com/in/[a-zA-Z0-9_-]+/?",
+                    desc,
+                    flags=re.I,
+                )
+                person_li = in_match.group(0).rstrip("/") if in_match else None
+                li_path = None
+                if person_li:
+                    lt, slug = canonicalize_linkedin(person_li)
+                    if lt == "in":
+                        li_path = f"/in/{slug}"
+                co_match = re.search(
+                    r"https?://(?:www\.)?linkedin\.com/company/[^/\s\"']+/?",
+                    desc,
+                    flags=re.I,
+                )
+                if co_match and not company["socials"].get("linkedin"):
+                    lt_c, slug_c = canonicalize_linkedin(
+                        co_match.group(0).rstrip("/")
+                    )
+                    if lt_c == "company":
+                        company["socials"]["linkedin"] = (
+                            f"https://www.linkedin.com/company/{slug_c}"
+                        )
+                contacts.append(
+                    {
+                        "contact_id": contact_id,
+                        "full_name": normalized_name,
+                        "role": normalized_role,
+                        "department": None,
+                        "seniority": get_seniority_rank(normalized_role),
+                        "role_priority": get_role_priority(
+                            normalized_role, icp_config.get("role_priority", {})
+                        ),
+                        "email": email0,
+                        "email_confidence": None,
+                        "email_status": ["unknown"],
+                        "email_source": ["page_scrape"],
+                        "linkedin": li_path,
+                        "other_links": [],
+                        "evidence_urls": ([f"https://{domain}"] if domain else []),
+                        "decision_maker": False,
+                        "location": None,
+                    }
+                )
 
         # Update record with contacts
         record["contacts"] = contacts

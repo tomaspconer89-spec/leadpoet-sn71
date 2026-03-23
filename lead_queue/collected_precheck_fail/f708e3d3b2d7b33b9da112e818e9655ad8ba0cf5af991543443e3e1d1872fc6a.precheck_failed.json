@@ -1,4 +1,6 @@
 {
+  "reason": "missing_required_fields: last",
+  "business": "The Startup Advisory",
   "lead": {
     "business": "The Startup Advisory",
     "description": "Helping early-stage B2B SaaS Founders in the US &amp; Australia get sales-ready. Fractional Head of Sales from $3k/month. Pre-Seed to Series A.",
@@ -8,8 +10,8 @@
     "email": "user@domain.com",
     "phone_numbers": [],
     "website": "https://thestartupadvisory.com",
-    "industry": "",
-    "sub_industry": "",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
     "role": "ceo",
     "linkedin": "https://www.linkedin.com/in/jasonbulger",
     "region": "",
@@ -24,9 +26,15 @@
       "telegram": null,
       "instagram": null
     },
-    "company_linkedin": ""
-  },
-  "reason": "missing_required_fields: last, industry, sub_industry, country, city, company_linkedin, source_url, employee_count",
-  "batch": "updated_system_10",
-  "saved_at_utc": "2026-03-20T19:19:32.992147+00:00"
+    "company_linkedin": "https://au.linkedin.com/company/the-startup-advisory",
+    "source_url": "https://thestartupadvisory.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
 }

@@ -33,7 +33,7 @@ from miner_models.lead_precheck import precheck_lead
 def main() -> int:
     parser = argparse.ArgumentParser(description="Submit queued leads")
     parser.add_argument("--wallet-name", default="YOUR_COLDKEY_NAME")
-    parser.add_argument("--wallet-hotkey", default="YOUR_HOTKEY_NAME")
+    parser.add_argument("--wallet-hotkey", default="culture")
     parser.add_argument("--max", type=int, default=100, help="Max pending leads to try")
     args = parser.parse_args()
 

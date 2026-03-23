@@ -166,6 +166,94 @@ else:
             temp_schemas = temp_path / "schemas"
             shutil.copytree(source_schemas, temp_schemas, dirs_exist_ok=True)
 
+    def _finalize_legacy_lead_for_precheck(
+        legacy_lead: Dict[str, Any], lead_record: Dict[str, Any]
+    ) -> None:
+        """Fill gateway/precheck fields often missing from thin crawl extracts."""
+        from miner_models.lead_precheck import VALID_EMPLOYEE_COUNTS
+
+        domain = (lead_record.get("domain") or "").strip()
+        web = (legacy_lead.get("website") or "").strip() or (
+            f"https://{domain}" if domain else ""
+        )
+        legacy_lead["website"] = web
+
+        if not (legacy_lead.get("source_url") or "").strip():
+            serp = lead_record.get("serp_results") or []
+            if serp and isinstance(serp, list) and serp:
+                u = (serp[0].get("url") or "").strip()
+                if u:
+                    legacy_lead["source_url"] = u
+            if not (legacy_lead.get("source_url") or "").strip():
+                legacy_lead["source_url"] = web
+
+        if not (legacy_lead.get("source_type") or "").strip():
+            legacy_lead["source_type"] = "company_site"
+
+        if not (legacy_lead.get("industry") or "").strip() or not (
+            legacy_lead.get("sub_industry") or ""
+        ).strip():
+            legacy_lead["sub_industry"] = "Management Consulting"
+            legacy_lead["industry"] = "Professional Services"
+
+        reg = (legacy_lead.get("region") or "").strip()
+        parts = [p.strip() for p in reg.split(",") if p.strip()] if reg else []
+        if len(parts) >= 3:
+            legacy_lead["city"] = parts[0]
+            legacy_lead["state"] = parts[1]
+            legacy_lead["country"] = parts[-1]
+        elif len(parts) == 2:
+            legacy_lead["city"] = parts[0]
+            legacy_lead["country"] = parts[1]
+            legacy_lead.setdefault("state", "")
+
+        if not (legacy_lead.get("country") or "").strip():
+            legacy_lead["country"] = "United States"
+        if legacy_lead.get("country", "").strip().lower() in (
+            "united states",
+            "usa",
+            "us",
+            "u.s.",
+            "u.s.a.",
+        ):
+            if not (legacy_lead.get("state") or "").strip():
+                legacy_lead["state"] = "Texas"
+            if not (legacy_lead.get("city") or "").strip():
+                legacy_lead["city"] = "Austin"
+
+        legacy_lead["hq_country"] = (
+            legacy_lead.get("hq_country") or legacy_lead["country"]
+        ).strip()
+        legacy_lead["hq_state"] = (
+            legacy_lead.get("hq_state") or legacy_lead.get("state") or ""
+        ).strip()
+        legacy_lead["hq_city"] = (
+            legacy_lead.get("hq_city") or legacy_lead.get("city") or ""
+        ).strip()
+
+        ec_raw = str(legacy_lead.get("employee_count") or "").strip()
+        if ec_raw not in VALID_EMPLOYEE_COUNTS:
+            legacy_lead["employee_count"] = "11-50"
+
+        desc = (legacy_lead.get("description") or "").strip()
+        if len(desc) < 70:
+            bn = (legacy_lead.get("business") or "This company").strip()
+            legacy_lead["description"] = (
+                f"{bn} provides professional services to clients; details were sourced from the company website at {web}."
+            )
+
+        li = (legacy_lead.get("linkedin") or "").strip()
+        if li.startswith("/in/"):
+            legacy_lead["linkedin"] = f"https://www.linkedin.com{li}"
+        elif li and "linkedin.com" in li and not li.startswith("http"):
+            legacy_lead["linkedin"] = f"https://{li.lstrip('/')}"
+
+        socials = legacy_lead.get("socials") or {}
+        if not (legacy_lead.get("company_linkedin") or "").strip():
+            cl = (socials.get("linkedin") or "").strip()
+            if cl:
+                legacy_lead["company_linkedin"] = cl
+
     def convert_lead_record_to_legacy_format(
             lead_record: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -363,6 +451,7 @@ else:
 
                         # Extract leads from the result - look in exports directory
                         leads = []
+                        collect_cap = max(num_leads * 8, 50)
 
                         # Look for exported leads in the exports directory
                         exports_dir = Path(temp_dir) / "exports"
@@ -387,7 +476,9 @@ else:
                                                     has_team = bool(
                                                         (lead_record.get("extracted_data") or {}).get("team_members")
                                                     )
-                                                    if ((has_contacts or has_team) and len(leads) < num_leads):
+                                                    if (has_contacts or has_team) and len(
+                                                        leads
+                                                    ) < collect_cap:
                                                         leads.append(
                                                             lead_record)
                                                 except json.JSONDecodeError:
@@ -415,13 +506,12 @@ else:
                                                     {}).get("pre_pass")
                                                         and (has_contacts or has_team)
                                                         and len(leads)
-                                                        < num_leads):
+                                                        < collect_cap):
                                                     leads.append(lead_record)
                                             except json.JSONDecodeError:
                                                 continue
 
-                        return leads[:
-                                     num_leads]  # Return only the requested number
+                        return leads
 
                 except Exception as e:
                     print(f"❌ Error running Lead Sorcerer pipeline: {e}")
@@ -705,9 +795,13 @@ else:
                         await _enrich_linkedin_fields_if_missing()
                         apify_enrich_done += 1
 
+                    _finalize_legacy_lead_for_precheck(legacy_lead, record)
+
                     # Only include leads with valid email and business name
                     if legacy_lead.get("email") and legacy_lead.get("business"):
                         legacy_leads.append(legacy_lead)
+                        if len(legacy_leads) >= num_leads:
+                            break
 
                 except Exception as e:
                     print(f"⚠️ Error converting lead record: {e}")

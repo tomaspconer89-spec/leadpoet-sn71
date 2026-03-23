@@ -96,15 +96,15 @@ pip install -e .
 btcli subnet register \
     --netuid 71 \
     --subtensor.network finney \
-    --wallet.name miner \
-    --wallet.hotkey default
+    --wallet.name YOUR_COLDKEY_NAME \
+    --wallet.hotkey culture
 ```
 
 2. **Run the miner**:
 ```bash
 python neurons/miner.py \
-    --wallet_name miner \
-    --wallet_hotkey default \
+    --wallet_name YOUR_COLDKEY_NAME \
+    --wallet_hotkey culture \
     --wallet_path <your_wallet_path> \  # Optional: custom wallet directory (default: ~/.bittensor/wallets)
     --netuid 71 \
     --subtensor_network finney
@@ -592,8 +592,8 @@ tar -czvf my_model.tar.gz .
 # Submit via miner
 python neurons/miner.py submit-model \
     --model_path my_model.tar.gz \
-    --wallet_name miner \
-    --wallet_hotkey default
+    --wallet_name YOUR_COLDKEY_NAME \
+    --wallet_hotkey culture
 ```
 
 ---

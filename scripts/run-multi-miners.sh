@@ -5,9 +5,9 @@
 set -e
 cd "$(dirname "$0")/.."
 
-WALLET_NAME="${WALLET_NAME:-miner}"
+WALLET_NAME="${WALLET_NAME:-YOUR_COLDKEY_NAME}"
 # Space-separated list of hotkey names to run
-HOTKEYS="${HOTKEYS:-default miner_2 miner_3}"
+HOTKEYS="${HOTKEYS:-culture}"
 NETUID="${NETUID:-71}"
 SUBTENSOR_NETWORK="${SUBTENSOR_NETWORK:-finney}"
 FRONTIER="${FRONTIER:-0}"

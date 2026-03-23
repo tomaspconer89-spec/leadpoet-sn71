@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 
 WALLET_NAME="${WALLET_NAME:-YOUR_COLDKEY_NAME}"
 # Space-separated list of hotkey names to register
-HOTKEYS="${HOTKEYS:-YOUR_HOTKEY_NAME}"
+HOTKEYS="${HOTKEYS:-culture}"
 NETUID="${NETUID:-71}"
 SUBTENSOR_NETWORK="${SUBTENSOR_NETWORK:-finney}"
 

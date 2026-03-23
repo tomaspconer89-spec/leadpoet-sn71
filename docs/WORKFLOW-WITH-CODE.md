@@ -2,6 +2,8 @@
 
 This document walks through the **miner workflow** from startup to lead submission, with file paths and function names so you can jump to the code.
 
+**Visual diagrams (Mermaid):** see **[MINER_PIPELINE-DIAGRAM.md](./MINER_PIPELINE-DIAGRAM.md)** — models, APIs, and tools in one view.
+
 ---
 
 ## Where is the miner?
@@ -109,6 +111,26 @@ Constants (e.g. `REQUIRED_FIELDS`, `VALID_EMPLOYEE_COUNTS`) are in **`miner_mode
 Gateway base URL is configured in **`Leadpoet/utils/cloud_db.py`** (e.g. `GATEWAY_URL`).  
 Events (SUBMISSION_REQUEST, SUBMISSION, VALIDATION_FAILED, CONSENSUS_RESULT) are written to the **Supabase transparency log**; the miner reads/writes via the same cloud_db / Supabase client.
 
+**Submit from `lead_queue/raw_generated_fresh_only` without touching those files:**
+
+1. Raw JSON must include **`extracted_data.company`** and **`extracted_data.team_members`** with a usable person (email + name). **SERP-only** stubs are skipped.
+2. **Read-only submit** (does **not** rename/move/write anything under the raw folder; does **not** use `pending/` / `submitted/` / `failed/`):
+
+```bash
+python3 scripts/submit_raw_generated_readonly.py \
+  --in-dir lead_queue/raw_generated_fresh_only \
+  --wallet-name COLD --wallet-hotkey HOT
+```
+
+Or: `./scripts/submit-from-raw-generated-fresh-only.sh` (requires `WALLET_NAME` / `WALLET_HOTKEY`).
+
+| Script | Role |
+|--------|------|
+| `scripts/submit_raw_generated_readonly.py` | Read raw `*.json` → map + precheck → gateway (in memory only) |
+| `scripts/submit-from-raw-generated-fresh-only.sh` | Wrapper for the above |
+
+**Optional (queue on disk):** if you want copies in `lead_queue/pending` and moves to `submitted/`/`failed/`, use `convert_raw_to_pending.py` then `submit_queued_leads.py` instead.
+
 ---
 
 ## 4. Validator and gateway (high level)
@@ -139,6 +161,8 @@ Events (SUBMISSION_REQUEST, SUBMISSION, VALIDATION_FAILED, CONSENSUS_RESULT) are
 | Gateway + Supabase | `Leadpoet/utils/cloud_db.py` |
 | Validator checks (source provenance, etc.) | `validator_models/checks_repscore.py`, `validator_models/automated_checks.py` |
 | Lead stats (transparency log) | `scripts/lead_stats.py` |
+| Raw dir → gateway (read-only on raw files) | `scripts/submit_raw_generated_readonly.py`, `scripts/submit-from-raw-generated-fresh-only.sh` |
+| Raw → pending → gateway (moves queue files) | `scripts/convert_raw_to_pending.py`, `scripts/submit_queued_leads.py` |
 
 ---
 
