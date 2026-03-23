@@ -1,0 +1,40 @@
+{
+  "reason": "general_purpose_email:info@",
+  "business": "Tailwind Capital Advisors - Startup Capital Raising Advisor",
+  "lead": {
+    "business": "Tailwind Capital Advisors - Startup Capital Raising Advisor",
+    "description": "Expert startup capital raising advisory for seed & Series A companies. We",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@tailwindcapitaladvisors.com",
+    "phone_numbers": [],
+    "website": "https://tailwindcapitaladvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "https://www.linkedin.com/in/michael-heider-22697634",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/tailwindventures1",
+    "source_url": "https://tailwindcapitaladvisors.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}

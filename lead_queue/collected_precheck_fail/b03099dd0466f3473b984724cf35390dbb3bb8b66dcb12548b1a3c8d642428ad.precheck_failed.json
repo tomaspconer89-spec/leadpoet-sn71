@@ -1,0 +1,40 @@
+{
+  "reason": "missing_required_fields: last",
+  "business": "Kellblog",
+  "lead": {
+    "business": "Kellblog",
+    "description": "Kellblog covers topics related to starting, leading, and scaling enterprise software startups including company strategy, financing strategy, go-to-market strategy, sales, marketing, positioning, messaging, and metrics",
+    "full_name": "kelloggdave",
+    "first": "kelloggdave",
+    "last": "",
+    "email": "dkellogg@balderton.com",
+    "phone_numbers": [],
+    "website": "https://kellblog.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "ceo",
+    "linkedin": "https://www.linkedin.com/in/kelloggdave",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/mostly-growth",
+    "source_url": "https://kellblog.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}

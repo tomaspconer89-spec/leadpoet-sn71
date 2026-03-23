@@ -1,0 +1,40 @@
+{
+  "reason": "email_domain_mismatch",
+  "business": "Growth Advisory Group",
+  "lead": {
+    "business": "Growth Advisory Group",
+    "description": "Growth Advisory Group provides professional services to clients; details were sourced from the company website at https://growthadvisory.io.",
+    "full_name": "User Lead",
+    "first": "User",
+    "last": "Lead",
+    "email": "user@domain.com",
+    "phone_numbers": [],
+    "website": "https://growthadvisory.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "https://www.linkedin.com/in/josh-hollinger-6ba72623",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/growth-advisory-group",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/growth-advisory-group",
+    "source_url": "https://growthadvisory.io",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "reason": "email_domain_mismatch",
+  "business": "Business Management Consulting to Accelerate Change",
+  "lead": {
+    "business": "Business Management Consulting to Accelerate Change",
+    "description": "Business Management Consulting to Accelerate Change provides professional services to clients; details were sourced from the company website at https://propeller.com.",
+    "full_name": "Cody Lead",
+    "first": "Cody",
+    "last": "Lead",
+    "email": "cody@humanshapes.co",
+    "phone_numbers": [],
+    "website": "https://propeller.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "https://www.linkedin.com/in/cody-stallings-42a454192",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/propellerllc",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/propellerllc",
+    "source_url": "https://propeller.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}
