@@ -2,7 +2,8 @@
 Domain tool for Lead Sorcerer.
 
 This tool generates qualified domains from ICP queries using cheap pre-crawl scoring.
-It calls Google Programmable Search (GSE) and uses LLM scoring to filter domains.
+Search backends: Harvest (LinkedIn company search + company website), Serper, Brave, or GSE;
+results are normalized to a common shape before LLM scoring.
 
 Authoritative specifications: BRD §226-280
 """
@@ -17,6 +18,7 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import quote
 
 import httpx
 from openai import AsyncOpenAI
@@ -33,6 +35,7 @@ from .common import (
     generate_lead_id,
     load_costs_config,
     load_schema_checksum,
+    load_visited_domains_from_lead_queue_dir,
     normalize_domain,
     now_z,
     round4,
@@ -180,6 +183,128 @@ class BraveSearchClient:
                     "snippet": result.get("description", ""),
                     "rank": idx,
                 })
+
+            return {"items": items}
+
+
+class HarvestDomainSearchClient:
+    """
+    HarvestAPI: LinkedIn company search, then company detail for each candidate
+    to obtain a public ``website`` URL. Maps to GSE-shaped items for scoring.
+    """
+
+    def __init__(self, api_key: str, semaphore_pool: AsyncSemaphorePool):
+        self.api_key = api_key
+        self.semaphore_pool = semaphore_pool
+        self.base_url = "https://api.harvest-api.com"
+        self._max_short = max(
+            1, int(os.environ.get("HARVEST_DOMAIN_MAX_SHORT", "12") or 12)
+        )
+        self._max_detail = max(
+            1, int(os.environ.get("HARVEST_DOMAIN_MAX_DETAIL", "10") or 10)
+        )
+        self._detail_conc = max(
+            1, int(os.environ.get("HARVEST_DOMAIN_DETAIL_CONCURRENCY", "4") or 4)
+        )
+        try:
+            self._detail_timeout_s = float(
+                os.environ.get("HARVEST_DOMAIN_DETAIL_TIMEOUT", "25") or 25
+            )
+        except ValueError:
+            self._detail_timeout_s = 25.0
+
+    async def search(self, query: str, page: int = 1) -> Dict[str, Any]:
+        async with self.semaphore_pool:
+            q = (query or "").strip()
+            if len(q) > 400:
+                q = q[:400]
+            params = f"search={quote(q, safe='')}&page={int(page)}"
+            list_url = f"{self.base_url}/linkedin/company-search?{params}"
+            headers = {"X-API-Key": self.api_key, "Accept": "application/json"}
+
+            async with httpx.AsyncClient(timeout=(10.0, 45.0)) as client:
+                resp = await client.get(list_url, headers=headers)
+                resp.raise_for_status()
+                data = resp.json() if resp.content else {}
+
+            elements = data.get("elements") if isinstance(data, dict) else None
+            if not isinstance(elements, list):
+                elements = []
+
+            short_list = elements[: self._max_short]
+            universal_names: List[str] = []
+            short_by_un: Dict[str, Dict[str, Any]] = {}
+            for el in short_list:
+                if not isinstance(el, dict):
+                    continue
+                un = str(el.get("universalName", "") or "").strip()
+                if not un or un in short_by_un:
+                    continue
+                short_by_un[un] = el
+                universal_names.append(un)
+                if len(universal_names) >= self._max_detail:
+                    break
+
+            detail_sem = asyncio.Semaphore(self._detail_conc)
+
+            async def _fetch_website(un: str) -> Optional[Dict[str, Any]]:
+                url = (
+                    f"{self.base_url}/linkedin/company?"
+                    f"universalName={quote(un, safe='')}"
+                )
+                async with detail_sem:
+                    async with httpx.AsyncClient(
+                        timeout=(8.0, self._detail_timeout_s)
+                    ) as hc:
+                        try:
+                            r = await hc.get(url, headers=headers)
+                            r.raise_for_status()
+                            body = r.json() if r.content else {}
+                        except Exception:
+                            return None
+                        if not isinstance(body, dict):
+                            return None
+                        elem = body.get("element")
+                        if not isinstance(elem, dict):
+                            return None
+                        website = str(elem.get("website", "") or "").strip()
+                        if not website:
+                            return None
+                        if not website.lower().startswith(("http://", "https://")):
+                            website = f"https://{website}"
+                        name = str(elem.get("name", "") or "").strip() or un
+                        desc = str(elem.get("description", "") or "").strip()
+                        short = short_by_un.get(un, {})
+                        snippet = desc or str(short.get("summary", "") or "").strip()
+                        if len(snippet) > 600:
+                            snippet = snippet[:600]
+                        return {
+                            "title": name,
+                            "link": website,
+                            "snippet": snippet,
+                            "universalName": un,
+                        }
+
+            gathered = await asyncio.gather(
+                *(_fetch_website(un) for un in universal_names)
+            )
+
+            items: List[Dict[str, Any]] = []
+            rank = 0
+            for row in gathered:
+                if not row:
+                    continue
+                rank += 1
+                items.append(
+                    {
+                        "title": row["title"],
+                        "link": row["link"],
+                        "snippet": row["snippet"],
+                        "rank": rank,
+                    }
+                )
+                if rank >= 10:
+                    break
 
             return {"items": items}
 
@@ -450,12 +575,12 @@ class SearchCache:
     def __init__(self):
         self.cache: Dict[str, Dict[str, Any]] = {}
 
-    def _get_cache_key(self, query: str, page: int) -> str:
-        """Generate cache key for query and page."""
-        return f"{query}|{page}|google"
+    def _get_cache_key(self, query: str, page: int, backend: str) -> str:
+        """Generate cache key for query, page, and search backend."""
+        return f"{query}|{page}|{backend}"
 
     def get_cached_results(
-        self, query: str, page: int, ttl_hours: int
+        self, query: str, page: int, ttl_hours: int, backend: str = "google"
     ) -> Optional[Dict[str, Any]]:
         """
         Get cached search results if not expired.
@@ -468,7 +593,7 @@ class SearchCache:
         Returns:
             Cached results or None if expired/not found
         """
-        cache_key = self._get_cache_key(query, page)
+        cache_key = self._get_cache_key(query, page, backend)
         cached = self.cache.get(cache_key)
 
         if not cached:
@@ -490,7 +615,13 @@ class SearchCache:
         del self.cache[cache_key]
         return None
 
-    def cache_results(self, query: str, page: int, results: Dict[str, Any]) -> None:
+    def cache_results(
+        self,
+        query: str,
+        page: int,
+        results: Dict[str, Any],
+        backend: str = "google",
+    ) -> None:
         """
         Cache search results.
 
@@ -499,7 +630,7 @@ class SearchCache:
             page: Page number
             results: Search results
         """
-        cache_key = self._get_cache_key(query, page)
+        cache_key = self._get_cache_key(query, page, backend)
         self.cache[cache_key] = {"results": results, "fetched_at": now_z()}
 
 
@@ -519,7 +650,7 @@ class DomainTool:
 
         # Load costs configuration
         self.costs_config = load_costs_config()
-        validate_provider_config(["gse", "openrouter"], self.costs_config)
+        validate_provider_config(["gse", "openrouter", "harvest"], self.costs_config)
 
         # Initialize components
         self.permit_manager = PermitManager(
@@ -529,30 +660,78 @@ class DomainTool:
         )
         self.semaphore_pool = AsyncSemaphorePool(self.permit_manager)
 
-        # Domain discovery provider selection:
-        # Prefer Serper (SERPER_API_KEY) -> Brave (BRAVE_API_KEY) -> Google (GSE_API_KEY).
+        # Domain discovery: ordered chain; each query tries providers until one succeeds.
+        # Order: Harvest (optional) -> Serper -> Brave -> GSE.
+        harvest_key = os.environ.get("HARVEST_API_KEY", "").strip()
+        use_harvest = os.environ.get("DOMAIN_DISCOVERY_USE_HARVEST", "1").strip().lower() not in (
+            "0",
+            "false",
+            "no",
+        )
         serper_key = os.environ.get("SERPER_API_KEY", "").strip()
         brave_key = os.environ.get("BRAVE_API_KEY", "").strip()
+        gse_key = os.environ.get("GSE_API_KEY", "").strip()
+        gse_cx = os.environ.get("GSE_CX", "").strip()
 
+        # (cache_backend_id, billing key in costs.yaml, client)
+        self._search_chain: List[Tuple[str, str, Any]] = []
+        if harvest_key and use_harvest:
+            self._search_chain.append(
+                (
+                    "harvest",
+                    "harvest",
+                    HarvestDomainSearchClient(
+                        api_key=harvest_key,
+                        semaphore_pool=self.semaphore_pool,
+                    ),
+                )
+            )
         if serper_key:
-            self.gse_client = SerperSearchClient(
-                api_key=serper_key,
-                semaphore_pool=self.semaphore_pool,
+            self._search_chain.append(
+                (
+                    "serper",
+                    "gse",
+                    SerperSearchClient(
+                        api_key=serper_key,
+                        semaphore_pool=self.semaphore_pool,
+                    ),
+                )
             )
-            logging.getLogger(TOOL_NAME).info("🔍 Using Serper Search API for domain discovery")
-        elif brave_key:
-            self.gse_client = BraveSearchClient(
-                api_key=brave_key,
-                semaphore_pool=self.semaphore_pool,
+        if brave_key:
+            self._search_chain.append(
+                (
+                    "brave",
+                    "gse",
+                    BraveSearchClient(
+                        api_key=brave_key,
+                        semaphore_pool=self.semaphore_pool,
+                    ),
+                )
             )
-            logging.getLogger(TOOL_NAME).info("🔍 Using Brave Search API for domain discovery")
-        else:
-            self.gse_client = GSESearchClient(
-                api_key=os.environ["GSE_API_KEY"],
-                cx=os.environ["GSE_CX"],
-                semaphore_pool=self.semaphore_pool,
+        if gse_key and gse_cx:
+            self._search_chain.append(
+                (
+                    "gse",
+                    "gse",
+                    GSESearchClient(
+                        api_key=gse_key,
+                        cx=gse_cx,
+                        semaphore_pool=self.semaphore_pool,
+                    ),
+                )
             )
-            logging.getLogger(TOOL_NAME).info("🔍 Using Google Custom Search API for domain discovery")
+
+        if not self._search_chain:
+            raise KeyError(
+                "No domain search provider configured: set HARVEST_API_KEY, "
+                "and/or SERPER_API_KEY, BRAVE_API_KEY, or GSE_API_KEY+GSE_CX"
+            )
+
+        self._last_search_cost_key = self._search_chain[0][1]
+        chain_desc = " -> ".join(bid for bid, _, _ in self._search_chain)
+        logging.getLogger(TOOL_NAME).info(
+            f"🔍 Domain discovery provider chain (first success wins per query): {chain_desc}"
+        )
 
         openrouter_key = os.environ.get("OPENROUTER_KEY", "").strip()
         self.llm_scorer = LLMScorer(
@@ -575,6 +754,22 @@ class DomainTool:
 
         self.domain_history = DomainHistoryManager(data_dir)
         self.search_cache = SearchCache()
+
+        self._visited_queue_domains: set[str] = set()
+        vdir = os.environ.get("LEAD_QUEUE_VISITED_DIR", "").strip()
+        skip_visited = os.environ.get(
+            "LEADPOET_SKIP_VISITED_QUEUE_DOMAINS", "1"
+        ).strip().lower() not in ("0", "false", "no")
+        if vdir and skip_visited:
+            self._visited_queue_domains = load_visited_domains_from_lead_queue_dir(
+                Path(vdir)
+            )
+            if self._visited_queue_domains:
+                logging.getLogger(TOOL_NAME).info(
+                    "⏭️ Skip list: "
+                    f"{len(self._visited_queue_domains)} domain(s) from lead_queue "
+                    f"({vdir})"
+                )
 
         # Load schema checksum
         self.schema_checksum = load_schema_checksum()
@@ -792,10 +987,24 @@ class DomainTool:
         cache_misses = 0
 
         for page in range(1, max_pages + 1):
-            # Try cache first
-            cached = self.search_cache.get_cached_results(query, page, ttl_hours)
+            # Cache: first hit along the configured chain
+            cached = None
+            hit_backend: Optional[str] = None
+            hit_cost_key: Optional[str] = None
+            for bid, ck, _ in self._search_chain:
+                c = self.search_cache.get_cached_results(
+                    query, page, ttl_hours, backend=bid
+                )
+                if c:
+                    cached = c
+                    hit_backend = bid
+                    hit_cost_key = ck
+                    break
+
             if cached:
                 cache_hits += 1
+                if hit_cost_key:
+                    self._last_search_cost_key = hit_cost_key
                 for item in cached["results"].get("items", []):
                     # Skip noisy/non-company domains before scoring to save API cost.
                     url = (item.get("link", "") or "").lower()
@@ -806,26 +1015,60 @@ class DomainTool:
                     )
                 continue
 
-            # Fetch fresh
-            try:
-                results = await self.gse_client.search(query, page)
-                cache_misses += 1
-                # Cache
-                self.search_cache.cache_results(query, page, results)
-                # Normalize
-                for item in results.get("items", []):
-                    # Skip noisy/non-company domains before scoring to save API cost.
-                    url = (item.get("link", "") or "").lower()
-                    if any(domain in url for domain in self.domain_blocklist):
-                        continue
-                    normalized_results.append(
-                        self._normalize_serp_result(item, query, page)
+            # Fetch fresh: try each provider until one succeeds
+            results: Optional[Dict[str, Any]] = None
+            used_backend: Optional[str] = None
+            used_cost_key: Optional[str] = None
+            last_err: Optional[Exception] = None
+            for bid, ck, client in self._search_chain:
+                try:
+                    results = await client.search(query, page)
+                    used_backend = bid
+                    used_cost_key = ck
+                    break
+                except httpx.HTTPStatusError as e:
+                    last_err = e
+                    code = e.response.status_code if e.response is not None else "?"
+                    self.logger.warning(
+                        f"⚠️ Search provider '{bid}' failed for "
+                        f"query {query!r} page {page}: HTTP {code}"
                     )
-            except Exception as e:
+                except Exception as e:
+                    last_err = e
+                    self.logger.warning(
+                        f"⚠️ Search provider '{bid}' failed for "
+                        f"query {query!r} page {page}: {type(e).__name__}"
+                    )
+
+            if results is None:
+                err_note = (
+                    f"HTTP {last_err.response.status_code}"
+                    if isinstance(last_err, httpx.HTTPStatusError)
+                    and last_err.response is not None
+                    else type(last_err).__name__
+                    if last_err
+                    else "unknown"
+                )
                 self.logger.error(
-                    f"❌ Search failed for query '{query}' page {page}: {e}"
+                    f"❌ All search providers failed for query {query!r} page {page} "
+                    f"({err_note})"
                 )
                 continue
+
+            cache_misses += 1
+            if used_cost_key:
+                self._last_search_cost_key = used_cost_key
+            if used_backend:
+                self.search_cache.cache_results(
+                    query, page, results, backend=used_backend
+                )
+            for item in results.get("items", []):
+                url = (item.get("link", "") or "").lower()
+                if any(domain in url for domain in self.domain_blocklist):
+                    continue
+                normalized_results.append(
+                    self._normalize_serp_result(item, query, page)
+                )
 
         return normalized_results, cache_hits, cache_misses
 
@@ -901,6 +1144,12 @@ class DomainTool:
                 f"🤖 Processing domain {idx}/{len(serp_results)}: {domain}"
             )
 
+            if domain in self._visited_queue_domains:
+                self.logger.info(
+                    f"⏭️ Skipping domain already in lead_queue: {domain}"
+                )
+                continue
+
             # Skip if we already processed this domain
             if domain in domain_map:
                 self.logger.info(
@@ -970,7 +1219,7 @@ class DomainTool:
                 )
 
                 # Calculate costs
-                gse_cost = self.costs_config["gse"]
+                search_unit_cost = self.costs_config[self._last_search_cost_key]
                 openrouter_cost = self.costs_config["openrouter"]
 
                 # Estimate token usage (rough approximation)
@@ -987,7 +1236,7 @@ class DomainTool:
                 total_tokens = prompt_tokens + response_tokens
                 token_cost = (total_tokens / 1000) * openrouter_cost
 
-                record["cost"]["domain_usd"] = round4(gse_cost + token_cost)
+                record["cost"]["domain_usd"] = round4(search_unit_cost + token_cost)
                 recompute_total_cost(record)
 
             except Exception as e:
@@ -1013,7 +1262,9 @@ class DomainTool:
                 )
 
                 # Set minimal cost
-                record["cost"]["domain_usd"] = round4(self.costs_config["gse"])
+                record["cost"]["domain_usd"] = round4(
+                    self.costs_config[self._last_search_cost_key]
+                )
                 recompute_total_cost(record)
 
             # Store in domain map

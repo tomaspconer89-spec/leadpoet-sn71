@@ -130,6 +130,9 @@ docker-compose.minio.yml
 # Hugging Face / local model cache (do not commit)
 hf_cache/
 
+# Lead Sorcerer cross-run crawl artifact cache (local)
+.lead_sorcerer_cache/
+
 # Company name cache (runtime file)
 validator_models/company_name_cache.json
 neurons/.pending_equivocation_check.json

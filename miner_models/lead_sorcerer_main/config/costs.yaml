@@ -9,6 +9,11 @@ gse:
   unit: 'request'
   usd_per_unit: 0.0005
 
+# Harvest: company-search + per-company detail (website); rough per-scored-domain estimate
+harvest:
+  unit: 'request'
+  usd_per_unit: 0.02
+
 firecrawl:
   unit: 'extract'
   usd_per_unit: 0.0010

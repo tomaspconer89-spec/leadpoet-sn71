@@ -1073,7 +1073,12 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
         # Check artifact cache using URL-specific cache key
         data_dir = resolve_data_dir({"config": {"data_dir": None}})
         cache_key = self._generate_cache_key(normalized_domain, icp_config)
-        artifact_path = f"{data_dir}/crawl_artifacts/{cache_key}.json"
+        shared_artifacts = os.environ.get("LEADPOET_CRAWL_ARTIFACTS_DIR", "").strip()
+        if shared_artifacts:
+            artifact_dir = shared_artifacts.rstrip(os.sep)
+        else:
+            artifact_dir = f"{data_dir}/crawl_artifacts"
+        artifact_path = f"{artifact_dir}/{cache_key}.json"
 
         cache_hit = False
         extracted_data = None

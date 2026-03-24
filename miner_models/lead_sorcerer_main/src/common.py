@@ -88,6 +88,48 @@ def normalize_domain(domain: str) -> str:
         return domain
 
 
+def collect_domains_from_lead_dict(lead: Dict[str, Any]) -> List[str]:
+    """Extract normalized eTLD+1 domains from URL-like fields on a legacy lead dict."""
+    found: List[str] = []
+    for key in ("website", "source_url", "business_website"):
+        raw = lead.get(key)
+        if not raw or not isinstance(raw, str):
+            continue
+        d = normalize_domain(raw.strip())
+        if d:
+            found.append(d)
+    return found
+
+
+def load_visited_domains_from_lead_queue_dir(queue_dir: Path) -> set[str]:
+    """
+    Domains already stored under lead_queue (pass / precheck-fail / submitted).
+    Used to skip re-scoring (and downstream crawl when combined with crawl cache).
+    """
+    out: set[str] = set()
+    if not queue_dir.is_dir():
+        return out
+    for sub in ("collected_pass", "collected_precheck_fail", "submitted"):
+        d = queue_dir / sub
+        if not d.is_dir():
+            continue
+        for path in d.glob("*.json"):
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            if not isinstance(data, dict):
+                continue
+            lead_obj = data.get("lead")
+            if isinstance(lead_obj, dict):
+                for dom in collect_domains_from_lead_dict(lead_obj):
+                    out.add(dom)
+            else:
+                for dom in collect_domains_from_lead_dict(data):
+                    out.add(dom)
+    return out
+
+
 def normalize_text(text: str) -> str:
     """
     Normalize text using Unicode NFKD + single-space normalization.

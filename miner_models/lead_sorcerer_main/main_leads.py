@@ -410,6 +410,15 @@ else:
 
         # Create a temporary directory for this run
         with tempfile.TemporaryDirectory() as temp_dir:
+            repo_root = Path(__file__).resolve().parent.parent.parent
+            lead_queue = repo_root / "lead_queue"
+            if lead_queue.is_dir() and "LEAD_QUEUE_VISITED_DIR" not in os.environ:
+                os.environ["LEAD_QUEUE_VISITED_DIR"] = str(lead_queue)
+            if "LEADPOET_CRAWL_ARTIFACTS_DIR" not in os.environ:
+                crawl_dir = repo_root / ".lead_sorcerer_cache" / "crawl_artifacts"
+                crawl_dir.mkdir(parents=True, exist_ok=True)
+                os.environ["LEADPOET_CRAWL_ARTIFACTS_DIR"] = str(crawl_dir)
+
             # Set up the temporary environment with config files
             setup_temp_environment(temp_dir)
 
@@ -795,7 +804,7 @@ else:
                         if not m:
                             return ""
                         prefix = m.group(1).rstrip("/")
-                        slug = m.group(4)
+                        slug = m.group(3)
                         return f"{prefix}/{slug}"
 
                     async def _enrich_linkedin_fields_if_missing() -> None:
