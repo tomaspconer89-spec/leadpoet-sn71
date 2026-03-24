@@ -23,6 +23,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -56,6 +57,7 @@ from Leadpoet.utils.cloud_db import (
     gateway_verify_submission_outcome,
 )
 from miner_models.lead_precheck import precheck_lead
+from miner_models.minimal_lead_blob import minimal_gateway_lead
 
 
 def _load_enrich():
@@ -67,6 +69,101 @@ def _load_enrich():
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     return getattr(mod, "enrich_linkedin_fields", None)
+
+
+def _trim_description_for_gateway(lead: dict, max_len: int = 2000) -> tuple[dict, int]:
+    """Trim oversize description to satisfy gateway max length."""
+    desc = lead.get("description")
+    if not isinstance(desc, str):
+        return lead, 0
+    if len(desc) <= max_len:
+        return lead, 0
+    trimmed = dict(lead)
+    trimmed["description"] = desc[:max_len].rstrip()
+    return trimmed, len(desc) - len(trimmed["description"])
+
+
+def _normalize_linkedin_url(raw: str, kind: str) -> str:
+    if not isinstance(raw, str):
+        return ""
+    val = raw.strip().rstrip(").,;")
+    if not val:
+        return ""
+    if val.startswith("/"):
+        val = f"https://www.linkedin.com{val}"
+    elif "linkedin.com" in val.lower() and not val.lower().startswith(("http://", "https://")):
+        val = f"https://{val.lstrip('/')}"
+    m = re.match(
+        r"^(https?://(?:[a-z0-9-]+\.)?linkedin\.com)/(in|company)/([^/?#]+)",
+        val,
+        flags=re.I,
+    )
+    if not m:
+        return ""
+    bucket = m.group(2).lower()
+    slug = m.group(3).strip()
+    if kind == "person" and bucket != "in":
+        return ""
+    if kind == "company" and bucket != "company":
+        return ""
+    return f"https://www.linkedin.com/{bucket}/{slug}"
+
+
+def _normalize_linkedin_fields(lead: dict) -> dict:
+    out = dict(lead)
+    p = _normalize_linkedin_url(out.get("linkedin", ""), kind="person")
+    if p:
+        out["linkedin"] = p
+    c = _normalize_linkedin_url(out.get("company_linkedin", ""), kind="company")
+    if c:
+        out["company_linkedin"] = c
+    socials = out.get("socials")
+    if isinstance(socials, dict):
+        sc = _normalize_linkedin_url(socials.get("linkedin", ""), kind="company")
+        socials = dict(socials)
+        socials["linkedin"] = sc or None
+        out["socials"] = socials
+    return out
+
+
+def _submitted_path_for_attempt(submitted_dir: Path, src_name: str, attempt_idx: int) -> Path:
+    """Return a collision-safe path in submitted/ for this attempt."""
+    base = Path(src_name).stem
+    suffix = Path(src_name).suffix or ".json"
+    candidate = submitted_dir / src_name
+    if not candidate.exists():
+        return candidate
+    i = max(2, int(attempt_idx))
+    while True:
+        candidate = submitted_dir / f"{base}.attempt{i}{suffix}"
+        if not candidate.exists():
+            return candidate
+        i += 1
+
+
+def _write_failed_outcome(
+    failed_dir: Path,
+    src_name: str,
+    status: str,
+    lead: dict,
+    *,
+    lead_id: str | None = None,
+    error_code: str | None = None,
+    message: str | None = None,
+    http_status: int | None = None,
+) -> Path:
+    out = failed_dir / f"{Path(src_name).stem}.submission_outcome.json"
+    payload = {
+        "source_file": src_name,
+        "submission_status": status,
+        "lead_id": lead_id,
+        "http_status": http_status,
+        "error": error_code,
+        "message": message,
+        "lead": lead,
+    }
+    out.write_text(json.dumps(payload, ensure_ascii=True, indent=2, default=str))
+    return out
 
 
 def main() -> int:
@@ -114,21 +211,19 @@ def main() -> int:
     wallet = None if args.enqueue_pending else _wallet(args.wallet_name, args.wallet_hotkey)
     verified_count = 0
     duplicate_count = 0
-    gateway_reject_count = 0
+    rejected_count = 0
+    attempted_unverified_count = 0
     precheck_fail_count = 0
-    skipped_count = 0
     enqueued_count = 0
+    moved_to_submitted = 0
+    submitted_collision_count = 0
 
     print(f"Processing up to {len(files)} file(s) from {collected}")
     if args.enqueue_pending:
         print("Mode: --enqueue-pending (precheck → lead_queue/pending/, no gateway submit)")
 
     gateway_submit_serial = 0
-    for path in files:
-        if (submitted_dir / path.name).exists():
-            print(f"Skip (already in submitted): {path.name}")
-            skipped_count += 1
-            continue
+    for attempt_idx, path in enumerate(files, 1):
 
         try:
             lead = json.loads(path.read_text())
@@ -143,8 +238,15 @@ def main() -> int:
             except Exception:
                 pass
 
+        lead = _normalize_linkedin_fields(lead)
+        lead = minimal_gateway_lead(lead)
         business_name = lead.get("business", "Unknown")
         email = lead.get("email", "")
+        lead, trimmed_chars = _trim_description_for_gateway(lead, max_len=2000)
+        if trimmed_chars > 0:
+            print(
+                f"Trimmed description for gateway: {business_name} (-{trimmed_chars} chars)"
+            )
         linkedin_url = lead.get("linkedin", "")
         company_linkedin_url = lead.get("company_linkedin", "")
 
@@ -161,7 +263,19 @@ def main() -> int:
         if check_email_duplicate(email):
             print(f"Duplicate email: {business_name} ({email})")
             duplicate_count += 1
-            path.rename(failed_dir / path.name)
+            _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "duplicate_email",
+                lead,
+                error_code="duplicate_email",
+                message="Duplicate email already exists",
+            )
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
             continue
 
         if linkedin_url and company_linkedin_url and check_linkedin_combo_duplicate(
@@ -169,7 +283,19 @@ def main() -> int:
         ):
             print(f"Duplicate person+company LinkedIn: {business_name}")
             duplicate_count += 1
-            path.rename(failed_dir / path.name)
+            _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "duplicate_linkedin_combo",
+                lead,
+                error_code="duplicate_linkedin_combo",
+                message="Duplicate LinkedIn person+company combo already exists",
+            )
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
             continue
 
         if args.enqueue_pending:
@@ -196,51 +322,102 @@ def main() -> int:
         presign_result = gateway_get_presigned_url(wallet, lead)
         if not presign_result:
             print(
-                f"Presign failed for {business_name}; leaving {path.name} in collected_pass. "
+                f"Presign failed for {business_name}; archiving attempt in submitted. "
                 "If the gateway said 'Hotkey not registered on subnet' but btcli shows you on netuid 71, "
-                "the hosted metagraph may lag—retry later or run with --enqueue-pending then ./run-miner.sh."
+                "the hosted metagraph may lag."
             )
+            _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "attempted_unverified",
+                lead,
+                error_code="presign_failed",
+                message="Gateway presign failed",
+            )
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
+            attempted_unverified_count += 1
             continue
 
         if not gateway_upload_lead(presign_result["s3_url"], lead):
-            print(f"S3 upload failed for {business_name}; leaving {path.name} in collected_pass.")
+            print(f"S3 upload failed for {business_name}; archiving attempt in submitted.")
+            _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "attempted_unverified",
+                lead,
+                lead_id=presign_result.get("lead_id"),
+                error_code="s3_upload_failed",
+                message="Gateway S3 upload failed",
+            )
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
+            attempted_unverified_count += 1
             continue
 
         verify_out = gateway_verify_submission_outcome(wallet, presign_result["lead_id"])
         if verify_out.ok:
             verified_count += 1
-            print(f"Verified: {business_name} -> submitted/{path.name}")
-            path.rename(submitted_dir / path.name)
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            print(f"Verified: {business_name} -> submitted/{target.name}")
+            path.rename(target)
+            moved_to_submitted += 1
         elif verify_out.terminal_conflict:
-            gateway_reject_count += 1
-            reject_path = failed_dir / f"{path.stem}.gateway_rejected.json"
-            reject_path.write_text(
-                json.dumps(
-                    {
-                        "source_file": path.name,
-                        "lead_id": presign_result.get("lead_id"),
-                        "http_status": verify_out.http_status,
-                        "error": verify_out.error_code,
-                        "message": verify_out.message,
-                        "lead": lead,
-                    },
-                    ensure_ascii=True,
-                    indent=2,
-                    default=str,
-                )
+            rejected_count += 1
+            out = _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "rejected",
+                lead,
+                lead_id=presign_result.get("lead_id"),
+                http_status=verify_out.http_status,
+                error_code=verify_out.error_code,
+                message=verify_out.message,
             )
-            path.unlink(missing_ok=True)
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
             print(
-                f"Gateway conflict (terminal, moved to failed): {business_name} -> failed/{reject_path.name}"
+                f"Gateway conflict (terminal): {business_name} -> submitted/{target.name} "
+                f"(outcome: failed/{out.name})"
             )
         else:
-            print(f"Verify failed for {business_name}; leaving {path.name} in collected_pass.")
+            attempted_unverified_count += 1
+            out = _write_failed_outcome(
+                failed_dir,
+                path.name,
+                "attempted_unverified",
+                lead,
+                lead_id=presign_result.get("lead_id"),
+                http_status=verify_out.http_status,
+                error_code=verify_out.error_code,
+                message=verify_out.message,
+            )
+            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
+            moved_to_submitted += 1
+            print(
+                f"Verify failed (non-terminal): {business_name} -> submitted/{target.name} "
+                f"(outcome: failed/{out.name})"
+            )
 
     print(
-        f"Done. verified={verified_count} enqueued_pending={enqueued_count} "
-        f"precheck_fail={precheck_fail_count} duplicates_to_failed={duplicate_count} "
-        f"gateway_rejected_to_failed={gateway_reject_count} "
-        f"skipped_already_submitted={skipped_count}"
+        f"Done. moved_to_submitted={moved_to_submitted} verified={verified_count} "
+        f"attempted_unverified={attempted_unverified_count} rejected={rejected_count} "
+        f"duplicates={duplicate_count} submitted_name_collisions={submitted_collision_count} "
+        f"enqueued_pending={enqueued_count} precheck_fail={precheck_fail_count}"
     )
     return 0
 

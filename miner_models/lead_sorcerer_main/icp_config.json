@@ -2,14 +2,14 @@
   "name": "Startup Advisory Services - Test ICP",
   "icp_text": "Small startup advisory and consulting firms with founder and advisor contact information for business development and partnership opportunities.",
   "queries": [
-    "startup advisory firm leadership team",
-    "startup advisory company about us team",
-    "venture consulting firm partner profile",
-    "business consulting boutique founder bio",
-    "startup consulting contact founder",
-    "growth advisory firm management team",
-    "fractional cfo advisory firm team page",
-    "site:linkedin.com/company startup advisory firm"
+    "\"startup advisory\" firm founder team",
+    "\"startup consulting\" boutique leadership team",
+    "\"fractional cfo\" advisory firm leadership team",
+    "\"growth advisory\" consulting firm partners",
+    "\"business advisory\" services founder contact",
+    "\"strategic advisory\" startup team page",
+    "site:.com \"startup advisory\" \"about us\" \"team\"",
+    "site:.com \"fractional cfo\" \"contact\" \"leadership\""
   ],
   "specific_urls": [],
   "default_contact_linkedin": "",
@@ -42,6 +42,24 @@
     "process_rejected": true,
     "process_low_crawl": true,
     "force_contact_discovery": true
+  },
+  "validation_config": {
+    "industry_keywords": [
+      "advisory",
+      "consulting",
+      "fractional cfo",
+      "business strategy",
+      "management consulting",
+      "growth advisory",
+      "startup consulting"
+    ],
+    "company_name_keywords": [
+      "advisory",
+      "consulting",
+      "fractional cfo",
+      "capital advisors",
+      "strategy"
+    ]
   },
   "caps": {
     "company_usd": 0.02,

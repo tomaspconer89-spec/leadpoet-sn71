@@ -171,6 +171,32 @@ else:
     ) -> None:
         """Fill gateway/precheck fields often missing from thin crawl extracts."""
         from miner_models.lead_precheck import VALID_EMPLOYEE_COUNTS
+        
+        def _clean_linkedin_url(raw: str, kind: str) -> str:
+            """Normalize common malformed LinkedIn URLs to canonical in/company paths."""
+            if not raw or not isinstance(raw, str):
+                return ""
+            val = raw.strip().rstrip(").,;")
+            if not val:
+                return ""
+            if val.startswith("/"):
+                val = f"https://www.linkedin.com{val}"
+            elif "linkedin.com" in val.lower() and not val.lower().startswith(("http://", "https://")):
+                val = f"https://{val.lstrip('/')}"
+            m = re.match(
+                r"^(https?://(?:[a-z0-9-]+\.)?linkedin\.com)/(in|company)/([^/?#]+)",
+                val,
+                flags=re.I,
+            )
+            if not m:
+                return ""
+            bucket = m.group(2).lower()
+            slug = m.group(3).strip()
+            if kind == "person" and bucket != "in":
+                return ""
+            if kind == "company" and bucket != "company":
+                return ""
+            return f"https://www.linkedin.com/{bucket}/{slug}"
 
         domain = (lead_record.get("domain") or "").strip()
         web = (legacy_lead.get("website") or "").strip() or (
@@ -241,18 +267,32 @@ else:
             legacy_lead["description"] = (
                 f"{bn} provides professional services to clients; details were sourced from the company website at {web}."
             )
+        else:
+            max_desc_len = int(os.environ.get("LEAD_MAX_DESCRIPTION_LEN", "2000") or "2000")
+            if len(desc) > max_desc_len:
+                legacy_lead["description"] = desc[:max_desc_len].rstrip()
 
         li = (legacy_lead.get("linkedin") or "").strip()
-        if li.startswith("/in/"):
-            legacy_lead["linkedin"] = f"https://www.linkedin.com{li}"
-        elif li and "linkedin.com" in li and not li.startswith("http"):
-            legacy_lead["linkedin"] = f"https://{li.lstrip('/')}"
+        cleaned_person = _clean_linkedin_url(li, kind="person")
+        if cleaned_person:
+            legacy_lead["linkedin"] = cleaned_person
 
         socials = legacy_lead.get("socials") or {}
         if not (legacy_lead.get("company_linkedin") or "").strip():
             cl = (socials.get("linkedin") or "").strip()
             if cl:
                 legacy_lead["company_linkedin"] = cl
+        company_li = _clean_linkedin_url(
+            legacy_lead.get("company_linkedin", ""), kind="company"
+        )
+        if company_li:
+            legacy_lead["company_linkedin"] = company_li
+        elif legacy_lead.get("company_linkedin"):
+            legacy_lead["company_linkedin"] = ""
+        if isinstance(socials, dict):
+            s_li = _clean_linkedin_url(socials.get("linkedin", ""), kind="company")
+            socials["linkedin"] = s_li or None
+            legacy_lead["socials"] = socials
 
     def convert_lead_record_to_legacy_format(
             lead_record: Dict[str, Any]) -> Dict[str, Any]:
@@ -461,6 +501,10 @@ else:
                         # Extract leads from the result - look in exports directory
                         leads = []
                         collect_cap = max(num_leads * 8, 50)
+                        total_records_seen = 0
+                        dropped_no_contacts = 0
+                        dropped_not_prepass = 0
+                        dropped_over_cap = 0
 
                         # Look for exported leads in the exports directory
                         exports_dir = Path(temp_dir) / "exports"
@@ -480,16 +524,19 @@ else:
                                                 try:
                                                     lead_record = json.loads(
                                                         line)
+                                                    total_records_seen += 1
                                                     # Include leads that have contacts OR extracted team members.
                                                     has_contacts = bool(lead_record.get("contacts"))
                                                     has_team = bool(
                                                         (lead_record.get("extracted_data") or {}).get("team_members")
                                                     )
-                                                    if (has_contacts or has_team) and len(
-                                                        leads
-                                                    ) < collect_cap:
-                                                        leads.append(
-                                                            lead_record)
+                                                    if not (has_contacts or has_team):
+                                                        dropped_no_contacts += 1
+                                                        continue
+                                                    if len(leads) >= collect_cap:
+                                                        dropped_over_cap += 1
+                                                        continue
+                                                    leads.append(lead_record)
                                                 except json.JSONDecodeError:
                                                     continue
 
@@ -505,21 +552,32 @@ else:
                                         if line.strip():
                                             try:
                                                 lead_record = json.loads(line)
+                                                total_records_seen += 1
                                                 # Include ICP-passing leads with contacts OR extracted team members.
                                                 has_contacts = bool(lead_record.get("contacts"))
                                                 has_team = bool(
                                                     (lead_record.get("extracted_data") or {}).get("team_members")
                                                 )
-                                                if (lead_record.get(
-                                                        "icp",
-                                                    {}).get("pre_pass")
-                                                        and (has_contacts or has_team)
-                                                        and len(leads)
-                                                        < collect_cap):
-                                                    leads.append(lead_record)
+                                                if not lead_record.get("icp", {}).get("pre_pass"):
+                                                    dropped_not_prepass += 1
+                                                    continue
+                                                if not (has_contacts or has_team):
+                                                    dropped_no_contacts += 1
+                                                    continue
+                                                if len(leads) >= collect_cap:
+                                                    dropped_over_cap += 1
+                                                    continue
+                                                leads.append(lead_record)
                                             except json.JSONDecodeError:
                                                 continue
 
+                        print(
+                            "Lead Sorcerer contact-filter stats: "
+                            f"seen={total_records_seen} kept={len(leads)} "
+                            f"dropped_no_contacts_or_team={dropped_no_contacts} "
+                            f"dropped_not_prepass={dropped_not_prepass} "
+                            f"dropped_over_cap={dropped_over_cap}"
+                        )
                         return leads
 
                 except Exception as e:

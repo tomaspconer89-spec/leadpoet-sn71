@@ -2,6 +2,7 @@
 """
 Generate N leads via Lead Sorcerer, run precheck only (no gateway submit).
 Writes passes to lead_queue/collected_pass/ and failures to lead_queue/collected_precheck_fail/.
+Graded buckets A–E under lead_queue/; use --target-a-ready to loop until N strict A_ready_submit files.
 """
 from __future__ import annotations
 
@@ -21,6 +22,15 @@ if str(_REPO) not in sys.path:
     sys.path.insert(0, str(_REPO))
 
 from dotenv import load_dotenv
+from miner_models.lead_normalization import (
+    apply_email_classification,
+    normalize_legacy_lead_shape,
+)
+from miner_models.minimal_lead_blob import minimal_gateway_lead
+from miner_models.person_confidence import score_person_confidence
+from miner_models.title_normalizer import normalize_title
+from scripts.queue_router import route_lead
+from scripts.retry_enrichment import targeted_retry_enrichment
 
 load_dotenv(_REPO / ".env")
 
@@ -89,6 +99,7 @@ async def _run(
     industry: str | None,
     *,
     target_pass: int | None,
+    target_a_ready: int | None,
     max_runs: int,
 ) -> int:
     # Force Lead Sorcerer tool logs into miner.log unless caller overrides explicitly.
@@ -96,7 +107,8 @@ async def _run(
 
     append_work_status(
         "collect_leads_precheck_only START "
-        f"num={num} industry={industry!r} target_pass={target_pass} max_runs={max_runs} "
+        f"num={num} industry={industry!r} target_pass={target_pass} "
+        f"target_a_ready={target_a_ready} max_runs={max_runs} "
         f"log={_miner_log_path()} leadsorcerer_log={os.environ.get('LEADSORCERER_LOG_FILE')}"
     )
 
@@ -124,8 +136,17 @@ async def _run(
 
     pass_dir = _REPO / "lead_queue" / "collected_pass"
     fail_dir = _REPO / "lead_queue" / "collected_precheck_fail"
+    graded_dirs = {
+        "A_ready_submit": _REPO / "lead_queue" / "A_ready_submit",
+        "B_retry_enrichment": _REPO / "lead_queue" / "B_retry_enrichment",
+        "C_good_account_needs_person": _REPO / "lead_queue" / "C_good_account_needs_person",
+        "D_low_confidence_hold": _REPO / "lead_queue" / "D_low_confidence_hold",
+        "E_reject": _REPO / "lead_queue" / "E_reject",
+    }
     pass_dir.mkdir(parents=True, exist_ok=True)
     fail_dir.mkdir(parents=True, exist_ok=True)
+    for d in graded_dirs.values():
+        d.mkdir(parents=True, exist_ok=True)
 
     ok_n = 0
     bad_n = 0
@@ -157,33 +178,117 @@ async def _run(
                 skipped_blocked_n += 1
                 print(f"  SKIP blocked domain: {dom}")
                 continue
+            lead = dict(lead)
+            normalize_legacy_lead_shape(lead)
             if enrich_linkedin_fields is not None:
                 try:
                     lead = enrich_linkedin_fields(dict(lead))
                 except Exception:
                     pass
+            normalize_legacy_lead_shape(lead)
+            apply_email_classification(lead)
+
             key = _queue_key(lead)
             business = lead.get("business", "?")
             out_ok = pass_dir / f"{key}.json"
             if out_ok.exists():
                 continue
+
+            title_meta = normalize_title(str(lead.get("role", "")))
+            lead["title_normalized"] = title_meta["normalized_title"]
+            lead["seniority"] = title_meta["seniority"]
+            lead["persona_bucket"] = title_meta["persona_bucket"]
+            lead["target_fit"] = title_meta["target_fit"]
+
+            conf = score_person_confidence(
+                lead, title_matches_persona=title_meta["target_fit"] in ("high", "medium")
+            )
+            lead.update(conf)
+            apply_email_classification(lead)
+
             pre_ok, reason = precheck_lead(lead)
+
+            # Targeted retry only for recoverable failures.
+            if (not pre_ok) and reason:
+                if "name_not_in_email" in (reason or "") or "email_domain_mismatch" in (
+                    reason or ""
+                ):
+                    lead["identity_conflict"] = True
+                lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
+                    lead, reason, enrich_linkedin=enrich_linkedin_fields
+                )
+                if retry_attempts > 0:
+                    lead["retry_reason"] = reason
+                    lead["retry_attempts"] = retry_attempts
+                    if recovered_fields:
+                        lead["recovered_fields"] = recovered_fields
+                    normalize_legacy_lead_shape(lead)
+                    apply_email_classification(lead)
+                    conf2 = score_person_confidence(
+                        lead,
+                        title_matches_persona=title_meta["target_fit"] in ("high", "medium"),
+                    )
+                    lead.update(conf2)
+                    pre_ok, reason = precheck_lead(lead)
+
+            bucket = route_lead(lead, precheck_ok=pre_ok, precheck_reason=reason)
+            store_graded = (
+                minimal_gateway_lead(lead)
+                if (pre_ok and bucket == "A_ready_submit")
+                else lead
+            )
+            graded_path = graded_dirs[bucket] / f"{key}.json"
+            if not graded_path.exists():
+                graded_path.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2))
+
             if pre_ok:
-                out_ok.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
-                print(f"  PASS precheck: {business} -> {out_ok.name}")
+                out_pass = (
+                    store_graded if bucket == "A_ready_submit" else lead
+                )
+                out_ok.write_text(json.dumps(out_pass, ensure_ascii=True, indent=2))
+                print(f"  PASS precheck: {business} -> {out_ok.name} [{bucket}]")
                 ok_n += 1
             else:
                 path = fail_dir / f"{key}.precheck_failed.json"
-                payload = {"reason": reason, "business": business, "lead": lead}
+                payload = {"reason": reason, "business": business, "lead": lead, "queue_bucket": bucket}
                 path.write_text(json.dumps(payload, ensure_ascii=True, indent=2))
-                print(f"  FAIL precheck: {business} ({reason}) -> {path.name}")
+                print(f"  FAIL precheck: {business} ({reason}) -> {path.name} [{bucket}]")
                 if str(reason).startswith(_BLOCK_REASONS):
                     dom = _lead_domain(lead)
                     if dom:
                         blocked_domains.add(dom)
                 bad_n += 1
 
-    if target_pass is None:
+    a_dir = graded_dirs["A_ready_submit"]
+    a_baseline = len(list(a_dir.glob("*.json")))
+
+    if target_a_ready is not None and target_a_ready > 0:
+        while runs < max_runs:
+            current_a = len(list(a_dir.glob("*.json")))
+            got = current_a - a_baseline
+            if got >= target_a_ready:
+                print(
+                    f"Reached target of {target_a_ready} new A_ready_submit lead(s) "
+                    f"({got} this session)."
+                )
+                append_work_status(
+                    f"collect_leads_precheck_only reached target_a_ready={target_a_ready} "
+                    f"(new_a={got})"
+                )
+                break
+            runs += 1
+            print(
+                f"Pipeline run {runs}/{max_runs}: have {got}/{target_a_ready} A bucket; "
+                f"generating up to {num} lead(s)..."
+            )
+            leads = await get_leads(num, industry=industry, region=None)
+            print(f"Sorcerer returned {len(leads)} legacy lead(s).")
+            append_work_status(
+                f"collect_leads_precheck_only run {runs}/{max_runs} (target_a_ready): "
+                f"Sorcerer returned {len(leads)} legacy leads"
+            )
+            _process_batch(leads)
+    elif target_pass is None:
         print(f"Generating up to {num} leads (Sorcerer)...")
         leads = await get_leads(num, industry=industry, region=None)
         print(f"Sorcerer returned {len(leads)} legacy lead(s).")
@@ -243,12 +348,28 @@ def main() -> int:
         "--max-runs",
         type=int,
         default=5,
-        help="Max Sorcerer pipeline runs when using --target-pass",
+        help="Max Sorcerer pipeline runs when using --target-pass or --target-a-ready",
+    )
+    p.add_argument(
+        "--target-a-ready",
+        type=int,
+        default=0,
+        help="Stop after this many new *.json in lead_queue/A_ready_submit (strict submit-ready). "
+        "0 = disabled. When set (>0), takes precedence over --target-pass.",
     )
     args = p.parse_args()
     tgt = args.target_pass if args.target_pass > 0 else None
+    tgt_a = args.target_a_ready if args.target_a_ready > 0 else None
+    if tgt_a is not None:
+        tgt = None
     return asyncio.run(
-        _run(args.num, args.industry, target_pass=tgt, max_runs=args.max_runs)
+        _run(
+            args.num,
+            args.industry,
+            target_pass=tgt,
+            target_a_ready=tgt_a,
+            max_runs=args.max_runs,
+        )
     )
 
 

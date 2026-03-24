@@ -183,6 +183,27 @@ FIRECRAWL_EXTRACT_PROMPT = (
 )
 
 
+def build_single_company_extraction_urls(domain: str, max_urls: int = 6) -> List[str]:
+    """
+    Homepage first, then high-signal paths (team, leadership, about, …) by page_score.
+    """
+    from .page_discovery import discover_priority_pages
+
+    home = f"https://{domain}".rstrip("/")
+    out: List[str] = [home]
+    for item in sorted(
+        discover_priority_pages(domain),
+        key=lambda x: -int(x.get("page_score", 0)),
+    ):
+        u = str(item.get("url") or "").rstrip("/")
+        if not u or u in out:
+            continue
+        out.append(u)
+        if len(out) >= max_urls:
+            break
+    return out
+
+
 # ============================================================================
 # Main Tool Class
 # ============================================================================
@@ -332,13 +353,10 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 self.logger.info("🔗 Database mode: Using domain-specific URLs")
             else:
                 # Fallback to domain-based URLs if no specific URLs match this domain
-                priority_pages = [
-                    f"https://{domain}",  # Homepage (most comprehensive)
-                    f"https://{domain}/about",  # About page (company info)
-                    f"https://{domain}/contact",  # Contact page (contact info)
-                ]
-                urls_to_extract.extend(priority_pages)
-                self.logger.info(f"🔗 No specific URLs match {domain}, using domain-based URLs")
+                urls_to_extract.extend(build_single_company_extraction_urls(domain))
+                self.logger.info(
+                    f"🔗 No specific URLs match {domain}, using priority page discovery"
+                )
 
         elif (
             site_type == "information_database"
@@ -365,15 +383,11 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
             )
 
         else:
-            # Mode 3: Standard single company mode
-            # Prioritize most important pages for cost optimization
-            priority_pages = [
-                f"https://{domain}",  # Homepage (most comprehensive)
-                f"https://{domain}/about",  # About page (company info)
-                f"https://{domain}/contact",  # Contact page (contact info)
-            ]
-            urls_to_extract.extend(priority_pages)
-            self.logger.info("🔗 Added priority domain pages for comprehensive data")
+            # Mode 3: Standard single company — homepage + page_discovery-ranked paths
+            urls_to_extract.extend(build_single_company_extraction_urls(domain))
+            self.logger.info(
+                "🔗 Added priority domain pages (page_discovery order) for extraction"
+            )
 
         # Remove duplicates while preserving order (specific URLs first, then domain pages)
         seen = set()

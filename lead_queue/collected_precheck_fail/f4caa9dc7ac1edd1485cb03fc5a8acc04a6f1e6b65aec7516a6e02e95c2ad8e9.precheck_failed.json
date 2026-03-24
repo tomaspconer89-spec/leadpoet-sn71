@@ -1,0 +1,40 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "business": "Fishbowl - An app to chat with professionals in your industry.",
+  "lead": {
+    "business": "Fishbowl - An app to chat with professionals in your industry.",
+    "description": "Conversations about work just got interesting. Download the Fishbowl app and get a feed of what other professionals in your industry are saying.",
+    "full_name": "Press Lead",
+    "first": "Press",
+    "last": "Lead",
+    "email": "press@fishbowlapp.com",
+    "phone_numbers": [],
+    "website": "https://fishbowlapp.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/fishbowlapp",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fishbowlapp",
+    "source_url": "https://fishbowlapp.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}

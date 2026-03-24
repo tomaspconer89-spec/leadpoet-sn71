@@ -1,0 +1,40 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "business": "Home - Strategic Advisory Partners",
+  "lead": {
+    "business": "Home - Strategic Advisory Partners",
+    "description": "We get it! Mapping out your financial future can be stressful, especially when there is a volatility in the market place. You have goals and it\u2019s tough to know when to pivot your investment strategies. Whether you want to explore your investment options, create a retirement plan, or develop a sound financial strategy for the future, Strategic Advisory Partners can help. Our clients value advice delivered with experience and intentionality. We will listen to your needs and provide objective recommendations that address your unique, comprehensive financial picture. One that is easy to understand and provides peace of mind.",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@strategicadvisorypartners.com",
+    "phone_numbers": [],
+    "website": "https://strategicadvisorypartners.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/strategic-financing",
+    "source_url": "https://strategicadvisorypartners.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}

@@ -41,6 +41,7 @@ from Leadpoet.utils.cloud_db import (
     gateway_verify_submission_outcome,
 )
 from miner_models.lead_precheck import precheck_lead
+from miner_models.minimal_lead_blob import minimal_gateway_lead
 
 
 def main() -> int:
@@ -83,6 +84,8 @@ def main() -> int:
             print(f"Invalid JSON in {path.name}: {e}")
             path.rename(failed_dir / path.name)
             continue
+
+        lead = minimal_gateway_lead(lead)
 
         business_name = lead.get("business", "Unknown")
         email = lead.get("email", "")

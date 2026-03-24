@@ -1,0 +1,40 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "business": "Very Good Advisors",
+  "lead": {
+    "business": "Very Good Advisors",
+    "description": "Very Good Advisors provides professional services to clients; details were sourced from the company website at https://verygoodadvisors.com.",
+    "full_name": "konstantin besfamylnyi mba b63900",
+    "first": "konstantin",
+    "last": "besfamylnyi mba b63900",
+    "email": "welcome@verygoodadvisors.com",
+    "phone_numbers": [],
+    "website": "https://verygoodadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "ceo",
+    "linkedin": "https://www.linkedin.com/in/konstantin-besfamylnyi-mba-b63900",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/38086244",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/38086244",
+    "source_url": "https://verygoodadvisors.com",
+    "source_type": "company_site",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "employee_count": "11-50"
+  }
+}
