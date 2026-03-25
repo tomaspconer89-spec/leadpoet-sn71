@@ -69,19 +69,51 @@ def email_domain_matches_website(lead: Dict[str, Any]) -> bool:
         return True
 
 
+_SN71_ALLOWED_SOURCE_TYPES = {
+    "public_registry",
+    "company_site",
+    "first_party_form",
+    "licensed_resale",
+    "proprietary_database",
+}
+
+
+def _coerce_source_type_for_sn71(source_type: str, source_url: str) -> str:
+    """
+    Map legacy/internal source labels to SN71-allowed source types.
+    """
+    raw = (source_type or "").strip().lower()
+    url = (source_url or "").strip().lower()
+
+    if raw in _SN71_ALLOWED_SOURCE_TYPES:
+        return raw
+    if raw in {"team_page", "about_page", "contact_page", "search_result", "linkedin", "unknown"}:
+        # company pages + search-derived leads are first-party website sourced.
+        if raw == "contact_page":
+            return "first_party_form"
+        if "linkedin.com" in url or "crunchbase.com" in url or "sec.gov" in url:
+            return "public_registry"
+        if "contact" in url or "form" in url or "/submit" in url:
+            return "first_party_form"
+        return "company_site"
+
+    # Conservative default keeps provenance valid for validator.
+    return "company_site"
+
+
 def infer_source_type(source_url: str) -> str:
     if not (source_url or "").strip():
-        return "unknown"
+        return "company_site"
     low = source_url.lower()
     if any(seg in low for seg in ("/team", "/people", "/staff", "/leadership")):
-        return "team_page"
+        return "company_site"
     if "/about" in low or "/company" in low:
-        return "about_page"
-    if "/contact" in low:
-        return "contact_page"
-    if "linkedin.com" in low:
-        return "linkedin"
-    return "search_result"
+        return "company_site"
+    if "/contact" in low or "form" in low or "/submit" in low:
+        return "first_party_form"
+    if any(reg in low for reg in ("linkedin.com", "crunchbase.com", "sec.gov", ".gov")):
+        return "public_registry"
+    return "company_site"
 
 
 def normalize_legacy_lead_shape(lead: Dict[str, Any]) -> Dict[str, Any]:
@@ -112,7 +144,8 @@ def normalize_legacy_lead_shape(lead: Dict[str, Any]) -> Dict[str, Any]:
             if isinstance(u, str) and u.strip() and u.strip() not in urls:
                 urls.append(u.strip())
     lead["source_urls"] = urls
-    lead["source_type"] = infer_source_type(source_url)
+    inferred_source_type = infer_source_type(source_url)
+    lead["source_type"] = _coerce_source_type_for_sn71(inferred_source_type, source_url)
     lead["title_raw"] = lead.get("title_raw") or role
 
     if not full_name and first:

@@ -169,7 +169,7 @@ def _write_failed_outcome(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Precheck + submit leads from collected_pass")
     parser.add_argument("--wallet-name", default="YOUR_COLDKEY_NAME")
-    parser.add_argument("--wallet-hotkey", default="culture")
+    parser.add_argument("--wallet-hotkey", default="veil")
     parser.add_argument("--max", type=int, default=100, help="Max files to process from collected_pass")
     parser.add_argument(
         "--enrich-linkedin",

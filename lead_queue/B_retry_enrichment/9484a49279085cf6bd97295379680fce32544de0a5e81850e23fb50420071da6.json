@@ -1,0 +1,31 @@
+{
+  "business": "Colorado Venture Capital Firm",
+  "full_name": "Logo Lead",
+  "first": "Logo",
+  "last": "Lead",
+  "email": "logo@2x.png",
+  "role": "Contact",
+  "website": "https://accessvp.com",
+  "industry": "Professional Services",
+  "sub_industry": "Management Consulting",
+  "country": "United States",
+  "state": "Texas",
+  "city": "Austin",
+  "company_linkedin": "https://www.linkedin.com/company/access-venture-partners",
+  "source_url": "https://accessvp.com",
+  "source_type": "company_site",
+  "description": "Access Venture Partners is a venture capital firm based in Denver &amp; Boulder. 20+ years investing in early-stage technology startups.",
+  "employee_count": "11-50",
+  "hq_country": "United States",
+  "hq_state": "Texas",
+  "hq_city": "Austin",
+  "phone_numbers": [],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/access-venture-partners",
+    "github": null,
+    "twitter": null,
+    "telegram": null,
+    "instagram": null,
+    "facebook": null
+  }
+}

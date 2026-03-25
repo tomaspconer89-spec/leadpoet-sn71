@@ -213,7 +213,15 @@ else:
             if not (legacy_lead.get("source_url") or "").strip():
                 legacy_lead["source_url"] = web
 
-        if not (legacy_lead.get("source_type") or "").strip():
+        st = (legacy_lead.get("source_type") or "").strip().lower()
+        valid_source_types = {
+            "public_registry",
+            "company_site",
+            "first_party_form",
+            "licensed_resale",
+            "proprietary_database",
+        }
+        if st not in valid_source_types:
             legacy_lead["source_type"] = "company_site"
 
         if not (legacy_lead.get("industry") or "").strip() or not (

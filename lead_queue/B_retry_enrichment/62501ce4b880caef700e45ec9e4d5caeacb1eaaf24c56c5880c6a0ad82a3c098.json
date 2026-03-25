@@ -1,0 +1,31 @@
+{
+  "business": "Ideals Virtual Data Rooms",
+  "full_name": "John Doe",
+  "first": "John",
+  "last": "Doe",
+  "email": "john.doe@mail.com",
+  "role": "Contact",
+  "website": "https://idealsvdr.com",
+  "industry": "Professional Services",
+  "sub_industry": "Management Consulting",
+  "country": "United States",
+  "state": "Texas",
+  "city": "Austin",
+  "company_linkedin": "https://www.linkedin.com/company/idealsvdr",
+  "source_url": "https://idealsvdr.com",
+  "source_type": "company_site",
+  "description": "Ideals VDR offers unrivaled customer support, flexible pricing, and the most innovative data room software to support dealmakers",
+  "employee_count": "11-50",
+  "hq_country": "United States",
+  "hq_state": "Texas",
+  "hq_city": "Austin",
+  "phone_numbers": [],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/idealsvdr",
+    "github": null,
+    "twitter": null,
+    "telegram": null,
+    "instagram": null,
+    "facebook": null
+  }
+}
