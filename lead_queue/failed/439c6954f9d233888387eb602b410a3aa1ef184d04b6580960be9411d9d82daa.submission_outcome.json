@@ -1,0 +1,40 @@
+{
+  "source_file": "439c6954f9d233888387eb602b410a3aa1ef184d04b6580960be9411d9d82daa.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "NOW CFO: Outsourced CFO, Fractional CFO &amp; Accounting Service",
+    "full_name": "Jnovak Lead",
+    "first": "Jnovak",
+    "last": "Lead",
+    "email": "jnovak@nowcfo.com",
+    "role": "Contact",
+    "website": "https://nowcfo.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "linkedin": "https://www.linkedin.com/in/jim-bennett-nowcfo",
+    "company_linkedin": "https://www.linkedin.com/company/nowcfo",
+    "source_url": "https://nowcfo.com",
+    "source_type": "company_site",
+    "description": "NOW CFO offers outsourced CFO, fractional CFO, and accounting services to provide expert financial leadership, improve efficiency, and drive business growth.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Utah",
+    "hq_city": "Salt Lake City",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/nowcfo",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    }
+  }
+}

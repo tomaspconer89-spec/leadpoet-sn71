@@ -31,7 +31,7 @@ from miner_models.minimal_lead_blob import minimal_gateway_lead
 from miner_models.person_confidence import score_person_confidence
 from miner_models.title_normalizer import normalize_title
 from scripts.queue_router import route_lead
-from scripts.retry_enrichment import targeted_retry_enrichment
+from scripts.retry_enrichment import should_run_targeted_retry, targeted_retry_enrichment
 
 load_dotenv(_REPO / ".env")
 
@@ -89,12 +89,14 @@ def _process_one(
     apply_email_classification(lead)
 
     pre_ok, reason = precheck_lead(lead)
+    retry_attempts = 0
     if (not pre_ok) and reason:
         if "name_not_in_email" in (reason or "") or "email_domain_mismatch" in (reason or ""):
             lead["identity_conflict"] = True
-        lead, _, retry_attempts = targeted_retry_enrichment(
-            lead, reason, enrich_linkedin=enrich_fn
-        )
+        if should_run_targeted_retry(reason):
+            lead, _, retry_attempts = targeted_retry_enrichment(
+                lead, reason, enrich_linkedin=enrich_fn
+            )
         if retry_attempts > 0:
             normalize_legacy_lead_shape(lead)
             apply_email_classification(lead)
@@ -155,23 +157,19 @@ def main() -> int:
             if old_path.resolve() != new_graded.resolve():
                 old_path.unlink(missing_ok=True)
 
-            store_graded = (
-                minimal_gateway_lead(lead)
-                if (pre_ok and bucket == "A_ready_submit")
-                else lead
-            )
+            # Keep all newly written queue artifacts compact and SN71-aligned.
+            store_graded = minimal_gateway_lead(lead)
             new_graded.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2), encoding="utf-8")
 
             if pre_ok:
-                out_pass = store_graded if bucket == "A_ready_submit" else lead
                 (pass_dir / f"{key}.json").write_text(
-                    json.dumps(out_pass, ensure_ascii=True, indent=2), encoding="utf-8"
+                    json.dumps(store_graded, ensure_ascii=True, indent=2), encoding="utf-8"
                 )
             else:
                 payload = {
                     "reason": reason,
                     "business": business,
-                    "lead": lead,
+                    "lead": store_graded,
                     "queue_bucket": bucket,
                 }
                 (fail_dir / f"{key}.precheck_failed.json").write_text(

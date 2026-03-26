@@ -1,18 +1,33 @@
 {
-  "name": "Startup Advisory Services - Test ICP",
-  "icp_text": "Small startup advisory and consulting firms with founder and advisor contact information for business development and partnership opportunities.",
+  "name": "Leadpoet High-Yield B2B ICP",
+  "icp_text": "Mid-market B2B SaaS in the United States (roughly 11–500 employees) with visible team or leadership pages, named growth/revenue/sales/marketing leaders, and credible business sites—not directories, marketplaces, or contact-only brochure sites. Discovery may surface Canada/UK/EU domains; gateway precheck still requires US (or existing narrow UAE exception) unless you change lead_precheck.",
   "queries": [
-    "\"startup advisory\" firm founder team",
-    "\"startup consulting\" boutique leadership team",
-    "\"fractional cfo\" advisory firm leadership team",
-    "\"growth advisory\" consulting firm partners",
-    "\"business advisory\" services founder contact",
-    "\"strategic advisory\" startup team page",
-    "site:.com \"startup advisory\" \"about us\" \"team\"",
-    "site:.com \"fractional cfo\" \"contact\" \"leadership\""
+    "\"b2b saas\" \"team\"",
+    "\"b2b saas\" \"leadership\"",
+    "\"sales enablement\" software \"our team\"",
+    "\"marketing automation\" SaaS leadership",
+    "\"customer support software\" \"Head of Growth\"",
+    "\"revenue operations software\" \"VP Revenue\"",
+    "\"b2b saas\" careers marketing",
+    "\"b2b saas\" \"RevOps\"",
+    "\"Head of Growth\" \"b2b saas\"",
+    "\"VP Revenue\" \"software company\"",
+    "\"b2b saas\" careers growth",
+    "\"crm software\" B2B company",
+    "\"customer engagement software\" company team",
+    "\"revops\" OR \"revenue operations\" b2b saas leadership",
+    "\"digital agency\" \"our team\" managing director",
+    "\"creative agency\" leadership team founder",
+    "\"healthtech\" startup \"team\" OR \"leadership\"",
+    "\"fintech\" platform \"leadership\" team",
+    "site:.com \"head of growth\" \"b2b\" SaaS"
   ],
   "specific_urls": [],
   "default_contact_linkedin": "",
+  "crawl": {
+    "top_pages_per_domain": 3,
+    "page_score_threshold": 8
+  },
   "required_fields": {
     "company": ["name", "industry", "sub_industry"],
     "contact": ["email", "job_title", "full_name"]
@@ -21,9 +36,9 @@
     "company": ["hq_location", "revenue_range", "employee_count", "specialties", "founded_year", "company_type", "number_of_locations", "ownership_type"],
     "contact": ["phone", "linkedin_url", "decision_maker", "department", "seniority"]
   },
-  "threshold": 0.45,
-  "filtering_strict": false,
-  "mode": "fast",
+  "threshold": 0.58,
+  "filtering_strict": true,
+  "mode": "thorough",
   "refresh_policy": {
     "revisit_after_days": 90,
     "failure_revisit_days": 7,
@@ -35,30 +50,46 @@
     "max_concurrent_requests": 3
   },
   "search": {
-    "max_pages": 2,
+    "max_pages": 3,
     "max_results_per_query": 20
   },
   "testing": {
-    "process_rejected": true,
-    "process_low_crawl": true,
+    "process_rejected": false,
+    "process_low_crawl": false,
     "force_contact_discovery": true
   },
   "validation_config": {
     "industry_keywords": [
-      "advisory",
-      "consulting",
-      "fractional cfo",
-      "business strategy",
-      "management consulting",
-      "growth advisory",
-      "startup consulting"
+      "saas",
+      "software",
+      "b2b",
+      "platform",
+      "api",
+      "healthtech",
+      "health tech",
+      "fintech",
+      "digital agency",
+      "creative agency",
+      "revops",
+      "revenue operations",
+      "sales enablement",
+      "customer engagement",
+      "marketing automation"
     ],
     "company_name_keywords": [
-      "advisory",
-      "consulting",
-      "fractional cfo",
-      "capital advisors",
-      "strategy"
+      "labs",
+      "software",
+      "platform",
+      "health",
+      "fintech",
+      "capital",
+      "digital",
+      "agency",
+      "media",
+      "group",
+      "ventures",
+      "io",
+      "ai"
     ]
   },
   "caps": {
@@ -71,13 +102,27 @@
   },
   "role_priority": {
     "founder": 1,
-    "owner": 1,
+    "co-founder": 1,
     "ceo": 1,
+    "managing director": 1,
     "president": 1,
-    "advisor": 2,
-    "partner": 2,
+    "head of growth": 2,
+    "vp growth": 2,
+    "vp sales": 2,
+    "chief revenue": 2,
+    "revops": 2,
+    "revenue operations": 2,
+    "marketing director": 2,
+    "demand generation": 2,
+    "chief operating": 2,
+    "coo": 2,
+    "head of operations": 2,
+    "product lead": 2,
+    "partner": 3,
     "director": 3,
-    "consultant": 4,
+    "owner": 1,
+    "advisor": 4,
+    "consultant": 5,
     "default": 99
   },
   "exports": {
@@ -87,7 +132,20 @@
   "exclusion_criteria": {
     "ownership_types": [],
     "max_locations": 10000,
-    "excluded_keywords": ["directory", "listicle", "job board", "marketplace", "aggregator"]
+    "excluded_keywords": [
+      "directory",
+      "listicle",
+      "job board",
+      "marketplace",
+      "aggregator",
+      "restaurant",
+      "plumber",
+      "hvac",
+      "locksmith",
+      "menu",
+      "order online",
+      "yelp"
+    ]
   },
   "targeting": {
     "location_types": ["headquarters", "single_location"],
@@ -96,42 +154,40 @@
     "geographic_focus": ["North America", "United States"]
   },
   "intent_config": {
-    "purpose": "startup_advisory",
-    "target_action": "business_development",
+    "purpose": "b2b_pipeline",
+    "target_action": "engage_buyers",
     "intent_signals": {
       "high_intent": [
-        "startup advisory",
-        "business consulting",
-        "founder coaching",
-        "mentoring services",
-        "advisory board",
-        "startup support",
-        "entrepreneur guidance",
-        "business development",
-        "strategic planning",
-        "coaching services"
+        "book a demo",
+        "request a demo",
+        "talk to sales",
+        "schedule a call",
+        "get started",
+        "enterprise",
+        "scale your",
+        "roi",
+        "customers"
       ],
       "medium_intent": [
-        "business services",
-        "consulting",
-        "advisory services",
-        "professional services",
-        "business support",
-        "strategic advice",
-        "mentoring",
-        "coaching"
+        "our platform",
+        "how it works",
+        "solutions",
+        "for teams",
+        "case study",
+        "customers"
       ],
       "low_intent": [
-        "not accepting clients",
-        "fully booked",
-        "no availability"
+        "hiring only",
+        "investors",
+        "press only",
+        "no longer accepting"
       ]
     },
     "intent_sources": [
-      "about_pages",
       "team_pages",
-      "contact_pages",
-      "services_pages"
+      "about_pages",
+      "services_pages",
+      "contact_pages"
     ],
     "scoring_rules": {
       "high_intent_weight": 0.8,
@@ -141,6 +197,170 @@
       "location_bonus": 0.1,
       "size_bonus": 0.1,
       "leadership_bonus": 0.1
+    }
+  },
+  "leadpoet_icp_reference": {
+    "icp_name": "B2B SaaS Growth and Revenue Leaders",
+    "version": "1.0",
+    "description": "Mid-market B2B SaaS companies with visible teams, strong LinkedIn presence, and likely decision-makers in growth, revenue, sales, or marketing.",
+    "industries": [
+      "Software Development",
+      "SaaS",
+      "Information Technology",
+      "Marketing Technology",
+      "Sales Technology",
+      "Customer Success Software",
+      "Revenue Operations Software"
+    ],
+    "sub_industries": [
+      "B2B SaaS",
+      "CRM",
+      "Sales Enablement",
+      "Marketing Automation",
+      "Customer Support Software",
+      "Revenue Operations",
+      "Analytics Software"
+    ],
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Europe"
+    ],
+    "hq_regions": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "employee_count_allowed": ["11-50", "51-200", "201-500"],
+    "exclude_employee_count": ["1-10", "5001+"],
+    "company_signals_required": [
+      "public website",
+      "clear B2B offer",
+      "named team or leadership page",
+      "linkedin company page"
+    ],
+    "company_signals_preferred": [
+      "careers page",
+      "blog with authors",
+      "press page",
+      "product pages",
+      "customer or demo CTA"
+    ],
+    "company_signals_exclude": [
+      "directory sites",
+      "marketplaces",
+      "agencies if not targeting agencies",
+      "one-page brochure sites",
+      "contact-form-only websites",
+      "no named staff",
+      "generic free email domains"
+    ],
+    "target_titles": [
+      "Head of Growth",
+      "VP Growth",
+      "Growth Lead",
+      "Head of Revenue",
+      "VP Revenue",
+      "Revenue Operations Manager",
+      "Revenue Operations Director",
+      "RevOps Lead",
+      "Head of Marketing",
+      "Marketing Director",
+      "Demand Generation Director",
+      "VP Sales",
+      "Sales Director",
+      "Head of Partnerships",
+      "COO",
+      "Founder",
+      "Co-Founder",
+      "CEO"
+    ],
+    "title_exclude": [
+      "Intern",
+      "Assistant",
+      "Coordinator",
+      "Advisor",
+      "Consultant",
+      "Freelancer",
+      "Recruiter"
+    ],
+    "persona_buckets_preferred": ["economic_buyer", "functional_owner", "likely_champion"],
+    "persona_buckets_exclude": ["too_junior", "non_target"],
+    "required_fields_reference": [
+      "business",
+      "full_name",
+      "first",
+      "last",
+      "email",
+      "role",
+      "website",
+      "industry",
+      "sub_industry",
+      "region",
+      "linkedin",
+      "company_linkedin",
+      "source_url"
+    ],
+    "email_rules": {
+      "reject_generic_prefixes": ["info", "hello", "contact", "support", "team", "admin", "office", "sales"],
+      "reject_free_domains": true,
+      "require_name_in_email": true,
+      "require_email_domain_match_website": true
+    },
+    "page_priority_paths": [
+      "/team",
+      "/leadership",
+      "/about",
+      "/people",
+      "/company",
+      "/our-team",
+      "/about-us",
+      "/leadership-team",
+      "/careers",
+      "/blog",
+      "/authors",
+      "/press"
+    ],
+    "page_depriorities": ["/contact", "/privacy", "/terms", "/legal", "/support"],
+    "search_query_families": ["industry_company_discovery", "team_discovery", "persona_discovery", "hiring_signal"],
+    "domain_score_threshold": 0.58,
+    "page_score_threshold": 8,
+    "top_pages_per_domain": 3,
+    "person_confidence_threshold_strong": 16,
+    "person_confidence_threshold_near_pass": 10,
+    "retry_reasons_allowed": ["missing_linkedin", "missing_last_name", "email_domain_mismatch"],
+    "max_retry_attempts": 2,
+    "routing_policy": {
+      "submit_only_bucket": "A_ready_submit",
+      "generic_email_bucket": "C_good_account_needs_person",
+      "near_pass_bucket": "B_retry_enrichment"
+    },
+    "operating_defaults_note": "target-pass 10–25, target-a-ready 3–8; cheap vs high-performance modes per your stack doc",
+    "narrow_revops_variant": {
+      "icp_name": "Mid-Market B2B SaaS RevOps and Growth Leaders",
+      "industries": [
+        "Software Development",
+        "SaaS",
+        "Sales Technology",
+        "Marketing Technology"
+      ],
+      "sub_industries": ["B2B SaaS", "Sales Enablement", "Marketing Automation", "Revenue Operations"],
+      "employee_count_allowed": ["11-50", "51-200", "201-500"],
+      "target_titles": [
+        "Head of Growth",
+        "VP Growth",
+        "Head of Revenue",
+        "VP Revenue",
+        "Revenue Operations Manager",
+        "Revenue Operations Director",
+        "RevOps Lead",
+        "Head of Marketing",
+        "Demand Generation Director",
+        "VP Sales"
+      ],
+      "regions": ["United States", "Canada", "United Kingdom"]
     }
   }
 }

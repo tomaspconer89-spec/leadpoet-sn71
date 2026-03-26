@@ -30,7 +30,7 @@ from miner_models.minimal_lead_blob import minimal_gateway_lead
 from miner_models.person_confidence import score_person_confidence
 from miner_models.title_normalizer import normalize_title
 from scripts.queue_router import route_lead
-from scripts.retry_enrichment import targeted_retry_enrichment
+from scripts.retry_enrichment import should_run_targeted_retry, targeted_retry_enrichment
 
 load_dotenv(_REPO / ".env")
 
@@ -208,15 +208,18 @@ async def _run(
 
             pre_ok, reason = precheck_lead(lead)
 
-            # Targeted retry only for recoverable failures.
+            # Targeted retry only for high-profit allowlist (LinkedIn / last / domain match).
+            retry_attempts = 0
+            recovered_fields: list = []
             if (not pre_ok) and reason:
                 if "name_not_in_email" in (reason or "") or "email_domain_mismatch" in (
                     reason or ""
                 ):
                     lead["identity_conflict"] = True
-                lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
-                    lead, reason, enrich_linkedin=enrich_linkedin_fields
-                )
+                if should_run_targeted_retry(reason):
+                    lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
+                        lead, reason, enrich_linkedin=enrich_linkedin_fields
+                    )
                 if retry_attempts > 0:
                     lead["retry_reason"] = reason
                     lead["retry_attempts"] = retry_attempts
@@ -232,25 +235,25 @@ async def _run(
                     pre_ok, reason = precheck_lead(lead)
 
             bucket = route_lead(lead, precheck_ok=pre_ok, precheck_reason=reason)
-            store_graded = (
-                minimal_gateway_lead(lead)
-                if (pre_ok and bucket == "A_ready_submit")
-                else lead
-            )
+            # Keep queue JSON compact for all buckets (not only A):
+            # store only gateway-relevant fields and avoid bulky enrichment metadata.
+            store_graded = minimal_gateway_lead(lead)
             graded_path = graded_dirs[bucket] / f"{key}.json"
             if not graded_path.exists():
                 graded_path.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2))
 
             if pre_ok:
-                out_pass = (
-                    store_graded if bucket == "A_ready_submit" else lead
-                )
-                out_ok.write_text(json.dumps(out_pass, ensure_ascii=True, indent=2))
+                out_ok.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2))
                 print(f"  PASS precheck: {business} -> {out_ok.name} [{bucket}]")
                 ok_n += 1
             else:
                 path = fail_dir / f"{key}.precheck_failed.json"
-                payload = {"reason": reason, "business": business, "lead": lead, "queue_bucket": bucket}
+                payload = {
+                    "reason": reason,
+                    "business": business,
+                    "lead": store_graded,
+                    "queue_bucket": bucket,
+                }
                 path.write_text(json.dumps(payload, ensure_ascii=True, indent=2))
                 print(f"  FAIL precheck: {business} ({reason}) -> {path.name} [{bucket}]")
                 if str(reason).startswith(_BLOCK_REASONS):

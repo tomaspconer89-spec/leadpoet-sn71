@@ -324,16 +324,43 @@ def apify_search_urls(query: str) -> List[str]:
         return []
 
 
+def scrapingdog_search_urls(query: str) -> List[str]:
+    key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
+    if not key:
+        return []
+    try:
+        data = http_json(
+            "https://api.scrapingdog.com/google"
+            f"?api_key={urllib.parse.quote(key)}"
+            f"&query={urllib.parse.quote(query)}"
+            "&results=20&country=us&page=0"
+        )
+        urls: List[str] = []
+        _collect_linkedin_urls(data, urls)
+        deduped: List[str] = []
+        seen = set()
+        for u in urls:
+            if u not in seen:
+                seen.add(u)
+                deduped.append(u)
+        return deduped
+    except Exception:
+        return []
+
+
 def search_urls(query: str) -> List[str]:
     """
     Query search provider(s) and return top URLs.
-    Priority: HarvestAPI -> Apify -> Serper -> Brave -> GSE.
+    Priority: ScrapingDog -> HarvestAPI -> Apify -> Serper -> Brave -> GSE.
     """
     urls: List[str] = []
     serper_key = os.getenv("SERPER_API_KEY", "").strip()
     brave_key = os.getenv("BRAVE_API_KEY", "").strip()
     gse_key = os.getenv("GSE_API_KEY", "").strip()
     gse_cx = os.getenv("GSE_CX", "").strip()
+    scrapingdog_urls = scrapingdog_search_urls(query)
+    if scrapingdog_urls:
+        return scrapingdog_urls
     harvest_urls = harvest_search_urls(query)
     if harvest_urls:
         return harvest_urls

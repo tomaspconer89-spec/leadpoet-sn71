@@ -450,14 +450,24 @@ class LeadSorcererOrchestrator:
 
             lead_records = domain_result.get("data",
                                              {}).get("lead_records", [])
-            self.logger.info(
-                f"Domain tool processed {len(lead_records)} leads")
+            if len(lead_records) == 0:
+                self.logger.warning(
+                    "Domain tool processed 0 leads (upstream search/scoring produced no candidates)"
+                )
+            else:
+                self.logger.info(
+                    f"Domain tool processed {len(lead_records)} leads")
 
             # Filter to passing leads for next stage
             passing_leads = [
                 r for r in lead_records if r.get("icp", {}).get("pre_pass")
             ]
-            self.logger.info(f"Filtered to {len(passing_leads)} passing leads")
+            if len(passing_leads) == 0:
+                self.logger.warning(
+                    "Filtered to 0 passing leads (threshold/filtering too strict or poor query quality)"
+                )
+            else:
+                self.logger.info(f"Filtered to {len(passing_leads)} passing leads")
 
         # Persist domain results (pass + rejects) - works for both modes
         self._persist_domain_results(lead_records)
@@ -494,7 +504,7 @@ class LeadSorcererOrchestrator:
             # Update lead_records with crawled data
             lead_records = crawled_leads
         else:
-            self.logger.info("No passing leads to crawl")
+            self.logger.warning("No passing leads to crawl")
 
         # Handle exports if enabled
         if self.icp_config.get("exports", {}).get("enabled", False):

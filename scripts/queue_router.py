@@ -1,5 +1,12 @@
 from __future__ import annotations
 
+"""
+High-profit routing: submit-ready A bucket only when precheck passes, non-generic email,
+strong person confidence, good title fit, and provable identity (LinkedIn / multi-source / on-site direct).
+B_retry_enrichment holds near-pass and recoverable rows; C when the account is good but the person is weak;
+E for junk. Submit to gateway only from A (use a_ready_to_pending_minimal + submit_queued_leads).
+"""
+
 from typing import Any, Dict, Optional
 
 
@@ -17,7 +24,7 @@ def _strong_identity(lead: Dict[str, Any]) -> bool:
     return bool(
         et == "direct"
         and on_site
-        and (lead.get("person_confidence_score") or 0) >= 14
+        and (lead.get("person_confidence_score") or 0) >= 16
     )
 
 
@@ -59,7 +66,8 @@ def route_lead(
     precheck_reason: Optional[str],
 ) -> str:
     """
-    Graded queues A–E with stricter submit-ready (A) vs enrichment (B).
+    Graded queues A–E. A_ready_submit: precheck_ok + strong bucket + non-generic email
+    + target_fit high/medium + _strong_identity. Never promote generic inboxes to A.
     """
     bucket = (lead.get("person_confidence_bucket") or "").strip().lower()
     target_fit = (lead.get("target_fit") or "").strip().lower()
@@ -84,6 +92,11 @@ def route_lead(
         return "B_retry_enrichment"
 
     reason = precheck_reason or ""
+
+    # Explicit hard stop after targeted person retry budget is exhausted.
+    # This avoids infinite recycling of company-only rows with no person recoveries.
+    if bool(lead.get("targeted_person_retry_exhausted")):
+        return "E_reject"
 
     if _junk_reason(reason) and bucket == "reject":
         return "E_reject"

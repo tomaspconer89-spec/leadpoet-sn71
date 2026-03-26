@@ -15,6 +15,7 @@ import logging
 import os
 import re
 import time
+from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -61,6 +62,34 @@ DEFAULT_DOMAIN_TTL_DAYS = 180
 DEFAULT_DOMAIN_SERP_TTL_HOURS = 24
 DEFAULT_MAX_PAGES = 5
 DEFAULT_MODE = "thorough"
+
+# High-noise sources that frequently reduce useful ICP yield.
+LOW_INTENT_DOMAIN_KEYWORDS = (
+    "indeed.",
+    "ziprecruiter.",
+    "builtin.",
+    "glassdoor.",
+    "workable.",
+    "workday.",
+    "greenhouse.",
+    "lever.",
+    "job",
+    "jobs",
+    "careers",
+    "career",
+    "substack.",
+    "medium.",
+)
+
+LOW_INTENT_TITLE_MARKERS = (
+    "job search",
+    "jobs",
+    "careers",
+    "hiring now",
+    "salary",
+    "resume",
+    "cv",
+)
 
 # ============================================================================
 # Google Search Engine (GSE) Integration
@@ -966,6 +995,21 @@ class DomainTool:
             "domain": domain,
         }
 
+    def _is_low_intent_result(self, item: Dict[str, Any]) -> bool:
+        """Skip common job-board/content results that rarely yield named decision-makers."""
+        url = str(item.get("link", "") or "").lower()
+        title = str(item.get("title", "") or "").lower()
+        snippet = str(item.get("snippet", "") or "").lower()
+
+        if any(k in url for k in LOW_INTENT_DOMAIN_KEYWORDS):
+            return True
+        if "/jobs" in url or "/careers" in url or "/career" in url:
+            return True
+        text = f"{title} {snippet}"
+        if any(marker in text for marker in LOW_INTENT_TITLE_MARKERS):
+            return True
+        return False
+
     async def _search_query(
         self, query: str, max_pages: int, ttl_hours: int
     ) -> Tuple[List[Dict[str, Any]], int, int]:
@@ -985,6 +1029,7 @@ class DomainTool:
         normalized_results: List[Dict[str, Any]] = []
         cache_hits = 0
         cache_misses = 0
+        skip_counts: Counter[str] = Counter()
 
         for page in range(1, max_pages + 1):
             # Cache: first hit along the configured chain
@@ -1009,6 +1054,10 @@ class DomainTool:
                     # Skip noisy/non-company domains before scoring to save API cost.
                     url = (item.get("link", "") or "").lower()
                     if any(domain in url for domain in self.domain_blocklist):
+                        skip_counts["blocklist"] += 1
+                        continue
+                    if self._is_low_intent_result(item):
+                        skip_counts["low_intent"] += 1
                         continue
                     normalized_results.append(
                         self._normalize_serp_result(item, query, page)
@@ -1065,11 +1114,21 @@ class DomainTool:
             for item in results.get("items", []):
                 url = (item.get("link", "") or "").lower()
                 if any(domain in url for domain in self.domain_blocklist):
+                    skip_counts["blocklist"] += 1
+                    continue
+                if self._is_low_intent_result(item):
+                    skip_counts["low_intent"] += 1
                     continue
                 normalized_results.append(
                     self._normalize_serp_result(item, query, page)
                 )
 
+        if skip_counts:
+            self.logger.warning(
+                "Filtered noisy SERP results for query %r: %s",
+                query,
+                dict(skip_counts),
+            )
         return normalized_results, cache_hits, cache_misses
 
     async def _search_and_score_domains(
@@ -1109,6 +1168,11 @@ class DomainTool:
             self.logger.info(
                 f"🤖 Starting LLM scoring for {len(query_results)} domains..."
             )
+            if len(query_results) == 0:
+                self.logger.warning(
+                    "No scoreable domains for query %r after provider + noise filtering",
+                    query,
+                )
             scored_domains = await self._score_domains(query_results)
             self.logger.info(
                 f"✅ LLM scoring completed: {len(scored_domains)} scored domains"
@@ -1118,6 +1182,10 @@ class DomainTool:
         self.logger.info(
             f"📊 Search completed: {len(all_scored_domains)} total results, {total_cache_hits} cache hits, {total_cache_misses} cache misses"
         )
+        if len(all_scored_domains) == 0:
+            self.logger.error(
+                "Search/scoring produced zero domains across all queries; check provider connectivity and query quality."
+            )
         return all_scored_domains, total_cache_hits, total_cache_misses
 
     async def _score_domains(

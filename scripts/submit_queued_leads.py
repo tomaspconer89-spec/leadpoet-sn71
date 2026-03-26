@@ -44,6 +44,21 @@ from miner_models.lead_precheck import precheck_lead
 from miner_models.minimal_lead_blob import minimal_gateway_lead
 
 
+def _submitted_path_for_attempt(submitted_dir: Path, src_name: str) -> Path:
+    """Return a collision-safe path in submitted/."""
+    base = Path(src_name).stem
+    suffix = Path(src_name).suffix or ".json"
+    candidate = submitted_dir / src_name
+    if not candidate.exists():
+        return candidate
+    i = 2
+    while True:
+        candidate = submitted_dir / f"{base}.attempt{i}{suffix}"
+        if not candidate.exists():
+            return candidate
+        i += 1
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Submit queued leads")
     parser.add_argument("--wallet-name", default="YOUR_COLDKEY_NAME")
@@ -76,6 +91,7 @@ def main() -> int:
     duplicate_count = 0
     gateway_reject_count = 0
     gateway_submit_serial = 0
+    submitted_collision_count = 0
 
     for path in pending_files:
         try:
@@ -136,7 +152,10 @@ def main() -> int:
         if verify_out.ok:
             verified_count += 1
             print(f"Verified: {business_name}")
-            path.rename(submitted_dir / path.name)
+            target = _submitted_path_for_attempt(submitted_dir, path.name)
+            if target.name != path.name:
+                submitted_collision_count += 1
+            path.rename(target)
         elif verify_out.terminal_conflict:
             gateway_reject_count += 1
             reject_path = failed_dir / f"{path.stem}.gateway_rejected.json"
@@ -165,6 +184,7 @@ def main() -> int:
     print(f"Verified/submitted: {verified_count}")
     print(f"Duplicates moved to failed: {duplicate_count}")
     print(f"Gateway 409 rejects (failed/): {gateway_reject_count}")
+    print(f"Submitted filename collisions handled: {submitted_collision_count}")
     return 0
 
 

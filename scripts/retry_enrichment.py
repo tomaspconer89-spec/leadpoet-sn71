@@ -6,6 +6,26 @@ from urllib.parse import urlparse
 
 from miner_models.lead_normalization import apply_email_classification, is_generic_email
 
+# High-profit: only spend enrichment on near-pass identity gaps (max 2 attempts inside handlers).
+MAX_RETRY_ATTEMPTS = 2
+
+# Substrings matched against precheck `reason` (lowercased) before running LinkedIn / name fixups.
+RETRY_ALLOWED_SUBSTRINGS = (
+    "missing_required_fields: linkedin",
+    "invalid_linkedin",
+    "invalid_linkedin_url",
+    "missing_required_fields: last",
+    "missing_first_or_last_name",
+    "email_domain_mismatch",
+)
+
+
+def should_run_targeted_retry(reason: Optional[str]) -> bool:
+    if not (reason or "").strip():
+        return False
+    low = reason.strip().lower()
+    return any(s in low for s in RETRY_ALLOWED_SUBSTRINGS)
+
 
 def _fix_missing_last(lead: Dict[str, Any]) -> bool:
     full_name = (lead.get("full_name") or "").strip()
@@ -81,11 +101,15 @@ def targeted_retry_enrichment(
 ) -> Tuple[Dict[str, Any], List[str], int]:
     """
     Failure-specific recovery before second precheck.
+    Only runs for reasons in RETRY_ALLOWED_SUBSTRINGS (LinkedIn / last name / email-domain).
     """
     out = dict(lead)
     recovered: List[str] = []
     attempts = 0
     r = (reason or "").strip().lower()
+
+    if not should_run_targeted_retry(reason):
+        return out, recovered, attempts
 
     # Generic inbox: account-level signal; try named-person enrichment only when plausible
     if r.startswith("general_purpose_email:") or "general_purpose_email" in r:

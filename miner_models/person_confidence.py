@@ -7,9 +7,11 @@ from miner_models.lead_normalization import is_generic_email
 
 def score_person_confidence(lead: Dict[str, Any], *, title_matches_persona: bool = False) -> Dict[str, Any]:
     """
-    Evidence-driven person confidence before precheck.
-    Uses legacy-normalized fields when present (name_quality, source_type, etc.).
-    LinkedIn bonus is capped when identity_conflict is set.
+    Evidence-driven person confidence before precheck (high-profit tiers).
+
+    Targets: strong (>=16), near_pass (>=10), weak_retryable (>=5), else reject.
+    Aligns with direct /in/ LinkedIn, non-generic email, email-domain match
+    (+4 company_site_match when address matches site), and title fit.
     """
     full_name = (lead.get("full_name") or "").strip()
     first = (lead.get("first") or "").strip()
@@ -81,13 +83,18 @@ def score_person_confidence(lead: Dict[str, Any], *, title_matches_persona: bool
     if title_matches_persona:
         score += 4
     if person_on_site:
-        score += 4
+        score += 3
     li_bonus = 4 if has_linkedin_raw else 0
     if identity_conflict and li_bonus:
         li_bonus = min(li_bonus, 2)
     score += li_bonus
     if has_direct_email:
         score += 5
+    if email and "@" in email:
+        if email_domain_match:
+            score += 4
+        else:
+            score -= 5
     if has_company_li:
         score += 2
     if multi_source:
@@ -103,8 +110,6 @@ def score_person_confidence(lead: Dict[str, Any], *, title_matches_persona: bool
         score -= 4
     if not person_on_site and not high_signal_source:
         score -= 3
-    if not email_domain_match:
-        score -= 5
     if stale_days > 365:
         score -= 2
     if not role:
@@ -143,6 +148,9 @@ def score_person_confidence(lead: Dict[str, Any], *, title_matches_persona: bool
             "name_quality": name_quality,
             "source_type": source_type or "unknown",
             "email_domain_match": bool(email_domain_match),
+            "company_site_match": bool(
+                email and "@" in email and bool(email_domain_match)
+            ),
             "source_count": source_count,
             "identity_conflict": identity_conflict,
         },

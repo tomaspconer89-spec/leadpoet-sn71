@@ -1,0 +1,37 @@
+{
+  "reason": "general_purpose_email:contact@",
+  "business": "TechTide Solution: Software Development Company",
+  "lead": {
+    "business": "TechTide Solution: Software Development Company",
+    "full_name": "Contact Lead",
+    "first": "Contact",
+    "last": "Lead",
+    "email": "contact@techtidesolutions.com",
+    "role": "Contact",
+    "website": "https://techtidesolutions.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "linkedin": "https://in.linkedin.com/in/apooravg",
+    "company_linkedin": "https://www.linkedin.com/company/techtide-solutions",
+    "source_url": "https://techtidesolutions.com",
+    "source_type": "company_site",
+    "description": "A premier software development company. \ud83d\ude80 Over 100 successfully accomplished projects. Delighted clientele exceeding 150.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/techtide-solutions",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    }
+  },
+  "queue_bucket": "C_good_account_needs_person"
+}

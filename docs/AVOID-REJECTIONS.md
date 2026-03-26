@@ -17,7 +17,7 @@ Before a lead enters the validator queue, the gateway runs:
 | **Required fields** | `missing_required_fields` | Send all of: business, full_name, first, last, email, role, website, industry, sub_industry, country, city, linkedin, company_linkedin, source_url, description, employee_count. For US: also state. |
 | **Name sanity** | `name_invalid_chars`, `name_credential` | No commas, digits, parentheses in first/last/full_name. No credentials (MBA, PhD, III, Jr, Sr) in name fields. |
 | **Role sanity** | `role_too_short`, `role_invalid_format`, etc. | Role 2–80 chars, no URLs, no company name in role, no degree abbreviations (MBA, CPA). |
-| **Description** | `desc_too_short` | description ≥ 20 chars. |
+| **Description** | `desc_too_short` | description ≥ 70 chars. |
 | **Industry / sub_industry** | `invalid_sub_industry`, `invalid_industry_pairing` | sub_industry must be a key in `validator_models/industry_taxonomy.py`; industry must be in that sub_industry’s `industries` list. |
 | **Location** | `country_empty`, `state_empty_for_usa`, `city_invalid_*` | US: country + state + city required; city/state must validate (geo). Non-US: country + city. Use standard names (e.g. "United States"). |
 | **HQ** | `invalid_hq_location` | hq_country required; for US companies hq_state required. |

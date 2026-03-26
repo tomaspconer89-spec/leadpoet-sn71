@@ -171,6 +171,21 @@ else:
     ) -> None:
         """Fill gateway/precheck fields often missing from thin crawl extracts."""
         from miner_models.lead_precheck import VALID_EMPLOYEE_COUNTS
+
+        def _derive_us_location_from_description(desc: str) -> tuple[str, str]:
+            """
+            Best-effort parse for snippets like "in Columbia, SC".
+            Returns (city, state_code) or ("", "").
+            """
+            text = (desc or "").strip()
+            if not text:
+                return "", ""
+            m = re.search(r"\bin\s+([A-Za-z .'-]+),\s*([A-Z]{2})\b", text)
+            if not m:
+                return "", ""
+            city = " ".join(m.group(1).split()).strip(" ,.")
+            state = m.group(2).strip().upper()
+            return city, state
         
         def _clean_linkedin_url(raw: str, kind: str) -> str:
             """Normalize common malformed LinkedIn URLs to canonical in/company paths."""
@@ -250,10 +265,17 @@ else:
             "u.s.",
             "u.s.a.",
         ):
-            if not (legacy_lead.get("state") or "").strip():
-                legacy_lead["state"] = "Texas"
-            if not (legacy_lead.get("city") or "").strip():
-                legacy_lead["city"] = "Austin"
+            # Do not inject fake defaults (e.g. Texas/Austin). Parse from text when possible.
+            if not (legacy_lead.get("state") or "").strip() or not (
+                legacy_lead.get("city") or ""
+            ).strip():
+                d_city, d_state = _derive_us_location_from_description(
+                    legacy_lead.get("description", "")
+                )
+                if d_state and not (legacy_lead.get("state") or "").strip():
+                    legacy_lead["state"] = d_state
+                if d_city and not (legacy_lead.get("city") or "").strip():
+                    legacy_lead["city"] = d_city
 
         legacy_lead["hq_country"] = (
             legacy_lead.get("hq_country") or legacy_lead["country"]
@@ -533,14 +555,15 @@ else:
                                                     lead_record = json.loads(
                                                         line)
                                                     total_records_seen += 1
-                                                    # Include leads that have contacts OR extracted team members.
+                                                    # Keep ICP-passing accounts even when contacts/team are missing.
+                                                    # They can enter targeted person discovery later instead of being dropped.
                                                     has_contacts = bool(lead_record.get("contacts"))
                                                     has_team = bool(
                                                         (lead_record.get("extracted_data") or {}).get("team_members")
                                                     )
                                                     if not (has_contacts or has_team):
                                                         dropped_no_contacts += 1
-                                                        continue
+                                                        lead_record["_needs_person_discovery"] = True
                                                     if len(leads) >= collect_cap:
                                                         dropped_over_cap += 1
                                                         continue
@@ -561,7 +584,7 @@ else:
                                             try:
                                                 lead_record = json.loads(line)
                                                 total_records_seen += 1
-                                                # Include ICP-passing leads with contacts OR extracted team members.
+                                                # Keep ICP-passing accounts even if no contacts/team are present.
                                                 has_contacts = bool(lead_record.get("contacts"))
                                                 has_team = bool(
                                                     (lead_record.get("extracted_data") or {}).get("team_members")
@@ -571,7 +594,7 @@ else:
                                                     continue
                                                 if not (has_contacts or has_team):
                                                     dropped_no_contacts += 1
-                                                    continue
+                                                    lead_record["_needs_person_discovery"] = True
                                                 if len(leads) >= collect_cap:
                                                     dropped_over_cap += 1
                                                     continue
@@ -683,6 +706,9 @@ else:
             apify_enrich_limit = int(
                 os.getenv("APIFY_LINKEDIN_ENRICH_MAX", "5").strip() or "5"
             )
+            targeted_person_retry_max = int(
+                os.getenv("TARGETED_PERSON_RETRY_MAX", "2").strip() or "2"
+            )
             apify_enrich_done = 0
             for record in lead_records:
                 try:
@@ -773,6 +799,28 @@ else:
                             except Exception:
                                 return []
 
+                    async def _scrapingdog_search(query: str, amount: int = 10) -> List[Any]:
+                        scrapingdog_key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
+                        if not scrapingdog_key:
+                            return []
+                        async with httpx.AsyncClient(timeout=45) as client:
+                            try:
+                                resp = await client.get(
+                                    "https://api.scrapingdog.com/google",
+                                    params={
+                                        "api_key": scrapingdog_key,
+                                        "query": query,
+                                        "results": max(10, min(amount, 100)),
+                                        "country": "us",
+                                        "page": 0,
+                                    },
+                                )
+                                resp.raise_for_status()
+                                data = resp.json() if resp.content else {}
+                                return data if isinstance(data, list) else ([data] if data else [])
+                            except Exception:
+                                return []
+
                     async def _fallback_search(query: str, amount: int = 10) -> List[Any]:
                         encoded_q = quote(query)
                         async with httpx.AsyncClient(timeout=45) as client:
@@ -841,6 +889,36 @@ else:
 
                         return []
 
+                    async def _enrichment_search(query: str, amount: int = 10) -> List[Any]:
+                        """
+                        Primary enrichment search order:
+                        1) ScrapingDog (primary)
+                        2) Apify
+                        3) Existing multi-provider fallback chain
+                        """
+                        items = await _scrapingdog_search(query, amount=amount)
+                        if items:
+                            print(
+                                f"🔎 Enrichment provider=scrapingdog hits={len(items)} query={query[:120]}"
+                            )
+                            return items
+                        items = await _apify_search(query, amount=amount)
+                        if items:
+                            print(
+                                f"🔎 Enrichment provider=apify hits={len(items)} query={query[:120]}"
+                            )
+                            return items
+                        items = await _fallback_search(query, amount=amount)
+                        if items:
+                            print(
+                                f"🔎 Enrichment provider=fallback hits={len(items)} query={query[:120]}"
+                            )
+                        else:
+                            print(
+                                f"🔎 Enrichment provider=none hits=0 query={query[:120]}"
+                            )
+                        return items
+
                     def _extract_linkedin_urls(obj: Any) -> List[str]:
                         urls: List[str] = []
                         if isinstance(obj, str):
@@ -873,6 +951,73 @@ else:
                         slug = m.group(3)
                         return f"{prefix}/{slug}"
 
+                    def _extract_emails(obj: Any) -> List[str]:
+                        vals: List[str] = []
+                        if isinstance(obj, str):
+                            vals.extend(
+                                re.findall(
+                                    r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",
+                                    obj,
+                                )
+                            )
+                        elif isinstance(obj, dict):
+                            for v in obj.values():
+                                vals.extend(_extract_emails(v))
+                        elif isinstance(obj, list):
+                            for it in obj:
+                                vals.extend(_extract_emails(it))
+                        return vals
+
+                    def _pick_domain_email(candidates: List[str], website: str) -> str:
+                        if not candidates or not website:
+                            return ""
+                        try:
+                            from urllib.parse import urlparse
+
+                            host = (
+                                urlparse(
+                                    website if website.startswith("http") else f"https://{website}"
+                                ).hostname
+                                or ""
+                            ).lower()
+                        except Exception:
+                            host = ""
+                        if host.startswith("www."):
+                            host = host[4:]
+                        if not host:
+                            return ""
+                        # Basic root match
+                        parts = host.split(".")
+                        host_root = ".".join(parts[-2:]) if len(parts) >= 2 else host
+                        blocked_prefixes = ("info@", "hello@", "contact@", "support@", "team@", "sales@")
+                        for em in candidates:
+                            e = (em or "").strip().lower()
+                            if not e or e.startswith(blocked_prefixes) or "@" not in e:
+                                continue
+                            dom = e.split("@")[-1]
+                            dparts = dom.split(".")
+                            dom_root = ".".join(dparts[-2:]) if len(dparts) >= 2 else dom
+                            if dom_root == host_root:
+                                return e
+                        return ""
+
+                    def _name_from_linkedin(url: str) -> tuple[str, str, str]:
+                        """Best-effort name recovery from linkedin slug."""
+                        m = re.search(r"/in/([^/?#]+)", (url or "").strip(), flags=re.I)
+                        if not m:
+                            return "", "", ""
+                        slug = m.group(1)
+                        slug = re.sub(r"[-_]+", " ", slug).strip()
+                        parts = [p for p in slug.split() if p and p.isalpha()]
+                        if len(parts) >= 2:
+                            first = parts[0].title()
+                            last = " ".join(parts[1:]).title()
+                            return f"{first} {last}", first, last
+                        if len(parts) == 1:
+                            first = parts[0].title()
+                            return first, first, ""
+                        return "", "", ""
+
                     async def _enrich_linkedin_fields_if_missing() -> None:
                         person_missing = not _is_valid_linkedin_person(
                             legacy_lead.get("linkedin", "")
@@ -893,15 +1038,10 @@ else:
 
                         # 1) Company LinkedIn
                         if company_missing:
-                            items = await _apify_search(
+                            items = await _enrichment_search(
                                 f'site:linkedin.com/company "{business}"',
                                 amount=10,
                             )
-                            if not items and apify_paywalled:
-                                items = await _fallback_search(
-                                    f'site:linkedin.com/company "{business}"',
-                                    amount=10,
-                                )
                             candidate_urls = []
                             for it in items:
                                 candidate_urls.extend(_extract_linkedin_urls(it))
@@ -922,15 +1062,10 @@ else:
 
                         # 2) Person LinkedIn (if we have a name)
                         if person_missing and full_name:
-                            items = await _apify_search(
+                            items = await _enrichment_search(
                                 f'site:linkedin.com/in "{full_name}" "{business}"',
                                 amount=10,
                             )
-                            if not items and apify_paywalled:
-                                items = await _fallback_search(
-                                    f'site:linkedin.com/in "{full_name}" "{business}"',
-                                    amount=10,
-                                )
                             candidate_urls = []
                             for it in items:
                                 candidate_urls.extend(_extract_linkedin_urls(it))
@@ -948,6 +1083,81 @@ else:
                                     legacy_lead["linkedin"] = u
                                     break
 
+                    async def _targeted_person_discovery_rounds() -> int:
+                        """
+                        Domain-specific person discovery for company-only accounts.
+                        Runs up to TARGETED_PERSON_RETRY_MAX rounds.
+                        """
+                        attempts = 0
+                        website = (legacy_lead.get("website") or "").strip()
+                        domain = (record.get("domain") or "").strip()
+                        business = (legacy_lead.get("business") or "").strip()
+                        if not domain and website:
+                            try:
+                                from urllib.parse import urlparse
+                                domain = (urlparse(website).hostname or "").lower()
+                            except Exception:
+                                domain = ""
+                        if domain.startswith("www."):
+                            domain = domain[4:]
+                        if not domain:
+                            return attempts
+
+                        for _ in range(max(0, targeted_person_retry_max)):
+                            person_ok = _is_valid_linkedin_person(legacy_lead.get("linkedin", ""))
+                            has_email = bool((legacy_lead.get("email") or "").strip())
+                            has_last = bool((legacy_lead.get("last") or "").strip())
+                            if person_ok and has_email and has_last:
+                                break
+                            attempts += 1
+                            queries = [
+                                f"site:{domain} team",
+                                f"site:{domain} leadership",
+                                f"site:{domain} \"Head of Growth\"",
+                                f"site:{domain} \"VP Sales\"",
+                                f"site:linkedin.com/in \"{business}\" \"{domain}\"",
+                            ]
+                            found_items: List[Any] = []
+                            for q in queries:
+                                items = await _enrichment_search(q, amount=10)
+                                if items:
+                                    found_items.extend(items)
+
+                            if not found_items:
+                                continue
+
+                            # LinkedIn person URL
+                            if not person_ok:
+                                li_urls = []
+                                for it in found_items:
+                                    li_urls.extend(_extract_linkedin_urls(it))
+                                for u in li_urls:
+                                    nu = _normalize_linkedin(u)
+                                    if _is_valid_linkedin_person(nu):
+                                        legacy_lead["linkedin"] = nu
+                                        break
+
+                            # Email reconstruction from discovered snippets/pages
+                            if not has_email:
+                                emails = []
+                                for it in found_items:
+                                    emails.extend(_extract_emails(it))
+                                picked = _pick_domain_email(emails, legacy_lead.get("website", ""))
+                                if picked:
+                                    legacy_lead["email"] = picked
+
+                            # Name reconstruction from LinkedIn slug if needed
+                            if not has_last and _is_valid_linkedin_person(legacy_lead.get("linkedin", "")):
+                                full, first, last = _name_from_linkedin(legacy_lead.get("linkedin", ""))
+                                if full and not legacy_lead.get("full_name"):
+                                    legacy_lead["full_name"] = full
+                                if first and not legacy_lead.get("first"):
+                                    legacy_lead["first"] = first
+                                if last and not legacy_lead.get("last"):
+                                    legacy_lead["last"] = last
+
+                        return attempts
+
                     # Throttle Apify usage to control spend.
                     person_missing = not _is_valid_linkedin_person(
                         legacy_lead.get("linkedin", "")
@@ -962,10 +1172,22 @@ else:
                         await _enrich_linkedin_fields_if_missing()
                         apify_enrich_done += 1
 
+                    # New: account-level rescue for records with no contacts/team.
+                    # Keep account records and attempt person discovery before dropping.
+                    if bool(record.get("_needs_person_discovery")):
+                        retries = await _targeted_person_discovery_rounds()
+                        legacy_lead["targeted_person_retry_attempts"] = retries
+                        legacy_lead["targeted_person_retry_exhausted"] = (
+                            retries >= max(0, targeted_person_retry_max)
+                            and not _is_valid_linkedin_person(legacy_lead.get("linkedin", ""))
+                            and not bool((legacy_lead.get("email") or "").strip())
+                        )
+
                     _finalize_legacy_lead_for_precheck(legacy_lead, record)
 
-                    # Only include leads with valid email and business name
-                    if legacy_lead.get("email") and legacy_lead.get("business"):
+                    # Keep company-passing records even when person fields are still incomplete;
+                    # they are routed to retry/account buckets and only rejected after retry budget.
+                    if legacy_lead.get("business"):
                         legacy_leads.append(legacy_lead)
                         if len(legacy_leads) >= num_leads:
                             break

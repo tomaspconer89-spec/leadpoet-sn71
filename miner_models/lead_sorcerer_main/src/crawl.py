@@ -183,7 +183,12 @@ FIRECRAWL_EXTRACT_PROMPT = (
 )
 
 
-def build_single_company_extraction_urls(domain: str, max_urls: int = 6) -> List[str]:
+def build_single_company_extraction_urls(
+    domain: str,
+    max_urls: int = 6,
+    *,
+    min_page_score: int = 0,
+) -> List[str]:
     """
     Homepage first, then high-signal paths (team, leadership, about, …) by page_score.
     """
@@ -192,7 +197,7 @@ def build_single_company_extraction_urls(domain: str, max_urls: int = 6) -> List
     home = f"https://{domain}".rstrip("/")
     out: List[str] = [home]
     for item in sorted(
-        discover_priority_pages(domain),
+        discover_priority_pages(domain, min_page_score=min_page_score),
         key=lambda x: -int(x.get("page_score", 0)),
     ):
         u = str(item.get("url") or "").rstrip("/")
@@ -329,6 +334,18 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
         """
         urls_to_extract = []
 
+        crawl_cfg = icp_config.get("crawl") or {}
+        try:
+            top_pages_per_domain = int(crawl_cfg.get("top_pages_per_domain", 6))
+        except (TypeError, ValueError):
+            top_pages_per_domain = 6
+        top_pages_per_domain = max(2, min(top_pages_per_domain, 12))
+        try:
+            min_page_score = int(crawl_cfg.get("page_score_threshold", 0))
+        except (TypeError, ValueError):
+            min_page_score = 0
+        min_page_score = max(0, min(min_page_score, 10))
+
         # Check if we have specific URLs to crawl (highest priority)
         specific_urls = icp_config.get("specific_urls", [])
         database_config = icp_config.get("database_config", {})
@@ -353,7 +370,13 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 self.logger.info("🔗 Database mode: Using domain-specific URLs")
             else:
                 # Fallback to domain-based URLs if no specific URLs match this domain
-                urls_to_extract.extend(build_single_company_extraction_urls(domain))
+                urls_to_extract.extend(
+                    build_single_company_extraction_urls(
+                        domain,
+                        max_urls=top_pages_per_domain,
+                        min_page_score=min_page_score,
+                    )
+                )
                 self.logger.info(
                     f"🔗 No specific URLs match {domain}, using priority page discovery"
                 )
@@ -384,7 +407,13 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
 
         else:
             # Mode 3: Standard single company — homepage + page_discovery-ranked paths
-            urls_to_extract.extend(build_single_company_extraction_urls(domain))
+            urls_to_extract.extend(
+                build_single_company_extraction_urls(
+                    domain,
+                    max_urls=top_pages_per_domain,
+                    min_page_score=min_page_score,
+                )
+            )
             self.logger.info(
                 "🔗 Added priority domain pages (page_discovery order) for extraction"
             )
