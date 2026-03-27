@@ -17,7 +17,11 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import os
+import re
 import sys
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
@@ -47,6 +51,208 @@ def _load_enrich():
     return getattr(mod, "enrich_linkedin_fields", None)
 
 
+def _load_scrapingdog_fixer():
+    conv = _REPO / "scripts" / "convert_raw_to_pending.py"
+    if not conv.is_file():
+        return None
+    spec = importlib.util.spec_from_file_location("_crtp_fix", conv)
+    mod = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(mod)
+    return getattr(mod, "validate_and_fix_with_scrapingdog", None)
+
+
+def _load_location_helpers():
+    conv = _REPO / "scripts" / "convert_raw_to_pending.py"
+    if not conv.is_file():
+        return None, None
+    spec = importlib.util.spec_from_file_location("_crtp_loc", conv)
+    mod = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(mod)
+    return (
+        getattr(mod, "parse_hq_location", None),
+        getattr(mod, "normalize_country_name", None),
+    )
+
+
+_US_STATE_ABBR = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID",
+    "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS",
+    "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK",
+    "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
+    "WI", "WY", "DC",
+}
+
+
+def _scrapingdog_google_json(query: str) -> dict:
+    key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
+    if not key:
+        return {}
+    url = (
+        "https://api.scrapingdog.com/google"
+        f"?api_key={urllib.parse.quote(key)}"
+        f"&query={urllib.parse.quote(query)}"
+        "&results=10&country=us&page=0"
+    )
+    req = urllib.request.Request(url=url, method="GET")
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        body = resp.read().decode("utf-8")
+    data = json.loads(body)
+    return data if isinstance(data, dict) else {}
+
+
+def _collect_text_blobs(obj, out: list[str]) -> None:
+    if isinstance(obj, dict):
+        for v in obj.values():
+            _collect_text_blobs(v, out)
+        return
+    if isinstance(obj, list):
+        for v in obj:
+            _collect_text_blobs(v, out)
+        return
+    if isinstance(obj, str):
+        s = obj.strip()
+        if s:
+            out.append(s)
+
+
+def _extract_us_location(text: str) -> tuple[str, str, str]:
+    s = (text or "").strip()
+    if not s:
+        return "", "", ""
+    m = re.search(r"\b([A-Z][A-Za-z .'-]{1,60}),\s*([A-Z]{2})\b", s)
+    if m:
+        city = m.group(1).strip(" ,")
+        st = m.group(2).upper()
+        if st in _US_STATE_ABBR:
+            return city, st, "United States"
+    m = re.search(
+        r"\b([A-Z][A-Za-z .'-]{1,60}),\s*"
+        r"(Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\b",
+        s,
+    )
+    if m:
+        return m.group(1).strip(" ,"), m.group(2).strip(), "United States"
+    return "", "", ""
+
+
+def _enrich_location_from_linkedin(
+    lead: dict,
+    parse_hq_location,
+    normalize_country_name,
+) -> tuple[dict, list[str]]:
+    """
+    Use LinkedIn URLs + ScrapingDog SERP snippets to infer city/state/country.
+    """
+    changed: list[str] = []
+    candidate = dict(lead)
+    urls = [
+        str(candidate.get("linkedin") or "").strip(),
+        str(candidate.get("company_linkedin") or "").strip(),
+    ]
+    urls = [u for u in urls if "linkedin.com/" in u.lower()]
+    if not urls:
+        return candidate, changed
+
+    need_loc = any(
+        not str(candidate.get(k) or "").strip()
+        for k in ("city", "state", "country", "hq_city", "hq_state", "hq_country")
+    )
+    if not need_loc:
+        return candidate, changed
+
+    found_city = found_state = found_country = ""
+    for u in urls:
+        try:
+            data = _scrapingdog_google_json(f"\"{u}\" location")
+        except Exception:
+            continue
+        blobs: list[str] = []
+        _collect_text_blobs(data, blobs)
+        for b in blobs:
+            c, st, co = _extract_us_location(b)
+            if c and st:
+                found_city, found_state, found_country = c, st, co
+                break
+            if parse_hq_location is not None:
+                c2, s2, co2 = parse_hq_location(b)
+                if c2 and (s2 or co2):
+                    found_city = c2.strip()
+                    found_state = (s2 or "").strip()
+                    found_country = (co2 or "").strip()
+                    if normalize_country_name is not None:
+                        found_country = normalize_country_name(found_country)
+                    break
+        if found_city:
+            break
+
+    if not found_city:
+        return candidate, changed
+
+    def _set_if_empty(key: str, value: str):
+        if value and not str(candidate.get(key) or "").strip():
+            candidate[key] = value
+            changed.append(key)
+
+    _set_if_empty("city", found_city)
+    _set_if_empty("state", found_state)
+    _set_if_empty("country", found_country or "United States")
+    _set_if_empty("hq_city", found_city)
+    _set_if_empty("hq_state", found_state)
+    _set_if_empty("hq_country", found_country or "United States")
+    return candidate, changed
+
+
+_NORMAL_GATEWAY_FIELDS = (
+    "business",
+    "full_name",
+    "first",
+    "last",
+    "email",
+    "role",
+    "website",
+    "industry",
+    "sub_industry",
+    "country",
+    "state",
+    "city",
+    "linkedin",
+    "company_linkedin",
+    "source_url",
+    "description",
+    "employee_count",
+    "hq_country",
+    "hq_state",
+    "hq_city",
+    "source_type",
+)
+
+
+def _ensure_normal_fields(lead: dict) -> dict:
+    """
+    Keep SN71-normal fields present in queue files even when value is empty.
+    This avoids disappearing keys like state/city/hq_state/hq_city in B queue.
+    """
+    # Strip extras, then rebuild in exact README order.
+    base = minimal_gateway_lead(dict(lead))
+    out: dict = {}
+    for k in _NORMAL_GATEWAY_FIELDS:
+        v = base.get(k, "")
+        out[k] = "" if v is None else v
+    out["phone_numbers"] = (
+        base.get("phone_numbers")
+        if isinstance(base.get("phone_numbers"), list)
+        else []
+    )
+    out["socials"] = (
+        base.get("socials")
+        if isinstance(base.get("socials"), dict)
+        else {}
+    )
+    return out
+
+
 def _queue_key(lead: dict) -> str:
     import hashlib
 
@@ -63,16 +269,39 @@ def _process_one(
     lead: dict,
     *,
     enrich_fn,
-) -> tuple[dict, bool, str | None, str]:
+    scrapingdog_fixer=None,
+    parse_hq_location=None,
+    normalize_country_name=None,
+) -> tuple[dict, bool, str | None, str, list[str]]:
     from miner_models.lead_precheck import precheck_lead
 
     lead = dict(lead)
     normalize_legacy_lead_shape(lead)
+    fixed_fields: list[str] = []
+    if scrapingdog_fixer is not None:
+        try:
+            fixed_lead, changed = scrapingdog_fixer(dict(lead))
+            if changed:
+                lead = fixed_lead
+                fixed_fields = sorted(changed.keys())
+        except Exception:
+            pass
     if enrich_fn is not None:
         try:
             lead = enrich_fn(dict(lead))
         except Exception:
             pass
+    try:
+        lead, loc_changed = _enrich_location_from_linkedin(
+            lead,
+            parse_hq_location=parse_hq_location,
+            normalize_country_name=normalize_country_name,
+        )
+        for k in loc_changed:
+            if k not in fixed_fields:
+                fixed_fields.append(k)
+    except Exception:
+        pass
     normalize_legacy_lead_shape(lead)
     apply_email_classification(lead)
 
@@ -108,12 +337,20 @@ def _process_one(
             pre_ok, reason = precheck_lead(lead)
 
     bucket = route_lead(lead, precheck_ok=pre_ok, precheck_reason=reason)
-    return lead, pre_ok, reason, bucket
+    return lead, pre_ok, reason, bucket, fixed_fields
 
 
 def main() -> int:
     p = argparse.ArgumentParser(description="Re-grade B_retry_enrichment leads; promote to A when eligible")
-    p.add_argument("--enrich-linkedin", type=int, default=0, choices=(0, 1))
+    p.add_argument("--enrich-linkedin", type=int, default=1, choices=(0, 1))
+    p.add_argument("--scrapingdog-fix", type=int, default=1, choices=(0, 1))
+    p.add_argument(
+        "--route",
+        type=int,
+        default=0,
+        choices=(0, 1),
+        help="When 1, move failed leads to routed bucket; when 0, keep failed leads in B_retry_enrichment",
+    )
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 
@@ -132,6 +369,8 @@ def main() -> int:
         d.mkdir(parents=True, exist_ok=True)
 
     enrich_fn = _load_enrich() if args.enrich_linkedin == 1 else None
+    scrapingdog_fixer = _load_scrapingdog_fixer() if args.scrapingdog_fix == 1 else None
+    parse_hq_location, normalize_country_name = _load_location_helpers()
     files = sorted(b_dir.glob("*.json"))
     if not files:
         print(f"No JSON in {b_dir}")
@@ -143,22 +382,35 @@ def main() -> int:
         try:
             lead_in = json.loads(old_path.read_text(encoding="utf-8"))
             business = str(lead_in.get("business", "?"))
-            lead, pre_ok, reason, bucket = _process_one(lead_in, enrich_fn=enrich_fn)
+            lead, pre_ok, reason, bucket, fixed_fields = _process_one(
+                lead_in,
+                enrich_fn=enrich_fn,
+                scrapingdog_fixer=scrapingdog_fixer,
+                parse_hq_location=parse_hq_location,
+                normalize_country_name=normalize_country_name,
+            )
             key = _queue_key(lead)
-            new_graded = graded_dirs[bucket] / f"{key}.json"
+            # Always promote precheck-passing leads to A_ready_submit.
+            if pre_ok:
+                dest_bucket = "A_ready_submit"
+            else:
+                dest_bucket = bucket if args.route == 1 else "B_retry_enrichment"
+            new_graded = graded_dirs[dest_bucket] / f"{key}.json"
 
             if args.dry_run:
                 print(
-                    f"[dry-run] {old_path.name} -> {bucket} precheck={'OK' if pre_ok else 'FAIL'} "
-                    f"{reason or ''} business={business[:50]!r}"
+                    f"[dry-run] {old_path.name} -> {dest_bucket} (suggested={bucket}) "
+                    f"precheck={'OK' if pre_ok else 'FAIL'} {reason or ''} "
+                    f"fixed_fields={fixed_fields} business={business[:50]!r}"
                 )
                 continue
 
             if old_path.resolve() != new_graded.resolve():
                 old_path.unlink(missing_ok=True)
 
-            # Keep all newly written queue artifacts compact and SN71-aligned.
-            store_graded = minimal_gateway_lead(lead)
+            # Keep all SN71-normal fields present (including location keys),
+            # and update with any ScrapingDog corrections.
+            store_graded = _ensure_normal_fields(lead)
             new_graded.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2), encoding="utf-8")
 
             if pre_ok:
@@ -176,15 +428,17 @@ def main() -> int:
                     json.dumps(payload, ensure_ascii=True, indent=2), encoding="utf-8"
                 )
 
-            if bucket == "A_ready_submit":
+            if pre_ok:
                 promoted += 1
                 print(f"  PROMOTE -> A: {business[:60]!r} ({key[:16]}…)")
-            elif pre_ok:
-                updated += 1
-                print(f"  still B: {business[:60]!r} ({key[:16]}…)")
             else:
                 failed += 1
-                print(f"  precheck FAIL: {business[:60]!r} ({reason})")
+                print(
+                    f"  precheck FAIL ({'routed' if args.route == 1 else 'kept in B'}): "
+                    f"{business[:60]!r} ({reason}) fixed_fields={fixed_fields}"
+                )
+                if fixed_fields:
+                    print("    changed:", ", ".join(fixed_fields))
         except Exception as e:
             print(f"  ERROR {old_path.name}: {type(e).__name__}: {e}")
             return 1

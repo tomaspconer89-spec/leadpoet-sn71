@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: city",
+  "business": "NOW CFO: Outsourced CFO, Fractional CFO &amp; Accounting Service",
+  "lead": {
+    "business": "NOW CFO: Outsourced CFO, Fractional CFO &amp; Accounting Service",
+    "full_name": "Jnovak Lead",
+    "first": "Jnovak",
+    "last": "Lead",
+    "email": "jnovak@nowcfo.com",
+    "role": "Contact",
+    "website": "https://nowcfo.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/jim-bennett-nowcfo",
+    "company_linkedin": "https://www.linkedin.com/company/nowcfo",
+    "source_url": "https://nowcfo.com",
+    "description": "NOW CFO offers outsourced CFO, fractional CFO, and accounting services to provide expert financial leadership, improve efficiency, and drive business growth.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/nowcfo",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    }
+  },
+  "queue_bucket": "D_low_confidence_hold"
+}

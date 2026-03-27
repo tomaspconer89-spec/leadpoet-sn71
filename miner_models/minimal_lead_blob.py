@@ -27,12 +27,12 @@ _MINIMAL_KEYS_ORDER: tuple[str, ...] = (
     "linkedin",
     "company_linkedin",
     "source_url",
-    "source_type",
     "description",
     "employee_count",
     "hq_country",
     "hq_state",
     "hq_city",
+    "source_type",
     "phone_numbers",
     "socials",
 )

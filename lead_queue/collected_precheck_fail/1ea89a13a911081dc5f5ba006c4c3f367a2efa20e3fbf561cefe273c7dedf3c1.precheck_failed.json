@@ -1,5 +1,5 @@
 {
-  "reason": "free_email_domain:mail.com",
+  "reason": "missing_required_fields: city",
   "business": "Ideals Virtual Data Rooms",
   "lead": {
     "business": "Ideals Virtual Data Rooms",
@@ -17,12 +17,12 @@
     "linkedin": "https://uk.linkedin.com/in/melissarynn",
     "company_linkedin": "https://www.linkedin.com/company/idealsvdr",
     "source_url": "https://idealsvdr.com",
-    "source_type": "company_site",
     "description": "Ideals VDR offers unrivaled customer support, flexible pricing, and the most innovative data room software to support dealmakers",
     "employee_count": "11-50",
     "hq_country": "United States",
     "hq_state": "",
     "hq_city": "",
+    "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
       "linkedin": "https://www.linkedin.com/company/idealsvdr",

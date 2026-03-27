@@ -256,8 +256,36 @@ else:
             legacy_lead["country"] = parts[1]
             legacy_lead.setdefault("state", "")
 
-        if not (legacy_lead.get("country") or "").strip():
-            legacy_lead["country"] = "United States"
+        # Keep location fields coherent. Prefer explicit HQ fields when available,
+        # otherwise use city/state/country and mirror into HQ.
+        def _sync_location_fields(lead: Dict[str, Any]) -> None:
+            c = (lead.get("country") or "").strip()
+            s = (lead.get("state") or "").strip()
+            ci = (lead.get("city") or "").strip()
+            hc = (lead.get("hq_country") or "").strip()
+            hs = (lead.get("hq_state") or "").strip()
+            hci = (lead.get("hq_city") or "").strip()
+
+            # If HQ triplet is present, use it as canonical source.
+            if hc or hs or hci:
+                if hc:
+                    lead["country"] = hc
+                if hs:
+                    lead["state"] = hs
+                if hci:
+                    lead["city"] = hci
+                c = (lead.get("country") or "").strip()
+                s = (lead.get("state") or "").strip()
+                ci = (lead.get("city") or "").strip()
+
+            # Fill whichever side is missing.
+            lead["hq_country"] = (lead.get("hq_country") or c).strip()
+            lead["hq_state"] = (lead.get("hq_state") or s).strip()
+            lead["hq_city"] = (lead.get("hq_city") or ci).strip()
+            lead["country"] = (lead.get("country") or lead["hq_country"]).strip()
+            lead["state"] = (lead.get("state") or lead["hq_state"]).strip()
+            lead["city"] = (lead.get("city") or lead["hq_city"]).strip()
+
         if legacy_lead.get("country", "").strip().lower() in (
             "united states",
             "usa",
@@ -277,30 +305,33 @@ else:
                 if d_city and not (legacy_lead.get("city") or "").strip():
                     legacy_lead["city"] = d_city
 
-        legacy_lead["hq_country"] = (
-            legacy_lead.get("hq_country") or legacy_lead["country"]
-        ).strip()
-        legacy_lead["hq_state"] = (
-            legacy_lead.get("hq_state") or legacy_lead.get("state") or ""
-        ).strip()
-        legacy_lead["hq_city"] = (
-            legacy_lead.get("hq_city") or legacy_lead.get("city") or ""
-        ).strip()
+        _sync_location_fields(legacy_lead)
 
         ec_raw = str(legacy_lead.get("employee_count") or "").strip()
         if ec_raw not in VALID_EMPLOYEE_COUNTS:
             legacy_lead["employee_count"] = "11-50"
 
-        desc = (legacy_lead.get("description") or "").strip()
+        def _clean_and_cap_description(raw: str, max_len: int) -> str:
+            txt = re.sub(r"\s+", " ", (raw or "").strip())
+            if len(txt) <= max_len:
+                return txt
+            clipped = txt[:max_len].rstrip(" ,;:-")
+            cut = max(clipped.rfind(". "), clipped.rfind("; "), clipped.rfind(": "))
+            if cut >= 120:
+                clipped = clipped[: cut + 1].rstrip()
+            return clipped
+
+        desc = _clean_and_cap_description(
+            legacy_lead.get("description", ""),
+            max_len=int(os.environ.get("LEAD_MAX_DESCRIPTION_LEN", "600") or "600"),
+        )
         if len(desc) < 70:
             bn = (legacy_lead.get("business") or "This company").strip()
             legacy_lead["description"] = (
                 f"{bn} provides professional services to clients; details were sourced from the company website at {web}."
             )
         else:
-            max_desc_len = int(os.environ.get("LEAD_MAX_DESCRIPTION_LEN", "2000") or "2000")
-            if len(desc) > max_desc_len:
-                legacy_lead["description"] = desc[:max_desc_len].rstrip()
+            legacy_lead["description"] = desc
 
         li = (legacy_lead.get("linkedin") or "").strip()
         cleaned_person = _clean_linkedin_url(li, kind="person")
@@ -555,15 +586,14 @@ else:
                                                     lead_record = json.loads(
                                                         line)
                                                     total_records_seen += 1
-                                                    # Keep ICP-passing accounts even when contacts/team are missing.
-                                                    # They can enter targeted person discovery later instead of being dropped.
+                                                    # Strict filter: drop records that have no contacts/team info.
                                                     has_contacts = bool(lead_record.get("contacts"))
                                                     has_team = bool(
                                                         (lead_record.get("extracted_data") or {}).get("team_members")
                                                     )
                                                     if not (has_contacts or has_team):
                                                         dropped_no_contacts += 1
-                                                        lead_record["_needs_person_discovery"] = True
+                                                        continue
                                                     if len(leads) >= collect_cap:
                                                         dropped_over_cap += 1
                                                         continue
@@ -584,7 +614,7 @@ else:
                                             try:
                                                 lead_record = json.loads(line)
                                                 total_records_seen += 1
-                                                # Keep ICP-passing accounts even if no contacts/team are present.
+                                                # Strict filter: drop records that have no contacts/team info.
                                                 has_contacts = bool(lead_record.get("contacts"))
                                                 has_team = bool(
                                                     (lead_record.get("extracted_data") or {}).get("team_members")
@@ -594,7 +624,7 @@ else:
                                                     continue
                                                 if not (has_contacts or has_team):
                                                     dropped_no_contacts += 1
-                                                    lead_record["_needs_person_discovery"] = True
+                                                    continue
                                                 if len(leads) >= collect_cap:
                                                     dropped_over_cap += 1
                                                     continue
@@ -892,22 +922,26 @@ else:
                     async def _enrichment_search(query: str, amount: int = 10) -> List[Any]:
                         """
                         Primary enrichment search order:
-                        1) ScrapingDog (primary)
-                        2) Apify
+                        1) Apify (primary)
+                        2) ScrapingDog (optional, opt-in via USE_SCRAPINGDOG_ENRICHMENT=1)
                         3) Existing multi-provider fallback chain
                         """
-                        items = await _scrapingdog_search(query, amount=amount)
-                        if items:
-                            print(
-                                f"🔎 Enrichment provider=scrapingdog hits={len(items)} query={query[:120]}"
-                            )
-                            return items
                         items = await _apify_search(query, amount=amount)
                         if items:
                             print(
                                 f"🔎 Enrichment provider=apify hits={len(items)} query={query[:120]}"
                             )
                             return items
+                        use_scrapingdog = (
+                            os.getenv("USE_SCRAPINGDOG_ENRICHMENT", "0").strip() == "1"
+                        )
+                        if use_scrapingdog:
+                            items = await _scrapingdog_search(query, amount=amount)
+                            if items:
+                                print(
+                                    f"🔎 Enrichment provider=scrapingdog hits={len(items)} query={query[:120]}"
+                                )
+                                return items
                         items = await _fallback_search(query, amount=amount)
                         if items:
                             print(
@@ -1172,8 +1206,7 @@ else:
                         await _enrich_linkedin_fields_if_missing()
                         apify_enrich_done += 1
 
-                    # New: account-level rescue for records with no contacts/team.
-                    # Keep account records and attempt person discovery before dropping.
+                    # Account-level rescue is only for records explicitly flagged upstream.
                     if bool(record.get("_needs_person_discovery")):
                         retries = await _targeted_person_discovery_rounds()
                         legacy_lead["targeted_person_retry_attempts"] = retries
@@ -1185,8 +1218,7 @@ else:
 
                     _finalize_legacy_lead_for_precheck(legacy_lead, record)
 
-                    # Keep company-passing records even when person fields are still incomplete;
-                    # they are routed to retry/account buckets and only rejected after retry budget.
+                    # Keep only converted leads that retain a business identity.
                     if legacy_lead.get("business"):
                         legacy_leads.append(legacy_lead)
                         if len(legacy_leads) >= num_leads:

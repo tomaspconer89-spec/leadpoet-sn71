@@ -376,6 +376,35 @@ class LLMScorer:
         flags = ["scoring_fallback", "credit_limited"]
         return score, reason, flags, "heuristic_no_credit"
 
+    def _is_timeout_error(self, err: Exception) -> bool:
+        txt = f"{type(err).__name__}: {err}".lower()
+        return (
+            "timeout" in txt
+            or "timed out" in txt
+            or isinstance(err, asyncio.TimeoutError)
+            or isinstance(err, httpx.TimeoutException)
+        )
+
+    async def _complete_with_retries(self, model: str, prompt: str):
+        retries = max(0, int(os.environ.get("OPENROUTER_TIMEOUT_RETRIES", "1") or 1))
+        backoff_s = max(0.0, float(os.environ.get("OPENROUTER_TIMEOUT_BACKOFF_S", "1.0") or 1.0))
+        attempts = retries + 1
+        last_err: Optional[Exception] = None
+        for attempt in range(1, attempts + 1):
+            try:
+                return await self.client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.0,
+                    max_tokens=self.max_tokens,
+                )
+            except Exception as err:
+                last_err = err
+                if not self._is_timeout_error(err) or attempt >= attempts:
+                    raise
+                await asyncio.sleep(backoff_s * attempt)
+        raise last_err if last_err else RuntimeError("openrouter_completion_failed")
+
     def _build_scoring_prompt(
         self, title: str, snippet: str, query: str, icp_text: str
     ) -> str:
@@ -445,28 +474,27 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
 
             try:
                 # Try primary model first
-                response = await self.client.chat.completions.create(
-                    model=self.primary_model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0,
-                    max_tokens=self.max_tokens,
-                )
+                response = await self._complete_with_retries(self.primary_model, prompt)
                 model_used = self.primary_model
             except Exception as primary_err:
                 try:
                     # Fallback to secondary model
-                    response = await self.client.chat.completions.create(
-                        model=self.fallback_model,
-                        messages=[{"role": "user", "content": prompt}],
-                        temperature=0.0,
-                        max_tokens=self.max_tokens,
-                    )
+                    response = await self._complete_with_retries(self.fallback_model, prompt)
                     model_used = self.fallback_model
                 except Exception as fallback_err:
                     error_text = f"{primary_err} | {fallback_err}".lower()
                     if "requires more credits" in error_text or "code: 402" in error_text:
                         score, reason, flags, model_used = self._heuristic_fallback(
                             title, snippet, query, icp_text
+                        )
+                        return score, reason, flags, model_used, prompt_fingerprint
+                    if self._is_timeout_error(primary_err) or self._is_timeout_error(fallback_err):
+                        score, reason, flags, model_used = self._heuristic_fallback(
+                            title, snippet, query, icp_text
+                        )
+                        flags = list(flags) + ["llm_timeout_fallback"]
+                        reason = (
+                            f"{reason} (OpenRouter timeout after retries on primary+fallback)"
                         )
                         return score, reason, flags, model_used, prompt_fingerprint
                     raise
@@ -679,7 +707,7 @@ class DomainTool:
 
         # Load costs configuration
         self.costs_config = load_costs_config()
-        validate_provider_config(["gse", "openrouter", "harvest"], self.costs_config)
+        validate_provider_config(["openrouter", "harvest"], self.costs_config)
 
         # Initialize components
         self.permit_manager = PermitManager(
@@ -690,9 +718,24 @@ class DomainTool:
         self.semaphore_pool = AsyncSemaphorePool(self.permit_manager)
 
         # Domain discovery: ordered chain; each query tries providers until one succeeds.
-        # Order: Harvest (optional) -> Serper -> Brave -> GSE.
+        # Temporary stability default: Harvest -> Brave, with Serper/GSE opt-in.
         harvest_key = os.environ.get("HARVEST_API_KEY", "").strip()
         use_harvest = os.environ.get("DOMAIN_DISCOVERY_USE_HARVEST", "1").strip().lower() not in (
+            "0",
+            "false",
+            "no",
+        )
+        use_brave = os.environ.get("DOMAIN_DISCOVERY_USE_BRAVE", "1").strip().lower() not in (
+            "0",
+            "false",
+            "no",
+        )
+        use_serper = os.environ.get("DOMAIN_DISCOVERY_USE_SERPER", "0").strip().lower() not in (
+            "0",
+            "false",
+            "no",
+        )
+        use_gse = os.environ.get("DOMAIN_DISCOVERY_USE_GSE", "0").strip().lower() not in (
             "0",
             "false",
             "no",
@@ -715,7 +758,7 @@ class DomainTool:
                     ),
                 )
             )
-        if serper_key:
+        if serper_key and use_serper:
             self._search_chain.append(
                 (
                     "serper",
@@ -726,7 +769,7 @@ class DomainTool:
                     ),
                 )
             )
-        if brave_key:
+        if brave_key and use_brave:
             self._search_chain.append(
                 (
                     "brave",
@@ -737,7 +780,7 @@ class DomainTool:
                     ),
                 )
             )
-        if gse_key and gse_cx:
+        if gse_key and gse_cx and use_gse:
             self._search_chain.append(
                 (
                     "gse",
@@ -760,6 +803,28 @@ class DomainTool:
         chain_desc = " -> ".join(bid for bid, _, _ in self._search_chain)
         logging.getLogger(TOOL_NAME).info(
             f"🔍 Domain discovery provider chain (first success wins per query): {chain_desc}"
+        )
+        logging.getLogger(TOOL_NAME).info(
+            "🔧 Provider toggles: HARVEST=%s BRAVE=%s SERPER=%s GSE=%s",
+            use_harvest,
+            use_brave,
+            use_serper,
+            use_gse,
+        )
+        self._provider_health: Dict[str, Dict[str, float]] = {
+            bid: {"fail_streak": 0.0, "cooldown_until": 0.0} for bid, _, _ in self._search_chain
+        }
+        self._provider_retry_attempts = max(
+            1, int(os.environ.get("DOMAIN_PROVIDER_RETRY_ATTEMPTS", "2") or 2)
+        )
+        self._provider_cooldown_fail_streak = max(
+            2, int(os.environ.get("DOMAIN_PROVIDER_COOLDOWN_FAIL_STREAK", "3") or 3)
+        )
+        self._provider_cooldown_s = max(
+            5.0, float(os.environ.get("DOMAIN_PROVIDER_COOLDOWN_S", "45") or 45)
+        )
+        self._provider_retry_backoff_s = max(
+            0.2, float(os.environ.get("DOMAIN_PROVIDER_RETRY_BACKOFF_S", "0.8") or 0.8)
         )
 
         openrouter_key = os.environ.get("OPENROUTER_KEY", "").strip()
@@ -995,6 +1060,32 @@ class DomainTool:
             "domain": domain,
         }
 
+    def _is_valid_domain_candidate(self, domain: str) -> bool:
+        """
+        Strict gate before scoring to avoid malformed "domains" and obvious non-host values.
+        """
+        d = (domain or "").strip().lower()
+        if not d:
+            return False
+        if "@" in d or " " in d or "/" in d:
+            return False
+        if d.startswith("http://") or d.startswith("https://"):
+            return False
+        if len(d) > 253 or "." not in d:
+            return False
+        if d in {"localhost"}:
+            return False
+        # IPv4 values are not company domains.
+        if re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", d):
+            return False
+        labels = d.split(".")
+        if any(not part or len(part) > 63 for part in labels):
+            return False
+        if not re.fullmatch(r"[a-z]{2,24}", labels[-1]):
+            return False
+        label_re = re.compile(r"^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$")
+        return all(label_re.fullmatch(part) for part in labels)
+
     def _is_low_intent_result(self, item: Dict[str, Any]) -> bool:
         """Skip common job-board/content results that rarely yield named decision-makers."""
         url = str(item.get("link", "") or "").lower()
@@ -1009,6 +1100,36 @@ class DomainTool:
         if any(marker in text for marker in LOW_INTENT_TITLE_MARKERS):
             return True
         return False
+
+    def _is_retryable_provider_error(self, err: Exception) -> bool:
+        if isinstance(err, (asyncio.TimeoutError, httpx.TimeoutException, httpx.ConnectError)):
+            return True
+        if isinstance(err, httpx.HTTPStatusError):
+            status = err.response.status_code if err.response is not None else 0
+            return status in {408, 425, 429, 500, 502, 503, 504}
+        txt = f"{type(err).__name__}: {err}".lower()
+        return "timeout" in txt or "temporarily unavailable" in txt or "connection reset" in txt
+
+    def _provider_on_success(self, bid: str) -> None:
+        st = self._provider_health.get(bid)
+        if not st:
+            return
+        st["fail_streak"] = 0.0
+        st["cooldown_until"] = 0.0
+
+    def _provider_on_failure(self, bid: str) -> None:
+        st = self._provider_health.get(bid)
+        if not st:
+            return
+        st["fail_streak"] += 1.0
+        if st["fail_streak"] >= float(self._provider_cooldown_fail_streak):
+            st["cooldown_until"] = time.time() + self._provider_cooldown_s
+
+    def _provider_available(self, bid: str) -> bool:
+        st = self._provider_health.get(bid)
+        if not st:
+            return True
+        return time.time() >= float(st.get("cooldown_until", 0.0))
 
     async def _search_query(
         self, query: str, max_pages: int, ttl_hours: int
@@ -1059,9 +1180,13 @@ class DomainTool:
                     if self._is_low_intent_result(item):
                         skip_counts["low_intent"] += 1
                         continue
-                    normalized_results.append(
-                        self._normalize_serp_result(item, query, page)
-                    )
+                    normalized_item = self._normalize_serp_result(item, query, page)
+                    if not self._is_valid_domain_candidate(
+                        str(normalized_item.get("domain", "") or "")
+                    ):
+                        skip_counts["invalid_domain"] += 1
+                        continue
+                    normalized_results.append(normalized_item)
                 continue
 
             # Fetch fresh: try each provider until one succeeds
@@ -1070,20 +1195,57 @@ class DomainTool:
             used_cost_key: Optional[str] = None
             last_err: Optional[Exception] = None
             for bid, ck, client in self._search_chain:
-                try:
-                    results = await client.search(query, page)
-                    used_backend = bid
-                    used_cost_key = ck
-                    break
-                except httpx.HTTPStatusError as e:
-                    last_err = e
-                    code = e.response.status_code if e.response is not None else "?"
+                if not self._provider_available(bid):
                     self.logger.warning(
-                        f"⚠️ Search provider '{bid}' failed for "
-                        f"query {query!r} page {page}: HTTP {code}"
+                        "⏸️ Provider '%s' in cooldown, skipping this page", bid
                     )
+                    continue
+                try:
+                    provider_ok = False
+                    for attempt in range(1, self._provider_retry_attempts + 1):
+                        try:
+                            results = await client.search(query, page)
+                            used_backend = bid
+                            used_cost_key = ck
+                            self._provider_on_success(bid)
+                            provider_ok = True
+                            break
+                        except Exception as e:
+                            last_err = e
+                            retryable = self._is_retryable_provider_error(e)
+                            status_txt = ""
+                            if isinstance(e, httpx.HTTPStatusError):
+                                code = e.response.status_code if e.response is not None else "?"
+                                status_txt = f"HTTP {code}"
+                            else:
+                                status_txt = type(e).__name__
+                            if retryable and attempt < self._provider_retry_attempts:
+                                self.logger.warning(
+                                    "⚠️ Search provider '%s' transient failure for query %r page %s "
+                                    "(attempt %s/%s): %s; retrying",
+                                    bid,
+                                    query,
+                                    page,
+                                    attempt,
+                                    self._provider_retry_attempts,
+                                    status_txt,
+                                )
+                                await asyncio.sleep(self._provider_retry_backoff_s * attempt)
+                                continue
+                            self._provider_on_failure(bid)
+                            self.logger.warning(
+                                "⚠️ Search provider '%s' failed for query %r page %s: %s",
+                                bid,
+                                query,
+                                page,
+                                status_txt,
+                            )
+                            break
+                    if provider_ok:
+                        break
                 except Exception as e:
                     last_err = e
+                    self._provider_on_failure(bid)
                     self.logger.warning(
                         f"⚠️ Search provider '{bid}' failed for "
                         f"query {query!r} page {page}: {type(e).__name__}"
@@ -1119,9 +1281,13 @@ class DomainTool:
                 if self._is_low_intent_result(item):
                     skip_counts["low_intent"] += 1
                     continue
-                normalized_results.append(
-                    self._normalize_serp_result(item, query, page)
-                )
+                normalized_item = self._normalize_serp_result(item, query, page)
+                if not self._is_valid_domain_candidate(
+                    str(normalized_item.get("domain", "") or "")
+                ):
+                    skip_counts["invalid_domain"] += 1
+                    continue
+                normalized_results.append(normalized_item)
 
         if skip_counts:
             self.logger.warning(
@@ -1170,8 +1336,7 @@ class DomainTool:
             )
             if len(query_results) == 0:
                 self.logger.warning(
-                    "No scoreable domains for query %r after provider + noise filtering",
-                    query,
+                    f"No scoreable domains for query {query!r} after provider + noise filtering"
                 )
             scored_domains = await self._score_domains(query_results)
             self.logger.info(

@@ -12,6 +12,7 @@ if str(REPO) not in sys.path:
     sys.path.insert(0, str(REPO))
 
 from miner_models.lead_precheck import precheck_lead
+from scripts.convert_raw_to_pending import validate_and_fix_with_scrapingdog
 
 QUEUE = REPO / "lead_queue"
 
@@ -62,10 +63,32 @@ def _validator_like_checks(lead: Dict[str, Any]) -> List[str]:
     return reasons
 
 
-def evaluate_file(path: Path) -> Tuple[str, str, str, str]:
-    lead = _load_lead(path)
+def evaluate_file(
+    path: Path, *, scrapingdog_fix: bool, write_fixes: bool
+) -> Tuple[str, str, str, str, List[str]]:
+    raw = _load_lead(path)
+    lead = raw
     if not lead:
-        return (path.name, "FAIL", "invalid_json_or_shape", "")
+        return (path.name, "FAIL", "invalid_json_or_shape", "", [])
+
+    fixed_fields: List[str] = []
+    if scrapingdog_fix:
+        fixed_lead, changed = validate_and_fix_with_scrapingdog(dict(lead))
+        if changed:
+            fixed_fields = sorted(changed.keys())
+            lead = fixed_lead
+            if write_fixes:
+                try:
+                    obj = json.loads(path.read_text(encoding="utf-8"))
+                    if isinstance(obj, dict) and isinstance(obj.get("lead"), dict):
+                        obj["lead"] = fixed_lead
+                    else:
+                        obj = fixed_lead
+                    path.write_text(
+                        json.dumps(obj, ensure_ascii=True, indent=2), encoding="utf-8"
+                    )
+                except Exception:
+                    pass
 
     business = str(lead.get("business") or "").strip()
     ok, reason = precheck_lead(lead)
@@ -86,8 +109,8 @@ def evaluate_file(path: Path) -> Tuple[str, str, str, str]:
             deduped.append(r)
 
     if deduped:
-        return (path.name, "FAIL", "; ".join(deduped), business)
-    return (path.name, "PASS", "", business)
+        return (path.name, "FAIL", "; ".join(deduped), business, fixed_fields)
+    return (path.name, "PASS", "", business, fixed_fields)
 
 
 def main() -> int:
@@ -105,6 +128,18 @@ def main() -> int:
         action="store_true",
         help="Print JSON report instead of text table",
     )
+    p.add_argument(
+        "--scrapingdog-fix",
+        type=int,
+        default=0,
+        choices=(0, 1),
+        help="1 = use ScrapingDog-based check to detect/fix wrong fields",
+    )
+    p.add_argument(
+        "--write-fixes",
+        action="store_true",
+        help="Write ScrapingDog-detected corrections back to files",
+    )
     args = p.parse_args()
 
     files: List[Path] = []
@@ -114,17 +149,30 @@ def main() -> int:
             continue
         files.extend(sorted(qd.glob("*.json")))
 
-    rows = [evaluate_file(fp) for fp in files]
+    rows = [
+        evaluate_file(
+            fp,
+            scrapingdog_fix=bool(args.scrapingdog_fix),
+            write_fixes=bool(args.write_fixes),
+        )
+        for fp in files
+    ]
     total = len(rows)
-    passed = sum(1 for _, status, _, _ in rows if status == "PASS")
+    passed = sum(1 for _, status, _, _, _ in rows if status == "PASS")
     failed = total - passed
 
     if args.json:
         payload = {
             "summary": {"total": total, "pass": passed, "fail": failed},
             "results": [
-                {"file": f, "status": s, "reason": r, "business": b}
-                for f, s, r, b in rows
+                {
+                    "file": f,
+                    "status": s,
+                    "reason": r,
+                    "business": b,
+                    "fixed_fields": ff,
+                }
+                for f, s, r, b, ff in rows
             ],
         }
         print(json.dumps(payload, ensure_ascii=True, indent=2))
@@ -132,11 +180,12 @@ def main() -> int:
 
     print("=== Submit Readiness Report ===")
     print(f"Total: {total} | PASS: {passed} | FAIL: {failed}")
-    for f, s, r, b in rows:
+    for f, s, r, b, ff in rows:
+        fixed_note = f" | FIXED: {', '.join(ff)}" if ff else ""
         if s == "PASS":
-            print(f"[PASS] {f} | {b}")
+            print(f"[PASS] {f} | {b}{fixed_note}")
         else:
-            print(f"[FAIL] {f} | {b} | {r}")
+            print(f"[FAIL] {f} | {b} | {r}{fixed_note}")
     return 0
 
 

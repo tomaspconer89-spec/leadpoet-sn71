@@ -1,5 +1,5 @@
 {
-  "reason": "name_not_in_email",
+  "reason": "missing_required_fields: city",
   "business": "HubSpot",
   "lead": {
     "business": "HubSpot",
@@ -17,12 +17,12 @@
     "linkedin": "https://ch.linkedin.com/in/miguelbemartin",
     "company_linkedin": "https://www.linkedin.com/company/hubspot",
     "source_url": "https://hubspot.com",
-    "source_type": "company_site",
     "description": "HubSpot provides professional services to clients; details were sourced from the company website at https://hubspot.com.",
     "employee_count": "11-50",
     "hq_country": "United States",
     "hq_state": "",
     "hq_city": "",
+    "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
       "linkedin": "https://www.linkedin.com/company/hubspot",
@@ -33,5 +33,5 @@
       "facebook": null
     }
   },
-  "queue_bucket": "B_retry_enrichment"
+  "queue_bucket": "D_low_confidence_hold"
 }

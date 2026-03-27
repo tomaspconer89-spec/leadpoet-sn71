@@ -188,7 +188,29 @@ def parse_hq_location(hq: str) -> Tuple[str, str, str]:
     if len(parts) >= 3:
         return parts[0], parts[1], parts[-1]
     if len(parts) == 2:
-        return parts[0], "", parts[1]
+        city, second = parts[0], parts[1]
+        second_low = second.strip().lower()
+        us_state_tokens = {
+            # abbreviations
+            "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga", "hi", "id",
+            "il", "in", "ia", "ks", "ky", "la", "me", "md", "ma", "mi", "mn", "ms",
+            "mo", "mt", "ne", "nv", "nh", "nj", "nm", "ny", "nc", "nd", "oh", "ok",
+            "or", "pa", "ri", "sc", "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv",
+            "wi", "wy", "dc",
+            # common state names
+            "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+            "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+            "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine",
+            "maryland", "massachusetts", "michigan", "minnesota", "mississippi",
+            "missouri", "montana", "nebraska", "nevada", "new hampshire", "new jersey",
+            "new mexico", "new york", "north carolina", "north dakota", "ohio",
+            "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina",
+            "south dakota", "tennessee", "texas", "utah", "vermont", "virginia",
+            "washington", "west virginia", "wisconsin", "wyoming",
+        }
+        if second_low in us_state_tokens:
+            return city, second, "United States"
+        return city, "", second
     return "", "", parts[0]
 
 
@@ -204,8 +226,22 @@ def normalize_country_name(country: str) -> str:
     return c
 
 
+def _clean_and_cap_description(desc: str, max_len: int = 600) -> str:
+    # Keep descriptions readable and compact for queue/submit workflows.
+    txt = re.sub(r"\s+", " ", (desc or "").strip())
+    if len(txt) <= max_len:
+        return txt
+    clipped = txt[:max_len].rstrip(" ,;:-")
+    # Prefer trimming at sentence boundary when available.
+    cut = max(clipped.rfind(". "), clipped.rfind("; "), clipped.rfind(": "))
+    if cut >= 120:
+        clipped = clipped[: cut + 1].rstrip()
+    return clipped
+
+
 def ensure_min_description(description: str, company_name: str, industry: str, sub_industry: str, website: str) -> str:
-    desc = (description or "").strip()
+    max_desc_len = int(os.getenv("LEAD_MAX_DESCRIPTION_LEN", "600") or "600")
+    desc = _clean_and_cap_description(description, max_len=max_desc_len)
     if len(desc) >= 70:
         return desc
     name = (company_name or "This company").strip()
@@ -215,7 +251,9 @@ def ensure_min_description(description: str, company_name: str, industry: str, s
     fallback = (
         f"{name} operates in {ind} with a focus on {sub}, serving clients through its primary website {site}."
     )
-    return fallback if len(fallback) >= 70 else (fallback + " Contact and company profile details were sourced from public business pages.")
+    if len(fallback) < 70:
+        fallback += " Contact and company profile details were sourced from public business pages."
+    return _clean_and_cap_description(fallback, max_len=max_desc_len)
 
 
 def clean_linkedin(url: str, kind: str) -> str:
@@ -351,22 +389,32 @@ def scrapingdog_search_urls(query: str) -> List[str]:
 def search_urls(query: str) -> List[str]:
     """
     Query search provider(s) and return top URLs.
-    Priority: ScrapingDog -> HarvestAPI -> Apify -> Serper -> Brave -> GSE.
+    Priority: Apify -> HarvestAPI -> (optional) ScrapingDog -> Serper -> Brave -> GSE.
+    ScrapingDog is used only when USE_SCRAPINGDOG_ENRICHMENT=1.
     """
     urls: List[str] = []
     serper_key = os.getenv("SERPER_API_KEY", "").strip()
     brave_key = os.getenv("BRAVE_API_KEY", "").strip()
     gse_key = os.getenv("GSE_API_KEY", "").strip()
     gse_cx = os.getenv("GSE_CX", "").strip()
-    scrapingdog_urls = scrapingdog_search_urls(query)
-    if scrapingdog_urls:
-        return scrapingdog_urls
-    harvest_urls = harvest_search_urls(query)
-    if harvest_urls:
-        return harvest_urls
+    force_scrapingdog = (
+        os.getenv("FORCE_SCRAPINGDOG_ENRICHMENT", "0").strip() == "1"
+    )
+    if force_scrapingdog:
+        scrapingdog_urls = scrapingdog_search_urls(query)
+        if scrapingdog_urls:
+            return scrapingdog_urls
     apify_urls = apify_search_urls(query)
     if apify_urls:
         return apify_urls
+    harvest_urls = harvest_search_urls(query)
+    if harvest_urls:
+        return harvest_urls
+    use_scrapingdog = os.getenv("USE_SCRAPINGDOG_ENRICHMENT", "0").strip() == "1"
+    if use_scrapingdog:
+        scrapingdog_urls = scrapingdog_search_urls(query)
+        if scrapingdog_urls:
+            return scrapingdog_urls
 
     try:
         if serper_key:
@@ -464,6 +512,87 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
     return lead
 
 
+def _sync_location_fields(lead: Dict[str, Any]) -> None:
+    # Keep base and HQ location fields coherent.
+    if lead.get("hq_country") and not lead.get("country"):
+        lead["country"] = lead["hq_country"]
+    if lead.get("hq_state") and not lead.get("state"):
+        lead["state"] = lead["hq_state"]
+    if lead.get("hq_city") and not lead.get("city"):
+        lead["city"] = lead["hq_city"]
+    if lead.get("country") and not lead.get("hq_country"):
+        lead["hq_country"] = lead["country"]
+    if lead.get("state") and not lead.get("hq_state"):
+        lead["hq_state"] = lead["state"]
+    if lead.get("city") and not lead.get("hq_city"):
+        lead["hq_city"] = lead["city"]
+
+
+def validate_and_fix_with_scrapingdog(lead: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict[str, Dict[str, str]]]:
+    """
+    Validate/enrich a lead using ScrapingDog-first discovery and return:
+      (updated_lead, changed_fields)
+    changed_fields format:
+      {"field_name": {"old": "...", "new": "..."}}
+    """
+    candidate = dict(lead)
+    before = dict(candidate)
+
+    prev_use = os.environ.get("USE_SCRAPINGDOG_ENRICHMENT")
+    prev_force = os.environ.get("FORCE_SCRAPINGDOG_ENRICHMENT")
+    try:
+        os.environ["USE_SCRAPINGDOG_ENRICHMENT"] = "1"
+        os.environ["FORCE_SCRAPINGDOG_ENRICHMENT"] = "1"
+        candidate = enrich_linkedin_fields(candidate)
+    finally:
+        if prev_use is None:
+            os.environ.pop("USE_SCRAPINGDOG_ENRICHMENT", None)
+        else:
+            os.environ["USE_SCRAPINGDOG_ENRICHMENT"] = prev_use
+        if prev_force is None:
+            os.environ.pop("FORCE_SCRAPINGDOG_ENRICHMENT", None)
+        else:
+            os.environ["FORCE_SCRAPINGDOG_ENRICHMENT"] = prev_force
+
+    candidate["linkedin"] = clean_linkedin(str(candidate.get("linkedin") or ""), "person")
+    candidate["company_linkedin"] = clean_linkedin(
+        str(candidate.get("company_linkedin") or ""), "company"
+    )
+    candidate["country"] = normalize_country_name(str(candidate.get("country") or ""))
+    candidate["hq_country"] = normalize_country_name(str(candidate.get("hq_country") or ""))
+    candidate["description"] = ensure_min_description(
+        str(candidate.get("description") or ""),
+        str(candidate.get("business") or ""),
+        str(candidate.get("industry") or ""),
+        str(candidate.get("sub_industry") or ""),
+        str(candidate.get("website") or ""),
+    )
+    _sync_location_fields(candidate)
+
+    watched_fields = (
+        "full_name",
+        "first",
+        "last",
+        "email",
+        "linkedin",
+        "company_linkedin",
+        "country",
+        "state",
+        "city",
+        "hq_country",
+        "hq_state",
+        "hq_city",
+        "description",
+    )
+    changed: Dict[str, Dict[str, str]] = {}
+    for k in watched_fields:
+        old = str(before.get(k) or "")
+        new = str(candidate.get(k) or "")
+        if old != new:
+            changed[k] = {"old": old, "new": new}
+    return candidate, changed
+
+
 def derive_source_url(doc: Dict[str, Any], domain: str) -> str:
     serp = doc.get("serp_results") or []
     if serp and isinstance(serp, list):
@@ -504,6 +633,8 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
     hq_location = (company.get("hq_location") or "").strip()
     city, state, country = parse_hq_location(hq_location)
     country = normalize_country_name(country)
+    if country in {"United States"} and state:
+        state = state.strip()
 
     socials = company.get("socials") if isinstance(company.get("socials"), dict) else {}
     company_linkedin = clean_linkedin((socials.get("linkedin") or ""), "company")
@@ -537,6 +668,20 @@ def map_raw_to_lead(doc: Dict[str, Any], filename: str) -> Optional[Dict[str, An
         "hq_state": state,
         "hq_city": city,
     }
+
+    # Keep location fields coherent between direct and HQ fields.
+    if lead.get("hq_country") and not lead.get("country"):
+        lead["country"] = lead["hq_country"]
+    if lead.get("hq_state") and not lead.get("state"):
+        lead["state"] = lead["hq_state"]
+    if lead.get("hq_city") and not lead.get("city"):
+        lead["city"] = lead["hq_city"]
+    if lead.get("country") and not lead.get("hq_country"):
+        lead["hq_country"] = lead["country"]
+    if lead.get("state") and not lead.get("hq_state"):
+        lead["hq_state"] = lead["state"]
+    if lead.get("city") and not lead.get("hq_city"):
+        lead["hq_city"] = lead["city"]
 
     # Reject obviously incomplete mappings early.
     # Also avoid generic inbox contacts that fail precheck quality gates.

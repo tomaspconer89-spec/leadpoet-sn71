@@ -1055,7 +1055,9 @@ class PIIMaskingFormatter(logging.Formatter):
         self.secret_keys = {"key", "token", "secret", "password", "pw"}
 
     def format(self, record):
-        # Get the original message
+        # Preserve original logging record state for safety.
+        original_msg = record.msg
+        original_args = record.args
         msg = record.getMessage()
 
         # Try to parse as JSON for structured logging
@@ -1066,8 +1068,13 @@ class PIIMaskingFormatter(logging.Formatter):
         except (json.JSONDecodeError, TypeError):
             # Not JSON, mask as plain text
             record.msg = self._mask_text(msg)
-
-        return super().format(record)
+        # Message already materialized; clear args to avoid a second %-format pass.
+        record.args = ()
+        try:
+            return super().format(record)
+        finally:
+            record.msg = original_msg
+            record.args = original_args
 
     def _mask_json(self, data):
         """Mask PII and secrets in JSON data."""
@@ -1150,6 +1157,10 @@ def setup_logging(
     # Remove existing handlers
     for handler in logger.handlers[:]:
         logger.removeHandler(handler)
+        try:
+            handler.close()
+        except Exception:
+            pass
 
     # Create console handler (stderr)
     console_handler = logging.StreamHandler()

@@ -1,133 +1,75 @@
-## Runbook (Copy/Paste)
+## Lead Pipeline Command Runbook
 
-Use this sequence every time.
+This document is a command-first workflow for daily operations.
 
-### 1) Start Crawl4AI API
-From repo root:
+## Core Commands
 
+Collect new leads (target 10 pass):
 ```bash
-python3 -m uvicorn crawler_4ai_api:app --host 127.0.0.1 --port 11235
+python3 scripts/collect_leads_precheck_only.py --target-pass 10
 ```
 
-Keep it running in one terminal.
-
----
-
-### 2) Health-check providers + crawler
-In another terminal:
-
+Regrade retry queue (`B_retry_enrichment`):
 ```bash
-python3 - << 'PY'
-import os, json, requests
-from pathlib import Path
-from dotenv import load_dotenv
-
-repo = Path(".")
-load_dotenv(repo / ".env")
-
-print("=== Health Check ===")
-
-# Crawl4AI
-try:
-    r = requests.get("http://127.0.0.1:11235/health", timeout=8)
-    print("Crawl4AI:", r.status_code, r.text[:120])
-except Exception as e:
-    print("Crawl4AI: ERROR", type(e).__name__, e)
-
-# Serper
-key = (os.getenv("SERPER_API_KEY") or "").strip()
-if key:
-    try:
-        r = requests.get(
-            "https://google.serper.dev/account",
-            headers={"X-API-KEY": key, "Content-Type": "application/json"},
-            timeout=12,
-        )
-        print("Serper:", r.status_code, r.text[:160])
-    except Exception as e:
-        print("Serper: ERROR", type(e).__name__, e)
-else:
-    print("Serper: KEY_MISSING")
-
-# GSE
-gk = (os.getenv("GSE_API_KEY") or "").strip()
-cx = (os.getenv("GSE_CX") or "").strip()
-if gk and cx:
-    try:
-        r = requests.get(
-            "https://customsearch.googleapis.com/customsearch/v1",
-            params={"key": gk, "cx": cx, "q": "b2b saas", "num": 1},
-            timeout=12,
-        )
-        print("GSE:", r.status_code)
-    except Exception as e:
-        print("GSE: ERROR", type(e).__name__, e)
-else:
-    print("GSE: KEY_OR_CX_MISSING")
-
-print("=== End ===")
-PY
+python3 scripts/regrade_b_queue.py
 ```
 
-**Proceed only if**:
-- Crawl4AI is `200`
-- Serper is `200`
-- (GSE can be degraded if Serper is healthy)
-
----
-
-### 3) Collect leads (target pass count)
-Single batch of 10:
+Readiness check (validator-like) for ready folders:
 ```bash
-USE_CRAWL4AI_FIRST=1 python3 scripts/collect_leads_precheck_only.py -n 10
+python3 scripts/check_submit_readiness.py
 ```
 
-Better production loop (until pass target):
+Readiness check with JSON output:
 ```bash
-USE_CRAWL4AI_FIRST=1 python3 scripts/collect_leads_precheck_only.py -n 12 --target-pass 10 --max-runs 10
+python3 scripts/check_submit_readiness.py --json
 ```
 
----
-
-### 4) Submit pass queue to gateway
+Submit from pending/ready queue to gateway:
 ```bash
-python3 scripts/submit_collected_pass.py --max 100
+python3 scripts/submit_queued_leads.py
 ```
 
-Optional with linkedin enrichment on submit path:
-```bash
-python3 scripts/submit_collected_pass.py --max 100 --enrich-linkedin 1
-```
+## Useful Monitoring
 
----
-
-### 5) Fast monitoring commands
-Watch run status:
+Watch live logs:
 ```bash
 tail -f miner.log
 ```
 
-Check queue counts:
+Count current queue sizes quickly:
 ```bash
-ls -1 lead_queue/collected_pass/*.json 2>/dev/null | wc -l
-ls -1 lead_queue/collected_precheck_fail/*.precheck_failed.json 2>/dev/null | wc -l
-ls -1 lead_queue/A_ready_submit/*.json 2>/dev/null | wc -l
+for d in lead_queue/A_ready_submit lead_queue/B_retry_enrichment lead_queue/C_good_account_needs_person lead_queue/D_low_confidence_hold lead_queue/E_reject lead_queue/collected_pass lead_queue/collected_precheck_fail lead_queue/submitted; do printf "%-45s %5s\n" "$d" "$(ls -1 "$d" 2>/dev/null | wc -l)"; done
 ```
 
----
+## Recommended Daily Flow
 
-## Quick troubleshooting
+1) Collect:
+```bash
+python3 scripts/collect_leads_precheck_only.py --target-pass 10
+```
 
-- **`ConnectError` on search**  
-  Network/provider issue. Re-run health check first. If Serper `200`, retry collection.
+2) Regrade retries:
+```bash
+python3 scripts/regrade_b_queue.py
+```
 
-- **Crawl4AI refused connection**  
-  Start uvicorn service again (step 1).
+3) Check readiness:
+```bash
+python3 scripts/check_submit_readiness.py
+```
 
-- **Many fails like `missing_required_fields: linkedin`**  
-  Expected B-bucket behavior; run retry/regrade flow later:
-  ```bash
-  python3 scripts/regrade_b_queue.py --enrich-linkedin 1
-  ```
+4) Submit:
+```bash
+python3 scripts/submit_queued_leads.py
+```
 
-If you want, next I can run this exact runbook now step-by-step and report outputs live.
+5) Re-check queue counts:
+```bash
+for d in lead_queue/A_ready_submit lead_queue/B_retry_enrichment lead_queue/C_good_account_needs_person lead_queue/D_low_confidence_hold lead_queue/E_reject lead_queue/collected_pass lead_queue/collected_precheck_fail lead_queue/submitted; do printf "%-45s %5s\n" "$d" "$(ls -1 "$d" 2>/dev/null | wc -l)"; done
+```
+
+## Optional One-Liner (All Steps)
+
+```bash
+python3 scripts/collect_leads_precheck_only.py --target-pass 10 && python3 scripts/regrade_b_queue.py && python3 scripts/check_submit_readiness.py && python3 scripts/submit_queued_leads.py
+```

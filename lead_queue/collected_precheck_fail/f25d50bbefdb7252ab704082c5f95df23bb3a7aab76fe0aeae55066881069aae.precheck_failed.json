@@ -1,5 +1,5 @@
 {
-  "reason": "name_not_in_email",
+  "reason": "missing_required_fields: city",
   "business": "IRC Partners: Expert Capital Raising and Advisory Services",
   "lead": {
     "business": "IRC Partners: Expert Capital Raising and Advisory Services",
@@ -17,12 +17,12 @@
     "linkedin": "https://www.linkedin.com/in/samuel-levitz",
     "company_linkedin": "https://www.linkedin.com/company/irc-partners",
     "source_url": "https://investorreadycapital.com",
-    "source_type": "company_site",
     "description": "IRC Partners: Expert Capital Raising and Advisory Services provides professional services to clients; details were sourced from the company website at https://investorreadycapital.com.",
     "employee_count": "11-50",
     "hq_country": "United States",
     "hq_state": "",
     "hq_city": "",
+    "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
       "linkedin": "https://www.linkedin.com/company/irc-partners",
@@ -32,5 +32,5 @@
       "instagram": null
     }
   },
-  "queue_bucket": "B_retry_enrichment"
+  "queue_bucket": "D_low_confidence_hold"
 }
