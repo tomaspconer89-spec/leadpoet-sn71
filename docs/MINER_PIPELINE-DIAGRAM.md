@@ -5,31 +5,34 @@ For the same flow with file/function references, see **[WORKFLOW-WITH-CODE.md](.
 
 ---
 
-## 1. End-to-end flow
+## 1. Two ways to run sourcing
 
 ```mermaid
-flowchart LR
-  subgraph run["Launch"]
-    A[run-miner.sh] --> B[neurons/miner.py]
-    S[scripts/run-miner-screen.sh] --> A
-    L[run-miner-with-log.sh] --> A
+flowchart TB
+  subgraph onchain["Subnet miner (submit-capable)"]
+    B[neurons/miner.py]
+    B --> D[get_leads — Lead Sorcerer]
+    D --> E[Provenance / sanitize]
+    E --> G[lead_precheck]
+    G --> I[lead_queue / dedupe]
+    I --> J[Gateway: presign → S3 → verify]
+    J -.->|loop| D
+    S[scripts/run-miner-screen.sh] --> R[run-miner.sh]
+    R --> B
   end
 
-  subgraph net["Subnet"]
-    B --> C[Bittensor: wallet / metagraph / axon]
-  end
-
-  subgraph loop["Sourcing loop"]
-    C --> D[get_leads — Lead Sorcerer]
-    D --> E[Source provenance]
-    E --> F[Sanitize & normalize]
-    F --> G[lead_precheck]
-    G --> H[Intent: rank / industry / roles]
-    H --> I[Dedupe & lead_queue]
-    I --> J[Gateway: presign → S3 upload → verify]
-    J --> D
+  subgraph local["Local collect + grade (no gateway)"]
+    CLS[scripts/collect_leads_precheck_only.py]
+    CLS --> D2[get_leads — same Sorcerer entry]
+    D2 --> PREC[Precheck + title + person confidence]
+    PREC --> ROUTE[scripts/queue_router.route_lead]
+    ROUTE --> Q[lead_queue: A / B / C / D / E]
+    Q --> PASS[collected_pass + precheck_fail JSON]
   end
 ```
+
+- **`collect_leads_precheck_only.py`**: typical dev path — writes **`lead_queue/`** buckets and **`collected_pass`** / **`collected_precheck_fail`**, does **not** call the gateway.
+- **`neurons/miner.py`**: full miner loop including gateway upload when configured.
 
 ---
 
@@ -38,98 +41,153 @@ flowchart LR
 ```mermaid
 flowchart TB
   subgraph cfg["Config"]
-    ICP[icp_config.json]
+    ICP[icp_config.json — queries, threshold, mode, max_pages]
   end
 
   subgraph domain["Domain discovery"]
-    Q[Search APIs: Serper / Brave / Google CSE]
-    LLM[OpenRouter LLMs — scoring & extraction]
-    Q --> DOM[domain.py — DomainTool]
+    ICP --> DOM[domain.py — DomainTool]
+    subgraph serp["Search chain — first success per query/page"]
+      SERP[Serper — google.serper.dev]
+      BRV[Brave — api.search.brave.com]
+      GSE[Google Programmable Search — GSE_API_KEY + GSE_CX]
+    end
+    SERP --> DOM
+    BRV --> DOM
+    GSE --> DOM
+    NOTE[Retries, transient-error handling, provider cooldown — no Harvest API]
+    DOM --> NOTE
+    LLM[OpenRouter — domain relevance scoring in domain.py]
+    LLM -.->|timeout / disable| HEUR[Heuristic score fallback]
     LLM --> DOM
-    ICP --> DOM
+    FIL[Noise filter: blocklist + low-intent domains before scoring]
+    DOM --> FIL
   end
 
   subgraph crawl["Crawl & extract"]
-    C4[Crawl4AI API — crawler_4ai_api.py / CRAWL4AI_API_URL]
+    C4[Crawl4AI — CRAWL4AI_API_URL]
     FC[Firecrawl — FIRECRAWL_KEY]
     TR[trafilatura fallback]
-    DOM --> CRAWL[crawl.py — CrawlTool]
+    FIL --> CRAWL[crawl.py — CrawlTool]
     CRAWL --> C4
     CRAWL --> FC
     CRAWL --> TR
   end
 
-  subgraph out["To miner"]
-    CRAWL --> CONV[main_leads.py — convert_lead_record_to_legacy_format]
-    TM[team_members → contacts fallback]
-    CONV --> TM
-    TM --> LEG[Legacy lead dicts → miner]
+  subgraph out["Convert to gateway-oriented dict"]
+    CRAWL --> CONV[main_leads.py — legacy lead shape]
+    ENR[Optional LinkedIn URL enrichment — see §4]
+    CONV --> ENR
+    ENR --> LEG[Legacy leads → collector or miner]
   end
+```
+
+**Discovery env toggles:** `DOMAIN_DISCOVERY_USE_SERPER` (default on), `DOMAIN_DISCOVERY_USE_BRAVE`, `DOMAIN_DISCOVERY_USE_GSE`; at least one of Serper / Brave / GSE must be configured with keys.
+
+---
+
+## 3. After Sorcerer: grading, precheck, queues (local collect path)
+
+```mermaid
+flowchart LR
+  LEG[Legacy lead dicts] --> NORM[lead_normalization — shape + email class]
+  NORM --> TIT[title_normalizer.normalize_title]
+  TIT --> PC[person_confidence.score_person_confidence]
+  PC --> PRE[precheck_lead]
+  PRE -->|retry reasons| TRI[retry_enrichment.targeted_retry_enrichment]
+  TRI -.-> PRE
+  PRE --> RT[queue_router.route_lead]
+  RT --> MB[minimal_gateway_lead — SN71 field order]
+  MB --> F1[A_ready_submit]
+  MB --> F2[B_retry_enrichment]
+  MB --> F3[C_good_account_needs_person]
+  MB --> F4[D_low_confidence_hold]
+  MB --> F5[E_reject]
 ```
 
 ---
 
-## 3. Models & classifiers (after generation)
+## 4. Enrichment search stack (LinkedIn / SERP helpers)
+
+Used from **`main_leads.py`** (async Apify + fallback) and **`scripts/convert_raw_to_pending.py`** (`search_urls`, `enrich_linkedin_fields`, ScrapingDog validate/fix).
+
+```mermaid
+flowchart TB
+  subgraph primary["Default order"]
+    A1[Apify Google Search actor — APIFY_API_TOKEN]
+    A1 --> A2[Serper → Brave → GSE — same keys as domain]
+  end
+  subgraph opt["Opt-in"]
+    SD[ScrapingDog Google — SCRAPINGDOG_API_KEY]
+    SD -->|USE_SCRAPINGDOG_ENRICHMENT=1 or FORCE_| primary
+  end
+  primary --> URLS[Extract LinkedIn / URLs from JSON responses]
+```
+
+**B-queue maintenance:** `scripts/regrade_b_queue.py` can run **`validate_and_fix_with_scrapingdog`** (ScrapingDog-forced LinkedIn + field cleanup) and LinkedIn-location snippets, then re-precheck and optionally promote to **`A_ready_submit`**.
+
+---
+
+## 5. Models & classifiers (optional / parallel)
 
 ```mermaid
 flowchart LR
   subgraph hf["Optional local / HF"]
-    H1[USE_HF_INDUSTRY — swarupt/industry-classification via hf_models]
-    H2[USE_HF_EMAIL_INTENT_FILTER — email intent classifier]
+    H1[USE_HF_INDUSTRY — industry classification]
+    H2[USE_HF_EMAIL_INTENT_FILTER — email intent]
   end
 
-  subgraph api["API fallback"]
-    OR[OpenRouter — industry / roles / ranking when enabled]
+  subgraph api["API"]
+    OR[OpenRouter — domain scoring; other paths when enabled]
   end
 
   subgraph heur["Heuristics"]
-    KW[Keyword taxonomy — miner_models/taxonomy.py]
+    KW[miner_models/taxonomy / keyword rules]
   end
 
-  LEG2[Leads from Sorcerer] --> H1
+  LEG2[Leads] --> H1
   LEG2 --> H2
   H1 -.->|if off or fail| OR
   H2 -.->|if off or fail| OR
   OR -.->|if no key| KW
-  H1 -.->|map fail| KW
 ```
 
 ---
 
-## 4. Validation & submission stack
+## 6. Validation & submission stack
 
 ```mermaid
 flowchart TB
-  P[Lead dict] --> SP[Leadpoet.utils.source_provenance — URL / source_type]
+  P[Lead dict] --> SP[source_provenance / source_type]
   SP --> PC[miner_models/lead_precheck.py]
-  PC --> DD[Duplicate checks — email / LinkedIn / company]
-  DD --> GW[HTTP: presigned URL + S3 + verification]
-  GW --> BT[On-chain / subnet activity via Bittensor]
+  PC --> DD[Duplicate checks]
+  DD --> GW[Gateway: presign → S3 → verification]
+  GW -->|miner only| BT[Bittensor / subnet]
 ```
+
+For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTIONS.md)**.
 
 ---
 
-## ASCII sketch (no Mermaid needed)
+## ASCII sketch (no Mermaid)
 
 ```
-  screen / run-miner.sh
+  scripts/collect_leads_precheck_only.py  (or neurons/miner.py)
            │
            ▼
-  neurons/miner.py ◄──────────────────────────────┐
-           │                                        │
-           │  get_leads()                            │
-           ▼                                        │
-  main_leads.py + orchestrator                      │
-     │ domain (Serper/Brave/GSE + OpenRouter)       │
-     │ crawl (Crawl4AI / Firecrawl / trafilatura)   │
-     └► legacy leads (+ team_members→contacts)     │
-           │                                        │
-           ├► source_provenance                     │
-           ├► sanitize                             │
-           ├► lead_precheck                         │
-           ├► intent_model (HF +/or OpenRouter)    │
-           ├► lead_queue / dedupe                  │
-           └► gateway upload ────────────────────────┘
+  main_leads.get_leads + orchestrator
+     │ domain: Serper → Brave → GSE + OpenRouter scoring (+ heuristic fallback)
+     │ noise / blocklist pre-filter; provider retry + cooldown
+     │ crawl: Crawl4AI / Firecrawl / trafilatura
+     │ optional: Apify (+ opt-in ScrapingDog) for LinkedIn discovery in enrichment
+     └► legacy lead dicts
+           │
+           ├► normalize_title · score_person_confidence · precheck_lead
+           ├► targeted_retry_enrichment (selected failure reasons)
+           ├► route_lead → A / B / C / D / E under lead_queue/
+           ├► minimal_gateway_lead → collected_pass / precheck_fail
+           │
+  miner path only:
+           └► gateway upload ──► loop
 ```
 
 ---
@@ -138,14 +196,20 @@ flowchart TB
 
 | Flag / key | Role |
 |------------|------|
-| `SERPER_API_KEY` / `BRAVE_API_KEY` / `GSE_*` | Domain search |
-| `OPENROUTER_KEY` | LLM calls in domain/crawl path & intent (unless disabled) |
+| `SERPER_API_KEY`, `BRAVE_API_KEY`, `GSE_API_KEY`, `GSE_CX` | Domain discovery (chain order: Serper → Brave → GSE; only entries with keys+toggles) |
+| `DOMAIN_DISCOVERY_USE_SERPER`, `_USE_BRAVE`, `_USE_GSE` | Enable/disable each discovery backend |
+| `DOMAIN_PROVIDER_RETRY_ATTEMPTS`, `DOMAIN_PROVIDER_COOLDOWN_*` | Resilience for flaky search APIs |
+| `OPENROUTER_KEY`, `OPENROUTER_*_MODEL`, `OPENROUTER_DISABLE` | Domain LLM scoring in `domain.py` |
+| `APIFY_API_TOKEN`, `APIFY_SEARCH_ACTOR_ID` | Primary enrichment Google search in `main_leads` / `convert_raw_to_pending` |
+| `SCRAPINGDOG_API_KEY`, `USE_SCRAPINGDOG_ENRICHMENT`, `FORCE_SCRAPINGDOG_ENRICHMENT` | Optional ScrapingDog search; B regrade / validate-fix path |
 | `FIRECRAWL_KEY` | Managed scrape/extract |
 | `CRAWL4AI_API_URL`, `USE_CRAWL4AI_FIRST` | Local Crawl4AI service |
 | `USE_HF_INDUSTRY`, `USE_HF_EMAIL_INTENT_FILTER` | HF classifiers in `miner_models/` |
 | `USE_LEAD_PRECHECK` | Local gateway-aligned checks |
-| `WALLET_NAME`, `WALLET_HOTKEY` | Bittensor wallet |
+| `WALLET_NAME`, `WALLET_HOTKEY` | Bittensor wallet (miner) |
+
+**Removed from pipeline:** Harvest API (`HARVEST_API_KEY`, `api.harvest-api.com`) — no longer used for domain discovery or LinkedIn search fallbacks.
 
 ---
 
-*Last updated: aligns with Lead Sorcerer + `neurons/miner.py` sourcing path in this repo.*
+*Last updated: March 2026 — matches `domain.py` discovery chain (Serper / Brave / GSE), no Harvest; graded `lead_queue` + `collect_leads_precheck_only.py`; Apify-first enrichment with optional ScrapingDog.*
