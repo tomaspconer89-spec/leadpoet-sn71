@@ -852,24 +852,8 @@ else:
                                 return []
 
                     async def _fallback_search(query: str, amount: int = 10) -> List[Any]:
-                        encoded_q = quote(query)
                         async with httpx.AsyncClient(timeout=45) as client:
-                            # 1) Harvest API
-                            harvest_key = os.getenv("HARVEST_API_KEY", "").strip()
-                            if harvest_key:
-                                try:
-                                    resp = await client.get(
-                                        f"https://api.harvest-api.com/linkedin/profile-search?search={encoded_q}",
-                                        headers={"X-API-Key": harvest_key, "Accept": "application/json"},
-                                    )
-                                    resp.raise_for_status()
-                                    data = resp.json() if resp.content else []
-                                    if data:
-                                        return data if isinstance(data, list) else [data]
-                                except Exception:
-                                    pass
-
-                            # 2) Serper
+                            # 1) Serper
                             serper_key = os.getenv("SERPER_API_KEY", "").strip()
                             if serper_key:
                                 try:
@@ -885,7 +869,7 @@ else:
                                 except Exception:
                                     pass
 
-                            # 3) Brave Search
+                            # 2) Brave Search
                             brave_key = os.getenv("BRAVE_API_KEY", "").strip()
                             if brave_key:
                                 try:
@@ -901,7 +885,7 @@ else:
                                 except Exception:
                                     pass
 
-                            # 4) Google Custom Search (GSE)
+                            # 3) Google Custom Search (GSE)
                             gse_key = os.getenv("GSE_API_KEY", "").strip()
                             gse_cx = os.getenv("GSE_CX", "").strip()
                             if gse_key and gse_cx:

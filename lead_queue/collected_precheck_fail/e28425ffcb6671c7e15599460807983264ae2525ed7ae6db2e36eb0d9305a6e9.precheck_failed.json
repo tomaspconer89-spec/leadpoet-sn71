@@ -1,5 +1,5 @@
 {
-  "reason": "missing_required_fields: city",
+  "reason": "name_not_in_email",
   "business": "HubSpot",
   "lead": {
     "business": "HubSpot",
@@ -12,16 +12,16 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "country": "United States",
-    "state": "",
-    "city": "",
+    "state": "is there a possibility to make this a regular monthly thread",
+    "city": "Rally Corp",
     "linkedin": "https://ch.linkedin.com/in/miguelbemartin",
     "company_linkedin": "https://www.linkedin.com/company/hubspot",
     "source_url": "https://hubspot.com",
     "description": "HubSpot provides professional services to clients; details were sourced from the company website at https://hubspot.com.",
     "employee_count": "11-50",
     "hq_country": "United States",
-    "hq_state": "",
-    "hq_city": "",
+    "hq_state": "is there a possibility to make this a regular monthly thread",
+    "hq_city": "Rally Corp",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -33,5 +33,5 @@
       "facebook": null
     }
   },
-  "queue_bucket": "D_low_confidence_hold"
+  "queue_bucket": "B_retry_enrichment"
 }

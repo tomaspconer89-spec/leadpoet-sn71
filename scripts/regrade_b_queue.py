@@ -9,6 +9,7 @@ Do not raw-mv B -> A: folder placement must match computed route_lead(...).
 Usage (repo root):
   python3 scripts/regrade_b_queue.py
   python3 scripts/regrade_b_queue.py --enrich-linkedin 1
+  python3 scripts/regrade_b_queue.py --scrapingdog-fix 0   # skip ScrapingDog (Apify-first search in enrich step)
   python3 scripts/regrade_b_queue.py --dry-run
 """
 
@@ -20,6 +21,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -96,9 +98,15 @@ def _scrapingdog_google_json(query: str) -> dict:
         "&results=10&country=us&page=0"
     )
     req = urllib.request.Request(url=url, method="GET")
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        body = resp.read().decode("utf-8")
-    data = json.loads(body)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            body = resp.read().decode("utf-8")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError):
+        return {}
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return {}
     return data if isinstance(data, dict) else {}
 
 
@@ -143,7 +151,7 @@ def _enrich_location_from_linkedin(
     normalize_country_name,
 ) -> tuple[dict, list[str]]:
     """
-    Use LinkedIn URLs + ScrapingDog SERP snippets to infer city/state/country.
+    Use LinkedIn URLs + ScrapingDog Google SERP snippets to infer city/state/country.
     """
     changed: list[str] = []
     candidate = dict(lead)
@@ -270,6 +278,7 @@ def _process_one(
     *,
     enrich_fn,
     scrapingdog_fixer=None,
+    prefer_scrapingdog_linkedin_search: bool = True,
     parse_hq_location=None,
     normalize_country_name=None,
 ) -> tuple[dict, bool, str | None, str, list[str]]:
@@ -287,10 +296,18 @@ def _process_one(
         except Exception:
             pass
     if enrich_fn is not None:
+        prev_sd = os.environ.get("USE_SCRAPINGDOG_ENRICHMENT")
         try:
+            if prefer_scrapingdog_linkedin_search:
+                os.environ["USE_SCRAPINGDOG_ENRICHMENT"] = "1"
             lead = enrich_fn(dict(lead))
         except Exception:
             pass
+        finally:
+            if prev_sd is None:
+                os.environ.pop("USE_SCRAPINGDOG_ENRICHMENT", None)
+            else:
+                os.environ["USE_SCRAPINGDOG_ENRICHMENT"] = prev_sd
     try:
         lead, loc_changed = _enrich_location_from_linkedin(
             lead,
@@ -343,7 +360,13 @@ def _process_one(
 def main() -> int:
     p = argparse.ArgumentParser(description="Re-grade B_retry_enrichment leads; promote to A when eligible")
     p.add_argument("--enrich-linkedin", type=int, default=1, choices=(0, 1))
-    p.add_argument("--scrapingdog-fix", type=int, default=1, choices=(0, 1))
+    p.add_argument(
+        "--scrapingdog-fix",
+        type=int,
+        default=1,
+        choices=(0, 1),
+        help="1=validate/fix fields + LinkedIn discovery via ScrapingDog (default); 0=skip",
+    )
     p.add_argument(
         "--route",
         type=int,
@@ -386,6 +409,7 @@ def main() -> int:
                 lead_in,
                 enrich_fn=enrich_fn,
                 scrapingdog_fixer=scrapingdog_fixer,
+                prefer_scrapingdog_linkedin_search=args.scrapingdog_fix == 1,
                 parse_hq_location=parse_hq_location,
                 normalize_country_name=normalize_country_name,
             )
@@ -409,7 +433,7 @@ def main() -> int:
                 old_path.unlink(missing_ok=True)
 
             # Keep all SN71-normal fields present (including location keys),
-            # and update with any ScrapingDog corrections.
+            # and update with any ScrapingDog/LinkedIn corrections.
             store_graded = _ensure_normal_fields(lead)
             new_graded.write_text(json.dumps(store_graded, ensure_ascii=True, indent=2), encoding="utf-8")
 

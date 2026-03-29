@@ -304,29 +304,6 @@ def _collect_linkedin_urls(obj: Any, out: List[str]) -> None:
             out.append(s)
 
 
-def harvest_search_urls(query: str) -> List[str]:
-    harvest_key = os.getenv("HARVEST_API_KEY", "").strip()
-    if not harvest_key:
-        return []
-    encoded_q = urllib.parse.quote(query)
-    try:
-        data = http_json(
-            f"https://api.harvest-api.com/linkedin/profile-search?search={encoded_q}",
-            headers={"X-API-Key": harvest_key, "Accept": "application/json"},
-        )
-        urls: List[str] = []
-        _collect_linkedin_urls(data, urls)
-        deduped: List[str] = []
-        seen = set()
-        for u in urls:
-            if u not in seen:
-                seen.add(u)
-                deduped.append(u)
-        return deduped
-    except Exception:
-        return []
-
-
 def apify_search_urls(query: str) -> List[str]:
     token = os.getenv("APIFY_API_TOKEN", "").strip()
     if not token:
@@ -389,7 +366,7 @@ def scrapingdog_search_urls(query: str) -> List[str]:
 def search_urls(query: str) -> List[str]:
     """
     Query search provider(s) and return top URLs.
-    Priority: Apify -> HarvestAPI -> (optional) ScrapingDog -> Serper -> Brave -> GSE.
+    Priority: Apify -> (optional) ScrapingDog -> Serper -> Brave -> GSE.
     ScrapingDog is used only when USE_SCRAPINGDOG_ENRICHMENT=1.
     """
     urls: List[str] = []
@@ -407,9 +384,6 @@ def search_urls(query: str) -> List[str]:
     apify_urls = apify_search_urls(query)
     if apify_urls:
         return apify_urls
-    harvest_urls = harvest_search_urls(query)
-    if harvest_urls:
-        return harvest_urls
     use_scrapingdog = os.getenv("USE_SCRAPINGDOG_ENRICHMENT", "0").strip() == "1"
     if use_scrapingdog:
         scrapingdog_urls = scrapingdog_search_urls(query)

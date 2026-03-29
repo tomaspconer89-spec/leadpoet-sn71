@@ -2,8 +2,7 @@
 Domain tool for Lead Sorcerer.
 
 This tool generates qualified domains from ICP queries using cheap pre-crawl scoring.
-Search backends: Harvest (LinkedIn company search + company website), Serper, Brave, or GSE;
-results are normalized to a common shape before LLM scoring.
+Search backends: Serper, Brave, or GSE; results are normalized to a common shape before LLM scoring.
 
 Authoritative specifications: BRD §226-280
 """
@@ -19,8 +18,6 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import quote
-
 import httpx
 from openai import AsyncOpenAI
 
@@ -212,128 +209,6 @@ class BraveSearchClient:
                     "snippet": result.get("description", ""),
                     "rank": idx,
                 })
-
-            return {"items": items}
-
-
-class HarvestDomainSearchClient:
-    """
-    HarvestAPI: LinkedIn company search, then company detail for each candidate
-    to obtain a public ``website`` URL. Maps to GSE-shaped items for scoring.
-    """
-
-    def __init__(self, api_key: str, semaphore_pool: AsyncSemaphorePool):
-        self.api_key = api_key
-        self.semaphore_pool = semaphore_pool
-        self.base_url = "https://api.harvest-api.com"
-        self._max_short = max(
-            1, int(os.environ.get("HARVEST_DOMAIN_MAX_SHORT", "12") or 12)
-        )
-        self._max_detail = max(
-            1, int(os.environ.get("HARVEST_DOMAIN_MAX_DETAIL", "10") or 10)
-        )
-        self._detail_conc = max(
-            1, int(os.environ.get("HARVEST_DOMAIN_DETAIL_CONCURRENCY", "4") or 4)
-        )
-        try:
-            self._detail_timeout_s = float(
-                os.environ.get("HARVEST_DOMAIN_DETAIL_TIMEOUT", "25") or 25
-            )
-        except ValueError:
-            self._detail_timeout_s = 25.0
-
-    async def search(self, query: str, page: int = 1) -> Dict[str, Any]:
-        async with self.semaphore_pool:
-            q = (query or "").strip()
-            if len(q) > 400:
-                q = q[:400]
-            params = f"search={quote(q, safe='')}&page={int(page)}"
-            list_url = f"{self.base_url}/linkedin/company-search?{params}"
-            headers = {"X-API-Key": self.api_key, "Accept": "application/json"}
-
-            async with httpx.AsyncClient(timeout=(10.0, 45.0)) as client:
-                resp = await client.get(list_url, headers=headers)
-                resp.raise_for_status()
-                data = resp.json() if resp.content else {}
-
-            elements = data.get("elements") if isinstance(data, dict) else None
-            if not isinstance(elements, list):
-                elements = []
-
-            short_list = elements[: self._max_short]
-            universal_names: List[str] = []
-            short_by_un: Dict[str, Dict[str, Any]] = {}
-            for el in short_list:
-                if not isinstance(el, dict):
-                    continue
-                un = str(el.get("universalName", "") or "").strip()
-                if not un or un in short_by_un:
-                    continue
-                short_by_un[un] = el
-                universal_names.append(un)
-                if len(universal_names) >= self._max_detail:
-                    break
-
-            detail_sem = asyncio.Semaphore(self._detail_conc)
-
-            async def _fetch_website(un: str) -> Optional[Dict[str, Any]]:
-                url = (
-                    f"{self.base_url}/linkedin/company?"
-                    f"universalName={quote(un, safe='')}"
-                )
-                async with detail_sem:
-                    async with httpx.AsyncClient(
-                        timeout=(8.0, self._detail_timeout_s)
-                    ) as hc:
-                        try:
-                            r = await hc.get(url, headers=headers)
-                            r.raise_for_status()
-                            body = r.json() if r.content else {}
-                        except Exception:
-                            return None
-                        if not isinstance(body, dict):
-                            return None
-                        elem = body.get("element")
-                        if not isinstance(elem, dict):
-                            return None
-                        website = str(elem.get("website", "") or "").strip()
-                        if not website:
-                            return None
-                        if not website.lower().startswith(("http://", "https://")):
-                            website = f"https://{website}"
-                        name = str(elem.get("name", "") or "").strip() or un
-                        desc = str(elem.get("description", "") or "").strip()
-                        short = short_by_un.get(un, {})
-                        snippet = desc or str(short.get("summary", "") or "").strip()
-                        if len(snippet) > 600:
-                            snippet = snippet[:600]
-                        return {
-                            "title": name,
-                            "link": website,
-                            "snippet": snippet,
-                            "universalName": un,
-                        }
-
-            gathered = await asyncio.gather(
-                *(_fetch_website(un) for un in universal_names)
-            )
-
-            items: List[Dict[str, Any]] = []
-            rank = 0
-            for row in gathered:
-                if not row:
-                    continue
-                rank += 1
-                items.append(
-                    {
-                        "title": row["title"],
-                        "link": row["link"],
-                        "snippet": row["snippet"],
-                        "rank": rank,
-                    }
-                )
-                if rank >= 10:
-                    break
 
             return {"items": items}
 
@@ -707,7 +582,7 @@ class DomainTool:
 
         # Load costs configuration
         self.costs_config = load_costs_config()
-        validate_provider_config(["openrouter", "harvest"], self.costs_config)
+        validate_provider_config(["openrouter", "gse", "firecrawl"], self.costs_config)
 
         # Initialize components
         self.permit_manager = PermitManager(
@@ -718,19 +593,13 @@ class DomainTool:
         self.semaphore_pool = AsyncSemaphorePool(self.permit_manager)
 
         # Domain discovery: ordered chain; each query tries providers until one succeeds.
-        # Temporary stability default: Harvest -> Brave, with Serper/GSE opt-in.
-        harvest_key = os.environ.get("HARVEST_API_KEY", "").strip()
-        use_harvest = os.environ.get("DOMAIN_DISCOVERY_USE_HARVEST", "1").strip().lower() not in (
-            "0",
-            "false",
-            "no",
-        )
+        # Serper -> Brave -> GSE (Harvest API removed from pipeline).
         use_brave = os.environ.get("DOMAIN_DISCOVERY_USE_BRAVE", "1").strip().lower() not in (
             "0",
             "false",
             "no",
         )
-        use_serper = os.environ.get("DOMAIN_DISCOVERY_USE_SERPER", "0").strip().lower() not in (
+        use_serper = os.environ.get("DOMAIN_DISCOVERY_USE_SERPER", "1").strip().lower() not in (
             "0",
             "false",
             "no",
@@ -747,17 +616,6 @@ class DomainTool:
 
         # (cache_backend_id, billing key in costs.yaml, client)
         self._search_chain: List[Tuple[str, str, Any]] = []
-        if harvest_key and use_harvest:
-            self._search_chain.append(
-                (
-                    "harvest",
-                    "harvest",
-                    HarvestDomainSearchClient(
-                        api_key=harvest_key,
-                        semaphore_pool=self.semaphore_pool,
-                    ),
-                )
-            )
         if serper_key and use_serper:
             self._search_chain.append(
                 (
@@ -795,8 +653,9 @@ class DomainTool:
 
         if not self._search_chain:
             raise KeyError(
-                "No domain search provider configured: set HARVEST_API_KEY, "
-                "and/or SERPER_API_KEY, BRAVE_API_KEY, or GSE_API_KEY+GSE_CX"
+                "No domain search provider configured: set SERPER_API_KEY, "
+                "BRAVE_API_KEY, and/or GSE_API_KEY+GSE_CX (and enable toggles "
+                "DOMAIN_DISCOVERY_USE_SERPER / _BRAVE / _GSE)"
             )
 
         self._last_search_cost_key = self._search_chain[0][1]
@@ -805,8 +664,7 @@ class DomainTool:
             f"🔍 Domain discovery provider chain (first success wins per query): {chain_desc}"
         )
         logging.getLogger(TOOL_NAME).info(
-            "🔧 Provider toggles: HARVEST=%s BRAVE=%s SERPER=%s GSE=%s",
-            use_harvest,
+            "🔧 Provider toggles: BRAVE=%s SERPER=%s GSE=%s",
             use_brave,
             use_serper,
             use_gse,

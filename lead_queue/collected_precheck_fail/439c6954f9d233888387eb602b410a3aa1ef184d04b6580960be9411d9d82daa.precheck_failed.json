@@ -1,5 +1,5 @@
 {
-  "reason": "missing_required_fields: city",
+  "reason": "state_empty_for_usa",
   "business": "NOW CFO: Outsourced CFO, Fractional CFO &amp; Accounting Service",
   "lead": {
     "business": "NOW CFO: Outsourced CFO, Fractional CFO &amp; Accounting Service",
@@ -13,7 +13,7 @@
     "sub_industry": "Management Consulting",
     "country": "United States",
     "state": "",
-    "city": "",
+    "city": "Error: Got empty search results page (0 organic + paid results)",
     "linkedin": "https://www.linkedin.com/in/jim-bennett-nowcfo",
     "company_linkedin": "https://www.linkedin.com/company/nowcfo",
     "source_url": "https://nowcfo.com",
@@ -21,7 +21,7 @@
     "employee_count": "11-50",
     "hq_country": "United States",
     "hq_state": "",
-    "hq_city": "",
+    "hq_city": "Error: Got empty search results page (0 organic + paid results)",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {

@@ -111,29 +111,6 @@ def _collect_linkedin_urls(obj: Any, out: list[str]) -> None:
             out.append(s)
 
 
-def harvest_search_urls(query: str) -> list[str]:
-    harvest_key = os.getenv("HARVEST_API_KEY", "").strip()
-    if not harvest_key:
-        return []
-    encoded_q = urllib.parse.quote(query)
-    try:
-        data = http_json(
-            f"https://api.harvest-api.com/linkedin/profile-search?search={encoded_q}",
-            headers={"X-API-Key": harvest_key, "Accept": "application/json"},
-        )
-        urls: list[str] = []
-        _collect_linkedin_urls(data, urls)
-        deduped: list[str] = []
-        seen = set()
-        for u in urls:
-            if u not in seen:
-                seen.add(u)
-                deduped.append(u)
-        return deduped
-    except Exception:
-        return []
-
-
 def apify_search_urls(query: str) -> list[str]:
     token = os.getenv("APIFY_API_TOKEN", "").strip()
     if not token:
@@ -168,9 +145,6 @@ def search_urls(query: str) -> list[str]:
     brave_key = os.getenv("BRAVE_API_KEY", "").strip()
     gse_key = os.getenv("GSE_API_KEY", "").strip()
     gse_cx = os.getenv("GSE_CX", "").strip()
-    harvest_urls = harvest_search_urls(query)
-    if harvest_urls:
-        return harvest_urls
     apify_urls = apify_search_urls(query)
     if apify_urls:
         return apify_urls
