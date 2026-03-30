@@ -1,0 +1,30 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Home",
+  "lead": {
+    "business": "Home",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@datamaelumat.com",
+    "role": "Contact",
+    "website": "https://datamaelumat.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/chris-newman-b4a0506b",
+    "company_linkedin": "https://www.linkedin.com/company/datamaelumat",
+    "source_url": "https://datamaelumat.com",
+    "description": "Data Maelumat, a leading b2b email marketing lists provider to support your exclusive sales and marketing campaigns to increase Business ROI",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/datamaelumat",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "C_good_account_needs_person"
+}

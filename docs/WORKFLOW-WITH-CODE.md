@@ -60,6 +60,7 @@ Each cycle of the sourcing loop typically does: **get leads → validate (source
 | Domain tool | Discover domains (GSE/DDG from queries), score with LLM, output candidate lead records | **`miner_models/lead_sorcerer_main/src/domain.py`** – `DomainTool.run()` |
 | Crawl tool | For each domain, scrape with Firecrawl; extract company + contact (name, email, role, LinkedIn, etc.) | **`miner_models/lead_sorcerer_main/src/crawl.py`** – `CrawlTool.run()` |
 | Convert to legacy format | Map Lead Sorcerer records to the dict shape the miner expects (business, email, website, industry, role, linkedin, etc.) | **`main_leads.py`** – `convert_lead_record_to_legacy_format()` ~163–278 |
+| Persist artifacts snapshot | Save run artifacts for inspection (`domain_pass.jsonl`, exports, manifest) under `reports/sorcerer_artifacts/<UTC>/` | **`main_leads.py`** – `run_lead_sorcerer_pipeline()` artifact snapshot block |
 | Return to miner | List of legacy-format leads (with email + business) | **`main_leads.py`** – `get_leads()` returns `legacy_leads` |
 
 ICP (queries, caps, specific_urls) is read from **`miner_models/lead_sorcerer_main/icp_config.json`**.  
@@ -84,6 +85,17 @@ Only leads that pass this validation should be passed to sanitize/precheck/submi
 |------|----------------|-------------|
 | Sanitize prospect | Fill/normalize required fields: country, city, employee_count, company_linkedin, etc., so gateway is less likely to reject | **`neurons/miner.py`** – `sanitize_prospect(lead, miner_hotkey)` |
 | Log produced leads | After sanitization, log each lead (business, email, website) for debugging | **`neurons/miner.py`** – after building `sanitized` list, `bt.logging.info("Lead Sorcerer produced lead: ...")` |
+
+### 3.3b LinkedIn-first enrichment (local conversion / regrade path)
+
+When using local queue conversion and regrade scripts, `enrich_linkedin_fields()` now applies broader evidence-driven corrections, not only LinkedIn URL lookup.
+
+| Step | What happens | File / code |
+|------|----------------|-------------|
+| Search evidence collection | Gather Apify search items and optional ScrapingDog Google results for company/person queries | **`scripts/convert_raw_to_pending.py`** – `apify_search_items()`, `search_urls()`, `_scrapingdog_google_json()` |
+| Profile evidence | Query ScrapingDog LinkedIn profile endpoint (`/profile`) from person `/in/` URL when available | **`scripts/convert_raw_to_pending.py`** – `_scrapingdog_linkedin_profile_json()` |
+| Field correction | Fill/correct low-quality values for `full_name`, `first`, `last`, `email`, `role`, `city/state/country`, HQ mirrors, `business`, `website`, `employee_count`, `description` | **`scripts/convert_raw_to_pending.py`** – `enrich_linkedin_fields()` |
+| Regrade integration | Apply ScrapingDog-based validate/fix and location repair before precheck/routing | **`scripts/regrade_b_queue.py`** – `_process_one()` + `validate_and_fix_with_scrapingdog()` path |
 
 ---
 

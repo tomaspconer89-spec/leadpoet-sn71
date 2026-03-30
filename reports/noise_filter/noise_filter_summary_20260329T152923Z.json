@@ -1,0 +1,78 @@
+{
+  "generated_at_utc": "20260329T152923Z",
+  "files": {
+    "json": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/reports/noise_filter/noise_filter_rejections_20260329T152923Z.json",
+    "csv": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/reports/noise_filter/noise_filter_rejections_20260329T152923Z.csv"
+  },
+  "summary": {
+    "rejected_total": 43,
+    "passed_total": 97,
+    "by_reason": {
+      "provider_error": 11,
+      "blocklist": 13,
+      "low_intent": 19
+    },
+    "top_rejected_domains": [
+      [
+        "youtube.com",
+        8
+      ],
+      [
+        "indeed.com",
+        4
+      ],
+      [
+        "fullenrich.com",
+        4
+      ],
+      [
+        "linkedin.com",
+        3
+      ],
+      [
+        "scalewithstrive.com",
+        2
+      ],
+      [
+        "reddit.com",
+        2
+      ],
+      [
+        "builtin.com",
+        1
+      ],
+      [
+        "salesforge.ai",
+        1
+      ],
+      [
+        "roberthalf.com",
+        1
+      ],
+      [
+        "himalayas.app",
+        1
+      ],
+      [
+        "ziprecruiter.com",
+        1
+      ],
+      [
+        "pageexecutive.com",
+        1
+      ],
+      [
+        "michaelpage.com",
+        1
+      ],
+      [
+        "peaksalesrecruiting.com",
+        1
+      ],
+      [
+        "snaphunt.com",
+        1
+      ]
+    ]
+  }
+}

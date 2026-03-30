@@ -1,0 +1,25 @@
+{
+  "business": "Home",
+  "full_name": "Hello Lead",
+  "first": "Hello",
+  "last": "Lead",
+  "email": "hello@ventureoutny.com",
+  "role": "Contact",
+  "website": "https://ventureoutny.com",
+  "industry": "Professional Services",
+  "sub_industry": "Management Consulting",
+  "linkedin": "https://www.linkedin.com/in/jeff-pasquale-43013b12",
+  "company_linkedin": "https://www.linkedin.com/company/ventureoutny",
+  "source_url": "https://ventureoutny.com",
+  "description": "Home provides professional services to clients; details were sourced from the company website at https://ventureoutny.com.",
+  "employee_count": "11-50",
+  "source_type": "company_site",
+  "phone_numbers": [],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/ventureoutny",
+    "github": null,
+    "twitter": null,
+    "telegram": null,
+    "instagram": null
+  }
+}

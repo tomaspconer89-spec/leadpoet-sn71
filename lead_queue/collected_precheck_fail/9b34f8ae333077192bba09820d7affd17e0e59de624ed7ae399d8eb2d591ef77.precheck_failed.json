@@ -1,0 +1,36 @@
+{
+  "reason": "missing_required_fields: last",
+  "business": "saas.group - A great new home for your SaaS business",
+  "lead": {
+    "business": "saas.group - A great new home for your SaaS business",
+    "full_name": "timschumacher",
+    "first": "timschumacher",
+    "last": "",
+    "email": "info@saas.group",
+    "role": "ceo",
+    "website": "https://saas.group",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "tap Add a location to enter a specific location or tap an option from the list. Tap Show results.",
+    "state": "such as All",
+    "city": "Tap the tab for the category you wish to search within",
+    "linkedin": "https://www.linkedin.com/in/TimSchumacher",
+    "company_linkedin": "https://www.linkedin.com/company/saas-group",
+    "source_url": "https://saas.group",
+    "description": "saas.group acquires bootstrapped SaaS companies. Built by founders and product enthusiasts. Looking for an exit? Get in touch!",
+    "employee_count": "11-50",
+    "hq_country": "tap Add a location to enter a specific location or tap an option from the list. Tap Show results.",
+    "hq_state": "such as All",
+    "hq_city": "Tap the tab for the category you wish to search within",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/saas-group",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "B_retry_enrichment"
+}

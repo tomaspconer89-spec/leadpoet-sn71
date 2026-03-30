@@ -1,0 +1,30 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Building the World\u2019s Most Powerful Network for Founders",
+  "lead": {
+    "business": "Building the World\u2019s Most Powerful Network for Founders",
+    "full_name": "Help Lead",
+    "first": "Help",
+    "last": "Lead",
+    "email": "help@techstars.com",
+    "role": "Contact",
+    "website": "https://techstars.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/alexguttler",
+    "company_linkedin": "https://www.linkedin.com/company/techstars",
+    "source_url": "https://techstars.com",
+    "description": "Techstars helps founders succeed. Through our global accelerators, we invest in early-stage startups led by founders building a better future for everyone.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/techstars",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "C_good_account_needs_person"
+}

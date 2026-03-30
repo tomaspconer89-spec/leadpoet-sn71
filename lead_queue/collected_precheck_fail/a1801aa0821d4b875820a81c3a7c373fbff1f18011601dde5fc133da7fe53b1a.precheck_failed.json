@@ -1,0 +1,30 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Home",
+  "lead": {
+    "business": "Home",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@bluetrust.com",
+    "role": "Contact",
+    "website": "https://bluetrust.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/chris-newman-b4a0506b",
+    "company_linkedin": "https://www.linkedin.com/company/bluetrustwealth",
+    "source_url": "https://bluetrust.com",
+    "description": "Our wealth management advisors apply technical expertise and biblical wisdom to help clients make wise financial decisions.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/bluetrustwealth",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "C_good_account_needs_person"
+}

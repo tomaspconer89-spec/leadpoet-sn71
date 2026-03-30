@@ -1,0 +1,29 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "DMJPS",
+  "lead": {
+    "business": "DMJPS",
+    "full_name": "Drew Haddock Cpa",
+    "first": "Drew",
+    "last": "Haddock Cpa",
+    "role": "founder",
+    "website": "https://dmjps.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/drew-haddock-cpa-0b399151",
+    "company_linkedin": "https://www.linkedin.com/company/dmjpsconnect",
+    "source_url": "https://dmjps.com",
+    "description": "DMJPS provides professional services to clients; details were sourced from the company website at https://dmjps.com.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/dmjpsconnect",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "D_low_confidence_hold"
+}

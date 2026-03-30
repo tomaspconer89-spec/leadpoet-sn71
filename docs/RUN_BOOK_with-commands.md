@@ -9,6 +9,11 @@ Collect new leads (target 10 pass):
 python3 scripts/collect_leads_precheck_only.py --target-pass 10
 ```
 
+Collect while allowing company-anchor records without contacts (so downstream enrichment can still run):
+```bash
+LEAD_SORCERER_RELAX_CONTACT_FILTER=1 python3 scripts/collect_leads_precheck_only.py --target-pass 10
+```
+
 Regrade retry queue (`B_retry_enrichment`):
 ```bash
 python3 scripts/regrade_b_queue.py
@@ -29,11 +34,22 @@ Submit from pending/ready queue to gateway:
 python3 scripts/submit_queued_leads.py
 ```
 
+Capture ScrapingDog raw responses + derived lead report for a specific LinkedIn URL:
+```bash
+python3 scripts/scrapingdog_lead_report.py --linkedin-url "https://www.linkedin.com/in/example"
+```
+
 ## Useful Monitoring
 
 Watch live logs:
 ```bash
 tail -f miner.log
+```
+
+Inspect latest saved Sorcerer artifacts snapshot:
+```bash
+ls -1dt reports/sorcerer_artifacts/* | head -1
+cat "$(ls -1dt reports/sorcerer_artifacts/* | head -1)/manifest.json"
 ```
 
 Count current queue sizes quickly:

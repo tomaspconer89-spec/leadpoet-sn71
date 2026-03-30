@@ -1,0 +1,44 @@
+query,page,reason,domain,url,backend,details,title
+b2b saas company leadership team united states,1,provider_error,,,,ConnectTimeout,
+b2b saas company leadership team united states,2,provider_error,,,,ConnectTimeout,
+b2b saas company leadership team united states,3,blocklist,youtube.com,https://www.youtube.com/watch?v=SH-SJiAWLTc,serper,youtube.com,How this SaaS CEO gets 2M Views on LinkedIn every Month
+b2b saas company leadership team united states,3,low_intent,builtin.com,https://builtin.com/articles/top-b2b-saas-companies,serper,kw:builtin.,105 Top B2B SaaS Companies - Built In
+sales enablement software leadership team,1,low_intent,salesforge.ai,https://www.salesforge.ai/blog/head-of-sales-enablement-key-responsibilities-essential-skills-and-career-path,serper,kw:career,"Head of Sales Enablement: Key Responsibilities, Essential Skills ..."
+sales enablement software leadership team,2,low_intent,indeed.com,https://www.indeed.com/career-advice/finding-a-job/what-is-sales-enablement-manager,serper,kw:indeed.;kw:job;kw:career;path:/career,What Is a Sales Enablement Manager? | Indeed.com
+sales enablement software leadership team,2,low_intent,scalewithstrive.com,https://www.scalewithstrive.com/saas-job-descriptions/head-of-sales-enablement/,serper,kw:job,Head of Sales Enablement Job Description - Scale with Strive
+sales enablement software leadership team,2,low_intent,fullenrich.com,https://fullenrich.com/jobtitle/Head-of-Sales-Enablement,serper,kw:job,Head of Sales Enablement: The Ultimate Guide - FullEnrich
+sales enablement software leadership team,2,blocklist,reddit.com,https://www.reddit.com/r/sales/comments/1nikkhh/sales_and_enablement_leads_whats_in_your/,serper,reddit.com,what's in your enablement tech stack right now? : r/sales - Reddit
+sales enablement software leadership team,3,provider_error,,,,ConnectTimeout,
+marketing automation software leadership team,1,low_intent,roberthalf.com,https://www.roberthalf.com/us/en/insights/hiring-help/what-does-a-marketing-automation-manager-really-do,serper,marker:careers;marker:salary,"Marketing Automation Careers: Skills, Roles and Salary Trends"
+marketing automation software leadership team,2,blocklist,youtube.com,https://www.youtube.com/watch?v=bEUe04rXIq0,serper,youtube.com,A Guide to Marketing Automation with MarTech - YouTube
+marketing automation software leadership team,2,blocklist,reddit.com,https://www.reddit.com/r/DigitalMarketing/comments/1exg032/whats_the_best_marketing_automation_tool_out_there/,serper,reddit.com,What's the best marketing automation tool out there? - Reddit
+customer support software company team,1,provider_error,,,,ConnectTimeout,
+customer support software company team,2,provider_error,,,,ConnectTimeout,
+customer support software company team,3,blocklist,youtube.com,https://www.youtube.com/watch?v=rQn6HHweCrU,serper,youtube.com,How to Build a Customer Support Department - YouTube
+crm software company leadership,1,provider_error,,,,ConnectTimeout,
+crm software company leadership,2,provider_error,,,,ConnectTimeout,
+crm software company leadership,3,low_intent,fullenrich.com,https://fullenrich.com/jobtitle/Head-of-CRM-and-Sales-Systems,serper,kw:job,Head of CRM and Sales Systems: A Comprehensive Guide
+crm software company leadership,3,blocklist,youtube.com,https://www.youtube.com/watch?v=NplLebWjvdk,serper,youtube.com,7 Habits of Highly Effective CRM Leaders - YouTube
+crm software company leadership,3,blocklist,linkedin.com,https://www.linkedin.com/company/crm-leader,serper,linkedin.com,CRM Leader - LinkedIn
+revenue operations software company leadership,2,provider_error,,,,ConnectTimeout,
+revenue operations software company leadership,3,blocklist,youtube.com,https://www.youtube.com/watch?v=zvetbQgMQok,serper,youtube.com,What Leadership Expects from RevOps in 2025 - YouTube
+revenue operations software company leadership,3,low_intent,fullenrich.com,https://fullenrich.com/jobtitle/VP-of-Revenue-Operations-VS-Head-of-Revenue-Operations,serper,kw:job,VP of Revenue Operations VS Head of Revenue Operations: Roles ...
+head of growth company team page,1,provider_error,,,,ConnectTimeout,
+head of growth company team page,2,provider_error,,,,ConnectTimeout,
+head of growth company team page,3,low_intent,indeed.com,"https://www.indeed.com/q-head-of-growth-marketing-l-san-francisco,-ca-jobs.html",serper,kw:indeed.;kw:job;kw:jobs;marker:jobs,"Head Of Growth Marketing jobs in San Francisco, Ca - Indeed"
+head of growth company team page,3,low_intent,himalayas.app,https://himalayas.app/job-descriptions/head-of-growth,serper,kw:job,6 Head of Growth Job Description Templates and Examples
+head of growth company team page,3,low_intent,ziprecruiter.com,"https://www.ziprecruiter.com/Jobs/Head-Of-Growth/-in-New-York,NY",serper,kw:ziprecruiter.;kw:job;kw:jobs;path:/jobs;marker:jobs;marker:hiring now,"Head Of Growth Jobs in New York, NY (NOW HIRING) - ZipRecruiter"
+head of growth company team page,3,blocklist,youtube.com,https://www.youtube.com/watch?v=abPCu6k4cmg,serper,youtube.com,"Does my business need a Growth team? With Aaron Rosen, Head of ..."
+head of growth company team page,3,blocklist,youtube.com,https://www.youtube.com/watch?v=Ls7jJqX7TT8,serper,youtube.com,"What a Head of Growth Actually Does at $1M, $10M, and ... - YouTube"
+vp sales company leadership page,1,low_intent,pageexecutive.com,https://www.pageexecutive.com/jobs/vp-sales,serper,kw:job;kw:jobs;path:/jobs;marker:jobs,Vp Sales jobs | Page Executive
+vp sales company leadership page,1,low_intent,scalewithstrive.com,https://www.scalewithstrive.com/saas-job-descriptions/vp-of-sales/,serper,kw:job,VP of Sales Job Description - Scale with Strive
+vp sales company leadership page,1,low_intent,indeed.com,https://ca.indeed.com/career-advice/finding-a-job/what-vice-president-sales-do,serper,kw:indeed.;kw:job;kw:career;path:/career;marker:salary,What Does a Vice President of Sales Do? (With Skills and Salary)
+vp sales company leadership page,1,blocklist,linkedin.com,https://www.linkedin.com/pulse/what-vp-sales-does-behind-closed-doors-besides-hit-number-ray-carroll,serper,linkedin.com,What a VP Sales Does behind closed doors (besides hit the number)
+vp sales company leadership page,1,low_intent,michaelpage.com,https://www.michaelpage.com/jobs/vp-sales,serper,kw:job;kw:jobs;path:/jobs;marker:jobs,Vp Sales jobs | Michael Page
+vp sales company leadership page,2,provider_error,,,,ConnectTimeout,
+vp sales company leadership page,3,blocklist,linkedin.com,https://www.linkedin.com/posts/seanmoore1_salesleadership-startupgrowth-vpofsales-activity-7317922676738613248-Z-4_,serper,linkedin.com,VP of Sales vs. Director of Sales: What's the Difference? - LinkedIn
+vp sales company leadership page,3,low_intent,peaksalesrecruiting.com,https://www.peaksalesrecruiting.com/blog/job-description-of-a-vice-president-of-sales/,serper,kw:job,Job Description of a Vice President of Sales - Peak Sales Recruiting
+vp sales company leadership page,3,low_intent,fullenrich.com,https://fullenrich.com/jobtitle/VP-of-Sales-VS-Director-of-Sales,serper,kw:job,VP of Sales VS Director of Sales: Understanding the Differences
+vp sales company leadership page,3,blocklist,youtube.com,https://www.youtube.com/watch?v=0_iHgnn5AlI,serper,youtube.com,From Startup to Global VP: Mastering Modern Sales Leadership
+vp sales company leadership page,3,low_intent,indeed.com,https://www.indeed.com/hire/job-description/vp-sales,serper,kw:indeed.;kw:job,Vice President of Sales Job Description [Updated for 2026] - Indeed
+vp sales company leadership page,3,low_intent,snaphunt.com,https://snaphunt.com/resources/job-descriptions/vp-sales-job-description,serper,kw:job,VP Sales Job Description - Snaphunt

@@ -1,0 +1,30 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Your Startup Advisor | Expert Guidance for Founders",
+  "lead": {
+    "business": "Your Startup Advisor | Expert Guidance for Founders",
+    "full_name": "Charles Lead",
+    "first": "Charles",
+    "last": "Lead",
+    "email": "charles@yourstartupadvisor.com",
+    "role": "Contact",
+    "website": "https://yourstartupadvisor.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/charleshxpe",
+    "company_linkedin": "https://www.linkedin.com/company/growthcraft-startup-community",
+    "source_url": "https://yourstartupadvisor.com",
+    "description": "[ ![Your Startup Advisor](https://yourstartupadvisor.com/ysa-icon.webp)Your Startup Advisor ](https://yourstartupadvisor.com/) [](https://yourstartupadvisor.com/#about)[](https://yourstartupadvisor.com/#services)[](https://yourstartupadvisor.com/#pricing)[](https://yourstartupadvisor.com/blog/)[](https://yourstartupadvisor.com/resources/) Toggle themeOpen menuBook Free 30-Minute Call Trusted by 600+ Startup Founders # Avoid the Mistakes That Kill 90% of Startups Get trusted advice from someone who has built 4 companies and has helped over 600 founders save months of effort and hundreds of thou",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "D_low_confidence_hold"
+}

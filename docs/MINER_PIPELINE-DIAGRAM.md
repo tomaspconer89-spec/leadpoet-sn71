@@ -116,12 +116,16 @@ flowchart TB
     A1[Apify Google Search actor — APIFY_API_TOKEN]
     A1 --> A2[Serper → Brave → GSE — same keys as domain]
   end
-  subgraph opt["Opt-in"]
+  subgraph opt["Opt-in / supplemental"]
     SD[ScrapingDog Google — SCRAPINGDOG_API_KEY]
+    SDP[ScrapingDog LinkedIn Profile API — /profile]
     SD -->|USE_SCRAPINGDOG_ENRICHMENT=1 or FORCE_| primary
+    SDP --> URLS
   end
-  primary --> URLS[Extract LinkedIn / URLs from JSON responses]
+  primary --> URLS[Extract LinkedIn / URLs + enrich evidence blobs]
 ```
+
+`enrich_linkedin_fields` now updates not only LinkedIn URLs, but also person/company fields from evidence where values are missing or low-quality: `full_name`, `first`, `last`, `email`, `role`, `city/state/country` + HQ mirrors, `business`, `website`, `employee_count`, and `description`.
 
 **B-queue maintenance:** `scripts/regrade_b_queue.py` can run **`validate_and_fix_with_scrapingdog`** (ScrapingDog-forced LinkedIn + field cleanup) and LinkedIn-location snippets, then re-precheck and optionally promote to **`A_ready_submit`**.
 
@@ -179,6 +183,7 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
      │ noise / blocklist pre-filter; provider retry + cooldown
      │ crawl: Crawl4AI / Firecrawl / trafilatura
      │ optional: Apify (+ opt-in ScrapingDog) for LinkedIn discovery in enrichment
+     │ save run artifacts: reports/sorcerer_artifacts/<UTC>/{domain_pass,export_*}
      └► legacy lead dicts
            │
            ├► normalize_title · score_person_confidence · precheck_lead
@@ -201,7 +206,8 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
 | `DOMAIN_PROVIDER_RETRY_ATTEMPTS`, `DOMAIN_PROVIDER_COOLDOWN_*` | Resilience for flaky search APIs |
 | `OPENROUTER_KEY`, `OPENROUTER_*_MODEL`, `OPENROUTER_DISABLE` | Domain LLM scoring in `domain.py` |
 | `APIFY_API_TOKEN`, `APIFY_SEARCH_ACTOR_ID` | Primary enrichment Google search in `main_leads` / `convert_raw_to_pending` |
-| `SCRAPINGDOG_API_KEY`, `USE_SCRAPINGDOG_ENRICHMENT`, `FORCE_SCRAPINGDOG_ENRICHMENT` | Optional ScrapingDog search; B regrade / validate-fix path |
+| `SCRAPINGDOG_API_KEY`, `USE_SCRAPINGDOG_ENRICHMENT`, `FORCE_SCRAPINGDOG_ENRICHMENT` | ScrapingDog Google + LinkedIn profile enrichment helpers |
+| `LEAD_SORCERER_RELAX_CONTACT_FILTER` | When `1`, keeps company-anchor records without contacts so downstream enrichment can still run |
 | `FIRECRAWL_KEY` | Managed scrape/extract |
 | `CRAWL4AI_API_URL`, `USE_CRAWL4AI_FIRST` | Local Crawl4AI service |
 | `USE_HF_INDUSTRY`, `USE_HF_EMAIL_INTENT_FILTER` | HF classifiers in `miner_models/` |
@@ -212,4 +218,4 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
 
 ---
 
-*Last updated: March 2026 — matches `domain.py` discovery chain (Serper / Brave / GSE), no Harvest; graded `lead_queue` + `collect_leads_precheck_only.py`; Apify-first enrichment with optional ScrapingDog.*
+*Last updated: March 2026 — includes broader LinkedIn-driven enrichment (`convert_raw_to_pending.py`) and persisted run artifacts under `reports/sorcerer_artifacts/`.*

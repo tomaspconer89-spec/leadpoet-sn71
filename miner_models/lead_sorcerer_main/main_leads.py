@@ -11,6 +11,7 @@ import os
 import sys
 import tempfile
 import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Dict, Any
 import logging
@@ -559,6 +560,52 @@ else:
                             )
                             return []
 
+                        # Persist scored domain/crawl artifacts for inspection.
+                        # This snapshot survives temp dir cleanup at function exit.
+                        try:
+                            ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+                            reports_root = repo_root / "reports" / "sorcerer_artifacts" / ts
+                            reports_root.mkdir(parents=True, exist_ok=True)
+
+                            copied: Dict[str, str] = {}
+                            for rel in ("domain_pass.jsonl", "crawl_pass.jsonl"):
+                                src = Path(temp_dir) / rel
+                                if src.exists():
+                                    dst = reports_root / rel
+                                    shutil.copy2(src, dst)
+                                    copied[rel] = str(dst)
+
+                            exports_dir = Path(temp_dir) / "exports"
+                            latest_export_path = ""
+                            if exports_dir.exists():
+                                export_dirs = list(exports_dir.glob("*/*"))
+                                if export_dirs:
+                                    latest_export = max(
+                                        export_dirs, key=lambda x: x.stat().st_mtime
+                                    )
+                                    latest_export_path = str(latest_export)
+                                    for rel in ("leads.jsonl", "leads.csv"):
+                                        src = latest_export / rel
+                                        if src.exists():
+                                            dst = reports_root / f"export_{rel}"
+                                            shutil.copy2(src, dst)
+                                            copied[f"export_{rel}"] = str(dst)
+
+                            manifest = {
+                                "saved_at_utc": ts,
+                                "icp_name": config.get("name", ""),
+                                "result_success": bool(result.get("success")),
+                                "result_metrics": result.get("metrics", {}),
+                                "latest_export_dir": latest_export_path,
+                                "artifacts": copied,
+                            }
+                            (reports_root / "manifest.json").write_text(
+                                json.dumps(manifest, ensure_ascii=True, indent=2),
+                                encoding="utf-8",
+                            )
+                        except Exception as e:
+                            print(f"⚠️ Could not save sorcerer artifacts snapshot: {e}")
+
                         # Extract leads from the result - look in exports directory
                         leads = []
                         collect_cap = max(num_leads * 8, 50)
@@ -591,7 +638,23 @@ else:
                                                     has_team = bool(
                                                         (lead_record.get("extracted_data") or {}).get("team_members")
                                                     )
-                                                    if not (has_contacts or has_team):
+                                                    relax = (
+                                                        os.getenv(
+                                                            "LEAD_SORCERER_RELAX_CONTACT_FILTER",
+                                                            "0",
+                                                        ).strip()
+                                                        == "1"
+                                                    )
+                                                    has_anchor = bool(
+                                                        lead_record.get("domain")
+                                                    ) or bool(
+                                                        (lead_record.get("company") or {}).get("name")
+                                                    )
+                                                    if not (
+                                                        has_contacts
+                                                        or has_team
+                                                        or (relax and has_anchor)
+                                                    ):
                                                         dropped_no_contacts += 1
                                                         continue
                                                     if len(leads) >= collect_cap:
@@ -619,10 +682,26 @@ else:
                                                 has_team = bool(
                                                     (lead_record.get("extracted_data") or {}).get("team_members")
                                                 )
+                                                relax = (
+                                                    os.getenv(
+                                                        "LEAD_SORCERER_RELAX_CONTACT_FILTER",
+                                                        "0",
+                                                    ).strip()
+                                                    == "1"
+                                                )
+                                                has_anchor = bool(
+                                                    lead_record.get("domain")
+                                                ) or bool(
+                                                    (lead_record.get("company") or {}).get("name")
+                                                )
                                                 if not lead_record.get("icp", {}).get("pre_pass"):
                                                     dropped_not_prepass += 1
                                                     continue
-                                                if not (has_contacts or has_team):
+                                                if not (
+                                                    has_contacts
+                                                    or has_team
+                                                    or (relax and has_anchor)
+                                                ):
                                                     dropped_no_contacts += 1
                                                     continue
                                                 if len(leads) >= collect_cap:

@@ -339,6 +339,247 @@ def apify_search_urls(query: str) -> List[str]:
         return []
 
 
+def apify_search_items(query: str) -> List[Dict[str, Any]]:
+    """Return raw Apify search result items for richer enrichment signals."""
+    token = os.getenv("APIFY_API_TOKEN", "").strip()
+    if not token:
+        return []
+    actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "apify/google-search-scraper").strip()
+    if "/" in actor_id and "~" not in actor_id:
+        actor_id = actor_id.replace("/", "~", 1)
+    run_url = (
+        "https://api.apify.com/v2/acts/"
+        f"{urllib.parse.quote(actor_id, safe='~')}/run-sync-get-dataset-items"
+        f"?token={urllib.parse.quote(token)}"
+    )
+    payload = {
+        "queries": query,
+        "resultsPerPage": 10,
+        "maxPagesPerQuery": 1,
+        "mobileResults": False,
+    }
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    try:
+        data = http_json(
+            run_url,
+            method="POST",
+            headers=headers,
+            body=json.dumps(payload).encode("utf-8"),
+        )
+    except Exception:
+        return []
+    if isinstance(data, list):
+        return [x for x in data if isinstance(x, dict)]
+    if isinstance(data, dict):
+        return [data]
+    return []
+
+
+def _collect_text_blobs(obj: Any, out: List[str]) -> None:
+    if isinstance(obj, dict):
+        for v in obj.values():
+            _collect_text_blobs(v, out)
+        return
+    if isinstance(obj, list):
+        for v in obj:
+            _collect_text_blobs(v, out)
+        return
+    if isinstance(obj, str):
+        s = " ".join(obj.strip().split())
+        if s:
+            out.append(s)
+
+
+def _name_from_linkedin_slug(url: str) -> Tuple[str, str, str]:
+    m = re.search(r"linkedin\.com/in/([^/?#]+)", (url or "").strip(), flags=re.I)
+    if not m:
+        return "", "", ""
+    slug = re.sub(r"[-_]+", " ", m.group(1)).strip()
+    parts = [p for p in slug.split() if p and p.isalpha()]
+    if len(parts) >= 2:
+        first = parts[0].title()
+        last = " ".join(parts[1:]).title()
+        return f"{first} {last}", first, last
+    if len(parts) == 1:
+        first = parts[0].title()
+        return first, first, ""
+    return "", "", ""
+
+
+def _extract_email_from_blobs(blobs: List[str]) -> str:
+    for b in blobs:
+        m = re.search(r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}\b", b)
+        if m:
+            e = m.group(0).strip().lower()
+            if not is_generic_email(e):
+                return e
+    return ""
+
+
+def _extract_location_from_blobs(blobs: List[str]) -> Tuple[str, str, str]:
+    # Patterns like "Location: Austin, TX, United States"
+    for b in blobs:
+        m = re.search(
+            r"\bLocation[:\s]+([A-Z][A-Za-z .'-]{1,60}),\s*([A-Z]{2}|[A-Z][A-Za-z .'-]{2,30})(?:,\s*([A-Z][A-Za-z .'-]{2,40}))?",
+            b,
+        )
+        if m:
+            city = m.group(1).strip(" ,")
+            state = m.group(2).strip(" ,")
+            country = normalize_country_name((m.group(3) or "").strip() or ("United States" if len(state) == 2 else ""))
+            return city, state, country
+    # Patterns like "... Based in New Jersey ..."
+    for b in blobs:
+        m = re.search(r"\b[Bb]ased in ([A-Z][A-Za-z .'-]{2,40})\b", b)
+        if m:
+            city = m.group(1).strip(" ,")
+            return city, "", "United States"
+    return "", "", ""
+
+
+def _extract_role_from_blobs(blobs: List[str]) -> str:
+    role_rx = re.compile(
+        r"\b(Founder|Co[- ]Founder|CEO|Chief [A-Za-z ]{2,30}|Managing Director|Partner|Principal|Owner|President|Vice President|VP [A-Za-z ]{2,30})\b",
+        re.I,
+    )
+    for b in blobs:
+        m = role_rx.search(b)
+        if m:
+            return m.group(1).strip()
+    return ""
+
+
+def _extract_non_linkedin_website_from_blobs(blobs: List[str]) -> str:
+    url_rx = re.compile(r"https?://[a-z0-9.-]+\.[a-z]{2,24}(?:/[^\s\"'<>]*)?", re.I)
+    for b in blobs:
+        for u in url_rx.findall(b):
+            lu = u.lower()
+            if "linkedin.com/" in lu:
+                continue
+            return u
+    return ""
+
+
+def _scrapingdog_google_json(query: str) -> Dict[str, Any]:
+    key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
+    if not key:
+        return {}
+    try:
+        data = http_json(
+            "https://api.scrapingdog.com/google"
+            f"?api_key={urllib.parse.quote(key)}"
+            f"&query={urllib.parse.quote(query)}"
+            "&results=20&country=us&page=0"
+        )
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _scrapingdog_linkedin_profile_json(linkedin_person_url: str) -> Dict[str, Any]:
+    key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
+    if not key or "/in/" not in (linkedin_person_url or "").lower():
+        return {}
+    m = re.search(r"linkedin\.com/in/([^/?#]+)", linkedin_person_url, re.I)
+    if not m:
+        return {}
+    slug = m.group(1).strip().rstrip("/")
+    if not slug:
+        return {}
+    q = urllib.parse.urlencode(
+        {
+            "api_key": key,
+            "type": "profile",
+            "id": slug,
+        }
+    )
+    try:
+        data = http_json(f"https://api.scrapingdog.com/profile?{q}")
+    except Exception:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    msg = str(data.get("message") or data.get("error") or "").lower()
+    if msg and ("invalid" in msg or "api key" in msg or "credit" in msg):
+        return {}
+    return data
+
+
+def _looks_low_quality(value: str) -> bool:
+    s = (value or "").strip()
+    if not s:
+        return True
+    low = s.lower()
+    if len(s) > 120:
+        return True
+    if "..." in s:
+        return True
+    if low in {"unknown", "n/a", "not listed", "-", "na"}:
+        return True
+    if "tap " in low and "location" in low:
+        return True
+    if "founder of" in low and "based in" in low:
+        return True
+    return False
+
+
+def _extract_person_name_from_blobs(blobs: List[str]) -> Tuple[str, str, str]:
+    # e.g. "Joan Nowak - Hybrid Business Advisors | LinkedIn"
+    rx = re.compile(
+        r"\b([A-Z][a-z]{1,24})\s+([A-Z][a-z]{1,24})\s*-\s*.{1,140}(?:\|\s*LinkedIn|LinkedIn)\b"
+    )
+    for b in blobs:
+        m = rx.search(b)
+        if not m:
+            continue
+        first = m.group(1).strip()
+        last = m.group(2).strip()
+        if first.lower() == last.lower():
+            continue
+        return f"{first} {last}", first, last
+    return "", "", ""
+
+
+def _extract_employee_count_from_blobs(blobs: List[str]) -> str:
+    for b in blobs:
+        m = re.search(r"\b(\d[\d,]{0,5})\s*\+\s*employees?\b", b, re.I)
+        if m:
+            n = int(m.group(1).replace(",", ""))
+            if n >= 10001:
+                return "10,001+"
+            if n >= 5001:
+                return "5,001-10,000"
+            if n >= 1001:
+                return "1,001-5,000"
+            if n >= 501:
+                return "501-1,000"
+            if n >= 201:
+                return "201-500"
+            if n >= 51:
+                return "51-200"
+            if n >= 11:
+                return "11-50"
+            if n >= 2:
+                return "2-10"
+            return "0-1"
+        m2 = re.search(
+            r"\b(0-1|1-10|2-10|11-50|51-200|201-500|501-1,?000|1,?001-5,?000|5,?001-10,?000|10,?001\+)\b",
+            b,
+            re.I,
+        )
+        if m2:
+            return normalize_employee_count(m2.group(1).replace(" ", ""))
+    return ""
+
+
+def _company_name_from_company_linkedin(url: str) -> str:
+    m = re.search(r"linkedin\.com/company/([^/?#]+)", (url or "").strip(), re.I)
+    if not m:
+        return ""
+    slug = re.sub(r"[-_]+", " ", m.group(1)).strip()
+    return " ".join(p.capitalize() for p in slug.split())
+
+
 def scrapingdog_search_urls(query: str) -> List[str]:
     key = os.getenv("SCRAPINGDOG_API_KEY", "").strip()
     if not key:
@@ -445,19 +686,42 @@ def search_urls(query: str) -> List[str]:
 
 def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Fill missing linkedin/company_linkedin with search-derived URLs.
+    Fill missing LinkedIn fields and opportunistically enrich other lead fields
+    (name/role/location/email/website) from Apify search evidence.
     """
     business = (lead.get("business") or "").strip()
     website = (lead.get("website") or "").strip()
     domain = extract_domain(website)
     person_name = (lead.get("full_name") or "").strip()
+    company_queries = [
+        f"site:linkedin.com/company {business}",
+        f"{business} linkedin company",
+        f"site:linkedin.com/company {domain}",
+    ]
+    person_queries: List[str] = []
+    if person_name and person_name.lower() not in {"not listed", "unknown", "n/a"}:
+        person_queries.append(f'site:linkedin.com/in "{person_name}" "{business}"')
+        person_queries.append(f'site:linkedin.com/in "{person_name}" "{domain}"')
+    person_queries.append(f'site:linkedin.com/in "{business}" founder')
+    person_queries.append(f'site:linkedin.com/in "{business}" ceo')
+    all_queries = [q for q in (company_queries + person_queries) if q.strip()]
+
+    # Prefer Apify raw items for richer evidence extraction.
+    apify_items: List[Dict[str, Any]] = []
+    for q in all_queries:
+        apify_items.extend(apify_search_items(q))
+    apify_blobs: List[str] = []
+    apify_linkedin_urls: List[str] = []
+    for item in apify_items:
+        _collect_text_blobs(item, apify_blobs)
+        _collect_linkedin_urls(item, apify_linkedin_urls)
 
     if not lead.get("company_linkedin"):
-        company_queries = [
-            f"site:linkedin.com/company {business}",
-            f"{business} linkedin company",
-            f"site:linkedin.com/company {domain}",
-        ]
+        for u in apify_linkedin_urls:
+            cu = clean_linkedin(u, "company")
+            if cu:
+                lead["company_linkedin"] = cu
+                break
         for q in company_queries:
             for u in search_urls(q):
                 cu = clean_linkedin(u, "company")
@@ -468,12 +732,11 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
                 break
 
     if not lead.get("linkedin"):
-        person_queries: List[str] = []
-        if person_name and person_name.lower() not in {"not listed", "unknown", "n/a"}:
-            person_queries.append(f'site:linkedin.com/in "{person_name}" "{business}"')
-            person_queries.append(f'site:linkedin.com/in "{person_name}" "{domain}"')
-        person_queries.append(f'site:linkedin.com/in "{business}" founder')
-        person_queries.append(f'site:linkedin.com/in "{business}" ceo')
+        for u in apify_linkedin_urls:
+            pu = clean_linkedin(u, "person")
+            if pu:
+                lead["linkedin"] = pu
+                break
         for q in person_queries:
             for u in search_urls(q):
                 pu = clean_linkedin(u, "person")
@@ -482,6 +745,80 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
                     break
             if lead.get("linkedin"):
                 break
+
+    # Build broader evidence corpus: Apify + ScrapingDog Google + optional LinkedIn profile JSON.
+    evidence_blobs: List[str] = list(apify_blobs)
+    for q in all_queries:
+        _collect_text_blobs(_scrapingdog_google_json(q), evidence_blobs)
+    if lead.get("linkedin"):
+        prof = _scrapingdog_linkedin_profile_json(str(lead.get("linkedin") or ""))
+        _collect_text_blobs(prof, evidence_blobs)
+
+    # Additional non-linkedin enrichment from LinkedIn URL + evidence corpus.
+    if lead.get("linkedin"):
+        full, first, last = _name_from_linkedin_slug(str(lead.get("linkedin") or ""))
+        if _looks_low_quality(str(lead.get("full_name") or "")) and full:
+            lead["full_name"] = full
+        if _looks_low_quality(str(lead.get("first") or "")) and first:
+            lead["first"] = first
+        if _looks_low_quality(str(lead.get("last") or "")) and last:
+            lead["last"] = last
+
+    if _looks_low_quality(str(lead.get("full_name") or "")) or _looks_low_quality(str(lead.get("last") or "")):
+        f2, p2, l2 = _extract_person_name_from_blobs(evidence_blobs)
+        if f2:
+            lead["full_name"] = f2
+        if p2:
+            lead["first"] = p2
+        if l2:
+            lead["last"] = l2
+
+    em = _extract_email_from_blobs(evidence_blobs)
+    cur_email = str(lead.get("email") or "").strip().lower()
+    if em and (_looks_low_quality(cur_email) or is_generic_email(cur_email)):
+        lead["email"] = em
+
+    role = _extract_role_from_blobs(evidence_blobs)
+    if role and _looks_low_quality(str(lead.get("role") or "")):
+        lead["role"] = role
+
+    city, state, country = _extract_location_from_blobs(evidence_blobs)
+    if city and _looks_low_quality(str(lead.get("city") or "")):
+        lead["city"] = city
+    if state and _looks_low_quality(str(lead.get("state") or "")):
+        lead["state"] = state
+    if country and _looks_low_quality(str(lead.get("country") or "")):
+        lead["country"] = normalize_country_name(country)
+    if lead.get("country") and not lead.get("hq_country"):
+        lead["hq_country"] = lead.get("country")
+    if lead.get("state") and not lead.get("hq_state"):
+        lead["hq_state"] = lead.get("state")
+    if lead.get("city") and not lead.get("hq_city"):
+        lead["hq_city"] = lead.get("city")
+
+    if _looks_low_quality(str(lead.get("business") or "")):
+        cn = _company_name_from_company_linkedin(str(lead.get("company_linkedin") or ""))
+        if cn:
+            lead["business"] = cn
+
+    emp = _extract_employee_count_from_blobs(evidence_blobs)
+    if emp and (_looks_low_quality(str(lead.get("employee_count") or "")) or str(lead.get("employee_count") or "") not in VALID_EMPLOYEE_COUNTS):
+        lead["employee_count"] = normalize_employee_count(emp)
+
+    if _looks_low_quality(str(lead.get("website") or "")) or "linkedin.com/" in str(lead.get("website") or "").lower():
+        w = _extract_non_linkedin_website_from_blobs(evidence_blobs)
+        if w:
+            lead["website"] = w
+    if not str(lead.get("source_url") or "").strip():
+        lead["source_url"] = str(lead.get("website") or "")
+    if _looks_low_quality(str(lead.get("description") or "")):
+        lead["description"] = ensure_min_description(
+            str(lead.get("description") or ""),
+            str(lead.get("business") or ""),
+            str(lead.get("industry") or ""),
+            str(lead.get("sub_industry") or ""),
+            str(lead.get("website") or ""),
+        )
 
     return lead
 

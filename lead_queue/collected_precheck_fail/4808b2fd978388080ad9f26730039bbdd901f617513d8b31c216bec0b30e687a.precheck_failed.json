@@ -1,0 +1,30 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "B2B Consulting Company",
+  "lead": {
+    "business": "B2B Consulting Company",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@infotanksmedia.com",
+    "role": "Contact",
+    "website": "https://iinfotanks.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://rs.linkedin.com/in/strahinja-stojanovic",
+    "company_linkedin": "https://www.linkedin.com/company/iinfotanks",
+    "source_url": "https://iinfotanks.com",
+    "description": "Explore comprehensive B2B consulting services with IInfotanks. As a trusted B2B consulting company, we provide expert guidance and solutions tailored to your business needs.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/iinfotanks",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "C_good_account_needs_person"
+}

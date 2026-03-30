@@ -98,6 +98,19 @@ poetry run orchestrator --config icp_config.json
 
 1. **Domain** → Generates leads from ICP queries, scores them, and filters by threshold
 2. **Crawl** → Extracts company and contact information from websites
+3. **Export + wrapper conversion** → `main_leads.py` converts records to legacy lead dicts for miner/collector use
+4. **Run artifact snapshots** → Wrapper persists scored/export artifacts to `reports/sorcerer_artifacts/{UTC}/`
+
+### Runtime artifact snapshots (wrapper)
+
+When the pipeline is executed through `miner_models/lead_sorcerer_main/main_leads.py` (`get_leads` / `run_lead_sorcerer_pipeline`), the wrapper now saves a run snapshot:
+
+- `reports/sorcerer_artifacts/{UTC}/manifest.json`
+- `reports/sorcerer_artifacts/{UTC}/domain_pass.jsonl` (if present)
+- `reports/sorcerer_artifacts/{UTC}/crawl_pass.jsonl` (if present)
+- `reports/sorcerer_artifacts/{UTC}/export_leads.jsonl` and `export_leads.csv` (if present)
+
+This is intended for post-run audit/debug without relying on temporary directories.
 
 ## Schema Validation & Contract
 

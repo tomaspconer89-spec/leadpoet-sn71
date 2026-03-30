@@ -1,0 +1,1406 @@
+{
+  "generated_at_utc": "20260329T152923Z",
+  "icp_name": "Leadpoet High-Yield B2B ICP",
+  "queries": [
+    "b2b saas company leadership team united states",
+    "sales enablement software leadership team",
+    "marketing automation software leadership team",
+    "customer support software company team",
+    "crm software company leadership",
+    "revenue operations software company leadership",
+    "head of growth company team page",
+    "vp sales company leadership page"
+  ],
+  "max_pages": 3,
+  "ttl_hours": 48,
+  "summary": {
+    "rejected_total": 43,
+    "passed_total": 97,
+    "by_reason": {
+      "provider_error": 11,
+      "blocklist": 13,
+      "low_intent": 19
+    },
+    "top_rejected_domains": [
+      [
+        "youtube.com",
+        8
+      ],
+      [
+        "indeed.com",
+        4
+      ],
+      [
+        "fullenrich.com",
+        4
+      ],
+      [
+        "linkedin.com",
+        3
+      ],
+      [
+        "scalewithstrive.com",
+        2
+      ],
+      [
+        "reddit.com",
+        2
+      ],
+      [
+        "builtin.com",
+        1
+      ],
+      [
+        "salesforge.ai",
+        1
+      ],
+      [
+        "roberthalf.com",
+        1
+      ],
+      [
+        "himalayas.app",
+        1
+      ],
+      [
+        "ziprecruiter.com",
+        1
+      ],
+      [
+        "pageexecutive.com",
+        1
+      ],
+      [
+        "michaelpage.com",
+        1
+      ],
+      [
+        "peaksalesrecruiting.com",
+        1
+      ],
+      [
+        "snaphunt.com",
+        1
+      ]
+    ]
+  },
+  "rejected": [
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 1,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=SH-SJiAWLTc",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "How this SaaS CEO gets 2M Views on LinkedIn every Month"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://builtin.com/articles/top-b2b-saas-companies",
+      "domain": "builtin.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:builtin."
+      ],
+      "backend": "serper",
+      "title": "105 Top B2B SaaS Companies - Built In"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.salesforge.ai/blog/head-of-sales-enablement-key-responsibilities-essential-skills-and-career-path",
+      "domain": "salesforge.ai",
+      "reason": "low_intent",
+      "details": [
+        "kw:career"
+      ],
+      "backend": "serper",
+      "title": "Head of Sales Enablement: Key Responsibilities, Essential Skills ..."
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.indeed.com/career-advice/finding-a-job/what-is-sales-enablement-manager",
+      "domain": "indeed.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:indeed.",
+        "kw:job",
+        "kw:career",
+        "path:/career"
+      ],
+      "backend": "serper",
+      "title": "What Is a Sales Enablement Manager? | Indeed.com"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.scalewithstrive.com/saas-job-descriptions/head-of-sales-enablement/",
+      "domain": "scalewithstrive.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "Head of Sales Enablement Job Description - Scale with Strive"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://fullenrich.com/jobtitle/Head-of-Sales-Enablement",
+      "domain": "fullenrich.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "Head of Sales Enablement: The Ultimate Guide - FullEnrich"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.reddit.com/r/sales/comments/1nikkhh/sales_and_enablement_leads_whats_in_your/",
+      "domain": "reddit.com",
+      "reason": "blocklist",
+      "details": [
+        "reddit.com"
+      ],
+      "backend": "serper",
+      "title": "what's in your enablement tech stack right now? : r/sales - Reddit"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 3,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://www.roberthalf.com/us/en/insights/hiring-help/what-does-a-marketing-automation-manager-really-do",
+      "domain": "roberthalf.com",
+      "reason": "low_intent",
+      "details": [
+        "marker:careers",
+        "marker:salary"
+      ],
+      "backend": "serper",
+      "title": "Marketing Automation Careers: Skills, Roles and Salary Trends"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.youtube.com/watch?v=bEUe04rXIq0",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "A Guide to Marketing Automation with MarTech - YouTube"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1exg032/whats_the_best_marketing_automation_tool_out_there/",
+      "domain": "reddit.com",
+      "reason": "blocklist",
+      "details": [
+        "reddit.com"
+      ],
+      "backend": "serper",
+      "title": "What's the best marketing automation tool out there? - Reddit"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 1,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "customer support software company team",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=rQn6HHweCrU",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "How to Build a Customer Support Department - YouTube"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 1,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://fullenrich.com/jobtitle/Head-of-CRM-and-Sales-Systems",
+      "domain": "fullenrich.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "Head of CRM and Sales Systems: A Comprehensive Guide"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=NplLebWjvdk",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "7 Habits of Highly Effective CRM Leaders - YouTube"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.linkedin.com/company/crm-leader",
+      "domain": "linkedin.com",
+      "reason": "blocklist",
+      "details": [
+        "linkedin.com"
+      ],
+      "backend": "serper",
+      "title": "CRM Leader - LinkedIn"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=zvetbQgMQok",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "What Leadership Expects from RevOps in 2025 - YouTube"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://fullenrich.com/jobtitle/VP-of-Revenue-Operations-VS-Head-of-Revenue-Operations",
+      "domain": "fullenrich.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "VP of Revenue Operations VS Head of Revenue Operations: Roles ..."
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 1,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.indeed.com/q-head-of-growth-marketing-l-san-francisco,-ca-jobs.html",
+      "domain": "indeed.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:indeed.",
+        "kw:job",
+        "kw:jobs",
+        "marker:jobs"
+      ],
+      "backend": "serper",
+      "title": "Head Of Growth Marketing jobs in San Francisco, Ca - Indeed"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://himalayas.app/job-descriptions/head-of-growth",
+      "domain": "himalayas.app",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "6 Head of Growth Job Description Templates and Examples"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.ziprecruiter.com/Jobs/Head-Of-Growth/-in-New-York,NY",
+      "domain": "ziprecruiter.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:ziprecruiter.",
+        "kw:job",
+        "kw:jobs",
+        "path:/jobs",
+        "marker:jobs",
+        "marker:hiring now"
+      ],
+      "backend": "serper",
+      "title": "Head Of Growth Jobs in New York, NY (NOW HIRING) - ZipRecruiter"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=abPCu6k4cmg",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "Does my business need a Growth team? With Aaron Rosen, Head of ..."
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=Ls7jJqX7TT8",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "What a Head of Growth Actually Does at $1M, $10M, and ... - YouTube"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.pageexecutive.com/jobs/vp-sales",
+      "domain": "pageexecutive.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job",
+        "kw:jobs",
+        "path:/jobs",
+        "marker:jobs"
+      ],
+      "backend": "serper",
+      "title": "Vp Sales jobs | Page Executive"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.scalewithstrive.com/saas-job-descriptions/vp-of-sales/",
+      "domain": "scalewithstrive.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "VP of Sales Job Description - Scale with Strive"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://ca.indeed.com/career-advice/finding-a-job/what-vice-president-sales-do",
+      "domain": "indeed.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:indeed.",
+        "kw:job",
+        "kw:career",
+        "path:/career",
+        "marker:salary"
+      ],
+      "backend": "serper",
+      "title": "What Does a Vice President of Sales Do? (With Skills and Salary)"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.linkedin.com/pulse/what-vp-sales-does-behind-closed-doors-besides-hit-number-ray-carroll",
+      "domain": "linkedin.com",
+      "reason": "blocklist",
+      "details": [
+        "linkedin.com"
+      ],
+      "backend": "serper",
+      "title": "What a VP Sales Does behind closed doors (besides hit the number)"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.michaelpage.com/jobs/vp-sales",
+      "domain": "michaelpage.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job",
+        "kw:jobs",
+        "path:/jobs",
+        "marker:jobs"
+      ],
+      "backend": "serper",
+      "title": "Vp Sales jobs | Michael Page"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 2,
+      "url": "",
+      "domain": "",
+      "reason": "provider_error",
+      "details": [
+        "ConnectTimeout"
+      ],
+      "backend": null,
+      "title": ""
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.linkedin.com/posts/seanmoore1_salesleadership-startupgrowth-vpofsales-activity-7317922676738613248-Z-4_",
+      "domain": "linkedin.com",
+      "reason": "blocklist",
+      "details": [
+        "linkedin.com"
+      ],
+      "backend": "serper",
+      "title": "VP of Sales vs. Director of Sales: What's the Difference? - LinkedIn"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.peaksalesrecruiting.com/blog/job-description-of-a-vice-president-of-sales/",
+      "domain": "peaksalesrecruiting.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "Job Description of a Vice President of Sales - Peak Sales Recruiting"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://fullenrich.com/jobtitle/VP-of-Sales-VS-Director-of-Sales",
+      "domain": "fullenrich.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "VP of Sales VS Director of Sales: Understanding the Differences"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.youtube.com/watch?v=0_iHgnn5AlI",
+      "domain": "youtube.com",
+      "reason": "blocklist",
+      "details": [
+        "youtube.com"
+      ],
+      "backend": "serper",
+      "title": "From Startup to Global VP: Mastering Modern Sales Leadership"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.indeed.com/hire/job-description/vp-sales",
+      "domain": "indeed.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:indeed.",
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "Vice President of Sales Job Description [Updated for 2026] - Indeed"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://snaphunt.com/resources/job-descriptions/vp-sales-job-description",
+      "domain": "snaphunt.com",
+      "reason": "low_intent",
+      "details": [
+        "kw:job"
+      ],
+      "backend": "serper",
+      "title": "VP Sales Job Description - Snaphunt"
+    }
+  ],
+  "passed_sample": [
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.bcg.com/publications/2024/winning-strategies-for-b2b-saas-companies",
+      "domain": "bcg.com",
+      "backend": "serper",
+      "title": "Winning Strategies for B2B SaaS Companies | BCG"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.saas-talent.com/about",
+      "domain": "saas-talent.com",
+      "backend": "serper",
+      "title": "About Us | Talent Acquisition, Recruiting and Growth Advisory for ..."
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.kalungi.com/blog/how-to-structure-your-b2b-saas-marketing-team-department",
+      "domain": "kalungi.com",
+      "backend": "serper",
+      "title": "B2B SaaS Marketing Team Structure 101: Roles & Responsibilities"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.bostonsearchgroup.com/blog/executive-search-chief-operating-officer-b2b-saas",
+      "domain": "bostonsearchgroup.com",
+      "backend": "serper",
+      "title": "B2B SaaS COO Position: Leadership Opportunity Available"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://sumatosoft.com/blog/best-b2b-saas-companies",
+      "domain": "sumatosoft.com",
+      "backend": "serper",
+      "title": "25 Leading B2B SaaS Startups in 2025 - SumatoSoft"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.builtinnyc.com/articles/saas-companies-nyc",
+      "domain": "builtinnyc.com",
+      "backend": "serper",
+      "title": "89 SaaS Companies in NYC You Need to Know"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.subscript.com/",
+      "domain": "subscript.com",
+      "backend": "serper",
+      "title": "Subscript: Modern B2B SaaS Billing and Analytics"
+    },
+    {
+      "query": "b2b saas company leadership team united states",
+      "page": 3,
+      "url": "https://www.saasdirect.us/about/?srsltid=AfmBOorzuqbqx8D2hoULDKEt4L_BKjpEBuuL6wbxXAbSPpDN28X-t3qf",
+      "domain": "saasdirect.us",
+      "backend": "serper",
+      "title": "About - SaaS Direct"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.prweb.com/releases/the-software-report-announces-the-top-25-sales-enablement-software-executives-of-2025-302564071.html",
+      "domain": "prweb.com",
+      "backend": "serper",
+      "title": "The Software Report Announces The Top 25 Sales Enablement ..."
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://gtmbuddy.ai/blog/top-sales-enablement-leaders-to-follow",
+      "domain": "gtmbuddy.ai",
+      "backend": "serper",
+      "title": "15 Sales Enablement Influencers to Follow on LinkedIn - GTM Buddy"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://blog.thebrevetgroup.com/sales-enablement-roles-and-responsibilities",
+      "domain": "thebrevetgroup.com",
+      "backend": "serper",
+      "title": "Sales Enablement Roles: Avoid Being the Dumping Ground (and ..."
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.highspot.com/resource/topo-sales-enablement-leadership-report/",
+      "domain": "highspot.com",
+      "backend": "serper",
+      "title": "TOPO Sales Enablement Leadership Report | Highspot"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.allego.com/blog/building-a-sales-enablement-team-key-roles/",
+      "domain": "allego.com",
+      "backend": "serper",
+      "title": "10 Key Sales Enablement Roles for Building an Effective Sales Team"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://saleshood.com/blog/sales-enablement-org-design/",
+      "domain": "saleshood.com",
+      "backend": "serper",
+      "title": "Sales Enablement Job Descriptions, Roles and Org Design"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.varicent.com/blog/how-to-build-a-sales-enablement-team",
+      "domain": "varicent.com",
+      "backend": "serper",
+      "title": "How to Build a Sales Enablement Team - Varicent"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 1,
+      "url": "https://www.richardson.com/blog/sales-enablement-team-structure",
+      "domain": "richardson.com",
+      "backend": "serper",
+      "title": "7 Sales Enablement Roles for Building the Ideal Team Structure"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.sellingpower.com/20006/the-five-steps-to-aligning-sales-enablement-and-leadership/",
+      "domain": "sellingpower.com",
+      "backend": "serper",
+      "title": "The Five Steps to Aligning Sales Enablement and Leadership"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://inaccord.com/blog-posts/what-is-sales-enablement-tools-and-strategies-2024",
+      "domain": "inaccord.com",
+      "backend": "serper",
+      "title": "What is sales enablement? Tools and strategies for 2025 | Accord"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.showpad.com/what-is-sales-enablement/managing-your-sales-enablement-solution",
+      "domain": "showpad.com",
+      "backend": "serper",
+      "title": "Managing your Sales Enablement Solution - Showpad"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://pamdidner.com/blog/sales-enablement-guide/",
+      "domain": "pamdidner.com",
+      "backend": "serper",
+      "title": "The Ultimate Sales Enablement Guide for Teams - Pam Didner"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.forbes.com/councils/forbesbusinessdevelopmentcouncil/2022/05/05/15-leaders-share-how-they-define-sales-enablement/",
+      "domain": "forbes.com",
+      "backend": "serper",
+      "title": "15 Leaders Share How They Define Sales Enablement - Forbes"
+    },
+    {
+      "query": "sales enablement software leadership team",
+      "page": 2,
+      "url": "https://www.revenue.io/inside-sales-glossary/what-is-a-sales-enablement-manager",
+      "domain": "revenue.io",
+      "backend": "serper",
+      "title": "What is a Sales Enablement Manager? - Revenue.io"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://marketing-automation.ca/en-us/about-us-old/meet-the-team/",
+      "domain": "marketing-automation.ca",
+      "backend": "serper",
+      "title": "Meet Our Team - Marketing Automation Corp"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://www.hubspot.com/company/management",
+      "domain": "hubspot.com",
+      "backend": "serper",
+      "title": "HubSpot Management Team | Executive Team & Board of Directors"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://www.act.com/leadership/",
+      "domain": "act.com",
+      "backend": "serper",
+      "title": "Act! Leadership"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://solutions.technologyadvice.com/blog/thought-leaders-marketing-automation/",
+      "domain": "technologyadvice.com",
+      "backend": "serper",
+      "title": "Top 10 Thought Leaders in Marketing Automation - TechnologyAdvice"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://cjammarketing.com/blog/marketing-team-type/building-the-perfect-marketing-automation-team/",
+      "domain": "cjammarketing.com",
+      "backend": "serper",
+      "title": "Building the Perfect Marketing Automation Team"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://solutionsreview.com/marketing-automation/best-marketing-automation-software-companies/",
+      "domain": "solutionsreview.com",
+      "backend": "serper",
+      "title": "23 of the Best Marketing Automation Software Companies for 2026"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://www.customerly.io/glossary/marketing-automation-executive",
+      "domain": "customerly.io",
+      "backend": "serper",
+      "title": "Marketing Automation Executive | Customerly"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://mitchlevinson.com/leadership-marketing-automation-efficiency/",
+      "domain": "mitchlevinson.com",
+      "backend": "serper",
+      "title": "Leadership in Marketing Automation Efficiency - Mitch Levinson"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 1,
+      "url": "https://www.resourceondemand.com/3-key-roles-within-a-marketing-automation-team/",
+      "domain": "resourceondemand.com",
+      "backend": "serper",
+      "title": "3 Key Roles within a Marketing Automation Team"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.resourceondemand.com/3-key-roles-within-a-marketing-automation-team/",
+      "domain": "resourceondemand.com",
+      "backend": "serper",
+      "title": "3 Key Roles within a Marketing Automation Team"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.braze.com/resources/articles/marketing-automation",
+      "domain": "braze.com",
+      "backend": "serper",
+      "title": "Marketing Automation Strategies And Examples - Braze"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.sitecore.com/resources/insights/marketing-automation/marketing-automation-systems-the-key-to-successful-digital-marketing",
+      "domain": "sitecore.com",
+      "backend": "serper",
+      "title": "Marketing automation systems\u2013the key to successful digital marketing"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://ddiy.co/team-structure/marketing-automation/",
+      "domain": "ddiy.co",
+      "backend": "serper",
+      "title": "How to Structure a Marketing Automation Dream Team - DDIY"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://insiderone.com/marketing-automation-platforms/",
+      "domain": "insiderone.com",
+      "backend": "serper",
+      "title": "13 Best Marketing Automation Platform for 2026 - Insider One"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://marketingautomation.com/",
+      "domain": "marketingautomation.com",
+      "backend": "serper",
+      "title": "Marketing Automation"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.adgenai.com/blog-posts/marketing-automation-for-creative-teams",
+      "domain": "adgenai.com",
+      "backend": "serper",
+      "title": "Marketing Automation for Creative Teams: 15 Tools & How to"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 2,
+      "url": "https://www.saffronedge.com/blog/marketing-automation-manager/",
+      "domain": "saffronedge.com",
+      "backend": "serper",
+      "title": "What is a Marketing Automation Manager? | Saffron Edge"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.emailvendorselection.com/crm-with-marketing-automation/",
+      "domain": "emailvendorselection.com",
+      "backend": "serper",
+      "title": "10 Best CRM with Marketing Automation Tools in 2026"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://ddiy.co/team-structure/marketing-automation/",
+      "domain": "ddiy.co",
+      "backend": "serper",
+      "title": "How to Structure a Marketing Automation Dream Team - DDIY"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.microsoft.com/en-us/dynamics-365/topics/marketing/what-is-marketing-automation",
+      "domain": "microsoft.com",
+      "backend": "serper",
+      "title": "What is Marketing Automation | Microsoft Dynamics 365"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://sproutsocial.com/insights/marketing-automation/",
+      "domain": "sproutsocial.com",
+      "backend": "serper",
+      "title": "Marketing Automation: The Complete Guide for your Brand in 2026"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.saffronedge.com/blog/marketing-automation-manager/",
+      "domain": "saffronedge.com",
+      "backend": "serper",
+      "title": "What is a Marketing Automation Manager? | Saffron Edge"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.gartner.com/reviews/market/b2b-marketing-automation-platforms",
+      "domain": "gartner.com",
+      "backend": "serper",
+      "title": "Best B2B Marketing Automation Platforms Reviews 2026 - Gartner"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://encharge.io/best-saas-marketing-automation-tools/",
+      "domain": "encharge.io",
+      "backend": "serper",
+      "title": "The 37 Best Marketing Automation Tools for SaaS in 2026"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://prosglobalinc.com/top-10-marketing-automation-leaders-you-must-follow/",
+      "domain": "prosglobalinc.com",
+      "backend": "serper",
+      "title": "Top 10 Marketing Automation Leaders You Must Follow"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.netsuite.com/portal/products/crm/marketing-automation.shtml",
+      "domain": "netsuite.com",
+      "backend": "serper",
+      "title": "NetSuite Marketing Automation Solution"
+    },
+    {
+      "query": "marketing automation software leadership team",
+      "page": 3,
+      "url": "https://www.marketone.com/capabilities/marketing-automation-svces",
+      "domain": "marketone.com",
+      "backend": "serper",
+      "title": "B2B marketing automation services - MarketOne international"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.salesforce.com/service/what-is-customer-service-software/",
+      "domain": "salesforce.com",
+      "backend": "serper",
+      "title": "What Is Customer Service Software? - Salesforce"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.globalcallforwarding.com/blog/best-help-desk-customer-support-integrations/",
+      "domain": "globalcallforwarding.com",
+      "backend": "serper",
+      "title": "11 Best Help Desk and Customer Support Integrations"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.dialpad.com/blog/customer-service-software/",
+      "domain": "dialpad.com",
+      "backend": "serper",
+      "title": "Top 14 Customer Service Software For Remote Teams - Dialpad"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software",
+      "domain": "microsoft.com",
+      "backend": "serper",
+      "title": "Customer Service Software - Dynamics 365 - Microsoft"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://magicapple.com/customer-support-software-small-business/",
+      "domain": "magicapple.com",
+      "backend": "serper",
+      "title": "Best Customer Support Software for Small Business Teams in 2025"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://twixor.ai/blog/enterprise-customer-service-platforms/",
+      "domain": "twixor.ai",
+      "backend": "serper",
+      "title": "9 Best Enterprise Customer Service Software Solutions That Scales"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://intelligentbee.com/blog/how-to-build-scale-a-customer-support-team/",
+      "domain": "intelligentbee.com",
+      "backend": "serper",
+      "title": "How to Build & Scale a Customer Support Team - IntelligentBee"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.sutisoft.com/blog/how-a-helpdesk-software-help-your-customer-support-team/",
+      "domain": "sutisoft.com",
+      "backend": "serper",
+      "title": "How a Helpdesk Software Help Your Customer Support Team"
+    },
+    {
+      "query": "customer support software company team",
+      "page": 3,
+      "url": "https://www.usepylon.com/blog/customer-support-teams",
+      "domain": "usepylon.com",
+      "backend": "serper",
+      "title": "How to build best-in-class customer support teams - Pylon"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.introhive.com/blog-posts/18-crm-experts-you-need-to-follow/",
+      "domain": "introhive.com",
+      "backend": "serper",
+      "title": "18 CRM Experts You Need to Follow | Introhive"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.act.com/leadership/",
+      "domain": "act.com",
+      "backend": "serper",
+      "title": "Act! Leadership"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://solutionsreview.com/crm/2026/01/05/best-crm-companies-to-know-about/",
+      "domain": "solutionsreview.com",
+      "backend": "serper",
+      "title": "27 of the Best CRM Software Companies to Know About for 2026"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.customerly.io/glossary/crm-director",
+      "domain": "customerly.io",
+      "backend": "serper",
+      "title": "CRM Director | Customerly"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://issuu.com/primeview001/docs/the_10_most_innovative_leaders_in_crm_solution_fir",
+      "domain": "issuu.com",
+      "backend": "serper",
+      "title": "The 10 Most Innovative Leaders in CRM Solution Firms, 2024 - Issuu"
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+      "domain": "salesforce.com",
+      "backend": "serper",
+      "title": "Governance - Executive Management - Salesforce.com, Inc."
+    },
+    {
+      "query": "crm software company leadership",
+      "page": 3,
+      "url": "https://www.cxtoday.com/crm/the-top-crm-software-vendors-in-2025-what-makes-each-one-enterprise-ready/",
+      "domain": "cxtoday.com",
+      "backend": "serper",
+      "title": "The Top CRM Vendors to Consider in 2025 - CX Today"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://tractioncomplete.com/articles/revops-leaders-you-need-to-follow/",
+      "domain": "tractioncomplete.com",
+      "backend": "serper",
+      "title": "RevOps in motion: 15 leaders you need to be following"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://www.quotapath.com/blog/revops-leaders-list/",
+      "domain": "quotapath.com",
+      "backend": "serper",
+      "title": "10 RevOps Leaders to Follow \u2014 2025 - QuotaPath"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://skaled.com/insights/revenue-operations-team-structure/",
+      "domain": "skaled.com",
+      "backend": "serper",
+      "title": "Revenue Operations Team Structure & Roles Guideline"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://www.revenueoperationsalliance.com/a-day-in-the-life-of-a-revops-lead/",
+      "domain": "revenueoperationsalliance.com",
+      "backend": "serper",
+      "title": "What does a revenue operations leader actually do?"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://strativera.com/who-does-revops-report-to/",
+      "domain": "strativera.com",
+      "backend": "serper",
+      "title": "Who Does RevOps Report To? Organizational Structure Explained"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://www.alexandergroup.com/insights/journey-of-a-revenue-operations-leader/",
+      "domain": "alexandergroup.com",
+      "backend": "serper",
+      "title": "What is RevOps? | Become a Leader in Revenue Operations"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://www.clari.com/blog/4-revenue-operations-leaders-on-revops-evolution/",
+      "domain": "clari.com",
+      "backend": "serper",
+      "title": "4 Revenue Operations Leaders on the RevOps Evolution - Clari"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://evenbound.com/blog/revenue-operations-team-structure",
+      "domain": "evenbound.com",
+      "backend": "serper",
+      "title": "Revenue Operations Team Structure: Key Roles Explained"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://www.salesloft.com/company/newsroom/revenue-operations-makes-leap-to-csuite-study-says",
+      "domain": "salesloft.com",
+      "backend": "serper",
+      "title": "Rise of RevOps to the C-Suite | Salesloft + Wakefield Study"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 1,
+      "url": "https://revenuewizards.com/blog/how-to-implement-revenue-operations",
+      "domain": "revenuewizards.com",
+      "backend": "serper",
+      "title": "A Complete Guide for Startup Founders and Sales Leaders"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://scalelist.com/head-of-revenue-operations/",
+      "domain": "scalelist.com",
+      "backend": "serper",
+      "title": "Head of Revenue Operations - Scalelist"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://salesmotion.io/sales-intelligence-for-revops",
+      "domain": "salesmotion.io",
+      "backend": "serper",
+      "title": "Sales Intelligence for Revenue Operations (2026) | Salesmotion"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://revenue-playbook.com/documentation/roles/revenue-operations/",
+      "domain": "revenue-playbook.com",
+      "backend": "serper",
+      "title": "Revenue Operations"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://www.revopscoop.com/post/who-should-revenue-operations-report-to",
+      "domain": "revopscoop.com",
+      "backend": "serper",
+      "title": "Who Should Revenue Operations Report To? - RevOps Co-op"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://forecastio.ai/blog/revops-tools",
+      "domain": "forecastio.ai",
+      "backend": "serper",
+      "title": "RevOps Tools - Best Revenue Operations Software Guide - Forecastio"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://www.kixie.com/sales-blog/head-of-revenue-operations-horo/",
+      "domain": "kixie.com",
+      "backend": "serper",
+      "title": "Head of Revenue Operations (HORO) - Kixie"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://blog.revpartners.io/en/revops-articles/the-power-of-revenue-operations-in-the-saas-industry",
+      "domain": "revpartners.io",
+      "backend": "serper",
+      "title": "The Power of Revenue Operations in the SaaS Industry"
+    },
+    {
+      "query": "revenue operations software company leadership",
+      "page": 3,
+      "url": "https://interruptmedia.com/revops-salesops-team-lead/",
+      "domain": "interruptmedia.com",
+      "backend": "serper",
+      "title": "RevOps SalesOps Team Lead Role - Interrupt Media"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.tealhq.com/cover-letter-example/head-of-growth",
+      "domain": "tealhq.com",
+      "backend": "serper",
+      "title": "2025 Head of Growth Cover Letter Example (+Free Template) - Teal"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.growthstrategy.us/copy-of-page-2",
+      "domain": "growthstrategy.us",
+      "backend": "serper",
+      "title": "Our Team | GrowthStrategy"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://growthteams.com/our-business-advisors/",
+      "domain": "growthteams.com",
+      "backend": "serper",
+      "title": "Meet Our Expert Business Advisors - Growth Team Strategies"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://www.titangrowth.com/about/meet-team-titan/",
+      "domain": "titangrowth.com",
+      "backend": "serper",
+      "title": "Titan Growth's\u00ae Management Team | Bios and History"
+    },
+    {
+      "query": "head of growth company team page",
+      "page": 3,
+      "url": "https://growth.gs.com/investors",
+      "domain": "gs.com",
+      "backend": "serper",
+      "title": "Meet Our Investment Team - GS Growth's"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.forcemanagement.com/blog/new-to-the-vp-of-sales-role",
+      "domain": "forcemanagement.com",
+      "backend": "serper",
+      "title": "VP Sales Strategy: Roadmap for Success in Your New Role"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.vouris.com/blog/vp-of-sales",
+      "domain": "vouris.com",
+      "backend": "serper",
+      "title": "The Ultimate Guide to Being a Successful VP of Sales: Duties, Skills ..."
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://www.c-suite-strategy.com/blog/understanding-the-role-of-an-evp-of-sales-in-strategic-leadership",
+      "domain": "c-suite-strategy.com",
+      "backend": "serper",
+      "title": "Understanding the Role of an EVP of Sales in Strategic Leadership"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://cowenpartners.com/vp-of-sales-impact-on-enterprise-value/",
+      "domain": "cowenpartners.com",
+      "backend": "serper",
+      "title": "Why Your VP of Sales is the Hidden Driver of Enterprise Value"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 1,
+      "url": "https://storm3.com/specialisms/healthtech-sales-marketing/vp-of-sales/",
+      "domain": "storm3.com",
+      "backend": "serper",
+      "title": "VP Of Sales - Storm3"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.activatedscale.com/blog/sales-leadership-director-vs-vp",
+      "domain": "activatedscale.com",
+      "backend": "serper",
+      "title": "Director of Sales vs. VP of Sales: What's the Difference?"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.kixie.com/sales-blog/what-is-a-vice-president-of-sales-vp/",
+      "domain": "kixie.com",
+      "backend": "serper",
+      "title": "Vice President of Sales (VP) - Kixie"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://www.revenue.io/role-sales-leaders",
+      "domain": "revenue.io",
+      "backend": "serper",
+      "title": "Sales Leadership Software for Forecasting, Coaching & Visibility"
+    },
+    {
+      "query": "vp sales company leadership page",
+      "page": 3,
+      "url": "https://leadersinternational.com/opp-profile_surewx_vp-sales_final/",
+      "domain": "leadersinternational.com",
+      "backend": "serper",
+      "title": "[PDF] SureWx - Vice President of Sales - Leaders International"
+    }
+  ]
+}
