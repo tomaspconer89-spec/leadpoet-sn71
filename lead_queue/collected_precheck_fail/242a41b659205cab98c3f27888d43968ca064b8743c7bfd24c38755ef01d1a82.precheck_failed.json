@@ -3,23 +3,28 @@
   "business": "Softwisery",
   "lead": {
     "business": "Softwisery",
+    "full_name": "Michaelratnikov",
+    "first": "Michaelratnikov",
+    "last": "",
+    "email": "",
+    "role": "",
     "website": "https://softwisery.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "linkedin": "https://id.linkedin.com/in/michaelratnikov",
-    "company_linkedin": "https://www.linkedin.com/company/softwisery",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/michaelratnikov/",
+    "company_linkedin": "https://www.linkedin.com/company/softwisery/",
     "source_url": "https://softwisery.com",
     "description": "Softwisery is a boutique software consultancy founded by Michael Ratnikov. We provide senior technical leadership and vetted engineering teams for startups in regulated industries.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/softwisery",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "C_good_account_needs_person"
 }

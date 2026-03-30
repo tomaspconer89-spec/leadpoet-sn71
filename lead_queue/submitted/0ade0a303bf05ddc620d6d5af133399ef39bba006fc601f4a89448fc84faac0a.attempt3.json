@@ -11,20 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/oleksii-sasin",
-  "company_linkedin": "https://www.linkedin.com/company/it-craft",
+  "linkedin": "https://www.linkedin.com/in/oleksii-sasin/",
+  "company_linkedin": "https://www.linkedin.com/company/it-craft/",
   "source_url": "https://itechcraft.com",
   "description": "Discover IT Craft\u2019s top-notch Outsourcing Software Development Services. Elevate your project with our expert team of reliable developers.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/it-craft",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

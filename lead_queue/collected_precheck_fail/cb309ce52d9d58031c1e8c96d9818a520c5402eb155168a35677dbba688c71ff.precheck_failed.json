@@ -14,8 +14,8 @@
     "country": "United States",
     "state": "California",
     "city": "Error: Got empty search results page (0 organic + paid results)",
-    "linkedin": "https://www.linkedin.com/in/jasonbulger",
-    "company_linkedin": "https://au.linkedin.com/company/the-startup-advisory",
+    "linkedin": "https://www.linkedin.com/in/jasonbulger/",
+    "company_linkedin": "https://www.linkedin.com/company/the-startup-advisory/",
     "source_url": "https://thestartupadvisory.com",
     "description": "Helping early-stage B2B SaaS Founders in the US &amp; Australia get sales-ready. Fractional Head of Sales from $3k/month. Pre-Seed to Series A.",
     "employee_count": "11-50",
@@ -24,13 +24,7 @@
     "hq_city": "Error: Got empty search results page (0 organic + paid results)",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": null,
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

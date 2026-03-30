@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/petergiersch",
-  "company_linkedin": "https://www.linkedin.com/company/thegierschgroup",
+  "linkedin": "https://www.linkedin.com/in/petergiersch/",
+  "company_linkedin": "https://www.linkedin.com/company/thegierschgroup/",
   "source_url": "https://gierschgroup.com",
-  "source_type": "",
   "description": "The Giersch Group provides professional services to clients; details were sourced from the company website at https://gierschgroup.com.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/thegierschgroup",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

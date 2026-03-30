@@ -11,22 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://uk.linkedin.com/in/melissarynn",
-  "company_linkedin": "https://www.linkedin.com/company/idealsvdr",
+  "linkedin": "https://www.linkedin.com/in/melissarynn/",
+  "company_linkedin": "https://www.linkedin.com/company/idealsvdr/",
   "source_url": "https://idealsvdr.com",
-  "source_type": "company_site",
   "description": "Ideals VDR offers unrivaled customer support, flexible pricing, and the most innovative data room software to support dealmakers",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/idealsvdr",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

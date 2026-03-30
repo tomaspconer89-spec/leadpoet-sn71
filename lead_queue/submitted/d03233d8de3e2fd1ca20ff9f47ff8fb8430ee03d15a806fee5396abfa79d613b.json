@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/viv18n",
-  "company_linkedin": "https://www.linkedin.com/company/babson-college-center-for-women-s-entrepreneurial-leadership",
+  "linkedin": "https://www.linkedin.com/in/viv18n/",
+  "company_linkedin": "https://www.linkedin.com/company/babson-college-center-for-women-s-entrepreneurial-leadership/",
   "source_url": "https://babson.edu",
-  "source_type": "",
   "description": "Babson College is a top school of business and the best college for entrepreneurship, with campuses in Wellesley, Boston, and Miami.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

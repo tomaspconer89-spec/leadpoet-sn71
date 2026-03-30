@@ -1,8 +1,8 @@
 {
   "business": "Preferred CFO",
   "full_name": "Info Lead",
-  "first": "Info",
-  "last": "Lead",
+  "first": "Mike",
+  "last": "Paulsin",
   "email": "info@preferredcfo.com",
   "role": "Contact",
   "website": "https://preferredcfo.com",
@@ -11,22 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/mike-paulsin",
-  "company_linkedin": "https://www.linkedin.com/company/preferred-cfo",
+  "linkedin": "https://www.linkedin.com/in/mike-paulsin/",
+  "company_linkedin": "https://www.linkedin.com/company/preferred-cfo/",
   "source_url": "https://preferredcfo.com",
-  "source_type": "company_site",
   "description": "We are the top fractional CFO and HR firm in the country. We help you gain confidence for growth and prosperity. Helping companies since 2013.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/preferred-cfo",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

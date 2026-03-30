@@ -4,27 +4,27 @@
   "lead": {
     "business": "Venture 7 Advisors",
     "full_name": "Team Member",
-    "first": "Team",
+    "first": "Khellmar",
     "last": "Member",
     "email": "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
     "role": "Contact",
     "website": "https://venture7advisors.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "linkedin": "https://www.linkedin.com/in/khellmar",
-    "company_linkedin": "https://www.linkedin.com/company/venture-7-advisors-llc",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/khellmar/",
+    "company_linkedin": "https://www.linkedin.com/company/venture-7-advisors-llc/",
     "source_url": "https://venture7advisors.com",
     "description": "Venture 7 Advisors helps business owners grow and successfully exit their companies. We are business owners just like you. Valuation, exit planning, due diligence, negotiation &amp; closing.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/venture-7-advisors-llc",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "D_low_confidence_hold"
 }

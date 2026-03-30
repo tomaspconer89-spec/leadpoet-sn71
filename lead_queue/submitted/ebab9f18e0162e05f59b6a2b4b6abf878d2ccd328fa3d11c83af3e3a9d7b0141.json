@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/adamrosssheehan",
-  "company_linkedin": "https://www.linkedin.com/company/sbi-growth-advisory",
+  "linkedin": "https://www.linkedin.com/in/adamrosssheehan/",
+  "company_linkedin": "https://www.linkedin.com/company/sbi-growth-advisory/",
   "source_url": "https://sbigrowth.com",
-  "source_type": "",
   "description": "Transform your revenue engine with AI-powered insights and proven GTM strategies. Expert advisory for sales, marketing, pricing, and customer success optimization.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/sbi-growth-advisory",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

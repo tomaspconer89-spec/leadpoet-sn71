@@ -1,25 +1,25 @@
 {
   "business": "Business Consulting",
   "full_name": "Team Member",
-  "first": "Team",
+  "first": "Emtwo",
   "last": "Member",
   "email": "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
   "role": "Contact",
   "website": "https://strategicventurepartners.net",
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
-  "linkedin": "https://www.linkedin.com/in/emtwo-business-consulting-llc-usa-7341a6360",
-  "company_linkedin": "https://www.linkedin.com/company/business-consulting-group-llc",
+  "country": "",
+  "state": "",
+  "city": "",
+  "linkedin": "https://www.linkedin.com/in/emtwo-business-consulting-llc-usa-7341a6360/",
+  "company_linkedin": "https://www.linkedin.com/company/business-consulting-group-llc/",
   "source_url": "https://strategicventurepartners.net",
   "description": "Strategic Venture Partners is a business consulting company that offers a wide variety of business services to help your business grow. We have practical and academic experience in business operations and administration.",
   "employee_count": "11-50",
+  "hq_country": "",
+  "hq_state": "",
+  "hq_city": "",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

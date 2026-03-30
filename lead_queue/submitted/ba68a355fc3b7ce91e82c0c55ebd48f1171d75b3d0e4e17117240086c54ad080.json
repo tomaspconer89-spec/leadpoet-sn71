@@ -2,7 +2,7 @@
   "business": "NDS Consultants - Beyond Boundaries, Beyond Excellence",
   "full_name": "Privacy Lead",
   "first": "Privacy",
-  "last": "Lead",
+  "last": "B",
   "email": "privacy@ndsconsulting.ca",
   "role": "Contact",
   "website": "https://ndsconsulting.ca",
@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/thomas-ketner-b8045025",
-  "company_linkedin": "https://www.linkedin.com/company/the-physio-brothers",
+  "linkedin": "https://www.linkedin.com/in/thomas-ketner-b8045025/",
+  "company_linkedin": "https://www.linkedin.com/company/the-physio-brothers/",
   "source_url": "https://ndsconsulting.ca",
-  "source_type": "",
   "description": "NDS Consultants - Beyond Boundaries, Beyond Excellence provides professional services to clients; details were sourced from the company website at https://ndsconsulting.ca.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

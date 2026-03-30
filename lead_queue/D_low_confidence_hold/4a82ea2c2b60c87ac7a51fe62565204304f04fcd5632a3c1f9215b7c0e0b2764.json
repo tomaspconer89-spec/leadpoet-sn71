@@ -9,20 +9,17 @@
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
   "country": "United States",
-  "linkedin": "https://www.linkedin.com/in/nager",
-  "company_linkedin": "https://www.linkedin.com/company/access-venture-partners",
+  "state": "",
+  "city": "",
+  "linkedin": "https://www.linkedin.com/in/nager/",
+  "company_linkedin": "https://www.linkedin.com/company/access-venture-partners/",
   "source_url": "https://accessvp.com",
-  "source_type": "company_site",
   "description": "Access Venture Partners is a venture capital firm based in Denver &amp; Boulder. 20+ years investing in early-stage technology startups.",
   "employee_count": "11-50",
   "hq_country": "United States",
+  "hq_state": "",
+  "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/access-venture-partners",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

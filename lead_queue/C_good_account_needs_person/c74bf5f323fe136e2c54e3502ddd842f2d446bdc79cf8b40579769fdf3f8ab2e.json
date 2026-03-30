@@ -8,18 +8,18 @@
   "website": "https://venture-advisory-partners.com",
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
-  "linkedin": "https://www.linkedin.com/in/peter-nadolinski-05646492",
-  "company_linkedin": "https://www.linkedin.com/company/venture-advisory-partners",
+  "country": "",
+  "state": "",
+  "city": "",
+  "linkedin": "https://www.linkedin.com/in/peter-nadolinski-05646492/",
+  "company_linkedin": "https://www.linkedin.com/company/venture-advisory-partners/",
   "source_url": "https://venture-advisory-partners.com",
   "description": "Unternehmensverkauf &amp; Finanzierung provides professional services to clients; details were sourced from the company website at https://venture-advisory-partners.com.",
   "employee_count": "11-50",
+  "hq_country": "",
+  "hq_state": "",
+  "hq_city": "",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/venture-advisory-partners",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

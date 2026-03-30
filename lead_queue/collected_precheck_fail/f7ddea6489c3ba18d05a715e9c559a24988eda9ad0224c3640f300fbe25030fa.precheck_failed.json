@@ -3,7 +3,7 @@
   "business": "MarketingLens Marketing Technology Agency",
   "lead": {
     "business": "MarketingLens Marketing Technology Agency",
-    "full_name": "barib",
+    "full_name": "Barib",
     "first": "barib",
     "last": "",
     "email": "",
@@ -14,8 +14,8 @@
     "country": "to your LinkedIn profile so you appear in recruiter searches for local roles.",
     "state": "assess your eligibility",
     "city": "Including your specific city makes it easier for employers to find you",
-    "linkedin": "https://www.linkedin.com/in/barib",
-    "company_linkedin": "https://ie.linkedin.com/company/marketinglens",
+    "linkedin": "https://www.linkedin.com/in/barib/",
+    "company_linkedin": "https://www.linkedin.com/company/marketinglens/",
     "source_url": "https://marketinglens.com",
     "description": "Harness the power of MarTech and data-driven marketing. Explore our digital solutions and let\u2019s create your next success story together.",
     "employee_count": "11-50",
@@ -24,13 +24,7 @@
     "hq_city": "Including your specific city makes it easier for employers to find you",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": null,
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

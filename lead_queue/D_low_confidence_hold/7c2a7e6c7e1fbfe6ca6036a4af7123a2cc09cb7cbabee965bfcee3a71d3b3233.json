@@ -9,20 +9,17 @@
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
   "country": "United States",
-  "linkedin": "https://www.linkedin.com/in/jackmcculloughcfo",
-  "company_linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil",
+  "state": "",
+  "city": "",
+  "linkedin": "https://www.linkedin.com/in/jackmcculloughcfo/",
+  "company_linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil/",
   "source_url": "https://cfoleadership.com",
-  "source_type": "company_site",
   "description": "CFO Leadership provides professional services to clients; details were sourced from the company website at https://cfoleadership.com.",
   "employee_count": "11-50",
   "hq_country": "United States",
+  "hq_state": "",
+  "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://uk.linkedin.com/in/samshead",
-  "company_linkedin": "https://www.linkedin.com/company/businessinsider",
+  "linkedin": "https://www.linkedin.com/in/samshead/",
+  "company_linkedin": "https://www.linkedin.com/company/businessinsider/",
   "source_url": "https://businessinsider.com",
-  "source_type": "",
   "description": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/businessinsider",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

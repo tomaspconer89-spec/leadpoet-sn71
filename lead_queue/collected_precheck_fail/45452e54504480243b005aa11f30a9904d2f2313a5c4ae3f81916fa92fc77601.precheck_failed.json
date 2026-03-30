@@ -11,19 +11,20 @@
     "website": "https://saleshandy.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "company_linkedin": "https://www.linkedin.com/company/saleshandy",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/saleshandy/",
     "source_url": "https://saleshandy.com",
     "description": "The best cold email outreach software to generate more leads. Automate your outreach with unlimited email accounts, high deliverability, and better open and reply rates.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/saleshandy",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

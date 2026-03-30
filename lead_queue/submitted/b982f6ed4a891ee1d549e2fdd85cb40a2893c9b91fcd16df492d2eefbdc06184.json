@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/alinashaikh",
-  "company_linkedin": "https://www.linkedin.com/company/th-global-capital",
+  "linkedin": "https://www.linkedin.com/in/alinashaikh/",
+  "company_linkedin": "https://www.linkedin.com/company/th-global-capital/",
   "source_url": "https://stratwell.ca",
-  "source_type": "",
   "description": "Are you looking for a cost-effective way to attract prospects, win their trust and turn them into repeat customers? Stratwell Strategic Solutions is a content marketing agency located in Toronto that specializes in content marketing strategies.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

@@ -8,17 +8,18 @@
   "website": "https://kmco.com",
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
-  "company_linkedin": "https://www.linkedin.com/company/kreischer-miller",
+  "country": "",
+  "state": "",
+  "city": "",
+  "linkedin": "",
+  "company_linkedin": "https://www.linkedin.com/company/kreischer-miller/",
   "source_url": "https://kmco.com",
   "description": "Kreischer Miller is a regional accounting firm serving Philadelphia and surrounding areas. We provide tax, advisory, and accounting services to growing businesses.",
   "employee_count": "11-50",
+  "hq_country": "",
+  "hq_state": "",
+  "hq_city": "",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/kreischer-miller",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

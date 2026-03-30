@@ -11,8 +11,8 @@
   "country": "United States",
   "state": "",
   "city": "Error: Got empty search results page (0 organic + paid results)",
-  "linkedin": "https://www.linkedin.com/in/samuel-levitz",
-  "company_linkedin": "https://www.linkedin.com/company/irc-partners",
+  "linkedin": "https://www.linkedin.com/in/samuel-levitz/",
+  "company_linkedin": "https://www.linkedin.com/company/irc-partners/",
   "source_url": "https://investorreadycapital.com",
   "description": "IRC Partners: Expert Capital Raising and Advisory Services provides professional services to clients; details were sourced from the company website at https://investorreadycapital.com.",
   "employee_count": "11-50",
@@ -21,11 +21,5 @@
   "hq_city": "Error: Got empty search results page (0 organic + paid results)",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/irc-partners",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

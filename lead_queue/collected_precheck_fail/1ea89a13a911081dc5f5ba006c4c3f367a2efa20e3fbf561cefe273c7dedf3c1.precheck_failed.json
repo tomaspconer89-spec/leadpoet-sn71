@@ -14,8 +14,8 @@
     "country": "United States",
     "state": "connect and strengthen professional relationships",
     "city": "Error: Got empty search results page (0 organic + paid results)",
-    "linkedin": "https://uk.linkedin.com/in/melissarynn",
-    "company_linkedin": "https://www.linkedin.com/company/idealsvdr",
+    "linkedin": "https://www.linkedin.com/in/melissarynn/",
+    "company_linkedin": "https://www.linkedin.com/company/idealsvdr/",
     "source_url": "https://idealsvdr.com",
     "description": "Ideals VDR offers unrivaled customer support, flexible pricing, and the most innovative data room software to support dealmakers",
     "employee_count": "11-50",
@@ -24,14 +24,7 @@
     "hq_city": "Error: Got empty search results page (0 organic + paid results)",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/idealsvdr",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null,
-      "facebook": null
-    }
+    "socials": {}
   },
   "queue_bucket": "D_low_confidence_hold"
 }

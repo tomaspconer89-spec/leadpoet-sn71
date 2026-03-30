@@ -11,20 +11,20 @@
     "website": "https://techstars.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "linkedin": "https://www.linkedin.com/in/alexguttler",
-    "company_linkedin": "https://www.linkedin.com/company/techstars",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/alexguttler/",
+    "company_linkedin": "https://www.linkedin.com/company/techstars/",
     "source_url": "https://techstars.com",
     "description": "Techstars helps founders succeed. Through our global accelerators, we invest in early-stage startups led by founders building a better future for everyone.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/techstars",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "C_good_account_needs_person"
 }

@@ -14,8 +14,8 @@
     "country": "United States",
     "state": "corporate strategy",
     "city": "Accomplished finance leader with 10+ years of experience across FP&A",
-    "linkedin": "https://www.linkedin.com/in/nager",
-    "company_linkedin": "https://www.linkedin.com/company/access-venture-partners",
+    "linkedin": "https://www.linkedin.com/in/nager/",
+    "company_linkedin": "https://www.linkedin.com/company/access-venture-partners/",
     "source_url": "https://accessvp.com",
     "description": "Access Venture Partners is a venture capital firm based in Denver &amp; Boulder. 20+ years investing in early-stage technology startups.",
     "employee_count": "11-50",
@@ -24,14 +24,7 @@
     "hq_city": "Accomplished finance leader with 10+ years of experience across FP&A",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/access-venture-partners",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null,
-      "facebook": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

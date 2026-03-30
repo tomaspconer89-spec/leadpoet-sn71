@@ -11,20 +11,20 @@
     "website": "https://dandpadvisory.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "linkedin": "https://www.linkedin.com/in/santosh-n-252292a",
-    "company_linkedin": "https://www.linkedin.com/company/d-and-p-advisory",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/santosh-n-252292a/",
+    "company_linkedin": "https://www.linkedin.com/company/d-and-p-advisory/",
     "source_url": "https://dandpadvisory.com",
     "description": "D and P Advisory is a premier valuation services provider and a boutique transaction advisory firm providing high quality consulting services.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/d-and-p-advisory",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "D_low_confidence_hold"
 }

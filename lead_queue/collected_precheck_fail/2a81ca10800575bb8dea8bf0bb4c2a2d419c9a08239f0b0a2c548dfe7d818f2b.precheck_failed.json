@@ -3,7 +3,7 @@
   "business": "Home - Hybrid Business Advisors",
   "lead": {
     "business": "Home - Hybrid Business Advisors",
-    "full_name": "joannowak",
+    "full_name": "Joannowak",
     "first": "joannowak",
     "last": "",
     "email": "joan@hybridbizadvisors.com",
@@ -14,8 +14,8 @@
     "country": "I work with passionate business owners who are ready to\u00a0...",
     "state": "founder of Hybrid Business Advisors. Based in New Jersey and serving clients nationwide",
     "city": "I'm Joan Nowak",
-    "linkedin": "https://www.linkedin.com/in/joannowak",
-    "company_linkedin": "https://www.linkedin.com/company/theameriflexgroup",
+    "linkedin": "https://www.linkedin.com/in/joannowak/",
+    "company_linkedin": "https://www.linkedin.com/company/theameriflexgroup/",
     "source_url": "https://hybridbizadvisors.com",
     "description": "Hybrid Business Advisors | Business coaching &amp; consulting to help small business owners build profit by leveraging marketing, systems, people",
     "employee_count": "11-50",
@@ -24,13 +24,7 @@
     "hq_city": "I'm Joan Nowak",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": null,
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

@@ -9,20 +9,17 @@
   "industry": "Professional Services",
   "sub_industry": "Management Consulting",
   "country": "United States",
-  "linkedin": "https://ch.linkedin.com/in/miguelbemartin",
-  "company_linkedin": "https://www.linkedin.com/company/hubspot",
+  "state": "",
+  "city": "",
+  "linkedin": "https://www.linkedin.com/in/miguelbemartin/",
+  "company_linkedin": "https://www.linkedin.com/company/hubspot/",
   "source_url": "https://hubspot.com",
-  "source_type": "company_site",
   "description": "HubSpot provides professional services to clients; details were sourced from the company website at https://hubspot.com.",
   "employee_count": "11-50",
   "hq_country": "United States",
+  "hq_state": "",
+  "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/hubspot",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

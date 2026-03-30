@@ -11,8 +11,8 @@
   "country": "United States",
   "state": "Utah",
   "city": "Salt Lake City",
-  "linkedin": "https://www.linkedin.com/in/jim-bennett-nowcfo",
-  "company_linkedin": "https://www.linkedin.com/company/nowcfo",
+  "linkedin": "https://www.linkedin.com/in/jim-bennett-nowcfo/",
+  "company_linkedin": "https://www.linkedin.com/company/nowcfo/",
   "source_url": "https://nowcfo.com",
   "description": "NOW CFO offers outsourced CFO, fractional CFO, and accounting services to provide expert financial leadership, improve efficiency, and drive business growth.",
   "employee_count": "11-50",
@@ -21,12 +21,5 @@
   "hq_city": "Salt Lake City",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/nowcfo",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

@@ -2,7 +2,7 @@
   "business": "Paul, Cox &amp; Todd PLLC",
   "full_name": "Content Info",
   "first": "Content",
-  "last": "Info",
+  "last": "Uncg",
   "email": "content_library.global.email.info@pctcpa.com",
   "role": "Contact",
   "website": "https://pctcpa.com",
@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/ryan-olson-uncg",
-  "company_linkedin": "https://www.linkedin.com/company/paul-cox-&-todd-pllc",
+  "linkedin": "https://www.linkedin.com/in/ryan-olson-uncg/",
+  "company_linkedin": "https://www.linkedin.com/company/paul-cox-&-todd-pllc/",
   "source_url": "https://pctcpa.com",
-  "source_type": "",
   "description": "Winston-Salem accounting firm offering tax planning, bookkeeping, QuickBooks support, and business advisory services with guidance from experienced local CPAs.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

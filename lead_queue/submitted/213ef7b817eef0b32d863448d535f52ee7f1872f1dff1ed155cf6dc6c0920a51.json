@@ -2,7 +2,7 @@
   "business": "Bird Rock Business Advisory - Empowering Entrepreneurs",
   "full_name": "Brandon Lead",
   "first": "Brandon",
-  "last": "Lead",
+  "last": "Franks",
   "email": "brandon@birdrockadvisory.ca",
   "role": "Contact",
   "website": "https://birdrockadvisory.ca",
@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/brandon-franks-8376109b",
-  "company_linkedin": "https://www.linkedin.com/company/ra-capital-raven",
+  "linkedin": "https://www.linkedin.com/in/brandon-franks-8376109b/",
+  "company_linkedin": "https://www.linkedin.com/company/ra-capital-raven/",
   "source_url": "https://birdrockadvisory.ca",
-  "source_type": "",
   "description": "Bird Rock Business Advisory is a small business advisory firm in Southwestern Ontario. We make seeking help accessible to business owners and entrepreneurs with affordable, flexible fee structures tailored to your cash flows.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": null,
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

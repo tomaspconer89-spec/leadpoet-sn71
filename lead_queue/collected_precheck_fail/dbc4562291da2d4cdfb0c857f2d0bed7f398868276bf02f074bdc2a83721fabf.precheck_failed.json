@@ -11,19 +11,20 @@
     "website": "https://digitalmarketingagency.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
-    "company_linkedin": "https://www.linkedin.com/company/dma-digital-marketing-agency-com",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/dma-digital-marketing-agency-com/",
     "source_url": "https://digitalmarketingagency.com",
     "description": "Digital Marketing Agency is one of the best SEO Services Agency offering various marketing &amp; technology services such as SEO, PPC &amp; Web Development. Schedule your free consultation today.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/dma-digital-marketing-agency-com",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "D_low_confidence_hold"
 }

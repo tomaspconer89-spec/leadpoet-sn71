@@ -14,8 +14,8 @@
     "country": "a professional community of",
     "state": "",
     "city": "\u00b7 Education: University of Florida \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Ethan Chen-Fung's profile on LinkedIn",
-    "linkedin": "https://www.linkedin.com/in/ethan-chen-fung",
-    "company_linkedin": "https://www.linkedin.com/company/saleshandy",
+    "linkedin": "https://www.linkedin.com/in/ethan-chen-fung/",
+    "company_linkedin": "https://www.linkedin.com/company/saleshandy/",
     "source_url": "https://saleshandy.com",
     "description": "The best cold email outreach software to generate more leads. Automate your outreach with unlimited email accounts, high deliverability, and better open and reply rates.",
     "employee_count": "11-50",
@@ -24,13 +24,7 @@
     "hq_city": "\u00b7 Education: University of Florida \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Ethan Chen-Fung's profile on LinkedIn",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/saleshandy",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null
-    }
+    "socials": {}
   },
   "queue_bucket": "D_low_confidence_hold"
 }

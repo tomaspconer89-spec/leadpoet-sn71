@@ -14,8 +14,8 @@
     "country": "United States",
     "state": "I've built a national network of over 2",
     "city": "Error: Got empty search results page (0 organic + paid results)",
-    "linkedin": "https://www.linkedin.com/in/jackmcculloughcfo",
-    "company_linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil",
+    "linkedin": "https://www.linkedin.com/in/jackmcculloughcfo/",
+    "company_linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil/",
     "source_url": "https://cfoleadership.com",
     "description": "CFO Leadership provides professional services to clients; details were sourced from the company website at https://cfoleadership.com.",
     "employee_count": "11-50",
@@ -24,14 +24,7 @@
     "hq_city": "Error: Got empty search results page (0 organic + paid results)",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil",
-      "github": null,
-      "twitter": null,
-      "telegram": null,
-      "instagram": null,
-      "facebook": null
-    }
+    "socials": {}
   },
   "queue_bucket": "B_retry_enrichment"
 }

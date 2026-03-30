@@ -11,8 +11,8 @@
   "country": "United States",
   "state": "Texas",
   "city": "Ryan Allis. SaasRise Harvard Business School. Austin",
-  "linkedin": "https://www.linkedin.com/in/ryanallis",
-  "company_linkedin": "https://www.linkedin.com/company/saasriseco",
+  "linkedin": "https://www.linkedin.com/in/ryanallis/",
+  "company_linkedin": "https://www.linkedin.com/company/saasriseco/",
   "source_url": "https://saasrise.com",
   "description": "SaasRise - The #1 SaaS Growth Community for Experienced CEOs &amp; Founders provides professional services to clients; details were sourced from the company website at https://saasrise.com.",
   "employee_count": "11-50",
@@ -21,11 +21,5 @@
   "hq_city": "Ryan Allis. SaasRise Harvard Business School. Austin",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/saasriseco",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }

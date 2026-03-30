@@ -11,22 +11,15 @@
   "country": "United States",
   "state": "SC",
   "city": "Columbia",
-  "linkedin": "https://www.linkedin.com/in/lynn-tickner",
-  "company_linkedin": "https://www.linkedin.com/company/web-designer_2",
+  "linkedin": "https://www.linkedin.com/in/lynn-tickner/",
+  "company_linkedin": "https://www.linkedin.com/company/web-designer_2/",
   "source_url": "https://inkandkey.com",
-  "source_type": "company_site",
   "description": "Elevate your brand with StoryBrand-driven web design in Columbia, SC. Clear messaging, clean websites, and strategy that helps your business grow.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "SC",
   "hq_city": "Columbia",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/web-designer_2",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null,
-    "facebook": null
-  }
+  "socials": {}
 }

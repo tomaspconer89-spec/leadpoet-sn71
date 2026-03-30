@@ -2,7 +2,7 @@
   "business": "Accounting, Controllers, CFOs, HR Services - Optima Office",
   "full_name": "Marketing Lead",
   "first": "Marketing",
-  "last": "Lead",
+  "last": "Baker",
   "email": "marketing@optimaoffice.com",
   "role": "Contact",
   "website": "https://optimaoffice.com",
@@ -11,21 +11,15 @@
   "country": "United States",
   "state": "",
   "city": "",
-  "linkedin": "https://www.linkedin.com/in/denise-baker-69725680",
-  "company_linkedin": "https://www.linkedin.com/company/optimaoffice",
+  "linkedin": "https://www.linkedin.com/in/denise-baker-69725680/",
+  "company_linkedin": "https://www.linkedin.com/company/optimaoffice/",
   "source_url": "https://optimaoffice.com",
-  "source_type": "",
   "description": "Optima Office provides outsourced accounting, fractional CFOs, financial controllers, recruiting, HR services, and custom-built solutions for businesses.",
   "employee_count": "11-50",
   "hq_country": "United States",
   "hq_state": "",
   "hq_city": "",
+  "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {
-    "linkedin": "https://www.linkedin.com/company/optimaoffice",
-    "github": null,
-    "twitter": null,
-    "telegram": null,
-    "instagram": null
-  }
+  "socials": {}
 }
