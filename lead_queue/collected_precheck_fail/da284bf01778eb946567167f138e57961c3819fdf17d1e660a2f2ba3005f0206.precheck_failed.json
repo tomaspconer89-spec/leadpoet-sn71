@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Alliance Consulting Group - Consulting Services",
+  "lead": {
+    "business": "Alliance Consulting Group - Consulting Services",
+    "full_name": "Recruiting Lead",
+    "first": "Recruiting",
+    "last": "Aaron A30501107",
+    "email": "recruiting@alliancecg.com",
+    "role": "Contact",
+    "website": "https://alliancecg.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/carly-aaron-a30501107/",
+    "company_linkedin": "https://www.linkedin.com/company/alliance-consulting-group/",
+    "source_url": "https://alliancecg.com",
+    "description": "Discover innovative solutions with Alliance Consulting Group. Reach out today for expert consulting services and strategic advice!",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

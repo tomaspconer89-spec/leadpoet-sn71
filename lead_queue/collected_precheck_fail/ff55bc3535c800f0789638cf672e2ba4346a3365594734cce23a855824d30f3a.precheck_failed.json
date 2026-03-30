@@ -1,0 +1,28 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "The Best Tax, Financial, and Accounting Services | Indinero",
+  "lead": {
+    "business": "The Best Tax, Financial, and Accounting Services | Indinero",
+    "role": "founder",
+    "website": "https://indinero.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "city": "Duluth",
+    "company_linkedin": "https://www.linkedin.com/company/indinero",
+    "source_url": "https://indinero.com",
+    "description": "[Skip to main content](https://www.indinero.com/#brx-content) [Skip to footer](https://www.indinero.com/#brx-footer) [![Indinero](https://www.indinero.com/wp-content/uploads/2023/06/logo.svg)](https://www.indinero.com) * [Services](http://www.indinero.com/services/) * [Bookkeeping](http://www.indinero.com/services/online-bookkeeping-services/) * [Accounting](http://www.indinero.com/services/accounting-services/) * [CFO Services](http://www.indinero.com/services/cfo-services/) * [Business Taxes](http://www.indinero.com/services/business-tax-services/) * [Payroll](http://www.indinero.com/canada",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_city": "Duluth",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  }
+}

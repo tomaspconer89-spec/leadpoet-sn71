@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach",
+  "lead": {
+    "business": "Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach",
+    "website": "https://prospeo.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "company_linkedin": "https://ca.linkedin.com/company/%CF%81r%CE%BF%D1%95%D1%80%D0%B5%CE%BF",
+    "source_url": "https://prospeo.io",
+    "description": "Prospeo helps sales teams find verified business emails and mobile numbers. Export leads and connect with decision-makers.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  }
+}

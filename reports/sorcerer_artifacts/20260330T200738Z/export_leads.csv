@@ -1,0 +1,920 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.specialties","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T20:07:32.278723Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpd5wrifuo/evidence/domain/cansulta.com.json","","2026-06-28T20:07:32.278726Z","startup advisory services founder contact","2026-03-30T20:06:14.052474Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","WG Consulting is a business management consulting firm that guides organizations through operational, financial, and strategic complexities.",">100","https://wgconsulting.com","","Houston, TX, USA","Consulting","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","WG Consulting","0","","$5.5B in Transaction Advisory Services","","","","","","","Financial Advisory|Financial Optimization|Transaction Advisory|Executive Search|Supply Chain Management|Data Analytics & Business Intelligence|Process Improvement & Operational Efficiency|AI & Digital Innovation","Business Management Consulting","0.0","0.0009","0.0","0.0009","wgconsulting.com","Basic company information available; Company name available; Company description available; Industry information available; Location information available; Employee count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","d64124ef9e70236f7abb3b7ed333a49cd60260dede1cd52e34f2997c7814f59e","0.0","0.3","a6527363-0f63-50d2-b4f9-7933c8066763","","2026-03-30T20:07:32.291686Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/wgconsulting.com.json","/tmp/tmpd5wrifuo/evidence/domain/wgconsulting.com.json","","2026-06-28T20:07:32.291689Z","business consulting firm advisor email","2026-03-30T20:06:30.825956Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-03-30T20:07:32.304478Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmpd5wrifuo/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-28T20:07:32.304480Z","business consulting firm advisor email","2026-03-30T20:06:32.522665Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T20:07:32.317311Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpd5wrifuo/evidence/domain/maynardnexsen.com.json","","2026-06-28T20:07:32.317313Z","business consulting firm advisor email","2026-03-30T20:06:33.822337Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Embark is a financial consulting and advisory firm focused on optimizing finance, technology, HR, &amp; operations.","","https://embarkwithus.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Embark Financial Consulting and Advisory Firm","1","","","","","","https://www.linkedin.com/company/embarkwithus","","","","","0.0","0.0009","0.0","0.0009","embarkwithus.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","a3679d0ab871da2eed90bf6461bd546787e8bafa8f6fe063b562abfb88b097d6","0.0","0.3","242b300f-6a23-5a3d-8d44-832e6de25103","","2026-03-30T20:07:32.330149Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/embarkwithus.com.json","/tmp/tmpd5wrifuo/evidence/domain/embarkwithus.com.json","","2026-06-28T20:07:32.330151Z","business consulting firm advisor email","2026-03-30T20:06:34.482010Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[](https://www.capchase.com/)
+Product
+#### PLATFORM
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b509a3779041f485b1fa3_Features.svg) Features Discover the tools that make it easy to offer payment flexibility. ](https://www.capchase.com/features)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533828035673a6280839_Integrations.svg) Integrations Explore our CRM apps, APIs and data integrations. ](https://www.capchase.com/integrations)
+#### BY DEPARTMENT
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339f71b13cd1e531ac1_Finance.svg) Finance Optimize cash flow by getting full contract value upfront. ](https://www.capchase.com/department/finance)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339158f3f731924dce4_Sales.svg) Sales Close more, at a higher value by removing price and term friction. ](https://www.capchase.com/department/sales)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67f50a84a17e18addc50b3f5_Buyers.svg) Buyers Pay on flexible terms and take control of your cash flow. ](https://www.capchase.com/buyers)
+Resources
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b53397e733ecbd35543b8_Resources%20Hub.svg) Resources Hub Learn more about what’s new in the B2B payments space. ](https://www.capchase.com/resources-hub)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5338a6b9aeec8e7d10b8_Pulse%20of%20SaaS.svg) Pulse of SaaS V See how your performance compares to your industry peers. ](https://www.capchase.com/lp/pulse-of-saas-v)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5338ee63156561b36110_Discount%20Impact.svg) Discount Impact Calculate how much ARR you are losing by discounting. ](https://tools.capchase.com/discount-impact-calculator?_gl=1*97suxj*_gcl_aw*R0NMLjE3MzI4MDQ3NTcuQ2p3S0NBaUF4cUM2QmhCY0Vpd0FsWHA0NTY2S2RpelA1TDRDbkhiUENMRDJEa2NCTGd2TnRVN1l4QjF3YjhpcUJkbGxhU3NKdXlhUHRob0MwQnNRQXZEX0J3RQ..*_gcl_au*MTk1MDQ3NDI0Mi4xNzM3NzEzNDYy)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533911fe440d84e6c7b1_ARR.svg) ARR Calculator See how much your ARR could grow with Capchase Pay. ](https://tools.capchase.com/arr-calculator)
+Company
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339f0bd808952c09738_About.svg) About Learn about our mission, journey and milestones. ](https://www.capchase.com/about)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5370e7954b1d9cd37e09_Careers.svg) Careers Join us as we disrupt and redefine a category. ](https://www.capchase.com/careers)
+Customers
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67f509e609fe41e66571eb8d_Stories.svg) Customer stories Explore how we help customers grow their businesses. ](https://www.capchase.com/customers)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67b3615246cddc4803e0f02e_Wall%20of%20love.svg) Wall of love Don’t take our word for it, hear it from our customers. ](https://www.capchase.com/wall-of-love)
+[Book a call](https://www.capchase.com/demo)[Log in](https://app.capchase.com/login)
+[Log in](https://app.capchase.com/login)[Book a call](https://www.capchase.com/demo)
+# The fastest way to finance software and hardware
+Choose Capchase as your financing partner to close deals faster and increase your earnings. Approve your buyer, configure your offer, and win your deal in minutes.
+[Book a call](https://www.capchase.com/demo)
+Trusted by over 10,000 vendors & buyers
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2bfd6294531eb547b806e_gradient-1.webp)
+### Buyers expect payment options
+82% of U.S. companies use financing for equipment and software. If you don’t offer it, you risk losing the deal.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2c0d038469984e1c349d7_image-2.webp)
+### Financing is often the roadblock
+Clunky, slow, and unreliable processes stall sales. Done right, financing accelerates deals and keeps you in control.
+### Capchase makes financing easier
+Close high-velocity or high-complexity transactions in minutes, not weeks. Reseller partner approved.
+## Experience the Capchase advantage
+Embedded vendor financing that delivers faster approvals, easy deal configurations, and real-time deal status–right where you work.
+For Sales
+### Close more deals at a higher value
+Use flexible payment options as a competitive advantage. Whether your customer prefers monthly, quarterly, or extended net terms - give them the choice they want.
+[Learn more](https://www.capchase.com/department/sales)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cc2f18bce12671fa026ec0_laptop-new.webp)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67b486ac339ddec78540d46d_Card-neww.png)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67adf0f761a0d053b55105ad_Finance-1.webp)
+For Finance
+### Get paid upfront without slowing sales
+Offer payment flexibility while still getting paid upfront on every deal—including multi-year and reseller deals—eliminating billing headaches and putting an end to chasing payments.
+[Learn more](https://www.capchase.com/department/finance)
+## Win-win for your business, partners, and customers
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2da91024544ae491cae81_webp.webp)
+### Vendors & Manufacturers
+Get paid upfront, empower customers with flexible payments, and leave the collections burden to us. Partner channel approved.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2dabce8165ab45ce7b7dd_layout.webp)
+### Reseller Partners
+Cut closing from weeks to minutes with easy financing, seamless checkout, and faster payouts.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2daef4a17b8835cbdcbc1_buyer.webp)
+### Buyers
+Allow your customers to optimize their cash flow while still purchasing the tech they need to be successful.
+## Everything you need to simplify B2B financing
+Use Capchase from within your sales team's daily tools. Create a white-labeled captive financing program. Enjoy a faster, more responsive, and better experience.  
+
+[Learn more](https://www.capchase.com/features)
+### Easy deal configuration  
+
+Generate payment options to best fit your deal including term length, payment frequency, net terms, and subsidy—calculating pricing in real-time.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b7b12129d16826d688902_PL-visual.svg)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b7bc368ed600e8a5ded7f_Vendor-PL.svg)
+### Instant buyer qualification
+Approve your customers in advance—in just minutes not weeks—so you can offer financing confidently.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cc1631ae0cd168e0f2e1d5_ui.png)![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cc1631ae0cd168e0f2e1d5_ui.png)
+### Captive financing program  
+
+Extending your brand throughout the payments experience, powered and funded by Capchase.
+### Embedded in your sales tools
+Work directly in Salesforce CRM, receive immediate updates in Slack or Teams, track your buyer’s order completion live.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b817a692182130c28f0d8_salseforce.svg)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b81d8a97b79c676f60767_hubspot.svg)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c94fb6f3a4dbda90fbca9b_Frame%201171277195.svg)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b8251f76bdf24c9375c8d_Code.svg)
+## Hear from our customers
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf1ce276700e2877fb461_testiominal1.webp) I’ve gotten someone approved for a $70k deal while still on the call with them. The power of that is unbelievable. ![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf1e891e1f0cbbf39d08d_headshot.webp) Nick Amaro REGIONAL SALES MANAGER ](https://www.capchase.com/customers/rhombus)
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf35958a8292c99074309_GENUSYS.webp) Capchase provides ease for both buyers and sellers – it’s light years ahead of traditional contract financing. ![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf372501b9cfd438611dc_headshot-genusys.webp) Mike Choate VP OF SALES ](https://www.capchase.com/customers/genusys)
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf256e992886b74ad2788_creyos.webp) Capchase has become a powerful tool in our negotiation toolbox that maximizes the revenue we’re bringing each month. ![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf2ccf367ddc927e7d027_headshot-creyos.webp) Spencer Yeung SALES DIRECTOR AT CREYOS ](https://www.capchase.com/customers/creyos)
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf3eb0362b304ee236c91_case-status.webp) We were able to explore and vet the solution, sign and implement, and close our first deal using Capchase flexible payment terms – all in just weeks. ![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf41184262aadf1d36d28_headshot-CASE.webp) Charlie Lee CHIEF CUSTOMER OFFICER ](https://www.capchase.com/customers/case-status)
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbf4a8abbb06e6796b374e_IAM.webp) Leading IAM Platform You submit the financing request and Capchase tells you near immediately where it stands. That kind of live feedback is a game changer. Account Executive ](https://www.capchase.com/customers/iam-platform)
+### Expansive coverage   
+in 9 countries
+Buyers across regions are looking for flexible payment options that meet their needs. Offer financing easily and effectively across all your regions.
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c2eab1c1bb1b3e9a018900_export-globe.webp)
+## Making financing easier and faster
+SECURE BY DESIGN
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c4133f6d2a30acf5f7f32b_soc.png)![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68c41313add6a68f722cd3e6_GDPR.png)
+10,000+
+Vendors and buyers  
+
+$450M+
+Volume  
+
+80%
+Faster than traditional financing  
+
+5 min
+From approval to order  
+
+5x
+More cash upfront  
+
+100%
+More visibility into deal status  
+
+[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5c121061038f83cb4d8e_Frame%201171276669.svg)](https://www.g2.com/products/capchase/reviews)
+## Award-winning technology and service
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68d5175dd584a70bcfb79404_Search%20from%20Lukasz%20Notion%20Mail.png)
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbc680d987ac1d3771ec24_image%20110.png)
+## Let's talk
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+## You'll hear from us in less than 24 hours
+![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68cbfba0449cb3c0b08f21fb_UI.webp)
+**Platform**
+[Features](https://www.capchase.com/features)[Integrations](https://www.capchase.com/integrations)[For Finance](https://www.capchase.com/department/finance)[For Sales](https://www.capchase.com/department/sales)[Buyer Experience](https://www.capchase.com/invoice-financing)
+company
+[About](https://www.capchase.com/about)[Careers](https://www.capchase.com/careers)[Privacy Policy](https://www.capchase.com/privacy-policy)[Terms of Use](https://www.capchase.com/terms-of-use)
+Resources
+[Resources Hub](https://www.capchase.com/resources-hub)[Blog](https://www.capchase.com/blog)[Customer stories](https://www.capchase.com/customers)[Wall of love](https://www.capchase.com/wall-of-love)[Pulse of SaaS V](https://www.capchase.com/lp/pulse-of-saas-v)[B2B BNPL Guide](https://www.capchase.com/blog/b2b-bnpl-why-it-matters-and-how-it-works)
+Contact
+[Talk to our team](https://www.capchase.com/demo)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/669e8721451062990cb869c4_Linkedin.svg)LinkedIn](https://www.linkedin.com/company/capchase/)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/66a134391353e5872454aacf_X.svg)Twitter](https://x.com/Capchase)
+### Stay up-to-date with the latest from Capchase
+© Capchase 2025
+[Privacy Policy](https://www.capchase.com/privacy-policy)[Terms of Use](https://www.capchase.com/terms-of-use)
+[ ![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/68d1132343a7b995a2a67482_miles-img.webp)Book a call ](https://www.capchase.com/demo)
+","","https://capchase.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Modern Vendor Financing for B2B Software and Hardware Purchases | Capchase","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","capchase.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/15","0.6667","llm","heuristic_no_credit","ee0af16ba6051f69da4883a38612fc90db61412431efb4f37fbe9535569fb4ea","0.0","0.3","87c33917-3074-521c-b7a5-d52ecbdf7292","","2026-03-30T20:07:32.343257Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/capchase.com.json","/tmp/tmpd5wrifuo/evidence/domain/capchase.com.json","","2026-06-28T20:07:32.343259Z","SaaS startup CEO contact information","2026-03-30T20:06:38.421664Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T20:07:32.382701Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpd5wrifuo/evidence/domain/vaam.io.json","","2026-06-28T20:07:32.382703Z","SaaS startup CEO contact information","2026-03-30T20:06:39.808759Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Prospeo helps sales teams find verified business emails and mobile numbers. Export leads and connect with decision-makers.","","https://prospeo.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","prospeo.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","0fd36ef9a9e481aaf1548f1d142de09243c16cc51b6fc36ef3cb50694e009fe1","0.0","0.3","72e3cf97-8949-507d-b2a1-8e61565895a8","","2026-03-30T20:07:32.395799Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/prospeo.io.json","/tmp/tmpd5wrifuo/evidence/domain/prospeo.io.json","","2026-06-28T20:07:32.395802Z","SaaS startup CEO contact information","2026-03-30T20:06:40.802208Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T20:07:32.408625Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpd5wrifuo/evidence/domain/findemails.com.json","","2026-06-28T20:07:32.408627Z","SaaS startup CEO contact information","2026-03-30T20:06:41.800961Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Pyrsonalize is the ultimate AI Lead Generation platform. Our AI discovers qualified leads, writes personalized emails, and helps you book meetings automatically.","","https://pyrsonalize.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AI Lead Generation Tool","1","","","","","","https://www.linkedin.com/company/pyrsonalize","","","","","0.0","0.0009","0.0","0.0009","pyrsonalize.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/15","1.0","llm","heuristic_no_credit","68077c04f6b25f0c29c55d21cf3c1ad3dd9ad663dd40d04557961f1c097847e0","0.0","0.3","71d196f6-4348-5392-87e3-bfbcc83d447e","","2026-03-30T20:07:32.421858Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pyrsonalize.com.json","/tmp/tmpd5wrifuo/evidence/domain/pyrsonalize.com.json","","2026-06-28T20:07:32.421860Z","SaaS startup CEO contact information","2026-03-30T20:06:43.098685Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://venturegrowthpartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Fractional CFO/COO Services","1","","","","","","https://www.linkedin.com/company/vgp-venture-growth-partners","","","","","0.0","0.0009","0.0","0.0009","venturegrowthpartners.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","daba55742332053ea5a45713553e25550c6fd376e112362f66eb3a0f36027b42","0.0","0.3","74d3c9dc-fcc8-5dc0-968c-eb56e5be2298","","2026-03-30T20:07:32.434672Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/venturegrowthpartners.com.json","/tmp/tmpd5wrifuo/evidence/domain/venturegrowthpartners.com.json","","2026-06-28T20:07:32.434674Z","venture consulting firm partner email","2026-03-30T20:06:47.288645Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![thumbnail image](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/195402/893649_899987.png)
+[![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/106216/790367_324375.png)](http://www.VUVenturePartners.com)
+[![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/106216/790367_324375.png)](http://www.VUVenturePartners.com)
+![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1/tree2_ikglm8.png)
+  * [Home](https://www.vuventurepartners.com/)
+  * [About](https://www.vuventurepartners.com/about)
+  * [Pitch](https://www.vuventurepartners.com/pitch)
+  * Funds
+    * [Global VC Fund](https://www.vuventurepartners.com/global-vc-fund)
+    * [Regional VC Funds](https://www.vuventurepartners.com/regional-vc-funds)
+    * [Invest Deal-by-Deal](https://www.vuventurepartners.com/invest-deal-by-deal)
+  * [Portfolio](https://www.vuventurepartners.com/investments)
+  * [Team](https://www.vuventurepartners.com/team)
+  * [Jobs](https://jobs.vuventurepartners.com/)
+  * [Contact](https://www.vuventurepartners.com/contact)
+  * _…_
+    * [Home](https://www.vuventurepartners.com/)
+    * [About](https://www.vuventurepartners.com/about)
+    * [Pitch](https://www.vuventurepartners.com/pitch)
+    * Funds
+      * [Global VC Fund](https://www.vuventurepartners.com/global-vc-fund)
+      * [Regional VC Funds](https://www.vuventurepartners.com/regional-vc-funds)
+      * [Invest Deal-by-Deal](https://www.vuventurepartners.com/invest-deal-by-deal)
+    * [Portfolio](https://www.vuventurepartners.com/investments)
+    * [Team](https://www.vuventurepartners.com/team)
+    * [Jobs](https://jobs.vuventurepartners.com/)
+    * [Contact](https://www.vuventurepartners.com/contact)
+
+
+[Invest With VUVP](https://5jnciibb18c.typeform.com/to/jbOcTT7y)
+[![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/106216/790367_324375.png)](http://www.VUVenturePartners.com)
+[![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/106216/790367_324375.png)](http://www.VUVenturePartners.com)
+![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1/tree2_ikglm8.png)
+  * [Home](https://www.vuventurepartners.com/)
+  * [About](https://www.vuventurepartners.com/about)
+  * [Pitch](https://www.vuventurepartners.com/pitch)
+  * Funds
+    * [Global VC Fund](https://www.vuventurepartners.com/global-vc-fund)
+    * [Regional VC Funds](https://www.vuventurepartners.com/regional-vc-funds)
+    * [Invest Deal-by-Deal](https://www.vuventurepartners.com/invest-deal-by-deal)
+  * [Portfolio](https://www.vuventurepartners.com/investments)
+  * [Team](https://www.vuventurepartners.com/team)
+  * [Jobs](https://jobs.vuventurepartners.com/)
+  * [Contact](https://www.vuventurepartners.com/contact)
+  * _…_
+    * [Home](https://www.vuventurepartners.com/)
+    * [About](https://www.vuventurepartners.com/about)
+    * [Pitch](https://www.vuventurepartners.com/pitch)
+    * Funds
+      * [Global VC Fund](https://www.vuventurepartners.com/global-vc-fund)
+      * [Regional VC Funds](https://www.vuventurepartners.com/regional-vc-funds)
+      * [Invest Deal-by-Deal](https://www.vuventurepartners.com/invest-deal-by-deal)
+    * [Portfolio](https://www.vuventurepartners.com/investments)
+    * [Team](https://www.vuventurepartners.com/team)
+    * [Jobs](https://jobs.vuventurepartners.com/)
+    * [Contact](https://www.vuventurepartners.com/contact)
+
+
+[Invest With VUVP](https://5jnciibb18c.typeform.com/to/jbOcTT7y)
+[![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/106216/790367_324375.png)](http://www.VUVenturePartners.com)
+  * # 
+**A Global Early Stage Tech Venture Capital Fund**
+**Investing In The World's Largest Market Opportunities**
+**Solving The Biggest Challenges For Humanity**
+  * ### 
+**VU's Investment Managers Have Been Early Investors In 25+ Unicorns**
+**& 20+ Multi-Billion Exits**
+![](https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/106216/871791_931424.png)
+  * ## 
+**VU Operates At A Scale & Strength Greater Than A $1B+ Venture Capital Fund​**
+**10x Larger Investment Team**
+**VU's Investment Team = 70+ Investors**
+vs. Avg. $100M VC Fund Team = 3-7 Investors
+vs. Avg. $1B+ VC Fund Team = 20-40 Investors
+**High Quality Investment Team**
+VU's senior [**Investment Managers**](https://www.vuventurepartners.com/team)have **50+ yrs of VC experience** leading some of the largest and best performing VC funds in the world, **investing $2B+, generating 4x+ net realized cash-on-cash returns**
+**10x More Deal Flow**
+**VU Sources ~20,000 Deals / Year**
+vs. Avg. $100M VC Fund Sources ~2,000 Deals / Year
+vs. Avg. $1B+ VC Fund Sources ~5,000-7,000 Deals / Year
+**10x More Selective**
+**VU Invests In ~0.1% Of The Companies Sourced & Reviewed**
+vs. Avg. $100M VC Fund: ~1%
+vs. Avg. $1B+ VC Fund: ~1%
+**Covering Markets Broader, Deeper, Faster, & Smarter**
+Dedicated investment teams focused on:
+    * Consumer
+    * Enterprise
+    * FinTech
+    * Frontier
+    * Healthcare
+    * PropTech
+**Geography Agnostic**
+HQ offices in:
+    * **North America:** San Francisco, United States
+    * **Asia-Pacific:** Hong Kong, China
+    * **Western Europe:** Munich, Germany
+    * **Eastern Europe:** Burgas, Bulgaria
+    * **LatAm:** São Paulo, Brazil
+VU also has investment teams that operate across:
+    * **North America:** Canada, LA, Chicago, Austin, Philadelphia, Austin, NYC, Boston, & Miami
+    * **Europe:** UK, Germany, France, Netherlands
+    * **LatAm:** Mexico, Brazil
+    * **Asia-Pacific:** China, Singapore, Malaysia, India, Korea, Japan, Australia
+    * **Africa:** Nigeria & South Africa
+    * **Middle East:** Israel & Saudi Arabia
+**Investments**
+**Initial Investment:** $200K - $1M
+**Follow-on Investments:** Up to $10M
+**Activity:** 2-5 New Portfolio Company Investments per Quarter
+**Capital Reserved For Following & Leading Investments**
+VU is a **long term capital partner** throughout a portfolio company's journey, with the capability to lead and participate in multiple follow-on rounds
+**A Powerful Proprietary Network To Better Support Portfolio Companies**
+VU has access to the global startup, corporate, and investor ecosystem through its **proprietary insider investor network** at an unprecedented scale
+VU accelerates the growth and success of its portfolio companies by actively supporting **customer acquisition, partnerships, capital raising, hiring, marketing, and exit strategies**
+
+
+[Investors](https://5jnciibb18c.typeform.com/to/jbOcTT7y)[Startups](https://docs.google.com/forms/d/e/1FAIpQLSd19F2j56zmU7wyQbXlmAAt0o0oC3x6Txdq7yzGIcPm6kB0lw/viewform?usp=sf_link) 
+
+Cookie Use
+We use cookies to ensure a smooth browsing experience. By continuing we assume you accept the use of cookies.
+Accept
+[Learn More](https://www.vuventurepartners.com/pages/cookie-policy)
+","","https://vuventurepartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","VU Venture Partners","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vuventurepartners.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","d71224d72eb32ad1599e865a76202ff9e0af6ef034d2aa64f8343e7a8261e006","0.0","0.3","3678ec2b-0ed7-5311-ba90-bb5ac6978ce5","","2026-03-30T20:07:32.447738Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vuventurepartners.com.json","/tmp/tmpd5wrifuo/evidence/domain/vuventurepartners.com.json","","2026-06-28T20:07:32.447740Z","venture consulting firm partner email","2026-03-30T20:06:48.008466Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Cerity Partners offers comprehensive, custom-tailored wealth management for individuals, businesses, and nonprofit organizations.","","https://ceritypartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home","1","","","","","","https://www.linkedin.com/company/cerity-partners","","","","","0.0","0.0009","0.0","0.0009","ceritypartners.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","0c8a1498407d528ad33a782acfe7c895e9ec2194d840948511494b77c9267d1e","0.0","0.3","ffc739cd-0d67-5ff4-9c7a-7551f250593e","","2026-03-30T20:07:32.460573Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ceritypartners.com.json","/tmp/tmpd5wrifuo/evidence/domain/ceritypartners.com.json","","2026-06-28T20:07:32.460575Z","venture consulting firm partner email","2026-03-30T20:06:48.981292Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Award-winning Generative AI Consultancy For Financial Services. Gain advanced insights in Generative AI from Generative AI consultants.","","https://consultvp.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Generative AI Consultancy For Financial Services","1","","","","","","https://www.linkedin.com/company/consult-venture-partners","","","","","0.0","0.0009","0.0","0.0009","consultvp.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","a64f9fb2d4f9233d307d47e815592d81cc3882d952ec23c1de108df162d48b70","0.0","0.3","e49dbf9a-ecab-5b6b-9276-08ec35809368","","2026-03-30T20:07:32.473379Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/consultvp.com.json","/tmp/tmpd5wrifuo/evidence/domain/consultvp.com.json","","2026-06-28T20:07:32.473381Z","venture consulting firm partner email","2026-03-30T20:06:49.741229Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://smallbusinessadvisoryfirm.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","The Small Business Advisory Firm","1","","","","","","https://www.linkedin.com/company/small-business-advisory-firm","","","","","0.0","0.0009","0.0","0.0009","smallbusinessadvisoryfirm.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/17","0.7353","llm","heuristic_no_credit","417cebca1a8267aab1be2bf1f3dc43380dbcd0514c8843da24d0b35226d7e139","0.0","0.3","4660104a-6672-54d2-883d-8d8eeb56b72f","","2026-03-30T20:07:32.486392Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessadvisoryfirm.com.json","/tmp/tmpd5wrifuo/evidence/domain/smallbusinessadvisoryfirm.com.json","","2026-06-28T20:07:32.486394Z","small business advisory firm team page","2026-03-30T20:06:54.977262Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Do you need help with your business? We are here to help, providing invaluable advice for an affordable fee. Request a meeting today!","","https://smallbusinessadvisory.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Local Small Business Advisors","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","smallbusinessadvisory.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","5c14230c6571e45753a1254af22fcc6e5067f099559cfe71557d81edaea992f9","0.0","0.3","833f7b3a-24f9-51ed-a63a-0e07e1d8c5fa","","2026-03-30T20:07:32.499261Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessadvisory.com.json","/tmp/tmpd5wrifuo/evidence/domain/smallbusinessadvisory.com.json","","2026-06-28T20:07:32.499264Z","small business advisory firm team page","2026-03-30T20:06:56.260607Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","CA.gov is the official website for the State of California. You can find and access California services, resources, and more.","","https://ca.gov","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","California State Portal","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","ca.gov","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","694a3d28c8a79a4871ee6108606a77ec7b6b4036fa39aee979b7380ee9c6b73a","0.0","0.3","19efc845-a532-56a2-8aaa-0e4c092bbc95","","2026-03-30T20:07:32.512251Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ca.gov.json","/tmp/tmpd5wrifuo/evidence/domain/ca.gov.json","","2026-06-28T20:07:32.512253Z","small business advisory firm team page","2026-03-30T20:06:56.975629Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[![PitchBob.io Founders Co-pilot](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a981d_logo.svg)](https://pitchbob.io/)
+Products
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Co-Pilot](https://pitchbob.io/products/ai-startup-founders-co-pilot)[Enterprise](https://pitchbob.io/products/enterprise)[Improve Deck](https://pitchbob.io/products/improve-pitch-deck)[Business Plan](https://pitchbob.io/products/ai-business-plan-generator)[White Label](https://pitchbob.io/services/white-label)[VC analyst](https://pitchbob.io/products/vc)[Free tool](https://pitchbob.io/all-in-one)[VC Matching Tool](https://pitchbob.io/products/pitchdeck-vc-matcher)[Agreement Generator](https://pitchbob.io/products/founders-agreement-equity-tracker)[Equity Tracker](https://pitchbob.io/products/founders-agreement-equity-tracker)
+Services
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Pitch Deck Consultants](https://pitchbob.io/pitch-deck-consultants)[Scouting](https://pitchbob.io/services/scout-startup)[Startup Feedback](https://pitchbob.io/services/startup-feedback)[Outreach](https://pitchbob.io/services/outreach-team)[Mentorship & Tracking](https://pitchbob.io/services/startup-mentorship-and-tracking)[Grants](https://pitchbob.io/services/grants)
+[Pricing](https://pitchbob.io/#pricing)
+Media
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Blog](https://pitchbob.io/blog)[Launchpad](https://pitchbob.io/launchpad)[Database](https://pitchbob.io/pitch-deck-database)[Pitch Deck Outline 101](https://pitchbob.io/pitch-deck-outline)[TOP-100 Startups](https://pitchbob.io/top100)[Job board](https://pitchbob.io/services/startup-jobs)[Co-founders board](https://pitchbob.io/services/startup-co-founders)[Library](https://pitchbob.io/library)[Secret Seeds](https://pitchbob.io/secretseeds)
+Company
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[About](https://pitchbob.io/about)[History](https://pitchbob.io/history)[Founder](https://pitchbob.io/founder)[News](https://pitchbob.io/product-updates)[FAQ](https://pitchbob.io/faq)
+[PICK A PLAN](https://pitchbob.io/#pricing)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+en
+[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg) en ](https://pitchbob.io/)
+[ ![Germany](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92da_de.svg) de ](https://pitchbob.io/de)
+[ ![yt](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a927c_fr.svg) fr ](https://pitchbob.io/fr)
+[ ![Spain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92e4_ea.svg) es ](https://pitchbob.io/es)
+[ ![AE](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg) ar ](https://pitchbob.io/ar)
+[ ![Portugal](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93cb_pt.svg) pt ](https://pitchbob.io/pt)
+[ ![russia](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93d0_646140f7bc5c993a7118d42e_ru.svg) ru ](https://pitchbob.io/ru)
+[ ![Tr](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9406_tr.svg) tr ](https://pitchbob.io/tr)
+[ ![Italy](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9347_it.svg) it ](https://pitchbob.io/it)
+[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92c4_cn.svg) ZH ](https://asia.pitchbob.io)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9345_in.svg) HI ](https://asia.pitchbob.io/hi)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a935e_kr.svg) KO ](https://asia.pitchbob.io/ko)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a934a_jp.svg) JA ](https://asia.pitchbob.io/ja)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9425_vn.svg) VI ](https://asia.pitchbob.io/vi)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9341_id.svg) ID ](https://asia.pitchbob.io/id)
+# AI Pitch Deck Generator & Co-Pilot for Entrepreneurs
+Say goodbye to the "blank page problem"! Chat with the AI bot to quickly shape your business idea, refine your pitch, and accelerate your startup journey — see [how it works](https://www.youtube.com/@pitchbobio), learn [why ChatGPT alone can’t do the same](https://pitchbob.io/#faq-gpt), and discover [what you get](https://pitchbob.io/what-you-get).
+[Pick a Plan](https://pitchbob.io/#pricing)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a6d_lines.svg)
+[![Web](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e98ac47f949648cda_Web.svg)](https://pitchbob.io/#pricing)[![WhatsApp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ef4aacf552d958bd0_WhatsApp.svg)](https://pitchbob.io/#pricing)[![Telegram](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e724477807d82a98f_Telegram.svg)](https://pitchbob.io/#pricing)[![Discord](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e44e8f7462c96e76d_Discord.svg)](https://pitchbob.io/#pricing)[![WeChat](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ebf6c1f857bc0aebe_WeChat.svg)](https://pitchbob.io/#pricing)[![WeChat](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ebf6c1f857bc0aebe_WeChat.svg)](https://pitchbob.io/#pricing)[![Slack](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ef71fcd38c1db53ce_Slack.svg)](https://pitchbob.io/#pricing)[![Teams](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ed2f40f452bb66920_Teams.svg)](https://pitchbob.io/#pricing)
+0→1: From nothing to everything via one dialog with PitchBob
+Supported by
+![OpenAI](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a0e_openai.svg)
+![Microsoft for Startups](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a6f_microsoft.avif)
+![Google for Startups](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a0d_google-for-startups.svg)
+[![PitchBob.io - AI pitch deck generator & startup co-pilot | Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=439847&theme=light&period=daily)](https://www.producthunt.com/posts/pitchbob-io?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-pitchbob-io)
+[![PitchBob.io - AI pitch deck generator & startup co-pilot | Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=439847&theme=light&period=weekly&topic_id=268)](https://www.producthunt.com/posts/pitchbob-io?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-pitchbob-io)
+![4.4 out of 5 based on 24 reviews](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f826bb57dd4c08b56b45b1_trustpilot.svg)
+## Fully trusted. Officially used by
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94c9_main-alumni__logo-wrapper--logo-2.webp)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a976c_wharton.svg)
+![Startupbootcamp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9443_main-alumni__logo-wrapper--logo-4.png)
+![Bocconi](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978b_bocconi.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94dd_main-alumni__logo-wrapper--logo-5.png)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978a_eth.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a963a_startupwiseguys.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9797_lse.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e3_founder-institute.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a99a9_wu.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b85093078fe6e0bdbe_northeastern-university.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b7fc70363c1ba7ae2a_utrgv.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94c9_main-alumni__logo-wrapper--logo-2.webp)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a976c_wharton.svg)
+![Startupbootcamp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9443_main-alumni__logo-wrapper--logo-4.png)
+![Bocconi](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978b_bocconi.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94dd_main-alumni__logo-wrapper--logo-5.png)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978a_eth.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a963a_startupwiseguys.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9797_lse.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e3_founder-institute.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a99a9_wu.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b85093078fe6e0bdbe_northeastern-university.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b7fc70363c1ba7ae2a_utrgv.svg)
+🌱
+First-time founder, student, or corporate innovator?
+Shape, validate, and package your business idea from scratch — [all in one chat](https://pitchbob.io/#pricing) with our bot. Includes 📜 [founder agreement](https://pitchbob.io/products/founders-agreement-equity-tracker), 🧮 monthly co-founder contribution tracking. Zero to one, tons of artifacts. From a one-time $29.9.
+[PICK A PLAN](https://pitchbob.io/#pricing)
+📄
+Already have a pitch deck or one-pager?
+Don’t want to chat with the bot but need all the docs? Or want them in another language? Just 📥 [drop your file in the chat](https://pitchbob.io/products/improve-pitch-deck) — the bot handles the rest and emails everything to you. Flat one-time $99. No hassle.
+[Improve my pitch](https://pitchbob.io/products/improve-pitch-deck)
+💰
+Fundraising-mode founder or grant-seeking entrepreneur?
+We’ve got you covered: start with honest human 💬 [feedback on your idea](https://pitchbob.io/services/startup-feedback), then check if you’re eligible for 🇪🇺 [startup grants in Europe](https://pitchbob.io/services/grants). Get hands-on support from our [founder mentorship & tracking program ](https://pitchbob.io/services/startup-mentorship-and-tracking)or activate our 📬 [investor & client outreach team](https://pitchbob.io/services/outreach-team) to accelerate your journey. Use what you need, when you need it.
+🔁
+Working on your startup long-term?
+Need structure, discipline, and a continuous improvement mindset? 🧭 [PitchBob Founders Co-Pilot](https://pitchbob.io/products/ai-startup-founders-co-pilot) supports your monthly rhythm with planning, reflection, and auto-generated founder/stakeholder reports. From $19.9/month.
+🏢
+Corporation, university, accelerator, VC fund, incubator, or government hub?
+We offer 🏷️ [white-label](https://pitchbob.io/services/white-label) solutions starting from $99/month, 📊 [VC pipeline scoring](https://pitchbob.io/products/vc) scoring, 🔎 [free startup scouting](https://pitchbob.io/services/scout-startup), and 🎁 [perk partnerships](https://pitchbob.io/blog/perk-partnership-proposition-for-startup-accelerators-and-incubators) for your community.
+[Setup a call](https://calendly.com/dimamas/intro-call?back=1)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97a6_language.png)
+Supports and [translates your deck](https://pitchbob.io/products/improve-pitch-deck) to any language
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97a3_text-and-voice.png)
+Understands both text and voice
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97ad_learn-and-remember.png)
+Remembers and learns
+60,183
+tech entrepreneurs
+early-stage, first-time entrepreneurs, students, indie hackers, solo founders, and corporate intrapreneurs have trusted us with their innovative ideas.
+Updated: 8 Sep, 2025
+## Testimonials
+Very useful suggestions and guide to what is provided. Gives a great base for a deck which you can amend going forward.
+![Miles Ward photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95eb_Miles%20Ward.webp)![Great Britain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9305_gb.svg)
+Miles Alexander Ward
+TAP Asset Management
+Very user friendly and steps to be followed.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98ba_1516514434430.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg)
+Vinay Java
+Founder and CEO at Barrix Esports
+Step by step, very clear and clever.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9975_1597239709087.avif)![Ir](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9346_ir.svg)
+Soroush Sarabi
+Co-Founder at Green 3D Box Startup (CTO) | Raderon AI Lab Director
+I like how smooth the conversation was to craft the pitch!
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9989_1718251751200.avif)![sa](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ce_sa.svg)
+Sandy Nasser
+Operations and Events Director | Strategic Planning | Project Management | Team Leadership
+I liked the structure and proposed answers.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e4_1714654402196.avif)![Kazakhstan](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9360_kz.svg)
+**Nurbolat Sagenov**
+Founder of ON.AI
+I like how it did challenge my original ideas with new approach.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e0_1673231919157.avif)![australia round flag](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9567_australia.svg)
+Brendan Allsopp
+Transforming Talent Solutions With Innovation Backed By Data & Insights
+Very useful suggestions and guide to what is provided. Gives a great base for a deck which you can amend going forward.
+![Miles Ward photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95eb_Miles%20Ward.webp)![Great Britain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9305_gb.svg)
+Miles Alexander Ward
+TAP Asset Management
+Very user friendly and steps to be followed.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98ba_1516514434430.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg)
+Vinay Java
+Founder and CEO at Barrix Esports
+Step by step, very clear and clever.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9975_1597239709087.avif)![Ir](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9346_ir.svg)
+Soroush Sarabi
+Co-Founder at Green 3D Box Startup (CTO) | Raderon AI Lab Director
+I like how smooth the conversation was to craft the pitch!
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9989_1718251751200.avif)![sa](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ce_sa.svg)
+Sandy Nasser
+Operations and Events Director | Strategic Planning | Project Management | Team Leadership
+I liked the structure and proposed answers.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e4_1714654402196.avif)![Kazakhstan](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9360_kz.svg)
+**Nurbolat Sagenov**
+Founder of ON.AI
+I like how it did challenge my original ideas with new approach.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e0_1673231919157.avif)![australia round flag](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9567_australia.svg)
+Brendan Allsopp
+Transforming Talent Solutions With Innovation Backed By Data & Insights
+It’s absolut proper, nothing not proper.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a998b_1581527578182.avif)![Poland](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93bb_pl.svg)
+Kevin Johannes Worner
+Building media assets
+The language used by pitch bob is really good and professional. The flow of questions is perfect.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9820_chirag.webp)![India](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9345_in.svg)
+Chirag Goyal
+Holiday tribe
+Great idea and quite comprehensive.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9976_1689637666290.avif)![Se](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ec_se.svg)
+Daniel Dahlstrom
+CEO and Founder @Punch
+The interaction with you has been generally useful and has provided good insights into our product and company challenges.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9978_1718215013572.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92e4_ea.svg)
+Hector Barrio
+Technology Director
+Very accurate dissemination of input to produce quality crafted output.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98bb_1718744587216.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+Michael Murray-John
+Owner at MMJ Creative and Grillerrific
+I appreciate the inclusion of instant messaging features, which allows for convenient and real-time communication.
+![Jamil Yakasai photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95f5_Jamil%20Yakasai.webp)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+Jamil Yakasai
+Cloud Software HQ
+PitchBob.io was the only product that had a copilot feel. I used Whatsapp to ‘talk’ to Bob who was generous with feedback.
+![Raymond Luk photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95ec_Raymond%20Luk.webp)![Canada](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92bb_ca.svg)
+Raymond Luk
+Hockeystick
+It’s absolut proper, nothing not proper.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a998b_1581527578182.avif)![Poland](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93bb_pl.svg)
+Kevin Johannes Worner
+Building media assets
+The language used by pitch bob is really good ","","https://pitchbob.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AI Pitch Deck Generator & Co-Pilot for Building Startup | PitchBob","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","pitchbob.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","9c9faf75ccc7346c0b7f9a566b54ab73b664d2061a89fcdb0dac3eae3bd06b4c","0.0","0.3","69690e93-bc29-5c38-a5b9-8e4769571585","","2026-03-30T20:07:32.525643Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pitchbob.io.json","/tmp/tmpd5wrifuo/evidence/domain/pitchbob.io.json","","2026-06-28T20:07:32.525646Z","tech startup founder contact page","2026-03-30T20:07:01.744553Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27217%27%20height=%2732%27/%3e)![CoFoundersLab](https://cofounderslab.com/_next/static/media/cofounderslab-logo.3885b809.svg)
+LoginFind a CoFounder
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.ad4cbf6a.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.b6e32431.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-3.8a85b438.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.a6138ec1.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.9e95a008.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-6.2ed02a9e.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-7.77447654.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-8.facbdff3.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-9.a713ec9c.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-10.a4220a46.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-11.75c2ade9.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-12.4694bc36.jpg&w=128&q=75)
+#  The Startup CommunityStart. Grow. Fund.
+CoFoundersLab is the largest startup community on the Internet. Accelerate your business today.
+### Find a CoFounder
+Find your perfect partner based on interests, skills and location.
+### Get the Right Advice
+Get Exclusive Access to industry leaders to accelerate your growth
+### Get Funded
+Prepare and perfect your pitch to get your business funded today!
+#### TRUSTED BY INDUSTRY LEADERS
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/pepperdine.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-pepperdine.png)
+## Building The World's NextGreat Companies
+Join the largest startup community where entrepreneurs connect, collaborate, and create the future of business together
+### Innovation First
+Turn groundbreaking ideas into reality with the right team and resources
+### Find Your Co-Founder
+Connect with complementary skills and shared vision to build something amazing
+### Scale Together
+Access mentorship, resources, and a community that supports your growth
+### Launch Faster
+Accelerate your path from concept to market with proven frameworks
+## Join a Thriving Community
+Connect with thousands of entrepreneurs, founders, and innovators from around the world
+![Community member 1](https://cofounderslab.com/)
+![Community member 2](https://cofounderslab.com/)
+![Community member 3](https://cofounderslab.com/)
+![Community member 4](https://cofounderslab.com/)
+![Community member 5](https://cofounderslab.com/)
+![Community member 6](https://cofounderslab.com/)
+And 700,000+ more entrepreneurs worldwide
+#### Our Community
+## With you every step of the way
+### Start your business
+Got the next best idea in business? Get access to everything you need to take on the world with your StartUp
+Learn More →
+### Grow your business
+Ready to grow your market? Get exclusive access to professionals and leaders to get you there!
+Learn More →
+### Fund your business
+Is your business seeking capital? Access an exclusive network of investors and prepare your business to get Funded!
+Learn More →
+#### NETWORK
+## Connect to an Expansive Global Network
+CoFoundersLab connects you to entrepreneurs, advisors & investors across 200+ cities and 6 continents.
+![Global network map showing connections across continents](https://cofounderslab.com/)
+700,000
+User worldwide
+200+
+Expert advisors
+### "Take Our Idea And Turn It into A Solid Business"
+By helping us find the right team member, CoFoundersLab really did help us take our company idea and turn it into a solid business that has the potential to change the world!
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27512%27%20height=%27512%27/%3e)![Drew Taylor](https://cofounderslab.com/)
+Drew Taylor
+CoFounder of AstroPrint
+## Building Your Dream Business
+From advisors, investors, mentors & entrepreneurs, CoFoundersLab provides you with all the means necessary to find the perfect fit for your startup.
+![CoFoundersLab](https://cofounderslab.com/white-logo.png)![CoFoundersLab](https://cofounderslab.com/logo.png)
+#### Product
+  * [Premium](https://cofounderslab.com/premium)
+
+
+#### Resources
+  * [Privacy Policy](https://cofounderslab.com/privacy)
+
+
+#### Company
+  * [Contact us](https://cofounderslab.com/support)
+
+
+#### Join Newsletter
+#### Connect with us
+[](https://www.facebook.com/cofounderslab)[](https://www.youtube.com/cofounderslab)[](https://www.instagram.com/cofounderslab)
+","","https://cofounderslab.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","cofounderslab.com","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cofounderslab.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","6ecdfe1cb32e2d2a15711f44cdf006210c8ea96376b1adf7d279dba52838dae3","0.0","0.3","05296d9f-f230-5d5a-b166-36698c7b7684","","2026-03-30T20:07:32.538929Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cofounderslab.com.json","/tmp/tmpd5wrifuo/evidence/domain/cofounderslab.com.json","","2026-06-28T20:07:32.538931Z","tech startup founder contact page","2026-03-30T20:07:04.729826Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bookyourdata.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Buy Email List","1","","","","","","https://www.linkedin.com/company/bookyourdata.com","","","","","0.0","0.0009","0.0","0.0009","bookyourdata.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","d3ad10e14ff6df47c546d531c9222b40dbcfd953b4fec1eb94fdaf8322dbc772","0.0","0.3","0389ae3a-aceb-5e5f-a0cc-772d418f2409","","2026-03-30T20:07:32.551719Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bookyourdata.com.json","/tmp/tmpd5wrifuo/evidence/domain/bookyourdata.com.json","","2026-06-28T20:07:32.551721Z","tech startup founder contact page","2026-03-30T20:07:08.450904Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://foundersnetwork.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Founders Network","1","","","","","","https://www.linkedin.com/company/founders-network","","","","","0.0","0.0009","0.0","0.0009","foundersnetwork.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","4d998d425d1b584718e96b9bc095aa76028314ff872d323f2c50094fdbc034a4","0.0","0.3","f2ff5cc3-fc9a-5636-a3e2-6cf2dad387de","","2026-03-30T20:07:32.564568Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/foundersnetwork.com.json","/tmp/tmpd5wrifuo/evidence/domain/foundersnetwork.com.json","","2026-06-28T20:07:32.564570Z","tech startup founder contact page","2026-03-30T20:07:15.945278Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![Foundersbase Logo](https://us.foundersbase.com/assets/img/custom/logo/foundersbase-logo.svg) ](https://us.foundersbase.com/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+[ Founders ](https://us.foundersbase.com/members)
+[ Startups ](https://us.foundersbase.com/startups)
+[ Jobs ](https://us.foundersbase.com/jobs)
+  * ![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+
+
+![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+#  Your Startup Journey Begins Here.
+Whether you're looking for co-founders, investors, mentorship or want to join a startup, Foundersbase connects you with the people you need to make it happen!
+[ Join Now ](https://us.foundersbase.com/signup) [ Learn more ](https://us.foundersbase.com/#how-it-works)
+https://www.foundersbase.com/me/emily90 
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/home1.png)
+####  Networking for Entrepreneurs
+Finding the right co-founders and supporters is tough. Foundersbase connects me with people who share my vision and move things forward.
+![Image Description](https://us.foundersbase.com/assets/img/160x160/img3.jpg)
+#####  Raphael Alstom
+CPO @ Volko
+##  Find Co-Founders
+Connect with like-minded entrepreneurs to build your dream team and start your business.
+[](https://us.foundersbase.com/members)
+##  Join a Startup
+Discover exciting startup projects and join teams to bring innovative ideas to life.
+[](https://us.foundersbase.com/startups)
+##  Get Startup Support
+Find mentors, investors, and other startup supporters to help you grow your business.
+[](https://us.foundersbase.com/login)
+##  Let's co-found   
+startups together!
+The most important decision when building a startup company is who you're building it with. Here you'll find intrinsically motivated team members who go the extra mile and beyond.
+[ Join us today! ](https://us.foundersbase.com/jobs)
+##  Founders
+[](https://us.foundersbase.com/members)
+[ ![Sandra Bustos](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7132_1138627b-b59d-40e4-a547-a2df69cdaf86.jpg) Sandra Bustos building for real life pain points, love customers/users, and will things to happen. 
+  * AI & Machine Learning
+  * Cybersecurity & Data Protection
+
+
+* Mountain View ](https://us.foundersbase.com/me/sandrabuildingmeshly)
+[ ![Shannon Gray](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/9902_08754ec7-900c-4775-896a-cbc83e20e540.jpg) Shannon Gray HEALTHCARE LEADERSHIP | LICENSED NURSE | GROWTH FOCUSED | INNOVATIVE | STRATEGIST | CREATIVE | HEALTHCARE SALES
+  * Advertising & Marketing
+  * Architecture & Construction
+
+
+* Pittsburgh ](https://us.foundersbase.com/me/Shannongray1776)
+[ ![Bentley Linthicum](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/8894_9744be52-bb51-4d77-ac0d-691f229c65c7.jpg) Bentley Linthicum Founder building simple, affordable tech projects, exploring e-commerce, and learning by creating practical solutions for everyday use.
+  * AI & Machine Learning
+  * E-Commerce & Retail
+
+
+* Winfield ](https://us.foundersbase.com/me/bentleylinthicum)
+##  Startups
+[](https://us.foundersbase.com/startups)
+[ ![Clario](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/9745_ec17ca7f-1b7e-4a79-8f51-a32c1452aaff.jpg) Clario A pre-due-diligence platform that lets investment teams quickly decide what’s worth diligencing by s
+  * AI & Machine Learning
+  * Financial & Legal Services
+
+
+* Wayne ](https://us.foundersbase.com/startup/1136)
+[ ![Qvani Technologies](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8494_af6189ff-4756-4a19-931c-656ff426bcb2.jpg) Qvani Technologies Qvani is a P2P crypto exchange. We make crypto simple for the underbanked in Emerging Markets
+  * Blockchain & Cryptocurrency
+
+
+* New York City ](https://us.foundersbase.com/startup/994)
+[ ![Quantos Labs](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8388_cddc3ec1-d39a-470f-bdda-622469191084.jpg) Quantos Labs We offer a quantum L1 blockchain and super-app that helps users access fast Web3 solutions
+  * Blockchain & Cryptocurrency
+  * Fintech & Payments
+
+
+* San Francisco ](https://us.foundersbase.com/startup/980)
+##  Jobs
+[](https://us.foundersbase.com/jobs)
+[ ![Cofounder wanted for startup](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7222_d8562f71-c383-4cbb-8ca5-d3934e33c5f1.jpg) JOB Cofounder wanted for startup An app making events more enjoyable by connecting attendees. 
+  * Entertainment & Media
+
+
+* Rockville ](https://us.foundersbase.com/job/249)
+[ ![Growth Marketing Manager](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/4852_c336af92-aeca-4ca0-8f5e-2ad6c075d778.jpg) JOB Growth Marketing Manager Co-write your story with celebrity writers. 
+  * AI & Machine Learning
+  * Entertainment & Media
+
+
+* Orlando ](https://us.foundersbase.com/job/228)
+[ ![Chief Technology Officer](https://us.foundersbase.com/assets/img/custom/defaults/default-profile-startup.jpg) JOB Chief Technology Officer We offer for you to define your own business world, to make data smarter and more connected
+  * Big Data & Analytics
+
+
+* Dallas ](https://us.foundersbase.com/job/231)
+##  Connect with   
+investors and get funded.
+Simply upload a pitch deck and get matched with private investors, business angels and institutional funding partners that help your startup reach the next level.
+##  Find business angels and institutional funding partners now. 
+[ Upload your pitch deck  ](https://us.foundersbase.com/signup)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta6.png)
+  * 1,500+ private investors
+  * Targeted matching
+  * Personal connection
+  * Free of charge
+
+
+##  What is foundersbase?
+Foundersbase is a networking platform where startup founders connect with co-founders, entrepreneurial talent, and early supporters to build their ventures.   
+  
+Members from all over the world create profiles, showcase their startup projects, and engage in direct conversations to form a founding team, find advisors and investors, or recruit startup hires.   
+  
+Unlike broad networking sites, Foundersbase is specifically designed for founder's needs and uses advanced profile curation technology to ensure that every connection is relevant - whether you're looking for a tech co-founder, a marketing expert, or someone to invest early support in your idea.
+[ Join us today! ](https://us.foundersbase.com/signup)
+https://www.founderio.com/feed
+![Founder Community Activity Feed Screenshot](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+Our team
+##  Made By Entrepreneurs
+![Founder Kai](https://us.foundersbase.com/assets/img/custom/team/kai.jpeg)
+Co-Founder / CEO
+####  Kai Lindemann
+I'm the right person to speak to about strategic partnerships and platform development. Feel free to drop me a line if you see potential!
+  * [ ](https://www.linkedin.com/in/kailindemann/)
+
+
+[](https://us.foundersbase.com/me/kailindemann)
+![Founder Anna](https://us.foundersbase.com/assets/img/custom/team/anna_martin.jpg)
+Co-Founder / Marketing
+####  Anna Martin
+I'm making sure we attract the right entrpreneurs to join our community. If you've got ideas how to collaborate, let me know!
+  * [ ](https://www.linkedin.com/in/annamartin007)
+
+
+[](https://us.foundersbase.com/me/annamartin)
+Want to work with us?  [ Tell us how you can help  ](https://us.foundersbase.com/contact)
+Feedback
+##  What Members Say
+> " I'm impressed, you've really built something with the potential to bring entrepreneurial minds closer together. It feels a bit like a LinkedIn for founders. But in a good way. Keep up the good work! "
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/michael.jpg)
+Michael Thompson
+CEO @ FinFlow
+Subscribe To
+## Foundersbase Updates
+[ Enter email Subscribe ](https://ef7e9338.sibforms.com/serve/MUIFAJ7si0ANQDDeVBaPaD_MYpXV-zBp-KuKY3ppK-6ZaBjV21kC47HUhTIGNN20Ba10tLsP9KQ4QAVX7Jve_YF414dcGUovmYTYw8FZalkDVNG91o0PRaNzdmC3BBJiEitLJJ2jj44z4uFWw4Q-LWS--ER2SIlcjRkGP1J1KBUMmjGW61HEnT-PiQNzwbEisJkZl3iERyBHEbu_)
+##  Become part of a community where ideas meet execution.
+[ Get Started - It's Free ](https://us.foundersbase.com/login)
+© foundersbase.com 2026
+  * [Countries](https://us.foundersbase.com/countries)
+  * [Terms](https://us.foundersbase.com/terms)
+  * [Privacy](https://us.foundersbase.com/privacy)
+  * [Imprint](https://us.foundersbase.com/imprint)
+
+
+Add the Foundersbase App
+[ ](javascript:;)
+","","https://foundersbase.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","foundersbase.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","3d93c29ea84c9f43a5daf50440dadf96fcd25664f3e0b1b71a845018aae10835","0.0","0.3","febada62-6f88-5180-9bb2-4c9006dfb578","","2026-03-30T20:07:32.577620Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/foundersbase.com.json","/tmp/tmpd5wrifuo/evidence/domain/foundersbase.com.json","","2026-06-28T20:07:32.577622Z","tech startup founder contact page","2026-03-30T20:07:19.080434Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Preparing for case interviews? Watch this example to learn exactly what to expect. More Case Examples https://youtu.be/M0-c7rXzhwk?si=SRa4785a9z1EhBtR Why","","https://managementconsulted.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Management Consulted: The World&#039;s Largest Resource on Consulting and the Case Interview","1","","","","","","https://www.linkedin.com/company/10147742","","","","","0.0","0.0009","0.0","0.0009","managementconsulted.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","0a9fc4bb576d79a343bc82ec3b008372b8398ff6748d175bbde5fba45559a3eb","0.0","0.3","1a6e94e1-be14-5dc0-ba7f-9d891f9ef95d","","2026-03-30T20:07:32.590471Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/managementconsulted.com.json","/tmp/tmpd5wrifuo/evidence/domain/managementconsulted.com.json","","2026-06-28T20:07:32.590473Z","management consulting firm director email","2026-03-30T20:07:23.292917Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T20:07:32.603526Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpd5wrifuo/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T20:07:32.603528Z","management consulting firm director email","2026-03-30T20:07:25.527983Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to Content](https://plantemoran.com/#why-count-on-us)
+[ ![PM Centennial logo.](https://plantemoran.com/-/media/images/plante-moran-logo/pm-centennial-desktop-logo-svg.svg?la=en&h=61&w=585&hash=7B646AF7A07D669390254DCAF6427100) ![PM Centennial logo.](https://plantemoran.com/-/media/images/plante-moran-logo/pm-centennial-mobile-logo-svg.svg?la=en&h=60&w=293&hash=E442C2A2BFF91D3AB23AC9D98F6E6FD3) ](https://plantemoran.com/)
+  * [Client login](https://plantemoran.com/client-login "Client Login")
+  * [Contact us](https://plantemoran.com/contact-us "Contact us")
+  * [Subscribe](https://plantemoran.com/subscribe "Subscribe Now")
+
+
+  * [Industries](https://plantemoran.com/#panel0)
+  * [Services](https://plantemoran.com/#panel1)
+  * [Insights](https://plantemoran.com/#panel2)
+  * [Careers](https://careers.plantemoran.com/)
+  * [Events & Webinars](https://plantemoran.com/explore-our-thinking/events)
+  * [About us](https://plantemoran.com/#panel5)
+
+
+  * [Client login](https://plantemoran.com/client-login "Client Login")
+  * [Contact us](https://plantemoran.com/contact-us "Contact us")
+  * [Subscribe](https://plantemoran.com/subscribe "Subscribe Now")
+
+
+[Back to Main Menu](https://plantemoran.com/)
+## Industries
+  * [Automotive](https://plantemoran.com/industries/manufacturing/automotive "Automotive")
+  * [Business Services](https://plantemoran.com/industries/business-services "Business Services")
+  * [Construction](https://plantemoran.com/industries/construction "Construction")
+  * [Consumer Products](https://plantemoran.com/industries/manufacturing/consumer-products "Consumer Products")
+  * [Dealerships](https://plantemoran.com/industries/dealerships "Dealerships")
+  * [Education](https://plantemoran.com/industries/education "Education")
+  * [Energy](https://plantemoran.com/industries/energy "Energy")
+  * [Financial Services](https://plantemoran.com/industries/financial-services "Financial Services")
+  * [Food & Beverage](https://plantemoran.com/industries/food-and-beverage "Food and Beverage")
+  * [Franchise](https://plantemoran.com/industries/franchise "Franchise")
+  * [Government](https://plantemoran.com/industries/government "Government")
+  * [Healthcare](https://plantemoran.com/industries/healthcare "Healthcare")
+  * [Insurance Services](https://plantemoran.com/industries/financial-services/insurance-services "Insurance Services")
+  * [Life Sciences & Medical Device](https://plantemoran.com/industries/life-sciences "Life Sciences")
+  * [Manufacturing](https://plantemoran.com/industries/manufacturing "Manufacturing")
+  * [Not-for-Profit](https://plantemoran.com/industries/not-for-profit "Not for profit")
+  * [Private Equity](https://plantemoran.com/industries/private-equity "Private Equity")
+  * [Professional Services](https://plantemoran.com/industries/professional-services "Professional Services")
+  * [Real Estate](https://plantemoran.com/industries/real-estate "Real Estate")
+  * [Restaurants](https://plantemoran.com/industries/restaurants "Restaurants")
+  * [Retail](https://plantemoran.com/industries/retail "Retail")
+  * [Technology Companies](https://plantemoran.com/industries/technology-companies "Technology Companies")
+
+
+  * [Explore All Industries](https://plantemoran.com/industries)
+
+
+[Back to Main Menu](https://plantemoran.com/)
+## Services
+  * [Audit](https://plantemoran.com/)
+    * [Audit and Assurance Overview](https://plantemoran.com/services/audit "Audit and Assurance Overview")
+    * [Employee Benefit Plan Audit](https://plantemoran.com/services/audit/employee-benefit-plan-audit "Employee Benefit Plan Audit")
+    * [Financial Statement Audit](https://plantemoran.com/services/audit/financial-statement-audit "Financial Statement Audit")
+    * [International Audit](https://plantemoran.com/services/audit/international-audit "International Audit")
+    * [SEC Surprise Audit](https://plantemoran.com/services/audit/sec-surprise-audit "SEC Surprise Audit")
+    * [Single Audit](https://plantemoran.com/services/audit/single-audit "Single Audit")
+  * [Tax](https://plantemoran.com/)
+    * [Tax Overview](https://plantemoran.com/services/tax "Tax Overview")
+    * [International Tax](https://plantemoran.com/services/tax/international-tax "International Tax")
+    * [Mergers & Acquisition Tax](https://plantemoran.com/services/tax/mergers-and-acquisitions-tax "Mergers and Acquisition Tax")
+    * [National Corporate Tax](https://plantemoran.com/services/tax/national-corporate-tax "National Corporate Tax")
+    * [Personal Tax](https://plantemoran.com/services/wealth-management/personal-tax-planning "Personal Tax")
+    * [State & Local Tax](https://plantemoran.com/services/tax/state-and-local-tax "State and Local Tax")
+    * [Tax Controversy Services](https://plantemoran.com/services/tax/tax-controversy-services "Tax Controversy Services")
+    * [Tax Credits, Incentives, & Deductions](https://plantemoran.com/services/tax/tax-credits-deductions-and-studies "Tax Credits Incentives and Deductions")
+    * [Transfer Pricing](https://plantemoran.com/services/tax/transfer-pricing "Transfer Pricing")
+  * [Consulting](https://plantemoran.com/)
+    * [Consulting Overview](https://plantemoran.com/services/consulting "Consulting Overview")
+    * [AI Consulting](https://plantemoran.com/services/consulting/ai-consulting "AI Consulting")
+    * [Commercial Real Estate Advisors (Realpoint)](https://plantemoran.com/services/consulting/commercial-real-estate-advisors "Commercial Real Estate Advisors \(Realpoint\)")
+    * [Cost & Margin Intelligence](https://plantemoran.com/services/consulting/cost-and-margin-intelligence "Cost and Margin Intelligence")
+    * [Cybersecurity](https://plantemoran.com/services/consulting/cybersecurity "Cybersecurity")
+    * [Data and Analytics](https://plantemoran.com/services/consulting/data-analytics "Data and Analytics")
+    * [Employee Benefits Consulting](https://plantemoran.com/services/consulting/employee-benefits-consulting "Employee Benefits Consulting")
+    * [ERP Consulting](https://plantemoran.com/services/consulting/erp-consulting "ERP Consulting")
+    * [Finance & Accounting Advisory](https://plantemoran.com/services/consulting/finance-and-accounting-advisory "Finance and Accounting Advisory")
+    * [Forensic Accounting](https://plantemoran.com/services/consulting/forensic-accounting "Forensic Accounting")
+    * [Group Benefits and Brokerage Services](https://plantemoran.com/services/consulting/group-benefits-and-brokerage-services "Group Benefits and Brokerage Services")
+    * [International Services](https://plantemoran.com/services/consulting/international-services "International Services")
+    * [Investment Banking (PMCF)](https://plantemoran.com/services/consulting/investment-banking "Investment Banking \(PMCF\)")
+    * [Outsourced Finance and Accounting Services](https://plantemoran.com/services/consulting/outsourced-finance-and-accounting-services "Outsourced Finance and Accounting Services")
+    * [Real Estate Investment Advisors (Realpoint)](https://plantemoran.com/services/consulting/real-estate-investment-advisors "Real Estate Investment Advisors \(Realpoint\)")
+    * [Restructuring & Turnaround Services](https://plantemoran.com/services/consulting/restructuring-and-turnaround-services "Restructuring & Turnaround Services")
+    * [Risk Management](https://plantemoran.com/services/consulting/risk-management "Risk Management")
+    * [Senior Living Development Consulting (Living Forward)](https://plantemoran.com/services/consulting/senior-living-development-consulting "Senior Living Development Consulting Living Forward")
+    * [Strategy](https://plantemoran.com/services/consulting/strategy "Strategy")
+    * [Supply Chain & Operations](https://plantemoran.com/services/consulting/supply-chain-and-operations "Supply Chain and Operations")
+    * [Talent](https://plantemoran.com/services/consulting/talent "Talent")
+    * [Technology Consulting](https://plantemoran.com/services/consulting/technology-consulting "Technology Consulting")
+    * [Transaction Advisory Services](https://plantemoran.com/services/consulting/transaction-advisory-services "Transaction Advisory Services")
+    * [Valuation Services](https://plantemoran.com/services/consulting/valuation-services "Valuation Services")
+  * [Wealth Management](https://plantemoran.com/)
+    * [Wealth Management Overview](https://plantemoran.com/services/wealth-management "Wealth Management Overview")
+    * [Business Transition Services](https://plantemoran.com/services/wealth-management/business-transition-services "Business Transition Services")
+    * [Estate Planning](https://plantemoran.com/services/wealth-management/estate-planning "Estate Planning")
+    * [Family Legacy](https://plantemoran.com/services/wealth-management/family-legacy "Family Legacy")
+    * [Family Office Services](https://plantemoran.com/services/wealth-management/family-office-services "Family Office Services")
+    * [Financial Planning](https://plantemoran.com/services/wealth-management/financial-planning "Financial Planning")
+    * [Insurance](https://plantemoran.com/services/wealth-management/insurance "Insurance")
+    * [Investment Advisory](https://plantemoran.com/services/wealth-management/investment-advisory "Investment Advisory")
+    * [Personal Tax Planning](https://plantemoran.com/services/wealth-management/personal-tax-planning "Personal Tax Planning")
+    * [Trust](https://plantemoran.com/services/wealth-management/trust "Trust")
+
+
+  * [Explore All Services](https://plantemoran.com/services)
+  * [Submit RFP](https://plantemoran.com/contact-us)
+  * [Tax Policy Changes](https://plantemoran.com/explore-our-thinking/areas-of-focus/outlook-on-tax-rates-and-policy-changes)
+
+
+[Back to Main Menu](https://plantemoran.com/)
+## Insights
+  * [AI innovation](https://plantemoran.com/explore-our-thinking/areas-of-focus/ai-innovation "AI innovation")
+  * [Digital transformation](https://plantemoran.com/explore-our-thinking/areas-of-focus/digital-transformation "Digital transformation")
+  * [Inflation Reduction Act tax credits](https://plantemoran.com/explore-our-thinking/areas-of-focus/inflation-reduction-act-tax-credits "Inflation Reduction Act tax credits")
+  * [Learn from leaders](https://plantemoran.com/explore-our-thinking/areas-of-focus/learn-from-leaders "Learn from leaders")
+  * [Outlook on tax changes](https://plantemoran.com/explore-our-thinking/areas-of-focus/outlook-on-tax-rates-and-policy-changes "Outlook on tax changes")
+  * [Perspective on global trade and tariff policy](https://plantemoran.com/explore-our-thinking/areas-of-focus/perspective-on-global-trade-policy "Perspective on global trade and tariff policy")
+  * [Reimagining the future of healthcare systems](https://plantemoran.com/explore-our-thinking/areas-of-focus/reimagining-the-future-of-healthcare-systems "Reimagining the future of healthcare systems")
+  * [Risk management strategies for growth and innovation](https://plantemoran.com/explore-our-thinking/areas-of-focus/risk-management-strategies-for-growth-and-innovation "Risk management strategies for growth and innovation")
+
+
+  * [Explore All Insights](https://plantemoran.com/explore-our-thinking)
+
+
+[Back to Main Menu](https://plantemoran.com/)
+## About us
+  * [Diversity, Equity, & Inclusion](https://plantemoran.com/explore-our-thinking/areas-of-focus/the-power-of-diversity-equity-and-inclusion "Diversity, Equity, & Inclusion")
+  * [Get to Know Plante Moran](https://plantemoran.com/get-to-know "Get to Know Plante Moran")
+  * [Locations](https://plantemoran.com/get-to-know/offices "Locations")
+  * [People](https://plantemoran.com/get-to-know/people "People")
+  * [Plante Moran Press Room](https://plantemoran.com/get-to-know/news "Plante Moran Press Room")
+
+
+Industries
+  * [Automotive](https://plantemoran.com/industries/manufacturing/automotive "Automotive")
+  * [Business Services](https://plantemoran.com/industries/business-services "Business Services")
+  * [Construction](https://plantemoran.com/industries/construction "Construction")
+  * [Consumer Products](https://plantemoran.com/industries/manufacturing/consumer-products "Consumer Products")
+  * [Dealerships](https://plantemoran.com/industries/dealerships "Dealerships")
+  * [Education](https://plantemoran.com/industries/education "Education")
+  * [Energy](https://plantemoran.com/industries/energy "Energy")
+  * [Financial Services](https://plantemoran.com/industries/financial-services "Financial Services")
+  * [Food & Beverage](https://plantemoran.com/industries/food-and-beverage "Food and Beverage")
+  * [Franchise](https://plantemoran.com/industries/franchise "Franchise")
+  * [Government](https://plantemoran.com/industries/government "Government")
+  * [Healthcare](https://plantemoran.com/industries/healthcare "Healthcare")
+  * [Insurance Services](https://plantemoran.com/industries/financial-services/insurance-services "Insurance Services")
+  * [Life Sciences & Medical Device](https://plantemoran.com/industries/life-sciences "Life Sciences")
+  * [Manufacturing](https://plantemoran.com/industries/manufacturing "Manufacturing")
+  * [Not-for-Profit](https://plantemoran.com/industries/not-for-profit "Not for profit")
+  * [Private Equity](https://plantemoran.com/industries/private-equity "Private Equity")
+  * [Professional Services](https://plantemoran.com/industries/professional-services "Professional Services")
+  * [Real Estate](https://plantemoran.com/industries/real-estate "Real Estate")
+  * [Restaurants](https://plantemoran.com/industries/restaurants "Restaurants")
+  * [Retail](https://plantemoran.com/industries/retail "Retail")
+  * [Technology Companies](https://plantemoran.com/industries/technology-companies "Technology Companies")
+  * [Explore All Industries](https://plantemoran.com/industries)
+
+
+Services
+  * [Audit](https://plantemoran.com/)
+    * [Audit and Assurance Overview](https://plantemoran.com/services/audit "Audit and Assurance Overview")
+    * [Employee Benefit Plan Audit](https://plantemoran.com/services/audit/employee-benefit-plan-audit "Employee Benefit Plan Audit")
+    * [Financial Statement Audit](https://plantemoran.com/services/audit/financial-statement-audit "Financial Statement Audit")
+    * [International Audit](https://plantemoran.com/services/audit/international-audit "International Audit")
+    * [SEC Surprise Audit](https://plantemoran.com/services/audit/sec-surprise-audit "SEC Surprise Audit")
+    * [Single Audit](https://plantemoran.com/services/audit/single-audit "Single Audit")
+  * [Tax](https://plantemoran.com/)
+    * [Tax Overview](https://plantemoran.com/services/tax "Tax Overview")
+    * [International Tax](https://plantemoran.com/services/tax/international-tax "International Tax")
+    * [Mergers & Acquisition Tax](https://plantemoran.com/services/tax/mergers-and-acquisitions-tax "Mergers and Acquisition Tax")
+    * [National Corporate Tax](https://plantemoran.com/services/tax/national-corporate-tax "National Corporate Tax")
+    * [Personal Tax](https://plantemoran.com/services/wealth-management/personal-tax-planning "Personal Tax")
+    * [State & Local Tax](https://plantemoran.com/services/tax/state-and-local-tax "State and Local Tax")
+    * [Tax Controversy Services](https://plantemoran.com/services/tax/tax-controversy-services "Tax Controversy Services")
+    * [Tax Credits, Incentives, & Deductions](https://plantemoran.com/services/tax/tax-credits-deductions-and-studies "Tax Credits Incentives and Deductions")
+    * [Transfer Pricing](https://plantemoran.com/services/tax/transfer-pricing "Transfer Pricing")
+  * [Consulting](https://plantemoran.com/)
+    * [Consulting Overview](https://plantemoran.com/services/consulting "Consulting Overview")
+    * [AI Consulting](https://plantemoran.com/services/consulting/ai-consulting "AI Consulting")
+    * [Commercial Real Estate Advisors (Realpoint)](https://plantemoran.com/services/consulting/commercial-real-estate-advisors "Commercial Real Estate Advisors \(Realpoint\)")
+    * [Cost & Margin Intelligence](https://plantemoran.com/services/consulting/cost-and-margin-intelligence "Cost and Margin Intelligence")
+    * [Cybersecurity](https://plantemoran.com/services/consulting/cybersecurity "Cybersecurity")
+    * [Data and Analytics](https://plantemoran.com/services/consulting/data-analytics "Data and Analytics")
+    * [Employee Benefits Consulting](https://plantemoran.com/services/consulting/employee-benefits-consulting "Employee Benefits Consulting")
+    * [ERP Consulting](https://plantemoran.com/services/consulting/erp-consulting "ERP Consulting")
+    * [Finance & Accounting Advisory](https://plantemoran.com/services/consulting/finance-and-accounting-advisory "Finance and Accounting Advisory")
+    * [Forensic Accounting](https://plantemoran.com/services/consulting/forensic-accounting "Forensic Accounting")
+    * [Group Benefits and Brokerage Services](https://plantemoran.com/services/consulting/group-benefits-and-brokerage-services "Group Benefits and Brokerage Services")
+    * [International Services](https://plantemoran.com/services/consulting/international-services "International Services")
+    * [Investment Banking (PMCF)](https://plantemoran.com/services/consulting/investment-banking "Investment Banking \(PMCF\)")
+    * [Outsourced Finance and Accounting Services](https://plantemoran.com/services/consulting/outsourced-finance-and-accounting-services "Outsourced Finance and Accounting Services")
+    * [Real Estate Investment Advisors (Realpoint)](https://plantemoran.com/services/consulting/real-estate-investment-advisors "Real Estate Investment Advisors \(Realpoint\)")
+    * [Restructuring & Turnaround Services](https://plantemoran.com/services/consulting/restructuring-and-turnaround-services "Restructuring & Turnaround Services")
+    * [Risk Management](https://plantemoran.com/services/consulting/risk-management "Risk Management")
+    * [Senior Living Development Consulting (Living Forward)](https://plantemoran.com/services/consulting/senior-living-development-consulting "Senior Living Development Consulting Living Forward")
+    * [Strategy](https://plantemoran.com/services/consulting/strategy "Strategy")
+    * [Supply Chain & Operations](https://plantemoran.com/services/consulting/supply-chain-and-operations "Supply Chain and Operations")
+    * [Talent](https://plantemoran.com/services/consulting/talent "Talent")
+    * [Technology Consulting](https://plantemoran.com/services/consulting/technology-consulting "Technology Consulting")
+    * [Transaction Advisory Services](https://plantemoran.com/services/consulting/transaction-advisory-services "Transaction Advisory Services")
+    * [Valuation Services](https://plantemoran.com/services/consulting/valuation-services "Valuation Services")
+  * [Wealth Management](https://plantemoran.com/)
+    * [Wealth Management Overview](https://plantemoran.com/services/wealth-management "Wealth Management Overview")
+    * [Business Transition Services](https://plantemoran.com/services/wealth-management/business-transition-services "Business Transition Services")
+    * [Estate Planning](https://plantemoran.com/services/wealth-management/estate-planning "Estate Planning")
+    * [Family Legacy](https://plantemoran.com/services/wealth-management/family-legacy "Family Legacy")
+    * [Family Office Services](https://plantemoran.com/services/wealth-management/family-office-services "Family Office Services")
+    * [Financial Planning](https://plantemoran.com/services/wealth-management/financial-planning "Financial Planning")
+    * [Insurance](https://plantemoran.com/services/wealth-management/insurance "Insurance")
+    * [Investment Advisory](https://plantemoran.com/services/wealth-management/investment-advisory "Investment Advisory")
+    * [Personal Tax Planning](https://plantemoran.com/services/wealth-management/personal-tax-planning "Personal Tax Planning")
+    * [Trust](https://plantemoran.com/services/wealth-management/trust "Trust")
+
+
+  * [Explore All Services](https://plantemoran.com/","","https://plantemoran.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Accounting, Tax, Consulting, and Wealth Management | Plante Moran","1","","","","","","","","","","","0.001","0.0009","0.0","0.0019","plantemoran.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","8f5eb33275a2f06ef164d57db23e5530be5d1a3d9bb9339aefcee7bc52d9f00c","0.0","0.3","7ff34855-9fd1-5a30-a538-ede75f65937a","","2026-03-30T20:07:38.424007Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/plantemoran.com.json","/tmp/tmpd5wrifuo/evidence/domain/plantemoran.com.json","","2026-06-28T20:07:38.424013Z","management consulting firm director email","2026-03-30T20:07:26.847147Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Prospeo helps sales teams find verified business emails and mobile numbers. Export leads and connect with decision-makers.","","https://prospeo.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","prospeo.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","0fd36ef9a9e481aaf1548f1d142de09243c16cc51b6fc36ef3cb50694e009fe1","0.0","0.3","72e3cf97-8949-507d-b2a1-8e61565895a8","","2026-03-30T20:07:32.395799Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/prospeo.io.json","/tmp/tmpd5wrifuo/evidence/domain/prospeo.io.json","","2026-06-28T20:07:32.395802Z","SaaS startup CEO contact information","2026-03-30T20:06:40.802208Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

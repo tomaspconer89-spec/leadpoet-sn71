@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "Business Management Consultant",
+  "lead": {
+    "business": "Business Management Consultant",
+    "full_name": "Team Member",
+    "first": "Melissa",
+    "last": "Member",
+    "email": "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+    "role": "Contact",
+    "website": "https://alignmentadvising.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/melissa-bohm-8bb31414/",
+    "company_linkedin": "https://www.linkedin.com/company/alignmentadvising/",
+    "source_url": "https://alignmentadvising.com",
+    "description": "Alignment Advising provides business consulting and professional development coaching services to help you and your business grow and achieve your best success.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

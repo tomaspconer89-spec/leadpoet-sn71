@@ -1,0 +1,34 @@
+{
+  "reason": "missing_required_fields: last, email",
+  "business": "Invisionate",
+  "lead": {
+    "business": "Invisionate",
+    "full_name": "null",
+    "first": "null",
+    "role": "null",
+    "website": "https://invisionate.com",
+    "industry": "Business Consulting",
+    "sub_industry": "Venture Capital Consulting",
+    "country": "USA",
+    "state": "CA",
+    "city": "Dana Point",
+    "linkedin": "https://www.linkedin.com/in/georgestepancich",
+    "company_linkedin": "https://www.linkedin.com/company/invisionate-llc",
+    "source_url": "https://invisionate.com",
+    "description": "Invisionate combines venture funding solutions, corporate investment strategies, and business development to link companies with strategic investors and partners.",
+    "employee_count": "11-50",
+    "hq_country": "USA",
+    "hq_state": "CA",
+    "hq_city": "Dana Point",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  },
+  "queue_bucket": "B_retry_enrichment"
+}

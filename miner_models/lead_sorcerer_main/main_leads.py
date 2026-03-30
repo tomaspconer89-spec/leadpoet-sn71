@@ -641,7 +641,7 @@ else:
                                                     relax = (
                                                         os.getenv(
                                                             "LEAD_SORCERER_RELAX_CONTACT_FILTER",
-                                                            "0",
+                                                            "1",
                                                         ).strip()
                                                         == "1"
                                                     )

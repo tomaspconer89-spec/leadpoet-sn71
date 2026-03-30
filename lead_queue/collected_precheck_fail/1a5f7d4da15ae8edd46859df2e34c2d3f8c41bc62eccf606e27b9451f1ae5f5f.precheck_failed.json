@@ -1,0 +1,34 @@
+{
+  "reason": "missing_required_fields: email",
+  "business": "Ryan Consulting Group, P.A.",
+  "lead": {
+    "business": "Ryan Consulting Group, P.A.",
+    "full_name": "Alex Moghadasi Cpa Mba Cgma Ctrs",
+    "first": "Alex",
+    "last": "Moghadasi Cpa Mba Cgma Ctrs",
+    "role": "VP level to entry",
+    "website": "https://ryanconsultingcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting and Consulting",
+    "country": "USA",
+    "state": "FL",
+    "city": "Tampa",
+    "linkedin": "https://www.linkedin.com/in/alex-moghadasi-cpa-mba-cgma-ctrs-2889713b",
+    "company_linkedin": "https://www.linkedin.com/company/ryan-consulting-group-p-a",
+    "source_url": "https://ryanconsultingcpa.com",
+    "description": "A full-service CPA firm providing accounting, tax, and consulting services to individuals and businesses.",
+    "employee_count": "11-50",
+    "hq_country": "USA",
+    "hq_state": "FL",
+    "hq_city": "Tampa",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  }
+}

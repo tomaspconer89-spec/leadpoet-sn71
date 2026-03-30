@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Modern Vendor Financing for B2B Software and Hardware Purchases | Capchase",
+  "lead": {
+    "business": "Modern Vendor Financing for B2B Software and Hardware Purchases | Capchase",
+    "website": "https://capchase.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "company_linkedin": "https://www.linkedin.com/company/capchase",
+    "source_url": "https://capchase.com",
+    "description": "[](https://www.capchase.com/) Product #### PLATFORM [![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b509a3779041f485b1fa3_Features.svg) Features Discover the tools that make it easy to offer payment flexibility. ](https://www.capchase.com/features)[![](https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533828035673a6280839_Integrations.svg) Integrations Explore our CRM apps, APIs and data integrations.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  }
+}

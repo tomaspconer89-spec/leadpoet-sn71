@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "BBB",
+  "lead": {
+    "business": "BBB",
+    "full_name": "Janice Lead",
+    "first": "Janice",
+    "last": "Mcfarland 04B172",
+    "email": "janice@newjersey.bbb.org",
+    "role": "Contact",
+    "website": "https://bbb.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/steven-mcfarland-04b172/",
+    "company_linkedin": "https://www.linkedin.com/company/better-business-bureau/",
+    "source_url": "https://bbb.org",
+    "description": "BBB provides professional services to clients; details were sourced from the company website at https://bbb.org.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

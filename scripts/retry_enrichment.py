@@ -17,6 +17,27 @@ RETRY_ALLOWED_SUBSTRINGS = (
     "missing_required_fields: last",
     "missing_first_or_last_name",
     "email_domain_mismatch",
+    # ScrapingDog /profile can repair when a person /in/ URL exists
+    "missing_required_fields: role",
+    "missing_required_fields: city",
+    "missing_required_fields: country",
+    "missing_required_fields: state",
+    "missing_required_fields: description",
+    "missing_required_fields: company_linkedin",
+    "missing_required_fields: full_name",
+    "missing_required_fields: first",
+    "role_too_short",
+    "role_too_long",
+    "desc_too_short",
+    "invalid_company_linkedin",
+    "city_empty",
+    "country_empty",
+    "state_empty_for_usa",
+    "hq_country_empty",
+    "hq_state_empty_for_usa_hq",
+    "name_invalid_chars",
+    "name_credential",
+    "name_duplicate:first_last_same",
 )
 
 

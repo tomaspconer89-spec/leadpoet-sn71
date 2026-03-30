@@ -1,0 +1,29 @@
+{
+  "reason": "invalid_employee_count:'1-10'",
+  "business": "Colorado Venture Capital Firm",
+  "lead": {
+    "business": "Colorado Venture Capital Firm",
+    "full_name": "Logo Lead",
+    "first": "Logo",
+    "last": "Lead",
+    "email": "logo@2x.png",
+    "role": "Contact",
+    "website": "https://accessvp.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "corporate strategy",
+    "city": "Accomplished finance leader with 10+ years of experience across FP&A",
+    "linkedin": "https://www.linkedin.com/in/nager/",
+    "company_linkedin": "https://www.linkedin.com/company/access-venture-partners/",
+    "source_url": "https://accessvp.com",
+    "description": "Access Venture Partners is a venture capital firm based in Denver &amp; Boulder. 20+ years investing in early-stage technology startups.",
+    "employee_count": "1-10",
+    "hq_country": "United States",
+    "hq_state": "corporate strategy",
+    "hq_city": "Accomplished finance leader with 10+ years of experience across FP&A",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "reason": "missing_required_fields: city",
+  "business": "TechTide Solution: Software Development Company",
+  "lead": {
+    "business": "TechTide Solution: Software Development Company",
+    "full_name": "Contact Lead",
+    "first": "Apooravg",
+    "last": "Lead",
+    "email": "contact@techtidesolutions.com",
+    "role": "Contact",
+    "website": "https://techtidesolutions.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/apooravg/",
+    "company_linkedin": "https://www.linkedin.com/company/techtide-solutions/",
+    "source_url": "https://techtidesolutions.com",
+    "description": "A premier software development company. \ud83d\ude80 Over 100 successfully accomplished projects. Delighted clientele exceeding 150.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

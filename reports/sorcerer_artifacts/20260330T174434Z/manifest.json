@@ -1,0 +1,30 @@
+{
+  "saved_at_utc": "20260330T174434Z",
+  "icp_name": "Startup Advisory Services - Test ICP",
+  "result_success": true,
+  "result_metrics": {
+    "duration_ms": 135050,
+    "lead_counts": {
+      "domain": 33,
+      "crawl": 28
+    },
+    "pass_rates": {
+      "domain": 0.8485,
+      "crawl": null
+    },
+    "cost_usd": {
+      "domain": 0.0297,
+      "crawl": 0.005,
+      "total": 0.0347
+    },
+    "health": {
+      "unknown_error_count": 0
+    }
+  },
+  "latest_export_dir": "/tmp/tmp4u4pe7jg/exports/Startup Advisory Services - Test ICP/20260330_1744",
+  "artifacts": {
+    "domain_pass.jsonl": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/reports/sorcerer_artifacts/20260330T174434Z/domain_pass.jsonl",
+    "export_leads.jsonl": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/reports/sorcerer_artifacts/20260330T174434Z/export_leads.jsonl",
+    "export_leads.csv": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/reports/sorcerer_artifacts/20260330T174434Z/export_leads.csv"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "reason": "missing_required_fields: last, email, country, city",
+  "business": "Home",
+  "lead": {
+    "business": "Home",
+    "full_name": "Schoutsen",
+    "first": "Schoutsen",
+    "role": "founder",
+    "website": "https://ceritypartners.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/schoutsen",
+    "company_linkedin": "https://www.linkedin.com/company/cerity-partners",
+    "source_url": "https://ceritypartners.com",
+    "description": "Cerity Partners offers comprehensive, custom-tailored wealth management for individuals, businesses, and nonprofit organizations.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/cerity-partners",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    }
+  }
+}

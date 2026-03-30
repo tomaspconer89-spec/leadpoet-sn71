@@ -1,0 +1,29 @@
+{
+  "reason": "name_not_in_email",
+  "business": "HubSpot",
+  "lead": {
+    "business": "HubSpot",
+    "full_name": "Data En",
+    "first": "Data",
+    "last": "En",
+    "email": "mamartin@hubspot.com",
+    "role": "Contact",
+    "website": "https://hubspot.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "is there a possibility to make this a regular monthly thread",
+    "city": "Rally Corp",
+    "linkedin": "https://www.linkedin.com/in/miguelbemartin/",
+    "company_linkedin": "https://www.linkedin.com/company/hubspot/",
+    "source_url": "https://hubspot.com",
+    "description": "HubSpot provides professional services to clients; details were sourced from the company website at https://hubspot.com.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "is there a possibility to make this a regular monthly thread",
+    "hq_city": "Rally Corp",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}

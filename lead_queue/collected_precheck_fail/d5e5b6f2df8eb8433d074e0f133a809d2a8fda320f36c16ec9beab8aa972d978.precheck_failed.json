@@ -1,0 +1,23 @@
+{
+  "reason": "missing_required_fields: country, city",
+  "business": "D and P Advisory - A premier valuation services provider",
+  "lead": {
+    "business": "D and P Advisory - A premier valuation services provider",
+    "full_name": "santosh n 252292a",
+    "first": "santosh",
+    "last": "n 252292a",
+    "email": "santosh.n@dandpadvisory.com",
+    "role": "ceo",
+    "website": "https://dandpadvisory.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "linkedin": "https://www.linkedin.com/in/santosh-n-252292a/",
+    "company_linkedin": "https://www.linkedin.com/company/d-and-p-advisory/",
+    "source_url": "https://dandpadvisory.com",
+    "description": "D and P Advisory is a premier valuation services provider and a boutique transaction advisory firm providing high quality consulting services.",
+    "employee_count": "11-50",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {}
+  }
+}
