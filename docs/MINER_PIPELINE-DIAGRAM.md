@@ -172,6 +172,26 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
 
 ---
 
+## 7. Operator runbook path (precheck-first)
+
+```mermaid
+flowchart LR
+  C[scripts/collect_leads_precheck_only.py] --> QA[lead_queue buckets A/B/C/D/E]
+  QA --> R[scripts/check_submit_readiness.py]
+  R -->|fix + promote| BQ[scripts/regrade_b_queue.py]
+  BQ --> A[A_ready_submit]
+  A --> M[scripts/a_ready_to_pending_minimal.py]
+  M --> P[pending]
+  P --> S[scripts/submit_queued_leads.py]
+  S --> OK[submitted / failed outcomes]
+```
+
+- Typical local loop: `collect_leads_precheck_only.py` → `check_submit_readiness.py` → optional `regrade_b_queue.py`.
+- Submit path: move strict A bucket to `pending` via `a_ready_to_pending_minimal.py`, then call `submit_queued_leads.py`.
+- `collect_leads_precheck_only.py` supports both stop conditions: `--target-pass` and strict `--target-a-ready`.
+
+---
+
 ## ASCII sketch (no Mermaid)
 
 ```
@@ -188,8 +208,10 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
            │
            ├► normalize_title · score_person_confidence · precheck_lead
            ├► targeted_retry_enrichment (selected failure reasons)
-           ├► route_lead → A / B / C / D / E under lead_queue/
+          ├► route_lead → A / B / C / D / E under lead_queue/
            ├► minimal_gateway_lead → collected_pass / precheck_fail
+          ├► check_submit_readiness.py (validator-like audit)
+          ├► regrade_b_queue.py (optional fix + promote to A)
            │
   miner path only:
            └► gateway upload ──► loop
@@ -218,4 +240,4 @@ For validator-aligned field rules, see **[AVOID-REJECTIONS.md](./AVOID-REJECTION
 
 ---
 
-*Last updated: March 2026 — includes broader LinkedIn-driven enrichment (`convert_raw_to_pending.py`) and persisted run artifacts under `reports/sorcerer_artifacts/`.*
+*Last updated: March 2026 — includes precheck-first operator flow (`collect` → `readiness` → optional `regrade` → `submit`), broader LinkedIn-driven enrichment (`convert_raw_to_pending.py`), and persisted run artifacts under `reports/sorcerer_artifacts/`.*
