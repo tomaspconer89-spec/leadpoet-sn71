@@ -1,0 +1,224 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T12:31:57.105131Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp5drws_al/evidence/domain/cansulta.com.json","","2026-06-29T12:31:57.105135Z","startup advisory services founder contact","2026-03-31T12:31:31.553436Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T12:31:57.118198Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp5drws_al/evidence/domain/maynardnexsen.com.json","","2026-06-29T12:31:57.118200Z","business consulting firm advisor email","2026-03-31T12:31:34.694952Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T12:31:57.131135Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp5drws_al/evidence/domain/vaam.io.json","","2026-06-29T12:31:57.131137Z","SaaS startup CEO contact information","2026-03-31T12:31:38.093325Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","c2f677fd60cbe7bb2c90b3d7361ff68901e906622af9855032ff9210eba29c59","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T12:31:57.144059Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp5drws_al/evidence/domain/findemails.com.json","","2026-06-29T12:31:57.144062Z","SaaS startup CEO contact information","2026-03-31T12:31:39.057972Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T12:31:57.157226Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp5drws_al/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T12:31:57.157228Z","management consulting firm director email","2026-03-31T12:31:52.397246Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","We are a Ukrainian company. We stand with our colleagues, friends, family, and with all people of Ukraine. [Our message](https://getprospect.com/blog/fundraising-for-ukraine)
+[![GetProspect email finder](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Flogo_a173dc14a2.png&w=128&q=75)GetProspect](https://getprospect.com/)
+  * Product
+    * [Email Finder](https://getprospect.com/)
+    * [Linkedin Email Finder](https://getprospect.com/linkedIn-email-finder-chrome-extension)
+    * [B2B Database](https://getprospect.com/b2b-contact-database)
+    * [Contact Enrichment](https://getprospect.com/enrichment)
+    * [Email Lookup](https://getprospect.com/email-lookup)
+    * [Email Verifier](https://getprospect.com/email-verifier)
+    * [Cold Email](https://getprospect.com/cold-email-software)
+    * [Integrations](https://getprospect.com/integrations)
+    * [API](https://getprospect.readme.io/reference/introduction)
+  * [Pricing](https://getprospect.com/pricing)
+  * Resources
+    * [Blog](https://getprospect.com/blog)
+    * [Our Data](https://getprospect.com/our-data)
+    * [Customer Stories](https://getprospect.com/customer-stories)
+    * [Help Center](https://getprospect.com/help-center)
+
+
+[Log in](https://app.getprospect.com/login)[Sign up](https://app.getprospect.com/sign-up)
+[Sign up for free](https://app.getprospect.com/sign-up)
+# Email Finder
+## Email search and phone in the largest and most accurate B2B contact database for sales teams, business developers, recruiters and marketers.
+  * #### [Email finder](https://getprospect.com/)
+  * #### [Find by domain](https://getprospect.com/email-finder/email-finder-by-domain)
+  * #### [Email lookup](https://getprospect.com/email-lookup)
+  * #### [Email verifier](https://getprospect.com/email-verifier)
+
+
+Find contact
+Quick try with Sam Altman from openai.com
+2,200 users joined GetProspect in the last 7 days. Trusted by leading companies.
+![Mongo Db](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmongo_db_2x_0b2a2cf3ee.png&w=640&q=75)![Cloudflare](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fcloudflare_2x_6c99eb6d94.png&w=640&q=75)![Amazon](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Famazon_2x_c1701f17a3.png&w=640&q=75)![Oracle](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Foracle_2x_4308d4e5fe.png&w=640&q=75)![Click Up](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fclick_up_2x_d7e7a4f950.png&w=640&q=75)![Salesforce](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fsalesforce_2x_e1fae8684d.png&w=256&q=75)![Stripe](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fstripe_2x_1ca77c8932.png&w=640&q=75)
+Chrome Extension
+## Email finder extension
+One-click export of entire searches, and lead lists with LinkedIn Email Finder extension.
+[ Extract emails with extension](https://getprospect.com/linkedIn-email-finder-chrome-extension)
+![Photo 1](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_1_2x_e690a419b6.png&w=3840&q=75)
+B2B Search
+## Get only accurate data from a powerful B2B database
+Find emails of B2B contacts and companies with accurate info in the biggest database. GetProspect guarantees 95% data accuracy or gets your credits back.
+[ Find emails in B2B contact database](https://getprospect.com/b2b-contact-database)
+![Photo 2](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_2_2x_19aa4addd7.png&w=3840&q=75)
+## Search email address in the largest B2B database
+We verify millions of emails and contacts every day to keep them up to date.
+[More about our data](https://getprospect.com/b2b-contact-database)
+200M
+B2B contacts with emails
+230M
+Corporate emails
+26M
+International companies
+130M
+Mobile phone numbers
+Contact enrichment
+## Bulk email finder & contact data enrichment 
+Find corporate email addresses and append another 40+ accurate data attributes (Location, Industry, Technologies, etc) to your lists of contacts or companies by:
+[Enrich your data](https://getprospect.com/enrichment)
+![Photo 3](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_3_2x_b5ac3085f4.png&w=3840&q=75)
+Cold Email Software
+## Find email addresses & automatically send AI-personalized cold emails
+Use our search email address tool to find emails and turn your contacts into deals with the right cold emailing.
+[ Try the Cold Email Sender](https://getprospect.com/cold-email-software)
+![Photo 4](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_4_2x_bce979ba56.png&w=3840&q=75)
+Integrations
+## Export data to your app automatically
+Improve workflow by seamlessly transferring enriched prospect data to your CRM or marketing software.
+[ More about Integrations](https://getprospect.com/integrations)
+  * ![Hub Spot](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fhub_spot_2x_999d1e36e4.png&w=256&q=75)
+  * ![Salesforce](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fsalesforce_2x_1568e7a288.png&w=384&q=75)
+  * ![Zoho](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fzoho_2x_ac32876719.png&w=384&q=75)
+  * ![Pipedrive](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fpipedrive_2x_653cdada81.png&w=384&q=75)
+  * ![Zapier](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fzapier_2x_d7c0e4e3f4.png&w=384&q=75)
+  * ![Close](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fclose_2x_8ab2ba6905.png&w=256&q=75)
+  * ![Copper](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fcopper_2x_99b3a0044f.png&w=384&q=75)
+  * ![Agile Crm](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fagile_crm_2x_96e44470f5.png&w=384&q=75)
+  * ![Notion](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fnotion_2x_8a3c00a534.png&w=256&q=75)
+  * ![Airtable](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fairtable_2x_0ed026cbd3.png&w=384&q=75)
+  * ![Outreach](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Foutreach_2x_40a11f5fae.png&w=384&q=75)
+  * ![Salesloft](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fsalesloft_2x_7f75063c36.png&w=384&q=75)
+  * ![Gmail](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fgmail_2x_321e57f172.png&w=384&q=75)
+  * ![Outlook](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Foutlook_2x_218420d667.png&w=384&q=75)
+  * ![Google Sheets](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fgoogle_sheets_2x_bd6f205e51.png&w=384&q=75)
+  * ![Api](https://static.getprospect.com/strapi/api_7468d53509.svg)
+
+
+## And so much more
+Explore full toolset for productive work
+### Bulk Email Verifier
+Make cold mailing more effective with email verification process that will guarantee 97% deliverability
+[Bulk email verification](https://getprospect.com/email-verifier/bulk-email-verifier)
+![Photo 1](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_1_2x_34d4b72181.png&w=2048&q=75)
+### CRM
+Find your own way of managing leads and simplify the prospecting process with GetProspect built-in CRM
+[ CRM functions](https://getprospect.com/crm)
+![Photo 2](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fmedium_photo_2_2x_60bca6a658.png&w=3840&q=75)
+## You’ll love GetProspect
+Our Email Finder helps thousands of businesses drive more revenue.
+![Chrome Web Store](https://static.getprospect.com/strapi/chrome_web_store_32fbd556b0.svg)
+Chrome web store
+4.8/5 1000+ reviews
+![G2](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fg2_2x_010859d659.png&w=256&q=75)
+G2 marketing soulutions
+4.0/5 38 reviews
+![Capterra](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fcapterra_2x_6253290b10.png&w=256&q=75)
+Capterra
+4.5/5 90 reviews
+![Photo 1](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fphoto_1_2x_508715a1fe.jpg&w=256&q=75)
+Tammie McDaniel
+Business Advisor at company name
+I can do a single source or a an open feed on Linkedin on front in - Free as well as in paid platforms. You can build list easily and fast the data accurate and affordable.
+G2 marketing solutions
+![Photo 2](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fphoto_2_2x_35b3af6e63.jpg&w=256&q=75)
+Oliver H
+Project Manager at company name
+Very easy to use, intuitive, seamless. The leads list export function is excellent, and has helped with marketing to those who I have already qualified via LinkedIn.
+Capterra
+![Photo 3](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fphoto_3_2x_3980d183c3.jpg&w=256&q=75)
+Jason Tissera
+Co-Founder at company name
+Prospecting can be a pain, and the last thing I need as a business owner is something that's complicated and a pain to set up. The GetProspect search email address tool was both easy to set up and for my team to understand. We're now building lead lists and growing our business. Thanks!
+Chrome web store
+Read more customer success stories about the GetProspect
+[](https://getprospect.com/customer-stories)
+Read more customer success stories about the GetProspect
+[](https://getprospect.com/customer-stories)
+## Email Finder FAQ
+If you can't find the answer to your question here, visit the dedicated section in our Help Center.
+[Visit Help Center](https://getprospect.com/help-center)
+### How should I use the Email Finder?
+You may use this search email address tool to find company email addresses, get prospects' valid emails and other data about them, both on the platform's web app via Search and Enrich and on LinkedIn via our Email Finder extension (data can also be searched on prospective companies' websites).
+### What data should I upload to find an email address?
+To find an email for a prospect, the following data in our web app set is required: first name, last name, and the company name of the domain (which can be selected from 17 filters). Based on this information, GetProspect will provide the email address and other prospect data.
+### Is it ethical to use an Email Finder?
+If you scrape the email addresses for legitimate purposes, such as sales or job hunting, and they are collected and used in accordance with applicable laws and regulations, it may be considered ethical. But, if you extract emails for sending spam, phishing, or any other illegal purpose, then it’s unethical.
+### Where does GetProspect find emails?
+GetProspect Email finder uses its powerful database of over 200 million business contacts with emails and 26 million companies to find email addresses, as well as LinkedIn's largest and most current business contacts database with over 900 million users.
+### How accurate is the Email Finder?
+The accuracy of valid emails that were found on the platform is 95%.
+According to the latest tests, GetProspect Email Finder found 84 valid email addresses out of 100 contacts, which is higher than in such alternatives as ZoomInfo, Hunter.io, Lusha, ContactOut, and others.
+### How can I extract an email address from a website?
+The GetProspect company Email Finder extracts business email addresses from any company website. Once the extension is installed, it can be used for fetching basic info about the companies, employees' email addresses and getting essential data about them. Just click on the extension icon to find emails and leads you need by name or job title.
+### Is the Getprospect Email Finder a free service?
+GetProspect Email Finder provides lifetime access to 50 free new email addresses each month.
+### How much does the Email Finder cost?
+Paid Email Finder subscriptions start at $49 per month with 1,000 valid emails and 2,000 verifications. You can find email addresses for just $34 per month with an annual payment. Find out more about it at [Pricing.](https://getprospect.com/pricing)
+![Founder](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Ffounder_2x_c90094e366.jpg&w=256&q=75)
+Dmytro Shulha
+CEO and Founder of GetProspect
+  *   * [](https://www.linkedin.com/in/dima-shulga/)
+  * [](https://x.com/dima_shulha)
+  * [](https://www.facebook.com/dmytro.shylga)
+
+
+Hi, I’m Dima, founder and CEO at GetProspect.
+The idea for GetProspect came after talking with a salesperson friend who struggled to find valid emails. I realized that the process of finding and organizing leads was time-consuming and frustrating, and there had to be a better way.
+I had experience building SAAS tools and created MVP in just a couple of months. I worked so great, and demand was so high that it grew very fast. Through hard work and dedication, GetProspect turned into a successful company with customers all over the world.
+We are building an all-in-one platform that will help businesses to find email addresses and leads, send them, and close deals. Our goal is to build a great company with a startup culture where we are happy to work and deliver outstanding services that customers will love. We rely on the latest technologies and trends to bring innovations to our users.
+I hope you’ll feel our love through the product and it will bring true value.
+Please, let me know if we can do something even better. 
+Show more
+![Team](https://getprospect.com/_next/image?url=https%3A%2F%2Fstatic.getprospect.com%2Fstrapi%2Fteam_2x_59f72885b3.png&w=1080&q=75)
+### Bootstrapped by a small team with a big passion for tech
+[More about us](https://getprospect.com/about)
+## Try email finder for 50 new ideal customers for free every month
+Sign up for free
+No credit card required, GDPR compliant
+[](https://app.getprospect.com/sign-up)
+Product
+  * [Email Finder](https://getprospect.com/)
+  * [Linkedin Email Finder](https://getprospect.com/linkedIn-email-finder-chrome-extension)
+  * [B2B Database](https://getprospect.com/b2b-contact-database)
+  * [Lead Enrichment](https://getprospect.com/enrichment)
+  * [Integrations](https://getprospect.com/integrations)
+  * [API](https://getprospect.readme.io/reference/introduction)
+  * [Cold Email](https://getprospect.com/cold-email-software)
+  * [Email Verifier](https://getprospect.com/email-verifier)
+  * [Email Lookup](https://getprospect.com/email-lookup)
+  * [Bulk Email Finder](https://getprospect.com/email-finder/bulk-email-finder)
+  * [Email Finder By Domain](https://getprospect.com/email-finder/email-finder-by-domain)
+  * [Bulk Email Verifier](https://getprospect.com/email-verifier/bulk-email-verifier)
+  * [Google Sheets Addon](https://getprospect.com/email-finder-addon-google-sheets)
+  * [CRM](https://getprospect.com/crm)
+
+
+Resources
+  * [Blog](https://getprospect.com/blog)
+  * [Help Center](https://getprospect.com/help-center)
+  * [Directory](https://getprospect.com/business-directory)
+  * [Email Finders Comparison](https://getprospect.com/email-finders-comparison)
+
+
+Company
+  * [About Us](https://getprospect.com/about)
+  * [Customer Stories](https://getprospect.com/customer-stories)
+  * [Our Data](https://getprospect.com/our-data)
+  * [Pricing](https://getprospect.com/pricing)
+  * [Affiliate Program](https://app.getreditus.com/marketplace/getprospect)
+
+
+Legal
+  * [Terms of Use](https://getprospect.com/terms)
+  * [Privacy Policy](https://getprospect.com/privacy)
+  * [DPA](https://getprospect.com/dpa)
+  * [Don't Sell My Info](https://getprospect.com/personal-data)
+
+
+©2016-2026 GetProspect LLC. Made in Ukraine 🇺🇦 Hosted in EU
+  *   * [](https://www.facebook.com/getprospect.io/)
+  * [](https://www.linkedin.com/company/getprospect-com)
+  * [](https://twitter.com/getprospect_com)
+  * [](https://www.youtube.com/@getprospect)
+  * [](https://chromewebstore.google.com/detail/email-finder-getprospect/bhbcbkonalnjkflmdkdodieehnmmeknp)
+
+
+","","https://getprospect.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Email finder • Free email search - find 50 valid emails for free","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","getprospect.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/18","0.6944","llm","heuristic_no_credit","5079bd81d01553e2aa7743f1ee8c789cbd6c93b11dc2e8d76b573b4ed8cb7d0b","0.0","0.3","5c777a36-04aa-528e-a376-bfdcaa5bc329","","2026-03-31T12:31:57.170678Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/getprospect.com.json","/tmp/tmp5drws_al/evidence/domain/getprospect.com.json","","2026-06-29T12:31:57.170680Z","management consulting firm director email","2026-03-31T12:31:53.724213Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://mcgplc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","mcgplc.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","2b5b72f3b15b95e6dc1f739e3e8a99bad698e6acfcfaa7858381fdfaf0d86aae","0.0","0.3","d775a363-09cf-5ef9-bdf1-6063d6b4e06b","","2026-03-31T12:31:57.183953Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mcgplc.com.json","/tmp/tmp5drws_al/evidence/domain/mcgplc.com.json","","2026-06-29T12:31:57.183955Z","management consulting firm director email","2026-03-31T12:31:54.384382Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

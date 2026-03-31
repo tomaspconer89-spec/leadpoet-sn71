@@ -1,0 +1,154 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T13:04:23.646365Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp7avja42k/evidence/domain/cansulta.com.json","","2026-06-29T13:04:23.646367Z","startup advisory services founder contact","2026-03-31T13:03:55.432740Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T13:04:23.659694Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp7avja42k/evidence/domain/maynardnexsen.com.json","","2026-06-29T13:04:23.659697Z","business consulting firm advisor email","2026-03-31T13:03:59.327474Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T13:04:23.672763Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp7avja42k/evidence/domain/vaam.io.json","","2026-06-29T13:04:23.672765Z","SaaS startup CEO contact information","2026-03-31T13:04:02.622590Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T13:04:23.685887Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp7avja42k/evidence/domain/findemails.com.json","","2026-06-29T13:04:23.685889Z","SaaS startup CEO contact information","2026-03-31T13:04:03.824154Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","03205bb0b4779846df6f8792f0a1e50aff28ae7c5ea935fd309a2374e0e52c8e","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-03-31T13:04:23.698918Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmp7avja42k/evidence/domain/scribd.com.json","","2026-06-29T13:04:23.698920Z","SaaS startup CEO contact information","2026-03-31T13:04:05.973067Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# VC Lab - The Premiere Venture Capital Accelerator
+
+![Cohort 21 Banner Image 3](https://govclab.com/wp-content/uploads/slider/cache/0aff3bef1e417a26f2cb915d4195490b/Cohort-21-Banner-Image-3.png "VC Lab - The Premiere Venture Capital Accelerator 1")
+
+Cohort 21: Age of the Specialist
+
+VC Lab Cohort 21:  
+The Dawn of the Specialists
+
+Apply by April 27 to unlock **1-on-1 support, thesis feedback, and working sessions before the cohort begins** . Build LP momentum and launch your fund faster.
+
+**_VC Lab: The world’s largest venture capital accelerator._**
+
+![Home VC Lab](https://i0.wp.com/govclab.com/wp-content/uploads/2026/01/Home-VC-Lab.png?resize=700%2C700&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 13")
+
+#### Launch a VC Firm
+
+**VC Lab** is the leading accelerator helping managers launch a top VC firm in 4 months or less.
+
+![Home Emerging Institute](https://i0.wp.com/govclab.com/wp-content/uploads/2026/01/Home-Emerging-Institute.png?resize=700%2C700&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 14")
+
+## Emerging **Institute**
+
+#### Raise from Institutions
+
+**Emerging Institute** helps firms working on Fund II, III, or IV to become institutional-grade.
+
+![Home Start Lab](https://i0.wp.com/govclab.com/wp-content/uploads/2026/01/Home-Start-Lab.png?resize=700%2C700&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 15")
+
+## Launch  
+Part Time
+
+#### Launch a Fund Part-Time
+
+**A** **free bootcamp** built for operators and experts who want to launch without quitting their day job.
+
+![Home Venture Institute](https://i0.wp.com/govclab.com/wp-content/uploads/2026/01/Home-Venture-Institute.png?resize=700%2C700&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 16")
+
+## Venture **Institute**
+
+#### Start a VC Career
+
+**Venture Institute** is the top global program to launch your career in VC in 9 weeks.
+
+![mensarius oath logo5](https://i0.wp.com/govclab.com/wp-content/uploads/2023/01/mensarius-oath-logo5.jpg?resize=364%2C364&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 17")
+
+## Our Values
+
+We follow the [Mensarius Oath](https://govclab.com/the-mensarius-oath/), an ethical code of conduct for venture capitalists to foster positive outcomes in society. 
+
+All VC Lab and Venture Institute participants agree to the The Mensarius Oath, ensuring that everyone has aligned values.
+
+## Our Impact
+
+Snapshot as of January, 2026
+
+#### 0
+
+### Cohorts
+
+#### 0
+
+### VC Firms Accelerated
+
+#### $0.2+
+
+### Target AUM  
+(Billions)
+
+#### 0+
+
+### Portfolio Up Rounds
+
+#### 0%
+
+### Solo GPs
+
+#### 0%
+
+### Female GPs  
+(250+ VC Firms)
+
+#### 0%
+
+### Pre-Seed or Seed Stage
+
+#### 0%
+
+### International GPs
+
+![DG block background 4](https://i0.wp.com/govclab.com/wp-content/uploads/2023/02/DG-block-background-4.jpg?resize=700%2C292&ssl=1 "VC Lab - The Premiere Venture Capital Accelerator 18")
+
+#### Apply to VC Lab Cohort 21
+
+Submit your application by April 27th
+
+## VC News & Insights
+
+Discover the best VC automation tools for LP outreach, pipeline management, and wire conversion….
+
+Everything you need to know about emerging manager venture capital: who qualifies, why first-time fund managers consistently outperform established VC firms, and how programs like VC Lab are reshaping the…
+
+SEC registration, Reg D exemptions, fund domicile, AML, and ongoing filings. The complete compliance guide for emerging VC fund managers. Avoid the mistakes that derail first-time GPs….
+
+The tools, platforms, and AI infrastructure modern VC firms use to operate. From deal CRM to fund accounting – what emerging managers need to build right from day one. …
+
+The entire point of Decile Group is to help power emerging VCs who break the mold. The types of managers who don’t fit the stereotype of the VC with the…
+
+Roger Luo May Have the One Degree AI Has Made More Valuable Every day there are panicked articles about the carnage on white-collar jobs that AI is wreaking. How AI has destroyed…
+
+Close your eyes and picture an AI founder who built three startups, had substantial exits, and has just launched a new venture fund specializing in vertical AI. Keep your eyes closed….
+
+Anthony Atlas has a minor planet named after him. Asteroid number something or other, orbiting out there in the black. He won first place at the International Science Fair in…
+
+Are sector specialists indeed outperforming generalist funds? For much of venture capital’s history, many funds launched with broad mandates. Generalist investors deployed capital across industries and stages, relying on network access…
+
+The Venture Trends survey of 163 emerging venture capital managers reveals a clear takeaway for Q2 2026: venture is moving deeper into the agentic AI era. Across 464 total recorded votes,…
+
+The most overlooked source of LP capital might already be in your investors’ retirement accounts. If you’re an emerging fund manager, you know the fundraising grind. You’ve pitched family offices that…
+
+The traditional retirement playbook is showing its age. Here’s how self-directed IRAs are giving investors access to a broader universe of opportunity. For most investors, retirement planning follows a familiar script:…
+
+Your retirement account could be your ticket into the fastest-growing segment of private markets. Venture capital has long been considered the domain of institutions and ultra-wealthy individuals, the kind of asset…
+
+You’ve done the work. Cleaned up Fund I. Built your data room. Refined your thesis. Practiced your pitch. And then you’re sitting across from an LP, and they ask a question…
+
+Teel Lidow recently wrote a thorough breakdown of the different fund admins available to emerging managers with funds under $100M. It’s worth reading. But while he covered a lot of ground…
+
+Fund I fundraising was about conviction. Your story. Your thesis. Your background. LPs were betting on potential. Fund II is different. Now they want evidence. And the evidence is your Fund I. Here’s…
+
+## Additional Offerings
+
+## Meet  
+Decile Partners
+
+The leading fund administration for emerging managers
+
+## Try  
+Decile Hub
+
+The full-featured OS to run venture capital funds
+
+## Explore  
+Decile Base
+
+A powerful LLM for all operating questions on venture capital","","https://govclab.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","VC Lab - The Premiere Venture Capital Accelerator - VC Lab","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","govclab.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","2aff1b4be5835b54737e9d0e394e462aff373aa4885a52ca28cbca453ceb1c73","0.0","0.3","d6d5d8f1-fed3-5681-bf23-8ddef7d41fe3","","2026-03-31T13:04:54.637702Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/govclab.com.json","/tmp/tmp7avja42k/evidence/domain/govclab.com.json","","2026-06-29T13:04:54.637709Z","venture consulting firm partner email","2026-03-31T13:04:10.215115Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T13:04:54.655027Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmp7avja42k/evidence/domain/bcg.com.json","","2026-06-29T13:04:54.655029Z","venture consulting firm partner email","2026-03-31T13:04:10.868965Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T13:04:54.667806Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp7avja42k/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T13:04:54.667808Z","management consulting firm director email","2026-03-31T13:04:21.272893Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

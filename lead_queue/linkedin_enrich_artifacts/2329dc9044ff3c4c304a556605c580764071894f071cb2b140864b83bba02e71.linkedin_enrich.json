@@ -1,0 +1,1143 @@
+{
+  "saved_at_utc": "2026-03-31T12:57:21.972253+00:00",
+  "queue_key": "2329dc9044ff3c4c304a556605c580764071894f071cb2b140864b83bba02e71",
+  "business": "Venture Global | Innovating to provide low-cost LNG",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Venture Global | Innovating to provide low-cost LNG",
+      "Venture Global | Innovating to provide low-cost LNG linkedin company",
+      "site:linkedin.com/company ventureglobal.com",
+      "site:linkedin.com/in \"Venture Global | Innovating to provide low-cost LNG\" founder",
+      "site:linkedin.com/in \"Venture Global | Innovating to provide low-cost LNG\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "WM4SqaFYE19xWT9",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Venture+Global+%7C+Innovating+to+provide+low-cost+LNG",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Venture+Global+%7C+Innovating+to+provide+low-cost+LNG",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Venture Global | Innovating to provide low-cost LNG",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Venture+Global+%7C+Innovating+to+provide+low-cost+LNG",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Venture+Global+%7C+Innovating+to+provide+low-cost+LNG",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Global LNG",
+            "url": "https://www.linkedin.com/company/venture-global-lng-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://it.linkedin.com/company/venture-global-lng-inc.?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://br.linkedin.com/company/venture-global-lng-inc.?trk=organization-update_share-update_actor-image",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://ru.linkedin.com/company/venture-global-lng-inc.?trk=similar-companies_org_title",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Venture Global LNG: Jobs",
+            "url": "https://www.linkedin.com/company/venture-global-lng-inc./jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a jobs",
+            "description": "Venture Global LNG | 76273 followers on LinkedIn. Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American\u00a0...",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Americas LNG Summit & Exhibition",
+            "url": "https://www.linkedin.com/company/americas-lng-gas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Americas LNG Summit & Exhibition",
+            "description": "The Americas LNG Summit & Exhibition is a leading platform for LNG dialogue, decision-making and deal formation across the Americas.Read more",
+            "emphasizedKeywords": [
+              "LNG",
+              "LNG",
+              "and"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Cheniere Energy, Inc.: Cultura",
+            "url": "https://ar.linkedin.com/company/cheniere-energy-inc/life/77a6ab8a-f8ec-4f05-9e43-48985b68ad23",
+            "displayedUrl": "https://ar.linkedin.com \u203a cheniere-energy-inc \u203a life",
+            "description": "Our mission is to responsibly deliver a reliable, competitive and integrated source of LNG in a safe, rewarding work environment. Our vision is to provide clean\u00a0...",
+            "emphasizedKeywords": [
+              "responsibly deliver a reliable, competitive and integrated source of LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Cameron LNG",
+            "url": "https://cn.linkedin.com/company/cameron-lng/?trk=organization-update_share-update_actor-text",
+            "displayedUrl": "https://cn.linkedin.com \u203a company \u203a cameron-lng",
+            "description": "Cameron LNG, a liquefied natural gas (LNG) terminal near the Gulf of Mexico, was constructed to bring clean, efficient natural gas supplies to North America\u00a0...",
+            "emphasizedKeywords": [
+              "Cameron LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Gastech Exhibition & Conference",
+            "url": "https://jp.linkedin.com/company/gastechevent/?trk=organization-update_share-update_actor-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Gastech Exhibition & Conference",
+            "description": "... LNG from Venture Global's portfolio to support supply diversification and meet growing global demand. The agreement strengthens ties between one of the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "LNG",
+              "Venture Global's",
+              "supply",
+              "and"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50.4K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Alchemy Energy Partners",
+            "url": "https://www.linkedin.com/company/alchemyenergypartners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alchemy Energy Partners",
+            "description": "US LNG developer Venture Global LNG has announced FID and financial close for Phase 2 of the CP2 LNG project in Louisiana, marking another major milestone for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "US LNG developer Venture Global LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.8K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/4Srk220vZMaT3ye08/records/WM4SqaFYE19xWT9-0.html?signature=1waeVnz0Drs1dqBKyXVQE"
+      },
+      {
+        "#debug": {
+          "requestId": "OhS0v7h8t0l9LCr",
+          "url": "http://www.google.com/search?q=Venture+Global+%7C+Innovating+to+provide+low-cost+LNG+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Venture+Global+%7C+Innovating+to+provide+low-cost+LNG+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Venture Global | Innovating to provide low-cost LNG linkedin company",
+          "url": "http://www.google.com/search?q=Venture+Global+%7C+Innovating+to+provide+low-cost+LNG+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Venture+Global+%7C+Innovating+to+provide+low-cost+LNG+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Venture Global ship Management",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+ship+Management&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Venture Global controversy",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+controversy&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Who owns Venture Global LNG",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Who+owns+Venture+Global+LNG&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Venture Global LNG fleet",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+fleet&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Delta lng venture global",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Delta+lng+venture+global&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Venture Global LNG revenue",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+revenue&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "What is venture Global LNG",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=What+is+venture+Global+LNG&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Venture Global LNG crewing",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+crewing&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Venture Global ship Management",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+ship+Management&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Venture Global controversy",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+controversy&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Who owns Venture Global LNG",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Who+owns+Venture+Global+LNG&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Venture Global LNG fleet",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+fleet&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Delta lng venture global",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Delta+lng+venture+global&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Venture Global LNG revenue",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+revenue&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "What is venture Global LNG",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=What+is+venture+Global+LNG&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Venture Global LNG crewing",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Venture+Global+LNG+crewing&sa=X&ved=2ahUKEwiklsHkl8qTAxWDNPsDHXOND-cQ1QJ6BAg4EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Global LNG",
+            "url": "https://www.linkedin.com/company/venture-global-lng-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "\u201cUnstoppable Energy\u201d. \u201cVenture Global is excited to unveil ...",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._unstoppable-energy-venture-global-is-launching-activity-7441808217543897088-vTTy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Good day, I am a Marine Engineer and have been working on LNG Ships for the past 15 years. I wish to join Venture Global, and would be grateful\u00a0...Read more",
+            "emphasizedKeywords": [
+              "and have",
+              "LNG",
+              "Venture Global",
+              "and"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Venture Global LNG's Post",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._today-venture-global-is-announcing-a-final-activity-7438231649517166593-5XdW",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Today, Venture Global is announcing a final investment decision (FID) and successful closing of an $8.6 billion project financing for the\u00a0...",
+            "date": "2026-03-31T12:55:50.996Z",
+            "emphasizedKeywords": [
+              "Venture Global",
+              "and"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "This is Unstoppable Energy | Venture Global LNG",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._this-is-unstoppable-energy-activity-7440823196586590208-tklm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Through innovation, Venture Global is delivering American energy at a fraction of the cost, in a fraction of the time. That's Venture Global.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is delivering American energy at a fraction of the cost"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://it.linkedin.com/company/venture-global-lng-inc.?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Venture Global CEO talks LNG deals on CNBC",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._gastech2025-lng-activity-7371551910299885570-8e5x",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "This morning from #Gastech2025 in Milan: Venture Global CEO Mike Sabel joined Dan Murphy on CNBC International to discuss the company's\u00a0...",
+            "date": "2026-03-31T06:00:00.000Z",
+            "emphasizedKeywords": [
+              "Venture Global CEO Mike Sabel joined Dan Murphy on CNBC International"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Venture Global | Innovating to provide low-cost LNG",
+            "url": "https://ventureglobal.com/",
+            "displayedUrl": "https://ventureglobal.com",
+            "description": "We are constructing and commissioning a liquefied natural gas (LNG) liquefaction and export facility in Cameron Parish, Louisiana, south of the city of Lake\u00a0...",
+            "emphasizedKeywords": [
+              "constructing and commissioning a liquefied natural gas (LNG) liquefaction and export facility"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Venture Global and Atlantic-See LNG sign 20-year ...",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._today-venture-global-and-atlantic-see-activity-7392515775493914625-s7MW",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global signs 20-year deal to supply LNG to the Balkans via Greece: Venture Global has signed a liquefied natural gas sales agreement\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Venture Global signs 20-year deal to supply LNG to the Balkans via Greece"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Venture Global LNG's Post",
+            "url": "https://www.linkedin.com/posts/venture-global-lng-inc._activity-7355684330947375104-xB3k",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Drives efficiency & cost reduction TPM ... This accomplishment will clearly confirm and strengthen the US leadership in LNG global market.Read more",
+            "emphasizedKeywords": [
+              "cost",
+              "and",
+              "LNG global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://jp.linkedin.com/company/venture-global-lng-inc.?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/EB8sEb9R4R6XRbl3f/records/OhS0v7h8t0l9LCr-0.html?signature=5BqlmssdlZjjUkyBivaN"
+      },
+      {
+        "#debug": {
+          "requestId": "EfOyFAI7RtuVyZL",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureglobal.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureglobal.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company ventureglobal.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureglobal.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureglobal.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Global LNG",
+            "url": "https://www.linkedin.com/company/venture-global-lng-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of US LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "VentureGlobal",
+            "url": "https://www.linkedin.com/company/venture-global",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0VentureGlobal",
+            "description": "As an International Venture Capitalist, we strive for the development of Ideas & Start-ups all across the world.Read more",
+            "emphasizedKeywords": [
+              "International Venture Capitalist"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Venture Global LLC",
+            "url": "https://www.linkedin.com/company/venture-global-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LLC",
+            "description": "We are a boutique strategy consulting firm focused on advising our clients how to build, grow and protect their businesses and brands.Read more",
+            "emphasizedKeywords": [
+              "boutique strategy consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Venture Global LNG: Jobs",
+            "url": "https://www.linkedin.com/company/venture-global-lng-inc./jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a jobs",
+            "description": "Venture Global LNG | 76273 followers on LinkedIn. Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American\u00a0...",
+            "emphasizedKeywords": [
+              "Venture Global is a long-term, low-cost provider of U.S. LNG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://br.linkedin.com/company/venture-global-lng-inc.?trk=organization-update_share-update_actor-image",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of US LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Venture Global Solutions",
+            "url": "https://www.linkedin.com/company/venture-global-solutions/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global Solutions",
+            "description": "Venture Global Solutions is a leading BPO company based in Barranquilla, Colombia. We specialize in providing high-quality outsourcing services to businesses\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is a leading BPO company based in Barranquilla, Colombia"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Venture Global W.L.L",
+            "url": "https://www.linkedin.com/company/venture-global-w-l-l",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global W.L.L",
+            "description": "Venture Global founded in February 2013 by a group of people with more than 20 years' experience with same industry in Qatar and other GCC countries.Read more",
+            "emphasizedKeywords": [
+              "Venture Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "230+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Venture Global LNG",
+            "url": "https://jp.linkedin.com/company/venture-global-lng-inc.?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global LNG",
+            "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins.Read more",
+            "emphasizedKeywords": [
+              "Venture Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "77.8K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Venture Global Limited",
+            "url": "https://hk.linkedin.com/company/venture-global-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Global Limited",
+            "description": "Venture Global Limited (Venture), headquartered in Hong Kong, designs and manufactures DIY Home Safety and Security, Elderly Care / Rehabiliation and Green\u00a0...Read more",
+            "emphasizedKeywords": [
+              "designs and manufactures DIY Home Safety and Security"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Golden Pass LNG: Culture",
+            "url": "https://www.linkedin.com/company/golden-pass-lng-terminal/life",
+            "displayedUrl": "https://www.linkedin.com \u203a golden-pass-lng-terminal \u203a life",
+            "description": "Our vision for Golden Pass is to be the premier LNG export company in North America. We are defined and set apart from others by our values.Read more",
+            "emphasizedKeywords": [
+              "premier LNG export company in North America"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/7O6xiI7229rTKedIQ/records/EfOyFAI7RtuVyZL-0.html?signature=zga8fob4rIYHBZRRdIvl"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Venture Global | Innovating to provide low-cost LNG",
+      "https://www.linkedin.com/company/venture-global-lng-inc.",
+      "https://it.linkedin.com/company/venture-global-lng-inc.?trk=ppro_cprof",
+      "https://br.linkedin.com/company/venture-global-lng-inc.?trk=organization-update_share-update_actor-image",
+      "https://ru.linkedin.com/company/venture-global-lng-inc.?trk=similar-companies_org_title",
+      "https://www.linkedin.com/company/venture-global-lng-inc./jobs",
+      "https://www.linkedin.com/company/americas-lng-gas",
+      "https://ar.linkedin.com/company/cheniere-energy-inc/life/77a6ab8a-f8ec-4f05-9e43-48985b68ad23",
+      "https://cn.linkedin.com/company/cameron-lng/?trk=organization-update_share-update_actor-text",
+      "https://jp.linkedin.com/company/gastechevent/?trk=organization-update_share-update_actor-text",
+      "https://www.linkedin.com/company/alchemyenergypartners",
+      "https://www.linkedin.com/company/venture-global-lng-inc.",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._unstoppable-energy-venture-global-is-launching-activity-7441808217543897088-vTTy",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._today-venture-global-is-announcing-a-final-activity-7438231649517166593-5XdW",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._this-is-unstoppable-energy-activity-7440823196586590208-tklm",
+      "https://it.linkedin.com/company/venture-global-lng-inc.?trk=ppro_cprof",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._gastech2025-lng-activity-7371551910299885570-8e5x",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._today-venture-global-and-atlantic-see-activity-7392515775493914625-s7MW",
+      "https://www.linkedin.com/posts/venture-global-lng-inc._activity-7355684330947375104-xB3k",
+      "https://jp.linkedin.com/company/venture-global-lng-inc.?trk=public_profile_experience-item_profile-section-card_image-click",
+      "site:linkedin.com/company ventureglobal.com",
+      "https://www.linkedin.com/company/venture-global-lng-inc.",
+      "https://www.linkedin.com/company/venture-global",
+      "https://www.linkedin.com/company/venture-global-llc",
+      "https://www.linkedin.com/company/venture-global-lng-inc./jobs",
+      "https://br.linkedin.com/company/venture-global-lng-inc.?trk=organization-update_share-update_actor-image",
+      "https://www.linkedin.com/company/venture-global-solutions/",
+      "https://www.linkedin.com/company/venture-global-w-l-l",
+      "https://jp.linkedin.com/company/venture-global-lng-inc.?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://hk.linkedin.com/company/venture-global-limited",
+      "https://www.linkedin.com/company/golden-pass-lng-terminal/life"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/venture-global-lng-inc./",
+        "companyName": "Venture Global LNG",
+        "websiteUrl": "http://venturegloballng.com",
+        "industry": "Oil & Energy",
+        "employeeCount": 1907,
+        "followerCount": 78007,
+        "universalName": "venture-global-lng-inc.",
+        "tagline": null,
+        "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins. Venture Global\u2019s first facility, Calcasieu Pass, commenced producing LNG in January 2022.  The company is also constructing or developing an additional 60 MTPA of production capacity in Louisiana to provide clean, affordable energy to the world. The company is developing Carbon Capture and Sequestration (CCS) projects at each of its LNG facilities.\n \nFor more information, visit https://www.venturegloballng.com",
+        "companyId": 15401201,
+        "hashtag": null,
+        "industryV2Taxonomy": "Oil and Gas",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "http://venturegloballng.com"
+        },
+        "employeeCountRange": {
+          "start": 501,
+          "end": 1000
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Arlington",
+          "geographicArea": "Virginia",
+          "postalCode": null,
+          "line1": "1001 19th St N",
+          "line2": null,
+          "description": null
+        },
+        "foundedOn": null,
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQH4mm9j65Mguw/company-logo_200_200/company-logo_200_200/0/1630583134974/venture_global_lng_inc_logo?e=1776297600&v=beta&t=GBojnI3OAJtTJORB5v8TjPGx6dus3wOBTHtmS-bu2EI",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGFAE5WPzM1xg/company-background_10000/B4EZ0crkWDIkAY-/0/1774302677190/venture_global_lng_inc_cover?e=1775566800&v=beta&t=6Gf2P-JzUVYybjbcmFlhE3qN49IN_oAW-z-FZjYvipQ",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFSMTVbjqu8gw/image-scale_127_750/B4EZ0crkV2GQAM-/0/1774302677660/venture_global_lng_inc_cover?e=1775566800&v=beta&t=TTTUwnacDPQw42OUw1i7lwVa8dNjde8pBIsAuhSXCJE",
+        "specialities": [],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "Shell",
+            "followerCount": 7634237,
+            "url": "https://www.linkedin.com/company/shell/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_200_200/company-logo_200_200/0/1631303787196?e=1776297600&v=beta&t=qBighYvrnGiJ9_V405kV549j1PPAi-O2gOHfOP1H4DA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGxPIShGkeG5g/image-scale_127_750/B4EZXMx8g2GgAM-/0/1742897400620/shell_cover?e=1775566800&v=beta&t=nKhfafG79SBk3b3ZjgIq_igqsUBUHyQ_n1jt1YKTTTY",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQHjklRPvnsrtA/company-background_400/B4EZXMx8h1HgAY-/0/1742897400530/shell_cover?e=1775566800&v=beta&t=oFav0AlvSM8xYleNwi0I8PE1RNtCqJFWVtBoUhpQiY8",
+            "companyId": 1271,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "GB",
+              "city": "London",
+              "geographicArea": "England",
+              "postalCode": "SE1 7NA",
+              "line1": "York Road",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "shell"
+          },
+          {
+            "name": "Oxy",
+            "followerCount": 700482,
+            "url": "https://www.linkedin.com/company/oxy/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQHJTUPHe6nNIw/company-logo_200_200/company-logo_200_200/0/1636654882720/oxy_logo?e=1776297600&v=beta&t=OMjHKDo7cvV8TLtpVOKOzHg042OqZ6HvpedX5HBCD-I",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFqmJ4aSVWVkQ/image-scale_127_750/B56ZqiO3ReIYAU-/0/1763658397413/oxy_cover?e=1775566800&v=beta&t=1VUCY2UCbq8xLefRTcapg7i611CoE_wgBxE9PLU0GCA",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHPsfZKYGDtlw/company-background_400/B56ZqiO3SJG4AY-/0/1763658397410/oxy_cover?e=1775566800&v=beta&t=8tiMkBAzrUJi3vzadJwDTKoe8tFgBM1SWdtTK9BPMh4",
+            "companyId": 165370,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "TX",
+              "postalCode": "77046",
+              "line1": null,
+              "line2": null,
+              "description": "Occidental "
+            },
+            "universalName": "oxy"
+          },
+          {
+            "name": "Dow",
+            "followerCount": 1281563,
+            "url": "https://www.linkedin.com/company/dow-chemical/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEoEtwab1-SNA/company-logo_200_200/company-logo_200_200/0/1719819840192/dow_chemical_logo?e=1776297600&v=beta&t=wK3DLbUtVgJ3xUnrSd-r1ivhISkRfVV8j4UC96cW608",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQG9GPdFJLyP_Q/image-scale_127_750/B56ZqjGsC9I4AM-/0/1763673031476/dow_chemical_cover?e=1775566800&v=beta&t=Jyzw5SVIK-YNXHeX3iVu13rmtZwiOZIlKP2xE0DqqNk",
+            "industryV2Taxonomy": "Chemical Manufacturing",
+            "industry": "Chemicals",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQE4Xhh4pNLfcg/company-background_200/B56ZqjGsCWI4Ac-/0/1763673031291/dow_chemical_cover?e=1775566800&v=beta&t=dcHBOKNI1GnSomymOSl9lOuaYDC5aYfJ2l7zgPk5xic",
+            "companyId": 2562,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Midland",
+              "geographicArea": "Michigan",
+              "postalCode": "48674",
+              "line1": "2211 H.H. Dow Way",
+              "line2": null,
+              "description": "Dow Corporate Headquarters"
+            },
+            "universalName": "dow-chemical"
+          },
+          {
+            "name": "Energy Transfer",
+            "followerCount": 224945,
+            "url": "https://www.linkedin.com/company/energy-transfer/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQHigiBFhAjfmg/company-logo_200_200/company-logo_200_200/0/1641307920216/energy_transfer_logo?e=1776297600&v=beta&t=OSLRIpV3aJ81K54zBFdgNVRTRrlI4h5MTBfNJUAjD3U",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFU-sPS85SRiw/image-scale_191_1128/B56Z0mazJMJMAc-/0/1774466053429/energy_transfer_cover?e=1775566800&v=beta&t=kZ1fZI89zREXX4GdGZ39eHFcxN_VNBFKvnYxl9N7crU",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHBEr_Ljovbaw/company-background_10000/B56Z0mazJ.HkAU-/0/1774466053221/energy_transfer_cover?e=1775566800&v=beta&t=VDIhwSpi_bYbIWLUo-h85DyB9JO10KOMDBpsQajCME4",
+            "companyId": 68155,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": null,
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "energy-transfer"
+          },
+          {
+            "name": "ADNOC Group",
+            "followerCount": 2497596,
+            "url": "https://www.linkedin.com/company/adnocgroup/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQH22Zov_qcQZA/company-logo_200_200/company-logo_200_200/0/1653378905431/adnoc_logo?e=1776297600&v=beta&t=q4epUYW3mV1OhPK6WWy7UT1J59jSN0NHktynpw-LRCE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQFCyOfPWxiwqA/image-scale_191_1128/B4DZ0B2gY6GoAc-/0/1773852562688/adnocgroup_cover?e=1775566800&v=beta&t=8NfCZpN9SF0zdM-hoNgWWbycUqgATcEbQL1hzZFP8YI",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHfs8A8xFKNVg/company-background_10000/B4DZ0B2gY_GsAU-/0/1773852561630/adnocgroup_cover?e=1775566800&v=beta&t=8m9GPfD2CkH9214qFNUoNdiaJbmRIX2xqRXo1w4XZnM",
+            "companyId": 21999,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "AE",
+              "city": "Abu Dhabi",
+              "geographicArea": null,
+              "postalCode": "898",
+              "line1": "Corniche Road",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "adnocgroup"
+          },
+          {
+            "name": "LyondellBasell",
+            "followerCount": 340280,
+            "url": "https://www.linkedin.com/company/lyondell-basell/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGZXlta9Djrgw/company-logo_200_200/company-logo_200_200/0/1719923766223/lyondell_basell_logo?e=1776297600&v=beta&t=PHKmraSOFwP644BTpX0r_1LkXjnF5kySanIoks42B3c",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEofF8fhTRBMw/image-scale_127_750/image-scale_127_750/0/1702317676366/lyondell_basell_cover?e=1775566800&v=beta&t=zaf5hdK5C1HBZ-_MzrWHBdaaCYbjs34gSN0KcpkwSUI",
+            "industryV2Taxonomy": "Chemical Manufacturing",
+            "industry": "Chemicals",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHlcGbPlR04Zw/company-background_10000/company-background_10000/0/1702317676477/lyondell_basell_cover?e=1775566800&v=beta&t=PEmLavpzUL_5rw9TSFmG0fFi3MQTzkq-YXWhMsSzhLg",
+            "companyId": 5667,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "TX",
+              "postalCode": "77010",
+              "line1": "LyondellBasell Tower, Ste. 700",
+              "line2": "1221 McKinney Street",
+              "description": "Houston "
+            },
+            "universalName": "lyondell-basell"
+          },
+          {
+            "name": "MODEC",
+            "followerCount": 694831,
+            "url": "https://www.linkedin.com/company/modec-group/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGXIelJHW8FnA/company-logo_200_200/company-logo_200_200/0/1631392052206?e=1776297600&v=beta&t=VtXD_9SLPGllWxFiqUdNGHBo1NPwPmMVHhB3aTvZ-m4",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHMktrBxfqQ9g/image-scale_127_750/image-scale_127_750/0/1711142239638/modec_group_cover?e=1775566800&v=beta&t=7ZJKtooWrp53jACVOkK4vjQmoUf4weeHKHF9iFulH3w",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHioxy6lI7CHA/company-background_10000/company-background_10000/0/1711142241319/modec_group_cover?e=1775566800&v=beta&t=1JAsUs6iDnrnLOcpJ8F5nU6uqt98D6hAgOGevuZoN7w",
+            "companyId": 83631,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "JP",
+              "city": "Chuo-ku",
+              "geographicArea": "Tokyo",
+              "postalCode": "103-0027",
+              "line1": "Nihonbashi Maruzen Tokyu Building 4th & 5th Floors",
+              "line2": "3-10, Nihonbashi 2-chome",
+              "description": "MODEC, Inc."
+            },
+            "universalName": "modec-group"
+          },
+          {
+            "name": "Westlake",
+            "followerCount": 91615,
+            "url": "https://www.linkedin.com/company/westlake-corporation/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQFQJ8QBwfvAWw/company-logo_200_200/company-logo_200_200/0/1660847803674/westlake_corporation_logo?e=1776297600&v=beta&t=zwMUXyo5Imv9sEd8b50HlELqcszDt_xwda9pxm-k2FI",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEyc8-FrBuTsA/image-scale_108_640/B56Zmce3h4HUAQ-/0/1759266962813/westlake_corporation_cover?e=1775566800&v=beta&t=Wyg4LHBKBgnKiFWIvpiaMJ9GszqLr1WBW7jFQ6j1dTE",
+            "industryV2Taxonomy": "Chemical Manufacturing",
+            "industry": "Chemicals",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF8vg4mq6obvg/company-background_200/B56Zmce3hbG4Ac-/0/1759266961966/westlake_corporation_cover?e=1775566800&v=beta&t=yA6Y-FL6N1Kni-D2Cu2W9o6zvNiDBCjCmgHmr4izkqk",
+            "companyId": 47905,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "Texas",
+              "postalCode": "77056",
+              "line1": "2801 Post Oak Blvd, Suite 600",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "westlake-corporation"
+          },
+          {
+            "name": "Sasol",
+            "followerCount": 1470710,
+            "url": "https://www.linkedin.com/company/sasol/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQGyeljXUeahug/company-logo_200_200/company-logo_200_200/0/1631306403556?e=1776297600&v=beta&t=2ng67fX-DHUmQ23swLpDCqoH_QcgTewYRW5rrZwWzLs",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHcnp9ZWiNn2A/image-scale_108_640/B4DZkZ2YjaIYAc-/0/1757075311929/sasol_cover?e=1775566800&v=beta&t=17MfT3yU5R3FX1UQJvGK1PSqxBqPC1pSOwbtXVCnogE",
+            "industryV2Taxonomy": "Chemical Manufacturing",
+            "industry": "Chemicals",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHEDGqcbGJ7VQ/company-background_10000/B4DZkZ2Yh7GQAY-/0/1757075311507/sasol_cover?e=1775566800&v=beta&t=KFrax8FGuYxm0iUJ_OCF4QRpye6E8N4dlBB1XdLFzG8",
+            "companyId": 5708,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "ZA",
+              "city": "Sandton",
+              "geographicArea": "Gauteng",
+              "postalCode": "2191",
+              "line1": "50 Katherine Street",
+              "line2": null,
+              "description": "Sasol Place"
+            },
+            "universalName": "sasol"
+          },
+          {
+            "name": "NextDecade",
+            "followerCount": 44247,
+            "url": "https://www.linkedin.com/company/next-decade/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFoyHF4WU1HvA/company-logo_200_200/company-logo_200_200/0/1707338382411/next_decade_logo?e=1776297600&v=beta&t=pcUX4l8wy0ZCdCXCVlpHRaYJryFAwWO7zp9r1SWsM2k",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEM4-J8kK42cA/image-scale_191_1128/B56ZjDCS0hHMAg-/0/1755618817101/next_decade_cover?e=1775566800&v=beta&t=g3ddAQrxoamXZDBr28-fduwaWHhFu4dU5FMJXlvWxtE",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHn_wVaFvq1GA/company-background_10000/B56ZjDCS0THMAU-/0/1755618817033/next_decade_cover?e=1775566800&v=beta&t=TwFOXBrGrQN9lv_MutKZeGyObtkHsbvK5qFkhrk9GeM",
+            "companyId": 1380694,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "Texas",
+              "postalCode": "77002",
+              "line1": "1000 Louisiana St",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "next-decade"
+          },
+          {
+            "name": "Knutsen LNG France",
+            "followerCount": 13706,
+            "url": "https://www.linkedin.com/company/knutsen-lng-france/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEZJIc9i9cMJQ/company-logo_200_200/company-logo_200_200/0/1630655037850?e=1776297600&v=beta&t=Elhq_PfhB-H0wUReQqbonjjnNDNHR2doP4RciW7n1lo",
+            "industryV2Taxonomy": "Maritime Transportation",
+            "industry": "Logistics & Supply Chain",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQGbvwCycb0P8g/company-background_10000/company-background_10000/0/1629814283599/knutsen_lng_france_cover?e=1775566800&v=beta&t=2BxTrDzeMJJaxOldzgzjQl-kmmyUTkwrRl53FX49Zf8",
+            "companyId": 74945683,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "FR",
+              "city": "Marseille",
+              "geographicArea": "Provence-Alpes-C\u00f4te d\u2019Azur",
+              "postalCode": "13008",
+              "line1": "310, Rue Paradis",
+              "line2": null,
+              "description": "French Headquarers"
+            },
+            "universalName": "knutsen-lng-france"
+          },
+          {
+            "name": "Cheniere Energy, Inc.",
+            "followerCount": 119417,
+            "url": "https://www.linkedin.com/company/cheniere-energy-inc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQHw7685kPF85g/company-logo_200_200/company-logo_200_200/0/1630654467831/cheniere_energy_inc_logo?e=1776297600&v=beta&t=Um0_ZpUJ2sTR4HszCEJehUDEuO7LsJ3FMyDbrghngKE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGm3qK_HCaA4w/image-scale_127_750/image-scale_127_750/0/1723469796562/cheniere_energy_inc_cover?e=1775566800&v=beta&t=t-DO1WCFiAmoFuJ9RLQAmabPJgnSzZz0S-IiztQNrbc",
+            "industryV2Taxonomy": "Oil and Gas",
+            "industry": "Oil & Energy",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHknnFmlWd6TA/company-background_10000/company-background_10000/0/1723469796329/cheniere_energy_inc_cover?e=1775566800&v=beta&t=YI_hujfPQhNGPXwriwNlu3RnYDK5hmw9dbeTFPaxQcY",
+            "companyId": 33203,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "Texas",
+              "postalCode": "77002",
+              "line1": "845 Texas Avenue",
+              "line2": "Suite 1250",
+              "description": "Houston"
+            },
+            "universalName": "cheniere-energy-inc"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Arlington",
+            "geographicArea": "Virginia",
+            "postalCode": null,
+            "line1": "1001 19th St N",
+            "line2": null,
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Arlington",
+            "latitude": 37.57182,
+            "longitude": -77.46369
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/venture-global-lng-inc.",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Venture Global | Innovating to provide low-cost LNG",
+    "description": "# Venture Global | Innovating to provide low-cost LNG ## Calcasieu Pass We are constructing and commissioning a liquefied natural gas (LNG) liquefaction and export facility in Cameron Parish, Louisiana, south of the city of Lake Charles. Once complete, the plant is expected to have an export capacity of least 10 MTPA. ## Plaquemines\u200b We are constructing an LNG liquefaction and export facility in Plaquemines Parish, Louisiana, approximately 20 miles south of New Orleans. Once complete, Plaquemines LNG is expected to have an export capacity of at least 20 MTPA.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://ventureglobal.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://ventureglobal.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ventureglobal.com",
+    "source_urls": [
+      "https://ventureglobal.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Venture Global | Innovating to provide low-cost LNG",
+    "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins. Venture Global\u2019s first facility, Calcasieu Pass, commenced producing LNG in January 2022. The company is also constructing or developing an additional 60 MTPA of production capacity in Louisiana to provide clean, affordable energy to the world. The company is developing Carbon Capture and Sequestration (CCS) projects at each of its LNG facilities. For more information, visit https://www.venturegloballng.com",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://ventureglobal.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "CEO",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-global-lng-inc.",
+    "source_url": "https://ventureglobal.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Barranquilla",
+    "country": "United States",
+    "state": "",
+    "city": "Barranquilla",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ventureglobal.com",
+    "source_urls": [
+      "https://ventureglobal.com"
+    ],
+    "title_raw": "CEO",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Barranquilla"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/venture-global-lng-inc."
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "# Venture Global | Innovating to provide low-cost LNG ## Calcasieu Pass We are constructing and commissioning a liquefied natural gas (LNG) liquefaction and export facility in Cameron Parish, Louisiana, south of the city of Lake Charles. Once complete, the plant is expected to have an export capacity of least 10 MTPA. ## Plaquemines\u200b We are constructing an LNG liquefaction and export facility in Plaquemines Parish, Louisiana, approximately 20 miles south of New Orleans. Once complete, Plaquemines LNG is expected to have an export capacity of at least 20 MTPA.",
+      "after": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins. Venture Global\u2019s first facility, Calcasieu Pass, commenced producing LNG in January 2022. The company is also constructing or developing an additional 60 MTPA of production capacity in Louisiana to provide clean, affordable energy to the world. The company is developing Carbon Capture and Sequestration (CCS) projects at each of its LNG facilities. For more information, visit https://www.venturegloballng.com"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Barranquilla"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "role": {
+      "before": "",
+      "after": "CEO"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "CEO"
+    }
+  }
+}

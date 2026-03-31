@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Architecture, engineering and consultancy - Ramboll",
+  "lead": {
+    "business": "Architecture, engineering and consultancy - Ramboll",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://ramboll.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/ramboll",
+    "source_url": "https://ramboll.com",
+    "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across Buildings, Transport, Energy, Environment & Health, Water, Management Consulting and Architecture & Landscape. Across the world, Ramboll combines local experience with a global knowledge base to create sustainable cities and societies. We combine insights with the power to drive positive change for our clients, in the form of ideas that can be realised and implemented. We call it: Bright ideas. Sustainable change. Visit us at ramboll.com",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

@@ -1,0 +1,1163 @@
+{
+  "saved_at_utc": "2026-03-31T13:01:37.484932+00:00",
+  "queue_key": "481894421f24cba64f3cf4a5815bb1f55110299807758f08a0fac894e70528d3",
+  "business": "Online Startup Accelerator | Startups.com",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Online Startup Accelerator | Startups.com",
+      "Online Startup Accelerator | Startups.com linkedin company",
+      "site:linkedin.com/company startups.com",
+      "site:linkedin.com/in \"Online Startup Accelerator | Startups.com\" founder",
+      "site:linkedin.com/in \"Online Startup Accelerator | Startups.com\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "suCItdbMwhRfUML",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Online+Startup+Accelerator+%7C+Startups.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Online+Startup+Accelerator+%7C+Startups.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Online Startup Accelerator | Startups.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Online+Startup+Accelerator+%7C+Startups.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Online+Startup+Accelerator+%7C+Startups.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Online startup accelerator startups com reddit",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+reddit&sa=X&ved=2ahUKEwjc-cPjmMqTAxWvI0QIHSn1LDIQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Free online startup accelerator startups com",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Free+online+startup+accelerator+startups+com&sa=X&ved=2ahUKEwjc-cPjmMqTAxWvI0QIHSn1LDIQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Online startup accelerator startups com reddit",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+reddit&sa=X&ved=2ahUKEwjc-cPjmMqTAxWvI0QIHSn1LDIQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Free online startup accelerator startups com",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Free+online+startup+accelerator+startups+com&sa=X&ved=2ahUKEwjc-cPjmMqTAxWvI0QIHSn1LDIQ1QJ6BAg2EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startup Accelerator",
+            "url": "https://www.linkedin.com/company/startupaccelerator",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a startupaccelerator",
+            "description": "Startup Accelerator has been established to help you startup your freelance career in DataOps, MLOps & GitOps consultancy, including a project of your\u00a0...",
+            "emphasizedKeywords": [
+              "help you startup your freelance career"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Global Startup Ecosystem (GSE)",
+            "url": "https://www.linkedin.com/company/globalstartupecosystem",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leah Wilson-Moore",
+            "description": "The Global Startup Ecosystem (GSE): hosts the largest digital accelerator program for startups across 7 global regions.Read more",
+            "emphasizedKeywords": [
+              "hosts the largest digital accelerator program for startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Hyper Accelerator",
+            "url": "https://ca.linkedin.com/company/hyperaccelerator",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Hyper Accelerator",
+            "description": "Hyper Accelerator (HXA) has become the world's leading startup acceleration program. We run a 100-day global program with multi-city events and online\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Hyper Accelerator (HXA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "TechCode Accelerator - US",
+            "url": "https://www.linkedin.com/company/techcode-us",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TechCode Accelerator - US",
+            "description": "Techcode is a specialized startup accelerator that powers global founders entering China. Our mission is to support entrepreneurs, SMEs, corporates,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Techcode is a specialized startup accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Find Out More About The 7-Week Online Accelerator",
+            "url": "https://www.linkedin.com/company/thinkbigwithgeoffreykent",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Find Out More About The 7-Week Online Accelerator",
+            "description": "I help entrepreneurs successfully execute their business ideas by sharing the secrets learned from launching one of America's fastest-growing privately held\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Capital Innovators",
+            "url": "https://www.linkedin.com/company/capital-innovators",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Capital Innovators",
+            "description": "Through our nationally recognized seed program, Capital Innovators has been ranked as a top accelerator four years consecutively and featured in Entrepreneur,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "has been ranked as a top accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Element 46 Tech Accelerator",
+            "url": "https://www.linkedin.com/company/element-46-tech-accelerator",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Element 46 Tech Accelerator",
+            "description": "Element 46 is a startup accelerator program founded within the rich ecosystem of Westchester County, home to a wealth of successful businesses and entrepreneurs\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Element 46 is a startup accelerator program"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Enchant. Gaming and AI Startup accelerator",
+            "url": "https://www.linkedin.com/company/enchantstartup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Enchant. Gaming and AI Startup accelerator",
+            "description": "We accelerate gaming and AI startups, helping them turn great ideas into scalable, profitable businesses. Our program provides expert guidance, funding\u00a0...Read more",
+            "emphasizedKeywords": [
+              "We accelerate gaming and AI startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Fusen World",
+            "url": "https://www.linkedin.com/company/fusen-world",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jennifer Whitlow, EdD",
+            "description": "Founded in 2022 by Christopher W Klaus, Fusen was launched to empower student founders across the world to successfully launch and grow their startups.Read more",
+            "emphasizedKeywords": [
+              "Fusen"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "One Million by One Million (1Mby1M)",
+            "url": "https://www.linkedin.com/company/1mby1m",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0One Million by One Million (1Mby1M)",
+            "description": "One Million by One Million is a global virtual incubator that aims to help a million entrepreneurs reach a million dollars in annual revenue.Read more",
+            "emphasizedKeywords": [
+              "global virtual incubator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.7K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/xrzQEWw4Sdd9Z7fWL/records/suCItdbMwhRfUML-0.html?signature=12kD4OefquR517sDlxs1W"
+      },
+      {
+        "#debug": {
+          "requestId": "54lNiHTvibHjSus",
+          "url": "http://www.google.com/search?q=Online+Startup+Accelerator+%7C+Startups.com+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Online+Startup+Accelerator+%7C+Startups.com+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Online Startup Accelerator | Startups.com linkedin company",
+          "url": "http://www.google.com/search?q=Online+Startup+Accelerator+%7C+Startups.com+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Online+Startup+Accelerator+%7C+Startups.com+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Online startup accelerator startups com linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+linkedin+company+usa&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Online startup accelerator startups com linkedin company legit",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+linkedin+company+legit&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Startup online",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+online&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Startups com reviews",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startups+com+reviews&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Startups platform",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startups+platform&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Startup site",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+site&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Startup founders LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+founders+LinkedIn&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Startup founders group",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+founders+group&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Online startup accelerator startups com linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+linkedin+company+usa&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Online startup accelerator startups com linkedin company legit",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Online+startup+accelerator+startups+com+linkedin+company+legit&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Startup online",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+online&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Startups com reviews",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startups+com+reviews&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Startups platform",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startups+platform&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Startup site",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+site&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Startup founders LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+founders+LinkedIn&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Startup founders group",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Startup+founders+group&sa=X&ved=2ahUKEwi32bromMqTAxXoAHkGHQgdHowQ1QJ6BAg3EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startups.com",
+            "url": "https://www.linkedin.com/company/startups-co",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups.com",
+            "description": "Startups.com is the world's largest startup platform. We help over one million startup companies find customers, funding, mentors, and world-class education.Read more",
+            "emphasizedKeywords": [
+              "Startups.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Ed Kang (RODC) - Online Startup Accelerator",
+            "url": "https://www.linkedin.com/posts/edkang99_online-startup-accelerator-activity-7381713635422724096--f9b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ed Kang",
+            "description": "It took me 5 failed startups to learn what actually works. Sure, I've had exits, but that just gave me a bigger ego.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Startups.com: Online Startup Accelerator",
+            "url": "https://www.startups.com/",
+            "displayedUrl": "https://www.startups.com",
+            "description": "Launch your startup without giving up any equity. Grow with help from Startup Advisors backed by a community of founders.",
+            "emphasizedKeywords": [
+              "Launch your startup without giving up any equity"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Wil Schroter - Founder + CEO at Startups.com, Co-Host of ...",
+            "url": "https://www.linkedin.com/in/wilschroter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wil Schroter",
+            "description": "In 2012, Wil founded Startups.com, the world's largest startup launch platform. It has since been used by over 1 million startup companies globally.Read more",
+            "emphasizedKeywords": [
+              "Startups.com",
+              "startup",
+              "startup"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "38.2K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Judi Fox",
+            "url": "https://www.judifox.com/",
+            "displayedUrl": "https://www.judifox.com",
+            "description": "Create Thought Leadership Content that Makes an Impact. We are going to Accelerate Your Business Online together! Apply for LinkedIn Business Accelerator.Read more",
+            "emphasizedKeywords": [
+              "Business Online",
+              "LinkedIn Business Accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Fundamentals for Startups: LinkedIn Hacks - Part 1: Attract ...",
+            "url": "https://www.youtube.com/watch?v=V6Kfq6L2UJo",
+            "displayedUrl": "YouTube\u00a0\u203a\u00a0UW CoMotion",
+            "description": "... LinkedIn to grow your startup, veteran recruitment professional Adam Kov\u00e1cs spoke about how to leverage the platform to attract top talent\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "views": "240+ views",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Startups.com Company Overview, Contact Details & ...",
+            "url": "https://leadiq.com/c/startupscom/5a1d8d97540000590074257f",
+            "displayedUrl": "https://leadiq.com \u203a startupscom",
+            "description": "Startups.com is the world's largest startup platform. We help over one million startup companies find customers, funding, mentors, and world-class education.Read more",
+            "emphasizedKeywords": [
+              "Startups.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "StartUp Accelerators LLC",
+            "url": "https://www.linkedin.com/company/start-up-accelerators-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0StartUp Accelerators LLC",
+            "description": "StartUp Accelerators (SUA) is not a typical consulting firm, we will collaborate closely to design the approach, then build, execute and transfer knowledge.Read more",
+            "emphasizedKeywords": [
+              "StartUp Accelerators (SUA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Startup Wise Guys | Investing In The Bold Ones",
+            "url": "https://startupwiseguys.com/",
+            "displayedUrl": "https://startupwiseguys.com",
+            "description": "Startup global accelerator funds for passionate B2B startup founders. Build, grow, and scale your startup with mentorship, funding, and a global network.",
+            "emphasizedKeywords": [
+              "global accelerator funds"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Build a Great Company in San Diego",
+            "url": "https://fi.co/join",
+            "displayedUrl": "https://fi.co \u203a join",
+            "description": "The Founder Institute provides a global support network and a proven methodology to get your startup to traction and funding.",
+            "emphasizedKeywords": [
+              "global support network"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/YlSUpRoPkE6MyXc1s/records/54lNiHTvibHjSus-0.html?signature=1wap82NAllOdgNriIE80L"
+      },
+      {
+        "#debug": {
+          "requestId": "tXqtJsRkNnXye4J",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startups.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startups.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company startups.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startups.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startups.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startups.com",
+            "url": "https://www.linkedin.com/company/startups-co",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups.com",
+            "description": "Startups.com is the world's largest startup platform. We help over one million startup companies find customers, funding, mentors, and world-class education\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Startups",
+              "com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Startups.com",
+            "url": "https://ae.linkedin.com/company/startups-co/?trk=organization-update_share-update_actor-image",
+            "displayedUrl": "https://ae.linkedin.com \u203a startups-co",
+            "description": "Startups.com is the world's largest startup platform. We help over one million startup companies find customers, funding, mentors, and world-class education\u00a0...",
+            "emphasizedKeywords": [
+              "Startups.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Startups",
+            "url": "https://www.linkedin.com/company/startups-siliconvalley",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups",
+            "description": "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model.Read more",
+            "emphasizedKeywords": [
+              "is started by individual founders or entrepreneurs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "640+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Startups Magazine",
+            "url": "https://gt.linkedin.com/company/startups-magazine",
+            "displayedUrl": "https://gt.linkedin.com \u203a company \u203a startups-magazine",
+            "description": "Startups Magazine is a bi-monthly publication created to champion technology startups with all aspects of their entrepreneurial journeys - helping them\u00a0...",
+            "emphasizedKeywords": [
+              "Startups Magazine"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Startups Magazine",
+            "url": "https://uk.linkedin.com/company/startups-magazine",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups Magazine",
+            "description": "Startups Magazine is a bi-monthly publication created to champion technology startups with all aspects of their entrepreneurial journeys.Read more",
+            "emphasizedKeywords": [
+              "Startups Magazine"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "24.6K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Startup.com Inc.",
+            "url": "https://www.linkedin.com/company/startup-com-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup.com Inc.",
+            "description": "Startup.com Inc. Software Development. Wayland, Massachusetts 54 followers. Follow \u00b7 Report this company; Close menu. View all 4 employees. About us. Website\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Startup.com Inc"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Cannabis-Startups.com",
+            "url": "https://www.linkedin.com/company/cannabis-startups/?viewAsMember=true",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cannabis-Startups.com",
+            "description": "Cannabis-Startups.com is the leading platform for ambitious cannabis founders, brands, and investors who want to build sustainable success in Germany and across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Cannabis-Startups.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.5K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "The Startup Bug",
+            "url": "https://www.linkedin.com/company/thestartupbug",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Startup Bug",
+            "description": "The Startup Bug offers a range of general and customizable experiences for aspiring and established entrepreneurs.Read more",
+            "emphasizedKeywords": [
+              "offers a range of general and customizable experiences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Startups",
+            "url": "https://br.linkedin.com/company/startupscombr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups",
+            "description": "Site: http://startups.com.br. Link externo para Startups ; Setor: Not\u00edcias on-line ; Tamanho da empresa: 2-10 funcion\u00e1rios ; Sede: S\u00e3o Paulo ; Tipo: Empresa privada.Read more",
+            "emphasizedKeywords": [
+              "startups",
+              "com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "127.1K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Global Startup Awards",
+            "url": "https://rs.linkedin.com/company/global-startup-awards?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "https://rs.linkedin.com \u203a company \u203a global-startup-awards",
+            "description": "The Global Startup Awards is the world's largest independent startup ecosystem competition, spanning 154 countries across 19 distinct regions.",
+            "emphasizedKeywords": [
+              "The Global Startup Awards"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/8t1drYIFUxOAYND9r/records/tXqtJsRkNnXye4J-0.html?signature=h0mt2bOyGd8Z2DdURt71"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Online Startup Accelerator | Startups.com",
+      "https://www.linkedin.com/company/startupaccelerator",
+      "https://www.linkedin.com/company/globalstartupecosystem",
+      "https://ca.linkedin.com/company/hyperaccelerator",
+      "https://www.linkedin.com/company/techcode-us",
+      "https://www.linkedin.com/company/thinkbigwithgeoffreykent",
+      "https://www.linkedin.com/company/capital-innovators",
+      "https://www.linkedin.com/company/element-46-tech-accelerator",
+      "https://www.linkedin.com/company/enchantstartup",
+      "https://www.linkedin.com/company/fusen-world",
+      "https://www.linkedin.com/company/1mby1m",
+      "https://www.linkedin.com/company/startups-co",
+      "https://www.linkedin.com/posts/edkang99_online-startup-accelerator-activity-7381713635422724096--f9b",
+      "https://www.linkedin.com/in/wilschroter",
+      "https://www.linkedin.com/company/start-up-accelerators-llc",
+      "site:linkedin.com/company startups.com",
+      "https://www.linkedin.com/company/startups-co",
+      "https://ae.linkedin.com/company/startups-co/?trk=organization-update_share-update_actor-image",
+      "https://www.linkedin.com/company/startups-siliconvalley",
+      "https://gt.linkedin.com/company/startups-magazine",
+      "https://uk.linkedin.com/company/startups-magazine",
+      "https://www.linkedin.com/company/startup-com-inc-",
+      "https://www.linkedin.com/company/cannabis-startups/?viewAsMember=true",
+      "https://www.linkedin.com/company/thestartupbug",
+      "https://br.linkedin.com/company/startupscombr",
+      "https://rs.linkedin.com/company/global-startup-awards?trk=similar-pages_result-card_full-click"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/startupaccelerator/",
+        "companyName": "Startup Accelerator",
+        "websiteUrl": "https://www.startupaccelerator.nl",
+        "industry": "Human Resources",
+        "employeeCount": 6,
+        "followerCount": 1597,
+        "universalName": "startupaccelerator",
+        "tagline": "Your Kickstart To Freelance DataOps, MLOps & GitOps Consultancy.",
+        "description": "Startup Accelerator has been established to help you startup your freelance career in DataOps, MLOps & GitOps consultancy, including a project of your choice. Since 2018, we\u2019ve worked with Data and AI professionals to find consultancy roles they love at companies such as KLM, ING, Vattenfall, and the Randstad Group, in fields including Machine Learning Engineering, Data Engineering, Cloud Engineering, SRE, and Platform Engineering.\n\nIn our vision, freelance consultants or contractors can still be The Future of Work. That\u2019s a difficult step for some to take, but we\u2019ve found a solution. We act as a stepping stone for DataOps, MLOps & GitOps professionals who want to move away from traditional employment to independence by being their own employer, or being employed as a contractor through our staffing agency.\n\nWe take away all the hassle by taking care of all steps towards more flexibility, higher earnings and projects that you like \u2014 without the risks of starting up all on your own. In short: We connect you with your first project at a company of your choice, all before ending your current employment contract. Instead of a fixed salary, you earn 75% of your hourly rate \u2014 around \u20ac10,000 per month \u2014 depending on your ideal work-life balance.\u00a0If you don't want to deal with all the rules of entrepreneurship and prefer more security and secondary benefits as a contractor, you will earn a fixed monthly salary higher than your current one.\n\nAfter one year, you know what it's like to work as an independent consultant, and you're ready to fly on your own without Startup Accelerator. The Future of Work, it's up to you.\n\nInterested to see if freelance consultancy could be something for you? Feel free to complete the questionnaire on our website, which takes approximately 1 minute of your time, or contact us by phone or email with any questions you may have.",
+        "companyId": 6512727,
+        "hashtag": "#cloudcomputing",
+        "industryV2Taxonomy": "Human Resources Services",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "https://www.startupaccelerator.nl"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "NL",
+          "city": "Amsterdam",
+          "geographicArea": "North Holland",
+          "postalCode": null,
+          "line1": "Growth Accelerator Services B.V.",
+          "line2": null,
+          "description": ""
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2018,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQFZj8mP8X9aOA/company-logo_200_200/company-logo_200_200/0/1645720037335?e=1776297600&v=beta&t=bB2wgHu5Lt-UbXJ9cNObOPGOiJ6sSS9x_I41zgAAXG0",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQG-_shdNWkSoA/company-background_10000/company-background_10000/0/1645720489079/growth_accelerator_nl_cover?e=1775570400&v=beta&t=v1xMYXwwllQMMoCxlE2QdpoiDGMfjGcY021CN_XeRCw",
+        "croppedCoverImage": null,
+        "specialities": [
+          "Human Resources",
+          "Consulting",
+          "Freelancing",
+          "The Future of Work",
+          "Cloud Engineering",
+          "Data Engineering",
+          "Machine Learning Engineering",
+          "Platform Engineering",
+          "SRE",
+          "Cloud Security",
+          "DataOps",
+          "MLOps",
+          "GitOps",
+          "Data & AI"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "CyberLab Startup Accelerator",
+            "followerCount": 4767,
+            "url": "https://www.linkedin.com/company/cyberlab-startup-accelerator/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQGY4BSQWRs3Ag/company-logo_200_200/company-logo_200_200/0/1630512940643/cyberlab_it_incubator_karlsruhe_logo?e=1776297600&v=beta&t=oAVKI7HBx-9O3TSPIjmtjMP8xVyZqNr8oAfOt7dFepU",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQH_Iw0cHDeM0g/image-scale_127_750/image-scale_127_750/0/1698915452736/cyberlab_startup_accelerator_cover?e=1775570400&v=beta&t=ktyI5w9HDugw6miKodoonzMwCHsvZBzKL3tIZjIA-KE",
+            "industryV2Taxonomy": "IT Services and IT Consulting",
+            "industry": "Information Technology & Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQH--LUIzmAZVQ/company-background_10000/company-background_10000/0/1698915452674/cyberlab_startup_accelerator_cover?e=1775570400&v=beta&t=J7JBlSc8i557PsLFXyYCxmhMizyWRcb_M9yDb-KKhxY",
+            "companyId": 35469509,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Karlsruhe",
+              "geographicArea": "Baden-W\u00fcrttemberg",
+              "postalCode": "76131",
+              "line1": "Haid-und-Neu-Stra\u00dfe 18",
+              "line2": null,
+              "description": "Altes Malzwerk H\u00f6pfner Geb\u00e4ude Eingang B"
+            },
+            "universalName": "cyberlab-startup-accelerator"
+          },
+          {
+            "name": "3B Startup Accelerator",
+            "followerCount": 1974,
+            "url": "https://www.linkedin.com/company/3b-startup-accelerator/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFrNe2kcNMPNg/company-logo_400_400/B4DZYVyrIBGkAg-/0/1744122328154/3b_startup_accelerator_logo?e=1776297600&v=beta&t=4eCHVExUhlp7Ub5iy4mO_FT--iRS4FHurzIx2Q3t_B0",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEBVLd5YNpV-Q/image-scale_127_750/B4EZssVcmvIwAU-/0/1765975380065/3b_startup_accelerator_cover?e=1775570400&v=beta&t=ke5VMGu8SS0_flXT-FhSkJsJUD7tpG1hh1Jl_peclKI",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGw2tdxriL2sw/company-background_400/B4EZssVcmKHMAY-/0/1765975380114/3b_startup_accelerator_cover?e=1775570400&v=beta&t=XH6lm8H5kxI7RX-u1_tB7KrMYg-1QzFLZXjz971qHCo",
+            "companyId": 17986088,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Andernach",
+              "geographicArea": "Rheinland-Pfalz",
+              "postalCode": "56626",
+              "line1": "K\u00f6lner Stra\u00dfe 4",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "3b-startup-accelerator"
+          },
+          {
+            "name": "Startup Braga",
+            "followerCount": 11190,
+            "url": "https://www.linkedin.com/company/startupbraga/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFr62NA6ZfMaA/company-logo_200_200/company-logo_200_200/0/1650648678297/startupbraga_logo?e=1776297600&v=beta&t=NRhdgiqwobNTJtdZfdWS1Ta6-cqYq7_pKGVWjuPfHfc",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHDcNAoYxpAMQ/image-scale_127_750/image-scale_127_750/0/1714744389208/startupbraga_cover?e=1775570400&v=beta&t=UeWDyP8B3j1wYrRdWWAY_KpFtyJoWKLzaJJ3HB0ulYI",
+            "industryV2Taxonomy": "Investment Management",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQEFSzw-iAIMlw/company-background_10000/company-background_10000/0/1714744388426/startupbraga_cover?e=1775570400&v=beta&t=VxaoRg6peUXLVf9HBl47icqeGCKBOycpLt1pRgi4Ru0",
+            "companyId": 5895488,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "PT",
+              "city": "Braga",
+              "geographicArea": null,
+              "postalCode": "4705-524",
+              "line1": "Pra\u00e7a Conde Agrolongo, n\u00ba 123",
+              "line2": null,
+              "description": "Braga"
+            },
+            "universalName": "startupbraga"
+          },
+          {
+            "name": "Conector Startup Accelerator",
+            "followerCount": 15640,
+            "url": "https://www.linkedin.com/company/conector-startup-accelerator/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQGW7Amr87xslg/company-logo_200_200/company-logo_200_200/0/1631375511256/conector_startup_accelerator_logo?e=1776297600&v=beta&t=vRAoKzSSWeBGAXoEphIE8LKvGMI3fBHgraCLxEHLm9k",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQEvIF8cG8LzLQ/image-scale_191_1128/B4DZrfnjIEIgAc-/0/1764688278751/conector_startup_accelerator_cover?e=1775570400&v=beta&t=1pZLrH49BUKyfUgT2kg38x4_MRJU7uJu0FPKqerAJ50",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQEotbbtoQTxew/company-background_200/B4DZrfnjI6KEAc-/0/1764688278554/conector_startup_accelerator_cover?e=1775570400&v=beta&t=GLgk1lD3c1bfExOOO70rcZdfNf3DEjUbT_di-b41LJs",
+            "companyId": 5009766,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "ES",
+              "city": "Barcelona",
+              "geographicArea": "Catalonia",
+              "postalCode": "08029",
+              "line1": "Carrer de Morales, 31",
+              "line2": null,
+              "description": "Conector Startup Accelerator SL"
+            },
+            "universalName": "conector-startup-accelerator"
+          },
+          {
+            "name": "Startup Village Amsterdam",
+            "followerCount": 5506,
+            "url": "https://www.linkedin.com/company/startup-village-amsterdam/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQG2Bym93BPaxw/company-logo_200_200/company-logo_200_200/0/1630603660914/startup_village_amsterdam_logo?e=1776297600&v=beta&t=ET10WTa3qGOA_ctCMqNbHfHDp3bAvYPrLycso5ubsHw",
+            "industryV2Taxonomy": "Real Estate",
+            "industry": "Real Estate",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4D1BAQHHBiJdypA3DQ/company-background_10000/company-background_10000/0/1583738878407/startup_village_amsterdam_cover?e=1775570400&v=beta&t=qqRGhyoEr21U_IjlxPPEp64xojVSuMm-MEs9tLFIQRw",
+            "companyId": 13994165,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "NL",
+              "city": "Amsterdam",
+              "geographicArea": "Noord-Holland",
+              "postalCode": "1098",
+              "line1": "Science Park",
+              "line2": "608",
+              "description": null
+            },
+            "universalName": "startup-village-amsterdam"
+          },
+          {
+            "name": "Babblebots AI",
+            "followerCount": 8348,
+            "url": "https://www.linkedin.com/company/babblebots/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFkQmp3gcAlCA/company-logo_200_200/company-logo_200_200/0/1705270278084/babblebots_logo?e=1776297600&v=beta&t=aEPdXXKGG0xSTBNM6muzabs_fscSqht373YOcbMEICM",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQG_ihDz2OAVtw/image-scale_127_750/B4DZrES.J9KQAQ-/0/1764229899716/babblebots_cover?e=1775570400&v=beta&t=gam6XJOKqNHhDgZg3khzoEpw_f4NpO48U6xYsTd3bKU",
+            "industryV2Taxonomy": "Technology, Information and Internet",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHdmXDPybpYKg/company-background_10000/B4DZrES.LSGQAU-/0/1764229899370/babblebots_cover?e=1775570400&v=beta&t=i0ZAvqeUJhswSMP47wY8vbzZQCYrjmUt_KkIKQhV7I4",
+            "companyId": 69564638,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "IN",
+              "city": "Mumbai",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": "Digitally Everywhere",
+              "line2": null,
+              "description": "Mumbai"
+            },
+            "universalName": "babblebots"
+          },
+          {
+            "name": "StartupAmsterdam",
+            "followerCount": 20240,
+            "url": "https://www.linkedin.com/company/startupamsterdam/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGeRCy5l9pp2A/company-logo_200_200/B4EZpvltZiKgAM-/0/1762808748840/startupamsterdam_logo?e=1776297600&v=beta&t=P3Y3EnDd1ZVdWzgYK4DQNQRS5UA6PHkbOXs6D4pLKso",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEhqlKL0GiAQg/image-scale_127_750/B4EZnc0fAyKgAM-/0/1760346370686/startupamsterdam_cover?e=1775570400&v=beta&t=ypEa9Fw0fE_tehpxc9FN5nRwbN4qUZdRlKTbMzw1RXE",
+            "industryV2Taxonomy": "Government Administration",
+            "industry": "Government Administration",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFlIIcCqDGBsw/company-background_400/B4EZnc0fAqKgAY-/0/1760346370587/startupamsterdam_cover?e=1775570400&v=beta&t=qyGTP8w4ZiHSdiI6efgK3ctxAw3ORDhhk6voQiUzhWc",
+            "companyId": 10120340,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "NL",
+              "city": "Amsterdam",
+              "geographicArea": "North Holland",
+              "postalCode": "1011PN",
+              "line1": "Amstel 1",
+              "line2": null,
+              "description": "StartupAmsterdam HQ"
+            },
+            "universalName": "startupamsterdam"
+          },
+          {
+            "name": "Impact Hub Amsterdam",
+            "followerCount": 18468,
+            "url": "https://www.linkedin.com/company/impact-hub-ams/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQF9KlHoY88nJg/company-logo_200_200/company-logo_200_200/0/1631340465625?e=1776297600&v=beta&t=nYJ-x6X2ejxZ_6Fd1gHMW739RyE1-HuX_jSaS94YwR4",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEubT73XF-NOw/image-scale_191_1128/B4EZYZf93aHkAc-/0/1744184533084/impact_hub_ams_cover?e=1775570400&v=beta&t=71jlvLiMt7aJa6RgW_xjYy0kRCL4dXq2CAwbkX9d2uI",
+            "industryV2Taxonomy": "Civic and Social Organizations",
+            "industry": "Civic & Social Organization",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFGNHRHdvcnJg/company-background_200/B4EZYZf92hHcAg-/0/1744184533129/impact_hub_ams_cover?e=1775570400&v=beta&t=fse0M-yO03UnzrbR5KGs5OkSpkfTZZlFAJdKeIM14lc",
+            "companyId": 2653429,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "NL",
+              "city": "Amsterdam",
+              "geographicArea": "Noord-Holland",
+              "postalCode": "1018JA",
+              "line1": "Kattenburgerstraat 5",
+              "line2": "Building 027A",
+              "description": "Impact Hub Amsterdam"
+            },
+            "universalName": "impact-hub-ams"
+          },
+          {
+            "name": "Mindrift",
+            "followerCount": 752554,
+            "url": "https://www.linkedin.com/company/mindrift-ai/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQG9ySVGr5NQzQ/company-logo_200_200/company-logo_200_200/0/1725448348201/mindrift_ai_logo?e=1776297600&v=beta&t=fwnHAtyRcWGtE2amDU-URxC1cwc7HbldDhZZP9NjJYo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHecfuPceugwQ/image-scale_127_750/image-scale_127_750/0/1725548437611/mindrift_ai_cover?e=1775570400&v=beta&t=MXZWB9ULu6JEJvzpAabZv-0EIFVozyexcV4zCco6c54",
+            "industryV2Taxonomy": "Technology, Information and Internet",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFEj1wGNMViNg/company-background_10000/company-background_10000/0/1725548437816/mindrift_ai_cover?e=1775570400&v=beta&t=iQPpEVZTfYLq4sBQXbjlcIhxeQ7hcVhpaIHvU0YJ16M",
+            "companyId": 101576014,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "universalName": "mindrift-ai"
+          },
+          {
+            "name": "Startup Wise Guys",
+            "followerCount": 47411,
+            "url": "https://www.linkedin.com/company/startup-wise-guys/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGzbiOUqUXfoA/company-logo_200_200/company-logo_200_200/0/1676496728914/startup_wise_guys_logo?e=1776297600&v=beta&t=H8kc0aEEo1uQJQxyvhJYfS5McmzE30esJ86QEnioTQM",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHk5laJtaLszw/image-scale_127_750/image-scale_127_750/0/1676497922703/startup_wise_guys_cover?e=1775570400&v=beta&t=0n-CvZuvqnmD29cwB4HiovimwoGYl3sW_35XbMkQzes",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHSoqS7iyyogg/company-background_10000/company-background_10000/0/1676497922612/startup_wise_guys_cover?e=1775570400&v=beta&t=NDXjBAlz_utZ5zkKHdDrhPqRyQ7gzK3GD3TIh5bRYZc",
+            "companyId": 2488563,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "EE",
+              "city": "City Centre",
+              "geographicArea": "Harju",
+              "postalCode": "10114",
+              "line1": "A. Lauteri 3",
+              "line2": null,
+              "description": "Tallinn Office"
+            },
+            "universalName": "startup-wise-guys"
+          },
+          {
+            "name": "Startup Runway",
+            "followerCount": 1705,
+            "url": "https://www.linkedin.com/company/startuprunway/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQH_-GOFjZRX4w/company-logo_200_200/company-logo_200_200/0/1706289032685/startuprunway_logo?e=1776297600&v=beta&t=hBxlVZBBZVzPmYZL_KED8lfi4UYBkSxVFm2HWAFJDto",
+            "industryV2Taxonomy": "Business Consulting and Services",
+            "industry": "Management Consulting",
+            "companyId": 99049736,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Richardson",
+              "geographicArea": "Texas",
+              "postalCode": "75081",
+              "line1": "1302 E Collins Blvd",
+              "line2": "200",
+              "description": "Headquarters"
+            },
+            "universalName": "startuprunway"
+          },
+          {
+            "name": "AI Seer",
+            "followerCount": 1745,
+            "url": "https://www.linkedin.com/company/aiseer/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHpjLb9F6xaIQ/company-logo_200_200/company-logo_200_200/0/1735890634815/aiseer_logo?e=1776297600&v=beta&t=MhPR0U1VZYlVa871ooOH67jST7acMAr17kcHl1Gje1w",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEAzNkK17NR-g/image-scale_127_750/B56ZePbn2GHUAM-/0/1750458076364/aiseer_cover?e=1775570400&v=beta&t=ZMmUBW3mco1Q8QA2XDhxmcg35WyNYVRXYyjaXEkKyHc",
+            "industryV2Taxonomy": "Software Development",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGnMYX_4i2mQQ/company-background_400/B56ZePbn2zGQAc-/0/1750458075283/aiseer_cover?e=1775570400&v=beta&t=SGeMfMBMfE21vMmfA-J-vQyJ8sjHyz-CedVcmDnHacA",
+            "companyId": 77167506,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "SG",
+              "city": "Singapore",
+              "geographicArea": null,
+              "postalCode": "139955",
+              "line1": "79 Ayer Rajah Crescent",
+              "line2": "#02-18",
+              "description": "Office"
+            },
+            "universalName": "aiseer"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "NL",
+            "city": "Amsterdam",
+            "geographicArea": "North Holland",
+            "postalCode": null,
+            "line1": "Growth Accelerator Services B.V.",
+            "line2": null,
+            "description": "",
+            "headquarter": true,
+            "localizedName": "Amsterdam",
+            "latitude": 51.89373,
+            "longitude": 4.523071
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/startupaccelerator",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/wilschroter"
+  },
+  "lead_before_enrichment": {
+    "business": "Online Startup Accelerator | Startups.com",
+    "description": "[Sitemaps](https://www.startups.com/sitemaps) [](https://www.startups.com/) [Home](https://www.startups.com/ \"Home\") [Requests](https://www.startups.com/requests \"Requests\") [My Requests](https://www.startups.com/requests/manage \"My Requests\")[Create a Request](https://www.startups.com/requests/start \"Create a Request\")[Browse All Requests](https://www.startups.com/requests/browse \"Browse All Requests\") [Education](https://www.startups.com/education \"Education\") [Courses](https://www.startups.com/courses \"Courses\")[Articles](https://www.startups.com/articles \"Articles\")[Founder Interviews](htt",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startups.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupaccelerator",
+    "source_url": "https://startups.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startups.com",
+    "source_urls": [
+      "https://startups.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Online Startup Accelerator | Startups.com",
+    "description": "Startup Accelerator has been established to help you startup your freelance career in DataOps, MLOps & GitOps consultancy, including a project of your choice. Since 2018, we\u2019ve worked with Data and AI professionals to find consultancy roles they love at companies such as KLM, ING, Vattenfall, and the Randstad Group, in fields including Machine Learning Engineering, Data Engineering, Cloud Engineering, SRE, and Platform Engineering. In our vision, freelance consultants or contractors can still be The Future of Work. That\u2019s a difficult step for some to take, but we\u2019ve found a solution.",
+    "full_name": "Wilschroter",
+    "first": "Wilschroter",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startups.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Founder",
+    "linkedin": "https://www.linkedin.com/in/wilschroter",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupaccelerator",
+    "source_url": "https://startups.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startups.com",
+    "source_urls": [
+      "https://startups.com"
+    ],
+    "title_raw": "Founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://startups.com"
+  },
+  "field_changes": {
+    "description": {
+      "before": "[Sitemaps](https://www.startups.com/sitemaps) [](https://www.startups.com/) [Home](https://www.startups.com/ \"Home\") [Requests](https://www.startups.com/requests \"Requests\") [My Requests](https://www.startups.com/requests/manage \"My Requests\")[Create a Request](https://www.startups.com/requests/start \"Create a Request\")[Browse All Requests](https://www.startups.com/requests/browse \"Browse All Requests\") [Education](https://www.startups.com/education \"Education\") [Courses](https://www.startups.com/courses \"Courses\")[Articles](https://www.startups.com/articles \"Articles\")[Founder Interviews](htt",
+      "after": "Startup Accelerator has been established to help you startup your freelance career in DataOps, MLOps & GitOps consultancy, including a project of your choice. Since 2018, we\u2019ve worked with Data and AI professionals to find consultancy roles they love at companies such as KLM, ING, Vattenfall, and the Randstad Group, in fields including Machine Learning Engineering, Data Engineering, Cloud Engineering, SRE, and Platform Engineering. In our vision, freelance consultants or contractors can still be The Future of Work. That\u2019s a difficult step for some to take, but we\u2019ve found a solution."
+    },
+    "first": {
+      "before": "",
+      "after": "Wilschroter"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Wilschroter"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/wilschroter"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://startups.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "Founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Founder"
+    }
+  }
+}

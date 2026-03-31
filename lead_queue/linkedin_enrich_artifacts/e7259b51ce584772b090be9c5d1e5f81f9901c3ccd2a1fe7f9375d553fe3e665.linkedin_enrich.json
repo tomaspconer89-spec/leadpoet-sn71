@@ -1,0 +1,671 @@
+{
+  "saved_at_utc": "2026-03-31T13:12:57.583595+00:00",
+  "queue_key": "e7259b51ce584772b090be9c5d1e5f81f9901c3ccd2a1fe7f9375d553fe3e665",
+  "business": "Network Incubator Philadelphia | Network Incubator in PA",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Network Incubator Philadelphia | Network Incubator in PA",
+      "Network Incubator Philadelphia | Network Incubator in PA linkedin company",
+      "site:linkedin.com/company zrellabltd.com",
+      "site:linkedin.com/in \"Network Incubator Philadelphia | Network Incubator in PA\" founder",
+      "site:linkedin.com/in \"Network Incubator Philadelphia | Network Incubator in PA\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "EBtgZUe8qotOoSp",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Network+Incubator+Philadelphia+%7C+Network+Incubator+in+PA",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Network+Incubator+Philadelphia+%7C+Network+Incubator+in+PA",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Network Incubator Philadelphia | Network Incubator in PA",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Network+Incubator+Philadelphia+%7C+Network+Incubator+in+PA",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Network+Incubator+Philadelphia+%7C+Network+Incubator+in+PA",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "THE PHILADELPHIA FASHION INCUBATOR",
+            "url": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0THE PHILADELPHIA FASHION INCUBATOR",
+            "description": "The Philadelphia Fashion Incubator is a non-profit nurturing emerging fashion design entrepreneurs and start-ups to successfully run their small businesses.Read more",
+            "emphasizedKeywords": [
+              "non-profit nurturing emerging fashion design entrepreneurs and start-ups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "500+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Global Alliance for Venture Builder, Accelerator and ...",
+            "url": "https://www.linkedin.com/company/global-alliance-for-venture-builder-accelerator-and-incubator-gavbai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Global Alliance for Venture Builder, Accelerator and Incubator (GAVBAI)",
+            "description": "The alliance works to enhance the entrepreneurial landscape by offering mentorship, strategic partnerships, funding opportunities, and knowledge sharing,\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "The Business Center For Entrepreneurship & Social ...",
+            "url": "https://www.linkedin.com/company/the-business-center-for-entrepreneurship",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Business Center For Entrepreneurship & Social Enterprise",
+            "description": "Philadelphia, Pennsylvania. Type: Nonprofit. Founded: 1999. Specialties: Business Incubator and Social Enterprise. Locations. Primary. 7500 Germantown Ave. 113\u00a0...Read more",
+            "emphasizedKeywords": [
+              "7500 Germantown Ave. 113"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Nucleate Philadelphia",
+            "url": "https://www.linkedin.com/company/nucleate-philly",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Raheem S.",
+            "description": "Nucleate is a free, trainee-led 501(c)(3) non-profit organization dedicated to empowering the next generation of biotech leaders.Read more",
+            "emphasizedKeywords": [
+              "Nucleate is a free, trainee-led 501(c)(3) non-profit organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "640+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "B\u208alabs",
+            "url": "https://www.linkedin.com/company/blabscira",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0B\u208alabs",
+            "description": "Our site is a 50,000 SF life science incubator that provides flexible, plug & play lab and research space with a specialized network of resources, programming,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides flexible, plug & play lab and research space"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.4K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Robin Hood Ventures",
+            "url": "https://www.linkedin.com/company/robin-hood-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robin Hood Ventures",
+            "description": "Robin Hood Ventures is a group of angel investors, focused on early-stage, high-growth companies in the Greater Philadelphia region.Read more",
+            "emphasizedKeywords": [
+              "Philadelphia"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Cohesion Crafted",
+            "url": "https://www.linkedin.com/company/cohesion-crafted",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cohesion Crafted",
+            "description": "Curating and hosting events for Entrepreneurs in Greater Philadelphia. Upcoming events posted weekly on LinkedIn. Full event list on our website and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Curating and hosting events for Entrepreneurs in Greater Philadelphia"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Erie Technology Incubator Inc",
+            "url": "https://www.linkedin.com/company/erie-technology-incubator-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Erie Technology Incubator Inc",
+            "description": "ERIE TECHNOLOGY INCUBATOR INC is a civic & social organization company based out of 900 STATE ST, Erie, Pennsylvania, United States.Read more",
+            "emphasizedKeywords": [
+              "INCUBATOR",
+              "Pennsylvania"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Pennsylvania Biotechnology Center",
+            "url": "https://www.linkedin.com/company/pabiocenter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pennsylvania Biotechnology Center",
+            "description": "The Pennsylvania Biotechnology Center (PABC) is a nonprofit life sciences incubator dedicated to the creation of a world-class biotechnology center.Read more",
+            "emphasizedKeywords": [
+              "nonprofit life sciences incubator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.9K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "NWPA Innovation Beehive Network",
+            "url": "https://www.linkedin.com/company/nwpa-beehive",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NWPA Innovation Beehive Network",
+            "description": "The Beehive is comprised of 6 grant and donation-funded education centers that collaborate and encourage business growth in Northwest Pennsylvania.Read more",
+            "emphasizedKeywords": [
+              "Pennsylvania"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "830+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/pkrZqfMsUSoXgz3mX/records/EBtgZUe8qotOoSp-0.html?signature=4VBxvyEWgHzNdujgwbhW"
+      }
+    ],
+    "apify_item_count": 1,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Network Incubator Philadelphia | Network Incubator in PA",
+      "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+      "https://www.linkedin.com/company/global-alliance-for-venture-builder-accelerator-and-incubator-gavbai",
+      "https://www.linkedin.com/company/the-business-center-for-entrepreneurship",
+      "https://www.linkedin.com/company/nucleate-philly",
+      "https://www.linkedin.com/company/blabscira",
+      "https://www.linkedin.com/company/robin-hood-ventures",
+      "https://www.linkedin.com/company/cohesion-crafted",
+      "https://www.linkedin.com/company/erie-technology-incubator-inc",
+      "https://www.linkedin.com/company/pabiocenter",
+      "https://www.linkedin.com/company/nwpa-beehive"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator/",
+        "companyName": "THE PHILADELPHIA FASHION INCUBATOR",
+        "websiteUrl": "http://philadelphiafashionincubator.com",
+        "industry": "Non-profit Organization Management",
+        "employeeCount": 8,
+        "followerCount": 507,
+        "universalName": "the-philadelphia-fashion-incubator",
+        "tagline": "The Philadelphia Fashion Incubator is a non-profit that empowers the next generation of fashion entrepreneurs.",
+        "description": "The Philadelphia Fashion Incubator is a non-profit nurturing emerging fashion design entrepreneurs and start-ups to successfully run their small businesses. Impacting local economic development, the Incubator has successfully launched 50+ fashion brands in sustainability, gender-neutral, size inclusive, modest wear, among other apparel and accessory categories.\n",
+        "companyId": 15906525,
+        "hashtag": null,
+        "industryV2Taxonomy": "Non-profit Organizations",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "http://philadelphiafashionincubator.com"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "PHILADELPHIA",
+          "geographicArea": "Pennsylvania",
+          "postalCode": "19107",
+          "line1": "1300 MARKET ST 3RD FLOOR",
+          "line2": null,
+          "description": null
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2012,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQE8nKnUmDtzKg/company-logo_200_200/company-logo_200_200/0/1704217156936/the_philadelphia_fashion_incubator_logo?e=1776297600&v=beta&t=CalnxrG0TtOuDIZQ1Mtr-eCP-OLPXcEmSGmQXAn1MXs",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF_IOLzAB9qmg/company-background_10000/company-background_10000/0/1704217221752/the_philadelphia_fashion_incubator_cover?e=1775570400&v=beta&t=kA9kOXojBe61vW7KH9UItVXxlvVV1PPIEYDyxZ92WCY",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEnX0nueJ-8Lg/image-scale_127_750/image-scale_127_750/0/1704217214818/the_philadelphia_fashion_incubator_cover?e=1775570400&v=beta&t=j7qk_rojBngJvVqzmOfkIAtPPN0N1fuTCe9OCRJoDmc",
+        "specialities": [],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "The Fashion Law",
+            "followerCount": 26176,
+            "url": "https://www.linkedin.com/company/the-fashion-law/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQHthY4YYmLeCw/company-logo_100_100/B4DZ0mALByIAAQ-/0/1774459073018/the_fashion_law_logo?e=1776297600&v=beta&t=9QvJXvrt0ZDBt6smuzLysQj6Hztyth9HSwlDXw-IH5U",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHUGxY-2GLjdQ/image-scale_127_750/B4DZ0l_geCKgAU-/0/1774458898951/the_fashion_law_cover?e=1775570400&v=beta&t=y9B2OvGLIVEJTDHr0AG9oH3rvijovEe-0nr9VHkhi4Q",
+            "industryV2Taxonomy": "Technology, Information and Media",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQH2bbgQHZ9pLQ/company-background_10000/B4DZ0l_gevIoAU-/0/1774458899256/the_fashion_law_cover?e=1775570400&v=beta&t=Jnl6AXOlvUHKcpwmKexp78OEcGM4p1OSfP_AEYLj5vQ",
+            "companyId": 30122336,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "the-fashion-law"
+          },
+          {
+            "name": "Fashion Scholarship Fund",
+            "followerCount": 34646,
+            "url": "https://www.linkedin.com/company/fashionscholarshipfund/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQGC4fskCF59Qw/company-logo_200_200/company-logo_200_200/0/1630604534675/fashionscholarshipfund_logo?e=1776297600&v=beta&t=5AzH9rMqxrS8yQkcvdFuH5qF7L2MIsHTVMJ2toyMO0U",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGI28D8S4FTFA/image-scale_191_1128/B4DZasHgSsHwAg-/0/1746644371163/fashionscholarshipfund_cover?e=1775570400&v=beta&t=aEKcCuoSgdn5o0QOjqiw6A4OfmwllL1YN4bjuVwXv1I",
+            "industryV2Taxonomy": "Retail Apparel and Fashion",
+            "industry": "Apparel & Fashion",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHuoMHZ3K-7gg/company-background_200/B4DZasHgSrHEAs-/0/1746644371268/fashionscholarshipfund_cover?e=1775570400&v=beta&t=vFv1YYNAz_irnOmYHqzrM85Ho65dnITk6-KX1kAS_QI",
+            "companyId": 6588006,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10001",
+              "line1": "224 W 35th St",
+              "line2": "Suite 500",
+              "description": "Fashion Scholarship Fund"
+            },
+            "universalName": "fashionscholarshipfund"
+          },
+          {
+            "name": "Anthropologie",
+            "followerCount": 323898,
+            "url": "https://www.linkedin.com/company/anthropologie/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQG2X5A21Y8LjQ/company-logo_100_100/B4EZuO0_PNHUAQ-/0/1767627814520/anthropologie_logo?e=1776297600&v=beta&t=_wisA-tN2HniKUtEEOWDi1iBfDLHoM_why9HtvcM1m0",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEt1I7U0u4BSQ/image-scale_191_1128/B4EZuO06VtKkAg-/0/1767627794581/anthropologie_cover?e=1775570400&v=beta&t=RDEDi64BkGAmHz25_Bk5Pbw-JaN6L8klWj-FSB4J1hA",
+            "industryV2Taxonomy": "Retail Apparel and Fashion",
+            "industry": "Apparel & Fashion",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFccb_OGyG9BQ/company-background_200/B4EZuO06VXJ0Ak-/0/1767627794434/anthropologie_cover?e=1775570400&v=beta&t=s0SyNslTOWb3rGniMi1_ajjJpMsXq-0BCTwwv-J5rGw",
+            "companyId": 8281,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "PA",
+              "postalCode": "19112",
+              "line1": "5000 S. Broad St.",
+              "line2": null,
+              "description": "Anthropologie"
+            },
+            "universalName": "anthropologie"
+          },
+          {
+            "name": "UN Career Alerts",
+            "followerCount": 21061,
+            "url": "https://www.linkedin.com/company/un-career-alerts/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQHBYjgJ-Ru6_w/company-logo_100_100/B4DZqqjbfuGsAQ-/0/1763798009792/un_career_alerts_logo?e=1776297600&v=beta&t=0p8aNJ868CE4q9dm91Ef75oBdnwKCgXRwDSAH03SP6Y",
+            "industryV2Taxonomy": "Information Services",
+            "industry": "Information Services",
+            "companyId": 110289245,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "universalName": "un-career-alerts"
+          },
+          {
+            "name": "KiposTech",
+            "followerCount": 362,
+            "url": "https://www.linkedin.com/company/kipostech/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFw3UfnC893Kg/company-logo_200_200/company-logo_200_200/0/1694720580449?e=1776297600&v=beta&t=3Mf4aeKiU_lBa7Tf0vh9PQLS0VyDEw3-5_21FdqVvOA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQE4zqXrH7DizA/image-scale_127_750/image-scale_127_750/0/1703208386203/kipostech_cover?e=1775570400&v=beta&t=vTktLZ_Gjd65I3hAOQGSwGGe3ZoJ-3rvpk9xEnJEwi4",
+            "industryV2Taxonomy": "Environmental Services",
+            "industry": "Environmental Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQHt47yz8-UUew/company-background_10000/company-background_10000/0/1703208388979/kipostech_cover?e=1775570400&v=beta&t=8kitFLHYl9ETgf0BjpuK5rPrvBT_6GNrlmaMWPmCscA",
+            "companyId": 96962295,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Greater Philadelphia",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "kipostech"
+          },
+          {
+            "name": "Xiente",
+            "followerCount": 798,
+            "url": "https://www.linkedin.com/company/xiente/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEy1OWk5WOGbQ/company-logo_200_200/company-logo_200_200/0/1694790251850/nscaphila_logo?e=1776297600&v=beta&t=PbBERtZCAFkKOrXMJ5EL9gEXs25OvnaumqxLwy7_bgA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFTjjw7fex_Sg/image-scale_127_750/image-scale_127_750/0/1720633520671/xiente_cover?e=1775570400&v=beta&t=C9GsBbp-PpcLSGyVMuBpWT4KINkvwzzo-2BCMuriVY0",
+            "industryV2Taxonomy": "Civic and Social Organizations",
+            "industry": "Civic & Social Organization",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGZfbDvc0P-uA/company-background_10000/company-background_10000/0/1720633520662/xiente_cover?e=1775570400&v=beta&t=lzwIO2mDi1WXZnGEo6YyOoa5HvTWgJ4EhxKYINiUW68",
+            "companyId": 11132393,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "Pennsylvania",
+              "postalCode": "19122",
+              "line1": "174 W Diamond St",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "xiente"
+          },
+          {
+            "name": "E.L.F. BEAUTY",
+            "followerCount": 583503,
+            "url": "https://www.linkedin.com/company/e-l-f-beauty/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGahiLWxUEUSA/company-logo_200_200/company-logo_200_200/0/1715781029488/e_l_f_beauty_logo?e=1776297600&v=beta&t=QnSkM1KkKaLM3OMrpEeA_E9bUO0xJ8fx-8swUJNS018",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQE8I7wqBrI-0g/image-scale_127_750/B4EZlO4BsLHgAM-/0/1757964934573/e_l_f_beauty_cover?e=1775570400&v=beta&t=bx0JRyycB-wHmmd94IFajAjULJEi1J8JOaZrSjLB70g",
+            "industryV2Taxonomy": "Personal Care Product Manufacturing",
+            "industry": "Cosmetics",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEHUmmQlHMPNg/company-background_200/B4EZlO4Br8K0Ac-/0/1757964934345/e_l_f_beauty_cover?e=1775570400&v=beta&t=1u4mNwVSI0OOgdWE25T8EfhkXF0sGCWnE86WV9K_HZ4",
+            "companyId": 2653969,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Oakland",
+              "geographicArea": "California",
+              "postalCode": "94607",
+              "line1": "601 12th St",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "e-l-f-beauty"
+          },
+          {
+            "name": "The POWER of Professional Women",
+            "followerCount": 6025,
+            "url": "https://www.linkedin.com/company/the-power-of-professional-women/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQHCnW6ZpJEbQg/company-logo_200_200/company-logo_200_200/0/1630567197640/the_power_of_professional_women_logo?e=1776297600&v=beta&t=RY1PkTqa7c7IBeMXGLxZ2vvW8keqFJp-h7Uh-sEem20",
+            "industryV2Taxonomy": "Non-profit Organization Management",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQEItiqnBXxa3A/company-background_10000/company-background_10000/0/1584910779391/the_power_of_professional_women_cover?e=1775570400&v=beta&t=SC5oMfzv_APeufKi4Q86AfeKJwjeC01_CuT5ifWICd0",
+            "companyId": 10792072,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "PA",
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "the-power-of-professional-women"
+          },
+          {
+            "name": "Women's Business Enterprise Center East (WBEC East)",
+            "followerCount": 5314,
+            "url": "https://www.linkedin.com/company/wbeceast/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQG_cWkKhXbJ3g/company-logo_200_200/company-logo_200_200/0/1630633406725/womens_business_enterprise_council_pa_de_snj_logo?e=1776297600&v=beta&t=rKhfeoxvjlawpEi9IXjguiMyx4m1rhr6vBAW7AZHuaY",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHOCOnCJ4FzgA/image-scale_127_750/image-scale_127_750/0/1729712746562/wbeceast_cover?e=1775570400&v=beta&t=E-1iaW7Kksx77u10ECPUQ7CE3gd6lfIR21w3ic8-LHA",
+            "industryV2Taxonomy": "Non-profit Organizations",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEMEs6_eJCB0Q/company-background_10000/company-background_10000/0/1729712746531/wbeceast_cover?e=1775570400&v=beta&t=FdPlw6fc3xwE4wdY0J3YGrJP-E7uzPW30d6HXvgbz4U",
+            "companyId": 5012846,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "PA",
+              "postalCode": "19109",
+              "line1": "123 S. Broad St, Suite 500",
+              "line2": null,
+              "description": "Women's Business Enterprise Council PA-DE-sNJ"
+            },
+            "universalName": "wbeceast"
+          },
+          {
+            "name": "Dress for Success Greater Philadelphia",
+            "followerCount": 749,
+            "url": "https://www.linkedin.com/company/dress-for-success-greater-philadelphia/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFM2MLp_OuHtg/company-logo_100_100/B4EZzTUdKaHQAQ-/0/1773071881265/dress_for_success_greater_philadelphia_logo?e=1776297600&v=beta&t=OYmeWrhFJyzM_7yxxoeOedyLchZ02vFfgXCSRZIW5QM",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEPDmcaBSnIGg/image-scale_127_750/B4EZ0M5FBxIgAM-/0/1774037783170/dress_for_success_greater_philadelphia_cover?e=1775570400&v=beta&t=JDjXaqvACSmz4uIP3AV8dk84MQjeI8Ckks5GgYJOKgo",
+            "industryV2Taxonomy": "Non-profit Organizations",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFqtQ-2CS3zeA/company-background_400/B4EZ0M5FCTJUAc-/0/1774037784271/dress_for_success_greater_philadelphia_cover?e=1775570400&v=beta&t=MnhYGok5VoMI2s3uRS9tZRfF2Xv_oFvXC3WKf3UbOpc",
+            "companyId": 3499264,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "PA",
+              "postalCode": "19102",
+              "line1": "1500 Walnut Street",
+              "line2": "Suite 1103",
+              "description": null
+            },
+            "universalName": "dress-for-success-greater-philadelphia"
+          },
+          {
+            "name": "Lilly Pulitzer",
+            "followerCount": 35841,
+            "url": "https://www.linkedin.com/company/lilly-pulitzer/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEArbjz9r2uNg/company-logo_200_200/company-logo_200_200/0/1718211359525/lilly_pulitzer_logo?e=1776297600&v=beta&t=xNnyOWduTgJMqy_noGUAuNpyBjUmWHysCu65HOFA2F8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGM8FDxYyx-ww/image-scale_127_750/image-scale_127_750/0/1719331500803/lilly_pulitzer_cover?e=1775570400&v=beta&t=EVWnrJuY0v67tjUf_xZ8wmE1nRy9HI0YmGUQ5SoYcUA",
+            "industryV2Taxonomy": "Retail Apparel and Fashion",
+            "industry": "Apparel & Fashion",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHOj4iBmsxwQA/company-background_10000/company-background_10000/0/1719270876706/lilly_pulitzer_cover?e=1775570400&v=beta&t=cEpw2zk8UfMga0wFOPL5a8MTmc7lYTS5XKq_xVtgNeg",
+            "companyId": 20915,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": null,
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "lilly-pulitzer"
+          },
+          {
+            "name": "Fox School of Business at Temple University",
+            "followerCount": 61069,
+            "url": "https://www.linkedin.com/school/fox-school-of-business-at-temple-university/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEIwcSFsUgI0A/company-logo_200_200/company-logo_200_200/0/1664374052041/fox_school_of_business_at_temple_university_logo?e=1776297600&v=beta&t=Z2Zy3ChNctDEoKkZswlptdVj0ex0_feu7UcSsBThs9A",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGvdFiO3w-wiQ/image-scale_127_750/B4EZX8JnncHYAU-/0/1743692135305/fox_school_of_business_at_temple_university_cover?e=1775570400&v=beta&t=vs1YJStK-PCJybscrPYTAMYayGws6u2YA4AW3qmt3Lc",
+            "industryV2Taxonomy": "Higher Education",
+            "industry": "Higher Education",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEmzCQcu65KTw/company-background_10000/B4EZX8Jnm5HkAY-/0/1743692135291/fox_school_of_business_at_temple_university_cover?e=1775570400&v=beta&t=VHR6Cexy8phX0bvEELNxka0ChxF-PyvtTzCO3IKg65o",
+            "companyId": 3182793,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Philadelphia",
+              "geographicArea": "PA",
+              "postalCode": "19122",
+              "line1": "Alter Hall",
+              "line2": "1801 Liacouras Walk",
+              "description": "Temple University Main Campus"
+            },
+            "universalName": "fox-school-of-business-at-temple-university"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "PHILADELPHIA",
+            "geographicArea": "Pennsylvania",
+            "postalCode": "19107",
+            "line1": "1300 MARKET ST 3RD FLOOR",
+            "line2": null,
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Philadelphia",
+            "latitude": 39.906075,
+            "longitude": -75.16684
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Network Incubator Philadelphia | Network Incubator in PA",
+    "description": "# Network Incubator Philadelphia | Network Incubator in PA [zrellabltd.com](https://www.zrellabltd.com/home) \u200b Explore Network Incubator Philadelphia for small business owners, entrepreneurs, and corporate executives. Business-Network Incubator",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://zrellabltd.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+    "source_url": "https://zrellabltd.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "zrellabltd.com",
+    "source_urls": [
+      "https://zrellabltd.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Network Incubator Philadelphia | Network Incubator in PA",
+    "description": "The Philadelphia Fashion Incubator is a non-profit nurturing emerging fashion design entrepreneurs and start-ups to successfully run their small businesses. Impacting local economic development, the Incubator has successfully launched 50+ fashion brands in sustainability, gender-neutral, size inclusive, modest wear, among other apparel and accessory categories.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://zrellabltd.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+    "source_url": "https://zrellabltd.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "zrellabltd.com",
+    "source_urls": [
+      "https://zrellabltd.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "description": {
+      "before": "# Network Incubator Philadelphia | Network Incubator in PA [zrellabltd.com](https://www.zrellabltd.com/home) \u200b Explore Network Incubator Philadelphia for small business owners, entrepreneurs, and corporate executives. Business-Network Incubator",
+      "after": "The Philadelphia Fashion Incubator is a non-profit nurturing emerging fashion design entrepreneurs and start-ups to successfully run their small businesses. Impacting local economic development, the Incubator has successfully launched 50+ fashion brands in sustainability, gender-neutral, size inclusive, modest wear, among other apparel and accessory categories."
+    }
+  }
+}

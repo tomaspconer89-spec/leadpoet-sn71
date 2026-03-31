@@ -1,0 +1,1110 @@
+{
+  "saved_at_utc": "2026-03-31T13:23:52.626138+00:00",
+  "queue_key": "67e12824784800cacae0a572d7863590e20aa5f73d182cd01ca3ea62d57039ba",
+  "business": "Financial & Tax Planning | BFS Advisory Group",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Financial & Tax Planning | BFS Advisory Group",
+      "Financial & Tax Planning | BFS Advisory Group linkedin company",
+      "site:linkedin.com/company bfsadvisorygroup.com",
+      "site:linkedin.com/in \"Financial & Tax Planning | BFS Advisory Group\" founder",
+      "site:linkedin.com/in \"Financial & Tax Planning | BFS Advisory Group\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "ctelErnVHNT1O5K",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Financial & Tax Planning | BFS Advisory Group",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "BFS Advisory Group",
+            "url": "https://www.linkedin.com/company/bfs-advisory-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BFS Advisory Group",
+            "description": "Privately Held. Specialties: Financial Planning, Investment Services, Insurance, Legacy Planning, Charitable Giving, Tax Planning, and Other Financial Services\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Financial Planning",
+              "Services",
+              "Planning",
+              "Tax Planning",
+              "Financial Services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "BFG Financial Advisors",
+            "url": "https://www.linkedin.com/company/bfgfa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BFG Financial Advisors",
+            "description": "A firm of independent advisors whose Certified Financial Planner practitioners and professional staff provide highly personalized financial planning and wealth\u00a0...Read more",
+            "emphasizedKeywords": [
+              "advisors",
+              "Financial",
+              "financial planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Tax & Financial Group",
+            "url": "https://www.linkedin.com/company/tax-&-financial-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Tax & Financial Group",
+            "description": "Tax & Financial Group (TFG) is a comprehensive financial services firm committed to helping our clients achieve their goals of long-term financial security.Read more",
+            "emphasizedKeywords": [
+              "Tax",
+              "Financial Group",
+              "financial services",
+              "financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.9K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Financial Advisors Network Tax Planning Group",
+            "url": "https://www.linkedin.com/company/financial-advisors-network-tax-planning-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Advisors Network Tax Planning Group",
+            "description": "Financial Advisors Network Tax Planning Group (FAN TPG) is a full-service accounting firm. It offers tax planning, tax prep, TPA, and bookkeeping services.Read more",
+            "emphasizedKeywords": [
+              "a full-service accounting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Lido Advisors",
+            "url": "https://fr.linkedin.com/company/lido-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lido Advisors",
+            "description": "Our services include in-house and affiliated financial planning, tax consulting, and trust professionals to help clients maximize and protect their legacies.Read more",
+            "emphasizedKeywords": [
+              "in-house and affiliated financial planning, tax consulting, and trust professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Oxford Advisory Group",
+            "url": "https://www.linkedin.com/company/oxfordadvisorygroup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Oxford Advisory Group",
+            "description": "Oxford Advisory Group is a private, family-owned retirement planning & wealth management firm that focuses on helping pre-retirees and retirees navigate their\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Oxford Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Wealth Financial Services & Tax Advisory",
+            "url": "https://www.linkedin.com/company/wealth-financial-services-&-tax-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wealth Financial Services & Tax Advisory",
+            "description": "Financial Planning, Life Insurance, Tax Free Income, Tax preparation, Tax Planning, Estate Planning, Retirement Income Planning, and Risk Management\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Financial Planning, Life Insurance, Tax Free Income, Tax preparation, Tax Planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Tax Advisory Group",
+            "url": "https://www.linkedin.com/company/tax-advisory-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Tax Advisory Group",
+            "description": "Tax Advisory Group guides businesses and high net worth individuals in complex transactions with strategic legal, financial and tax planning initiatives.Read more",
+            "emphasizedKeywords": [
+              "Tax Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "180+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Larson Financial",
+            "url": "https://cl.linkedin.com/company/larson-financial",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Larson Financial",
+            "description": "We specialize in: -Asset Protection -Investment Management -Tax Planning -Employee Benefits & Pensions -Practice Management -Retirement Planning -Contract\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Tax Planning",
+              "Planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.5K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "JCN Financial & Tax Advisory Group, LLC",
+            "url": "https://www.linkedin.com/company/jcn-financial-&-tax-planning-group-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0JCN Financial & Tax Advisory Group, LLC",
+            "description": "At JCN Financial, we not only provide you with tailored guidance, but make sure you understand the how and why behind the way your investments and taxes work.Read more",
+            "emphasizedKeywords": [
+              "JCN Financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ndvxhhxSiCv7Qe1Jb/records/ctelErnVHNT1O5K-0.html?signature=1pDrQCJgdW507RzqLtZJZ"
+      },
+      {
+        "#debug": {
+          "requestId": "tBKjkQ7QM4WURCQ",
+          "url": "http://www.google.com/search?q=Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Financial & Tax Planning | BFS Advisory Group linkedin company",
+          "url": "http://www.google.com/search?q=Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Financial+%26+Tax+Planning+%7C+BFS+Advisory+Group+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "BFS Advisory Group",
+            "url": "https://www.linkedin.com/company/bfs-advisory-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BFS Advisory Group",
+            "description": "At BFS Advisory Group, we are a wealth management firm that leads with financial planning, so we consider all stages of life for our families, from birth to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "wealth management firm that leads with financial planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Debra Brennan Tagg, CFP\u00ae - BFS Advisory Group",
+            "url": "https://www.linkedin.com/in/debrabrennantagg",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Debra Brennan Tagg, CFP\u00ae",
+            "description": "I founded BFS Advisory Group to embody the future of wealth management\u2013as a smart\u2026 \u00b7 Experience: BFS Advisory Group \u00b7 Education: Villanova University\u00a0...",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "How BFS Advisory Group can help your business thrive",
+            "url": "https://www.linkedin.com/posts/debrabrennantagg_smallbusinesssuccess-financialplanning-activity-7313262709033025536-pbWg",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a debrabrennantagg_s...",
+            "description": "Apr 2, 2025 \u2014 President of BFS Advisory Group \u2013 building financial futures for advisors and clients. 11mo ... Business owners need strategic financial planning\u00a0...Read more",
+            "date": "2025-04-02T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "BFS Advisory Group",
+              "financial",
+              "Business",
+              "financial planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Debra Brennan Tagg, CFP\u00ae's Post",
+            "url": "https://www.linkedin.com/posts/debrabrennantagg_financialplanning-supportingagingparents-activity-7437250971862331392-c0bk",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Debra Brennan Tagg, CFP\u00ae",
+            "description": "President of BFS Advisory Group \u2013 building financial futures for advisors and clients ... Tax Strategies for a Unique Moment in Time. Debra\u00a0...Read more",
+            "emphasizedKeywords": [
+              "President of BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "BFS Advisory Group's top tax strategies for 2024",
+            "url": "https://www.linkedin.com/posts/debrabrennantagg_dont-let-tax-filing-eclipse-your-tax-strategy-activity-7184637615730536448-Aw_W",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a debrabrennantagg_d...",
+            "description": "Apr 12, 2024 \u2014 Read today's blog to learn three of BFS Advisory Group's favorite strategies that you need to know about for the 2024 tax year.",
+            "date": "2024-04-12T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "BFS Advisory Group: Financial & Tax Planning",
+            "url": "https://www.bfsadvisorygroup.com/",
+            "displayedUrl": "https://www.bfsadvisorygroup.com",
+            "description": "Transform your financial future with personalized Financial and Tax Planning. Contact BFS Advisory Group today to start building your strategy for success.",
+            "emphasizedKeywords": [
+              "personalized Financial and Tax Planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "It's the dawn of a new day at BFS Advisory Group. For more ...",
+            "url": "https://www.linkedin.com/posts/debrabrennantagg_its-the-dawn-of-a-new-day-at-bfs-advisory-activity-7264353174289854464-13l3",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Debra Brennan Tagg, CFP\u00ae",
+            "description": "At BFS, we have a constant desire to improve our clients experience. Our primary goal was to find a company that aligns with our values and our\u00a0...Read more",
+            "emphasizedKeywords": [
+              "BFS",
+              "company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "The BFS Advisory Group Journey | Financial & Tax Planning",
+            "url": "https://www.bfsadvisorygroup.com/our-story",
+            "displayedUrl": "https://www.bfsadvisorygroup.com \u203a our-story",
+            "description": "Discover the story behind BFS Advisory Group and our commitment to Financial and Tax Planning. Learn how we've evolved. Reach out to start your journey with\u00a0...",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Meet the BFS Advisory Group Team | Financial & Tax ...",
+            "url": "https://www.bfsadvisorygroup.com/our-team",
+            "displayedUrl": "https://www.bfsadvisorygroup.com \u203a our-team",
+            "description": "Get to know the dedicated team behind BFS Advisory Group. Learn about our expertise in Financial and Tax Planning. Connect with us to start your planning!",
+            "emphasizedKeywords": [
+              "Get to know the dedicated team behind BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Debra Brennan Tagg, CFP\u00ae's Post",
+            "url": "https://www.linkedin.com/posts/debrabrennantagg_at-bfs-advisory-group-we-have-a-constant-activity-7270157424982913024-HKte",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a debrabrennantagg_at...",
+            "description": "Dec 4, 2024 \u2014 At BFS Advisory Group, we have a constant desire to improve our client's experience. Our primary goal when looking for a new platform\u00a0...",
+            "date": "2024-12-04T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/IrQTdbcTmO3l1qS5N/records/tBKjkQ7QM4WURCQ-0.html?signature=1iSU7FjmIADskNgdGB9e8"
+      },
+      {
+        "#debug": {
+          "requestId": "7vfh0TTdqHh2PhN",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+bfsadvisorygroup.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+bfsadvisorygroup.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company bfsadvisorygroup.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+bfsadvisorygroup.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+bfsadvisorygroup.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "BFS Advisory Group",
+            "url": "https://www.linkedin.com/company/bfs-advisory-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BFS Advisory Group",
+            "description": "BFS Advisory Group is a team with a collective mission to serve others. We are fiduciaries and good stewards who put our clients' interests and financial well-\u00a0...Read more",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Peak American Investment Advisors, Inc.",
+            "url": "https://www.linkedin.com/company/peakamerican",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Peak American Investment Advisors, Inc.",
+            "description": "PEAK American Financial (formerly Puritan Financial Group) has provided simple, yet impactful retirement, wealth, and insurance services for our clients for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PEAK American Financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Katie Calagui Consulting",
+            "url": "https://www.linkedin.com/company/katie-calagui-consulting",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a katie-calagui-con...",
+            "description": "BFS Advisory Group. Financial Services. Dallas, Texas \u00b7 Fisher Investments. Financial Services. Plano, Texas. Show more similar pages. Show fewer similar pages.",
+            "emphasizedKeywords": [
+              "BFS Advisory Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Applied Quantitative Investments",
+            "url": "https://www.linkedin.com/company/appliedquantitativeinvestments",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a appliedquantitati...",
+            "description": "Empowering Advisors with Data-Driven Insights Leverage advanced analytics to refine your investment strategies. Our dedication to excellence and transparency\u00a0...",
+            "emphasizedKeywords": [
+              "Empowering Advisors with Data-Driven Insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Make A Play Foundation's D-League",
+            "url": "https://www.linkedin.com/company/make-a-play-foundation-s-d-league",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Make A Play Foundation's D-League",
+            "description": "We train underrepresented students with athletic backgrounds to become impactful leaders in competitive industries. \u00b7 Report this company \u00b7 Close menu.Read more",
+            "emphasizedKeywords": [
+              "We train underrepresented students with athletic backgrounds"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "BGT Strategies LLC",
+            "url": "https://www.linkedin.com/company/bgt-strategies-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BGT Strategies LLC",
+            "description": "BGT Strategies LLC is a multi-dimensional consulting and advocacy firm based in Dallas, Texas. Bryan Tony founded BGT Strategies after years of working for and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "BGT Strategies LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "420+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Waterworth Wealth Advisors, LLC",
+            "url": "https://www.linkedin.com/company/waterworth-wealth-advisors-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Waterworth Wealth Advisors, LLC",
+            "description": "Waterworth Wealth Advisors was founded with one principle in mind \u2013 to help our clients achieve the financial goals that are most important to them through\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Waterworth Wealth Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "210+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Trust Matters Financial",
+            "url": "https://www.linkedin.com/company/trust-matters-financial",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Trust Matters Financial",
+            "description": "Trust Matters Financial offers financial services for individuals and business owners seeking to manage investments, protect wealth or pass wealth to the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "financial services for individuals and business owners"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Prosperitage Wealth",
+            "url": "https://www.linkedin.com/company/prosperitage-wealth",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Prosperitage Wealth",
+            "description": "We specialize in assisting trailblazers who are the first in their families to reach six-figure incomes.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Systemic Compliance",
+            "url": "https://www.linkedin.com/company/systemic-compliance",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robin Graham",
+            "description": "Systemic Compliance specializes in helping pipeline operators navigate the complexities of the DOT/PHMSA Operator Qualification (OQ) Rule.Read more",
+            "emphasizedKeywords": [
+              "Systemic Compliance"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "180+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/NNRFc2Yv4d490OhRT/records/7vfh0TTdqHh2PhN-0.html?signature=MldaPAHg8BMxXy2ipBpC"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Financial & Tax Planning | BFS Advisory Group",
+      "https://www.linkedin.com/company/bfs-advisory-group",
+      "https://www.linkedin.com/company/bfgfa",
+      "https://www.linkedin.com/company/tax-&-financial-group",
+      "https://www.linkedin.com/company/financial-advisors-network-tax-planning-group",
+      "https://fr.linkedin.com/company/lido-advisors",
+      "https://www.linkedin.com/company/oxfordadvisorygroup",
+      "https://www.linkedin.com/company/wealth-financial-services-&-tax-advisory",
+      "https://www.linkedin.com/company/tax-advisory-group",
+      "https://cl.linkedin.com/company/larson-financial",
+      "https://www.linkedin.com/company/jcn-financial-&-tax-planning-group-llc",
+      "https://www.linkedin.com/company/bfs-advisory-group",
+      "https://www.linkedin.com/in/debrabrennantagg",
+      "https://www.linkedin.com/posts/debrabrennantagg_smallbusinesssuccess-financialplanning-activity-7313262709033025536-pbWg",
+      "https://www.linkedin.com/posts/debrabrennantagg_financialplanning-supportingagingparents-activity-7437250971862331392-c0bk",
+      "https://www.linkedin.com/posts/debrabrennantagg_dont-let-tax-filing-eclipse-your-tax-strategy-activity-7184637615730536448-Aw_W",
+      "https://www.linkedin.com/posts/debrabrennantagg_its-the-dawn-of-a-new-day-at-bfs-advisory-activity-7264353174289854464-13l3",
+      "https://www.linkedin.com/posts/debrabrennantagg_at-bfs-advisory-group-we-have-a-constant-activity-7270157424982913024-HKte",
+      "site:linkedin.com/company bfsadvisorygroup.com",
+      "https://www.linkedin.com/company/bfs-advisory-group",
+      "https://www.linkedin.com/company/peakamerican",
+      "https://www.linkedin.com/company/katie-calagui-consulting",
+      "https://www.linkedin.com/company/appliedquantitativeinvestments",
+      "https://www.linkedin.com/company/make-a-play-foundation-s-d-league",
+      "https://www.linkedin.com/company/bgt-strategies-llc",
+      "https://www.linkedin.com/company/waterworth-wealth-advisors-llc",
+      "https://www.linkedin.com/company/trust-matters-financial",
+      "https://www.linkedin.com/company/prosperitage-wealth",
+      "https://www.linkedin.com/company/systemic-compliance"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/bfs-advisory-group/",
+        "companyName": "BFS Advisory Group",
+        "websiteUrl": "http://www.bfsadvisorygroup.com/",
+        "industry": "Financial Services",
+        "employeeCount": 12,
+        "followerCount": 1295,
+        "universalName": "bfs-advisory-group",
+        "tagline": "INVEST FOR THE LIFE YOU WANT. We\u2019re trustworthy stewards that help you strategically set and achieve financial goals.",
+        "description": "BFS ADVISORY GROUP IS A TEAM WITH A COLLECTIVE MISSION TO SERVE OTHERS.\n\nWe are fiduciaries and good stewards who put our clients\u2019 interests and financial well-being above our own. We proudly share five core values: integrity, empathy, future focus, independence and authenticity. Our mission and values shine in our processes, our commitment to hiring individuals with CFP \u00ae and CFA \u00ae designations, and how we choose clients.\n\nWE HELP OUR CLIENTS BUILD A FRAMEWORK FOR THOUGHTFUL DECISIONS ABOUT THEIR FINANCIAL PLANS THROUGH A PROPRIETARY PLANNING PROCESS WE CALL THE DBT360 FINANCIAL PLAN.\n\nOUR SERVICES ARE DESIGNED TO HELP YOU INVEST FOR THE LIFE YOU WANT.\n\n\n\nSecurities offered through NewEdge Securities, Inc. Member FINRA/SIPC. Advisory services offered through NewEdge Advisors, LLC, a registered investment advisor. NewEdge Advisors, LLC and BFS Advisory Group, LLC are affiliated entities to NewEdge Securities, LLC and under the common control of NewEdge Capital Group LLC. For hyperlinks to FINRA and SIPC, please refer to Q2 below.\n\nAdvisory Services are only offered to clients where NewEdge Advisors, LLC doing business as BFS Advisory Group, LLC and its representatives are properly licensed or exempt from licensure. The information contained herein is solely for informational purposes. Past performance is no guarantee of future returns. Investing involves risk and possible loss of principal capital. No advice may be rendered by NewEdge Advisors, LLC doing business as BFS Advisory Group, LLC unless a client service agreement is in place.\n\nThird party posts found on this profile do not reflect the views of NewEdge Advisors, LLC or NewEdge Securities, LLC and have not been reviewed by either entity for accuracy or completeness.\n",
+        "companyId": 75459947,
+        "hashtag": "#financialplanning",
+        "industryV2Taxonomy": "Financial Services",
+        "callToAction": {
+          "displayText": "Learn more",
+          "type": "LEARN_MORE",
+          "url": "http://www.bfsadvisorygroup.com/"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Dallas",
+          "geographicArea": "Texas",
+          "postalCode": "75231",
+          "line1": "8144 Walnut Hill Ln",
+          "line2": "Suite 1120",
+          "description": null
+        },
+        "foundedOn": null,
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQEA_xnLvegM9Q/company-logo_200_200/company-logo_200_200/0/1630636222424/bfs_advisory_group_logo?e=1776297600&v=beta&t=PJteqjV6E_7dBcupPr39w-llbTmVfKQG9PS5SKsHmS4",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQG0iYQxF0HWeg/company-background_10000/company-background_10000/0/1612809770094/bfs_advisory_group_cover?e=1775570400&v=beta&t=Ut9HpMCY6dv_ERsQNODi6x2xaN0XXNRI0jgCPcm_Tjc",
+        "croppedCoverImage": null,
+        "specialities": [
+          "Financial Planning",
+          "Investment Services",
+          "Insurance",
+          "Legacy Planning",
+          "Charitable Giving",
+          "Tax Planning",
+          "Other Financial Services"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "American Heart Association",
+            "followerCount": 1389807,
+            "url": "https://www.linkedin.com/company/american-heart-association/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQGkbfwG3S0TkQ/company-logo_200_200/company-logo_200_200/0/1631374527549/american_heart_association_logo?e=1776297600&v=beta&t=4i8-0cZya9ph2Pmn7Ac5Ikwz3xAKXOb7g3FVRzlVTQk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGI1kaOlddMNA/image-scale_127_750/B56ZWVaVsyGoAM-/0/1741968465013/american_heart_association_cover?e=1775570400&v=beta&t=Lu7Ga6blIPN5sQvYseOtImJvcmeqJwrTItp7sqcnpkI",
+            "industryV2Taxonomy": "Wellness and Fitness Services",
+            "industry": "Health, Wellness & Fitness",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGvQpqM7Wmn8Q/company-background_10000/B56ZWVaVtKHsAU-/0/1741968465040/american_heart_association_cover?e=1775570400&v=beta&t=MUv4s89vclyGzOAdVSjJnf5Cst-UQT7mYm57h1vNDSc",
+            "companyId": 157306,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Dallas",
+              "geographicArea": "Texas",
+              "postalCode": "75231-4596",
+              "line1": "7272 Greenville Ave",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "american-heart-association"
+          },
+          {
+            "name": "UMB Bank",
+            "followerCount": 40022,
+            "url": "https://www.linkedin.com/company/umbbank/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQEZjMMwQnQ2Kw/company-logo_200_200/company-logo_200_200/0/1665585818545/umbbank_logo?e=1776297600&v=beta&t=kDKbieW_fJaVy4DMo1dxp236ZLfUUJE1PIRSuva7yEM",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFdezYrRefC8g/image-scale_127_750/image-scale_127_750/0/1701365654564/umbbank_cover?e=1775570400&v=beta&t=-LG1rDZLaWomP-JWXrnJcRV5p_vrJE0ybxtC01iq7Lk",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEMFBzr1LMdMw/company-background_10000/company-background_10000/0/1701365655781/umbbank_cover?e=1775570400&v=beta&t=INbsAIdgbuktKj5bUMXLRRYINFqVPN-9I0N4nXl1ZiI",
+            "companyId": 6565,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Kansas City",
+              "geographicArea": "MO",
+              "postalCode": "64106",
+              "line1": "1010 Grand Blvd",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "umbbank"
+          },
+          {
+            "name": "Cresset",
+            "followerCount": 39165,
+            "url": "https://www.linkedin.com/company/cresset-capital/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGknkmLZqpuSA/company-logo_200_200/company-logo_200_200/0/1662738681084/cresset_capital_logo?e=1776297600&v=beta&t=N_xwY6Vmht4E4f5qYeSb101dUh21MH-QlTA_6IQXleA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQE2jH_sdOpY1g/image-scale_127_750/B56ZwKvfR3K0AM-/0/1769706748197/cresset_capital_cover?e=1775570400&v=beta&t=AHYy1EzHTdQq7WZLQI2aLP9BnV8fsNY1bC5yYSk4FlY",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGuJD0kq-pLOA/company-background_400/B56ZwKvfSQK0Ac-/0/1769706747576/cresset_capital_cover?e=1775570400&v=beta&t=yK6iGCjGrP3iu5hzIpz2SBvxC_UASyDIFChZBIIKW_E",
+            "companyId": 27096316,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Chicago",
+              "geographicArea": "IL",
+              "postalCode": "60606",
+              "line1": "444 W. Lake Street",
+              "line2": "Suite 4700",
+              "description": "Chicago Headquarters"
+            },
+            "universalName": "cresset-capital"
+          },
+          {
+            "name": "Fisher Investments",
+            "followerCount": 308066,
+            "url": "https://www.linkedin.com/company/fisher-investments/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQELi_gZBtxGEA/company-logo_200_200/company-logo_200_200/0/1630514143417/fisher_investments_logo?e=1776297600&v=beta&t=AM_1JyzdaTvKDeNjXC9UTWZH_81MbR5_pB16TOGyCPQ",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEWyJ_pFLtgQg/image-scale_127_750/image-scale_127_750/0/1737649724856/fisher_investments_cover?e=1775570400&v=beta&t=H8d_8qRTPRNxplDnFWqEmMd9IjQ_UIp2GNe4ws9g41g",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFugDewKscgXQ/company-background_10000/company-background_10000/0/1737649724968/fisher_investments_cover?e=1775570400&v=beta&t=rT--9Dut2h6w1wzVsbBK621EC1MVWapPzf_hjucGv7U",
+            "companyId": 163841,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Plano",
+              "geographicArea": "Texas",
+              "postalCode": "75093",
+              "line1": "6500 International Pkwy, Ste 2050",
+              "line2": null,
+              "description": "Fisher Investments Plano"
+            },
+            "universalName": "fisher-investments"
+          },
+          {
+            "name": "Charles Schwab",
+            "followerCount": 495266,
+            "url": "https://www.linkedin.com/company/charles-schwab/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEhQXJ0SwK6mw/company-logo_200_200/B56Zom8DevJ4AM-/0/1761589868955/charles_schwab_logo?e=1776297600&v=beta&t=hft42kxdiEGjfbestUZlc5f712mKzo0v5ETeQ7nQz-g",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHZ-1HssYHO1A/image-scale_127_750/B4EZikV4TpGcAQ-/0/1755103858116/charles_schwab_cover?e=1775570400&v=beta&t=DxpaYilyUbpET-mAefzVyn9ln8Pm6KovheDH0I7piiQ",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFAqUV6MPyuNA/company-background_400/B4EZikV4NmHoAc-/0/1755103855991/charles_schwab_cover?e=1775570400&v=beta&t=sXmVMRJkqtG4RgfSrywHzh1qrZQeUAnMD-QJxpsjY1U",
+            "companyId": 1855,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Westlake",
+              "geographicArea": "Texas",
+              "postalCode": "76262",
+              "line1": "3000 Schwab Way",
+              "line2": null,
+              "description": "The Charles Schwab Corporate Headquarters"
+            },
+            "universalName": "charles-schwab"
+          },
+          {
+            "name": "Vanguard",
+            "followerCount": 700253,
+            "url": "https://www.linkedin.com/company/vanguard/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQF_RLzpaBBg5Q/company-logo_100_100/B4EZsOYkN3HoAU-/0/1765472885963/vanguard_logo?e=1776297600&v=beta&t=48LQE4BtUt1l-_5mt_hqznFJRCZrKEffnd9B5eevRBk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFUE67Dmrz4AQ/image-scale_127_750/B4EZsOYVZjIIAM-/0/1765472819200/vanguard_cover?e=1775570400&v=beta&t=2egCIj54AibEZeOD9XuX-e4DmgGQM6W9cRTExVUUcAo",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQHKHenaxgSMKg/company-background_10000/B4EZsOYVaOKMAU-/0/1765472825247/vanguard_cover?e=1775570400&v=beta&t=uy5if1Mi-x67TfEpdrk_Nh2v5c43izrYL1gJ2o2oi2U",
+            "companyId": 3184,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Valley Forge",
+              "geographicArea": "PA",
+              "postalCode": "19482",
+              "line1": "100 Vanguard Blvd",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "vanguard"
+          },
+          {
+            "name": "True North Advisors",
+            "followerCount": 3937,
+            "url": "https://www.linkedin.com/company/true-north-advisors/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHMMzrEfzE3Jw/company-logo_400_400/B56ZVdDousGsAg-/0/1741022989557/true_north_advisors_logo?e=1776297600&v=beta&t=K-toi4GshEYzElTd6ImXjuT5OnEeu_u2eDAGEsVYBJ8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFh8C-u_-CaLg/image-scale_127_750/image-scale_127_750/0/1677859061240/true_north_advisors_cover?e=1775570400&v=beta&t=1Q-whQF2GZVvS22dBTnLaJY-a1ULTYhBQxhtchA8Z3A",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFxrfx2pX9XWQ/company-background_10000/company-background_10000/0/1677859061377/true_north_advisors_cover?e=1775570400&v=beta&t=Y_mnv54nMYkv1CsB2xyGVvuiANyxC-C9jcXG1yilc1Y",
+            "companyId": 127558,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Dallas",
+              "geographicArea": "TX",
+              "postalCode": "75219",
+              "line1": "3131 Turtle Creek Blvd",
+              "line2": "Ste 1300",
+              "description": "True North Advisors"
+            },
+            "universalName": "true-north-advisors"
+          },
+          {
+            "name": "GSG Wealth Management",
+            "followerCount": 479,
+            "url": "https://www.linkedin.com/company/gsg-wealth-management/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQHMbAzwnAMmAg/company-logo_200_200/company-logo_200_200/0/1678982259830/gsg_wealth_management_logo?e=1776297600&v=beta&t=cVsmqwkUMZZWdDVgSPYg6cqYV-2cBU5NQjEiS77Ur2E",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGN1wj446va3g/image-scale_191_1128/B56ZrrKnCtLEAc-/0/1764882023383/gsg_wealth_management_cover?e=1775570400&v=beta&t=lZiBkGyuukS9DTsVjLdBr89Io2Ag3AMcPK180IJZZkg",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHbmOM6RhVSLA/company-background_200/B56ZrrKnBQJsAc-/0/1764882019669/gsg_wealth_management_cover?e=1775570400&v=beta&t=27TjL62vgwooWDiSSiwVgfEwV-nV6J1kCMSUA_cJZrc",
+            "companyId": 90671587,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Evansville",
+              "geographicArea": "Indiana",
+              "postalCode": "47715",
+              "line1": "335 Cross Pointe Blvd",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "gsg-wealth-management"
+          },
+          {
+            "name": "Mission Wealth",
+            "followerCount": 4369,
+            "url": "https://www.linkedin.com/company/missionwealth/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGlinENRsYsWA/company-logo_400_400/B56Z0H6XVOI0AY-/0/1773954234010/missionwealth_logo?e=1776297600&v=beta&t=RITW1qhVGqZEokWMeK1WLpqdQtBE97P5Wgq9fQkOu8A",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHPATK6zv0pPw/image-scale_127_750/B56Z0H_Q6yGYAM-/0/1773955518463/missionwealth_cover?e=1775570400&v=beta&t=dChbs3-H6chH9WXgc_NS0cDBnPKnHV-mzSLDSK_P4R0",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFKiy-fyGJt9g/company-background_10000/B56Z0H_Q6pKsAU-/0/1773955518417/missionwealth_cover?e=1775570400&v=beta&t=lbv302c3OND041XfpNp3NryXVi_Ls9zmP-yzNpw0Knc",
+            "companyId": 1357563,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Santa Barbara",
+              "geographicArea": "California",
+              "postalCode": "93101",
+              "line1": "1111 Chapala St",
+              "line2": "Floor 3",
+              "description": "Mission Wealth - Santa Barbara"
+            },
+            "universalName": "missionwealth"
+          },
+          {
+            "name": "Peak American Investment Advisors, Inc.",
+            "followerCount": 1105,
+            "url": "https://www.linkedin.com/company/peakamerican/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQG4wlrOXRfWMg/company-logo_200_200/company-logo_200_200/0/1686078479668/peakamerican_logo?e=1776297600&v=beta&t=1Y8EumHebYQ1PDiINXQltiL3RneErM8mf54DQFML64s",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGlNqvOQC8V0w/image-scale_108_640/B56ZiasjkqH0AQ-/0/1754942028626/peakamerican_cover?e=1775570400&v=beta&t=Yb38HgRqHSuZLJnLR5L5tXadkE2NZlZcPMjrbYgg_Oc",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEZ-yJzWTe4nA/company-background_400/B56Ziasjk6G4AY-/0/1754942029186/peakamerican_cover?e=1775570400&v=beta&t=EkSafuNRhc_TH2HLo3WrrvYOxddoo6VEkRYB5_-Gho8",
+            "companyId": 51658187,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Plano",
+              "geographicArea": "Texas",
+              "postalCode": "75093",
+              "line1": "2400 N Dallas Pkwy",
+              "line2": "100",
+              "description": null
+            },
+            "universalName": "peakamerican"
+          },
+          {
+            "name": "Citi",
+            "followerCount": 5218511,
+            "url": "https://www.linkedin.com/company/citi/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFgF4xtqyXBcg/company-logo_200_200/company-logo_200_200/0/1719257270317/citi_logo?e=1776297600&v=beta&t=U49-H7P763vp0KPGB9ZJit5IhrYDZjaI6TqLixS0Bao",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGJ_J67SjmjBA/image-scale_108_640/B56ZueTb2oK0AQ-/0/1767887454126/citi_cover?e=1775570400&v=beta&t=CPg1Rm7JVbzZb2XXpmOhvMX3obV63ay_QSLzwWb1ZQ0",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF8v6_cEQn0UA/company-background_200/B56ZueTb2SKwAc-/0/1767887454206/citi_cover?e=1775570400&v=beta&t=JN_go_-haBl0czKPaOVrA6S7C7qrCHugyeGRygs5Qx0",
+            "companyId": 11448,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "New York",
+              "postalCode": "10013",
+              "line1": "388 Greenwich Street",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "citi"
+          },
+          {
+            "name": "Goldman Sachs",
+            "followerCount": 5774236,
+            "url": "https://www.linkedin.com/company/goldman-sachs/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1776297600&v=beta&t=CeGWVyLppFa0m0jhZ2EOXTrwF8BWRhTyDw6LckkxoE0",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQF9us9bYiqvog/image-scale_191_1128/B56ZdG1_a4HEAc-/0/1749240248562/goldman_sachs_cover?e=1775570400&v=beta&t=AgImELTWZKerPkY5Y_X06ewgw1XVZmQfXsyTLRTuxEQ",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGVvkfVHI3wKQ/company-background_200/B56ZdG1_bXHUAg-/0/1749240248737/goldman_sachs_cover?e=1775570400&v=beta&t=XkvxPjb76scmacKP80u_bnb8FJ_dvXRH3uNjngk-29Y",
+            "companyId": 1382,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "New York",
+              "postalCode": "10282",
+              "line1": "200 West Street",
+              "line2": null,
+              "description": "Goldman Sachs"
+            },
+            "universalName": "goldman-sachs"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Dallas",
+            "geographicArea": "Texas",
+            "postalCode": "75231",
+            "line1": "8144 Walnut Hill Ln",
+            "line2": "Suite 1120",
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Dallas",
+            "latitude": 32.7513,
+            "longitude": -97.08263
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/bfs-advisory-group",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/debrabrennantagg"
+  },
+  "lead_before_enrichment": {
+    "business": "Financial & Tax Planning | BFS Advisory Group",
+    "description": "# Financial & Tax Planning | BFS Advisory Group ## Create the life you want. ### Plan for the future with confidence. Your browser does not support the video tag. #### Awards and Accolades [![Dallas500 Award](https://static.fmgsuite.com/media/InlineContent/originalSize/4e6c9c42-8b37-412d-964a-a02af954efad.jpg)](https://bfsadvisorygroup.com/our-news) ![Real People.<br/><strong>Backed By Experience.<br/><sup>Independent &#38;",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://bfsadvisorygroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bfs-advisory-group",
+    "source_url": "https://bfsadvisorygroup.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "bfsadvisorygroup.com",
+    "source_urls": [
+      "https://bfsadvisorygroup.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Financial & Tax Planning | BFS Advisory Group",
+    "description": "BFS ADVISORY GROUP IS A TEAM WITH A COLLECTIVE MISSION TO SERVE OTHERS. We are fiduciaries and good stewards who put our clients\u2019 interests and financial well-being above our own. We proudly share five core values: integrity, empathy, future focus, independence and authenticity. Our mission and values shine in our processes, our commitment to hiring individuals with CFP \u00ae and CFA \u00ae designations, and how we choose clients. WE HELP OUR CLIENTS BUILD A FRAMEWORK FOR THOUGHTFUL DECISIONS ABOUT THEIR FINANCIAL PLANS THROUGH A PROPRIETARY PLANNING PROCESS WE CALL THE DBT360 FINANCIAL PLAN.",
+    "full_name": "Debrabrennantagg",
+    "first": "Debrabrennantagg",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://bfsadvisorygroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "President",
+    "linkedin": "https://www.linkedin.com/in/debrabrennantagg",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bfs-advisory-group",
+    "source_url": "https://bfsadvisorygroup.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Dallas",
+    "country": "United States",
+    "state": "",
+    "city": "Dallas",
+    "employee_count": "11-50",
+    "company_domain_canonical": "bfsadvisorygroup.com",
+    "source_urls": [
+      "https://bfsadvisorygroup.com"
+    ],
+    "title_raw": "President",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://bfsadvisorygroup.com"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Dallas"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "# Financial & Tax Planning | BFS Advisory Group ## Create the life you want. ### Plan for the future with confidence. Your browser does not support the video tag. #### Awards and Accolades [![Dallas500 Award](https://static.fmgsuite.com/media/InlineContent/originalSize/4e6c9c42-8b37-412d-964a-a02af954efad.jpg)](https://bfsadvisorygroup.com/our-news) ![Real People.<br/><strong>Backed By Experience.<br/><sup>Independent &#38;",
+      "after": "BFS ADVISORY GROUP IS A TEAM WITH A COLLECTIVE MISSION TO SERVE OTHERS. We are fiduciaries and good stewards who put our clients\u2019 interests and financial well-being above our own. We proudly share five core values: integrity, empathy, future focus, independence and authenticity. Our mission and values shine in our processes, our commitment to hiring individuals with CFP \u00ae and CFA \u00ae designations, and how we choose clients. WE HELP OUR CLIENTS BUILD A FRAMEWORK FOR THOUGHTFUL DECISIONS ABOUT THEIR FINANCIAL PLANS THROUGH A PROPRIETARY PLANNING PROCESS WE CALL THE DBT360 FINANCIAL PLAN."
+    },
+    "first": {
+      "before": "",
+      "after": "Debrabrennantagg"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Debrabrennantagg"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Dallas"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/debrabrennantagg"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://bfsadvisorygroup.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "President"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "President"
+    }
+  }
+}

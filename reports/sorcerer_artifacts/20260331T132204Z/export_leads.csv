@@ -1,0 +1,86 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T13:20:09.570283Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpe15zerzg/evidence/domain/cansulta.com.json","","2026-06-29T13:20:09.570286Z","startup advisory services founder contact","2026-03-31T13:19:41.218892Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-03-31T13:20:09.583591Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmpe15zerzg/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-29T13:20:09.583593Z","business consulting firm advisor email","2026-03-31T13:19:44.500296Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Financial & Tax Planning | BFS Advisory Group
+
+## Create the life you want.  
+
+### Plan for the future with confidence.
+
+Your browser does not support the video tag.
+
+#### Awards and Accolades
+
+[![Dallas500 Award](https://static.fmgsuite.com/media/InlineContent/originalSize/4e6c9c42-8b37-412d-964a-a02af954efad.jpg)](https://bfsadvisorygroup.com/our-news)
+
+![Real People.<br/><strong>Backed By Experience.<br/><sup>Independent &#38; Objective Advice built by Industry Insiders</sup><br/></strong>](https://static.fmgsuite.com/media/WebsiteBoxImage/originalSize/947d938b-9abe-47be-8896-1a2607ad8212.jpg?v=1)
+
+## Real People.  
+**Backed By Experience.  
+Independent & Objective Advice built by Industry Insiders  
+**
+
+Welcome to **BFS Advisory Group**, a Dallas-based wealth management firm where we help our clients to use their money to live the lives they truly want.
+
+Too often, the financial services industry leads with product sales, leaving many people confused about what they really need. Instead of saying “it shouldn’t be that way,” **we’re changing the game**. We build your plan focused on you, your goals, your values, and your purpose.
+
+Our **Certified Financial Planners** and credentialed team will get to know what you really want to achieve with your money – from financial independence to making a difference in the world. We design a plan with built-in accountability that’s laser-focused on what you want to accomplish. And our flat-rate financial planning process allows us to charge you based on your comprehensive needs.
+
+## Planning That Fits You.   
+**Not the Other Way Around**
+
+The bottom line is that if you pay a professional to help you with your money, you should expect objective, unbiased recommendations that are in your best interest – no exceptions, full stop. **We take it a step further at BFS Advisory Group** – we stand right in the middle of our client’s lives with them and make it a habit to celebrate them when they achieve their goals.  
+
+## It starts with a question:  
+**What matters most to you?**
+
+We start by uncovering your goals, the ones that drive your life and shape your future.
+
+## More than assets,  
+**it’s about opportunities.**
+
+ We analyze your full financial picture to find the opportunities that move you forward.
+
+## Life happens.  
+**We help you plan for it.**
+
+We identify risks and challenges early, so your plan stays on track, no matter what.
+
+![The Services You Need. <br/><strong>The Focus You Deserve.</strong>](https://static.fmgsuite.com/media/WebsiteBoxImage/originalSize/c1587073-4829-4772-81d8-d25d76fc2ebb.jpg?v=1)
+
+## The Services You Need.   
+**The Focus You Deserve.**
+
+### _From planning and investing to business strategy, we tailor our approach to your whole financial picture._
+
+*   With your life’s goals at the center, we build a framework for thoughtful decision-making to improve your potential for success.
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+*   As your go-to team of advisors, we bring  small business insights and financial planning expertise together to protect your most important asset: your business.
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+*   We create investment strategies tailored to your goals, risk tolerance, and timeline with portfolios built and managed in house.
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+*   As stewards of your financial plan, we help you preserve your assets for future generations, and partner with your attorney to facilitate a seamless transfer. 
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+*   Our extensive network of financial professional partners at your disposal includes estate planning, tax planning, philanthropic and banking experts.
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+*   Our team actively collaborates with your tax professional to identify tax liabilities or advantages that may influence our portfolio recommendations. 
+    
+    [Learn More](https://bfsadvisorygroup.com/what-we-do)
+    
+
+## See the Bigger Picture.   
+**Schedule a Consultation**","","https://bfsadvisorygroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Financial & Tax Planning | BFS Advisory Group","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","bfsadvisorygroup.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","0f23cf16f6b97838f497290b9fa94e53dbb398863874319998e80dabf059d2f8","0.0","0.3","5a827d25-d3d5-5c73-91a8-fb5d2c602059","","2026-03-31T13:22:04.735348Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bfsadvisorygroup.com.json","/tmp/tmpe15zerzg/evidence/domain/bfsadvisorygroup.com.json","","2026-06-29T13:22:04.735356Z","business consulting firm advisor email","2026-03-31T13:19:45.140626Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T13:22:04.752305Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpe15zerzg/evidence/domain/maynardnexsen.com.json","","2026-06-29T13:22:04.752307Z","business consulting firm advisor email","2026-03-31T13:19:46.074885Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T13:22:04.765133Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpe15zerzg/evidence/domain/vaam.io.json","","2026-06-29T13:22:04.765136Z","SaaS startup CEO contact information","2026-03-31T13:19:49.727018Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T13:22:04.777947Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpe15zerzg/evidence/domain/findemails.com.json","","2026-06-29T13:22:04.777949Z","SaaS startup CEO contact information","2026-03-31T13:19:50.377383Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T13:22:04.791170Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpe15zerzg/evidence/domain/bcg.com.json","","2026-06-29T13:22:04.791172Z","venture consulting firm partner email","2026-03-31T13:19:57.564193Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

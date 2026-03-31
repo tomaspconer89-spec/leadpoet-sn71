@@ -9,6 +9,12 @@ gse:
   unit: 'request'
   usd_per_unit: 0.0005
 
+# Lead Sorcerer crawl stage: Apify Website Content Crawler (see APIFY_WEB_CRAWLER_* env).
+apify_crawl:
+  unit: 'page'
+  usd_per_unit: 0.0010
+
+# Optional legacy crawl provider (set USE_FIRECRAWL_FOR_CRAWL=1 to enable).
 firecrawl:
   unit: 'extract'
   usd_per_unit: 0.0010

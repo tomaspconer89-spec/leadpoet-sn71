@@ -1,0 +1,635 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T12:33:12.820130Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp5zsxptij/evidence/domain/cansulta.com.json","","2026-06-29T12:33:12.820133Z","startup advisory services founder contact","2026-03-31T12:32:46.232713Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![PrepLounge - link to homepage](https://www.preplounge.com/assets/images/logo/rebranding/icon.webp) ![PrepLounge - link to homepage](https://www.preplounge.com/assets/images/logo/rebranding/icon-label.png) ](https://www.preplounge.com/en)
+General General
+[ Consulting ](https://www.preplounge.com/en/consulting?set_gi=1) [ Finance ](https://www.preplounge.com/en/finance?set_gi=1) [ General ](https://www.preplounge.com/en/?reset_gi=1)
+[ Login ](https://www.preplounge.com/en/login) [ Sign up for free ](https://www.preplounge.com/en/signup) [ Sign up for free ](https://www.preplounge.com/en/signup)
+[ ](https://www.preplounge.com/en)
+[ ](https://www.preplounge.com/en) [ ](https://www.preplounge.com/en)
+[ Consulting ](https://www.preplounge.com/en/consulting?set_gi=1) [ Finance ](https://www.preplounge.com/en/finance?set_gi=1) [ General ](https://www.preplounge.com/en/?reset_gi=1)
+[ Community  ](https://www.preplounge.com/en/meeting-board)
+[ ![](https://www.preplounge.com/assets/images/navigation/meeting-board.png) Meeting Board  ](https://www.preplounge.com/en/meeting-board)
+Schedule mock interviews with peers on the Meeting Board. 
+[ ![](https://www.preplounge.com/assets/images/navigation/interview-partners.png) Interview Partner  ](https://www.preplounge.com/en/interview-partner)
+Build your network and practice with top talents worldwide for your job interview. 
+[ ![](https://www.preplounge.com/assets/images/navigation/forum.png) Q&A  ](https://www.preplounge.com/forum)
+Ask your questions about your career in consulting and finance to our experts. 
+[ ![](https://www.preplounge.com/assets/images/navigation/premium.png) Premium Membership  ](https://www.preplounge.com/en/shop/premium-membership)
+Become a Premium Member and maximize your success in job interviews. 
+[ Coaching  ](https://www.preplounge.com/en/case-coach)
+[ ![](https://www.preplounge.com/assets/images/navigation/coaches.png) Coaches  ](https://www.preplounge.com/en/case-coach)
+Find experienced career coaches for your personal interview preparation. 
+[ ![](https://www.preplounge.com/assets/images/navigation/coaching-packages.png) Coaching Packages  ](https://www.preplounge.com/en/shop/coaching-packages)
+With comprehensive coaching packages, you will be well-prepared for the interview. 
+[ Resources  ](https://www.preplounge.com/en/category/content)
+[ ![](https://www.preplounge.com/assets/images/navigation/case-interview-basics.png) Case Interview Basics  ](https://www.preplounge.com/en/case-interview-basics)
+Learn the most important fundamentals, frameworks, and calculations for a successful case interview. 
+[ ![](https://www.preplounge.com/assets/images/navigation/case-library.png) Case Library  ](https://www.preplounge.com/en/management-consulting-cases)
+Access hundreds of real consulting cases and practice hands-on. 
+[ ![](https://www.preplounge.com/assets/images/navigation/finance-interview-basics.png) Finance Interview Basics  ](https://www.preplounge.com/en/finance-interview-basics)
+Learn the most important fundamentals, valuation models, and calculations for a successful interview in the finance industry. 
+[ ![](https://www.preplounge.com/assets/images/navigation/finance-interview-questions.png) Finance Interview Questions  ](https://www.preplounge.com/en/finance-interview-questions)
+Practice with a collection of typical questions from interviews in the finance sector. 
+![](https://www.preplounge.com/assets/images/navigation/self-study-tools.png) Self Study Tools 
+Take your skills to the next level with our self-study resources. 
+[ Mental Math Tool ](https://www.preplounge.com/en/mental-math) [ Tests & Guides ](https://www.preplounge.com/en/shop/tests-and-guides) [ AI Casebot ](https://www.preplounge.com/en/ai-casebot) [ Stress Questions ](https://www.preplounge.com/en/stress-questions) [ Drills ](https://www.preplounge.com/en/case-interview-exercises) [ Video Tutorials ](https://www.preplounge.com/en/video-tutorials) [ Brainteaser ](https://www.preplounge.com/en/brain-teaser)
+[ Career  ](https://www.preplounge.com/en/employers)
+[ ![](https://www.preplounge.com/assets/images/navigation/employers.png) Employers  ](https://www.preplounge.com/en/employers)
+Discover top employers in consulting and finance. 
+[ ![](https://www.preplounge.com/assets/images/navigation/jobs.png) Consulting Jobs  ](https://www.preplounge.com/en/job-board)
+Browse current job openings and kickstart your career at top companies. 
+[ Blog  ](https://www.preplounge.com/en/blog)
+[ Sign up for free ](https://www.preplounge.com/en/signup) [ Login ](https://www.preplounge.com/en/login)
+#  Start Your Interview Prep in Consulting and Finance! 
+Are you aiming for a career at top firms like **McKinsey, BCG, or Goldman Sachs**? Then get ready for a challenging application process!
+At PrepLounge, the world’s number one platform for case interview preparation, you'll find everything you need for **perfect preparation** : practice cases, drills, mental math, and plenty of insights, tips, and tricks.
+Join our community of over **558,000 like-minded peers**! 🚀
+[ Sign up for free ](https://www.preplounge.com/en/signup) [ Login ](https://www.preplounge.com/en/login)
+Join the Community!
+![440k+ User](https://www.preplounge.com/uploads/landing-pages/36/en/module-364-1763020523-9ihflahn7u58.png) ![440k+ User](https://www.preplounge.com/uploads/landing-pages/36/en/module-364-1763020523-06qi7ltr9frg.png)
+Your first name
+Your email address
+Your password
+Yes, I would like to be informed about new content, exciting jobs, relevant events, and selected employers. 
+By creating an account, I confirm that I agree to [PrepLounge's Terms of Use](https://www.preplounge.com/en/conditions). Please read our [Privacy Policy](https://www.preplounge.com/en/cookies-and-privacy-settings-and-policy?tab=privacypolicy).
+Sign up for free
+Sign up with
+[ ](https://www.preplounge.com/en/signup/social/google?mode=signup) [ ](https://www.preplounge.com/en/signup/social/apple?mode=signup) [ ](https://www.preplounge.com/en/signup/social/linkedin?mode=signup) [ ](https://www.preplounge.com/en/signup/social/facebook?mode=signup)
+You already have an account? [Log in here.](https://www.preplounge.com/en/login)
+![Mockup Mobile](https://www.preplounge.com/uploads/landing-pages/36/en/module-364-1763020523-3g93xvrnrdnf.png) ![440k+ User](https://www.preplounge.com/uploads/landing-pages/36/en/module-364-1763020523-9ihflahn7u58.png) ![440k+ User](https://www.preplounge.com/uploads/landing-pages/36/en/module-364-1763020523-06qi7ltr9frg.png)
+##  For Your Perfect Career Start, We Partner with Leading Companies in Consulting and Finance. 
+[ ![Roland Berger](https://www.preplounge.com/uploads/company-profiles/20/logo_landing-1712910454-uimbvqu80az3.webp) ](https://www.preplounge.com/en/employers/Roland-Berger "Career and application at Roland Berger") [ ![BCG Platinion](https://www.preplounge.com/uploads/company-profiles/183/logo_landing.png) ](https://www.preplounge.com/en/employers/bcg-platinion "Career and application at BCG Platinion") [ ![Deloitte](https://www.preplounge.com/uploads/company-profiles/9/logo_landing-1758003644-qrwhyznksz2f.webp) ](https://www.preplounge.com/en/employers/deloitte "Career and application at Deloitte") [ ![BearingPoint Deutschland](https://www.preplounge.com/uploads/company-profiles/5/logo_landing-1756377688-qcd3yqd2awc1.webp) ](https://www.preplounge.com/en/employers/BearingPoint "Career and application at BearingPoint Deutschland") [ ![EY](https://www.preplounge.com/uploads/company-profiles/89/logo_landing-1757935897-ihsi7elt0nli.webp) ](https://www.preplounge.com/en/employers/EY "Career and application at EY") [ ![Kearney](https://www.preplounge.com/uploads/company-profiles/147/logo_landing-1755859759-26r42040csau.webp) ](https://www.preplounge.com/en/employers/Kearney "Career and application at Kearney") [ ![Bain & Company](https://www.preplounge.com/uploads/company-profiles/3/logo_landing-1738922687-ojnx4sq9vqm1.webp) ](https://www.preplounge.com/en/employers/bain-and-company "Career and application at Bain & Company") [ ![Oliver Wyman](https://www.preplounge.com/uploads/company-profiles/118/logo_landing-1773995581-sjyd5itjtbxu.webp) ](https://www.preplounge.com/en/employers/oliver-wyman "Career and application at Oliver Wyman") [ ![Stern Stewart & Co.](https://www.preplounge.com/uploads/company-profiles/24/logo_landing-1697706784-wx7yf7wgbw0s.webp) ](https://www.preplounge.com/en/employers/stern-stewart "Career and application at Stern Stewart & Co.") [ ![zeb Consulting](https://www.preplounge.com/uploads/company-profiles/28/logo_landing.png) ](https://www.preplounge.com/en/employers/zeb "Career and application at zeb Consulting") [ ![Roland Berger](https://www.preplounge.com/uploads/company-profiles/20/logo_landing-1712910454-uimbvqu80az3.webp) ](https://www.preplounge.com/en/employers/Roland-Berger "Career and application at Roland Berger")[ ![BCG Platinion](https://www.preplounge.com/uploads/company-profiles/183/logo_landing.png) ](https://www.preplounge.com/en/employers/bcg-platinion "Career and application at BCG Platinion")[ ![Deloitte](https://www.preplounge.com/uploads/company-profiles/9/logo_landing-1758003644-qrwhyznksz2f.webp) ](https://www.preplounge.com/en/employers/deloitte "Career and application at Deloitte")[ ![BearingPoint Deutschland](https://www.preplounge.com/uploads/company-profiles/5/logo_landing-1756377688-qcd3yqd2awc1.webp) ](https://www.preplounge.com/en/employers/BearingPoint "Career and application at BearingPoint Deutschland")[ ![EY](https://www.preplounge.com/uploads/company-profiles/89/logo_landing-1757935897-ihsi7elt0nli.webp) ](https://www.preplounge.com/en/employers/EY "Career and application at EY")[ ![Kearney](https://www.preplounge.com/uploads/company-profiles/147/logo_landing-1755859759-26r42040csau.webp) ](https://www.preplounge.com/en/employers/Kearney "Career and application at Kearney")[ ![Bain & Company](https://www.preplounge.com/uploads/company-profiles/3/logo_landing-1738922687-ojnx4sq9vqm1.webp) ](https://www.preplounge.com/en/employers/bain-and-company "Career and application at Bain & Company")[ ![Oliver Wyman](https://www.preplounge.com/uploads/company-profiles/118/logo_landing-1773995581-sjyd5itjtbxu.webp) ](https://www.preplounge.com/en/employers/oliver-wyman "Career and application at Oliver Wyman")[ ![Stern Stewart & Co.](https://www.preplounge.com/uploads/company-profiles/24/logo_landing-1697706784-wx7yf7wgbw0s.webp) ](https://www.preplounge.com/en/employers/stern-stewart "Career and application at Stern Stewart & Co.")[ ![zeb Consulting](https://www.preplounge.com/uploads/company-profiles/28/logo_landing.png) ](https://www.preplounge.com/en/employers/zeb "Career and application at zeb Consulting")[ ![Roland Berger](https://www.preplounge.com/uploads/company-profiles/20/logo_landing-1712910454-uimbvqu80az3.webp) ](https://www.preplounge.com/en/employers/Roland-Berger "Career and application at Roland Berger")[ ![BCG Platinion](https://www.preplounge.com/uploads/company-profiles/183/logo_landing.png) ](https://www.preplounge.com/en/employers/bcg-platinion "Career and application at BCG Platinion")[ ![Deloitte](https://www.preplounge.com/uploads/company-profiles/9/logo_landing-1758003644-qrwhyznksz2f.webp) ](https://www.preplounge.com/en/employers/deloitte "Career and application at Deloitte")[ ![BearingPoint Deutschland](https://www.preplounge.com/uploads/company-profiles/5/logo_landing-1756377688-qcd3yqd2awc1.webp) ](https://www.preplounge.com/en/employers/BearingPoint "Career and application at BearingPoint Deutschland")[ ![EY](https://www.preplounge.com/uploads/company-profiles/89/logo_landing-1757935897-ihsi7elt0nli.webp) ](https://www.preplounge.com/en/employers/EY "Career and application at EY")[ ![Kearney](https://www.preplounge.com/uploads/company-profiles/147/logo_landing-1755859759-26r42040csau.webp) ](https://www.preplounge.com/en/employers/Kearney "Career and application at Kearney")[ ![Bain & Company](https://www.preplounge.com/uploads/company-profiles/3/logo_landing-1738922687-ojnx4sq9vqm1.webp) ](https://www.preplounge.com/en/employers/bain-and-company "Career and application at Bain & Company")[ ![Oliver Wyman](https://www.preplounge.com/uploads/company-profiles/118/logo_landing-1773995581-sjyd5itjtbxu.webp) ](https://www.preplounge.com/en/employers/oliver-wyman "Career and application at Oliver Wyman")[ ![Stern Stewart & Co.](https://www.preplounge.com/uploads/company-profiles/24/logo_landing-1697706784-wx7yf7wgbw0s.webp) ](https://www.preplounge.com/en/employers/stern-stewart "Career and application at Stern Stewart & Co.")[ ![zeb Consulting](https://www.preplounge.com/uploads/company-profiles/28/logo_landing.png) ](https://www.preplounge.com/en/employers/zeb "Career and application at zeb Consulting")[ ![Roland Berger](https://www.preplounge.com/uploads/company-profiles/20/logo_landing-1712910454-uimbvqu80az3.webp) ](https://www.preplounge.com/en/employers/Roland-Berger "Career and application at Roland Berger")[ ![BCG Platinion](https://www.preplounge.com/uploads/company-profiles/183/logo_landing.png) ](https://www.preplounge.com/en/employers/bcg-platinion "Career and application at BCG Platinion")[ ![Deloitte](https://www.preplounge.com/uploads/company-profiles/9/logo_landing-1758003644-qrwhyznksz2f.webp) ](https://www.preplounge.com/en/employers/deloitte "Career and application at Deloitte")[ ![BearingPoint Deutschland](https://www.preplounge.com/uploads/company-profiles/5/logo_landing-1756377688-qcd3yqd2awc1.webp) ](https://www.preplounge.com/en/employers/BearingPoint "Career and application at BearingPoint Deutschland")[ ![EY](https://www.preplounge.com/uploads/company-profiles/89/logo_landing-1757935897-ihsi7elt0nli.webp) ](https://www.preplounge.com/en/employers/EY "Career and application at EY")[ ![Kearney](https://www.preplounge.com/uploads/company-profiles/147/logo_landing-1755859759-26r42040csau.webp) ](https://www.preplounge.com/en/employers/Kearney "Career and application at Kearney")[ ![Bain & Company](https://www.preplounge.com/uploads/company-profiles/3/logo_landing-1738922687-ojnx4sq9vqm1.webp) ](https://www.preplounge.com/en/employers/bain-and-company "Career and application at Bain & Company")[ ![Oliver Wyman](https://www.preplounge.com/uploads/company-profiles/118/logo_landing-1773995581-sjyd5itjtbxu.webp) ](https://www.preplounge.com/en/employers/oliver-wyman "Career and application at Oliver Wyman")[ ![Stern Stewart & Co.](https://www.preplounge.com/uploads/company-profiles/24/logo_landing-1697706784-wx7yf7wgbw0s.webp) ](https://www.preplounge.com/en/employers/stern-stewart "Career and application at Stern Stewart & Co.")[ ![zeb Consulting](https://www.preplounge.com/uploads/company-profiles/28/logo_landing.png) ](https://www.preplounge.com/en/employers/zeb "Career and application at zeb Consulting")
+##  Over 558,000 Candidates Have Already Prepared for Their Career Start with PrepLounge. 
+##  Join our unique community too! 
+Sign up for free and benefit from exclusive insights, tips, and tricks for your career start in consulting or finance!
+[ Sign up for free ](https://www.preplounge.com/en)
+##  Your Benefits at a Glance: 
+558,000+
+Like-minded peers to practice with. 
+500+
+Practice resources like cases, drills, brainteasers, and videos. 
+800+
+Coaches with industry expertise. 
+19,000+
+Community questions in our Q&A. 
+## Secure Your Job Offer in Just Three Steps.
+![Learn](https://www.preplounge.com/uploads/landing-pages/36/en/module-368-0-1763020523-35gm6ui0x60i.png)
+Learn
+Learn fundamental frameworks, concepts, and the basics to shine in your interview.
+![Practice](https://www.preplounge.com/uploads/landing-pages/36/en/module-368-1-1763020523-06txamneyvje.png)
+Practice
+Meet up with like-minded peers to practice for your interviews together.
+![Secure the offer](https://www.preplounge.com/uploads/landing-pages/36/en/module-368-2-1763020523-tv2iczjchqix.png)
+Secure the offer
+Impress in the interview and secure your dream job in consulting or finance!
+##  Take the first step towards your successful career now! 
+Sign up for free and get access to relevant preparation materials, tools, and practice content.
+[ Let's get started ](https://www.preplounge.com/en)
+![PrepLounge Has Everything You Need for Your Interview Preparation.](https://www.preplounge.com/uploads/landing-pages/36/en/module-365-1763020523-cuwa9eb6vfe5.png) ![PrepLounge Has Everything You Need for Your Interview Preparation.](https://www.preplounge.com/uploads/landing-pages/36/en/module-365-1763020523-dh1knddxj82s.png)
+## PrepLounge Has Everything You Need for Your Interview Preparation.
+PrepLounge is the**first and largest community** dedicated to preparing for a career in **management consulting** as well as **investment banking** , **private equity** , and **venture capital**. Here’s what you can expect:
+✔ 558,000+ like-minded **peers** to practice with  
+✔ 19,000+ **Q &As **in the community forum  
+✔ 800+ experienced **interview coaches**  
+✔ 200+ **practice cases**  
+✔ 200+ Logical & Numerical Reasoning **Drills**  
+✔ Tools for practicing **mental math** , **stress questions** , and **brain teasers**
+We know what it takes to break into consulting or finance, and our mission is to accompany you on your journey!
+[ Sign up for free ](https://www.preplounge.com/en/signup)
+##  Our Community is Here to Help With All Your Questions About Launching Your Career! 
+##  Sign up now and get one step closer to your dream job! 
+Join the community and benefit from practice materials, tips, tricks, and exclusive career insights!
+[ Sign up for free now ](https://www.preplounge.com/en)
+## Frequently Asked Questions
+### We’re happy to answer the most common questions.
+What resources can I expect on PrepLounge?
+To unlock your full potential in the real interview, it's important to build your preparation on multiple pillars. PrepLounge provides access to a huge collection of practice materials. Start now and:
+  * Schedule mock interviews with [other candidates](https://www.preplounge.com/en/case-partner) and [coaches](https://www.preplounge.com/en/case-coach) from around the world.
+  * Practice real interviews in our diverse [case library](https://www.preplounge.com/en/management-consulting-cases) of over 200 cases.
+  * Study articles and business concepts in the [Case Interview Basics](https://www.preplounge.com/en/case-interview-basics) or through [video tutorials](https://www.preplounge.com/en/video-tutorials).
+  * Use the [Mental Math Tool](https://www.preplounge.com/en/mental-math), [Stress Question Mode](https://www.preplounge.com/en/stress-questions), [exercises](https://www.preplounge.com/en/case-interview-exercises), and [additional tests](https://www.preplounge.com/en/shop/tests-and-guides?source=content-category) to refine your skills.
+  * Ask industry-specific questions (e.g., Finance or Consulting) in our [Q&A](https://www.preplounge.com/en/consulting-forum?source=community-category) and engage with the community.
+
+
+Who is PrepLounge for?
+PrepLounge is for anyone preparing for challenging job interviews, whether you are:
+  * Students and graduates
+  * Career starters
+  * Career changers
+  * Experienced professionals
+
+
+Our platform is tailored to various career levels and industries.
+Does signing up on PrepLounge cost anything?
+No, signing up on PrepLounge is completely free, and as a Basic member, you can test all the features and access a wide range of content. If you want to access the full offering, you can upgrade to a [Premium Membership](https://www.preplounge.com/en/shop/premium-memberships-1/premium-membership-1-year-4) later.
+How can I practice with other candidates?
+You can conduct virtual [mock interviews](https://www.preplounge.com/en/meeting-board) with other candidates who are also preparing for interviews. This allows you to gain valuable hands-on experience and improve your interview performance.
+I only have limited time until my interviews. ","","https://preplounge.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Start Your Interview Prep in Consulting and Finance!","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","preplounge.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","41e2423f10319f519344bd3a98f9e4c1ce05d27b0e54ea5b00be360bca6cff37","0.0","0.3","97d46676-0059-521b-b220-e3da1767189a","","2026-03-31T12:33:12.833830Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/preplounge.com.json","/tmp/tmp5zsxptij/evidence/domain/preplounge.com.json","","2026-06-29T12:33:12.833832Z","business consulting firm advisor email","2026-03-31T12:32:49.463427Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://businessconsultingagency.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","businessconsultingagency.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","d23e97cd785a0f21e4eedb7fcfe70dd0a5d2cfc08c9a677ca5e20a24f9874cb3","0.0","0.3","b08e7605-4fbc-524e-8cf5-1c8306ab5215","","2026-03-31T12:33:12.847277Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/businessconsultingagency.com.json","/tmp/tmp5zsxptij/evidence/domain/businessconsultingagency.com.json","","2026-06-29T12:33:12.847279Z","business consulting firm advisor email","2026-03-31T12:32:50.776168Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Pepper Foster - Business Strategy Consulting
+
+There is a critical paradox at the heart of the Gen AI revolution. While a select group of organizations are realizing immense value, a new MIT study, "The GenAI Divide: State of AI in Business 2025," finds that a staggering 95% of enterprise AI pilot programs are failing to deliver measurable financial returns. This apparent contradiction is not a flaw in the data but a fundamental insight into the current maturity of the market...
+
+Right at the bottom of the NY Times Dealbook email that went out to subscribers on Saturday August 16 there was a small, almost throwaway piece about some surveys on AI adoption and ROI in business. The survey results show that AI is on the same trajectory as Dot Com was back in the late nineties.
+
+Have you noticed that just about everybody you know is miserable at work? Everyone seems fed up with their employer and itching to jump ship. The problem is, nobody’s hiring! So what’s going on?
+
+Two groundbreaking new videos have just dropped, showing robots putting away groceries and handling household tasks with an eerie level of competence.
+
+When corporations need to make significant changes rapidly, often due to financial pressures or poor performance, they tend to follow a well-established turnaround playbook. DOGE is following that playbook.
+
+Quantum chips, with improved error correction, are within years, not decades, of transforming industries, from AI to cryptography and finance.
+
+Fusion energy—the long-promised, limitless power source—is finally within reach. A 400-megawatt facility capable of powering 150,000 homes is expected to go live on the grid in the early 2030s.
+
+How AI, Quantum Computing, Fusion Energy, and Robotics Will Combine to Revolutionize the World Within The Next Decade","","https://pepperfoster.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Pepper Foster - Business Strategy Consulting - Pepper Foster Consulting","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","pepperfoster.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","017ab41e3420bb9d38cf2ed27be6530c084b648f39e64fa70f8fe07f4d3216a8","0.0","0.3","f15aa0c9-77ac-58a3-baeb-3f50471f9983","","2026-03-31T12:33:52.320553Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pepperfoster.com.json","/tmp/tmp5zsxptij/evidence/domain/pepperfoster.com.json","","2026-06-29T12:33:52.320562Z","business consulting firm advisor email","2026-03-31T12:32:51.725755Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","International Business Consultants - AI/ML | ScaledAgile, Agile and DevSecOps Certifications
+
+# Let AI Do The Boring
+
+# Increase Productivity 8x,
+
+# Transform your Organization
+
+Get StartedAbout Us
+
+[Agile Platform Architect - Jira, ServiceNow, Planview, Azure DevOps. Learning Path →](https://www.ibconsultants.net/learning-path/agile-platform-architect-jira-service-now-planview-azure-dev-ops-4)[AI/ML Learning Path →](https://www.ibconsultants.net/learning-path/ai-ml-2)[Scaled Agile Framework® Learning Path →](https://www.ibconsultants.net/learning-path/scaled-agile-framework-1)
+
+# Partnered With
+
+![Scaled Agile Platinum SPCT](https://cdn-ibcllc.azureedge.net/cms/scaled-agile-business-partner-platinum-spct.png)![SAFe Certified Platform Provider ](https://cdn-ibcllc.azureedge.net/cms/SAFe%20Certified%20Platform%20badge.jpg)![PlanView](https://cdn-ibcllc.azureedge.net/cms/xxl_Planview_THUMB.jpg)![Atlassian](https://cdn-ibcllc.azureedge.net/cms/1_XBjByL76rrguN7qEqd1KzA.jpg)![ServiceNow ](https://cdn-ibcllc.azureedge.net/cms/servicenow9653.jpg)
+
+Article
+
+# Death by Meetings, How We Avoid Long Meetings at IBC
+
+[Read More →](https://www.ibconsultants.net/article/death-by-meetings-how-we-avoid-long-meetings-at-ibc-1)
+
+Article
+
+# Frugal AI, How we make Efficient AI Algorithms with Low Resources and Less Data
+
+[Read More →](https://www.ibconsultants.net/article/frugal-ai-how-we-make-efficient-ai-algorithms-with-low-resources-and-less-data-3)
+
+# We Go From Laggard to Leapfrog: We Unleash 8x Productivity with AI.
+
+## International Business Consultants (IBC) is a leading force in driving business transformation. We leverage the power of Artificial Intelligence (AI) to unlock exponential productivity gains for our clients.
+
+# Trusted By
+
+![Client paypal](https://cdn-ibcllc.azureedge.net/cms/Paypal_2014_logo.png)
+
+![Client Florida Blue](https://cdn-ibcllc.azureedge.net/cms/florida-blue-logo-5766E58EBE-seeklogo.com.png)
+
+![Client Walmart](https://cdn-ibcllc.azureedge.net/cms/64e6177329c2d71389b1b219_walmart.png)
+
+![Client SNOW](https://cdn-ibcllc.azureedge.net/cms/image_955953.webp)
+
+![Client GSA](https://cdn-ibcllc.azureedge.net/cms/gsa-logo.png)
+
+![Client Dayton Aerospace](https://cdn-ibcllc.azureedge.net/cms/client-dayton.png)
+
+![Client CISCO](https://cdn-ibcllc.azureedge.net/cms/download-2.png)
+
+![Client RBC](https://cdn-ibcllc.azureedge.net/cms/imgbin-royal-bank-of-canada-rbc-echo-beach-company-logo-bank-ZVAYpxHCiJuwQpWegicN8pziw.jpg)
+
+![Client paypal](https://cdn-ibcllc.azureedge.net/cms/Paypal_2014_logo.png)
+
+![Client Florida Blue](https://cdn-ibcllc.azureedge.net/cms/florida-blue-logo-5766E58EBE-seeklogo.com.png)
+
+![Client Walmart](https://cdn-ibcllc.azureedge.net/cms/64e6177329c2d71389b1b219_walmart.png)
+
+![Client SNOW](https://cdn-ibcllc.azureedge.net/cms/image_955953.webp)
+
+![Client GSA](https://cdn-ibcllc.azureedge.net/cms/gsa-logo.png)
+
+![Client Dayton Aerospace](https://cdn-ibcllc.azureedge.net/cms/client-dayton.png)
+
+![Client CISCO](https://cdn-ibcllc.azureedge.net/cms/download-2.png)
+
+![Client RBC](https://cdn-ibcllc.azureedge.net/cms/imgbin-royal-bank-of-canada-rbc-echo-beach-company-logo-bank-ZVAYpxHCiJuwQpWegicN8pziw.jpg)
+
+![Client paypal](https://cdn-ibcllc.azureedge.net/cms/Paypal_2014_logo.png)
+
+![Client Florida Blue](https://cdn-ibcllc.azureedge.net/cms/florida-blue-logo-5766E58EBE-seeklogo.com.png)
+
+![Client Walmart](https://cdn-ibcllc.azureedge.net/cms/64e6177329c2d71389b1b219_walmart.png)
+
+![Client SNOW](https://cdn-ibcllc.azureedge.net/cms/image_955953.webp)
+
+![Client GSA](https://cdn-ibcllc.azureedge.net/cms/gsa-logo.png)
+
+![Client Dayton Aerospace](https://cdn-ibcllc.azureedge.net/cms/client-dayton.png)
+
+![Client CISCO](https://cdn-ibcllc.azureedge.net/cms/download-2.png)
+
+![Client RBC](https://cdn-ibcllc.azureedge.net/cms/imgbin-royal-bank-of-canada-rbc-echo-beach-company-logo-bank-ZVAYpxHCiJuwQpWegicN8pziw.jpg)
+
+![Client paypal](https://cdn-ibcllc.azureedge.net/cms/Paypal_2014_logo.png)
+
+![Client Florida Blue](https://cdn-ibcllc.azureedge.net/cms/florida-blue-logo-5766E58EBE-seeklogo.com.png)
+
+![Client Walmart](https://cdn-ibcllc.azureedge.net/cms/64e6177329c2d71389b1b219_walmart.png)
+
+![Client SNOW](https://cdn-ibcllc.azureedge.net/cms/image_955953.webp)
+
+![Client GSA](https://cdn-ibcllc.azureedge.net/cms/gsa-logo.png)
+
+![Client Dayton Aerospace](https://cdn-ibcllc.azureedge.net/cms/client-dayton.png)
+
+![Client CISCO](https://cdn-ibcllc.azureedge.net/cms/download-2.png)
+
+![Client RBC](https://cdn-ibcllc.azureedge.net/cms/imgbin-royal-bank-of-canada-rbc-echo-beach-company-logo-bank-ZVAYpxHCiJuwQpWegicN8pziw.jpg)
+
+![Client USAF](https://cdn-ibcllc.azureedge.net/cms/US_Air_Force_Logo_Solid_Colour.svg-1.png)
+
+![Client Intelliflow ](https://cdn-ibcllc.azureedge.net/cms/download-6.png)
+
+![Client Levis ](https://cdn-ibcllc.azureedge.net/cms/download-5.png)
+
+![Client US Department of State](https://cdn-ibcllc.azureedge.net/cms/images-3.png)
+
+![Client NWM](https://cdn-ibcllc.azureedge.net/cms/Northwestern%20Medicine-440px.png)
+
+![Client ATT](https://cdn-ibcllc.azureedge.net/cms/client-att.png)
+
+![Client rockwell automation](https://cdn-ibcllc.azureedge.net/cms/download-10.png)
+
+![Client usarmy](https://cdn-ibcllc.azureedge.net/cms/png-transparent-u-s-army-logo-united-states-army-decal-military-us-military-service-star-logo-miscellaneous-emblem-text-1.png)
+
+![Client USAF](https://cdn-ibcllc.azureedge.net/cms/US_Air_Force_Logo_Solid_Colour.svg-1.png)
+
+![Client Intelliflow ](https://cdn-ibcllc.azureedge.net/cms/download-6.png)
+
+![Client Levis ](https://cdn-ibcllc.azureedge.net/cms/download-5.png)
+
+![Client US Department of State](https://cdn-ibcllc.azureedge.net/cms/images-3.png)
+
+![Client NWM](https://cdn-ibcllc.azureedge.net/cms/Northwestern%20Medicine-440px.png)
+
+![Client ATT](https://cdn-ibcllc.azureedge.net/cms/client-att.png)
+
+![Client rockwell automation](https://cdn-ibcllc.azureedge.net/cms/download-10.png)
+
+![Client usarmy](https://cdn-ibcllc.azureedge.net/cms/png-transparent-u-s-army-logo-united-states-army-decal-military-us-military-service-star-logo-miscellaneous-emblem-text-1.png)
+
+![Client USAF](https://cdn-ibcllc.azureedge.net/cms/US_Air_Force_Logo_Solid_Colour.svg-1.png)
+
+![Client Intelliflow ](https://cdn-ibcllc.azureedge.net/cms/download-6.png)
+
+![Client Levis ](https://cdn-ibcllc.azureedge.net/cms/download-5.png)
+
+![Client US Department of State](https://cdn-ibcllc.azureedge.net/cms/images-3.png)
+
+![Client NWM](https://cdn-ibcllc.azureedge.net/cms/Northwestern%20Medicine-440px.png)
+
+![Client ATT](https://cdn-ibcllc.azureedge.net/cms/client-att.png)
+
+![Client rockwell automation](https://cdn-ibcllc.azureedge.net/cms/download-10.png)
+
+![Client usarmy](https://cdn-ibcllc.azureedge.net/cms/png-transparent-u-s-army-logo-united-states-army-decal-military-us-military-service-star-logo-miscellaneous-emblem-text-1.png)
+
+![Client USAF](https://cdn-ibcllc.azureedge.net/cms/US_Air_Force_Logo_Solid_Colour.svg-1.png)
+
+![Client Intelliflow ](https://cdn-ibcllc.azureedge.net/cms/download-6.png)
+
+![Client Levis ](https://cdn-ibcllc.azureedge.net/cms/download-5.png)
+
+![Client US Department of State](https://cdn-ibcllc.azureedge.net/cms/images-3.png)
+
+![Client NWM](https://cdn-ibcllc.azureedge.net/cms/Northwestern%20Medicine-440px.png)
+
+![Client ATT](https://cdn-ibcllc.azureedge.net/cms/client-att.png)
+
+![Client rockwell automation](https://cdn-ibcllc.azureedge.net/cms/download-10.png)
+
+![Client usarmy](https://cdn-ibcllc.azureedge.net/cms/png-transparent-u-s-army-logo-united-states-army-decal-military-us-military-service-star-logo-miscellaneous-emblem-text-1.png)
+
+![CTA Section Hero Image](/client-hero.jpg)
+
+# Become Part of our Clientèle
+
+Productivity is the Most Important Part of any Organization, We make our Customers Achieve **Ethereal Agility**, make them 8x Productive.
+
+[Consult Now →](https://www.ibconsultants.net/contact)
+
+# News & Insights
+
+![Illuminating the Role of the People Manager in SAFe: From Traditional Oversight to Empowered Enablement Hero Image](https://cdn-ibcllc.azureedge.net/cms/People%20Manager%20Blog.png)
+
+**Article** | Fri May 30 2025
+
+### Illuminating the Role of the People Manager in SAFe: From Traditional Oversight to Empowered Enablement
+
+![Demystify Role of RTE in SAFe Hero Image](https://cdn-ibcllc.azureedge.net/cms/RTE%20Blog.png)
+
+**Article** | Fri May 23 2025
+
+### Demystify Role of RTE in SAFe
+
+![Revolutionizing Customer Experience with Generative AI: Personalization at Scale Hero Image](https://cdn-ibcllc.azureedge.net/cms/e5927576-b3af-4f11-9d2d-5e2ebdd766ae.webp)
+
+**Article** | Tue Mar 11 2025
+
+### Revolutionizing Customer Experience with Generative AI: Personalization at Scale
+
+![Get your T Shaped Skills Going! Hero Image](https://cdn-ibcllc.azureedge.net/cms/Screenshot%202024-09-08%20at%201.31.02%C3%A2%C2%AFPM.png)
+
+**Article** | Sun Sep 08 2024
+
+### Get your T Shaped Skills Going!
+
+[Read More →](https://www.ibconsultants.net/news)
+
+# Our Capabilities
+
+![Picture Section Hero Image](/brain-large.jpg)
+
+# #1
+
+# Virtual Reality Solutions for Enterprises
+
+⸻ Accelerate value and transform how teams train, present, and perform. Built for scale, speed, and strategic impact across global operations.
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/digital-marketing-team-FHZSTMBAP2-w600.jpg)
+
+# #2
+
+# Digital Transformation for Digital Marketing
+
+⸻ Maximize business growth by leveraging strategic digital marketing, driving superior ROI, market positioning, and sustainable competitive advantage.
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/1_h5Zs-8nFcTrgR1UceyKYXA.png)
+
+# #3
+
+# DevOps Solutions & Implementation
+
+⸻ Expert DevOps solutions integrating Azure, Jenkins, Kubernetes, Docker, Git, GCC, CI/CD pipelines, and automation for flawless, scalable deployment
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/Empowering%20Teams%20with%20Atlassian%20Solutions%20%C3%A2%20Silver%20Partner%20Expertise%20(1)-2.png)
+
+# #4
+
+# Atlassian Expertise
+
+⸻ From Strategy to Execution, We deliver expert guidance across the Atlassian suite, empowering your teams to achieve enterprise-level success and transform the way you work !
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/8ad0f5111359197.600050917a81b-1.jpg)
+
+# #5
+
+# ServiceNow Solutions & Implementation
+
+⸻ Our ServiceNow expertise aligns strategy with execution, streamlines operations, automates workflows, and delivers precise, disciplined solutions."
+
+Learn More
+
+![Picture Section Hero Image](/brain-large.jpg)
+
+# #6
+
+# Government Services
+
+⸻ Empowering Governments with cutting-edge SAFe & AI solutions for a smarter, faster, and more secure future.
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/SAFe-Agile.png.webp)
+
+# #7
+
+# SAFe® Implementation
+
+⸻ Transform enterprises and SMBs, aligning strategy with agile execution to achieve mission-ready business agility.
+
+Learn More
+
+![Picture Section Hero Image](https://cdn-ibcllc.azureedge.net/cms/artificial-intelligence-vector-illustration_427922-303.avif)
+
+# #8
+
+# AI/ML Solutions
+
+⸻ Delivering strategic AI solutions that enhance operational efficiency, streamline decision-making, and drive relentless innovation.
+
+Learn More
+
+# Our Learning Paths
+
+Start Now
+
+### Agile Platform Architect - Jira, ServiceNow, Planview, Azure DevOps.
+
+Learning Path
+
+The Agile Platform Architect Certification Course includes hands-on training to master ServiceNow SPM, Jira, Jira Align, and Azure DevOps (ADO). This course focuses on aligning strategy with execution, measuring OKRs/KPIs, optimizing resources.
+
+Start Now
+
+### AI/ML
+
+Learning Path
+
+AI/ML Courses with Certification for Agile Leaders from Industry Experts, Embrace Change.
+
+Start Now
+
+### Scaled Agile Framework®
+
+Learning Path
+
+Get Certified in ScaledAgile Framework (SAFe®), Be Ready to Lead.
+
+# Featured Courses
+
+# Scaled Agile Framework®
+
+[
+
+![Advanced SPC Certification Path](https://cdn-ibcllc.azureedge.net/cms/ASPC%20new%20logo-1.png)
+
+# Advanced SPC Certification Path
+
+Advance your career with Advanced SPC, combining practical solutions, expert-led sessions, self-paced learning, and peer collaboration for real-world implementation success.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/advanced-spc-certification-path-23)[
+
+![AI-Empowered Implementing SAFe® (6.0)](https://cdn-ibcllc.azureedge.net/cms/AI-Empowered%20SPC%20logo.png)
+
+# AI-Empowered Implementing SAFe® (6.0)
+
+Prepared to lead a Lean-Agile transformation? Need to get mission-ready on the Scaled Agile Framework? Looking to train others and teach SAFe courses yourself?urses yourself?
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/ai-empowered-implementing-sa-fe-6-0-1)[
+
+![AI-Empowered SAFe® Release Train Engineer](https://cdn-ibcllc.azureedge.net/cms/SAFe-Badge_RTE-1-300x300.png)
+
+# AI-Empowered SAFe® Release Train Engineer
+
+A SAFe® RTE is a mission-critical leader, coordinating Agile teams to ensure continuous delivery of strategic objectives.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/ai-empowered-sa-fe-release-train-engineer-2)[
+
+![AI-Native Change Agent](https://cdn-ibcllc.azureedge.net/cms/Change%20agent%20logo-1.png)
+
+# AI-Native Change Agent
+
+AI-Native Change Agent equips professionals to lead enterprise-wide AI adoption by uncovering and overcoming the three blind spots that block real business value.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/ai-native-change-agent-27)[
+
+![AI-Native Foundations](https://cdn-ibcllc.azureedge.net/cms/FOundation%20logo-1.png)
+
+# AI-Native Foundations
+
+AI-Native Foundations empowers professionals to think, lead, and innovate with AI—driving strategic impact across roles in the age of intelligent transformation.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/ai-native-foundations-26)[
+
+![SAFe® Lean Portfolio Management](https://cdn-ibcllc.azureedge.net/cms/safe-6-course-thumb-lean-portfolio-management.webp)
+
+# SAFe® Lean Portfolio Management
+
+SAFe® Lean Portfolio Management aligns strategy with execution, enabling enterprises to prioritize investments, optimize flow, and drive business agility.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/sa-fe-lean-portfolio-management-3)
+
+# AI/ML
+
+[
+
+![Agile Intelligence: Hands-On AI Bootcamp](https://cdn-ibcllc.azureedge.net/cms/AI%20boot.png)
+
+# Agile Intelligence: Hands-On AI Bootcamp
+
+Agile Intelligence: Hands-On AI Bootcamp is a practical, results-driven course designed for professionals leading technology-driven initiatives in agile environments. This program focuses on the effective application of artificial intelligence within enterprise frameworks, equipping leaders with the skills to implement AI solutions that enhance operational efficiency and business value.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/agile-intelligence-hands-on-ai-bootcamp-24)[
+
+![AI For Agile Leaders](https://cdn-ibcllc.azureedge.net/cms/ai_fr-removebg-preview%20(2).png)
+
+# AI For Agile Leaders
+
+AI for Agile Leaders: Master automation, business agility, and smart portfolio management to drive AI-powered Agile success.
+
+
+
+
+
+](https://www.ibconsultants.net/learning-path/course/ai-for-agile-leaders-4)
+
+# IBC
+
+# We Touch Every Part of The Globe
+
+# Transforming"How People Work"
+
+# 5
+
+Locations
+
+# 34
+
+Enterprise Transformations
+
+# 1K+
+
+People Trained
+
+### India
+
+Subsidiary
+
+VectorMind Labs Private Limited  
+
+[Know More About Us →](https://www.ibconsultants.net/about)
+
+# AI
+
+# Purpose, Mission & Values
+
+[Know More →](https://www.ibconsultants.net/about/purpose-mission-and-values)
+
+# History of Our Firm
+
+[Know More →](https://www.ibconsultants.net/about/history)
+
+# Our Aspirations
+
+[Know More →](https://www.ibconsultants.net/about/our-aspirations)
+
+Transform 
+
+your 
+
+Organization 
+
+using 
+
+AI/ML 
+
+Contact Us
+
+# We use cookies
+
+We use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our cookie policy.  
+  
+By clicking "Accept", you agree to our use of cookies.  
+[Learn more.](https://www.ibconsultants.net/policies/privacy-policy-1)
+
+Accept
+
+Chat with us, we are online!
+
+Chat with us, we are online!
+
+1 message
+
+Today
+
+![](https://ucarecdn.com/446e2263-df7f-4032-b9cc-416549e8791d/-/resize/200x200/)
+
+**Good Day,**  
+**Welcome to IBC LLC.**  
+**How can we help?**
+
+[Powered by Brevo](https://www.brevo.com/products/conversations/?utm_source=logo_paid&utm_medium=chat)","","https://ibconsultants.net","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","International Business Consultants - AI/ML | ScaledAgile, Agile and DevSecOps Certifications","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","ibconsultants.net","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","0f0c9887a5234c735aa70c4b62121032b0b881e40f55044628168d3a11bf14ae","0.0","0.3","cd1c2104-8776-5013-b31d-4c98b60317d3","","2026-03-31T12:34:59.417131Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ibconsultants.net.json","/tmp/tmp5zsxptij/evidence/domain/ibconsultants.net.json","","2026-06-29T12:34:59.417139Z","business consulting firm advisor email","2026-03-31T12:32:52.388235Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T12:34:59.432907Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp5zsxptij/evidence/domain/vaam.io.json","","2026-06-29T12:34:59.432910Z","SaaS startup CEO contact information","2026-03-31T12:32:55.526016Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T12:34:59.446013Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp5zsxptij/evidence/domain/findemails.com.json","","2026-06-29T12:34:59.446015Z","SaaS startup CEO contact information","2026-03-31T12:32:56.486072Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

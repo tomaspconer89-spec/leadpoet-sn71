@@ -1,0 +1,786 @@
+{
+  "saved_at_utc": "2026-03-31T01:00:23.388482+00:00",
+  "queue_key": "999ca12bdbed7e5d292190c20f1685e8ec804302f95c0320c6464ea62f2b8f8f",
+  "business": "Business Development Firm New York | Liberty Consulting and Management",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Business Development Firm New York | Liberty Consulting and Management",
+      "Business Development Firm New York | Liberty Consulting and Management linkedin company",
+      "site:linkedin.com/company libertyconsultingandmanagement.com",
+      "site:linkedin.com/in \"Business Development Firm New York | Liberty Consulting and Management\" founder",
+      "site:linkedin.com/in \"Business Development Firm New York | Liberty Consulting and Management\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "AGqy2iIvvJeEYsA",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Business Development Firm New York | Liberty Consulting and Management",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Business development firm new york liberty consulting and management salary",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+salary&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Business development firm new york liberty consulting and management reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+reviews&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Business development firm new york liberty consulting and management address",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+address&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Business development firm new york liberty consulting and management salary",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+salary&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Business development firm new york liberty consulting and management reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+reviews&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Business development firm new york liberty consulting and management address",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Business+development+firm+new+york+liberty+consulting+and+management+address&sa=X&ved=2ahUKEwjQlfLA98iTAxU3RfEDHZx_BTQQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Liberty Consulting and Management",
+            "url": "https://www.linkedin.com/company/liberty-consulting-management",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting and Management",
+            "description": "We pride ourselves on being an organization that is known for working with some of the most renowned businesses and sharing a healthy relationship with them.Read more",
+            "emphasizedKeywords": [
+              "an organization that is known for working with some of the most renowned businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "12K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Liberty IT Consulting Group",
+            "url": "https://au.linkedin.com/company/liberty-it-consulting-group-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty IT Consulting Group",
+            "description": "Liberty is a banking and finance technology specialists that is different, by design. Liberty was founded on three simple principles: Quality, Experience and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Liberty is a banking and finance technology specialists"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "New York Global Consultants Inc. (NYGCI)",
+            "url": "https://hk.linkedin.com/company/new-york-global-consultants-corporation-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0New York Global Consultants Inc. (NYGCI)",
+            "description": "NYGCI operations provides business process outsourcing, infrastructure consulting, application development, performance management, managed IT services and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business",
+              "consulting",
+              "development",
+              "management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "61.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Huron",
+            "url": "https://www.linkedin.com/company/huronconsulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amit Patel",
+            "description": "Huron is a global professional services firm that collaborates with clients to put possible into practice by creating sound strategies, optimizing operations.Read more",
+            "emphasizedKeywords": [
+              "global professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "258.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "RSM US LLP",
+            "url": "https://www.linkedin.com/company/rsm-us-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Benner",
+            "description": "About us ; Website: https://rsmus.com/. External link for RSM US LLP ; Industry: Accounting ; Company size: 10,001+ employees ; Headquarters: Chicago, Illinois.Read more",
+            "emphasizedKeywords": [
+              "Company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "397.7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Acquis Consulting Group",
+            "url": "https://www.linkedin.com/company/acquis-consulting-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Acquis Consulting Group",
+            "description": "Acquis is a different kind of management consulting firm. Leveraging our Think + Do framework, and practicing strategic empathy.Read more",
+            "emphasizedKeywords": [
+              "Acquis is a different kind of management consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Public Works Partners",
+            "url": "https://www.linkedin.com/company/public-works-partners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Public Works Partners",
+            "description": "Public Works Partners. Business Consulting and Services. New York, NY 3,772 followers. A WBE/DBE/SBE certified planning & consulting firm.Read more",
+            "emphasizedKeywords": [
+              "Business Consulting and Services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Barclays",
+            "url": "https://uk.linkedin.com/company/barclays-bank",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Barclays",
+            "description": "Barclays is a British universal bank. Our vision is to be the UK-centred leader in global finance. We are a diversified bank with comprehensive UK consumer,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Barclays is a British universal bank"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.6M+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Spencer Stuart",
+            "url": "https://www.linkedin.com/company/spencer-stuart",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Carolina Tenjo",
+            "description": "Through our executive search, board and leadership advisory services, we help build and enhance high-performing teams for select clients.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "369.8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Value Creed",
+            "url": "https://pa.linkedin.com/company/value-creed-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Value Creed",
+            "description": "... Consulting Value Creed is a full-service Energy Trading and Risk Management (ETRM) consulting firm, delivering end-to-end solutions to energy and commodity\u00a0...",
+            "emphasizedKeywords": [
+              "Value Creed is a full-service Energy Trading and Risk Management (ETRM) consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "42.5K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/dAfjJaz8clEUEyZT6/records/AGqy2iIvvJeEYsA-0.html?signature=ntZL86LH2KOTlULGbvZ5"
+      },
+      {
+        "#debug": {
+          "requestId": "lJ747eLXsml0dqt",
+          "url": "http://www.google.com/search?q=Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Business Development Firm New York | Liberty Consulting and Management linkedin company",
+          "url": "http://www.google.com/search?q=Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Business+Development+Firm+New+York+%7C+Liberty+Consulting+and+Management+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Liberty consulting and management inc",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+consulting+and+management+inc&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "Liberty Knight Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Knight+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Liberty Entry level management",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Entry+level+management&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Liberty city sales group",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+city+sales+group&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhGEAE"
+          },
+          {
+            "title": "Liberty Marketing Lancaster reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Marketing+Lancaster+reviews&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Liberty Risk Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Risk+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhDEAE"
+          },
+          {
+            "title": "Liberty Marketing reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Marketing+reviews&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "LCM Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=LCM+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "Liberty consulting and management inc",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+consulting+and+management+inc&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "Liberty Knight Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Knight+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Liberty Entry level management",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Entry+level+management&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Liberty city sales group",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+city+sales+group&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhGEAE"
+          },
+          {
+            "title": "Liberty Marketing Lancaster reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Marketing+Lancaster+reviews&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Liberty Risk Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Risk+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhDEAE"
+          },
+          {
+            "title": "Liberty Marketing reviews",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Liberty+Marketing+reviews&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "LCM Consulting",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=LCM+Consulting&sa=X&ved=2ahUKEwiuxObE98iTAxXywskDHc08E-kQ1QJ6BAhAEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Liberty Consulting and Management",
+            "url": "https://www.linkedin.com/company/liberty-consulting-management",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting and Management",
+            "description": "We pride ourselves on being an organization that is known for working with some of the most renowned businesses and sharing a healthy relationship with them.Read more",
+            "emphasizedKeywords": [
+              "an organization that is known for working with some of the most renowned businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "12K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Business Development Firm New York | Liberty Consulting ...",
+            "url": "https://www.linkedin.com/posts/liberty-consulting-management_business-development-firm-new-york-liberty-activity-7370969786194747392-TVZK",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a liberty-consulting-ma...",
+            "description": "Sep 8, 2025 \u2014 ... Business Development Firm New York | Liberty Consulting and Management https://libertyconsultingandmanagement.com \u00b7 Like Comment. Share. CopyRead more",
+            "date": "2025-09-08T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Business Development Firm New York"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Liberty Consulting and Management's Post",
+            "url": "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-libertyconsulting-activity-7304851128238723072-df7A",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a liberty-consulting-ma...",
+            "description": "Mar 10, 2025 \u2014 Business development at Liberty Consulting and Management helps brands expand, create new opportunities, and strengthen their market\u00a0...",
+            "date": "2025-03-10T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Business development at Liberty Consulting and Management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "How Liberty Consulting and Management drives business ...",
+            "url": "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-strategicgrowth-lcmresults-activity-7363948554999984139-WDJO",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a liberty-consulting-ma...",
+            "description": "Aug 20, 2025 \u2014 When you partner with Liberty Consulting and Management, you gain more than support \u2014 you gain a strategic growth engine. Our business\u00a0...",
+            "date": "2025-08-20T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Liberty Consulting and Management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Liberty Consulting and Management: Business Development ...",
+            "url": "https://libertyconsultingandmanagement.com/",
+            "displayedUrl": "https://libertyconsultingandmanagement.com",
+            "description": "Business Development firm in New York offering tailored marketing & sales campaigns, inclusive work culture, and career opportunities.",
+            "emphasizedKeywords": [
+              "Business Development firm in New York"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Liberty Consulting and Management's Post",
+            "url": "https://www.linkedin.com/posts/liberty-consulting-management_libertyconsulting-businessgrowth-salesstrategy-activity-7374457762606657536-hmjn",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a liberty-consulting-ma...",
+            "description": "Sep 18, 2025 \u2014 At Liberty Consulting and Management, we create customized business development plans that drive growth, improve client relationships, and\u00a0...",
+            "date": "2025-09-18T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "create customized business development plans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Watch out for Liberty Consulting and Management. ...",
+            "url": "https://www.reddit.com/r/NYCjobs/comments/1fkmbrl/watch_out_for_liberty_consulting_and_management/",
+            "displayedUrl": "Reddit\u00a0\u203a\u00a0r/NYCjobs",
+            "description": "So, unlike most other people who commented in the thread, I did apply to a few companies with Liberty in the name due to surfing 4 differnet job\u00a0...Read more",
+            "emphasizedKeywords": [
+              "companies",
+              "Liberty"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "commentsAmount": "60+ comments",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Liberty Consulting and Management posted on the topic",
+            "url": "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-localgrowth-libertyconsultingandmanagement-activity-7350540115703676929-H0ep",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a liberty-consulting-ma...",
+            "description": "Jul 14, 2025 \u2014 We don't just talk growth\u2014we build it with you. From personalized consulting to strategic campaign execution, our business development\u00a0...",
+            "date": "2025-07-14T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "consulting",
+              "business development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "35 Managing Director Business Development ...",
+            "url": "https://www.linkedin.com/jobs/managing-director-business-development-management-consulting-jobs-new-york",
+            "displayedUrl": "https://www.linkedin.com \u203a jobs \u203a managing-director-bu...",
+            "description": "35 Managing Director Business Development Management Consulting Jobs in New York, United States (7 new) \u00b7 Vice President, Business Development & Growth Strategy.Read more",
+            "emphasizedKeywords": [
+              "35 Managing Director Business Development Management Consulting Jobs in New York"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Liberty Consulting and Management Reviews in New York",
+            "url": "https://www.glassdoor.com/Reviews/Liberty-Consulting-and-Management-New-York-Reviews-EI_IE8008661.0,33_IL.34,42_IC1132348.htm",
+            "displayedUrl": "https://www.glassdoor.com \u203a Reviews \u203a Liberty-Consult...",
+            "description": "Employees in New York have given Liberty Consulting and Management a rating of 3.7 out of 5 stars, based on 17 company reviews on Glassdoor.Read more",
+            "emphasizedKeywords": [
+              "Liberty Consulting and Management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "averageRating": 3.7,
+            "numberOfReviews": 17,
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/QVkdQlQKh1yIgZcT3/records/lJ747eLXsml0dqt-0.html?signature=1ojWCRLApAvC6lasOANj5"
+      },
+      {
+        "#debug": {
+          "requestId": "2DhyfweRJhBeUld",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+libertyconsultingandmanagement.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+libertyconsultingandmanagement.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company libertyconsultingandmanagement.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+libertyconsultingandmanagement.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+libertyconsultingandmanagement.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Liberty Consulting and Management",
+            "url": "https://www.linkedin.com/company/liberty-consulting-management",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting and Management",
+            "description": "We pride ourselves on being an organization that is known for working with some of the most renowned businesses and sharing a healthy relationship with them.Read more",
+            "emphasizedKeywords": [
+              "an organization that is known for working with some of the most renowned businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "12K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Liberty Consulting",
+            "url": "https://www.linkedin.com/company/liberty29",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting",
+            "description": "Liberty Consulting is a premier consulting firm specializing in public relations, government affairs, private coaching, conference workshops,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Liberty Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "160+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Liberty Consulting",
+            "url": "https://uk.linkedin.com/company/libertyconsulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting",
+            "description": "Partnership founded in 2020, by Jen and John, who have 30+ years experience in business. Locations Primary Swansea, GB Get directionsRead more",
+            "emphasizedKeywords": [
+              "Partnership founded in 2020"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Liberty Consulting LLC",
+            "url": "https://www.linkedin.com/company/liberty-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Consulting LLC",
+            "description": "Liberty Consulting LLC is Consultancy Service in USA and International. Website: http://libertyllcus.com. External link for Liberty Consulting LLC.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Liberty Pointe Consulting - Profit First Advisory & CFO ...",
+            "url": "https://www.linkedin.com/company/liberty-pointe-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty Pointe Consulting - Profit First Advisory & CFO Services",
+            "description": "Our services combine accurate bookkeeping, executive-level CFO strategy, and the Profit First methodology \u2014 so profitability is built into your business model,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "accurate bookkeeping, executive-level CFO strategy, and the Profit First methodology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Liberty IT Consulting Group",
+            "url": "https://au.linkedin.com/company/liberty-it-consulting-group-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Liberty IT Consulting Group",
+            "description": "Liberty is a banking and finance technology specialists that is different, by design. Liberty was founded on three simple principles: Quality, Experience and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Liberty is a banking and finance technology specialists"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Ace Concepts, Inc.",
+            "url": "https://pe.linkedin.com/company/ace-concepts-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ace Concepts, Inc.",
+            "description": "Liberty Consulting and Management. Servicios de publicidad. MV New York. Consultor\u00eda y servicios a empresas. New York, NY. Mostrar m\u00e1s p\u00e1ginas similaresRead more",
+            "emphasizedKeywords": [
+              "Liberty Consulting and Management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Cayenne Consulting LLC",
+            "url": "https://fr.linkedin.com/company/cayenne-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cayenne Consulting LLC",
+            "description": "Cayenne Consulting helps entrepreneurs prepare for the capital raising process by assisting with business plans, financial forecasts, strategy,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Cayenne Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "ClaimTrack MBS",
+            "url": "https://www.linkedin.com/company/claimtrack-medical-billing-services",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ClaimTrack MBS",
+            "description": "ClaimTrack MBS specializes in Home Health and Hospice Billing and Revenue Cycle Management (RCM) services, helping agencies across the U.S. streamline their\u00a0...Read more",
+            "emphasizedKeywords": [
+              "specializes in Home Health and Hospice Billing and Revenue Cycle Management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "600+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Skybound Inc",
+            "url": "https://www.linkedin.com/company/skybound-inc-2026",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Skybound Inc",
+            "description": "Skybound Inc is dedicated to providing customized marketing solutions that empower businesses to grow and thrive in today's competitive market.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "250+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/h5n2oNi1nPfarCAU8/records/2DhyfweRJhBeUld-0.html?signature=1eC64N1EZ4qrCRNmiYoaT"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Business Development Firm New York | Liberty Consulting and Management",
+      "https://www.linkedin.com/company/liberty-consulting-management",
+      "https://au.linkedin.com/company/liberty-it-consulting-group-limited",
+      "https://hk.linkedin.com/company/new-york-global-consultants-corporation-inc",
+      "https://www.linkedin.com/company/huronconsulting",
+      "https://www.linkedin.com/company/rsm-us-llp",
+      "https://www.linkedin.com/company/acquis-consulting-group",
+      "https://www.linkedin.com/company/public-works-partners",
+      "https://uk.linkedin.com/company/barclays-bank",
+      "https://www.linkedin.com/company/spencer-stuart",
+      "https://pa.linkedin.com/company/value-creed-llc",
+      "https://www.linkedin.com/company/liberty-consulting-management",
+      "https://www.linkedin.com/posts/liberty-consulting-management_business-development-firm-new-york-liberty-activity-7370969786194747392-TVZK",
+      "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-libertyconsulting-activity-7304851128238723072-df7A",
+      "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-strategicgrowth-lcmresults-activity-7363948554999984139-WDJO",
+      "https://www.linkedin.com/posts/liberty-consulting-management_libertyconsulting-businessgrowth-salesstrategy-activity-7374457762606657536-hmjn",
+      "https://www.linkedin.com/posts/liberty-consulting-management_businessdevelopment-localgrowth-libertyconsultingandmanagement-activity-7350540115703676929-H0ep",
+      "https://www.linkedin.com/jobs/managing-director-business-development-management-consulting-jobs-new-york",
+      "site:linkedin.com/company libertyconsultingandmanagement.com",
+      "https://www.linkedin.com/company/liberty-consulting-management",
+      "https://www.linkedin.com/company/liberty29",
+      "https://uk.linkedin.com/company/libertyconsulting",
+      "https://www.linkedin.com/company/liberty-consulting-llc",
+      "https://www.linkedin.com/company/liberty-pointe-consulting",
+      "https://au.linkedin.com/company/liberty-it-consulting-group-limited",
+      "https://pe.linkedin.com/company/ace-concepts-inc",
+      "https://fr.linkedin.com/company/cayenne-consulting",
+      "https://www.linkedin.com/company/claimtrack-medical-billing-services",
+      "https://www.linkedin.com/company/skybound-inc-2026"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/liberty-consulting-management",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Business Development Firm New York | Liberty Consulting and Management",
+    "description": "[Skip to content](https://libertyconsultingandmanagement.com/#content) [ Open toolbar Accessibility Tools ](javascript:void\\(0\\);",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://libertyconsultingandmanagement.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://libertyconsultingandmanagement.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "libertyconsultingandmanagement.com",
+    "source_urls": [
+      "https://libertyconsultingandmanagement.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Business Development Firm New York | Liberty Consulting and Management",
+    "description": "[Skip to content](https://libertyconsultingandmanagement.com/#content) [ Open toolbar Accessibility Tools ](javascript:void\\(0\\);",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://libertyconsultingandmanagement.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/liberty-consulting-management",
+    "source_url": "https://libertyconsultingandmanagement.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "libertyconsultingandmanagement.com",
+    "source_urls": [
+      "https://libertyconsultingandmanagement.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/liberty-consulting-management"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

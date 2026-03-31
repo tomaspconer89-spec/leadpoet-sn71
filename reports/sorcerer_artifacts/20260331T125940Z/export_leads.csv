@@ -1,0 +1,292 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T12:59:40.119962Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmptj_479k6/evidence/domain/cansulta.com.json","","2026-06-29T12:59:40.119965Z","startup advisory services founder contact","2026-03-31T12:59:16.528816Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Sitemaps](https://www.startups.com/sitemaps)
+[](https://www.startups.com/)
+[Home](https://www.startups.com/ "Home")
+[Requests](https://www.startups.com/requests "Requests")
+[My Requests](https://www.startups.com/requests/manage "My Requests")[Create a Request](https://www.startups.com/requests/start "Create a Request")[Browse All Requests](https://www.startups.com/requests/browse "Browse All Requests")
+[Education](https://www.startups.com/education "Education")
+[Courses](https://www.startups.com/courses "Courses")[Articles](https://www.startups.com/articles "Articles")[Founder Interviews](https://www.startups.com/founder-interviews "Founder Interviews")[Podcast](https://www.startups.com/podcast "Podcast")[Videos](https://www.startups.com/videos "Videos")[Playbooks](https://www.startups.com/playbooks "Playbooks")
+[Events](https://www.startups.com/events "Events")
+[Upcoming](https://www.startups.com/events/upcoming "Upcoming")[Workshops](https://www.startups.com/events/workshops "Workshops")[Group Meetings](https://www.startups.com/events/group-meetings "Group Meetings")[Office Hours](https://www.startups.com/events/office-hours "Office Hours")[My Events](https://www.startups.com/events/my-events "My Events")
+[Funding](https://www.startups.com/investors/matching "Funding")
+[Investor Matching](https://www.startups.com/investors/matching "Investor Matching")[Investor Database](https://www.startups.com/investors/search "Investor Database")[Funding Resources](https://www.startups.com/funding "Funding Resources")
+[Answers](https://www.startups.com/posts "Answers")
+[Members](https://www.startups.com/members/matching "Members")
+[Matching](https://www.startups.com/members/matching "Matching")[Founders](https://www.startups.com/founders "Founders")[Experts](https://www.startups.com/experts "Experts")
+[Perks](https://www.startups.com/perks/partners "Perks")
+[Tour](https://www.startups.com/tour "Tour")
+[About](https://www.startups.com/about "About")
+[Membership Plans](https://www.startups.com/accelerator/plans "Membership Plans")[Tour](https://www.startups.com/tour "Tour")[Support](https://www.startups.com/support "Support")
+* * *
+[Terms of Service](https://www.startups.com/legal/terms-of-service "Terms of Service")[Privacy Policy](https://www.startups.com/legal/privacy-policy "Privacy Policy")[Sitemaps](https://www.startups.com/sitemaps "Sitemaps")
+[Login](https://www.startups.com/login?returnTo=/ "Login")
+[Get Started](https://www.startups.com/accelerator/start "Get Started")
+Browse Requests
+[My Requests](https://www.startups.com/requests/manage)
+[](https://www.startups.com/requests/manage/undefined)
+[Browse Requests](https://www.startups.com/requests/browse)
+Request Type
+AnyGoalFundingGet CustomersBuild ProductCo-founderAdvisorTalent 
+
+Skills, Industries, Tags
+Compensation Type
+AnyCashEquityProfit ShareFree 
+
+Reset Filters
+### Tell us your goal.   
+We'll show you how to get there.
+## Create a Request
+* * *
+What do you want to accomplish?
+Raise FundingGet CustomersBuild ProductFind a Co-founderFind AdvisorsHire Talent
+Start by selecting what you want to accomplish...
+Let's Get This Done
+### Latest Startup Requests
+Hire Talent
+## Hiring First Senior Backend Engineer for Fintech Startup
+DW
+## Daniel W.
+Fintech Platform
+Find Advisors
+## Sales Advisor to Help Build First Outbound Team
+CF
+## Carlos F.
+B2B Services Company
+Build Product
+## Product Designer Needed for Consumer App Launch
+SD
+## Sarah D.
+Mobile App Startup
+Get Customers
+## Building a Go-To-Market Plan for a Direct-to-Consumer Brand
+EA
+## Emily A.
+DTC Consumer Brand
+Find a Co-Founder
+## Seeking a Co-Founder With Seed Fundraising Experience
+LV
+## Laura V.
+Marketplace Startup
+Raise Funding
+## Reworking a Seed Pitch Deck for a Pre-Revenue Fintech Startup
+SM
+## Sofia M.
+Fintech Startup
+Raise Funding
+## Seed Funding Opportunity: B2B SaaS Startup Seeking $750K
+MR
+## Michael R.
+B2B SaaS Platform
+Hire Talent
+## Planning the First 5 Hires at an Early-Stage Marketplace
+RC
+## Rachel C.
+Online Marketplace
+Get Customers
+## Growth Marketer Needed to Acquire First 1,000 SMB Customers
+JP
+## Jason P.
+SMB Software
+Find Advisors
+## Advisor With Investor Introductions for Upcoming Seed Round
+MB
+## Mark B.
+Enterprise Software
+Find a Co-Founder
+## Technical Co-Founder Wanted for AI-Driven SaaS Platform
+RS
+## Rohan S.
+AI SaaS Startup
+Build Product
+## Full-Stack Product Partner Needed to Build SaaS MVP
+JP
+## Ji-Hoon P.
+Workflow SaaS
+Get Customers
+## Building a Go-To-Market Plan for a Direct-to-Consumer Brand
+EA
+## Emily A.
+DTC Consumer Brand
+Hire Talent
+## Hiring First Senior Backend Engineer for Fintech Startup
+DW
+## Daniel W.
+Fintech Platform
+Get Customers
+## Growth Marketer Needed to Acquire First 1,000 SMB Customers
+JP
+## Jason P.
+SMB Software
+Raise Funding
+## Reworking a Seed Pitch Deck for a Pre-Revenue Fintech Startup
+SM
+## Sofia M.
+Fintech Startup
+Build Product
+## Product Designer Needed for Consumer App Launch
+SD
+## Sarah D.
+Mobile App Startup
+Find a Co-Founder
+## Seeking a Co-Founder With Seed Fundraising Experience
+LV
+## Laura V.
+Marketplace Startup
+Find a Co-Founder
+## Technical Co-Founder Wanted for AI-Driven SaaS Platform
+RS
+## Rohan S.
+AI SaaS Startup
+Hire Talent
+## Planning the First 5 Hires at an Early-Stage Marketplace
+RC
+## Rachel C.
+Online Marketplace
+Raise Funding
+## Seed Funding Opportunity: B2B SaaS Startup Seeking $750K
+MR
+## Michael R.
+B2B SaaS Platform
+Find Advisors
+## Sales Advisor to Help Build First Outbound Team
+CF
+## Carlos F.
+B2B Services Company
+Build Product
+## Full-Stack Product Partner Needed to Build SaaS MVP
+JP
+## Ji-Hoon P.
+Workflow SaaS
+Find Advisors
+## Advisor With Investor Introductions for Upcoming Seed Round
+MB
+## Mark B.
+Enterprise Software
+## How We Help
+You type what you need, we help you get it done.
+## Post a Request
+Posting a Request captures your goal so we can build a plan and connect you with investors, advisors, co-founders, talent, and experts.
+[Let's do this](https://www.startups.com/requests/start)
+## What do you want to accomplish?
+Raise Funding
+Get Customers
+Build Product
+Find a Co-Founder
+Find Advisors
+Hire Talent
+## Requests = Personalized Roadmap
+Your Request creates a Personalized Roadmap that provides step-by-step guidance to complete your goal.
+"Based on your Request, we're going to connect you with early stage investors, review your pitch deck, and walk you through the steps to close your funding round."
+## Connect to People
+Your Request is instantly matched to the right people using our AI-driven rankings, so you don't waste time on bad fits.
+##  Good news! We have 1,452 potential matches for you.
+## John Doe
+Venture Capital
+* * *
+Columbus
+Pre-SeedGamingMobile Apps 
+
+95
+## Jane Doe
+Angel Investor
+* * *
+San Francisco
+Pre-SeedHealthcareBiotech 
+
+85
+## Jim Doe
+Venture Capital
+* * *
+New York
+Pre-SeedSoftwareAI 
+
+75
+## Real Expert Advisory
+Our startup advisors help you answer tough questions and identify what to focus on next through 1:1 sessions, workshops, or direct messages.
+![Presentation Slide](https://www.startups.com/assets/graphics/investor-match/pdr-pre-seed-travel.webp)
+![Presentation Slide](https://www.startups.com/assets/graphics/investor-match/pdr-cpg-health.webp)
+![Presentation Slide](https://www.startups.com/assets/graphics/investor-match/pdr-solar-power.webp)
+## Customized Education
+We give you a step-by-step task list and targeted tools and content to help you complete your Request.
+## Next Steps
+View Completed
+## Upload Pitch Deck for Analysis
+Get feedback on clarity, story, and gaps that may slow investor interest.
+## Schedule 1:1 Review with Pitch Deck Expert
+Pressure-test your deck with an experienced founder and refine key slides.
+## Review Investor Matches to Contact
+Focus on high-fit investors who align with your stage and goals.
+## Draft Investor Outreach Emails
+Craft concise messages that highlight traction and spark responses.
+## One goal. One roadmap.  
+Three clear paths to execution.
+[Build My Roadmap](https://www.startups.com/requests/start)
+## Join Over 1 Million Startups on our Platform
+![](https://www.startups.com/assets/icons/socialproof/achievement.svg)
+## 96% Positive
+Founder Satisfaction Rating
+My Advisor listened to my problem, explored different solutions, and then provided different opportunities for further exploration. I would highly recommend this session.
+James Wilson
+Co-Founder, ReUser
+Launchrock
+## ThredUp
+Total Raised
+$505,000,000
+Startup Therapy Podcast
+Great Startup Advice
+I feel like a Startup Expert and it comes in handy with my consultancy work after listening to every podcast on their channel. These two Co-Founders have not only great startup advice but the psychology of Startups is very deep. I have only noticed a few problems which could be improved: some vulgar language, an overemphasis on founders groups which isn’t free or inexpensive (not all that effective if you can’t get the majority of the founders into groups), and I don’t care for after talk with listeners which was introduced a little here and there after the first 140+ episodes (this seems to just run on the amount of time of a typical easy-to-handle podcast).
+Read More
+@ScottSorgent
+![](https://www.startups.com/assets/icons/socialproof/id-card.svg)
+## 1,325,000
+Registered Users
+As a founder, sh!t gets overwhelming and oftentimes lonely. As you reach more and more success, it gets harder and harder to find a support group, someone to help you see wider, bigger. Having an expert advisor that knows what you're experiencing and has been through this before is incredibly helpful. It's completely invaluable and it's hard to put a price tag on it.
+Christina Perla
+Founder, MakeLab
+Accelerator
+## Lower.com
+Total Raised
+$100,000,000
+Accelerator
+## Branch Insurance
+Total Raised
+$229,500,000
+Fundable
+## Arcimoto
+Total Raised
+$45,000,000
+![](https://www.startups.com/assets/icons/socialproof/rocket.svg)
+## 237,000
+Number of Launched Sites
+The best part of being in a Founder Group is seeing how other Founders are solving similar problems. It's like seeing every alternate ending of your own story.
+Marc Nager
+Greater Colorado Venture Fund
+Launchrock
+## Instacart
+Total Raised
+$2,740,000,000
+Fundable
+## UNYQ
+Total Raised
+$23,000,000
+![](https://www.startups.com/assets/icons/socialproof/chat.svg)
+## 17,000
+Number of Questions Answered
+Startup Therapy Podcast
+Finally - someone who gets it and isn't afraid to put it on wax!
+A friend recommended this to me, and I should probably send him an edible arrangement for it. The best podcast I've come across in a long time! And you knew it was going to be something special just by looking at the titles of the episodes. And man do they come through. Get some emotional and mental relief that you're not alone in this entrepreneurial journey. I binge listened to their podcast over 2 months (now I'm caught up) - and it's changed my trajectory for the better. I'm really grateful.
+Read More
+@JikaJika
+Fundable
+## Laird Superfood
+Total Raised
+$51,000,000
+Fundable
+## Owlet
+Total Raised
+$178,000,000
+","","https://startups.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Online Startup Accelerator | Startups.com","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","startups.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","2cb16ef306444376691989cf45b41cdcf68e2d145311d2944d72459e70fc01f0","0.0","0.3","964a6162-a319-5c12-a600-9d57e576fd52","","2026-03-31T12:59:40.133127Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/startups.com.json","/tmp/tmptj_479k6/evidence/domain/startups.com.json","","2026-06-29T12:59:40.133130Z","startup advisory services founder contact","2026-03-31T12:59:17.456637Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T12:59:40.146040Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmptj_479k6/evidence/domain/vaam.io.json","","2026-06-29T12:59:40.146042Z","SaaS startup CEO contact information","2026-03-31T12:59:22.767094Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T12:59:40.159204Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmptj_479k6/evidence/domain/findemails.com.json","","2026-06-29T12:59:40.159206Z","SaaS startup CEO contact information","2026-03-31T12:59:23.700977Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T12:59:40.172197Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmptj_479k6/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T12:59:40.172199Z","management consulting firm director email","2026-03-31T12:59:36.747772Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

@@ -1,0 +1,237 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://businessconsultingagency.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","businessconsultingagency.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","5f0611f2cb37c7bddeee939cadfb1bb9fd5d40b6f0e48e1ce23702f9a37e6ed6","0.0","0.3","b08e7605-4fbc-524e-8cf5-1c8306ab5215","","2026-03-31T01:20:38.503631Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/businessconsultingagency.com.json","/tmp/tmptsae2hih/evidence/domain/businessconsultingagency.com.json","","2026-06-29T01:20:38.503634Z","business consulting firm advisor email","2026-03-31T01:20:15.669078Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","b047b86cb0ca9391d6f144e7eb73a8da0a8da0e4d2898b17a9ae141dd81f155d","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T01:20:38.516893Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmptsae2hih/evidence/domain/maynardnexsen.com.json","","2026-06-29T01:20:38.516895Z","business consulting firm advisor email","2026-03-31T01:20:16.640897Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T01:20:38.529897Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmptsae2hih/evidence/domain/vaam.io.json","","2026-06-29T01:20:38.529899Z","SaaS startup CEO contact information","2026-03-31T01:20:20.088936Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T01:20:38.543066Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmptsae2hih/evidence/domain/findemails.com.json","","2026-06-29T01:20:38.543068Z","SaaS startup CEO contact information","2026-03-31T01:20:21.656193Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Free Small Business Mentorship and Resources
+
+Find the SCORE location nearest to you.
+
+Find the SCORE location nearest to you.
+
+Get Help at Every Stage of Business
+
+Explore curated resources by stage - choose a hub to find practical next steps, tools and guidance.
+
+![](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/events/AdobeStock_339695294Small%2CMinority%26SHWomenOwnedBusinessWorkshop.jpeg?itok=sBwQBLvt)
+
+[Plan + Start](https://www.score.org/view-business-stage/plan-start)
+
+Starting a business can be overwhelming. SCORE can help you find your footing. Get resources, training, and mentoring to get your business up and running.
+
+![Diverse group of business people gathered in conference room for workshop](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2022-10/businessworkshop_482801450_3.png?h=945b5baf&itok=4dPDQfFM)
+
+[Manage + Grow](https://www.score.org/view-business-stage/manage-grow)
+
+Your business can change over time; you might have new goals you want to achieve, or you may face new challenges. Take advantage of mentors and tools to run and grow your business.
+
+![Mature businessman shake hands with a younger colleague.](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2022-11/GettyImages-1178385556_2600x1733.jpg?h=b9addc24&itok=3o3BzDHG)
+
+[Transition + Exit](https://www.score.org/view-business-stage/transition-exit)
+
+Occasionally you move on from something you built from the ground up, or perhaps you are handing off your hard work to someone else. In either scenario, SCORE has resources and mentors available to help ease the transition or exit from your business.
+
+Get Help at Every Stage of Business
+
+Explore curated resources by stage - choose a hub to find practical next steps, tools and guidance.
+
+![](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/events/AdobeStock_339695294Small%2CMinority%26SHWomenOwnedBusinessWorkshop.jpeg?itok=sBwQBLvt)
+
+[Plan + Start](https://www.score.org/view-business-stage/plan-start)
+
+Starting a business can be overwhelming. SCORE can help you find your footing. Get resources, training, and mentoring to get your business up and running.
+
+![Diverse group of business people gathered in conference room for workshop](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2022-10/businessworkshop_482801450_3.png?h=945b5baf&itok=4dPDQfFM)
+
+[Manage + Grow](https://www.score.org/view-business-stage/manage-grow)
+
+Your business can change over time; you might have new goals you want to achieve, or you may face new challenges. Take advantage of mentors and tools to run and grow your business.
+
+![Mature businessman shake hands with a younger colleague.](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2022-11/GettyImages-1178385556_2600x1733.jpg?h=b9addc24&itok=3o3BzDHG)
+
+[Transition + Exit](https://www.score.org/view-business-stage/transition-exit)
+
+Occasionally you move on from something you built from the ground up, or perhaps you are handing off your hard work to someone else. In either scenario, SCORE has resources and mentors available to help ease the transition or exit from your business.
+
+![Blue Wrench Paul](https://score.org/sites/default/files/styles/responsive_1_1_2500w/public/2023-10/Blue%20Wrench%20Paul.jpeg?h=144bdbbb&itok=5fMRo0Qk)
+
+Featured Success Story
+
+Blue Wrench Truck & Auto Repair
+
+Discover how Blue Wrench Truck & Auto Repair’s new owners used SCORE mentoring to confidently grow a 30-year-old, multi-location auto business. Shortly after acquiring the shop in April 2022, they connected with SCORE Idaho mentors Dave and Don, who offered “actionable suggestions that immediately improved our business” and guided them away from a risky government contracting path toward more strategic growth opportunities.
+
+“SCORE’s mentors provide actionable, unbiased advice … It has made a noticeable impact on my business and has taken a lot of stress of business ownership away, knowing I am not alone on the journey.” - Paul Westhart, Blue Wrench
+
+Read the Full Story
+
+![David Callon, SCORE Mentor](https://score.org/sites/default/files/styles/responsive_1_1_2500w/public/2025-12/David-Callon.jpg?itok=6F4I3Xqt)
+
+Featured Mentor
+
+David Callon, SCORE Business Mentor
+
+SCORE Idaho mentor, **David Callon** brings experience in franchising, restaurant management and operations, small company management, sales and marketing, business management and construction. He can help you clarify and focus your business goals, and serve as a practical sounding board as you make key decisions.
+
+Collaborate with SCORE mentors like David to navigate your business journey with greater confidence and a clearer path to growth.
+
+Browse Mentor Profiles
+
+![Blue Wrench Paul](https://score.org/sites/default/files/styles/responsive_1_1_2500w/public/2023-10/Blue%20Wrench%20Paul.jpeg?h=144bdbbb&itok=5fMRo0Qk)
+
+Featured Success Story
+
+Blue Wrench Truck & Auto Repair
+
+Discover how Blue Wrench Truck & Auto Repair’s new owners used SCORE mentoring to confidently grow a 30-year-old, multi-location auto business. Shortly after acquiring the shop in April 2022, they connected with SCORE Idaho mentors Dave and Don, who offered “actionable suggestions that immediately improved our business” and guided them away from a risky government contracting path toward more strategic growth opportunities.
+
+“SCORE’s mentors provide actionable, unbiased advice … It has made a noticeable impact on my business and has taken a lot of stress of business ownership away, knowing I am not alone on the journey.” - Paul Westhart, Blue Wrench
+
+Read the Full Story
+
+![David Callon, SCORE Mentor](https://score.org/sites/default/files/styles/responsive_1_1_2500w/public/2025-12/David-Callon.jpg?itok=6F4I3Xqt)
+
+Featured Mentor
+
+David Callon, SCORE Business Mentor
+
+SCORE Idaho mentor, **David Callon** brings experience in franchising, restaurant management and operations, small company management, sales and marketing, business management and construction. He can help you clarify and focus your business goals, and serve as a practical sounding board as you make key decisions.
+
+Collaborate with SCORE mentors like David to navigate your business journey with greater confidence and a clearer path to growth.
+
+Browse Mentor Profiles
+
+## Sign up for SCORE's Newsletter
+
+Get the latest resources, events, and business tips delivered straight to your inbox.
+
+[Subscribe](https://lp.constantcontactpages.com/sl/gADBOBo/scoresubscribe)
+
+## Sign up for SCORE's Newsletter
+
+Get the latest resources, events, and business tips delivered straight to your inbox.
+
+[Subscribe](https://lp.constantcontactpages.com/sl/gADBOBo/scoresubscribe)
+
+Online Courses
+
+![asian business man sitting at desk with packing boxes on top of it](https://score.org/sites/default/files/styles/responsive_16_9_1000w/public/2023-12/GettyImages-1005121718.jpg?itok=xaM225lR)
+
+[Getting Started with E-Commerce](https://www.score.org/getting-started-e-commerce)
+
+The Getting Started with Small Business eCommerce learning course guides your journey from brick and mortar to click and order.
+
+Online Courses
+
+![asian business man sitting at desk with packing boxes on top of it](https://score.org/sites/default/files/styles/responsive_16_9_1000w/public/2023-12/GettyImages-1005121718.jpg?itok=xaM225lR)
+
+[Getting Started with E-Commerce](https://www.score.org/getting-started-e-commerce)
+
+The Getting Started with Small Business eCommerce learning course guides your journey from brick and mortar to click and order.
+
+Free Templates & Resources
+
+Leverage these free templates and resources to propel your business toward success, while complementing your journey with the guidance of a SCORE Mentor, ensuring a well-rounded strategy for achieving your business goals. With the right tools and expert guidance, your business can thrive and reach new heights.
+
+Free Templates & Resources
+
+Leverage these free templates and resources to propel your business toward success, while complementing your journey with the guidance of a SCORE Mentor, ensuring a well-rounded strategy for achieving your business goals. With the right tools and expert guidance, your business can thrive and reach new heights.
+
+![SCORE mentors and their clients, owners and staff of La Divina Italian Cafe](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2025-01/La%20Divina%20Italian%20Cafe%20%2811%29.jpeg?h=7f17cd57&itok=4SI6UR6B)
+
+How SCORE Mentoring Works
+
+SCORE mentoring is a free, confidential service for anyone starting, running, or growing a U.S.-based small business. Work one-on-one or in a small group with an experienced business mentor who will listen to your goals, ask thoughtful questions, and share practical advice based on real-world experience.
+
+You’ll be matched with a mentor based on your business needs and can meet virtually, by phone, email, or in person. Together, you’ll tackle specific challenges - from starting up and managing cash flow to hiring, marketing, or planning your exit - and create an action plan for your next steps. You can return to your mentor as often as you need, for the life of your business.
+
+Learn More and Find a Mentor
+
+![SCORE mentors and their clients, owners and staff of La Divina Italian Cafe](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/2025-01/La%20Divina%20Italian%20Cafe%20%2811%29.jpeg?h=7f17cd57&itok=4SI6UR6B)
+
+How SCORE Mentoring Works
+
+SCORE mentoring is a free, confidential service for anyone starting, running, or growing a U.S.-based small business. Work one-on-one or in a small group with an experienced business mentor who will listen to your goals, ask thoughtful questions, and share practical advice based on real-world experience.
+
+You’ll be matched with a mentor based on your business needs and can meet virtually, by phone, email, or in person. Together, you’ll tackle specific challenges - from starting up and managing cash flow to hiring, marketing, or planning your exit - and create an action plan for your next steps. You can return to your mentor as often as you need, for the life of your business.
+
+Learn More and Find a Mentor
+
+SCORE’s Impact: Turning Support Into Success
+
+Each year, SCORE volunteers across the country help entrepreneurs turn ideas into thriving businesses. The result? A ripple effect of economic growth and job creation nationwide.
+
+In FY24 alone, SCORE supported:
+
+*   The launch of **59,447 new small businesses**
+*   The creation of **143,623 new jobs**
+*   The contribution of **4 million volunteer hours** — the equivalent of more than four centuries of expert mentoring
+*   A **$45.42 return** in new federal tax revenue for every $1 of federal funding
+
+These outcomes show that SCORE is more than just mentoring — it’s a smart investment in America’s small business community.
+
+![SCORE FY24 impact infographic showing four metrics: 59,447 new businesses launched, 143,623 new jobs created, 4 million volunteer hours contributed, and a $45.42 return in federal tax revenue for every $1 of federal funding. Each metric is accompanied by a simple icon.](https://score.org/sites/default/files/styles/responsive_16_9_1000w/public/2025-05/impact%20numbers_0.png?itok=cyHB0nyR)
+
+SCORE’s Impact: Turning Support Into Success
+
+Each year, SCORE volunteers across the country help entrepreneurs turn ideas into thriving businesses. The result? A ripple effect of economic growth and job creation nationwide.
+
+In FY24 alone, SCORE supported:
+
+*   The launch of **59,447 new small businesses**
+*   The creation of **143,623 new jobs**
+*   The contribution of **4 million volunteer hours** — the equivalent of more than four centuries of expert mentoring
+*   A **$45.42 return** in new federal tax revenue for every $1 of federal funding
+
+These outcomes show that SCORE is more than just mentoring — it’s a smart investment in America’s small business community.
+
+![SCORE FY24 impact infographic showing four metrics: 59,447 new businesses launched, 143,623 new jobs created, 4 million volunteer hours contributed, and a $45.42 return in federal tax revenue for every $1 of federal funding. Each metric is accompanied by a simple icon.](https://score.org/sites/default/files/styles/responsive_16_9_1000w/public/2025-05/impact%20numbers_0.png?itok=cyHB0nyR)
+
+CONNECT
+
+712 H St NE PMB 98848
+
+Washington, DC 20002
+
+1-800-634-0245
+
+Sign up for SCORE's Newsletter
+
+Copyright © 2025 SCORE Association, SCORE.org
+
+Funded, in part, through a Cooperative Agreement with the U.S. Small Business Administration. All opinions, and/or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views of the SBA.
+
+Chat generously provided by:[![LiveChat®](https://score.org/sites/default/files/2023-09/livechat-white.png)](https://www.livechat.com/) [![HelpDesk®](https://cdn.livechatinc.com/website/media/img/resources/logos/helpdesk-white-green.svg)](https://www.helpdesk.com/)
+
+In partnership with
+
+[
+
+![SBA logo in white](https://score.org/sites/default/files/styles/responsive_350w/public/2022-12/Powered-by-SBA-white-SCORE-footer_0.png?itok=wsX0MpCB)
+
+](https://www.sba.gov/)
+
+CONNECT
+
+712 H St NE PMB 98848
+
+Washington, DC 20002
+
+1-800-634-0245
+
+Sign up for SCORE's Newsletter
+
+Copyright © 2025 SCORE Association, SCORE.org
+
+Funded, in part, through a Cooperative Agreement with the U.S. Small Business Administration. All opinions, and/or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views of the SBA.
+
+Chat generously provided by:[![LiveChat®](https://score.org/sites/default/files/2023-09/livechat-white.png)](https://www.livechat.com/) [![HelpDesk®](https://cdn.livechatinc.com/website/media/img/resources/logos/helpdesk-white-green.svg)](https://www.helpdesk.com/)
+
+In partnership with
+
+[
+
+![SBA logo in white](https://score.org/sites/default/files/styles/responsive_350w/public/2022-12/Powered-by-SBA-white-SCORE-footer_0.png?itok=wsX0MpCB)
+
+](https://www.sba.gov/)","","https://score.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Free Small Business Mentorship and Resources | SCORE","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","score.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","a9db76a56c76cb341caa1ccf59dc30c4c65e50d1159d6ccffb4738cb31e91209","0.0","0.3","b78562df-2575-514c-8431-882767b414f7","","2026-03-31T01:21:24.081751Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/score.org.json","/tmp/tmptsae2hih/evidence/domain/score.org.json","","2026-06-29T01:21:24.081759Z","small business advisory firm team page","2026-03-31T01:20:30.290279Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T01:21:24.098969Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmptsae2hih/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T01:21:24.098972Z","management consulting firm director email","2026-03-31T01:20:36.165318Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

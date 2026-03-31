@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Strategic Startup Advisors \u2013 Catalyzing founder success",
+  "lead": {
+    "business": "Strategic Startup Advisors \u2013 Catalyzing founder success",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://strategicstartupadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/investedd",
+    "source_url": "https://strategicstartupadvisors.com",
+    "description": "Invested Development (ID) specializes on building bespoke private market investment strategies and supporting our partners with identifying and executing private placement investments. Since 2009 we have been an innovator and catalyst in the impact investing field. As a successful investment management company we have built a global network of mission driven innovators, investors, and advisors. Headquartered in Atlanta, GA we have offices and affiliates in Nairobi, Kenya; Boston, MA; and Houston, TX.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

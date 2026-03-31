@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Free Small Business Mentorship and Resources | SCORE",
+  "lead": {
+    "business": "Free Small Business Mentorship and Resources | SCORE",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://score.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/score-mentors",
+    "source_url": "https://score.org",
+    "description": "# Free Small Business Mentorship and Resources Find the SCORE location nearest to you. Find the SCORE location nearest to you. Get Help at Every Stage of Business Explore curated resources by stage - choose a hub to find practical next steps, tools and guidance. ![](https://score.org/sites/default/files/styles/responsive_16_9_2500w/public/events/AdobeStock_339695294Small%2CMinority%26SHWomenOwnedBusinessWorkshop.jpeg?itok=sBwQBLvt) [Plan + Start](https://www.score.org/view-business-stage/plan-start) Starting a business can be overwhelming. SCORE can help you find your footing.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "saved_at_utc": "2026-03-31T01:03:12.265295+00:00",
+  "queue_key": "73a19e42f9e561ca9404fe06b003fbbd0dbed725a168e12eec39744dbc6d1f6a",
+  "business": "Crunchbase",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Crunchbase",
+      "Crunchbase linkedin company",
+      "site:linkedin.com/company crunchbase.com",
+      "site:linkedin.com/in \"Crunchbase\" founder",
+      "site:linkedin.com/in \"Crunchbase\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "uEXUdCYiQ0FYz6q",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Crunchbase",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Crunchbase",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Crunchbase",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Crunchbase",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Crunchbase",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Crunchbase",
+            "url": "https://www.linkedin.com/company/crunchbase",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crunchbase",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI, and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "159.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://vn.linkedin.com/company/crunchbase?trk=products_details_guest_organization_image",
+            "displayedUrl": "https://vn.linkedin.com \u203a company",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI,\u00a0...",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://jp.linkedin.com/company/crunchbase",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crunchbase",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "159.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Crunchbase: Culture",
+            "url": "https://www.linkedin.com/company/crunchbase/life",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a crunchbase \u203a life",
+            "description": "Crunchbase believes our employees are key to creating an inclusive and well-rounded workplace. Employee Resource Groups hold space for support and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Crunchbase: Jobs",
+            "url": "https://www.linkedin.com/company/crunchbase/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a crunchbase \u203a jobs",
+            "description": "Crunchbase. Software Development. Predict what's next in private markets with Crunchbase. Move faster, act smarter, win more with predictive intelligence.Read more",
+            "emphasizedKeywords": [
+              "Crunchbase",
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Crunchbase : culture",
+            "url": "https://fr.linkedin.com/company/crunchbase/life",
+            "displayedUrl": "https://fr.linkedin.com \u203a company \u203a crunchbase \u203a life",
+            "description": "Crunchbase. D\u00e9veloppement de logiciels. Crunchbase.ai is here! The NEW Crunchbase delivers predictive intelligence to help you stay ahead of the market.Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Crunchbase: Unternehmenskultur",
+            "url": "https://at.linkedin.com/company/crunchbase/life/crunchbaseforgood",
+            "displayedUrl": "https://at.linkedin.com \u203a life \u203a crunchbaseforgood",
+            "description": "Crunchbase. Softwareentwicklung. Crunchbase.ai is here! The NEW Crunchbase delivers predictive intelligence to help you stay ahead of the market.Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://br.linkedin.com/company/crunchbase",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crunchbase",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "159.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://iq.linkedin.com/company/crunchbase?trk=products_details_guest_organization_image",
+            "displayedUrl": "https://iq.linkedin.com \u203a company",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI,\u00a0...",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://jp.linkedin.com/company/crunchbase?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "displayedUrl": "https://jp.linkedin.com \u203a company",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI,\u00a0...",
+            "emphasizedKeywords": [
+              "provides intelligence on private companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/3wJnThwuORNv9Nj5I/records/uEXUdCYiQ0FYz6q-0.html?signature=1sIphsmXjXiLjUa7BjkJS"
+      },
+      {
+        "#debug": {
+          "requestId": "N15sBo0hYnHwzCr",
+          "url": "http://www.google.com/search?q=Crunchbase+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Crunchbase+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Crunchbase linkedin company",
+          "url": "http://www.google.com/search?q=Crunchbase+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Crunchbase+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Crunchbase Company list",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Company+list&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Crunchbase company profile",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+company+profile&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Crunchbase Login",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Login&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Crunchbase headquarters",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+headquarters&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Who owns Crunchbase",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Who+owns+Crunchbase&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Crunchbase Minecraft",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Minecraft&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Crunchbase company search",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+company+search&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Crunchbase revenue",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+revenue&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Crunchbase Company list",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Company+list&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Crunchbase company profile",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+company+profile&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Crunchbase Login",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Login&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Crunchbase headquarters",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+headquarters&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Who owns Crunchbase",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Who+owns+Crunchbase&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Crunchbase Minecraft",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+Minecraft&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Crunchbase company search",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+company+search&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Crunchbase revenue",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+revenue&sa=X&ved=2ahUKEwjQrdmm-MiTAxX3oScCHTpAC-oQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "LinkedIn - Crunchbase Company Profile & Funding",
+            "url": "https://www.crunchbase.com/organization/linkedin",
+            "displayedUrl": "https://www.crunchbase.com \u203a organization \u203a linkedin",
+            "description": "LinkedIn is a professional networking site that allows users to create business connections, search for jobs, and find potential clients.",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://www.linkedin.com/company/crunchbase",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crunchbase",
+            "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI, and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "159.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Crunchbase: Culture",
+            "url": "https://www.linkedin.com/company/crunchbase/life",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a crunchbase \u203a life",
+            "description": "... Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI, and\u00a0...",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "LinkedIn - Tech Details",
+            "url": "https://www.crunchbase.com/organization/linkedin/tech_details",
+            "displayedUrl": "https://www.crunchbase.com \u203a organization \u203a tech_details",
+            "description": "LinkedIn is a professional networking site that allows users to create business connections, search for jobs, and find potential clients.",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Crunchbase funded data on LinkedIn Pages FAQs",
+            "url": "https://www.linkedin.com/help/linkedin/answer/a552219",
+            "displayedUrl": "https://www.linkedin.com \u203a help \u203a linkedin \u203a answer",
+            "description": "LinkedIn has partnered with Crunchbase to surface an organization's funding information, directly on LinkedIn Pages.Read more",
+            "emphasizedKeywords": [
+              "LinkedIn has partnered with Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "LinkedIn - Profiles & Contacts",
+            "url": "https://www.crunchbase.com/organization/linkedin/profiles_and_contacts",
+            "displayedUrl": "https://www.crunchbase.com \u203a organization \u203a profiles_...",
+            "description": "LinkedIn is a professional networking site that allows users to create business connections, search for jobs, and find potential clients.",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Crunchbase Predictions & Insights = smarter and faster ...",
+            "url": "https://www.linkedin.com/posts/crunchbase_crunchbase-predictions-insights-smarter-activity-7262578999736872961-GXiB",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crunchbase",
+            "description": "Built on trusted private company data and powered by AI, predictions and insights helps you understand the future of private companies, avoid\u00a0...Read more",
+            "emphasizedKeywords": [
+              "company",
+              "companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "LinkedIn - Financial Details",
+            "url": "https://www.crunchbase.com/organization/linkedin/financial_details",
+            "displayedUrl": "https://www.crunchbase.com \u203a organization \u203a financial...",
+            "description": "LinkedIn is funded by 20 investors. TCV and Q4 Investments (Pty) Ltd are the most recent investors. LinkedIn has made 2 diversity investments.Read more",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Making it into a successful series A funding: An analysis of ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405918823000156",
+            "displayedUrl": "https://www.sciencedirect.com \u203a science \u203a article \u203a pii",
+            "description": "by YF Te \u00b7 2023 \u00b7 Cited by 29 \u2014 In this study, we explore the potential of using publicly available LinkedIn profiles as an alternative and complementary data source to Crunchbase for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "publicly available LinkedIn profiles"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "rawText": "by YF Te \u00b7 2023 \u00b7 Cited by 29 \u2014 In this study, we explore the potential of using publicly available LinkedIn profiles as an alternative and complementary data source to Crunchbase for\u00a0...Read more"
+            },
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Crunchbase",
+            "url": "https://en.wikipedia.org/wiki/Crunchbase",
+            "displayedUrl": "https://en.wikipedia.org \u203a wiki \u203a Crunchbase",
+            "description": "Crunchbase is a database providing information on private and public companies. Its content is compiled through a combination of live company data,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/fh9wz34Vt3WSBH3Nr/records/N15sBo0hYnHwzCr-0.html?signature=1u3wbtb7298pzxiaaqiRk"
+      },
+      {
+        "#debug": {
+          "requestId": "CHTLAAo47kPVvtC",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Crunchbase%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Crunchbase%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Crunchbase\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Crunchbase%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Crunchbase%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Crunchbase founder net worth",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+net+worth&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Crunchbase founder wife",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+wife&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Crunchbase founder age",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+age&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Crunchbase founder net worth",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+net+worth&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Crunchbase founder wife",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+wife&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Crunchbase founder age",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Crunchbase+founder+age&sa=X&ved=2ahUKEwiN_Nuw-MiTAxXn5AIHHatkNeYQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Jager McConnell - Crunchbase",
+            "url": "https://www.linkedin.com/in/jager",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jager McConnell",
+            "description": "Jager McConnell. Crunchbase. San Francisco, California, United States. 11K followers 500+ connections.Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco, California, United States",
+              "companyName": "Crunchbase",
+              "rawText": "San Francisco, California, United States \u00b7 Crunchbase"
+            },
+            "followersAmount": "10.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Rohan Poddar - Crunchbase",
+            "url": "https://www.linkedin.com/in/rohanpoddar",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rohan Poddar",
+            "description": "Rohan Poddar. Crunchbase University of Illinois at Urbana-Champaign. San Francisco Bay Area. 1K followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco Bay Area",
+              "companyName": "Crunchbase",
+              "rawText": "San Francisco Bay Area \u00b7 Crunchbase"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Megh Gautam - Building the agentic enterprise @ Box ...",
+            "url": "https://www.linkedin.com/in/meghbartma",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Megh Gautam",
+            "description": "Megh Gautam \u00b7 Building the agentic enterprise @ Box / Investor and Advisor / Formerly at Dropbox, Twilio, Microsoft, CPO @ Crunchbase \u00b7 View mutual connections\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Zavier Jack - Crunchbase",
+            "url": "https://www.linkedin.com/in/zavier-jack",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Zavier Jack",
+            "description": "Zavier Jack. Crunchbase Rutgers University. Jersey City, New Jersey, United States. 200 followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Jersey City, New Jersey, United States",
+              "companyName": "Crunchbase",
+              "rawText": "Jersey City, New Jersey, United States \u00b7 Crunchbase"
+            },
+            "followersAmount": "200+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Darpan Munjal - Founder & CEO Atom.com 3X Inc 500 ...",
+            "url": "https://www.linkedin.com/in/darpanmunjal",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Darpan Munjal",
+            "description": "Darpan Munjal \u00b7 Founder & CEO Atom.com 3X Inc 500 Entrepreneur | Contributor at TechCrunch, Inc, Crunchbase, Entrepreneur.com \u00b7 View mutual connections with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Monika Abraham - Crunchbase",
+            "url": "https://www.linkedin.com/in/monika-abraham-75b28b13a",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Monika Abraham",
+            "description": "Monika Abraham - Crunchbase Colorado College About Skilled in AI/ML product strategy, LLM integration, and customer-centric data products.Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco, California, United States",
+              "companyName": "Crunchbase",
+              "rawText": "San Francisco, California, United States \u00b7 Crunchbase"
+            },
+            "followersAmount": "580+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Joey Rahimi - IYKYK",
+            "url": "https://www.linkedin.com/in/joeyrahimi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Joey Rahimi",
+            "description": "Founder. Aiken House. May 2012 - Present 13 years 11 months. Pittsburgh, PA. Branding Brand Graphic. Co ... https://www.crunchbase.com/person/joey-rahimi.Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Susy Feng - Crunchbase",
+            "url": "https://www.linkedin.com/in/susy-feng-487333259",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Susy Feng",
+            "description": "Experience: Crunchbase \u00b7 Location: Los Angeles \u00b7 7 connections on LinkedIn. View Susy Feng's profile on LinkedIn, a professional community of 1 billion\u00a0...",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Los Angeles, California, United States",
+              "companyName": "Crunchbase",
+              "rawText": "Los Angeles, California, United States \u00b7 Crunchbase"
+            },
+            "followersAmount": "7 followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Victor Halcon - Crunchbase",
+            "url": "https://www.linkedin.com/in/victor-halcon-aa28951b8",
+            "displayedUrl": "https://www.linkedin.com \u203a ...",
+            "description": "Experience: Crunchbase \u00b7 Location: United States. View Victor Halcon's profile on LinkedIn, a professional community of 1 billion members.",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "United States",
+              "companyName": "Crunchbase",
+              "rawText": "United States \u00b7 Crunchbase"
+            },
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Rishma Mendhekar (She/Her) - Crunchbase",
+            "url": "https://www.linkedin.com/in/rishma-m",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rishma Mendhekar (She/Her)",
+            "description": "Rishma Mendhekar (She/Her). Crunchbase Georgia Institute of Technology. New York, New York, United States. 1K followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Crunchbase"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "companyName": "Crunchbase",
+              "rawText": "New York, New York, United States \u00b7 Crunchbase"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/kRT85t7vbGstaC06J/records/CHTLAAo47kPVvtC-0.html?signature=1B97oLmCDEyHxoEdowaCb"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Crunchbase",
+      "https://www.linkedin.com/company/crunchbase",
+      "https://vn.linkedin.com/company/crunchbase?trk=products_details_guest_organization_image",
+      "https://jp.linkedin.com/company/crunchbase",
+      "https://www.linkedin.com/company/crunchbase/life",
+      "https://www.linkedin.com/company/crunchbase/jobs",
+      "https://fr.linkedin.com/company/crunchbase/life",
+      "https://at.linkedin.com/company/crunchbase/life/crunchbaseforgood",
+      "https://br.linkedin.com/company/crunchbase",
+      "https://iq.linkedin.com/company/crunchbase?trk=products_details_guest_organization_image",
+      "https://jp.linkedin.com/company/crunchbase?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "https://www.linkedin.com/company/crunchbase",
+      "https://www.linkedin.com/company/crunchbase/life",
+      "https://www.linkedin.com/help/linkedin/answer/a552219",
+      "https://www.linkedin.com/posts/crunchbase_crunchbase-predictions-insights-smarter-activity-7262578999736872961-GXiB",
+      "site:linkedin.com/in \"Crunchbase\" founder",
+      "https://www.linkedin.com/in/jager",
+      "https://www.linkedin.com/in/rohanpoddar",
+      "https://www.linkedin.com/in/meghbartma",
+      "https://www.linkedin.com/in/zavier-jack",
+      "https://www.linkedin.com/in/darpanmunjal",
+      "https://www.linkedin.com/in/monika-abraham-75b28b13a",
+      "https://www.linkedin.com/in/joeyrahimi",
+      "https://www.linkedin.com/in/susy-feng-487333259",
+      "https://www.linkedin.com/in/victor-halcon-aa28951b8",
+      "https://www.linkedin.com/in/rishma-m"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/crunchbase",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/jager",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Crunchbase",
+    "description": "[](/) Resources Advanced Search [ Start Free Trial ](/buy/select-product) Talk With Sales [ Pricing ](/buy/select-product) [ Log In ](/login) [ Log In ](/login) ![](https://images.crunchbase.com/image/upload/c_pad,w_1000,f_auto,b_white,q_auto:eco,dpr_1/a2e9ad10e42f4a5d8cddeb89266da465?ik-sanitizeSvg=true) # Make better decisions, faster Discover and act on private market activity with predictive company intelligence Search Crunchbase or Send Message ![](https://images.crunchbase.com/image/upload/51d868f4f22a45d4a8854d60d332e4f9) Build a list of AI startups founded in last 6 months Cybersecurit",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://crunchbase.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/crunchbase",
+    "source_url": "https://crunchbase.com",
+    "source_type": "public_registry",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "crunchbase.com",
+    "source_urls": [
+      "https://crunchbase.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Crunchbase",
+    "description": "[](/) Resources Advanced Search [ Start Free Trial ](/buy/select-product) Talk With Sales [ Pricing ](/buy/select-product) [ Log In ](/login) [ Log In ](/login) ![](https://images.crunchbase.com/image/upload/c_pad,w_1000,f_auto,b_white,q_auto:eco,dpr_1/a2e9ad10e42f4a5d8cddeb89266da465?ik-sanitizeSvg=true) # Make better decisions, faster Discover and act on private market activity with predictive company intelligence Search Crunchbase or Send Message ![](https://images.crunchbase.com/image/upload/51d868f4f22a45d4a8854d60d332e4f9) Build a list of AI startups founded in last 6 months Cybersecurit",
+    "full_name": "Jager",
+    "first": "Jager",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://crunchbase.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "https://www.linkedin.com/in/jager",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/crunchbase",
+    "source_url": "https://crunchbase.com",
+    "source_type": "public_registry",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "crunchbase.com",
+    "source_urls": [
+      "https://crunchbase.com"
+    ],
+    "title_raw": "founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://crunchbase.com"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Jager"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Jager"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/jager"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://crunchbase.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

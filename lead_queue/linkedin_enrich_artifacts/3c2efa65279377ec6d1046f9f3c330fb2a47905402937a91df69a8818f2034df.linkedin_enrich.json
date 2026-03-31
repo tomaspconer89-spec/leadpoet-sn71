@@ -1,0 +1,760 @@
+{
+  "saved_at_utc": "2026-03-31T01:19:20.758669+00:00",
+  "queue_key": "3c2efa65279377ec6d1046f9f3c330fb2a47905402937a91df69a8818f2034df",
+  "business": "Boynton Beach, FL | Official Website",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Boynton Beach, FL | Official Website",
+      "Boynton Beach, FL | Official Website linkedin company",
+      "site:linkedin.com/company boynton-beach.org",
+      "site:linkedin.com/in \"Boynton Beach, FL | Official Website\" founder",
+      "site:linkedin.com/in \"Boynton Beach, FL | Official Website\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "frGXeM1S5uaSEie",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boynton+Beach%2C+FL+%7C+Official+Website",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boynton+Beach%2C+FL+%7C+Official+Website",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Boynton Beach, FL | Official Website",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boynton+Beach%2C+FL+%7C+Official+Website",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boynton+Beach%2C+FL+%7C+Official+Website",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach Official",
+            "description": "Website: http://Boynton-Beach.org. External link for City of Boynton Beach Official ; Industry: Government Administration ; Company size: 501-1,000 employees.Read more",
+            "emphasizedKeywords": [
+              "Website: http://Boynton-Beach.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "City of Boynton Beach, Economic Development",
+            "url": "https://www.linkedin.com/company/bbecodev",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach, Economic Development",
+            "description": "Join us in shaping Boynton Beach into a hub of economic growth and innovation. Website: https://www.boynton-beach.org/economic-development.Read more",
+            "emphasizedKeywords": [
+              "Website: https://www.boynton-beach.org/economic-development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Boynton Beach Chamber of Industry & Commerce",
+            "url": "https://www.linkedin.com/company/boyntonchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Boynton Beach Chamber of Industry & Commerce",
+            "description": "The Boynton Beach Chamber of Industry and Commerce (BBCIC) unites members and residents to create a vibrant city while providing essential tools and support\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Boynton Beach Chamber of Industry and Commerce (BBCIC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Boynton Beach City Library",
+            "url": "https://www.linkedin.com/company/bbcitylibrary",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Boynton Beach City Library",
+            "description": "The Boynton Beach City Library enhances our community's pursuit of life-long learning, information and leisure by providing the highest quality services and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Boynton Beach City Library"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "240+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Everglades Equipment Group",
+            "url": "https://cn.linkedin.com/company/everglades-equipment-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Everglades Equipment Group",
+            "description": "Founded in 1963, Everglades Equipment Group is a family owned and operated full-service John Deere dealership with 19 locations covering central and south\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Everglades Equipment Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Palmdale Oil Company",
+            "url": "https://ve.linkedin.com/company/palmdale-oil-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Palmdale Oil Company",
+            "description": "Palmdale Oil Company is a one stop shop for fuel and lubricant solutions, proudly family owned and operated for over 40 years. We serve customers across the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Palmdale Oil Company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "All In Solutions Behavioral Health",
+            "url": "https://www.linkedin.com/company/all-in-solutions-behavioral-health",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0All In Solutions Behavioral Health",
+            "description": "Hospitals and Health Care. Boynton Beach, Florida 1,125 followers. All In ... Website: https://www.allinsolutions.com/. External link for All In Solutions\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach",
+              "Website"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "MD Now Urgent Care",
+            "url": "https://www.linkedin.com/company/md-now-urgent-care-walk-in-medical-centers",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MD Now Urgent Care",
+            "description": "Website: http://www.mdnow.com. External link for MD Now Urgent Care. Industry ... Boynton Beach, FL 33426, US. Get directions. 11551 Southern Blvd, Suite 4.Read more",
+            "emphasizedKeywords": [
+              "Website",
+              "Boynton Beach",
+              "FL"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "BioFlorida, Inc.",
+            "url": "https://www.linkedin.com/company/bioflorida-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BioFlorida, Inc.",
+            "description": "BioFlorida is the premier source for supporting Florida's life sciences industry, representing a diverse range of sectors including BioPharma, MedTech, Digital\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "26.6K+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/GV2I8ERiISxfecx2y/records/frGXeM1S5uaSEie-0.html?signature=YNqhxy2TXiuwGdF8YXfC"
+      },
+      {
+        "#debug": {
+          "requestId": "gXAcnJkvN9Efq6w",
+          "url": "http://www.google.com/search?q=Boynton+Beach%2C+FL+%7C+Official+Website+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Boynton+Beach%2C+FL+%7C+Official+Website+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Boynton Beach, FL | Official Website linkedin company",
+          "url": "http://www.google.com/search?q=Boynton+Beach%2C+FL+%7C+Official+Website+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Boynton+Beach%2C+FL+%7C+Official+Website+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "City of Boynton beach's website",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=City+of+Boynton+beach%27s+website&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Boynton Beach, FL 33426",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach,+FL+33426&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Boynton beach logo",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+beach+logo&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Boynton Beach Building Department",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach+Building+Department&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Hurricane Boynton Beach florida",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Hurricane+Boynton+Beach+florida&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "City of Boynton Beach Development services",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=City+of+Boynton+Beach+Development+services&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Boynton Beach City Clerk",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach+City+Clerk&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Boynton beach beach permit",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+beach+beach+permit&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "City of Boynton beach's website",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=City+of+Boynton+beach%27s+website&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Boynton Beach, FL 33426",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach,+FL+33426&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Boynton beach logo",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+beach+logo&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Boynton Beach Building Department",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach+Building+Department&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Hurricane Boynton Beach florida",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Hurricane+Boynton+Beach+florida&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "City of Boynton Beach Development services",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=City+of+Boynton+Beach+Development+services&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Boynton Beach City Clerk",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+Beach+City+Clerk&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Boynton beach beach permit",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Boynton+beach+beach+permit&sa=X&ved=2ahUKEwiIzOvr-8iTAxWTKVkFHR3UBpkQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach Official",
+            "description": "Website: http://Boynton-Beach.org. External link for City of Boynton Beach Official ; Industry: Government Administration ; Company size: 501-1,000 employees.Read more",
+            "emphasizedKeywords": [
+              "Website: http://Boynton-Beach.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://cr.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "https://cr.linkedin.com \u203a company \u203a city-of-boynton-bea...",
+            "description": "This is the City of Boynton Beach's official LinkedIn Company Page. We will be posting new updates on LinkedIn periodically. This page will have updates on\u00a0...Read more",
+            "emphasizedKeywords": [
+              "City of Boynton Beach's official LinkedIn Company Page"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://mu.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach Official",
+            "description": "We are dedicated to enriching the lives of residents in the City of Boynton Beach by providing reliable services, fostering safe neighborhoods, and supporting a\u00a0...Read more",
+            "emphasizedKeywords": [
+              "enriching the lives of residents in the City of Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Boynton Beach, FL | Official Website",
+            "url": "https://www.boynton-beach.org/",
+            "displayedUrl": "https://www.boynton-beach.org",
+            "description": "Official City of Boynton Beach, FL \u2013 Your resource for government services, community news, events, permits, and local business info.",
+            "emphasizedKeywords": [
+              "Official City of Boynton Beach, FL"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "City of Boynton Beach, Economic Development",
+            "url": "https://www.linkedin.com/company/bbecodev",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach, Economic Development",
+            "description": "Our mission is to foster a vibrant business environment where companies can start, expand, or relocate with ease. We also focus on workforce development,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "to foster a vibrant business environment"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "City of Boynton Beach Official Information",
+            "url": "https://rocketreach.co/city-of-boynton-beach-official-profile_b4536f73fc802f71",
+            "displayedUrl": "https://rocketreach.co \u203a city-of-boynton-beach-official-...",
+            "description": "This is the City of Boynton Beach's official LinkedIn Company Page. We will be posting new updates on LinkedIn periodically.Read more",
+            "emphasizedKeywords": [
+              "City of Boynton Beach's official LinkedIn Company Page"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Boynton Beach Business Insights",
+            "url": "https://www.boynton-beach.org/508/Boynton-Beach-Business-Insights",
+            "displayedUrl": "https://www.boynton-beach.org \u203a Boynton-Beach-Busi...",
+            "description": "Boynton Beach Business Insights offers a comprehensive look into the city's dynamic business landscape, showcasing development opportunities, local business\u00a0...",
+            "emphasizedKeywords": [
+              "Boynton Beach Business Insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Andrew Mack - City of Boynton Beach Official",
+            "url": "https://www.linkedin.com/in/andrew-mack-9906a712",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrew Mack",
+            "description": "Andrew Mack. City of Boynton Beach Official Florida International University. Boynton Beach ... Websites. Company Website: http://www.boynton-beach.org/Read more",
+            "emphasizedKeywords": [
+              "Company Website: http://www.boynton-beach.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Boynton Beach, Florida, United States",
+              "companyName": "City of Boynton Beach Official",
+              "rawText": "Boynton Beach, Florida, United States \u00b7 City of Boynton Beach Official"
+            },
+            "followersAmount": "790+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Taste of Boynton Beach 2026",
+            "url": "https://boynton-beach.org/768/Taste-of-Boynton-Beach",
+            "displayedUrl": "https://boynton-beach.org \u203a Taste-of-Boynton-Beach",
+            "description": "Showcase your brand at Boynton Beach's premier culinary event! Sponsorship opportunities are available for businesses looking to connect with the community.Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach's premier culinary event"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Florida Atlantic University",
+            "url": "https://www.fau.edu/",
+            "displayedUrl": "https://www.fau.edu",
+            "description": "Florida Atlantic University (FAU) is a student-centered public research university committed to empowering students who want to make a difference.",
+            "emphasizedKeywords": [
+              "Atlantic University"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Voqe2X96cfi3Vrbt5/records/gXAcnJkvN9Efq6w-0.html?signature=TZ3UIj9eNAKomzcifBsx"
+      },
+      {
+        "#debug": {
+          "requestId": "l6Cnwug3pGOppQo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+boynton-beach.org",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+boynton-beach.org",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company boynton-beach.org",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+boynton-beach.org",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+boynton-beach.org",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach Official",
+            "description": "Website: http://Boynton-Beach.org. External link for City of Boynton Beach Official ; Industry: Government Administration ; Company size: 501-1,000 employees.Read more",
+            "emphasizedKeywords": [
+              "Boynton",
+              "Beach",
+              "org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "City of Boynton Beach Official",
+            "url": "https://ec.linkedin.com/company/city-of-boynton-beach-official",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach Official",
+            "description": "We are dedicated to enriching the lives of residents in the City of Boynton Beach by providing reliable services, fostering safe neighborhoods, and supporting a\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "City of Boynton Beach, Economic Development",
+            "url": "https://www.linkedin.com/company/bbecodev",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Boynton Beach, Economic Development",
+            "description": "The City of Boynton Beach Economic Development Division is dedicated to building a thriving local economy by attracting investment, supporting our business\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Greater Boynton Beach Chamber of Commerce",
+            "url": "https://www.linkedin.com/company/greater-boynton-beach-chamber-of-commerce",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Boynton Beach Chamber of Commerce",
+            "description": "For more than 85 years, The Greater Boynton Beach Chamber of Commerce has been focused on building and growing a sustainable business climate.Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "380+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Boynton Beach Chamber of Industry & Commerce",
+            "url": "https://www.linkedin.com/company/boyntonchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Boynton Beach Chamber of Industry & Commerce",
+            "description": "The Boynton Beach Chamber of Industry and Commerce (BBCIC) unites members and residents to create a vibrant city while providing essential tools and support\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Boynton Beach CRA",
+            "url": "https://www.linkedin.com/company/boynton-beach-cra",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Boynton Beach CRA",
+            "description": "The BBCRA serves the community by guiding redevelopment activities that create a vibrant downtown core and revitalized neighborhoods.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Greater Boynton Beach Chamber of Commerce",
+            "url": "https://se.linkedin.com/company/greater-boynton-beach-chamber-of-commerce?trk=public_profile_experience-group-header",
+            "displayedUrl": "https://se.linkedin.com \u203a company \u203a greater-boynton-bea...",
+            "description": "By attracting new businesses, supporting job creation, and promoting economic development, the chamber is helping make The Greater Boynton Beach area the place\u00a0...",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Greater Boynton Beach Foundation",
+            "url": "https://www.linkedin.com/company/greater-boynton-beach-foundation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Boynton Beach Foundation",
+            "description": "* Focus our efforts in strengthening recreation, education and culture in Greater Boynton Beach. * Serve as a vehicle to identify important community issues and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Boynton Beach City Library",
+            "url": "https://www.linkedin.com/company/bbcitylibrary",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Boynton Beach City Library",
+            "description": "About us. The Boynton Beach City Library enhances our community's pursuit of life-long learning, information and leisure by providing the highest quality\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "240+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Greater Boynton Beach Chamber of Commerce",
+            "url": "https://gt.linkedin.com/company/greater-boynton-beach-chamber-of-commerce",
+            "displayedUrl": "https://gt.linkedin.com \u203a company",
+            "description": "By attracting new businesses, supporting job creation, and promoting economic development, the chamber is helping make The Greater Boynton Beach area the place\u00a0...",
+            "emphasizedKeywords": [
+              "Boynton Beach"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Z4HASNdZAzZt1gDBB/records/l6Cnwug3pGOppQo-0.html?signature=oNUak1ygJRzP0Lf2EEXZ"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Boynton Beach, FL | Official Website",
+      "https://www.linkedin.com/company/city-of-boynton-beach-official",
+      "https://www.linkedin.com/company/bbecodev",
+      "https://www.linkedin.com/company/boyntonchamber",
+      "https://www.linkedin.com/company/bbcitylibrary",
+      "https://cn.linkedin.com/company/everglades-equipment-group",
+      "https://ve.linkedin.com/company/palmdale-oil-company",
+      "https://www.linkedin.com/company/all-in-solutions-behavioral-health",
+      "https://www.linkedin.com/company/md-now-urgent-care-walk-in-medical-centers",
+      "https://www.linkedin.com/company/bioflorida-inc-",
+      "https://www.linkedin.com/company/city-of-boynton-beach-official",
+      "https://cr.linkedin.com/company/city-of-boynton-beach-official",
+      "https://mu.linkedin.com/company/city-of-boynton-beach-official",
+      "https://www.linkedin.com/company/bbecodev",
+      "https://www.linkedin.com/in/andrew-mack-9906a712",
+      "site:linkedin.com/company boynton-beach.org",
+      "https://www.linkedin.com/company/city-of-boynton-beach-official",
+      "https://ec.linkedin.com/company/city-of-boynton-beach-official",
+      "https://www.linkedin.com/company/bbecodev",
+      "https://www.linkedin.com/company/greater-boynton-beach-chamber-of-commerce",
+      "https://www.linkedin.com/company/boyntonchamber",
+      "https://www.linkedin.com/company/boynton-beach-cra",
+      "https://se.linkedin.com/company/greater-boynton-beach-chamber-of-commerce?trk=public_profile_experience-group-header",
+      "https://www.linkedin.com/company/greater-boynton-beach-foundation",
+      "https://www.linkedin.com/company/bbcitylibrary",
+      "https://gt.linkedin.com/company/greater-boynton-beach-chamber-of-commerce"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/andrew-mack-9906a712",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Boynton Beach, FL | Official Website",
+    "description": "![Loading](https://boynton-beach.org/Common/images/ajax-loader.gif) Loading [Skip to Main Content](https://boynton-beach.org/#cc9b263b9d-a7e2-4e23-b747-b6d686e76be0) [Create a Website Account](https://boynton-beach.org/MyAccount/ProfileCreate) - Manage notification subscriptions, save form progress and more. * [Website Sign In](https://boynton-beach.org/MyAccount) [![FL Boynton Beach Home Page](https://boynton-beach.org/ImageRepository/Document?documentID=67)](https://boynton-beach.org/) ![Go to search box](https://boynton-beach.org/ImageRepository/Document?documentID=71) 1.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://boynton-beach.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://boynton-beach.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "boynton-beach.org",
+    "source_urls": [
+      "https://boynton-beach.org"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Boynton Beach, FL | Official Website",
+    "description": "![Loading](https://boynton-beach.org/Common/images/ajax-loader.gif) Loading [Skip to Main Content](https://boynton-beach.org/#cc9b263b9d-a7e2-4e23-b747-b6d686e76be0) [Create a Website Account](https://boynton-beach.org/MyAccount/ProfileCreate) - Manage notification subscriptions, save form progress and more. * [Website Sign In](https://boynton-beach.org/MyAccount) [![FL Boynton Beach Home Page](https://boynton-beach.org/ImageRepository/Document?documentID=67)](https://boynton-beach.org/) ![Go to search box](https://boynton-beach.org/ImageRepository/Document?documentID=71) 1.",
+    "full_name": "Andrew Mack",
+    "first": "Andrew",
+    "last": "Mack",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://boynton-beach.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "https://www.linkedin.com/in/andrew-mack-9906a712",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+    "source_url": "https://boynton-beach.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "boynton-beach.org",
+    "source_urls": [
+      "https://boynton-beach.org"
+    ],
+    "title_raw": "",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://boynton-beach.org"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/city-of-boynton-beach-official"
+    },
+    "first": {
+      "before": "",
+      "after": "Andrew"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Andrew Mack"
+    },
+    "last": {
+      "before": "",
+      "after": "Mack"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/andrew-mack-9906a712"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://boynton-beach.org"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    }
+  }
+}

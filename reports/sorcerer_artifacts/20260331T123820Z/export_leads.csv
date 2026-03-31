@@ -1,0 +1,79 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T12:37:47.147594Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp14_1sg3s/evidence/domain/maynardnexsen.com.json","","2026-06-29T12:37:47.147597Z","business consulting firm advisor email","2026-03-31T12:37:24.377044Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T12:37:47.160376Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp14_1sg3s/evidence/domain/vaam.io.json","","2026-06-29T12:37:47.160378Z","SaaS startup CEO contact information","2026-03-31T12:37:27.552280Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T12:37:47.172968Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp14_1sg3s/evidence/domain/findemails.com.json","","2026-06-29T12:37:47.172970Z","SaaS startup CEO contact information","2026-03-31T12:37:28.201667Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","03205bb0b4779846df6f8792f0a1e50aff28ae7c5ea935fd309a2374e0e52c8e","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-03-31T12:37:47.185962Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmp14_1sg3s/evidence/domain/scribd.com.json","","2026-06-29T12:37:47.185964Z","SaaS startup CEO contact information","2026-03-31T12:37:29.504688Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# AI Fundraising Platform, Startup & Investor Matchmaking
+
+Over $215 million raised for 237+ startups. Imagine what we can achieve together. Your path is unique, so your plan should fit your vision. Whether you are an investor seeking tailored opportunities or a startup ready to scale, we turn intent into results.
+
+## Realize Your Potential with Customized Investment Strategies
+
+### Align Your Investments with Your Vision
+
+Your goals are distinct and your strategy should mirror them. We build plans that match your objectives and timeline. Family Offices that want smart diversification. Corporate Investors that pursue strategic buys. Private Equity teams that seek steady performance. Our approach sets you up for growth.
+
+### Maximize Impact and Returns
+
+MicroVCs, VCs, HNIs, and Angels trust our process. We help you cut through noise and focus on high potential deals. Clear insights guide smart action and stronger outcomes. With Qubit Capital, you invest with purpose and build a lasting legacy.
+
+### Navigate the Market with Data Driven Precision
+
+Good decisions move fast in today’s market. We use data and trend analysis to sharpen choices and reduce guesswork. Every step connects back to your goals and risk profile.
+
+## Accelerate Your Startup’s Journey at Every Stage
+
+### Support Tailored to Your Milestones
+
+Early stage and need seed capital. Later stage and preparing for a Series B. Each phase brings its own hurdles. We provide guidance and resources that keep you moving. Our end to end fundraising services help you build steady momentum.
+
+### Scale Efficiently and Attract the Right Investors
+
+Scaling is more than growing fast. It is growing smart. We refine your story, pitch, and positioning to draw aligned investors. With focused support you raise capital and strengthen your foothold. Qubit helps set the stage for long term success.
+
+### Overcome Industry Specific Challenges
+
+Each sector brings its own rules. Fintech, Healthcare, and EdTech face different tests. We understand these nuances and shape solutions that fit your space. Our flexible services evolve as your goals advance.
+
+## Empowering You with Comprehensive Startup Services
+
+### From Concept to Capital
+
+Strong companies rest on strong basics. We support you with financial models, pitch deck creation, and data room setup. You meet investors ready, clear, and confident. Each interaction moves you closer to the close.
+
+### Investor Matchmaking Platform that Finds the Right Partners
+
+Your future depends on the right match. Our AI Fundraising Platform maps strategic investors to your thesis and stage. We go beyond basic lists and connect you with partners who share your vision and add real value.
+
+### Expert Guidance Through Complex Challenges
+
+The fundraising path can get tough. With Qubit by your side, you are never alone. From first prep to the final terms, we help you tackle obstacles and secure the capital you need.
+
+## Industry Focused Funding for Maximum Impact
+
+### Specialized Solutions Across Sectors
+
+Every industry moves differently. We tailor funding support across Fintech, Blockchain, Healthcare, and Cleantech. Our understanding helps you spot openings and act at the right time.
+
+### Deep Expertise in Your Domain
+
+We work across Telecom, Software and SaaS, Travel, E Commerce, and Retail. Sector knowledge shapes strategies that fit your market. You stay ahead of shifts and lead with clarity.
+
+### Unlock Hidden Opportunities
+
+Every sector holds untapped value. We help you surface what others miss and turn gaps into gains. With Qubit, you raise capital and open new paths for growth and innovation.
+
+## Proven Success with Real Results
+
+### Over $215 Million Raised for 237+ Startups Globally
+
+Our track record speaks through outcomes. Qubit Capital has helped close over $215 million for 237+ startups. Companies like Swiipr Technologies raised a $7.6 million Series A. Ivent Pro secured €500k in seed funding. Join a network of wins across sectors and regions.
+
+### Access to a Vast Network of Investors
+
+Finding the right backer can change everything. Our network includes 20,000+ investors with 7,476 VCs, 4,202 PEs, and 4,807 Corporates. We connect you with partners who bring capital and strategic lift to reach your goals.
+
+### Ready to Unleash Your Growth Potential
+
+We are partners in growth who blend personal support with clear insights. Qubit guides your next move with focus and care. If you are an investor seeking strong opportunities or a startup ready to make your mark, we are here to help. Uncover growth opportunities today.","","https://qubit.capital","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Qubit Capital: AI Fundraising Platform, Startup & Investor Matchmaking","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","qubit.capital","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","810747cb868851bb277c2bd7652bf595e0e8668fc76aa7448610bb87e7869817","0.0","0.3","2db4bb21-aa21-5ce1-89e6-1991f85031c2","","2026-03-31T12:38:20.019929Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/qubit.capital.json","/tmp/tmp14_1sg3s/evidence/domain/qubit.capital.json","","2026-06-29T12:38:20.019936Z","venture consulting firm partner email","2026-03-31T12:37:33.626681Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T12:38:20.036695Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp14_1sg3s/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T12:38:20.036697Z","management consulting firm director email","2026-03-31T12:37:43.354911Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

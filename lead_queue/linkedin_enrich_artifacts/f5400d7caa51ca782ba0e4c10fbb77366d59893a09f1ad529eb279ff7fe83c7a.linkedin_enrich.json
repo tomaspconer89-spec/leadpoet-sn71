@@ -1,0 +1,502 @@
+{
+  "saved_at_utc": "2026-03-31T12:43:27.726630+00:00",
+  "queue_key": "f5400d7caa51ca782ba0e4c10fbb77366d59893a09f1ad529eb279ff7fe83c7a",
+  "business": "Strategic Startup Advisors \u2013 Catalyzing founder success",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Strategic Startup Advisors \u2013 Catalyzing founder success",
+      "Strategic Startup Advisors \u2013 Catalyzing founder success linkedin company",
+      "site:linkedin.com/company strategicstartupadvisors.com",
+      "site:linkedin.com/in \"Strategic Startup Advisors \u2013 Catalyzing founder success\" founder",
+      "site:linkedin.com/in \"Strategic Startup Advisors \u2013 Catalyzing founder success\" ceo"
+    ],
+    "apify_items": [],
+    "apify_item_count": 0,
+    "apify_linkedin_urls": [],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/investedd/",
+        "companyName": "Invested Development",
+        "websiteUrl": "http://www.investeddevelopment.com",
+        "industry": "Venture Capital & Private Equity",
+        "employeeCount": 1,
+        "followerCount": 748,
+        "universalName": "investedd",
+        "tagline": "Catalyzing Innovations that Matter",
+        "description": "Invested Development (ID) specializes on building bespoke private market investment strategies and supporting our partners with identifying and executing private placement investments.\n\nSince 2009 we have been an innovator and catalyst in the impact investing field. As a successful investment management company we have built a global network of mission driven innovators, investors, and advisors. \n\nHeadquartered in Atlanta, GA we have offices and affiliates in Nairobi, Kenya; Boston, MA; and Houston, TX. \n\nCommunications on this page do not constitute an offer to buy or sell, or a solicitation of an offer to buy or sell, any security. \n\nSecurities offered solely through Bequia Securities, LLC, member FINRA and SIPC\n",
+        "companyId": 466357,
+        "hashtag": null,
+        "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "http://www.investeddevelopment.com"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Atlanta",
+          "geographicArea": "GA",
+          "postalCode": "30307",
+          "line1": null,
+          "line2": null,
+          "description": null
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2009,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQGBqadZl70hqg/company-logo_200_200/company-logo_200_200/0/1631352269004?e=1776297600&v=beta&t=jwkC4cis4yJnbWOwVLXvt3sdxZ1KQa9FsTF4iY4GBFk",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQEP6j1s2ilFqQ/company-background_10000/company-background_10000/0/1584513456295/invested_development_cover?e=1775566800&v=beta&t=EQiwjYA3K1uuY2QN__r5jt4JTx0KCs6QQu0btQ9GjLw",
+        "croppedCoverImage": null,
+        "specialities": [
+          "Start-up Financing",
+          "Impact Investing",
+          "Social Venture Incubation",
+          "Venture Capital",
+          "Working Capital",
+          "Private Equity"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "Metro Atlanta Chamber",
+            "followerCount": 31539,
+            "url": "https://www.linkedin.com/company/metro-atlanta-chamber/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHeJeQSmpKWlw/company-logo_200_200/company-logo_200_200/0/1694112867111/metro_atlanta_chamber_logo?e=1776297600&v=beta&t=9bIsETOxE5WF5fjohbO_CIZakgAE63ts4lVl25SvthU",
+            "industryV2Taxonomy": "Non-profit Organization Management",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4D1BAQH0cnz56kZ9dg/company-background_10000/company-background_10000/0/1620917295802/metro_atlanta_chamber_cover?e=1775566800&v=beta&t=bSQs5O-Hm3UqeKKiG0oTBoFbQSg_R6eal_KYgWWeUns",
+            "companyId": 25140,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Atlanta",
+              "geographicArea": "Georgia",
+              "postalCode": null,
+              "line1": "191 Peachtree St NE",
+              "line2": null,
+              "description": "191 Peachtree Towers"
+            },
+            "universalName": "metro-atlanta-chamber"
+          },
+          {
+            "name": "WEX",
+            "followerCount": 124504,
+            "url": "https://www.linkedin.com/company/wexinc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEqDSQp6mtoSw/company-logo_200_200/B56Zx8YMCPJUAM-/0/1771613242228/wexinc_logo?e=1776297600&v=beta&t=C4Vwauvtd3Hftf1OjibIzeoAkEZSOLMaqjxrV-v4a1g",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHH2jEMyw1Qwg/image-scale_127_750/B56Zx8YHbPKAAM-/0/1771613224024/wexinc_cover?e=1775566800&v=beta&t=XrVQp0Zv0pagdMEZWX-ILVr6HO0K35PpWX3ZfYgAICM",
+            "industryV2Taxonomy": "Software Development",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEP-YRm_d3v7Q/company-background_200/B56Zx8YHcNJQAc-/0/1771613223636/wexinc_cover?e=1775566800&v=beta&t=Xf8O58434sad5mIcIgFkGkCjfSb116KmWqvn5jdFqsk",
+            "companyId": 11637,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Portland",
+              "geographicArea": "Maine",
+              "postalCode": "04101",
+              "line1": "1 Hancock Street",
+              "line2": null,
+              "description": "Corporate Headquarters"
+            },
+            "universalName": "wexinc"
+          },
+          {
+            "name": "Village Capital",
+            "followerCount": 51413,
+            "url": "https://www.linkedin.com/company/village-capital/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGBSoM6B3NrgA/company-logo_200_200/company-logo_200_200/0/1675114516139/village_capital_logo?e=1776297600&v=beta&t=NKeXeX7MdgUg4yc0K0TOn1B8rNDAImxhxkFAfrwr4zk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHy8Iw1GN7Ovg/image-scale_127_750/image-scale_127_750/0/1667841235837/village_capital_cover?e=1775566800&v=beta&t=ozIpvu-erCNsdcJx0Ox2wH3szlLpmSajzGVoxo8xz6g",
+            "industryV2Taxonomy": "Non-profit Organizations",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEXzqzL6bD51w/company-background_10000/company-background_10000/0/1667841235886/village_capital_cover?e=1775566800&v=beta&t=gnYKrlyDdJh41UiVbr2O3-S0ieribAnkXwcFGpb7Q90",
+            "companyId": 2348246,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Washington",
+              "geographicArea": "District of Columbia",
+              "postalCode": "20005",
+              "line1": "1101 K St NW",
+              "line2": "Suite 920",
+              "description": "Headquarters"
+            },
+            "universalName": "village-capital"
+          },
+          {
+            "name": "Sheppard",
+            "followerCount": 28464,
+            "url": "https://www.linkedin.com/company/sheppard-mullin/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFDmqN2Jzjy_w/company-logo_400_400/B56Zwr.hk3IwAc-/0/1770264337032/sheppard_mullin_logo?e=1776297600&v=beta&t=Gq3e-RGu8MHniLmIZY662A0Q36Qd-L1Gksc4b-HBBFM",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQH6yGEzj_1Z-g/image-scale_127_750/B56Zwr96hKHUAM-/0/1770264178972/sheppard_mullin_cover?e=1775566800&v=beta&t=MvgXxpqM8mwK5YgNBu2KBSkCHOG0jaFu7_mXdoikR4o",
+            "industryV2Taxonomy": "Law Practice",
+            "industry": "Law Practice",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQE52sHV4jDpgw/company-background_10000/B56Zwr96kkHIAU-/0/1770264179218/sheppard_mullin_cover?e=1775566800&v=beta&t=7yW6-eTbjMnmY8HWRC_d62zVfeZUbaWMDqwcSIBCF2w",
+            "companyId": 9267,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Los Angeles",
+              "geographicArea": "California",
+              "postalCode": "90071",
+              "line1": "350 S Grand Ave",
+              "line2": "40th Floor",
+              "description": "City National 2CAL"
+            },
+            "universalName": "sheppard-mullin"
+          },
+          {
+            "name": "Gates Foundation",
+            "followerCount": 1488836,
+            "url": "https://www.linkedin.com/company/gates-foundation/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_200_200/company-logo_200_200/0/1736784969376/bill__melinda_gates_foundation_logo?e=1776297600&v=beta&t=ymRxiAf8NC7WAYvXENOhbpDF03KU3oEoxmggzQJz9Uk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFEYwhldTRZpw/image-scale_191_1128/B56ZoIXrlmJsAc-/0/1761077018095/gates_foundation_cover?e=1775566800&v=beta&t=jNjqvE2jxWAxe5NifgR01YsFuxADvMHvt6Op79g7iGg",
+            "industryV2Taxonomy": "Non-profit Organizations",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHKufPag6moIQ/company-background_200/B56ZoIXrl5I0Ac-/0/1761077017985/gates_foundation_cover?e=1775566800&v=beta&t=ABngdI98FiBkzmgqA14zxOTFWUkoYrr1sR8yocw048c",
+            "companyId": 8736,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Seattle",
+              "geographicArea": "WA",
+              "postalCode": "98109",
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "gates-foundation"
+          },
+          {
+            "name": "Salesforce Ventures",
+            "followerCount": 46718,
+            "url": "https://www.linkedin.com/company/salesforce-ventures/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQHP4XMjk3WTRA/company-logo_200_200/company-logo_200_200/0/1654720546235/salesforce_ventures_logo?e=1776297600&v=beta&t=Bqo4I1Xqe84xltxKilwrOCCEuCEpFaTs6GeXh7QTn80",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEw7OxiqRfrdA/image-scale_108_640/B4EZ0YNxknGwAQ-/0/1774227760767/salesforce_ventures_cover?e=1775566800&v=beta&t=L9Tj4_HgMfLaM6TwFYh5tIRAjr94FDsNyq9cqbW0JIs",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEsPsSNSG65pw/company-background_10000/B4EZ0YNxkQIgAU-/0/1774227758337/salesforce_ventures_cover?e=1775566800&v=beta&t=fIACsV3NFSZb6Pz6fLlHJQiQx0i7pxeda18Zc_4wRyM",
+            "companyId": 18609517,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "San Francisco",
+              "geographicArea": "California",
+              "postalCode": "94015",
+              "line1": "415 Mission Street",
+              "line2": null,
+              "description": "San Francisco"
+            },
+            "universalName": "salesforce-ventures"
+          },
+          {
+            "name": "CGAP",
+            "followerCount": 30284,
+            "url": "https://www.linkedin.com/company/cgap-world-bank-group/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQFy9GHvcWpkiw/company-logo_200_200/company-logo_200_200/0/1630556274420/cgap_world_bank_group_logo?e=1776297600&v=beta&t=Oi9NGVL-X8UphmGw59tZkxs3SMJ-4oXMRutkELcbWFI",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQF7MVoF7HFmFw/image-scale_127_750/image-scale_127_750/0/1688153149493/cgap_world_bank_group_cover?e=1775566800&v=beta&t=oASwJ2htcDIe0h_ZpvFVF0EFoNoeNIOPoxFVeJqhD2M",
+            "industryV2Taxonomy": "International Affairs",
+            "industry": "International Affairs",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEJ1-SgFRwmiw/company-background_10000/company-background_10000/0/1688153149031/cgap_world_bank_group_cover?e=1775566800&v=beta&t=R-xtdNGEU8jIXvwIkZX9mxGZv5dfPqEVi4Z9J-yb-Uc",
+            "companyId": 852012,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Washington",
+              "geographicArea": "District of Columbia",
+              "postalCode": "20433",
+              "line1": "1818 H St NW",
+              "line2": "MSN F3K-306",
+              "description": null
+            },
+            "universalName": "cgap-world-bank-group"
+          },
+          {
+            "name": "Kliqxe",
+            "followerCount": 3771,
+            "url": "https://www.linkedin.com/company/kliqxe/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHG5_wwlXPUOg/company-logo_400_400/B56ZYfKNPCGcAY-/0/1744279492812/kliqxe_logo?e=1776297600&v=beta&t=1S5a0PKPqRwFO6wUKK64SRnoCBAidFIpixkkb0GuU7s",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEO8ejF8ezXew/image-scale_108_640/B56ZznZH4rJkAQ-/0/1773408649555/kliqxe_cover?e=1775566800&v=beta&t=SpdZdarxtocTP-QD270Bc3dBJQ-iu6E5U0dpSl7Dde0",
+            "industryV2Taxonomy": "IT Services and IT Consulting",
+            "industry": "Information Technology & Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF9Pin8GbH-rA/company-background_200/B56ZznZH5dKYAk-/0/1773408649371/kliqxe_cover?e=1775566800&v=beta&t=yZDZeT6EQEBSxZ5pshBQaECg1R8MpQ7rW9-NBbYSng8",
+            "companyId": 13229786,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "MY",
+              "city": "Kuala Lumpur",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "kliqxe"
+          },
+          {
+            "name": "The Rockefeller Foundation",
+            "followerCount": 416402,
+            "url": "https://www.linkedin.com/company/the-rockefeller-foundation/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFySd3aX4jhbg/company-logo_200_200/company-logo_200_200/0/1660827369771/the_rockefeller_foundation_logo?e=1776297600&v=beta&t=M-aqjfBjlyYf6I7Y5870_ynYLuqfJhSO3WO8m4_keeo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGGrCShzuxe1Q/image-scale_127_750/image-scale_127_750/0/1660827425396/the_rockefeller_foundation_cover?e=1775566800&v=beta&t=BI4LnIgT6irJqjRs6hC2maxOeAW3lEDo8_PDGdl3kAM",
+            "industryV2Taxonomy": "Non-profit Organizations",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQH2FmX0QRv25A/company-background_10000/company-background_10000/0/1660827426554/the_rockefeller_foundation_cover?e=1775566800&v=beta&t=o5V7ojbAlhAJcuiOCCLHvnt0l-JE7yuZS6T51xG0RiM",
+            "companyId": 166403,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10018",
+              "line1": "420 5th Ave.",
+              "line2": null,
+              "description": "NYC Headquarters"
+            },
+            "universalName": "the-rockefeller-foundation"
+          },
+          {
+            "name": "Sapphire Ventures",
+            "followerCount": 51173,
+            "url": "https://www.linkedin.com/company/sapphirevc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFlt4-DyaHRVQ/company-logo_200_200/company-logo_200_200/0/1686172732607/sapphirevc_logo?e=1776297600&v=beta&t=jRMxylMbQs2bwC8FFbRfTllnEpio9_UjFR9bQahxx3M",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEZx0LH6Bgopg/image-scale_127_750/image-scale_127_750/0/1690217824849/sapphirevc_cover?e=1775566800&v=beta&t=1O27pno9KCYJZ66fm7FD4yMiTtuoVHw4Jfz36T-WfSA",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF4CNKpnwF1sg/company-background_10000/company-background_10000/0/1690217824904/sapphirevc_cover?e=1775566800&v=beta&t=UPZPTGpt2-q462iVqVKwy9SMRMEjBoCLIzgClDAMH0s",
+            "companyId": 2223266,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Menlo Park",
+              "geographicArea": "CA",
+              "postalCode": "94025",
+              "line1": "556 Santa Cruz Avenue",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "sapphirevc"
+          },
+          {
+            "name": "ATDC",
+            "followerCount": 9334,
+            "url": "https://www.linkedin.com/company/atdc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQH3gWreetzhfA/company-logo_200_200/company-logo_200_200/0/1631320532100?e=1776297600&v=beta&t=-CRpV0eFMbUF0V_Mln8i3nxFPcaeZaqalPPFIIYj9kk",
+            "industryV2Taxonomy": "Higher Education",
+            "industry": "Higher Education",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQFA1ulxuj8q9w/company-background_10000/company-background_10000/0/1584081212463/atdc_cover?e=1775566800&v=beta&t=hC4nrw38Vfumtya3uSXYaqGf2rgVjYV_TnrqpJiZyCg",
+            "companyId": 50999,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Atlanta",
+              "geographicArea": "GA",
+              "postalCode": "30308",
+              "line1": "75 5th Street NW",
+              "line2": "Suite 2000",
+              "description": "Tech Square"
+            },
+            "universalName": "atdc"
+          },
+          {
+            "name": "BFA Global",
+            "followerCount": 24027,
+            "url": "https://www.linkedin.com/company/bfaglobal/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQGVEgz2OTFHpQ/company-logo_200_200/company-logo_200_200/0/1630570655042/bfaglobal_logo?e=1776297600&v=beta&t=G74TkPU_uDWpstB0hRrOd8Lqlcj7ZrRsZWwt3HL4s6Q",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4D1BAQHbMT7rckfFpQ/company-background_10000/company-background_10000/0/1607517048877/bfaglobal_cover?e=1775566800&v=beta&t=cxXm6btXKdkc0DFIbUr5j4VWmeWSF-JuJYpvgrureRQ",
+            "companyId": 250797,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "KE",
+              "city": "Nairobi",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": "Riverside Green Suites",
+              "line2": "Acacia Suite, 2nd Floor",
+              "description": null
+            },
+            "universalName": "bfaglobal"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Atlanta",
+            "geographicArea": "GA",
+            "postalCode": "30307",
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Atlanta",
+            "latitude": 33.74975,
+            "longitude": -84.38857
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/investedd",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Strategic Startup Advisors \u2013 Catalyzing founder success",
+    "description": "# Strategic Startup Advisors \u2013 Catalyzing founder success ![](https://exforddemo.files.wordpress.com/2019/08/tom-winckels-i7olrdm9yiw-unsplash.jpg) \u201cA goal without a plan is just a wish.\u201d ## Our Services We help founders: * Create **financial models** * Determine **business trajectory** * Conduct **market analysis** * And **much, much more!** ## Plan for success together Identify and clarify your product, vision for success, target market, financial projections, marketing strategy, and so much more ![](https://strategicstartupadvisors.com/wp-content/uploads/2022/12/ssalogo1.png?w=689)",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://strategicstartupadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://strategicstartupadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "strategicstartupadvisors.com",
+    "source_urls": [
+      "https://strategicstartupadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Strategic Startup Advisors \u2013 Catalyzing founder success",
+    "description": "Invested Development (ID) specializes on building bespoke private market investment strategies and supporting our partners with identifying and executing private placement investments. Since 2009 we have been an innovator and catalyst in the impact investing field. As a successful investment management company we have built a global network of mission driven innovators, investors, and advisors. Headquartered in Atlanta, GA we have offices and affiliates in Nairobi, Kenya; Boston, MA; and Houston, TX.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://strategicstartupadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/investedd",
+    "source_url": "https://strategicstartupadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "strategicstartupadvisors.com",
+    "source_urls": [
+      "https://strategicstartupadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/investedd"
+    },
+    "description": {
+      "before": "# Strategic Startup Advisors \u2013 Catalyzing founder success ![](https://exforddemo.files.wordpress.com/2019/08/tom-winckels-i7olrdm9yiw-unsplash.jpg) \u201cA goal without a plan is just a wish.\u201d ## Our Services We help founders: * Create **financial models** * Determine **business trajectory** * Conduct **market analysis** * And **much, much more!** ## Plan for success together Identify and clarify your product, vision for success, target market, financial projections, marketing strategy, and so much more ![](https://strategicstartupadvisors.com/wp-content/uploads/2022/12/ssalogo1.png?w=689)",
+      "after": "Invested Development (ID) specializes on building bespoke private market investment strategies and supporting our partners with identifying and executing private placement investments. Since 2009 we have been an innovator and catalyst in the impact investing field. As a successful investment management company we have built a global network of mission driven innovators, investors, and advisors. Headquartered in Atlanta, GA we have offices and affiliates in Nairobi, Kenya; Boston, MA; and Houston, TX."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Network Incubator Philadelphia | Network Incubator in PA",
+  "lead": {
+    "business": "Network Incubator Philadelphia | Network Incubator in PA",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://zrellabltd.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/the-philadelphia-fashion-incubator",
+    "source_url": "https://zrellabltd.com",
+    "description": "The Philadelphia Fashion Incubator is a non-profit nurturing emerging fashion design entrepreneurs and start-ups to successfully run their small businesses. Impacting local economic development, the Incubator has successfully launched 50+ fashion brands in sustainability, gender-neutral, size inclusive, modest wear, among other apparel and accessory categories.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

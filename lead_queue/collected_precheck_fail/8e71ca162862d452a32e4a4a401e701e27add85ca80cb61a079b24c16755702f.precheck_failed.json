@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Expert Venture Capital Consulting Services for Startups",
+  "lead": {
+    "business": "Expert Venture Capital Consulting Services for Startups",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://waveup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://ar.linkedin.com/company/entrecorps",
+    "source_url": "https://waveup.com",
+    "description": "EntreCORPS is a growth and innovation strategy consulting firm. By recruiting selectively from across the University of Illinois campus, expertise is brought together to create high-impact and entrepreneurial solutions for clients. EntreCORPS collaborates with clients ranging from early stage ventures to innovation-driving groups within Fortune 500 companies.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

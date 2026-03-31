@@ -181,7 +181,7 @@ class LeadSorcererOrchestrator:
             required_providers = [
                 "gse",
                 "openrouter",
-                "firecrawl",
+                "apify_crawl",
             ]
             validate_provider_config(required_providers, costs_config)
         except Exception as e:

@@ -18,6 +18,7 @@ import json
 import os
 import re
 import time
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
 from urllib.request import Request, urlopen
@@ -224,30 +225,28 @@ class CrawlTool:
         self.schema_version = load_schema_checksum()
         self.costs_config = load_costs_config()
 
-        # Validate required providers
-        required_providers = ["firecrawl"]
+        # Validate required providers (crawl uses Apify Website Content Crawler by default)
+        required_providers = ["apify_crawl"]
         for provider in required_providers:
             if provider not in self.costs_config:
                 raise KeyError(
                     f"Missing required provider in costs configuration: {provider}"
                 )
 
-        # Initialize Firecrawl client
+        # Optional Firecrawl (legacy structured extract; USE_FIRECRAWL_FOR_CRAWL=1)
         self.firecrawl_key = os.environ.get("FIRECRAWL_KEY")
         self.firecrawl_client = None
         if self.firecrawl_key:
             from firecrawl import Firecrawl
             self.firecrawl_client = Firecrawl(api_key=self.firecrawl_key)
         else:
-            self.logger.warning(
-                "FIRECRAWL_KEY not set; CrawlTool will use local trafilatura fallback only."
-            )
-        # Crawl4AI local API (preferred when available)
+            self.logger.debug("FIRECRAWL_KEY not set; Firecrawl crawl path disabled.")
+        # Crawl4AI local API (optional; USE_CRAWL4AI_FIRST=1)
         self.crawl4ai_api_url = os.environ.get(
             "CRAWL4AI_API_URL", "http://127.0.0.1:11235/scrape"
         ).strip()
         self.use_crawl4ai_first = (
-            os.environ.get("USE_CRAWL4AI_FIRST", "1").strip() != "0"
+            os.environ.get("USE_CRAWL4AI_FIRST", "0").strip() != "0"
         )
         # Global permit manager for concurrency control
         self.permit_manager = PermitManager(
@@ -1289,7 +1288,9 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 truncate_evidence_arrays(record)
 
                 # COST OPTIMIZED: Single scrape operation instead of scrape+extract
-                cost = 0.0 if cache_hit else self.costs_config["firecrawl"]
+                cost = 0.0 if cache_hit else self.costs_config.get(
+                    "apify_crawl", 0.001
+                )
                 if "cost" not in record:
                     record["cost"] = {
                         "domain_usd": 0.0,
@@ -1352,20 +1353,15 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
         self, domain: str, icp_config: Dict[str, Any]
     ) -> Dict[str, Any]:
         """
-        Extract data from domain using Firecrawl v2 API with single scrape operation.
-
-        Args:
-            domain: Domain to extract from
-            icp_config: ICP configuration for dynamic intent prompts and specific URLs
-
-        Returns:
-            Extracted data dictionary
+        Run the crawl stage for a domain. By default this uses Apify Website
+        Content Crawler inside _extract_single_company / _extract_database_site.
+        Optional Firecrawl JSON extract: set USE_FIRECRAWL_FOR_CRAWL=1.
         """
-        self.logger.info(f"🔍 Starting Firecrawl v2 extraction for domain: {domain}")
+        self.logger.info(f"🔍 Starting website crawl for domain: {domain}")
+        has_apify = bool(os.environ.get("APIFY_API_TOKEN", "").strip())
         self.logger.info(
-            f"🔑 Firecrawl API key: {self.firecrawl_key[:10]}..."
-            if self.firecrawl_key
-            else "❌ No API key"
+            f"🔑 Crawl providers: apify_token={'set' if has_apify else 'missing'}, "
+            f"firecrawl={'set' if self.firecrawl_key else 'missing'}"
         )
 
         # Detect site type to determine extraction strategy
@@ -1376,6 +1372,155 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
             return await self._extract_database_site(domain, icp_config)
         else:
             return await self._extract_single_company(domain, icp_config)
+
+    def _apify_website_crawl_fetch_sync(self, target_url: str) -> Optional[Dict[str, Any]]:
+        """
+        Run Apify Website Content Crawler (single page) via run-sync-get-dataset-items.
+        Returns markdown/text/url/title/links or None on failure.
+        """
+        token = os.environ.get("APIFY_API_TOKEN", "").strip()
+        if not token:
+            return None
+
+        actor_id = os.environ.get(
+            "APIFY_WEB_CRAWLER_ACTOR_ID", "apify/website-content-crawler"
+        ).strip()
+        if "/" in actor_id and "~" not in actor_id:
+            actor_id = actor_id.replace("/", "~", 1)
+
+        run_url = (
+            "https://api.apify.com/v2/acts/"
+            f"{urllib.parse.quote(actor_id, safe='~')}/run-sync-get-dataset-items"
+            f"?token={urllib.parse.quote(token)}"
+        )
+
+        crawler_type = os.environ.get(
+            "APIFY_WEB_CRAWLER_TYPE", "playwright:adaptive"
+        ).strip()
+        payload = {
+            "startUrls": [{"url": target_url}],
+            "maxCrawlDepth": 0,
+            "maxCrawlPages": 1,
+            "maxResults": 1,
+            "saveMarkdown": True,
+            "crawlerType": crawler_type,
+            "useSitemaps": False,
+        }
+
+        timeout = int(os.environ.get("APIFY_WEB_CRAWL_TIMEOUT_SECS", "180"))
+        body = json.dumps(payload).encode("utf-8")
+        req = Request(
+            run_url,
+            data=body,
+            headers={"Content-Type": "application/json", "Accept": "application/json"},
+            method="POST",
+        )
+        try:
+            with urlopen(req, timeout=timeout) as resp:
+                raw = resp.read().decode("utf-8", errors="replace")
+        except Exception as exc:
+            self.logger.warning(f"Apify web crawl failed for {target_url}: {exc}")
+            return None
+
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            self.logger.warning("Apify web crawl returned non-JSON response")
+            return None
+
+        if not isinstance(data, list) or not data:
+            self.logger.warning("Apify web crawl returned empty dataset")
+            return None
+
+        item = data[0]
+        if not isinstance(item, dict):
+            return None
+
+        markdown = str(item.get("markdown") or item.get("text") or "")
+        page_url = str(
+            item.get("url") or item.get("canonicalUrl") or target_url
+        )
+        title = ""
+        meta = item.get("metadata")
+        if isinstance(meta, dict):
+            title = str(meta.get("title") or "")
+
+        links: List[str] = []
+        for key in ("links", "outgoingUrls", "outLinks"):
+            raw_links = item.get(key)
+            if isinstance(raw_links, list):
+                links.extend(str(u) for u in raw_links if u)
+        if not links and markdown:
+            links = re.findall(r"\[[^\]]+\]\((https?://[^)]+)\)", markdown)
+
+        return {
+            "markdown": markdown,
+            "url": page_url,
+            "title": title,
+            "links": links,
+        }
+
+    def _minimal_extract_from_markdown_page(
+        self,
+        domain: str,
+        target_url: str,
+        page: Dict[str, Any],
+        *,
+        provenance_key: str,
+    ) -> Dict[str, Any]:
+        """Map crawled markdown into the same coarse shape as legacy Crawl4AI / Firecrawl-lite paths."""
+        markdown = str(page.get("markdown") or "")
+        title = str(page.get("title") or "")
+        links = page.get("links") or []
+        if not isinstance(links, list):
+            links = []
+        return {
+            "company": {
+                "name": (title[:120] if title else domain),
+                "description": (markdown[:20000] if markdown else ""),
+                "industry": "",
+                "sub_industry": "",
+                "hq_location": "",
+                "number_of_locations": 1,
+                "founded_year": None,
+                "employee_count": "",
+                "revenue_range": "",
+                "ownership_type": "",
+                "company_type": "",
+                "specialties": [],
+                "intent": {
+                    "business_intent_score": 0.5,
+                    "intent_signals": [],
+                    "intent_category": "medium",
+                },
+            },
+            "team_members": [],
+            provenance_key: {
+                "url": target_url,
+                "links_count": len(links),
+            },
+        }
+
+    async def _extract_with_apify_website_crawl(
+        self,
+        domain: str,
+        urls_to_extract: List[str],
+    ) -> Optional[Dict[str, Any]]:
+        use_apify = os.environ.get("USE_APIFY_WEB_CRAWL", "1").strip() != "0"
+        if not use_apify or not os.environ.get("APIFY_API_TOKEN", "").strip():
+            return None
+        target_url = urls_to_extract[0] if urls_to_extract else f"https://{domain}"
+        page = await asyncio.to_thread(
+            self._apify_website_crawl_fetch_sync, target_url
+        )
+        if not page or not str(page.get("markdown") or "").strip():
+            return None
+        return self._minimal_extract_from_markdown_page(
+            domain,
+            target_url,
+            page,
+            provenance_key="apify_website_crawler",
+        )
 
     async def _extract_single_company(
         self, domain: str, icp_config: Dict[str, Any]
@@ -1406,10 +1551,23 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                 )
 
                 try:
-                    # Preferred path: local Crawl4AI API
+                    # Primary path: Apify Website Content Crawler
+                    self.logger.info(
+                        f"🕷️ Trying Apify web crawl for {domain} (primary URL)"
+                    )
+                    apify_data = await self._extract_with_apify_website_crawl(
+                        domain, urls_to_extract
+                    )
+                    if apify_data:
+                        self.logger.info(
+                            f"✅ Apify web crawl extraction successful for {domain}"
+                        )
+                        return apify_data
+
+                    # Optional: local Crawl4AI HTTP API
                     if self.use_crawl4ai_first and self.crawl4ai_api_url:
                         self.logger.info(
-                            f"🕷️ Trying Crawl4AI API first for {domain}: {self.crawl4ai_api_url}"
+                            f"🕷️ Trying Crawl4AI API for {domain}: {self.crawl4ai_api_url}"
                         )
                         crawl4ai_data = await self._extract_with_crawl4ai_api(
                             domain=domain,
@@ -1421,9 +1579,12 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                             )
                             return crawl4ai_data
 
-                    if not self.firecrawl_client:
+                    use_firecrawl = (
+                        os.environ.get("USE_FIRECRAWL_FOR_CRAWL", "0").strip() == "1"
+                    )
+                    if not use_firecrawl or not self.firecrawl_client:
                         self.logger.info(
-                            f"FIRECRAWL_KEY missing for {domain}; using local crawl fallback"
+                            f"No Apify result for {domain}; using local crawl fallback"
                         )
                         return await self._extract_with_local_fallback(
                             domain=domain,
@@ -1562,7 +1723,7 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                     raise
 
             except Exception as exc:
-                raise Exception(f"Firecrawl v2 scrape failed: {exc}")
+                raise Exception(f"Website crawl failed: {exc}")
 
     async def _extract_with_crawl4ai_api(
         self,
@@ -1908,12 +2069,19 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
 
         self.logger.info(f"🌐 Extracting from {len(urls_to_extract)} individual URLs")
 
-        # Generate shared schema and prompts
-        dynamic_intent_prompt = self._generate_database_intent_prompt(icp_config)
-        full_prompt = self._get_database_extraction_prompt(icp_config)
-        if dynamic_intent_prompt:
-            full_prompt += f"\n\n{dynamic_intent_prompt}"
-        database_schema = self._get_database_extraction_schema(icp_config)
+        use_firecrawl_db = (
+            os.environ.get("USE_FIRECRAWL_FOR_CRAWL", "0").strip() == "1"
+            and self.firecrawl_client
+        )
+
+        database_schema: Dict[str, Any] = {}
+        full_prompt = ""
+        if use_firecrawl_db:
+            dynamic_intent_prompt = self._generate_database_intent_prompt(icp_config)
+            full_prompt = self._get_database_extraction_prompt(icp_config)
+            if dynamic_intent_prompt:
+                full_prompt += f"\n\n{dynamic_intent_prompt}"
+            database_schema = self._get_database_extraction_schema(icp_config)
 
         async with self.async_semaphore_pool:
             self.logger.info(f"🔒 Acquired semaphore for domain: {domain}")
@@ -1925,59 +2093,106 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
                         f"🔍 Extracting from URL {i + 1}/{len(urls_to_extract)}: {url}"
                     )
 
-                    # Individual URL extraction using correct Firecrawl v2 format
-                    scrape_params = {
-                        "url": url,
-                        "formats": [
-                            {
-                                "type": "json",
-                                "schema": database_schema,
-                                "prompt": full_prompt,
-                            }
-                        ],
-                        # Performance & cost optimization
-                        "wait_for": 5000,  # 5-second wait for JavaScript content
-                        "only_main_content": False,
-                        "max_age": 172800,  # 2 days cache - reduces API calls by ~50%
-                        "block_ads": True,  # Faster loading, cleaner content
-                        "remove_base64_images": True,  # Smaller response size
-                    }
+                    if use_firecrawl_db:
+                        scrape_params = {
+                            "url": url,
+                            "formats": [
+                                {
+                                    "type": "json",
+                                    "schema": database_schema,
+                                    "prompt": full_prompt,
+                                }
+                            ],
+                            "wait_for": 5000,
+                            "only_main_content": False,
+                            "max_age": 172800,
+                            "block_ads": True,
+                            "remove_base64_images": True,
+                        }
 
-                    self.logger.info(f"🚀 Executing Firecrawl scrape for URL {i + 1}")
-
-                    # Use asyncio.wait_for to set timeout
-                    timeout_seconds = 300  # 5 minutes timeout
-                    response = await asyncio.wait_for(
-                        asyncio.get_event_loop().run_in_executor(
-                            None,
-                            lambda params=scrape_params: self.firecrawl_client.scrape(
-                                **params
-                            ),
-                        ),
-                        timeout=timeout_seconds,
-                    )
-
-                    # Handle Firecrawl v2 Document object response
-                    if response and hasattr(response, "json") and response.json:
-                        extracted_data = response.json
                         self.logger.info(
-                            f"✅ Successfully extracted from URL {i + 1}: {len(extracted_data)} fields"
+                            f"🚀 Executing Firecrawl scrape for URL {i + 1}"
                         )
-                        all_extractions.append(
-                            {"url": url, "data": extracted_data, "success": True}
+
+                        timeout_seconds = 300
+                        response = await asyncio.wait_for(
+                            asyncio.get_event_loop().run_in_executor(
+                                None,
+                                lambda params=scrape_params: self.firecrawl_client.scrape(
+                                    **params
+                                ),
+                            ),
+                            timeout=timeout_seconds,
                         )
+
+                        if response and hasattr(response, "json") and response.json:
+                            extracted_data = response.json
+                            self.logger.info(
+                                f"✅ Successfully extracted from URL {i + 1}: {len(extracted_data)} fields"
+                            )
+                            all_extractions.append(
+                                {"url": url, "data": extracted_data, "success": True}
+                            )
+                        else:
+                            response_type = type(response).__name__ if response else "None"
+                            self.logger.warning(
+                                f"❌ Failed to extract from URL {i + 1}: response_type={response_type}, has_json={hasattr(response, 'json') if response else False}"
+                            )
+                            all_extractions.append(
+                                {
+                                    "url": url,
+                                    "data": {},
+                                    "success": False,
+                                    "error": f"Invalid response type: {response_type}",
+                                }
+                            )
+                    elif (
+                        os.environ.get("USE_APIFY_WEB_CRAWL", "1").strip() != "0"
+                        and os.environ.get("APIFY_API_TOKEN", "").strip()
+                    ):
+                        self.logger.info(
+                            f"🚀 Apify web crawl for database URL {i + 1}"
+                        )
+                        page = await asyncio.to_thread(
+                            self._apify_website_crawl_fetch_sync, url
+                        )
+                        md = str(page.get("markdown") if page else "") or ""
+                        if page and md.strip():
+                            title = str(page.get("title") or "")
+                            extracted_data = {
+                                "company": {
+                                    "name": title[:200] if title else "",
+                                    "description": md[:20000],
+                                },
+                                "contacts": [],
+                                "intent": {},
+                            }
+                            all_extractions.append(
+                                {
+                                    "url": url,
+                                    "data": extracted_data,
+                                    "success": True,
+                                }
+                            )
+                        else:
+                            all_extractions.append(
+                                {
+                                    "url": url,
+                                    "data": {},
+                                    "success": False,
+                                    "error": "apify_empty",
+                                }
+                            )
                     else:
-                        # Log the actual response type for debugging
-                        response_type = type(response).__name__ if response else "None"
                         self.logger.warning(
-                            f"❌ Failed to extract from URL {i + 1}: response_type={response_type}, has_json={hasattr(response, 'json') if response else False}"
+                            "No APIFY_API_TOKEN and Firecrawl disabled for database crawl"
                         )
                         all_extractions.append(
                             {
                                 "url": url,
                                 "data": {},
                                 "success": False,
-                                "error": f"Invalid response type: {response_type}",
+                                "error": "no_crawl_provider",
                             }
                         )
 

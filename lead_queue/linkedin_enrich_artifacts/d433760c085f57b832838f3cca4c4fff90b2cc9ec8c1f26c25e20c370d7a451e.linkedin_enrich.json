@@ -1,0 +1,1104 @@
+{
+  "saved_at_utc": "2026-03-31T13:30:55.854720+00:00",
+  "queue_key": "d433760c085f57b832838f3cca4c4fff90b2cc9ec8c1f26c25e20c370d7a451e",
+  "business": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+      "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas linkedin company",
+      "site:linkedin.com/company pkftexas.com",
+      "site:linkedin.com/in \"Houston Accounting, Texas CPA, Business Services Firm - PKF Texas\" founder",
+      "site:linkedin.com/in \"Houston Accounting, Texas CPA, Business Services Firm - PKF Texas\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "FicBWXhVzxAegAD",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Plenus LLC (PKF International's Official Member Firm)",
+            "url": "https://www.linkedin.com/company/plenus-pkf-member",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Plenus LLC (PKF International's Official Member Firm)",
+            "description": "Plenus is a leading public accounting and consulting firm dedicated to delivering an extraordinary level of service to our clients.Read more",
+            "emphasizedKeywords": [
+              "public accounting and consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "KLICHS LLP",
+            "url": "https://www.linkedin.com/company/klichs-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KLICHS LLP",
+            "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients\u00a0...Read more",
+            "emphasizedKeywords": [
+              "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "L. Franklin Hackney CPA, PLLC",
+            "url": "https://www.linkedin.com/company/lfhcpa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0L. Franklin Hackney CPA, PLLC",
+            "description": "Franklin Hackney CPA, PLLC. Financial Services. Houston, Tx 45 followers. I help companies save money and regain productive time by creating data solutions that\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Franklin Hackney CPA, PLLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Leone Rouge Management Consultants, LLC",
+            "url": "https://www.linkedin.com/company/leone-rouge-management-consultant-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leone Rouge Management Consultants, LLC",
+            "description": "Our dedicated team of tax and accounting professionals makes sure that you have one less thing to worry about.Read more",
+            "emphasizedKeywords": [
+              "accounting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "EFS GROUP, PLLC",
+            "url": "https://www.linkedin.com/company/efsgrouppllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0EFS GROUP, PLLC",
+            "description": "We are an accounting and advisory firm that takes a modern approach to traditional principles of business financial services. ... Houston, Texas 77036, US.Read more",
+            "emphasizedKeywords": [
+              "and"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "EFS GROUP, PLLC",
+            "url": "https://gt.linkedin.com/company/efsgrouppllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0EFS GROUP, PLLC",
+            "description": "We are an accounting and advisory firm that takes a modern approach to traditional principles of business financial services. At EFS, we don't just crunch\u00a0...Read more",
+            "emphasizedKeywords": [
+              "accounting and advisory firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "GulfStar Group",
+            "url": "https://ru.linkedin.com/company/gulfstar-group",
+            "displayedUrl": "https://ru.linkedin.com \u203a company",
+            "description": "GulfStar is one of the leading middle market investment banking firms in the United States, with deep experience in mergers and acquisitions,\u00a0...",
+            "emphasizedKeywords": [
+              "firms"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "KLICHS LLP",
+            "url": "https://om.linkedin.com/company/klichs-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KLICHS LLP",
+            "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "service firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "KLICHS LLP",
+            "url": "https://kr.linkedin.com/company/klichs-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KLICHS LLP",
+            "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "service firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Acquired by Castellano-Piatt Accounting, LLC - 505cpa.com",
+            "url": "https://www.linkedin.com/company/verian-cpas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Acquired by Castellano-Piatt Accounting, LLC - 505cpa.com",
+            "description": "As a CPA led business advisory firm, we bring clarity to your financial world with tax and accounting, consulting, and financial management services.Read more",
+            "emphasizedKeywords": [
+              "CPA",
+              "business",
+              "firm",
+              "accounting",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/tnPCyj224NpRqwixN/records/FicBWXhVzxAegAD-0.html?signature=1N8jF0gKdaNFzyFDQnBYi"
+      },
+      {
+        "#debug": {
+          "requestId": "B6vTzttD14RL2wb",
+          "url": "http://www.google.com/search?q=Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas linkedin company",
+          "url": "http://www.google.com/search?q=Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Houston+Accounting%2C+Texas+CPA%2C+Business+Services+Firm+-+PKF+Texas+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Houston small business CPA",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Houston+small+business+CPA&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Texas accounting firms",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Texas+accounting+firms&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhSEAE"
+          },
+          {
+            "title": "Cpa firm houston",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Cpa+firm+houston&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhOEAE"
+          },
+          {
+            "title": "Tax accountant Houston",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Tax+accountant+Houston&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "PKF accountants business advisers",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=PKF+accountants+business+advisers&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Marino cpa firm",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Marino+cpa+firm&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhDEAE"
+          },
+          {
+            "title": "Pkf hawaii",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Pkf+hawaii&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "PKF logo",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=PKF+logo&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Houston small business CPA",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Houston+small+business+CPA&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Texas accounting firms",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Texas+accounting+firms&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhSEAE"
+          },
+          {
+            "title": "Cpa firm houston",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Cpa+firm+houston&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhOEAE"
+          },
+          {
+            "title": "Tax accountant Houston",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Tax+accountant+Houston&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "PKF accountants business advisers",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=PKF+accountants+business+advisers&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Marino cpa firm",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Marino+cpa+firm&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAhDEAE"
+          },
+          {
+            "title": "Pkf hawaii",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Pkf+hawaii&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "PKF logo",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=PKF+logo&sa=X&ved=2ahUKEwiSo9-xn8qTAxWNwckDHTw0GgMQ1QJ6BAg7EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "PKF Texas",
+            "url": "https://www.linkedin.com/in/pkf-texas-4282b5a6",
+            "displayedUrl": "https://www.linkedin.com \u203a pkf-texas-4282b5a6",
+            "description": "Experience: PKF Texas \u00b7 Location: Houston. View PKF Texas' profile on LinkedIn, a professional community of 1 billion members.",
+            "emphasizedKeywords": [
+              "View PKF Texas' profile on LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Houston, Texas, United States",
+              "companyName": "PKF Texas",
+              "rawText": "Houston, Texas, United States \u00b7 PKF Texas"
+            },
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Kenneth Guidry, CPA - PKF Texas",
+            "url": "https://www.linkedin.com/in/kennethguidry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kenneth Guidry, CPA",
+            "description": "Experience: PKF Texas \u00b7 Education: University of Houston, C.T. Bauer College of Business \u00b7 Location: Houston \u00b7 500+ connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Experience: PKF Texas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Houston, Texas, United States",
+              "companyName": "PKF Texas",
+              "rawText": "Houston, Texas, United States \u00b7 PKF Texas"
+            },
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "PKF Texas: Houston Accounting, Texas CPA, Business ...",
+            "url": "https://www.pkftexas.com/",
+            "displayedUrl": "https://www.pkftexas.com",
+            "description": "PKF Texas is a Houston-based CPA and Accounting Firm providing audit, tax, and business advisory services to public and private middle-market businesses.",
+            "emphasizedKeywords": [
+              "Houston-based CPA and Accounting Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Dustin James, CPA - PKF Texas",
+            "url": "https://www.linkedin.com/in/dustin-james-cpa-bb047b116",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dustin James, CPA",
+            "description": "Experience: PKF Texas \u00b7 Education: University of Houston, C.T. Bauer College of Business \u00b7 Location: Houston \u00b7 216 connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Experience: PKF Texas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Houston, Texas, United States",
+              "companyName": "PKF Texas",
+              "rawText": "Houston, Texas, United States \u00b7 PKF Texas"
+            },
+            "followersAmount": "210+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Brian Baumler, CPA - Energy Practice Leader, SEC, Audit ...",
+            "url": "https://www.linkedin.com/in/brianbaumler",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Brian Baumler, CPA",
+            "description": "I am an Audit Director and Energy Practice Leader with PKF Texas and provide Audit Serivces to both public (SEC) and private businesses focusing on energy\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Audit Director and Energy Practice Leader with PKF Texas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Miriam Rouziek - CPA | Accounting Manager With A ...",
+            "url": "https://www.linkedin.com/in/mrouziek",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Miriam Rouziek",
+            "description": "I am a CPA with a background in the oil and gas industry (E&P) and in academic writing and research. I got my start as an Oil and Gas auditor.Read more",
+            "emphasizedKeywords": [
+              "CPA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "PKF Texas - Overview, News & Similar companies",
+            "url": "https://www.zoominfo.com/c/pkf-texas/128254647",
+            "displayedUrl": "https://www.zoominfo.com \u203a pkf-texas",
+            "description": "Pannell Kerr Forster of Texas (PKF Texas), headquartered in Houston, Texas, is a certified public accounting firm.Read more",
+            "emphasizedKeywords": [
+              "is a certified public accounting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "PKF Texas Company Profile",
+            "url": "https://www.datanyze.com/companies/pkf-texas/128254647",
+            "displayedUrl": "https://www.datanyze.com \u203a Accounting Services",
+            "description": "PKF Texas Profile and History. Pannell Kerr Forster of Texas (PKF Texas), headquartered in Houston, Texas, is a certified public accounting firm.Read more",
+            "emphasizedKeywords": [
+              "is a certified public accounting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Kristin Ryan, CPA - Ryan + Mann LLC",
+            "url": "https://www.linkedin.com/in/kristinryan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kristin Ryan, CPA",
+            "description": "PKF Texas is a Houston based firm of CPAs and professional advisors focusing on solutions for every stage of business growth. While PKF Texas has been a 30+\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PKF Texas is a Houston based firm of CPAs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Houston, Texas, United States",
+              "companyName": "Ryan + Mann LLC",
+              "rawText": "Houston, Texas, United States \u00b7 Ryan + Mann LLC"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Pannell Kerr Forster of Texas, P.C. Joins Practice With ...",
+            "url": "https://www.withum.com/resources/pannell-kerr-forster-of-texas-p-c-joins-practice-with-withum/",
+            "displayedUrl": "https://www.withum.com \u203a Insights \u203a News",
+            "description": "PKF Texas, a public accounting, tax and business advisory firm headquartered in Houston, TX, has joined its practice with Withum.",
+            "date": "2025-06-02T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "PKF Texas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/PrUdLf2ZgeSQ5bRs0/records/B6vTzttD14RL2wb-0.html?signature=1dNryowXS6AbQutpaVnnt"
+      },
+      {
+        "#debug": {
+          "requestId": "W6hFYjurAxNFTBT",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pkftexas.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pkftexas.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company pkftexas.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pkftexas.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pkftexas.com",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Joint Venture Strategic Advisors (JVSA)",
+            "url": "https://www.linkedin.com/company/joint-venture-strategic-advisors-jvsa-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Joint Venture Strategic Advisors (JVSA)",
+            "description": "Joint Venture Strategic Advisors (JVSA) is an energy related professional services company that addresses the oil and gas and global energy markets' demand for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is an energy related professional services company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "250+ followers",
+            "type": "organic",
+            "position": 1
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/xNR31VY7YGF4UgxxS/records/W6hFYjurAxNFTBT-0.html?signature=1kktCczR3dvWHIQqOAo55"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+      "https://www.linkedin.com/company/plenus-pkf-member",
+      "https://www.linkedin.com/company/klichs-llp",
+      "https://www.linkedin.com/company/lfhcpa",
+      "https://www.linkedin.com/company/leone-rouge-management-consultant-llc",
+      "https://www.linkedin.com/company/efsgrouppllc",
+      "https://gt.linkedin.com/company/efsgrouppllc",
+      "https://ru.linkedin.com/company/gulfstar-group",
+      "https://om.linkedin.com/company/klichs-llp",
+      "https://kr.linkedin.com/company/klichs-llp",
+      "https://www.linkedin.com/company/verian-cpas",
+      "https://www.linkedin.com/in/pkf-texas-4282b5a6",
+      "https://www.linkedin.com/in/kennethguidry",
+      "https://www.linkedin.com/in/dustin-james-cpa-bb047b116",
+      "https://www.linkedin.com/in/brianbaumler",
+      "https://www.linkedin.com/in/mrouziek",
+      "https://www.linkedin.com/in/kristinryan",
+      "site:linkedin.com/company pkftexas.com",
+      "https://www.linkedin.com/company/joint-venture-strategic-advisors-jvsa-"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/klichs-llp/",
+        "companyName": "KLICHS LLP",
+        "websiteUrl": "http://www.klichs.com",
+        "industry": "Accounting",
+        "employeeCount": 43,
+        "followerCount": 301,
+        "universalName": "klichs-llp",
+        "tagline": null,
+        "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients in numerous industries, including but not limited to, financial, automotive, electronic, technology, distribution and real estate.\r\n\r\nKLiCHS was established around a core of dedicated professionals with deep industry knowledge and experience that have come together to collaborate and lend their extensive know-how to serve your business with a one-stop-shop.\r\n\r\nOur dedicated professionals are here to provide you with the tools necessary for the most time and cost effective approach to satisfy your business objectives with a full range of services.",
+        "companyId": 4826147,
+        "hashtag": "#ebp",
+        "industryV2Taxonomy": "Accounting",
+        "callToAction": {
+          "displayText": "Contact us",
+          "type": "VIEW_CONTACT_INFO",
+          "url": "http://www.klichs.com"
+        },
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Englewood Cliffs",
+          "geographicArea": "New Jersey",
+          "postalCode": "07632",
+          "line1": "19 Sylvan Ave",
+          "line2": null,
+          "description": "NJ Office"
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2013,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGgrw03r0zbNA/company-logo_400_400/B4EZsuKxcBKkAY-/0/1766006134859/klichs_llp_logo?e=1776297600&v=beta&t=FhzNKtW13zS6Vjh0vnCzJrx45601kBOFV9uXAUeq9is",
+        "originalCoverImage": null,
+        "croppedCoverImage": null,
+        "specialities": [
+          "Assurance",
+          "401K Audit",
+          "Accounting",
+          "Tax",
+          "Transfer Pricing",
+          "Valuation"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "ORCOM US",
+            "followerCount": 2304,
+            "url": "https://www.linkedin.com/company/orcomus/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGjUrnt7Qlx8g/img-crop_100/B4EZyTtzAiIQAQ-/0/1772004782707?e=1776297600&v=beta&t=GMBmar2nLSgjPlaCJr1Ta8X64g46gndTzJ_lj15Zo9M",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEuIzqasj6Xgg/image-scale_127_750/B4EZyTpYC2HwAM-/0/1772003623608/orcomus_cover?e=1775570400&v=beta&t=Z4LYpET-PmDMrVQDYX6F_ZhVseBkHK8uSFIR24YxHrQ",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQHT00bNeGVZQg/company-background_400/B4EZyTpYCsJ8AY-/0/1772003624481/orcomus_cover?e=1775570400&v=beta&t=kgVUUkYKG2BjJ--rWlVM_VUjDRW7Wl1gX6QPZck6NcY",
+            "companyId": 7016494,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10004",
+              "line1": "60 Broad St",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "orcomus"
+          },
+          {
+            "name": "Eide Bailly LLP",
+            "followerCount": 51713,
+            "url": "https://www.linkedin.com/company/eide-bailly-llp/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEI4R4CTnI-8A/company-logo_100_100/B56ZiCl_M6HUAU-/0/1754537653564/eide_bailly_llp_logo?e=1776297600&v=beta&t=Du7yibGB4ArHs3zwhxYOmgfvFrr5w2CbVMA5MnM-R8E",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGcFgBbRP9w3Q/image-scale_127_750/B56ZiCmJxlHMAQ-/0/1754537696848/eide_bailly_llp_cover?e=1775570400&v=beta&t=SJTotjrbHI1Am99YXlg5Q85LqZj8XTvpG6UFkCwjhU8",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHAM9W6SIBqoA/company-background_10000/B56ZiCmJyeHUAY-/0/1754537696838/eide_bailly_llp_cover?e=1775570400&v=beta&t=7pg92IucJdfRsT860tYylAt2qd8A6TkGrH8LED80ls8",
+            "companyId": 18487,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "United States",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "eide-bailly-llp"
+          },
+          {
+            "name": "Aprio",
+            "followerCount": 35907,
+            "url": "https://www.linkedin.com/company/aprio/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEWROMTsn7ehw/company-logo_200_200/company-logo_200_200/0/1691173076953/aprio_logo?e=1776297600&v=beta&t=Q8i8BQg94qtXdIsgaZO4yROQeFuPvgQknreL286COQo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQF0odHykg73nQ/image-scale_127_750/B4EZ0qslVKHUAM-/0/1774537823883/aprio_cover?e=1775570400&v=beta&t=CbNJfzk7AZwRrmhogvw44ccl9blP__ob55PETmX1_fs",
+            "industryV2Taxonomy": "Professional Services",
+            "industry": "Information Technology & Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGceImaR2ipdw/company-background_200/B4EZ0qslViG4Ag-/0/1774537823894/aprio_cover?e=1775570400&v=beta&t=8C4XHZ_AtPSOXQ5CkEhJye_UtaFoTdfgtq6wSBaii8I",
+            "companyId": 377671,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Atlanta",
+              "geographicArea": "Georgia",
+              "postalCode": "30319",
+              "line1": "2002 Summit Blvd",
+              "line2": "Suite 120",
+              "description": "Aprio Headquarters-Atlanta"
+            },
+            "universalName": "aprio"
+          },
+          {
+            "name": "Samsung Electronics America",
+            "followerCount": 486485,
+            "url": "https://www.linkedin.com/company/samsung-electronics-america/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQGAMic0n8G_5A/company-logo_200_200/company-logo_200_200/0/1631308673780?e=1776297600&v=beta&t=Rf2amN8RHndk4nI3SfxB-f3STGq0JgmweGHeC-l_IFE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFNizxPlV8KZg/image-scale_127_750/B56ZyWIYVgJUAM-/0/1772045306060/samsung_electronics_america_cover?e=1775570400&v=beta&t=nCYg07XjwawZaLKywyM2VW5kvuHp_7kVuUAYHMRNgYc",
+            "industryV2Taxonomy": "Computers and Electronics Manufacturing",
+            "industry": "Consumer Electronics",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGdjd1hlZFsTg/company-background_200/B56ZyWIYWhKYAc-/0/1772045305616/samsung_electronics_america_cover?e=1775570400&v=beta&t=Gjnxfd6OXEaEORrGNxslwGtXH9_KL-UydPRyU-KO1m0",
+            "companyId": 1447520,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Englewood Cliffs",
+              "geographicArea": "New Jersey",
+              "postalCode": "07632",
+              "line1": "700 Sylvan Ave",
+              "line2": null,
+              "description": "Samsung North American Headquarters"
+            },
+            "universalName": "samsung-electronics-america"
+          },
+          {
+            "name": "UBS",
+            "followerCount": 2128278,
+            "url": "https://www.linkedin.com/company/ubs/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEshkSDzwMJ4g/company-logo_200_200/company-logo_200_200/0/1630584313976/ubs_logo?e=1776297600&v=beta&t=GOrgLN4ppdpx0QJUaQadiJtwQxMXoK_JPv1xmFc-EIo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQH9U7n2TQnmrQ/image-scale_127_750/image-scale_127_750/0/1706089909048/ubs_cover?e=1775570400&v=beta&t=O7hZKcxA49rdjAYT_qipKATQVZckSe56xchC-2EUTWo",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQF5-5e73UfLsQ/company-background_10000/company-background_10000/0/1706089907971/ubs_cover?e=1775570400&v=beta&t=uYNTjFTLS4vo-yUVmpFdnqp2n02TiGPzm9jraeBSOys",
+            "companyId": 1214,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "CH",
+              "city": "Zurich",
+              "geographicArea": null,
+              "postalCode": "8001",
+              "line1": "Postbox",
+              "line2": null,
+              "description": "With headquarters in Zurich and Basel, Switzerland, UBS operates in over 50 countries and from all major international centers."
+            },
+            "universalName": "ubs"
+          },
+          {
+            "name": "HCVT",
+            "followerCount": 25120,
+            "url": "https://www.linkedin.com/company/hcvt-llp/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEW7gpfb-j7Ag/company-logo_200_200/company-logo_200_200/0/1689976287794/hcvt_llp_logo?e=1776297600&v=beta&t=QD6uCsj8FrTC6JqFAa2D8OKIm2lCIglKOcaVYx8_88I",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQEriyuAB1GdCA/company-background_10000/company-background_10000/0/1615426027489/hcvt_llp_cover?e=1775570400&v=beta&t=iwaUXd117TDhbLTaXnRAQl5AlBZ2DqvWkD4FsO-4OSM",
+            "companyId": 68428,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Los Angeles",
+              "geographicArea": "CA",
+              "postalCode": "90064",
+              "line1": "11444 W. Olympic Blvd.",
+              "line2": "11th Floor",
+              "description": "West Los Angeles"
+            },
+            "universalName": "hcvt-llp"
+          },
+          {
+            "name": "BDO USA",
+            "followerCount": 188824,
+            "url": "https://www.linkedin.com/company/bdo-usa/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQH7jPs8huJxIQ/company-logo_100_100/B56ZflDac7HoAQ-/0/1751894567030/bdo_usa_logo?e=1776297600&v=beta&t=Fiyr2fDSeHWde_42XGk98gQ4dDlAa-8hOl9h81e_Aq4",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEHvCBvpoAJOA/image-scale_127_750/image-scale_127_750/0/1738959342442/bdo_usa_cover?e=1775570400&v=beta&t=LUt_MT7eTYI5WCSvIGmto0Wl-sqHbg9ybh7JSo0aBlI",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEWj6SRHakdxQ/company-background_10000/company-background_10000/0/1738959342362/bdo_usa_cover?e=1775570400&v=beta&t=mI38tS7KyDyHNXtjS8nEspQbhbLgYVyeIGNWTVQiiCE",
+            "companyId": 2859,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Chicago",
+              "geographicArea": "IL",
+              "postalCode": "60611",
+              "line1": "330 N Wabash Ave",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "bdo-usa"
+          },
+          {
+            "name": "Sensiba LLP",
+            "followerCount": 11477,
+            "url": "https://www.linkedin.com/company/sensiba/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQF-Q-zw2NMQdQ/company-logo_100_100/B56Zfl2k7tGoBE-/0/1751907980119/sensiba_logo?e=1776297600&v=beta&t=j2TmPz_LAi4JVmJ8IubNhKaCG0b5ceH2dDC5lTbRY2w",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQH4GyPBqVQATA/image-scale_127_750/image-scale_127_750/0/1685891677069/sensiba_cover?e=1775570400&v=beta&t=7SEt15yFxYAyTfS5cUxXXdMY25kOGqTlwmLc4citGJk",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFztpaqgCgq9Q/company-background_10000/company-background_10000/0/1685891677203/sensiba_cover?e=1775570400&v=beta&t=YPY9KkNlCGHFWcu63_NCMuZT1dIWdtWyT9gBDrc-K9Q",
+            "companyId": 717815,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "San Ramon",
+              "geographicArea": "California",
+              "postalCode": "94583",
+              "line1": null,
+              "line2": null,
+              "description": "Sensiba \u2013 San Ramon Headquarters"
+            },
+            "universalName": "sensiba"
+          },
+          {
+            "name": "KPMG US",
+            "followerCount": 2090597,
+            "url": "https://www.linkedin.com/company/kpmg-us/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFujenQWGHyUw/company-logo_400_400/B4EZx3zZGkIsAc-/0/1771536487156/kpmg_us_logo?e=1776297600&v=beta&t=5BiMtFPix3KwyqOWrcI2xfhlsxhPGJqLkjfWONbrBBY",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQE-Kmb7BiaYHA/image-scale_191_1128/B4DZVdQN7_HwAk-/0/1741026287901/kpmg_us_cover?e=1775570400&v=beta&t=Bnj_ONCH1AwQZ89wd-DHcn-AO-wBBaYj0X-zDbjAmNI",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQG8rQsWSxMFZA/company-background_200/B4DZVdQN7PHIAg-/0/1741026287742/kpmg_us_cover?e=1775570400&v=beta&t=JQGcGcRP6QS9uocwYg_BI1xGf6rGZMJ0kVGKdj49ofM",
+            "companyId": 1079,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10154",
+              "line1": "345 Park Avenue",
+              "line2": null,
+              "description": "KPMG LLP"
+            },
+            "universalName": "kpmg-us"
+          },
+          {
+            "name": "Crowe",
+            "followerCount": 209727,
+            "url": "https://www.linkedin.com/company/crowe/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQF5d8vUP2kKEQ/company-logo_100_100/B56Zywhe01IAAU-/0/1772488093495/crowe_logo?e=1776297600&v=beta&t=NHl86OxvZ3k1IGqn3CWJk8wrCPbeUNg6NkiveRN7V1Q",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFsZFFBghkpng/image-scale_191_1128/B56ZfMfYa8HoAc-/0/1751482468986/crowe_cover?e=1775570400&v=beta&t=N5uI2LY_YSHdrKW_AMVKj_QhHDJx8v30dxuGay_y3Uk",
+            "industryV2Taxonomy": "Professional Services",
+            "industry": "Information Technology & Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFnJQ08ms4UUA/company-background_400/B56ZfMfZXWHoAY-/0/1751482476402/crowe_cover?e=1775570400&v=beta&t=-4fp_w8ClWQSvUb6bbHSXXloetgOKahnz0Dr-QVLi4g",
+            "companyId": 5507,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Chicago",
+              "geographicArea": "Illinois",
+              "postalCode": "60606-1224",
+              "line1": "225 West Wacker Drive, Suite 2600",
+              "line2": null,
+              "description": "Chicago Office"
+            },
+            "universalName": "crowe"
+          },
+          {
+            "name": "Kreit & Chiu CPA, LLP",
+            "followerCount": 1448,
+            "url": "https://www.linkedin.com/company/kreit-chiu-cpa-llp/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFpq0EsytHCwQ/company-logo_400_400/B56Znq70shKAAY-/0/1760583175669/paris_kreit_chiu_cpa_llp_logo?e=1776297600&v=beta&t=kfpm88CMbLC-Xtdd_AzZWjLlg-P4MzLjBbR1ibJzGBs",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFnPhPil5FTgQ/image-scale_191_1128/B56Znq8oAKJ8Ag-/0/1760583386042/kreit_chiu_cpa_llp_cover?e=1775570400&v=beta&t=9xxJZJWVruZqhJsoEo_b0umG2C9VTYFu4r7Rej68Q4M",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHx_OM1OpsK4w/company-background_400/B56Znq8n_6HIAY-/0/1760583386325/kreit_chiu_cpa_llp_cover?e=1775570400&v=beta&t=L3JDyBMH3YUzKPAxefnLVv1nDc5RVe5KUkmoNdwEXN4",
+            "companyId": 77736960,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "kreit-chiu-cpa-llp"
+          },
+          {
+            "name": "CBIZ Advisory Services",
+            "followerCount": 54674,
+            "url": "https://www.linkedin.com/company/cbizadvisory/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGZ56mQScg5dQ/company-logo_400_400/B56ZebKaoOHoAY-/0/1750654888748/cbizadvisory_logo?e=1776297600&v=beta&t=76FVz9X3AdpP_hzF8Kl5535hIgwCgA93VIobwK6be6s",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHvj8gLB6CFcQ/image-scale_127_750/image-scale_127_750/0/1736962325930/cbizadvisory_cover?e=1775570400&v=beta&t=D3Ipr0AP0kk5UQm7bObkvQcsQRBjGxrs2WnYv6ctea4",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEpx2qHOo2xUw/company-background_10000/company-background_10000/0/1736962325979/cbizadvisory_cover?e=1775570400&v=beta&t=_C-2Yd5VTfhgOb2BBeXAOG_1NmS7CQkKGz5dh-QbXk0",
+            "companyId": 297380,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Cleveland",
+              "geographicArea": "Ohio",
+              "postalCode": "44131",
+              "line1": "6050 Oak Tree Blvd.",
+              "line2": null,
+              "description": "Corporate Headquarters"
+            },
+            "universalName": "cbizadvisory"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Duluth",
+            "geographicArea": "GA",
+            "postalCode": "30096",
+            "line1": "3505 Koger Blvd",
+            "line2": "Suite 350",
+            "description": "GA Office",
+            "headquarter": false,
+            "localizedName": "Duluth",
+            "latitude": 33.74975,
+            "longitude": -84.38857
+          },
+          {
+            "country": "US",
+            "city": "Los Angeles",
+            "geographicArea": "California",
+            "postalCode": "90010",
+            "line1": "3731 Wilshire Blvd",
+            "line2": "Suite 905",
+            "description": "CA-LA Office",
+            "headquarter": false,
+            "localizedName": "Los Angeles",
+            "latitude": 34.073666,
+            "longitude": -118.23985
+          },
+          {
+            "country": "US",
+            "city": "Houston",
+            "geographicArea": "Texas",
+            "postalCode": "77094",
+            "line1": "16300 Katy Fwy",
+            "line2": "Suite 222",
+            "description": "TX Office",
+            "headquarter": false,
+            "localizedName": "Houston",
+            "latitude": 29.757027,
+            "longitude": -95.3556
+          },
+          {
+            "country": "US",
+            "city": "Englewood Cliffs",
+            "geographicArea": "New Jersey",
+            "postalCode": "07632",
+            "line1": "19 Sylvan Ave",
+            "line2": null,
+            "description": "NJ Office",
+            "headquarter": true,
+            "localizedName": "Englewood Cliffs",
+            "latitude": 40.748295,
+            "longitude": -73.98556
+          },
+          {
+            "country": "US",
+            "city": "Auburn",
+            "geographicArea": "Alabama",
+            "postalCode": "36830",
+            "line1": "1700 Miracle Rd",
+            "line2": "Ste A",
+            "description": "AL Office",
+            "headquarter": false,
+            "localizedName": "Auburn",
+            "latitude": 32.452442,
+            "longitude": -84.9913
+          },
+          {
+            "country": "US",
+            "city": "San Diego",
+            "geographicArea": "California",
+            "postalCode": "92111",
+            "line1": "7975 Raytheon Rd",
+            "line2": "Suite 380",
+            "description": "CA-SD Office",
+            "headquarter": false,
+            "localizedName": "San Diego",
+            "latitude": 32.71576,
+            "longitude": -117.16382
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/klichs-llp",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/pkf-texas-4282b5a6"
+  },
+  "lead_before_enrichment": {
+    "business": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+    "description": "# Houston Accounting, Texas CPA, Business Services Firm ![PKF Global Logo](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Global-Logo-scaled.png) As of June 1, 2025, PKF Texas is no longer a member firm of PKF Global. To find or connect with a PKF member firm in North America or globally, visit [www.PKF.com](https://www.pkf.com/) ![PKF-Withum-BW](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Withum-BW.png) PKF Texas Joins Practice with Withum, a Nationally Recognized CPA and Advisory Firm.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://pkftexas.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/klichs-llp",
+    "source_url": "https://pkftexas.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "pkftexas.com",
+    "source_urls": [
+      "https://pkftexas.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+    "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients in numerous industries, including but not limited to, financial, automotive, electronic, technology, distribution and real estate. KLiCHS was established around a core of dedicated professionals with deep industry knowledge and experience that have come together to collaborate and lend their extensive know-how to serve your business with a one-stop-shop.",
+    "full_name": "Pkf Texas",
+    "first": "Pkf",
+    "last": "Texas",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://pkftexas.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "https://www.linkedin.com/in/pkf-texas-4282b5a6",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/klichs-llp",
+    "source_url": "https://pkftexas.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "pkftexas.com",
+    "source_urls": [
+      "https://pkftexas.com"
+    ],
+    "title_raw": "",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://pkftexas.com"
+  },
+  "field_changes": {
+    "description": {
+      "before": "# Houston Accounting, Texas CPA, Business Services Firm ![PKF Global Logo](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Global-Logo-scaled.png) As of June 1, 2025, PKF Texas is no longer a member firm of PKF Global. To find or connect with a PKF member firm in North America or globally, visit [www.PKF.com](https://www.pkf.com/) ![PKF-Withum-BW](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Withum-BW.png) PKF Texas Joins Practice with Withum, a Nationally Recognized CPA and Advisory Firm.",
+      "after": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients in numerous industries, including but not limited to, financial, automotive, electronic, technology, distribution and real estate. KLiCHS was established around a core of dedicated professionals with deep industry knowledge and experience that have come together to collaborate and lend their extensive know-how to serve your business with a one-stop-shop."
+    },
+    "first": {
+      "before": "",
+      "after": "Pkf"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Pkf Texas"
+    },
+    "last": {
+      "before": "",
+      "after": "Texas"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/pkf-texas-4282b5a6"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://pkftexas.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    }
+  }
+}

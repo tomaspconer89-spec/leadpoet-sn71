@@ -1,0 +1,319 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T01:12:20.508477Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpd5_itwjp/evidence/domain/cansulta.com.json","","2026-06-29T01:12:20.508481Z","startup advisory services founder contact","2026-03-31T01:11:47.923506Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T01:12:20.545190Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpd5_itwjp/evidence/domain/maynardnexsen.com.json","","2026-06-29T01:12:20.545192Z","business consulting firm advisor email","2026-03-31T01:11:51.352523Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T01:12:20.558042Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpd5_itwjp/evidence/domain/vaam.io.json","","2026-06-29T01:12:20.558045Z","SaaS startup CEO contact information","2026-03-31T01:11:55.018415Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T01:12:20.570646Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpd5_itwjp/evidence/domain/findemails.com.json","","2026-06-29T01:12:20.570648Z","SaaS startup CEO contact information","2026-03-31T01:11:58.927856Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T01:12:20.583301Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpd5_itwjp/evidence/domain/bcg.com.json","","2026-06-29T01:12:20.583303Z","venture consulting firm partner email","2026-03-31T01:12:02.372775Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity
+
+![](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1747623223871-NOW35P75F5BMJGS318N4/unsplash-image-G9i_plbfDgk.jpg)
+
+## **CPAs To Help You Grow**
+
+_Pinewood Provides Bookkeeping, Accounting, Taxes, and CFO Services for Business Owners, Entrepreneurs, and Investors_
+
+## **Our Services**
+
+Business owners and investors rely on Pinewood’s CPAs & advisors for all aspects of finance, tax, accounting, and business succession planning. See our [Case Studies](https://pinewoodfs.com/case-studies) to learn how we help our clients succeed.
+
+![](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1682995528017-THF02RXM093VOUGI3540/unsplash-image-744oGeqpxPQ.jpg)
+
+## **Bookkeeping**
+
+We manage your books, invoicing, bill payments, payroll, and deliver insightful reports.
+
+![](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/351292c6-5ade-48ad-91fe-0492eecbb31c/CPA+Tax+Services.jpg)
+
+## **Taxes**
+
+Our CPAs help you reduce taxes and maximize cash flow with quarterly tax planning and monitoring.
+
+![unsplash-image-IrRbSND5EUc.jpg](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1629944713056-NI4KJWD2LKJPF9DRTCCA/unsplash-image-IrRbSND5EUc.jpg)
+
+## **CFO**
+
+Financial analysis, budgeting, forecasting, buying and selling companies, and securing financing.
+
+## **Flexible Financial Support For Your Growing Business**
+
+Since 2017, Pinewood has supported small to medium sized businesses across various industries. Our trained team of remote accountants and advisors have a solution for you.
+
+**CT Based**
+
+Our team works remotely to give you around-the-cloud support.
+
+**Trained Team**
+
+Our team has years of experience and various certifications.
+
+**On-Demand CPAs**
+
+On-demand CPA support for major events when you need us the most
+
+**Transparent Pricing**
+
+Straightforward fees so you can budget for business growth.
+
+## **Explore Our Client Success Stories**
+
+Our clients’ success is our #1 priority. Explore case studies of successful client engagements.
+
+## Business Growth Blog
+
+[
+
+![Why Summer Is the Perfect Time for Small Business Owners to Optimize Taxes (and Find the Right CPA)](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1747507618219-0U0HCSZIFV6ZOM08GH9E/unsplash-image-UZFCQPNc4bs.jpg?format=300w)
+
+](https://pinewoodfs.com/blog/why-summer-is-the-perfect-time-for-small-business-owners-to-optimize-taxes-and-find-the-right-cpa)
+
+Many business owners in Danbury, Trumbull, and Newtown come to us in the off-season after being frustrated with a lack of communication or missed savings. Switching CPA firms in the summer gives your new advisor time to learn your business, clean up any issues, and put you on track for year-end success.
+
+[
+
+![What is the State of Venture Capital in Late 2024?](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1729690893360-Y9A2523AS8FUCV4O227G/unsplash-image-v5rJrM6mgUc.jpg?format=300w)
+
+](https://pinewoodfs.com/blog/what-is-the-state-of-venture-capital-in-late-2024)
+
+[
+
+![Top Three Quick Fixes for Growth Company Financials](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1721055974440-DFUSK4P4HJ3F694ZY5M3/image-asset.jpeg?format=300w)
+
+](https://pinewoodfs.com/blog/top-three-quick-fixes-for-growth-company-financials)","","https://pinewoodfs.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","pinewoodfs.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","7ff3a6db82961b8de66a927a8e649cd688ebc10455d98f62e41743ca313831cd","0.0","0.3","a502ed7c-30d3-56e1-b24a-f83872e4e225","","2026-03-31T01:12:56.685845Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pinewoodfs.com.json","/tmp/tmpd5_itwjp/evidence/domain/pinewoodfs.com.json","","2026-06-29T01:12:56.685853Z","venture consulting firm partner email","2026-03-31T01:12:04.599895Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","146b5550c1e31e3813f540232791ecc225773cc5af729d1cec651c7d6ad8f1e2","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-03-31T01:12:56.702846Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmpd5_itwjp/evidence/domain/scribd.com.json","","2026-06-29T01:12:56.702848Z","tech startup founder contact page","2026-03-31T01:12:12.711658Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Best AI Sales Software & Business Leads Platform
+
+## More leads. More meetings. More opportunities. More revenue.
+
+Everyone needs more. Seamless provides you all the tools you need to achieve more, but sacrifice less.
+
+### Find the right buyers. Instantly.
+
+Deliver real-time, verified data you can trust — so every call, email, and connection starts from the right place.
+
+![A diagram showing all the checked and verified data points connected to a contact card. ](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/6975279649efc84e28a35cfe_4e81ade8e5b1ec16e619fa4a16fe9744_2026-01_Diagram_Contact-Details_16-9.png)
+
+### Create scalable campaigns to book more meetings
+
+Reach your next customer faster with AI-powered insights and always-on AI Agents that help every message resonate.
+
+![A diagram showing how a campaign an be used to automate and scale activity.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697527964d94e2d855fb5514_631827d48a5750e3a981f512d31cb978_2026-01_Diagram_Automate-Activity_16-9.png)
+
+### Pipeline building on autopilot
+
+Eliminate manual research and repetitive tasks with workflows that build your pipeline while you focus on deals.
+
+![A diagram showing how using automations over manual research within Seamless products helps build stronger pipeline.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69752796d12ca071427a580d_dace46eb5cd5360f6aa5a42da59c3239_2026-01_Diagram_Build-Pipeline_16-9.png)
+
+### Revenue you can measure
+
+Turn accurate data and automated workflows into measurable ROI — pipeline growth, booked meetings, and revenue — all visible in one place.
+
+![Diagram illustrating a breakdown of how the cost and time saving gained by using Seamless returns a positive ROI.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697527957e59a6de2ceea5e7_d5fe6c66ab786506b1836267047e15cb_2026-01_Diagram_ROI_16-9.png)
+
+![Tree graph of the AI Revenue Operating System with 4 connected pillars for Data Engine, Engagement Hub, AI Agents, and Automation Network.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6dcfb679ffbcc3b33162_adac404e85a2efa0e55505306daef030_2026-03_Diagram_AI-Revenue-Operating-System.webp)
+
+## Data Engine
+
+Power your pipeline with verified, real-time data.
+
+Products in Data Engine:
+
+![Icon of a user.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed23536fe06647257f49b_Icon_User_Medium_16x16.svg)
+
+Prospector
+
+![Icon of a target with an arrow in the middle.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed235770ac2a5d16f8a60_Icon_Target_Medium_16x16.svg)
+
+Buyer Intent
+
+![Icon of a closed metal briefcase.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed232ebc287f40e97be7e_Icon_BriefcaseMetal_Medium_16x16.svg)
+
+Job Changes
+
+![Icon of a data table.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed235c4b064ca563d0c13_Icon_Table_Medium_16x16.svg)
+
+CRM Enrich
+
+![Icon of a lightbulb.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed23481fcadd50730205c_Icon_Lightbulb_Medium_16x16.svg)
+
+Pitch Intelligence
+
+## Engagement Hub
+
+Activate AI-powered outreach that connects with buyers instantly.
+
+Products in Engagement Hub:
+
+![Icon of a horizontal data tree structure.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed235b1ce888037ba92d7_Icon_TreeStructure_Medium_16x16.svg)
+
+Connect
+
+![Icon of a target with an arrow in the middle.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed235770ac2a5d16f8a60_Icon_Target_Medium_16x16.svg)
+
+Emailing
+
+![Icon of a phone receiver.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed2344381d6841c3d90da_Icon_Phone_Medium_16x16.svg)
+
+Calling
+
+![Icon of 2 chat bubbles.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed2346e18696e3655e14d_Icon_ChatsTeardrop_Medium_16x16.svg)
+
+Social Selling
+
+![Icon of a puzzle piece.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed235346f00b3b66d1545_Icon_PuzzlePiece_Medium_16x16.svg)
+
+Integrations
+
+## AI Agents
+
+Transform insights into action with AI and automation that drive consistent results.
+
+Products in the AI Agents:
+
+![Icon of an arrow pointing up and right.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd73a13d668bccc175b_Icon_ArrowUpRight_Medium_12x12.svg)
+
+Outbound Agent
+
+![Icon of an arrow pointing down and right.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd7f16249186205b962_Icon_ArrowDownRight_Medium_12x12.svg)
+
+Inbound Agent
+
+![Icon of a check in a box.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd7a9c37cfe485ff3d6_Icon_CheckSquare_Medium_12x12.svg)
+
+Ops Agent
+
+![Icon of a megaphone.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69b05058e88e1ea3a12f26fc_Icon_Megaphone_Medium_12x12.svg)
+
+Marketing Agent
+
+![Icon of a plant in a pot.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd7c58d9fa9becf6858_Icon_PottedPlant_Medium_12x12.svg)
+
+Customer Success Agent
+
+![Icon of 2 users.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd89806e97c4d3495c7_Icon_Users_Medium_12x12.svg)
+
+Recruiting Agent
+
+## Automation Network
+
+Next generation of AI-driven workflows and agents with seamless automation across your entire tech stack.
+
+Products in Engagement Hub:
+
+![Icon of a magic wand with twinkles around it.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed234c9e77b7e6960054a_Icon_MagicWand_Medium_16x16.svg)
+
+AI Assistant
+
+![Icon of a stack of 3 circles making a column.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd7034b66f8e4079942_Icon_Database_Medium_12x12.svg)
+
+MCPs
+
+![Icon of 2 plugs almost connecting.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/69bd6cd7b6fc215755fc925d_Icon_Plugs_Medium_12x12.svg)
+
+Connectors
+
+![Icon of the Webhooks logo.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed2357c614101893376c2_Icon_WebhooksLogo_Medium_16x16.svg)
+
+API
+
+![Icon of a coin.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed234f4f255ab72b6b615_Icon_CoinVertical_Medium_16x16.svg)
+
+Bulk Credits
+
+![Icon of an airplane with a line below it.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/696ed23431fb2718b859c8fa_Icon_AirplaneInFlight_Medium_16x16.svg)
+
+Autopilot
+
+![GDPR badge.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697527083a99c56a2994740e_6758e47114c599ecb52c9287208ac632_Logo_GDPR.webp)
+
+### GDPR Compliant
+
+Go to market anywhere in the world — let us handle compliance with local laws.
+
+![CCPA (California Consumer Privacy Act) badge.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697527085242f0178973261e_Logo_CCPA_California-Consumer-Privacy-Act.webp)
+
+### CCPA Compliant
+
+Expand into the U.S. with peace of mind — we’ll take care of meeting California’s privacy requirements.
+
+![AICPA SOC 2 badge](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/681e3f8fbd1688f58afcb544_Logo_SOC2.webp)
+
+### SOC 2 Type II
+
+We are SOC 2 Type II compliant. Request our SOC 2 in our Trust Center.
+
+![ISO 27001 badge](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/6975270891afc57406c0df9e_Logo_ISO27001.png)
+
+### ISO 27001
+
+Securely connect your CRM and other systems.
+
+![LogMeIn company logo.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/6723eeba7d8cbe4a644ba543_Logo_LogMeIn_White.svg)
+
+“The quality of data I got from Seamless was accurate and life-changing. Like literally… I closed nearly half a million dollars from a free trial.”
+
+By the numbers
+
+## Results you can measure
+
+When you combine accuracy and automation, your entire revenue engine accelerates.
+
+![NJTC award for being ranked the #1 tech company of the year.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697526eecce78a4327b0a0aa_Award_NJTC_Tech-Company-Of-The-Year.webp)
+
+### #1 Tech Company of the Year
+
+Recognized as the top tech innovator — a testament to our impact, momentum, and industry leadership.
+
+![G2 badge for the #1 Highest Satisfaction Products in 2025.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697526efb722b7201fe2f0f2_e6c53fe8facc60b00c474f2ffbb0d3f4_Award_2025_G2_Top-100_Highest-Satisfaction-Products.webp)
+
+### #1 Highest Satisfaction Product of the Year
+
+Ranked highest in satisfaction out of 125,912 products on the world’s most trusted software marketplace.
+
+![Forbes award for America's Best Startup Employers in 2025.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697526ef3a99c56a29947270_Award_2025_Forbes_Americas-Best-Startup-Employers.webp)
+
+### Top 500 Best Startup Employers in America
+
+Ranked by Forbes as a top employer — honored for exceptional culture and employee satisfaction.
+
+![LinkedIn 3-time winner of the America's Top Startups award.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/697526ee17285604fca6d0f9_Award_LinkedIn_Top-Startups-3-Time_Winner.webp)
+
+### 3x LinkedIn Top Startup in the United States
+
+Named a top U.S. startup three times — recognized by LinkedIn for exceptional growth and industry impact.
+
+## Empowering every revenue role
+
+From founders and B2B sales teams to SDRs, RevOps, recruiting, finance teams, and customer success, Seamless elevates every role across your GTM ecosystem.
+
+[
+
+Explore all GTM roles
+
+](https://seamless.ai/products/solutions/role)
+
+Integrations
+
+## Seamless fits right in
+
+Connect instantly with 6,000+ tools to keep your data, workflows, and teams perfectly in sync.
+
+![Seamless icon feeding data into several connected CRM icons.](https://cdn.prod.website-files.com/62226180d38a78472cd35dd2/6972accec3b8173037bfc098_177001af0ef91d28bc49470ca1c3ff6c_2026-01_Integrations_data-connections_16-9.svg)
+
+### What is Seamless.AI?
+
+### How does Seamless.AI work?
+
+### How much does Seamless.AI cost?
+
+### Is Seamless.AI legit?
+
+### What does Seamless.AI do?
+
+### How does Seamless.AI compare to ZoomInfo?
+
+### Is Seamless.AI safe as an add-on?
+
+## Your next customer is seconds away
+
+More pipeline. More meetings. More revenue. For teams who never stop pushing for more.","","https://seamless.ai","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Seamless.AI - Best AI Sales Software & Business Leads Platform","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","seamless.ai","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","fe0652ae7c128af726d11f4569b975aa1ac4c5bb42517c7fd9e8cbf62593c4bc","0.0","0.3","074bb97d-5918-5fb5-980b-f83648a31aa6","","2026-03-31T01:13:23.237239Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/seamless.ai.json","/tmp/tmpd5_itwjp/evidence/domain/seamless.ai.json","","2026-06-29T01:13:23.237247Z","management consulting firm director email","2026-03-31T01:12:18.223145Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

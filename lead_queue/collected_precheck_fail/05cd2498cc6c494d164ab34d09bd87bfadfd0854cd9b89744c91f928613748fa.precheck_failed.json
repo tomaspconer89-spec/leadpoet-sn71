@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+  "lead": {
+    "business": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "CEO",
+    "website": "https://seamless.ai",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/digitals-ai",
+    "source_url": "https://seamless.ai",
+    "description": "# Best AI Sales Software & Business Leads Platform ## More leads. More meetings. More opportunities. More revenue. Everyone needs more. Seamless provides you all the tools you need to achieve more, but sacrifice less. ### Find the right buyers. Instantly. Deliver real-time, verified data you can trust \u2014 so every call, email, and connection starts from the right place. ![A diagram showing all the checked and verified data points connected to a contact card.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

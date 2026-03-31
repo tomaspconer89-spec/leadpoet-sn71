@@ -1,0 +1,255 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T13:26:47.799863Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpr6ekfgmk/evidence/domain/cansulta.com.json","","2026-06-29T13:26:47.799866Z","startup advisory services founder contact","2026-03-31T13:26:18.214739Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Houston Accounting, Texas CPA, Business Services Firm
+
+![PKF Global Logo](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Global-Logo-scaled.png)
+
+As of June 1, 2025, PKF Texas is no longer a member firm of PKF Global.
+
+To find or connect with a PKF member firm in North America or globally, visit [www.PKF.com](https://www.pkf.com/)
+
+![PKF-Withum-BW](https://www.pkftexas.com/wp-content/uploads/2025/05/PKF-Withum-BW.png)
+
+PKF Texas Joins Practice with Withum, a Nationally Recognized CPA and Advisory Firm.
+
+## Appreciating Your Business®
+
+…and a little art & science
+
+We are a team of numbers-obsessed, people-loving, Space City CPAs and advisors devoted to the **art of building personal connections through forward-thinking expertise,** grounded in great communication and an entrepreneurial spirit. Clients tell us that we are approachable and that they feel taken care of after an interaction with one of our advisors.
+
+![](https://www.pkftexas.com/wp-content/uploads/2021/06/Swash-Blue.png)
+
+## Did we mention we’re _**really good**_ with numbers?
+
+The **science of numbers** enables us to identify the factors impacting your business so that we can co-create solutions. We use insights from our audit, tax and business advisory professionals to guide you to make smart business decisions.  
+Come to think of it, a smart business decision really does take **a little art and a little science.**  
+At PKF Texas, we call that **_Appreciating Your Business!_**
+
+![](https://www.pkftexas.com/wp-content/uploads/2021/06/yellow-Number.png)
+
+### Energy and Oilfield Services
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/energy-and-oilfield-services/)
+
+### Manufacturing and Distribution
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/manufacturing-distribution/)
+
+### Not-For-Profit
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/not-for-profit/)
+
+### Private Equity and Venture Capital
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/private-equity-and-venture-capital/)
+
+### Agribusiness
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/agribusiness/)
+
+### Broker-Dealer
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/broker-dealer/)
+
+### Construction
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/construction/)
+
+### Energy and Oilfield Services
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/energy-and-oilfield-services/)
+
+### Family Office
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/family-office/)
+
+### Franchising
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/franchising/)
+
+### Healthcare
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/healthcare/)
+
+### Hospitality
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/hospitality/)
+
+### Manufacturing and Distribution
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/manufacturing-distribution/)
+
+### Not-for-Profit
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/not-for-profit/)
+
+### Private Equity and Venture Capital
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/private-equity-and-venture-capital/)
+
+### Professional Services
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/professional-services/)
+
+### Real Estate
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/real-estate/)
+
+### Technology
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/technology/)
+
+### Transportation and Logistics
+
+[![](https://www.pkftexas.com/wp-content/uploads/2021/06/Arrow-72ppi.png)](https://www.pkftexas.com/transportation-and-logistics/)
+
+## UPCOMING EVENTS
+
+There are no upcoming events at this time.","","https://pkftexas.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Houston Accounting, Texas CPA, Business Services Firm - PKF Texas","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","pkftexas.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","0ff32c52af7ceb4e8d2780aa98df5bc9574a8f47c1da090ddbd748ecf534e182","0.0","0.3","bd470447-909f-56b6-8f21-8273bcb0bbbb","","2026-03-31T13:27:52.705808Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pkftexas.com.json","/tmp/tmpr6ekfgmk/evidence/domain/pkftexas.com.json","","2026-06-29T13:27:52.705816Z","business consulting firm advisor email","2026-03-31T13:26:21.504800Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-03-31T13:27:52.723079Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmpr6ekfgmk/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-29T13:27:52.723081Z","business consulting firm advisor email","2026-03-31T13:26:22.438016Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T13:27:52.735748Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpr6ekfgmk/evidence/domain/maynardnexsen.com.json","","2026-06-29T13:27:52.735750Z","business consulting firm advisor email","2026-03-31T13:26:23.370508Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# AKIF CPA - CPAs, CA and Advisors
+
+## Service That Creates Value and Makes a Difference
+
+We support businesses with their accounting needs, with a focus on customer service and a standard of work that outperforms the rest. 
+
+![stress free accounting](https://akifcpa.com/wp-content/uploads/2024/05/stress-free-acocunting.avif)
+
+## Stress-Free Accounting
+
+Take the stress out of your business finances and rely on the people who love numbers. Our experts are here to help!
+
+![financial strategies](https://akifcpa.com/wp-content/uploads/2024/05/financial-strategies.avif)
+
+## Financial Strategies
+
+Build financial strategies that support your growth path. Our team of CPAs offer consulting packages and ongoing services.
+
+![simplified tax services](https://akifcpa.com/wp-content/uploads/2024/05/simplified-tax-services.avif)
+
+## Simplified Tax Services
+
+What do you, your business, and your family need? Let’s determine your priorities and simplify your approach to taxes and savings.
+
+### Business Support Designed to Scale
+
+Our services are customized to your needs to ensure you get the accounting support you need at the highest standard.
+
+### Small Businesses
+
+### Small Businesses
+
+We'll help you establish accounting best practices for your business, recommend ideal business entity structure, and develop growth strategies designed to get you where you want to be
+
+### Mid-Sized Businesses
+
+### Mid-Sized Businesses
+
+More established businesses benefit from software integration and cleanup, bookkeeping services, training, and advanced reporting with robust data to help you make your business more efficient
+
+### Enterprise
+
+### Enterprise
+
+Our CPA experts work with enterprise firms offering CFO services and accounting department oversight, board meeting prep, and advanced accounting services tailored to your needs
+
+### Individuals
+
+### Individuals
+
+Our CPA experts work with enterprise firms offering CFO services and accounting department oversight, board meeting prep, and advanced accounting services tailored to your needs
+
+![trust in a cpa for your accounting and tax needs](https://akifcpa.com/wp-content/uploads/elementor/thumbs/Screen-Shot-2023-11-08-at-7.38.50-PM-qf35i5nkthysdej3lal8cmu24rw0mp1po5fmv79jcc.png "Screen Shot 2023-11-08 at 7.38.50 PM")
+
+## Services Designed with Your Goals in Mind
+
+### Industry Expertise You Can Count On
+
+We take the time to understand our clients and their unique industries.
+
+With unparalleled guidance, cost-saving entity structures, and forecasting built on experience, you’ll get the benefit of CPAs that know the ins and outs of how your industry works.
+
+### Cross-Border Businesses & Individuals
+
+### Cross-Border Businesses & Individuals
+
+Our Cross-Border experts are here to help, whether you're an individual living abroad or a company working across borders!
+
+### Real Estate & Investment Properties
+
+### Real Estate & Investment Properties
+
+We've helped real estate investors maximize their tax savings through strategic entity structures.
+
+### E-Commerce & Online Businesses
+
+### E-Commerce & Online Businesses
+
+Our e-commerce team understands that tax logistics and operations required for e-commerce and online brands.
+
+### Cryptocurrency Traders & Miners
+
+### Cryptocurrency Traders & Miners
+
+Work with an accounting firm that's been on the forefront of crypto accounting for years.
+
+##### Convenient Meeting and Payment Options
+
+## Virtual Meetings
+
+Connect through our video teleconferencing platform for convenient virtual meetings
+
+## Online Portal
+
+Upload  documents, receipts, and paperwork through our online portal
+
+## Pay Online
+
+Submit electronic payments for our services easily through our online payment platform
+
+## Global Offices
+
+Our team of expert CPAs are based primarily in Houston and Toronto
+
+##### Client Satisfaction is Our Top Priority
+
+We believe in building strong, long-term client relationships and providing excellent communication with a high standard of accountability. Our core values and expertise help us provide unparalleled finance and business services to our clients, and we encourage open dialogue and ask for ongoing feedback from our clients.
+
+### "They Made it Easy"
+
+Akif CPA was very helpful, efficient, and quick to take care of our needs. They made it easy to send info and answered any question I had!
+
+### "I Appreciate Their Expertise"
+
+Akif CPA has been handling my S-corp and personal tax needs, and I appreciate their expertise and prompt communication. They offer clear explanations and maintain a professional approach, making the process easier to navigate. I would definitely recommend their services for tax and business planning to friends, family, or business associates.Thanks Mohammad!
+
+### "They've Been Working With Us for 10 Years"
+
+Great Team! has a lot of experience with all sorts of accounting and taxes with IRS. Been working with us for 10 years now and has been helpful throughout the process. prompt responses to questions and very knowledge in this field. Thank you for all your advices and guidance throughout our business process.
+
+### "I Had A Fantastic Experience With the Akif CPA Team"
+
+I had a fantastic experience with the AKIF team. They were professional, knowledgable, encouraging, and trustworthy. I was very overwhelmed in my tax situation the last few months. I was running in circles and had given up hope-- Saim and his team helped me immensely. I am so deeply grateful and highly recommend them to anyone looking for tax support especially regarding crypto. 10/10. I am a customer for life!
+
+### "Their Standard of Excellence Was Second to None"
+
+AKIF CPA has gone above and beyond to take care of us as a client. Their attention to detail and standard of excellence is second to none. I am grateful to have discovered their accounting firm and will be doing business with them for years to come.
+
+### "The Work Done For Our Partnership Tax Return Was Flawless"
+
+The staff and service provided was unmatched from any accountant that I've worked with prior. Both my buddy and I know we found our permanent accountant to handle all our tax liability questions from here on forward. The work done for our Partnership Tax Return for our e-commerce business was done flawlessly and smooth.
+
+**Read Our Latest Reviews ►**
+
+### Your Vision, Our Passion
+
+We Are Your Advisors and Partners in Business Success
+
+Our top-rated firm has a proven track record of transforming businesses into financially healthy entities with clear paths to growth. We focus on niche expertise and prioritize client partnership to set our clients on the path to business success.","","https://akifcpa.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AKIF CPA - CPAs, CA and Advisors - Houston and Toronto","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","akifcpa.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","75a233ef3641bfa78850d396228546e64a0aeb414e2fc6cb15bb101dc88f310b","0.0","0.3","cd724e73-41c3-539b-b832-aa2100937f39","","2026-03-31T13:28:46.339747Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/akifcpa.com.json","/tmp/tmpr6ekfgmk/evidence/domain/akifcpa.com.json","","2026-06-29T13:28:46.339755Z","business consulting firm advisor email","2026-03-31T13:26:24.316096Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T13:28:46.356424Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpr6ekfgmk/evidence/domain/vaam.io.json","","2026-06-29T13:28:46.356426Z","SaaS startup CEO contact information","2026-03-31T13:26:27.639178Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T13:28:46.369551Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpr6ekfgmk/evidence/domain/findemails.com.json","","2026-06-29T13:28:46.369554Z","SaaS startup CEO contact information","2026-03-31T13:26:28.566785Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T13:28:46.382650Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpr6ekfgmk/evidence/domain/bcg.com.json","","2026-06-29T13:28:46.382653Z","venture consulting firm partner email","2026-03-31T13:26:33.906752Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T13:28:46.395661Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpr6ekfgmk/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T13:28:46.395664Z","management consulting firm director email","2026-03-31T13:26:44.640294Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://mcgplc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","mcgplc.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","2b5b72f3b15b95e6dc1f739e3e8a99bad698e6acfcfaa7858381fdfaf0d86aae","0.0","0.3","d775a363-09cf-5ef9-bdf1-6063d6b4e06b","","2026-03-31T13:28:46.441768Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mcgplc.com.json","/tmp/tmpr6ekfgmk/evidence/domain/mcgplc.com.json","","2026-06-29T13:28:46.441771Z","management consulting firm director email","2026-03-31T13:26:45.556074Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

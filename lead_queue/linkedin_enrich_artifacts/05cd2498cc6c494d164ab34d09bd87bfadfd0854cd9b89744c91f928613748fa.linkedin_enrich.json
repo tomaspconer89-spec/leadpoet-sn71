@@ -1,0 +1,554 @@
+{
+  "saved_at_utc": "2026-03-31T01:16:37.398228+00:00",
+  "queue_key": "05cd2498cc6c494d164ab34d09bd87bfadfd0854cd9b89744c91f928613748fa",
+  "business": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Seamless.AI - Best AI Sales Software & Business Leads Platform",
+      "Seamless.AI - Best AI Sales Software & Business Leads Platform linkedin company",
+      "site:linkedin.com/company seamless.ai",
+      "site:linkedin.com/in \"Seamless.AI - Best AI Sales Software & Business Leads Platform\" founder",
+      "site:linkedin.com/in \"Seamless.AI - Best AI Sales Software & Business Leads Platform\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "EZOmK0gRCRowK2u",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Seamless.AI - Best AI Sales Software & Business Leads Platform",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Digitals AI",
+            "url": "https://www.linkedin.com/company/digitals-ai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Digitals AI",
+            "description": "Digitals AI Inc. is a product-focused AI company offering a unified platform that delivers adaptable, secure, and affordable AI products to businesses\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AI",
+              "AI",
+              "platform",
+              "AI",
+              "businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "21.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "1stContact.ai the All-In-One AI CRM",
+            "url": "https://www.linkedin.com/company/1stcontact",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a01stContact.ai the All-In-One AI CRM",
+            "description": "1stContact.ai is a revolutionary customer relationship management (CRM) platform designed specifically with artificial intelligence at its core.Read more",
+            "emphasizedKeywords": [
+              "1stContact.ai"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "470+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "LeadStorm AI",
+            "url": "https://www.linkedin.com/company/leadstorm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0LeadStorm AI",
+            "description": "LeadStorm AI is the all-in-one outbound marketing and sales automation platform for businesses that want to proactively fill their pipeline rather than\u00a0...Read more",
+            "emphasizedKeywords": [
+              "LeadStorm AI"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "590+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "A-Leads",
+            "url": "https://www.linkedin.com/company/a-leads-co",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0A-Leads",
+            "description": "A-Leads is the world's first Living Lead Intelligence Platform, purpose-built to deliver real-time, verified contact and account data for B2B teams. Unlike\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Living Lead Intelligence Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.9K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Salesfully.com",
+            "url": "https://www.linkedin.com/company/salesfully.com",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Salesfully.com",
+            "description": "Salesfully is a leading direct marketing discovery platform that helps you get more work done. Salesfully arms your organization with the right tools.Read more",
+            "emphasizedKeywords": [
+              "Salesfully is a leading direct marketing discovery platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "SalesCode.ai",
+            "url": "https://in.linkedin.com/company/salescodeai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SalesCode.ai",
+            "description": "SalesCode is the world's most advanced AI Platform for Sales that guarantees a minimum 3% sales uplift for CPG companies.Read more",
+            "emphasizedKeywords": [
+              "SalesCode"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "14.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "FURTHER",
+            "url": "https://www.linkedin.com/company/furthertechnology",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FURTHER",
+            "description": "FURTHER's team of AI powered sales assistants work together to automate conversations with senior living prospects, helping them find what they're looking for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "FURTHER's team of AI powered sales assistants"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Leadbeam",
+            "url": "https://www.linkedin.com/company/leadbeam",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leadbeam",
+            "description": "Leadbeam is an AI-powered Field Sales software that helps sales teams find high-value leads, optimize daily routes, prep for meetings, and capture 6x more CRM\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AI-powered Field Sales software"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "AI Ark",
+            "url": "https://www.linkedin.com/company/aiark",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AI Ark",
+            "description": "Redefine your sales and marketing efforts with AI Ark, where AI-powered data sharpens your competitive edge. Pinpoint your ideal customers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AI Ark"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "CRM.io",
+            "url": "https://in.linkedin.com/company/crm-io-ai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CRM.io",
+            "description": "By integrating advanced AI capabilities, seamless automation, and intuitive tools, CRM.io empowers businesses to achieve greater efficiency, improve\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AI",
+              "seamless",
+              "businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "280+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/skf9AIVErKPH9DGPj/records/EZOmK0gRCRowK2u-0.html?signature=WDtth07ZdtixaWBFyYyY"
+      },
+      {
+        "#debug": {
+          "requestId": "PLXNkXdBzwE73Ot",
+          "url": "http://www.google.com/search?q=Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Seamless.AI - Best AI Sales Software & Business Leads Platform linkedin company",
+          "url": "http://www.google.com/search?q=Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Seamless.AI+-+Best+AI+Sales+Software+%26+Business+Leads+Platform+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Free AI tools for lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Free+AI+tools+for+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Seamless AI login",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+login&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Seamless AI LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+LinkedIn&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Seamless AI CEO",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+CEO&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Best free AI tools for lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Best+free+AI+tools+for+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Seamless AI logo",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+logo&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Best AI lead generation tools",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Best+AI+lead+generation+tools&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "AI tools for sales lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=AI+tools+for+sales+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Free AI tools for lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Free+AI+tools+for+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Seamless AI login",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+login&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Seamless AI LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+LinkedIn&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Seamless AI CEO",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+CEO&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Best free AI tools for lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Best+free+AI+tools+for+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Seamless AI logo",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Seamless+AI+logo&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Best AI lead generation tools",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Best+AI+lead+generation+tools&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "AI tools for sales lead generation",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=AI+tools+for+sales+lead+generation&sa=X&ved=2ahUKEwiJ97mR-8iTAxXH8bsIHaTmLhMQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+            "url": "https://seamless.ai/",
+            "displayedUrl": "https://seamless.ai",
+            "description": "Seamless.AI is a real-time search engine that helps B2B companies find accurate sales leads so they can get in front of the right prospects, close more deals,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Seamless.AI is a real-time search engine"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Seamless.AI Leads",
+            "url": "https://www.linkedin.com/company/seamless-ai-leads",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Seamless.AI Leads",
+            "description": "Seamless.AI Leads | 462 followers on LinkedIn. The world's best sales leads. Your pipeline to prosperity. Fueling success, one lead at a time.",
+            "emphasizedKeywords": [
+              "Seamless.AI Leads"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Best AI Prospecting Tool - Sales Prospecting Software",
+            "url": "https://seamless.ai/products/platform-overview",
+            "displayedUrl": "https://seamless.ai \u203a products \u203a platform-overview",
+            "description": "Top tools include Seamless.AI for real-time verified contact data, LinkedIn Sales Navigator for advanced lead search and social selling, HubSpot Sales for CRM,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Seamless.AI for real-time verified contact data"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Seamless.AI",
+            "url": "https://www.linkedin.com/products/seamlessai/",
+            "displayedUrl": "https://www.linkedin.com \u203a products \u203a seamlessai",
+            "description": "Seamless.AI helps sales, marketing, and recruiting teams maximize revenue, increase sales, and easily acquire their total addressable market using artificial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Seamless.AI"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "About Seamless.AI\u00ae - The World's Best Sales Leads\u00ae",
+            "url": "https://seamless.ai/company/about-us",
+            "displayedUrl": "https://seamless.ai \u203a company \u203a about-us",
+            "description": "Seamless.AI helps professionals in the world create new relationships, opportunities, and revenue, faster than ever before. We are built on the core purpose\u00a0...",
+            "emphasizedKeywords": [
+              "Seamless",
+              "AI"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "How Seamless.AI helps sales pros find B2B leads with AI ...",
+            "url": "https://www.linkedin.com/videos/matt-smith-407743320_b2bsales-leadgeneration-salesenablement-activity-7357109776473849857-euC-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Matt Smith",
+            "description": "Meets Seamless dot AI, your ultimate sales intelligence software with the Prospector feature. Discover over 1.3 billion business contacts and\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "LinkedIn Lead Generation",
+            "url": "https://seamless.ai/customers/blog/sales/unlocking-the-power-of-linkedin-lead-generation",
+            "displayedUrl": "https://seamless.ai \u203a Blog \u203a Sales",
+            "description": "LinkedIn lead generation is all about knowing how to maximize this massive professional social platform to generate more sales leads and build a personal brand\u00a0...Read more",
+            "date": "2023-06-23T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "LinkedIn lead generation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Seamless.AI Review \u2014 Still a Top Choice or Time to Move On?",
+            "url": "https://www.youtube.com/watch?v=s0diPo5TJzk",
+            "displayedUrl": "YouTube\u00a0\u203a\u00a0Speak About Digital",
+            "description": "Seamless.ai AI is a powerful tool for anyone focused on outbound sales or lead generation.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "views": "1.1K+ views",
+            "lastUpdated": "8 months ago",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "LinkedIn Sales Navigator Chrome Extension",
+            "url": "https://seamless.ai/customers/education/articles/using-the-chrome-extension-on-sales-navigator",
+            "displayedUrl": "https://seamless.ai \u203a Education \u203a General Training",
+            "description": "Learn how to use our Chrome extension to search directly on LinkedIn Sales Navigator and pull contact information directly into your Seamless.AI account.Read more",
+            "emphasizedKeywords": [
+              "search directly on LinkedIn Sales Navigator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/EzY7WiQ4dcKLU1tVI/records/PLXNkXdBzwE73Ot-0.html?signature=ka7NKNJuO2Mcd8ZqHWmO"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Seamless.AI - Best AI Sales Software & Business Leads Platform",
+      "https://www.linkedin.com/company/digitals-ai",
+      "https://www.linkedin.com/company/1stcontact",
+      "https://www.linkedin.com/company/leadstorm",
+      "https://www.linkedin.com/company/a-leads-co",
+      "https://www.linkedin.com/company/salesfully.com",
+      "https://in.linkedin.com/company/salescodeai",
+      "https://www.linkedin.com/company/furthertechnology",
+      "https://www.linkedin.com/company/leadbeam",
+      "https://www.linkedin.com/company/aiark",
+      "https://in.linkedin.com/company/crm-io-ai",
+      "https://www.linkedin.com/company/seamless-ai-leads",
+      "https://www.linkedin.com/products/seamlessai/",
+      "https://www.linkedin.com/videos/matt-smith-407743320_b2bsales-leadgeneration-salesenablement-activity-7357109776473849857-euC-"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/digitals-ai",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+    "description": "# Best AI Sales Software & Business Leads Platform ## More leads. More meetings. More opportunities. More revenue. Everyone needs more. Seamless provides you all the tools you need to achieve more, but sacrifice less. ### Find the right buyers. Instantly. Deliver real-time, verified data you can trust \u2014 so every call, email, and connection starts from the right place. ![A diagram showing all the checked and verified data points connected to a contact card.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://seamless.ai",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://seamless.ai",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "seamless.ai",
+    "source_urls": [
+      "https://seamless.ai"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Seamless.AI - Best AI Sales Software & Business Leads Platform",
+    "description": "# Best AI Sales Software & Business Leads Platform ## More leads. More meetings. More opportunities. More revenue. Everyone needs more. Seamless provides you all the tools you need to achieve more, but sacrifice less. ### Find the right buyers. Instantly. Deliver real-time, verified data you can trust \u2014 so every call, email, and connection starts from the right place. ![A diagram showing all the checked and verified data points connected to a contact card.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://seamless.ai",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "CEO",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/digitals-ai",
+    "source_url": "https://seamless.ai",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "seamless.ai",
+    "source_urls": [
+      "https://seamless.ai"
+    ],
+    "title_raw": "CEO",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/digitals-ai"
+    },
+    "role": {
+      "before": "",
+      "after": "CEO"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "CEO"
+    }
+  }
+}

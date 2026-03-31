@@ -1,0 +1,150 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T01:17:53.932639Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp7fpdxbob/evidence/domain/cansulta.com.json","","2026-06-29T01:17:53.932641Z","startup advisory services founder contact","2026-03-31T01:17:25.751293Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T01:17:53.945902Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp7fpdxbob/evidence/domain/maynardnexsen.com.json","","2026-06-29T01:17:53.945904Z","business consulting firm advisor email","2026-03-31T01:17:29.495186Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T01:17:53.959335Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp7fpdxbob/evidence/domain/vaam.io.json","","2026-06-29T01:17:53.959337Z","SaaS startup CEO contact information","2026-03-31T01:17:32.849100Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T01:17:53.972448Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp7fpdxbob/evidence/domain/findemails.com.json","","2026-06-29T01:17:53.972450Z","SaaS startup CEO contact information","2026-03-31T01:17:34.109017Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T01:17:53.985522Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmp7fpdxbob/evidence/domain/bcg.com.json","","2026-06-29T01:17:53.985524Z","venture consulting firm partner email","2026-03-31T01:17:38.716325Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![Loading](https://boynton-beach.org/Common/images/ajax-loader.gif)
+Loading
+[Skip to Main Content](https://boynton-beach.org/#cc9b263b9d-a7e2-4e23-b747-b6d686e76be0)
+[Create a Website Account](https://boynton-beach.org/MyAccount/ProfileCreate) - Manage notification subscriptions, save form progress and more. 
+  * [Website Sign In](https://boynton-beach.org/MyAccount)
+
+
+[![FL Boynton Beach Home Page](https://boynton-beach.org/ImageRepository/Document?documentID=67)](https://boynton-beach.org/)
+![Go to search box](https://boynton-beach.org/ImageRepository/Document?documentID=71)
+  1. [ Government ](https://boynton-beach.org/27/Government)
+  2. [ Services ](https://boynton-beach.org/101/Services)
+  3. [ Community ](https://boynton-beach.org/31/Community)
+  4. [ Business ](https://boynton-beach.org/35/Business)
+  5. [ How Do I... ](https://boynton-beach.org/9/How-Do-I)
+
+
+[![Search](https://boynton-beach.org/ImageRepository/Document?documentID=72)](https://boynton-beach.org/Search/Results) Search
+[![Search](https://boynton-beach.org/ImageRepository/Document?documentID=72)](https://boynton-beach.org/Search/Results) Search
+## [Pay Your Water Bill ](https://boynton-beach.org/465/Online-Payments)
+## [Meetings & Agendas ](https://boynton-beach.org/129/Agendas-Minutes)
+## [Report an Issue ](https://boynton-beach.org/304/Report-Request)
+## [City Library ](https://boynton-beach.org/204/Library)
+## [Zoning & Permiting ](https://boynton-beach.org/257/Planning-Zoning)
+## [Employment Opportunities ](https://www.governmentjobs.com/careers/boyntonbeachfl)
+  1. # How Can We Help?
+  2. Find what you're looking for
+
+
+  1. [Meetings](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_0)
+  2. [News](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_1)
+  3. [Events](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_2)
+
+
+  1. [Meetings](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_0)
+
+
+# City Commission Meeting
+[Click here for Remote Participation instructions](https://www.boynton-beach.org/648/Remote-Participation-Instructions) [Click Here to make a Public Comment](https://callin.studio/BBLTA2026)
+Need help with making a public comment?   
+Please call 561-742-6984 during meeting hours.
+  1. [News](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_1)
+
+
+  1. [![FL Boynton Beach Logo](https://boynton-beach.org/ImageRepository/Document?documentID=81)](https://boynton-beach.org/CivicAlerts.aspx?AID=246)
+####  [S.E. 36th AVENUE GULFSTREAM BLVD. STREETSCAPE AND WATER MAIN IMPROVEMENTS PROJECT ](https://boynton-beach.org/CivicAlerts.aspx?AID=246)
+[Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=246)
+  2. [![FL Boynton Beach Logo](https://boynton-beach.org/ImageRepository/Document?documentID=81)](https://boynton-beach.org/CivicAlerts.aspx?AID=245)
+####  [Evaluation Committee for the RFQ No. 26-011Q Comprehensive Vulnerability Assessment (Grant Funded) ](https://boynton-beach.org/CivicAlerts.aspx?AID=245)
+The Evaluation Committee for the RFQ No. 26-011Q Comprehensive Vulnerability Assessment (Grant Funded) will meet in City Hall Room 115 on the date and time noted below, to discuss and rank proposals as part of the evaluation and selection process. [Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=245)
+  3. [![Boynton Sailfish logo Transparent Small](https://boynton-beach.org/ImageRepository/Document?documentID=2773)](https://boynton-beach.org/CivicAlerts.aspx?AID=244)
+####  [Pre-Evaluation Meeting Notice for RFQ No. 26-011Q Comprehensive Vulnerability Assessment ](https://boynton-beach.org/CivicAlerts.aspx?AID=244)
+[Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=244)
+  4. [![hurricane-banner-seal](https://boynton-beach.org/ImageRepository/Document?documentID=1594)](https://boynton-beach.org/CivicAlerts.aspx?AID=225)
+####  [UPDATE #3: Utilities lifts precautionary boil water notice ](https://boynton-beach.org/CivicAlerts.aspx?AID=225)
+As of 3 p.m. today, September 8, 2025, the City of Boynton Beach has lifted the precautionary boil water notice for all customers living east of I-95, including the Towns of Hypoluxo, Ocean Ridge and Briny Breezes. [Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=225)
+
+
+  1. [![hurricane-banner-seal](https://boynton-beach.org/ImageRepository/Document?documentID=1594)](https://boynton-beach.org/CivicAlerts.aspx?AID=224)
+####  [UPDATE #2: City of Boynton Beach Utilities issues precautionary boil water notice east of I-95 ](https://boynton-beach.org/CivicAlerts.aspx?AID=224)
+[Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=224)
+  2. [![hurricane-banner-seal](https://boynton-beach.org/ImageRepository/Document?documentID=1594)](https://boynton-beach.org/CivicAlerts.aspx?AID=223)
+####  [UPDATE: City of Boynton Beach Utilities issues precautionary boil water notice east of I-95 ](https://boynton-beach.org/CivicAlerts.aspx?AID=223)
+The City of Boynton Beach has restored water services as of September 6, 2025, following our contractor and crews working through the night to repair a damaged water main. [Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=223)
+  3. [![hurricane-banner-seal](https://boynton-beach.org/ImageRepository/Document?documentID=1594)](https://boynton-beach.org/CivicAlerts.aspx?AID=222)
+####  [City of Boynton Beach Utilities issues precautionary boil water notice east of I-95 ](https://boynton-beach.org/CivicAlerts.aspx?AID=222)
+City of Boynton Beach utilities is issuing a precautionary boil water notice for customers in utilities service areas east of I-95. [Read on...](https://boynton-beach.org/CivicAlerts.aspx?AID=222)
+
+
+[View All News](https://boynton-beach.org/CivicAlerts.aspx?CID=20,24&sort=date)
+/CivicAlerts.aspx
+  1. [Events](https://boynton-beach.org/#tabb3825868-b760-4f29-a741-e9ce0dfd05e3_2)
+
+
+### 
+March 2026  
+|  S   |  M   |  T   |  W   |  T   |  F   |  S   |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  
+|  8  |  9  | 10  | 11  | 12  | 13  | 14  |  
+| 15  | 16  | 17  | 18  | 19  | 20  | 21  |  
+| 22  | 23  | 24  | 25  | 26  | 27  | 28  |  
+| 29  | [30](https://boynton-beach.org/calendar.aspx?view=list&year=2026&month=3&day=30&CID=29,27,32,14,28,23)  | [31](https://boynton-beach.org/calendar.aspx?view=list&year=2026&month=3&day=31&CID=29,27,32,14,28,23)  | [ 1](https://boynton-beach.org/calendar.aspx?view=list&year=2026&month=4&day=1&CID=29,27,32,14,28,23)  | [ 2](https://boynton-beach.org/calendar.aspx?view=list&year=2026&month=4&day=2&CID=29,27,32,14,28,23)  |  3  | [ 4](https://boynton-beach.org/calendar.aspx?view=list&year=2026&month=4&day=4&CID=29,27,32,14,28,23)  |  
+  1. #### Mon, Mar 30 
+**[SCORE Mentor Mondays](https://boynton-beach.org/Calendar.aspx?EID=2365)**
+  2. #### Tue, Mar 31 
+**[1:1 Career and Employment Help with CareerSource PBC](https://boynton-beach.org/Calendar.aspx?EID=2406)**
+  3. #### Tue, Mar 31 
+**[Great Decisions 2026](https://boynton-beach.org/Calendar.aspx?EID=2555)**
+
+
+[View All Events](https://boynton-beach.org/calendar.aspx?CID=0&Keywords=&startDate=&enddate=&)
+/Calendar.aspx
+![seal-small](https://boynton-beach.org/ImageRepository/Document?documentID=3018)
+100 East Ocean Avenue Boynton Beach, Fl 33435. Phone: 561-742-6000.
+  * [![ Facebook](https://boynton-beach.org/ImageRepository/Document?documentID=48) ](https://www.facebook.com/boyntonbeachcity)
+
+
+  * [![ Twitter](https://boynton-beach.org/ImageRepository/Document?documentID=50) ](https://twitter.com/cityofboynton)
+
+
+  * [![ Instagram](https://boynton-beach.org/ImageRepository/Document?documentID=49) ](https://www.instagram.com/cityofboyntonbeach/)
+
+
+  * [![ YouTube](https://boynton-beach.org/ImageRepository/Document?documentID=51) ](https://www.youtube.com/user/cityofboynton)
+
+
+  * [![Nextdoor](https://boynton-beach.org/ImageRepository/Document?documentID=62) ](https://nextdoor.com/city/boynton-beach--fl/)
+
+
+  * [![Linkedin](https://boynton-beach.org/ImageRepository/Document?documentID=52) ](https://www.linkedin.com/company/city-of-boynton-beach)
+
+
+Loading
+Loading 
+Do Not Show Again Close
+Arrow Left Arrow Right
+Slideshow Left Arrow Slideshow Right Arrow
+  *[
+S
+]: 
+Saturday
+
+  *[
+M
+]: 
+Monday
+
+  *[
+T
+]: 
+Thursday
+
+  *[
+W
+]: 
+Wednesday
+
+  *[
+F
+]: 
+Friday
+
+","","https://boynton-beach.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Boynton Beach, FL | Official Website","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","boynton-beach.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","e3ddb93c4cd937f7b4fa9998f13ea9ada4127f48f64482a9f64a3c00f162bf7a","0.0","0.3","2b1790af-1d1c-5b9c-bfde-23221476d13e","","2026-03-31T01:17:53.998730Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/boynton-beach.org.json","/tmp/tmp7fpdxbob/evidence/domain/boynton-beach.org.json","","2026-06-29T01:17:53.998732Z","small business advisory firm team page","2026-03-31T01:17:43.725479Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T01:17:54.011757Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp7fpdxbob/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T01:17:54.011759Z","management consulting firm director email","2026-03-31T01:17:50.753625Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

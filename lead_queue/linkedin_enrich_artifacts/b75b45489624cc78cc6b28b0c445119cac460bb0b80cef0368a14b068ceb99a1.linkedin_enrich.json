@@ -1,0 +1,1639 @@
+{
+  "saved_at_utc": "2026-03-31T13:18:48.376273+00:00",
+  "queue_key": "b75b45489624cc78cc6b28b0c445119cac460bb0b80cef0368a14b068ceb99a1",
+  "business": "The University of Rhode Island",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company The University of Rhode Island",
+      "The University of Rhode Island linkedin company",
+      "site:linkedin.com/company uri.edu",
+      "site:linkedin.com/in \"The University of Rhode Island\" founder",
+      "site:linkedin.com/in \"The University of Rhode Island\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "PqtSsL7sygRl38T",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+University+of+Rhode+Island",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+University+of+Rhode+Island",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company The University of Rhode Island",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+University+of+Rhode+Island",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+University+of+Rhode+Island",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "University of Rhode Island College of Education and ...",
+            "url": "https://www.linkedin.com/company/uri-ceps",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island College of Education and Professional Studies",
+            "description": "The Feinstein College of Education and Professional Studies (CEPS) is designed to provide an innovative and interconnected approach to undergraduate, graduate\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "University of Rhode Island College of Health Sciences",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0David Schnyer",
+            "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The College of Health Sciences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "University of Rhode Island Foundation",
+            "url": "https://www.linkedin.com/company/uri-foundation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island Foundation",
+            "description": "Our Mission: The URI Foundation unites passion and purpose by engaging alumni, donors, and friends to strengthen the University of Rhode Island's growth through\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The URI Foundation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "URI College of Engineering",
+            "url": "https://www.linkedin.com/company/rhodyengineering",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrik Puentes",
+            "description": "The University of Rhode Island's College of Engineering is a diverse community of students, faculty, and staff dedicated to advancing society through\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The University of Rhode Island's College of Engineering"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "URI Office of Strategic Initiatives",
+            "url": "https://www.linkedin.com/company/uri-osi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI Office of Strategic Initiatives",
+            "description": "At the University of Rhode Island's Office of Strategic Initiatives, we believe Rhode Island's greatest asset is its people. We bridge education and industry,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Rhode Island's greatest asset is its people"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "URI College of the Environment and Life Sciences",
+            "url": "https://www.linkedin.com/company/uri-college-of-the-environment-and-life-sciences",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI College of the Environment and Life Sciences",
+            "description": "Through exceptional education, research, and outreach, the URI College of the Environment and Life Sciences works to improve the quality of life for all Rhode\u00a0...Read more",
+            "emphasizedKeywords": [
+              "URI College of the Environment and Life Sciences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "University of Rhode Island Feinstein College of Education",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-feinstein-college-of-education?trk=organization_guest_main-feed-card-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island Feinstein College of Education",
+            "description": "University of Rhode Island College of Education and Professional Studies. Higher Education. Providence, Rhode Island.Read more",
+            "emphasizedKeywords": [
+              "University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "University of Rhode Island College of Pharmacy",
+            "url": "https://it.linkedin.com/company/uri-college-of-pharmacy?trk=public_profile_topcard-current-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island College of Pharmacy",
+            "description": "The University of Rhode Island College of Pharmacy was founded in 1902 and is one of the oldest schools of pharmacy in the United States.Read more",
+            "emphasizedKeywords": [
+              "was founded in 1902"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Department of Physics, University of Rhode Island",
+            "url": "https://www.linkedin.com/company/uriphysics",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island College of Arts and Sciences",
+            "description": "In the department of physics at the University of Rhode Island, we want to know more about how the universe works\u2014and we never stop asking questions.Read more",
+            "emphasizedKeywords": [
+              "how the universe works"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "250+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "University of Rhode Island - College of Nursing",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-college-of-nursing",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island - College of Nursing",
+            "description": "University of Rhode Island - College of Nursing | 1882 followers on LinkedIn. A dynamic catalyst for improving health and transforming care through\u00a0...",
+            "emphasizedKeywords": [
+              "University of Rhode Island - College of Nursing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.9K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ciO3CNPPMOS9sp5tv/records/PqtSsL7sygRl38T-0.html?signature=1p7S8tuUZA0UQyvfAQdsd"
+      },
+      {
+        "#debug": {
+          "requestId": "LxVvYIIoB4BE5Fc",
+          "url": "http://www.google.com/search?q=The+University+of+Rhode+Island+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=The+University+of+Rhode+Island+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "The University of Rhode Island linkedin company",
+          "url": "http://www.google.com/search?q=The+University+of+Rhode+Island+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=The+University+of+Rhode+Island+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "University of Rhode Island ranking",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+ranking&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "University of Rhode Island acceptance rate",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+acceptance+rate&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "University of Rhode Island - niche",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+-+niche&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "University of Rhode Island careers",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+careers&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "University of Rhode Island QS ranking",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+QS+ranking&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "University of Rhode Island location",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+location&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "URI College of Business",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=URI+College+of+Business&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Brown University",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Brown+University&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "University of Rhode Island ranking",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+ranking&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "University of Rhode Island acceptance rate",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+acceptance+rate&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "University of Rhode Island - niche",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+-+niche&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "University of Rhode Island careers",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+careers&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "University of Rhode Island QS ranking",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+QS+ranking&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "University of Rhode Island location",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=University+of+Rhode+Island+location&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "URI College of Business",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=URI+College+of+Business&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Brown University",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Brown+University&sa=X&ved=2ahUKEwjM4sXbnMqTAxX8wskDHaqJPIAQ1QJ6BAgyEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "University of Rhode Island Employees, Location, Alumni",
+            "url": "https://www.linkedin.com/school/university-of-rhode-island/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island",
+            "description": "Official LinkedIn account for The University of Rhode Island (URI). | Think Big. We Do. | #GoRhody \u00b7 View all open jobs \u00b7 View all 6,412 employees.Read more",
+            "emphasizedKeywords": [
+              "Official LinkedIn account for The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "138K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "University of Rhode Island: Alumni and Graduates",
+            "url": "https://www.linkedin.com/school/university-of-rhode-island/people",
+            "displayedUrl": "https://www.linkedin.com \u203a school \u203a people",
+            "description": "Official LinkedIn account for The University of Rhode Island (URI). | Think Big. We Do. | #GoRhody \u00b7 View all open jobs \u00b7 View all 6,412 employees.Read more",
+            "emphasizedKeywords": [
+              "Official LinkedIn account for The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "University of Rhode Island - College of Business",
+            "url": "https://www.linkedin.com/school/university-of-rhode-island---college-of-business-a/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greg Welsh",
+            "description": "The URI College of Business Administration, the first accredited business school in Rhode Island, is recognized for its leadership in business education,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The URI",
+              "Business",
+              "business",
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "17.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "URI Online",
+            "url": "https://www.linkedin.com/showcase/uri-online/",
+            "displayedUrl": "https://www.linkedin.com \u203a showcase \u203a uri-online",
+            "description": "URI Online offers high-quality, flexible, and fully-online programs designed for working professionals and lifelong learners.Read more",
+            "emphasizedKeywords": [
+              "URI Online"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Jobs at University of Rhode Island - Career",
+            "url": "https://www.linkedin.com/school/university-of-rhode-island/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a school \u203a jobs",
+            "description": "Official LinkedIn account for The University of Rhode Island (URI). | Think Big. We Do. | #GoRhody \u00b7 View all open jobs \u00b7 View all 6,412 employees.Read more",
+            "emphasizedKeywords": [
+              "Official LinkedIn account for The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "University of Rhode Island College of Health Sciences",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0David Schnyer",
+            "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span.Read more",
+            "emphasizedKeywords": [
+              "The College of Health Sciences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "URI Graduate School of Oceanography",
+            "url": "https://www.linkedin.com/school/uri-graduate-school-of-oceanography/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI Graduate School of Oceanography",
+            "description": "The University of Rhode Island's Graduate School of Oceanography educates marine scientists, students, policymakers, business leaders and citizens.Read more",
+            "emphasizedKeywords": [
+              "educates marine scientists, students, policymakers, business leaders and citizens"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.5K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "How LinkedIn is Useful for Business & How to get Started",
+            "url": "https://web.uri.edu/risbdc/how-linkedin-is-useful-for-business-how-to-get-started/",
+            "displayedUrl": "https://web.uri.edu \u203a risbdc \u203a how-linkedin-is-useful-fo...",
+            "description": "The University of Rhode Island is an equal opportunity employer.Read more",
+            "date": "2019-01-09T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "University of Rhode Island Foundation",
+            "url": "https://www.linkedin.com/company/uri-foundation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island Foundation",
+            "description": "Our Vision: We strive to transform engagement, ignite innovation, and position the University of Rhode Island as a catalyst for excellence and global impact.Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "University of Rhode Island - College of Business: Alumni ...",
+            "url": "https://www.linkedin.com/school/university-of-rhode-island---college-of-business-a/people",
+            "displayedUrl": "https://www.linkedin.com \u203a school \u203a people",
+            "description": "What 10,239 University of Rhode Island - College of Business alumni on LinkedIn are up to \u00b7 Where they work \u00b7 What they do \u00b7 What they studied.Read more",
+            "emphasizedKeywords": [
+              "University of Rhode Island",
+              "Business",
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/uMhBm1z5BS0rg200D/records/LxVvYIIoB4BE5Fc-0.html?signature=r5w2cDDM6Bw3cIXg33oo"
+      },
+      {
+        "#debug": {
+          "requestId": "BJFHEWpApdu6OAu",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+uri.edu",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+uri.edu",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company uri.edu",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+uri.edu",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+uri.edu",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "University of Rhode Island College of Education and ...",
+            "url": "https://www.linkedin.com/company/uri-ceps",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island College of Education and Professional Studies",
+            "description": "The Feinstein College of Education and Professional Studies (CEPS) is designed to provide an innovative and interconnected approach to undergraduate, graduate\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "University of Rhode Island Feinstein College of Education",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-feinstein-college-of-education?trk=organization_guest_main-feed-card-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island Feinstein College of Education",
+            "description": "University of Rhode Island College of Education and Professional Studies. Higher Education. Providence, Rhode Island.Read more",
+            "emphasizedKeywords": [
+              "University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "URI College of Engineering",
+            "url": "https://www.linkedin.com/company/rhodyengineering",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrik Puentes",
+            "description": "The University of Rhode Island's College of Engineering is a diverse community of students, faculty, and staff dedicated to advancing society through\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The University of Rhode Island's College of Engineering"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "URI College of the Environment and Life Sciences",
+            "url": "https://www.linkedin.com/company/uri-college-of-the-environment-and-life-sciences",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI College of the Environment and Life Sciences",
+            "description": "Through exceptional education, research, and outreach, the URI College of the Environment and Life Sciences works to improve the quality of life for all Rhode\u00a0...Read more",
+            "emphasizedKeywords": [
+              "URI College of the Environment and Life Sciences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "URI Center for Career & Experiential Education",
+            "url": "https://www.linkedin.com/company/uri-ccee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meghan Majewski",
+            "description": "The University of Rhode Island's Center for Career and Experiential Education (CCEE) engages undergraduate students and alumni in a high quality personal and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "engages undergraduate students and alumni"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "490+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "URI Office of Strategic Initiatives",
+            "url": "https://www.linkedin.com/company/uri-osi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI Office of Strategic Initiatives",
+            "description": "We bridge education and industry, bringing URI's world-class expertise directly to organizations across our state. From emerging professionals to seasoned\u00a0...Read more",
+            "emphasizedKeywords": [
+              "URI's world-class expertise directly"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "University of Rhode Island Foundation",
+            "url": "https://www.linkedin.com/company/uri-foundation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0University of Rhode Island Foundation",
+            "description": "Our Mission: The URI Foundation unites passion and purpose by engaging alumni, donors, and friends to strengthen the University of Rhode Island's growth through\u00a0...Read more",
+            "emphasizedKeywords": [
+              "URI",
+              "University of Rhode Island's"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "University of Rhode Island College of Health Sciences",
+            "url": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0David Schnyer",
+            "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span.Read more",
+            "emphasizedKeywords": [
+              "The College of Health Sciences"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "URI Master of Public Administration",
+            "url": "https://www.linkedin.com/company/uri-master-of-public-administration",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0URI Master of Public Administration",
+            "description": "Our program is a fully asynchronous 36-credit online program offered by the Department of Political Science. It is specifically designed and tailored to\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/WCa5eCgJ4bq3YQQdR/records/BJFHEWpApdu6OAu-0.html?signature=1DQJz6ynEoMSWtv0hIrWJ"
+      },
+      {
+        "#debug": {
+          "requestId": "4sxl54KktWEspmJ",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"The University of Rhode Island\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "The university of rhode island founder son",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+founder+son&sa=X&ved=2ahUKEwj5hevjnMqTAxXnUEEAHXY-B7QQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "The university of rhode island founder age",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+founder+age&sa=X&ved=2ahUKEwj5hevjnMqTAxXnUEEAHXY-B7QQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "The university of rhode island founder son",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+founder+son&sa=X&ved=2ahUKEwj5hevjnMqTAxXnUEEAHXY-B7QQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "The university of rhode island founder age",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+founder+age&sa=X&ved=2ahUKEwj5hevjnMqTAxXnUEEAHXY-B7QQ1QJ6BAgyEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Ben Grossman - Kanu",
+            "url": "https://www.linkedin.com/in/ben-grossman-017320101",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ben Grossman",
+            "description": "The University of Rhode Island's 2019 Showcase of Undergraduate Research, Scholarly, and Creative Works. Sep 2019. Over 60 students participated in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The University of Rhode Island's"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Narragansett, Rhode Island, United States",
+              "companyName": "Kanu",
+              "rawText": "Narragansett, Rhode Island, United States \u00b7 Kanu"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Nasser Zawia - Professor (III) and former Dean",
+            "url": "https://www.linkedin.com/in/nasser-zawia-0a6a014b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nasser Zawia",
+            "description": "Nasser H. Zawia was the Dean of the Graduate School at the University of Rhode Island and the inaugural director of the Interdisciplinary Neuroscience Program\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Kingston, Rhode Island, United States",
+              "jobTitle": "Professor, Biomedical and Pharmaceutical Sciences",
+              "companyName": "University of Rhode Island",
+              "rawText": "Kingston, Rhode Island, United States \u00b7 Professor, Biomedical and Pharmaceutical Sciences \u00b7 University of Rhode Island"
+            },
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Paolo Montelbano - Founder, Milvian Tech",
+            "url": "https://www.linkedin.com/in/paolo-montelbano",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Paolo Montelbano",
+            "description": "Founder, Milvian Tech | Computer Science @ URI \u00b7 I'm a dedicated and inquisitive ... the University of Rhode Island with a Major in Computer Science- eventually\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Khayri Denny - Ascension Leader",
+            "url": "https://www.linkedin.com/in/khayri-denny",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Khayri Denny",
+            "description": "My job is to go behind the scenes with student athletes at the University of Rhode Island and conduct interviews that I incorporate into feature articles.Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington DC-Baltimore Area",
+              "jobTitle": "Ceo",
+              "companyName": "Deyemensional",
+              "rawText": "Washington DC-Baltimore Area \u00b7 Ceo \u00b7 Deyemensional"
+            },
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Terry Rajsombath - Co-Founder at Rhode Island Original",
+            "url": "https://www.linkedin.com/in/terry-rajsombath-76a14b56",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Terry Rajsombath",
+            "description": "Strong community and social services professional graduated from the University of Rhode Island.Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "200+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Rashod Dickerson - The University of Rhode Island Alumni",
+            "url": "https://www.linkedin.com/in/rashod-dickerson-32164b171",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rashod Dickerson",
+            "description": "My name is Rashod Dickerson and I'm an alumni as The University of Rhode Island. I was a student athlete in football, which I was a four year starter so I know\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "jobTitle": "Employee Engagement Specialist",
+              "companyName": "Events DC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Employee Engagement Specialist \u00b7 Events DC"
+            },
+            "followersAmount": "880+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Sydney Robinson - Process Engineer III at Thermo Fisher ...",
+            "url": "https://www.linkedin.com/in/sydneyrobinson32",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sydney Robinson",
+            "description": "Responsible for management of 200+ member student organization at the University of Rhode Island. I coordinate weekly meetings furthering members\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Attleboro, Massachusetts, United States",
+              "jobTitle": "Process Engineer III",
+              "companyName": "Thermo Fisher Scientific",
+              "rawText": "Attleboro, Massachusetts, United States \u00b7 Process Engineer III \u00b7 Thermo Fisher Scientific"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Emilia Zeyl - Anthropology and Art History Graduate from ...",
+            "url": "https://www.linkedin.com/in/emilia-zeyl",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Emilia Zeyl",
+            "description": "Emilia Zeyl. Anthropology and Art History Graduate from the University of Rhode Island. Public Archaeology Laboratory, Inc. (PAL) University of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "History",
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Kingston, Rhode Island, United States",
+              "jobTitle": "Field Technician",
+              "companyName": "Public Archaeology Laboratory, Inc. (PAL)",
+              "rawText": "Kingston, Rhode Island, United States \u00b7 Field Technician \u00b7 Public Archaeology Laboratory, Inc. (PAL)"
+            },
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Sam Foer - J.D. Candidate, Washington & Lee School of Law",
+            "url": "https://www.linkedin.com/in/sam-foer-27b608186",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sam Foer",
+            "description": "Founder, President. BridgeUSA URI. Sep 2017 - May 2020 2 years 9 months. The ... The University of Rhode Island Political Science Department. Apr 2019.Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "The",
+              "The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Providence County, Rhode Island, United States",
+              "jobTitle": "Law Student",
+              "companyName": "Washington and Lee University School of Law",
+              "rawText": "Providence County, Rhode Island, United States \u00b7 Law Student \u00b7 Washington and Lee University School of Law"
+            },
+            "followersAmount": "280+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Chris Forcino - Learning Standards Officer with the Naval ...",
+            "url": "https://www.linkedin.com/in/chrisforcino",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Chris Forcino",
+            "description": "Secured a $45,000 RI Governor's Workforce Board Incumbent Worker Training Grant. \u2022 Contracted with the University of Rhode Island to assist with the\u2026 Show\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Providence County, Rhode Island, United States",
+              "jobTitle": "Leader Development Professional",
+              "companyName": "US Nav",
+              "rawText": "Providence County, Rhode Island, United States \u00b7 Leader Development Professional \u00b7 US Nav"
+            },
+            "followersAmount": "940+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/3UZKpcvi4NHwNF1gv/records/4sxl54KktWEspmJ-0.html?signature=gaYM4SavEUBYpt22bG54"
+      },
+      {
+        "#debug": {
+          "requestId": "u6HPrDDC5BazVz2",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"The University of Rhode Island\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22The+University+of+Rhode+Island%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "The university of rhode island ceo email",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+email&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "The university of rhode island ceo email address",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+email+address&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "The university of rhode island ceo contact",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+contact&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "The university of rhode island ceo email",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+email&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "The university of rhode island ceo email address",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+email+address&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "The university of rhode island ceo contact",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+university+of+rhode+island+ceo+contact&sa=X&ved=2ahUKEwj08dnnnMqTAxUi5skDHZgaF8wQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Mark Antonucci - University of Rhode Island Foundation",
+            "url": "https://www.linkedin.com/in/markjantonucci",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mark Antonucci",
+            "description": "Serving as the Chief Executive Officer of the University of Rhode Island Foundation and Vice President for University Advancement. URI is entering a new\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Chief Executive Officer",
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Kingston, Rhode Island, United States",
+              "jobTitle": "Chief Executive Officer & Vice President for Advancement",
+              "companyName": "University of Rhode Island Foundation",
+              "rawText": "Kingston, Rhode Island, United States \u00b7 Chief Executive Officer & Vice President for Advancement \u00b7 University of Rhode Island Foundation"
+            },
+            "followersAmount": "4.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Marc Parlange - President at the University of Rhode Island",
+            "url": "https://www.linkedin.com/in/marc-parlange",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Marc Parlange",
+            "description": "Marc Parlange is President of the University of Rhode Island, the state's public flagship research university. Founded in 1892, the University is comprised\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Kingston, Rhode Island, United States",
+              "jobTitle": "President",
+              "companyName": "University of Rhode Island",
+              "rawText": "Kingston, Rhode Island, United States \u00b7 President \u00b7 University of Rhode Island"
+            },
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Ben Grossman - Kanu",
+            "url": "https://www.linkedin.com/in/ben-grossman-017320101",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ben Grossman",
+            "description": "The University of Rhode Island's 2019 Showcase of Undergraduate Research ... As Philanthropy chair I sit on the executive board of the Rho Iota chapter of Zeta\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The University of Rhode Island's"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Narragansett, Rhode Island, United States",
+              "companyName": "Kanu",
+              "rawText": "Narragansett, Rhode Island, United States \u00b7 Kanu"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Rudolph A. Moseley Jr, Ed.D - | Keynote Speaker | Author",
+            "url": "https://www.linkedin.com/in/rudolph-a-moseley-jr-ed-d-8844b7128",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rudolph A. Moseley Jr, Ed.D",
+            "description": "He is also the Founder and CEO of the nonprofit organization \"The ... The University of Rhode Island is a public research university with its main\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "The University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Providence County, Rhode Island, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "The Moseley Leadership Group",
+              "rawText": "Providence County, Rhode Island, United States \u00b7 Chief Executive Officer \u00b7 The Moseley Leadership Group"
+            },
+            "followersAmount": "960+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Melody Crane - Employee Experience & People ...",
+            "url": "https://www.linkedin.com/in/melody-crane-603124148",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Melody Crane",
+            "description": "I earned my Bachelors Degree in Business Administration with two minors in Communication and Leadership Studies from the University of Rhode Island.Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "520+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Carmen M. Rogers, Ed.D., M.B.A. - University of Rhode Island",
+            "url": "https://www.linkedin.com/in/carmen-m-rogers-ed-d-m-b-a-20b8236",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Carmen M. Rogers, Ed.D., M.B.A.",
+            "description": "Carmen M. Rogers, Ed.D., M.B.A.. University of Rhode Island - College of Business University of Arkansas at Fayetteville. North Kingstown, Rhode\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "North Kingstown, Rhode Island, United States",
+              "companyName": "University of Rhode Island - College of Business",
+              "rawText": "North Kingstown, Rhode Island, United States \u00b7 University of Rhode Island - College of Business"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Dr. John Ramos, Sr. - President of Equity and Excellence ...",
+            "url": "https://www.linkedin.com/in/dr-john-ramos-sr-27659647?trk=public_post_main-feed-card-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dr. John Ramos, Sr.",
+            "description": "Strong education professional graduated from Fairfield College Preparatory School, Brown University, the University of Rhode Island and Teachers College,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York City Metropolitan Area",
+              "jobTitle": "President, Leadership Consultant & Learning Facilitator",
+              "companyName": "Equity & Excellence Imperative",
+              "rawText": "New York City Metropolitan Area \u00b7 President, Leadership Consultant & Learning Facilitator \u00b7 Equity & Excellence Imperative"
+            },
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Anne-Marie Johnson - President, CEO",
+            "url": "https://www.linkedin.com/in/anne-marie-johnson-57bb1b107",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anne-Marie Johnson",
+            "description": "Anne Marie Johnson, President, CEO. A graduate of the University of Rhode Island, I joined Claflin in 1978. At the Claflin Company, I have managed customer\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Warwick, Rhode Island, United States",
+              "jobTitle": "V. P. Administration",
+              "companyName": "The Claflin Company",
+              "rawText": "Warwick, Rhode Island, United States \u00b7 V. P. Administration \u00b7 The Claflin Company"
+            },
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Wendy Bucci - University of Rhode Island Foundation",
+            "url": "https://www.linkedin.com/in/wendy-bucci-aa029752",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wendy Bucci",
+            "description": "Chief Operations Officer \u00b7 Feb 2009 - Present ; Interim President/CEO \u00b7 Jan 2025 - Mar 2025 ; Interim President \u00b7 Jul 2011 - Dec 2011 ; Prospect Research Manager \u00b7 Oct\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Narragansett, Rhode Island, United States",
+              "jobTitle": "Chief Operations Officer",
+              "companyName": "University of Rhode Island Foundation",
+              "rawText": "Narragansett, Rhode Island, United States \u00b7 Chief Operations Officer \u00b7 University of Rhode Island Foundation"
+            },
+            "followersAmount": "820+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Natalie Wong - Salve Regina University",
+            "url": "https://www.linkedin.com/in/natalie-wong-973990111",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Natalie Wong",
+            "description": "Island as a whole. Dr. Thomas R. Dougan, Vice President of Student Affairs, has devoted 20 years of his time at the University of Rhode Island as an outstanding\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the University of Rhode Island"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "East Greenwich, Rhode Island, United States",
+              "companyName": "Salve Regina University",
+              "rawText": "East Greenwich, Rhode Island, United States \u00b7 Salve Regina University"
+            },
+            "followersAmount": "450+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/bglyJ4rMD9inect9q/records/u6HPrDDC5BazVz2-0.html?signature=1NJw9PEm57SKI4noKPtAO"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company The University of Rhode Island",
+      "https://www.linkedin.com/company/uri-ceps",
+      "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+      "https://www.linkedin.com/company/uri-foundation",
+      "https://www.linkedin.com/company/rhodyengineering",
+      "https://www.linkedin.com/company/uri-osi",
+      "https://www.linkedin.com/company/uri-college-of-the-environment-and-life-sciences",
+      "https://www.linkedin.com/company/university-of-rhode-island-feinstein-college-of-education?trk=organization_guest_main-feed-card-text",
+      "https://it.linkedin.com/company/uri-college-of-pharmacy?trk=public_profile_topcard-current-company",
+      "https://www.linkedin.com/company/uriphysics",
+      "https://www.linkedin.com/company/university-of-rhode-island-college-of-nursing",
+      "https://www.linkedin.com/school/university-of-rhode-island/",
+      "https://www.linkedin.com/school/university-of-rhode-island/people",
+      "https://www.linkedin.com/school/university-of-rhode-island---college-of-business-a/",
+      "https://www.linkedin.com/showcase/uri-online/",
+      "https://www.linkedin.com/school/university-of-rhode-island/jobs",
+      "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+      "https://www.linkedin.com/school/uri-graduate-school-of-oceanography/",
+      "https://www.linkedin.com/company/uri-foundation",
+      "https://www.linkedin.com/school/university-of-rhode-island---college-of-business-a/people",
+      "site:linkedin.com/company uri.edu",
+      "https://www.linkedin.com/company/uri-ceps",
+      "https://www.linkedin.com/company/university-of-rhode-island-feinstein-college-of-education?trk=organization_guest_main-feed-card-text",
+      "https://www.linkedin.com/company/rhodyengineering",
+      "https://www.linkedin.com/company/uri-college-of-the-environment-and-life-sciences",
+      "https://www.linkedin.com/company/uri-ccee",
+      "https://www.linkedin.com/company/uri-osi",
+      "https://www.linkedin.com/company/uri-foundation",
+      "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+      "https://www.linkedin.com/company/uri-master-of-public-administration",
+      "site:linkedin.com/in \"The University of Rhode Island\" founder",
+      "https://www.linkedin.com/in/ben-grossman-017320101",
+      "https://www.linkedin.com/in/nasser-zawia-0a6a014b",
+      "https://www.linkedin.com/in/paolo-montelbano",
+      "https://www.linkedin.com/in/khayri-denny",
+      "https://www.linkedin.com/in/terry-rajsombath-76a14b56",
+      "https://www.linkedin.com/in/rashod-dickerson-32164b171",
+      "https://www.linkedin.com/in/sydneyrobinson32",
+      "https://www.linkedin.com/in/emilia-zeyl",
+      "https://www.linkedin.com/in/sam-foer-27b608186",
+      "https://www.linkedin.com/in/chrisforcino",
+      "site:linkedin.com/in \"The University of Rhode Island\" ceo",
+      "https://www.linkedin.com/in/markjantonucci",
+      "https://www.linkedin.com/in/marc-parlange",
+      "https://www.linkedin.com/in/ben-grossman-017320101",
+      "https://www.linkedin.com/in/rudolph-a-moseley-jr-ed-d-8844b7128",
+      "https://www.linkedin.com/in/melody-crane-603124148",
+      "https://www.linkedin.com/in/carmen-m-rogers-ed-d-m-b-a-20b8236",
+      "https://www.linkedin.com/in/dr-john-ramos-sr-27659647?trk=public_post_main-feed-card-text",
+      "https://www.linkedin.com/in/anne-marie-johnson-57bb1b107",
+      "https://www.linkedin.com/in/wendy-bucci-aa029752",
+      "https://www.linkedin.com/in/natalie-wong-973990111"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences/",
+        "companyName": "University of Rhode Island College of Health Sciences",
+        "websiteUrl": "https://web.uri.edu/chs/",
+        "industry": "Higher Education",
+        "employeeCount": 52,
+        "followerCount": 1515,
+        "universalName": "university-of-rhode-island-college-of-health-sciences",
+        "tagline": "Promoting health and well-being through excellence in teaching, research and outreach.",
+        "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span. We are committed to high quality teaching that emphasizes evidence-based practices, engages students in multidisciplinary learning, and produces graduates who can effectively translate and apply knowledge in their professions. Our research seeks to develop innovative solutions to complex problems that improve the health and well-being of others. Recognizing that the best solutions occur when issues are approached from multiple perspectives, we value our diverse faculty and community, state, and national partnerships in both teaching and research. Through service and outreach, we strive to better the health, well-being and quality of life among members of the University community, the State of Rhode Island and beyond.",
+        "companyId": 87240059,
+        "hashtag": "#urihealth",
+        "industryV2Taxonomy": "Higher Education",
+        "callToAction": {
+          "displayText": "Learn more",
+          "type": "LEARN_MORE",
+          "url": "https://web.uri.edu/chs/"
+        },
+        "employeeCountRange": {
+          "start": 201,
+          "end": 500
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Kingston",
+          "geographicArea": "RI",
+          "postalCode": "02881",
+          "line1": "55 Lower College Road",
+          "line2": null,
+          "description": null
+        },
+        "foundedOn": null,
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQF-eflgNtqGpg/company-logo_200_200/company-logo_200_200/0/1662999696215?e=1776297600&v=beta&t=p56LxH7m0MDYWWqwDneBlVTq3k0F4Yjow6t_XoU16mo",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGz0zKHqvm0GA/company-background_10000/company-background_10000/0/1663000351036/university_of_rhode_island_college_of_health_sciences_cover?e=1775570400&v=beta&t=twesDzj6_VPUcvpVasfgS_V1otIg8mqiAgs57spQkP0",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQELijoLPYZ6gQ/image-scale_127_750/image-scale_127_750/0/1663000351075/university_of_rhode_island_college_of_health_sciences_cover?e=1775570400&v=beta&t=v7804-H7RahM88KeWnBbcD8EP00fZo17sNO0jWpX8s0",
+        "specialities": [],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "World Health Organization",
+            "followerCount": 6328995,
+            "url": "https://www.linkedin.com/company/world-health-organization/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEhC1u0R5DRQQ/company-logo_200_200/company-logo_200_200/0/1663777945634/world_health_organization_logo?e=1776297600&v=beta&t=zWHaRHvgSAN5diw1I69iVd06V9wn2NAdDyfDGecqlzk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQH7ymZiqs9CiA/image-scale_127_750/image-scale_127_750/0/1715597886671/world_health_organization_cover?e=1775570400&v=beta&t=Aw-DiW5XOQZPbcspOmjue00nhmoFc5DhjV54nmEcDTk",
+            "industryV2Taxonomy": "International Affairs",
+            "industry": "International Affairs",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFpEPlrQA5HlQ/company-background_10000/company-background_10000/0/1715597886455/world_health_organization_cover?e=1775570400&v=beta&t=mMCkMt9aBIJZPfjiUn-znmCaTcECr3OZVMBNGtmCy8I",
+            "companyId": 5350,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "CH",
+              "city": "Geneva 27",
+              "geographicArea": "GE",
+              "postalCode": "1211",
+              "line1": "20, avenue Appia",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "world-health-organization"
+          },
+          {
+            "name": "Brown University Health",
+            "followerCount": 76891,
+            "url": "https://www.linkedin.com/company/brown-university-health/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFNG2r634D5zw/company-logo_200_200/company-logo_200_200/0/1731005595480?e=1776297600&v=beta&t=G_G942T3v6rkq0BZ2NQ7BFUrtJzC7xVhiJuHPcUxCYE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFgM3B3StffTg/image-scale_127_750/image-scale_127_750/0/1731005696397/brown_university_health_cover?e=1775570400&v=beta&t=LVm3OXugjBddj99Ps3xnYN2smzcaEf4snoqR54T7la4",
+            "industryV2Taxonomy": "Hospitals and Health Care",
+            "industry": "Hospital & Health Care",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFd2KAGT9L8ZQ/company-background_10000/company-background_10000/0/1731005695557/brown_university_health_cover?e=1775570400&v=beta&t=x4WNbCY5RN6rDfAl89IhiyAIu1h-sbxjPL9KgF45YBc",
+            "companyId": 105536485,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Providence",
+              "geographicArea": "RI",
+              "postalCode": "02903",
+              "line1": "167 Point Street",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "brown-university-health"
+          },
+          {
+            "name": "Rhode Island Department of Health",
+            "followerCount": 10347,
+            "url": "https://www.linkedin.com/company/rhode-island-department-of-health/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQGXhdFxoWsQhQ/company-logo_200_200/company-logo_200_200/0/1661190186622/rhode_island_department_of_health_logo?e=1776297600&v=beta&t=8mJ6jCV9eIWEPgONjTSQhgskrc8Rv70mjC2onrde-Xo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGaF4TIP6hGLQ/image-scale_127_750/image-scale_127_750/0/1661190248294/rhode_island_department_of_health_cover?e=1775570400&v=beta&t=rPrPxQke4_4O76AOyHRAZAUtr4-j4UKfthip_9rlIt8",
+            "industryV2Taxonomy": "Government Administration",
+            "industry": "Government Administration",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFVFJenW99fyw/company-background_10000/company-background_10000/0/1661190248188/rhode_island_department_of_health_cover?e=1775570400&v=beta&t=0c3SKxSQGjsPSeFB0ft1ZvB7a6524KgWKiWsWMry_r8",
+            "companyId": 1112899,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Providence",
+              "geographicArea": "RI",
+              "postalCode": "02908",
+              "line1": "Three Capitol Hill",
+              "line2": "Cannon Building",
+              "description": null
+            },
+            "universalName": "rhode-island-department-of-health"
+          },
+          {
+            "name": "Behavior x Climate",
+            "followerCount": 25500,
+            "url": "https://www.linkedin.com/company/behavior-x-climate/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQGymYeyKMsRdg/company-logo_400_400/B4DZb28KRKHEAY-/0/1747899688875/behavior_x_climate_logo?e=1776297600&v=beta&t=D5bJBOFwB3EjNDHYwoXXIZF-hp3cq9ycjYOaAJK9JWQ",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEp2OqaKODzUg/image-scale_191_1128/B56Zb3.a.HGoAk-/0/1747917058512/behavior_x_climate_cover?e=1775570400&v=beta&t=UWxAy87L__bkKa5T2FYJHwZPS2k9N1-_BWPAJ8x7gfI",
+            "industryV2Taxonomy": "Education",
+            "industry": "Higher Education",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF1PvgmMKUDNA/company-background_10000/B56Zb3.a.RHcAc-/0/1747917058650/behavior_x_climate_cover?e=1775570400&v=beta&t=UP5LGFu6tqz450R7PqTZngHtCXyBsItlWeOJGpgGcno",
+            "companyId": 107120149,
+            "employeeCountRange": {
+              "start": 0,
+              "end": 1
+            },
+            "universalName": "behavior-x-climate"
+          },
+          {
+            "name": "INNOVATIONS",
+            "followerCount": 7387,
+            "url": "https://www.linkedin.com/company/innovationsandai/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGSNLID5xejNg/company-logo_100_100/B56ZXtfc8mGQAQ-/0/1743446200643/innovations_hub8_logo?e=1776297600&v=beta&t=c9oYinUftZ5_mBA0fz4hhdCz_x2GQA62gac4FlIixuU",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHIEGPJ5Eqw1Q/image-scale_127_750/B56ZXtlSp_GQAM-/0/1743447732548/innovations_hub8_cover?e=1775570400&v=beta&t=IgtB_xZaOB78boVK6SjYDp2ZI0bZmIO55FeGQgP3AdE",
+            "industryV2Taxonomy": "Technology, Information and Internet",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFt3KnK5RgL2A/company-background_400/B56ZXtlSriHQAY-/0/1743447732454/innovations_hub8_cover?e=1775570400&v=beta&t=YrUfXz4vlLGRxht0UJbPQArHxfD-9mX8X_P_dUO8kTE",
+            "companyId": 104663072,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "universalName": "innovationsandai"
+          },
+          {
+            "name": "Nutrition Opportunities",
+            "followerCount": 61397,
+            "url": "https://www.linkedin.com/company/nutrition-opportunities/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEabuZRUInDEQ/company-logo_200_200/company-logo_200_200/0/1630655609003?e=1776297600&v=beta&t=dXFzf8xcYX4vPtzpoudh8upiIu47lOohV93zAYM2kaY",
+            "industryV2Taxonomy": "Education Administration Programs",
+            "industry": "Education Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQEYUihlcH4wSg/company-background_10000/company-background_10000/0/1614894059827/nutrition_opportunities_cover?e=1775570400&v=beta&t=20mi3XJeN3b53OsYKJp5S_J-1tgMvByBJcvqPU8mGMg",
+            "companyId": 72056638,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "GB",
+              "city": "London",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "nutrition-opportunities"
+          },
+          {
+            "name": "E.L.F. BEAUTY",
+            "followerCount": 583506,
+            "url": "https://www.linkedin.com/company/e-l-f-beauty/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGahiLWxUEUSA/company-logo_200_200/company-logo_200_200/0/1715781029488/e_l_f_beauty_logo?e=1776297600&v=beta&t=QnSkM1KkKaLM3OMrpEeA_E9bUO0xJ8fx-8swUJNS018",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQE8I7wqBrI-0g/image-scale_127_750/B4EZlO4BsLHgAM-/0/1757964934573/e_l_f_beauty_cover?e=1775570400&v=beta&t=bx0JRyycB-wHmmd94IFajAjULJEi1J8JOaZrSjLB70g",
+            "industryV2Taxonomy": "Personal Care Product Manufacturing",
+            "industry": "Cosmetics",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEHUmmQlHMPNg/company-background_200/B4EZlO4Br8K0Ac-/0/1757964934345/e_l_f_beauty_cover?e=1775570400&v=beta&t=1u4mNwVSI0OOgdWE25T8EfhkXF0sGCWnE86WV9K_HZ4",
+            "companyId": 2653969,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Oakland",
+              "geographicArea": "California",
+              "postalCode": "94607",
+              "line1": "601 12th St",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "e-l-f-beauty"
+          },
+          {
+            "name": "U.S. Department of Health and Human Services (HHS)",
+            "followerCount": 1158837,
+            "url": "https://www.linkedin.com/company/hhsgov/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQEr7et8v1YdJQ/company-logo_200_200/company-logo_200_200/0/1654281016074/us_department_of_health_and_human_services_logo?e=1776297600&v=beta&t=yK2WZ0Q88k-Vagy0pWNSgzi3cHoX6G2CDyELJf6YIOE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHfYCyCCFP7MQ/image-scale_108_640/B4EZkbO.L4GYAQ-/0/1757098534083/hhsgov_cover?e=1775570400&v=beta&t=uX_qsfhC7omO7yPHDvsYqTe3fEOltHGe4-NXDwUlQkc",
+            "industryV2Taxonomy": "Government Administration",
+            "industry": "Government Administration",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFt4dBqRIIZBQ/company-background_400/B4EZkbO.MDGoAY-/0/1757098534068/hhsgov_cover?e=1775570400&v=beta&t=O0MT1XAtPYPezqLdPa4RfM2Sy2mjQTufX9VrKCwHg0Q",
+            "companyId": 4651,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Washington",
+              "geographicArea": "District of Columbia",
+              "postalCode": "20201",
+              "line1": "200 Independence Avenue S.W.",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "hhsgov"
+          },
+          {
+            "name": "Centers for Medicare & Medicaid Services",
+            "followerCount": 652913,
+            "url": "https://www.linkedin.com/company/centers-for-medicare-&-medicaid-services/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFlunnDwwg5hw/company-logo_200_200/company-logo_200_200/0/1630635622223/centers_for_medicare__medicaid_services_logo?e=1776297600&v=beta&t=JpTtxKqsfXJqBP8emrQJRjRfRUpFgBrfCHdruffRjTU",
+            "industryV2Taxonomy": "Government Administration",
+            "industry": "Government Administration",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQFqEEXpuA4X0g/company-background_10000/company-background_10000/0/1604587844994/centers_for_medicare__medicaid_services_cover?e=1775570400&v=beta&t=TkQiTiDIOlMPj2V-BKfBqRhrgnFTBJz-YQ8xh9Rl0hw",
+            "companyId": 4653,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Baltimore",
+              "geographicArea": "MD",
+              "postalCode": "21244",
+              "line1": "7500 Security Boulevard",
+              "line2": null,
+              "description": "Centers for Medicare & Medicaid Services"
+            },
+            "universalName": "centers-for-medicare-&-medicaid-services"
+          },
+          {
+            "name": "The National Institutes of Health",
+            "followerCount": 1032663,
+            "url": "https://www.linkedin.com/company/national-institutes-of-health/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFyi67O6Oma4g/company-logo_200_200/company-logo_200_200/0/1638911355550/national_institutes_of_health_logo?e=1776297600&v=beta&t=jTUxbsuq3xi_YHAAjoX0TcDfn7A6-ZkFf0BNBwXuqso",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGpOqH7GEbEhg/image-scale_127_750/image-scale_127_750/0/1714490530681/national_institutes_of_health_cover?e=1775570400&v=beta&t=89Ni6K7Ddth3YeZLpqJdOOPHQQXwFPVGjz1r27M0AGM",
+            "industryV2Taxonomy": "Biotechnology Research",
+            "industry": "Biotechnology",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEpQVEDAi_R7Q/company-background_10000/company-background_10000/0/1714490531925/national_institutes_of_health_cover?e=1775570400&v=beta&t=MGWSl_8LDsb_qr8gElCL0Sn2Qjcq2uprWHlrJpK9mEk",
+            "companyId": 165107,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Bethesda",
+              "geographicArea": "MD",
+              "postalCode": "20892",
+              "line1": "9000 Rockville Pike",
+              "line2": null,
+              "description": "National Institutes of Health"
+            },
+            "universalName": "national-institutes-of-health"
+          },
+          {
+            "name": "Pinnacle Central Company",
+            "followerCount": 146,
+            "url": "https://www.linkedin.com/company/pinnacle-central-company/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQHJV7jWX_C0nQ/company-logo_400_400/B4EZsnexijKUAY-/0/1765893938287/pinnacle_central_company_logo?e=1776297600&v=beta&t=Nxq689cZK6l7WG4yMAR8tgJvD8KNm68GVTY-L_bXh9Q",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQF8b5DK7eLMjg/image-scale_127_750/image-scale_127_750/0/1739197125149/pinnacle_central_company_cover?e=1775570400&v=beta&t=6da2dgjfgsIh8KlopDHafb9MBTkhdj540Pc2mVmi3aA",
+            "industryV2Taxonomy": "Commercial and Industrial Equipment Rental",
+            "industry": "Business Supplies & Equipment",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQG14PJ95c-Idw/company-background_10000/company-background_10000/0/1739197126258/pinnacle_central_company_cover?e=1775570400&v=beta&t=wv0g10wd5kIG13yZeHlWIWM1sPlfb9njdzv7kpf5O8U",
+            "companyId": 106207414,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Jacksonville",
+              "geographicArea": "Florida",
+              "postalCode": "32202",
+              "line1": "103 Bryan St",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "pinnacle-central-company"
+          },
+          {
+            "name": "University of Rhode Island Foundation",
+            "followerCount": 6605,
+            "url": "https://www.linkedin.com/company/uri-foundation/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGxxxSLuUB1qg/company-logo_200_200/B4EZeobs6xHIAM-/0/1750877523993/uri_foundation_alumni_relations_logo?e=1776297600&v=beta&t=oXxrBV2wUOrE5tZCdfmzqvyWM7I3zmUuPJiSKOIIDCA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQFtCcDj7YlwwA/image-scale_127_750/image-scale_127_750/0/1697573472665/uri_foundation_alumni_relations_cover?e=1775570400&v=beta&t=Nqc9T6st1QruwOKphD7K8mjBpde-vGjP5KfeZVlE8s8",
+            "industryV2Taxonomy": "Fundraising",
+            "industry": "Fundraising",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQG6qu-49AzYlw/company-background_10000/company-background_10000/0/1697573472713/uri_foundation_alumni_relations_cover?e=1775570400&v=beta&t=Zdb16O6cmOAHYnqiEVUX8Np_0KWR8VTbDYily_8o7bY",
+            "companyId": 64665222,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Kingston",
+              "geographicArea": "Rhode Island",
+              "postalCode": "02881",
+              "line1": "79 Upper College Rd",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "uri-foundation"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Kingston",
+            "geographicArea": "RI",
+            "postalCode": "02881",
+            "line1": "55 Lower College Road",
+            "line2": null,
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Kingston",
+            "latitude": 42.36041,
+            "longitude": -71.05798
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/ben-grossman-017320101"
+  },
+  "lead_before_enrichment": {
+    "business": "The University of Rhode Island",
+    "description": "# The University of Rhode Island ## Academics At the University of Rhode Island, our faculty and programs challenge you to expand your vision of what\u2019s possible. ## Admission The University of Rhode Island offers you a welcoming community, a beautiful campus near the ocean, and countless options for creating the future of your dreams.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://uri.edu",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://uri.edu",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "uri.edu",
+    "source_urls": [
+      "https://uri.edu"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "The University of Rhode Island",
+    "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span. We are committed to high quality teaching that emphasizes evidence-based practices, engages students in multidisciplinary learning, and produces graduates who can effectively translate and apply knowledge in their professions. Our research seeks to develop innovative solutions to complex problems that improve the health and well-being of others.",
+    "full_name": "Ben Grossman",
+    "first": "Ben",
+    "last": "Grossman",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://uri.edu",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "https://www.linkedin.com/in/ben-grossman-017320101",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+    "source_url": "https://uri.edu",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "uri.edu",
+    "source_urls": [
+      "https://uri.edu"
+    ],
+    "title_raw": "founder",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://uri.edu"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences"
+    },
+    "description": {
+      "before": "# The University of Rhode Island ## Academics At the University of Rhode Island, our faculty and programs challenge you to expand your vision of what\u2019s possible. ## Admission The University of Rhode Island offers you a welcoming community, a beautiful campus near the ocean, and countless options for creating the future of your dreams.",
+      "after": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span. We are committed to high quality teaching that emphasizes evidence-based practices, engages students in multidisciplinary learning, and produces graduates who can effectively translate and apply knowledge in their professions. Our research seeks to develop innovative solutions to complex problems that improve the health and well-being of others."
+    },
+    "first": {
+      "before": "",
+      "after": "Ben"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Ben Grossman"
+    },
+    "last": {
+      "before": "",
+      "after": "Grossman"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/ben-grossman-017320101"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://uri.edu"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

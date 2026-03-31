@@ -1,0 +1,301 @@
+{
+  "saved_at_utc": "2026-03-31T00:56:58.181337+00:00",
+  "queue_key": "412d7b2a1238d9bb71fd9d31fc5ce95d671191ecce3a8829b705c52b93cd1568",
+  "business": "Nevada Business Advisors - Helping You Grow Your Business",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Nevada Business Advisors - Helping You Grow Your Business",
+      "Nevada Business Advisors - Helping You Grow Your Business linkedin company",
+      "site:linkedin.com/company nevadabusinessadvisors.com",
+      "site:linkedin.com/in \"Nevada Business Advisors - Helping You Grow Your Business\" founder",
+      "site:linkedin.com/in \"Nevada Business Advisors - Helping You Grow Your Business\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "N6B80zprGLtQVm2",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+nevadabusinessadvisors.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+nevadabusinessadvisors.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company nevadabusinessadvisors.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+nevadabusinessadvisors.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+nevadabusinessadvisors.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Nevada Business Advisors",
+            "url": "https://www.linkedin.com/company/nevada-business-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nevada Business Advisors",
+            "description": "Nevada Business Advisors is in the business of building your business with experience you can trust. Powerful insights with Proven Delivery and Results.Read more",
+            "emphasizedKeywords": [
+              "Nevada Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "560+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Nevada Small Business Development Center",
+            "url": "https://www.linkedin.com/company/nevada-small-business-development-center",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nevada Small Business Development Center",
+            "description": "Nevada SBDC guides and assists Nevadans looking to start and grow businesses, with objectives to increase business starts, create and retain jobs,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Nevada SBDC guides and assists Nevadans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Nevada Small Business Development Center",
+            "url": "https://dz.linkedin.com/company/nevada-small-business-development-center",
+            "displayedUrl": "https://dz.linkedin.com \u203a company",
+            "description": "Nevada SBDC guides and assists Nevadans looking to start and grow businesses, with objectives to increase business starts, create and retain jobs,\u00a0...",
+            "emphasizedKeywords": [
+              "Nevada SBDC guides and assists Nevadans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Nevada Department of Business and Industry",
+            "url": "https://www.linkedin.com/company/department-of-business-and-industry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Brett Harris",
+            "description": "The Nevada Department of Business and Industry is a cabinet level department with 12 divisions, 61 commissions, boards and committees.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Nevada Small Business Development Center",
+            "url": "https://cr.linkedin.com/company/nevada-small-business-development-center",
+            "displayedUrl": "https://cr.linkedin.com \u203a company \u203a nevada-small-busine...",
+            "description": "Nevada SBDC guides and assists Nevadans looking to start and grow businesses, with objectives to increase business starts, create and retain jobs,\u00a0...",
+            "emphasizedKeywords": [
+              "Nevada SBDC guides and assists Nevadans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Nevada Department of Business and Industry",
+            "url": "https://cn.linkedin.com/company/department-of-business-and-industry",
+            "displayedUrl": "https://cn.linkedin.com \u203a company \u203a department-of-busi...",
+            "description": "The Nevada Department of Business and Industry is a cabinet level department with 12 divisions, 61 commissions, boards and committees.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Nevada Business Magazine",
+            "url": "https://www.linkedin.com/company/nevada-business-magazine",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nevada Business Magazine",
+            "description": "Nevada Business Magazine provides statewide information, insight and commentary for decision makers in Nevada.Read more",
+            "emphasizedKeywords": [
+              "provides statewide information, insight and commentary"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Nevada Small Business Development Center",
+            "url": "https://de.linkedin.com/company/nevada-small-business-development-center",
+            "displayedUrl": "https://de.linkedin.com \u203a company \u203a nevada-small-busin...",
+            "description": "Nevada SBDC guides and assists Nevadans looking to start and grow businesses, with objectives to increase business starts, create and retain jobs,\u00a0...",
+            "emphasizedKeywords": [
+              "Nevada SBDC guides and assists Nevadans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Nevada Business Magazine",
+            "url": "https://cz.linkedin.com/company/nevada-business-magazine/?trk=organization-update_share-update_actor-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nevada Business Magazine",
+            "description": "Nevada Business Magazine provides statewide information, insight and commentary for decision makers in Nevada. Featuring industry roundtable discussions,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides statewide information, insight and commentary for decision makers in Nevada"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Nevada Business Magazine | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/nevada-business-magazine",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "\u5173\u4e8e\u6211\u4eec ; \u7f51\u7ad9: http://nevadabusiness.com. Nevada Business Magazine\u7684\u5916\u90e8\u94fe\u63a5 ; \u6240\u5c5e\u884c\u4e1a: \u56fe\u4e66\u671f\u520a\u51fa\u7248\u4e1a ; \u89c4\u6a21: 11-50 \u4eba ; \u603b\u90e8: Henderson\uff0cNV ; \u7c7b\u578b: \u79c1\u4eba\u6301\u80a1.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/kvXgEvSf73oPvI7lM/records/N6B80zprGLtQVm2-0.html?signature=EiZDJaWEkjw8MXm2skxo"
+      }
+    ],
+    "apify_item_count": 1,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company nevadabusinessadvisors.com",
+      "https://www.linkedin.com/company/nevada-business-advisors",
+      "https://www.linkedin.com/company/nevada-small-business-development-center",
+      "https://dz.linkedin.com/company/nevada-small-business-development-center",
+      "https://www.linkedin.com/company/department-of-business-and-industry",
+      "https://cr.linkedin.com/company/nevada-small-business-development-center",
+      "https://cn.linkedin.com/company/department-of-business-and-industry",
+      "https://www.linkedin.com/company/nevada-business-magazine",
+      "https://de.linkedin.com/company/nevada-small-business-development-center",
+      "https://cz.linkedin.com/company/nevada-business-magazine/?trk=organization-update_share-update_actor-text",
+      "https://cn.linkedin.com/company/nevada-business-magazine"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/nevada-business-advisors",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Nevada Business Advisors - Helping You Grow Your Business",
+    "description": "# Nevada Business Advisors - Helping You Grow Your Business Nevada Business Advisors specializes in helping entrepreneurs and small businesses navigate the challenges and complexities of owning and running a business. We offer customized services tailored to the unique needs of each client, including business strategy, capital and financing assistance, sales and operational efficiency.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://nevadabusinessadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/nevada-business-advisors",
+    "source_url": "https://nevadabusinessadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "nevadabusinessadvisors.com",
+    "source_urls": [
+      "https://nevadabusinessadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Nevada Business Advisors - Helping You Grow Your Business",
+    "description": "# Nevada Business Advisors - Helping You Grow Your Business Nevada Business Advisors specializes in helping entrepreneurs and small businesses navigate the challenges and complexities of owning and running a business. We offer customized services tailored to the unique needs of each client, including business strategy, capital and financing assistance, sales and operational efficiency.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://nevadabusinessadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/nevada-business-advisors",
+    "source_url": "https://nevadabusinessadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "nevadabusinessadvisors.com",
+    "source_urls": [
+      "https://nevadabusinessadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {}
+}

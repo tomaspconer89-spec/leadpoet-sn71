@@ -1,0 +1,1002 @@
+{
+  "saved_at_utc": "2026-03-31T01:40:45.858364+00:00",
+  "queue_key": "c2e936ade0adc9c6cc99ab43bd0b07d7e98f2dd29b2e2cc868fe376e0f3e9349",
+  "business": "ExtraSlice",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company ExtraSlice",
+      "ExtraSlice linkedin company",
+      "site:linkedin.com/company extraslice.com",
+      "site:linkedin.com/in \"ExtraSlice\" founder",
+      "site:linkedin.com/in \"ExtraSlice\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "WUjeJFwY7VPNW73",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ExtraSlice",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ExtraSlice",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company ExtraSlice",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ExtraSlice",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ExtraSlice",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Extraslice bellevue",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+bellevue&sa=X&ved=2ahUKEwiOzN_WgMmTAxWV1fACHS5yFxkQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Extraslice jobs",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+jobs&sa=X&ved=2ahUKEwiOzN_WgMmTAxWV1fACHS5yFxkQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Extraslice bellevue",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+bellevue&sa=X&ved=2ahUKEwiOzN_WgMmTAxWV1fACHS5yFxkQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Extraslice jobs",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+jobs&sa=X&ved=2ahUKEwiOzN_WgMmTAxWV1fACHS5yFxkQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/company/extraslice",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ExtraSlice - Workspace as a Service",
+            "description": "Our mission is to streamline the office leasing process by offering diverse options, from single-tenant offices to co-tenancy spaces, all while serving tenants\u00a0...Read more",
+            "emphasizedKeywords": [
+              "to streamline the office leasing process"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "So You Need An Office",
+            "url": "https://ie.linkedin.com/company/so-you-need-an-office",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0So You Need An Office",
+            "description": "Contact us for free, impartial advice about your office space needs. Over 900 business centres UK wide, available for long/short term rent.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4 followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Alchemy Finance",
+            "url": "https://www.linkedin.com/company/alchemy-finance",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alchemy Finance",
+            "description": "Your one stop shop for: - Real Estate - Private Equity - Business Funding - Exit Solutions - Capital Markets https://alchemyfinance.usRead more",
+            "emphasizedKeywords": [
+              "Real"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9 followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "STEAM for Teens LLC",
+            "url": "https://www.linkedin.com/company/steamforteens",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0STEAM for Teens LLC",
+            "description": "We have provided classes to create games to lead students to STEM education at Environmental and Adventure School in Kirkland since 2017.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "NovaBytes",
+            "url": "https://uk.linkedin.com/company/novabytes",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NovaBytes",
+            "description": "ExtraSlice - Workspace as a Service. Real Estate. Bellevue, Washington. University of Strathclyde - Humanities & Social Sciences. Higher Education. Glasgow\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "230+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Enlightened Immersive",
+            "url": "https://www.linkedin.com/company/enlightened-immersive",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Enlightened Immersive",
+            "description": "We are Enlightened Immersive. We strive to create emerging interactive content that is fun and easy to use. Gone are the days of clunky hardware and long\u00a0...Read more",
+            "emphasizedKeywords": [
+              "emerging interactive content that is fun and easy to use"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "IntegraTouch",
+            "url": "https://www.linkedin.com/company/integratouch",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0IntegraTouch",
+            "description": "IntegraTouch, LLC, founded in 2002, is a rapid-growth, profitable, solutions technology company. IntegraTouch prides itself on improving its clients'\u00a0...Read more",
+            "emphasizedKeywords": [
+              "IntegraTouch, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Women in Consulting at Washington",
+            "url": "https://www.linkedin.com/company/womeninconsultingatwashington",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Women in Consulting at Washington",
+            "description": "Our mission is to empower women of all majors to confidently pursue their professional goals, build community, and develop the skills needed to thrive in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "women"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "HyperCIM Ltd",
+            "url": "https://uk.linkedin.com/company/hypercim",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0HyperCIM Ltd",
+            "description": "HyperCIM is redefining data intelligence with next-generation AI database accelerators that offload and optimize online database operations.Read more",
+            "emphasizedKeywords": [
+              "HyperCIM"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "490+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "PlatformXR",
+            "url": "https://www.linkedin.com/company/platformxr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PlatformXR",
+            "description": "West coast based software application company focused on multi-faceted business solutions and industry-specific utilities in the Mobile, Augmented and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "West coast based software application company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "230+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/xlmeftvWB1iOGPbeb/records/WUjeJFwY7VPNW73-0.html?signature=sbWfnD3ngsFXnkCrPh3W"
+      },
+      {
+        "#debug": {
+          "requestId": "ayk8S6YQxcUz21P",
+          "url": "http://www.google.com/search?q=ExtraSlice+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=ExtraSlice+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "ExtraSlice linkedin company",
+          "url": "http://www.google.com/search?q=ExtraSlice+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=ExtraSlice+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Extraslice linkedin company bellevu",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+linkedin+company+bellevu&sa=X&ved=2ahUKEwjF3evbgMmTAxVPExAIHXb1BvAQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Extraslice linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+linkedin+company+california&sa=X&ved=2ahUKEwjF3evbgMmTAxVPExAIHXb1BvAQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Extraslice linkedin company bellevu",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+linkedin+company+bellevu&sa=X&ved=2ahUKEwjF3evbgMmTAxVPExAIHXb1BvAQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Extraslice linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Extraslice+linkedin+company+california&sa=X&ved=2ahUKEwjF3evbgMmTAxVPExAIHXb1BvAQ1QJ6BAgyEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/company/extraslice",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ExtraSlice - Workspace as a Service",
+            "description": "As the year begins, ExtraSlice remains focused on supporting growing teams and enterprise organizations with flexible, secure, and scalable workspace solutions.Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice remains focused on supporting growing teams and enterprise organizations"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/posts/extraslice_new-year-enterprise-ready-workspaces-as-activity-7412368692346429440-xNyr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ExtraSlice - Workspace as a Service",
+            "description": "From agile project teams to distributed workforces, our spaces are designed to meet the demands of modern business\u2014without compromise. We look\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Binu Reghunathan - extraSlice",
+            "url": "https://www.linkedin.com/in/binur",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Binu Reghunathan",
+            "description": "My mission is to make office space leasing and operations extremely simple, providing an\u2026 \u00b7 Experience: extraSlice \u00b7 Education: University of Washington\u00a0...",
+            "emphasizedKeywords": [
+              "make office space leasing and operations extremely simple"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bellevue, Washington, United States",
+              "companyName": "extraSlice",
+              "rawText": "Bellevue, Washington, United States \u00b7 extraSlice"
+            },
+            "followersAmount": "7.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "extraslice #leadership #innovation #sharktank ...",
+            "url": "https://www.linkedin.com/posts/meghanasubramanian_extraslice-leadership-innovation-activity-7291219160187944960--Bpr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meghana Subramanian",
+            "description": "Extra Slice is like the Airbnb model for workspace offering all inclusive office solutions for enterprises and emerging companies. Now there are\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Extra Slice is like the Airbnb model for workspace"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "How to decide on office return with ExtraSlice WaaS",
+            "url": "https://www.linkedin.com/posts/extraslice_extraslicewaas-futureofwork-officereturn-activity-7313316672092741632-sIIZ",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a extraslice_extraslicew...",
+            "description": "Transforming Workspaces with ExtraSlice WaaS As we navigate post-pandemic work environments, the decision to return to the office full-time requires\u00a0...",
+            "emphasizedKeywords": [
+              "ExtraSlice WaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "advice 2",
+            "url": "https://extraslice.com/blog/tag/advice/page/2/",
+            "displayedUrl": "https://extraslice.com \u203a blog \u203a tag \u203a advice \u203a page",
+            "description": "The details were conferred mainly using Linkedin data. The total number of current employees for each company was taken from LinkedIn. After this, they\u00a0...",
+            "emphasizedKeywords": [
+              "Linkedin",
+              "company",
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Tag: Technology",
+            "url": "https://extraslice.com/blog/tag/technology/",
+            "displayedUrl": "https://extraslice.com \u203a blog \u203a tag \u203a technology",
+            "description": "The details were conferred mainly using Linkedin data. The total number of current employees for each company was taken from LinkedIn. After this, they\u00a0...",
+            "emphasizedKeywords": [
+              "Linkedin",
+              "company",
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "ExtraSlice - Workspace as a Service's Post",
+            "url": "https://www.linkedin.com/posts/extraslice_extraslice-pioneering-the-future-of-activity-7115877763286274049-IES_",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ExtraSlice - Workspace as a Service",
+            "description": "Explore the groundbreaking impact of AI on real estate with ExtraSlice! Join us on a pioneering journey into the future of brokerage.",
+            "emphasizedKeywords": [
+              "Explore the groundbreaking impact of AI on real estate with"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "ExtraSlice - Workspace as a Service's Post",
+            "url": "https://www.linkedin.com/posts/extraslice_reconnect2025-workspaceasaservice-extraslice-activity-7264833714893783040-RG5-",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a extraslice_reconnect2...",
+            "description": "Reconnect, Collaborate, Thrive\u2014Get Ready for 2025! As we gear up for an exciting new year, ExtraSlice is here to help your team find the perfect workspace\u00a0...",
+            "emphasizedKeywords": [
+              "ExtraSlice is here to help your team find the perfect workspace"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Enterprise | Best Business Case Office Space",
+            "url": "https://extraslice.com/",
+            "displayedUrl": "https://extraslice.com",
+            "description": "A hybrid solution of traditional leasing with speed and flexibility of coworking. Learn how extraSlice molds to fit your business needs.",
+            "emphasizedKeywords": [
+              "extraSlice molds to fit your business needs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/HMc7rkpPCVYCxmpO4/records/ayk8S6YQxcUz21P-0.html?signature=OdazRgWP7iJ2gGuIechN"
+      },
+      {
+        "#debug": {
+          "requestId": "FmSYA1WyPwbPzlO",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"ExtraSlice\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Sean Carson - ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/in/gotcarson",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sean Carson",
+            "description": "Sean Carson. ExtraSlice - Workspace as a Service University of Washington. Seattle, Washington, United States.Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Seattle, Washington, United States",
+              "companyName": "ExtraSlice - Workspace as a Service",
+              "rawText": "Seattle, Washington, United States \u00b7 ExtraSlice - Workspace as a Service"
+            },
+            "followersAmount": "820+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Binu Reghunathan - extraSlice",
+            "url": "https://www.linkedin.com/in/binur",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Binu Reghunathan",
+            "description": "Binu Reghunathan. extraSlice University of Washington - Michael G. Foster School of Business. Bellevue, Washington, United States.Read more",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bellevue, Washington, United States",
+              "companyName": "extraSlice",
+              "rawText": "Bellevue, Washington, United States \u00b7 extraSlice"
+            },
+            "followersAmount": "7.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Saksham Kota - extraSlice - Office Space Simplified",
+            "url": "https://www.linkedin.com/in/sakshamkota",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Saksham Kota",
+            "description": "Saksham Kota. extraSlice - Office Space Simplified University of Washington Bothell. Bothell, Washington, United States.Read more",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bothell, Washington, United States",
+              "companyName": "extraSlice - Office Space Simplified",
+              "rawText": "Bothell, Washington, United States \u00b7 extraSlice - Office Space Simplified"
+            },
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Teresa Rodriguez - extraSlice - Office Space Simplified",
+            "url": "https://www.linkedin.com/in/teresa-rodriguez-90b8542b8",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Teresa Rodriguez",
+            "description": "Experience: extraSlice - Office Space Simplified \u00b7 Education: North Seattle College \u00b7 Location: Seattle \u00b7 159 connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Seattle, Washington, United States",
+              "companyName": "extraSlice - Office Space Simplified",
+              "rawText": "Seattle, Washington, United States \u00b7 extraSlice - Office Space Simplified"
+            },
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Jancy Joseph - ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/in/jancyjoseph",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jancy Joseph",
+            "description": "Jancy Joseph. ExtraSlice - Workspace as a Service University of Madras. Greater Seattle Area. 293 followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Seattle Area",
+              "companyName": "ExtraSlice - Workspace as a Service",
+              "rawText": "Greater Seattle Area \u00b7 ExtraSlice - Workspace as a Service"
+            },
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Kaghaz Pare - ExtraSlice - Best Business Case Office Space\u00ae",
+            "url": "https://uk.linkedin.com/in/kaghaz-pare-6479b420b",
+            "displayedUrl": "https://uk.linkedin.com \u203a ...",
+            "description": "Experience: ExtraSlice - Best Business Case Office Space\u00ae \u00b7 Location: EC2N 3AR \u00b7 1 connection on LinkedIn. View Kaghaz Pare's profile on LinkedIn,\u00a0...",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Dhanshika Vijayaraj - swe @ seattle children's | data @ uw",
+            "url": "https://www.linkedin.com/in/dhanshika-vijayaraj",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dhanshika Vijayaraj",
+            "description": "ExtraSlice - Office Space Simplified Graphic. Business Intern. ExtraSlice - Office Space Simplified. Jun 2021 - Oct 2021 5 months. VueData Graphic. Software\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice",
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Prabakar Murugappan - Angel Investor",
+            "url": "https://www.linkedin.com/in/prabakarmurugappan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Prabakar Murugappan",
+            "description": "Angel Investor ... ExtraSlice is a tech focused flexible coworking space with a platform of training & service providers to deliver new technologies to market. HP\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Christopher Chung - Ikigai Technologies",
+            "url": "https://www.linkedin.com/in/christopher-j-chung",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Christopher Chung",
+            "description": "Results-oriented business leader with experience building effective strategic plans and\u2026 \u00b7 Experience: Ikigai Technologies \u00b7 Education: Stanford University\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Seattle Area",
+              "companyName": "Ikigai Technologies",
+              "rawText": "Greater Seattle Area \u00b7 Ikigai Technologies"
+            },
+            "followersAmount": "4.4K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Anna Ulanova - Software Developer",
+            "url": "https://www.linkedin.com/in/annaul",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anna Ulanova",
+            "description": "Issued Apr 2017. Honors & Awards. Women's hackathon winner. ExtraSlice - The Place for Tech. Jul 2017. Languages. Russian. Native or bilingual proficiency\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.4K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/120h7nXG6GyVKDRUE/records/FmSYA1WyPwbPzlO-0.html?signature=PO20PhLmuK4swhDnwaIp"
+      },
+      {
+        "#debug": {
+          "requestId": "BFZgQXI8eIEmTr1",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"ExtraSlice\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22ExtraSlice%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Binu Reghunathan - extraSlice",
+            "url": "https://www.linkedin.com/in/binur",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Binu Reghunathan",
+            "description": "Binu Reghunathan. extraSlice University of Washington - Michael G. Foster School of Business. Bellevue, Washington, United States.Read more",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bellevue, Washington, United States",
+              "companyName": "extraSlice",
+              "rawText": "Bellevue, Washington, United States \u00b7 extraSlice"
+            },
+            "followersAmount": "7.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Sean Carson - ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/in/gotcarson",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sean Carson",
+            "description": "Experience: ExtraSlice - Workspace as a Service \u00b7 Education: University of Washington \u00b7 Location: Seattle \u00b7 500+ connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Seattle, Washington, United States",
+              "companyName": "ExtraSlice - Workspace as a Service",
+              "rawText": "Seattle, Washington, United States \u00b7 ExtraSlice - Workspace as a Service"
+            },
+            "followersAmount": "820+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Saksham Kota - extraSlice - Office Space Simplified",
+            "url": "https://www.linkedin.com/in/sakshamkota",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Saksham Kota",
+            "description": "Saksham Kota. extraSlice - Office Space Simplified University of Washington Bothell. Bothell, Washington, United States.Read more",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bothell, Washington, United States",
+              "companyName": "extraSlice - Office Space Simplified",
+              "rawText": "Bothell, Washington, United States \u00b7 extraSlice - Office Space Simplified"
+            },
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Jancy Joseph - ExtraSlice - Workspace as a Service",
+            "url": "https://www.linkedin.com/in/jancyjoseph",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jancy Joseph",
+            "description": "Jancy Joseph. ExtraSlice - Workspace as a Service University of Madras. Greater Seattle Area. 293 followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Seattle Area",
+              "companyName": "ExtraSlice - Workspace as a Service",
+              "rawText": "Greater Seattle Area \u00b7 ExtraSlice - Workspace as a Service"
+            },
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Kaghaz Pare - ExtraSlice - Best Business Case Office Space\u00ae",
+            "url": "https://uk.linkedin.com/in/kaghaz-pare-6479b420b",
+            "displayedUrl": "https://uk.linkedin.com \u203a ...",
+            "description": "Experience: ExtraSlice - Best Business Case Office Space\u00ae \u00b7 Location: EC2N 3AR \u00b7 1 connection on LinkedIn. View Kaghaz Pare's profile on LinkedIn,\u00a0...",
+            "emphasizedKeywords": [
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Dhanshika Vijayaraj - swe @ seattle children's | data @ uw",
+            "url": "https://www.linkedin.com/in/dhanshika-vijayaraj",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dhanshika Vijayaraj",
+            "description": "ExtraSlice - Office Space Simplified Graphic. Business Intern. ExtraSlice ... President/Lead Instructor. Girls Who Code. Sep 2020 - Dec 2022 2 years 4\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice",
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Inbar Gazit \u2714 - Technology Leader",
+            "url": "https://www.linkedin.com/in/inbargazit",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Inbar Gazit \u2714",
+            "description": "extraSlice Graphic. C# Instructor. extraSlice. Apr 2014 - May 2016 2 years 2 months. Bellevue, WA. I love teaching. I enjoy sharing the knowledge and experience\u00a0...Read more",
+            "emphasizedKeywords": [
+              "extraSlice",
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "14.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Valli Gangadaran - Test Lead",
+            "url": "https://www.linkedin.com/in/valli-gangadaran",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Valli Gangadaran",
+            "description": "University of Madras Graphic. University of Madras. Bachelor of Engineering (B.E.) Electrical and Electronics Engineering. extraSlice. SDET Training.Read more",
+            "emphasizedKeywords": [
+              "extraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Pleasanton, California, United States",
+              "jobTitle": "Test Lead | Project Manager",
+              "companyName": "WA State Government",
+              "rawText": "Pleasanton, California, United States \u00b7 Test Lead | Project Manager \u00b7 WA State Government"
+            },
+            "followersAmount": "210+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Scott Warner - VP Growth | C-Level Sales Pro",
+            "url": "https://www.linkedin.com/in/scott-warner-salespro",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Scott Warner",
+            "description": "Broker/Owner of a full service real estate brokerage delivering best business case results for clients' commercial real estate needs. ExtraSlice - The Place for\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Owner",
+              "ExtraSlice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Angelus Oaks, California, United States",
+              "jobTitle": "Brokerage Owner",
+              "companyName": "Scott Halaby Warner",
+              "rawText": "Angelus Oaks, California, United States \u00b7 Brokerage Owner \u00b7 Scott Halaby Warner"
+            },
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Daniel Tompkins - Character Designer",
+            "url": "https://www.linkedin.com/in/daniel-tompkins-345377107",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Daniel Tompkins",
+            "description": "ExtraSlice - Office Space Simplified Graphic. Operations and Marketing ... Reported findings to CEO. - Coordinated with development, business analyst\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExtraSlice",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Los Angeles, California, United States",
+              "jobTitle": "Sales and Design Associate",
+              "companyName": "Quick Art Frame",
+              "rawText": "Los Angeles, California, United States \u00b7 Sales and Design Associate \u00b7 Quick Art Frame"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/WBFS1H8El4q7B2SrP/records/BFZgQXI8eIEmTr1-0.html?signature=1L89GpV1mbTHJ5CWi9bgx"
+      }
+    ],
+    "apify_item_count": 4,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company ExtraSlice",
+      "https://www.linkedin.com/company/extraslice",
+      "https://ie.linkedin.com/company/so-you-need-an-office",
+      "https://www.linkedin.com/company/alchemy-finance",
+      "https://www.linkedin.com/company/steamforteens",
+      "https://uk.linkedin.com/company/novabytes",
+      "https://www.linkedin.com/company/enlightened-immersive",
+      "https://www.linkedin.com/company/integratouch",
+      "https://www.linkedin.com/company/womeninconsultingatwashington",
+      "https://uk.linkedin.com/company/hypercim",
+      "https://www.linkedin.com/company/platformxr",
+      "https://www.linkedin.com/company/extraslice",
+      "https://www.linkedin.com/posts/extraslice_new-year-enterprise-ready-workspaces-as-activity-7412368692346429440-xNyr",
+      "https://www.linkedin.com/in/binur",
+      "https://www.linkedin.com/posts/meghanasubramanian_extraslice-leadership-innovation-activity-7291219160187944960--Bpr",
+      "https://www.linkedin.com/posts/extraslice_extraslicewaas-futureofwork-officereturn-activity-7313316672092741632-sIIZ",
+      "https://www.linkedin.com/posts/extraslice_extraslice-pioneering-the-future-of-activity-7115877763286274049-IES_",
+      "https://www.linkedin.com/posts/extraslice_reconnect2025-workspaceasaservice-extraslice-activity-7264833714893783040-RG5-",
+      "site:linkedin.com/in \"ExtraSlice\" founder",
+      "https://www.linkedin.com/in/gotcarson",
+      "https://www.linkedin.com/in/binur",
+      "https://www.linkedin.com/in/sakshamkota",
+      "https://www.linkedin.com/in/teresa-rodriguez-90b8542b8",
+      "https://www.linkedin.com/in/jancyjoseph",
+      "https://uk.linkedin.com/in/kaghaz-pare-6479b420b",
+      "https://www.linkedin.com/in/dhanshika-vijayaraj",
+      "https://www.linkedin.com/in/prabakarmurugappan",
+      "https://www.linkedin.com/in/christopher-j-chung",
+      "https://www.linkedin.com/in/annaul",
+      "site:linkedin.com/in \"ExtraSlice\" ceo",
+      "https://www.linkedin.com/in/binur",
+      "https://www.linkedin.com/in/gotcarson",
+      "https://www.linkedin.com/in/sakshamkota",
+      "https://www.linkedin.com/in/jancyjoseph",
+      "https://uk.linkedin.com/in/kaghaz-pare-6479b420b",
+      "https://www.linkedin.com/in/dhanshika-vijayaraj",
+      "https://www.linkedin.com/in/inbargazit",
+      "https://www.linkedin.com/in/valli-gangadaran",
+      "https://www.linkedin.com/in/scott-warner-salespro",
+      "https://www.linkedin.com/in/daniel-tompkins-345377107"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/extraslice",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/gotcarson",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "ExtraSlice",
+    "description": "Workspace as a Service providing flexible, enterprise-ready office spaces.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://extraslice.com",
+    "industry": "Real Estate",
+    "sub_industry": "Flexible office space solutions",
+    "role": "",
+    "linkedin": "",
+    "region": "Bellevue, WA, USA",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "0",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/extraslice",
+    "source_url": "https://extraslice.com",
+    "source_type": "company_site",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "USA",
+    "hq_country": "USA",
+    "hq_state": "WA",
+    "hq_city": "Bellevue",
+    "employee_count": "11-50",
+    "company_domain_canonical": "extraslice.com",
+    "source_urls": [
+      "https://extraslice.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "ExtraSlice",
+    "description": "Workspace as a Service providing flexible, enterprise-ready office spaces.",
+    "full_name": "Gotcarson",
+    "first": "Gotcarson",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://extraslice.com",
+    "industry": "Real Estate",
+    "sub_industry": "Flexible office space solutions",
+    "role": "founder",
+    "linkedin": "https://www.linkedin.com/in/gotcarson",
+    "region": "Bellevue, WA, USA",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "0",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/extraslice",
+    "source_url": "https://extraslice.com",
+    "source_type": "company_site",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "USA",
+    "hq_country": "USA",
+    "hq_state": "WA",
+    "hq_city": "Bellevue",
+    "employee_count": "11-50",
+    "company_domain_canonical": "extraslice.com",
+    "source_urls": [
+      "https://extraslice.com"
+    ],
+    "title_raw": "founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://extraslice.com"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Gotcarson"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Gotcarson"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/gotcarson"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://extraslice.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

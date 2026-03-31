@@ -1,0 +1,905 @@
+{
+  "saved_at_utc": "2026-03-31T13:32:39.804639+00:00",
+  "queue_key": "3fbd0e1217b58b4e18407c0a12573c7c829b8a26ec0821aca7f5e1cb8cff3b3d",
+  "business": "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company AKIF CPA - CPAs, CA and Advisors - Houston and Toronto",
+      "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto linkedin company",
+      "site:linkedin.com/company akifcpa.com",
+      "site:linkedin.com/in \"AKIF CPA - CPAs, CA and Advisors - Houston and Toronto\" founder",
+      "site:linkedin.com/in \"AKIF CPA - CPAs, CA and Advisors - Houston and Toronto\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "SNZgaCLtNPcMlyg",
+          "url": "http://www.google.com/search?q=AKIF+CPA+-+CPAs%2C+CA+and+Advisors+-+Houston+and+Toronto+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=AKIF+CPA+-+CPAs%2C+CA+and+Advisors+-+Houston+and+Toronto+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto linkedin company",
+          "url": "http://www.google.com/search?q=AKIF+CPA+-+CPAs%2C+CA+and+Advisors+-+Houston+and+Toronto+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=AKIF+CPA+-+CPAs%2C+CA+and+Advisors+-+Houston+and+Toronto+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "AKIF CPA",
+            "url": "https://www.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Office in both Houston and Toronto"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://id.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "https://id.linkedin.com \u203a akif-cpa-pllc",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Office in both Houston and Toronto"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://cr.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Office in both Houston and Toronto"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Mohammad Akif, Author, MBA, Tax Pro, CPA (USA) ...",
+            "url": "https://ca.linkedin.com/in/mohammad-akif",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mohammad Akif, Author, MBA, Tax Pro, CPA (USA), CA (CANADA)",
+            "description": "Mohammad Akif, Author, MBA, Tax Pro, CPA (USA), CA (CANADA). AKIF CPA University of Houston ... Experience. AKIF CPA Graphic. AKIF CPA. Toronto/Houston. Education.Read more",
+            "emphasizedKeywords": [
+              "AKIF CPA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Mississauga, Ontario, Canada",
+              "companyName": "AKIF CPA",
+              "rawText": "Mississauga, Ontario, Canada \u00b7 AKIF CPA"
+            },
+            "followersAmount": "820+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto",
+            "url": "https://akifcpa.com/",
+            "displayedUrl": "https://akifcpa.com",
+            "description": "Akif CPA - Offices in Houston and Toronto providing Tax Services, Accounting and Bookkeeping, Cross-Border and International Tax, Business Advisory and\u00a0...",
+            "emphasizedKeywords": [
+              "Offices in Houston and Toronto"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "#akifcpa #taxstructure #accounting #taxplanning ...",
+            "url": "https://www.linkedin.com/posts/akif-cpa-pllc_akifcpa-taxstructure-accounting-activity-7289657290603872258-Su7I",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "... Houston (713) 451 - 9700\u2060 Toronto (416) 800 - 2709\u2060 \u2b50 info@akifcpa.com\u2060 www.akifcpa.com\u2060 \u2060 About Akif CPA\u2060 We thrive when we help your\u00a0...",
+            "emphasizedKeywords": [
+              "Houston (713) 451 - 9700"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1 year ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Fix Bookkeeping Errors with Akif CPA's 4 Phase Plan",
+            "url": "https://www.linkedin.com/posts/akif-cpa-pllc_bookkeepingtips-accountinghelp-smallbusinessfinance-activity-7442194903847178241-c0-r",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "NEW VIDEO: How to Fix Your Bookkeeping Errors (4 Phase Plan): https://lnkd.in/gVBhNy3u Implement a Review Process \u2713 No matter the size of\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1 week ago",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "About Mohammad Akif CPA",
+            "url": "https://akifcpa.com/about-mohammad-akif-cpa/",
+            "displayedUrl": "https://akifcpa.com \u203a about-mohammad-akif-cpa",
+            "description": "Mohammad Akif is a Certified Public Accountant and Chartered Professional Accountant (Ontario). He has over 15 years of tax and accounting experience.Read more",
+            "emphasizedKeywords": [
+              "Akif",
+              "Certified Public Accountant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Houston Office",
+            "url": "https://akifcpa.com/houston/",
+            "displayedUrl": "https://akifcpa.com \u203a houston",
+            "description": "Akif CPA Houston offers tax preparation services, accounting and bookkeeping, business advisory services, cross-border tax, AML programs, and more.",
+            "emphasizedKeywords": [
+              "Akif CPA Houston"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "AKIF CPA's Post",
+            "url": "https://www.linkedin.com/posts/akif-cpa-pllc_internationalmove-canadiansintheus-canadiansabroad-activity-7212968122897612801-ZEMs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "My name is Mohammad Akif. I am the co-founder of Akif CPA, a family-owned accounting practice with offices in Houston and Toronto.",
+            "emphasizedKeywords": [
+              "Akif CPA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/x0464R4TWc2JszQ7w/records/SNZgaCLtNPcMlyg-0.html?signature=IJNDoYPjHJj4db3LdW4r"
+      },
+      {
+        "#debug": {
+          "requestId": "1ivl6ND58V27EJT",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+akifcpa.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+akifcpa.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company akifcpa.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+akifcpa.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+akifcpa.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "AKIF CPA",
+            "url": "https://www.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://co.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "https://co.linkedin.com \u203a company",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://id.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "https://id.linkedin.com \u203a akif-cpa-pllc",
+            "description": "Website: https://linktr.ee/akifcpa. Link eksternal untuk AKIF CPA ; Industri: Akuntansi ; Ukuran perusahaan: 2-10 karyawan ; Kantor Pusat: Houston, Texas ; Jenis\u00a0...",
+            "emphasizedKeywords": [
+              "Website: https://linktr.ee/akifcpa"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://cr.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AKIF CPA",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://ae.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "https://ae.linkedin.com \u203a akif-cpa-pllc",
+            "description": "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: https://linktr.ee/akifcpa. \u0631\u0627\u0628\u0637 \u062e\u0627\u0631\u062c\u064a \u0644\u0640 AKIF CPA ; \u0627\u0644\u0645\u062c\u0627\u0644 \u0627\u0644\u0645\u0647\u0646\u064a: \u0627\u0644\u0645\u062d\u0627\u0633\u0628\u0629 ; \u062d\u062c\u0645 \u0627\u0644\u0634\u0631\u0643\u0629: \u0662 - \u0661\u0660 \u0645\u0648\u0638\u0641\u064a\u0646 ; \u0627\u0644\u0645\u0642\u0631 \u0627\u0644\u0631\u0626\u064a\u0633\u064a: Houston, Texas ; \u0627\u0644\u0646\u0648\u0639\u00a0...",
+            "emphasizedKeywords": [
+              "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: https://linktr.ee/akifcpa"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "AKIF CPA",
+            "url": "https://fr.linkedin.com/company/akif-cpa-pllc",
+            "displayedUrl": "https://fr.linkedin.com \u203a akif-cpa-pllc",
+            "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Cooper CPA Group, PC",
+            "url": "https://my.linkedin.com/company/coopercpagroup",
+            "displayedUrl": "https://my.linkedin.com \u203a company \u203a coopercpagroup",
+            "description": "Full service public accounting firm with located in the Heights in Houston, Texas providing the following services: *Tax planning and compliance * IRS audit\u00a0...",
+            "emphasizedKeywords": [
+              "public accounting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Reasonable Compensation Calculated",
+            "url": "https://www.linkedin.com/company/reasonable-compensation-calculated",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Reasonable Compensation Calculated",
+            "description": "We are a SAAS firm helping small business owners, CPA's, EA's and licensed tax preparers calculate officer salaries based on guidelines set forth by the IRS.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Virjee Consulting, PLLC",
+            "url": "https://at.linkedin.com/company/virjee-consulting-pllc",
+            "displayedUrl": "https://at.linkedin.com \u203a company \u203a virjee-consulting-pllc",
+            "description": "Virjee Consulting is a Houston based CPA firm that provide accounting and tax consulting small businesses and to medical and dental practices across the\u00a0...",
+            "emphasizedKeywords": [
+              "Houston based CPA firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Cooper CPA Group, PC",
+            "url": "https://ar.linkedin.com/company/coopercpagroup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cooper CPA Group, PC",
+            "description": "Full service public accounting firm with located in the Heights in Houston, Texas providing the following services: *Tax planning and compliance * IRS audit\u00a0...Read more",
+            "emphasizedKeywords": [
+              "public accounting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "660+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/p9ZMTWPlG5PiT2MSA/records/1ivl6ND58V27EJT-0.html?signature=MtX2mbzbKCpQU2itOfrm"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "https://www.linkedin.com/company/akif-cpa-pllc",
+      "https://id.linkedin.com/company/akif-cpa-pllc",
+      "https://cr.linkedin.com/company/akif-cpa-pllc",
+      "https://ca.linkedin.com/in/mohammad-akif",
+      "https://www.linkedin.com/posts/akif-cpa-pllc_akifcpa-taxstructure-accounting-activity-7289657290603872258-Su7I",
+      "https://www.linkedin.com/posts/akif-cpa-pllc_bookkeepingtips-accountinghelp-smallbusinessfinance-activity-7442194903847178241-c0-r",
+      "https://www.linkedin.com/posts/akif-cpa-pllc_internationalmove-canadiansintheus-canadiansabroad-activity-7212968122897612801-ZEMs",
+      "site:linkedin.com/company akifcpa.com",
+      "https://www.linkedin.com/company/akif-cpa-pllc",
+      "https://co.linkedin.com/company/akif-cpa-pllc",
+      "https://id.linkedin.com/company/akif-cpa-pllc",
+      "https://cr.linkedin.com/company/akif-cpa-pllc",
+      "https://ae.linkedin.com/company/akif-cpa-pllc",
+      "https://fr.linkedin.com/company/akif-cpa-pllc",
+      "https://my.linkedin.com/company/coopercpagroup",
+      "https://www.linkedin.com/company/reasonable-compensation-calculated",
+      "https://at.linkedin.com/company/virjee-consulting-pllc",
+      "https://ar.linkedin.com/company/coopercpagroup"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/akif-cpa-pllc/",
+        "companyName": "AKIF CPA",
+        "websiteUrl": "https://linktr.ee/akifcpa",
+        "industry": "Accounting",
+        "employeeCount": 8,
+        "followerCount": 488,
+        "universalName": "akif-cpa-pllc",
+        "tagline": "A Local Firm with Global Reach.",
+        "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the world.   \n\nTax\nAccounting and Bookkeeping \nBusiness Advisory and Valuation\nCross-Border and Internation Tax\nAnti-Money Laundering \nPayroll Management",
+        "companyId": 12658214,
+        "hashtag": "#taxes",
+        "industryV2Taxonomy": "Accounting",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "https://akifcpa.com/"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Houston",
+          "geographicArea": "Texas",
+          "postalCode": "77027",
+          "line1": "4151 Southwest Fwy",
+          "line2": "Suite 630",
+          "description": "AKIF CPA - Houston TX "
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2008,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQElvEky0pUNFg/company-logo_200_200/company-logo_200_200/0/1630586500890/akif_cpa_pllc_logo?e=1776297600&v=beta&t=KpCBhNqbTrgtT7EVh2Ho-ilP6A6OXGwrpTKdYeEePcY",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQGEDglb5NEXAQ/company-background_10000/company-background_10000/0/1585247479712/akif_cpa_pllc_cover?e=1775570400&v=beta&t=iIYxMlfN24g5I3LMWEVy_mr0IJOPeO7gGJ_Dc8bjhrg",
+        "croppedCoverImage": null,
+        "specialities": [
+          "Accounting",
+          "Tax",
+          "Small Business",
+          "Tax strategies",
+          "International Tax",
+          "Cross-border Tax"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "WINHELLER | Law.Tax.Relax.",
+            "followerCount": 1984,
+            "url": "https://www.linkedin.com/company/winheller-attorneys-at-law-www-winheller-com-/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEEPJJigx-bBA/company-logo_200_200/company-logo_200_200/0/1686126692865/winheller_attorneys_at_law_www_winheller_com__logo?e=1776297600&v=beta&t=RAjGbqw6p-9cVOQKuCVVWAxKg7TSfrQZGicDHf_u2iE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGDCvQhivr9aQ/image-scale_127_750/image-scale_127_750/0/1686127970177/winheller_attorneys_at_law_www_winheller_com__cover?e=1775570400&v=beta&t=_kK27AexZeKBOoVbRCoVnG9f5tDEORmvcvHNEPnQUXo",
+            "industryV2Taxonomy": "Law Practice",
+            "industry": "Law Practice",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFkiBjHfhCjUA/company-background_10000/company-background_10000/0/1686127970124/winheller_attorneys_at_law_www_winheller_com__cover?e=1775570400&v=beta&t=F1-0GsHITMtgVF5nHsOF-6ttsiv6vgmlqFcgscEYAZw",
+            "companyId": 1761407,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Frankfurt am Main",
+              "geographicArea": "Hessen",
+              "postalCode": "60327",
+              "line1": "Br\u00fcsseler Stra\u00dfe 1-3",
+              "line2": "Tower ONE",
+              "description": "WINHELLER GmbH"
+            },
+            "universalName": "winheller-attorneys-at-law-www-winheller-com-"
+          },
+          {
+            "name": "Mirchawala's Hub of Accountancy",
+            "followerCount": 7091,
+            "url": "https://www.linkedin.com/company/mirchawala-s-hub-of-accountancy/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFSQiXb_yOi4A/company-logo_400_400/B4DZXcFv_CHYAY-/0/1743154250273/mirchawala_s_hub_of_accountancy_logo?e=1776297600&v=beta&t=7GqdotGyVyiPy1WHQY8s2f7gUbeomL6lKIDlbg1gw98",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQFyNbCSchgMuA/image-scale_127_750/B4DZ09VMkkGcAQ-/0/1774850461803/mirchawala_s_hub_of_accountancy_cover?e=1775570400&v=beta&t=FDeYdYTuoFMnXofxYEZvcgCZAkNA0PydRBo9X0CC1hs",
+            "industryV2Taxonomy": "Education Administration Programs",
+            "industry": "Education Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFiDgnemKlTsQ/company-background_400/B4DZ09VMkUKUAY-/0/1774850462251/mirchawala_s_hub_of_accountancy_cover?e=1775570400&v=beta&t=SUDV3eCjhQsb9otL1tszSipjc1gJja80-mgKdhDNE4k",
+            "companyId": 85624206,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "PK",
+              "city": "Karachi",
+              "geographicArea": "Sindh",
+              "postalCode": null,
+              "line1": "Plot # 5/3, Farhan society,, Next to kokan park, Right in front of Gulistan-E-Anees lawn, Bahadurabad, Karachi",
+              "line2": null,
+              "description": "Head Office"
+            },
+            "universalName": "mirchawala-s-hub-of-accountancy"
+          },
+          {
+            "name": "Saville CPAs & Advisors",
+            "followerCount": 6590,
+            "url": "https://www.linkedin.com/company/saville-cpas-advisors/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQEeDpnongoZ8A/company-logo_400_400/B56Zt_bu6LJ8AY-/0/1767369535441/saville_cpas_advisors_logo?e=1776297600&v=beta&t=iCK_YQLeekVLaU7Mn9Wmiq96c8LzroLSv2SSBxSp1Oc",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQHGoOOnO1AcuA/company-background_10000/company-background_10000/0/1591980055277/saville_dodgen__co__cover?e=1775570400&v=beta&t=lvojdVu56bG25SSRir9pyKXvXe_OIvIFtIRjSjU9LbQ",
+            "companyId": 147515,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Dallas",
+              "geographicArea": "TX",
+              "postalCode": "75201",
+              "line1": "700 North Pearl Street",
+              "line2": "Suite 1900",
+              "description": "Located in the North Tower of the Plaza of the Americas in downtown Dallas, Texas."
+            },
+            "universalName": "saville-cpas-advisors"
+          },
+          {
+            "name": "Self Employed",
+            "followerCount": 1646541,
+            "url": "https://www.linkedin.com/company/indpendent-contractor/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEm61LvFDQ0Gg/company-logo_100_100/B4EZaIZV7PGQAQ-/0/1746045069009/indpendent_contractor_logo?e=1776297600&v=beta&t=rEpOzt8ORQpCVokDOg5Rd7m155SxPiNUgT0VGuFZgbA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGsNaBk1yorHA/image-scale_127_750/B56ZaReKiDG4AU-/0/1746197326265/indpendent_contractor_cover?e=1775570400&v=beta&t=Ub2w7K-GzrK-I-bg7f05NXZdFVSugPI7U7qGnjJ_yLk",
+            "industryV2Taxonomy": "Education",
+            "industry": "Higher Education",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEFa5W9B65-0g/company-background_200/B56ZaReKjoHsAk-/0/1746197326488/indpendent_contractor_cover?e=1775570400&v=beta&t=HBbaQDjAwUnGP0u7dM233L7yxFCt0dYVnCq5bY26M6E",
+            "companyId": 33200573,
+            "employeeCountRange": {
+              "start": 0,
+              "end": 1
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Satellite Beach",
+              "geographicArea": "Florida",
+              "postalCode": "32937",
+              "line1": "119 Kings Way",
+              "line2": null,
+              "description": "Quality Consulting"
+            },
+            "universalName": "indpendent-contractor"
+          },
+          {
+            "name": "Chugh CPAs, LLP",
+            "followerCount": 4363,
+            "url": "https://www.linkedin.com/company/chugh-cpasllp/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHmPWpgs4Pf8g/company-logo_200_200/B56ZXYuqXVHoAQ-/0/1743097865947/chugh_cpasllp_logo?e=1776297600&v=beta&t=7YDBPz8IFKP2FkFkt1XcSejXnLmAg66l9Ol3AU-qbv0",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQF92syo14IRMQ/company-background_10000/company-background_10000/0/1583934547698?e=1775570400&v=beta&t=2R64NNLZfPhKtkXePWU32JXllRYUmmWQI37YkDLK6Qw",
+            "companyId": 18574842,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Cerritos",
+              "geographicArea": "California",
+              "postalCode": "90703",
+              "line1": "15925 Carmenita Rd",
+              "line2": null,
+              "description": "SOUTHERN CALIFORNIA"
+            },
+            "universalName": "chugh-cpasllp"
+          },
+          {
+            "name": "Virjee Consulting, PLLC",
+            "followerCount": 1066,
+            "url": "https://www.linkedin.com/company/virjee-consulting-pllc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQHIRXZfwST34g/company-logo_200_200/company-logo_200_200/0/1630645235100/virjee_consulting_pllc_logo?e=1776297600&v=beta&t=3HWApGc2CecYIEWYw7CymguWFiiMn1m8bGgMbGWxrZk",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQH1noFSntefPg/company-background_10000/company-background_10000/0/1626979430932/virjee_consulting_pllc_cover?e=1775570400&v=beta&t=YZv-Y-BJwLRGP26qnlrlPUUCGhhFKpdJeM3q0eixzIc",
+            "companyId": 10408374,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "Texas",
+              "postalCode": "77063",
+              "line1": "7820 Westglen Dr",
+              "line2": null,
+              "description": "Office"
+            },
+            "universalName": "virjee-consulting-pllc"
+          },
+          {
+            "name": "Perseus Group, Constellation Software",
+            "followerCount": 75220,
+            "url": "https://www.linkedin.com/company/perseus-group-constellation-software-inc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHUzYahc-BGHg/company-logo_400_400/B56ZZkdwXrGkAY-/0/1745442244391/perseus_group_constellation_software_inc_logo?e=1776297600&v=beta&t=kQyts-M-CVljeoFISin3Xo91MJ6fYRbZANQewxG6Obg",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQF0px0UFnHwvw/image-scale_191_1128/B56ZZke_CpHUAc-/0/1745442566654/perseus_group_constellation_software_inc_cover?e=1775570400&v=beta&t=qsn9lYRYbdJOg9dmGTBDiLMZwoU90_-mKbX-v_A2Du4",
+            "industryV2Taxonomy": "Software Development",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQG6kg4TBjA6gg/company-background_10000/B56ZZke_EfHsAY-/0/1745442566835/perseus_group_constellation_software_inc_cover?e=1775570400&v=beta&t=zTPmtjH6VjptmcZnE7NUq224e_G9J-ltHT57jLAAOwQ",
+            "companyId": 25050544,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "CA",
+              "city": "Markham",
+              "geographicArea": "ON",
+              "postalCode": "L6G 1B3",
+              "line1": "8133 Warden Avenue, 7th Floor",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "perseus-group-constellation-software-inc"
+          },
+          {
+            "name": "The FACT Solutions",
+            "followerCount": 349,
+            "url": "https://www.linkedin.com/company/the-fact-solutions/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQEHh3UhNzzauQ/company-logo_100_100/B4DZVbXGKxG4AQ-/0/1740994537711/the_fact_solutions_logo?e=1776297600&v=beta&t=sNXt19E_sOq2yKiiKiZncwb0uGmr-ShHOWcFAlI8z-E",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHBdSbV1juZTQ/image-scale_127_750/B4DZVqGbjbHAAM-/0/1741241826966/the_fact_solutions_cover?e=1775570400&v=beta&t=bKXNLsy8mnvt3ToVkCRhxO23fR-IWK71S45EKKP4Nqk",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQH5QYOGjvoL4A/company-background_10000/B4DZVqGbjAHkAU-/0/1741241826275/the_fact_solutions_cover?e=1775570400&v=beta&t=Pcs52WlxCiUFQjhUHADnyuWn4NMcAB1XqS9i07irzpU",
+            "companyId": 28676917,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Newark",
+              "geographicArea": "Delaware",
+              "postalCode": "19702",
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "the-fact-solutions"
+          },
+          {
+            "name": "George CPA Firm, LLC",
+            "followerCount": 1001,
+            "url": "https://www.linkedin.com/company/george-cpa-firm/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQEr4yO0owV5zw/company-logo_200_200/company-logo_200_200/0/1630595614920/george_cpa_firm_logo?e=1776297600&v=beta&t=oqwjYKpbTvwi6o-3rOTJlbBnl88zhQifdqBMPpSogsg",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQHEXgzI7Gj5rA/company-background_10000/company-background_10000/0/1585461694110/george_cpa_firm_cover?e=1775570400&v=beta&t=QTpF4FmB5mR_GQOu9M69_CMUfXAxu7vDvsLmO61krk4",
+            "companyId": 36015233,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Houston",
+              "geographicArea": "Texas",
+              "postalCode": "77092",
+              "line1": "2855 Mangum Road",
+              "line2": "Suite 571",
+              "description": "Home Office"
+            },
+            "universalName": "george-cpa-firm"
+          },
+          {
+            "name": "VentureForce Global Pakistan (Pvt) Ltd.",
+            "followerCount": 6978,
+            "url": "https://www.linkedin.com/company/vfg-pakistan/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFTJvl177RxNg/company-logo_200_200/company-logo_200_200/0/1693221824614/vfg_pakistan_logo?e=1776297600&v=beta&t=Hnmdbfko6AZbq1tnKkRc15KzyJZbq3clsd-tyz5O4MQ",
+            "industryV2Taxonomy": "Outsourcing/Offshoring",
+            "industry": "Outsourcing/Offshoring",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQENHAeOYqbR5Q/company-background_10000/company-background_10000/0/1626438782897/vfg_pakistan_cover?e=1775570400&v=beta&t=qqxJYENcVau41Vd0hlACXKFNU3f69Ijk5bvPhQTFSuQ",
+            "companyId": 79702040,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "PK",
+              "city": "Karachi",
+              "geographicArea": "Sindh",
+              "postalCode": "75950",
+              "line1": "D-99, Block-5, Federal B Area, Near Tahir Villas Chowrangi",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "vfg-pakistan"
+          },
+          {
+            "name": "Gondaliya CPA",
+            "followerCount": 965,
+            "url": "https://www.linkedin.com/company/gondaliya-cpa-canada/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFLgPShi3NIfQ/company-logo_200_200/company-logo_200_200/0/1734454325172/gondaliya_cpa_canada_logo?e=1776297600&v=beta&t=BWkWDAbI6kTqqORvDAyBDQW60Glvh-jjcHExrwBBUJ8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHvsO1pPNaoYQ/image-scale_127_750/B4EZXO2H.uGYAQ-/0/1742932050189/gondaliya_cpa_canada_cover?e=1775570400&v=beta&t=OQVRmvviHH9vBsjprtFtDxbi8XFamAAgm9fPcxF1Iio",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQE_3l55rtTsJw/company-background_400/B4EZXO2H.wH0AY-/0/1742932050472/gondaliya_cpa_canada_cover?e=1775570400&v=beta&t=DWMV980UeEze4ale-_rSdVwdQ0s79xHwn3qshUCSoMM",
+            "companyId": 105545568,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "CA",
+              "city": "Toronto",
+              "geographicArea": "ON",
+              "postalCode": "M5H 4C9",
+              "line1": "168 Simcoe St Unit 1118",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "gondaliya-cpa-canada"
+          },
+          {
+            "name": "Forward Accounting NZ Ltd",
+            "followerCount": 237,
+            "url": "https://www.linkedin.com/company/forward-accounting-nz-ltd/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQH5MZVe771a9A/img-crop_100/img-crop_100/0/1720334600196?e=1776297600&v=beta&t=zKM14GigmcyVdWnfA_KRhY3HvBJ1-gW2_z5i3KBEp0w",
+            "industryV2Taxonomy": "Accounting",
+            "industry": "Accounting",
+            "companyId": 851575,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "NZ",
+              "city": "Hastings",
+              "geographicArea": null,
+              "postalCode": "4102",
+              "line1": "4 Redwood Place",
+              "line2": "Te Awanga",
+              "description": null
+            },
+            "universalName": "forward-accounting-nz-ltd"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Houston",
+            "geographicArea": "Texas",
+            "postalCode": "77027",
+            "line1": "4151 Southwest Fwy",
+            "line2": "Suite 630",
+            "description": "AKIF CPA - Houston TX ",
+            "headquarter": true,
+            "localizedName": "Houston",
+            "latitude": 29.757027,
+            "longitude": -95.3556
+          },
+          {
+            "country": "CA",
+            "city": "Mississauga",
+            "geographicArea": "Ontario",
+            "postalCode": "L4W 5A1",
+            "line1": "5155 Spectrum Way",
+            "line2": "Unit 6",
+            "description": null,
+            "headquarter": false,
+            "localizedName": "Mississauga",
+            "latitude": 43.68814,
+            "longitude": -79.621994
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/akif-cpa-pllc",
+    "resolved_person_linkedin": "https://ca.linkedin.com/in/mohammad-akif"
+  },
+  "lead_before_enrichment": {
+    "business": "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto",
+    "description": "# AKIF CPA - CPAs, CA and Advisors ## Service That Creates Value and Makes a Difference We support businesses with their accounting needs, with a focus on customer service and a standard of work that outperforms the rest. ![stress free accounting](https://akifcpa.com/wp-content/uploads/2024/05/stress-free-acocunting.avif) ## Stress-Free Accounting Take the stress out of your business finances and rely on the people who love numbers.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://akifcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://akifcpa.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "akifcpa.com",
+    "source_urls": [
+      "https://akifcpa.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "AKIF CPA - CPAs, CA and Advisors - Houston and Toronto",
+    "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the world. Tax Accounting and Bookkeeping Business Advisory and Valuation Cross-Border and Internation Tax Anti-Money Laundering Payroll Management",
+    "full_name": "Mohammad Akif",
+    "first": "Mohammad",
+    "last": "Akif",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://akifcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "co-founder",
+    "linkedin": "https://ca.linkedin.com/in/mohammad-akif",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/akif-cpa-pllc",
+    "source_url": "https://akifcpa.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "akifcpa.com",
+    "source_urls": [
+      "https://akifcpa.com"
+    ],
+    "title_raw": "co-founder",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://akifcpa.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/akif-cpa-pllc"
+    },
+    "description": {
+      "before": "# AKIF CPA - CPAs, CA and Advisors ## Service That Creates Value and Makes a Difference We support businesses with their accounting needs, with a focus on customer service and a standard of work that outperforms the rest. ![stress free accounting](https://akifcpa.com/wp-content/uploads/2024/05/stress-free-acocunting.avif) ## Stress-Free Accounting Take the stress out of your business finances and rely on the people who love numbers.",
+      "after": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the world. Tax Accounting and Bookkeeping Business Advisory and Valuation Cross-Border and Internation Tax Anti-Money Laundering Payroll Management"
+    },
+    "first": {
+      "before": "",
+      "after": "Mohammad"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Mohammad Akif"
+    },
+    "last": {
+      "before": "",
+      "after": "Akif"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://ca.linkedin.com/in/mohammad-akif"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://akifcpa.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "co-founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "co-founder"
+    }
+  }
+}

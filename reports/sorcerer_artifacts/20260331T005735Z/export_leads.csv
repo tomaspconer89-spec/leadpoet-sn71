@@ -1,0 +1,400 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T00:57:35.559224Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpyacvwxsq/evidence/domain/cansulta.com.json","","2026-06-29T00:57:35.559227Z","startup advisory services founder contact","2026-03-31T00:57:11.425295Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T00:57:35.572527Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpyacvwxsq/evidence/domain/maynardnexsen.com.json","","2026-06-29T00:57:35.572530Z","business consulting firm advisor email","2026-03-31T00:57:14.626879Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T00:57:35.585754Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpyacvwxsq/evidence/domain/vaam.io.json","","2026-06-29T00:57:35.585756Z","SaaS startup CEO contact information","2026-03-31T00:57:17.873095Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T00:57:35.599016Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpyacvwxsq/evidence/domain/findemails.com.json","","2026-06-29T00:57:35.599018Z","SaaS startup CEO contact information","2026-03-31T00:57:18.540409Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://libertyconsultingandmanagement.com/#content)
+[ Open toolbar Accessibility Tools ](javascript:void\(0\); "Accessibility Tools")
+Accessibility Tools
+  * [ Increase TextIncrease Text ](https://libertyconsultingandmanagement.com/)
+  * [ Decrease TextDecrease Text ](https://libertyconsultingandmanagement.com/)
+  * [ GrayscaleGrayscale ](https://libertyconsultingandmanagement.com/)
+  * [ High ContrastHigh Contrast ](https://libertyconsultingandmanagement.com/)
+  * [ Negative ContrastNegative Contrast ](https://libertyconsultingandmanagement.com/)
+  * [ Light BackgroundLight Background ](https://libertyconsultingandmanagement.com/)
+  * [ Links UnderlineLinks Underline ](https://libertyconsultingandmanagement.com/)
+  * [ Readable FontReadable Font ](https://libertyconsultingandmanagement.com/)
+  * [ Reset Reset ](https://libertyconsultingandmanagement.com/)
+
+
+[Skip to content](https://libertyconsultingandmanagement.com/#content)
+[ ![Zell Solutions Logo](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/Logo1.png) ](https://libertyconsultingandmanagement.com)
+  * [ (646) 705-0064 ](tel:6467050064)
+
+
+[ E-mail now ](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+[ Join Us ](https://libertyconsultingandmanagement.com/pages/join-us/)
+  * [Home](https://libertyconsultingandmanagement.com/)
+  * [About LCM](https://libertyconsultingandmanagement.com/pages/about-lcm/)
+    * [Telecommunications](https://libertyconsultingandmanagement.com/pages/about-lcm/telecommunications/)
+  * [Service Areas](https://libertyconsultingandmanagement.com/pages/service-areas/)
+  * Join Our Team
+    * [Opportunities](https://libertyconsultingandmanagement.com/pages/join-our-team/)
+    * [Accelerated Training](https://libertyconsultingandmanagement.com/pages/join-our-team/accelerated-training/)
+  * [Team](https://libertyconsultingandmanagement.com/pages/team/)
+    * [Diversity And Inclusion](https://libertyconsultingandmanagement.com/pages/team/diversity-and-inclusion/)
+    * [Culture](https://libertyconsultingandmanagement.com/pages/team/culture/)
+  * [News](https://libertyconsultingandmanagement.com/blogs/news/)
+  * [Contact Us](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+
+
+  * [Home](https://libertyconsultingandmanagement.com/)
+  * [About LCM](https://libertyconsultingandmanagement.com/pages/about-lcm/)
+    * [Telecommunications](https://libertyconsultingandmanagement.com/pages/about-lcm/telecommunications/)
+  * [Service Areas](https://libertyconsultingandmanagement.com/pages/service-areas/)
+  * Join Our Team
+    * [Opportunities](https://libertyconsultingandmanagement.com/pages/join-our-team/)
+    * [Accelerated Training](https://libertyconsultingandmanagement.com/pages/join-our-team/accelerated-training/)
+  * [Team](https://libertyconsultingandmanagement.com/pages/team/)
+    * [Diversity And Inclusion](https://libertyconsultingandmanagement.com/pages/team/diversity-and-inclusion/)
+    * [Culture](https://libertyconsultingandmanagement.com/pages/team/culture/)
+  * [News](https://libertyconsultingandmanagement.com/blogs/news/)
+  * [Contact Us](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+
+
+[ ![Zell Solutions Logo](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/Logo1.png) ](https://libertyconsultingandmanagement.com)
+![](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/hamburger-menu-green.png)
+  * [ (646) 705-0064 ](tel:6467050064)
+
+
+[ E-mail now ](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+[ Join Us ](https://libertyconsultingandmanagement.com/pages/join-us/)
+  * [Home](https://libertyconsultingandmanagement.com/)
+  * [About LCM](https://libertyconsultingandmanagement.com/)
+    * [About LCM](https://libertyconsultingandmanagement.com/pages/about-lcm/)
+    * [Telecommunications](https://libertyconsultingandmanagement.com/pages/about-lcm/telecommunications/)
+  * [Service Areas](https://libertyconsultingandmanagement.com/pages/service-areas/)
+  * [Join Our Team](https://libertyconsultingandmanagement.com/)
+    * [Opportunities](https://libertyconsultingandmanagement.com/pages/join-our-team/)
+    * [Accelerated Trining](https://libertyconsultingandmanagement.com/pages/join-our-team/accelerated-training/)
+  * [Team](https://libertyconsultingandmanagement.com/)
+    * [Team](https://libertyconsultingandmanagement.com/pages/team/)
+    * [Diversity And Inclusion](https://libertyconsultingandmanagement.com/pages/team/diversity-and-inclusion/)
+    * [Culture](https://libertyconsultingandmanagement.com/pages/team/culture/)
+  * [News](https://libertyconsultingandmanagement.com/blogs/news/)
+  * [Contact Us](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+
+
+## Liberty Consulting and Management
+# Business Development Firm New York
+Sales & Marketing Jobs | Business Development | Career Opportunities
+[ ![Entry-level Sales Jobs](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/2683149_1900x800.webp) ](https://libertyconsultingandmanagement.com/pages/diversity-and-inclusion)
+#### DIVERSITY AND INCLUSION
+### Laying the Foundation   
+for Success
+## New York Business Development Firm
+Diversity and Inclusion are core values in our company. We embrace the differences because we realize that gives people space and encouragement to bring their authentic selves to work. 
+[ learn more ](https://libertyconsultingandmanagement.com/pages/diversity-and-inclusion)
+#### Opportunities
+### we offer competitive roles with development perspectives
+[ ![Business Development](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/collage-a.webp) Learning  
+Experience  ](https://libertyconsultingandmanagement.com/pages/career-opportunities-new-york/) [ ![Account Manager Jobs](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/collage-b.png) Networking  ](https://libertyconsultingandmanagement.com/pages/career-opportunities-new-york/) [ ![Entry-level Sales Jobs](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/collage-c-1.webp) Travel   
+Opportunities  ](https://libertyconsultingandmanagement.com/pages/career-opportunities-new-york/)
+[ learn more ](https://libertyconsultingandmanagement.com/pages/career-opportunities-new-york/)
+## Testimonials
+Jeremy was so awesome to chat with. He took his time to explain everything. Very wonderful experience. 
+John Paul Regan 
+Gent and Saviour we're very pleasant, very helpful will definitely referral other people. Great experience! 
+Shaymiss 
+Nico was a great customer service he saved my day today wish we have more like him around thanks 
+Marion Rose 
+Nate and Raphael were very courteous and professional. Very informative and helpful, a huge asset to the company!! Looking forward to my water delivery!! 
+Roger Mizrachi 
+Nate and Raphael did an amazing job and gave excellent customer service. Super respectful and friendly!! Spanish speaking is extra good!! Super excited for my delivery!! 🙂 
+Yesbel Fernandez 
+I got help with setting up my water about a couple months ago. Honestly one of the best decisions I made. I was helped by well mannered Latino gentleman. He answered all my questions made sure I knew how to use the app and that I got my water delivered. 
+Alexia Grant 
+I'm very grateful to have waled around the area because he answered all my questions and cleared all the concerns that I had. I can not wait to get the water man. Ayo wally I appreciate you 🙂 
+Bryan Paniagua 
+Nate and Ralph provided me with great customer service!! Very informative guys, super excited for my upcoming water delivery!! 
+Tenants Association 
+Great guy. Think it was Nate - helped me with the water and set me up good! Wonderful customer service, I could tell he genuinely cared about what he was doing and making sure that I was set up. 
+Edward Loudermilk 
+Appreciate everything Marcos did, very helpful and informative and also a great person just to have a conversation with. Can't wait to get My water deliverd and enjoy the service 
+Jeantte Colon 
+Every day I look forward to working with someone with great potential who will work hard to become the person they want to be. The relationships I've built with the people in this business has been the most valuable asset I could have ever acquired in my lifetime. A great environment of never-ending culture of growth, development, and self-improvement. A place that embodies entrepreneurship, encourages forward thinking, and cultivates many marketable skill sets. In the 2 years I’ve been working here I have become a much better person and have elevated myself to a new level I didn’t know was even possible. 
+Nathaniel Ho Aka Nate The Great CEO
+[ ![Entry-level Sales Jobs](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/d.webp) ](https://libertyconsultingandmanagement.com/pages/diversity-and-inclusion)
+### Our Approach
+### FROM FORTUNE 500 COMPANIES   
+TO PROMISING START-UPS, WE   
+HAVE SERVED EACH CLIENT WITH   
+THE SAME APPROACH.
+At Liberty Consulting and Management we work with clients from different industries and sectors and we help by consulting on different marketing strategies, managing campaigns and promote their brand, their products, and services at a local market level through our marketing approach. From the beginning, we understood the importance of activating the five senses to create emotional connections. We recognize how much customers appreciate being treated as individuals– with humor and kindness. Now add brand knowledge to that and you have a recipe for creating strong connections with people and ever-lasting brand impressions.
+[ learn more ](https://libertyconsultingandmanagement.com/pages/about-lcm/)
+### Contact
+## LIBERTY CONSULTING AND   
+MANAGEMENT
+[ Get In Touch ](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+[ ![Team](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/2681134_454x537.webp) ](https://libertyconsultingandmanagement.com/pages/new-york-management-position-jobs-contact-us/)
+![Top Regional Performer - Ready Refresh](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/top-regional-performer-1.webp)
+![Top Performer - Inspire](https://libertyconsultingandmanagement.com/wp-content/uploads/2024/09/top-performer-1.webp)
+Copyright © 2024 – [Liberty Consulting and Management](https://libertyconsultingandmanagement.com/)
+  * [ ](https://www.facebook.com/Liberty-Consulting-and-Management-105728742145047)
+  * [ ](https://x.com/LibertyConMgt)
+  * [ ](https://www.linkedin.com/company/liberty-consulting-management)
+  * [ ](https://www.instagram.com/libertyconsmgt/)
+
+
+  * [ ](https://www.facebook.com/Liberty-Consulting-and-Management-105728742145047)
+  * [ ](https://x.com/LibertyConMgt)
+  * [ ](https://www.linkedin.com/company/liberty-consulting-management)
+  * [ ](https://www.instagram.com/libertyconsmgt/)
+
+
+Copyright © 2024 – [Liberty Consulting and Management](https://libertyconsultingandmanagement.com/)
+[ Quick Inquiry ](javascript:;)
+Please enable JavaScript in your browser to complete this form.
+Name *
+Email Name Name
+Email *
+Phone *
+  * United States+1
+  * United Kingdom+44
+  * Afghanistan+93
+  * Åland Islands+358
+  * Albania+355
+  * Algeria+213
+  * American Samoa+1
+  * Andorra+376
+  * Angola+244
+  * Anguilla+1
+  * Antigua & Barbuda+1
+  * Argentina+54
+  * Armenia+374
+  * Aruba+297
+  * Ascension Island+247
+  * Australia+61
+  * Austria+43
+  * Azerbaijan+994
+  * Bahamas+1
+  * Bahrain+973
+  * Bangladesh+880
+  * Barbados+1
+  * Belarus+375
+  * Belgium+32
+  * Belize+501
+  * Benin+229
+  * Bermuda+1
+  * Bhutan+975
+  * Bolivia+591
+  * Bosnia & Herzegovina+387
+  * Botswana+267
+  * Brazil+55
+  * British Indian Ocean Territory+246
+  * British Virgin Islands+1
+  * Brunei+673
+  * Bulgaria+359
+  * Burkina Faso+226
+  * Burundi+257
+  * Cambodia+855
+  * Cameroon+237
+  * Canada+1
+  * Cape Verde+238
+  * Caribbean Netherlands+599
+  * Cayman Islands+1
+  * Central African Republic+236
+  * Chad+235
+  * Chile+56
+  * China+86
+  * Christmas Island+61
+  * Cocos (Keeling) Islands+61
+  * Colombia+57
+  * Comoros+269
+  * Congo - Brazzaville+242
+  * Congo - Kinshasa+243
+  * Cook Islands+682
+  * Costa Rica+506
+  * Côte d’Ivoire+225
+  * Croatia+385
+  * Cuba+53
+  * Curaçao+599
+  * Cyprus+357
+  * Czechia+420
+  * Denmark+45
+  * Djibouti+253
+  * Dominica+1
+  * Dominican Republic+1
+  * Ecuador+593
+  * Egypt+20
+  * El Salvador+503
+  * Equatorial Guinea+240
+  * Eritrea+291
+  * Estonia+372
+  * Eswatini+268
+  * Ethiopia+251
+  * Falkland Islands+500
+  * Faroe Islands+298
+  * Fiji+679
+  * Finland+358
+  * France+33
+  * French Guiana+594
+  * French Polynesia+689
+  * Gabon+241
+  * Gambia+220
+  * Georgia+995
+  * Germany+49
+  * Ghana+233
+  * Gibraltar+350
+  * Greece+30
+  * Greenland+299
+  * Grenada+1
+  * Guadeloupe+590
+  * Guam+1
+  * Guatemala+502
+  * Guernsey+44
+  * Guinea+224
+  * Guinea-Bissau+245
+  * Guyana+592
+  * Haiti+509
+  * Honduras+504
+  * Hong Kong SAR China+852
+  * Hungary+36
+  * Iceland+354
+  * India+91
+  * Indonesia+62
+  * Iran+98
+  * Iraq+964
+  * Ireland+353
+  * Isle of Man+44
+  * Israel+972
+  * Italy+39
+  * Jamaica+1
+  * Japan+81
+  * Jersey+44
+  * Jordan+962
+  * Kazakhstan+7
+  * Kenya+254
+  * Kiribati+686
+  * Kosovo+383
+  * Kuwait+965
+  * Kyrgyzstan+996
+  * Laos+856
+  * Latvia+371
+  * Lebanon+961
+  * Lesotho+266
+  * Liberia+231
+  * Libya+218
+  * Liechtenstein+423
+  * Lithuania+370
+  * Luxembourg+352
+  * Macao SAR China+853
+  * Madagascar+261
+  * Malawi+265
+  * Malaysia+60
+  * Maldives+960
+  * Mali+223
+  * Malta+356
+  * Marshall Islands+692
+  * Martinique+596
+  * Mauritania+222
+  * Mauritius+230
+  * Mayotte+262
+  * Mexico+52
+  * Micronesia+691
+  * Moldova+373
+  * Monaco+377
+  * Mongolia+976
+  * Montenegro+382
+  * Montserrat+1
+  * Morocco+212
+  * Mozambique+258
+  * Myanmar (Burma)+95
+  * Namibia+264
+  * Nauru+674
+  * Nepal+977
+  * Netherlands+31
+  * New Caledonia+687
+  * New Zealand+64
+  * Nicaragua+505
+  * Niger+227
+  * Nigeria+234
+  * Niue+683
+  * Norfolk Island+672
+  * North Korea+850
+  * North Macedonia+389
+  * Northern Mariana Islands+1
+  * Norway+47
+  * Oman+968
+  * Pakistan+92
+  * Palau+680
+  * Palestinian Territories+970
+  * Panama+507
+  * Papua New Guinea+675
+  * Paraguay+595
+  * Peru+51
+  * Philippines+63
+  * Poland+48
+  * Portugal+351
+  * Puerto Rico+1
+  * Qatar+974
+  * Réunion+262
+  * Romania+40
+  * Russia+7
+  * Rwanda+250
+  * Samoa+685
+  * San Marino+378
+  * São Tomé & Príncipe+239
+  * Saudi Arabia+966
+  * Senegal+221
+  * Serbia+381
+  * Seychelles+248
+  * Sierra Leone+232
+  * Singapore+65
+  * Sint Maarten+1
+  * Slovakia+421
+  * Slovenia+386
+  * Solomon Islands+677
+  * Somalia+252
+  * South Africa+27
+  * South Korea+82
+  * South Sudan+211
+  * Spain+34
+  * Sri Lanka+94
+  * St. Barthélemy+590
+  * St. Helena+290
+  * St. Kitts & Nevis+1
+  * St. Lucia+1
+  * St. Martin+590
+  * St. Pierre & Miquelon+508
+  * St. Vincent & Grenadines+1
+  * Sudan+249
+  * Suriname+597
+  * Svalbard & Jan Mayen+47
+  * Sweden+46
+  * Switzerland+41
+  * Syria+963
+  * Taiwan+886
+  * Tajikistan+992
+  * Tanzania+255
+  * Thailand+66
+  * Timor-Leste+670
+  * Togo+228
+  * Tokelau+690
+  * Tonga+676
+  * Trinidad & Tobago+1
+  * Tunisia+216
+  * Turkey+90
+  * Turkmenistan+993
+  * Turks & Caicos Islands+1
+  * Tuvalu+688
+  * U.S. Virgin Islands+1
+  * Uganda+256
+  * Ukraine+380
+  * United Arab Emirates+971
+  * Uruguay+598
+  * Uzbekistan+998
+  * Vanuatu+678
+  * Vatican City+39
+  * Venezuela+58
+  * Vietnam+84
+  * Wallis & Futuna+681
+  * Western Sahara+212
+  * Yemen+967
+  * Zambia+260
+  * Zimbabwe+263
+
+
+Message
+Submit![Loading](https://libertyconsultingandmanagement.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg)
+","","https://libertyconsultingandmanagement.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Business Development Firm New York | Liberty Consulting and Management","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","libertyconsultingandmanagement.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","934a053d230df840ba84ba36a33fda6ebb574d4d376c6393f917f57ac864f9be","0.0","0.3","6db7e30f-63ee-5ebd-b388-6c5010f5d9a5","","2026-03-31T00:57:35.612491Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/libertyconsultingandmanagement.com.json","/tmp/tmpyacvwxsq/evidence/domain/libertyconsultingandmanagement.com.json","","2026-06-29T00:57:35.612493Z","management consulting firm director email","2026-03-31T00:57:33.302852Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

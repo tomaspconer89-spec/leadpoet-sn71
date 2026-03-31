@@ -1,0 +1,1108 @@
+{
+  "saved_at_utc": "2026-03-31T13:06:34.633781+00:00",
+  "queue_key": "857c4735ec711d21ace8d53d229fc078d669e993267e32bfd040d3ad95d11959",
+  "business": "VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+      "VC Lab - The Premiere Venture Capital Accelerator - VC Lab linkedin company",
+      "site:linkedin.com/company govclab.com",
+      "site:linkedin.com/in \"VC Lab - The Premiere Venture Capital Accelerator - VC Lab\" founder",
+      "site:linkedin.com/in \"VC Lab - The Premiere Venture Capital Accelerator - VC Lab\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "MuX1gAFZ4M9X73o",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "EdgeCase Capital Partners",
+            "url": "https://www.linkedin.com/company/edge-case-cap",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0EdgeCase Capital Partners",
+            "description": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups.Read more",
+            "emphasizedKeywords": [
+              "EdgeCase Capital Partners"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "UC Berkeley Sutardja Center for Entrepreneurship and ...",
+            "url": "https://cl.linkedin.com/company/sutardjacenter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0UC Berkeley Sutardja Center for Entrepreneurship and Technology (SCET)",
+            "description": "The Pantas and Ting Sutardja Center for Entrepreneurship & Technology is the premiere institution on the UC Berkeley campus for the study and practice of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "premiere institution on the UC Berkeley campus"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "ASIF Ventures",
+            "url": "https://uk.linkedin.com/company/asifventures?trk=ppro_cprof",
+            "displayedUrl": "https://uk.linkedin.com \u203a company \u203a asifventures",
+            "description": "We provide early-stage funding, network, resources and support to student and recent graduate founders from the University of Amsterdam and Vrije University who\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Oraseya Capital",
+            "url": "https://ae.linkedin.com/company/oraseyacapital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Oraseya Capital",
+            "description": "Oraseya Capital is the $136M VC fund of Dubai Integrated Economic Zones Authority, investing in early stage startups from pre Seed to Series-B. \u0627\u0644\u0645\u0648\u0642\u0639\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Capital",
+              "VC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "TechFounders",
+            "url": "https://de.linkedin.com/company/techfounders",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TechFounders",
+            "description": "TechFounders specializes in connecting established companies with pioneering start-ups worldwide. We help businesses boost their operational efficiencies.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Plug and Play Munich",
+            "url": "https://fr.linkedin.com/company/plugandplaymunich?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "displayedUrl": "https://fr.linkedin.com \u203a company \u203a plugandplaymunich",
+            "description": "Plug and Play is a world-class innovation platform in Munich. Since 2017, our mission has been to build the world's leading innovation platform and make\u00a0...",
+            "emphasizedKeywords": [
+              "Plug and Play is a world-class innovation platform in Munich"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Workbnb (LACI 25 | Techstars 22)",
+            "url": "https://www.linkedin.com/company/workbnb-app",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Workbnb (LACI 25 | Techstars 22)",
+            "description": "Workbnb is a Techstars Venture backed, B2B workforce rental marketplace and Workforce Housing as a Service (WHaaS) platform on a mission to accelerate the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Venture"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "SENSEERA",
+            "url": "https://www.linkedin.com/company/senseerahealth/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nir Friedman",
+            "description": "\u05d4\u05d7\u05d1\u05e8\u05d4 \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d1\u05d9\u05d5\u05e4\u05e1\u05d9\u05d4 \u05e0\u05d5\u05d6\u05dc\u05d9\u05ea, \u05db\u05dc\u05d5\u05de\u05e8, \u05d1\u05d3\u05d9\u05e7\u05ea \u05d3\u05dd \u05d7\u05d3\u05e9\u05e0\u05d9\u05ea \u05d4\u05de\u05e1\u05e4\u05e7\u05ea \u05de\u05d9\u05d3\u05e2 \u05de\u05d3\u05d5\u05d9\u05e7 \u05e2\u05dc \u05de\u05e6\u05d1 \u05d4\u05ea\u05d0\u05d9\u05dd \u05d5\u05d4\u05e8\u05e7\u05de\u05d5\u05ea \u05d1\u05d2\u05d5\u05e3, \u05d1\u05d3\u05d9\u05d5\u05e7 \u05d4\u05d3\u05d5\u05de\u05d4 \u05dc\u05d1\u05d9\u05d5\u05e4\u05e1\u05d9\u05d4 \u05e4\u05d5\u05dc\u05e9\u05e0\u05d9\u05ea, \u05d0\u05da \u05d1\u05dc\u05d9 \u05e6\u05d5\u05e8\u05da \u05d1\u05d4\u05dc\u05d9\u05da\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "ARCHECompany",
+            "url": "https://www.linkedin.com/company/archecompany",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ARCHECompany",
+            "description": "From Catalytic Capital to Deep Tech Enterprises, Arche is your infrastructure layer for disruption. We're here to build the systems that move humanity\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Arche is your infrastructure layer for disruption"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "920+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Sparxell",
+            "url": "https://uk.linkedin.com/company/sparxell",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sparxell",
+            "description": "Sparxell develops the next generation of colours and effects by providing the world's first performance colourant from plant that is inspired by nature.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.3K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/TO6thulCBUXNyYm6J/records/MuX1gAFZ4M9X73o-0.html?signature=1MTPGHH7EqD11xASjBS3H"
+      },
+      {
+        "#debug": {
+          "requestId": "4fPrG8pujISPzsS",
+          "url": "http://www.google.com/search?q=VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "VC Lab - The Premiere Venture Capital Accelerator - VC Lab linkedin company",
+          "url": "http://www.google.com/search?q=VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=VC+Lab+-+The+Premiere+Venture+Capital+Accelerator+-+VC+Lab+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "VC Lab reviews",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+reviews&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "VC Lab login",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+login&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "VC Lab Start Fund",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Start+Fund&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "VC Lab Decile Group",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Decile+Group&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "VC Lab address",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+address&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "VC Lab Cohort 20",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Cohort+20&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "VC Lab Cohort 19",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Cohort+19&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "VC Lab Venture Institute",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Venture+Institute&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "VC Lab reviews",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+reviews&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "VC Lab login",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+login&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "VC Lab Start Fund",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Start+Fund&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "VC Lab Decile Group",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Decile+Group&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "VC Lab address",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+address&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "VC Lab Cohort 20",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Cohort+20&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "VC Lab Cohort 19",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Cohort+19&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "VC Lab Venture Institute",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=VC+Lab+Venture+Institute&sa=X&ved=2ahUKEwjiuMDumcqTAxVVv4kEHTkwJaQQ1QJ6BAg3EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "VC Lab Employees, Location, Alumni",
+            "url": "https://www.linkedin.com/school/vclab/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Birka Wolff",
+            "description": "VC Lab runs the leading venture capital accelerator. The company helps new and emerging managers from around the world to close on capital and run top\u00a0...Read more",
+            "emphasizedKeywords": [
+              "VC Lab runs the leading venture capital accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "36.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+            "url": "https://govclab.com/",
+            "displayedUrl": "https://govclab.com",
+            "description": "VC Lab is the leading accelerator helping managers launch a top VC firm in 4 months or less.",
+            "emphasizedKeywords": [
+              "VC Lab"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "AI Cofounder Era Begins | VC Lab posted on the topic",
+            "url": "https://www.linkedin.com/posts/vclab_vc-lab-cohort-20-has-officially-launched-activity-7386086172772679680-M3Sy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Birka Wolff",
+            "description": "Welcome to the AI Cofounder Era Cohort 20 introduces the first accelerator program designed to help managers launch venture capital firms\u00a0...",
+            "emphasizedKeywords": [
+              "accelerator",
+              "venture capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Anca Burke - The Premiere Venture Capital Accelerator",
+            "url": "https://www.linkedin.com/posts/ancaburke_vc-lab-the-premiere-venture-capital-accelerator-activity-7427742536196337665-fs1c",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anca Burke",
+            "description": "Over the past several months, I've been building ARTA.vc alongside my partner Andrey Mikhalchuk\u2014and completed VC Lab Cohort 19.",
+            "emphasizedKeywords": [
+              "VC Lab"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The VC Lab Accelerator",
+            "url": "https://govclab.com/vc-lab/",
+            "displayedUrl": "https://govclab.com \u203a vc-lab",
+            "description": "The VC Lab Accelerator is an intensive online program that helps talented and motivated venture capitalists to fundraise and launch ethical venture capital\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The VC Lab Accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "VC Lab \u2013 The Premiere Venture Capital Accelerator | John ...",
+            "url": "https://www.linkedin.com/posts/john-millar-2780692_vc-lab-the-premiere-venture-capital-accelerator-activity-7304442679512178688-sBZM",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Millar",
+            "description": "Very happy to share that I have completed the VC Labs accelerator for new VC funds. Having a structured, curated, comprehensive program has\u00a0...",
+            "emphasizedKeywords": [
+              "VC Labs accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "\u23f0 The VC Lab Cohort 18 deadline is fast approaching, only ...",
+            "url": "https://www.linkedin.com/posts/vclab_the-vc-lab-cohort-18-deadline-is-fast-approaching-activity-7328053131584389120-AUt3",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Birka Wolff",
+            "description": "The 14-week intensive program gives you EVERYTHING you need to close on capital in <6 months, connect with a global network spanning 81+ countries.Read more",
+            "emphasizedKeywords": [
+              "capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "5 Proven Ways | VC Lab",
+            "url": "https://www.linkedin.com/posts/vclab_5-proven-ways-activity-7328523903444664321-q7Ku",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Birka Wolff",
+            "description": "Launch your venture capital fund in 6 months or less with the world's leading VC accelerator! Want to stand out from the crowd?",
+            "emphasizedKeywords": [
+              "Launch your venture capital fund in 6 months or less"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "First-Time Fund Manager Success Stories",
+            "url": "https://govclab.com/2026/01/20/first-time-fund-manager-success-stories/",
+            "displayedUrl": "https://govclab.com \u203a 2026/01/20 \u203a first-time-fund-ma...",
+            "description": "VC Lab has emerged as the world's premier accelerator for emerging fund managers. Since its inception, VC Lab has launched over 900 venture\u00a0...Read more",
+            "date": "2026-01-20T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "VC Lab has emerged as the world's premier accelerator for emerging fund managers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "The Dawn of the Specialists",
+            "url": "https://govclab.com/2026/02/17/the-dawn-of-the-specialists/",
+            "displayedUrl": "https://govclab.com \u203a 2026/02/17 \u203a the-dawn-of-the-sp...",
+            "description": "VC Lab Cohort 21 is the premier accelerator for launching venture capital funds in the era of deep specialization. With enhanced specialist\u00a0...Read more",
+            "date": "2026-02-17T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "VC Lab Cohort 21 is the premier accelerator"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/a4OUlIlBnnx2bpj7o/records/4fPrG8pujISPzsS-0.html?signature=16q5T3Jg1frLr9rK6SfAW"
+      },
+      {
+        "#debug": {
+          "requestId": "XtP6YnXAnFCuGE0",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+govclab.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+govclab.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company govclab.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+govclab.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+govclab.com",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Institute",
+            "url": "https://www.linkedin.com/company/venture-institute",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Institute",
+            "description": "Venture Institute is a completely free training program designed to train and educate the rising tide of new venture capital leaders.Read more",
+            "emphasizedKeywords": [
+              "Venture Institute"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "EdgeCase Capital Partners",
+            "url": "https://www.linkedin.com/company/edge-case-cap",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0EdgeCase Capital Partners",
+            "description": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups.Read more",
+            "emphasizedKeywords": [
+              "EdgeCase Capital Partners"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Bj\u00f6rk Ventures",
+            "url": "https://se.linkedin.com/company/bjork-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bj\u00f6rk Ventures",
+            "description": "Bj\u00f6rk Ventures backs founders and technologies that make essential systems in society faster, smarter and more resilient. We call it Societal Resilience.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Grind Ventures",
+            "url": "https://www.linkedin.com/company/grind-ventures-vc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Grind Ventures",
+            "description": "Grind Ventures | 899 followers on LinkedIn. VC Firm focused on dual use technologies that can solve national security and commercial market problems.",
+            "emphasizedKeywords": [
+              "VC Firm focused on dual use technologies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "900+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Mathison Capital Inc.",
+            "url": "https://ca.linkedin.com/company/mathisoncapital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mathison Capital Inc.",
+            "description": "Mathison Capital is Canada's first operator-led micro fund built to turn early traction into institutional momentum. We back ambitious founders emerging from\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Canada's first operator-led micro fund"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "AllHold Capital",
+            "url": "https://www.linkedin.com/company/allhold-capital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Maura Shenker",
+            "description": "We help transition small businesses into Employee Ownership Trusts (EOTs)\u2014a model that gives workers shared profits, a permanent voice in the company, and\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Michael H Cowan",
+            "url": "https://ie.linkedin.com/company/michaelhcowan1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael H Cowan",
+            "description": "Michael Cowan is a strategist, innovator, and performance coach working at the intersection of business, entrepreneurship, sport, and education.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 7
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Aa347OivzQNQg2ASQ/records/XtP6YnXAnFCuGE0-0.html?signature=13E31PSbtYSHBl6OVrmyW"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+      "https://www.linkedin.com/company/edge-case-cap",
+      "https://cl.linkedin.com/company/sutardjacenter",
+      "https://uk.linkedin.com/company/asifventures?trk=ppro_cprof",
+      "https://ae.linkedin.com/company/oraseyacapital",
+      "https://de.linkedin.com/company/techfounders",
+      "https://fr.linkedin.com/company/plugandplaymunich?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "https://www.linkedin.com/company/workbnb-app",
+      "https://www.linkedin.com/company/senseerahealth/",
+      "https://www.linkedin.com/company/archecompany",
+      "https://uk.linkedin.com/company/sparxell",
+      "https://www.linkedin.com/school/vclab/",
+      "https://www.linkedin.com/posts/vclab_vc-lab-cohort-20-has-officially-launched-activity-7386086172772679680-M3Sy",
+      "https://www.linkedin.com/posts/ancaburke_vc-lab-the-premiere-venture-capital-accelerator-activity-7427742536196337665-fs1c",
+      "https://www.linkedin.com/posts/john-millar-2780692_vc-lab-the-premiere-venture-capital-accelerator-activity-7304442679512178688-sBZM",
+      "https://www.linkedin.com/posts/vclab_the-vc-lab-cohort-18-deadline-is-fast-approaching-activity-7328053131584389120-AUt3",
+      "https://www.linkedin.com/posts/vclab_5-proven-ways-activity-7328523903444664321-q7Ku",
+      "site:linkedin.com/company govclab.com",
+      "https://www.linkedin.com/company/venture-institute",
+      "https://www.linkedin.com/company/edge-case-cap",
+      "https://se.linkedin.com/company/bjork-ventures",
+      "https://www.linkedin.com/company/grind-ventures-vc",
+      "https://ca.linkedin.com/company/mathisoncapital",
+      "https://www.linkedin.com/company/allhold-capital",
+      "https://ie.linkedin.com/company/michaelhcowan1"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/edge-case-cap/",
+        "companyName": "EdgeCase Capital Partners",
+        "websiteUrl": "http://edgecasecap.com/",
+        "industry": "Venture Capital & Private Equity",
+        "employeeCount": 14,
+        "followerCount": 7471,
+        "universalName": "edge-case-cap",
+        "tagline": "A Gen Z operated venture capital firm supporting innovation in early-stage software startups.",
+        "description": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups. \n\nEdgeCase is the SEC, FINRA certified entity that ensures scouts get carry on deals they flag. We've extended this to top talent tracking at universities and frequently do on-campus activations for VCs. This rapidly grows the brand presence of our venture partners and actively supports the entrepreneurial ecosystems. EdgeCase's mission is to provide upfront value to the startup community, working with any inspired student, and weaving next gen talent into our world, connecting the dots. We call them EdgeCases and leave no stone unturned, collaborating with countless students, entrepreneurs, and VCs from around the world.",
+        "companyId": 79103914,
+        "hashtag": "#ai",
+        "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "http://edgecasecap.com/"
+        },
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Miami",
+          "geographicArea": "FL",
+          "postalCode": null,
+          "line1": null,
+          "line2": null,
+          "description": null
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2021,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHzjbiea_g1bg/company-logo_200_200/company-logo_200_200/0/1700359076123/edge_case_cap_logo?e=1776297600&v=beta&t=EJmHtghPud4ukZ58DBvJ1VYbqD2ioUpJNDlMBPKM9wI",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGJKoq5uok83Q/company-background_10000/company-background_10000/0/1709935337761/edge_case_cap_cover?e=1775570400&v=beta&t=KFa-tJ1GyvPTlciCzkDmdIKhwvUHZztxnfamZBztpwo",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQH1w2x2d99SZw/image-scale_127_750/image-scale_127_750/0/1709935337661/edge_case_cap_cover?e=1775570400&v=beta&t=ykkatB4NCanGShphiakYlQVt72CyAbezAqa_29zufPk",
+        "specialities": [
+          "Marketing",
+          "Angel Investing",
+          "Venture Capital",
+          "Private Equity",
+          "Startups",
+          "Cryptocurrency",
+          "Blockchain",
+          "AI",
+          "Natural Language Processing",
+          "Digital Marketing",
+          "Guerilla Marketing",
+          "Augmented Reality",
+          "Virtual Reality",
+          "Creator Economy",
+          "Gaming",
+          "HealthTech",
+          "Network Effects"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "LvlUp Ventures",
+            "followerCount": 38148,
+            "url": "https://www.linkedin.com/company/lvlup-vc/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGhy49nGSPEOQ/company-logo_400_400/B4EZzOo.EUKkAY-/0/1772993373047/lvlup_vc_logo?e=1776297600&v=beta&t=5Lcqk18jdsVE3m7IpEiXgSO2Yf6trZtu_n9c3eIJt28",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHmQUMQT_e0JQ/image-scale_191_1128/B4EZzOqzqLG8Ag-/0/1772993854701/lvlup_vc_cover?e=1775570400&v=beta&t=YVRaPfrwz8Kf5zaYjrko1xr196frqGnxrcpzzu5HdOg",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQG2mUMevUS98A/company-background_400/B4EZzOqzqOH0AY-/0/1772993854687/lvlup_vc_cover?e=1775570400&v=beta&t=UxuOyYpBjoioj_CX-rV8uzQu4wV1m_1ONGwuD3Y6d-s",
+            "companyId": 18981665,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10004",
+              "line1": "85 Broad Street ",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "lvlup-vc"
+          },
+          {
+            "name": "March Capital",
+            "followerCount": 14824,
+            "url": "https://www.linkedin.com/company/march-capital/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGuRw-Gy753bg/company-logo_200_200/company-logo_200_200/0/1630639485844/march_capital_partners_logo?e=1776297600&v=beta&t=2Ms--xfPk3QvMU5QKCoWXhzzvozo1bqosXjKqIvkE0M",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQH6UJbkVHgU6g/image-scale_127_750/image-scale_127_750/0/1704926012001/march_capital_cover?e=1775570400&v=beta&t=797ND00j_7Go1G9yjuYeaZdyQuO35AtD8ReMsOMArv8",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEc1YPHRd1pUg/company-background_10000/company-background_10000/0/1704926012241/march_capital_cover?e=1775570400&v=beta&t=IZsssq53y7sJbqCho9620ORBDwo8MDjmi0OarVE5tU0",
+            "companyId": 3708541,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Santa Monica",
+              "geographicArea": "California",
+              "postalCode": "90401",
+              "line1": "725 Arizona Ave",
+              "line2": "Suite 304",
+              "description": null
+            },
+            "universalName": "march-capital"
+          },
+          {
+            "name": "Morningstar",
+            "followerCount": 412430,
+            "url": "https://www.linkedin.com/company/morningstar/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQE_wQbnak17_Q/company-logo_200_200/company-logo_200_200/0/1688240635457/morningstar_logo?e=1776297600&v=beta&t=XLTvqrknnLsnMfn2qTLDj2HOIlyZ569ocKhaQ_p8sRo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEEu7FZQVjdNA/image-scale_127_750/image-scale_127_750/0/1688240830756/morningstar_cover?e=1775570400&v=beta&t=Iz-oFYevuPnk-zSRZztgVVW0c6merbxHC8Zvmmr2uB0",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHEr98j87_H4w/company-background_10000/company-background_10000/0/1688240831294/morningstar_cover?e=1775570400&v=beta&t=xvaBRRopouAKNBk2WUjDNzQRVA4AeaZmtDWGOvKoyOo",
+            "companyId": 5161,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Chicago",
+              "geographicArea": "IL",
+              "postalCode": "60602",
+              "line1": "22 W. Washington St.",
+              "line2": null,
+              "description": "Morningstar Global Headquarters"
+            },
+            "universalName": "morningstar"
+          },
+          {
+            "name": "StepStone Group",
+            "followerCount": 70255,
+            "url": "https://www.linkedin.com/company/stepstone-group/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQG8o1WF4XWrnw/company-logo_200_200/company-logo_200_200/0/1694633073307/stepstone_group_logo?e=1776297600&v=beta&t=eAQEznk9F1XlNcYPomlIC67Io27AncWrdd9hUb9WS8M",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQH6cmNcNZCiZA/image-scale_127_750/image-scale_127_750/0/1687561001116/stepstone_group_cover?e=1775570400&v=beta&t=1-eE4u-86x2WcNDiGpkvJufH5-Z3StlHQvk6Vu0IRf4",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQHWZycrDGr3lQ/company-background_10000/company-background_10000/0/1687561000274/stepstone_group_cover?e=1775570400&v=beta&t=gf4L-ATTnDVS9nWXlxPVZGGew5Pm864Hzi3zgbGEcMM",
+            "companyId": 485531,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "NY",
+              "postalCode": "10172",
+              "line1": "277 Park Avenue",
+              "line2": "45 Floor",
+              "description": "New York Office"
+            },
+            "universalName": "stepstone-group"
+          },
+          {
+            "name": "Mangusta Capital",
+            "followerCount": 5367,
+            "url": "https://www.linkedin.com/company/mangustacap/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGljpBIO0ZYsw/company-logo_200_200/company-logo_200_200/0/1718688783709/mangustacap_logo?e=1776297600&v=beta&t=9OYIEFbVpxLnFd9cpDZvypMfkESG_Mr5L6zbuOnyKAI",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQH1vBTqONKa2Q/image-scale_127_750/image-scale_127_750/0/1718689341359/mangustacap_cover?e=1775570400&v=beta&t=DX-q7hHDAPz10d49qnjuSO1JqUd9cqXoIn1LYEwcBm8",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQF1R9dnhRGlPw/company-background_10000/company-background_10000/0/1718689342179/mangustacap_cover?e=1775570400&v=beta&t=RsU8ftiFAe7Juiky-bzg_KrACaxbCGZi6lCGsxjQDpI",
+            "companyId": 102058044,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "San Francisco",
+              "geographicArea": "California",
+              "postalCode": "94107",
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "mangustacap"
+          },
+          {
+            "name": "TCA Venture Group",
+            "followerCount": 14238,
+            "url": "https://www.linkedin.com/company/tcaventuregroup/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHnOdegPMPJQw/company-logo_400_400/B56ZVjDVaeGUAg-/0/1741123573812/tcaventuregroup_logo?e=1776297600&v=beta&t=0x2J9dFtv-4k8zO9Ae9BJ8O0APcios6M8yHywRL3e2k",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEUbyI9Yylh6A/image-scale_127_750/B56ZVjRJJ2HQAQ-/0/1741127195909/tcaventuregroup_cover?e=1775570400&v=beta&t=R_4HGj2_C5aMOP7i9vlca9HSd0G19rp-yeB0CSsnlPA",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGqwv8RDp6Mog/company-background_10000/B56ZVjRJJgGsAY-/0/1741127195219/tcaventuregroup_cover?e=1775570400&v=beta&t=XODZHShyeOUeM1fQ6_-6ZX1oRQXefbz3XfJOIE1HFCQ",
+            "companyId": 659209,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Irvine",
+              "geographicArea": "California",
+              "postalCode": "92617",
+              "line1": "5270 California Ave",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "tcaventuregroup"
+          },
+          {
+            "name": "KSL Capital Partners",
+            "followerCount": 22219,
+            "url": "https://www.linkedin.com/company/ksl-capital-partners/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHdcvfSg9wkPg/company-logo_200_200/company-logo_200_200/0/1687805475047/ksl_capital_partners_logo?e=1776297600&v=beta&t=DwnTSjioPrbY1-BA9OqwyhtZBQakI_kN0zQQGDKKFhE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQHtTPrmCB0wSw/image-scale_127_750/image-scale_127_750/0/1723566829634/ksl_capital_partners_cover?e=1775570400&v=beta&t=Bp17X5XWG8KaXWxBcw55AZCA77_u5vmBibgAyJe3vt8",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQGXXEpEyHwmMw/company-background_10000/company-background_10000/0/1723566830134/ksl_capital_partners_cover?e=1775570400&v=beta&t=VAGGliZ6wfxlRsx2I3a-qS_42kz6rkfYnJXm6_oWKf4",
+            "companyId": 33250516,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Denver",
+              "geographicArea": "Colorado",
+              "postalCode": "80206",
+              "line1": "100 St Paul St",
+              "line2": "Suite 800",
+              "description": "KSL Capital Partners, LLC (Denver)"
+            },
+            "universalName": "ksl-capital-partners"
+          },
+          {
+            "name": "Caprae Capital Partners",
+            "followerCount": 130532,
+            "url": "https://www.linkedin.com/company/caprae-capital/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQG08Gbtg779_g/company-logo_400_400/B56ZkYm_ibHQAg-/0/1757054499468/caprae_capital_logo?e=1776297600&v=beta&t=TjRSGMoZSP1rDoo5WAguRO8mGcHCs6oiS-YUSKYuihw",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGQRijRmFt-Sw/image-scale_127_750/image-scale_127_750/0/1731366654072/caprae_capital_cover?e=1775570400&v=beta&t=nFQSSZMhL6nn0mfu683yeJCprXzNjr7fz6vG0PH9o2M",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHR3cpDmQcD-Q/company-background_10000/company-background_10000/0/1731366654144/caprae_capital_cover?e=1775570400&v=beta&t=XWzd2bAywuenpvsHhTQVIp1OmGTcjl74xbEF1jXoBww",
+            "companyId": 70569380,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Glendale",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": "611 N Brand Blvd",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "caprae-capital"
+          },
+          {
+            "name": "Draper Associates",
+            "followerCount": 14692,
+            "url": "https://www.linkedin.com/company/draper-associates/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQF5nY30sAWuMA/company-logo_200_200/B4EZavb7QAHcAM-/0/1746700056032/draper_associates_logo?e=1776297600&v=beta&t=_9UynLbi517qtgx35QBWw0ud2bUqLR7CIW7Zn6yFOvA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQE3Rf3r_lOi1Q/image-scale_127_750/B4EZqdv9mwKkAM-/0/1763583187811/draper_associates_cover?e=1775570400&v=beta&t=AjiGgLEjIve7taSCy92rrCx3shAPAbf0UTIkzsP8a00",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEwvldeJGhkyA/company-background_10000/B4EZqdv9m6JgAU-/0/1763583187832/draper_associates_cover?e=1775570400&v=beta&t=c0KEqbJO37_-bCvvoJyj0_UynKF41fWD-VJkv0H-rwc",
+            "companyId": 13465522,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "San Mateo",
+              "geographicArea": "CA",
+              "postalCode": "94401",
+              "line1": "55 E. 3rd Avenue",
+              "line2": null,
+              "description": "Hero City"
+            },
+            "universalName": "draper-associates"
+          },
+          {
+            "name": "Maxim Group LLC",
+            "followerCount": 19395,
+            "url": "https://www.linkedin.com/company/maxim-group/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQFHnkaMbIsGTw/company-logo_200_200/company-logo_200_200/0/1641825379413/maxim_group_logo?e=1776297600&v=beta&t=Yk-zo-tWRZZHV_BzBCUk2CZmCfI_LXTrYnJk9eTDZOw",
+            "industryV2Taxonomy": "Financial Services",
+            "industry": "Financial Services",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4D1BAQGMzHsoQH6C8A/company-background_10000/company-background_10000/0/1641825293080/maxim_group_cover?e=1775570400&v=beta&t=ABYf_VapK1N36eMPk2b-DthaZOjtydI6iTkZoI679YE",
+            "companyId": 8343,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": null,
+              "postalCode": "10022",
+              "line1": "300 Park Ave",
+              "line2": "16th Floor",
+              "description": "300 Park Ave"
+            },
+            "universalName": "maxim-group"
+          },
+          {
+            "name": "Blossom Street Ventures",
+            "followerCount": 1960,
+            "url": "https://www.linkedin.com/company/blossom-street-ventures/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFT7c6xiWeAcg/company-logo_200_200/company-logo_200_200/0/1631369897634/blossom_street_ventures_logo?e=1776297600&v=beta&t=1sgvc8qOUdohIBT7IVOe8Y7vYOQoP3FWKYzkNss0DIc",
+            "industryV2Taxonomy": "Venture Capital and Private Equity Principals",
+            "industry": "Venture Capital & Private Equity",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQG91r3wvcdjUQ/company-background_10000/company-background_10000/0/1584506158656/blossom_street_ventures_cover?e=1775570400&v=beta&t=xtW0kf_hzADIdlhBf0UH2jFoy7ReSJT4DzsgT6vkVY8",
+            "companyId": 29023869,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Dallas",
+              "geographicArea": "Texas",
+              "postalCode": "75206",
+              "line1": "5307 E Mockingbird Ln",
+              "line2": "Suite 802",
+              "description": null
+            },
+            "universalName": "blossom-street-ventures"
+          },
+          {
+            "name": "Redflag AI",
+            "followerCount": 2540,
+            "url": "https://www.linkedin.com/company/redflag-ai/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQFCka5NW7P-QQ/company-logo_200_200/company-logo_200_200/0/1630544064753/redflag_ai_logo?e=1776297600&v=beta&t=eG6_5f4Q6Oo9NxudkLvbsD8rUg0SlB4OqdZCKfUNH_E",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQF-a6i4BddN7A/image-scale_127_750/B4EZek7OpcGwAM-/0/1750818680087/redflag_ai_cover?e=1775570400&v=beta&t=eMESjO5-FHj0mcFN-e6090UjixkToWpNnrPLpLD7cuI",
+            "industryV2Taxonomy": "Software Development",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGhIrikLQsTng/company-background_200/B4EZek7Op.GwAc-/0/1750818681479/redflag_ai_cover?e=1775570400&v=beta&t=r4tBXQZzN4P4IaduCl1Zghy_-JlcX1BerXx7mwDCjiA",
+            "companyId": 18618820,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Berkeley",
+              "geographicArea": "California",
+              "postalCode": "94704",
+              "line1": "2001 Addison Street Suite 300",
+              "line2": null,
+              "description": "Redflag AI"
+            },
+            "universalName": "redflag-ai"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "San Francisco",
+            "geographicArea": "CA",
+            "postalCode": null,
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": false,
+            "localizedName": "San Francisco",
+            "latitude": 37.39271,
+            "longitude": -122.042
+          },
+          {
+            "country": "US",
+            "city": "Los Angeles",
+            "geographicArea": "CA",
+            "postalCode": null,
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": false,
+            "localizedName": "Los Angeles",
+            "latitude": 34.073666,
+            "longitude": -118.23985
+          },
+          {
+            "country": "US",
+            "city": "Miami",
+            "geographicArea": "FL",
+            "postalCode": null,
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": true,
+            "localizedName": "Miami",
+            "latitude": 25.777811,
+            "longitude": -80.21953
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/edge-case-cap",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+    "description": "# VC Lab - The Premiere Venture Capital Accelerator ![Cohort 21 Banner Image 3](https://govclab.com/wp-content/uploads/slider/cache/0aff3bef1e417a26f2cb915d4195490b/Cohort-21-Banner-Image-3.png \"VC Lab - The Premiere Venture Capital Accelerator 1\") Cohort 21: Age of the Specialist VC Lab Cohort 21: The Dawn of the Specialists Apply by April 27 to unlock **1-on-1 support, thesis feedback, and working sessions before the cohort begins** . Build LP momentum and launch your fund faster. **_VC Lab:",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://govclab.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://govclab.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "govclab.com",
+    "source_urls": [
+      "https://govclab.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "VC Lab - The Premiere Venture Capital Accelerator - VC Lab",
+    "description": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups. EdgeCase is the SEC, FINRA certified entity that ensures scouts get carry on deals they flag. We've extended this to top talent tracking at universities and frequently do on-campus activations for VCs. This rapidly grows the brand presence of our venture partners and actively supports the entrepreneurial ecosystems.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://govclab.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/edge-case-cap",
+    "source_url": "https://govclab.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "govclab.com",
+    "source_urls": [
+      "https://govclab.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/edge-case-cap"
+    },
+    "description": {
+      "before": "# VC Lab - The Premiere Venture Capital Accelerator ![Cohort 21 Banner Image 3](https://govclab.com/wp-content/uploads/slider/cache/0aff3bef1e417a26f2cb915d4195490b/Cohort-21-Banner-Image-3.png \"VC Lab - The Premiere Venture Capital Accelerator 1\") Cohort 21: Age of the Specialist VC Lab Cohort 21: The Dawn of the Specialists Apply by April 27 to unlock **1-on-1 support, thesis feedback, and working sessions before the cohort begins** . Build LP momentum and launch your fund faster. **_VC Lab:",
+      "after": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups. EdgeCase is the SEC, FINRA certified entity that ensures scouts get carry on deals they flag. We've extended this to top talent tracking at universities and frequently do on-campus activations for VCs. This rapidly grows the brand presence of our venture partners and actively supports the entrepreneurial ecosystems."
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

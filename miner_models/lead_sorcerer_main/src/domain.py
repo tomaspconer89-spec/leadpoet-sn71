@@ -213,6 +213,74 @@ class BraveSearchClient:
             return {"items": items}
 
 
+class ApifySearchClient:
+    """Client for Apify Google Search actor. Returns results in GSE-compatible format."""
+
+    def __init__(
+        self,
+        api_token: str,
+        actor_id: str,
+        semaphore_pool: AsyncSemaphorePool,
+    ):
+        self.api_token = api_token
+        self.actor_id = actor_id
+        self.semaphore_pool = semaphore_pool
+
+    async def search(self, query: str, page: int = 1) -> Dict[str, Any]:
+        async with self.semaphore_pool:
+            aid = self.actor_id
+            if "/" in aid and "~" not in aid:
+                aid = aid.replace("/", "~", 1)
+            run_url = (
+                "https://api.apify.com/v2/acts/"
+                f"{aid}/run-sync-get-dataset-items"
+                f"?token={self.api_token}"
+            )
+            payload = {
+                "queries": query,
+                "resultsPerPage": 10,
+                "maxPagesPerQuery": max(1, int(page)),
+                "mobileResults": False,
+            }
+            headers = {"Content-Type": "application/json", "Accept": "application/json"}
+
+            async with httpx.AsyncClient(timeout=(8.0, 45.0)) as client:
+                response = await client.post(run_url, json=payload, headers=headers)
+                response.raise_for_status()
+                data = response.json()
+
+            rows = data if isinstance(data, list) else ([data] if isinstance(data, dict) else [])
+            items = []
+            for idx, row in enumerate(rows, start=1):
+                if not isinstance(row, dict):
+                    continue
+                organic = row.get("organicResults")
+                if isinstance(organic, list):
+                    for j, r in enumerate(organic, start=1):
+                        if not isinstance(r, dict):
+                            continue
+                        items.append(
+                            {
+                                "title": r.get("title", ""),
+                                "link": r.get("url", ""),
+                                "snippet": r.get("description", ""),
+                                "rank": j,
+                            }
+                        )
+                    if items:
+                        break
+                items.append(
+                    {
+                        "title": row.get("title", ""),
+                        "link": row.get("url", ""),
+                        "snippet": row.get("description", ""),
+                        "rank": idx,
+                    }
+                )
+
+            return {"items": items[:10]}
+
+
 # ============================================================================
 # LLM Scoring
 # ============================================================================
@@ -582,7 +650,7 @@ class DomainTool:
 
         # Load costs configuration
         self.costs_config = load_costs_config()
-        validate_provider_config(["openrouter", "gse", "firecrawl"], self.costs_config)
+        validate_provider_config(["openrouter", "gse", "apify_crawl"], self.costs_config)
 
         # Initialize components
         self.permit_manager = PermitManager(
@@ -593,7 +661,7 @@ class DomainTool:
         self.semaphore_pool = AsyncSemaphorePool(self.permit_manager)
 
         # Domain discovery: ordered chain; each query tries providers until one succeeds.
-        # Serper -> Brave -> GSE (Harvest API removed from pipeline).
+        # Serper -> Brave -> GSE -> Apify.
         use_brave = os.environ.get("DOMAIN_DISCOVERY_USE_BRAVE", "1").strip().lower() not in (
             "0",
             "false",
@@ -609,10 +677,19 @@ class DomainTool:
             "false",
             "no",
         )
+        use_apify = os.environ.get("DOMAIN_DISCOVERY_USE_APIFY", "1").strip().lower() not in (
+            "0",
+            "false",
+            "no",
+        )
         serper_key = os.environ.get("SERPER_API_KEY", "").strip()
         brave_key = os.environ.get("BRAVE_API_KEY", "").strip()
         gse_key = os.environ.get("GSE_API_KEY", "").strip()
         gse_cx = os.environ.get("GSE_CX", "").strip()
+        apify_token = os.environ.get("APIFY_API_TOKEN", "").strip()
+        apify_actor_id = os.environ.get(
+            "APIFY_SEARCH_ACTOR_ID", "apify/google-search-scraper"
+        ).strip()
 
         # (cache_backend_id, billing key in costs.yaml, client)
         self._search_chain: List[Tuple[str, str, Any]] = []
@@ -650,12 +727,24 @@ class DomainTool:
                     ),
                 )
             )
+        if apify_token and use_apify:
+            self._search_chain.append(
+                (
+                    "apify",
+                    "gse",
+                    ApifySearchClient(
+                        api_token=apify_token,
+                        actor_id=apify_actor_id,
+                        semaphore_pool=self.semaphore_pool,
+                    ),
+                )
+            )
 
         if not self._search_chain:
             raise KeyError(
                 "No domain search provider configured: set SERPER_API_KEY, "
-                "BRAVE_API_KEY, and/or GSE_API_KEY+GSE_CX (and enable toggles "
-                "DOMAIN_DISCOVERY_USE_SERPER / _BRAVE / _GSE)"
+                "BRAVE_API_KEY, and/or GSE_API_KEY+GSE_CX, and/or APIFY_API_TOKEN "
+                "(and enable toggles DOMAIN_DISCOVERY_USE_SERPER / _BRAVE / _GSE / _APIFY)"
             )
 
         self._last_search_cost_key = self._search_chain[0][1]
@@ -664,10 +753,11 @@ class DomainTool:
             f"🔍 Domain discovery provider chain (first success wins per query): {chain_desc}"
         )
         logging.getLogger(TOOL_NAME).info(
-            "🔧 Provider toggles: BRAVE=%s SERPER=%s GSE=%s",
+            "🔧 Provider toggles: BRAVE=%s SERPER=%s GSE=%s APIFY=%s",
             use_brave,
             use_serper,
             use_gse,
+            use_apify,
         )
         self._provider_health: Dict[str, Dict[str, float]] = {
             bid: {"fail_streak": 0.0, "cooldown_until": 0.0} for bid, _, _ in self._search_chain

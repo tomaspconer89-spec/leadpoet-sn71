@@ -1,0 +1,1014 @@
+{
+  "saved_at_utc": "2026-03-31T13:11:14.377111+00:00",
+  "queue_key": "53e67d3447acd91d1e8d6137da57f5dc391f1ab8a3b02915d2f3e7883de96840",
+  "business": "The Company Check | Empower Your Business with Data-Driven Insights",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company The Company Check | Empower Your Business with Data-Driven Insights",
+      "The Company Check | Empower Your Business with Data-Driven Insights linkedin company",
+      "site:linkedin.com/company thecompanycheck.com",
+      "site:linkedin.com/in \"The Company Check | Empower Your Business with Data-Driven Insights\" founder",
+      "site:linkedin.com/in \"The Company Check | Empower Your Business with Data-Driven Insights\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "73RHyST6nq2lEWg",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company The Company Check | Empower Your Business with Data-Driven Insights",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Company Check",
+            "url": "https://uk.linkedin.com/company/company-check-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Company Check",
+            "description": "Need deeper insight before making critical business decisions? Don't rely on surface-level data. With enriched company and director reports from Company Check\u00a0...Read more",
+            "emphasizedKeywords": [
+              "enriched company and director reports"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Data Insights Consulting LLC",
+            "url": "https://www.linkedin.com/company/datainsightsconsulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Data Insights Consulting LLC",
+            "description": "Data Insights Consulting LLC uses your data to create actionable insights. We create easy-to-understand visualizations to improve your business.Read more",
+            "emphasizedKeywords": [
+              "uses your data to create actionable insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Datae: Empower Your Data, Drive Your Decisions",
+            "url": "https://uk.linkedin.com/company/datae",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Datae: Empower Your Data, Drive Your Decisions",
+            "description": "At Datae, we're transforming how businesses access insights. We go beyond traditional BI tools, combining our revolutionary business intelligence platform\u00a0...Read more",
+            "emphasizedKeywords": [
+              "how businesses access insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Data-Driven AI",
+            "url": "https://au.linkedin.com/company/data-driven-ai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Data-Driven AI",
+            "description": "We deliver innovative data and AI solutions to help organisations build a data-driven culture and empower their business decisions with insights. Website: https\u00a0...Read more",
+            "emphasizedKeywords": [
+              "innovative data and AI solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.6K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "ProboData Group, Inc",
+            "url": "https://www.linkedin.com/company/probo-data-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ProboData Group, Inc",
+            "description": "in our mission to empower businesses with data-driven insights. Our advanced solutions ensure your data is not just managed but optimized for maximum impact.Read more",
+            "emphasizedKeywords": [
+              "our",
+              "empower",
+              "data",
+              "driven insights",
+              "Our",
+              "your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Express Analytics",
+            "url": "https://www.linkedin.com/company/express-analytics",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Express Analytics",
+            "description": "As a leader in data management and marketing analytics, we deliver AI-powered solutions that transform raw data into actionable insights.Read more",
+            "emphasizedKeywords": [
+              "AI-powered solutions that transform raw data into actionable insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "27K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Data Driven",
+            "url": "https://www.linkedin.com/company/data-driven-works",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Data Driven",
+            "description": "Data Driven is a Google Cloud consulting firm specializing in BigQuery, Vertex AI, and Looker. We build data platforms organizations can trust \u2014 and we make\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Data Driven"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "vrfyd.co.uk",
+            "url": "https://uk.linkedin.com/company/vrfyd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0vrfyd.co.uk",
+            "description": "At VRFYD, we specialise in delivering real-time, data-driven insights that empower businesses to navigate risks and seize growth opportunities with confidence.Read more",
+            "emphasizedKeywords": [
+              "real-time, data-driven insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "listening247",
+            "url": "https://uk.linkedin.com/company/listening247",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0listening247",
+            "description": "Our cutting-edge solution harnesses AI-driven insights from a vast array of unstructured and unsolicited data sources\u2014social media, blogs, forums, news, and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AI-driven insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Datatific",
+            "url": "https://www.linkedin.com/company/datatific-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Datatific",
+            "description": "Partner with Datatific and let us empower your business with data-driven insights and elevate your music with professional mixing and mastering services.Read more",
+            "emphasizedKeywords": [
+              "empower your business with data",
+              "driven insights",
+              "your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4 followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/qC3wVDayeOOZP8ETK/records/73RHyST6nq2lEWg-0.html?signature=4oIAmeiFE8K1TJ4jDxsQ"
+      },
+      {
+        "#debug": {
+          "requestId": "DHaejBkGjP37Fi0",
+          "url": "http://www.google.com/search?q=The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "The Company Check | Empower Your Business with Data-Driven Insights linkedin company",
+          "url": "http://www.google.com/search?q=The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=The+Company+Check+%7C+Empower+Your+Business+with+Data-Driven+Insights+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "The company Check reviews",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+company+Check+reviews&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Companies House",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Companies+House&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "My corporate info",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=My+corporate+info&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Company check LTD",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Company+check+LTD&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "My company search",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=My+company+search&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "The Company Check India",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+Company+Check+India&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Know your company",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Know+your+company&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Company director information",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Company+director+information&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "The company Check reviews",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+company+Check+reviews&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Companies House",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Companies+House&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "My corporate info",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=My+corporate+info&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Company check LTD",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Company+check+LTD&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "My company search",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=My+company+search&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "The Company Check India",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=The+Company+Check+India&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Know your company",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Know+your+company&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Company director information",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Company+director+information&sa=X&ved=2ahUKEwi02MH9msqTAxXvQ_EDHYPWOswQ1QJ6BAg7EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "The Company Check",
+            "url": "https://in.linkedin.com/company/the-company-check",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides real-time data and tools"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Company Check",
+            "url": "https://uk.linkedin.com/company/company-check-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Company Check",
+            "description": "We're excited to unveil a fresh, modern look for the Company Check platform. Our new design makes it easier than ever to: \u2713 Search for companies & directors\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Search for companies & directors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Get deeper insights with Company Check reports",
+            "url": "https://www.linkedin.com/posts/company-check-ltd_businessintelligence-creditreports-companydata-activity-7333788882120970241-as-B",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Company Check",
+            "description": "Need deeper insight before making critical business decisions? Don't rely on surface-level data. With enriched company and director reports\u00a0...",
+            "emphasizedKeywords": [
+              "enriched company and director reports"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10 months ago",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "The Company Check | Empower Your Business with Data ...",
+            "url": "https://www.thecompanycheck.com/",
+            "displayedUrl": "https://www.thecompanycheck.com",
+            "description": "Explore The Company Check for detailed business insights. Access financials, legal data, directors, investors, funding, compliance, risk analysis, and more.",
+            "emphasizedKeywords": [
+              "Explore The Company Check for detailed business insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Judy Yan - Empower business with data-driven insights",
+            "url": "https://www.linkedin.com/in/judy-yan-4a39a962",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Judy Yan",
+            "description": "Empower business with data-driven insights | Ex-Youtube | Ex-Googler \u00b7 Experience: Adobe \u00b7 Education: University of Southern California \u00b7 Location: San\u00a0...",
+            "emphasizedKeywords": [
+              "Empower business with data-driven insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco Bay Area",
+              "jobTitle": "Marketing Category Analytics Lead",
+              "companyName": "Adobe",
+              "rawText": "San Francisco Bay Area \u00b7 Marketing Category Analytics Lead \u00b7 Adobe"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Decision-Making with AI & Data Insights | LinkedIn Product ...",
+            "url": "https://www.youtube.com/watch?v=D1nUxSzdMes",
+            "displayedUrl": "YouTube\u00a0\u203a\u00a0Product School",
+            "description": "It is actually all about leveraging AI power algorith to analyze vast amount of data and derive valuable insights.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "views": "6.1K+ views",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Review Data-Driven Insights",
+            "url": "https://www.linkedin.com/top-content/customer-experience/managing-customer-experience-reviews/review-data-driven-insights/",
+            "displayedUrl": "https://www.linkedin.com \u203a customer-experience \u203a revie...",
+            "description": "Reviewing data-driven insights means analyzing information collected from data to guide decisions, reveal underlying trends, and improve business outcomes.Read more",
+            "emphasizedKeywords": [
+              "analyzing information collected from data"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Unlock the power of LinkedIn Talent Insights, leveraging ...",
+            "url": "https://www.facebook.com/LinkedIn/posts/unlock-the-power-of-linkedin-talent-insights-leveraging-data-to-better-inform-yo/1338941218261859/",
+            "displayedUrl": "Facebook\u00a0\u203a\u00a0LinkedIn",
+            "description": "Unlock the power of LinkedIn Talent Insights, leveraging data to better inform you as a talent leader.",
+            "emphasizedKeywords": [
+              "LinkedIn Talent Insights"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4 weeks ago",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Data-Driven Insights for Business Growth",
+            "url": "https://www.linkedin.com/top-content/business-strategy/business-growth-insights/data-driven-insights-for-business-growth/",
+            "displayedUrl": "https://www.linkedin.com \u203a ... \u203a Business Growth Insights",
+            "description": "Data-driven insights for business growth refer to the practice of using information collected from various sources\u2014such as customer behavior, market trends,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "information collected from various sources"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "How to harness LinkedIn data to fuel unstoppable growth",
+            "url": "https://www.youtube.com/watch?v=d3Gc7SYINXQ",
+            "displayedUrl": "YouTube\u00a0\u203a\u00a0Dux-Soup",
+            "description": "Export the LinkedIn data you need to drive your outreach activities \u00b7 Convert that data into an automated prospecting strategy \u00b7 View and filter\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "views": "10+ views",
+            "lastUpdated": "1 month ago",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/z00ZIB3ahzOxYrDfX/records/DHaejBkGjP37Fi0-0.html?signature=1HHc7ofXIKmdbOTOMQ5yF"
+      },
+      {
+        "#debug": {
+          "requestId": "sBaWhqAdrVncPg8",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+thecompanycheck.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+thecompanycheck.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company thecompanycheck.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+thecompanycheck.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+thecompanycheck.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "The Company Check",
+            "url": "https://in.linkedin.com/company/the-company-check",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://ch.linkedin.com/company/the-company-check",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://se.linkedin.com/company/the-company-check",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://ae.linkedin.com/company/the-company-check",
+            "displayedUrl": "https://ae.linkedin.com \u203a company",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Company Check",
+            "url": "https://uk.linkedin.com/company/company-check-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Company Check",
+            "description": "We're excited to unveil a fresh, modern look for the Company Check platform. Our new design makes it easier than ever to: \u2713 Search for companies & directors\u00a0...Read more",
+            "emphasizedKeywords": [
+              "the Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://uy.linkedin.com/company/the-company-check",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://th.linkedin.com/company/the-company-check",
+            "displayedUrl": "https://th.linkedin.com \u203a company",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "The Company Check",
+            "url": "https://ph.linkedin.com/company/the-company-check?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Company Check",
+            "description": "The Company Check is a leading business information provider that provides real-time data and tools that makes it easier for companies of all sizes to see\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Company Check"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "CheckMark, Inc.",
+            "url": "https://www.linkedin.com/company/checkmark-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CheckMark, Inc.",
+            "description": "CheckMark Inc has been dedicated to providing, fast, easy-to-use, affordable accounting and payroll solutions to small and medium-sized businesses since 1984.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Check",
+            "url": "https://www.linkedin.com/company/check-technologies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Check",
+            "description": "Check is a leading payroll platform that empowers companies to build payroll businesses within their products with its powerful embedded payroll\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.9K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/0kehHxkcI4H6102cF/records/sBaWhqAdrVncPg8-0.html?signature=23k8RfYcLYwdHpYpHMMx"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company The Company Check | Empower Your Business with Data-Driven Insights",
+      "https://uk.linkedin.com/company/company-check-ltd",
+      "https://www.linkedin.com/company/datainsightsconsulting",
+      "https://uk.linkedin.com/company/datae",
+      "https://au.linkedin.com/company/data-driven-ai",
+      "https://www.linkedin.com/company/probo-data-group-inc",
+      "https://www.linkedin.com/company/express-analytics",
+      "https://www.linkedin.com/company/data-driven-works",
+      "https://uk.linkedin.com/company/vrfyd",
+      "https://uk.linkedin.com/company/listening247",
+      "https://www.linkedin.com/company/datatific-llc",
+      "https://in.linkedin.com/company/the-company-check",
+      "https://uk.linkedin.com/company/company-check-ltd",
+      "https://www.linkedin.com/posts/company-check-ltd_businessintelligence-creditreports-companydata-activity-7333788882120970241-as-B",
+      "https://www.linkedin.com/in/judy-yan-4a39a962",
+      "https://www.linkedin.com/top-content/customer-experience/managing-customer-experience-reviews/review-data-driven-insights/",
+      "https://www.linkedin.com/top-content/business-strategy/business-growth-insights/data-driven-insights-for-business-growth/",
+      "site:linkedin.com/company thecompanycheck.com",
+      "https://in.linkedin.com/company/the-company-check",
+      "https://ch.linkedin.com/company/the-company-check",
+      "https://se.linkedin.com/company/the-company-check",
+      "https://ae.linkedin.com/company/the-company-check",
+      "https://uk.linkedin.com/company/company-check-ltd",
+      "https://uy.linkedin.com/company/the-company-check",
+      "https://th.linkedin.com/company/the-company-check",
+      "https://ph.linkedin.com/company/the-company-check?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/company/checkmark-inc",
+      "https://www.linkedin.com/company/check-technologies"
+    ],
+    "apify_person_profile_items": [
+      {
+        "error": "\u274c Users on the free Apify plan can run the actor through the UI and not via other methods."
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/datainsightsconsulting/",
+        "companyName": "Data Insights Consulting LLC",
+        "websiteUrl": "https://datainsightsconsulting.co/",
+        "industry": "Logistics & Supply Chain",
+        "employeeCount": 4,
+        "followerCount": 20,
+        "universalName": "datainsightsconsulting",
+        "tagline": "No Fluff, No BS, Just Insights.",
+        "description": "Data Insights Consulting LLC uses your data to create actionable insights. We create easy-to-understand visualizations to improve your business. While most companies have been collecting data for over a decade - turning that data into business insights can be a resource heavy process. Instead of just providing you with more abstract data we empower you to make data driven decisions that improve your operations. No Fluff, No BS, Only Insights.",
+        "companyId": 100878927,
+        "hashtag": null,
+        "industryV2Taxonomy": "Operations Consulting",
+        "callToAction": {
+          "displayText": "Contact us",
+          "type": "VIEW_CONTACT_INFO",
+          "url": "https://datainsightsconsulting.co/"
+        },
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Chicago",
+          "geographicArea": "IL",
+          "postalCode": "60647",
+          "line1": null,
+          "line2": null,
+          "description": "Headquarters"
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2020,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFePb6az7Zngg/company-logo_200_200/company-logo_200_200/0/1721780718163/datainsightsconsulting_logo?e=1776297600&v=beta&t=0VHvIQ3xRIRwMp2dRz9eV3wrCLoJSsVKP_jp5Uz0g0I",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQE7WSm5kTu4CA/company-background_10000/company-background_10000/0/1721618772159/datainsightsconsulting_cover?e=1775570400&v=beta&t=8Gbxdw6aMZ2077q7ED2UfTfDw1BbQz_4_0y8iQ3HFbg",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQENRF-1AcdLRA/image-scale_127_750/image-scale_127_750/0/1721618772218/datainsightsconsulting_cover?e=1775570400&v=beta&t=10gWCQVhml5kTYhfNmDpgLYkU1iqbwwp05J4pArtzNE",
+        "specialities": [
+          "Consulting",
+          "Data Analytics",
+          "Agile"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "Stanley",
+            "followerCount": 16545,
+            "url": "https://www.linkedin.com/company/stanley-from-stan/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFansK5f5C0LA/company-logo_400_400/B56Zwv_Z5ZIYAY-/0/1770331680235/stanley_from_stan_logo?e=1776297600&v=beta&t=qMm7OGIHCcemlumuyezMHKRsagYROn8xKU4Rp9EHRT4",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQE0hOya2PMUaA/image-scale_127_750/B56ZbuWARMG4AM-/0/1747755474551/stanley_from_stan_cover?e=1775570400&v=beta&t=6MJ0Z5M4jI5ObJIomFXOGXEF83y5Yu1AGoevUnBL0So",
+            "industryV2Taxonomy": "Business Content",
+            "industry": "Publishing",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEIjjMGpmETow/company-background_200/B56ZbuWAPsHgAc-/0/1747755472513/stanley_from_stan_cover?e=1775570400&v=beta&t=wWcmkGrIuFmP5zVCg_A8WFhzirb-ra4RyEvD5FYvC14",
+            "companyId": 107128955,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "CA",
+              "city": "Toronto",
+              "geographicArea": "Ontario",
+              "postalCode": "M5E 0C7",
+              "line1": "100 Queens Quay E",
+              "line2": null,
+              "description": "Spaceship"
+            },
+            "universalName": "stanley-from-stan"
+          },
+          {
+            "name": "Navitus Health Solutions",
+            "followerCount": 38126,
+            "url": "https://www.linkedin.com/company/navitus-health-solutions/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQFKeIBxg0Y3HA/company-logo_400_400/B56ZUZ7OGfGQAY-/0/1739896709851/navitus_health_solutions_logo?e=1776297600&v=beta&t=09_SllQCn_Vtdzb0Di1TC-AxU7V23W_3qr55Y1BPTlc",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEJyif2_9QMxg/image-scale_127_750/image-scale_127_750/0/1668096502371/navitus_health_solutions_cover?e=1775570400&v=beta&t=OaqY-4mtadl6_gUwgVHupQ9XfjIt7kArxVyu9V1vaAU",
+            "industryV2Taxonomy": "Hospitals and Health Care",
+            "industry": "Hospital & Health Care",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEfWLcm6TyAaw/company-background_10000/company-background_10000/0/1668096502687/navitus_health_solutions_cover?e=1775570400&v=beta&t=1ppOkJZiMH8nMZ4oGpvtmDYDc8avx4w-OrpEgIA5W_c",
+            "companyId": 42925,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Madison",
+              "geographicArea": "WI",
+              "postalCode": "53713",
+              "line1": "2601 W Beltline Highway",
+              "line2": "Ste 600",
+              "description": "Headquarters"
+            },
+            "universalName": "navitus-health-solutions"
+          },
+          {
+            "name": "Scorpion",
+            "followerCount": 42494,
+            "url": "https://www.linkedin.com/company/scorpion/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQF0YGqJ-f8row/company-logo_200_200/company-logo_200_200/0/1727907130936/scorpion_logo?e=1776297600&v=beta&t=VTysqQLmrVB17FJniXRwX_QRFpthXnhNx_cT1U0zxI8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFLvq488KGVhQ/image-scale_127_750/B56Zwk51rrJMAM-/0/1770145688342/scorpion_cover?e=1775570400&v=beta&t=eZa9Ok20eHVqOngjuLETSS4jXl0J15IUXoWO5pc9oUk",
+            "industryV2Taxonomy": "Advertising Services",
+            "industry": "Marketing & Advertising",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHDNN8zj452wQ/company-background_10000/B56Zwk51seJoAY-/0/1770145677070/scorpion_cover?e=1775570400&v=beta&t=v90Ha9LEANrGTiyB0P0yHW4KKwTfCziiSJGI22e9us0",
+            "companyId": 1495045,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Draper",
+              "geographicArea": "Utah",
+              "postalCode": "84020",
+              "line1": "344 W 13800 S",
+              "line2": "Suite 500",
+              "description": "Salt Lake City Office"
+            },
+            "universalName": "scorpion"
+          },
+          {
+            "name": "OMMAX",
+            "followerCount": 18730,
+            "url": "https://www.linkedin.com/company/ommax/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQEGiKmpLqfR5A/company-logo_200_200/company-logo_200_200/0/1721748454909/ommax_logo?e=1776297600&v=beta&t=JrTuFYTaVjCm3RRMpS5B-HhDcB0AE-AqFdrS6zGb0AA",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQG8yGWiqS9x3A/image-scale_127_750/B4DZu4LmidJQAM-/0/1768321608492/ommax_cover?e=1775570400&v=beta&t=w2BTmro7f_NwXTdHd2D1i0esxNA8QY3U8WN6RJhHIhg",
+            "industryV2Taxonomy": "Business Consulting and Services",
+            "industry": "Management Consulting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFjmVjPAmSDow/company-background_200/B4DZu4LmhfIEAc-/0/1768321608370/ommax_cover?e=1775570400&v=beta&t=cApUl0iSZyZqix2Y72BiI0pHIbVac-ZgBlMs8BpQVQc",
+            "companyId": 5165571,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Munich",
+              "geographicArea": "Bavaria",
+              "postalCode": "80539",
+              "line1": "Kaulbachstra\u00dfe 4",
+              "line2": null,
+              "description": "OMMAX"
+            },
+            "universalName": "ommax"
+          },
+          {
+            "name": "Mi-Case",
+            "followerCount": 99714,
+            "url": "https://www.linkedin.com/company/mi-case/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQEX_V67CAYkeQ/company-logo_200_200/company-logo_200_200/0/1721656917636/mi_case_logo?e=1776297600&v=beta&t=FfACH0XyksL10w0Uj6s92CSZ3oXwtJANH9rPcofNVFU",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHlohaVqhXDyA/image-scale_127_750/image-scale_127_750/0/1721416861257/mi_case_cover?e=1775570400&v=beta&t=JrGyDmLJ-0w-xBoQ6A08NhN6_zBgoSVtBNam0lnpO8k",
+            "industryV2Taxonomy": "Software Development",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQHc_zeM_YeGNg/company-background_10000/company-background_10000/0/1721416861422/mi_case_cover?e=1775570400&v=beta&t=a0OoXeCrSif00uMuujs0zfxu02m4nZR5KCiOMKZxvE8",
+            "companyId": 51591309,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Scottsdale",
+              "geographicArea": "Arizona",
+              "postalCode": "85260",
+              "line1": "15333 N Pima Rd",
+              "line2": "Suite 305",
+              "description": "Mi-Case Headquarters"
+            },
+            "universalName": "mi-case"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Los Angeles",
+            "geographicArea": "CA",
+            "postalCode": "90001",
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": false,
+            "localizedName": "Los Angeles",
+            "latitude": 34.05224,
+            "longitude": -118.24335
+          },
+          {
+            "country": "US",
+            "city": "Traverse City",
+            "geographicArea": "MI",
+            "postalCode": "49684",
+            "line1": null,
+            "line2": null,
+            "description": null,
+            "headquarter": false,
+            "localizedName": "Traverse City",
+            "latitude": 44.75909,
+            "longitude": -85.60547
+          },
+          {
+            "country": "US",
+            "city": "Chicago",
+            "geographicArea": "IL",
+            "postalCode": "60647",
+            "line1": null,
+            "line2": null,
+            "description": "Headquarters",
+            "headquarter": true,
+            "localizedName": "Chicago",
+            "latitude": 41.88323,
+            "longitude": -87.6324
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/datainsightsconsulting",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/judy-yan-4a39a962"
+  },
+  "lead_before_enrichment": {
+    "business": "The Company Check | Empower Your Business with Data-Driven Insights",
+    "description": "# The Company Check | Empower Your Business with Data-Driven Insights ## Insights That Drive Growth Explore verified intelligence on companies, teams, directors, investors, funding, acquisitions, financials, regulatory signals, and more \u2014 across India and global markets. ![Market and Research](https://thecompanycheck.com/Images/home/market-and-research.png) Market and Research ### Market & Company Research Understand companies beyond the surface\u2014profiles, ownership, leadership, activity, and financial depth across India and global markets.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://thecompanycheck.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/datainsightsconsulting",
+    "source_url": "https://thecompanycheck.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "thecompanycheck.com",
+    "source_urls": [
+      "https://thecompanycheck.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "The Company Check | Empower Your Business with Data-Driven Insights",
+    "description": "Data Insights Consulting LLC uses your data to create actionable insights. We create easy-to-understand visualizations to improve your business. While most companies have been collecting data for over a decade - turning that data into business insights can be a resource heavy process. Instead of just providing you with more abstract data we empower you to make data driven decisions that improve your operations. No Fluff, No BS, Only Insights.",
+    "full_name": "Judy Yan",
+    "first": "Judy",
+    "last": "Yan",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://thecompanycheck.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Partner",
+    "linkedin": "https://www.linkedin.com/in/judy-yan-4a39a962",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/datainsightsconsulting",
+    "source_url": "https://thecompanycheck.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "thecompanycheck.com",
+    "source_urls": [
+      "https://thecompanycheck.com"
+    ],
+    "title_raw": "Partner",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://thecompanycheck.com"
+  },
+  "field_changes": {
+    "description": {
+      "before": "# The Company Check | Empower Your Business with Data-Driven Insights ## Insights That Drive Growth Explore verified intelligence on companies, teams, directors, investors, funding, acquisitions, financials, regulatory signals, and more \u2014 across India and global markets. ![Market and Research](https://thecompanycheck.com/Images/home/market-and-research.png) Market and Research ### Market & Company Research Understand companies beyond the surface\u2014profiles, ownership, leadership, activity, and financial depth across India and global markets.",
+      "after": "Data Insights Consulting LLC uses your data to create actionable insights. We create easy-to-understand visualizations to improve your business. While most companies have been collecting data for over a decade - turning that data into business insights can be a resource heavy process. Instead of just providing you with more abstract data we empower you to make data driven decisions that improve your operations. No Fluff, No BS, Only Insights."
+    },
+    "first": {
+      "before": "",
+      "after": "Judy"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Judy Yan"
+    },
+    "last": {
+      "before": "",
+      "after": "Yan"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/judy-yan-4a39a962"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://thecompanycheck.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Partner"
+    }
+  }
+}

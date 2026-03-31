@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Qubit Capital: AI Fundraising Platform, Startup & Investor Matchmaking",
+  "lead": {
+    "business": "Qubit Capital: AI Fundraising Platform, Startup & Investor Matchmaking",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://qubit.capital",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/qubit-capital",
+    "source_url": "https://qubit.capital",
+    "description": "# AI Fundraising Platform, Startup & Investor Matchmaking Over $215 million raised for 237+ startups. Imagine what we can achieve together. Your path is unique, so your plan should fit your vision. Whether you are an investor seeking tailored opportunities or a startup ready to scale, we turn intent into results. ## Realize Your Potential with Customized Investment Strategies ### Align Your Investments with Your Vision Your goals are distinct and your strategy should mirror them. We build plans that match your objectives and timeline. Family Offices that want smart diversification.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

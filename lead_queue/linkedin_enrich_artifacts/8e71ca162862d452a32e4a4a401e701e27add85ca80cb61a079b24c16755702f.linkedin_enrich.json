@@ -1,0 +1,494 @@
+{
+  "saved_at_utc": "2026-03-31T12:44:00.372789+00:00",
+  "queue_key": "8e71ca162862d452a32e4a4a401e701e27add85ca80cb61a079b24c16755702f",
+  "business": "Expert Venture Capital Consulting Services for Startups",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Expert Venture Capital Consulting Services for Startups",
+      "Expert Venture Capital Consulting Services for Startups linkedin company",
+      "site:linkedin.com/company waveup.com",
+      "site:linkedin.com/in \"Expert Venture Capital Consulting Services for Startups\" founder",
+      "site:linkedin.com/in \"Expert Venture Capital Consulting Services for Startups\" ceo"
+    ],
+    "apify_items": [],
+    "apify_item_count": 0,
+    "apify_linkedin_urls": [],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/entrecorps/",
+        "companyName": "EntreCORPS | Consulting for Startups",
+        "websiteUrl": "https://giesbusiness.illinois.edu/entrecorps",
+        "industry": "Management Consulting",
+        "employeeCount": 76,
+        "followerCount": 994,
+        "universalName": "entrecorps",
+        "tagline": "Innovation starts here. From ideas to enterprise.",
+        "description": "EntreCORPS is a growth and innovation strategy consulting firm. By recruiting selectively from across the University of Illinois campus, expertise is brought together to create high-impact and entrepreneurial  solutions for clients.\r\n\r\nEntreCORPS collaborates with clients ranging from early stage ventures to innovation-driving groups within Fortune 500 companies.",
+        "companyId": 10240124,
+        "hashtag": "#entrecorps",
+        "industryV2Taxonomy": "Business Consulting and Services",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "https://giesbusiness.illinois.edu/entrecorps"
+        },
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "headquarter": {
+          "country": "US",
+          "city": "Champaign",
+          "geographicArea": "Illinois",
+          "postalCode": "61820",
+          "line1": "515 E Gregory Dr",
+          "line2": null,
+          "description": "Business Instructional Facility"
+        },
+        "foundedOn": {
+          "month": null,
+          "year": 2013,
+          "day": null,
+          "$recipeTypes": [
+            "com.linkedin.a24d1decae0b7990921ce762eb46db62"
+          ],
+          "$type": "com.linkedin.common.Date"
+        },
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEZLR2gOxP9Bg/company-logo_200_200/company-logo_200_200/0/1670552796099/entrecorps_logo?e=1776297600&v=beta&t=L9DnbOaNqE4A0yBWa6f0iVwvJvloSq5FLMD-I2DvSgk",
+        "originalCoverImage": null,
+        "croppedCoverImage": null,
+        "specialities": [],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "Ofspace \u2013 Product Design Agency for Startups",
+            "followerCount": 5681,
+            "url": "https://www.linkedin.com/company/ofspace-digital-agency/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHdMKm3U83ENg/company-logo_200_200/company-logo_200_200/0/1723617140925/ofspace_digital_agency_logo?e=1776297600&v=beta&t=jhRkwkGUantqlN4r1Pkw3_uMn8aya0evDT1VBusXmco",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQFjtjgQ-_K-Ig/image-scale_127_750/image-scale_127_750/0/1698910401171/ofspace_digital_agency_cover?e=1775566800&v=beta&t=u4D6e7Ye2ORQdRl2L72KsMbsrCx57E6jg4nn2KQ9A0w",
+            "industryV2Taxonomy": "Design Services",
+            "industry": "Design",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEIman1gWRSOA/company-background_10000/company-background_10000/0/1698910398490/ofspace_digital_agency_cover?e=1775566800&v=beta&t=9vLnvR4oMqv7ZNsAriicbcMduXBuHAJYJ3EUSn-zfgQ",
+            "companyId": 30210515,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "New York",
+              "geographicArea": "New York",
+              "postalCode": "10003",
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "ofspace-digital-agency"
+          },
+          {
+            "name": "Global Startups Club",
+            "followerCount": 9217,
+            "url": "https://www.linkedin.com/company/global-startups-club/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQFCsEX72vyukg/company-logo_200_200/company-logo_200_200/0/1677391423263/global_startups_club_logo?e=1776297600&v=beta&t=I3HiSmyT_6EyKdHxx2kLyIICGBnLZeeG2XwOWAwyATY",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQEMuGW6yqKmmQ/image-scale_127_750/image-scale_127_750/0/1677391447882/global_startups_club_cover?e=1775566800&v=beta&t=OP9lNbvG7XObYp0Cq-xRIEWSjv4OXYX-qncxYyusR_k",
+            "industryV2Taxonomy": "Social Networking Platforms",
+            "industry": "Internet",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQE5CTxSp1rMRw/company-background_10000/company-background_10000/0/1677391448453/global_startups_club_cover?e=1775566800&v=beta&t=RuDluxWSfkGlV4DwFzNyewVO3VPonN6xUu8ie6stjxQ",
+            "companyId": 90933712,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "IN",
+              "city": "Mumbai",
+              "geographicArea": "Maharashtra",
+              "postalCode": "400064",
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "global-startups-club"
+          },
+          {
+            "name": "Atomicwork",
+            "followerCount": 93711,
+            "url": "https://www.linkedin.com/company/atomicworkhq/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQF6jGNSDAMa2g/company-logo_100_100/B56ZZeXRWHGkAQ-/0/1745339881861/atomicworkhq_logo?e=1776297600&v=beta&t=ekr3rcZth2GBBLWPhQLY5H0BsSNULwgJPy9BpCtVe34",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEIh-ndc4m7Tw/image-scale_127_750/B56ZZeX1XpHUAM-/0/1745340029376/atomicworkhq_cover?e=1775566800&v=beta&t=9k-LFlojhpO6Q5m9D4vhNUFNpgAAQllIBbTC6_heywA",
+            "industryV2Taxonomy": "Technology, Information and Internet",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQGtIoTbUmBjMw/company-background_400/B56ZZeX1XHGcAY-/0/1745340029072/atomicworkhq_cover?e=1775566800&v=beta&t=S3ss7uQ8WxXWuYHot9uAi3isXHnBKi1_-HiWhPZZz50",
+            "companyId": 82804658,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Palo Alto",
+              "geographicArea": "California",
+              "postalCode": "94301",
+              "line1": "720 University Ave",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "atomicworkhq"
+          },
+          {
+            "name": "UFP Packaging",
+            "followerCount": 9277,
+            "url": "https://www.linkedin.com/company/ufp-packaging/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHj6kfwJ0H9tA/company-logo_200_200/company-logo_200_200/0/1727965705482/ufp_packaging_logo?e=1776297600&v=beta&t=7mxgB6GiL2pFI5z2A9AvBb3C4lZYM9hAOB_O6W5bIQ8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQHzwfsLrf7CoQ/image-scale_127_750/image-scale_127_750/0/1687878677081/ufp_packaging_cover?e=1775566800&v=beta&t=PwCK1xVsX49ZUsgT58IY6rSG1NybT7yJmPpi30KaZcc",
+            "industryV2Taxonomy": "Packaging and Containers Manufacturing",
+            "industry": "Packaging & Containers",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQE4xsSf1D0Opg/company-background_10000/company-background_10000/0/1687878672982/ufp_packaging_cover?e=1775566800&v=beta&t=2lmWoBmUaQvjUmAp_Rj5_ExVl59cYkj1_u_4uM8UOqM",
+            "companyId": 75403657,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Grand Rapids",
+              "geographicArea": "MI",
+              "postalCode": "49525",
+              "line1": "2801 East Beltline NE ",
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "ufp-packaging"
+          },
+          {
+            "name": "EU-Startups",
+            "followerCount": 143237,
+            "url": "https://www.linkedin.com/company/eu-startups-menlo-media/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQGHrqvAq0IeIQ/company-logo_200_200/company-logo_200_200/0/1630606396092/eu_startups_menlo_media_logo?e=1776297600&v=beta&t=hCrGNo0WY0G13BivcAmlPdkMc5aIB2tQNyjG-fOHmLU",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQEk6QNmf3pG3Q/image-scale_127_750/B4DZbta15XG0AQ-/0/1747739959419/eu_startups_menlo_media_cover?e=1775566800&v=beta&t=pPwlthLG4qRFewwBLOjuPon6LgAWhFtQ8G75iuZLsqU",
+            "industryV2Taxonomy": "Technology, Information and Media",
+            "industry": "Computer Software",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQGOSgXtqogfNA/company-background_200/B4DZbta15fIAAw-/0/1747739959567/eu_startups_menlo_media_cover?e=1775566800&v=beta&t=9aOWatteQHSpavBoQa6uSs8rXfe4WuBtjLqONAh_npU",
+            "companyId": 7585916,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "ES",
+              "city": "Barcelona",
+              "geographicArea": "Catalonia",
+              "postalCode": "08025",
+              "line1": "Carrer Sant Antoni Maria Claret, 182",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "eu-startups-menlo-media"
+          },
+          {
+            "name": "Deshpande Startups",
+            "followerCount": 19986,
+            "url": "https://www.linkedin.com/company/deshpandestartups/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQG31GGL_J_32g/company-logo_200_200/company-logo_200_200/0/1660449098914/deshpandestartups_logo?e=1776297600&v=beta&t=-iDN2W4OdZtVJFvi7cNiMU8iRj8bgRwoO2Yht-gPy9k",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQEc2_D8QgZcow/image-scale_127_750/image-scale_127_750/0/1660833134153/deshpandestartups_cover?e=1775566800&v=beta&t=VcQXWJnWysNq8F3YdlCavckJMgtFNSYUFuxrjukEF60",
+            "industryV2Taxonomy": "Non-profit Organization Management",
+            "industry": "Non-profit Organization Management",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQFfLgGx3vtQ3Q/company-background_10000/company-background_10000/0/1660833134003/deshpandestartups_cover?e=1775566800&v=beta&t=43xyGb3rdeFpYcMbQ2k_w8-WZRVssspTiWW4qWw1EEs",
+            "companyId": 6650704,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "IN",
+              "city": "Hubballi",
+              "geographicArea": "Karnataka",
+              "postalCode": "580 030",
+              "line1": "Foundation For Sandboxstartup Initiatives, Next to International Airport,",
+              "line2": " Gokul Road, Opp. to Gokul Village",
+              "description": "Deshpande Startups"
+            },
+            "universalName": "deshpandestartups"
+          },
+          {
+            "name": "Startups.co.uk",
+            "followerCount": 5939,
+            "url": "https://www.linkedin.com/company/mvf-startups/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQE4V2UrDD4nzA/company-logo_100_100/B4EZbElQ59HoAQ-/0/1747054825451/mvf_startups_logo?e=1776297600&v=beta&t=BIEGW1yewJfUbyDVXoCKzmM7tv8k-5J6NIZO7b61vzw",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGQi1rR3-qyaQ/image-scale_127_750/B4EZbEmovDGQAQ-/0/1747055186189/mvf_startups_cover?e=1775566800&v=beta&t=Sy2bE3zOOKtSlnHKkatprlWvbNMLCyN_C0yA45yTSsw",
+            "industryV2Taxonomy": "Business Content",
+            "industry": "Publishing",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEpnQB4kkPKdw/company-background_200/B4EZbEmovLHwAc-/0/1747055187205/mvf_startups_cover?e=1775566800&v=beta&t=W19wUViAj4q-kVPO7fn23ilfH5lLD-DunFqY1rITRyE",
+            "companyId": 27125437,
+            "employeeCountRange": {
+              "start": 51,
+              "end": 200
+            },
+            "headquarter": {
+              "country": "GB",
+              "city": "London",
+              "geographicArea": "London",
+              "postalCode": "N1 7QE",
+              "line1": "1 Shepherdess Walk",
+              "line2": "Wenlock Works",
+              "description": null
+            },
+            "universalName": "mvf-startups"
+          },
+          {
+            "name": "Silicon Valley Startups",
+            "followerCount": 2766,
+            "url": "https://www.linkedin.com/company/silicon-valley-startups/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFhOYiZx-dzZw/company-logo_200_200/company-logo_200_200/0/1691584977294?e=1776297600&v=beta&t=b38jltx8h80hdA_PFn7FhImMNagj9v9ojmfQcWQxOdw",
+            "industryV2Taxonomy": "Technology, Information and Internet",
+            "industry": "Computer Software",
+            "companyId": 97933573,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Silicon Valley",
+              "geographicArea": "CA",
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": "Headquarters"
+            },
+            "universalName": "silicon-valley-startups"
+          },
+          {
+            "name": "National Center for Supercomputing Applications",
+            "followerCount": 9056,
+            "url": "https://www.linkedin.com/company/ncsaatillinois/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1776297600&v=beta&t=YfPDDpcoyTS3bR2BjmoZ86v5uGgMHnf6iN-tHEYETZ4",
+            "industryV2Taxonomy": "Research Services",
+            "industry": "Research",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C561BAQHhVbwNZHjtuQ/company-background_10000/company-background_10000/0/1636738460975/ncsaatillinois_cover?e=1775566800&v=beta&t=MlV0Dn7RbHUD7ZyGnXHNiCRysG5SwYg5q5SfJTCcbzU",
+            "companyId": 1362,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Urbana",
+              "geographicArea": "Illinois",
+              "postalCode": "61801",
+              "line1": "1205 W. Clark St.",
+              "line2": null,
+              "description": "NCSA's main building is on the Urbana-Champaign campus of the University of Illinois."
+            },
+            "universalName": "ncsaatillinois"
+          },
+          {
+            "name": "Colorado Startups",
+            "followerCount": 2084,
+            "url": "https://www.linkedin.com/company/costartups/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQF--vZMQbl_-g/company-logo_200_200/company-logo_200_200/0/1676685288940/colorado_startups_logo?e=1776297600&v=beta&t=uVyF4bwrNelSaeOWcayc-66ZdhYTlNhYWsYXqdqvi38",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D563DAQGd_S1vDpsbTg/image-scale_127_750/B56ZVOn8M4GUAM-/0/1740780848718/costartups_cover?e=1775566800&v=beta&t=2Ja6-CEFYfcalzrY8YwpgQFBI7ksElKvGsX4vO6AAFg",
+            "industryV2Taxonomy": "Social Networking Platforms",
+            "industry": "Internet",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D561BAQEYf6_5vj9t-w/company-background_200/B56ZVOn8MwGoAc-/0/1740780851575/costartups_cover?e=1775566800&v=beta&t=KomQ0QDwfnuogT00K2fMYYErZqcmdG-5Pmrp11CNeX0",
+            "companyId": 35537009,
+            "employeeCountRange": {
+              "start": 0,
+              "end": 1
+            },
+            "headquarter": {
+              "country": "US",
+              "city": "Denver",
+              "geographicArea": "Colorado",
+              "postalCode": "80204",
+              "line1": "1245 Champa St.",
+              "line2": null,
+              "description": "The Commons on Champa"
+            },
+            "universalName": "costartups"
+          },
+          {
+            "name": "Leica Biosystems",
+            "followerCount": 159589,
+            "url": "https://www.linkedin.com/company/leica-biosystems/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C560BAQEtjiG77AYtuA/company-logo_200_200/company-logo_200_200/0/1631399093472/leica_biosystems_logo?e=1776297600&v=beta&t=TroJzjggTRg2UIYRM1jzBFz5Gj1Ro00u7bdYdUKjKKY",
+            "industryV2Taxonomy": "Medical Device",
+            "industry": "Medical Device",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQGGRniza2ihxQ/company-background_10000/company-background_10000/0/1655390864042/leica_biosystems_cover?e=1775566800&v=beta&t=bzmwSphy7PNcEVlXHa2vlCcTldJC91oLzK4IPUz5dQ4",
+            "companyId": 3119548,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Nussloch",
+              "geographicArea": null,
+              "postalCode": "69226",
+              "line1": "Heidelberger Strasse 17-19",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "leica-biosystems"
+          },
+          {
+            "name": "McKinsey & Company",
+            "followerCount": 7074723,
+            "url": "https://www.linkedin.com/company/mckinsey/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQHHnipeBc-zxw/company-logo_400_400/B4EZyp2UO5GYAY-/0/1772376114405/mckinsey_logo?e=1776297600&v=beta&t=6f4XqJbNDwEKFDRuuScbKdwDqfTRBVaP-wYgM6mXDCk",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQGu3JyXYnWd_Q/image-scale_191_1128/B4EZneAmEXHgAk-/0/1760366322595/mckinsey_cover?e=1775566800&v=beta&t=73oeXsqZLcQlQGrKF7varF3hUzfN4iBHCxJAGJRZo3A",
+            "industryV2Taxonomy": "Business Consulting and Services",
+            "industry": "Management Consulting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEO7D4-ODDIaw/company-background_200/B4EZneAmF1IwAc-/0/1760366322640/mckinsey_cover?e=1775566800&v=beta&t=72U68zs9VoH8nw2LZdPaFZAYIrZVAf5qn5JSr2_pueI",
+            "companyId": 1371,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "US",
+              "city": null,
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": null,
+              "line2": null,
+              "description": null
+            },
+            "universalName": "mckinsey"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "US",
+            "city": "Champaign",
+            "geographicArea": "Illinois",
+            "postalCode": "61820",
+            "line1": "515 E Gregory Dr",
+            "line2": null,
+            "description": "Business Instructional Facility",
+            "headquarter": true,
+            "localizedName": "Champaign",
+            "latitude": 40.096764,
+            "longitude": -88.22991
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://ar.linkedin.com/company/entrecorps",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Expert Venture Capital Consulting Services for Startups",
+    "description": "# Expert Venture Capital Consulting Services for Startups ## We help the best companies raise and scale The advisory firm behind $3B+ in funding and 20+ exits * Early-stage to Series D+ across 90+ industries * Niche investor-grade expertise * Purpose-built for Tier-1 founders ## Our work in press As remote working keeps rolling, Oyster raises $59M Series D at $1.2B valuation A startup is transforming sales and marketing automation by raising $12.5M in a seed round Tapcheck raises $225M to reinvent payroll Solana ecosystem\u2019s DePIN project secures $1M angel round funding They Teamed Up On Databr",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://waveup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://waveup.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "waveup.com",
+    "source_urls": [
+      "https://waveup.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Expert Venture Capital Consulting Services for Startups",
+    "description": "EntreCORPS is a growth and innovation strategy consulting firm. By recruiting selectively from across the University of Illinois campus, expertise is brought together to create high-impact and entrepreneurial solutions for clients. EntreCORPS collaborates with clients ranging from early stage ventures to innovation-driving groups within Fortune 500 companies.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://waveup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://ar.linkedin.com/company/entrecorps",
+    "source_url": "https://waveup.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "waveup.com",
+    "source_urls": [
+      "https://waveup.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://ar.linkedin.com/company/entrecorps"
+    },
+    "description": {
+      "before": "# Expert Venture Capital Consulting Services for Startups ## We help the best companies raise and scale The advisory firm behind $3B+ in funding and 20+ exits * Early-stage to Series D+ across 90+ industries * Niche investor-grade expertise * Purpose-built for Tier-1 founders ## Our work in press As remote working keeps rolling, Oyster raises $59M Series D at $1.2B valuation A startup is transforming sales and marketing automation by raising $12.5M in a seed round Tapcheck raises $225M to reinvent payroll Solana ecosystem\u2019s DePIN project secures $1M angel round funding They Teamed Up On Databr",
+      "after": "EntreCORPS is a growth and innovation strategy consulting firm. By recruiting selectively from across the University of Illinois campus, expertise is brought together to create high-impact and entrepreneurial solutions for clients. EntreCORPS collaborates with clients ranging from early stage ventures to innovation-driving groups within Fortune 500 companies."
+    }
+  }
+}

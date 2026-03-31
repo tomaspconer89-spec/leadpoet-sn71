@@ -1,0 +1,1221 @@
+{
+  "saved_at_utc": "2026-03-31T12:59:03.816464+00:00",
+  "queue_key": "9de2f5f76ced6a461b75f8d4c2a0712a0d61cdae87608b3122fdfd7a2f76635b",
+  "business": "Architecture, engineering and consultancy - Ramboll",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Architecture, engineering and consultancy - Ramboll",
+      "Architecture, engineering and consultancy - Ramboll linkedin company",
+      "site:linkedin.com/company ramboll.com",
+      "site:linkedin.com/in \"Architecture, engineering and consultancy - Ramboll\" founder",
+      "site:linkedin.com/in \"Architecture, engineering and consultancy - Ramboll\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "3vHULBpNEEzrWDZ",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Architecture%2C+engineering+and+consultancy+-+Ramboll",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Architecture%2C+engineering+and+consultancy+-+Ramboll",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Architecture, engineering and consultancy - Ramboll",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Architecture%2C+engineering+and+consultancy+-+Ramboll",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Architecture%2C+engineering+and+consultancy+-+Ramboll",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Ramboll",
+            "url": "https://www.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://me.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://ca.linkedin.com/company/ramboll?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "https://ca.linkedin.com \u203a company \u203a ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://mk.linkedin.com/company/ramboll?trk=similar-companies_org_image",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://fr.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://pk.linkedin.com/company/ramboll?trk=public_profile_experience-item_result-card_subtitle-click",
+            "displayedUrl": "https://pk.linkedin.com \u203a company \u203a ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://ro.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://tr.linkedin.com/company/ramboll?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://pr.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/F51D019FM1MWXPeCM/records/3vHULBpNEEzrWDZ-0.html?signature=1Bciy051VJ7iO5T8sUADK"
+      },
+      {
+        "#debug": {
+          "requestId": "R5jWJgXlcsVaTpA",
+          "url": "http://www.google.com/search?q=Architecture%2C+engineering+and+consultancy+-+Ramboll+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Architecture%2C+engineering+and+consultancy+-+Ramboll+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Architecture, engineering and consultancy - Ramboll linkedin company",
+          "url": "http://www.google.com/search?q=Architecture%2C+engineering+and+consultancy+-+Ramboll+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Architecture%2C+engineering+and+consultancy+-+Ramboll+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Architecture engineering and consultancy ramboll linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Architecture+engineering+and+consultancy+ramboll+linkedin+company+usa&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Ramboll x",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Ramboll+x&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg5EAE"
+          },
+          {
+            "title": "Rumble Consulting",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Rumble+Consulting&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg6EAE"
+          },
+          {
+            "title": "Danish Engineering company",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Danish+Engineering+company&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg4EAE"
+          },
+          {
+            "title": "OBG Ramboll",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=OBG+Ramboll&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Winston salem civil engineering firms",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Winston+salem+civil+engineering+firms&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg2EAE"
+          },
+          {
+            "title": "Ramboll Middle East photos",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Ramboll+Middle+East+photos&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Architecture engineering and consultancy ramboll linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Architecture+engineering+and+consultancy+ramboll+linkedin+company+usa&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Ramboll x",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Ramboll+x&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg5EAE"
+          },
+          {
+            "title": "Rumble Consulting",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Rumble+Consulting&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg6EAE"
+          },
+          {
+            "title": "Danish Engineering company",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Danish+Engineering+company&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg4EAE"
+          },
+          {
+            "title": "OBG Ramboll",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=OBG+Ramboll&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Winston salem civil engineering firms",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Winston+salem+civil+engineering+firms&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg2EAE"
+          },
+          {
+            "title": "Ramboll Middle East photos",
+            "url": "https://www.google.com/search?sca_esv=8e9668447196fc90&hl=en&gl=US&q=Ramboll+Middle+East+photos&sa=X&ved=2ahUKEwj5-r-XmMqTAxUSVaQEHWGaKv0Q1QJ6BAg0EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Ramboll",
+            "url": "https://www.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://bg.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://fr.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Architecture, engineering and consultancy",
+            "url": "https://www.ramboll.com/en-us",
+            "displayedUrl": "https://www.ramboll.com \u203a en-us",
+            "description": "Ramboll is a global engineering, architecture and consultancy company with more than 18,000 experts that create sustainable solutions for governments and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global engineering, architecture and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Explore how we can close the gap | Ramboll",
+            "url": "https://www.linkedin.com/posts/ramboll_explore-how-we-can-close-the-gap-activity-7155913244535062528-Hf-N",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "It gives you an opportunity with architecture and with engineering to really, really push sustainability. It is also inspiring to sit down\u00a0...Read more",
+            "emphasizedKeywords": [
+              "architecture",
+              "engineering"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Architecture, engineering and consultancy - Ramboll",
+            "url": "https://www.linkedin.com/posts/ramboll-management-consulting_architecture-engineering-and-consultancy-activity-7115956597952000000-QTy7",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll Management Consulting",
+            "description": "Engineering \u00b7 Hospitality & Tourism \u00b7 Business Strategy \u00b7 Change Management \u00b7 Organizational Culture \u00b7 Design \u00b7 Innovation \u00b7 Event Planning\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Engineering"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Ramboll's Post - Architecture, engineering and consultancy",
+            "url": "https://www.linkedin.com/posts/ramboll_architecture-engineering-and-consultancy-activity-7221484043597467648-1-Vf",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Exciting job opportunities in Vienna Would you like to help decarbonise the most livable city in the world? Venergi, the joint venture\u00a0...",
+            "emphasizedKeywords": [
+              "Exciting job opportunities in Vienna"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://it.linkedin.com/company/ramboll?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Architecture",
+            "url": "https://www.ramboll.com/en-us/architecture-and-landscape/architecture",
+            "displayedUrl": "https://www.ramboll.com \u203a architecture-and-landscape",
+            "description": "Contact Ramboll. Ramboll is a global architecture, engineering and consultancy company. We have permanent offices in the Americas, the Asia Pacific and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Ramboll | Alison Anastasio | 88 comments",
+            "url": "https://www.linkedin.com/posts/alisonanastasio_architecture-engineering-and-consultancy-activity-7346198949487136768-ooYA",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alison Anastasio",
+            "description": "Helping high-achievers work with their energy\u2014not against it\u2014for sustainable success. Experience high-performance without burnout. Member of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "vers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/86VWw47CCYXXZ5deQ/records/R5jWJgXlcsVaTpA-0.html?signature=5cxzAFYYnMhdxeInG8q3"
+      },
+      {
+        "#debug": {
+          "requestId": "paEqeNAeavDSvFg",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ramboll.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ramboll.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company ramboll.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ramboll.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ramboll.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Ramboll",
+            "url": "https://www.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://ee.linkedin.com/company/ramboll",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://na.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://zm.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://fj.linkedin.com/company/ramboll?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://tz.linkedin.com/company/ramboll?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://fj.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://bw.linkedin.com/company/ramboll?trk=public_profile_experience-item_result-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Ramboll",
+            "url": "https://ie.linkedin.com/company/ramboll?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll",
+            "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global architecture, engineering and consultancy company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "609.4K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Ramboll Management Consulting",
+            "url": "https://www.linkedin.com/company/ramboll-management-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ramboll Management Consulting",
+            "description": "With 700+ experts in 8 countries, we're a multi-disciplined management consultancy bringing value to clients in the Nordics, Central Europe, UK, US and beyond.Read more",
+            "emphasizedKeywords": [
+              "multi-disciplined management consultancy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "84K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/xZC9PTJEGac6cI0Vb/records/paEqeNAeavDSvFg-0.html?signature=RMYtJ9NGd0FjSOfp9Gqt"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Architecture, engineering and consultancy - Ramboll",
+      "https://www.linkedin.com/company/ramboll",
+      "https://me.linkedin.com/company/ramboll",
+      "https://ca.linkedin.com/company/ramboll?trk=similar-pages_result-card_full-click",
+      "https://mk.linkedin.com/company/ramboll?trk=similar-companies_org_image",
+      "https://fr.linkedin.com/company/ramboll",
+      "https://pk.linkedin.com/company/ramboll?trk=public_profile_experience-item_result-card_subtitle-click",
+      "https://ro.linkedin.com/company/ramboll",
+      "https://tr.linkedin.com/company/ramboll?trk=ppro_cprof",
+      "https://pr.linkedin.com/company/ramboll",
+      "https://www.linkedin.com/company/ramboll",
+      "https://bg.linkedin.com/company/ramboll",
+      "https://fr.linkedin.com/company/ramboll",
+      "https://www.linkedin.com/posts/ramboll_explore-how-we-can-close-the-gap-activity-7155913244535062528-Hf-N",
+      "https://www.linkedin.com/posts/ramboll-management-consulting_architecture-engineering-and-consultancy-activity-7115956597952000000-QTy7",
+      "https://www.linkedin.com/posts/ramboll_architecture-engineering-and-consultancy-activity-7221484043597467648-1-Vf",
+      "https://it.linkedin.com/company/ramboll?trk=ppro_cprof",
+      "https://www.linkedin.com/posts/alisonanastasio_architecture-engineering-and-consultancy-activity-7346198949487136768-ooYA",
+      "site:linkedin.com/company ramboll.com",
+      "https://www.linkedin.com/company/ramboll",
+      "https://ee.linkedin.com/company/ramboll",
+      "https://na.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+      "https://zm.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+      "https://fj.linkedin.com/company/ramboll?trk=ppro_cprof",
+      "https://tz.linkedin.com/company/ramboll?trk=ppro_cprof",
+      "https://fj.linkedin.com/company/ramboll?trk=products_details_guest_organization_name",
+      "https://bw.linkedin.com/company/ramboll?trk=public_profile_experience-item_result-card_image-click",
+      "https://ie.linkedin.com/company/ramboll?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/company/ramboll-management-consulting"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "url": "https://www.linkedin.com/company/ramboll/",
+        "companyName": "Ramboll",
+        "websiteUrl": "https://ramboll.com",
+        "industry": "Information Technology & Services",
+        "employeeCount": 18205,
+        "followerCount": 609707,
+        "universalName": "ramboll",
+        "tagline": null,
+        "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. \n\nOur 18,000+ experts create sustainable solutions across Buildings, Transport, Energy, Environment & Health, Water, Management Consulting and Architecture & Landscape. \n\nAcross the world, Ramboll combines local experience with a global knowledge base to create sustainable cities and societies. We combine insights with the power to drive positive change for our clients, in the form of ideas that can be realised and implemented. \n\nWe call it: Bright ideas. Sustainable change.\n\nVisit us at ramboll.com",
+        "companyId": 165649,
+        "hashtag": "#ideasthatmatter",
+        "industryV2Taxonomy": "Engineering Services",
+        "callToAction": {
+          "displayText": "Visit website",
+          "type": "VIEW_WEBSITE",
+          "url": "https://ramboll.com/"
+        },
+        "employeeCountRange": {
+          "start": 10001,
+          "end": null
+        },
+        "headquarter": {
+          "country": "DK",
+          "city": "Copenhagen",
+          "geographicArea": ".",
+          "postalCode": "DK-2300",
+          "line1": "Hannemanns All\u00e9 53",
+          "line2": null,
+          "description": "Ramboll Head Office"
+        },
+        "foundedOn": null,
+        "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQF-l_sI_laF1g/company-logo_200_200/company-logo_200_200/0/1686563108316/ramboll_logo?e=1776297600&v=beta&t=Mh6tt30s1Bwagva4IBrXFRV7-JsIJtgLyjAzDoIJFxk",
+        "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQGliCUesm0YMg/company-background_10000/company-background_10000/0/1689327023773/ramboll_cover?e=1775566800&v=beta&t=4MW6ryKFSDKOtS7dS2OKfSTX5RwPeIuX97MguyBzbz8",
+        "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQEHNywq_CtKNg/image-scale_127_750/image-scale_127_750/0/1689327023468/ramboll_cover?e=1775566800&v=beta&t=MYpEtQ783qkRfELUMszgN6qQpXeLDFp3fk46tfXkEEE",
+        "specialities": [
+          "engineering",
+          "management consulting",
+          "design",
+          "civil engineering",
+          "architecture",
+          "mechanical engineering",
+          "environmental consultancy"
+        ],
+        "crunchbaseFundingData": null,
+        "similarOrganizations": [
+          {
+            "name": "Danish Industry",
+            "followerCount": 114611,
+            "url": "https://www.linkedin.com/company/danskindustri/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQFKcsZLct-cNQ/company-logo_200_200/company-logo_200_200/0/1696257560495/danskindustri_logo?e=1776297600&v=beta&t=YPZPU3IaPUr_wzjbq1bYo1OmmqeCWO0SvgOkOYLdfZE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFDTpU5ySBhMg/image-scale_127_750/image-scale_127_750/0/1695975877961/danskindustri_cover?e=1775566800&v=beta&t=FoPgt9et-PxpdD72fSNxmIumbOABcjZkFO5dPrVC1Yc",
+            "industryV2Taxonomy": "Political Organizations",
+            "industry": "Political Organization",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFsFI1_3LLyTQ/company-background_10000/company-background_10000/0/1695975876132/danskindustri_cover?e=1775566800&v=beta&t=vfkG-ODYCl2uUSMn0KcWnVppdt84k9e3lcsglh0hCCI",
+            "companyId": 163193,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "K\u00f8benhavn",
+              "geographicArea": "Denmark",
+              "postalCode": null,
+              "line1": "H.C. Andersens Boulevard 18, 1787",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "danskindustri"
+          },
+          {
+            "name": "Kuopio Water Cluster",
+            "followerCount": 696,
+            "url": "https://www.linkedin.com/company/kuopio-water-cluster/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQGowxtDCvx7tg/company-logo_200_200/B4DZxR9QsUGkAQ-/0/1770901540511/kuopio_water_cluster_logo?e=1776297600&v=beta&t=-Lt_dtZEzU0ob7NjOmKW6vsinvQJP6uZN_qKn7Uggao",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQEeSxq4bMUlAQ/image-scale_191_1128/B4DZxR9jhYHIAc-/0/1770901618537/kuopio_water_cluster_cover?e=1775566800&v=beta&t=R3WYKiAhXrGc6QB7-bUhsKycsRL_vE6hAsqGjwh90-4",
+            "industryV2Taxonomy": "Research Services",
+            "industry": "Research",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFq_RaiCHSsRQ/company-background_400/B4DZxR9jjlKMAY-/0/1770901634998/kuopio_water_cluster_cover?e=1775566800&v=beta&t=5kLeqnd_q3SA1OdYvFCqyDUWexuBRJaZmrAnN1TQhfA",
+            "companyId": 28937982,
+            "employeeCountRange": {
+              "start": 2,
+              "end": 10
+            },
+            "headquarter": {
+              "country": "FI",
+              "city": "Kuopio",
+              "geographicArea": "Eastern Finland",
+              "postalCode": "70210",
+              "line1": "Microkatu 1",
+              "line2": null,
+              "description": "Kuopio Water Cluster"
+            },
+            "universalName": "kuopio-water-cluster"
+          },
+          {
+            "name": "Burns & McDonnell India",
+            "followerCount": 159481,
+            "url": "https://www.linkedin.com/company/burns-mcdonnell-india/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D560BAQHYFEWQi4yx8Q/company-logo_200_200/company-logo_200_200/0/1734719618120/burns_mcdonnell_india_logo?e=1776297600&v=beta&t=ZZO5e8yoaTjsevtnjVVyTJO2ZQdvysjN2PSyhZIqxjo",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGewvsvsKJOzg/image-scale_127_750/image-scale_127_750/0/1732795699993/burns_mcdonnell_india_cover?e=1775566800&v=beta&t=LvN-kkdMAl01ygceJJs9QzJ9g_HvF5J7PLGOZv8JDKY",
+            "industryV2Taxonomy": "Business Consulting and Services",
+            "industry": "Management Consulting",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQFxhhhOBHe8rg/company-background_10000/company-background_10000/0/1732795699876/burns_mcdonnell_india_cover?e=1775566800&v=beta&t=I_bgGVWJqpOafX8S7ElD1Ted1ZmMVPmMjFZpzV6M4_0",
+            "companyId": 623161,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "IN",
+              "city": "Vikhroli West",
+              "geographicArea": "Mumbai",
+              "postalCode": "400079",
+              "line1": "6th Floor, A Block, Godrej IT Park-P2",
+              "line2": "Godrej & Boyce Complex, Pirojshanagar, LBS Marg",
+              "description": "Burns & McDonnell India"
+            },
+            "universalName": "burns-mcdonnell-india"
+          },
+          {
+            "name": "TenneT Germany",
+            "followerCount": 82443,
+            "url": "https://www.linkedin.com/company/tennet-germany/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQHWMK1kGh7n5g/company-logo_200_200/company-logo_200_200/0/1630641676366/tennet_tso_gmbh_logo?e=1776297600&v=beta&t=erqhQoNVuwbB_PW23XrQgjynUSCqfgM0VyU0D4EnrR8",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFNVmuy8JnTiw/image-scale_127_750/image-scale_127_750/0/1736765813097/tennet_germany_cover?e=1775566800&v=beta&t=yo4hi0UBDx2eJpaepHBtreb9INPK7raHPwSZS2HfbwE",
+            "industryV2Taxonomy": "Utilities",
+            "industry": "Utilities",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQG-vsBBGG2ldw/company-background_10000/company-background_10000/0/1736765813255/tennet_germany_cover?e=1775566800&v=beta&t=v9fHP5txvVv08Pztubd5dq9ANtbkZaQqeVuSL_IZBI0",
+            "companyId": 8267764,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "DE",
+              "city": "Bayreuth",
+              "geographicArea": "Bayern",
+              "postalCode": "95448",
+              "line1": "Bernecker Stra\u00dfe 70",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "tennet-germany"
+          },
+          {
+            "name": "Henning Larsen",
+            "followerCount": 214355,
+            "url": "https://www.linkedin.com/company/henning-larsen/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQGGmJ6oq1h_cw/company-logo_200_200/company-logo_200_200/0/1663147022285/henning_larsen_logo?e=1776297600&v=beta&t=zugdRmkeTJM1kxb-CuOLJmp_8PwPKLP_7PMl1nJVnuE",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQFqIUEOjSUOGg/image-scale_127_750/image-scale_127_750/0/1691395758532/henning_larsen_cover?e=1775566800&v=beta&t=nxqmFaZHfYyHQrXv9Iv5BpioHH9zOUEN3zBTV3kD59Y",
+            "industryV2Taxonomy": "Architecture and Planning",
+            "industry": "Architecture & Planning",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQEix0ZlH8ppxA/company-background_10000/company-background_10000/0/1691395758353/henning_larsen_cover?e=1775566800&v=beta&t=xw4c0Xl0izVyHBwLkUJK1bFPxWzRwo-zRhHVU3-hBxc",
+            "companyId": 21947,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "Copenhagen V",
+              "geographicArea": null,
+              "postalCode": "DK-1620",
+              "line1": "Vesterbrogade 76",
+              "line2": null,
+              "description": "Henning Larsen Architects"
+            },
+            "universalName": "henning-larsen"
+          },
+          {
+            "name": "\u00d8rsted",
+            "followerCount": 564356,
+            "url": "https://www.linkedin.com/company/orsted/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQHDyKW_EqQu3g/company-logo_100_100/B4DZovb0J7H4AQ-/0/1761732412420/orsted_logo?e=1776297600&v=beta&t=-o2eJVd2mCfntZFzUkfYKcL9_jEv26DPoEbf-OZrqDU",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQFI44JpPhzd-Q/image-scale_191_1128/B4DZovbWj0GwAk-/0/1761732291238/orsted_cover?e=1775566800&v=beta&t=KgFywEOIw4EPG-umIUfRNacOxp1_97WZM4NDIK64dv8",
+            "industryV2Taxonomy": "Renewable Energy Power Generation",
+            "industry": "Renewables & Environment",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQHl5Dl1ht0r2A/company-background_10000/B4DZovbWj7GQAY-/0/1761732291249/orsted_cover?e=1775566800&v=beta&t=8Eq7qHu-56CitF2rKMVaKYu9vyHeSaJmjjpmffqzE_8",
+            "companyId": 18324710,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "Fredericia",
+              "geographicArea": "Sk\u00e6rb\u00e6k",
+              "postalCode": "7000",
+              "line1": "Kraftv\u00e6rksvej 53",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "orsted"
+          },
+          {
+            "name": "Windpower Monthly",
+            "followerCount": 57565,
+            "url": "https://www.linkedin.com/company/windpower-monthly/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQEaMW2xnDlrAQ/company-logo_200_200/company-logo_200_200/0/1630542051879/windpower_monthly_logo?e=1776297600&v=beta&t=rEmKomd6WFTgqg4biBQ180KGsyESMYlPRsIMb7fV8sI",
+            "industryV2Taxonomy": "Renewable Energy Semiconductor Manufacturing",
+            "industry": "Renewables & Environment",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQGUbO6iwsaDEg/company-background_10000/company-background_10000/0/1584894809108/windpower_monthly_cover?e=1775566800&v=beta&t=g9bS_IvGmB2WDSru7xbVJ27VJ2ENPtlXhYyA_WD1Evo",
+            "companyId": 8571844,
+            "employeeCountRange": {
+              "start": 11,
+              "end": 50
+            },
+            "headquarter": {
+              "country": "GB",
+              "city": "London",
+              "geographicArea": "England",
+              "postalCode": "TW1 3QR",
+              "line1": "Twickenham",
+              "line2": null,
+              "description": null
+            },
+            "universalName": "windpower-monthly"
+          },
+          {
+            "name": "Semco Maritime",
+            "followerCount": 80434,
+            "url": "https://www.linkedin.com/company/semco-maritime/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQEAbTXsFFJqIw/company-logo_200_200/company-logo_200_200/0/1718776046031/semco_maritime_logo?e=1776297600&v=beta&t=Z8agXBaXkENwdqwEOfbWRukE6A26HqWFe4JIRU5cquY",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGJKmHWh9H_fA/image-scale_127_750/image-scale_127_750/0/1718776278915/semco_maritime_cover?e=1775566800&v=beta&t=EydR0l47pqX3hJXfZaJunZx56WC65qifqOtb2MDMU-M",
+            "industryV2Taxonomy": "Renewable Energy Semiconductor Manufacturing",
+            "industry": "Renewables & Environment",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQEk7STlkI_CAA/company-background_10000/company-background_10000/0/1718776278801/semco_maritime_cover?e=1775566800&v=beta&t=XJ3BvWCgX1WNwk9595NnGEG0Vmcf2Rf_lk-nDBDH2uA",
+            "companyId": 32720,
+            "employeeCountRange": {
+              "start": 1001,
+              "end": 5000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "Esbjerg",
+              "geographicArea": null,
+              "postalCode": "6700",
+              "line1": "Esbjerg Brygge 30",
+              "line2": null,
+              "description": "Semco Maritime A/S"
+            },
+            "universalName": "semco-maritime"
+          },
+          {
+            "name": "Sweco Architects Denmark",
+            "followerCount": 31203,
+            "url": "https://www.linkedin.com/company/sweco-architects-denmark/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4E0BAQEE28ZpKGBf0A/company-logo_200_200/company-logo_200_200/0/1682077439986/sweco_architects_denmark_logo?e=1776297600&v=beta&t=-FPZQniaHg7MOU97VifClXqCJh3FbCDwWlvrRaP4iRI",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGaYH39CTFgaw/image-scale_127_750/image-scale_127_750/0/1711446439504/sweco_architects_denmark_cover?e=1775566800&v=beta&t=oiBdNJccLd-CnNNkvOJSwBpmEkGOVgZ5gYQ58sfM2mU",
+            "industryV2Taxonomy": "Architecture and Planning",
+            "industry": "Architecture & Planning",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQGg8g3ySrNMHg/company-background_10000/company-background_10000/0/1711446439413/sweco_architects_denmark_cover?e=1775566800&v=beta&t=F3ddzNvVOhPNtFwE8j5onmgl3vlqIJ5vKd1qR9CdPaM",
+            "companyId": 11825103,
+            "employeeCountRange": {
+              "start": 201,
+              "end": 500
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "K\u00f8benhavn",
+              "geographicArea": "Hovedstaden",
+              "postalCode": "2300",
+              "line1": "\u00d8restads Boulevard 41",
+              "line2": null,
+              "description": "Hovedkvarter"
+            },
+            "universalName": "sweco-architects-denmark"
+          },
+          {
+            "name": "Vestas",
+            "followerCount": 1255956,
+            "url": "https://www.linkedin.com/company/vestas/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQE8iQ4qOFTRxg/company-logo_200_200/company-logo_200_200/0/1630565627290/vestas_logo?e=1776297600&v=beta&t=7FVkEvmQk-oBxJt9JneBcbKp3GjJn60Y1BwEEyXLuf4",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4E3DAQHSBr8agr_86A/image-scale_191_1128/B4EZu8Snr1IkAc-/0/1768390557466/vestas_cover?e=1775566800&v=beta&t=QVH0gT8J6NwDWF4A9Yrip4LE0CkuCkdiLkWF8ttQAVc",
+            "industryV2Taxonomy": "Renewable Energy Equipment Manufacturing",
+            "industry": "Mechanical Or Industrial Engineering",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4E1BAQFK-gACy6kRlQ/company-background_400/B4EZu8SnryIkAY-/0/1768390557747/vestas_cover?e=1775566800&v=beta&t=54eD6WNW3B1QdwV4DCvmMaAmq2_7NmV5EqAcJTYHKxE",
+            "companyId": 4275,
+            "employeeCountRange": {
+              "start": 10001,
+              "end": null
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "Aarhus",
+              "geographicArea": null,
+              "postalCode": "8200",
+              "line1": "Hedeager 42",
+              "line2": null,
+              "description": "Vestas HQ"
+            },
+            "universalName": "vestas"
+          },
+          {
+            "name": "Per Aarsleff A/S",
+            "followerCount": 54725,
+            "url": "https://www.linkedin.com/company/per-aarsleff-as/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4E0BAQFgi3eFaM8CMg/company-logo_200_200/company-logo_200_200/0/1630604955203/per_aarsleff_as_logo?e=1776297600&v=beta&t=FRdSlk-Gj4PTGFuCDeXDRnlEpxPGnXCJEFb3HSqfNu0",
+            "croppedCoverImage": "https://media.licdn.com/dms/image/v2/D4D3DAQGytLIImQcddg/image-scale_127_750/image-scale_127_750/0/1718699510318/per_aarsleff_as_cover?e=1775566800&v=beta&t=NdJgkFgsLcfEyr0MQ6OYV6J_LQgaD9xsHUVDz10TrjA",
+            "industryV2Taxonomy": "Construction",
+            "industry": "Construction",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/D4D1BAQEKTMcTO26NOw/company-background_10000/company-background_10000/0/1718699510136/per_aarsleff_as_cover?e=1775566800&v=beta&t=53WfEdiqd9xbq7065W3Rfnwo9Ha5E2XGFz5vin_1IS4",
+            "companyId": 17243,
+            "employeeCountRange": {
+              "start": 5001,
+              "end": 10000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "DK-8260 Viby J",
+              "geographicArea": null,
+              "postalCode": null,
+              "line1": "Hasselager All\u00e9 5",
+              "line2": null,
+              "description": "Main office"
+            },
+            "universalName": "per-aarsleff-as"
+          },
+          {
+            "name": "Aarsleff Rail A/S",
+            "followerCount": 13465,
+            "url": "https://www.linkedin.com/company/aarsleffrail/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/D4D0BAQFKOB5aOUfXqQ/company-logo_200_200/company-logo_200_200/0/1718796031010/aarsleffrail_logo?e=1776297600&v=beta&t=dxyVznewVoMtwrndTOVEWro2X3V1DymhEoa7J3b58Dc",
+            "industryV2Taxonomy": "Construction",
+            "industry": "Construction",
+            "originalCoverImage": "https://media.licdn.com/dms/image/v2/C4E1BAQHP2FoCdbeZtA/company-background_10000/company-background_10000/0/1619635450727/aarsleffrail_cover?e=1775566800&v=beta&t=U00NJOBGcx7w3wVUmexC23mdLlePBC2Y6omxqxpuAjw",
+            "companyId": 10855144,
+            "employeeCountRange": {
+              "start": 501,
+              "end": 1000
+            },
+            "headquarter": {
+              "country": "DK",
+              "city": "Viby J.",
+              "geographicArea": "DK",
+              "postalCode": "8260",
+              "line1": "Hasselager All\u00e9 5",
+              "line2": null,
+              "description": "Aarsleff Rail A/S"
+            },
+            "universalName": "aarsleffrail"
+          }
+        ],
+        "affiliatedOrganizationsByEmployees": [
+          {
+            "name": "EYP Mission Critical Facilities, Part of Ramboll",
+            "followerCount": 3267,
+            "url": "https://www.linkedin.com/company/eypmcf/",
+            "logoResolutionResult": "https://media.licdn.com/dms/image/v2/C4D0BAQF_0eY3j5vbUw/company-logo_200_200/company-logo_200_200/0/1643638483988/eypmcf_logo?e=1776297600&v=beta&t=dg0O0srbOH0HYEDTQSXj1_2iZj0xnZBQOegcd5CuVOg",
+            "industryV2Taxonomy": "Design Services",
+            "industry": "Design",
+            "companyId": 27197763
+          }
+        ],
+        "affiliatedOrganizationsByShowcases": [],
+        "locations": [
+          {
+            "country": "FI",
+            "city": "Espoo",
+            "geographicArea": null,
+            "postalCode": "FI-02601",
+            "line1": "PL 25, Itsehallintokuja 3",
+            "line2": null,
+            "description": "Ramboll Espoo (Helsinki)",
+            "headquarter": false,
+            "localizedName": "Espoo",
+            "latitude": 60.169453,
+            "longitude": 24.940481
+          },
+          {
+            "country": "GB",
+            "city": "Waterloo (London)",
+            "geographicArea": "England",
+            "postalCode": "SE1 8BF",
+            "line1": "240 Blackfriars Road",
+            "line2": null,
+            "description": "Ramboll London",
+            "headquarter": false,
+            "localizedName": "Waterloo (london)",
+            "latitude": 51.51649,
+            "longitude": -0.128427
+          },
+          {
+            "country": "DE",
+            "city": "Hamburg",
+            "geographicArea": "HH",
+            "postalCode": "22763",
+            "line1": "J\u00fcrgen-T\u00f6pfer Stra\u00dfe 48",
+            "line2": null,
+            "description": "Ramboll Hamburg",
+            "headquarter": false,
+            "localizedName": "Hamburg",
+            "latitude": 53.63128,
+            "longitude": 10.006442
+          },
+          {
+            "country": "DE",
+            "city": "Munich",
+            "geographicArea": "Bavaria",
+            "postalCode": "81541",
+            "line1": "Werinherstra\u00dfe 79",
+            "line2": null,
+            "description": "Ramboll Munich",
+            "headquarter": false,
+            "localizedName": "Munich",
+            "latitude": 48.140095,
+            "longitude": 11.555375
+          },
+          {
+            "country": "NO",
+            "city": "Oslo",
+            "geographicArea": null,
+            "postalCode": null,
+            "line1": "Visiting address: Harbitzall\u00e9en 5, NO-0275",
+            "line2": "Postal address: P.O. Box 427 Sk\u00f8yen, NO-0213",
+            "description": "Ramboll Oslo",
+            "headquarter": false,
+            "localizedName": "Oslo",
+            "latitude": 59.911903,
+            "longitude": 10.741144
+          },
+          {
+            "country": "SG",
+            "city": "Singapore",
+            "geographicArea": "Central Region",
+            "postalCode": "069920",
+            "line1": "100 Amoy Street",
+            "line2": null,
+            "description": "Singapore Ramboll and Henning Larsen",
+            "headquarter": false,
+            "localizedName": "Singapore",
+            "latitude": 1.2894365,
+            "longitude": 103.84998
+          },
+          {
+            "country": "US",
+            "city": "Arlington",
+            "geographicArea": null,
+            "postalCode": "22203",
+            "line1": "4245 North Fairfax Drive",
+            "line2": null,
+            "description": "Ramboll Arlington",
+            "headquarter": false,
+            "localizedName": "Arlington",
+            "latitude": 38.873062,
+            "longitude": -77.007385
+          },
+          {
+            "country": "SE",
+            "city": "Stockholm",
+            "geographicArea": "Stockholm County",
+            "postalCode": "118 51",
+            "line1": "Krukmakargatan 21",
+            "line2": null,
+            "description": "Ramboll Stockholm",
+            "headquarter": false,
+            "localizedName": "Stockholm",
+            "latitude": 59.34777,
+            "longitude": 18.088993
+          },
+          {
+            "country": "IN",
+            "city": "Gurugram ",
+            "geographicArea": null,
+            "postalCode": "122002",
+            "line1": "Level 17, Tower B, Building No 5 DLF",
+            "line2": null,
+            "description": "Ramboll India",
+            "headquarter": false,
+            "localizedName": "Gurugram ",
+            "latitude": 28.587835,
+            "longitude": 77.16324
+          },
+          {
+            "country": "DK",
+            "city": "Copenhagen",
+            "geographicArea": ".",
+            "postalCode": "DK-2300",
+            "line1": "Hannemanns All\u00e9 53",
+            "line2": null,
+            "description": "Ramboll Head Office",
+            "headquarter": true,
+            "localizedName": "Copenhagen",
+            "latitude": 55.70241,
+            "longitude": 12.571545
+          }
+        ]
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/ramboll",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Architecture, engineering and consultancy - Ramboll",
+    "description": "# Architecture, engineering and consultancy - Ramboll Ramboll is a global engineering, architecture and consultancy company with more than 18,000 experts that create sustainable solutions for governments and companies all over the world. We combine insights with the power to drive positive change to our clients, in the form of ideas that can be realised and implemented. **We call it: Bright ideas. Sustainable change.**",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://ramboll.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://ramboll.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ramboll.com",
+    "source_urls": [
+      "https://ramboll.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Architecture, engineering and consultancy - Ramboll",
+    "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across Buildings, Transport, Energy, Environment & Health, Water, Management Consulting and Architecture & Landscape. Across the world, Ramboll combines local experience with a global knowledge base to create sustainable cities and societies. We combine insights with the power to drive positive change for our clients, in the form of ideas that can be realised and implemented. We call it: Bright ideas. Sustainable change. Visit us at ramboll.com",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://ramboll.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ramboll",
+    "source_url": "https://ramboll.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ramboll.com",
+    "source_urls": [
+      "https://ramboll.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/ramboll"
+    },
+    "description": {
+      "before": "# Architecture, engineering and consultancy - Ramboll Ramboll is a global engineering, architecture and consultancy company with more than 18,000 experts that create sustainable solutions for governments and companies all over the world. We combine insights with the power to drive positive change to our clients, in the form of ideas that can be realised and implemented. **We call it: Bright ideas. Sustainable change.**",
+      "after": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across Buildings, Transport, Energy, Environment & Health, Water, Management Consulting and Architecture & Landscape. Across the world, Ramboll combines local experience with a global knowledge base to create sustainable cities and societies. We combine insights with the power to drive positive change for our clients, in the form of ideas that can be realised and implemented. We call it: Bright ideas. Sustainable change. Visit us at ramboll.com"
+    }
+  }
+}

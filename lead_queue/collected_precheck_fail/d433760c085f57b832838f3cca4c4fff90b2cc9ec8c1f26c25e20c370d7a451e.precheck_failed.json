@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, role, country, city",
+  "business": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+  "lead": {
+    "business": "Houston Accounting, Texas CPA, Business Services Firm - PKF Texas",
+    "full_name": "Pkf Texas",
+    "first": "Pkf",
+    "last": "Texas",
+    "email": "",
+    "role": "",
+    "website": "https://pkftexas.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/pkf-texas-4282b5a6",
+    "company_linkedin": "https://www.linkedin.com/company/klichs-llp",
+    "source_url": "https://pkftexas.com",
+    "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients in numerous industries, including but not limited to, financial, automotive, electronic, technology, distribution and real estate. KLiCHS was established around a core of dedicated professionals with deep industry knowledge and experience that have come together to collaborate and lend their extensive know-how to serve your business with a one-stop-shop.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

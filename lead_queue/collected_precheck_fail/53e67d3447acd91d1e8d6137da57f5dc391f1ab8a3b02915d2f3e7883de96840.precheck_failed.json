@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "The Company Check | Empower Your Business with Data-Driven Insights",
+  "lead": {
+    "business": "The Company Check | Empower Your Business with Data-Driven Insights",
+    "full_name": "Judy Yan",
+    "first": "Judy",
+    "last": "Yan",
+    "email": "",
+    "role": "Partner",
+    "website": "https://thecompanycheck.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/judy-yan-4a39a962",
+    "company_linkedin": "https://www.linkedin.com/company/datainsightsconsulting",
+    "source_url": "https://thecompanycheck.com",
+    "description": "Data Insights Consulting LLC uses your data to create actionable insights. We create easy-to-understand visualizations to improve your business. While most companies have been collecting data for over a decade - turning that data into business insights can be a resource heavy process. Instead of just providing you with more abstract data we empower you to make data driven decisions that improve your operations. No Fluff, No BS, Only Insights.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

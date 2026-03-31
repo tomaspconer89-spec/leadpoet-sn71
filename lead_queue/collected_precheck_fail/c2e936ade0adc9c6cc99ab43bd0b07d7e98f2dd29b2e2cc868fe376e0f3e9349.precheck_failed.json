@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: last, email",
+  "business": "ExtraSlice",
+  "lead": {
+    "business": "ExtraSlice",
+    "full_name": "Gotcarson",
+    "first": "Gotcarson",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://extraslice.com",
+    "industry": "Real Estate",
+    "sub_industry": "Flexible office space solutions",
+    "country": "USA",
+    "state": "WA",
+    "city": "Bellevue",
+    "linkedin": "https://www.linkedin.com/in/gotcarson",
+    "company_linkedin": "https://www.linkedin.com/company/extraslice",
+    "source_url": "https://extraslice.com",
+    "description": "Workspace as a Service providing flexible, enterprise-ready office spaces.",
+    "employee_count": "11-50",
+    "hq_country": "USA",
+    "hq_state": "WA",
+    "hq_city": "Bellevue",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

@@ -1,0 +1,696 @@
+{
+  "saved_at_utc": "2026-03-31T01:14:48.766256+00:00",
+  "queue_key": "790ad8875abcd65c6fb06c2ba37a8322049fe8fd5deb472d78e12591a5cc858f",
+  "business": "Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+      "Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity linkedin company",
+      "site:linkedin.com/company pinewoodfs.com",
+      "site:linkedin.com/in \"Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity\" founder",
+      "site:linkedin.com/in \"Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "KPIVjdRKmUI7O2L",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://www.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We help high-growth companies scale by integrating finance, accounting & technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "We help high-growth companies scale"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://il.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "Integrating Finance, Accounting & Technology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Invisionate, LLC",
+            "url": "https://www.linkedin.com/company/invisionate-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Invisionate, LLC",
+            "description": "The firm connects high growth Companies seeking to increase revenue and raise capital with strategic partners and investors. As part of professional services we\u00a0...Read more",
+            "emphasizedKeywords": [
+              "firm",
+              "high growth Companies",
+              "capital",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "1892 Capital Partners LLC",
+            "url": "https://www.linkedin.com/company/1892capital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a01892 Capital Partners LLC",
+            "description": "We provide flexible bridge, construction, and transitional financing for income-producing and value-add real estate projects. With more than 30 years of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "financing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Solera Holdings, LLC.",
+            "url": "https://www.linkedin.com/company/solera",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Solera Holdings, LLC.",
+            "description": "Solera is the global leader in vehicle lifecycle management software-as-a-service, data, and services. Through four lines of business \u2013 vehicle claims, vehicle\u00a0...Read more",
+            "emphasizedKeywords": [
+              "services",
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "233.5K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Cohesity",
+            "url": "https://www.linkedin.com/company/cohesity",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cohesity",
+            "description": "A modern platform for the AI era. Our mission at Cohesity is simple: to protect, secure, and provide insights into the world's data.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "436.2K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Saxton Bampfylde",
+            "url": "https://uk.linkedin.com/company/saxton-bampfylde",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Saxton Bampfylde",
+            "description": "Saxton Bampfylde is an employee owned business, founded in 1986 and is one of the world's leading independent executive search firms and leadership\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business",
+              "firms"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "13.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Sky Valley Advisors",
+            "url": "https://www.linkedin.com/company/skyvalleyadvisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sky Valley Advisors",
+            "description": "Sky Valley Advisors helps growth companies raise capital, navigate strategic decisions, and prepare for IPO or exit. Startup companies face a number of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "helps growth companies raise capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9 followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Invisionate, LLC",
+            "url": "https://it.linkedin.com/company/invisionate-llc?trk=public_profile_topcard_current_company",
+            "displayedUrl": "https://it.linkedin.com \u203a company",
+            "description": "The firm connects high growth Companies seeking to increase revenue and raise capital with strategic partners and investors. As part of professional services we\u00a0...",
+            "emphasizedKeywords": [
+              "firm",
+              "high growth Companies",
+              "capital",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "BEOBACHT LIMITED",
+            "url": "https://www.linkedin.com/company/beobacht-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BEOBACHT LIMITED",
+            "description": "Business Consulting and Services. Protecting your interests, ensuring you get the best outcomes by de-risking your investments & maximising your returns.Read more",
+            "emphasizedKeywords": [
+              "Business Consulting and Services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/MqYnTTAzDlE0Oogof/records/KPIVjdRKmUI7O2L-0.html?signature=Yz1ixSJpjBpU3GerEAyN"
+      },
+      {
+        "#debug": {
+          "requestId": "WnHS34fBh6eOFCg",
+          "url": "http://www.google.com/search?q=Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity linkedin company",
+          "url": "http://www.google.com/search?q=Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Pinewood+Consulting%2C+LLC+-+Finance+for+High+Growth+Companies+and+Private+Equity+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://www.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We help high-growth companies scale by integrating finance, accounting & technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "We help high-growth companies scale"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://il.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "Integrating Finance, Accounting & Technology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://tn.linkedin.com/company/pinewood-consulting-llc?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "Integrating Finance, Accounting & Technology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Chad Pavel - CFO and M&A For Growing Companies",
+            "url": "https://www.linkedin.com/in/chadpavel",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Chad Pavel",
+            "description": "Pinewood helps high-growth companies and their VC/PE investors with finance, accounting, and M&A support. Recent engagements include:Read more",
+            "emphasizedKeywords": [
+              "Pinewood helps high-growth companies and their VC/PE investors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Pinewood Consulting - Overview, News & Similar companies",
+            "url": "https://www.zoominfo.com/c/pinewood-consulting-llc/435994436",
+            "displayedUrl": "https://www.zoominfo.com \u203a pinewood-consulting-llc",
+            "description": "Pinewood Consulting, LLC specializes in finance, accounting, and financial technology advisory services tailored for high growth companies, private equity,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pinewood Consulting",
+              "LLC",
+              "finance",
+              "financial",
+              "high growth companies",
+              "private equity"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Pinewood Consulting, LLC - Finance for High Growth ...",
+            "url": "https://pinewoodfs.com/",
+            "displayedUrl": "https://pinewoodfs.com",
+            "description": "Pinewood provides finance, accounting, and financial technology advisory for high growth companies, private equity, and CFO offices.",
+            "emphasizedKeywords": [
+              "Pinewood provides finance, accounting, and financial technology advisory"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Business Financing",
+            "url": "https://pinewoodfs.com/funding",
+            "displayedUrl": "https://pinewoodfs.com \u203a funding",
+            "description": "Our venture capital consultants hail from top-tier investment banks, Big 4 accounting firms, and global consulting firms and specialize in positioning\u00a0...Read more",
+            "emphasizedKeywords": [
+              "capital consultants",
+              "top",
+              "investment",
+              "firms",
+              "consulting firms"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Pinewood Consulting SRL",
+            "url": "https://www.linkedin.com/company/pinewood-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting SRL",
+            "description": "Pinewood Consulting provides Consulting, Business Development, Sales/Presales, Delivery, Maintenance and Local Support assisting companies seeking rapid\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pinewood Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Blog",
+            "url": "https://pinewoodfs.com/blog",
+            "displayedUrl": "https://pinewoodfs.com \u203a blog",
+            "description": "Top Three Quick Fixes for Growth Company Financials \u00b7 Read More \u00b7 DOE Announces $28 Million to Advance and Deploy Hydropower Technology&nbsp;.Read more",
+            "date": "2025-05-17T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Top",
+              "Growth Company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Chad Pavel's Post",
+            "url": "https://www.linkedin.com/posts/chadpavel_case-study-pe-backed-dealership-acquisition-activity-6942118297005928449-_e2f",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "Pinewood Consulting, LLC helps a private-equity backed auto dealership acquisition firm with accounting, financial systems, and reporting to\u00a0...",
+            "emphasizedKeywords": [
+              "Pinewood Consulting",
+              "LLC",
+              "private",
+              "equity",
+              "firm",
+              "financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "aiOverview": {
+          "type": "live",
+          "content": "Pinewood Consulting, LLC is a Stamford, Connecticut-based firm founded in 2017 that provides fractional CFO, accounting, and M&A advisory services for high-growth companies, founders, and PE/VC sponsors. They specialize in scaling businesses through tailored financial technology, forecasting, and on-demand CPA support, often servicing automotive and SaaS startups.Key Services & Focus:Company Details:You can find their company profile and professional updates on their LinkedIn page.",
+          "sources": []
+        },
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/4HRCGlgGOKZfXjUgC/records/WnHS34fBh6eOFCg-0.html?signature=7nzG4ODcfP0RMCaZwRET"
+      },
+      {
+        "#debug": {
+          "requestId": "5Y52cZP0ei76HJY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pinewoodfs.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pinewoodfs.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company pinewoodfs.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pinewoodfs.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+pinewoodfs.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://www.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We help high-growth companies scale by integrating finance, accounting & technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "We help high-growth companies scale"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://il.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "\u05d0\u05ea\u05e8 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8: https://pinewoodfs.com. \u05e7\u05d9\u05e9\u05d5\u05e8 \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9 \u05e2\u05d1\u05d5\u05e8 Pinewood Consulting, LLC ; \u05ea\u05e2\u05e9\u05d9\u05d9\u05d4: Accounting ; \u05d2\u05d5\u05d3\u05dc \u05d4\u05d7\u05d1\u05e8\u05d4: 2-10 \u05e2\u05d5\u05d1\u05d3\u05d9\u05dd ; \u05de\u05e9\u05e8\u05d3\u05d9\u05dd \u05e8\u05d0\u05e9\u05d9\u05d9\u05dd: Stamford,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "\u05d0\u05ea\u05e8 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8: https://pinewoodfs.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://pe.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "Sitio web: https://pinewoodfs.com. Enlace externo para Pinewood Consulting, LLC ; Sector: Contabilidad ; Tama\u00f1o de la empresa: De 2 a 10 empleados ; Sede: Stamford\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Sitio web: https://pinewoodfs.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://eg.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "https://eg.linkedin.com \u203a company",
+            "description": "\u0646\u0628\u0630\u0629 \u0639\u0646\u0627 ; \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: https://pinewoodfs.com. \u0631\u0627\u0628\u0637 \u062e\u0627\u0631\u062c\u064a \u0644\u0640 Pinewood Consulting, LLC ; \u0627\u0644\u0645\u062c\u0627\u0644 \u0627\u0644\u0645\u0647\u0646\u064a: \u0627\u0644\u0645\u062d\u0627\u0633\u0628\u0629 ; \u062d\u062c\u0645 \u0627\u0644\u0634\u0631\u0643\u0629: \u0662 - \u0661\u0660 \u0645\u0648\u0638\u0641\u064a\u0646 ; \u0627\u0644\u0645\u0642\u0631 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u00a0...",
+            "emphasizedKeywords": [
+              "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: https://pinewoodfs.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://id.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "https://id.linkedin.com \u203a company",
+            "description": "Website: https://pinewoodfs.com. Link eksternal untuk Pinewood Consulting, LLC ; Industri: Akuntansi ; Ukuran perusahaan: 2-10 karyawan ; Kantor Pusat: Stamford,\u00a0...",
+            "emphasizedKeywords": [
+              "Website: https://pinewoodfs.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://cn.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "\u5173\u4e8e\u6211\u4eec ; \u7f51\u7ad9: https://pinewoodfs.com. Pinewood Consulting, LLC\u7684\u5916\u90e8\u94fe\u63a5 ; \u6240\u5c5e\u884c\u4e1a: \u4f1a\u8ba1 ; \u89c4\u6a21: 2-10 \u4eba ; \u603b\u90e8: Stamford\uff0cConnecticut ; \u7c7b\u578b: \u79c1\u4eba\u6301\u80a1.",
+            "emphasizedKeywords": [
+              "\u7f51\u7ad9: https://pinewoodfs.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://dk.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pinewood Consulting, LLC",
+            "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.Read more",
+            "emphasizedKeywords": [
+              "Integrating Finance, Accounting & Technology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Pinewood Consulting, LLC",
+            "url": "https://fr.linkedin.com/company/pinewood-consulting-llc",
+            "displayedUrl": "https://fr.linkedin.com \u203a company",
+            "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.",
+            "emphasizedKeywords": [
+              "Integrating Finance, Accounting & Technology"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/hQrKLh2w2FNeYWLmi/records/5Y52cZP0ei76HJY-0.html?signature=nHD7iu9KTClq7JsmR5Ii"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+      "https://www.linkedin.com/company/pinewood-consulting-llc",
+      "https://il.linkedin.com/company/pinewood-consulting-llc",
+      "https://www.linkedin.com/company/invisionate-llc",
+      "https://www.linkedin.com/company/1892capital",
+      "https://www.linkedin.com/company/solera",
+      "https://www.linkedin.com/company/cohesity",
+      "https://uk.linkedin.com/company/saxton-bampfylde",
+      "https://www.linkedin.com/company/skyvalleyadvisors",
+      "https://it.linkedin.com/company/invisionate-llc?trk=public_profile_topcard_current_company",
+      "https://www.linkedin.com/company/beobacht-limited",
+      "https://www.linkedin.com/company/pinewood-consulting-llc",
+      "https://il.linkedin.com/company/pinewood-consulting-llc",
+      "https://tn.linkedin.com/company/pinewood-consulting-llc?trk=ppro_cprof",
+      "https://www.linkedin.com/in/chadpavel",
+      "https://www.linkedin.com/company/pinewood-consulting",
+      "https://www.linkedin.com/posts/chadpavel_case-study-pe-backed-dealership-acquisition-activity-6942118297005928449-_e2f",
+      "site:linkedin.com/company pinewoodfs.com",
+      "https://www.linkedin.com/company/pinewood-consulting-llc",
+      "https://il.linkedin.com/company/pinewood-consulting-llc",
+      "https://pe.linkedin.com/company/pinewood-consulting-llc",
+      "https://eg.linkedin.com/company/pinewood-consulting-llc",
+      "https://id.linkedin.com/company/pinewood-consulting-llc",
+      "https://cn.linkedin.com/company/pinewood-consulting-llc",
+      "https://dk.linkedin.com/company/pinewood-consulting-llc",
+      "https://fr.linkedin.com/company/pinewood-consulting-llc"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/pinewood-consulting-llc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/chadpavel",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+    "description": "# Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity ![](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1747623223871-NOW35P75F5BMJGS318N4/unsplash-image-G9i_plbfDgk.jpg) ## **CPAs To Help You Grow** _Pinewood Provides Bookkeeping, Accounting, Taxes, and CFO Services for Business Owners, Entrepreneurs, and Investors_ ## **Our Services** Business owners and investors rely on Pinewood\u2019s CPAs & advisors for all aspects of finance, tax, accounting, and business succession planning.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://pinewoodfs.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://pinewoodfs.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "pinewoodfs.com",
+    "source_urls": [
+      "https://pinewoodfs.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity",
+    "description": "# Pinewood Consulting, LLC - Finance for High Growth Companies and Private Equity ![](https://images.squarespace-cdn.com/content/v1/5bbb6068840b16a82382374f/1747623223871-NOW35P75F5BMJGS318N4/unsplash-image-G9i_plbfDgk.jpg) ## **CPAs To Help You Grow** _Pinewood Provides Bookkeeping, Accounting, Taxes, and CFO Services for Business Owners, Entrepreneurs, and Investors_ ## **Our Services** Business owners and investors rely on Pinewood\u2019s CPAs & advisors for all aspects of finance, tax, accounting, and business succession planning.",
+    "full_name": "Chadpavel",
+    "first": "Chadpavel",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://pinewoodfs.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "https://www.linkedin.com/in/chadpavel",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/pinewood-consulting-llc",
+    "source_url": "https://pinewoodfs.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "pinewoodfs.com",
+    "source_urls": [
+      "https://pinewoodfs.com"
+    ],
+    "title_raw": "",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://pinewoodfs.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/pinewood-consulting-llc"
+    },
+    "first": {
+      "before": "",
+      "after": "Chadpavel"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Chadpavel"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/chadpavel"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://pinewoodfs.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    }
+  }
+}

@@ -1,0 +1,208 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","# Strategic Startup Advisors – Catalyzing founder success
+
+![](https://exforddemo.files.wordpress.com/2019/08/tom-winckels-i7olrdm9yiw-unsplash.jpg)
+
+“A goal without a plan is just a wish.”
+
+## Our Services
+
+We help founders:
+
+*   Create **financial models**
+*   Determine **business trajectory**
+*   Conduct **market analysis**
+*   And **much, much more!**
+
+## Plan for success together
+
+Identify and clarify your product, vision for success, target market, financial projections, marketing strategy, and so much more
+
+![](https://strategicstartupadvisors.com/wp-content/uploads/2022/12/ssalogo1.png?w=689)","","https://strategicstartupadvisors.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Strategic Startup Advisors – Catalyzing founder success","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","strategicstartupadvisors.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/15","0.8333","llm","heuristic_no_credit","587987085fa521c3c61c6da78d96bc5e9213d850e2bd6f86790a09bb5315cea9","0.0","0.3","82e3aa5f-b3bb-5c14-92f7-b669437ee4b0","","2026-03-31T12:41:17.198176Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/strategicstartupadvisors.com.json","/tmp/tmp3ibrk77h/evidence/domain/strategicstartupadvisors.com.json","","2026-06-29T12:41:17.198183Z","startup advisory services founder contact","2026-03-31T12:39:54.627104Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T12:41:17.215608Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp3ibrk77h/evidence/domain/maynardnexsen.com.json","","2026-06-29T12:41:17.215610Z","business consulting firm advisor email","2026-03-31T12:39:57.896229Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-03-31T12:41:17.265138Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmp3ibrk77h/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-29T12:41:17.265141Z","business consulting firm advisor email","2026-03-31T12:39:58.861114Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T12:41:17.278594Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp3ibrk77h/evidence/domain/findemails.com.json","","2026-06-29T12:41:17.278596Z","SaaS startup CEO contact information","2026-03-31T12:40:02.147699Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T12:41:17.291818Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp3ibrk77h/evidence/domain/vaam.io.json","","2026-06-29T12:41:17.291820Z","SaaS startup CEO contact information","2026-03-31T12:40:02.791317Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T12:41:17.305006Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmp3ibrk77h/evidence/domain/bcg.com.json","","2026-06-29T12:41:17.305009Z","venture consulting firm partner email","2026-03-31T12:40:08.864615Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Expert Venture Capital Consulting Services for Startups
+
+## We help the best companies raise and scale
+
+The advisory firm behind $3B+ in funding and 20+ exits 
+
+*   Early-stage to Series D+ across 90+ industries
+*   Niche investor-grade expertise
+*   Purpose-built for Tier-1 founders
+
+## Our work in press
+
+As remote working keeps rolling, Oyster raises $59M Series D at $1.2B valuation
+
+A startup is transforming sales and marketing automation by raising  
+$12.5M in a seed round
+
+Tapcheck raises $225M  to reinvent payroll
+
+Solana ecosystem’s DePIN project secures $1M angel round funding
+
+They Teamed Up On Databricks and perplexity. Now They’re Launching Their Own $150M fund
+
+Klevu & Searchspring form Athos Commerce, a leading AI-powered  
+e-comm optimization platform
+
+Saudi Arabia-based healthtech Aumet, has raised a $7M pre-Series A funding round
+
+Saudi Arabia Made Over  
+$100M From Its Nintendo Stock Sale
+
+Landbase raises $30M Series A  
+led by Ashton Kutcher’s Sound Ventures
+
+Aman launches Aman Interiors with limited edition furniture collections
+
+A Nottingham, UK-based orthobiologics company, raised  
+€9.2M in funding
+
+![decorative](https://waveup.com/_next/image/?url=%2Fimages%2F2025%2F02%2FFrame-47701-1.webp&w=3840&q=75&dpl=dpl_EeD1F4My2j7A8qBer7JkACRNG2DX)
+
+## Fundraising has never  
+been more challenging than in 2026 
+
+Investor replies are at the lowest levels ever
+
+AI has created more competition, in every category
+
+Products are getting commoditized, fast – no one buys tech moat anymore
+
+Execution and scalable GTM is critical
+
+### ChatGPT narratives and strategies simply don’t resonate
+
+Fundraising today requires deep, relevant market insight, unique positioning and best-in-class story to win over investors.  
+This is exactly where Waveup excels.
+
+## We deliver work that converts
+
+We help to create industry-leading materials and draft strategies that fast track the growth & capital journey
+
+TRACTION
+
+630M+
+
+raised by our clients in 2025
+
+EARLY STAGE SUPPORT
+
+$49M 
+
+raised across 15 pre-seed  
+&  seed rounds in 2025
+
+LATE STAGE RESULTS
+
+50+
+
+Series A+ and late stage rounds
+
+EXITS
+
+20+
+
+M&A exits supported by Waveup team
+
+## Expert support from fundraising, to growth and exit
+
+## Real results, real impact
+
+## $4M pre-seed deck
+
+Short pitch deck and longer business plan that were used to secure $4M funding round
+
+*   Revamped story + deck look & feel
+*   Used to secure capital in weeks
+*   Loved by investors
+
+17 slides deck
+
+60+ slides business plan
+
+9 days  
+to deliver
+
+[VIEW Slides](https://waveup.com/#modal-case-1)
+
+## $77M RE project
+
+Luxury hotel presentation used to pitch private investors and government bodies for funding
+
+*   Elevated branding from scratch
+*   Compelling project presentation
+*   Data-driven storytelling
+
+21 slides
+
+2 weeks
+
+$77Mraised in 3 months 
+
+[VIEW Slides](https://waveup.com/#modal-case-2)
+
+## $30M fund deck
+
+Fundraising materials (CIM + pitch deck) that helped to secure capital from LPs to launch Fund 1
+
+*   Deep dive & research on the opportunity
+*   Storytelling & content targeted at LPs
+*   Captivating professional design
+
+15 slides deck
+
+63 pages CIM
+
+30+investors engaged
+
+[VIEW Slides](https://waveup.com/#modal-case-3)
+
+[See our portfolio](https://waveup.com/portfolio/)
+
+## Our clients are financed by the best in the market
+
+## FAQ
+
+We provide consulting services across three core areas:
+
+• Fundraising. We help high-growth teams prepare for early stage to Series A-D+ rounds by building pitch decks, financial models, and investor narratives;  
+• Business growth. We develop go-to-market blueprints and help with market entry and sales planning;  
+• M&A support. We craft CIMs, define valuation logic, and position your business for buyers.
+
+That being said, every project is unique. We normally engage with one client on 4-5+ projects over the years, and help across multiple different areas of growth and business development – from marketing materials, to website development and investor communications.
+
+Yes, we do. While our main focus is Series A+ companies with real traction, we also work with pre-seed and seed startups if we believe the business has solid potential.
+
+Over the years, we’ve supported over 150 pre-seed rounds (up to $5M) and 100+ successful seed raises ($1M-$10M+) across different verticals. For early-stage teams, we don’t just help with the story and pitch deck; we also run a VC readiness assessment and help prepare for investor conversations, positioning, and next steps.
+
+Absolutely. Our sweet spot is high-growth companies raising capital at Series A to Series D+ stage. We have worked on multiple large late-stage rounds up to $150M+ in the technology, deep-tech, healthcare and biotech space among others. What differentiates us is our unique experience of how to craft a compelling story, fast execution as well as in-depth knowledge of the expectations around growth, retention and GTM metrics expected at various stages.
+
+Yes, we have extensive experience in the M&A space as two of our partners come from investment banking background, including JP Morgan and Lazard. Over the years, we supported multiple businesses on $10M-$100M+ transactions, both on sell and buy side. Our core expertise lies in drafting compelling CIMs, completing business valuations and helping in preparing for due diligence and management presentations.
+
+We’re not brokers, so we generally don’t engage in investor outreach. We do work closely with 120+ VC funds globally, and if you have the right metrics that fit our investor profile, we’re happy to make warm intros. However, these are mostly relevant for revenue-generating companies in Series A+ rounds.
+
+Absolutely! While most of our work is with VC-backed businesses, in the past, we successfully developed materials for non-profits.
+
+Best to reach out to us directly so we can understand what you’re working on and advise on scope and pricing.
+
+We have unique expertise across various verticals, industries, and geographies and an unmatched success track record. We see and work on more deals than anyone else in the market – $3B+ raised, 50+ Series A and late-stage rounds, and 20+ M&A exits, just to name a few.
+
+Our results speak for themselves: founders usually stay with us for 4-5 rounds and engage our team on multiple various projects over the years.
+
+At Waveup, we offer more than pitch deck services.
+
+While most pitch deck agencies focus on design – you give them the content, and they make it look good – we go much deeper.
+
+We build the full investment case – from the market logic and investor narrative to the financial model and the deck itself. So, we work on content, strategy, and, of course, award-winning design that VCs / investors love and that prioritizes the right messages and the right story (proven across multiple successful raises).
+
+Beyond fundraising, we can also help you grow or prepare for a sale, whatever stage you’re at.
+
+We deliver similar level of expertise and service, but with a different approach. We see management consultant firms excelling in the areas of market research and in-depth strategic blueprints. Our advantage lies in powerful storytelling specifically for investment / M&A purposes. We also invest a lot of time in working closely with your team and coaching them along the way.
+
+Actually, quite a lot. Our services aren’t limited to fundraising. We can offer growth support (go-to-market, market entry, and sales materials) and M&A consulting if you’re thinking about an exit. We can also help to elevate your marketing materials, design or website – whatever is needed to grow one’s business.","","https://waveup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Expert Venture Capital Consulting Services for Startups","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","waveup.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/18","0.6944","llm","heuristic_no_credit","730f926925d0daa543f8e758bde0df0dcf30d6d80c5b4c42a7955644a645c9c5","0.0","0.3","b873bdd0-0e5e-5b56-b74d-5134cae65deb","","2026-03-31T12:42:54.157215Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/waveup.com.json","/tmp/tmp3ibrk77h/evidence/domain/waveup.com.json","","2026-06-29T12:42:54.157222Z","venture consulting firm partner email","2026-03-31T12:40:09.529263Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
