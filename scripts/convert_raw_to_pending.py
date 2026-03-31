@@ -684,10 +684,17 @@ def search_urls(query: str) -> List[str]:
     return urls
 
 
-def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
+def enrich_linkedin_fields(
+    lead: Dict[str, Any],
+    *,
+    enrich_debug: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
     """
     Fill missing LinkedIn fields and opportunistically enrich other lead fields
     (name/role/location/email/website) from Apify search evidence.
+
+    If ``enrich_debug`` is a dict, it is filled with Apify raw search items and
+    query metadata for offline inspection (used by collect_leads_precheck_only).
     """
     business = (lead.get("business") or "").strip()
     website = (lead.get("website") or "").strip()
@@ -818,6 +825,24 @@ def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
             str(lead.get("industry") or ""),
             str(lead.get("sub_industry") or ""),
             str(lead.get("website") or ""),
+        )
+
+    if enrich_debug is not None:
+        enrich_debug.clear()
+        enrich_debug.update(
+            {
+                "provider_primary": "apify_google_search",
+                "queries": list(all_queries),
+                "apify_items": apify_items,
+                "apify_item_count": len(apify_items),
+                "apify_linkedin_urls": list(apify_linkedin_urls),
+                "resolved_company_linkedin": lead.get("company_linkedin"),
+                "resolved_person_linkedin": lead.get("linkedin"),
+                "use_scrapingdog_enrichment": os.getenv(
+                    "USE_SCRAPINGDOG_ENRICHMENT", "0"
+                ).strip()
+                == "1",
+            }
         )
 
     return lead

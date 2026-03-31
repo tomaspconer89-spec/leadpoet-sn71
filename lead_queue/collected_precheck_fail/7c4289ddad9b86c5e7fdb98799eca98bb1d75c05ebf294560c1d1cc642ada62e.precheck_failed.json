@@ -11,11 +11,17 @@
     "website": "https://vtaadvisors.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/johnleonardcpa",
     "company_linkedin": "https://www.linkedin.com/company/vtaadvisors",
     "source_url": "https://vtaadvisors.com",
     "description": "[](https://vtaadvisors.com/) Close Terms of Service Effective: February 7, 2022 Thanks for using our services! These terms of service (**\"Terms\"**) cover your use and access to our services, client software and websites (**\"Services\"**). We use CountingWorks, Inc. as our technology platform to enable us to provide our services in a secure environment. By using our Services, you\u2019re agreeing to be bound by these Terms, and our Privacy Policy. If you\u2019re using our Services for an organization, you\u2019re agreeing to these Terms on behalf of that organization.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -23,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   },
   "queue_bucket": "D_low_confidence_hold"

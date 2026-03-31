@@ -1,0 +1,692 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T00:10:01.630401Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpyx88spmo/evidence/domain/cansulta.com.json","","2026-06-29T00:10:01.630405Z","startup advisory services founder contact","2026-03-31T00:09:32.216836Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://lbmc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","lbmc.com","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","lbmc.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.9","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/16","0.7812","llm","heuristic_no_credit","525244666b4f3d03cc5cc67a4012d8ad1e415ccc35638d44bf5950b06abb5703","0.0","0.3","f2484495-3859-5151-a44d-058610e15592","","2026-03-31T00:10:01.643486Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/lbmc.com.json","/tmp/tmpyx88spmo/evidence/domain/lbmc.com.json","","2026-06-29T00:10:01.643488Z","business consulting firm advisor email","2026-03-31T00:09:36.035906Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T00:10:01.656382Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpyx88spmo/evidence/domain/maynardnexsen.com.json","","2026-06-29T00:10:01.656384Z","business consulting firm advisor email","2026-03-31T00:09:36.693827Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T00:10:01.669141Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpyx88spmo/evidence/domain/vaam.io.json","","2026-06-29T00:10:01.669143Z","SaaS startup CEO contact information","2026-03-31T00:09:40.314472Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T00:10:01.681786Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpyx88spmo/evidence/domain/findemails.com.json","","2026-06-29T00:10:01.681788Z","SaaS startup CEO contact information","2026-03-31T00:09:41.571275Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+[ ![SaaS Alliance](https://www.saasalliance.io/content/images/size/w600/2024/04/SAAS-FULL-LOGO-PRIMARY--ON-WHITE--2.svg) ](https://www.saasalliance.io/)
+[Log in](https://www.saasalliance.io/signin/) [Membership](https://www.saasalliance.io/signup/)
+Membership
+##### What is included?
+All you need to succeed
+###### [Templates & frameworks](https://www.saasalliance.io/saas-templates-and-frameworks/)###### [OnDemand videos](https://www.saasalliance.io/ondemand-saas-hub/)###### [Exclusive content](https://www.saasalliance.io/tag/membership-content/)###### [Mentorship program Coming soon!](https://www.saasalliance.io/)
+##### Membership plans
+Pick your path
+###### [Individual membership](https://www.saasalliance.io/signup/)###### [Team membership](https://www.saasalliance.io/teams/)###### [Membership plan updates](https://www.saasalliance.io/fosaas-membership-plan-updates/)
+##### Take a peek inside
+And see what all the fuss is about
+###### [Membership demo](https://www.saasalliance.io/membership-demo/)###### [Customer success strategy template](https://www.saasalliance.io/customer-success-strategy-template/)###### [Competitor SWOT analysis template](https://www.saasalliance.io/competitor-swot-analysis-template/)###### [Membership release notes](https://www.saasalliance.io/fosaas-membership-plan-updates/)###### [Membership taster pack New!](https://www.saasalliance.io/try-before-you-buy-saas-alliance-membership-taster-pack/)
+Resources
+##### Categories
+Content by topic
+###### [Customer Success](https://www.saasalliance.io/tag/customer-success/)###### [Product Management](https://www.saasalliance.io/tag/product-management/)###### [Finance & Investment](https://www.saasalliance.io/tag/finance-investment/)###### [Marketing](https://www.saasalliance.io/tag/marketing/)###### [Sales](https://www.saasalliance.io/tag/sales/)###### [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion/)###### [Data & Insights](https://www.saasalliance.io/tag/data-insights/)###### [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy/)###### [Operations](https://www.saasalliance.io/tag/operations/)
+##### Content hub
+All the best SaaS hacks
+###### [Articles](https://www.saasalliance.io/articles/)###### [Podcasts](https://alliance.ghost.io/podcasts/?filter=podcast-filter-community-fosaas)###### [SaaS Stream](https://www.saasalliance.io/saasstream/)###### [Webinars](https://www.saasalliance.io/panel-discussion-turning-metrics-into-money/)
+##### Research & reports
+Leading SaaS insights
+###### [What is SaaS?](https://www.saasalliance.io/what-is-saas/)###### [State of SaaS Leadership Report](https://www.saasalliance.io/state-of-saas-leadership-2024/)###### [Captivate Investors: Fund your SaaS Startup](https://www.saasalliance.io/pitch-perfect-captivate-investors-and-fund-your-saas-startup/)###### [The Future of SaaS](https://www.saasalliance.io/the-future-of-saas-report/)###### [Tools of Choice 2023](https://www.saasalliance.io/saas-tools-of-choice-2023-report/)###### [Ones to Watch in SaaS 2023](https://www.saasalliance.io/introducing-the-ones-to-watch-in-saas-2023/)###### [SaaS Benchmark Metrics Report](https://www.saasalliance.io/saas-benchmark-metrics-report-2023/)###### [SaaS and AI playbook](https://www.saasalliance.io/ai-unleashed-transforming-saas-growth-strategies/)
+##### Best of the rest
+Highlights from elsewhere
+###### [Drive your startup to growth stage](https://www.saasalliance.io/5-steps-to-drive-your-company-from-early-to-growth-stage/)###### [The ISO 27001 Bible](https://www.saasalliance.io/the-iso-27001-bible-ebook/)###### [Subscribe to SaaSfix Sign up to the newsletter](https://www.saasalliance.io/get-your-saasfix/)###### [Get involved](https://www.saasalliance.io/get-involved/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)
+Certifications
+##### Get Certified
+In essential SaaS & leadership skills
+###### [GTM Blueprint For defined, repeatable and scalable GTM success](https://www.gotomarketalliance.com/go-to-market-blueprint/)
+Events
+##### Digital
+Coming soon to a screen near you
+###### [Why SaaS folks 💜 our events](https://www.saasalliance.io/why-saas-folks-love-our-events/)
+##### In-person
+Events all over the world
+##### Catch-up
+Never miss a beat
+###### [SaaS Metrics Summit | June 2023](https://www.saasalliance.io/saas-metrics-summit-june-2023/)###### [Future of SaaS Festival | April 2023](https://www.saasalliance.io/future-of-saas-ondemand/)###### [Women in SaaS Summit | July 2022](https://www.futureofsaas.io/women-in-saas-summit-2/)###### [Future of SaaS Festival | June 2022](https://www.futureofsaas.io/future-of-saas-festival-3/)###### [SaaS Metrics Summit | April 2022](https://www.futureofsaas.io/saas-metrics-summit-2/)###### [Future of SaaS Festival Vol. 4](https://www.saasalliance.io/future-of-saas-festival-sept-2021/)
+Community
+##### Network
+Connect and collaborate
+##### Learn
+Level up your career
+###### [SaaS Alliance LinkedIn](https://www.linkedin.com/school/future-of-saas/)
+About
+##### The basics
+Our journey & how to reach us
+###### [Mission](https://www.saasalliance.io/about/)###### [Partner with us](https://www.saasalliance.io/partner/)###### [Speaking opportunities](https://www.saasalliance.io/speaking-opportunities-with-the-future-of-saas/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)###### [Contact](https://www.saasalliance.io/contact/)
+##### Our people
+The foundation of SaaS Alliance
+###### [SaaS Alliance team](https://www.saasalliance.io/the-future-of-saas-team/)
+[What's new?](https://www.saasalliance.io/)
+[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+x close 
+Nothing to display...
+or view by:
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_left.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_Home_Page_Hero_Image_%20\(1\).png?v=f0ae9a70e2)
+#  Level-up your   
+SaaS growth strategies. 
+A growing, global collective of leaders  
+inspiring growth and inclusivity in SaaS. 
+[ RESOURCES ](https://www.saasalliance.io/articles/) [ MEMBERSHIP ](https://www.saasalliance.io/signup/)
+##  From SaaS startups to world-famous brands, you’ll be in good company, with innovative organizations like... 
+![](https://www.saasalliance.io/assets/img/whitelogos/Klarna.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Zoom.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Google.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Slack.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/hubspot.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Microsoft.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Oracle.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Cisco.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Drift.png?v=f0ae9a70e2)
+Level-up with SaaS Alliance membership. 
+From product marketing to customer success, tap into the tried and tested, business-wide strategies employed at some of the biggest and brightest companies and grasp every element of the SaaS landscape. 
+[ UNLOCK INVALUABLE CONTENT ](https://www.saasalliance.io/signup/)
+New on the blog. 
+![How to calculate and improve your SaaS magic number metric](https://www.saasalliance.io/content/images/size/w800/2024/08/SaaS_Sharing_Article_Images_Doodles-Text_--2-.png)
+[ Data & Insights How to calculate and improve your SaaS magic number metric Read more  ](https://www.saasalliance.io/how-to-calculate-and-improve-your-saas-magic-number-metric/)
+Members-only
+[DE&I](https://futureofsaas.io/tag/diversity-equity-inclusion/) [Leadership & Strategy ](https://futureofsaas.io/tag/leadership-strategy) [Finance & Investment](https://futureofsaas.io/tag/finance-investment/) [Customer success](https://futureofsaas.io/tag/customer-success) [Product Management](https://futureofsaas.io/tag/product-management) [Marketing](https://futureofsaas.io/tag/Marketing/)
+[ ![How ecosystems can make or break your SaaS business](https://www.saasalliance.io/content/images/size/w800/2025/02/social---How-ecosystems-can-make-or-break-your-SaaS-business-2.png) ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+Members-only
+[ Positioning How ecosystems can make or break your SaaS business Discover how ecosystems shape business success. Learn key lessons from Kodak, Apple & CVS to build a thriving ecosystem strategy.... ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+  * Jay Nakagawa 
+[ ![Jay Nakagawa](https://www.saasalliance.io/content/images/size/w100/2025/02/1612478877705.jpeg) ](https://www.saasalliance.io/author/jay/)
+
+12 min read
+[ ![Why do customers buy from a SaaS that knows them?](https://www.saasalliance.io/content/images/size/w800/2025/02/SaaS_Website_Article_Images_Doodles--3-.png) ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+Members-only
+[ Marketing Why do customers buy from a SaaS that knows them? Better engagement leads to increased revenue and lasting customer loyalty, meaning personalization is the foundation of modern marketing.... ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+  * Khondoker Asim Arman 
+[ ![Khondoker Asim Arman](https://www.saasalliance.io/content/images/size/w100/2023/07/Khondoker.jpeg) ](https://www.saasalliance.io/author/khondoker/)
+
+8 min read
+[ ![The power of perception: Communicating product value](https://www.saasalliance.io/content/images/size/w800/2025/02/main---The-power-of-perception-Communicating-product-value.png) ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+Members-only
+## [The power of perception: Communicating product value How Krisp improved retention by making its invisible value clear—using habit loops & psychology... ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+  * Karapet Gyumjibashyan 
+[ ![Karapet Gyumjibashyan](https://www.saasalliance.io/content/images/size/w100/2025/02/1676833565406-1.jpeg) ](https://www.saasalliance.io/author/karapet/)
+
+9 min read
+[ ![Positioning for SaaS companies: Why it matters more than ever](https://www.saasalliance.io/content/images/size/w800/2025/02/saas-change-management-org-change.png) ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+Members-only
+[ Positioning Positioning for SaaS companies: Why it matters more than ever What happens when your positioning isn't working? The signs are usually there if you know where to look. This article will help you find them.... ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+  * Kate Kucherenko 
+[ ![Kate Kucherenko](https://www.saasalliance.io/content/images/size/w100/2025/02/1718642399999.jpeg) ](https://www.saasalliance.io/author/kate-kucherenko/)
+
+12 min read
+[ ![Cultural integration in onboarding: 6 strategies to engage and retain top talent](https://www.saasalliance.io/content/images/size/w800/2025/01/main---SaaS-Cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent.png) ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+Members-only
+[ Customer Success & Onboarding Cultural integration in onboarding: 6 strategies to engage and retain top talent Discover how cultural integration can transform onboarding into a powerful tool for employee engagement, retention, and success.... ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+  * Marco Galvan 
+[ ![Marco Galvan](https://www.saasalliance.io/content/images/size/w100/2025/01/1579228274060.jpeg) ](https://www.saasalliance.io/author/marco/)
+
+8 min read
+[ ![How to run a successful  OKR review](https://www.saasalliance.io/content/images/size/w800/2025/01/main---top-saas-budgeting-tools-startup.png) ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+Members-only
+[ Growth & Metrics How to run a successful OKR review Learn how to streamline meetings, track progress, and drive success of OKR reviews with actionable insights and best practices.... ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+  * Dhruv Mehta 
+[ ![Dhruv Mehta](https://www.saasalliance.io/content/images/size/w100/2022/08/_GM87348--1-.jpg) ](https://www.saasalliance.io/author/dhruv/)
+
+6 min read
+[ SEE ALL POSTS ](https://www.saasalliance.io/articles)
+Get inspired. 
+![](https://www.saasalliance.io/assets/img/sales/newsletter.png?v=f0ae9a70e2)
+Newsletter 
+The best of the best  
+delivered directly   
+to your inbox.  
+
+[ SIGN ME UP ](https://www.saasalliance.io/get-your-saasfix/)
+![](https://www.saasalliance.io/assets/img/sales/reports.png?v=f0ae9a70e2)
+Reports 
+Catch up on the latest   
+industry trends   
+and insights.   
+
+[ GAIN INSIGHTS ](https://www.saasalliance.io/tag/saas-reports/)
+![](https://www.saasalliance.io/assets/img/sales/Podcast.png?v=f0ae9a70e2)
+Podcasts 
+Interviews with   
+industry experts from   
+all functions of SaaS.   
+
+[ TUNE IN ](https://futureofsaas.io/saascast/)
+![](https://www.saasalliance.io/assets/img/sales/saasstream.png?v=f0ae9a70e2)
+SaaS Stream 
+Selection of our favorite talks from our premier events,   
+OnDemand at your leisure.  
+
+[ WATCH NOW ](https://futureofsaas.io/saasstream/)
+Our latest report. 
+Want to stay ahead of the curve? Get the lowdown on the latest game-changing developments, from machine learning to low-code development, to vertical strategies, all straight from the leading minds in SaaS. 
+[ UNLOCK INVALUABLE INSIGHTS ](https://www.saasalliance.io/the-future-of-saas-report/)
+![](https://www.saasalliance.io/assets/img/sales/FoSaaS_Future_of_SaaS_Report_2022_Mockup_3.png?v=f0ae9a70e2)
+Sponsors & Partners 
+![](https://www.saasalliance.io/assets/img/whitelogos/SMonkey.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/monday-logo-x2.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/kompyte.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Highspot.png?v=f0ae9a70e2)
+[ PARTNER WITH US ](https://futureofsaas.io/partner/)
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_left.svg?v=f0ae9a70e2)
+Sign up to the   
+SaaSfix newsletter. 
+Keep track of all the latest   
+industry happenings with  
+our newsletter—straight to your inbox  
+once a month. 
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_middle.svg?v=f0ae9a70e2)
+Subscribe now
+  
+SEND ![](https://www.saasalliance.io/assets/img/sales/arrow.png?v=f0ae9a70e2)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+[ ![](https://www.saasalliance.io/assets/img/sales/SAAS.png?v=f0ae9a70e2) ](https://www.saasalliance.io/)
+SaaS Alliance was founded in early 2020 with a mission of creating a one-stop-shop of resources, content, and learning materials for those in SaaS. 
+  
+**Let’s drive innovation, evolution and growth. Together.**
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas/) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+ABOUT 
+  * [Contribute](https://www.saasalliance.io/contributor-guide)
+  * [Media Guide](https://www.saasalliance.io/partner)
+  * [Ambassadors](https://www.saasalliance.io/meet-the-ambassadors)
+  * [Mission](https://www.saasalliance.io/about)
+  * [Privacy Policy](https://www.saasalliance.io/privacy-policy)
+  * [Terms of Service](https://www.saasalliance.io/terms-and-conditions)
+
+
+RESOURCES 
+  * [Podcasts](https://www.saasalliance.io/saascast)
+  * [Reports](https://futureofsaas.io/tag/saas-reports/)
+
+
+GENERAL 
+  * [Events](https://www.saasalliance.io/events)
+  * [Membership](https://www.saasalliance.io/signup/)
+
+
+Learn 
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+","","https://saasalliance.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Level-up your SaaS growth strategies | SaaS Alliance","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","saasalliance.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","7666b2775807d4bc6c7c0a1ff486895ec4c035865f9bc011b9adb83614822d81","0.0","0.3","3074d9df-f6a4-52ae-846a-3354ab2c3c82","","2026-03-31T00:10:01.694851Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/saasalliance.io.json","/tmp/tmpyx88spmo/evidence/domain/saasalliance.io.json","","2026-06-29T00:10:01.694853Z","SaaS startup CEO contact information","2026-03-31T00:09:42.520727Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Go to home page main-logo main-logo ](https://www.insightpartners.com "home")
+  * [Why Insight?](https://www.insightpartners.com/onsite/)
+  * [Portfolio](https://www.insightpartners.com/portfolio/)
+  * [Team](https://www.insightpartners.com/team/)
+  * [Ideas](https://www.insightpartners.com/ideas/)
+  * [Events](https://www.insightpartners.com/events/)
+  * [Sectors](https://www.insightpartners.com/sectors/)
+
+
+[ Go Login ](https://go-scale.com/ "Go Login")
+main-logo-solid
+  * [Why Insight?](https://www.insightpartners.com/onsite/)
+  * [Portfolio](https://www.insightpartners.com/portfolio/)
+  * [Team](https://www.insightpartners.com/team/)
+  * [Ideas](https://www.insightpartners.com/ideas/)
+  * [Events](https://www.insightpartners.com/events/)
+  * [Sectors](https://www.insightpartners.com/sectors/)
+
+
+[ Go Login ](https://go-scale.com/ "Go Login")
+[ twitter ](https://twitter.com/insightpartners "Twitter") [ linkedin ](https://www.linkedin.com/company/insight--partners "LinkedIn") [ instagram ](https://www.instagram.com/insightpartnersnyc/ "Instagram")
+©2026 Insight Partners
+# Scale Up,  
+Take Off
+# Scaling the future of AI.
+arrow-right Previous slide arrow-left Next slide
+close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/09/writer-full-tile-1.jpg)
+Series A
+The leading AI writing platform for teams 
+May Habib is challenging a $13B incumbent 
+Series A / ScaleUp:AI Partner SAN FRANCISCO, CA
+Read Full Article 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/wiz_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2022/03/divvy_pianokey_g-scaled.jpg)
+Series A Definitive Agreement
+From Series A to $32B Acquisition 
+A Landmark Journey 
+Series A / Series C / Acq. Agreement Palo Alto, California
+Read More 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/dotmatics_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/04/dotmatics_piano_56-scaled.jpg)
+Private Round Definitive Agreement
+Healthcare 
+Digital Innovation in Science 
+Private Round / Acq. Agreement Boston, MA
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/09/crewai_pianokey_tile3.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/09/crew-ai-full-tile-1.jpg)
+Series A
+CrewAI is a leading AI multi-agent platform 
+Behind the Investment: meet João Moura 
+Series A / ScaleUp:AI Partner New York, NY
+Read Full Article 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/monday_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2023/01/gradienta_monday.jpeg)
+Series B IPO
+Business Operations 
+Rebranding Monday.com  A New Channel Partner Program  From Growth to IPO 
+Series B / Series C / Series D / IPO Tel Aviv, Israel
+ScaleUp: monday.com 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2022/03/piano_key_divvy54.png) close
+Series B Acquired
+Fintech 
+Transforming Corporate Expense Tracking  Scaling Operations  Acquisition by Bill.com 
+Series B / Series C / Series D / Acquired Draper, UT
+close
+Series A Series C
+Healthtech 
+First Mental Health Unicorn 
+Series A / Series B / Series C San Francisco, CA
+close
+Series C Acquired
+Driving Digital Innovation in the Circular Economy 
+Unifying Sales and Marketing  Expanding Through Strategic Acquisitions  Transitioning to a SaaS Model 
+Series C / Series D / Acquisition Limerick, Ireland
+close
+Series C Acquired
+Enterprise Architecture 
+Accelerating Sales Growth  Building the A-Team  Channel Partner Strategy 
+Series C / Series D / Acquisition Bonn, Germany
+close
+Series D IPO
+Cybersecurity 
+Autonomous Cybersecurity  Insight Onsite - Talent and Marketing  Scaling to IPO 
+Series D / Series E / Series F / IPO Mountain View, CA
+ScaleUp: SentinelOne 
+close
+Autonomous Cybersecurity
+SentinelOne delivers autonomous endpoint protection through a single agent that successfully prevents, detects, responds, and hunts attacks across all major vectors.
+In 2019 we led SentinelOne’s $120M Series D round.
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+close
+Insight Onsite - Talent and Marketing
+Our Onsite team helped accelerate SentinelOne’s meteoric growth through several deep engagements. Our Talent Center of Excellence helped the team add their CSO and participated in active CMO interview cycles, later working with their CMO to prepare for an IPO.
+Onsite’s Talent team sourced SentinelOne’s new VP of Demand Generation to further GTM growth. Prior to this hire, Insight Onsite’s Marketing advisors helped bridge the GTM gap by providing multi-layer support for SentinelOne’s Account-Based (ABX) programs.
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+close
+Scaling to IPO
+Since our initial investment in 2019, SentinelOne has become the defining XDR platform in the market. The company launched strategic products in Ranger IoT and acquired Scalyr which was then rebranded as DataSet – an enterprise data platform.
+In 2021 we were thrilled to help SentinelOne prepare for and celebrate their IPO: NYSE: S
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+1 / 
+1 / 
+##  We scale ambition at every stage 
+For over **30 years** , Insight Partners has helped leaders turn their vision into reality faster and more seamlessly than would be possible alone.
+As the trusted partner for more than 800 transformative companies, our deeply experienced software operators, and our flexible capital across every stage of growth, provides everything leaders need to fly faster and further.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+We know what it takes to scale, to be small, and to build an enduring business.
+This is why founders choose Insight as a long-term partner. Starting with product-market fit, we bring our operating excellence, our talent and customer networks and our capital to move companies from early to growth stage. We have the team, data and expertise to ensure founders lay the right foundation for accelerated success – and we can support your future capital needs at every stage of your scale up journey.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+We’ve chartered this course before and have the engine you need to truly take off.
+Tailor-made for companies at your stage and with deep expertise across every function of a software business, we fill your growth gaps to ensure you scale seamlessly. Our Onsite team of software experts, who’ve walked in your shoes, give you competitive advantage. We’re by your side as you outpace the competition and realize your company’s full growth potential.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+Sophisticated and complex, your needs require nuanced support to drive impact.
+With the industry’s most experienced late-stage software experts, entrepreneurs and seasoned executive teams have a powerful partner in Insight Partners.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+About Us  Early  Growth  Late Stage 
+Join our mailing list  ## [ Learn how to unlock your ScaleUp potential  ](https://www.insightpartners.com/#footer-subscribe-form)
+## Get our latest research and report
+Receive strategies, stories, analysis, invites and more straight to your inbox.
+Loading...
+## Thank You!
+The form was submitted successfully.
+  * [About Us](https://www.insightpartners.com/about-us/)
+    * [Contact Us](https://www.insightpartners.com/contact/)
+    * [Join Insight](https://www.insightpartners.com/join-insight/)
+  * [Media](https://www.insightpartners.com/about-us/media/)
+    * [Newsroom](https://www.insightpartners.com/ideas/search/?tax=idea_types&term=news,press)
+    * [LP Portal](https://insightpartners.altareturn.com/)
+  * [Portfolio Jobs](https://jobs.insightpartners.com/jobs)
+    * [For Enterprise](https://www.insightpartners.com/insight-partners-for-enterprise/)
+    * [Responsibility](https://www.insightpartners.com/responsibility/)
+
+
+[ twitter ](https://twitter.com/insightpartners "Twitter") [ linkedin ](https://www.linkedin.com/company/insight--partners "LinkedIn") [ instagram ](https://www.instagram.com/insightpartnersnyc/ "Instagram") footer-banner-logo
+*The portfolio companies and portfolio company executives presented are examples of portfolio companies that Insight has worked with to assist the company achieve business and capital raising goals and are not intended to be a representative sample of all portfolio companies. The statements by portfolio company executives are intended to highlight their experiences working with Insight as an investor in their companies. The experiences of other portfolio companies and portfolio company executives may differ from the experiences presented. Insight did not provide compensation to the portfolio company executives or portfolio companies in connection with the statements provided by such executives. There is no guarantee that Insight’s work with other portfolio companies will produce similar results to those presented.
+© 2026 Insight Partners / [ Terms of Use ](https://www.insightpartners.com/terms-of-use/ "Terms of Use") / [ Privacy Policy ](https://www.insightpartners.com/privacy-policy/ "Privacy Policy") / [ Legal Disclaimer ](https://www.insightpartners.com/legal-disclaimer/ "Legal Disclaimer") / [ Statement Disclaimer ](https://www.insightpartners.com/statement-disclaimer/ "Statement Disclaimer") / [ Regulatory Notices ](https://www.insightpartners.com/regulatory-notices/ "Regulatory Notices") / [ CCPA Notice ](https://www.insightpartners.com/ccpa-notice/ "CCPA Notice") / Cookie Settings
+footer-banner-logo
+","","https://insightpartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Insight Partners | We Scale Ambition at Every Stage","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","insightpartners.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","14bfd80f26193bd7a380f574e0ef2c71fcc30a31ed4d577d58d22cb9237bc13c","0.0","0.3","209d5c7d-0fa3-5523-a4b0-0f2860a93333","","2026-03-31T00:10:01.707847Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/insightpartners.com.json","/tmp/tmpyx88spmo/evidence/domain/insightpartners.com.json","","2026-06-29T00:10:01.707849Z","venture consulting firm partner email","2026-03-31T00:09:47.667561Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Office of the President ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home)
+[ Money Museum ](https://www.chicagofed.org/education/money-museum/index)
+[![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?h=33&w=570&sc_lang=en&hash=4497DBA67FD97304EAC3580002229ED2)](https://www.chicagofed.org/ "Home")
+[![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?sc_lang=en&hash=7A0BD35555EFBD4BC75901A5B7BC7BD5)](https://www.chicagofed.org/ "Home")
+Search
+☰ Menu 
+![Search](https://www.chicagofed.org/~/media/admin/images/header/search.svg?h=24&w=38&la=en)Search 
+  *     * 
+
+  * [ Banking ](https://www.chicagofed.org/#collapseBankingMobile)
+    * [ Banking ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/index) [Banking Resources](https://www.chicagofed.org/#collapseBankingResourcesMobile)
+      * [ Banking Resources ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/banker-resources/index)
+      * [ Federal Reserve Discount Window ](https://www.frbdiscountwindow.org/)
+      * [ Federal Reserve Bank Services ](https://www.frbservices.org/index.html)
+      * [ Regulatory Applications And Membership Information ](https://www.chicagofed.org/banking/banker-resources/regulatory-applications-and-membership-information-preview)
+      * [ Banker Training And Resources ](https://www.chicagofed.org/banking/banker-resources/tools-resources-data)
+      * [ Supervision And Regulation ](https://www.chicagofed.org/utilities/about-us/supervision-and-regulation/index)
+[Consumer Resources](https://www.chicagofed.org/#collapseConsumerResourcesMobile)
+      * [ Consumer Resources ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/consumer-banking/index)
+      * [ Consumer Financial Protection Bureau ](http://www.consumerfinance.gov/)
+      * [ Consumer Information ](https://www.chicagofed.org/banking/consumer-banking/consumer-information)
+      * [ Federal Reserve Consumer Help ](https://federalreserveconsumerhelp.gov/?District=7)
+[ Payments ](https://www.chicagofed.org/markets/payments-policy/payments-policy-group)
+  * [ Research ](https://www.chicagofed.org/#collapseResearchMobile)
+    * [ Research ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/index) [Our People](https://www.chicagofed.org/#collapseOurPeopleMobile)
+      * [Research Teams](https://www.chicagofed.org/#collapseResearchTeamsMobile)
+        * [ Research Teams ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/research-teams)
+        * [ Leadership ](https://www.chicagofed.org/people/teams/research-leadership/index)
+        * [ Financial Economics ](https://www.chicagofed.org/people/teams/financial-economics/index)
+        * [ Macroeconomics ](https://www.chicagofed.org/people/teams/macroeconomics/index)
+        * [ Microeconomics ](https://www.chicagofed.org/people/teams/microeconomics/index)
+        * [ Community Development ](https://www.chicagofed.org/people/teams/community-development/index)
+        * [ Regional Analysis and Engagement ](https://www.chicagofed.org/people/teams/regional-analysis-and-engagement/index)
+        * [ Regional Research ](https://www.chicagofed.org/people/teams/regional-research/index)
+        * [ Financial Markets Group ](https://www.chicagofed.org/people/teams/financial-markets-group/index)
+        * [ Policy and Communications ](https://www.chicagofed.org/people/teams/policy-and-communications/index)
+        * [ Economic Mobility Project ](https://www.chicagofed.org/research/content-areas/mobility/team)
+      * [ Economists ](https://www.chicagofed.org/research/economists)
+      * [ Policy Professionals ](https://www.chicagofed.org/research/policy-professionals)
+      * [ Resident And Visiting Scholars ](https://www.chicagofed.org/research/resident-and-visiting-scholars)
+      * [ Research Assistants ](https://www.chicagofed.org/research/research-assistants)
+[Economic Data](https://www.chicagofed.org/#collapseEconomicDataMobile)
+      * [ Economic Data ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/data/index)
+      * [ Beige Book ](https://www.chicagofed.org/research/data/beige-book/current-data)
+      * [ Chicago Fed Advance Retail Trade Summary (CARTS) ](https://www.chicagofed.org/publications/carts/index)
+      * [ Chicago Fed Labor Market Indicators ](https://www.chicagofed.org/research/data/chicago-fed-labor-market-indicators/latest-release)
+      * [ Chicago Fed National Activity Index (CFNAI) ](https://www.chicagofed.org/research/data/cfnai/current-data)
+      * [ Chicago Fed Survey Of Economic Conditions (CFSEC) ](https://www.chicagofed.org/research/data/cfsec/current-data)
+      * [ Chicago Fed Survey: Agricultural Conditions ](https://www.chicagofed.org/research/data/ag-conditions/index)
+      * [ National Financial Conditions Index (NFCI) ](https://www.chicagofed.org/research/data/nfci/current-data)
+      * [ Economic Data Release Calendar ](https://www.chicagofed.org/research/data/data-release-calendar)
+[Publications](https://www.chicagofed.org/#collapsePublicationsMobile)
+      * [ Publications ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/publications/index)
+      * [ AgLetter ](https://www.chicagofed.org/publications/agletter/index)
+      * [ Chicago Fed Insights ](https://www.chicagofed.org/publications/chicago-fed-insights/index)
+      * [ Chicago Fed Letter ](https://www.chicagofed.org/publications/chicago-fed-letter/index)
+      * [ Economic Perspectives ](https://www.chicagofed.org/publications/economic-perspectives/index)
+      * [ Working Papers ](https://www.chicagofed.org/publications/working-papers/index)
+      * [ Archives ](https://www.chicagofed.org/publications/archives)
+[Specialty Research](https://www.chicagofed.org/#collapseSpecialtyResearchMobile)
+      * [ Specialty Research ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/specialty-research)
+      * [ Economic Mobility ](https://www.chicagofed.org/research/content-areas/mobility/about)
+      * [ Lead Service Line Replacement ](https://www.chicagofed.org/research/content-areas/lead/about)
+      * [ Spotlight on Childcare and the Labor Market ](https://www.chicagofed.org/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market)
+[ Agricultural Sector ](https://www.chicagofed.org/research/content-areas/agriculture/index) [ Automotive Industry ](https://www.chicagofed.org/research/content-areas/automotive/index) [ Insurance Initiative ](https://www.chicagofed.org/research/content-areas/insurance-initiative/index) [ Financial Markets ](https://www.chicagofed.org/people/teams/financial-markets-group/index)
+  * [ Events ](https://www.chicagofed.org/#collapseEventsMobile)
+    * [ Events ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/events/index) [ Upcoming Events ](https://www.chicagofed.org/events/upcoming-events) [ Past Events ](https://www.chicagofed.org/events/past-events) [ President Goolsbee ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking)
+  * [ Education ](https://www.chicagofed.org/#collapseEducationMobile)
+    * [ Education ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/education/index) [ Educator Resources ](https://www.chicagofed.org/education/educator) [ Fed Challenge ](https://www.chicagofed.org/education/fed-challenge/college-fed-challenge) [ Chicago Money Museum ](https://www.chicagofed.org/education/money-museum/index) [ Detroit Visitor Center ](https://www.chicagofed.org/education/money-museum/branch-visitor-center/index)
+  * [ Region & Communities ](https://www.chicagofed.org/#collapseRegionMobile)
+    * [ Region & Communities ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/region/index) [ Regional Economy ](https://www.chicagofed.org/region/regional-economy) [ Community Development ](https://www.chicagofed.org/region/community-development) [ Local Economic Snapshot ](https://www.chicagofed.org/snapshot#/seventh_federal_reserve_district) [ Spotlight on Childcare and the Labor Market ](https://www.chicagofed.org/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market)
+  * [ Careers ](https://www.chicagofed.org/#collapseCareersMobile)
+    * [ Careers ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/Careers) [ Search Jobs ](https://rb.wd5.myworkdayjobs.com/FRS?hiringCompany=7186c32a743f01e4caeeb8caaf01430c) [ Areas Of Work ](https://www.chicagofed.org/careers/areasofwork) [ Benefits ](https://www.chicagofed.org/careers/thebenefits)
+  * [ About Us ](https://www.chicagofed.org/#collapseAboutUsMobile)
+    * [ About Us ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/utilities/about-us/index) [ Board Of Directors ](https://www.chicagofed.org/people/board-of-directors/index) [People](https://www.chicagofed.org/#collapsePeopleMobile)
+      * [ Board Members ](https://www.chicagofed.org/people/board-of-directors/members)
+      * [ President Austan D. Goolsbee ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home)
+      * [ Senior Executives ](https://www.chicagofed.org/people/teams/senior-executives)
+      * [ Economists ](https://www.chicagofed.org/research/economists)
+      * [ Policy Professionals ](https://www.chicagofed.org/research/policy-professionals)
+      * [ Academic Advisory Council ](https://www.chicagofed.org/people/academic-advisory-council)
+      * [ Financial Stability Advisory Council ](https://www.chicagofed.org/people/financial-stability-council)
+      * [ Speakers Bureau ](https://www.chicagofed.org/people/speakers-bureau)
+      * [ Chicago Fed Advisory Council ](https://www.chicagofed.org/people/advisory-council)
+      * [ Community Depository Institutions Advisory Council ](https://www.chicagofed.org/people/cdiac)
+[ Our History ](https://www.chicagofed.org/utilities/about-us/about-our-history) [ Financial Statements ](https://www.chicagofed.org/publications/annual-report/index) [ OMWI ](https://www.chicagofed.org/utilities/about-us/omwi-reports) [ Ethics Policies & Disclosures ](https://www.chicagofed.org/utilities/about-us/financial-disclosures) [ Newsroom ](https://www.chicagofed.org/utilities/newsroom/newsroom-home) [ Federal Reserve Calendars ](https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars) [ Contact Us ](https://www.chicagofed.org/utilities/contactus)
+[ Office of the President ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home) [ Money Museum ](https://www.chicagofed.org/education/money-museum/index) 
+
+  * [ Banking ](https://www.chicagofed.org/#collapseBanking)
+    * [ Banking ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/index) [Banking Resources](https://www.chicagofed.org/#collapseBankingResources)
+      * [ Banking Resources ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/banker-resources/index)
+      * [ Federal Reserve Discount Window ](https://www.frbdiscountwindow.org/)
+      * [ Federal Reserve Bank Services ](https://www.frbservices.org/index.html)
+      * [ Regulatory Applications And Membership Information ](https://www.chicagofed.org/banking/banker-resources/regulatory-applications-and-membership-information-preview)
+      * [ Banker Training And Resources ](https://www.chicagofed.org/banking/banker-resources/tools-resources-data)
+      * [ Supervision And Regulation ](https://www.chicagofed.org/utilities/about-us/supervision-and-regulation/index)
+[Consumer Resources](https://www.chicagofed.org/#collapseConsumerResources)
+      * [ Consumer Resources ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/banking/consumer-banking/index)
+      * [ Consumer Financial Protection Bureau ](http://www.consumerfinance.gov/)
+      * [ Consumer Information ](https://www.chicagofed.org/banking/consumer-banking/consumer-information)
+      * [ Federal Reserve Consumer Help ](https://federalreserveconsumerhelp.gov/?District=7)
+[ Payments ](https://www.chicagofed.org/markets/payments-policy/payments-policy-group)
+  * [ Research ](https://www.chicagofed.org/#collapseResearch)
+    * [ Research ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/index) [Our People](https://www.chicagofed.org/#collapseOurPeople)
+      * [Research Teams](https://www.chicagofed.org/#collapseResearchTeams)
+        * [ Research Teams ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/research-teams)
+        * [ Leadership ](https://www.chicagofed.org/people/teams/research-leadership/index)
+        * [ Financial Economics ](https://www.chicagofed.org/people/teams/financial-economics/index)
+        * [ Macroeconomics ](https://www.chicagofed.org/people/teams/macroeconomics/index)
+        * [ Microeconomics ](https://www.chicagofed.org/people/teams/microeconomics/index)
+        * [ Community Development ](https://www.chicagofed.org/people/teams/community-development/index)
+        * [ Regional Analysis and Engagement ](https://www.chicagofed.org/people/teams/regional-analysis-and-engagement/index)
+        * [ Regional Research ](https://www.chicagofed.org/people/teams/regional-research/index)
+        * [ Financial Markets Group ](https://www.chicagofed.org/people/teams/financial-markets-group/index)
+        * [ Policy and Communications ](https://www.chicagofed.org/people/teams/policy-and-communications/index)
+        * [ Economic Mobility Project ](https://www.chicagofed.org/research/content-areas/mobility/team)
+      * [ Economists ](https://www.chicagofed.org/research/economists)
+      * [ Policy Professionals ](https://www.chicagofed.org/research/policy-professionals)
+      * [ Resident And Visiting Scholars ](https://www.chicagofed.org/research/resident-and-visiting-scholars)
+      * [ Research Assistants ](https://www.chicagofed.org/research/research-assistants)
+[Economic Data](https://www.chicagofed.org/#collapseEconomicData)
+      * [ Economic Data ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/data/index)
+      * [ Beige Book ](https://www.chicagofed.org/research/data/beige-book/current-data)
+      * [ Chicago Fed Advance Retail Trade Summary (CARTS) ](https://www.chicagofed.org/publications/carts/index)
+      * [ Chicago Fed Labor Market Indicators ](https://www.chicagofed.org/research/data/chicago-fed-labor-market-indicators/latest-release)
+      * [ Chicago Fed National Activity Index (CFNAI) ](https://www.chicagofed.org/research/data/cfnai/current-data)
+      * [ Chicago Fed Survey Of Economic Conditions (CFSEC) ](https://www.chicagofed.org/research/data/cfsec/current-data)
+      * [ Chicago Fed Survey: Agricultural Conditions ](https://www.chicagofed.org/research/data/ag-conditions/index)
+      * [ National Financial Conditions Index (NFCI) ](https://www.chicagofed.org/research/data/nfci/current-data)
+      * [ Economic Data Release Calendar ](https://www.chicagofed.org/research/data/data-release-calendar)
+[Publications](https://www.chicagofed.org/#collapsePublications)
+      * [ Publications ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/publications/index)
+      * [ AgLetter ](https://www.chicagofed.org/publications/agletter/index)
+      * [ Chicago Fed Insights ](https://www.chicagofed.org/publications/chicago-fed-insights/index)
+      * [ Chicago Fed Letter ](https://www.chicagofed.org/publications/chicago-fed-letter/index)
+      * [ Economic Perspectives ](https://www.chicagofed.org/publications/economic-perspectives/index)
+      * [ Working Papers ](https://www.chicagofed.org/publications/working-papers/index)
+      * [ Archives ](https://www.chicagofed.org/publications/archives)
+[Specialty Research](https://www.chicagofed.org/#collapseSpecialtyResearch)
+      * [ Specialty Research ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/research/specialty-research)
+      * [ Economic Mobility ](https://www.chicagofed.org/research/content-areas/mobility/about)
+      * [ Lead Service Line Replacement ](https://www.chicagofed.org/research/content-areas/lead/about)
+      * [ Spotlight on Childcare and the Labor Market ](https://www.chicagofed.org/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market)
+[ Agricultural Sector ](https://www.chicagofed.org/research/content-areas/agriculture/index) [ Automotive Industry ](https://www.chicagofed.org/research/content-areas/automotive/index) [ Insurance Initiative ](https://www.chicagofed.org/research/content-areas/insurance-initiative/index) [ Financial Markets ](https://www.chicagofed.org/people/teams/financial-markets-group/index)
+  * [ Events ](https://www.chicagofed.org/#collapseEvents)
+    * [ Events ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/events/index) [ Upcoming Events ](https://www.chicagofed.org/events/upcoming-events) [ Past Events ](https://www.chicagofed.org/events/past-events) [ President Goolsbee ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking)
+  * [ Education ](https://www.chicagofed.org/#collapseEducation)
+    * [ Education ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/education/index) [ Educator Resources ](https://www.chicagofed.org/education/educator) [ Fed Challenge ](https://www.chicagofed.org/education/fed-challenge/college-fed-challenge) [ Chicago Money Museum ](https://www.chicagofed.org/education/money-museum/index) [ Detroit Visitor Center ](https://www.chicagofed.org/education/money-museum/branch-visitor-center/index)
+  * [ Region & Communities ](https://www.chicagofed.org/#collapseRegion)
+    * [ Region & Communities ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/region/index) [ Regional Economy ](https://www.chicagofed.org/region/regional-economy) [ Community Development ](https://www.chicagofed.org/region/community-development) [ Local Economic Snapshot ](https://www.chicagofed.org/snapshot#/seventh_federal_reserve_district) [ Spotlight on Childcare and the Labor Market ](https://www.chicagofed.org/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market)
+  * [ Careers ](https://www.chicagofed.org/#collapseCareers)
+    * [ Careers ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/Careers) [ Search Jobs ](https://rb.wd5.myworkdayjobs.com/FRS?hiringCompany=7186c32a743f01e4caeeb8caaf01430c) [ Areas Of Work ](https://www.chicagofed.org/careers/areasofwork) [ Benefits ](https://www.chicagofed.org/careers/thebenefits)
+  * [ About Us ](https://www.chicagofed.org/#collapseAboutUs)
+    * [ About Us ![Home](https://www.chicagofed.org/~/media/admin/images/icons/house-icon) ](https://www.chicagofed.org/utilities/about-us/index) [ Board Of Directors ](https://www.chi","","https://chicagofed.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","chicagofed.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","a9dc593719d551162e2ec5743e3d0952c7c604c01b7cbf633474c5b289ee11c3","0.0","0.3","9a4051a5-ad6c-59da-bc98-590dec874fe7","","2026-03-31T00:10:01.720942Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/chicagofed.org.json","/tmp/tmpyx88spmo/evidence/domain/chicagofed.org.json","","2026-06-29T00:10:01.720944Z","small business advisory firm team page","2026-03-31T00:09:51.301179Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://www.smallbusinessadvocacycouncil.org/#content)
+  * [Home](https://www.smallbusinessadvocacycouncil.org/)
+  * Our Community
+    * [Join Our Community](https://www.smallbusinessadvocacycouncil.org/join-our-community/)
+    * [Our Story](https://www.smallbusinessadvocacycouncil.org/our-story/)
+    * [Our Team](https://www.smallbusinessadvocacycouncil.org/staff-volunteers/)
+    * [Our Board](https://www.smallbusinessadvocacycouncil.org/board-of-advisors/)
+    * [Our Partners](https://www.smallbusinessadvocacycouncil.org/our-sbac-partners/)
+    * [SBAC Directory](https://members.smallbusinessadvocacycouncil.org/member-directory)
+    * [Young Professionals](https://www.smallbusinessadvocacycouncil.org/ypg/)
+  * Our Advocacy
+    * [State and Federal Advocacy Agenda](https://www.smallbusinessadvocacycouncil.org/state-and-federal-advocacy-agenda/)
+    * [Chicago Advocacy Agenda](https://www.smallbusinessadvocacycouncil.org/2026-chicago-and-cook-county-advocacy-agenda/)
+    * [The Chicago Small Business Bill of Rights](https://www.smallbusinessadvocacycouncil.org/chicago-small-business-bill-of-rights/)
+    * [Neighborhood Revitalization Coalition](https://www.smallbusinessadvocacycouncil.org/nrc/)
+    * [We Rise Together](https://www.smallbusinessadvocacycouncil.org/wrt-home/)
+  * [Grants and Incentives](https://www.smallbusinessadvocacycouncil.org/small-business-grants-in-illinois/)
+  * [Upcoming Events](https://members.smallbusinessadvocacycouncil.org/events-calendar)
+
+
+  * [Home](https://www.smallbusinessadvocacycouncil.org/)
+  * Our Community
+    * [Join Our Community](https://www.smallbusinessadvocacycouncil.org/join-our-community/)
+    * [Our Story](https://www.smallbusinessadvocacycouncil.org/our-story/)
+    * [Our Team](https://www.smallbusinessadvocacycouncil.org/staff-volunteers/)
+    * [Our Board](https://www.smallbusinessadvocacycouncil.org/board-of-advisors/)
+    * [Our Partners](https://www.smallbusinessadvocacycouncil.org/our-sbac-partners/)
+    * [SBAC Directory](https://members.smallbusinessadvocacycouncil.org/member-directory)
+    * [Young Professionals](https://www.smallbusinessadvocacycouncil.org/ypg/)
+  * Our Advocacy
+    * [State and Federal Advocacy Agenda](https://www.smallbusinessadvocacycouncil.org/state-and-federal-advocacy-agenda/)
+    * [Chicago Advocacy Agenda](https://www.smallbusinessadvocacycouncil.org/2026-chicago-and-cook-county-advocacy-agenda/)
+    * [The Chicago Small Business Bill of Rights](https://www.smallbusinessadvocacycouncil.org/chicago-small-business-bill-of-rights/)
+    * [Neighborhood Revitalization Coalition](https://www.smallbusinessadvocacycouncil.org/nrc/)
+    * [We Rise Together](https://www.smallbusinessadvocacycouncil.org/wrt-home/)
+  * [Grants and Incentives](https://www.smallbusinessadvocacycouncil.org/small-business-grants-in-illinois/)
+  * [Upcoming Events](https://members.smallbusinessadvocacycouncil.org/events-calendar)
+
+
+## Welcome to the SBAC
+## Championing Small Businesses Across Illinois
+[ Join Our Community ](https://www.smallbusinessadvocacycouncil.org/join-our-community/)
+[ Join Our Community ](https://www.smallbusinessadvocacycouncil.org/join-our-community/)
+## 2026 Legislative Agenda
+[ State & Federal ](https://www.smallbusinessadvocacycouncil.org/state-and-federal-advocacy-agenda/)
+[ Chicago & Cook County ](https://www.smallbusinessadvocacycouncil.org/2026-sbac-chicago-and-cook-county-advocacy-agenda/)
+## The Chicago
+## Small Business
+## Bill of Rights
+[ Learn More ](https://www.smallbusinessadvocacycouncil.org/chicago-small-business-bill-of-rights/)
+[ Our Upcoming Events ](https://members.smallbusinessadvocacycouncil.org/events-calendar)
+[ April 14: SBAC Advocacy Day ](https://members.smallbusinessadvocacycouncil.org/events-calendar/advocacy-day)
+[ April 15: Coffee & Commerce ](https://members.smallbusinessadvocacycouncil.org/events-calendar/coffee-commerce-1283564-0-0-0)
+[ April 22: SBAC Lawyers Community ](https://members.smallbusinessadvocacycouncil.org/events-calendar/sbac-lawyers-community)
+[ April 30: SBAC YPG Launch ](https://members.smallbusinessadvocacycouncil.org/events-calendar/sbac-yp-launch)
+[ May 7: Brewing for Success ](https://members.smallbusinessadvocacycouncil.org/events-calendar/brewing-for-success204393004405)
+[ August 18: Small Business Scramble ](https://members.smallbusinessadvocacycouncil.org/events-calendar/sbac-small-business-scramble)
+[ November 12: Advocacy Awards ](https://members.smallbusinessadvocacycouncil.org/events-calendar/sbac-advocacy-awards-dinner)
+[ Our Upcoming Events ](https://members.smallbusinessadvocacycouncil.org/events-calendar)
+## Thank You to Our Partners
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Saul-Ewing-Sponsor.webp) ](https://www.saul.com/)
+Saul Ewing is a Full-Service National Employment Law Firm
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Lexitas-Sponsor.webp) ](https://www.lexitaslegal.com/)
+Lexitas Delivers Highly Responsive Professional Legal Services
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Wintrust-Sponsor.webp) ](https://www.wintrustbank.com/)
+Experience Better Banking with a Trusted Local Partner
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Byline-Sponsor.webp) ](https://www.bylinebank.com/)
+Commercial & Business Nationwide SBA and USDA Business Loans
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Peck-Sponsor.webp) ](https://www.peckritchey.com/)
+Probate Estate Planning, Guardianship Special Needs Planning & Elder Law
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/RockyTop-Sponsor.webp) ](https://rockytopgetaway.com/)
+Book One of Our Cabins in the Smoky Mountains
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/SpeedPro-Sponsor.webp) ](https://www.speedpro.com/chicago-loop/)
+Brand Boldly
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/Interprenet-Sponsor.webp) ](https://interprenet.net/)
+Delivering Interpretation Services Across All Industries
+[ ![](https://www.smallbusinessadvocacycouncil.org/wp-content/uploads/2026/02/IHT-Sponsor.webp) ](https://www.ihtwealthmanagement.com/)
+The Experience You Seek for the Future You Desire
+#### Small Business Advocacy Council
+#### 20 North Clark Street, Suite 3300, Chicago, IL 60602
+#### [(312) 548-8608](tel:3125488608)
+[ Facebook ](https://www.facebook.com/SmallBusinessAdvocacyCouncil/) [ Instagram ](https://www.instagram.com/sbacil/) [ Linkedin ](https://www.linkedin.com/company/small-business-advocacy-council/) [ X-twitter ](https://x.com/SBACIL) [ Youtube ](https://www.youtube.com/channel/UCyeVdZDvNZTB4A_w3jszMmw)
+© 
+[ Subscribe to Our Newsletter ](https://members.smallbusinessadvocacycouncil.org/join-our-newsletter/)
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Afrikaans")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Albanian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Amharic")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Arabic")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Armenian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Azerbaijani")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Basque")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Belarusian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Bengali")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Bosnian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Bulgarian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Catalan")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Cebuano")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Chichewa")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Chinese \(Simplified\)")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Chinese \(Traditional\)")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Corsican")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Croatian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Czech")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Danish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Dutch")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "English")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Esperanto")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Estonian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Filipino")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Finnish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "French")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Frisian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Galician")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Georgian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "German")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Greek")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Gujarati")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Haitian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hausa")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hawaiian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hebrew")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hindi")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hmong")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Hungarian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Icelandic")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Igbo")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Indonesian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Irish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Italian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Japanese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Javanese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Kannada")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Kazakh")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Khmer")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Korean")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Kurdish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Kyrgyz")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Lao")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Latin")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Latvian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Lithuanian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Luxembourgish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Macedonian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Malagasy")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Malayalam")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Malay")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Maltese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Maori")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Marathi")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Mongolian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Myanmar \(Burmese\)")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Nepali")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Norwegian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Pashto")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Persian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Polish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Portuguese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Punjabi")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Romanian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Russian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Serbian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Shona")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Sesotho")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Sindhi")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Sinhala")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Slovak")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Slovenian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Samoan")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Scots Gaelic")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Somali")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Spanish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Sundanese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Swahili")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Swedish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Tajik")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Tamil")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Telugu")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Thai")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Turkish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Ukrainian")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Urdu")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Uzbek")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Vietnamese")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Welsh")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Xhosa")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Yiddish")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Yoruba")
+  * [](https://www.smallbusinessadvocacycouncil.org/ "Zulu")
+
+
+","","https://smallbusinessadvocacycouncil.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Welcome to the Small Business Advocacy Council (SBAC)","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","smallbusinessadvocacycouncil.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","b524bf27833cd8c689d61abac184e434b731e6d9da22de5c019e2df98e05c0f7","0.0","0.3","45c90f96-f681-501d-9d79-4b0510b97490","","2026-03-31T00:10:09.107231Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessadvocacycouncil.org.json","/tmp/tmpyx88spmo/evidence/domain/smallbusinessadvocacycouncil.org.json","","2026-06-29T00:10:09.107237Z","small business advisory firm team page","2026-03-31T00:09:51.966485Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T00:10:09.123026Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpyx88spmo/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T00:10:09.123028Z","management consulting firm director email","2026-03-31T00:09:58.325768Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

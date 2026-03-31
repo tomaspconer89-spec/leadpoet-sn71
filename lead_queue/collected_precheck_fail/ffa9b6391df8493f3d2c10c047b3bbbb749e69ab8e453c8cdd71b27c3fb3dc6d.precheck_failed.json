@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "business": "Wielkotz & Company, LLC",
+  "lead": {
+    "business": "Wielkotz & Company, LLC",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://w-cpa.com",
+    "industry": "Accounting",
+    "sub_industry": "Municipal Accounting",
+    "country": "USA",
+    "state": "New Jersey",
+    "city": "Pompton Lakes",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/wielkotzcocpa",
+    "source_url": "https://w-cpa.com",
+    "description": "Wielkotz & Company, LLC is a full-service accounting firm providing audit, tax, and business consulting services, primarily to local governments in New Jersey.",
+    "employee_count": "11-50",
+    "hq_country": "USA",
+    "hq_state": "New Jersey",
+    "hq_city": "Pompton Lakes",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

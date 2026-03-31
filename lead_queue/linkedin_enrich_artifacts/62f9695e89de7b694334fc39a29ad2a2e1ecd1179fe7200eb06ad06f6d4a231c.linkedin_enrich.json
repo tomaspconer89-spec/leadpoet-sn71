@@ -1,0 +1,489 @@
+{
+  "saved_at_utc": "2026-03-31T00:11:40.631018+00:00",
+  "queue_key": "62f9695e89de7b694334fc39a29ad2a2e1ecd1179fe7200eb06ad06f6d4a231c",
+  "business": "lbmc.com",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company lbmc.com",
+      "lbmc.com linkedin company",
+      "site:linkedin.com/company lbmc.com",
+      "site:linkedin.com/in \"lbmc.com\" founder",
+      "site:linkedin.com/in \"lbmc.com\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "NGzaoSCdV8JyOGY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"lbmc.com\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+founder",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "James (Jim) Meade, Jr., CPA - LBMC",
+            "url": "https://www.linkedin.com/in/jimmeadecpa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0James (Jim) Meade, Jr., CPA",
+            "description": "I am CEO and Managing Shareholder of LBMC, PC. I have over 25 years of accounting and\u2026 \u00b7 Experience: LBMC \u00b7 Education: The University of ... www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Leisa Gill, MSM - LBMC",
+            "url": "https://www.linkedin.com/in/leisagill",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leisa Gill, MSM",
+            "description": "Websites. Company Website: http://www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Blake Mackie - LBMC Technology Solutions",
+            "url": "https://www.linkedin.com/in/blakemackie",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Blake Mackie",
+            "description": "Websites. Company Website: https://www.lbmctech.com/. Company Website: https://www.lbmc.com/Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville Metropolitan Area",
+              "companyName": "LBMC Technology Solutions",
+              "rawText": "Nashville Metropolitan Area \u00b7 LBMC Technology Solutions"
+            },
+            "followersAmount": "980+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Allen Hovious - Hovious Consulting",
+            "url": "https://www.linkedin.com/in/allenhovious",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Allen Hovious",
+            "description": "Co-Founder. Yes, We Must. Mar 2017 - Present 9 years 1 month. Education. We are a 501 C-3 focused ... http://www.lbmc.com/service/advisory-planning/planning.Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 4
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/g2knbpiX0dHDwVSDC/records/NGzaoSCdV8JyOGY-0.html?signature=vkEdcJVn2gL0I3oxrNfu"
+      },
+      {
+        "#debug": {
+          "requestId": "v3575jdo1JyGoTI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"lbmc.com\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22lbmc.com%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "James (Jim) Meade, Jr., CPA - LBMC",
+            "url": "https://www.linkedin.com/in/jimmeadecpa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0James (Jim) Meade, Jr., CPA",
+            "description": "I am CEO and Managing Shareholder of LBMC, PC. I have over 25 years of accounting and\u2026 \u00b7 Experience: LBMC \u00b7 Education: The University of ... www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Andrew D. McDonald, FACHE - LBMC Physician Business ...",
+            "url": "https://www.linkedin.com/in/admcdonaldfache",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrew D. McDonald, FACHE",
+            "description": "As President/CEO of LBMC Physician Business Solutions, I work with a team of experienced\u2026 \u00b7 ... http://www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "President",
+              "CEO",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Brentwood, Tennessee, United States",
+              "companyName": "LBMC Physician Business Solutions, LLC",
+              "rawText": "Brentwood, Tennessee, United States \u00b7 LBMC Physician Business Solutions, LLC"
+            },
+            "followersAmount": "3.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Lisa A Smith - Finance Director at LBMC",
+            "url": "https://www.linkedin.com/in/lisa-a-smith-67684049",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lisa A Smith",
+            "description": "Websites. Company Website: https://www.lbmc.com/. Company Website: http://www.metaltek.com. Company Website: http://www.cmworks.com.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Smyrna, Tennessee, United States",
+              "jobTitle": "Finance Director",
+              "companyName": "LBMC",
+              "rawText": "Smyrna, Tennessee, United States \u00b7 Finance Director \u00b7 LBMC"
+            },
+            "followersAmount": "540+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Andrew J. Usery, CPA, CIA, CMA, CFM",
+            "url": "https://www.linkedin.com/in/andrewuserycpacmacia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrew J. Usery, CPA, CIA, CMA, CFM",
+            "description": "... CEO/CFO/EVPs group materials. Deloitte Graphic. Senior Auditor, Assurance Services. Deloitte. Aug 2004 - Mar 2009 4 years 8 ... www.lbmc.com/team/andrew-usery/Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville, Tennessee, United States",
+              "jobTitle": "Shareholder/Partner, Audit & Advisory",
+              "companyName": "LBMC",
+              "rawText": "Nashville, Tennessee, United States \u00b7 Shareholder/Partner, Audit & Advisory \u00b7 LBMC"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Tammy Wolcott - LBMC Procurement Solutions and ...",
+            "url": "https://www.linkedin.com/in/tammyhowell",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Tammy Wolcott",
+            "description": "Websites. Company Website: http://www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville, Tennessee, United States",
+              "companyName": "LBMC Procurement Solutions and LBMC W Squared",
+              "rawText": "Nashville, Tennessee, United States \u00b7 LBMC Procurement Solutions and LBMC W Squared"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Lauren Price - LBMC",
+            "url": "https://www.linkedin.com/in/lauren-price-57a11454",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lauren Price",
+            "description": "Websites. Company Website: https://www.lbmc.com/Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville Metropolitan Area",
+              "companyName": "LBMC",
+              "rawText": "Nashville Metropolitan Area \u00b7 LBMC"
+            },
+            "followersAmount": "870+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Robert Powell - LBMC Technology Solutions",
+            "url": "https://www.linkedin.com/in/rpowellnash",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robert Powell",
+            "description": "Websites. Company Website: http://www.lbmctech.com. Company Website: http://www.lbmc.com.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "880+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "John Bailes - LBMC, P.C. alumnus",
+            "url": "https://www.linkedin.com/in/jbailes",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Bailes",
+            "description": "-. Oct 2012 - Dec 2019. Leadership Knoxville, Class of 2016. Alumnus. Websites. Company Website: http://http//www.lbmc.com. Cokesbury UMC: http://www.cclive.org.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Farragut, Tennessee, United States",
+              "companyName": "LBMC, P.C. alumnus",
+              "rawText": "Farragut, Tennessee, United States \u00b7 LBMC, P.C. alumnus"
+            },
+            "followersAmount": "2.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Denise Thomas - Transfer Pricing Fundamentals, LLC",
+            "url": "https://www.linkedin.com/in/denise-thomas-5816892b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Denise Thomas",
+            "description": "... & Cain, P.C.. Courses. Accounting. 101. Websites. Company Website: http://www.lbmc.com/. Graduate Student Web Page: http://economics.ag.utk.edu/skahan.html.Read more",
+            "emphasizedKeywords": [
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Hendersonville, Tennessee, United States",
+              "companyName": "Transfer Pricing Fundamentals, LLC",
+              "rawText": "Hendersonville, Tennessee, United States \u00b7 Transfer Pricing Fundamentals, LLC"
+            },
+            "followersAmount": "280+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Allen Hovious - Hovious Consulting",
+            "url": "https://www.linkedin.com/in/allenhovious",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Allen Hovious",
+            "description": "Vice President Brand Director. Jack Daniel Distillery. 1980 - 1988 8 years. Nashville, TN. Managed ... http://www.lbmc.com/service/advisory-planning/planning.Read more",
+            "emphasizedKeywords": [
+              "President",
+              "lbmc.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/f2wHckioZbU1bia2n/records/v3575jdo1JyGoTI-0.html?signature=I8bbayQgwK70qVdAGb2Z"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/in \"lbmc.com\" founder",
+      "https://www.linkedin.com/in/jimmeadecpa",
+      "https://www.linkedin.com/in/leisagill",
+      "https://www.linkedin.com/in/blakemackie",
+      "https://www.linkedin.com/in/allenhovious",
+      "site:linkedin.com/in \"lbmc.com\" ceo",
+      "https://www.linkedin.com/in/jimmeadecpa",
+      "https://www.linkedin.com/in/admcdonaldfache",
+      "https://www.linkedin.com/in/lisa-a-smith-67684049",
+      "https://www.linkedin.com/in/andrewuserycpacmacia",
+      "https://www.linkedin.com/in/tammyhowell",
+      "https://www.linkedin.com/in/lauren-price-57a11454",
+      "https://www.linkedin.com/in/rpowellnash",
+      "https://www.linkedin.com/in/jbailes",
+      "https://www.linkedin.com/in/denise-thomas-5816892b",
+      "https://www.linkedin.com/in/allenhovious"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/lbmc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/jimmeadecpa",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "lbmc.com",
+    "description": "lbmc.com provides professional services to clients; details were sourced from the company website at https://lbmc.com.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://lbmc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lbmc",
+    "source_url": "https://lbmc.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "lbmc.com",
+    "source_urls": [
+      "https://lbmc.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "lbmc.com",
+    "description": "lbmc.com provides professional services to clients; details were sourced from the company website at https://lbmc.com.",
+    "full_name": "Jimmeadecpa",
+    "first": "Jimmeadecpa",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://lbmc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "https://www.linkedin.com/in/jimmeadecpa",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lbmc",
+    "source_url": "https://lbmc.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "lbmc.com",
+    "source_urls": [
+      "https://lbmc.com"
+    ],
+    "title_raw": "founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://lbmc.com"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Jimmeadecpa"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Jimmeadecpa"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/jimmeadecpa"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://lbmc.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

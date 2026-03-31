@@ -1,0 +1,323 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:33:41.763027Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpav2m8y7p/evidence/domain/cansulta.com.json","","2026-06-28T21:33:41.763029Z","startup advisory services founder contact","2026-03-30T21:33:10.006246Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![](https://www.fticonsulting.com/.azwaf/jsc/tp/index.gif?azureRef=20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf)
+### An unexpected error occured.
+20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf
+","","https://fticonsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Azure WAF","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","fticonsulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/16","0.7812","llm","heuristic_no_credit","0ad33cefda337c74f900b684d7e7647d08c296fed6d491311a4f8cdd4cf1472f","0.0","0.3","a8834c42-df64-5fb9-9c8f-5118304d1e61","","2026-03-30T21:33:41.775872Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fticonsulting.com.json","/tmp/tmpav2m8y7p/evidence/domain/fticonsulting.com.json","","2026-06-28T21:33:41.775874Z","business consulting firm advisor email","2026-03-30T21:33:13.781695Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:33:41.788691Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpav2m8y7p/evidence/domain/vaam.io.json","","2026-06-28T21:33:41.788693Z","SaaS startup CEO contact information","2026-03-30T21:33:17.384802Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:33:41.801907Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpav2m8y7p/evidence/domain/findemails.com.json","","2026-06-28T21:33:41.801909Z","SaaS startup CEO contact information","2026-03-30T21:33:18.639093Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+[ ![SaaS Alliance](https://www.saasalliance.io/content/images/size/w600/2024/04/SAAS-FULL-LOGO-PRIMARY--ON-WHITE--2.svg) ](https://www.saasalliance.io/)
+[Log in](https://www.saasalliance.io/signin/) [Membership](https://www.saasalliance.io/signup/)
+Membership
+##### What is included?
+All you need to succeed
+###### [Templates & frameworks](https://www.saasalliance.io/saas-templates-and-frameworks/)###### [OnDemand videos](https://www.saasalliance.io/ondemand-saas-hub/)###### [Exclusive content](https://www.saasalliance.io/tag/membership-content/)###### [Mentorship program Coming soon!](https://www.saasalliance.io/)
+##### Membership plans
+Pick your path
+###### [Individual membership](https://www.saasalliance.io/signup/)###### [Team membership](https://www.saasalliance.io/teams/)###### [Membership plan updates](https://www.saasalliance.io/fosaas-membership-plan-updates/)
+##### Take a peek inside
+And see what all the fuss is about
+###### [Membership demo](https://www.saasalliance.io/membership-demo/)###### [Customer success strategy template](https://www.saasalliance.io/customer-success-strategy-template/)###### [Competitor SWOT analysis template](https://www.saasalliance.io/competitor-swot-analysis-template/)###### [Membership release notes](https://www.saasalliance.io/fosaas-membership-plan-updates/)###### [Membership taster pack New!](https://www.saasalliance.io/try-before-you-buy-saas-alliance-membership-taster-pack/)
+Resources
+##### Categories
+Content by topic
+###### [Customer Success](https://www.saasalliance.io/tag/customer-success/)###### [Product Management](https://www.saasalliance.io/tag/product-management/)###### [Finance & Investment](https://www.saasalliance.io/tag/finance-investment/)###### [Marketing](https://www.saasalliance.io/tag/marketing/)###### [Sales](https://www.saasalliance.io/tag/sales/)###### [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion/)###### [Data & Insights](https://www.saasalliance.io/tag/data-insights/)###### [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy/)###### [Operations](https://www.saasalliance.io/tag/operations/)
+##### Content hub
+All the best SaaS hacks
+###### [Articles](https://www.saasalliance.io/articles/)###### [Podcasts](https://alliance.ghost.io/podcasts/?filter=podcast-filter-community-fosaas)###### [SaaS Stream](https://www.saasalliance.io/saasstream/)###### [Webinars](https://www.saasalliance.io/panel-discussion-turning-metrics-into-money/)
+##### Research & reports
+Leading SaaS insights
+###### [What is SaaS?](https://www.saasalliance.io/what-is-saas/)###### [State of SaaS Leadership Report](https://www.saasalliance.io/state-of-saas-leadership-2024/)###### [Captivate Investors: Fund your SaaS Startup](https://www.saasalliance.io/pitch-perfect-captivate-investors-and-fund-your-saas-startup/)###### [The Future of SaaS](https://www.saasalliance.io/the-future-of-saas-report/)###### [Tools of Choice 2023](https://www.saasalliance.io/saas-tools-of-choice-2023-report/)###### [Ones to Watch in SaaS 2023](https://www.saasalliance.io/introducing-the-ones-to-watch-in-saas-2023/)###### [SaaS Benchmark Metrics Report](https://www.saasalliance.io/saas-benchmark-metrics-report-2023/)###### [SaaS and AI playbook](https://www.saasalliance.io/ai-unleashed-transforming-saas-growth-strategies/)
+##### Best of the rest
+Highlights from elsewhere
+###### [Drive your startup to growth stage](https://www.saasalliance.io/5-steps-to-drive-your-company-from-early-to-growth-stage/)###### [The ISO 27001 Bible](https://www.saasalliance.io/the-iso-27001-bible-ebook/)###### [Subscribe to SaaSfix Sign up to the newsletter](https://www.saasalliance.io/get-your-saasfix/)###### [Get involved](https://www.saasalliance.io/get-involved/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)
+Certifications
+##### Get Certified
+In essential SaaS & leadership skills
+###### [GTM Blueprint For defined, repeatable and scalable GTM success](https://www.gotomarketalliance.com/go-to-market-blueprint/)
+Events
+##### Digital
+Coming soon to a screen near you
+###### [Why SaaS folks 💜 our events](https://www.saasalliance.io/why-saas-folks-love-our-events/)
+##### In-person
+Events all over the world
+##### Catch-up
+Never miss a beat
+###### [SaaS Metrics Summit | June 2023](https://www.saasalliance.io/saas-metrics-summit-june-2023/)###### [Future of SaaS Festival | April 2023](https://www.saasalliance.io/future-of-saas-ondemand/)###### [Women in SaaS Summit | July 2022](https://www.futureofsaas.io/women-in-saas-summit-2/)###### [Future of SaaS Festival | June 2022](https://www.futureofsaas.io/future-of-saas-festival-3/)###### [SaaS Metrics Summit | April 2022](https://www.futureofsaas.io/saas-metrics-summit-2/)###### [Future of SaaS Festival Vol. 4](https://www.saasalliance.io/future-of-saas-festival-sept-2021/)
+Community
+##### Network
+Connect and collaborate
+##### Learn
+Level up your career
+###### [SaaS Alliance LinkedIn](https://www.linkedin.com/school/future-of-saas/)
+About
+##### The basics
+Our journey & how to reach us
+###### [Mission](https://www.saasalliance.io/about/)###### [Partner with us](https://www.saasalliance.io/partner/)###### [Speaking opportunities](https://www.saasalliance.io/speaking-opportunities-with-the-future-of-saas/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)###### [Contact](https://www.saasalliance.io/contact/)
+##### Our people
+The foundation of SaaS Alliance
+###### [SaaS Alliance team](https://www.saasalliance.io/the-future-of-saas-team/)
+[What's new?](https://www.saasalliance.io/)
+[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+x close 
+Nothing to display...
+or view by:
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_left.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_Home_Page_Hero_Image_%20\(1\).png?v=f0ae9a70e2)
+#  Level-up your   
+SaaS growth strategies. 
+A growing, global collective of leaders  
+inspiring growth and inclusivity in SaaS. 
+[ RESOURCES ](https://www.saasalliance.io/articles/) [ MEMBERSHIP ](https://www.saasalliance.io/signup/)
+##  From SaaS startups to world-famous brands, you’ll be in good company, with innovative organizations like... 
+![](https://www.saasalliance.io/assets/img/whitelogos/Klarna.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Zoom.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Google.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Slack.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/hubspot.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Microsoft.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Oracle.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Cisco.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Drift.png?v=f0ae9a70e2)
+Level-up with SaaS Alliance membership. 
+From product marketing to customer success, tap into the tried and tested, business-wide strategies employed at some of the biggest and brightest companies and grasp every element of the SaaS landscape. 
+[ UNLOCK INVALUABLE CONTENT ](https://www.saasalliance.io/signup/)
+New on the blog. 
+![How to calculate and improve your SaaS magic number metric](https://www.saasalliance.io/content/images/size/w800/2024/08/SaaS_Sharing_Article_Images_Doodles-Text_--2-.png)
+[ Data & Insights How to calculate and improve your SaaS magic number metric Read more  ](https://www.saasalliance.io/how-to-calculate-and-improve-your-saas-magic-number-metric/)
+Members-only
+[DE&I](https://futureofsaas.io/tag/diversity-equity-inclusion/) [Leadership & Strategy ](https://futureofsaas.io/tag/leadership-strategy) [Finance & Investment](https://futureofsaas.io/tag/finance-investment/) [Customer success](https://futureofsaas.io/tag/customer-success) [Product Management](https://futureofsaas.io/tag/product-management) [Marketing](https://futureofsaas.io/tag/Marketing/)
+[ ![How ecosystems can make or break your SaaS business](https://www.saasalliance.io/content/images/size/w800/2025/02/social---How-ecosystems-can-make-or-break-your-SaaS-business-2.png) ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+Members-only
+[ Positioning How ecosystems can make or break your SaaS business Discover how ecosystems shape business success. Learn key lessons from Kodak, Apple & CVS to build a thriving ecosystem strategy.... ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+  * Jay Nakagawa 
+[ ![Jay Nakagawa](https://www.saasalliance.io/content/images/size/w100/2025/02/1612478877705.jpeg) ](https://www.saasalliance.io/author/jay/)
+
+12 min read
+[ ![Why do customers buy from a SaaS that knows them?](https://www.saasalliance.io/content/images/size/w800/2025/02/SaaS_Website_Article_Images_Doodles--3-.png) ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+Members-only
+[ Marketing Why do customers buy from a SaaS that knows them? Better engagement leads to increased revenue and lasting customer loyalty, meaning personalization is the foundation of modern marketing.... ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+  * Khondoker Asim Arman 
+[ ![Khondoker Asim Arman](https://www.saasalliance.io/content/images/size/w100/2023/07/Khondoker.jpeg) ](https://www.saasalliance.io/author/khondoker/)
+
+8 min read
+[ ![The power of perception: Communicating product value](https://www.saasalliance.io/content/images/size/w800/2025/02/main---The-power-of-perception-Communicating-product-value.png) ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+Members-only
+## [The power of perception: Communicating product value How Krisp improved retention by making its invisible value clear—using habit loops & psychology... ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+  * Karapet Gyumjibashyan 
+[ ![Karapet Gyumjibashyan](https://www.saasalliance.io/content/images/size/w100/2025/02/1676833565406-1.jpeg) ](https://www.saasalliance.io/author/karapet/)
+
+9 min read
+[ ![Positioning for SaaS companies: Why it matters more than ever](https://www.saasalliance.io/content/images/size/w800/2025/02/saas-change-management-org-change.png) ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+Members-only
+[ Positioning Positioning for SaaS companies: Why it matters more than ever What happens when your positioning isn't working? The signs are usually there if you know where to look. This article will help you find them.... ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+  * Kate Kucherenko 
+[ ![Kate Kucherenko](https://www.saasalliance.io/content/images/size/w100/2025/02/1718642399999.jpeg) ](https://www.saasalliance.io/author/kate-kucherenko/)
+
+12 min read
+[ ![Cultural integration in onboarding: 6 strategies to engage and retain top talent](https://www.saasalliance.io/content/images/size/w800/2025/01/main---SaaS-Cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent.png) ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+Members-only
+[ Customer Success & Onboarding Cultural integration in onboarding: 6 strategies to engage and retain top talent Discover how cultural integration can transform onboarding into a powerful tool for employee engagement, retention, and success.... ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+  * Marco Galvan 
+[ ![Marco Galvan](https://www.saasalliance.io/content/images/size/w100/2025/01/1579228274060.jpeg) ](https://www.saasalliance.io/author/marco/)
+
+8 min read
+[ ![How to run a successful  OKR review](https://www.saasalliance.io/content/images/size/w800/2025/01/main---top-saas-budgeting-tools-startup.png) ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+Members-only
+[ Growth & Metrics How to run a successful OKR review Learn how to streamline meetings, track progress, and drive success of OKR reviews with actionable insights and best practices.... ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+  * Dhruv Mehta 
+[ ![Dhruv Mehta](https://www.saasalliance.io/content/images/size/w100/2022/08/_GM87348--1-.jpg) ](https://www.saasalliance.io/author/dhruv/)
+
+6 min read
+[ SEE ALL POSTS ](https://www.saasalliance.io/articles)
+Get inspired. 
+![](https://www.saasalliance.io/assets/img/sales/newsletter.png?v=f0ae9a70e2)
+Newsletter 
+The best of the best  
+delivered directly   
+to your inbox.  
+
+[ SIGN ME UP ](https://www.saasalliance.io/get-your-saasfix/)
+![](https://www.saasalliance.io/assets/img/sales/reports.png?v=f0ae9a70e2)
+Reports 
+Catch up on the latest   
+industry trends   
+and insights.   
+
+[ GAIN INSIGHTS ](https://www.saasalliance.io/tag/saas-reports/)
+![](https://www.saasalliance.io/assets/img/sales/Podcast.png?v=f0ae9a70e2)
+Podcasts 
+Interviews with   
+industry experts from   
+all functions of SaaS.   
+
+[ TUNE IN ](https://futureofsaas.io/saascast/)
+![](https://www.saasalliance.io/assets/img/sales/saasstream.png?v=f0ae9a70e2)
+SaaS Stream 
+Selection of our favorite talks from our premier events,   
+OnDemand at your leisure.  
+
+[ WATCH NOW ](https://futureofsaas.io/saasstream/)
+Our latest report. 
+Want to stay ahead of the curve? Get the lowdown on the latest game-changing developments, from machine learning to low-code development, to vertical strategies, all straight from the leading minds in SaaS. 
+[ UNLOCK INVALUABLE INSIGHTS ](https://www.saasalliance.io/the-future-of-saas-report/)
+![](https://www.saasalliance.io/assets/img/sales/FoSaaS_Future_of_SaaS_Report_2022_Mockup_3.png?v=f0ae9a70e2)
+Sponsors & Partners 
+![](https://www.saasalliance.io/assets/img/whitelogos/SMonkey.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/monday-logo-x2.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/kompyte.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Highspot.png?v=f0ae9a70e2)
+[ PARTNER WITH US ](https://futureofsaas.io/partner/)
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_left.svg?v=f0ae9a70e2)
+Sign up to the   
+SaaSfix newsletter. 
+Keep track of all the latest   
+industry happenings with  
+our newsletter—straight to your inbox  
+once a month. 
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_middle.svg?v=f0ae9a70e2)
+Subscribe now
+  
+SEND ![](https://www.saasalliance.io/assets/img/sales/arrow.png?v=f0ae9a70e2)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+[ ![](https://www.saasalliance.io/assets/img/sales/SAAS.png?v=f0ae9a70e2) ](https://www.saasalliance.io/)
+SaaS Alliance was founded in early 2020 with a mission of creating a one-stop-shop of resources, content, and learning materials for those in SaaS. 
+  
+**Let’s drive innovation, evolution and growth. Together.**
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas/) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+ABOUT 
+  * [Contribute](https://www.saasalliance.io/contributor-guide)
+  * [Media Guide](https://www.saasalliance.io/partner)
+  * [Ambassadors](https://www.saasalliance.io/meet-the-ambassadors)
+  * [Mission](https://www.saasalliance.io/about)
+  * [Privacy Policy](https://www.saasalliance.io/privacy-policy)
+  * [Terms of Service](https://www.saasalliance.io/terms-and-conditions)
+
+
+RESOURCES 
+  * [Podcasts](https://www.saasalliance.io/saascast)
+  * [Reports](https://futureofsaas.io/tag/saas-reports/)
+
+
+GENERAL 
+  * [Events](https://www.saasalliance.io/events)
+  * [Membership](https://www.saasalliance.io/signup/)
+
+
+Learn 
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+","","https://saasalliance.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Level-up your SaaS growth strategies | SaaS Alliance","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","saasalliance.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","7666b2775807d4bc6c7c0a1ff486895ec4c035865f9bc011b9adb83614822d81","0.0","0.3","3074d9df-f6a4-52ae-846a-3354ab2c3c82","","2026-03-30T21:33:41.815716Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/saasalliance.io.json","/tmp/tmpav2m8y7p/evidence/domain/saasalliance.io.json","","2026-06-28T21:33:41.815718Z","SaaS startup CEO contact information","2026-03-30T21:33:19.582106Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-30T21:33:41.828889Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpav2m8y7p/evidence/domain/bcg.com.json","","2026-06-28T21:33:41.828891Z","venture consulting firm partner email","2026-03-30T21:33:23.379799Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Award-winning Generative AI Consultancy For Financial Services. Gain advanced insights in Generative AI from Generative AI consultants.","","https://consultvp.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Generative AI Consultancy For Financial Services","1","","","","","","https://www.linkedin.com/company/consult-venture-partners","","","","0.0","0.0009","0.0","0.0009","consultvp.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","a64f9fb2d4f9233d307d47e815592d81cc3882d952ec23c1de108df162d48b70","0.0","0.3","e49dbf9a-ecab-5b6b-9276-08ec35809368","","2026-03-30T21:33:41.841988Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/consultvp.com.json","/tmp/tmpav2m8y7p/evidence/domain/consultvp.com.json","","2026-06-28T21:33:41.841990Z","venture consulting firm partner email","2026-03-30T21:33:25.559132Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://fairmountinc.com/#content)
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com)
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com)
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+## Strategic partners in driving social impact and organizational success
+Fairmount Ventures is a catalyst in creating profound social impact for nonprofits, education, and the public sector. Our team of consulting experts empowers organizations with the tools and resources needed to advance your mission, navigate uncertainty, and thrive. Through our expert Fundraising, Strategy, and Leadership consulting services, we help clients address sticky problems to drive more meaningful change. Learn more about how we can work together to achieve your goals.
+## Strategic partners in driving social impact and organizational success
+Fairmount Ventures is a catalyst in creating profound social impact for nonprofits, education, and the public sector. Our team of consulting experts empowers organizations with the tools and resources needed to advance your mission, navigate uncertainty, and thrive. Through our expert Fundraising, Strategy, and Leadership consulting services, we help clients address sticky problems to drive more meaningful change. Learn more about how we can work together to achieve your goals.
+## Proven Solutions
+We envision an inclusive future with resources for all. Our work centers this promise through engaged thought partnership, accountability, and tangible results for your organization. Our clients speak to Fairmount’s demonstrated impact on their organizations: lives and communities transformed by new missions and resources; dynamic leaders using our guidance to pivot strategy and pilot innovation; major investments in teams, facilities, and partnerships to sustain and scale operations; and significant new funding raised that propels programs to unprecedented heights.
+### Our Results Tell our story
+  * Adaptive strategic plans that offer steady guidance through times of internal or external change
+  * Cost-effective outsourcing on a project, interim, or long-term basis
+
+
+  * Over a billion and a half dollars raised for 500+ clients
+  * New leaders and boards are engaged and ready to advance missions, goals, and culture
+
+
+Explore how we can elevate your mission and achieve extraordinary outcomes. 
+### [Fundraising Elevating your nonprofit’s revenue potential ](https://fairmountinc.com/our-services/fundraising/) ### [Strategy Shaping your nonprofit’s future ](https://fairmountinc.com/our-services/strategic-planning/) ### [Leadership Finding and developing your team ](https://fairmountinc.com/our-services/leadership/)
+[ View All Services ](https://fairmountinc.com/our-services/)
+Nonprofit Consulting Experts
+## Providing Creative Solutions 
+Fairmount Ventures is certified as a Women’s Business Enterprise and is dedicated to serving as your ally and advisor. With a strong cross-sector network and a commitment to curiosity and continuous learning, we adapt our approach to your needs and project goals, enhancing your impact and success. 
+[ About Us  ](https://fairmountinc.com/about-us/)
+Proven Results
+## Case Studies
+See firsthand how we’ve empowered clients to achieve their goals and make a lasting impact in their communities. Dive into the stories of innovation, growth, and collaboration that showcase our commitment to advancing your mission.
+[ View Our Case Studies ](https://fairmountinc.com/our-impact/)
+## Hear What Our Clients are Saying
+UrbanPromise’s engagement with Fairmount was a game changer for our organization. The process of building a campaign focus, identifying committee members, realigning staff positions, and reengaging donors in new ways not only achieved our campaign goal, but created a stronger and more disciplined fundraising department. Our team “grew up” under Fairmount’s guidance and leadership—the impact in our community will be generational.
+- Bruce Main, President/Founder, UrbanPromise
+Fairmount’s insights and subject matter expertise are invaluable to Philadelphia Works and the Workforce Partnerships team managing the Good Jobs Challenge. Fairmount’s team brings an optimistic attitude and has an exceptional ability to integrate diverse perspectives into long lasting solutions, making them an ideal partner to work with. Philadelphia Works highly recommends the Fairmount Ventures team as a consultant and will continually look for opportunities to partner with them on future projects and grants.
+- Patricia Blumenauer, Chief Operating Officer, Philadelphia Works
+Fairmount guided Living Beyond Breast Cancer when the organization was formed over thirty years ago assisting in building a Board of Directors, developing a fundraising strategy, and building the staff. We have returned to Fairmount again and again and rely on their support, expertise, and partnership to help solve some of our most pressing needs. With Fairmount’s expertise and attention to detail, LBBC has been successful in securing three consecutive federal grants from the CDC. Whether working on fundraising, strategy, search, or governance, their team is smart, strategic, responsive, and has always provided a great return on our investment
+- Jean A. Sachs, CEO, Living Beyond Breast Cancer
+How Can We Support Your Mission? 
+## Reach out today for a free consultation
+Name 
+Email 
+Phone 
+Message 
+Submit Message
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2024/07/fairmount-ventures-logo-mono.png) ](https://fairmountinc.com)
+  * 30 South 15th Street, Suite 500
+  * Philadelphia, PA 19102
+
+
+  * [ 215.717.2299 ](tel:12157172299)
+
+
+Quick Links
+  * [ About ](https://fairmountinc.com/about-us/)
+  * [ Services ](https://fairmountinc.com/our-services/)
+  * [ Impact ](https://fairmountinc.com/our-impact/)
+  * [ Clients ](https://fairmountinc.com/client-list/)
+  * [ Insights ](https://fairmountinc.com/our-insights/)
+  * [ Connect ](https://fairmountinc.com/contact-us/)
+
+
+About Us
+Fairmount Ventures is a women-owned consulting business that catalyzes social impact by building the capacity of the nonprofit, education, and public sectors, towards a more equitable and just society.
+[ ![](https://fairmountinc.com/wp-content/uploads/2024/07/WBE_Seal_dark.png) ](https://fairmountinc.com)
+[ Linkedin-in ](https://www.linkedin.com/company/142400/)
+[ Facebook-f ](https://www.facebook.com/Fairmount-Ventures-159160364273565/?fref=ts)
+","","https://fairmountinc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home | Fairmount Ventures","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","fairmountinc.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","d1a126972c5fbfd5acd1902ca4522b4fea8fe7dc1e6e5a0b55b260dbd68556c0","0.0","0.3","aa703bc7-540a-521a-9d99-25725d44b3a4","","2026-03-30T21:33:49.179379Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fairmountinc.com.json","/tmp/tmpav2m8y7p/evidence/domain/fairmountinc.com.json","","2026-06-28T21:33:49.179385Z","venture consulting firm partner email","2026-03-30T21:33:27.439601Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:33:49.195947Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpav2m8y7p/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:33:49.195950Z","management consulting firm director email","2026-03-30T21:33:39.155684Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

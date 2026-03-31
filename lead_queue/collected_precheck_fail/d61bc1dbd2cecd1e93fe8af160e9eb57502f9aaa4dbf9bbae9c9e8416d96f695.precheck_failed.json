@@ -24,7 +24,15 @@
     "hq_city": "\u00b7 Education: University of Florida \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Ethan Chen-Fung's profile on LinkedIn",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   },
   "queue_bucket": "D_low_confidence_hold"
 }

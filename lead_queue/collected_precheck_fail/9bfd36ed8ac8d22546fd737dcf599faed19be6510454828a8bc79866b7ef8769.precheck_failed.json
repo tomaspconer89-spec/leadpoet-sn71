@@ -12,14 +12,26 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "country": "United States",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/jason-a-vojcik/",
     "company_linkedin": "https://www.linkedin.com/company/cfo-consulting-and-advisory/",
     "source_url": "https://cfoconsultingandadvisory.com",
     "description": "[shared.ada.skipToMainContent](https://cfoconsultingandadvisory.com/#ada-tab-anchor) ![](https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-domaincom-v1-0-1%2F941%2F1592941%2F49bKSiuv%2F3ab8537e74144261b58c1cc6c3547358&methods=resize%2C500%2C5000) [](https://cfoconsultingandadvisory.com/) [ ](https://cfoconsultingandadvisory.com/) * [HOME](https://cfoconsultingandadvisory.com/) * [SERVICES](https://cfoconsultingandadvisory.com/services) * [CLIENT CASE STUDIES](https://cfoconsultingandadvisory.com/client-case-studies) * [CONTACT/BOOK A FREE CA",
     "employee_count": "11-50",
     "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

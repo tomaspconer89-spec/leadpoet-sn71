@@ -6,15 +6,22 @@
     "full_name": "Zhihua Wang",
     "first": "Zhihua",
     "last": "Wang",
+    "email": "",
     "role": "founder",
     "website": "https://pyrsonalize.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://ca.linkedin.com/in/zhihua-wang-527aa89a",
     "company_linkedin": "https://www.linkedin.com/company/pyrsonalize",
     "source_url": "https://pyrsonalize.com",
     "description": "Pyrsonalize is the ultimate AI Lead Generation platform. Our AI discovers qualified leads, writes personalized emails, and helps you book meetings automatically.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -22,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   }
 }

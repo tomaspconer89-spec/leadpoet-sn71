@@ -11,11 +11,17 @@
     "website": "https://questnow.net",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/keshav-reddy-520748a8",
     "company_linkedin": "https://www.linkedin.com/company/28186365",
     "source_url": "https://questnow.net",
     "description": "[![Quest Logo](https://questnow.net/wp-content/uploads/2021/04/QuestLogo-tagline.svg)](https://questnow.net/) [](https://questnow.net/#attorna-mobile-menu) [(704) 831-8777](tel:704-831-8777) \u00b7 \u200binfo@questnow.net [](https://questnow.net/#consult-form) [](https://www.facebook.com/questnow1/?ref=br_rs \"facebook\")[](https://www.linkedin.com/company/28186365/ \"linkedin\")[](https://www.youtube.com/@QuestAdvisory \"youtube\") [![Quest Logo](https://questnow.net/wp-content/uploads/2021/04/QuestLogo-tagline.svg)](https://questnow.net/) * [Home](https://questnow.net/) * [About Us](https://questnow.net/abo",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -23,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   },
   "queue_bucket": "C_good_account_needs_person"

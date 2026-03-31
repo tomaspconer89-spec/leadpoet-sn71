@@ -1,0 +1,104 @@
+"best_contact.decision_maker","best_contact.department","best_contact.email","best_contact.full_name","best_contact.job_title","best_contact.linkedin_url","best_contact.location","best_contact.phone","best_contact.seniority","best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.emails","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","","","","","","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T22:12:05.819653Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp2p4w1_nk/evidence/domain/cansulta.com.json","","2026-06-28T22:12:05.819655Z","startup advisory services founder contact","2026-03-30T22:11:34.645469Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T22:12:05.832842Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp2p4w1_nk/evidence/domain/maynardnexsen.com.json","","2026-06-28T22:12:05.832844Z","business consulting firm advisor email","2026-03-30T22:11:38.470434Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"false","","info@newyorkbusinessconsultants.com","Info Lead","","","","","99","","","","","|  [ ![New York Business Consultants LLC](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/1385413154.png) ](https://newyorkbusinessconsultants.com/)  |   
+ |   |  [](https://facebook.com/NYConsultant)[](https://twitter.com/NYConsultant)[](https://linkedin.com/company/new-york-business-consultants)  |   |  
+| --- | --- | --- |  
+ |  
+  * [ About Us ](https://newyorkbusinessconsultants.com/)
+  * [ Services ](https://newyorkbusinessconsultants.com/services.html)
+  * [ Global Opportunities ](https://newyorkbusinessconsultants.com/global-opportunities.html)
+  * [ NYBC Academy ](https://newyorkbusinessconsultants.com/nybc-academy.html)
+  * [ Downloads ](https://newyorkbusinessconsultants.com/downloads.html)
+  * [ Contact ](https://newyorkbusinessconsultants.com/contact.html)
+
+  
+| 
+## 1800-481-2707 Toll Free
+![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/354656.jpg) EMAIL
+* * *
+![Subscribe to Our Mailing List](http://wesnyc.com/email_small.png) * indicates required Email Address * **Email Format**
+  * HTML
+  * Text
+  * Mobile
+
+
+* * *
+![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/2001437.png?151) ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/5666016.jpg?1393272153)  | 
+## Sustainable Performance
+﻿At New York Business Consultants LLC we care about empowering business owners, sustainable development and making a difference. Sometimes we are a coach and trainer helping a business get better and sometimes we are a matchmaker finding the right partner, investor or distributor. We help companies grow, improve and master change.  
+  
+For our clients NYBC utilizes a global network of consultants, subject matter experts and service partners in the US, Europe, India and Africa. Sharing knowledge and expertise, accessing markets and building the right partnerships is essential for turning challenges into opportunities. We provide management consulting, business development, market research, and professional training. Our dedicated team helps you develop your business plan and strategy, understand your customers, define your brand, create powerful marketing solutions and improve your processes.   
+  
+Thank you for visiting our site, we'd like to get to know you and how we can be of assistance! Send us an email or call us for a free consultation: info@newyorkbusinessconsultants.com,  
+1-800-481-2707  
+  
+The NYBC team  
+ |  [![](https://www.weebly.com/weebly/images/file_icons/pdf.png)](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/nybc_flyer_2017.pdf "Download file: nybc_flyer_2017.pdf")  
+ | **nybc_flyer_2017.pdf** |  
+| --- |  
+| File Size:   | 6606 kb  |  
+| File Type:   |  pdf  |  
+[Download File](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/nybc_flyer_2017.pdf "Download file: nybc_flyer_2017.pdf")
+* * *
+|  [![](https://www.weebly.com/weebly/images/file_icons/pdf.png)](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/nybc_capabilities.pdf "Download file: nybc_capabilities.pdf")  
+ | **nybc_capabilities.pdf** |  
+| --- |  
+| File Size:   | 2204 kb  |  
+| File Type:   |  pdf  |  
+[Download File](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/nybc_capabilities.pdf "Download file: nybc_capabilities.pdf")
+* * *
+ |  
+## [The NYBC Advisory Board](https://newyorkbusinessconsultants.com/advisory-board.html) (click for bio)  
+|   
+ |  [ ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/1402717368.jpg) ](https://newyorkbusinessconsultants.com/peter-fusaro.html) Prof. Peter Fusaro  |  [ ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/1402717346.jpg) ](https://newyorkbusinessconsultants.com/wazi-wazihullah.html) Prof. Wazi Wazihullah  |  
+| --- | --- |  
+|  [ ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/edited/mark-2.jpeg?1493985003) ](https://newyorkbusinessconsultants.com/mark-romeo.html) Mark Romeo  |   
+ |  [ ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/published/1402717511.jpg?1493984953) ](https://newyorkbusinessconsultants.com/tom-jones.html) Tom Jones, CEO Enablevue  |   |  
+| --- | --- |  
+ |  
+##  Our Offices & Partners | Making Connection Worldwide  
+
+![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/nybc-map-2017_orig.jpg)
+> ‘Headquartered in the financial center of the world New York Business Consultants LLC wants to become the premier management consulting company to connect you with finance, distributors and partners. Let us help you grow your business, empower your team and achieve sustainable performance.'  
+> CEO Malko Ebers  
+>   
+> 
+ |  
+|  [ ![Picture](https://newyorkbusinessconsultants.com/uploads/3/4/2/2/34224311/1385413670.png) ](http://newyorkbusinessconsultants.com/)  |  New York Business Consultants LLC | **Chrysler Building** |   
+​405 Lexington Avenue |New York | NY 10174 |+01 1-800-481-2707 (toll free), info@newyorkbusinessconsultants.com  |  
+| --- | --- |  
+  * [ Leadership Team  ](https://newyorkbusinessconsultants.com/leadership-team.html)
+  * [ Advisory Board > ](https://newyorkbusinessconsultants.com/advisory-board.html)
+    * [ Peter Fusaro  ](https://newyorkbusinessconsultants.com/peter-fusaro.html)
+    * [ Wazi Wazihullah  ](https://newyorkbusinessconsultants.com/wazi-wazihullah.html)
+    * [ Tom Jones  ](https://newyorkbusinessconsultants.com/tom-jones.html)
+    * [ Mark Romeo  ](https://newyorkbusinessconsultants.com/mark-romeo.html)
+  * [ Principles & Values  ](https://newyorkbusinessconsultants.com/principles--values.html)
+  * [ Partners & References  ](https://newyorkbusinessconsultants.com/partners--references.html)
+
+
+  * [ Management Consulting  ](https://newyorkbusinessconsultants.com/management-consulting.html)
+  * [ Business Development  ](https://newyorkbusinessconsultants.com/business-development.html)
+  * [ Leadership & Training  ](https://newyorkbusinessconsultants.com/leadership--training.html)
+  * [ Marketing & Branding  ](https://newyorkbusinessconsultants.com/marketing--branding.html)
+  * [ Websites & Design Solutions  ](https://newyorkbusinessconsultants.com/websites--design-solutions.html)
+
+
+  * [ The American Eagle  ](https://newyorkbusinessconsultants.com/the-american-eagle.html)
+  * [ Europe - Leader in Quality & Technology  ](https://newyorkbusinessconsultants.com/europe---leader-in-quality--technology.html)
+  * [ Africa: New Business Opportunities  ](https://newyorkbusinessconsultants.com/africa-new-business-opportunities.html)
+  * [ Incredible India  ](https://newyorkbusinessconsultants.com/incredible-india.html)
+  * [ Turkey - Gateway to the East  ](https://newyorkbusinessconsultants.com/turkey---gateway-to-the-east.html)
+
+
+  * [ Tropics Business Summit Johannesburg  ](https://newyorkbusinessconsultants.com/tropics-business-summit-johannesburg.html)
+  * [ TOURISM Workshop  ](https://newyorkbusinessconsultants.com/tourism-workshop.html)
+  * [ Women Entrepreneurship  ](https://newyorkbusinessconsultants.com/women-entrepreneurship.html)
+  * [ World Entrepreneurship Summit  ](https://newyorkbusinessconsultants.com/world-entrepreneurship-summit.html)
+
+
+","info@newyorkbusinessconsultants.com","","https://newyorkbusinessconsultants.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","New York Business Consultants LLC - About Us","1","","","","","","https://www.linkedin.com/company/new-york-business-consultants)","","","","0.001","0.0009","0.0","0.0019","newyorkbusinessconsultants.com","Basic company information available; Company name available; Company description available; Location count available; Company emails available (1 emails); Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms); Found 1 contacts; 1 contacts have email addresses","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","33d2d35f126f77caffebaec50a240cdb766f02352901877b33f4210ff90f5a36","0.0","0.3","04596db7-87f0-58c9-acc2-74343e6bb045","","2026-03-30T22:12:13.345639Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/newyorkbusinessconsultants.com.json","/tmp/tmp2p4w1_nk/evidence/domain/newyorkbusinessconsultants.com.json","","2026-06-28T22:12:13.345642Z","business consulting firm advisor email","2026-03-30T22:11:39.740776Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T22:12:13.358445Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp2p4w1_nk/evidence/domain/vaam.io.json","","2026-06-28T22:12:13.358447Z","SaaS startup CEO contact information","2026-03-30T22:11:43.058144Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T22:12:13.371446Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp2p4w1_nk/evidence/domain/findemails.com.json","","2026-06-28T22:12:13.371448Z","SaaS startup CEO contact information","2026-03-30T22:11:44.310519Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T22:12:13.384311Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp2p4w1_nk/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T22:12:13.384314Z","management consulting firm director email","2026-03-30T22:12:02.240241Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

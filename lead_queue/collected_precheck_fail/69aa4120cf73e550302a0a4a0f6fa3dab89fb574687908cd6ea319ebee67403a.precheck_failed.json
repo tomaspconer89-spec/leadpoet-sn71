@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Charles Schwab | A Modern Approach to Investing and Retirement Planning | Charles Schwab",
+  "lead": {
+    "business": "Charles Schwab | A Modern Approach to Investing and Retirement Planning | Charles Schwab",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://schwab.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://schwab.com",
+    "description": "Charles Schwab | A Modern Approach to Investing and Retirement Planning | Charles Schwab [ Skip to main navigation ](https://www.schwab.com/#primary-navigation) [ Skip to content ](https://www.schwab.com/#content) Menu [](https://www.schwab.com/) [](https://www.schwab.com/) * [](https://www.schwab.com/branches) * Contact Us * Chat * Site Search * Log In * Accounts & Products * Accounts * [Brokerage and Trading](https://www.schwab.com/brokerage) * [Retirement Accounts (IRAs)](https://www.schwab.com/ira) * [Education and Custodial](https://www.schwab.com/college-savings-accounts) * [Personal Cho",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

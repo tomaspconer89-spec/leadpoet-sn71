@@ -1,0 +1,1439 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","[![Midwest Business Consulting in Chicago, IL](https://www.mbconsultingco.com/img/clue/new-mbc-logo-horizontal.svg)](https://www.mbconsultingco.com/index.html)
+  * [Home](https://www.mbconsultingco.com/index.html "Welcome to Midwest Business Consulting! We are a veteran-owned business in Chicago, IL building and growing better companies through proper business foundations and continuous improvement consulting near Chicago, IL. We're pleased to offer specialized consulting in Chicago, IL for small business, operations management, project management, and more!")
+  * [About Us ](https://www.mbconsultingco.com/about.html "Midwest Business Consulting, professional consulting and coaching group in Chicago IL, offers different business strategies on how to manage a business in Chicago, IL. We are proud to serve clients of all sizes and across a variety of industries and business verticals in Chicago, IL.")
+    * [About MBC](https://www.mbconsultingco.com/about.html "Midwest Business Consulting, professional consulting and coaching group in Chicago IL, offers different business strategies on how to manage a business in Chicago, IL. We are proud to serve clients of all sizes and across a variety of industries and business verticals in Chicago, IL.")
+    * [Vision & Mission](https://www.mbconsultingco.com/vision-mission.html "Let Midwest Business Consulting help you improve your company's operations in Chicago, IL to build and grow better through proper business foundations and business strategies near Chicago, IL. We offer start-up business consulting and planning near Chicago IL, operations management consulting near Chicago IL, and maintenance management consulting near Chicago, IL.")
+    * [Our Team](https://www.mbconsultingco.com/team.html "Our Midwest Business Consulting professional team in Chicago, IL are happy to answer any questions you may have about business consulting in Chicago, IL. We offer the six sigma consulting near Chicago IL, turnaround project consulting near Chicago IL, and operations management consulting in Chicago, IL.")
+    * [Certifications](https://www.mbconsultingco.com/certifications.html "Midwest Business Consulting is proud to be a certified veteran business in Chicago, IL and supports our men and women in uniform! We offer complimentary assistance to the brave men and women who have served our country receive a veteran certification in Chicago, IL.")
+    * [Memberships](https://www.mbconsultingco.com/memberships.html "Midwest Business Consulting, small business consulting in Chicago IL, strives to support and stay connected to the communities in which we work and benefit near Chicago, IL. We offer process improvement consulting near Chicago IL, PMP training near Chicago IL, and information technology consulting in Chicago, IL.")
+    * [Testimonials](https://www.mbconsultingco.com/testimonials.html "Our clients are saying great things about our consulting service in Chicago, IL! Midwest Business Consulting, small business coaching in Chicago IL, is happy to answer any questions you may have about starting a business in Chicago, IL.")
+    * [Blog](https://www.mbconsultingco.com/blog/index.html "Read our Midwest Business Consulting blogs and learn how you can improve your company's operations and managements in Chicago, IL. Learn how PMP training near Chicago IL, six sigma consulting near Chicago IL, and project management near Chicago, IL can be beneficial and improve your company in Chicago, IL.")
+  * [Services ](https://www.mbconsultingco.com/services.html "Midwest Business Consulting, certified veteran business in Chicago IL, offers a comprehensive range of business services to clients of all sizes near Chicago, IL. Our client base includes start up consulting and planning near Chicago IL, international conglomerates near Chicago IL, and all markets between near Chicago, IL.")
+    * [Services Overview](https://www.mbconsultingco.com/services.html "Midwest Business Consulting, certified veteran business in Chicago IL, offers a comprehensive range of business services to clients of all sizes near Chicago, IL. Our client base includes start up consulting and planning near Chicago IL, international conglomerates near Chicago IL, and all markets between near Chicago, IL.")
+    * [Strategy & Growth](https://www.mbconsultingco.com/strategy-growth.html "Midwest Business Consulting, business consulting in Chicago IL, will help you develop a project management strategy in Chicago, IL that will work for your business. Contact us today to learn more how you can improve your company's corporate and business unit strategy near Chicago IL, management and strategic implementation near Chicago IL, and organizational design and optimization near Chicago, IL.")
+    * [Operations Management](https://www.mbconsultingco.com/operations-management.html "Contact us today to learn more how our operations management consulting in Chicago, IL can help you get your project back on track. Our veteran-owned business in Chicago, IL offers operations management and optimization near Chicago IL, maintenance programming and optimization near Chicago IL, and corporate, financial and accounting controls near Chicago, IL.")
+    * [Project Management](https://www.mbconsultingco.com/project-management.html "Midwest Business Consulting offers continuous improvement consulting in Chicago, IL and project management consulting in Chicago, IL to improve your business near Chicago, IL. Our team of Project Management Professionals \(PMP\) are experienced in managing a wide variety of projects near Chicago, IL.")
+    * [Quality Control](https://www.mbconsultingco.com/quality-control.html "Let us help lead your quality assurance and quality control teams in Chicago, IL develop an effective problem-solving tools to identify hindrances near Chicago IL, optimize business processes near Chicago IL, and implement practical and cost effective quality solutions near Chicago, IL. Midwest Business Consulting offers six sigma consulting in Chicago, IL to help your team and keep your project on target.")
+    * [Corporate Training](https://www.mbconsultingco.com/corporate-training.html "Midwest Business Consulting offers PMP training near Chicago IL, corporate staff training near Chicago IL, and project management training near Chicago, IL. Our certified veteran business in Chicago, IL is pleased to offer quality and on-site training in Chicago, IL by our industry-experienced professionals for a variety of clients.")
+    * [Small Business Consulting](https://www.mbconsultingco.com/small-business-consulting.html "Our small business coaching in Chicago, IL help business owners how to implement business plans near Chicago IL, strategy and growth near Chicago IL, operations management near Chicago IL, and continuous improvement consulting near Chicago, IL. We offer start-up business consulting near Chicago IL, information technology consulting near Chicago IL, and operations management consulting near Chicago, IL.")
+    * [Veteran Business Enterprise (VBE)](https://www.mbconsultingco.com/veteran-business-enterprise-vbe-certification-assistance.html "Midwest Business Consulting is proud to be a certified veteran business in Chicago, IL! Contact us today and learn how we can help the brave men and women who have served our country get a veteran certification in Chicago, IL.")
+  * [Clients](https://www.mbconsultingco.com/clients.html "Take a look at the list of industries and small businesses Midwest Business Consulting has served over the years with process development and management consulting in Chicago, IL. Contact us today to learn more how you can improve your company's operations and management in Chicago, IL.")
+  * [Contact Us](https://www.mbconsultingco.com/contact.html "Let Midwest Business Consulting help you improve your company in Chicago, IL by building and growing better through proper business foundations and business strategies near Chicago, IL. We offer start-up business consulting and planning near Chicago IL, operations management consulting near Chicago IL, and project management consulting near Chicago, IL.")
+
+[Menu](https://www.mbconsultingco.com/#navPanel)
+![Midwest Business Consulting in Chicago, IL](https://www.mbconsultingco.com/img/clue/new-mbc-logo.svg)
+We focus on your business so you can focus on success.
+  * [Learn More](https://www.mbconsultingco.com/#one)
+
+
+[](https://www.mbconsultingco.com/strategy-growth.html "Midwest Business Consulting will help you develop a project management strategy in Chicago, IL that will work for your business.")
+### [Strategy & Growth](https://www.mbconsultingco.com/strategy-growth.html "Midwest Business Consulting will help you develop a project management strategy in Chicago, IL that will work for your business.")
+Our skilled management team is experienced at helping business leaders navigate every business scenario imaginable. We work closely with clients to take stock of internal strengths, note weaknesses, and identify those key business activities that lie at the foundation of success and drive the bottom line.
+[](https://www.mbconsultingco.com/operations-management.html "Learn more how our operations management consulting in Chicago, IL can help you get your project back on track.")
+### [Operations Management   
+& Process Improvement](https://www.mbconsultingco.com/operations-management.html "Learn more how our operations management consulting in Chicago, IL can help you get your project back on track.")
+We're experts at developing new operations, assessing existing operations for waste and vulnerabilities, and implementing practical and cost-effective solutions to mitigate problems, neutralize threats, and capitalize on opportunities.
+[](https://www.mbconsultingco.com/project-management.html "Our team of Project Management Professionals \(PMP\) are experienced in managing a wide variety of projects near Chicago, IL.")
+### [Project Management](https://www.mbconsultingco.com/project-management.html "Our team of Project Management Professionals \(PMP\) are experienced in managing a wide variety of projects near Chicago, IL.")
+MBC maintains a close-knit network of PMI Certified Project Management Professionals and Subject Matter Experts in various industries and business sectors to provide our clients with unrivaled agility that allows us to rapidly mobilize project teams to assist you on the most delicate of projects.
+## Welcome to Midwest Business Consulting
+MBC is a veteran-owned consulting and coaching team headquartered in Chicago, IL, to provide world-class business and project-based consulting services to clients of all sizes throughout the United States.
+  * About Us
+  * Industries Served
+  * Consulting Options
+
+
+  * #### Veteran-Owned
+MBC is a veteran-owned professional consulting and coaching group with more than 20 years of experience building world-class operations in various industries.
+  * #### Proven Results
+Our commitment to client goals, cost-effective solutions, and a successful track record of proven results have earned us an A+ rating with the Better Business Bureau and a loyal customer base.
+
+
+## Coach
+## Problem-Solver
+## Business Expert
+## Sounding Board
+## Change Agent
+## Advisor
+  * #### Our Mission
+Our mission is to provide small- and medium-sized businesses with flexible options to build and grow better companies through proper business foundations and sound business strategies. 
+  * #### Our Vision
+Our Vision is to bring “big-company consulting” to the small- and mid-sized business market.
+
+
+  * #### Focusing on the Business of Business
+MBC is proud to serve clients of all sizes and across a variety of industries and business verticals. Our goal is to assist clients in developing unique breakout solutions designed to take operations to the next level.
+  * #### Our Clients
+Our clients include startups, nonprofits, international conglomerates and all markets between. 
+
+![Midwest Business Consulting in Chicago, IL](https://www.mbconsultingco.com/img/clue/consulting-options.svg)
+  * #### Industries
+MBC works with clients in a wide range of industries and verticals - we focus on building solid operating models and eliminating inefficiencies. 
+  * #### Disciplines
+MBC leverages a wide variety of management tools, which are tailored to each client’s unique business. Common tools include project management, six sigma, lean, 5S, kaizen, and other powerful business methodologies.
+
+
+  * #### Business Consulting
+MBC is proud to partner with small and medium sized businesses - we’ve been helping business owners connect ‘the Future’ to ‘the Now’ since 2012.
+  * #### Consulting on Your Terms
+We offer cafeteria-style consulting options for both new and growing companies, as well as established firms looking for help with business plans, strategy and growth, operations management and continuous improvement initiatives.
+
+![Best Business Consultants in Chicago of 2018](https://www.mbconsultingco.com/img/clue/il_chicago_business-consultants_2020_transparent.svg)
+  * #### Business Coaching
+Where consulting can often be cost-prohibitive for small businesses, professional business coaching is often an effective and efficient alternative to help small business owners get the help they need.
+  * #### Building a Business is Hard Work
+You don’t have to do it alone! Let the experienced business coaches at MBC help set a practical direction for your business and optimize your continuous improvement through an effective mentoring program.
+
+
+## Request more information!
+We’re pleased to offer a no-cost, no-obligation consultation for new businesses wishing to learn more.
+Name*
+Company Name*
+Email*
+Phone*
+Description
+  * 
+
+* required field
+## Midwest Business Consulting Blog
+[View More](https://www.mbconsultingco.com/blog/index.html "Read our Midwest Business Consulting blogs and learn how you can improve your company's operations and management in Chicago, IL.")
+[![](https://www.mbconsultingco.com/img/clue/blog-veteran.jpg)](https://www.mbconsultingco.com/blog/2021-04/veteran-certification.html)
+### Military Veteran-Owned Small Business Certification
+Most units of government (i.e. federal, state, county, city, etc.) as well as entities and projects funded by government agencies maintain some form of procurement goals. If you are an honorably discharged veteran and you own a business that sells goods or services which the government may be interested in buying, this article is for you.
+  * [Read More](https://www.mbconsultingco.com/blog/2021-04/veteran-certification.html)
+
+
+### Foundations of a Lean Enterprise
+The key to developing a successful and sustainable business is to maintain a tireless focus on strategically increasing profitability while improving the quality of products or services, and ultimately customer loyalty.
+  * [Read More](https://www.mbconsultingco.com/blog/2020-04/foundations-of-a-lean-enterprise.html)
+
+
+### Building Successful Partnerships
+Every good business relationship begins with a solid understanding of what the relationship will look like. When evaluating a partnering opportunity, you should carefully consider each partner-to-be. If you're considering a business partnership, or currently part of one, this article is for you!
+  * [Read More](https://www.mbconsultingco.com/blog/2019-11/building-successful-partnerships.html)
+
+
+[![](https://www.mbconsultingco.com/img/clue/blog-power-network.jpg)](https://www.mbconsultingco.com/blog/2019-03/power-network-like-a-pro.html)
+### Power Network like a Pro!
+One of the most basic, but essential skills for any business owner is developing a robust professional network. While most professionals acknowledge the importance of networking, few actually do it, and even fewer do it well.
+  * [Read More](https://www.mbconsultingco.com/blog/2019-03/power-network-like-a-pro.html)
+
+
+[![](https://www.mbconsultingco.com/img/clue/blog-5s-method.jpg)](https://www.mbconsultingco.com/blog/2020-10/5s-method-clean-path-to-better-success.html)
+### 5S Method - A Clean Path to a Better Success!
+The “5S” methodology is a building block of a lean organization that was first proposed in Japan as a series of activities intended to foster an organized workplace. If you’ve wondered what 5S is and how it might apply to your business, this introductory article is for you!
+  * [Read More](https://www.mbconsultingco.com/blog/2020-10/5s-method-clean-path-to-better-success.html)
+
+
+### Gap Analysis
+It’s not uncommon for a business, small or large, to discover that operations aren’t exactly where they should be and a change is needed. Gap Analysis is a tried-and-true approach to designing effective change management strategies to move an organization closer to its stated goals.
+  * [Read More](https://www.mbconsultingco.com/blog/2018-11/gap-analysis.html)
+
+
+## ![Veteran-Owned Business in Chicago, IL](https://www.mbconsultingco.com/img/clue/vob-transparent.png)
+## ![NaVOBA in Chicago, IL](https://www.mbconsultingco.com/img/clue/navoba.svg)
+## ![SDVOSB in Chicago, IL](https://www.mbconsultingco.com/img/clue/sdvosb.svg)
+### Our Office
+  * [Home](https://www.mbconsultingco.com/index.html "Welcome to Midwest Business Consulting! We are a veteran-owned business in Chicago, IL building and growing better companies through proper business foundations and continuous improvement consulting near Chicago, IL. We're pleased to offer specialized consulting in Chicago, IL for small business, operations management, project management, and more!")
+  * [About Us](https://www.mbconsultingco.com/about.html "Midwest Business Consulting, professional consulting and coaching group in Chicago IL, offers different business strategies on how to manage a business in Chicago, IL. We are proud to serve clients of all sizes and across a variety of industries and business verticals in Chicago, IL.")
+  * [Vision & Mission](https://www.mbconsultingco.com/vision-mission.html "Let Midwest Business Consulting help you improve your company's operations in Chicago, IL to build and grow better through proper business foundations and business strategies near Chicago, IL. We offer start-up business consulting and planning near Chicago IL, operations management consulting near Chicago IL, and maintenance management consulting near Chicago, IL.")
+  * [Contact Us](https://www.mbconsultingco.com/contact.html "Let Midwest Business Consulting help you improve your company in Chicago, IL by building and growing better through proper business foundations and business strategies near Chicago, IL. We offer start-up business consulting and planning near Chicago IL, operations management consulting near Chicago IL, and project management consulting near Chicago, IL.")
+  * [Sitemap](https://www.mbconsultingco.com/sitemap.html "Midwest Business Consulting is proud to be a certified veteran business in Chicago, IL and supports our men and women in uniform! We're pleased to offer specialized consulting in Chicago, IL for small business, operations management, project management, and more!")
+
+
+### Consulting
+  * [Services](https://www.mbconsultingco.com/services.html "Midwest Business Consulting, certified veteran business in Chicago IL, offers a comprehensive range of business services to clients of all sizes near Chicago, IL. Our client base includes start up consulting and planning near Chicago IL, international conglomerates near Chicago IL, and all markets between near Chicago, IL.")
+  * [VBE](https://www.mbconsultingco.com/veteran-business-enterprise-vbe-certification-assistance.html "Midwest Business Consulting is proud to be a certified veteran business in Chicago, IL! Contact us today and learn how we can help the brave men and women who have served our country get a veteran certification in Chicago, IL.")
+  * [Clients](https://www.mbconsultingco.com/clients.html "Take a look at the list of industries and small businesses Midwest Business Consulting has served over the years with process development and managemen","","https://mbconsultingco.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Midwest Business Consulting in Chicago IL | Small Business Consulting in Chicago IL | Bernard Deir","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","mbconsultingco.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","f33386a83d6dbfe676058a3a0e38a619562d0c63b3b148775161785bcec828b2","0.0","0.3","2ca754a9-6c21-5030-a5f8-a0d4a26b859d","","2026-03-30T21:16:51.196964Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mbconsultingco.com.json","/tmp/tmp3kfvoc1w/evidence/domain/mbconsultingco.com.json","","2026-06-28T21:16:51.196967Z","business consulting firm advisor email","2026-03-30T21:16:14.501424Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Skip to content ](https://www.stecorporation.com/#content)
+![](https://www.stecorporation.com/wp-content/uploads/2021/04/header-phone-icon-final.png) [Call Now](tel:8158360100)
+![](https://www.stecorporation.com/wp-content/uploads/2021/04/contact-us-icon-final.png) [Contact Us](https://www.stecorporation.com/contact/)
+![](https://www.stecorporation.com/wp-content/uploads/2021/03/STE-Language-Icon-min.png)
+[![en](https://www.stecorporation.com/wp-content/plugins/gtranslate/flags/svg/en.svg) English](https://www.stecorporation.com/) [![pl](https://www.stecorporation.com/wp-content/plugins/gtranslate/flags/svg/pl.svg) Polish](https://www.stecorporation.com/) [![es](https://www.stecorporation.com/wp-content/plugins/gtranslate/flags/svg/es.svg) Spanish](https://www.stecorporation.com/)
+[Resources |](https://www.stecorporation.com/resources/) [Client Login |](https://www.stecorporation.com/clientportal/) [Send Us a File](https://www.stecorporation.com/quick-send/)
+[(815) 836-0100](tel:8158360100) [Schedule a Meeting](https://www.stecorporation.com/contact/)
+[![](https://www.stecorporation.com/wp-content/uploads/2021/03/cropped-STE-Corporation-Logo-min.png)](https://www.stecorporation.com/ "STE Certified Public Accountants")
+  * [Tax](https://www.stecorporation.com/)
+    * [Estate Planning](https://www.stecorporation.com/chicago-estate-trust-accountants/)
+    * [Tax Services](https://www.stecorporation.com/chicago-tax-services/)
+      * [Business Tax Services](https://www.stecorporation.com/chicago-tax-services/business/)
+      * [Personal Tax Services](https://www.stecorporation.com/chicago-tax-services/personal/)
+    * [Sales Tax / Nexus](https://www.stecorporation.com/chicago-sales-tax-consultants/)
+    * [Tax Audit Representation](https://www.stecorporation.com/chicago-tax-audit-representation/)
+  * [Accounting](https://www.stecorporation.com/)
+    * [Accounting Services](https://www.stecorporation.com/chicago-accounting-services/)
+    * [Bookkeeping Services](https://www.stecorporation.com/chicago-bookkeeping-services/)
+    * [CFO | Financial Controller Services](https://www.stecorporation.com/cfo/)
+  * [Payroll](https://www.stecorporation.com/chicago-payroll-services/)
+  * [Consulting](https://www.stecorporation.com/)
+    * [Business Advisory](https://www.stecorporation.com/chicago-business-consulting/)
+    * [Incorporation Services](https://www.stecorporation.com/incorporation-services/)
+  * [About Us](https://www.stecorporation.com/about-us/)
+  * [Contact Us](https://www.stecorporation.com/stecorporation/contact)
+    * [Joliet, IL](https://www.stecorporation.com/cpa-firm-joliet-il/)
+    * [Lockport, IL](https://www.stecorporation.com/cpa-firm-lockport-il/)
+    * [Park Ridge, IL](https://www.stecorporation.com/cpa-firm-park-ridge-il/)
+
+
+[![](https://www.stecorporation.com/wp-content/uploads/2021/03/cropped-STE-Corporation-Logo-min.png)](https://www.stecorporation.com/ "STE Certified Public Accountants")
+Toggle Navigation
+Toggle Navigation 
+  * [Tax](https://www.stecorporation.com/)
+    * [Estate Planning](https://www.stecorporation.com/chicago-estate-trust-accountants/)
+    * [Tax Services](https://www.stecorporation.com/chicago-tax-services/)
+      * [Business Tax Services](https://www.stecorporation.com/chicago-tax-services/business/)
+      * [Personal Tax Services](https://www.stecorporation.com/chicago-tax-services/personal/)
+    * [Sales Tax / Nexus](https://www.stecorporation.com/chicago-sales-tax-consultants/)
+    * [Tax Audit Representation](https://www.stecorporation.com/chicago-tax-audit-representation/)
+  * [Accounting](https://www.stecorporation.com/)
+    * [Accounting Services](https://www.stecorporation.com/chicago-accounting-services/)
+    * [Bookkeeping Services](https://www.stecorporation.com/chicago-bookkeeping-services/)
+    * [CFO | Financial Controller Services](https://www.stecorporation.com/cfo/)
+  * [Payroll](https://www.stecorporation.com/chicago-payroll-services/)
+  * [Consulting](https://www.stecorporation.com/)
+    * [Business Advisory](https://www.stecorporation.com/chicago-business-consulting/)
+    * [Incorporation Services](https://www.stecorporation.com/incorporation-services/)
+  * [About Us](https://www.stecorporation.com/about-us/)
+  * [Contact Us](https://www.stecorporation.com/stecorporation/contact)
+    * [Joliet, IL](https://www.stecorporation.com/cpa-firm-joliet-il/)
+    * [Lockport, IL](https://www.stecorporation.com/cpa-firm-lockport-il/)
+    * [Park Ridge, IL](https://www.stecorporation.com/cpa-firm-park-ridge-il/)
+
+
+# CHICAGO CPA
+STE is a leading Chicago firm that provides professional accounting services including taxes, accounting, payroll, and advisory services for businesses, families, and individuals. Our certified public accountants and consultants offer expert services that are tailored to your unique needs. Our Chicago CPAs are ready to serve family-owned businesses to international companies with U.S. operations and everyone in between. 
+I need services for…
+[moja ](https://www.stecorporation.com/services-for-individuals/)[sprawa](https://www.stecorporation.com/services-for-businesses/) [my business](https://www.stecorporation.com/services-for-businesses/) [myself](https://www.stecorporation.com/services-for-individuals/)
+or Both
+If your business in the Chicago, IL area needs professional assistance when it comes to your taxes, bookkeeping or payroll, call our accountants at **STE**. Give us a call at (815) 836-0100 to schedule a consultation to talk to a certified public accountant that specializes in your industry.
+## OUR SERVICES
+###  ![user-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/user-icon-new.png)Accounting Services
+We are a full-service accounting firm that provides business accounting services that cover bookkeeping, payroll, and more.
+[Learn More](https://www.stecorporation.com/chicago-accounting-services/)
+###  ![case-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/case-icon-new.png)Tax Services
+We stay up to date on legislation concerning payroll, income, sales, and other taxes to provide invaluable advice. We have expertise in traditional tax compliance, multi-state issues, and tax planning.
+[Learn More](https://www.stecorporation.com/TaxServBusiness/)
+###  ![books-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/books-icon-new.png)Bookkeeping Services
+We work with clients to tailor a customized accounting service solution based upon their needs, staff, and complexity of the business. We can provide support to management or provide a full-service back office that completely eliminates the need for you or your staff to do bookkeeping.
+[Learn More](https://www.stecorporation.com/completeacc/)
+###  ![business-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/business-icon-new.png)Payroll Services
+Payroll is a necessity for any business. We provide payroll services from startups to small and mid-sized businesses in many industries. Our accountants will ensure that your payroll is managed effectively.
+[Learn More](https://www.stecorporation.com/businessconsulting/)
+###  ![contract-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/contract-icon-new.png)Estate Planning
+Building an estate plan ensures that your wishes are carried out when the time comes. Our accountants can help with your estate planning as we have an extensive knowledge of estate taxes and can help you make moves that minimize your taxes and maximize your estate’s worth.
+[Learn More](https://www.stecorporation.com/statetaxforms/)
+###  ![taxes-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/taxes-icon-new.png)Sales Tax | Nexus
+**STE** ’s accountants can help your business remain compliant with state and local tax laws and regulations. Our experts can perform nexus reviews and highlight areas of income, sales & use, and property tax exposure. Our accountants can work with you to ensure multi-state and local tax compliance.
+[Learn More](https://www.stecorporation.com/SalesTax/)
+![Payrol-Services-min](https://www.stecorporation.com/wp-content/uploads/2021/08/Chicago-CPA-STE-Corporation.jpg)
+## ADVISORY SERVICES
+Our accountants and consultants can provide advisory services such as business consulting. Over the time we work with your business, we will develop a personal relationship with you and get to understand your business on a level that allows us to provide effective business advisory services. We tailor these services to cover the unique needs of your business.  
+  
+
+  * Accounting Advisory
+  * Business Valuation
+  * Cash Flow Projection
+  * Financial Statement Preparation
+  * Transaction Advisory Services
+
+
+  * Business Consulting
+  * Business Planning
+  * Corporation & LLC Incorporation
+  * Strategic Financial Planning
+  * Transaction Due Diligence
+
+
+[See All Advisory Services](https://www.stecorporation.com/chicago-business-consulting/)
+## HOW WE WORK
+###  ![user-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/user-icon-new.png)Personal Taxes
+We spend time developing personal relationships so that we can provide a service that is tailored to you and your business.
+[Learn More](https://www.stecorporation.com/TaxServIndiv/)
+###  ![case-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/case-icon-new.png)Business Taxes
+At STE, we are always up-to-date with new accouting, payroll, tax and IRS legislation to give you invaluable advice and spot opportunities to save you money.
+[Learn More](https://www.stecorporation.com/TaxServBusiness/)
+###  ![books-icon-new](https://www.stecorporation.com/wp-content/uploads/2021/04/books-icon-new.png)Bookeeping
+We’ll ensure you get all your paperwork filed on time and your financial records are in order
+[Learn More](https://www.stecorporation.com/completeacc/)
+### Talk to one of our Accountants Today
+[Contact Us Now](https://www.stecorporation.com/contact)
+## KNOWLEDGE CENTER
+[](https://www.stecorporation.com/coronavirus-covid-19-business-resource-center/)
+![](https://www.stecorporation.com/wp-content/uploads/2021/03/STE-CPA-Lockport-300x200.jpg)
+### [Coronavirus (COVID-19) Business Resource Center](https://www.stecorporation.com/coronavirus-covid-19-business-resource-center/ "Coronavirus \(COVID-19\) Business Resource Center")
+Taking care of your taxes is more than filling out a form at the end of the year. You need a partner to play how best to approach your tax strategies.
+[](https://www.stecorporation.com/what-to-know-about-small-business-taxes-in-chicago/)
+![](https://www.stecorporation.com/wp-content/uploads/2021/03/STE_Taxes-300x300.jpg)
+### [What to Know About Small Business Taxes in Chicago](https://www.stecorporation.com/what-to-know-about-small-business-taxes-in-chicago/ "What to Know About Small Business Taxes in Chicago")
+Taking care of your taxes is more than filling out a form at the end of the year. You need a partner to play how best to approach your tax strategies.
+[](https://www.stecorporation.com/learn-about-how-to-apply-for-ppp-loan/)
+![STE-CPA\(1\)](https://www.stecorporation.com/wp-content/uploads/2021/03/STE-CPA1-300x200.jpg)
+### [Learn About How to Apply For PPP Loan](https://www.stecorporation.com/learn-about-how-to-apply-for-ppp-loan/ "Learn About How to Apply For PPP Loan")
+Taking care of your taxes is more than filling out a form at the end of the year. You need a partner to play how best to approach your tax strategies.
+[](https://www.stecorporation.com/tax-checkup-best-tax-deductions-for-doctors/)
+![](https://www.stecorporation.com/wp-content/uploads/2021/03/Joliet-CPA-300x200.jpeg)
+### [Tax Checkup: Best Tax Deductions for Doctors](https://www.stecorporation.com/tax-checkup-best-tax-deductions-for-doctors/ "Tax Checkup: Best Tax Deductions for Doctors")
+Taking care of your taxes is more than filling out a form at the end of the year. You need a partner to play how best to approach your tax strategies.
+[Keep Reading](https://www.stecorporation.com/news)
+## FREQUENTLY ASKED QUESTIONS
+What’s the best way to borrow to make consumer purchases?
+For tax years 2018 through 2025 interest on home equity loans is only deductible when the loan is used to buy, build or substantially improve the taxpayer’s home that secures the loan. Prior to 2018, many homeowners took out home equity loans. Unlike other consumer-related interest expenses (e.g., car loans and credit cards) interest on a home equity loan was deductible on your tax return. 
+What special deductions can I get if I’m self-employed?
+You may be able to take an immediate Section 179 expense deduction of up to $1,040,000 for 2020 ($1,020,000 in 2019), for equipment purchased for use in your business, instead of writing it off over many years. There is a phaseout limit of $2,590,000 in 2020 ($2,550,000 in 2019). Additionally, self-employed individuals can deduct 100 percent of their health insurance premiums. You may also be able to establish a Keogh, SEP or SIMPLE IRA plan and deduct your contributions (investments). 
+Why should I participate in my employer’s cafeteria plan or FSA?
+In 2020 (as in 2019), medical and dental expenses are deductible to the extent they exceed 10 percent of your adjusted gross income or AGI. If your employer offers a Flexible Spending Account (FSA), Health Savings Account or cafeteria plan, these plans permit you to redirect a portion of your salary to pay these types of expenses with pre-tax dollars. 
+What’s the best way to give to charity?
+If you’re planning to make a charitable gift, it generally makes more sense to give appreciated long-term capital assets to the charity, instead of selling the assets and giving the charity the after-tax proceeds. Donating the assets instead of the cash avoids capital gains tax on the sale, and you can obtain a tax deduction for the full fair-market value of the property. 
+[Read More](https://www.stecorporation.com/frequently-asked-questions)
+![Frequently-Asked-Questions-min](https://www.stecorporation.com/wp-content/uploads/2021/03/Frequently-Asked-Questions-min.png)
+## WHAT OUR CLIENTS SAY ABOUT US
+![](https://www.stecorporation.com/wp-content/uploads/2021/04/slider-arrow-right-final.png) ![](https://www.stecorporation.com/wp-content/uploads/2021/04/slider-arrows-final.png)
+
+
+![](https://www.stecorporation.com/wp-content/uploads/2021/05/What-Our-Clients-Say-About-Uss-min-min.png)
+"Everyone at STE has been amazing. As a small business owner it is essential to have people on your team that are experts in all areas. When it comes to finance and taxes Jim and the team at STE fill that need. Thanks for being great at what you do and always be there!"
+![](https://www.stecorporation.com/wp-content/uploads/2021/05/What-Our-Clients-Say-About-Uss-min-min.png)
+"STE has been handling our personal, business accounting, and payroll for years. They are knowledgeable, easy to reach, and very welcoming. Would definitely recommend them."
+![](https://www.stecorporation.com/wp-content/uploads/2021/05/What-Our-Clients-Say-About-Uss-min-min.png)
+"I have had nothing but pleasant experiences at STE. They are knowledgeable and provide great service."
+![](https://www.stecorporation.com/wp-content/uploads/2021/05/What-Our-Clients-Say-About-Uss-min-min.png)
+"We have used STE Corporation for our payroll and tax service needs over the past 3+ years and extremely pleased with the partnership we have created."
+![](https://www.stecorporation.com/wp-content/uploads/2021/05/What-Our-Clients-Say-About-Uss-min-min.png)
+"My husband has operated his painting business since 2004, first as a sole proprietorship and later as an S corporation. STE has been instrumental in helping him grow his business and remain in compliance. I cannot thank Mike, Marybeth, Jim, and Lisa enough for helping him get organized and stay that way. They have truly been the business office he needed in order to focus on the part of his business he enjoys - painting and customer service Their professional staff literally have never let him down - payroll, state taxes, federal taxes, consultation, ledger reconciliation, profit and loss sheets, and probably lots of things I do not even know about! Hiring this firm was the best decision he could have made. He looks forward to visiting the office, everyone makes him feel like family. I appreciate their professionalism and efficiency. Thank you STE!"
+## CONTACT US
+Got questions? Fill out the form below or Call us at (815) 836-0100 to learn how we can help you.
+Url
+Required fields are marked with an asterisk (*)
+First Name *
+Last Name *
+Email *
+Phone Number *
+Message *
+14+7 = *
+I agree receiving insights, newsletters, events, services, products and offerings.
+Yes 
+[Contact Us](https://www.stecorporation.com/contact/) [Search Jobs](https://www.stecorporation.com/careers/) [Client Portal](https://www.stecorporation.com/clientportal/) [Subscribe Newsletter](https://www.stecorporation.com/) [ Polish![Polish](https://www.stecorporation.com/wp-content/plugins/gtranslate/flags/24/pl.png)](https://www.stecorporation.com/ "Polish") [ Spanish![Spanish](https://www.stecorporation.com/wp-content/plugins/gtranslate/flags/24/es.png)](https://www.stecorporation.com/ "Spanish")
+##### Company
+  * [About Us](https://www.stecorporation.com/about-us/)
+  * [Careers](https://www.stecorporation.com/careers/)
+  * [Contact Us](https://www.stecorporation.com/contact/)
+
+
+[![](https://www.stecorporation.com/wp-content/uploads/2021/04/Facebook-Icon-minn.png)](https://www.facebook.com/SteCorporation/) [![](https://www.stecorporation.com/wp-content/uploads/2021/04/LinkedIn-Icon-minm.png)](https://www.linkedin.com/company/ste-corporation) ![](https://www.stecorporation.com/wp-content/uploads/2021/04/Tweeter-Icon-minn.png)
+##### Tax Services
+  * [Tax Services](https://www.stecorporation.com/chicago-tax-services/)
+  * [Tax Services - Business](https://www.stecorporation.com/chicago-tax-services/business/)
+  * [Tax Services - Individual](https://www.stecorporation.com/chicago-tax-services/personal/)
+  * [Tax Planning](https://www.stecorporation.com/custom2/)
+  * [Tax Audit Representation](https://www.stecorporation.com/chicago-tax-audit-representation/)
+  * [Sales Tax Consulting](https://www.stecorporation.com/chicago-sales-tax-consultants/)
+
+
+##### Business Consulting
+  * [Business Consulting](https://www.stecorporation.com/chicago-business-consulting/)
+  * [New Business Organization](https://www.stecorporation.com/incorporation-services/)
+
+
+##### Accounting & Payroll
+  * [Accounting](https://www.stecorporation.com/chicago-accounting-services/)
+  * [Bookkeeping](https://www.stecorporation.com/chicago-bookkeeping-services/)
+  * [Fractional CFO](https://www.stecorporation.com/cfo/)
+  * [Payroll](https://www.stecorporation.com/chicago-payroll-services/)
+
+
+##### Client Portal
+  * [Client Materials](https://www.stecorporation.com/Client%20Materials/)
+  * [Client Login](https://www.stecorporation.com/clientportal/)
+  * [Send Us a File](https://www.stecorporation.com/quick-send)
+[Remote Session](https://www.stecorporation.com/remotesession) [Client Login](https://www.stecorporation.com/clientportal/)
+
+
+[Privacy Policy |](https://www.stecorporation.com/privacy) [Disclaimer](https://www.stecorporation.com/disclaimer)
+COPYRIGHT 2025, STE CORPORATION  
+Web Design by [Proceed Innovative](https://www.proceedinnovative.com/)
+","","https://stecorporation.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Chicago CPA | STE Certified Public Accountants: Accounting, Tax & Payroll","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","stecorporation.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","f4b1cdd3aabe24068eea083e039f391bf3cba432fac94b96a9d5199383736df7","0.0","0.3","1f4ebac6-214a-5316-b4f9-7505bb4a97f9","","2026-03-30T21:16:51.210770Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/stecorporation.com.json","/tmp/tmp3kfvoc1w/evidence/domain/stecorporation.com.json","","2026-06-28T21:16:51.210772Z","business consulting firm advisor email","2026-03-30T21:16:15.740413Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","  * [Capital Conference](https://centriconsulting.com/capital-conference/)
+  * [One Firm](https://centriconsulting.com/one-firm/)
+    * [About](https://centriconsulting.com/one-firm/)
+    * [Locations](https://centriconsulting.com/locations/)
+  * [One Team](https://centriconsulting.com/one-team/)
+    * [Our Team](https://centriconsulting.com/one-team/)
+    * [Our Advisors](https://centriconsulting.com/our-advisors/)
+  * [One Culture](https://centriconsulting.com/one-culture/)
+
+
+[ ](https://centriconsulting.com)
+  * [Services](https://centriconsulting.com/services/)
+    * [SEC Financial Reporting & Compliance](https://centriconsulting.com/services/sec-financial-reporting/)
+    * [Capital Markets IPO Readiness](https://centriconsulting.com/services/ipo-readiness/)
+      * [Foreign Listings](https://centriconsulting.com/services/foreign-listings/)
+    * [Technical Accounting](https://centriconsulting.com/services/technical-accounting/)
+    * [M&A Advisory](https://centriconsulting.com/services/mergers-acquisitions/)
+    * [Accounting Operations & Transformation](https://centriconsulting.com/services/operational-transformation/)
+      * [Audit Support](https://centriconsulting.com/services/operational-transformation/audit-support/)
+    * [Tax Advisory](https://centriconsulting.com/services/tax-advisory/)
+    * [Valuation](https://centriconsulting.com/services/valuation/)
+      * [Fairness Opinion](https://centriconsulting.com/services/valuation/fairness-opinion/)
+    * [Risk Advisory](https://centriconsulting.com/services/risk-advisory/)
+      * [Internal Audit Advisory Services](https://centriconsulting.com/services/risk-advisory/internal-audit-advisory-services/)
+      * [IT Risk & Cybersecurity](https://centriconsulting.com/services/risk-advisory/it-risk-cybersecurity/)
+      * [ESG Advisory](https://centriconsulting.com/services/risk-advisory/esg-advisory/)
+      * [SOX Compliance](https://centriconsulting.com/services/risk-advisory/sox-compliance/)
+    * [Outsourced Accounting](https://centriconsulting.com/services/outsourced-accounting/)
+    * [HR Advisory](https://centriconsulting.com/services/hr-advisory/)
+    * [CFO Advisory](https://centriconsulting.com/services/cfo-advisory/)
+    * [Board Advisory](https://centriconsulting.com/services/board-advisory/)
+Related News [ ![Supreme Court Tariff Ruling: Refund Opportunities, Transfer Pricing Risk, and the New Tariff Reality](https://centriconsulting.com/wp-content/uploads/2025/10/featuredimage3.png) ](https://centriconsulting.com/news/insights/supreme-court-tariff-ruling-refund-opportunities-transfer-pricing-risk-and-the-new-tariff-reality/)
+02/25/2026 Supreme Court Tariff Ruling: Refund Opportunities, Transfer Pricing Risk, and the New Tariff Reality The U.S. Supreme Court’s recent decision invalidating a significant portion of Trump-era...
+[Read More](https://centriconsulting.com/news/insights/supreme-court-tariff-ruling-refund-opportunities-transfer-pricing-risk-and-the-new-tariff-reality/)
+  * [Industries](https://centriconsulting.com/industries/)
+    * [Capital Markets](https://centriconsulting.com/industries/capital-markets-readiness/)
+    * [Technology](https://centriconsulting.com/industries/technology/)
+    * [Life Sciences](https://centriconsulting.com/industries/life-sciences/)
+    * [Insurance](https://centriconsulting.com/industries/insurance/)
+    * [Healthcare](https://centriconsulting.com/industries/healthcare/)
+    * [AI](https://centriconsulting.com/industries/ai-consulting-advisory/)
+    * [Financial Services](https://centriconsulting.com/industries/financial-services-industry/)
+    * [Fintech](https://centriconsulting.com/industries/fintech/)
+    * [Digital Assets](https://centriconsulting.com/industries/digital-assets/)
+    * [Private Equity](https://centriconsulting.com/industries/private-equity/)
+    * [Venture Capital](https://centriconsulting.com/industries/venture-capital/)
+    * [Real Estate](https://centriconsulting.com/industries/real-estate/)
+    * [Cannabis](https://centriconsulting.com/industries/cannabis/)
+    * [Mining & Metals](https://centriconsulting.com/industries/mining-metals/)
+    * [Manufacturing & Distribution](https://centriconsulting.com/industries/manufacturing-distribution/)
+    * [Telecommunications](https://centriconsulting.com/industries/telecommunications/)
+    * [Consumer Goods](https://centriconsulting.com/industries/consumer-goods/)
+Related News [ ![Sale-Leasebacks in AI Infrastructure: Turning Capital Into Compute](https://centriconsulting.com/wp-content/uploads/2025/10/featuredimage5.png) ](https://centriconsulting.com/news/insights/sale-leasebacks-in-ai-infrastructureturning-capital-into-compute/)
+02/26/2026 Sale-Leasebacks in AI Infrastructure: Turning Capital Into Compute AI innovation runs on infrastructure – GPUs, data centers, power-dense hardware, and...
+[Read More](https://centriconsulting.com/news/insights/sale-leasebacks-in-ai-infrastructureturning-capital-into-compute/)
+  * [News & Insights](https://centriconsulting.com/news/)
+    * [Centri News](https://centriconsulting.com/news/category/centri-news/)
+    * [Centri Insights](https://centriconsulting.com/news/category/insights/)
+    * [Case Studies](https://centriconsulting.com/news/category/case-studies/)
+    * [Events/Webinars](https://centriconsulting.com/news/category/events-webinars/)
+    * [Blog](https://centriconsulting.com/news/category/blog/)
+  * [Join Our Team](https://centriconsulting.com/join-our-team/)
+
+[Contact](https://centriconsulting.com/contact/) Search Filter by News Page Service Industry Team Member
+  * [Services](https://centriconsulting.com/services/)
+    * [Services](https://centriconsulting.com/services/)
+    * [SEC Financial Reporting & Compliance](https://centriconsulting.com/services/sec-financial-reporting/)
+    * [Capital Markets IPO Readiness](https://centriconsulting.com/services/ipo-readiness/)
+      * [Capital Markets IPO Readiness](https://centriconsulting.com/services/ipo-readiness/)
+      * [Foreign Listings](https://centriconsulting.com/services/foreign-listings/)
+    * [Technical Accounting](https://centriconsulting.com/services/technical-accounting/)
+    * [M&A Advisory](https://centriconsulting.com/services/mergers-acquisitions/)
+    * [Accounting Operations & Transformation](https://centriconsulting.com/services/operational-transformation/)
+      * [Accounting Operations & Transformation](https://centriconsulting.com/services/operational-transformation/)
+      * [Audit Support](https://centriconsulting.com/services/operational-transformation/audit-support/)
+    * [Tax Advisory](https://centriconsulting.com/services/tax-advisory/)
+    * [Valuation](https://centriconsulting.com/services/valuation/)
+      * [Valuation](https://centriconsulting.com/services/valuation/)
+      * [Fairness Opinion](https://centriconsulting.com/services/valuation/fairness-opinion/)
+    * [Risk Advisory](https://centriconsulting.com/services/risk-advisory/)
+      * [Risk Advisory](https://centriconsulting.com/services/risk-advisory/)
+      * [Internal Audit Advisory Services](https://centriconsulting.com/services/risk-advisory/internal-audit-advisory-services/)
+      * [IT Risk & Cybersecurity](https://centriconsulting.com/services/risk-advisory/it-risk-cybersecurity/)
+      * [ESG Advisory](https://centriconsulting.com/services/risk-advisory/esg-advisory/)
+      * [SOX Compliance](https://centriconsulting.com/services/risk-advisory/sox-compliance/)
+    * [Outsourced Accounting](https://centriconsulting.com/services/outsourced-accounting/)
+    * [HR Advisory](https://centriconsulting.com/services/hr-advisory/)
+    * [CFO Advisory](https://centriconsulting.com/services/cfo-advisory/)
+    * [Board Advisory](https://centriconsulting.com/services/board-advisory/)
+  * [Industries](https://centriconsulting.com/industries/)
+    * [Industries](https://centriconsulting.com/industries/)
+    * [Capital Markets](https://centriconsulting.com/industries/capital-markets-readiness/)
+    * [Technology](https://centriconsulting.com/industries/technology/)
+    * [Life Sciences](https://centriconsulting.com/industries/life-sciences/)
+    * [Insurance](https://centriconsulting.com/industries/insurance/)
+    * [Healthcare](https://centriconsulting.com/industries/healthcare/)
+    * [AI](https://centriconsulting.com/industries/ai-consulting-advisory/)
+    * [Financial Services](https://centriconsulting.com/industries/financial-services-industry/)
+    * [Fintech](https://centriconsulting.com/industries/fintech/)
+    * [Digital Assets](https://centriconsulting.com/industries/digital-assets/)
+    * [Private Equity](https://centriconsulting.com/industries/private-equity/)
+    * [Venture Capital](https://centriconsulting.com/industries/venture-capital/)
+    * [Real Estate](https://centriconsulting.com/industries/real-estate/)
+    * [Cannabis](https://centriconsulting.com/industries/cannabis/)
+    * [Mining & Metals](https://centriconsulting.com/industries/mining-metals/)
+    * [Manufacturing & Distribution](https://centriconsulting.com/industries/manufacturing-distribution/)
+    * [Telecommunications](https://centriconsulting.com/industries/telecommunications/)
+    * [Consumer Goods](https://centriconsulting.com/industries/consumer-goods/)
+  * [News & Insights](https://centriconsulting.com/news/)
+    * [News & Insights](https://centriconsulting.com/news/)
+    * [Centri News](https://centriconsulting.com/news/category/centri-news/)
+    * [Centri Insights](https://centriconsulting.com/news/category/insights/)
+    * [Case Studies](https://centriconsulting.com/news/category/case-studies/)
+    * [Events/Webinars](https://centriconsulting.com/news/category/events-webinars/)
+    * [Blog](https://centriconsulting.com/news/category/blog/)
+  * [Join Our Team](https://centriconsulting.com/join-our-team/)
+
+
+[Contact](https://centriconsulting.com/contact/) Search Filter by News Page Service Industry Team Member
+  * [Capital Conference](https://centriconsulting.com/capital-conference/)
+  * [One Firm](https://centriconsulting.com/one-firm/)
+    * [About](https://centriconsulting.com/one-firm/)
+    * [Locations](https://centriconsulting.com/locations/)
+  * [One Team](https://centriconsulting.com/one-team/)
+    * [Our Team](https://centriconsulting.com/one-team/)
+    * [Our Advisors](https://centriconsulting.com/our-advisors/)
+  * [One Culture](https://centriconsulting.com/one-culture/)
+
+
+![](https://centriconsulting.com/wp-content/uploads/2023/09/shutterstock_1098251483-jpg.webp)
+# Accounting & Advisory   
+When Your Growth Demands It.
+We understand that you want to grow your business and reduce your risks.   
+That’s why we offer solutions that can help you achieve your goals and meet your compliance needs.
+## Why Choose Centri?
+At Centri, we leverage our experience in accounting, finance, and management   
+with our knowledge of capital markets to give your business guidance when it matters most.   
+Tailored to you, we provide accounting and advisory services designed for any stage of the business lifecycle.
+[See Why We Can Help You Succeed](https://centriconsulting.com/one-firm/)
+1,000+
+Clients Served
+Proven record of delivering results and solutions for our customers
+85%
+NPS Score
+Our high client satisfaction score shows our commitment to excellence
+2011
+Firm Founded
+We’ve built our business on entrepreneurial expertise and can help you do the same
+## A Calculated Approach To Business Advisory Services
+From the technical details to the big-picture strategy — our team can do it all. We provide first-rate business advisory services and accounting solutions rooted in experience and designed to exceed your expectations.
+[SEC Financial Reporting & Compliance](https://centriconsulting.com/#expanding-content__sec-financial-reporting-compliance)
+[IPO & Capital Markets Readiness](https://centriconsulting.com/#expanding-content__ipo-capital-markets-readiness)
+[Technical Accounting](https://centriconsulting.com/#expanding-content__technical-accounting)
+[M&A Advisory](https://centriconsulting.com/#expanding-content__ma-advisory)
+SEC Financial Reporting & Compliance
+Ensure all your reporting is compliant with SEC requirements and aiding the goals of your business.
+[See Our Approach to SEC Financial Reporting](https://centriconsulting.com/services/sec-financial-reporting/)
+![Business leaders analyzing data and charts.](https://centriconsulting.com/wp-content/uploads/2023/09/SEC-Financial-Reporting-640x284.png)
+IPO & Capital Markets Readiness
+Set your IPO journey up for success with preparation work that helps you get ready for what’s to come.
+[See Our Approach to IPO Readiness](https://centriconsulting.com/services/ipo-readiness/)
+![Analyzing financial charts in business and accounting reports.](https://centriconsulting.com/wp-content/uploads/2023/11/IPO-Readiness-1-640x380.webp)
+Technical Accounting
+Find the support you need to ensure you’re accurately documenting the impact of your deals on your statements.
+[See Our Approach to Technical Accounting](https://centriconsulting.com/services/technical-accounting/)
+![Auditor team calculating and checking balances.](https://centriconsulting.com/wp-content/uploads/2023/11/Technical-Accounting-640x243.jpeg)
+M&A Advisory
+Navigate your next transaction in confidence knowing that you have assessed all angles of your next deal.
+[See Our Approach to M&A Advisory](https://centriconsulting.com/services/mergers-acquisitions/)
+![Business leaders shaking hands after a meeting.](https://centriconsulting.com/wp-content/uploads/2023/09/MA-Advisory-640x284.png)
+[Accounting Operations & Transformation](https://centriconsulting.com/#expanding-content__accounting-operations-transformation)
+[Tax Advisory](https://centriconsulting.com/#expanding-content__tax-advisory)
+[Valuation](https://centriconsulting.com/#expanding-content__valuation)
+[Risk Advisory](https://centriconsulting.com/#expanding-content__risk-advisory)
+Accounting Operations & Transformation
+Streamline your accounting processes to meet your current and future needs.
+[See Our Approach to Accounting Operations & Transformation](https://centriconsulting.com/services/operational-transformation/)
+![Business leaders in a meeting.](https://centriconsulting.com/wp-content/uploads/2023/09/Board-Advisory-640x284.png)
+Tax Advisory
+Receive guidance in finding the right tax strategy that works for your business, so you can do more.
+[See Our Approach to Tax Advisory](https://centriconsulting.com/services/tax-advisory/)
+![Business leader typing into a calculator.](https://centriconsulting.com/wp-content/uploads/2023/09/Tax-640x284.png)
+Valuation
+Receive information that helps you understand and accurately gauge the full value of your business.
+[See Our Approach to Valuation](https://centriconsulting.com/services/valuation/)
+![Business leaders analyzing data and charts.](https://centriconsulting.com/wp-content/uploads/2023/09/Valuation-640x284.png)
+Risk Advisory
+Identify risks and find the right strategies to reduce them, so you can continue growing your business.
+[See Our Approach to Risk Advisory](https://centriconsulting.com/services/risk-advisory/)
+![Two people analyzing market research reports and income statistics.](https://centriconsulting.com/wp-content/uploads/2023/11/Risk-Advisory-640x252.jpeg)
+[Outsourced Accounting](https://centriconsulting.com/#expanding-content__outsourced-accounting)
+[HR Advisory](https://centriconsulting.com/#expanding-content__hr-advisory)
+[CFO Advisory](https://centriconsulting.com/#expanding-content__cfo-advisory)
+[Board Advisory](https://centriconsulting.com/#expanding-content__board-advisory)
+Outsourced Accounting
+Grow your business by allowing us to help your team with accounting matters and strategic financial insights.
+[See Our Approach to Outsourced Accounting](https://centriconsulting.com/services/outsourced-accounting/)
+![Two business leaders discussing their outsourced accounting projects.](https://centriconsulting.com/wp-content/uploads/2023/11/Outsourced-Accounting-640x278.jpeg)
+HR Advisory
+Optimize your HR structure to ensure it supports your business and growth goals.
+[See Our Approach to HR Advisory](https://centriconsulting.com/services/hr-advisory/)
+![Business people negotiating in a boardroom behind closed glass doors.](https://centriconsulting.com/wp-content/uploads/2023/11/HR-Advisory-640x427.jpeg)
+CFO Advisory
+Empower your leaders to find the support they need in finding the most effective steps forward toward success.
+[See Our Approach to CFO Advisory](https://centriconsulting.com/services/cfo-advisory/)
+![Two business people talk project strategy at office meeting room.](https://centriconsulting.com/wp-content/uploads/2023/11/MA-Advisory-640x320.jpeg)
+Board Advisory
+Build a strong corporate governance structure that addresses your needs and risks.
+[See Our Approach to Board Advisory](https://centriconsulting.com/services/board-advisory/)
+![Two smiling diverse businessmen in an office.](https://centriconsulting.com/wp-content/uploads/2023/11/CFO-Advisory-scaled-e1701274532581-640x268.webp)
+![](https://centriconsulting.com/wp-content/uploads/2023/09/shutterstock_1406807105-jpg.webp)
+## Industries We Specialize In
+Our business consulting has led us to work with businesses of all sizes and structures, both private and public, across a variety of industries. That said, we do specialize in some notably complex and fast-paced ones.
+[ Capital Markets Readiness ](https://centriconsulting.com/industries/capital-markets-readiness/)
+[ Technology ](https://centriconsulting.com/industries/technology/)
+[ Life Sciences ](https://centriconsulting.com/industries/life-sciences/)
+[ Insurance ](https://centriconsulting.com/industries/insurance/)
+[ Healthcare ](https://centriconsulting.com/industries/healthcare/)
+[ AI ](https://centriconsulting.com/industries/ai-consulting-advisory/)
+[ Financial Services ](https://centriconsulting.com/industries/financial-services-industry/)
+[ Fintech ](https://centriconsulting.com/industries/fintech/)
+[ Digital Assets ](https://centriconsulting.com/industries/digital-assets/)
+[ Private Equity ](https://centriconsulting.com/industries/private-equity/)
+[ Venture Capital ](https://centriconsulting.com/industries/venture-capital/)
+[ Real Estate ](https://centriconsulting.com/industries/real-estate/)
+[ Cannabis ](https://centriconsulting.com/industries/cannabis/)
+[ Mining & Metals ](https://centriconsulting.com/industries/mining-metals/)
+[ Manufacturing & Distribution ](https://centriconsulting.com/industries/manufacturing-distribution/)
+[ Telecommunications ](https://centriconsulting.com/industries/telecommunications/)
+[ Consumer Goods ](https://centriconsulting.com/industries/consumer-goods/)
+![Centri Capital Conference logo.](https://centriconsulting.com/wp-content/uploads/2025/06/Capital-Conference-Logo-No-Date-1.png)
+## **Centri Capital Conference**
+On **April 14, 2026** , at Nasdaq in New York City, the **Centri Capital Conference** will feature dynamic programming with exclusive presentations from disruptive companies, thought-provoking panels, and structured one-on-one meetings.
+[See the Highlights](https://centriconsulting.com/capital-conference/#highlights)
+Client Success Stories
+The Centri team is highly accountable, takes ownership of projects, and drives engagement from all stakeholders. The team’s deep knowledge and skill in their area of specialization have contributed significantly to effectively solving complex problems.
+Investment Operations, Leading FinTech Company 
+The Centri team was a value-add for the transaction. Work done in a timely manner and accurate. Team was easily available for discussions and questions.
+Managing Director, Life Sciences Private Equity firm 
+The Centri team has been a pleasure to partner with on recent M&A transactions (both pre- and post-close services). I really appreciate how flexible the team has been, providing bespoke solutions to our needs and working very efficiently.
+Manager of Strategic Finance,","","https://centriconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Business Advisory Services - Centri Business Consulting","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","centriconsulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","5945a31c9daa00bf647eb70b6c4d624ece1f82aee7e9dfcffa412960c93dc12e","0.0","0.3","4f67b6b9-3102-5c2f-b004-b82fe1a2dcf0","","2026-03-30T21:16:51.224358Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/centriconsulting.com.json","/tmp/tmp3kfvoc1w/evidence/domain/centriconsulting.com.json","","2026-06-28T21:16:51.224360Z","business consulting firm advisor email","2026-03-30T21:16:16.978444Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:16:51.237823Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp3kfvoc1w/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:16:51.237826Z","business consulting firm advisor email","2026-03-30T21:16:18.248618Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:16:51.251018Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp3kfvoc1w/evidence/domain/vaam.io.json","","2026-06-28T21:16:51.251020Z","SaaS startup CEO contact information","2026-03-30T21:16:21.927373Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:16:51.264259Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp3kfvoc1w/evidence/domain/findemails.com.json","","2026-06-28T21:16:51.264261Z","SaaS startup CEO contact information","2026-03-30T21:16:22.581860Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://venturegrowthpartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Fractional CFO/COO Services","1","","","","","","https://www.linkedin.com/company/vgp-venture-growth-partners","","","","0.0","0.0009","0.0","0.0009","venturegrowthpartners.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","daba55742332053ea5a45713553e25550c6fd376e112362f66eb3a0f36027b42","0.0","0.3","74d3c9dc-fcc8-5dc0-968c-eb56e5be2298","","2026-03-30T21:16:51.277371Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/venturegrowthpartners.com.json","/tmp/tmp3kfvoc1w/evidence/domain/venturegrowthpartners.com.json","","2026-06-28T21:16:51.277373Z","venture consulting firm partner email","2026-03-30T21:16:26.412928Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Skip to main content ](https://www.sba.gov/#main-content)
+![](https://www.sba.gov/themes/custom/sba/dist/uswds/img/us_flag_small.png)
+An official website of the United States government 
+Here’s how you know 
+Here’s how you know
+![](https://www.sba.gov/themes/custom/sba/dist/uswds/img/icon-dot-gov.svg)
+**Official websites use .gov**   
+A **.gov** website belongs to an official government organization in the United States. 
+![](https://www.sba.gov/themes/custom/sba/dist/uswds/img/icon-https.svg)
+**Secure .gov websites use HTTPS**   
+A **lock** (  Lock Locked padlock ) or **https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. 
+[ ![SBA Home](https://www.sba.gov/themes/custom/sba/dist/img/logo-horizontal.svg) ](https://www.sba.gov/)
+Menu 
+## Primary Navigation
+![close](https://www.sba.gov/themes/custom/sba/dist/uswds/img/usa-icons/close.svg)
+  * Business Guide
+[ Explore our business guide ](https://www.sba.gov/business-guide)
+    * [ 10 steps to start your business ](https://www.sba.gov/business-guide/10-steps-start-your-business)
+    * [ Plan your business ](https://www.sba.gov/business-guide/plan-your-business)
+      * [ Market research and competitive analysis ](https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis)
+      * [ Write your business plan ](https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan)
+      * [ Calculate your startup costs ](https://www.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs)
+      * [ Establish business credit ](https://www.sba.gov/business-guide/plan-your-business/establish-business-credit)
+      * [ Fund your business ](https://www.sba.gov/business-guide/plan-your-business/fund-your-business)
+      * [ Buy an existing business or franchise ](https://www.sba.gov/business-guide/plan-your-business/buy-existing-business-or-franchise)
+    * [ Launch your business ](https://www.sba.gov/business-guide/launch-your-business)
+      * [ Pick your business location ](https://www.sba.gov/business-guide/launch-your-business/pick-your-business-location)
+      * [ Choose a business structure ](https://www.sba.gov/business-guide/launch-your-business/choose-business-structure)
+      * [ Choose your business name ](https://www.sba.gov/business-guide/launch-your-business/choose-your-business-name)
+      * [ Register your business ](https://www.sba.gov/business-guide/launch-your-business/register-your-business)
+      * [ Get federal and state tax ID numbers ](https://www.sba.gov/business-guide/launch-your-business/get-federal-state-tax-id-numbers)
+      * [ Apply for licenses and permits ](https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits)
+      * [ Open a business bank account ](https://www.sba.gov/business-guide/launch-your-business/open-business-bank-account)
+      * [ Get business insurance ](https://www.sba.gov/business-guide/launch-your-business/get-business-insurance)
+    * [ Manage your business ](https://www.sba.gov/business-guide/manage-your-business)
+      * [ Manage your finances ](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+      * [ Hire and manage employees ](https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees)
+      * [ Pay taxes ](https://www.sba.gov/business-guide/manage-your-business/pay-taxes)
+      * [ Stay legally compliant ](https://www.sba.gov/business-guide/manage-your-business/stay-legally-compliant)
+      * [ Buy assets and equipment ](https://www.sba.gov/business-guide/manage-your-business/buy-assets-equipment)
+      * [ Marketing and sales ](https://www.sba.gov/business-guide/manage-your-business/marketing-sales)
+      * [ AI for small business ](https://www.sba.gov/business-guide/manage-your-business/ai-small-business)
+      * [ Strengthen your cybersecurity ](https://www.sba.gov/business-guide/manage-your-business/strengthen-your-cybersecurity)
+      * [ Prepare for emergencies ](https://www.sba.gov/business-guide/manage-your-business/prepare-emergencies)
+      * [ Recover from disasters ](https://www.sba.gov/business-guide/manage-your-business/recover-disasters)
+      * [ Close or sell your business ](https://www.sba.gov/business-guide/manage-your-business/close-or-sell-your-business)
+      * [ Hire employees with disabilities ](https://www.sba.gov/business-guide/manage-your-business/hire-employees-disabilities)
+    * [ Grow your business ](https://www.sba.gov/business-guide/grow-your-business)
+      * [ Get more funding ](https://www.sba.gov/business-guide/grow-your-business/get-more-funding)
+      * [ Expand to new locations ](https://www.sba.gov/business-guide/grow-your-business/expand-new-locations)
+      * [ Merge and acquire businesses ](https://www.sba.gov/business-guide/grow-your-business/merge-acquire-businesses)
+      * [ Become a federal contractor ](https://www.sba.gov/business-guide/grow-your-business/become-federal-contractor)
+      * [ Export products ](https://www.sba.gov/business-guide/grow-your-business/export-products)
+      * [ Women-owned businesses ](https://www.sba.gov/business-guide/grow-your-business/women-owned-businesses)
+      * [ Native American-owned businesses ](https://www.sba.gov/business-guide/grow-your-business/native-american-owned-businesses)
+      * [ Veteran-owned businesses ](https://www.sba.gov/business-guide/grow-your-business/veteran-owned-businesses)
+      * [ Military spouse businesses ](https://www.sba.gov/business-guide/grow-your-business/military-spouse-businesses)
+      * [ Rural businesses ](https://www.sba.gov/business-guide/grow-your-business/rural-businesses)
+      * [ Minority-owned businesses ](https://www.sba.gov/business-guide/grow-your-business/minority-owned-businesses)
+  * Funding Programs
+[ Find funding programs ](https://www.sba.gov/funding-programs)
+    * [ Loans ](https://www.sba.gov/funding-programs/loans)
+      * [ Make a payment to SBA ](https://www.sba.gov/funding-programs/loans/make-payment-sba)
+      * [ 7(a) loans ](https://www.sba.gov/funding-programs/loans/7a-loans)
+      * [ 504 loans ](https://www.sba.gov/funding-programs/loans/504-loans)
+      * [ Microloans ](https://www.sba.gov/funding-programs/loans/microloans)
+      * [ Lender Match ](https://www.sba.gov/funding-programs/loans/lender-match-connects-you-lenders)
+      * [ COVID-19 relief options ](https://www.sba.gov/funding-programs/loans/covid-19-relief-options)
+    * [ Investment capital ](https://www.sba.gov/funding-programs/investment-capital)
+      * [ SBIC directory ](https://www.sba.gov/funding-programs/investment-capital/sbic-directory)
+    * [ Disaster assistance ](https://www.sba.gov/funding-programs/disaster-assistance)
+      * [ Options to bypass permitting delays ](https://www.sba.gov/funding-programs/disaster-assistance/options-bypass-permitting-delays)
+      * [ Alaska floods ](https://www.sba.gov/funding-programs/disaster-assistance/alaska-floods)
+      * [ Texas floods ](https://www.sba.gov/funding-programs/disaster-assistance/texas-floods)
+      * [ California wildfires ](https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires)
+      * [ Hurricane Helene ](https://www.sba.gov/funding-programs/disaster-assistance/hurricane-helene)
+      * [ Physical damage loans ](https://www.sba.gov/funding-programs/disaster-assistance/physical-damage-loans)
+      * [ Mitigation assistance ](https://www.sba.gov/funding-programs/disaster-assistance/mitigation-assistance)
+      * [ Economic Injury Disaster Loans ](https://www.sba.gov/funding-programs/disaster-assistance/economic-injury-disaster-loans)
+      * [ Military reservist loan ](https://www.sba.gov/funding-programs/disaster-assistance/military-reservist-loan)
+    * [ Surety bonds ](https://www.sba.gov/funding-programs/surety-bonds)
+      * [ Surety bond agency directory ](https://www.sba.gov/funding-programs/surety-bonds/surety-bond-agency-directory)
+    * [ Grants ](https://www.sba.gov/funding-programs/grants)
+      * [ Manufacturing grants ](https://www.sba.gov/funding-programs/grants/manufacturing-grants)
+      * [ State Trade Expansion Program (STEP) ](https://www.sba.gov/funding-programs/grants/state-trade-expansion-program-step)
+      * [ Grants for community organizations ](https://www.sba.gov/funding-programs/grants/grants-community-organizations)
+  * Federal Contracting
+[ Learn about federal contracting ](https://www.sba.gov/federal-contracting)
+    * [ Contracting guide ](https://www.sba.gov/federal-contracting/contracting-guide)
+      * [ Assess your business ](https://www.sba.gov/federal-contracting/contracting-guide/assess-your-business)
+      * [ Basic requirements ](https://www.sba.gov/federal-contracting/contracting-guide/basic-requirements)
+      * [ How to win contracts ](https://www.sba.gov/federal-contracting/contracting-guide/how-win-contracts)
+      * [ Types of contracts ](https://www.sba.gov/federal-contracting/contracting-guide/types-contracts)
+      * [ Size standards ](https://www.sba.gov/federal-contracting/contracting-guide/size-standards)
+      * [ Governing rules and responsibilities ](https://www.sba.gov/federal-contracting/contracting-guide/governing-rules-responsibilities)
+      * [ Prime and subcontracting ](https://www.sba.gov/federal-contracting/contracting-guide/prime-subcontracting)
+    * [ Contracting assistance programs ](https://www.sba.gov/federal-contracting/contracting-assistance-programs)
+      * [ Women-Owned Small Business Federal Contract program ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/women-owned-small-business-federal-contract-program)
+      * [ Veteran contracting assistance programs ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs)
+      * [ 8(a) Business Development program ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program)
+      * [ SBA Mentor-Protégé program ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/sba-mentor-protege-program)
+      * [ Joint ventures ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/joint-ventures)
+      * [ HUBZone program ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/hubzone-program)
+      * [ Natural Resource Sales Assistance program ](https://www.sba.gov/federal-contracting/contracting-assistance-programs/natural-resource-sales-assistance-program)
+    * [ Counseling and help ](https://www.sba.gov/federal-contracting/counseling-help)
+      * [ Contracting area directors ](https://www.sba.gov/federal-contracting/counseling-help/contracting-area-directors)
+      * [ Procurement Center Representative directory ](https://www.sba.gov/federal-contracting/counseling-help/procurement-center-representative-directory)
+      * [ Commercial Market Representatives ](https://www.sba.gov/federal-contracting/counseling-help/commercial-market-representatives)
+    * [ Contracting data ](https://www.sba.gov/federal-contracting/contracting-data)
+      * [ Small business procurement scorecard ](https://www.sba.gov/federal-contracting/contracting-data/small-business-procurement-scorecard)
+      * [ Procurement data hub ](https://datahub.certify.sba.gov/)
+  * Learning Platform
+[ Explore our learning platform ](https://www.sba.gov/sba-learning-platform)
+    * [ SBA Learning ](https://learning.sba.gov)
+    * [ Boots to Business ](https://www.sba.gov/sba-learning-platform/boots-business)
+    * [ Empower to Grow ](https://www.sba.gov/sba-learning-platform/empower-grow)
+  * Local Assistance
+[ Find resources in your area ](https://www.sba.gov/local-assistance)
+    * [ Resource Partners ](https://www.sba.gov/local-assistance/resource-partners)
+      * [ Small Business Development Centers (SBDC) ](https://www.sba.gov/local-assistance/resource-partners/small-business-development-centers-sbdc)
+      * [ SCORE Business Mentoring ](https://www.sba.gov/local-assistance/resource-partners/score-business-mentoring)
+      * [ Veterans Business Outreach Centers (VBOC) ](https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers-vboc)
+      * [ Women's Business Centers ](https://www.sba.gov/local-assistance/resource-partners/womens-business-centers)
+    * [ Export and trade assistance ](https://www.sba.gov/local-assistance/export-trade-assistance)
+      * [ Finance Managers ](https://www.sba.gov/local-assistance/export-trade-assistance/finance-managers)
+      * [ U.S. Export Assistance Centers ](https://www.sba.gov/local-assistance/export-trade-assistance/us-export-assistance-centers)
+    * [ Federal contracting assistance ](https://www.sba.gov/local-assistance/federal-contracting-assistance)
+    * [ Regional Innovation Clusters ](https://www.sba.gov/local-assistance/regional-innovation-clusters)
+    * [ Veterans Business Development Officers ](https://www.sba.gov/local-assistance/veterans-business-development-officers)
+  * Priorities
+[ Discover SBA's priorities ](https://www.sba.gov/priorities)
+    * [ Putting American manufacturers first ](https://www.sba.gov/priorities/american-manufacturers)
+      * [ Cutting red tape for small manufacturers ](https://www.sba.gov/priorities/american-manufacturers/cutting-red-tape-small-manufacturers)
+      * [ Increasing access to capital ](https://www.sba.gov/priorities/american-manufacturers/increasing-access-capital)
+      * [ Make Onshoring Great Again portal ](https://www.sba.gov/priorities/american-manufacturers/make-onshoring-great-again-portal)
+      * [ Taking your manufacturing business global ](https://www.sba.gov/priorities/american-manufacturers/taking-your-manufacturing-business-global)
+      * [ Manufacturing success stories ](https://www.sba.gov/priorities/american-manufacturers/manufacturing-success-stories)
+    * [ Small business resource hubs ](https://www.sba.gov/priorities/small-business-resource-hubs)
+      * [ Child care business development support ](https://www.sba.gov/priorities/small-business-resource-hubs/child-care-business-development-support)
+      * [ Interagency capital resources for small businesses ](https://www.sba.gov/priorities/small-business-resource-hubs/interagency-capital-resources-small-businesses)
+    * [ SBA initiatives ](https://www.sba.gov/priorities/sba-initiatives)
+      * [ Community Builders Network ](https://www.sba.gov/priorities/sba-initiatives/community-builders-network)
+      * [ Small Businesses Against Trafficking in Persons (SBATiP) ](https://www.sba.gov/priorities/sba-initiatives/small-businesses-against-trafficking-persons-sbatip)
+    * [ Councils and committees ](https://www.sba.gov/priorities/councils-and-committees)
+      * [ National Small Business Development Center Advisory Board ](https://www.sba.gov/priorities/councils-and-committees/national-small-business-development-center-advisory-board)
+      * [ Invention, Innovation, and Entrepreneurship Advisory Committee ](https://www.sba.gov/priorities/councils-and-committees/invention-innovation-entrepreneurship-advisory-committee)
+      * [ Investment Capital Advisory Committee ](https://www.sba.gov/priorities/councils-and-committees/investment-capital-advisory-committee)
+      * [ Small Business Lending Advisory Council ](https://www.sba.gov/priorities/councils-and-committees/small-business-lending-advisory-council)
+      * [ Regional Regulatory Fairness Boards ](https://www.sba.gov/priorities/councils-and-committees/regional-regulatory-fairness-boards)
+  * About SBA
+[ Learn about SBA ](https://www.sba.gov/about-sba)
+    * [ SBA locations ](https://www.sba.gov/about-sba/sba-locations)
+      * [ Headquarters Offices ](https://www.sba.gov/about-sba/sba-locations/headquarters-offices)
+      * [ Disaster Offices ](https://www.sba.gov/about-sba/sba-locations/disaster-field-operations-centers)
+      * [ District Offices ](https://www.sba.gov/about-sba/sba-locations/sba-district-offices)
+      * [ Loan and Guaranty Centers ](https://www.sba.gov/about-sba/sba-locations/loan-guaranty-centers)
+    * [ Open government ](https://www.sba.gov/about-sba/open-government)
+      * [ FOIA ](https://www.sba.gov/about-sba/open-government/foia)
+      * [ Digital SBA ](https://www.sba.gov/about-sba/open-government/digital-sba)
+      * [ About the SBA.gov website ](https://www.sba.gov/about-sba/open-government/about-sbagov-website)
+      * [ SBA privacy program ](https://www.sba.gov/about-sba/open-government/sba-privacy-program)
+      * [ Privacy Act request guide ](https://www.sba.gov/about-sba/open-government/privacy-act-request-guide)
+      * [ Information quality ](https://www.sba.gov/about-sba/open-government/information-quality)
+      * [ SBA guidance ](https://www.sba.gov/about-sba/open-government/sba-guidance)
+      * [ AI inventory ](https://www.sba.gov/about-sba/open-government/ai-inventory)
+      * [ Made in America waivers ](https://www.sba.gov/about-sba/open-government/made-america-waivers)
+      * [ SMS terms and conditions ](https://www.sba.gov/about-sba/open-government/sms-terms-conditions)
+    * [ SBA Newsroom ](https://www.sba.gov/about-sba/sba-newsroom)
+    * [ Work for SBA ](https://www.sba.gov/about-sba/work-sba)
+      * [ Employee life ](https://www.sba.gov/about-sba/work-sba/employee-life)
+      * [ Jobs at SBA ](https://www.sba.gov/about-sba/work-sba/jobs-sba)
+      * [ Contracting for SBA ](https://www.sba.gov/about-sba/work-sba/contracting-sba)
+      * [ Disaster response jobs at SBA ](https://www.sba.gov/about-sba/work-sba/disaster-response-jobs-sba)
+    * [ Organization ](https://www.sba.gov/about-sba/organization)
+      * [ SBA leadership ](https://www.sba.gov/about-sba/organization/sba-leadership)
+      * [ Contact SBA ](https://www.sba.gov/about-sba/organization/contact-sba)
+      * [ Forms and documents ](https://www.sba.gov/documents)
+      * [ Observances ](https://www.sba.gov/about-sba/organization/observances)
+      * [ Performance ](https://www.sba.gov/about-sba/organization/performance)
+      * [ Federal advisory committees ](https://www.sba.gov/about-sba/organization/federal-advisory-committees)
+    * [ Oversight and advocacy ](https://www.sba.gov/about-sba/oversight-advocacy)
+      * [ Office of Hearings and Appeals ](https://www.sba.gov/about-sba/oversight-advocacy/office-hearings-appeals)
+      * [ Office of Inspector General ](https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general)
+      * [ Office of the National Ombudsman ](https://www.sba.gov/about-sba/oversight-advocacy/office-national-ombudsman)
+      * [ Office of Advocacy ](https://advocacy.sba.gov/)
+
+
+  * [ For Partners ](https://www.sba.gov/partners)
+  * [ Newsroom ](https://www.sba.gov/about-sba/sba-newsroom)
+  * [ Contact us ](https://www.sba.gov/about-sba/organization/contact-sba)
+
+Search ![Search](https://www.sba.gov/themes/custom/sba/dist/uswds/img/usa-icons-bg/search--white.svg)
+![Site of rebuilding after California wildfires ](https://www.sba.gov/sites/default/files/styles/hero/public/2026-01/Image.jpg.webp?h=30a853e8&itok=ELZ_8CTF)
+# Options to fast-track disaster recovery
+[ See how SBA can help ](https://www.sba.gov/funding-programs/disaster-assistance/options-bypass-permitting-delays)
+  * ## Make a payment to SBA
+Learn how to make a payment on your SBA loan or check your account balance and due date. 
+[Make a payment](https://www.sba.gov/funding-programs/loans/make-payment-sba)
+  * ## Log into your SBA account
+Check your account status, update your information, and get access to other portals. 
+[Access your SBA login](https://www.sba.gov/about-sba/open-government/about-sbagov-website/sba-account-login-registration-portals)
+  * ## Upcoming events
+SBA and our partners host virtual and in-person educational trainings to help start and grow your business. 
+[Find upcoming events](https://www.sba.gov/events)
+
+
+![Manufacturing](https://www.sba.gov/sites/default/files/styl","","https://sba.gov","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Small Business Administration","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","sba.gov","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/17","0.7353","llm","heuristic_no_credit","b264c0172a670367dc6c59e8b52bec91ca02d69644105f929ab874b95ae0fde8","0.0","0.3","925774fd-d0b1-51e6-b6cc-6455a6f15fe9","","2026-03-30T21:16:51.290806Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/sba.gov.json","/tmp/tmp3kfvoc1w/evidence/domain/sba.gov.json","","2026-06-28T21:16:51.290808Z","small business advisory firm team page","2026-03-30T21:16:33.014050Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bookyourdata.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Buy Email List","1","","","","","","https://www.linkedin.com/company/bookyourdata.com","","","","0.0","0.0009","0.0","0.0009","bookyourdata.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","d3ad10e14ff6df47c546d531c9222b40dbcfd953b4fec1eb94fdaf8322dbc772","0.0","0.3","0389ae3a-aceb-5e5f-a0cc-772d418f2409","","2026-03-30T21:16:51.303996Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bookyourdata.com.json","/tmp/tmp3kfvoc1w/evidence/domain/bookyourdata.com.json","","2026-06-28T21:16:51.303998Z","tech startup founder contact page","2026-03-30T21:16:36.739435Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","|   
+## My Favorite Co-Founders
+![My profile](https://founders-nation.com/images/icon_my_profile.png) [Save Favorites](javascript:openSaveingFavoritesDiv\('simplemodal-container-saveingFavorites','-1','-1'\);) ![see all](https://founders-nation.com/images/icon_see_all.png) [See all](https://founders-nation.com/Favorites.aspx) ![close](https://founders-nation.com/images/favortie_x_off.png)  |  
+| --- |  
+|  |  
+|   |  
+[Click to Favorites](https://founders-nation.com/)  
+|   
+ |   
+ |  Signup |  Login  |  
+| --- |  
+|  |  
+|   
+ | [![Founders Nation](https://founders-nation.com/images/logo.png)](https://founders-nation.com/Default.aspx "Founders Nation")  |   |   
+ |  |  
+| --- |  
+|  [Perks](https://founders-nation.com/Page.aspx?id=17&name=Perks) [Partners](https://founders-nation.com/Page.aspx?id=13&name=Partners) [Contact Us ](https://founders-nation.com/ContactUs.aspx)  |  
+|   |  
+ |  
+ |  
+|  |  
+|   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/70b60a2b-1bb9-4185-8072-e24f4c4a9c9d.jpg)  |   |   
+ | Naama |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Market...  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Designer  |  
+|  |  
+| **Industry:**  |   |   |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+My name is Naama Katan I am an Industrial and Management Engineer and I’m looking to join a startup as Co-Founder. I am confident that I have the skills to make a meaningful contribution as a business developer or a marketing wizard  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=927&name=Naama "Naama") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/f461ff1d-778a-4737-a350-5e3767ea1d98.jpg)  |   |   
+ | Keren Berler |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Mobile Apps  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+This is a unique opportunity to lead all tech and product aspects as part of an incredible and fun team. We're looking for a mobile developer who loves and understands product.  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=3653&name=Keren+Berler "Keren Berler") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/d63487b5-d148-4b96-93a3-c96fae4f3431.jpg)  |   |   
+ | Craig Brennan |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Produc...  |  
+|  |  
+| **I'm looking for:**  |   | Business Dev, Market...  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+I have a marketing and business plan ready to launch, I now need the right individual to join me and give the project the attention and dedication it deserves.  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=4220&name=Craig+Brennan "Craig Brennan") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/d5e9f42a-6794-41da-b7b4-af7284c3426f.jpg)  |   |   
+ | Devon Olivia |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Designer  |  
+|  |  
+| **Industry:**  |   | Mobile Apps  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+I'm looking for a co-founder that can help me bring my business to market. I have a background in Accounting and Finance and started my own non-profit and have worked with great entrepreneurs.   |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=5413&name=Devon+Olivia "Devon Olivia") |  
+|   
+ |  **Find or Become a Start-up Co-Founder **
+##  Join in Berlin, Paris, London, Tel-Aviv, NY....and in your city. 
+ |  
+| --- |  
+|  |  
+| [![Im intersted](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Registration.aspx) |  
+ |  
+![](https://founders-nation.com/admin/App_Upload/_thumbs/70b60a2b-1bb9-4185-8072-e24f4c4a9c9d.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/f461ff1d-778a-4737-a350-5e3767ea1d98.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/d63487b5-d148-4b96-93a3-c96fae4f3431.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/d5e9f42a-6794-41da-b7b4-af7284c3426f.jpg)
+ |  
+|  |  
+|   
+ |   
+ |  |  
+| --- |  
+| ![Search Advanced](https://founders-nation.com/images/bg_arrow_cantwt-find.png) |  
+|   
+ |  |  
+| --- |  
+|   
+ |   
+ |   | I'm looking for a Co-founder..  |   |   | from...  |   | who is...  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|   |  Who has a startup idea Who wants to join a startup [](https://founders-nation.com/)[Who has a startup idea](https://founders-nation.com/)
+  * [Who has a startup idea](https://founders-nation.com/#1)
+  * [Who wants to join a startup](https://founders-nation.com/#2)
+
+ |   |   |   |   |  Select  Select allCoder  
+Designer  
+Marketing Wizard  
+Sales  
+Product  
+Business Dev  |  
+|   |  
+|  |  
+|   
+ |   |  Stage of idea Got an idea Business plan  Prototype built Product tested Got Paying Customer [](https://founders-nation.com/)[Stage of idea](https://founders-nation.com/)
+  * [Stage of idea](https://founders-nation.com/#-1)
+  * [Got an idea](https://founders-nation.com/#1)
+  * [Business plan ](https://founders-nation.com/#2)
+  * [Prototype built](https://founders-nation.com/#3)
+  * [Product tested](https://founders-nation.com/#4)
+  * [Got Paying Customer](https://founders-nation.com/#5)
+
+ |   |  Hours per week: [](https://founders-nation.com/)  |   |   |  
+| --- | --- | --- | --- | --- | --- |  
+ |  
+|  |  
+|   
+ |   | I'm looking for a Co-founder..  |   |   | from...  |   | who is...  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|   |  Who has a startup idea Who wants to join a startup [](https://founders-nation.com/)[Who has a startup idea](https://founders-nation.com/)
+  * [Who has a startup idea](https://founders-nation.com/#1)
+  * [Who wants to join a startup](https://founders-nation.com/#2)
+
+ |   |   |   |   |  Select  Select allCoder  
+Designer  
+Marketing Wizard  
+Sales  
+Product  
+Business Dev  |  
+|   |  
+ |  
+|  |  
+| [![Advanced Search](https://founders-nation.com/images/bg_text_cantwt-find1.png)](javascript:openAdvancedSearch\(\);) |  
+|   |  
+ |  
+|   
+ |   
+ |  [](https://founders-nation.com/ "Close")  
+ |  |  
+| --- |  
+| 
+# Send Your Message to 
+ |  
+|  |  
+|   |  *   |  
+|  |  
+|   |  *   |  
+|  |  
+|   |  
+[](https://founders-nation.com/ "Close")  
+| [![Founders Nation](https://founders-nation.com/images/Sub_logo.png)](https://founders-nation.com/Default.aspx)  |  
+| --- |  
+|  |  
+| 
+# In order to send messages you must be a registered member. Please sign up or login.
+ |  
+|  |  
+|   
+ | [![Registration](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Login.aspx)  | [![Registration](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Registration.aspx)  |  
+| --- | --- |  
+ |  
+|  |  
+| --- |  
+|  |  
+|  |  
+|   
+ | 
+#  Looking for a Co-Founder to join my [Idea](https://founders-nation.com/Ideas.aspx)
+* * *
+ |  
+| --- |  
+|  |  
+|   
+ | 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/3880d3a4-c5f4-41b0-826b-4739d3580d98.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [JAGPREET SINGH](https://founders-nation.com/Profile.aspx?id=42572&name=JAGPREET+SINGH "JAGPREET SINGH") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| India |  
+|  |  
+| **I'm a:**  |   | Business Dev, Marketing Wiza...  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Internet - Consumer  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| I’ve been building MemoX for about a year, shaping it into a next‑generation social engagement platform built around a simple belief: people want a personal yet connected digital space. MemoX gives users freedom, privacy, and control - like a persona... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42572&name=JAGPREET+SINGH "JAGPREET SINGH") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/1jagpreetsingh/)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42572',42572,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/fcb51fcb-0e7e-43ab-8de5-8d5f71e62d6d.png) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Michael Setton](https://founders-nation.com/Profile.aspx?id=42490&name=Michael+Setton "Michael Setton") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| London, UK |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, UX  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| Digital2win is a platform for physical AI with Real to Sim to Real capability. Already implemented 3D Gaussian splats, avatars, voice. Part of Nvidia Inception program. Looking for a co-founder that knows full stack development and is capable of init... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42490&name=Michael+Setton "Michael Setton") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/michaelsetton)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42490',42490,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/20c36cf7-f8ca-4dc6-8db3-e15f1955e027.png) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Sumit Arora](https://founders-nation.com/Profile.aspx?id=42487&name=Sumit+Arora "Sumit Arora") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Silicon Valley, US |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Marketing Wizard  |  
+|  |  
+| **Industry:**  |   | Life Sciences/Healthcare  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| I’m building TrueTime — an eligibility and intake infrastructure layer for home-based healthcare. Right now, agencies waste hours verifying insurance, interpreting documentation, and clearing patients. It’s slow, manual, and error-prone. That fric... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42487&name=Sumit+Arora "Sumit Arora") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42487',42487,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/f378179f-0991-41ad-8f62-c6dff71dda01.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Kyle Mapfumo](https://founders-nation.com/Profile.aspx?id=42401&name=Kyle+Mapfumo "Kyle Mapfumo") |  
+|   
+ | Have an idea for startup  | Favorites (1)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| London, UK |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Business Dev, Sales  |  
+|  |  
+| **Industry:**  |   | Life Sciences/Healthcare  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| The idea is to build a scalable franchising model around Oath Healthcare, allowing high-quality local operators to deliver care under a strong central brand, systems, and governance framework. The core business already operates in the healthcare s... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42401&name=Kyle+Mapfumo "Kyle Mapfumo") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42401',42401,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/5728311a-a067-4a5e-b14c-58092864be28.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Nigel Li-Fo-Sjoe](https://founders-nation.com/Profile.aspx?id=42326&name=Nigel+Li-Fo-Sjoe "Nigel Li-Fo-Sjoe") |  
+|   
+ | Have an idea for startup  | Favorites (1)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| New York, US |  
+|  |  
+| **I'm a:**  |   | Sales, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| The idea: I've seen thousands of companies struggle with VAT compliance when expanding from the US to Canada and Europe. The current solutions are too expensive, not flexible or generic software gets the rules wrong. I'm building AI-powered VAT compl... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42326&name=Nigel+Li-Fo-Sjoe "Nigel Li-Fo-Sjoe") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/nigel-li-fo-sjoe/)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42326',42326,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/94598075-439c-4203-986f-d7942bd63c60.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Guy Azar](https://founders-nation.com/Profile.aspx?id=42313&name=Guy+Azar "Guy Azar") |  
+|   
+ | Have an idea for startup  | Favorites (2)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Tel Aviv, Israel |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| You are an aspiring tech leader You are an enthusiast tech builder You find your way forward anywhere You learn fast, deliver fast and independent  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42313&name=Guy+Azar "Guy Azar") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://portune.io)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42313',42313,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/7258d7fd-b47b-4c57-a707-cb9b458154c9.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Sivan S](https://founders-nation.com/Profile.aspx?id=42252&name=Sivan+S "Sivan S") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Tel Aviv, Israel |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, UX  |  
+|  |  
+| **Industry:**  |   | eHealth  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| We are a MedTech startup developing an innovative medical monitoring system that integrates sensors, a mobile app, cloud infrastructure, and AI analysis. We are seeking a leading CTO – a technological leader and system integrator with strong hands-o... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42252&name=Sivan+S ","","https://founders-nation.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find or become a startup Co-Founder","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","founders-nation.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","440a7895228b444a4aca1799d5cd812b170560d525ca314d4a44432524dcf727","0.0","0.3","aff74710-e9e2-5711-aae7-89857d9a42bf","","2026-03-30T21:16:51.317383Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/founders-nation.com.json","/tmp/tmp3kfvoc1w/evidence/domain/founders-nation.com.json","","2026-06-28T21:16:51.317386Z","tech startup founder contact page","2026-03-30T21:16:37.990728Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27217%27%20height=%2732%27/%3e)![CoFoundersLab](https://cofounderslab.com/_next/static/media/cofounderslab-logo.3885b809.svg)
+LoginFind a CoFounder
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.ad4cbf6a.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.b6e32431.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-3.8a85b438.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.a6138ec1.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.9e95a008.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-6.2ed02a9e.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-7.77447654.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-8.facbdff3.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-9.a713ec9c.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-10.a4220a46.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-11.75c2ade9.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-12.4694bc36.jpg&w=128&q=75)
+#  The Startup CommunityStart. Grow. Fund.
+CoFoundersLab is the largest startup community on the Internet. Accelerate your business today.
+### Find a CoFounder
+Find your perfect partner based on interests, skills and location.
+### Get the Right Advice
+Get Exclusive Access to industry leaders to accelerate your growth
+### Get Funded
+Prepare and perfect your pitch to get your business funded today!
+#### TRUSTED BY INDUSTRY LEADERS
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/pepperdine.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-pepperdine.png)
+## Building The World's NextGreat Companies
+Join the largest startup community where entrepreneurs connect, collaborate, and create the future of business together
+### Innovation First
+Turn groundbreaking ideas into reality with the right team and resources
+### Find Your Co-Founder
+Connect with complementary skills and shared vision to build something amazing
+### Scale Together
+Access mentorship, resources, and a community that supports your growth
+### Launch Faster
+Accelerate your path from concept to market with proven frameworks
+## Join a Thriving Community
+Connect with thousands of entrepreneurs, founders, and innovators from around the world
+![Community member 1](https://cofounderslab.com/)
+![Community member 2](https://cofounderslab.com/)
+![Community member 3](https://cofounderslab.com/)
+![Community member 4](https://cofounderslab.com/)
+![Community member 5](https://cofounderslab.com/)
+![Community member 6](https://cofounderslab.com/)
+And 700,000+ more entrepreneurs worldwide
+#### Our Community
+## With you every step of the way
+### Start your business
+Got the next best idea in business? Get access to everything you need to take on the world with your StartUp
+Learn More →
+### Grow your business
+Ready to grow your market? Get exclusive access to professionals and leaders to get you there!
+Learn More →
+### Fund your business
+Is your business seeking capital? Access an exclusive network of investors and prepare your business to get Funded!
+Learn More →
+#### NETWORK
+## Connect to an Expansive Global Network
+CoFoundersLab connects you to entrepreneurs, advisors & investors across 200+ cities and 6 continents.
+![Global network map showing connections across continents](https://cofounderslab.com/)
+700,000
+User worldwide
+200+
+Expert advisors
+### "Take Our Idea And Turn It into A Solid Business"
+By helping us find the right team member, CoFoundersLab really did help us take our company idea and turn it into a solid business that has the potential to change the world!
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27512%27%20height=%27512%27/%3e)![Drew Taylor](https://cofounderslab.com/)
+Drew Taylor
+CoFounder of AstroPrint
+## Building Your Dream Business
+From advisors, investors, mentors & entrepreneurs, CoFoundersLab provides you with all the means necessary to find the perfect fit for your startup.
+![CoFoundersLab](https://cofounderslab.com/white-logo.png)![CoFoundersLab](https://cofounderslab.com/logo.png)
+#### Product
+  * [Premium](https://cofounderslab.com/premium)
+
+
+#### Resources
+  * [Privacy Policy](https://cofounderslab.com/privacy)
+
+
+#### Company
+  * [Contact us](https://cofounderslab.com/support)
+
+
+#### Join Newsletter
+#### Connect with us
+[](https://www.facebook.com/cofounderslab)[](https://www.youtube.com/cofounderslab)[](https://www.instagram.com/cofounderslab)
+","","https://cofounderslab.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","cofounderslab.com","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","cofounderslab.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","6ecdfe1cb32e2d2a15711f44cdf006210c8ea96376b1adf7d279dba52838dae3","0.0","0.3","05296d9f-f230-5d5a-b166-36698c7b7684","","2026-03-30T21:16:51.330878Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cofounderslab.com.json","/tmp/tmp3kfvoc1w/evidence/domain/cofounderslab.com.json","","2026-06-28T21:16:51.330880Z","tech startup founder contact page","2026-03-30T21:16:39.220640Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://foundersnetwork.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Founders Network","1","","","","","","https://www.linkedin.com/company/founders-network","","","","0.0","0.0009","0.0","0.0009","foundersnetwork.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","4d998d425d1b584718e96b9bc095aa76028314ff872d323f2c50094fdbc034a4","0.0","0.3","f2ff5cc3-fc9a-5636-a3e2-6cf2dad387de","","2026-03-30T21:16:51.368112Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/foundersnetwork.com.json","/tmp/tmp3kfvoc1w/evidence/domain/foundersnetwork.com.json","","2026-06-28T21:16:51.368114Z","tech startup founder contact page","2026-03-30T21:16:40.457360Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Preparing for case interviews? Watch this example to learn exactly what to expect. More Case Examples https://youtu.be/M0-c7rXzhwk?si=SRa4785a9z1EhBtR Why","","https://managementconsulted.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Management Consulted: The World&#039;s Largest Resource on Consulting and the Case Interview","1","","","","","","https://www.linkedin.com/company/10147742","","","","0.0","0.0009","0.0","0.0009","managementconsulted.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","0a9fc4bb576d79a343bc82ec3b008372b8398ff6748d175bbde5fba45559a3eb","0.0","0.3","1a6e94e1-be14-5dc0-ba7f-9d891f9ef95d","","2026-03-30T21:16:51.381168Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/managementconsulted.com.json","/tmp/tmp3kfvoc1w/evidence/domain/managementconsulted.com.json","","2026-06-28T21:16:51.381170Z","management consulting firm director email","2026-03-30T21:16:43.902756Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:16:51.394403Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp3kfvoc1w/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:16:51.394405Z","management consulting firm director email","2026-03-30T21:16:46.385707Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","We offer award-winning services as one of the best digital marketing companies in SEO, PPC, GEO, and more. Call 800.979.3177.","","https://directom.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Top-Rated Digital Marketing Company","1","","","","","","https://www.linkedin.com/company/direct-online-marketing","","","","0.0","0.0009","0.0","0.0009","directom.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","55103b834fd570d0f736d256028980194897877d2cf1da2729564785fe97c33e","0.0","0.3","09ef396f-0c74-5561-bf5a-dddb1c6c5f18","","2026-03-30T21:16:51.407496Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/directom.com.json","/tmp/tmp3kfvoc1w/evidence/domain/directom.com.json","","2026-06-28T21:16:51.407498Z","digital marketing agency founder contact","2026-03-30T21:16:51.176151Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

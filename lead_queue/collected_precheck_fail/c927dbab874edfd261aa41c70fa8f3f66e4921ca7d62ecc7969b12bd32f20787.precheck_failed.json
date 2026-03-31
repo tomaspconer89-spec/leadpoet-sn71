@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "AI\u00a0Pitch Deck Generator & Co-Pilot for Building Startup | PitchBob",
+  "lead": {
+    "business": "AI\u00a0Pitch Deck Generator & Co-Pilot for Building Startup | PitchBob",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://pitchbob.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://pitchbob.io",
+    "description": "[![PitchBob.io Founders Co-pilot](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a981d_logo.svg)](https://pitchbob.io/) Products ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg) [Co-Pilot](https://pitchbob.io/products/ai-startup-founders-co-pilot)[Enterprise](https://pitchbob.io/products/enterprise)[Improve Deck](https://pitchbob.io/products/improve-pitch-deck)[Business Plan](https://pitchbob.io/products/ai-business-plan-generator)[White Label](https://pitchbob.io/services/white-label)[VC analyst](https://p",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

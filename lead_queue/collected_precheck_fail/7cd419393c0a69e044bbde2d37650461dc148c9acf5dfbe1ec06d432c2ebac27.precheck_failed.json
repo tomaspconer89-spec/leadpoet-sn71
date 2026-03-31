@@ -5,6 +5,8 @@
     "business": "Invisionate",
     "full_name": "null",
     "first": "null",
+    "last": "",
+    "email": "",
     "role": "null",
     "website": "https://invisionate.com",
     "industry": "Business Consulting",
@@ -27,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   },
   "queue_bucket": "B_retry_enrichment"

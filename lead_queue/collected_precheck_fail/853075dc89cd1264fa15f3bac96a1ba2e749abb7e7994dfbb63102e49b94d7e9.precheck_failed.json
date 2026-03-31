@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: country, city, linkedin",
+  "business": "Fort Worth Chamber: Together, We Mean Business.",
+  "lead": {
+    "business": "Fort Worth Chamber: Together, We Mean Business.",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@fortworthchamber.com",
+    "role": "Contact",
+    "website": "https://fortworthchamber.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/ftwchamber)[Visit",
+    "source_url": "https://fortworthchamber.com",
+    "description": "By using this website, you agree to allow us to place cookies on your computer. [\u2605 Privacy Policy](https://www.fortworthchamber.com/privacy-policy/) GOT IT .",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ftwchamber)[Visit",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

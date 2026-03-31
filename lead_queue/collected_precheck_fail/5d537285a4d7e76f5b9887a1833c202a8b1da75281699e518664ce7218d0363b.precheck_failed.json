@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "Generative AI Consultancy For Financial Services",
+  "lead": {
+    "business": "Generative AI Consultancy For Financial Services",
+    "full_name": "Laura Florentine Stiskal",
+    "first": "Laura",
+    "last": "Florentine Stiskal",
+    "email": "",
+    "role": "partner",
+    "website": "https://consultvp.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/laura-florentine-stiskal",
+    "company_linkedin": "https://www.linkedin.com/company/consult-venture-partners",
+    "source_url": "https://consultvp.com",
+    "description": "Award-winning Generative AI Consultancy For Financial Services. Gain advanced insights in Generative AI from Generative AI consultants.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/consult-venture-partners",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

@@ -1,0 +1,523 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T22:47:29.509544Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp8uiohik9/evidence/domain/cansulta.com.json","","2026-06-28T22:47:29.509547Z","startup advisory services founder contact","2026-03-30T22:47:02.064600Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Search Search
+[Pay](https://www.quickfee.com/QSOP-US/#/company/quickfeeus/firm/delap)
+[Client Login](https://delapcpa.sharefile.com/Authentication/Login)
+[ ![Delap CPA Logo](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/delap-logo.png) ](https://www.delapcpa.com/)
+Search Search
+  * [Home](https://www.delapcpa.com/)
+  * [About](https://www.delapcpa.com/about/)
+    * [Back](https://www.delapcpa.com/)
+    * [Careers](https://www.delapcpa.com/about/careers/)
+      * [Benefits & Perks](https://www.delapcpa.com/about/careers/benefits-perks/)
+      * [Experienced Professionals](https://www.delapcpa.com/about/careers/experienced-professionals/)
+      * [Campus Candidates](https://www.delapcpa.com/about/careers/campus-candidates/)
+      * [Current Opportunities](https://www.delapcpa.com/about/careers/current-opportunities/)
+    * [Community Involvement](https://www.delapcpa.com/about/community-involvement/)
+    * [Who We Are](https://www.delapcpa.com/about/who-we-are/)
+  * [Services](https://www.delapcpa.com/services/)
+    * [Back](https://www.delapcpa.com/)
+    * [Assurance](https://www.delapcpa.com/services/assurance/)
+      * [Employee Benefit Plans](https://www.delapcpa.com/services/employee-benefit-plans/)
+    * [Business Advisory](https://www.delapcpa.com/services/business-advisory/)
+      * [Fractional CFO](https://www.delapcpa.com/services/business-advisory/fractional-cfo-services/)
+      * [Mergers & Acquisitions](https://www.delapcpa.com/services/mergers-acquisitions/)
+    * [Cybersecurity Consulting](https://www.delapcpa.com/services/cybersecurity-consulting/)
+    * [Managed IT Services](https://www.delapcpa.com/services/managed-it-services/)
+    * [Tax](https://www.delapcpa.com/services/tax/)
+      * [State & Local Tax](https://www.delapcpa.com/services/state-local-tax/)
+      * [Trust & Estate Planning](https://www.delapcpa.com/services/trust-estate-planning/)
+    * [Wealth Advisory](https://delapwa.com/)
+  * [Industries](https://www.delapcpa.com/industries/)
+    * [Back](https://www.delapcpa.com/)
+    * [Automotive](https://www.delapcpa.com/industries/automotive/)
+    * [Construction](https://www.delapcpa.com/industries/construction/)
+    * [Financial Institutions](https://www.delapcpa.com/industries/financial-institutions/)
+    * [Food & Beverage](https://www.delapcpa.com/industries/food-beverage/)
+    * [Home Builders](https://www.delapcpa.com/industries/home-builders/)
+    * [Manufacturing](https://www.delapcpa.com/industries/manufacturing/)
+    * [Real Estate](https://www.delapcpa.com/industries/real-estate/)
+    * [Retail & Wholesale](https://www.delapcpa.com/industries/retail-wholesale/)
+    * [Senior Living](https://www.delapcpa.com/industries/senior-living-long-term-care/)
+    * [Software & Technology](https://www.delapcpa.com/industries/software-technology/)
+  * [People](https://www.delapcpa.com/people/)
+  * [Resources](https://www.delapcpa.com/resources/)
+    * [Back](https://www.delapcpa.com/)
+    * [Blog](https://www.delapcpa.com/resources/blog/)
+    * [Business Diagnostics](https://www.delapcpa.com/resources/business-diagnostics/)
+    * [COVID-19 Resources](https://www.delapcpa.com/covid-19/)
+    * [Email Subscriptions](https://www.delapcpa.com/resources/email-subscriptions/)
+    * [Events](https://www.delapcpa.com/resources/events/)
+    * [Peer Review](https://www.delapcpa.com/resources/peer-review-pcaob/)
+    * [Podcast](https://www.delapcpa.com/resources/podcast/)
+  * [Contact](https://www.delapcpa.com/contact/)
+  * [Pay](https://www.quickfee.com/QSOP-US/#/company/quickfeeus/firm/delap)
+  * [Client Login](https://delapcpa.sharefile.com/Authentication/Login)
+
+
+![](https://www.delapcpa.com/wp-content/uploads/2020/05/Global-menu-image-760x276-1.jpg)
+Delap advisors can help you achieve your business goals. [Learn How](https://www.delapcpa.com/services/business-advisory/)
+#  Delap has joined Aprio
+## Proudly announcing that we are now part of Aprio.
+[Read more about this exciting news here >](https://www.aprio.com/insights-events/aprio-expands-in-pacific-northwest-uniting-two-leading-oregon-firms-delap-llp-and-hoffman-stewart-schmidt-pc-ins-firmnews/)
+# The Delap Difference
+## Clarity
+Every business tells a story in numbers. Our firm translates your financial history into actionable intelligence for predictability in your business decisions. With our integrated approach, you’ll see your full financial journey in front of you, with Delap by your side every step of the way.
+## Confidence
+Empowered. Informed. Protected. This is how our clients describe working with us. Our multi-disciplinary team integrates seamlessly with your business to deliver results-driven service and value. Receive the business and financial advice you need across your entire balance sheet to confidently drive your business forward.
+# Services
+Receive the expertise and resources of a national firm alongside the personal service and responsiveness of a local firm in Portland, Oregon — at Delap, you can have it all.
+  * Tax
+  * Assurance
+  * Business Advisory
+  * Wealth Advisory
+  * Managed IT Services
+
+
+![left arrow](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/slider-arrow-left.png)
+## Managed IT Services
+Integrate your technology stack with your business strategy to scale for growth and achieve success. Our IT experts can give you this competitive edge.
+[Learn More](https://www.delapcpa.com/services/cybersecurity/)
+## Tax
+Our expert tax teams possess a sophisticated understanding of the tax risks, requirements, and opportunities that affect your business.
+[Learn More](https://www.delapcpa.com/services/tax/)
+## Assurance
+Accurate, dependable audits that can improve the availability of capital, aid quality decision making, and increase investor confidence.
+[Learn More](https://www.delapcpa.com/services/assurance/)
+## Business Advisory
+Who’s looking out for you? Our advisors use strategic thinking and historical data to guide you through the prospective decisions that impact your bottom line.
+[Learn More](https://www.delapcpa.com/services/business-advisory/)
+## Wealth Advisory
+Wealth advisors, tax strategists, and investment managers — all working together to bring clarity and confidence to your financial future.
+[Learn More](https://delapwa.com/)
+## Managed IT Services
+Integrate your technology stack with your business strategy to scale for growth and achieve success. Our IT experts can give you this competitive edge.
+[Learn More](https://www.delapcpa.com/services/cybersecurity/)
+## Tax
+Our expert tax teams possess a sophisticated understanding of the tax risks, requirements, and opportunities that affect your business.
+[Learn More](https://www.delapcpa.com/services/tax/)
+![right arrow](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/slider-arrow-right.png)
+We’re a member of [Leading Edge Alliance](https://leaglobal.com/index.cfm), extending our Portland, Oregon practice by giving us access to a vast resource pool of tax, accounting, and business specialists in all parts of the U.S. and around the globe.
+## What's Your Industry?
+Select Industry 
+[Automotive](https://www.delapcpa.com/industries/automotive/) [Construction](https://www.delapcpa.com/industries/construction/) [Financial Institutions](https://www.delapcpa.com/industries/financial-institutions/) [Food & Beverage](https://www.delapcpa.com/industries/food-beverage/) [Home Builders](https://www.delapcpa.com/industries/home-builders/) [Manufacturing](https://www.delapcpa.com/industries/manufacturing/) [Real Estate](https://www.delapcpa.com/industries/real-estate/) [Retail & Wholesale](https://www.delapcpa.com/industries/retail-wholesale/) [Senior Living & Long-Term Care](https://www.delapcpa.com/industries/senior-living-long-term-care/) [Software & Technology](https://www.delapcpa.com/industries/software-technology/)
+# Guiding Clients Since 1933
+Our reputation as a premier firm didn’t happen by chance. It was built one client, one person, and one successful journey at a time.
+![left arrow](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/slider-arrow-left.png)
+## If You Want the Best, Go with Delap
+“We have been with Delap for over 10 years. We have a very complex corporate structure and the professionals at Delap have helped us navigate through several year-ends and have consistently exceeded our expectations. If you want the best, go with Delap.”
+Gary Edwards, Owner | Chuck Colvin Auto Center
+Mike Durbin | Paradise Harley-Davidson
+## A Partner in Our Success
+“Delap’s team has top-notch expertise, excellent client service, and they go above and beyond to partner with us in our successes. We appreciate working with them on tax implications and opportunities. You couldn’t go wrong with this firm.”
+Martha Burroughs | Everett Custom Homes, Inc.
+## A Skilled CPA Firm
+“Delap has proven to be a responsive, competent and skilled CPA firm whether you need tax, compliance or advisory services.”
+Mark Roeter, CFO | Columbia Steel Casting Co., Inc.
+Domonic Biggi | Beaverton Foods
+## An Asset to Our Company
+“Delap has been working with us since 1999, and they have been an asset to our company. Knowledgeable and very hands on to guide our business to where we are today.”
+CJ Wetherbee | Integrity Services, Inc.
+## If You Want the Best, Go with Delap
+“We have been with Delap for over 10 years. We have a very complex corporate structure and the professionals at Delap have helped us navigate through several year-ends and have consistently exceeded our expectations. If you want the best, go with Delap.”
+Gary Edwards, Owner | Chuck Colvin Auto Center
+Mike Durbin | Paradise Harley-Davidson
+![right arrow](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/slider-arrow-right.png)
+  *   *   *   *   *   * 
+
+[ ![2023 Inside Public Accounting Top 200 Firms - Oregon Accounting Firm](https://www.delapcpa.com/wp-content/uploads/fly-images/6497/IPA-2023-218H-109x0.png) ](https://insidepublicaccounting.com/top-firms/ipa-500/)
+[ ![2024 IPA Top 200](https://www.delapcpa.com/wp-content/uploads/fly-images/7070/IPA-2024-transparent-218H-109x0.png) ](https://insidepublicaccounting.com/ipa-top-500-firms/)
+[ ![IPA Top 200 2025](https://www.delapcpa.com/wp-content/uploads/fly-images/7394/2025-Top-200-218H-109x0.png) ](https://insidepublicaccounting.com/ipa-top-500-firms/)
+[ ![Portland Business Journal Healthiest Employers of Oregon 2022 - Oregon Accounting Firm](https://www.delapcpa.com/wp-content/uploads/fly-images/5669/PBJ-Healthest-Employers-web-120x0.png) ](https://www.bizjournals.com/portland/subscriber-only/2022/07/29/healthiest-employers-in-oregon-100-499-employees.html)
+[ ![Portland Business Journal Healthiest Employers of Oregon 2023 - Oregon Accounting Firm](https://www.delapcpa.com/wp-content/uploads/fly-images/6498/PBJ-2023-badge-web-120x0.png) ](https://www.bizjournals.com/portland/subscriber-only/2023/06/23/healthiest-employers-in-oregon-100-499-employees.html)
+[ ![Portland Business Journal Healthiest Employers of Oregon Delap](https://www.delapcpa.com/wp-content/uploads/fly-images/7043/PBJ-2024-badge-web-120x0.png) ](https://www.delapcpa.com/culture/delap-2024-healthiest-employers-of-oregon/)
+[ ![2023 The Oregonian Top Workplaces - Oregon Accounting Firm Delap](https://www.delapcpa.com/wp-content/uploads/fly-images/6584/TWP_Oregon_Portrait_2023-for-website-58x0.png) ](https://www.oregonlive.com/business/2023/09/54-midsize-oregon-and-sw-washington-employers-honored-as-2023-top-workplaces.html)
+[ ![2024 The Oregonian Top Workplaces - Oregon Accounting Firm Delap](https://www.delapcpa.com/wp-content/uploads/fly-images/7143/TWP_Oregon_Portrait_2024-for-website-58x0.png) ](https://www.oregonlive.com/business/2024/09/top-workplaces-2024-48-midsize-oregon-and-sw-washington-employers-honored.html)
+[ ![2025 Top Workplaces Delap Oregon](https://www.delapcpa.com/wp-content/uploads/fly-images/7454/TWP_Oregon_Portrait_2025-for-website-58x0.png) ](https://www.oregonlive.com/business/2025/09/top-workplaces-2025-56-midsize-oregon-and-sw-washington-employers-honored.html)
+[ ![PBJ Oregon's Most Admired Companies 2024 Delap](https://www.delapcpa.com/wp-content/uploads/fly-images/7205/PBJ-Most-Admired-24-web-thumbnail-120x0.png) ](https://www.delapcpa.com/culture/delap-oregons-most-admired-companies-2024/)
+# Let's Connect
+[ Contact Our Team ](https://www.delapcpa.com/contact/)
+[ Join Our Team ](https://www.delapcpa.com/about/careers/)
+[ ![Delap CPA Logo](https://www.delapcpa.com/wp-content/themes/ht-delap/assets/images/delap-logo.png) ](https://www.delapcpa.com/)
+[About](https://www.delapcpa.com/about/)
+[Contact](https://www.delapcpa.com/contact/)
+[People](https://www.delapcpa.com/people/)
+[Blog](https://www.delapcpa.com/resources/blog/)
+[Industries](https://www.delapcpa.com/industries/)
+[Podcast](https://www.delapcpa.com/resources/podcast/)
+[Careers](https://www.delapcpa.com/about/careers/)
+[Login](https://delapcpa.sharefile.com/Authentication/Login)
+[Services](https://www.delapcpa.com/services/)
+Subscribe and stay up to date on Delap's blog, news, events, and more!
+[ Facebook ](https://www.facebook.com/delapcpa "Facebook") [ Linkedin ](https://www.linkedin.com/company/delap-llp/ "Linkedin") [ Twitter ](https://twitter.com/delapcpa "Twitter") [ Instagram ](https://www.instagram.com/delapcpa/ "Instagram")
+© Copyright 2026 Delap LLP. All Rights & Content Reserved.
+[Privacy Policy](https://www.delapcpa.com/privacy-policy/) [Terms & Conditions](https://www.delapcpa.com/terms-conditions/)
+","","https://delapcpa.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Delap - Accounting, Advisory, Managed IT Services","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","delapcpa.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","edba52fdab1d1f3e6e03558ec40d5ed6ccb3cfe0c9ece9cb3e4b3e5e5e891eb1","0.0","0.3","50ef4666-3e90-5e77-a3c2-57df5d939664","","2026-03-30T22:47:38.513520Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/delapcpa.com.json","/tmp/tmp8uiohik9/evidence/domain/delapcpa.com.json","","2026-06-28T22:47:38.513526Z","business consulting firm advisor email","2026-03-30T22:47:05.116351Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![Kernutt Stokes](https://www.kernuttstokes.com/wp-content/uploads/2020/12/ks_325.jpg) ](https://www.kernuttstokes.com/)
+  * [SERVICES](https://www.kernuttstokes.com/service/)
+    * [Audit and Assurance](https://www.kernuttstokes.com/service/assurance/)
+    * [Tax Consulting and Compliance](https://www.kernuttstokes.com/service/tax/)
+    * [Retirement Plan Services](https://www.kernuttstokes.com/service/retirement-plans/)
+    * [Virtual Accounting](https://www.kernuttstokes.com/service/virtual-accounting/)
+    * [Risk Advisory](https://www.kernuttstokes.com/service/risk-advisory/)
+    * [Employee Benefit Audit](https://www.kernuttstokes.com/service/employee-benefit-audit/)
+    * [Estate Planning](https://www.kernuttstokes.com/service/estate-planning/)
+    * [Business Consulting](https://www.kernuttstokes.com/service/business-consulting/)
+  * [INDUSTRIES](https://www.kernuttstokes.com/industry/)
+    * [Agribusiness](https://www.kernuttstokes.com/industry/agribusiness/)
+    * [Beverage](https://www.kernuttstokes.com/industry/beverage/)
+    * [Construction](https://www.kernuttstokes.com/industry/construction/)
+    * [Manufacturing](https://www.kernuttstokes.com/industry/manufacturing/)
+    * [Transportation](https://www.kernuttstokes.com/industry/transportation/)
+    * [Family-Owned Businesses](https://www.kernuttstokes.com/industry/family-owned-businesses/)
+    * [Medical and Dental](https://www.kernuttstokes.com/industry/medical-dental/)
+    * [Commercial Real Estate](https://www.kernuttstokes.com/industry/commercial-real-estate/)
+  * [ABOUT US](https://www.kernuttstokes.com/about-us/)
+    * [Our Story](https://www.kernuttstokes.com/about-us/)
+    * [Our Team](https://www.kernuttstokes.com/team/)
+    * [Our Offices](https://www.kernuttstokes.com/)
+      * [Eugene Office](https://www.kernuttstokes.com/about-us/eugene-office/)
+      * [Bend Office](https://www.kernuttstokes.com/about-us/bend-office/)
+      * [Corvallis Office](https://www.kernuttstokes.com/about-us/corvallis-office/)
+      * [Lake Oswego Office](https://www.kernuttstokes.com/about-us/lake-oswego-office/)
+    * [Awards & Honors](https://www.kernuttstokes.com/awards/)
+    * [BDO Alliance](https://www.kernuttstokes.com/about-us/bdo-alliance/)
+  * [CAREERS](https://www.kernuttstokes.com/)
+    * [Our Culture](https://www.kernuttstokes.com/careers/our-culture/)
+    * [Campus & Recent Grads](https://www.kernuttstokes.com/careers/campus-recent-grads/)
+    * [Experienced Staff](https://www.kernuttstokes.com/careers/experienced-staff/)
+    * [Virtual Accounting & Administration](https://www.kernuttstokes.com/careers/administration/)
+  * [KS ADVISOR RESOURCES](https://www.kernuttstokes.com/resource-center/)
+  * CLIENT PORTAL
+    * [SafeSend Processes](https://www.kernuttstokes.com/new-ks-tax-tutorials/)
+    * [Upload Documents](https://www.kernuttstokes.com/sharefile/)
+    * [Payment Portal](https://www.kernuttstokes.com/payment-portal/)
+    * [ClientConnect](https://kst.screenconnect.com/)
+
+[Contact Us](https://www.kernuttstokes.com/contact-us)
+Select Page
+  * [SERVICES](https://www.kernuttstokes.com/service/)
+    * [Audit and Assurance](https://www.kernuttstokes.com/service/assurance/)
+    * [Tax Consulting and Compliance](https://www.kernuttstokes.com/service/tax/)
+    * [Retirement Plan Services](https://www.kernuttstokes.com/service/retirement-plans/)
+    * [Virtual Accounting](https://www.kernuttstokes.com/service/virtual-accounting/)
+    * [Risk Advisory](https://www.kernuttstokes.com/service/risk-advisory/)
+    * [Employee Benefit Audit](https://www.kernuttstokes.com/service/employee-benefit-audit/)
+    * [Estate Planning](https://www.kernuttstokes.com/service/estate-planning/)
+    * [Business Consulting](https://www.kernuttstokes.com/service/business-consulting/)
+[](https://www.kernuttstokes.com/)
+  * [INDUSTRIES](https://www.kernuttstokes.com/industry/)
+    * [Agribusiness](https://www.kernuttstokes.com/industry/agribusiness/)
+    * [Beverage](https://www.kernuttstokes.com/industry/beverage/)
+    * [Construction](https://www.kernuttstokes.com/industry/construction/)
+    * [Manufacturing](https://www.kernuttstokes.com/industry/manufacturing/)
+    * [Transportation](https://www.kernuttstokes.com/industry/transportation/)
+    * [Family-Owned Businesses](https://www.kernuttstokes.com/industry/family-owned-businesses/)
+    * [Medical and Dental](https://www.kernuttstokes.com/industry/medical-dental/)
+    * [Commercial Real Estate](https://www.kernuttstokes.com/industry/commercial-real-estate/)
+[](https://www.kernuttstokes.com/)
+  * [ABOUT US](https://www.kernuttstokes.com/about-us/)
+    * [Our Story](https://www.kernuttstokes.com/about-us/)
+    * [Our Team](https://www.kernuttstokes.com/team/)
+    * [Our Offices](https://www.kernuttstokes.com/)
+      * [Eugene Office](https://www.kernuttstokes.com/about-us/eugene-office/)
+      * [Bend Office](https://www.kernuttstokes.com/about-us/bend-office/)
+      * [Corvallis Office](https://www.kernuttstokes.com/about-us/corvallis-office/)
+      * [Lake Oswego Office](https://www.kernuttstokes.com/about-us/lake-oswego-office/)
+[](https://www.kernuttstokes.com/)
+    * [Awards & Honors](https://www.kernuttstokes.com/awards/)
+    * [BDO Alliance](https://www.kernuttstokes.com/about-us/bdo-alliance/)
+[](https://www.kernuttstokes.com/)
+  * [CAREERS](https://www.kernuttstokes.com/)
+    * [Our Culture](https://www.kernuttstokes.com/careers/our-culture/)
+    * [Campus & Recent Grads](https://www.kernuttstokes.com/careers/campus-recent-grads/)
+    * [Experienced Staff](https://www.kernuttstokes.com/careers/experienced-staff/)
+    * [Virtual Accounting & Administration](https://www.kernuttstokes.com/careers/administration/)
+[](https://www.kernuttstokes.com/)
+  * [KS ADVISOR RESOURCES](https://www.kernuttstokes.com/resource-center/)
+  * CLIENT PORTAL
+    * [SafeSend Processes](https://www.kernuttstokes.com/new-ks-tax-tutorials/)
+    * [Upload Documents](https://www.kernuttstokes.com/sharefile/)
+    * [Payment Portal](https://www.kernuttstokes.com/payment-portal/)
+    * [ClientConnect](https://kst.screenconnect.com/)
+[](https://www.kernuttstokes.com/)
+
+
+## Expect more from your CPA. **Get more with Kernutt Stokes.**
+As an Oregon-based accounting and business consulting firm for more than 75 years, we are committed to creating opportunity for our clients _and_ our employees. We believe it’s this dedication that led the firm to being recognized as both a Top 50 Accounting Firm in the country and one of the 100 Best Companies to Work for in Oregon.
+[ ![](https://www.kernuttstokes.com/wp-content/uploads/2024/07/KS-Partner-Group_website-homepage.jpg) Our Team ](https://www.kernuttstokes.com/team) [ ![](https://www.kernuttstokes.com/wp-content/uploads/2026/01/Home-page-services-1.jpg) Our Services ](https://www.kernuttstokes.com/service/) [ ![](https://www.kernuttstokes.com/wp-content/uploads/2023/04/KS_Industries_382x313.jpg) Industries ](https://www.kernuttstokes.com/industry/) [ ![](https://www.kernuttstokes.com/wp-content/uploads/2026/01/Home-page-resources.jpg) Careers ](https://www.kernuttstokes.com/resource-center)
+![](https://www.kernuttstokes.com/wp-content/uploads/2026/01/Awards-logo-for-footer_2026.png)
+Kernutt Stokes is proud to be named one of the top 50 Accounting Firms in the country and one of Oregon’s “100 Best Companies to Work For.” [Learn more.](https://www.kernuttstokes.com/awards/)
+## [Bend](https://www.kernuttstokes.com/about-us/bend-office/)
+[1777 SW Chandler Ave., Suite 280  
+Bend, OR 97702](https://goo.gl/maps/sq1drLQtpCUa5DF18)
+[(541) 749-4020](tel:5417494020)
+## [Eugene](https://www.kernuttstokes.com/about-us/eugene-office/)
+[1600 Executive Parkway, Suite 110  
+Eugene, OR 97401](https://goo.gl/maps/CkZkT3LgyikPoRUy5)
+[(541) 687-1170](tel:5416871170)
+## [Corvallis](https://www.kernuttstokes.com/about-us/corvallis-office/)
+[2273 NW Professional Dr., Suite 200  
+Corvallis, OR 97330](https://goo.gl/maps/YwGQsydGcZW4MiHt9)
+[(541) 752-4556](tel:5417524556)
+## [Lake Oswego*](https://www.kernuttstokes.com/about-us/lake-oswego-office/)
+525 3rd Street, Suite 216   
+Lake Oswego, OR 97034
+[(503) 697-1040](tel:5036971040)
+_*Mail and deliveries not accepted at the suite_
+![](https://www.kernuttstokes.com/wp-content/uploads/2023/03/logo-bdo_white-small.png)
+© 1946 – 2026. All Rights Reserved. Kernutt Stokes   
+**[Read Our Privacy Policy](https://www.kernuttstokes.com/privacy-policy/) and [Accessibility Statement](https://www.kernuttstokes.com/accessibility-statement/)**
+  * [LinkedIn](https://www.linkedin.com/company/kernutt-stokes-llp/)
+  * [Facebook](https://www.facebook.com/kernuttstokes/)
+  * [Instagram](https://www.instagram.com/kernuttstokesllp/)
+
+
+✕
+You are leaving our website
+You are leaving our website and we cannot be held responsible for the content of external websites.
+[Continue](https://www.kernuttstokes.com/) [Stay](https://www.kernuttstokes.com/)
+","","https://kernuttstokes.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Kernutt Stokes | Oregon's Premier CPA & Advisory Firm","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","kernuttstokes.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","352f2338cab99995e8ee26fddac5035932bd51ed4f58afb8adcf41032141238a","0.0","0.3","83789f5a-8738-5030-8ea0-9d42b7b9dd37","","2026-03-30T22:47:46.153570Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/kernuttstokes.com.json","/tmp/tmp8uiohik9/evidence/domain/kernuttstokes.com.json","","2026-06-28T22:47:46.153576Z","business consulting firm advisor email","2026-03-30T22:47:06.374235Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T22:47:46.173642Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp8uiohik9/evidence/domain/maynardnexsen.com.json","","2026-06-28T22:47:46.173645Z","business consulting firm advisor email","2026-03-30T22:47:07.362529Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T22:47:46.191377Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp8uiohik9/evidence/domain/vaam.io.json","","2026-06-28T22:47:46.191380Z","SaaS startup CEO contact information","2026-03-30T22:47:10.816968Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T22:47:46.208827Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp8uiohik9/evidence/domain/findemails.com.json","","2026-06-28T22:47:46.208830Z","SaaS startup CEO contact information","2026-03-30T22:47:11.781161Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Skip to content](https://www.smallbusinessdeal.com/#content)
+[![Small Business Deal Advisors](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png)](https://www.smallbusinessdeal.com/)
+  * [Listings](https://www.smallbusinessdeal.com/)
+    * [Businesses for Sale](https://www.smallbusinessdeal.com/current-listings/)
+    * [Established Franchises for Sale](https://www.smallbusinessdeal.com/established-franchise-businesses-for-sale-franchise-resales/)
+    * [Coming Soon](https://www.smallbusinessdeal.com/coming-soon/)
+    * [Buyer Match](https://www.smallbusinessdeal.com/buyer-match-2/)
+  * [About](https://www.smallbusinessdeal.com/)
+    * [About](https://www.smallbusinessdeal.com/about/)
+    * [Meet the Team](https://www.smallbusinessdeal.com/meet-the-team/)
+    * [Transaction Experience](https://smallbusinessdeal.com/transaction-experience/)
+      * [Closed Deals](https://www.smallbusinessdeal.com/transaction-experience/)
+      * [Testimonials](https://www.smallbusinessdeal.com/testimonials/)
+      * [Case Studies](https://www.smallbusinessdeal.com/case-studies/)
+    * [The Small Business Deal Advisors Advantage](https://www.smallbusinessdeal.com/the-small-business-deal-advisors-advantage/)
+  * [Business Valuation](https://www.smallbusinessdeal.com/business-valuation/)
+  * [Sell Your Business](https://www.smallbusinessdeal.com/)
+    * [What Is My Small Business Worth?](https://www.smallbusinessdeal.com/what-is-my-small-business-worth/)
+    * [Business Brokerage Process](https://www.smallbusinessdeal.com/)
+      * [Business Brokerage Process Overview](https://www.smallbusinessdeal.com/how-it-works/)
+      * [Our Fees](https://www.smallbusinessdeal.com/our-fees/)
+      * [Selling to Family or Key Manager](https://www.smallbusinessdeal.com/selling-to-family-or-key-manager/)
+      * [Distressed Business Sales](https://www.smallbusinessdeal.com/distressed-business-sales/)
+    * [Franchise Resales](https://www.smallbusinessdeal.com/)
+      * [For Franchisees](https://www.smallbusinessdeal.com/franchise-resales/)
+      * [For Franchisors](https://www.smallbusinessdeal.com/franchise-resale-partnership-program/)
+    * [FAQ](https://www.smallbusinessdeal.com/small-business-seller-frequently-asked-questions/)
+  * [Blog](https://www.smallbusinessdeal.com/blog/)
+  * [Contact](https://www.smallbusinessdeal.com/contact/)
+
+
+[![Small Business Deal Advisors](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png)](https://www.smallbusinessdeal.com/)
+  * [Listings](https://www.smallbusinessdeal.com/)
+    * [Businesses for Sale](https://www.smallbusinessdeal.com/current-listings/)
+    * [Established Franchises for Sale](https://www.smallbusinessdeal.com/established-franchise-businesses-for-sale-franchise-resales/)
+    * [Coming Soon](https://www.smallbusinessdeal.com/coming-soon/)
+    * [Buyer Match](https://www.smallbusinessdeal.com/buyer-match-2/)
+  * [About](https://www.smallbusinessdeal.com/)
+    * [About](https://www.smallbusinessdeal.com/about/)
+    * [Meet the Team](https://www.smallbusinessdeal.com/meet-the-team/)
+    * [Transaction Experience](https://smallbusinessdeal.com/transaction-experience/)
+      * [Closed Deals](https://www.smallbusinessdeal.com/transaction-experience/)
+      * [Testimonials](https://www.smallbusinessdeal.com/testimonials/)
+      * [Case Studies](https://www.smallbusinessdeal.com/case-studies/)
+    * [The Small Business Deal Advisors Advantage](https://www.smallbusinessdeal.com/the-small-business-deal-advisors-advantage/)
+  * [Business Valuation](https://www.smallbusinessdeal.com/business-valuation/)
+  * [Sell Your Business](https://www.smallbusinessdeal.com/)
+    * [What Is My Small Business Worth?](https://www.smallbusinessdeal.com/what-is-my-small-business-worth/)
+    * [Business Brokerage Process](https://www.smallbusinessdeal.com/)
+      * [Business Brokerage Process Overview](https://www.smallbusinessdeal.com/how-it-works/)
+      * [Our Fees](https://www.smallbusinessdeal.com/our-fees/)
+      * [Selling to Family or Key Manager](https://www.smallbusinessdeal.com/selling-to-family-or-key-manager/)
+      * [Distressed Business Sales](https://www.smallbusinessdeal.com/distressed-business-sales/)
+    * [Franchise Resales](https://www.smallbusinessdeal.com/)
+      * [For Franchisees](https://www.smallbusinessdeal.com/franchise-resales/)
+      * [For Franchisors](https://www.smallbusinessdeal.com/franchise-resale-partnership-program/)
+    * [FAQ](https://www.smallbusinessdeal.com/small-business-seller-frequently-asked-questions/)
+  * [Blog](https://www.smallbusinessdeal.com/blog/)
+  * [Contact](https://www.smallbusinessdeal.com/contact/)
+
+
+[ ![Equipment Manufacturing Company](https://www.smallbusinessdeal.com/wp-content/uploads/2021/09/Equipment-Manufacturer.jpg) ](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Well Established Equipment Manufacturing & Distribution Company")
+## [Well Established Equipment Manufacturing & Distribution Company](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Well Established Equipment Manufacturing & Distribution Company")
+  
+
+**Business Category:** Agriculture, Durable Goods, Industrial & Comm. Machinery, Manufacturing Businesses, Wholesale & Distribution Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/01/Saas-App-Developer.png) ](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "SaaS App Developer – Southeast Michigan")
+## [SaaS App Developer – Southeast Michigan](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "SaaS App Developer – Southeast Michigan")
+  
+
+**Business Category:** Business Services (B2B), Communications, Computer & Software Services, Internet Businesses, Miscellaneous Services, Service Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/01/Auto-Repair-Shop-Holland-MI-1024x676.jpg) ](https://www.smallbusinessdeal.com/business-listing/893-auto-repair-shop-holland-mi/ "Auto Repair Shop – Holland, MI")
+## [Auto Repair Shop – Holland, MI](https://www.smallbusinessdeal.com/business-listing/893-auto-repair-shop-holland-mi/ "Auto Repair Shop – Holland, MI")
+  
+
+**Business Category:** Auto Repair, Parts & Services, Business Real Estate, For Lease, Miscellaneous Repair Services, Service Businesses   
+**Location:** Michigan   
+**City/Regon:** Ottawa 
+[Read More »](https://www.smallbusinessdeal.com/business-listing/893-auto-repair-shop-holland-mi/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/12/Picture1-1.png) ](https://www.smallbusinessdeal.com/business-listing/846-residential-hvac-company-southeast-michigan/ "Residential HVAC Company – Southeast Michigan")
+## [Residential HVAC Company – Southeast Michigan](https://www.smallbusinessdeal.com/business-listing/846-residential-hvac-company-southeast-michigan/ "Residential HVAC Company – Southeast Michigan")
+  
+
+**Business Category:** Construction Businesses, Miscellaneous Repair Services, Plumbing & HVAC, Service Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/846-residential-hvac-company-southeast-michigan/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/12/Greenhouse-Wholesaler-Photo.jpg) ](https://www.smallbusinessdeal.com/business-listing/889-greenhouse-wholesaler/ "Greenhouse Wholesaler – West Michigan")
+## [Greenhouse Wholesaler – West Michigan](https://www.smallbusinessdeal.com/business-listing/889-greenhouse-wholesaler/ "Greenhouse Wholesaler – West Michigan")
+  
+
+**Business Category:** Other Personal Services, Service Businesses, Wholesale & Distribution Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/889-greenhouse-wholesaler/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/07/Precision-Machining-Shop-1.jpg) ](https://www.smallbusinessdeal.com/business-listing/882-custom-precision-machining-shop-mid-michigan/ "Asset Sale – Custom Precision Machining Shop – Mid-Michigan")
+## [Asset Sale – Custom Precision Machining Shop – Mid-Michigan](https://www.smallbusinessdeal.com/business-listing/882-custom-precision-machining-shop-mid-michigan/ "Asset Sale – Custom Precision Machining Shop – Mid-Michigan")
+  
+
+**Business Category:** Business Real Estate, Fabricated Metal Products, For Sale, Industrial & Comm. Machinery, Manufacturing Businesses, Miscellaneous Manufacturing, Primary Metal Industries   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/882-custom-precision-machining-shop-mid-michigan/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/05/Turnaround-Machining-Company-3-1024x445.png) ](https://www.smallbusinessdeal.com/business-listing/877-turnaround-machining-company-midwest/ "*Turnaround* Machining Company – Midwest")
+## [*Turnaround* Machining Company – Midwest](https://www.smallbusinessdeal.com/business-listing/877-turnaround-machining-company-midwest/ "*Turnaround* Machining Company – Midwest")
+  
+
+**Business Category:** Business Real Estate, For Lease, Industrial & Comm. Machinery, Manufacturing Businesses, Miscellaneous Manufacturing, Primary Metal Industries   
+**Location:**   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/877-turnaround-machining-company-midwest/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/05/878.jpg) ](https://www.smallbusinessdeal.com/business-listing/878-cleaning-franchise-west-michigan/ "Profitable Cleaning Franchise – West Michigan")
+## [Profitable Cleaning Franchise – West Michigan](https://www.smallbusinessdeal.com/business-listing/878-cleaning-franchise-west-michigan/ "Profitable Cleaning Franchise – West Michigan")
+  
+
+**Business Category:** Cleaning, Franchise, Miscellaneous Services, Service Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/878-cleaning-franchise-west-michigan/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2024/10/Tractor-and-equipment-co-1024x683.png) ](https://www.smallbusinessdeal.com/business-listing/tractor-and-equipment-dealership-870/ "Tractor and Equipment Dealership")
+## [Tractor and Equipment Dealership](https://www.smallbusinessdeal.com/business-listing/tractor-and-equipment-dealership-870/ "Tractor and Equipment Dealership")
+  
+
+**Business Category:** Agriculture, Business Real Estate, Durable Goods, E-commerce, For Sale, Industrial & Comm. Machinery, Internet Businesses, Landscape Equipment, Miscellaneous Retail, Miscellaneous Services, Other Business Services, Other Personal Services, Retailing Businesses, Service Businesses, Uncategorized   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/tractor-and-equipment-dealership-870/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2024/06/Family-Entertainment-Complex-1024x576.jpg) ](https://www.smallbusinessdeal.com/business-listing/mid-michigan-commercial-property-857/ "Multi-Acre Entertainment Property – Lapeer, MI")
+## [Multi-Acre Entertainment Property – Lapeer, MI](https://www.smallbusinessdeal.com/business-listing/mid-michigan-commercial-property-857/ "Multi-Acre Entertainment Property – Lapeer, MI")
+  
+
+**Business Category:** Amusement & Recreation, Business Real Estate, For Sale, Miscellaneous Retail, Retailing Businesses, Service Businesses, Uncategorized   
+**Location:** Michigan   
+**City/Regon:** Lapeer 
+[Read More »](https://www.smallbusinessdeal.com/business-listing/mid-michigan-commercial-property-857/ "Read More »")
+[ ![Equipment Manufacturing Company](https://www.smallbusinessdeal.com/wp-content/uploads/2021/09/Equipment-Manufacturer.jpg) ](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Well Established Equipment Manufacturing & Distribution Company")
+## [Well Established Equipment Manufacturing & Distribution Company](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Well Established Equipment Manufacturing & Distribution Company")
+  
+
+**Business Category:** Agriculture, Durable Goods, Industrial & Comm. Machinery, Manufacturing Businesses, Wholesale & Distribution Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/equipment-manufacturing-and-distribution-company-727/ "Read More »")
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/01/Saas-App-Developer.png) ](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "SaaS App Developer – Southeast Michigan")
+## [SaaS App Developer – Southeast Michigan](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "SaaS App Developer – Southeast Michigan")
+  
+
+**Business Category:** Business Services (B2B), Communications, Computer & Software Services, Internet Businesses, Miscellaneous Services, Service Businesses   
+**Location:** Michigan   
+
+[Read More »](https://www.smallbusinessdeal.com/business-listing/894-saas-app-developer-southeast-michigan/ "Read More »")
+  * 1
+  * 2
+  * 3
+  * 4
+  * 5
+  * 6
+  * 7
+  * 8
+  * 9
+  * 10
+
+
+### Business for Sale Services
+Small Business Deal Advisors is a discount-commission business brokerage firm that offers the largest inventory of small businesses and franchises for sale in Michigan and throughout the US and Canada. We provide a best-in-class confidential marketing and broker service to business owners who are seeking to sell their small business. We provide professional materials, an in-depth valuation, powerful marketing, NDA processing, buyer introductions, and guidance throughout the sale process.
+#  I want to...
+[ SELL A BUSINESS ](https://www.smallbusinessdeal.com/what-is-my-small-business-worth/)
+[ BUY A BUSINESS ](https://www.smallbusinessdeal.com/current-listings/)
+#  OR...
+##  Search businesses for sale
+ALL BUSINESS CATEGORIES
+30 results available.
+ALL LOCATIONS
+8 results available.
+Listing Price
+$0
+-
+$3,000,000
+Revenue
+$0
+-
+$5,000,000
+Cash Flow
+$0
+-
+$1,000,000
+SEARCH
+### We Know How to Get Deals Done
+Explore some of our recent client success stories.
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2025/12/Alpine-Rent-All-And-Sales_Logo.jpg) Grand Rapids, Michigan Acquired by a Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Alpine Rent All & Sales ](https://www.smallbusinessdeal.com/868-alpine-rent-all-sales-of-grand-rapids-michigan-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/01/Countryside-Inn-Logo.png) Byron Center, MI Acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Countryside Inn ](https://www.smallbusinessdeal.com/853-countryside-inn-of-byron-center-michigan-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/03/Toms-Fence-Logo-2-edited.jpg) St. Clair Shores, Michigan Acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Tom's Fence ](https://www.smallbusinessdeal.com/886-toms-fence-of-st-clair-shores-michigan-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2026/03/FCI-Logo.jpg) Grand Rapids, Michigan Acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Floor Coverings International of Greater Grand Rapids ](https://www.smallbusinessdeal.com/872-floor-coverings-international-of-greater-grand-rapids-of-grand-rapids-michigan-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/echo.png) Grand Rapids, MI has been acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Echo Hair Salon ](https://www.smallbusinessdeal.com/echo-hair-salon-acquired-by-individual-investors)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/squeegee-squad-768x343-1.jpg) Marne, MI has been acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Squeegee Squad Marne ](https://www.smallbusinessdeal.com/squeegee-squad-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/Auto-Lab.jpg) Howell, MI has been acquired by an Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Auto-Lab Howell ](https://www.smallbusinessdeal.com/auto-lab-howell-has-been-acquired)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2022/02/sfc.jpg) Holt, MI has been sold to ![](https://www.smallbusinessdeal.com/wp-content/uploads/2022/02/afco-mfg-corp.png) Holly, MI
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+SFR Precision Turning ](https://www.smallbusinessdeal.com/sfr-precision-turning-acquired-by-afco-manufacturing)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/skatefenders.png) Gaylord, MI has been sold to ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/spi-products.png) Carmel, IN
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Skate Fenders ](https://www.smallbusinessdeal.com/skate-fenders-acquired-by-spi-products)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/Merry-Maids.jpg) Muskegon, MI has been acquired by Individual Investor ![](https://www.smallbusinessdeal.com/)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Merry Maids Muskegon ](https://www.smallbusinessdeal.com/merry-maids-of-muskegon-has-been-acquired-by-an-individual-investor)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/Fire-Extinguisher-Service-Sold-to-Summit-Companies-CI-Capital-Partners-e1638391662340.jpg) Battle Creek, MI has been sold to ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/Summit_Vert_Logo_Color-01.jpg)
+* * *
+![](https://smallbusinessdeal.com/wp-content/uploads/2021/11/cropped-sbda_horizontal-235x65.png) Served as M&A Advisor to   
+Fire Extinguisher Service ](https://www.smallbusinessdeal.com/fire-extinguisher-service-has-been-sold-to-summit-companies)
+[ ![](https://www.smallbusinessdeal.com/wp-content/uploads/2021/11/Rainbow-International.png) Holland, MI has been acquired by an Individual Investor ![](https://www.","","https://smallbusinessdeal.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Small Business Deal Advisors | Businesses for Sale | Business Brokers MI","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","smallbusinessdeal.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/17","0.7353","llm","heuristic_no_credit","9a92dd3c83c136265af381e5eae483d2d58efae825b8891ada17b62130ca48c1","0.0","0.3","7c8edb87-4f51-53d2-890d-f7b5f180bc5f","","2026-03-30T22:47:46.227003Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessdeal.com.json","/tmp/tmp8uiohik9/evidence/domain/smallbusinessdeal.com.json","","2026-06-28T22:47:46.227006Z","small business advisory firm team page","2026-03-30T22:47:19.823493Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

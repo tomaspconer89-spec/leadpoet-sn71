@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "Executive Search, Board & Leadership Consulting | Spencer Stuart",
+  "lead": {
+    "business": "Executive Search, Board & Leadership Consulting | Spencer Stuart",
+    "full_name": "Mon Thach",
+    "first": "Mon",
+    "last": "Thach",
+    "email": "",
+    "role": "Principal",
+    "website": "https://spencerstuart.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://be.linkedin.com/in/mon-thach",
+    "company_linkedin": "https://www.linkedin.com/company/spencer-stuart",
+    "source_url": "https://spencerstuart.com",
+    "description": "[Skip to Main Content](https://www.spencerstuart.com/#mainContent) * [ English ](https://www.spencerstuart.com/) [ \u7b80\u4f53\u4e2d\u6587 ](https://cn.spencerstuart.com/) [ Deutsch ](https://de.spencerstuart.com/) [ Fran\u00e7ais (Qu\u00e9bec) ](https://www.spencerstuart.com/locations/montreal) [ \u65e5\u672c\u8a9e ](https://jp.spencerstuart.com/) * [Find a Location](https://www.spencerstuart.com/locations) * [Client Login](https://spencerstuartportal.com) * [Candidates](https://candidateregistration.spencerstuart.com) * [Contact](https://www.spencerstuart.com/contact-us) [ ![Spencer Stuart](https://www.spencerstuart.com/images/svg/log",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

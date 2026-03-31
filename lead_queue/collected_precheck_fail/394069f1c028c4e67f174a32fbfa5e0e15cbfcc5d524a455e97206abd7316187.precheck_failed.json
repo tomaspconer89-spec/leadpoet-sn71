@@ -12,14 +12,26 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "country": "United States",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/jenniferculbertson1/",
     "company_linkedin": "https://www.linkedin.com/company/ad-labz/",
     "source_url": "https://adlabz.co",
     "description": "Manage Consent To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.",
     "employee_count": "11-50",
     "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

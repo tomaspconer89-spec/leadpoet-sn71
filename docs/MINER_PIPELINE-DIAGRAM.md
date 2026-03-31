@@ -5,6 +5,43 @@ For the same flow with file/function references, see **[WORKFLOW-WITH-CODE.md](.
 
 ---
 
+## Current active pipeline (collected-only)
+
+```mermaid
+flowchart TD
+    A[Run command\nscripts/collect_leads_precheck_only.py] --> B[get_leads() in main_leads.py]
+    B --> C[Lead Sorcerer orchestrator\nDomain discovery + scoring]
+    C --> D[Crawl stage\nCrawl4AI / Firecrawl extraction]
+    D --> E[Export artifacts\nreports/sorcerer_artifacts/...]
+    E --> F[Load exported leads.jsonl]
+    F --> G[Contact/anchor filter]
+    G --> H[Convert to legacy lead format]
+    H --> I[Finalize for SN71 precheck readiness]
+
+    I --> J[Per-lead processing in collect_leads_precheck_only.py]
+    J --> J1[normalize_legacy_lead_shape]
+    J1 --> J2[normalize_title + person_confidence]
+    J2 --> J3[apply_email_classification]
+    J3 --> K[precheck_lead]
+
+    K -->|pass| L[minimal_gateway_lead\nSN71-shaped payload]
+    L --> M[Write\nlead_queue/collected_pass/<hash>.json]
+
+    K -->|fail| N{retry reason allowed?}
+    N -->|yes| O[targeted_retry_enrichment\n(non-ScrapingDog)]
+    O --> P[re-normalize + re-precheck]
+    P -->|pass| L
+    P -->|fail| Q[Write fail payload]
+    N -->|no| Q
+    Q --> R[lead_queue/collected_precheck_fail/<hash>.precheck_failed.json]
+```
+
+- Active output stores are only `lead_queue/collected_pass` and `lead_queue/collected_precheck_fail`.
+- A/B/C/D/E graded queue routing is no longer used by `collect_leads_precheck_only.py`.
+- ScrapingDog profile repair is not used in the active collector path.
+
+---
+
 ## 1. Two ways to run sourcing
 
 ```mermaid

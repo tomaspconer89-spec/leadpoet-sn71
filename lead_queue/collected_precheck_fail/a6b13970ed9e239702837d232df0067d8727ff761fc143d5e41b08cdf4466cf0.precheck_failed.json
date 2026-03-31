@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Digital Marketing Services | SEO, PPC and Web Design | San Jose",
+  "lead": {
+    "business": "Digital Marketing Services | SEO, PPC and Web Design | San Jose",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "https://digitalmarketingagency-consultant.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Calgary",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/mavlers",
+    "source_url": "https://digitalmarketingagency-consultant.com",
+    "description": "[Skip to content](https://www.digitalmarketingagency-consultant.com/#content) [ ![The Digital Marketing Agency & Consulting Company Logo](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2021/11/The-Digital_Asset-6-e1698964378462.png) ](https://www.digitalmarketingagency-consultant.com) * [Services](https://www.digitalmarketingagency-consultant.com/services/) * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/) * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/) * [ AI in D",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Calgary",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

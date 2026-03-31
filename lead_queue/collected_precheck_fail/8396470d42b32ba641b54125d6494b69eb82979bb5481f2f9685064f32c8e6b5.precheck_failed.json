@@ -11,11 +11,17 @@
     "website": "https://salemstate.edu",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/bryanboppert",
     "company_linkedin": "https://www.linkedin.com/company/frederick-e-berry-institute-of-politics",
     "source_url": "https://salemstate.edu",
     "description": "Salem State uses cookies and pixels to deliver the best possible experience on our website. By continuing to use this site, you consent to our use of these technologies.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -23,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   },
   "queue_bucket": "D_low_confidence_hold"

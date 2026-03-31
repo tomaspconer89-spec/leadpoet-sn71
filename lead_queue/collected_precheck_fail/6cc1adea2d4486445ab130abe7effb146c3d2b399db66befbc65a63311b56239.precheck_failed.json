@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Investment Consulting Services for Retirement Plans | Segal Marco Advisors",
+  "lead": {
+    "business": "Investment Consulting Services for Retirement Plans | Segal Marco Advisors",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://segalmarco.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/segal-marco",
+    "source_url": "https://segalmarco.com",
+    "description": "[Skip to Main Content](https://www.segalmarco.com/#main-content) [![SegalMarcoAdvisors Logo](https://www.segalmarco.com/media/1651/smastackedlogo.svg)](https://www.segalmarco.com/) Menu * * [ Investment Consulting ](https://www.segalmarco.com/investment-consulting) * [ Investment Research ](https://www.segalmarco.com/investment-research) * [ Corporate Governance ](https://www.segalmarco.com/corporate-governance) * [ Industry Expertise ](https://www.segalmarco.com/) [Multiemployer](https://www.segalmarco.com/investment-industries/multiemployer) [Public Sector](https://www.segalmarco.com/investm",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

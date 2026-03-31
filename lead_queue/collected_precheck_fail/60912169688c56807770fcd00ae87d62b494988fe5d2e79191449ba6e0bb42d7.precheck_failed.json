@@ -24,7 +24,15 @@
     "hq_city": "",
     "source_type": "search_result",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   },
   "queue_bucket": "B_retry_enrichment"
 }

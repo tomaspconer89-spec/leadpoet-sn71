@@ -24,7 +24,15 @@
     "hq_city": "Including your specific city makes it easier for employers to find you",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   },
   "queue_bucket": "B_retry_enrichment"
 }

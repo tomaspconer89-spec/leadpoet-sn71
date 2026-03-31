@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: last, email, country, city",
+  "business": "lbmc.com",
+  "lead": {
+    "business": "lbmc.com",
+    "full_name": "Jimmeadecpa",
+    "first": "Jimmeadecpa",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://lbmc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/jimmeadecpa",
+    "company_linkedin": "https://www.linkedin.com/company/lbmc",
+    "source_url": "https://lbmc.com",
+    "description": "lbmc.com provides professional services to clients; details were sourced from the company website at https://lbmc.com.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

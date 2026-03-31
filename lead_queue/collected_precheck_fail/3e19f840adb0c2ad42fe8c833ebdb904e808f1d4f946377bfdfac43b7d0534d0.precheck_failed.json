@@ -11,13 +11,27 @@
     "website": "https://ventureconsultingpartners.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/marktaylorws/",
     "company_linkedin": "https://www.linkedin.com/company/venture-partner-consulting/",
     "source_url": "https://ventureconsultingpartners.com",
     "description": "Venture Consulting Partners provides professional services to clients; details were sourced from the company website at https://ventureconsultingpartners.com.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

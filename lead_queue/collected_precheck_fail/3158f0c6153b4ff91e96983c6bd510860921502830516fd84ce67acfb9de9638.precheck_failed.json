@@ -12,6 +12,7 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "country": "United States",
+    "state": "",
     "city": "Error: Got empty search results page (0 organic + paid results)",
     "linkedin": "https://www.linkedin.com/in/samuel-levitz/",
     "company_linkedin": "https://www.linkedin.com/company/irc-partners/",
@@ -19,9 +20,18 @@
     "description": "IRC Partners: Expert Capital Raising and Advisory Services provides professional services to clients; details were sourced from the company website at https://investorreadycapital.com.",
     "employee_count": "11-50",
     "hq_country": "United States",
+    "hq_state": "",
     "hq_city": "Error: Got empty search results page (0 organic + paid results)",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

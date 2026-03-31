@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+  "lead": {
+    "business": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+    "full_name": "Michael O Connell",
+    "first": "Michael",
+    "last": "O Connell",
+    "email": "",
+    "role": "Vice President",
+    "website": "https://chicagofed.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/michael-o-connell-48b3aa5",
+    "company_linkedin": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+    "source_url": "https://chicagofed.org",
+    "description": "[ Office of the President ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home) [ Money Museum ](https://www.chicagofed.org/education/money-museum/index) [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?h=33&w=570&sc_lang=en&hash=4497DBA67FD97304EAC3580002229ED2)](https://www.chicagofed.org/ \"Home\") [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?sc_lang=en&hash=7A0BD35555EFBD4BC75901A5B7BC7BD5)](https://www.chica",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

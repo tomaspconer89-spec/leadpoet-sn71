@@ -11,11 +11,17 @@
     "website": "https://charisol.io",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/debtjoa",
     "company_linkedin": "https://www.linkedin.com/company/charisoltech",
     "source_url": "https://charisol.io",
     "description": "[Skip to content](https://charisol.io/#content) Learn how to find your target audience and match your business goals with their needs:",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -23,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   },
   "queue_bucket": "C_good_account_needs_person"

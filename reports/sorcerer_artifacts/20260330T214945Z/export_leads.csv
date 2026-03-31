@@ -1,0 +1,204 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:49:38.993419Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpckrrv5iy/evidence/domain/cansulta.com.json","","2026-06-28T21:49:38.993421Z","startup advisory services founder contact","2026-03-30T21:49:06.422652Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:49:39.006397Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpckrrv5iy/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:49:39.006399Z","business consulting firm advisor email","2026-03-30T21:49:09.924429Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","At Weyrich, Cronin &amp; Sorra, we understand that there is much more to accounting than number crunching and tax preparation. Over the last 40 years, we’ve learned that the better we know our clients – who they are, what they do, and where they want to go – the better we can help them achieve their goals.","","https://wcscpa.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - WCS - Baltimore, Maryland Accountants and CPAs","1","","","","","","https://www.linkedin.com/company/294291","","","","0.0","0.0009","0.0","0.0009","wcscpa.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/16","0.7812","llm","heuristic_no_credit","3449ab137fa394e6e88a13468e61af8d11a23ce7e98d0713452e965e4349dbc0","0.0","0.3","b5a06604-7690-5103-b411-c46ed08343e2","","2026-03-30T21:49:39.019322Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/wcscpa.com.json","/tmp/tmpckrrv5iy/evidence/domain/wcscpa.com.json","","2026-06-28T21:49:39.019325Z","business consulting firm advisor email","2026-03-30T21:49:10.853005Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![](https://www.fticonsulting.com/.azwaf/jsc/tp/index.gif?azureRef=20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf)
+### An unexpected error occured.
+20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf
+","","https://fticonsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Azure WAF","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","fticonsulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/16","0.7812","llm","heuristic_no_credit","0ad33cefda337c74f900b684d7e7647d08c296fed6d491311a4f8cdd4cf1472f","0.0","0.3","a8834c42-df64-5fb9-9c8f-5118304d1e61","","2026-03-30T21:49:39.032332Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fticonsulting.com.json","/tmp/tmpckrrv5iy/evidence/domain/fticonsulting.com.json","","2026-06-28T21:49:39.032334Z","business consulting firm advisor email","2026-03-30T21:49:11.795078Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:49:39.045167Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpckrrv5iy/evidence/domain/vaam.io.json","","2026-06-28T21:49:39.045169Z","SaaS startup CEO contact information","2026-03-30T21:49:15.435987Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:49:39.058052Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpckrrv5iy/evidence/domain/findemails.com.json","","2026-06-28T21:49:39.058054Z","SaaS startup CEO contact information","2026-03-30T21:49:16.377779Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","By using this site, you agree to the [Privacy Policy](https://technori.com/) and [Terms of Use](https://technori.com/).
+[Accept](https://technori.com/)
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \(1\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/)
+# Technori
+  * [Startups](https://technori.com/startups/)
+  * [AI](https://technori.com/artificial-intelligence/)
+  * [Finance](https://technori.com/finance/)
+  * [Leadership](https://technori.com/leadership/)
+  * [Software](https://technori.com/software/)
+  * [Recent](https://technori.com/blog/)
+  * [Newsletter](https://founder-fuel-newsletter.beehiiv.com/)
+
+
+[](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png)![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/ "Technori")
+[](https://technori.com/)
+[ ](https://technori.com/)
+  * [Startups](https://technori.com/startups/)
+  * [AI](https://technori.com/artificial-intelligence/)
+  * [Finance](https://technori.com/finance/)
+  * [Leadership](https://technori.com/leadership/)
+  * [Software](https://technori.com/software/)
+  * [Recent](https://technori.com/blog/)
+  * [Newsletter](https://founder-fuel-newsletter.beehiiv.com/)
+
+
+Search
+  * [Home](https://technori.com/)
+  * [Categories](https://technori.com/)
+    * [Startups](https://technori.com/startups/)
+    * [AI](https://technori.com/artificial-intelligence/)
+    * [Leadership](https://technori.com/leadership/)
+    * [Finance](https://technori.com/finance/)
+    * [Software](https://technori.com/software/)
+  * [More](https://technori.com/)
+    * [About](https://technori.com/about/)
+    * [Recent](https://technori.com/blog/)
+    * [Contact us](https://technori.com/contact-us/)
+
+
+### Top Stories
+### [Improve Your Sales: How to Lead With Transparency and Vulnerability to Win Customers’ Trust](https://technori.com/2019/01/16691-improve-your-sales-how-to-lead-with-transparency-and-vulnerability-to-win-customers-trust/admin/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+### [Can millennials beat boomers at finance?](https://technori.com/2017/06/6140-can-millennials-beat-boomers-finance/froelich/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+### [The Feed: Solar Energy, Women and Will Smith](https://technori.com/2016/12/5347-the-feed-solar-energy-women-and-will-smith/froelich/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+Follow US [](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+Copyright © Ruby Theme Ltd. All Rights Reserved.
+### Top Stories
+### [Carmakers Push Smarter Assistants, Predictive Maintenance](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/)
+[Startups](https://technori.com/startups/)
+March 30, 2026
+### [DOJ Files Tie Epstein To Russian Investors](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/)
+[Startups](https://technori.com/startups/)
+March 27, 2026
+### [Oldest Whale Recordings Found On Cape Cod](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/)
+[Startups](https://technori.com/startups/)
+March 26, 2026
+[ ![fukushima reactor damage drone footage](https://technori.com/wp-content/uploads/2026/03/fukushima_reactor_damage_drone_footage-1774362439-615x410.webp) ](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/ "Drone Video Reveals Reactor Damage at Fukushima")
+[Startups](https://technori.com/startups/)
+###  [Drone Video Reveals Reactor Damage at Fukushima](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 25, 2026
+[ ![wood plastics face new test](https://technori.com/wp-content/uploads/2026/03/wood_plastics_face_new_test-1774276202-615x410.webp) ](https://technori.com/news/wood-and-plastics-face-a-new-test/ "Wood And Plastics Face A New Test")
+[Startups](https://technori.com/startups/)
+###  [Wood And Plastics Face A New Test](https://technori.com/news/wood-and-plastics-face-a-new-test/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 24, 2026
+## [Startups, AI, & Software](https://technori.com/startups/)
+[View All Startups](https://technori.com/startups/)
+[ ![carmakers push smarter assistants predictive maintenance](https://technori.com/wp-content/uploads/2026/03/carmakers_push_smarter_assistants_predictive_maintenance-1774793087-1536x864.webp) ](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/ "Carmakers Push Smarter Assistants, Predictive Maintenance")
+[Startups](https://technori.com/startups/)
+##  [Carmakers Push Smarter Assistants, Predictive Maintenance](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/)
+Automakers and tech suppliers are zeroing in on two upgrades they say drivers want now: smarter in-car voice assistants and…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 30, 2026
+[ ![epstein linked to russian investors](https://technori.com/wp-content/uploads/2026/03/epstein_linked_to_russian_investors-1774535232-615x410.webp) ](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/ "DOJ Files Tie Epstein To Russian Investors")
+[Startups](https://technori.com/startups/)
+###  [DOJ Files Tie Epstein To Russian Investors](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 27, 2026
+[ ![oldest whale recordings cape cod](https://technori.com/wp-content/uploads/2026/03/oldest_whale_recordings_cape_cod-1774448695-615x410.webp) ](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/ "Oldest Whale Recordings Found On Cape Cod")
+[Startups](https://technori.com/startups/)
+###  [Oldest Whale Recordings Found On Cape Cod](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 26, 2026
+[ ![fukushima reactor damage drone footage](https://technori.com/wp-content/uploads/2026/03/fukushima_reactor_damage_drone_footage-1774362439-615x410.webp) ](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/ "Drone Video Reveals Reactor Damage at Fukushima")
+[Startups](https://technori.com/startups/)
+###  [Drone Video Reveals Reactor Damage at Fukushima](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 25, 2026
+[ ![wood plastics face new test](https://technori.com/wp-content/uploads/2026/03/wood_plastics_face_new_test-1774276202-615x410.webp) ](https://technori.com/news/wood-and-plastics-face-a-new-test/ "Wood And Plastics Face A New Test")
+[Startups](https://technori.com/startups/)
+###  [Wood And Plastics Face A New Test](https://technori.com/news/wood-and-plastics-face-a-new-test/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 24, 2026
+### [Leadership](https://technori.com/leadership/)
+[View All Leadership](https://technori.com/leadership/)
+## [Why technical founders feel most alone right after the hard calls](https://technori.com/news/why-technical-founders-feel-alone-after-hard-calls/)
+[Leadership](https://technori.com/leadership/)
+January 21, 2026
+[ ![people having technical arguments at a table](https://technori.com/wp-content/uploads/2026/01/5qgiuubxkwm-860x574.jpg) ](https://technori.com/news/win-technical-arguments/ "How to win technical arguments without losing your team")
+[Leadership](https://technori.com/leadership/)
+###  [How to win technical arguments without losing your team](https://technori.com/news/win-technical-arguments/)
+If you are in a senior technical role long enough, you will win technical arguments…
+By [Sebastian Heinzer](https://technori.com/author/sebastian/)
+January 20, 2026
+[ ![founder standing in front of senior engineers sitting beside table with laptop computers](https://technori.com/wp-content/uploads/2026/01/gmsnxqiljp4-860x574.jpg) ](https://technori.com/news/senior-engineers-and-founders/ "Senior engineers respect founders who make this one decision early")
+[Leadership](https://technori.com/leadership/)
+###  [Senior engineers respect founders who make this one decision early](https://technori.com/news/senior-engineers-and-founders/)
+If you have ever wondered why some early-stage startups attract frighteningly good senior engineers while…
+By [Todd Shinders](https://technori.com/author/todd/)
+January 19, 2026
+## [Podcast](https://technori.com/podcast/)
+[View All Episodes](https://technori.com/podcast/)
+[ ![](https://technori.com/wp-content/uploads/2020/12/1World-Online-Illustrated_final.png) ](https://technori.com/2020/12/20810-alex-fedosseev/fiske/ "Alex Fedosseev")
+[podcast](https://technori.com/podcast/)
+##  [Alex Fedosseev](https://technori.com/2020/12/20810-alex-fedosseev/fiske/)
+Pop-up ads and auto-play videos have been inundating our feeds and web scrolls for over a decade, with no end in sight. That's why we've seen tremendous growth in ad…
+By [Sam Fiske](https://technori.com/author/fiske/)
+[ ![](https://technori.com/wp-content/uploads/2022/07/052522-100.jpg) ](https://technori.com/2022/07/21171-cody-barbo/fiske/ "Cody Barbo")
+[podcast](https://technori.com/podcast/)
+###  [Cody Barbo](https://technori.com/2022/07/21171-cody-barbo/fiske/)
+By [Sam Fiske](https://technori.com/author/fiske/)
+[ ![](https://technori.com/wp-content/uploads/2021/08/Skedulo-Illustrated-and-GTA-Image_1_1627478735661.png) ](https://technori.com/2021/08/21018-matt-fairhurst/fiske/ "Matt Fairhurst")
+[podcast](https://technori.com/podcast/)
+###  [Matt Fairhurst](https://technori.com/2021/08/21018-matt-fairhurst/fiske/)
+By [Sam Fiske](https://technori.com/author/fiske/)
+## [More News](https://technori.com/news/)
+[View All](https://technori.com/news/)
+[ ![amazon expands fast delivery service](https://technori.com/wp-content/uploads/2026/03/amazon_expands_fast_delivery_service-1774188354-1536x864.webp) ](https://technori.com/news/amazon-expands-1-and-3-hour-delivery/ "Amazon Expands 1- and 3-Hour Delivery")
+[Startups](https://technori.com/startups/)
+##  [Amazon Expands 1- and 3-Hour Delivery](https://technori.com/news/amazon-expands-1-and-3-hour-delivery/)
+Amazon announced that its rapid delivery windows are rolling out across the United States, promising order arrivals within one or…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 23, 2026
+[ ![social security investigates data breach](https://technori.com/wp-content/uploads/2026/03/social_security_investigates_data_breach-1773930194-1536x864.webp) ](https://technori.com/news/social-security-probes-alleged-data-theft/ "Social Security Probes Alleged Data Theft")
+[Startups](https://technori.com/startups/)
+##  [Social Security Probes Alleged Data Theft](https://technori.com/news/social-security-probes-alleged-data-theft/)
+The Social Security inspector general’s office has opened an investigation into claims that a former DOGE engineer removed sensitive data…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 20, 2026
+[ ![anthropic forecasts twenty billion revenue](https://technori.com/wp-content/uploads/2026/03/anthropic_forecasts_twenty_billion_revenue-1773843797-1536x864.webp) ](https://technori.com/news/anthropic-forecasts-20-billion-revenue/ "Anthropic Forecasts $20 Billion Revenue")
+[Startups](https://technori.com/startups/)
+##  [Anthropic Forecasts $20 Billion Revenue](https://technori.com/news/anthropic-forecasts-20-billion-revenue/)
+Anthropic PBC is projecting annual revenue of almost $20 billion this year, more than doubling its run rate from late…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 19, 2026
+[ ![gemini integration with workspace](https://technori.com/wp-content/uploads/2026/03/gemini_integration_with_workspace-1773757289-1536x864.webp) ](https://technori.com/news/google-brings-gemini-to-workspace/ "Google Brings Gemini To Workspace")
+[Startups](https://technori.com/startups/)
+##  [Google Brings Gemini To Workspace](https://technori.com/news/google-brings-gemini-to-workspace/)
+Google has folded its Gemini assistant into Docs, Drive, Sheets, and Slides, offering AI help that can pull details from…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 18, 2026
+[Show More](https://technori.com/)
+## Become a smarter founder with a twice-weekly newsletter.
+![founder_fuel_green](https://technori.com/wp-content/uploads/2022/12/founder_fuel_green-1024x256.png)
+  * Advice to take your startup to the next level. 
+  * You daily dose of founder fuel.
+  * Inspiring stories from past entrepreneurs and changemakers.
+
+
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \(1\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/)
+Technori began as a local meet-up designed to network with angel investors and early adopters and quickly grew into one of the nation’s largest media platforms for entrepreneurs. 
+### About
+  * [About](https://technori.com/about/)
+  * [Editorial Process](https://technori.com/editorial-process/)
+  * [Contact](https://technori.com/contact/)
+  * [Advertise with Us](https://technori.com/advertise-with-us/)
+
+
+### Legal
+  * [Technori Privacy Policy](https://technori.com/technori-privacy-policy/)
+  * [Terms of Use](https://technori.com/terms-of-use/)
+  * [Cookie Settings](https://technori.com/cookie-settings/)
+  * [Do Not Sell My Personal Information](https://technori.com/do-not-sell-my-personal-information/)
+
+
+### Follow Socials
+[](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+Copyright – Technori, 2025 – All Rights Reserved
+Welcome Back!
+Sign in to your account
+Username or Email Address
+Password
+Remember me
+[Lost your password?](https://technori.com/wp-login.php?action=lostpassword)
+[](https://technori.com/#top)
+","","https://technori.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Technori","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","technori.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","bbdb9a8e02a31e4c4c226c6bd8e34ec5c9b36b62e1a95d577529d3461805e0d6","0.0","0.3","18586bc0-5889-5b1e-82ce-30f3cec8c543","","2026-03-30T21:49:45.438210Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/technori.com.json","/tmp/tmpckrrv5iy/evidence/domain/technori.com.json","","2026-06-28T21:49:45.438216Z","tech startup founder contact page","2026-03-30T21:49:28.303215Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:49:45.453735Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpckrrv5iy/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:49:45.453737Z","management consulting firm director email","2026-03-30T21:49:33.154756Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

@@ -1,0 +1,906 @@
+"best_contact.decision_maker","best_contact.department","best_contact.email","best_contact.full_name","best_contact.job_title","best_contact.linkedin_url","best_contact.location","best_contact.phone","best_contact.seniority","best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.emails","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.specialties","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","","","","","","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:35:59.348835Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpdjaj0ckx/evidence/domain/cansulta.com.json","","2026-06-28T21:35:59.348841Z","startup advisory services founder contact","2026-03-30T21:35:25.964829Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","[ Skip to content](https://www.genuinebusinessadvisors.com/#content "Skip to content")
+[](https://www.facebook.com/p/Genuine-Business-Advisors-100085533678624/)[](https://www.linkedin.com/company/genuine-business-advisors)[](https://www.youtube.com/@genuinebusinessadvisors4535)
+**Boston | Naples**
+[508.735.3820](tel:5087353820)[508.735.3820](tel:5087353820)
+[Schedule a Consultation](https://www.genuinebusinessadvisors.com/contact-us/)[Schedule a Consultation](https://www.genuinebusinessadvisors.com/contact-us/)
+[![Genuine Business Advisors](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/Final-768x208-white-250x68.png)](https://www.genuinebusinessadvisors.com/)
+  * [Sell](https://www.genuinebusinessadvisors.com/sell-side-services)
+  * [Buy](https://www.genuinebusinessadvisors.com/buy-side-services)
+  * [Services](https://www.genuinebusinessadvisors.com/services/)
+  * [M&A or Business Brokerage? ](https://www.genuinebusinessadvisors.com/mampa-or-business-brokerage/)
+  * [Why Us?](https://www.genuinebusinessadvisors.com/why-us)Menu Toggle
+    * [](https://www.genuinebusinessadvisors.com/why-us)
+    * [](https://www.genuinebusinessadvisors.com/our-advisors/)
+    * [](https://www.genuinebusinessadvisors.com/success-stories/)
+  * [Quick Reads](https://www.genuinebusinessadvisors.com/blogs/)
+
+
+[![Genuine Business Advisors](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/Final-768x208-white-250x68.png)](https://www.genuinebusinessadvisors.com/)
+Main Menu
+# Sell or Buy a Business with a Genuine Business Advisor
+[ Schedule a Consultation ](https://www.genuinebusinessadvisors.com/contact-us/)
+## Boston-Based M&A Firm & Business Brokerage
+Whether selling or buying a business, having a dedicated and experienced team makes a vital difference.
+Selling or transitioning a business isn’t just about spreadsheets; it’s about people. We guide our clients through a unique process that is designed to provide the best outcome for you and your family.
+Have you heard it takes 1-3 years to sell a business? Not necessarily if you have the right team.
+![Selling a business icon](https://www.genuinebusinessadvisors.com/wp-content/uploads/2025/12/selling-icon-1-150x150.png)
+#### Selling a Business?
+When it’s time to sell your business, you need a team to maximize value and find the perfect buyer. Our sell-side experts will meticulously market your business for sale, identify qualified buyers, and skillfully negotiate to ensure you receive the best possible outcome for your years of hard work.
+[ Start Here ](https://www.genuinebusinessadvisors.com/sell-side-services)
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/buying-icon-150x150.png)
+#### Buying a Business?
+Looking to expand your business through acquisition? Our buy-side services help you identify the perfect opportunities and negotiate favorable terms. We will be by your side every step, ensuring that your investment aligns with your strategic goals and vision for growth.
+[ Start Here ](https://www.genuinebusinessadvisors.com/buy-side-services)
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/financing-icon-150x150.png)
+#### Additional Services
+There are many moving parts when selling or buying a business. Having the right partner to handle every little detail is crucial to a successful venture. We offer a full range of services for both sellers & buyers, from business valuations, to book keeping cleanup, to lending, to life after sale of business consultation.
+[ See Our Services ](https://www.genuinebusinessadvisors.com/services)
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2022/06/GBA-Services-page-position-1--1024x683.jpg)
+## Business Consulting
+Success in today’s dynamic business environment requires strategic thinking and expert guidance. Our consulting services draw on our vast industry experience to help you optimize operations, improve profitability, and position your business for long-term success. From strategic planning to operational improvements, we are here to help your business reach its full potential.
+[ Get Started  ](https://www.genuinebusinessadvisors.com/contact-us)
+##### Why Choose GBA?
+[ See the GBA Difference ](https://www.genuinebusinessadvisors.com/why-us)
+### Client Testimonials
+“GBA was instrumental in advising me on my first business purchase and has subsequently helped me with all my business needs. John continually provides guidance, information and a strategic perspective that is essential for business growth. John and his team are very friendly, knowledgeable, and timely. If you want to be successful in business, I highly recommend GBA for all your business needs!”
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2023/10/GBA-Testimonial-Julie-Freitas-scaled.jpg)
+Julie Freitas
+Owner, Planted Donuts, Retailer
+“John represented our firm during our search for and negotiation with potential buyers of our firm. He introduced us to numerous highly qualified acquisition candidates and skillfully guided our company through the marketing, due diligence, and sales process. I enthusiastically recommend John and I would engage him for any business purchase/sale transaction that we may consider in the future.”
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2023/10/GBA-Client-Testimonial-Ken-McGovern.jpg)
+Ken McGovern
+President, KMR Executive Search LLC
+"Genuine Business Advisors, led by Angela and John, were crucial to getting my dental practice acquisition completed. They guided me through the process and emphasized key points of interest for my practice. Their broad range of connections—from marketing to payroll—proved invaluable. More importantly, they educated me in various business topics that will benefit me for the rest of my career as I continue to build out my dental and personal businesses."
+![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2025/09/Dr-Stanley-Chan.jpg)
+Dr Stanley Chan
+Owner, Dental Practice, RI
+I recently sold my dental practice after 45 years and used Genuine Business Advisors for the entire process. When I made the decision to sell my business, I knew ﬁnding the right partner would be crucial to the success of the process. From the very ﬁrst conversation, GBO demonstrated profound expertise and genuine professionalism at every stage. Their team took the time to understand both my goals and the unique qualities of my business, which gave me great conﬁdence and peace of mind. Throughout the entire journey, they communicated transparently, offered insightful advice, and navigated complex negotiations with remarkable skill. Their dedication to achieving the best possible outcome was evident from day one, and they consistently prioritized my interests. Thanks to their strategic approach and tireless effort, the transition was seamless and exceeded my expectations. What truly set them apart was their commitment to building trust and providing personalized support, making a potentially stressful process feel manageable and even rewarding. I am deeply grateful for their guidance and professionalism, and I wholeheartedly recommend their services to anyone considering selling a business. Their expertise, integrity, and care made all the difference—I could not have asked for a better partner for this pivotal moment. 
+Dr Edward B Kaiser
+Owner, Oaklawn Family Dental Associates, RI
+## Your Guide to Our Process
+Are you selling or buying? Click the image below to see the right guide for you!
+[ ![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/For-Sellers.png) ](https://www.genuinebusinessadvisors.com/sell-side-services)
+[ ![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2024/08/For-Buyers.png) ](https://www.genuinebusinessadvisors.com/buy-side-services/)
+## News & Insights
+[ ![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2026/03/GBA-post-20.jpg) ](https://www.genuinebusinessadvisors.com/mastering-change-management-during-a-business-sale/)
+###  [ Mastering Change Management During a Business Sale ](https://www.genuinebusinessadvisors.com/mastering-change-management-during-a-business-sale/)
+March 27, 2026 
+[ Read More » ](https://www.genuinebusinessadvisors.com/mastering-change-management-during-a-business-sale/)
+[ ![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2026/02/GBA-post-17.jpg) ](https://www.genuinebusinessadvisors.com/carve-out-transactions-what-business-owners-need-to-know-before-selling-copy/)
+###  [ Carve-Out Transactions: What Business Owners Need To Know Before Selling ](https://www.genuinebusinessadvisors.com/carve-out-transactions-what-business-owners-need-to-know-before-selling-copy/)
+March 13, 2026 
+[ Read More » ](https://www.genuinebusinessadvisors.com/carve-out-transactions-what-business-owners-need-to-know-before-selling-copy/)
+[ ![](https://www.genuinebusinessadvisors.com/wp-content/uploads/2026/02/GBA-post-9-.jpg.jpg) ](https://www.genuinebusinessadvisors.com/loi-vs-psa-purchase-sale-agreement-whats-the-difference/)
+###  [ LOI vs. PSA (purchase & sale agreement): What’s the difference? ](https://www.genuinebusinessadvisors.com/loi-vs-psa-purchase-sale-agreement-whats-the-difference/)
+February 10, 2026 
+[ Read More » ](https://www.genuinebusinessadvisors.com/loi-vs-psa-purchase-sale-agreement-whats-the-difference/)
+### Be the First to Know When a Business is for Sale
+Sign up for to receive up-to-date listings and business insights from Genuine Business Advisors. No spam, just important information. 
+Please enable JavaScript in your browser to complete this form.
+Name *
+Email *
+Sign Me Up!![Loading](https://www.genuinebusinessadvisors.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg)
+##### Schedule a Consultation
+Whether you’re considering buying or selling a business, need a precise valuation, or are seeking expert consultation to take your company to the next level, Genuine Business Advisors is here to help. Let’s start a conversation about your business goals and how we can help you achieve them.
+Please enable JavaScript in your browser to complete this form.
+Name *
+Telephone *
+Email *
+Subject *
+Message *
+Were you referred to GBA?
+  * Yes
+  * No
+
+
+By whom were you referred? We'd like to thank them!
+Send Away!
+  * [Sell](https://www.genuinebusinessadvisors.com/sell-side-services)
+  * [Buy](https://www.genuinebusinessadvisors.com/buy-side-services)
+  * [Services](https://www.genuinebusinessadvisors.com/services/)
+  * [M&A or Business Brokerage? ](https://www.genuinebusinessadvisors.com/mampa-or-business-brokerage/)
+  * [Why Us?](https://www.genuinebusinessadvisors.com/why-us)Menu Toggle
+    * [](https://www.genuinebusinessadvisors.com/why-us)
+    * [](https://www.genuinebusinessadvisors.com/our-advisors/)
+    * [](https://www.genuinebusinessadvisors.com/success-stories/)
+  * [Quick Reads](https://www.genuinebusinessadvisors.com/blogs/)
+
+
+[Schedule a Consultation](https://www.genuinebusinessadvisors.com/contact-us/)[Schedule a Consultation](https://www.genuinebusinessadvisors.com/contact-us/)
+  * [Sell](https://www.genuinebusinessadvisors.com/sell-side-services)
+  * [Buy](https://www.genuinebusinessadvisors.com/buy-side-services)
+  * [Services](https://www.genuinebusinessadvisors.com/services/)
+  * [M&A or Business Brokerage? ](https://www.genuinebusinessadvisors.com/mampa-or-business-brokerage/)
+  * [Why Us?](https://www.genuinebusinessadvisors.com/why-us)Menu Toggle
+    * [](https://www.genuinebusinessadvisors.com/why-us)
+    * [](https://www.genuinebusinessadvisors.com/our-advisors/)
+    * [](https://www.genuinebusinessadvisors.com/success-stories/)
+  * [Quick Reads](https://www.genuinebusinessadvisors.com/blogs/)
+
+
+Copyright © 2026 Genuine Business Advisors
+[Privacy Policy](https://genuinebusinessadvisors.org/website-privacy-policy/) [Terms of use](https://genuinebusinessadvisors.org/website-terms-of-use/)
+[](https://www.facebook.com/p/Genuine-Business-Advisors-100085533678624/)[](https://www.linkedin.com/company/genuine-business-advisors)[](https://www.youtube.com/@genuinebusinessadvisors4535)
+","","","https://genuinebusinessadvisors.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","M&A Firm | Boston | Naples | Genuine Business Advisors","1","","","","","","","","","","","0.001","0.0009","0.0","0.0019","genuinebusinessadvisors.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","c7f044778624d42946f31ad2f2c7880ac456f8021aa4fa1f063885b30a9db5b9","0.0","0.3","2130a4bf-8749-5217-adb7-690af1038beb","","2026-03-30T21:36:13.626315Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/genuinebusinessadvisors.com.json","/tmp/tmpdjaj0ckx/evidence/domain/genuinebusinessadvisors.com.json","","2026-06-28T21:36:13.626324Z","business consulting firm advisor email","2026-03-30T21:35:29.199679Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"false","","info@advisorassist.com","Info Lead","","","","","99","","","","","[](https://advisorassist.com/)[](https://advisorassist.com/)
+  * [LinkedIn](https://www.linkedin.com/company/advisorassist "LinkedIn")
+  * [Facebook](https://www.facebook.com/advisorassist "Facebook")
+  * [Twitter](https://twitter.com/advisorassist "Twitter")
+  * [Rss](http://blog.advisorassist.com "Rss")
+
+
+  * [Advisor Support](https://advisorassist.com/contact-us/advisor-support/)
+  * [Site Map](https://advisorassist.com/site-map/)
+
+
+[(617) 800-0388](tel:+6178000388) | info@advisorassist.com
+**[![AdvisorAssist | Where advisors turn for advice.](https://advisorassist.com/wp-content/uploads/2015/06/aa_logo_web-1.png)](https://advisorassist.com/)**
+  * [Our Firm](https://advisorassist.com/our-firm/)
+    * ![fontancial-team-consulting](https://advisorassist.com/wp-content/uploads/2015/07/fontancial-team-consulting.jpg)
+    *       * #### About AdvisorAssist
+      * [About Us](https://advisorassist.com/our-firm/about-us/)
+      * [The AdvisorAssist Difference](https://advisorassist.com/our-firm/the-advisorassist-difference/)
+      * [An Integrated Approach](https://advisorassist.com/our-firm/an-integrated-approach/)
+      * [Meet the Team](https://advisorassist.com/our-firm/leadership-team/)
+      * [Advisory Board](https://advisorassist.com/our-firm/advisory-board/)
+      * [News & Events](https://advisorassist.com/our-firm/news-and-events/)
+      * [Careers @ AdvisorAssist](https://advisorassist.com/our-firm/careers-compliance/)
+    *       * #### Contact Us
+      * Name*
+First Name
+Last Name
+Phone*
+Email*
+Company Name (If you don't have a company name yet, please use your full personal name)*
+Enter your message*
+Source*
+Status*
+Submit
+    *       * [![Schedule Consultation](https://advisorassist.com/wp-content/uploads/2015/10/Untitled-1.png)](https://advisorassist.com/contact-us/request-consultation/)
+      * [![AdvisorAssist Capabilities Overview](https://advisorassist.com/wp-content/uploads/2015/10/presentation-icon.png)](https://advisorassist.com/)
+  * [RIA Services](https://advisorassist.com/ria-services/)
+    * ![man-offering-financial-services-to-client](https://advisorassist.com/wp-content/uploads/2015/07/man-offering-financial-services-to-client.jpg)
+    *       * #### [RIA Registration](https://advisorassist.com/ria-services/ria-registration/)
+      * [RIA Registration – Overview](https://advisorassist.com/ria-services/ria-registration/ria-registration-overview/)
+      * [RIA Registration Essentials™](https://advisorassist.com/ria-services/ria-registration/ria-registration-essentials/)
+      * [RIA Registration Advantage™](https://advisorassist.com/ria-services/ria-registration/ria-registration-advantage/)
+      * [Compare Registration Services](https://advisorassist.com/ria-services/ria-registration/compare-registration-services/)
+      * [SEC < > State Transition](https://advisorassist.com/ria-services/ria-registration/sec-to-state-transition/)
+      * [Annual Registration Renewal](https://advisorassist.com/ria-services/ria-registration/annual-registration-renewal/)
+    *       * #### [RIA Transitions](https://advisorassist.com/ria-services/ria-transitions/)
+      * [Complete Transition Support](https://advisorassist.com/ria-services/ria-transitions/complete-transition-support/)
+    *       * #### [RIA Compliance](https://advisorassist.com/ria-services/ria-compliance/)
+      * [Compliance Essentials™](https://advisorassist.com/ria-services/ria-compliance/compliance-essentials/)
+      * [Compliance Advantage™](https://advisorassist.com/ria-services/ria-compliance/compliance-advantage/)
+      * [Compare Compliance Services](https://advisorassist.com/ria-services/ria-compliance/compare-compliance-services/)
+      * [Mock Exams & Assessments](https://advisorassist.com/ria-services/ria-compliance/mock-exams-and-assessments/)
+      * [AdvisorCloud 360](https://advisorassist.com/ria-services/advisorcloud/)
+    *       * ![pen-on-white-papers](https://advisorassist.com/wp-content/uploads/2015/07/pen-on-white-papers.jpg)
+      * #### Going Independent Whitepaper
+**Considering your own RIA.** Download our whitepaper as a guide to help you start the planning process. We are ready to help! [Contact us](https://advisorassist.com/contact-us/) to assist for an initial planning consultation.
+[](https://advisorassist.com/wp-content/uploads/2015/10/AdvisorAssist_Going_Independent.pdf)
+  * [Resources](https://advisorassist.com/resources/)
+    * ![financial-recources-charts-graphs-on-paper](https://advisorassist.com/wp-content/uploads/2015/06/financial-recources-charts-graphs-on-paper.jpg)
+    *       * [AdvisorAssist Blog](http://blog.advisorassist.com)
+      * [Advisor Registration Process](https://advisorassist.com/resources/advisor-registration-process/)
+      * [Advisor Education](https://advisorassist.com/resources/advisor-education/)
+      * [Industry Links](https://advisorassist.com/resources/industry-links/)
+      * * * *
+      * Call us today!  
+
+#### [(617) 800-0388](tel:+6178000388)
+    *       * [Presentations](https://advisorassist.com/resources/presentations/)
+      * [White Papers](https://advisorassist.com/resources/white-papers/)
+      * [Frequently Asked Questions](https://advisorassist.com/resources/frequently-asked-questions/)
+      * [Industry Links](https://advisorassist.com/resources/industry-links/)
+      * * * *
+      * Need a Consultation?  
+
+[](https://advisorassist.com/contact-us/)
+    *       * ![pen-on-white-papers](https://advisorassist.com/wp-content/uploads/2015/07/pen-on-white-papers.jpg)
+      * #### Prevent, Detect, Correct
+An RIA's Chief Compliance Officer is required to enforce a compliance program that is effectively designed to prevent, detect and correct violations of the securities laws. 
+[](https://advisorassist.com/wp-content/uploads/2015/10/AdvisorAssist_Prevent_Detect_Correct.pdf)
+  * [Contact Us](https://advisorassist.com/contact-us/)
+    * ![woman-operator-contact-us](https://advisorassist.com/wp-content/uploads/2015/06/woman-operator-contact-us.jpg)
+    *       * #### Contact Information
+      * [Request for Proposal](https://advisorassist.com/contact-us/request-for-proposal/)
+      * [Request Consultation](https://advisorassist.com/contact-us/request-consultation/)
+      * [Media & Partner Inquiries](https://advisorassist.com/contact-us/media-partner-inquiries/)
+      * [Advisor Support](https://advisorassist.com/contact-us/advisor-support/)
+    *       * #### Contact Us
+    *       * #### AdvisorAssist, LLC
+      *         *           * 892 Plain Street
+          * Suite 10
+          * Marshfield, MA 02050
+          * Main: (617) 800-0388
+          * info@advisorassist.com
+          * support@advisorassist.com
+  * [ **Menu** ](https://advisorassist.com/)
+
+
+![](https://advisorassist.com/wp-content/uploads/2015/06/zakim-bridge.jpg)![](https://advisorassist.com/wp-content/uploads/2015/06/build-tagline.png)
+![](https://advisorassist.com/wp-content/uploads/2015/06/sunlight-bluesky-shining-through-tree.jpg)![](https://advisorassist.com/wp-content/uploads/2015/06/grow-tagline.png)
+![](https://advisorassist.com/wp-content/uploads/2015/06/life-preserver-hanging-on-wood.jpg)![](https://advisorassist.com/wp-content/uploads/2015/06/protect-tagline.png)
+![](https://advisorassist.com/wp-content/uploads/2015/06/blue-sky-with-clouds.jpg)![](https://advisorassist.com/wp-content/uploads/2015/06/optimize-tagline.png)
+![](https://advisorassist.com/wp-content/uploads/2015/09/compliance_maze.png)
+### AdvisorAssist focuses exclusively on serving investment advisory firms.
+AdvisorAssist provides comprehensive, turnkey solutions for both new and transitioning advisors as well as established registered investment advisor (“RIA”) firms. As a national leader in RIA registration, transition, and compliance support services, AdvisorAssist provides actionable advice and execution to advisors to launch and protect their advisory firms. From concept through launch, we partner with advisors to assist in building world-class advisory practices. For established firms, we provide the ongoing compliance, risk management and strategic support that enables advisors to focus on growing their practice.
+Our proven capabilities, unparalleled delivery and world-class technology make us the optimal partner to help you plan, launch and and protect your advisory firm.
+[Learn more about The AdvisorAssist Difference](https://advisorassist.com/our-firm/the-advisorassist-difference/)
+![](https://advisorassist.com/wp-content/uploads/2015/06/icon-growing-plant.png)
+### Starting an RIA?
+We will guide you every step of the way in launching your new RIA firm. Leverage our decades of experience to get your new firm established quickly and correctly.
+[Learn More](https://advisorassist.com/ria-services/ria-registration/ria-registration-overview/)
+![](https://advisorassist.com/wp-content/uploads/2015/06/icon-shield.png)
+### Need transition support?
+Are you looking to break away from the traditional wirehouse or broker dealer model? We can guide you from the initial planning stages to execution of your transition to a new RIA firm.
+[Learn More](https://advisorassist.com/ria-services/ria-transitions/complete-transition-support/)
+![](https://advisorassist.com/wp-content/uploads/2015/06/icon-life-preserver.png)
+### Compliance Support?
+**Stay ahead of the regulatory curve.** We provide comprehensive compliance support programs to guide and support your firm through the maze of regulatory requirements.
+[Learn More](https://advisorassist.com/ria-services/ria-compliance/)
+![](https://advisorassist.com/wp-content/uploads/2015/06/icon-blue-target.png)
+### Ready for an Audit?
+**Are you prepared?** Our on-site or remote mock examination services take comprehensive review of your RIA firm to help ensure that you are fully prepared for an SEC or State audit.
+[Learn More](https://advisorassist.com/ria-services/ria-compliance/mock-exams-and-assessments/)
+### About AdvisorAssist
+About AdvisorAssist
+### AdvisorAssist. Where Advisors _turn_ for Advice.
+AdvisorAssist the leading consulting firm supporting registered investment advisors. Through consultative services and outsourcing, AdvisorAssist provides expertise, resources and actionable solutions that enable investment advisors to achieve their full potential.
+**We are not your typical consulting firm.**
+We deliver practical, actionable advice and solutions that are specific to your unique situation and business model by bringing together the three critical components of your advisory practice:  
+**People, Process and Technology.**
+As your partner, we will ensure that you receive the personal attention and service that you expect and deserve. Our sole objective will be to help you build an institutional-quality franchise that will expand your growth opportunities, protect your franchise and improve your efficiency and scalability.
+[Learn More](https://advisorassist.com/our-firm/about-us/)
+The AdvisorAssist Difference
+We bring real-world entrepreneurial experience to our client relationships and provide guidance from initial setup to ongoing strategic, operational and regulatory support. Our appreciation for the “business of our business” comes from our years of experience in establishing and running investment advisory businesses. Our Principals have held leadership positions on the front lines of every functional area of the investment firm.
+[Learn More](https://advisorassist.com/our-firm/the-advisorassist-difference/)
+An Integrated Approach
+The AdvisorAssist team has “real world” experience in establishing, running and auditing investment advisory businesses. We have a deep appreciation not only for the parts but for the whole.
+This functional breadth allows us to engage clients in a unique, integrated manner. By viewing each business issue through multiple lenses, we deliver better solutions to our clients. For instance, when a client asks us to tackle an operational project, they know that we do so with the “big picture” in mind (always mindful of potential opportunities or limitations rooted in operations, technology, compliance or strategy).
+Our clients benefit from this integrated approach by eliminating the risk and coordination costs that come from engaging multiple functional specialists.
+[Learn More](https://advisorassist.com/our-firm/an-integrated-approach/)
+What We Do For Whom
+AdvisorAssist provides customized solutions for independent RIA’s, asset managers and hedge funds. Our sole objective is to help our clients build, grow, protect and optimize their practices.
+[Learn More](https://advisorassist.com/our-firm/an-integrated-approach/)
+### Latest Tweets by AdvisorAssist
+[Tweets by @AdvisorAssist](https://twitter.com/AdvisorAssist)
+### Our Firm
+  * [About Us](https://advisorassist.com/our-firm/about-us/)
+  * [The AdvisorAssist Difference](https://advisorassist.com/our-firm/the-advisorassist-difference/)
+  * [An Integrated Approach](https://advisorassist.com/our-firm/an-integrated-approach/)
+  * [Meet the Team](https://advisorassist.com/our-firm/leadership-team/)
+  * [Advisory Board](https://advisorassist.com/our-firm/advisory-board/)
+  * [News & Events](https://advisorassist.com/our-firm/news-and-events/)
+  * [Careers @ AdvisorAssist](https://advisorassist.com/our-firm/careers-compliance/)
+
+
+### RIA Services
+  * [RIA Registration](https://advisorassist.com/ria-services/ria-registration/)
+  * [RIA Transitions](https://advisorassist.com/ria-services/ria-transitions/)
+  * [RIA Compliance](https://advisorassist.com/ria-services/ria-compliance/)
+  * [Mock Exams & Assessments](https://advisorassist.com/ria-services/ria-compliance/mock-exams-and-assessments/)
+  * [AdvisorCloud 360](https://advisorassist.com/ria-services/advisorcloud/)
+
+
+### Resources
+  * [AdvisorAssist Blog](http://blog.advisorassist.com)
+  * [Advisor Registration Process](https://advisorassist.com/resources/advisor-registration-process/)
+  * [Advisor Education](https://advisorassist.com/resources/advisor-education/)
+  * [Industry Links](https://advisorassist.com/resources/industry-links/)
+  * [Regulatory Alerts](https://advisorassist.com/resources/regulatory-alerts/)
+  * [Presentations](https://advisorassist.com/resources/presentations/)
+  * [White Papers](https://advisorassist.com/resources/white-papers/)
+  * [Frequently Asked Questions](https://advisorassist.com/resources/frequently-asked-questions/)
+
+
+### Contact
+  * [Contact Information](https://advisorassist.com/contact-us/)
+  * [Request for Proposal](https://advisorassist.com/contact-us/request-for-proposal/)
+  * [Request Consultation](https://advisorassist.com/contact-us/request-consultation/)
+  * [Media & Partner Inquiries](https://advisorassist.com/contact-us/media-partner-inquiries/)
+  * [Advisor Support](https://advisorassist.com/contact-us/advisor-support/)
+
+
+© 2006-2025 AdvisorAssist, LLC. All rights reserved. 
+  * [LinkedIn](https://www.linkedin.com/company/advisorassist "LinkedIn")
+  * [Facebook](https://www.facebook.com/advisorassist "Facebook")
+  * [Twitter](https://twitter.com/advisorassist "Twitter")
+  * [Rss](http://blog.advisorassist.com "Rss")
+
+
+  * [Site Map](https://advisorassist.com/site-map/)
+  * [Legal](https://advisorassist.com/legal/)
+  * [Privacy Policy](https://advisorassist.com/privacy-policy/)
+  * [Terms of Use](https://advisorassist.com/terms-of-use/)
+
+
+[Scroll to top](https://advisorassist.com/#top "Scroll to top")
+","info@advisorassist.com|support@advisorassist.com","","https://advisorassist.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AdvisorAssist | Where advisors turn for advice. – AdvisorAssist is a management consulting firm focused exclusively on s","1","","","","","","https://www.linkedin.com/company/advisorassist","","","","","0.001","0.0009","0.0","0.0019","advisorassist.com","Basic company information available; Company name available; Company description available; Location count available; Company emails available (2 emails); Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms); Found 1 contacts; 1 contacts have email addresses","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","e5090cd42544fe6255938b15bcbaa9bb1b6074a082d6077d0a9842251a920b3a","0.0","0.3","28d4d5b9-87d8-5fd7-a117-b925b6e57f23","","2026-03-30T21:36:23.888051Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/advisorassist.com.json","/tmp/tmpdjaj0ckx/evidence/domain/advisorassist.com.json","","2026-06-28T21:36:23.888055Z","business consulting firm advisor email","2026-03-30T21:35:30.151494Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:36:23.905369Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpdjaj0ckx/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:36:23.905372Z","business consulting firm advisor email","2026-03-30T21:35:31.377926Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","At Weyrich, Cronin &amp; Sorra, we understand that there is much more to accounting than number crunching and tax preparation. Over the last 40 years, we’ve learned that the better we know our clients – who they are, what they do, and where they want to go – the better we can help them achieve their goals.","","","https://wcscpa.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - WCS - Baltimore, Maryland Accountants and CPAs","1","","","","","","https://www.linkedin.com/company/294291","","","","","0.0","0.0009","0.0","0.0009","wcscpa.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","fafedde1fab4fb0ddb3c8d798299bb80d711584e9bf52f810e9f17d02d211421","0.0","0.3","b5a06604-7690-5103-b411-c46ed08343e2","","2026-03-30T21:36:23.922532Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/wcscpa.com.json","/tmp/tmpdjaj0ckx/evidence/domain/wcscpa.com.json","","2026-06-28T21:36:23.922535Z","business consulting firm advisor email","2026-03-30T21:35:32.595279Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"false","","info@charlesriverchamber.com","Info Lead","","","","","99","","","","","[Skip to content](https://www.charlesriverchamber.com/#fl-main-content)
+[ Subscribe to our free newsletter ](http://eepurl.com/iOgLb2)
+[ Member Directory  ](https://crrc.charlesriverchamber.com/list/)
+[ Member Login  ](https://charlesriverchamber.growthzoneapp.com/a/MIC/Login)
+[ Membership Application  ](https://crrc.charlesriverchamber.com/enroll)
+[ FAQs  ](https://www.charlesriverchamber.com/membership-faqs/)
+[ ![Charles River Regional Chamber Logo](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2019/04/CRRC-Transparent-Full-Logo--300x58.png) ](https://www.charlesriverchamber.com/)
+Menu
+  * About Us
+    * [About the Chamber](https://www.charlesriverchamber.com/about-the-chamber/)
+    * [Our Board](https://www.charlesriverchamber.com/board/)
+    * [Our Committees](https://www.charlesriverchamber.com/committees/)
+    * [Our Team](https://www.charlesriverchamber.com/our-team/)
+    * [Our Partners](https://www.charlesriverchamber.com/our-partners/)
+    * [Our Members](https://crrc.charlesriverchamber.com/list/)
+  * News & Events
+    * [Chamber News](https://crrc.charlesriverchamber.com/needtoknows)
+    * [Subscribe to our E-Newsletter](http://eepurl.com/iOgLb2)
+    * [Chamber Events](https://crrc.charlesriverchamber.com/events)
+    * [Event FAQs](https://www.charlesriverchamber.com/event-faqs/)
+    * [Propose a topic or event](https://crrc.charlesriverchamber.com/eventproposal)
+  * Our Region
+    * [Visitor Information](https://www.charlesriverchamber.com/visit/)
+    * [Newton](https://www.charlesriverchamber.com/about-newton/)
+    * [Needham](https://www.charlesriverchamber.com/about-needham/)
+    * [Watertown](https://www.charlesriverchamber.com/about-needham-copy-2/)
+    * [Wellesley](https://www.charlesriverchamber.com/about-needham-copy/)
+  * Initiatives
+    * [Advocacy & Areas of Focus](https://www.charlesriverchamber.com/advocacy-economic-development/)
+    * [Most Influential Business Leaders of Color](https://www.charlesriverchamber.com/business-leaders-of-color/)
+    * [Support Local](https://www.charlesriverchamber.com/support-local-directory/)
+    * [Dining Collaborative](https://www.charlesriverchamber.com/dine-local/)
+    * [Small Shops](https://www.charlesriverchamber.com/small-shops/)
+    * [High School Scholarship](https://www.charlesriverchamber.com/scholarship/)
+  * Member Resources
+    * [Member Directory](https://crrc.charlesriverchamber.com/list/)
+    * [Member Login](https://charlesriverchamber.growthzoneapp.com/MIC/Login)
+    * [New Member Toolkit](https://www.charlesriverchamber.com/member-resources/)
+    * Member Benefits
+      * [Small Networking Groups](https://www.charlesriverchamber.com/networking-groups/)
+      * [Small Business Resources](https://www.charlesriverchamber.com/small-business-resources/)
+      * [Marketing Benefits](https://www.charlesriverchamber.com/marketing-opportunities/)
+      * [Ribbon Cuttings](https://www.charlesriverchamber.com/ribbon-cuttings/)
+      * [Member Bulletin Board](https://crrc.charlesriverchamber.com/membernews)
+      * [Certificate of Origin](https://www.charlesriverchamber.com/certificate-of-origin/)
+    * [Local Venues, Caterers & Event Services](https://crrc.charlesriverchamber.com/eventsvenuesdirectory)
+    * [Nonprofit Volunteer Opportunities](https://crrc.charlesriverchamber.com/volunteer)
+
+
+[ join ](https://www.charlesriverchamber.com/join)
+[ join ](https://crrc-membership.square.site/)
+![](https://www.charlesriverchamber.com/)
+## Find 1,200+ Local Businesses
+### Explore our member directory of businesses, nonprofits, and services.
+[ start your search ](https://crrc.charlesriverchamber.com/list/)
+![](https://www.charlesriverchamber.com/)
+## Our most popular community event returns April 13
+### Sip, savor and celebrate our local restaurants all under one roof
+[ Early registration savings expire 3/31 ](https://www.charlesriverchamber.com/spring-seasonings/)
+![](https://www.charlesriverchamber.com/)
+## Spring is the season to show up
+### Make the connections that move your business forward.
+[ browse upcoming events ](https://crrc.charlesriverchamber.com/events)
+![](https://www.charlesriverchamber.com/)
+## Discover local ways to give back and get involved
+## Volunteer Opportunities Board
+[ view listings ](https://crrc.charlesriverchamber.com/volunteer)
+![](https://www.charlesriverchamber.com/)
+## Find 1,200+ Local Businesses
+### Explore our member directory of businesses, nonprofits, and services.
+[ start your search ](https://crrc.charlesriverchamber.com/list/)
+![](https://www.charlesriverchamber.com/)
+## Our most popular community event returns April 13
+### Sip, savor and celebrate our local restaurants all under one roof
+[ Early registration savings expire 3/31 ](https://www.charlesriverchamber.com/spring-seasonings/)
+[](https://www.charlesriverchamber.com/) [](https://www.charlesriverchamber.com/)
+## [CHAMBER NEWSLETTER](http://eepurl.com/iOgLb2)
+### Stay updated on regional news & events
+[SUBSCRIBE](http://eepurl.com/iOgLb2)
+## [We're growing](https://www.charlesriverchamber.com/brookline-faqs/)
+### Learn about our Brookline expansion
+[faqs](https://www.charlesriverchamber.com/brookline-faqs/)
+## [Belong to the chamber](https://www.charlesriverchamber.com/join/)
+A network ready to work for you.
+[become a member](https://www.charlesriverchamber.com/join/)
+# Regional presence. Local touch.
+We connect businesses and nonprofits in Newton, Needham, Watertown, Wellesley, Brookline and throughout Boston's inner western suburbs.
+[ join the chamber ](https://www.charlesriverchamber.com/join)
+[ Find a member ](https://crrc.charlesriverchamber.com/list/)
+[ Member Directory  ](https://crrc.charlesriverchamber.com/list)
+[ Member Bulletin Board  ](https://crrc.charlesriverchamber.com/membernews)
+[ Small Networking Groups  ](https://www.charlesriverchamber.com/networking-groups/)
+[ Nonprofit Volunteer Directory  ](http://crrc.charlesriverchamber.com/volunteer)
+[Watch](http://vodwcatv.org/internetchannel/show/4433?site=1) our Watertown Life Sciences program, where we discuss how the city's biotech industry has surged over the past decade, transforming it into a recognized hub of Greater Boston’s innovation economy and reshaping the local commercial landscape. 
+####  Platinum Partners
+[ ![View the Village Bank website](https://www.charlesriverchamber.com/)](http://www.villagebank.com/)
+[ ![Insource Services Logo](https://www.charlesriverchamber.com/)](http://www.insourceservices.com)
+####  Emerald Partners
+[ ![Eastern Bank](https://www.charlesriverchamber.com/)](http://www.easternbank.com)
+[ ![Needham Bank](https://www.charlesriverchamber.com/)](http://www.needhambank.com/)
+[ ![website mockup sketch updated 5.18](https://www.charlesriverchamber.com/)](https://crrc.charlesriverchamber.com/events)
+## [Upcoming events](https://crrc.charlesriverchamber.com/events)
+[View All Events](https://crrc.charlesriverchamber.com/events)
+## [The Latest need to knows from your chamber](https://crrc.charlesriverchamber.com/needtoknows)
+[View All](https://crrc.charlesriverchamber.com/needtoknows)
+## [Nonprofit Volunteer Directory](http://crrc.charlesriverchamber.com/volunteer)
+### A new resource to help you give back locally
+[Browse Opportunities ](http://crrc.charlesriverchamber.com/volunteer)
+## [High School Scholarship](https://www.charlesriverchamber.com/scholarship/)
+### Support for local students attending college or trade school
+[APPLY BY APRIL 9](https://www.charlesriverchamber.com/scholarship/)
+[ ![holiday dining](https://www.charlesriverchamber.com/)](https://crrc.charlesriverchamber.com/eventsvenuesdirectory)
+## [Local Venues, Catering & Event Services](https://crrc.charlesriverchamber.com/eventsvenuesdirectory)
+### Find local options for your next event or meeting
+[search](https://crrc.charlesriverchamber.com/eventsvenuesdirectory)
+[ ![Networking Event Photo](https://www.charlesriverchamber.com/)](https://docs.google.com/forms/d/e/1FAIpQLSfEHS1mSkW-sRj7lZanLR8pFxMU7-IiSEnMzzz0fBuTeIX8GQ/viewform)
+## [become a member](https://docs.google.com/forms/d/e/1FAIpQLSfEHS1mSkW-sRj7lZanLR8pFxMU7-IiSEnMzzz0fBuTeIX8GQ/viewform)
+### Build the relationships that move your business forward.
+[learn more](https://docs.google.com/forms/d/e/1FAIpQLSfEHS1mSkW-sRj7lZanLR8pFxMU7-IiSEnMzzz0fBuTeIX8GQ/viewform)
+##  Welcome New Members
+![support local](https://www.charlesriverchamber.com/)
+[ ![The Village Bank](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/05/Village-Bank-logo-3faebcc5-b798-422f-824c-fde0fe087d8f.png) The Village Bank ](https://www.village-bank.com/)
+[ ![Insource Services](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/07/Insource-Services-bb2ed0d1-85d5-45e1-8334-be19153ce478.jpg) Insource Services ](https://www.insourceservices.com/)
+[ ![Eastern Bank ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/06/Eastern-Bank-bad6bc6b-352b-4fcb-81ac-d0b219a94dd4.png) Eastern Bank ](https://www.easternbank.com/)
+[ ![Needham Bank](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2023/08/NB-Logo_blue-tag_2022_CMYK-77a03fa7-f77c-4672-a7f0-133601ebe145.jpg) Needham Bank ](https://www.needhambank.com/)
+[ ![Direct Federal](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/05/direct-federal-logo-300x103.png) Direct Federal ](https://www.direct.com/)
+[ ![Beth Isreal Deaconess](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/05/beth-isreal-deaconess-300x72.jpg) Beth Isreal Deaconess ](https://www.bidneedham.org/)
+[ ![Bulfinch](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/12/bulfinch-for-CC-40212ab2-399c-4335-ab1d-411064ca68d8.png) Bulfinch ](https://www.bulfinch.com/)
+[ ![CMIT Solutions ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/12/CMIT-Solutions-15fc4964-a57d-468e-9617-ee57c602f802.jpg) CMIT Solutions ](https://cmitsolutions.com/boston-newton-waltham/)
+[ ![NBC10 Boston](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/08/NBC-homepage-a7f63c8b-4bee-48c5-9f11-5d5d29809324.png) NBC10 Boston ](https://www.nbcboston.com/)
+[ ![Newton-Wellesley Hospital](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/08/Newton-Wellesley-Hospital-homepage-ef9cc16b-6234-4c21-ab78-7d65fb74b61d.png) Newton-Wellesley Hospital ](https://www.nwh.org/)
+[ ![UMass Amherst Charles River Campus](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2026/01/Umass-Amherst-Charles-River-Campus-Logo.png) UMass Amherst Charles River Campus ](https://www.umass.edu/mic/)
+[ ![Boylston Properties ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/06/Boylston-Properties-9799e45e-299d-41cc-9fa6-34842b04fcea.png) Boylston Properties ](http://boylstonproperties.com/)
+[ ![The Bulfinch Group](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/05/the-bulfinch-group-logo-a1d17c99-cae2-4002-a3b8-9d20b62be242.png) The Bulfinch Group ](https://www.bulfinchgroup.com/)
+[ ![Dedham Savings ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2025/09/Dedham-Savings-Vertical-Logo-1.png) Dedham Savings ](https://www.dedhamsavings.com/)
+[ ![Fidelity Bank](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2024/03/FB-primary-aebaf1a6-1b8e-4e0d-9778-556016d3efab.png) Fidelity Bank ](https://www.fidelitybankonline.com/)
+[ ![Intrum](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/08/Intrum-transparent-300x63.png) Intrum ](https://www.intrumcorp.com/)
+[ ![Mark Development ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/06/Mark-Development-7bab78b7-6771-4f79-b389-8454c57ec070.png) Mark Development ](https://www.markdevelopmentllc.com/)
+[ ![Middlesex Savings Bank](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2025/06/Middlesex-Savings-Banks-Logo-1.png) Middlesex Savings Bank ](https://www.middlesexbank.com/)
+[ ![North Hill](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2024/06/North-Hills-Logo.png) North Hill ](https://www.northhill.org/)
+[ ![Northland](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2022/01/Northland_wordmark_dark-gray-93d18631-394b-4e87-aeb0-be63abc711ab.png) Northland ](https://northland.com/)
+[ ![Rockland](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2021/06/Rockland-Trust-44e93458-c213-43de-b3ea-c90651fa0148.png) Rockland ](https://www.rocklandtrust.com/)
+[ ![The Street](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2025/02/Sponsor-Logo-Template-300-%C3%97-125-px-1.png) The Street ](https://thestreetchestnuthill.com/)
+[ ![William James College ](https://growthzonecmsprodeastus.azureedge.net/sites/1709/2025/10/WJC-50th-Horizontal-Logo.png) William James College ](https://www.williamjames.edu/)
+Next Previous
+[ Our Partners ](https://www.charlesriverchamber.com/our-partners/)
+© 2026 Charles River Regional Chamber |  Site by [GrowthZone](http://www.growthzone.com/)
+[ ![CRRC Towns Mark_White Transparent](https://www.charlesriverchamber.com/)](https://www.charlesriverchamber.com/)
+The Charles River Regional Chamber's mission is to champion our communities' economic and cultural vitality through advocacy, education and networking.
+[ ![MA Policy Network](https://www.charlesriverchamber.com/)](https://crrc.charlesriverchamber.com/needtoknows/Details/chambers-statewide-to-work-together-on-policy-solutions-166540)
+###  CONTACT US
+117 Kendrick Street, Suite 300
+Needham, MA 02494
+[617-244-5300](tel:6172445300)
+info@charlesriverchamber.com
+[ Instagram ](http://www.instagram.com/crrchamber) [ Facebook ](https://www.facebook.com/crrchamber) [ LinkedIn ](http://linkedin.com/company/crrchamber) [ ](https://youtube.com/@charlesriverregionalchambe8156?si=Tq2xkBt0YRM5qzEN)
+####  QUICK LINKS
+[Join the chamber](https://crrc.charlesriverchamber.com/enroll)
+[Become a citizen member](https://www.charlesriverchamber.com/citizen-membership/)
+[member directory](https://crrc.charlesriverchamber.com/list/)
+[uPCOMING EVENTs](https://crrc.charlesriverchamber.com/events)
+[CHAMBER NEWS](https://crrc.charlesriverchamber.com/needtoknows)
+[Subscribe to our e-newsletter](http://eepurl.com/iOgLb2)
+####  MEMBER RESOURCES
+[MEMBER LOGIN](https://charlesriverchamber.growthzoneapp.com/a/MIC/Login)
+[Member bulletin board ](https://crrc.charlesriverchamber.com/membernews)
+[Small business resources](https://www.charlesriverchamber.com/small-business-resources/)
+[Job board](https://crrc.charlesriverchamber.com/jobs)
+[Marketing benefits](https://www.charlesriverchamber.com/marketing-opportunities/)
+[Networking opportunities ](https://www.charlesriverchamber.com/networking/)
+[LOCAL VENUES, CATERS & EVENT SUPPORT](https://www.charlesriverchamber.com/easy-eats/)
+[Ribbon Cuttings](https://www.charlesriverchamber.com/ribbon-cuttings)
+[Certificate of Origin Stamp](https://www.charlesriverchamber.com/certificate-of-origin)
+[Membership FAQs](https://www.charlesriverchamber.com/membership-faqs/)
+© 2026 Charles River Regional Chamber.  All Rights Reserved. Site by [GrowthZone.](https://growthzone.com) [View privacy policy.](https://www.charlesriverchamber.com/privacy-policy/)
+[ ](https://www.charlesriverchamber.com/privacy-policy/)
+[![](https://www.charlesriverchamber.com/)](https://www.charlesriverchamber.com/join/)
+","info@charlesriverchamber.com","","https://charlesriverchamber.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - Charles River Regional Chamber","1","","","","","","https://www.linkedin.com/company/crrchamber)","","","","","0.001","0.0009","0.0","0.0019","charlesriverchamber.com","Basic company information available; Company name available; Company description available; Location count available; Company emails available (1 emails); Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms); Found 1 contacts; 1 contacts have email addresses","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/16","0.7812","llm","heuristic_no_credit","52d733ce97f6fdd6ef1cbff5b80a6a5cf7be163d892578a624576ca375aae313","0.0","0.3","2e768597-ac4e-5c62-bc1b-65c5eae75c64","","2026-03-30T21:36:35.319778Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/charlesriverchamber.com.json","/tmp/tmpdjaj0ckx/evidence/domain/charlesriverchamber.com.json","","2026-06-28T21:36:35.319781Z","business consulting firm advisor email","2026-03-30T21:35:33.814213Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:36:35.332990Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpdjaj0ckx/evidence/domain/vaam.io.json","","2026-06-28T21:36:35.332992Z","SaaS startup CEO contact information","2026-03-30T21:35:37.623913Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:36:35.346191Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpdjaj0ckx/evidence/domain/findemails.com.json","","2026-06-28T21:36:35.346193Z","SaaS startup CEO contact information","2026-03-30T21:35:38.274486Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+[ ![SaaS Alliance](https://www.saasalliance.io/content/images/size/w600/2024/04/SAAS-FULL-LOGO-PRIMARY--ON-WHITE--2.svg) ](https://www.saasalliance.io/)
+[Log in](https://www.saasalliance.io/signin/) [Membership](https://www.saasalliance.io/signup/)
+Membership
+##### What is included?
+All you need to succeed
+###### [Templates & frameworks](https://www.saasalliance.io/saas-templates-and-frameworks/)###### [OnDemand videos](https://www.saasalliance.io/ondemand-saas-hub/)###### [Exclusive content](https://www.saasalliance.io/tag/membership-content/)###### [Mentorship program Coming soon!](https://www.saasalliance.io/)
+##### Membership plans
+Pick your path
+###### [Individual membership](https://www.saasalliance.io/signup/)###### [Team membership](https://www.saasalliance.io/teams/)###### [Membership plan updates](https://www.saasalliance.io/fosaas-membership-plan-updates/)
+##### Take a peek inside
+And see what all the fuss is about
+###### [Membership demo](https://www.saasalliance.io/membership-demo/)###### [Customer success strategy template](https://www.saasalliance.io/customer-success-strategy-template/)###### [Competitor SWOT analysis template](https://www.saasalliance.io/competitor-swot-analysis-template/)###### [Membership release notes](https://www.saasalliance.io/fosaas-membership-plan-updates/)###### [Membership taster pack New!](https://www.saasalliance.io/try-before-you-buy-saas-alliance-membership-taster-pack/)
+Resources
+##### Categories
+Content by topic
+###### [Customer Success](https://www.saasalliance.io/tag/customer-success/)###### [Product Management](https://www.saasalliance.io/tag/product-management/)###### [Finance & Investment](https://www.saasalliance.io/tag/finance-investment/)###### [Marketing](https://www.saasalliance.io/tag/marketing/)###### [Sales](https://www.saasalliance.io/tag/sales/)###### [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion/)###### [Data & Insights](https://www.saasalliance.io/tag/data-insights/)###### [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy/)###### [Operations](https://www.saasalliance.io/tag/operations/)
+##### Content hub
+All the best SaaS hacks
+###### [Articles](https://www.saasalliance.io/articles/)###### [Podcasts](https://alliance.ghost.io/podcasts/?filter=podcast-filter-community-fosaas)###### [SaaS Stream](https://www.saasalliance.io/saasstream/)###### [Webinars](https://www.saasalliance.io/panel-discussion-turning-metrics-into-money/)
+##### Research & reports
+Leading SaaS insights
+###### [What is SaaS?](https://www.saasalliance.io/what-is-saas/)###### [State of SaaS Leadership Report](https://www.saasalliance.io/state-of-saas-leadership-2024/)###### [Captivate Investors: Fund your SaaS Startup](https://www.saasalliance.io/pitch-perfect-captivate-investors-and-fund-your-saas-startup/)###### [The Future of SaaS](https://www.saasalliance.io/the-future-of-saas-report/)###### [Tools of Choice 2023](https://www.saasalliance.io/saas-tools-of-choice-2023-report/)###### [Ones to Watch in SaaS 2023](https://www.saasalliance.io/introducing-the-ones-to-watch-in-saas-2023/)###### [SaaS Benchmark Metrics Report](https://www.saasalliance.io/saas-benchmark-metrics-report-2023/)###### [SaaS and AI playbook](https://www.saasalliance.io/ai-unleashed-transforming-saas-growth-strategies/)
+##### Best of the rest
+Highlights from elsewhere
+###### [Drive your startup to growth stage](https://www.saasalliance.io/5-steps-to-drive-your-company-from-early-to-growth-stage/)###### [The ISO 27001 Bible](https://www.saasalliance.io/the-iso-27001-bible-ebook/)###### [Subscribe to SaaSfix Sign up to the newsletter](https://www.saasalliance.io/get-your-saasfix/)###### [Get involved](https://www.saasalliance.io/get-involved/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)
+Certifications
+##### Get Certified
+In essential SaaS & leadership skills
+###### [GTM Blueprint For defined, repeatable and scalable GTM success](https://www.gotomarketalliance.com/go-to-market-blueprint/)
+Events
+##### Digital
+Coming soon to a screen near you
+###### [Why SaaS folks 💜 our events](https://www.saasalliance.io/why-saas-folks-love-our-events/)
+##### In-person
+Events all over the world
+##### Catch-up
+Never miss a beat
+###### [SaaS Metrics Summit | June 2023](https://www.saasalliance.io/saas-metrics-summit-june-2023/)###### [Future of SaaS Festival | April 2023](https://www.saasalliance.io/future-of-saas-ondemand/)###### [Women in SaaS Summit | July 2022](https://www.futureofsaas.io/women-in-saas-summit-2/)###### [Future of SaaS Festival | June 2022](https://www.futureofsaas.io/future-of-saas-festival-3/)###### [SaaS Metrics Summit | April 2022](https://www.futureofsaas.io/saas-metrics-summit-2/)###### [Future of SaaS Festival Vol. 4](https://www.saasalliance.io/future-of-saas-festival-sept-2021/)
+Community
+##### Network
+Connect and collaborate
+##### Learn
+Level up your career
+###### [SaaS Alliance LinkedIn](https://www.linkedin.com/school/future-of-saas/)
+About
+##### The basics
+Our journey & how to reach us
+###### [Mission](https://www.saasalliance.io/about/)###### [Partner with us](https://www.saasalliance.io/partner/)###### [Speaking opportunities](https://www.saasalliance.io/speaking-opportunities-with-the-future-of-saas/)###### [Create & contribute](https://www.saasalliance.io/contributor-guide/)###### [Contact](https://www.saasalliance.io/contact/)
+##### Our people
+The foundation of SaaS Alliance
+###### [SaaS Alliance team](https://www.saasalliance.io/the-future-of-saas-team/)
+[What's new?](https://www.saasalliance.io/)
+[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance)
+[Partner](https://www.saasalliance.io/partner) [About](https://www.thealliance.io/)
+x close 
+Nothing to display...
+or view by:
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_left.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_header_shape_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_Home_Page_Hero_Image_%20\(1\).png?v=f0ae9a70e2)
+#  Level-up your   
+SaaS growth strategies. 
+A growing, global collective of leaders  
+inspiring growth and inclusivity in SaaS. 
+[ RESOURCES ](https://www.saasalliance.io/articles/) [ MEMBERSHIP ](https://www.saasalliance.io/signup/)
+##  From SaaS startups to world-famous brands, you’ll be in good company, with innovative organizations like... 
+![](https://www.saasalliance.io/assets/img/whitelogos/Klarna.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Zoom.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Google.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Slack.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/hubspot.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Microsoft.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Oracle.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Cisco.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Drift.png?v=f0ae9a70e2)
+Level-up with SaaS Alliance membership. 
+From product marketing to customer success, tap into the tried and tested, business-wide strategies employed at some of the biggest and brightest companies and grasp every element of the SaaS landscape. 
+[ UNLOCK INVALUABLE CONTENT ](https://www.saasalliance.io/signup/)
+New on the blog. 
+![How to calculate and improve your SaaS magic number metric](https://www.saasalliance.io/content/images/size/w800/2024/08/SaaS_Sharing_Article_Images_Doodles-Text_--2-.png)
+[ Data & Insights How to calculate and improve your SaaS magic number metric Read more  ](https://www.saasalliance.io/how-to-calculate-and-improve-your-saas-magic-number-metric/)
+Members-only
+[DE&I](https://futureofsaas.io/tag/diversity-equity-inclusion/) [Leadership & Strategy ](https://futureofsaas.io/tag/leadership-strategy) [Finance & Investment](https://futureofsaas.io/tag/finance-investment/) [Customer success](https://futureofsaas.io/tag/customer-success) [Product Management](https://futureofsaas.io/tag/product-management) [Marketing](https://futureofsaas.io/tag/Marketing/)
+[ ![How ecosystems can make or break your SaaS business](https://www.saasalliance.io/content/images/size/w800/2025/02/social---How-ecosystems-can-make-or-break-your-SaaS-business-2.png) ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+Members-only
+[ Positioning How ecosystems can make or break your SaaS business Discover how ecosystems shape business success. Learn key lessons from Kodak, Apple & CVS to build a thriving ecosystem strategy.... ](https://www.saasalliance.io/how-ecosystems-can-make-or-break-your-saas-business/)
+  * Jay Nakagawa 
+[ ![Jay Nakagawa](https://www.saasalliance.io/content/images/size/w100/2025/02/1612478877705.jpeg) ](https://www.saasalliance.io/author/jay/)
+
+12 min read
+[ ![Why do customers buy from a SaaS that knows them?](https://www.saasalliance.io/content/images/size/w800/2025/02/SaaS_Website_Article_Images_Doodles--3-.png) ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+Members-only
+[ Marketing Why do customers buy from a SaaS that knows them? Better engagement leads to increased revenue and lasting customer loyalty, meaning personalization is the foundation of modern marketing.... ](https://www.saasalliance.io/why-do-customers-buy-from-a-saas-that-knows-them/)
+  * Khondoker Asim Arman 
+[ ![Khondoker Asim Arman](https://www.saasalliance.io/content/images/size/w100/2023/07/Khondoker.jpeg) ](https://www.saasalliance.io/author/khondoker/)
+
+8 min read
+[ ![The power of perception: Communicating product value](https://www.saasalliance.io/content/images/size/w800/2025/02/main---The-power-of-perception-Communicating-product-value.png) ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+Members-only
+## [The power of perception: Communicating product value How Krisp improved retention by making its invisible value clear—using habit loops & psychology... ](https://www.saasalliance.io/the-power-of-perception-communicating-product-value/)
+  * Karapet Gyumjibashyan 
+[ ![Karapet Gyumjibashyan](https://www.saasalliance.io/content/images/size/w100/2025/02/1676833565406-1.jpeg) ](https://www.saasalliance.io/author/karapet/)
+
+9 min read
+[ ![Positioning for SaaS companies: Why it matters more than ever](https://www.saasalliance.io/content/images/size/w800/2025/02/saas-change-management-org-change.png) ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+Members-only
+[ Positioning Positioning for SaaS companies: Why it matters more than ever What happens when your positioning isn't working? The signs are usually there if you know where to look. This article will help you find them.... ](https://www.saasalliance.io/positioning-for-saas-companies-why-it-matters-more-than-ever/)
+  * Kate Kucherenko 
+[ ![Kate Kucherenko](https://www.saasalliance.io/content/images/size/w100/2025/02/1718642399999.jpeg) ](https://www.saasalliance.io/author/kate-kucherenko/)
+
+12 min read
+[ ![Cultural integration in onboarding: 6 strategies to engage and retain top talent](https://www.saasalliance.io/content/images/size/w800/2025/01/main---SaaS-Cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent.png) ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+Members-only
+[ Customer Success & Onboarding Cultural integration in onboarding: 6 strategies to engage and retain top talent Discover how cultural integration can transform onboarding into a powerful tool for employee engagement, retention, and success.... ](https://www.saasalliance.io/saas-cultural-integration-in-onboarding-6-strategies-to-engage-and-retain-top-talent/)
+  * Marco Galvan 
+[ ![Marco Galvan](https://www.saasalliance.io/content/images/size/w100/2025/01/1579228274060.jpeg) ](https://www.saasalliance.io/author/marco/)
+
+8 min read
+[ ![How to run a successful  OKR review](https://www.saasalliance.io/content/images/size/w800/2025/01/main---top-saas-budgeting-tools-startup.png) ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+Members-only
+[ Growth & Metrics How to run a successful OKR review Learn how to streamline meetings, track progress, and drive success of OKR reviews with actionable insights and best practices.... ](https://www.saasalliance.io/how-to-run-a-successful-okr-review/)
+  * Dhruv Mehta 
+[ ![Dhruv Mehta](https://www.saasalliance.io/content/images/size/w100/2022/08/_GM87348--1-.jpg) ](https://www.saasalliance.io/author/dhruv/)
+
+6 min read
+[ SEE ALL POSTS ](https://www.saasalliance.io/articles)
+Get inspired. 
+![](https://www.saasalliance.io/assets/img/sales/newsletter.png?v=f0ae9a70e2)
+Newsletter 
+The best of the best  
+delivered directly   
+to your inbox.  
+
+[ SIGN ME UP ](https://www.saasalliance.io/get-your-saasfix/)
+![](https://www.saasalliance.io/assets/img/sales/reports.png?v=f0ae9a70e2)
+Reports 
+Catch up on the latest   
+industry trends   
+and insights.   
+
+[ GAIN INSIGHTS ](https://www.saasalliance.io/tag/saas-reports/)
+![](https://www.saasalliance.io/assets/img/sales/Podcast.png?v=f0ae9a70e2)
+Podcasts 
+Interviews with   
+industry experts from   
+all functions of SaaS.   
+
+[ TUNE IN ](https://futureofsaas.io/saascast/)
+![](https://www.saasalliance.io/assets/img/sales/saasstream.png?v=f0ae9a70e2)
+SaaS Stream 
+Selection of our favorite talks from our premier events,   
+OnDemand at your leisure.  
+
+[ WATCH NOW ](https://futureofsaas.io/saasstream/)
+Our latest report. 
+Want to stay ahead of the curve? Get the lowdown on the latest game-changing developments, from machine learning to low-code development, to vertical strategies, all straight from the leading minds in SaaS. 
+[ UNLOCK INVALUABLE INSIGHTS ](https://www.saasalliance.io/the-future-of-saas-report/)
+![](https://www.saasalliance.io/assets/img/sales/FoSaaS_Future_of_SaaS_Report_2022_Mockup_3.png?v=f0ae9a70e2)
+Sponsors & Partners 
+![](https://www.saasalliance.io/assets/img/whitelogos/SMonkey.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/monday-logo-x2.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/kompyte.png?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/whitelogos/Highspot.png?v=f0ae9a70e2)
+[ PARTNER WITH US ](https://futureofsaas.io/partner/)
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_right.svg?v=f0ae9a70e2) ![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_left.svg?v=f0ae9a70e2)
+Sign up to the   
+SaaSfix newsletter. 
+Keep track of all the latest   
+industry happenings with  
+our newsletter—straight to your inbox  
+once a month. 
+![](https://www.saasalliance.io/assets/img/sales/SaaS_newsletter_middle.svg?v=f0ae9a70e2)
+Subscribe now
+  
+SEND ![](https://www.saasalliance.io/assets/img/sales/arrow.png?v=f0ae9a70e2)
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+[ ![](https://www.saasalliance.io/assets/img/sales/SAAS.png?v=f0ae9a70e2) ](https://www.saasalliance.io/)
+SaaS Alliance was founded in early 2020 with a mission of creating a one-stop-shop of resources, content, and learning materials for those in SaaS. 
+  
+**Let’s drive innovation, evolution and growth. Together.**
+[ ](https://www.linkedin.com/school/saas-alliance/?viewAsMember=true) [ ](https://www.instagram.com/saasalliance/?igsh=MXc4NWhhc3Z3aWx5MA%3D%3D) [ ](https://twitter.com/alliance_saas) [ ](https://www.facebook.com/futureofsaas/) [](https://www.tiktok.com/@saas.alliance) [ ](https://www.youtube.com/channel/UC29SAjeZI6o8Y9GuvCBqATQ) [](https://feedly.com/i/subscription/feed/https://futureofsaas.io/rss/ "RSS")
+ABOUT 
+  * [Contribute](https://www.saasalliance.io/contributor-guide)
+  * [Media Guide](https://www.saasalliance.io/partner)
+  * [Ambassadors](https://www.saasalliance.io/meet-the-ambassadors)
+  * [Mission](https://www.saasalliance.io/about)
+  * [Privacy Policy](https://www.saasalliance.io/privacy-policy)
+  * [Terms of Service](https://www.saasalliance.io/terms-and-conditions)
+
+
+RESOURCES 
+  * [Podcasts](https://www.saasalliance.io/saascast)
+  * [Reports](https://futureofsaas.io/tag/saas-reports/)
+
+
+GENERAL 
+  * [Events](https://www.saasalliance.io/events)
+  * [Membership](https://www.saasalliance.io/signup/)
+
+
+Learn 
+[Customer Success](https://www.saasalliance.io/tag/customer-success) [Product Management](https://www.saasalliance.io/tag/product-management) [Finance & Investment](https://www.saasalliance.io/tag/finance-investment) [Marketing](https://www.saasalliance.io/tag/marketing/) [Sales](https://www.saasalliance.io/tag/sales/) [Diversity, Equity & Inclusion](https://www.saasalliance.io/tag/diversity-equity-inclusion) [Data & insights](https://www.saasalliance.io/tag/data-insights/) [Leadership & Strategy](https://www.saasalliance.io/tag/leadership-strategy) [Operations](https://www.saasalliance.io/tag/operations/)
+","","","https://saasalliance.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Level-up your SaaS growth strategies | SaaS Alliance","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","saasalliance.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","7666b2775807d4bc6c7c0a1ff486895ec4c035865f9bc011b9adb83614822d81","0.0","0.3","3074d9df-f6a4-52ae-846a-3354ab2c3c82","","2026-03-30T21:36:35.359717Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/saasalliance.io.json","/tmp/tmpdjaj0ckx/evidence/domain/saasalliance.io.json","","2026-06-28T21:36:35.359719Z","SaaS startup CEO contact information","2026-03-30T21:35:39.504014Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-30T21:36:35.372919Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpdjaj0ckx/evidence/domain/bcg.com.json","","2026-06-28T21:36:35.372921Z","venture consulting firm partner email","2026-03-30T21:35:43.611685Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","[Skip Navigation](https://www.cedf.com/#content) [![](https://www.cedf.com/images/brand.png)](https://www.cedf.com/ "Community Economic Development Fund") [Community Economic Development Fund](https://www.cedf.com/)
+Close Menu
+  * [Loans](https://www.cedf.com/loans/)
+    * [Loan Eligibility](https://www.cedf.com/loans/loan-eligibility/)
+    * [Loan Inquiry](https://www.cedf.com/inquiry)
+    * [FAQs](https://www.cedf.com/loans/faqs/)
+    * [Term Loans](https://www.cedf.com/loans/term-loans/)
+    * [SBA Microloans](https://www.cedf.com/loans/sba-microloans/)
+    * [Commercial Real Estate Loans](https://www.cedf.com/loans/commercial-real-estate-loans/)
+    * [Nonprofit Organization Loans](https://www.cedf.com/loans/nonprofit-loans/)
+    * [Advice to Small Business Borrowers](https://www.cedf.com/loans/advice-to-small-business-borrowers/)
+    * [Business Plan](https://www.cedf.com/loans/business-plan/)
+    * [Helpful Information for Business Owners](https://www.cedf.com/loans/booklets/)
+    * [Business Lines of Credit](https://www.cedf.com/loans/lines-of-credit/)
+    * [Women and Minority Loan Guarantee Program](https://www.cedf.com/loans/women-and-minority-loan-guarantee-program/)
+    * [Business Advisory Services](https://www.cedf.com/loans/business-advisory-services/)
+  * [Education](https://weteachsuccess.org/)
+    * [We Teach Success](https://weteachsuccess.org/)
+    * [Chalkboard](https://weteachsuccess.org/category/articles/)
+    * [Podcasts](https://weteachsuccess.org/category/podcasts/)
+    * [Training Calendar](https://www.cedf.com/training/)
+    * [Recorded Presentations](https://weteachsuccess.org/category/replays/)
+  * [Community Development](https://www.cedf.com/community-development/)
+    * [Featured Projects](https://www.cedf.com/community-development/featured-projects/)
+  * [About Us](https://www.cedf.com/about-cedf/)
+    * [Join Our Team](https://www.cedf.com/about-cedf/join-our-team/)
+    * [Who We Serve](https://www.cedf.com/about-cedf/who-we-serve/)
+    * [Our Mission](https://www.cedf.com/mission/)
+    * [Economic Impact](https://www.cedf.com/about-cedf/economic-impact/)
+    * [Our Team](https://www.cedf.com/staff/)
+    * [Board of Directors](https://www.cedf.com/about-cedf/board-of-directors/)
+    * [Investors ](https://www.cedf.com/about-cedf/our-investors-and-donors/)
+    * [Funding Partners](https://www.cedf.com/about-cedf/funding-partners/)
+    * [Client Stories & Testimonials](https://www.cedf.com/about-cedf/success-stories/)
+    * [History](https://www.cedf.com/about-cedf/history/)
+    * [Annual Report Website](https://cedffoundation.org)
+  * [Contact](https://www.cedf.com/contact/)
+
+[DONATE](https://www.cedf.com/donate)
+[Loans](https://www.cedf.com/loans/) [Education](https://weteachsuccess.org) Menu 
+# Small Businesses Find Hope & Opportunity Here
+![open door home w thumbs 2](https://www.cedf.com/Customer-Content/www/photorotator/Images/open_door_home_with_thumbs2.jpg)
+[](https://www.cedf.com/#homeArrow)
+## We provide loans to Connecticut small business owners, primarily in low-to-moderate income communities, who are not able to obtain traditional bank financing.
+### [Term Loans Up to $250,000 Apply ](https://www.cedf.com/homepage-callouts/Redirector.aspx?CalloutID=2) ### [Commercial Real Estate Loans Up to $500,000 Apply ](https://www.cedf.com/homepage-callouts/Redirector.aspx?CalloutID=3) ### [Business Lines of Credit Up to $250,000 Apply ](https://www.cedf.com/homepage-callouts/Redirector.aspx?CalloutID=1) Not sure which loan product meets your needs?[Contact Us](https://www.cedf.com/contact/)
+## Business Education Workshops and Seminars
+### [Build a Courageous Culture for Small Business Success](https://www.cedf.com/training/2026/04/09/build-a-courageous-culture-for-small-business-success/)
+4/9/2026
+A strong culture doesn’t happen by accident. Learn how to build one on purpose.
+Get the training and knowledge you need to run a business right here at CEDF. [View All Workshops & Seminars](https://www.cedf.com/training/)
+Success stories
+## 30 Years of Small Business Development
+Our video played at the organization's 30th anniversary celebration on Oct. 3, 2024.
+## [Featured News](https://www.cedf.com/news/)
+# [In the Words of Our Clients 10/30/2024 Success stories  
+In the Words of Our Clients  
+  
+  
+Our video played at the organization's 25th Anniversary Celebration of Success reception on Oct. 2, 2019. ](https://www.cedf.com/news/in-the-words-of-our-clients/ "In the Words of Our Clients") [View All News](https://www.cedf.com/news/)
+CEDF  
+965 East Main Street  
+Meriden, CT 06450  
+
+Phone: [203.235.2333](tel:203.235.2333)  
+Toll Free: [888.835.2333](tel:+18888352333)  
+Fax: 203.235.2913  
+
+[Email](https://www.cedf.com/contact/) [Home](https://www.cedf.com/) [CEDF Happenings](https://www.cedf.com/news) [Privacy Policy](https://www.cedf.com/privacy-policy) [Terms of Use](https://www.cedf.com/terms-of-use) [Site Map](https://www.cedf.com/Site-Map/)
+Get Email Updates  
+Submit [](https://www.facebook.com/CEDF.CT/)
+We thank our investors that give us the fuel to drive our work. [Our Investors](https://www.cedf.com/about-cedf/our-investors-and-donors/)
+[Web Solutions](https://www.exposure.com/ "CT Web Design and Development Company - Exposure Internet Marketing")
+© 2016 – 2026 Community Economic Development Fund. All Rights Reserved. 
+![agent](https://agent.jotform.com/01954e2518297aac8fffc7e0f7dd1f726b40/avatar-icon)
+","","","https://cedf.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Community Economic Development Fund CEDF CT Small Business Loans","1","","","","","","","","","","","0.001","0.0009","0.0","0.0019","cedf.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","9616bcc7d9fa6cde23e1eca88cb094c27be5f2dd667893eda3712f38f9e30d71","0.0","0.3","6187be05-cf00-510d-b811-c4cf73932568","","2026-03-30T21:36:43.565617Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cedf.com.json","/tmp/tmpdjaj0ckx/evidence/domain/cedf.com.json","","2026-06-28T21:36:43.565623Z","small business advisory firm team page","2026-03-30T21:35:48.303537Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-30T21:36:35.372919Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpdjaj0ckx/evidence/domain/bcg.com.json","","2026-06-28T21:36:35.372921Z","venture consulting firm partner email","2026-03-30T21:35:43.611685Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","LLC","A global professional services firm specializing in management consulting.","","3,000+","https://oliverwyman.com","1984","New York, NY, USA","Professional Services","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Oliver Wyman","10","Private","$1 billion - $5 billion","","","","","","","Management Consulting|Risk Management|Mergers and Acquisitions|Performance Transformation|AI Transformation","Management Consulting","0.0","0.0009","0.0","0.0009","oliverwyman.com","Basic company information available; Company name available; Company description available; Industry information available; Location information available; Location count available; Founded year available; Employee count available; Ownership type available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","c38bd7b3b6815aabde86e53f9e2683cc694e5780ad6eb4913d9332d1009b056b","0.0","0.3","f0aa0845-82ff-5224-88ea-9eaaa4174d66","","2026-03-30T21:36:43.594822Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/oliverwyman.com.json","/tmp/tmpdjaj0ckx/evidence/domain/oliverwyman.com.json","","2026-06-28T21:36:43.594824Z","management consulting firm director email","2026-03-30T21:35:54.889000Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","[](/)
+Resources
+Advanced Search
+[ Start Free Trial ](/buy/select-product)
+Talk With Sales
+[ Pricing ](/buy/select-product)
+[ Log In ](/login)
+[ Log In ](/login)
+![](https://images.crunchbase.com/image/upload/c_pad,w_1000,f_auto,b_white,q_auto:eco,dpr_1/a2e9ad10e42f4a5d8cddeb89266da465?ik-sanitizeSvg=true)
+# Make better decisions, faster
+Discover and act on private market activity with predictive company intelligence
+Search Crunchbase or Send Message ![](https://images.crunchbase.com/image/upload/51d868f4f22a45d4a8854d60d332e4f9)
+Build a list of AI startups founded in last 6 months  Cybersecurity exits in the last 12 months  Chart the funding journey of xAI  Healthcare companies that recently raised funding 
+Get the full experience.
+[ See Plans ](/buy/select-product)
+This month on Crunchbase
+4,598,547  new predictions  52,252  new insights  3,272  new funding rounds 
+Trending TrendingInsights
+New
+Predictions
+New
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/5084654e06b74f8e91be2b078888e701?ik-sanitizeSvg=true)[ ![Samsung Electronics Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/vndrwlr9hbpcc4lse15u?ik-sanitizeSvg=true) Samsung Electronics  ](/organization/samsung-electronics)
+Partnership Announcement
+Samsung is going along for the ride on the new BTS world tour 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/c4e11f85ee974052b7fc28bf03f171d5?ik-sanitizeSvg=true)[ ![Perplexity Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/ae1234e9e4bb4347b589eceb981c2a8a?ik-sanitizeSvg=true) Perplexity  ](/organization/perplexity-ai)
+IPO Prediction
+It is probable that Perplexity will IPO 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/d84d0f4ccdef455fb97f7617fb3b3ffa?ik-sanitizeSvg=true)[ ![OpenAI Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/jjykwqqhsscreywea4gb?ik-sanitizeSvg=true) OpenAI  ](/organization/openai)
+Growth Insight
+OpenAI reported that it achieved significant growth milestones in 2025, with its revenue reaching approximately $13.1 billion, exceeding its initial target of $10 billion. The company also projected its annual revenue to rise to over $25 billion in 2026, driven by strong demand for its AI products, including ChatGPT, which reached over 900 million weekly active users and more than 50 million paying subscribers. Additionally, OpenAI's enterprise business generated about $10 billion of its total revenue, highlighting the growing importance of corporate customers. The company secured a record-breaking $110 billion funding round led by Amazon, Nvidia, and SoftBank, valuing it at $730 billion pre-money, which is expected to support its expansion and infrastructure needs. 
+Learn about the companies that matter to you (for free)Get personalized private market analysis 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/b4da1fb84f954faf93faf8f3256d01ea?ik-sanitizeSvg=true)[ ![European Investment Bank Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/866aae97a23a4c519bdab47ad53cd0f8?ik-sanitizeSvg=true) European Investment Bank  ](/organization/european-investment-bank)
+Growth Prediction
+It is probable that European Investment Bank will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/a4f338d678674ed9afb305d2460c9740?ik-sanitizeSvg=true)[ ![Siemens Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/mky0fkibqswnxfbvhk3i?ik-sanitizeSvg=true) Siemens  ](/organization/siemens)
+Product Launch
+Siemens and NVIDIA Strengthen Industrial AI Collaboration with New Platforms for Simulation and Real Time Collaboration 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/cd7489b63799400b82e4d2f408ae4481?ik-sanitizeSvg=true)[ ![Franklin Templeton Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/241ea26d3d764191a847a1418890bd8c?ik-sanitizeSvg=true) Franklin Templeton  ](/organization/franklin-templeton-investments)
+Growth Prediction
+It is very likely that Franklin Templeton will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/85b3c3c1d0dd4aae96a05f69926a7dde?ik-sanitizeSvg=true)[ ![Y Combinator Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/v1482160613/skm38vnvyl0wpgfyz98v.png?ik-sanitizeSvg=true) Y Combinator  ](/organization/y-combinator)
+Investor Insight
+Y Combinator invests in seed and early-stage companies in AI, software, and information technology across North America and Europe, with activity in San Francisco, New York, and Paris. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/ded12a66e0f04db3a8535be0ea2fc973?ik-sanitizeSvg=true)[ ![Nscale Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/248ba9b2996c41fd93b8b5c600f02374?ik-sanitizeSvg=true) Nscale  ](/organization/nscale)
+IPO Prediction
+It is probable that Nscale will IPO 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/379ba7db995c4b95ab89ebbe6b29e9bc?ik-sanitizeSvg=true)[ ![Janus Henderson Investors Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/3070515cf6094533b96f5d00d3b0479f?ik-sanitizeSvg=true) Janus Henderson Investors  ](/organization/janus-henderson-investors)
+Legal Proceeding
+Janus Henderson under fire for 'mafia gangster' tactics 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/32de1b1384a54d16991f045cbd941788?ik-sanitizeSvg=true)[ ![HSG Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/cf02c996ea0449d2abe046392994ca87?ik-sanitizeSvg=true) HSG  ](/organization/hsg-cap)
+Growth Prediction
+It is very likely that HSG will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/31c928404b48432aa93b744faa2ce678?ik-sanitizeSvg=true)[ ![Polymarket Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/radxv99bd8jwiuqwxt95?ik-sanitizeSvg=true) Polymarket  ](/organization/polymarket)
+Growth Insight
+Polymarket achieved significant growth milestones in 2025, highlighted by a $2 billion investment from Intercontinental Exchange, which valued the company at approximately $9 billion. The platform's trading volume surged, reaching $7.66 billion in January 2026, up from $5.31 billion in December 2025, marking a 44% increase. Additionally, Polymarket reported a record monthly trading volume of $2.28 billion in December 2025. The company also expanded its user base, reaching 491,000 monthly active traders by December 2025, and saw a substantial increase in installs from 30,000 in January to 400,000 by December 2025. Furthermore, Polymarket's fee revenue reached approximately $787,000 in a single week, contributing to a sector-wide record in weekly fees. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/9ec2f06e7a9e45189d094ad56a232cde?ik-sanitizeSvg=true)[ ![Harness Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/vpfksuwzidzroxuk4llw?ik-sanitizeSvg=true) Harness  ](/organization/harness-512d)
+Growth Prediction
+It is very likely that Harness will grow 
+Learn about the companies that matter to you (for free)Get personalized private market analysis 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/d549dc4ba6334611a3dd1e9dfb030b82?ik-sanitizeSvg=true)[ ![Eli Lilly Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/v1397190264/b563d1908562cc41b55406ad8c678083.gif?ik-sanitizeSvg=true) Eli Lilly  ](/organization/eli-lilly)
+Partnership Announcement
+Eli Lilly to sign $2 billion deal for AI drug development with Hong Kong's Insilico Medicine, FT says 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/930c72a5a7b544999596ac1c0dc8b549?ik-sanitizeSvg=true)[ ![Mistral AI Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/a107708d04ba41bf8f368227209efb3d?ik-sanitizeSvg=true) Mistral AI  ](/organization/mistral-ai)
+Growth Prediction
+It is probable that Mistral AI will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/3aff0c89864c4d10ae3e2198b5386c3f?ik-sanitizeSvg=true)[ ![Mastercard Foundation Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/96754e3dfc184401ab665755c99fb436?ik-sanitizeSvg=true) Mastercard Foundation  ](/organization/mastercard-foundation-edtech-fellowship-program)
+Investor Insight
+Mastercard Foundation provides grants and non-equity support to education and edtech initiatives, focusing on education, software, and IT sectors across African cities including Addis Ababa, Lagos, and Nairobi. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/650f3c5b1360498b9cbb5004f8e10652?ik-sanitizeSvg=true)[ ![General Catalyst Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/2e14af31989642ea8b42e75137ed2dec?ik-sanitizeSvg=true) General Catalyst  ](/organization/general-catalyst-partners)
+Growth Prediction
+It is very likely that General Catalyst will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/bdf23c1234064c60a6dd0b2a878d2d7c?ik-sanitizeSvg=true)[ ![Rubrik Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/v1481229346/fguokibny8s46diuexkz.png?ik-sanitizeSvg=true) Rubrik  ](/organization/rubrik)
+Product Launch
+Rubrik Rolls Out Industry’s First Semantic AI Governance Engine 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/6a78b4086f83464b88a62cd9a6c4086e?ik-sanitizeSvg=true)[ ![Nothing Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/243cfe359ef24bfe8beceeb0d95a18a8?ik-sanitizeSvg=true) Nothing  ](/organization/nothing-4537)
+Growth Prediction
+It is probable that Nothing will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/7abc63c51571490995107cb8b806ffbb?ik-sanitizeSvg=true)[ ![VAST Data Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/immlilkn93rppcg82qc3?ik-sanitizeSvg=true) VAST Data  ](/organization/vast-data)
+Growth Insight
+VAST Data acquired cloud start-up Red Stapler to obtain its cloud control plane and service delivery platform technology. The company raised $500 million in additional equity funding at a reported $30 billion valuation, bringing total equity funding to $900 million. VAST Data reported surpassing $4 billion in cumulative software bookings and more than $500 million in contracted annual recurring revenue, with total sales tripling in its most recent fiscal year while achieving operating profitability and positive free cash flow. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/e3a0aced7faf4bf989bf4ca0c23379ca?ik-sanitizeSvg=true)[ ![Indigo Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/lqepihizylggrezlggrl?ik-sanitizeSvg=true) Indigo  ](/organization/indigoag)
+Growth Prediction
+It is probable that Indigo will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/c6fdcca8072440b49d4a69e718aaa8fa?ik-sanitizeSvg=true)[ ![Hyundai Motor India Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/hykglcuxegapf29wir8r?ik-sanitizeSvg=true) Hyundai Motor India  ](/organization/hyundai-motor-india)
+Legal Proceeding
+PMO meeting on CAFE-3: MoRTH to penalise carmakers under CAFE-2 with new method 
+Learn about the companies that matter to you (for free)Get personalized private market analysis 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/6cecd36f800a4858a1dd621ee4062966?ik-sanitizeSvg=true)[ ![Agibot Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/3b1769a32991412290707f0f8ebf5189?ik-sanitizeSvg=true) Agibot  ](/organization/agibot)
+Growth Prediction
+It is very likely that Agibot will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/ecb53ff4f3ac4de5b4712cf4fb4f98b3?ik-sanitizeSvg=true)[ ![Lockheed Martin Ventures Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/v1466605778/dfrxfo19b7kzro10qusv.png?ik-sanitizeSvg=true) Lockheed Martin Ventures  ](/organization/lockheed-martin-ventures)
+Investor Insight
+Lockheed Martin Ventures invests in seed and early-stage companies in aerospace, manufacturing, and artificial intelligence, focusing on science and engineering and hardware, primarily across multiple locations in the United States. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/d549dc4ba6334611a3dd1e9dfb030b82?ik-sanitizeSvg=true)[ ![Function Health Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/25fd8de7c97c434994ab7955f67bfc37?ik-sanitizeSvg=true) Function Health  ](/organization/function-health)
+Growth Prediction
+It is very likely that Function Health will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/c2abf170d00c435b82db573f91932e5e?ik-sanitizeSvg=true)[ ![Uncle Nearest Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/ll3jezjqf4wnldzuv3pg?ik-sanitizeSvg=true) Uncle Nearest  ](/organization/uncle-nearest)
+Award
+The Best Tennessee Whiskey of 2025 Has Been Crowned—And It’s Not From Jack Daniel’s 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/c06f7439a26b42f2b1b190944f73b027?ik-sanitizeSvg=true)[ ![European Bank for Reconstruction and Development Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/ba4385ddb96d4b8eb10e9d3360703108?ik-sanitizeSvg=true) European Bank for Reconstruction and Development  ](/organization/european-bank-for-reconstruction-and-development-ebrd)
+Growth Prediction
+It is probable that European Bank for Reconstruction and Development will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/b7c92ef515a5496e802750b5434ae989?ik-sanitizeSvg=true)[ ![Sage Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/88fd1a31dbfa47cc943f5a999d0716b6?ik-sanitizeSvg=true) Sage  ](/organization/sage-58f2)
+Growth Insight
+Sage reported a 14% year-on-year increase in pre-tax profit to GBP484 million for the year ended September 30, up from GBP426 million. The company also recorded a 16% increase in underlying operating profit to GBP600 million for the year to end-September, driven by both top-line growth and margin expansion. Additionally, Sage achieved a 10% year-on-year increase in first-quarter organic revenue to GBP647 million, supported by strong growth in its Sage Business Cloud and cloud-native offerings across multiple regions. The company expanded its operations by launching its Sage Intacct cloud financial management solution in Singapore and entered the Kenyan market, targeting mid-sized and SMB organizations. Furthermore, Sage raised $65 million in a Series C funding round led by Goldman Sachs Alternatives, bringing its total funding to $124 million to expand its AI-powered senior care platform. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/5e021ed00f854b1db19622164def8061?ik-sanitizeSvg=true)[ ![OKX Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/cwhjmlab2f1zdvdmygyn?ik-sanitizeSvg=true) OKX  ](/organization/okx)
+IPO Prediction
+It is probable that OKX will IPO 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/21ecbbd980734cdcb69f3ffdc67df3e9?ik-sanitizeSvg=true)[ ![Solo.io Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/8f0cb8633c43471ebd3bf2eb62a84f5a?ik-sanitizeSvg=true) Solo.io  ](/organization/solo-io)
+Product Launch
+Solo.io launches agentevals to solve agentic AI’s “biggest unsolved problem” 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/93c8c3649cb84ea8a1478b8d82dc8a0e?ik-sanitizeSvg=true)[ ![Harvey Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/130c3d3fb2274495adc94f5efde4f7bd?ik-sanitizeSvg=true) Harvey  ](/organization/harvey-128b)
+Growth Prediction
+It is very likely that Harvey will grow 
+Learn about the companies that matter to you (for free)Get personalized private market analysis 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/930c72a5a7b544999596ac1c0dc8b549?ik-sanitizeSvg=true)[ ![Celero Ventures Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/751ec373bd5448dea12e12a22d73cdac?ik-sanitizeSvg=true) Celero Ventures  ](/organization/celero-ventures)
+Investor Insight
+Celero Ventures backs seed to early-stage software, AI, and data/analytics companies, investing mainly across London and Berlin in Europe and Palo Alto in North America. 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/d16fd9e02a4b4b72808e48f8424bfdc8?ik-sanitizeSvg=true)[ ![Observe Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/fklrwy4epdgdouhg7r5g?ik-sanitizeSvg=true) Observe  ](/organization/observe-349c)
+Growth Prediction
+It is very likely that Observe will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/c791aab3f29740e69451ba9b3d5d09fe?ik-sanitizeSvg=true)[ ![Internxt Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/sehdzgit2tvlzhwnpe8s?ik-sanitizeSvg=true) Internxt  ](/organization/internxt)
+Product Launch
+Say goodbye to monthly cloud fees with this 100TB lifetime plan 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/bdf23c1234064c60a6dd0b2a878d2d7c?ik-sanitizeSvg=true)[ ![Thinking Machines Lab Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/fad89e65c22841aba71394eb4f322304?ik-sanitizeSvg=true) Thinking Machines Lab  ](/organization/thinking-machines-lab)
+Growth Prediction
+It is very likely that Thinking Machines Lab will grow 
+![](https://images.crunchbase.com/image/upload/c_pad,h_600,w_600,f_auto,q_auto:eco,dpr_1/6609a5b223b44adfa510e6e509fed0bc?ik-sanitizeSvg=true)[ ![Ayar Labs Logo](https://images.crunchbase.com/image/upload/c_pad,h_25,w_25,f_auto,b_white,q_auto:eco,dpr_1/46d9b0af2c654423b8b667a1d0f9dcbf?ik-sanitizeSvg=true) Ayar Labs  ](/organization/ayar-labs)
+Growth Insight
+Ayar Labs raised $500 million in a Series E funding round led by Neuberger Berman, bringing its total funding to $870 million and valuing the company at $3.75 billion. This funding was aimed at scaling production and global deployment of its co-packaged optics for AI data centers. Additionally, Ayar Labs secured a strategic investment of $90 million from a MediaTek subsidiary, further enhancing its financia","","","https://crunchbase.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Crunchbase","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","crunchbase.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","a3dab925aea1fab5ed76cc13b15676f91fabff9d0a983769822b32e571ff778f","0.0","0.3","4ea8265b-fcb3-5ca8-8492-df00ab637e26","","2026-03-30T21:36:43.608126Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/crunchbase.com.json","/tmp/tmpdjaj0ckx/evidence/domain/crunchbase.com.json","","2026-06-28T21:36:43.608128Z","digital marketing agency founder contact","2026-03-30T21:35:59.329451Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

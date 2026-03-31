@@ -24,6 +24,14 @@
     "hq_city": "Psychology and Human Services from Edgewood College of Madison",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

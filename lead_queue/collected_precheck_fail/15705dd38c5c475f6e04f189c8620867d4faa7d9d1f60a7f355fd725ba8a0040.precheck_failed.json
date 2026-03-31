@@ -11,13 +11,27 @@
     "website": "https://marshberry.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/stephen-kraig-82616514/",
     "company_linkedin": "https://www.linkedin.com/company/marshberry-europe/",
     "source_url": "https://marshberry.com",
     "description": "Realize your firm\u2019s value with investment banking and consulting from MarshBerry. We are experts that can help you with M&amp;A, debt &amp; equity capital raising, sales training &amp; much more. Our consultants will create a customized approach to help you obtain your business goals. Contact MarshBerry to learn more today.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

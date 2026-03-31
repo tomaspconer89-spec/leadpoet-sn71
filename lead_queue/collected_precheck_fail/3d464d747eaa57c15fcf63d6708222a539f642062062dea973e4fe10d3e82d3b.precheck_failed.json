@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network",
+  "lead": {
+    "business": "Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "co founder",
+    "website": "https://founderio.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/founderio",
+    "source_url": "https://founderio.com",
+    "description": "[ ![Foundersbase Logo](https://us.foundersbase.com/assets/img/custom/logo/foundersbase-logo.svg) ](https://us.foundersbase.com/) * [ Login ](https://us.foundersbase.com/login) [ Founders ](https://us.foundersbase.com/members) [ Startups ](https://us.foundersbase.com/startups) [ Jobs ](https://us.foundersbase.com/jobs) * ![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) Select language [ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/) [ ![Flag](ht",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

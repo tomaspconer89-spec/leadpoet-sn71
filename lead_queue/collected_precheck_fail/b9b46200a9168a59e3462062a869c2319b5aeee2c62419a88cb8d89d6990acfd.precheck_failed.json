@@ -12,14 +12,26 @@
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
     "country": "United States",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/apooravg/",
     "company_linkedin": "https://www.linkedin.com/company/techtide-solutions/",
     "source_url": "https://techtidesolutions.com",
     "description": "A premier software development company. \ud83d\ude80 Over 100 successfully accomplished projects. Delighted clientele exceeding 150.",
     "employee_count": "11-50",
     "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

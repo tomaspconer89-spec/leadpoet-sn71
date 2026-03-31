@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, country, city",
+  "business": "Advisors Management Group: Financial & Tax Services in WI",
+  "lead": {
+    "business": "Advisors Management Group: Financial & Tax Services in WI",
+    "full_name": "Kate Pederson",
+    "first": "Kate",
+    "last": "Pederson",
+    "email": "",
+    "role": "partner",
+    "website": "https://advisorsmanagement.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/kate-pederson-68556375",
+    "company_linkedin": "https://www.linkedin.com/company/advisors-management-group-inc",
+    "source_url": "https://advisorsmanagement.com",
+    "description": "[Skip to the content](https://advisorsmanagement.com/#content) [![Financial & Tax Services in WI](https://advisorsmanagement.com/wp-content/uploads/2021/11/amg-logo.png)](https://advisorsmanagement.com/ \"Advisors Management Group\") [](javascript:void\\(0\\);) La Crosse [608.782.0200](tel:608.782.0200) Eau Claire [715.834.9512](tel:715.834.9512) Green Bay [920.434.2192](tel:920.434.2192) [Client center Login](https://advisorsmanagement.com/client-center-login/) * [About Us](https://advisorsmanagement.com/about-us/)![](https://advisorsmanagement.com/wp-content/themes/advisorsmanagement/images/down",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

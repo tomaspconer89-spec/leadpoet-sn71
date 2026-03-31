@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Slalom Home | Professional Services | Business Consulting | Slalom",
+  "lead": {
+    "business": "Slalom Home | Professional Services | Business Consulting | Slalom",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://slalom.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/slalom-consulting",
+    "source_url": "https://slalom.com",
+    "description": "[Skip to main content](https://www.slalom.com/us/en#mainContent) [ ![Slalom logo](https://s7d9.scene7.com/is/content/slalom/slalom-logo-blue-RGB?fmt=webp-alpha&metadata=none) ](https://www.slalom.com/us/en) * [Services](https://www.slalom.com/us/en/services) * [Strategy](https://www.slalom.com/us/en/services/strategy) * Business strategy * Customer strategy * Data & technology strategy * [Data](https://www.slalom.com/us/en/services/data) * Engineering & architecture * Management & governance * Literacy & analytics * [Artificial intelligence](https://www.slalom.com/us/en/services/artificial-int",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

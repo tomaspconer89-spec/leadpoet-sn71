@@ -1,0 +1,333 @@
+"best_contact.decision_maker","best_contact.department","best_contact.email","best_contact.full_name","best_contact.job_title","best_contact.linkedin_url","best_contact.location","best_contact.phone","best_contact.seniority","best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.emails","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","","","","","","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T22:37:36.655447Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpz35q84vc/evidence/domain/maynardnexsen.com.json","","2026-06-28T22:37:36.655450Z","business consulting firm advisor email","2026-03-30T22:37:07.265484Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"false","","info@cawg.net","Info Lead","","","","","99","","","","","[ ![](https://cawg.net/wp-content/uploads/2019/01/cayton-and-associates-logo-white.png) ](https://cawg.net/)
+  * [Client Portal](https://cawg.sharefile.com/share/getinfo/rf8da3212a664555b)
+  * [Blog](https://cawg.net/blog/)
+  * [Events](https://cawg.net/events/)
+
+
+  * [Client Portal](https://cawg.sharefile.com/share/getinfo/rf8da3212a664555b)
+  * [Blog](https://cawg.net/blog/)
+  * [Events](https://cawg.net/events/)
+
+
+  * [ (252) 756-6266 ](tel:12527566266)
+
+
+  * [About Our Firm](https://cawg.net/about/)
+  * [Client Services](https://cawg.net/client-services/)
+    * [Accounting Services](https://cawg.net/client-services/accounting-services/)
+      * [Bookkeeping/Write-Up](https://cawg.net/client-services/accounting-services/bookkeeping-write-up/)
+      * [Cash Flow & Budgeting Analysis](https://cawg.net/client-services/accounting-services/cash-flow-budgeting-analysis/)
+      * [Financial Forecasts & Projections](https://cawg.net/client-services/accounting-services/financial-forecasts-projections/)
+      * [Financial Statements](https://cawg.net/client-services/accounting-services/financial-statements/)
+      * [Reviews & Compilations](https://cawg.net/client-services/accounting-services/reviews-compilations/)
+    * [Consulting Services](https://cawg.net/client-services/consulting-services/)
+      * [Business Consulting](https://cawg.net/client-services/consulting-services/business-consulting/)
+      * [Business Entity Selection](https://cawg.net/client-services/consulting-services/business-entity-selection/)
+      * [Business Succession Planning](https://cawg.net/client-services/consulting-services/business-succession-planning/)
+      * [Estate Planning](https://cawg.net/client-services/consulting-services/estate-planning/)
+      * [Management Advisory Services](https://cawg.net/client-services/consulting-services/management-advisory-services/)
+    * [Tax Services](https://cawg.net/client-services/tax-services/)
+      * [Estate & Trust Preparation](https://cawg.net/client-services/tax-services/estate-trust-preparation/)
+      * [IRS Representation](https://cawg.net/client-services/tax-services/irs-representation/)
+      * [Payroll Services](https://cawg.net/client-services/tax-services/payroll-services/)
+      * [Tax Planning](https://cawg.net/client-services/tax-services/tax-planning/)
+      * [Tax Preparation](https://cawg.net/client-services/tax-services/tax-preparation/)
+  * [Tools & Resources](https://cawg.net/tools-resources/)
+    * [Client Tax Organizer](https://cawg.net/tools-resources/client-tax-organizer/)
+    * [Helpful Links](https://cawg.net/tools-resources/helpful-links/)
+    * [Financial Tools](https://cawg.net/tools-resources/financial-tools/)
+      * [Auto](https://cawg.net/tools-resources/financial-tools/auto/)
+      * [Business](https://cawg.net/tools-resources/financial-tools/business/)
+      * [Debt & Credit Cards](https://cawg.net/tools-resources/financial-tools/debt-credit-cards/)
+      * [Insurance](https://cawg.net/tools-resources/financial-tools/insurance/)
+      * [Investment](https://cawg.net/tools-resources/financial-tools/investment/)
+      * [Loan](https://cawg.net/tools-resources/financial-tools/loan/)
+      * [Mortgage](https://cawg.net/tools-resources/financial-tools/mortgage/)
+      * [Personal Finance](https://cawg.net/tools-resources/financial-tools/personal-finance/)
+      * [Retirement](https://cawg.net/tools-resources/financial-tools/retirement/)
+      * [Savings](https://cawg.net/tools-resources/financial-tools/savings/)
+      * [Tax & Estate Planning](https://cawg.net/tools-resources/financial-tools/tax-estate-planning/)
+  * [Contact Us](https://cawg.net/contact/)
+
+
+  * [About Our Firm](https://cawg.net/about/)
+  * [Client Services](https://cawg.net/client-services/)
+    * [Accounting Services](https://cawg.net/client-services/accounting-services/)
+      * [Bookkeeping/Write-Up](https://cawg.net/client-services/accounting-services/bookkeeping-write-up/)
+      * [Cash Flow & Budgeting Analysis](https://cawg.net/client-services/accounting-services/cash-flow-budgeting-analysis/)
+      * [Financial Forecasts & Projections](https://cawg.net/client-services/accounting-services/financial-forecasts-projections/)
+      * [Financial Statements](https://cawg.net/client-services/accounting-services/financial-statements/)
+      * [Reviews & Compilations](https://cawg.net/client-services/accounting-services/reviews-compilations/)
+    * [Consulting Services](https://cawg.net/client-services/consulting-services/)
+      * [Business Consulting](https://cawg.net/client-services/consulting-services/business-consulting/)
+      * [Business Entity Selection](https://cawg.net/client-services/consulting-services/business-entity-selection/)
+      * [Business Succession Planning](https://cawg.net/client-services/consulting-services/business-succession-planning/)
+      * [Estate Planning](https://cawg.net/client-services/consulting-services/estate-planning/)
+      * [Management Advisory Services](https://cawg.net/client-services/consulting-services/management-advisory-services/)
+    * [Tax Services](https://cawg.net/client-services/tax-services/)
+      * [Estate & Trust Preparation](https://cawg.net/client-services/tax-services/estate-trust-preparation/)
+      * [IRS Representation](https://cawg.net/client-services/tax-services/irs-representation/)
+      * [Payroll Services](https://cawg.net/client-services/tax-services/payroll-services/)
+      * [Tax Planning](https://cawg.net/client-services/tax-services/tax-planning/)
+      * [Tax Preparation](https://cawg.net/client-services/tax-services/tax-preparation/)
+  * [Tools & Resources](https://cawg.net/tools-resources/)
+    * [Client Tax Organizer](https://cawg.net/tools-resources/client-tax-organizer/)
+    * [Helpful Links](https://cawg.net/tools-resources/helpful-links/)
+    * [Financial Tools](https://cawg.net/tools-resources/financial-tools/)
+      * [Auto](https://cawg.net/tools-resources/financial-tools/auto/)
+      * [Business](https://cawg.net/tools-resources/financial-tools/business/)
+      * [Debt & Credit Cards](https://cawg.net/tools-resources/financial-tools/debt-credit-cards/)
+      * [Insurance](https://cawg.net/tools-resources/financial-tools/insurance/)
+      * [Investment](https://cawg.net/tools-resources/financial-tools/investment/)
+      * [Loan](https://cawg.net/tools-resources/financial-tools/loan/)
+      * [Mortgage](https://cawg.net/tools-resources/financial-tools/mortgage/)
+      * [Personal Finance](https://cawg.net/tools-resources/financial-tools/personal-finance/)
+      * [Retirement](https://cawg.net/tools-resources/financial-tools/retirement/)
+      * [Savings](https://cawg.net/tools-resources/financial-tools/savings/)
+      * [Tax & Estate Planning](https://cawg.net/tools-resources/financial-tools/tax-estate-planning/)
+  * [Contact Us](https://cawg.net/contact/)
+
+
+Proudly Serving Eastern North Carolina
+With Over 100 Years of Combined Experience
+[Contact Us](https://cawg.net/contact)
+[Learn More](http://cawg.net/client-services/)
+![](https://cawg.net/wp-content/uploads/2019/08/Angela-M-Cayton.jpg)
+## Angela M. Cayton, CPA
+Angela is a member of the American Institute of Certified Public Accountants and is the former president of the Coastal Plains Chapter of the North Carolina Association of Certified Public Accountants. She is also a member of the Pitt County Home Builders Association and Cove City Free Will Baptist Church.
+[Read More](https://cawg.net/staff/angela-m-cayton-cpa/) | [All Staff](https://cawg.net/staff)
+## Upcoming Events
+3.31
+Corporate Income/Franchise (8809)
+[](https://cawg.net/?p=698)
+3.31
+Individual Income (W-2G)
+[](https://cawg.net/?p=699)
+3.31
+Corporate Income/Franchise
+[](https://cawg.net/?p=690)
+[See All Events](https://cawg.net/events)
+##  [ New Reporting Requirement: Beneficial Ownership Information ](https://cawg.net/new-reporting-requirement-beneficial-ownership-information/)
+January 23, 2024 
+Corporate Transparency Act – Beneficial Ownership Information (BOI) This law, added in 2021, created a new beneficial ownership information (BOI) reporting requirement. Starting January of
+[ Read More ](https://cawg.net/new-reporting-requirement-beneficial-ownership-information/)
+## Client Services
+Utilizing over 100 years of combined experience, we can provide a broad range of services for both individuals and businesses. Our smaller firm size gives us the opportunity to provide the personal attention you deserve for something as important as you or your company’s financial stability. Browse the three categories to learn more about the services we offer in each area.
+[ Learn More ](http://cawg.net/client-services/)
+  * ### [Accounting Services](http://cawg.net/client-services/accounting-services/)
+  * ### [Consulting Services](http://cawg.net/client-services/consulting-services/)
+  * ### [Tax Services](http://cawg.net/client-services/tax-services/)
+
+
+# Cayton & Associates, LLP - CPAs Serving Greenville & Eastern NC
+Whether you’re a business owner looking for a partner in managing the accounting needs for your company or you’re an individual preparing your taxes or planning your estate, Cayton & Associates, LLP have the expertise to serve your needs. The partners of the firm have more than 100 years of collective experience and offer a broad range of financial services to individuals and businesses. The small size of our firm allows us to provide our clients with timely responses to questions and a higher level of personal service over that of larger firms. All of our professionals are members of the American Institute of Certified Public Accountants (AICPA) and the Coastal Plains Chapter of the North Carolina Association of Certified Public Accountants (NCACPA). We’re proud members of Greenville and the Eastern North Carolina community, and we believe that personal service and attention are the qualities that you deserve in a CPA firm that truly understands your needs.
+[ Partner With Us ](https://cawg.net/contact)
+## Contact Us Today!
+Send us a message and we will get back to you as soon as possible.
+  * Instagram
+This field is for validation purposes and should be left unchanged.
+  * Name*
+  * Company*
+  * Phone
+  * Email*
+  * Message
+  * Disclaimer*
+I agree that the information submitted to this form does not necessarily create a relationship or business engagement with Cayton & Associates and that the information provided to this form does not contain sensitive personal or financial information.*
+  * CAPTCHA
+
+
+© 2019 Cayton & Associates, LLP 
+[ ![](https://cawg.net/wp-content/uploads/2019/01/cayton-and-associates-logo-white.png) ](https://cawg.net/)
+  * [ (252) 756-6266 ](tel:12527566266)
+  * info@cawg.net
+  * [ 1696 E. Arlington Blvd.  
+P.O. Box 4127  
+Greenville, NC 27836 ](https://goo.gl/maps/YwUc1zxNgzM2)
+
+
+## We’ve Joined Carr, Riggs & Ingram (CRI)
+We’re excited to announce that **Cayton & Associates, LLP ****has joined Carr, Riggs & Ingram (CRI), **a nationally recognized accounting and advisory firm. Our office will now operate under the Carr, Riggs & Ingram name.
+While our name has changed, our commitment to providing exceptional client service and supporting our community remains the same. You’ll continue to work with the same trusted team, now supported by the expanded expertise and resources of more than 2,500 professionals across the United States.
+Learn more about CRI’s full suite of services and industry specializations by visiting our new website.
+### [Visit Our New Website](https://www.criadv.com/)
+Read Our Announcement 
+## We’ve Joined Carr, Riggs & Ingram (CRI)
+We’re excited to announce that **Cayton & Associates, LLP ****has joined Carr, Riggs & Ingram (CRI), **a nationally recognized accounting and advisory firm. Our office will now operate under the Carr, Riggs & Ingram name.
+While our name has changed, our commitment to providing exceptional client service and supporting our community remains the same. You’ll continue to work with the same trusted team, now supported by the expanded expertise and resources of more than 2,500 professionals across the United States.
+Learn more about CRI’s full suite of services and industry specializations by visiting our new website.
+### [Visit Our New Website](https://www.criadv.com/)
+Notifications
+","info@cawg.net","","https://cawg.net","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Accounting, Tax, Payroll, and Business Services - Greenville, NC","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","cawg.net","Basic company information available; Company name available; Company description available; Location count available; Company emails available (1 emails); Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Found 1 contacts; 1 contacts have email addresses","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","e0971fd2004b3e37bf406e2f6a9c884d51ed2a04cacae5faa7fc4e4063afd4d2","0.0","0.3","2c142fbc-ad6e-568d-a987-fc2f0e5aa864","","2026-03-30T22:37:44.520459Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cawg.net.json","/tmp/tmpz35q84vc/evidence/domain/cawg.net.json","","2026-06-28T22:37:44.520462Z","business consulting firm advisor email","2026-03-30T22:37:08.623370Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T22:37:44.533281Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpz35q84vc/evidence/domain/vaam.io.json","","2026-06-28T22:37:44.533283Z","SaaS startup CEO contact information","2026-03-30T22:37:12.054361Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T22:37:44.546059Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpz35q84vc/evidence/domain/findemails.com.json","","2026-06-28T22:37:44.546061Z","SaaS startup CEO contact information","2026-03-30T22:37:13.309129Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-30T22:37:44.558869Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpz35q84vc/evidence/domain/bcg.com.json","","2026-06-28T22:37:44.558872Z","venture consulting firm partner email","2026-03-30T22:37:17.253337Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","Award-winning Generative AI Consultancy For Financial Services. Gain advanced insights in Generative AI from Generative AI consultants.","","","https://consultvp.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Generative AI Consultancy For Financial Services","1","","","","","","https://www.linkedin.com/company/consult-venture-partners","","","","0.0","0.0009","0.0","0.0009","consultvp.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","fda26b6809c7b826de2c292b47a231eb5d6815ebcaa135ec70b988022fc38ac6","0.0","0.3","e49dbf9a-ecab-5b6b-9276-08ec35809368","","2026-03-30T22:37:44.571770Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/consultvp.com.json","/tmp/tmpz35q84vc/evidence/domain/consultvp.com.json","","2026-06-28T22:37:44.571772Z","venture consulting firm partner email","2026-03-30T22:37:20.373494Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","[ ![Foundersbase Logo](https://us.foundersbase.com/assets/img/custom/logo/foundersbase-logo.svg) ](https://us.foundersbase.com/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+[ Founders ](https://us.foundersbase.com/members)
+[ Startups ](https://us.foundersbase.com/startups)
+[ Jobs ](https://us.foundersbase.com/jobs)
+  * ![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+
+
+![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+#  Your Startup Journey Begins Here.
+Whether you're looking for co-founders, investors, mentorship or want to join a startup, Foundersbase connects you with the people you need to make it happen!
+[ Join Now ](https://us.foundersbase.com/signup) [ Learn more ](https://us.foundersbase.com/#how-it-works)
+https://www.foundersbase.com/me/emily90 
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/home1.png)
+####  Networking for Entrepreneurs
+Finding the right co-founders and supporters is tough. Foundersbase connects me with people who share my vision and move things forward.
+![Image Description](https://us.foundersbase.com/assets/img/160x160/img3.jpg)
+#####  Raphael Alstom
+CPO @ Volko
+##  Find Co-Founders
+Connect with like-minded entrepreneurs to build your dream team and start your business.
+[](https://us.foundersbase.com/members)
+##  Join a Startup
+Discover exciting startup projects and join teams to bring innovative ideas to life.
+[](https://us.foundersbase.com/startups)
+##  Get Startup Support
+Find mentors, investors, and other startup supporters to help you grow your business.
+[](https://us.foundersbase.com/login)
+##  Let's co-found   
+startups together!
+The most important decision when building a startup company is who you're building it with. Here you'll find intrinsically motivated team members who go the extra mile and beyond.
+[ Join us today! ](https://us.foundersbase.com/jobs)
+##  Founders
+[](https://us.foundersbase.com/members)
+[ ![Usman Ayobami](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7657_94b50212-95de-4f69-af10-f0c78a82eb94.jpg) Usman Ayobami Software Engineer 
+  * AI & Machine Learning
+  * Software & SaaS
+
+
+* San Mateo ](https://us.foundersbase.com/me/ayobamiu)
+[ ![Ellen Hunt](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7873_0726350f-bef0-4284-8334-69269dcddf55.jpg) Ellen Hunt Experienced business consultant supporting startups in healthcare, logistics, and professional services.
+  * Advertising & Marketing
+  * E-Commerce & Retail
+
+
+* East Florence ](https://us.foundersbase.com/me/EllenH)
+[ ![Debopriya Ghosh](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/6720_7e6c708e-d1b8-44ab-88a4-dc3dac05b21b.jpg) Debopriya Ghosh Ghosh Laboratory, HydroNurture Venture, Astrocytes
+  * AI & Machine Learning
+  * Biotech & Pharmaceuticals
+
+
+* Virginia ](https://us.foundersbase.com/me/debopriya_1993)
+##  Startups
+[](https://us.foundersbase.com/startups)
+[ ![Lumea](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8562_cd5b3b0d-af32-4acc-8396-a9a77c55f241.jpg) Lumea Lumea explains why your money behavior changes — clearly, calmly, without advice
+  * AI & Machine Learning
+  * Software & SaaS
+
+
+* Wilmington ](https://us.foundersbase.com/startup/1009)
+[ ![Sazan](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/6363_618d262d-bb74-466e-9d1b-9fcfdedb7adb.jpg) Sazan Sazan connects users with the best food promos, creating savings and social experiences.
+  * Food & Beverage
+  * Software & SaaS
+
+
+* Newark ](https://us.foundersbase.com/startup/674)
+[ ![Sentinel API Group](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7795_ad97b6fc-04e8-4468-aac2-d7ed8f7cc37a.jpg) Sentinel API Group We offer re-shoring of pharmaceutical ingredient manufacturing to help resupply the US stockpile
+  * Biotech & Pharmaceuticals
+  * Chemicals & Materials
+
+
+* Tampa ](https://us.foundersbase.com/startup/857)
+##  Jobs
+[](https://us.foundersbase.com/jobs)
+[ ![Technical CoFounder CTO](https://us.foundersbase.com/assets/img/custom/defaults/default-profile-startup.jpg) JOB Technical CoFounder CTO Building the first regulated futures exchange for AI compute to enable hedging and price discovery
+  * Blockchain & Cryptocurrency
+  * Financial & Legal Services
+
+
+* New York City ](https://us.foundersbase.com/job/240)
+[ ![CoFounder  Chief Technology Officer CTO](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7344_127b413e-2134-4d35-ad38-7db783b0d790.jpg) JOB CoFounder Chief Technology Officer CTO To offer the 1st verified, automated savings system that turns real profits into transparent growth.
+  * Blockchain & Cryptocurrency
+  * Fintech & Payments
+
+
+* Cambridge ](https://us.foundersbase.com/job/258)
+[ ![Enterprise Sales Rep Co Founder](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7394_187da305-e110-42ed-b071-4b400cb20316.jpg) JOB Enterprise Sales Rep Co Founder We offer a meeting memory platform that helps teams recall context, stay aligned, and act decisively
+  * Software & SaaS
+
+
+* Santa Rosa ](https://us.foundersbase.com/job/265)
+##  Connect with   
+investors and get funded.
+Simply upload a pitch deck and get matched with private investors, business angels and institutional funding partners that help your startup reach the next level.
+##  Find business angels and institutional funding partners now. 
+[ Upload your pitch deck  ](https://us.foundersbase.com/signup)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta6.png)
+  * 1,500+ private investors
+  * Targeted matching
+  * Personal connection
+  * Free of charge
+
+
+##  What is foundersbase?
+Foundersbase is a networking platform where startup founders connect with co-founders, entrepreneurial talent, and early supporters to build their ventures.   
+  
+Members from all over the world create profiles, showcase their startup projects, and engage in direct conversations to form a founding team, find advisors and investors, or recruit startup hires.   
+  
+Unlike broad networking sites, Foundersbase is specifically designed for founder's needs and uses advanced profile curation technology to ensure that every connection is relevant - whether you're looking for a tech co-founder, a marketing expert, or someone to invest early support in your idea.
+[ Join us today! ](https://us.foundersbase.com/signup)
+https://www.founderio.com/feed
+![Founder Community Activity Feed Screenshot](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+Our team
+##  Made By Entrepreneurs
+![Founder Kai](https://us.foundersbase.com/assets/img/custom/team/kai.jpeg)
+Co-Founder / CEO
+####  Kai Lindemann
+I'm the right person to speak to about strategic partnerships and platform development. Feel free to drop me a line if you see potential!
+  * [ ](https://www.linkedin.com/in/kailindemann/)
+
+
+[](https://us.foundersbase.com/me/kailindemann)
+![Founder Anna](https://us.foundersbase.com/assets/img/custom/team/anna_martin.jpg)
+Co-Founder / Marketing
+####  Anna Martin
+I'm making sure we attract the right entrpreneurs to join our community. If you've got ideas how to collaborate, let me know!
+  * [ ](https://www.linkedin.com/in/annamartin007)
+
+
+[](https://us.foundersbase.com/me/annamartin)
+Want to work with us?  [ Tell us how you can help  ](https://us.foundersbase.com/contact)
+Feedback
+##  What Members Say
+> " I'm impressed, you've really built something with the potential to bring entrepreneurial minds closer together. It feels a bit like a LinkedIn for founders. But in a good way. Keep up the good work! "
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/michael.jpg)
+Michael Thompson
+CEO @ FinFlow
+Subscribe To
+## Foundersbase Updates
+[ Enter email Subscribe ](https://ef7e9338.sibforms.com/serve/MUIFAJ7si0ANQDDeVBaPaD_MYpXV-zBp-KuKY3ppK-6ZaBjV21kC47HUhTIGNN20Ba10tLsP9KQ4QAVX7Jve_YF414dcGUovmYTYw8FZalkDVNG91o0PRaNzdmC3BBJiEitLJJ2jj44z4uFWw4Q-LWS--ER2SIlcjRkGP1J1KBUMmjGW61HEnT-PiQNzwbEisJkZl3iERyBHEbu_)
+##  Become part of a community where ideas meet execution.
+[ Get Started - It's Free ](https://us.foundersbase.com/login)
+© foundersbase.com 2026
+  * [Countries](https://us.foundersbase.com/countries)
+  * [Terms](https://us.foundersbase.com/terms)
+  * [Privacy](https://us.foundersbase.com/privacy)
+  * [Imprint](https://us.foundersbase.com/imprint)
+
+
+Add the Foundersbase App
+[ ](javascript:;)
+","","","https://founderio.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","founderio.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","1d66ff1bb853a4e3910a108c88db5862cff29ab8888895bf5274f02e6d775e6d","0.0","0.3","ca3b5223-7a93-55d6-8e05-60c031340a09","","2026-03-30T22:37:44.609436Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/founderio.com.json","/tmp/tmpz35q84vc/evidence/domain/founderio.com.json","","2026-06-28T22:37:44.609439Z","tech startup founder contact page","2026-03-30T22:37:27.466235Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T22:37:44.622686Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpz35q84vc/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T22:37:44.622688Z","management consulting firm director email","2026-03-30T22:37:32.263497Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

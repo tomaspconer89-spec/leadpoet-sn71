@@ -11,13 +11,27 @@
     "website": "https://integritymc.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/integritymgmtconsulting/",
     "company_linkedin": "https://www.linkedin.com/company/integrity-management-consulting/",
     "source_url": "https://integritymc.com",
     "description": "Integrity Management Consulting is an award-winning provider of lifecycle acquisition, program, financial and investment management consulting services.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

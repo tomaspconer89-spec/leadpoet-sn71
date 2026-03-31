@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Find or become a startup Co-Founder",
+  "lead": {
+    "business": "Find or become a startup Co-Founder",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://founders-nation.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://founders-nation.com",
+    "description": "| ## My Favorite Co-Founders ![My profile](https://founders-nation.com/images/icon_my_profile.png) [Save Favorites](javascript:openSaveingFavoritesDiv\\('simplemodal-container-saveingFavorites','-1','-1'\\);) ![see all](https://founders-nation.com/images/icon_see_all.png) [See all](https://founders-nation.com/Favorites.aspx) ![close](https://founders-nation.com/images/favortie_x_off.png) | | --- | | | | | [Click to Favorites](https://founders-nation.com/) | | | Signup | Login | | --- | | | | | [![Founders Nation](https://founders-nation.com/images/logo.png)](https://founders-nation.com/Default.a",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

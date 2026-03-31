@@ -1,0 +1,212 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T23:15:44.997004Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp5d6_2u1l/evidence/domain/cansulta.com.json","","2026-06-28T23:15:44.997007Z","startup advisory services founder contact","2026-03-30T23:15:15.560385Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T23:15:45.009897Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp5d6_2u1l/evidence/domain/maynardnexsen.com.json","","2026-06-28T23:15:45.009899Z","business consulting firm advisor email","2026-03-30T23:15:18.900003Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T23:15:45.023045Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp5d6_2u1l/evidence/domain/vaam.io.json","","2026-06-28T23:15:45.023047Z","SaaS startup CEO contact information","2026-03-30T23:15:23.687821Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T23:15:45.035971Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp5d6_2u1l/evidence/domain/findemails.com.json","","2026-06-28T23:15:45.035973Z","SaaS startup CEO contact information","2026-03-30T23:15:24.367235Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://fintalent.com/#content "Skip to content")
+[ ![Fintalent®](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20110'%3E%3C/svg%3E)](https://fintalent.com/)
+Menu
+[ ![Fintalent®](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20110'%3E%3C/svg%3E)](https://fintalent.com/ "Fintalent®")
+Menu
+  * [Services](https://fintalent.com/)
+    *       *         * #### Solutions For
+      *         * #### Capabilities
+    *       *         * ####  Corporate Development 
+Buy-side M&A project management, leadership, and support. [Learn more →](https://fintalent.com/corporate/)
+      *         * ####  PE & Portfolio Companies 
+Leverage inorganic growth and value creation for your portfolio. [Learn more →](https://fintalent.com/financial-sponsors/)
+      *         * ####  Founder & CEO 
+Build up an M&A function, raise capital, prepare your exit. [Learn more →](https://fintalent.com/founder-ceo/)
+      *         * [Flexible M&A Staffing](https://fintalent.com/flexible/)
+[Interim Head of M&A](https://fintalent.com/consultants/m-and-a/interim-head-of-ma/)
+[Interim M&A Project Manager](https://fintalent.com/consultants/m-and-a/interim-manager/)
+[Interim PMI/ PMO Lead](https://fintalent.com/consultants/value-creation/post-merger-integration-pmi/)
+[Interim Program Manager](https://fintalent.com/consultants/value-creation/program-management-support/)
+[Interim Restructuring Officer](https://fintalent.com/consultants/transformation/chief-restructuring-officer/)
+[Interim Transformation Officer](https://fintalent.com/consultants/transformation/chief-transformation-officer/)
+[Interim CFO](https://fintalent.com/consultants/cfo/interim/)
+[Fractional CFO](https://fintalent.com/consultants/cfo/fractional/)
+[NewM&A Advisory Services](https://fintalent.com/boutiques/)
+  * [Practices](https://fintalent.com/consultants/)
+    * [Corporate Development, Portfolio Services & Add-on M&A](https://fintalent.com/consultants/corporate-development/)
+      * #### Freelance Corporate Development Professionals to provide additional resources in special situations.
+      * [Carve-Outs](https://fintalent.com/consultants/corporate-development/carve-outs/)  
+[Deal Sourcing & Target Approach](https://fintalent.com/consultants/corporate-development/deal-sourcing/)  
+[Divestitures](https://fintalent.com/consultants/corporate-development/divestures/)  
+[Exit Readiness & Strategy](https://fintalent.com/consultants/corporate-development/exit-readiness-strategy/)  
+[Interim Head of M&A](https://fintalent.com/consultants/corporate-development/interim-head-of-ma/)  
+[Interim M&A Manager](https://fintalent.com/consultants/corporate-development/interim-manager/)  
+[Investor Relations](https://fintalent.com/consultants/corporate-development/investor-relations/)  
+[M&A Buy-side advisory](https://fintalent.com/consultants/corporate-development/ma-buy-side-advisory/)  
+[M&A Support Services](https://fintalent.com/consultants/corporate-development/ma-support-services/)  
+[Project Management Office (PMO)](https://fintalent.com/consultants/corporate-development/pmo/)  
+
+    * [Corporate Strategy](https://fintalent.com/consultants/corporate-strategy/)
+      * #### Freelance Corporate Strategy leaders to create and implement strategies for organic and inorganic growth.
+      * [Business Development](https://fintalent.com/consultants/corporate-strategy/business-development/)  
+[Business Expansion](https://fintalent.com/consultants/corporate-strategy/business-expansion-consultant/)  
+[Competitor Analysis](https://fintalent.com/consultants/corporate-strategy/competitor-analysis/)  
+[Go-to-market](https://fintalent.com/consultants/corporate-strategy/go-to-market/)  
+[Interim Corporate Development](https://fintalent.com/consultants/corporate-strategy/interim-corporate-development/)  
+[Joint Venture](https://fintalent.com/consultants/corporate-strategy/joint-venture/)  
+[M&A Strategy](https://fintalent.com/consultants/corporate-strategy/ma-strategy/)  
+[Market Research](https://fintalent.com/consultants/corporate-strategy/market-research/)  
+[Strategic Planning](https://fintalent.com/consultants/corporate-strategy/strategic-planning/)  
+[Strategic Portfoliomanagement](https://fintalent.com/consultants/corporate-strategy/strategic-portfoliomanagement/)  
+[Strategy](https://fintalent.com/consultants/corporate-strategy/strategy/)  
+
+    * [Due Diligence, Financial Modeling, Valuation & Presentations](https://fintalent.com/consultants/due-diligence/)
+      * #### Freelance Due Diligence Professionals to add specialized diligence knowledge to your in-house resources.
+      * [Accounting](https://fintalent.com/consultants/due-diligence/accounting/)  
+[Business Valuation](https://fintalent.com/consultants/due-diligence/business-valuation/)  
+[Commercial Due Diligence](https://fintalent.com/consultants/due-diligence/commercial/)  
+[Financial Analyst](https://fintalent.com/consultants/due-diligence/financial-analysis/)  
+[Financial Due Diligence](https://fintalent.com/consultants/due-diligence/financial/)  
+[Financial Modeling](https://fintalent.com/consultants/due-diligence/financial-modeling/)  
+[Information memorandum](https://fintalent.com/consultants/due-diligence/information-memorandum/)  
+[Intellectual Property Valuation](https://fintalent.com/consultants/due-diligence/intellectual-property/)  
+[LBO Modeling](https://fintalent.com/consultants/due-diligence/lbo-modeling/)  
+[M&A Marketing Material](https://fintalent.com/consultants/due-diligence/ma-marketing-material/)  
+[Operational Due Diligence](https://fintalent.com/consultants/due-diligence/operational/)  
+[Technical Due Diligence](https://fintalent.com/consultants/due-diligence/technical/)  
+[Transaction Advisory](https://fintalent.com/consultants/due-diligence/transaction-advisory/)  
+[Vendor Due Diligence](https://fintalent.com/consultants/due-diligence/vendor/)  
+
+    * [Value Creation & Post-Merger Integration](https://fintalent.com/consultants/value-creation/)
+      * #### Realize add-on M&A Synergies through value creation freelancers in integration and transformation.
+      * [Change Management](https://fintalent.com/consultants/value-creation/change-management/)  
+[Consolidation](https://fintalent.com/consultants/value-creation/consolidation/)  
+[Day 1 Readiness](https://fintalent.com/consultants/value-creation/day-1-readiness/)  
+[Interim Post-Merger Integration Manager](https://fintalent.com/consultants/value-creation/interim-post-merger-integration-manager/)  
+[IT M&A and Tech Integration](https://fintalent.com/consultants/value-creation/it-ma-and-tech-integration/)  
+[Post-Merger Integration (PMI)](https://fintalent.com/consultants/value-creation/post-merger-integration-pmi/)  
+[Program Management Support](https://fintalent.com/consultants/value-creation/program-management-support/)  
+[Target Operating Model](https://fintalent.com/consultants/value-creation/target-operating-model/)  
+[Value Creation Plan](https://fintalent.com/consultants/value-creation/value-creation-plan/)  
+
+    * [Interim CFO Services & Growth Capital](https://fintalent.com/consultants/cfo/)
+      * #### Experienced CFO and FP&A Professionals to add to your team on-demand.
+      * [Business plan](https://fintalent.com/consultants/cfo/business-plan/)  
+[Capital Raising](https://fintalent.com/consultants/cfo/capital-raising/)  
+[Corporate Finance](https://fintalent.com/consultants/cfo/corporate-finance-advisors/)  
+[Financial Planning & Analysis (FP&A)](https://fintalent.com/consultants/cfo/fpa/)  
+[Forecasting](https://fintalent.com/consultants/cfo/forecasting/)  
+[Fractional CFO](https://fintalent.com/consultants/cfo/fractional/)  
+[Fundraising](https://fintalent.com/consultants/cfo/fundraising/)  
+[Interim CFO](https://fintalent.com/consultants/cfo/interim/)  
+[Interim Head of Finance](https://fintalent.com/consultants/cfo/interim-head-of-finance/)  
+[IPO](https://fintalent.com/consultants/cfo/ipo/)  
+[Pitch Deck](https://fintalent.com/consultants/cfo/pitchdeck/)  
+[Pre-IPO Advisory](https://fintalent.com/consultants/cfo/pre-ipo-advisory/)  
+[Private Equity](https://fintalent.com/consultants/cfo/private-equity/)  
+[Strategic Controlling](https://fintalent.com/consultants/cfo/controlling/)  
+[Strategic Finance](https://fintalent.com/consultants/cfo/strategic-finance/)  
+[Succession Planning](https://fintalent.com/consultants/cfo/succession-planning/)  
+[Venture Capital](https://fintalent.com/consultants/cfo/venture-capital/)  
+[Virtual CFO](https://fintalent.com/consultants/cfo/virtual-cfo/)  
+
+    * [Transformation, Restructuring & Distressed](https://fintalent.com/consultants/transformation/)
+      * #### Complex transformation and restructuring projects
+      * [Business Transformation](https://fintalent.com/consultants/transformation/business-transformation/)  
+[Chief Restructuring Officer](https://fintalent.com/consultants/transformation/chief-restructuring-officer/)  
+[Chief Transformation Officer](https://fintalent.com/consultants/transformation/chief-transformation-officer/)  
+[Digital Transformation](https://fintalent.com/consultants/transformation/digital-transformation/)  
+[Distressed M&A](https://fintalent.com/consultants/transformation/distressed-ma/)  
+[Financial Restructuring](https://fintalent.com/consultants/transformation/financial-restructuring/)  
+[Operational Restructuring](https://fintalent.com/consultants/transformation/operational-restructuring/)  
+[Performance Management and Improvement](https://fintalent.com/consultants/transformation/performance-management-and-improvement/)  
+[Transformation Management Office (TMO)](https://fintalent.com/consultants/transformation/transformation-management-office-tmo/)  
+[Turnaround Manager](https://fintalent.com/consultants/transformation/turnaround-manager/)  
+
+    * [M&A Consultants](https://fintalent.com/consultants/m-and-a/)
+  * [How it works](https://fintalent.com/how-it-works/)
+  * [About](https://fintalent.com/about/)
+  * [Resources](https://fintalent.com/resources/)
+    * [References](https://fintalent.com/./case/)
+    * [Pricing](https://fintalent.com/pricing/)
+    * [Press](https://fintalent.com/press/)
+    * [Blog](https://fintalent.com/./blog/)
+    * [Podcast](https://fintalent.com/./podcast/)
+    * [M&A Tools](https://fintalent.com/tool/)
+  * [Login](https://fintalent.com/)
+    * [Client Login](https://client.fintalent.io/signin)
+    * [Talent Login](https://talent.fintalent.io/)
+  * [Join as Consultant](https://fintalent.com/community/)
+  * [Find Consultants](https://client.fintalent.io/onboard/welcome)
+
+
+[ ![Fintalent®](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20110'%3E%3C/svg%3E)](https://fintalent.com/ "Fintalent®")
+Menu
+  * [Find Freelance Consultants](https://client.fintalent.io/sign-up/briefing)
+  * [How it works](https://fintalent.com/how-it-works/)
+  * [Services](https://fintalent.com/consultants/)
+  * [Practices](https://fintalent.com/consultants/)
+  * [About Us](https://fintalent.com/about/)
+  * [Talent Login](https://talent.fintalent.io)
+  * [Join Community](https://fintalent.com/community/)
+
+
+###### M&A, Transformation, And Strategic Finance Staffing Platform
+# Independent M&A, Transformation, And Strategic Finance Professionals – On Demand And Beyond.
+Fintalent.com connects you to a global network of 4,000+ vetted M&A, Integration, Transformation, and Strategic Finance professionals across 20+ industries. Our data-driven platform combines intelligent search with human expertise — helping you identify, engage, and deploy top professionals for freelance, interim, and permanent mandates.
+Search
+#### Prefer to talk? [Book a call](https://meetings.hubspot.com/oemer-gueven).
+  * No signup fee
+  * Personal service
+  * No hidden costs
+
+
+[ Take a Demo Tour ](https://client.fintalent.io/demo-tour/step-1)
+![Freelance Fintalent Consultants](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20845'%3E%3C/svg%3E)
+Trusted by M&A Teams at ![MAN Energy Solutions Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![QBD Group Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E)![Telekom Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![Deutsche Private Equity Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20358'%3E%3C/svg%3E)![Index Ventures Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20106'%3E%3C/svg%3E)![eurazeo \(1\)](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20172%2050'%3E%3C/svg%3E)![Oakley Capital Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20292'%3E%3C/svg%3E)![Viessmann Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![Patrizia Immobilien Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![EPAM Systems Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)
+![65970a75b8068a3300b7da37_razor group](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![Jobrad Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20512'%3E%3C/svg%3E)![](https://fintalent.com/) ![Auctuc Capital Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202060%20336'%3E%3C/svg%3E)![eBay Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)![Alton Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20184'%3E%3C/svg%3E)![2560px-EQT_\(Unternehmen\)_logo.svg](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20778'%3E%3C/svg%3E)![Ramboll Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20572'%3E%3C/svg%3E)![Sonnen GmbH Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E)![committed capital Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20295%20171'%3E%3C/svg%3E)![motherson Logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201473%20334'%3E%3C/svg%3E)
+## Leverage Specialized M&A and Strategic Finance Consultants.
+## [ Corporate Development, M&A & Portfolio Services​  Complex corporate projects such as carve-outs and divestitures.  → Learn more  ](https://fintalent.com/consultants/corporate-development/)
+## [ Value Creation & Post-Merger Integration  Change and post-merger integration capabilities.  → Learn more  ](https://fintalent.com/consultants/value-creation/)
+## [ Transformation & Restructuring  Complex corporate projects such as carve-outs and divestitures.  → Learn more  ](https://fintalent.com/consultants/transformation/)
+## [ CFO Services & growth Capital  Conduct or manage your financial and commercial due diligence.  → Learn more  ](https://fintalent.com/consultants/due-diligence/)
+![FintalentOfferingProzess 1](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202203%20211'%3E%3C/svg%3E)
+[ Search M&A, PMI, and Strategic Finance Consultants ](https://client.fintalent.io/sign-up/briefing)
+## Leverage Fintalent to execute global corporate disposals, carve-outs, and Exits.
+#### Our Managed Services include:
+  * **Strategic Advisory:** Crafting and refining your M&A strategy to align with your long-term objectives.
+  * **Transaction Execution:** Cra Supporting you through every step of the deal, whether you're buying, selling, or merging.
+  * **Sell-side Advisory:** Expert guidance on divestments, corporate sales, and succession planning.
+  * **Buy-side Advisory:** Identifying and securing acquisition targets, including majority and minority stakes.
+  * **Company Valuations and Opinions:** Providing accurate and comprehensive valuation services.
+  * **Distressed M &A**: Navigating the complexities of high-pressure distressed M&A transactions.
+
+
+#### Voices:
+![QbD Group logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E)
+Inorganic growth is fundamental to our strategy. We were looking for a global partner to help us with our buy-side M&A projects, and found Fintalent. From first contact to project start took less than 2 weeks.
+![Bart van Acker headshot](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20454%20440'%3E%3C/svg%3E)
+Bart van Acker CEO, QbD Group
+# We look forward to discussing your business case with us.
+## Free Handbooks: Learn How Agile M&A Teams create more M&A value
+How do you leverage freelancers for your M&A team? We’ve create two handbooks to guide you through the ins and outs of flexible talent for both M&A and PMI projects – how they work, pros and cons, and practical checklists and guidelines to get the most value out of your agile M&A team.
+### The Flexible Future Of Corporate Development
+A practical guide on how Corporate Development organizations can leverage M&A freelancers to execute more buy-side deals, faster – with a lean and agile team.
+[ Download Flexible M&A Handbook ](https://resources.fintalent.io/hubfs/Whitepaper-FutureOfCorporateDevelopment_Fintalent.pdf)
+![Artboard 1 min](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20702'%3E%3C/svg%3E)
+### The Path To PMI Mastery: Building And Staffing For Integration​
+A practical guide for first-time and serial acquirers on how external consultants support, lead, and deliver value in post-merger integration scenarios.
+[ Download PMI Mastery Handbook ](https://resources.fintalent.io/hubfs/Whitepapers/Fintalent%20Whitepaper%20-%20PMI.pdf)
+![Artboard 1 1 min](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20702'%3E%3C/svg%3E)
+### 2024 M&A Software Landscape
+We analyzed 100+ M&A software vendors, to create the most comprehensive picture of the status quo of M&A software.
+[ Download M&A Software Report ](https://resources.fintalent.io/hubfs/Whitepapers/Fintalent_Whitepaper_Technology.pdf)
+![tech mockup](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20662'%3E%3C/svg%3E)
+![MAN Energy Solutions logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E)
+Fintalent provided an M&A freelancer for one of our latest corporate M&A projects. The support was incredibly fast, hands-on and of high quality and critical to advance the project we were not able to address with internal resources.
+![Dr. Fabian Kley headshot](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E)
+Dr. Fabian Kley Head of Group Strategy and M&A, MAN Energy Solutions
+![Lifepal logo](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20391%20129'%3E%3C/svg%3E)
+We needed an interim CFO to help put our fast-growing FinTech on the right track. I found a number of great candidates incredibly fast. We’ve now hired our Fintalent full-time!
+![Giacomo Ficari headshot](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20538%20526'%3E%3C/svg%3E)
+Giacomo Ficari CEO & Co-Founder, Lifepal
+## Connect with the right M&A Freelancer within Hours
+Post your project briefing in 5 minutes.  Receive a personalized shortlist of M&A freelancers.  Connect, message, and request proposals 
+![Fintalent Project Briefing](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%","","https://fintalent.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Fintalent – The Fastest Way To Staff M&A Projects","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","fintalent.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","5c2e7a14baaeb87d912a8d1de63b351494a277248d323759fb3dcfe4bd8b8625","0.0","0.3","ecadd1d0-a8d9-5429-8d6c-dcd5f0a92ab3","","2026-03-30T23:15:45.074170Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fintalent.com.json","/tmp/tmp5d6_2u1l/evidence/domain/fintalent.com.json","","2026-06-28T23:15:45.074172Z","venture consulting firm partner email","2026-03-30T23:15:29.120393Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T23:15:45.087455Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp5d6_2u1l/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T23:15:45.087457Z","management consulting firm director email","2026-03-30T23:15:41.550186Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://mcgplc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","mcgplc.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","2b5b72f3b15b95e6dc1f739e3e8a99bad698e6acfcfaa7858381fdfaf0d86aae","0.0","0.3","d775a363-09cf-5ef9-bdf1-6063d6b4e06b","","2026-03-30T23:15:45.100470Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mcgplc.com.json","/tmp/tmp5d6_2u1l/evidence/domain/mcgplc.com.json","","2026-06-28T23:15:45.100472Z","management consulting firm director email","2026-03-30T23:15:42.500275Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

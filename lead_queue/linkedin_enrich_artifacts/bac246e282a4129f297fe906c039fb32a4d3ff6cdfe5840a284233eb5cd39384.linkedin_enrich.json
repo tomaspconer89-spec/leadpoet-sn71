@@ -1,0 +1,756 @@
+{
+  "saved_at_utc": "2026-03-31T00:17:37.803805+00:00",
+  "queue_key": "bac246e282a4129f297fe906c039fb32a4d3ff6cdfe5840a284233eb5cd39384",
+  "business": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+      "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago linkedin company",
+      "site:linkedin.com/company chicagofed.org",
+      "site:linkedin.com/in \"Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago\" founder",
+      "site:linkedin.com/in \"Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "Dk0Ps9rGqSkBBQK",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sandra Pesic",
+            "description": "We serve the public interest by fostering a strong economy and promoting financial stability. Operating with a head office in Chicago and a branch office in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "fostering a strong economy and promoting financial stability"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://my.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "https://my.linkedin.com \u203a company \u203a federal-reserve-ba...",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://ec.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+            "displayedUrl": "https://ec.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://nl.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "https://nl.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://pt.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "https://pt.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://ch.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+            "displayedUrl": "https://ch.linkedin.com \u203a company",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago: Jobs",
+            "url": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a jobs",
+            "description": "Jobs at Federal Reserve Bank of Chicago \u00b7 Credit Analyst \u00b7 Summer 2026 Intern - Information and Library Science \u00b7 Product Manager Specialist \u00b7 IAM Specialist.Read more",
+            "emphasizedKeywords": [
+              "Jobs at Federal Reserve Bank of Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://fr.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+            "displayedUrl": "https://fr.linkedin.com \u203a company \u203a federal-reserve-bank...",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://ru.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_topcard-current-company",
+            "displayedUrl": "https://ru.linkedin.com \u203a company",
+            "description": "Operating with a head office in Chicago and a branch office in Detroit, we serve the Seventh Federal Reserve District, an economically diverse region that\u00a0...",
+            "emphasizedKeywords": [
+              "Operating with a head office in Chicago and a branch office in Detroit"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://cn.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "We serve the public interest by fostering a strong economy and promoting financial stability. Operating with a head office in Chicago and a branch office in\u00a0...",
+            "emphasizedKeywords": [
+              "fostering a strong economy and promoting financial stability"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/NBPpI1LwXhIyKvux1/records/Dk0Ps9rGqSkBBQK-0.html?signature=6BLTvEpD4TpwI8wtTqwD"
+      },
+      {
+        "#debug": {
+          "requestId": "eJwI9m5hkqCnZe5",
+          "url": "http://www.google.com/search?q=Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago linkedin company",
+          "url": "http://www.google.com/search?q=Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Federal+Reserve+Bank+of+Chicago+-+Federal+Reserve+Bank+of+Chicago+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Federal reserve bank chicago police",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+chicago+police&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "Federal reserve bank of kansas city linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+of+kansas+city+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhJEAE"
+          },
+          {
+            "title": "Federal Reserve Bank of New York linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+Reserve+Bank+of+New+York+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhIEAE"
+          },
+          {
+            "title": "What is the routing number for the federal reserve bank in chicago",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=What+is+the+routing+number+for+the+federal+reserve+bank+in+chicago&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Federal Reserve Bank of New York employees",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+Reserve+Bank+of+New+York+employees&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhGEAE"
+          },
+          {
+            "title": "Chicago Fed Letter",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Chicago+Fed+Letter&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Federal reserve bank of Cleveland linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+of+Cleveland+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Chicago National Bank",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Chicago+National+Bank&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhDEAE"
+          },
+          {
+            "title": "Federal reserve bank chicago police",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+chicago+police&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "Federal reserve bank of kansas city linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+of+kansas+city+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhJEAE"
+          },
+          {
+            "title": "Federal Reserve Bank of New York linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+Reserve+Bank+of+New+York+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhIEAE"
+          },
+          {
+            "title": "What is the routing number for the federal reserve bank in chicago",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=What+is+the+routing+number+for+the+federal+reserve+bank+in+chicago&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Federal Reserve Bank of New York employees",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+Reserve+Bank+of+New+York+employees&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhGEAE"
+          },
+          {
+            "title": "Chicago Fed Letter",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Chicago+Fed+Letter&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "Federal reserve bank of Cleveland linkedin",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Federal+reserve+bank+of+Cleveland+linkedin&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Chicago National Bank",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Chicago+National+Bank&sa=X&ved=2ahUKEwi-8uqG7siTAxVMBfsDHUlFMuQQ1QJ6BAhDEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sandra Pesic",
+            "description": "Federal Reserve Bank of Chicago | 50533 followers on LinkedIn. We serve the public by fostering a healthy economy and supporting a stable financial system.",
+            "emphasizedKeywords": [
+              "Federal Reserve Bank of Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Chicago Fed's 7th Federal Reserve District Overview",
+            "url": "https://www.linkedin.com/posts/federal-reserve-bank-of-chicago_what-is-the-chicago-feds-7th-federal-reserve-activity-7406828256009555968-eTgk",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sandra Pesic",
+            "description": "View organization page for Federal Reserve Bank of Chicago \u00b7 Federal ... Business Strategy \u00b7 Change Management \u00b7 Organizational Culture\u00a0...Read more",
+            "emphasizedKeywords": [
+              "View organization page for Federal Reserve Bank of Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago: Jobs",
+            "url": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a jobs",
+            "description": "Jobs at Federal Reserve Bank of Chicago \u00b7 Credit Analyst \u00b7 Summer 2026 Intern - Information and Library Science \u00b7 Product Manager Specialist \u00b7 IAM Specialist.Read more",
+            "emphasizedKeywords": [
+              "Jobs at Federal Reserve Bank of Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Person Listing",
+            "url": "https://www.chicagofed.org/people/person-listing?filter_role=4",
+            "displayedUrl": "https://www.chicagofed.org \u203a people \u203a person-listing",
+            "description": "Fisher, Jonas D. M.. Senior Vice President and Director of Macroeconomic Research. Joel David. David, Joel. Senior Economist and Economic Advisor.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Why does Chicago have a Federal Reserve Bank?",
+            "url": "https://www.linkedin.com/posts/federal-reserve-bank-of-chicago_why-does-chicago-have-a-federal-reserve-bank-activity-7350943073805225985--0SZ",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sandra Pesic",
+            "description": "Why does Chicago have a Federal Reserve Bank? President Austan Goolsbee explains the history of the Fed's regional structure.Read more",
+            "emphasizedKeywords": [
+              "Why does Chicago have a Federal Reserve Bank"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://www.chicagofed.org/",
+            "displayedUrl": "https://www.chicagofed.org",
+            "description": "The homepage of the Federal Reserve Bank of Chicago, including recent news, upcoming events, and economic snapshot data.",
+            "emphasizedKeywords": [
+              "recent news, upcoming events, and economic snapshot data"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Austan Goolsbee - President and CEO at Federal Reserve ...",
+            "url": "https://www.linkedin.com/in/austan-goolsbee-62b278277",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Austan Goolsbee",
+            "description": "President and CEO at Federal Reserve Bank of Chicago \u00b7 Experience: Federal Reserve Bank of Chicago \u00b7 Education: Massachusetts Institute of Technology\u00a0...",
+            "emphasizedKeywords": [
+              "President and CEO at Federal Reserve Bank of Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Policy Professionals - Federal Reserve Bank of Chicago",
+            "url": "https://www.chicagofed.org/research/policy-professionals",
+            "displayedUrl": "https://www.chicagofed.org \u203a research \u203a policy-professi...",
+            "description": "Policy Professionals ; Alessandro Cocco. Senior Policy Advisor ; Ross Cole. Data Scientist ; Karen Cuenca. Senior Community Development Specialist ; David W.Read more",
+            "emphasizedKeywords": [
+              "Policy Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Contact Us",
+            "url": "https://www.chicagofed.org/utilities/contactus",
+            "displayedUrl": "https://www.chicagofed.org \u203a utilities \u203a contactus",
+            "description": "LinkedIn \u00b7 Instagram \u00b7 RSS. Our Values. Integrity. Respect. Responsibility. Excellence. Federal Reserve Bank of Chicago, 230 South LaSalle Street, Chicago,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "230 South LaSalle Street, Chicago"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Policy and Communications: About",
+            "url": "https://www.chicagofed.org/people/teams/policy-and-communications/index",
+            "displayedUrl": "https://www.chicagofed.org \u203a people \u203a teams \u203a policy-a...",
+            "description": "The Policy and Communications team produces policy studies, forecasts, and business cycle analyses centered on supporting the Bank president's FOMC\u00a0...Read more",
+            "emphasizedKeywords": [
+              "produces policy studies, forecasts, and business cycle analyses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/U59lPfpTkFzWLTKtp/records/eJwI9m5hkqCnZe5-0.html?signature=1mhTLH4jFIELFYYdj7sYf"
+      },
+      {
+        "#debug": {
+          "requestId": "ixJ6k3yAeSDDOQf",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+chicagofed.org",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+chicagofed.org",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company chicagofed.org",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+chicagofed.org",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+chicagofed.org",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sandra Pesic",
+            "description": "http://www.chicagofed.org. External link for Federal Reserve Bank of Chicago. Industry: Banking. Company size: 1,001-5,000 employees. Headquarters: Chicago, IL.Read more",
+            "emphasizedKeywords": [
+              "http://www.chicagofed.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://nl.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "https://nl.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "Website: http://www.chicagofed.org. Externe link voor Federal Reserve Bank of Chicago ; Branche: Bankwezen ; Bedrijfsgrootte: 1.001 - 5.000 medewerkers.",
+            "emphasizedKeywords": [
+              "Website: http://www.chicagofed.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://pr.linkedin.com/company/federal-reserve-bank-of-chicago",
+            "displayedUrl": "https://pr.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "http://www.chicagofed.org. Enlace externo para Federal Reserve Bank of Chicago. Sector: Banca. Tama\u00f1o de la empresa: De 1.001 a 5.000 empleados. Sede: Chicago,\u00a0...",
+            "emphasizedKeywords": [
+              "http://www.chicagofed.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Federal Reserve Bank of Chicago",
+            "url": "https://pt.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "https://pt.linkedin.com \u203a company \u203a federal-reserve-ban...",
+            "description": "http://www.chicagofed.org. Link externo para Federal Reserve Bank of Chicago. Setor: Bancos. Tamanho da empresa: 1.001-5.000 funcion\u00e1rios. Sede: Chicago, IL.",
+            "emphasizedKeywords": [
+              "http://www.chicagofed.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Federal Reserve System",
+            "url": "https://my.linkedin.com/company/federal-reserve-system",
+            "displayedUrl": "https://my.linkedin.com \u203a company",
+            "description": "This page is dedicated to Federal Reserve System career and employment related information only. Comments not pertaining to Fed recruiting will be removed.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Detroit Economic Club",
+            "url": "https://www.linkedin.com/company/detroit-economic-club",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Detroit Economic Club",
+            "description": "The DEC provides a platform for the discussion & debate of the great business, government & social issues of the day.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Global Midwest Alliance",
+            "url": "https://www.linkedin.com/company/globalmidwestalliance",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Global Midwest Alliance",
+            "description": "Global Midwest Alliance is a business-led, region-wide, not-for-profit education organization dedicated to transforming the Midwest into an\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Global Midwest Alliance"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "300+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "DeKalb County Economic Development Corporation ...",
+            "url": "https://www.linkedin.com/company/dekalb-county-economic-development-corporation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Melissa Amedeo",
+            "description": "The goal of DeKalb County Economic Development Corporation (DCEDC) is to improve living standards and create economic opportunities for DeKalb County,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "improve living standards and create economic opportunities"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "750+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Pathways to Research and Doctoral Careers (PREDOC.org)",
+            "url": "https://www.linkedin.com/company/pathways-to-research-and-doctoral-careers-predoc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pathways to Research and Doctoral Careers (PREDOC.org)",
+            "description": "Pathways to Research and Doctoral Careers (PREDOC.org) is a consortium of universities and research institutions that aims to remove barriers to access to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pathways to Research and Doctoral Careers (PREDOC.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.2K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "The Sadie Collective",
+            "url": "https://www.linkedin.com/company/sadiecollective",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Sadie Collective",
+            "description": "The Sadie Collective is on a mission to close the diversity gap in economics, finance, policy, and data science with a special commitment to Black women.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/QXUpN99ewLqP1Cacd/records/ixJ6k3yAeSDDOQf-0.html?signature=Ku0WHdgEQxJfn2c6KeWE"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+      "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://my.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://ec.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+      "https://nl.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://pt.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://ch.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+      "https://www.linkedin.com/company/federal-reserve-bank-of-chicago/jobs",
+      "https://fr.linkedin.com/company/federal-reserve-bank-of-chicago?trk=ppro_cprof",
+      "https://ru.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_topcard-current-company",
+      "https://cn.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://www.linkedin.com/posts/federal-reserve-bank-of-chicago_what-is-the-chicago-feds-7th-federal-reserve-activity-7406828256009555968-eTgk",
+      "https://www.linkedin.com/company/federal-reserve-bank-of-chicago/jobs",
+      "https://www.linkedin.com/posts/federal-reserve-bank-of-chicago_why-does-chicago-have-a-federal-reserve-bank-activity-7350943073805225985--0SZ",
+      "https://www.linkedin.com/in/austan-goolsbee-62b278277",
+      "site:linkedin.com/company chicagofed.org",
+      "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://nl.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://pr.linkedin.com/company/federal-reserve-bank-of-chicago",
+      "https://pt.linkedin.com/company/federal-reserve-bank-of-chicago?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://my.linkedin.com/company/federal-reserve-system",
+      "https://www.linkedin.com/company/detroit-economic-club",
+      "https://www.linkedin.com/company/globalmidwestalliance",
+      "https://www.linkedin.com/company/dekalb-county-economic-development-corporation",
+      "https://www.linkedin.com/company/pathways-to-research-and-doctoral-careers-predoc",
+      "https://www.linkedin.com/company/sadiecollective"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/michael-o-connell-48b3aa5",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+    "description": "[ Office of the President ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home) [ Money Museum ](https://www.chicagofed.org/education/money-museum/index) [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?h=33&w=570&sc_lang=en&hash=4497DBA67FD97304EAC3580002229ED2)](https://www.chicagofed.org/ \"Home\") [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?sc_lang=en&hash=7A0BD35555EFBD4BC75901A5B7BC7BD5)](https://www.chica",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://chicagofed.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://chicagofed.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "chicagofed.org",
+    "source_urls": [
+      "https://chicagofed.org"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Federal Reserve Bank of Chicago - Federal Reserve Bank of Chicago",
+    "description": "[ Office of the President ](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-home) [ Money Museum ](https://www.chicagofed.org/education/money-museum/index) [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?h=33&w=570&sc_lang=en&hash=4497DBA67FD97304EAC3580002229ED2)](https://www.chicagofed.org/ \"Home\") [![Federal Reserve Bank of Chicago](https://www.chicagofed.org/-/media/admin/images/header/chicago-fed-logo-png.svg?sc_lang=en&hash=7A0BD35555EFBD4BC75901A5B7BC7BD5)](https://www.chica",
+    "full_name": "Michael O Connell",
+    "first": "Michael",
+    "last": "O Connell",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://chicagofed.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Vice President",
+    "linkedin": "https://www.linkedin.com/in/michael-o-connell-48b3aa5",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago",
+    "source_url": "https://chicagofed.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "chicagofed.org",
+    "source_urls": [
+      "https://chicagofed.org"
+    ],
+    "title_raw": "Vice President",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://chicagofed.org"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/federal-reserve-bank-of-chicago"
+    },
+    "first": {
+      "before": "",
+      "after": "Michael"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Michael O Connell"
+    },
+    "last": {
+      "before": "",
+      "after": "O Connell"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/michael-o-connell-48b3aa5"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://chicagofed.org"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Vice President"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Vice President"
+    }
+  }
+}

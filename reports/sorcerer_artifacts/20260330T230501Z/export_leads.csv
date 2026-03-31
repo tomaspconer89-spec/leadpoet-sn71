@@ -1,0 +1,430 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T23:05:01.834481Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpbk93j708/evidence/domain/cansulta.com.json","","2026-06-28T23:05:01.834485Z","startup advisory services founder contact","2026-03-30T23:04:33.866390Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T23:05:01.851725Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpbk93j708/evidence/domain/maynardnexsen.com.json","","2026-06-28T23:05:01.851728Z","business consulting firm advisor email","2026-03-30T23:04:37.342508Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T23:05:01.868906Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpbk93j708/evidence/domain/vaam.io.json","","2026-06-28T23:05:01.868909Z","SaaS startup CEO contact information","2026-03-30T23:04:40.640065Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T23:05:01.886951Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpbk93j708/evidence/domain/findemails.com.json","","2026-06-28T23:05:01.886954Z","SaaS startup CEO contact information","2026-03-30T23:04:41.293352Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T23:05:01.900402Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpbk93j708/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T23:05:01.900405Z","management consulting firm director email","2026-03-30T23:04:56.177587Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to Main Content](https://www.spencerstuart.com/#mainContent)
+* [ English ](https://www.spencerstuart.com/) [ 简体中文 ](https://cn.spencerstuart.com/) [ Deutsch ](https://de.spencerstuart.com/) [ Français (Québec) ](https://www.spencerstuart.com/locations/montreal) [ 日本語 ](https://jp.spencerstuart.com/)
+* [Find a Location](https://www.spencerstuart.com/locations)
+* [Client Login](https://spencerstuartportal.com)
+* [Candidates](https://candidateregistration.spencerstuart.com)
+* [Contact](https://www.spencerstuart.com/contact-us)
+[ ![Spencer Stuart](https://www.spencerstuart.com/images/svg/logo-spencer-stuart-2.svg) ](https://www.spencerstuart.com/)
+
+View All Results
+Search 
+What We Do
+  * Our Capabilities 
+  * [ Executive Search ](https://www.spencerstuart.com/what-we-do/our-capabilities/executive-search)
+  * [ Board & CEO Advisory ](https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo)
+  * [ CEO Succession Planning ](https://www.spencerstuart.com/what-we-do/our-capabilities/ceo-succession-planning)
+  * [ Executive Assessment ](https://www.spencerstuart.com/what-we-do/our-capabilities/executive-assessment-services)
+  * [ Leadership Consulting ](https://www.spencerstuart.com/what-we-do/our-capabilities/leadership-consulting)
+  * [ HR & Talent Advisory ](https://www.spencerstuart.com/what-we-do/our-capabilities/hr-and-talent-advisory)
+  * [ AI Leadership ](https://www.spencerstuart.com/what-we-do/our-capabilities/artificial-intelligence-leadership)
+  * [ CEO Performance Acceleration ](https://www.spencerstuart.com/what-we-do/our-capabilities/leadership-consulting/ceo-performance-acceleration)
+  * [ Sustainability ](https://www.spencerstuart.com/what-we-do/our-capabilities/sustainability)
+  * [ Restructuring ](https://www.spencerstuart.com/what-we-do/our-capabilities/restructuring)
+  * [ Inclusion and Diversity ](https://www.spencerstuart.com/what-we-do/our-capabilities/inclusion-and-diversity)
+  * [ Family Business ](https://www.spencerstuart.com/what-we-do/our-capabilities/family-business)
+
+[ View all Capabilities](https://www.spencerstuart.com/what-we-do/our-capabilities) [ View all Capabilities ](https://www.spencerstuart.com/what-we-do/our-capabilities)
+  * Industries We Serve
+  * [ Technology, Media & Telecommunications ](https://www.spencerstuart.com/what-we-do/industries-we-serve/technology-media-telecom)
+  * [ Consumer ](https://www.spencerstuart.com/what-we-do/industries-we-serve/consumer)
+  * [ Financial Services ](https://www.spencerstuart.com/what-we-do/industries-we-serve/financial-services)
+  * [ Education & Social Impact ](https://www.spencerstuart.com/what-we-do/industries-we-serve/education-and-social-impact)
+  * [ Healthcare ](https://www.spencerstuart.com/what-we-do/industries-we-serve/healthcare)
+  * [ Industrial ](https://www.spencerstuart.com/what-we-do/industries-we-serve/industrial)
+  * [ Private Equity ](https://www.spencerstuart.com/what-we-do/industries-we-serve/private-equity)
+  * [ Professional and Technology Services ](https://www.spencerstuart.com/what-we-do/industries-we-serve/professional-and-technology-services)
+
+[ View all Industries ](https://www.spencerstuart.com/what-we-do/industries-we-serve) [ View all Industries ](https://www.spencerstuart.com/what-we-do/industries-we-serve)
+  * Functional Roles
+  * [ Board and CEO ](https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo)
+  * [ Human Resources ](https://www.spencerstuart.com/what-we-do/functional-roles/human-resources)
+  * [ Financial Officer ](https://www.spencerstuart.com/what-we-do/functional-roles/financial-officer)
+  * [ Marketing, Sales & Communications Officer ](https://www.spencerstuart.com/what-we-do/functional-roles/marketing-officer)
+  * [ Chief Sustainability Officer ](https://www.spencerstuart.com/what-we-do/functional-roles/chief-sustainability-officer)
+  * [ Technology and Digital Officer ](https://www.spencerstuart.com/what-we-do/functional-roles/technology-officer)
+  * [ Legal, Compliance & Government Affairs ](https://www.spencerstuart.com/what-we-do/functional-roles/legal-compliance-government-affairs)
+  * [ Supply Chain & Operations Officer ](https://www.spencerstuart.com/what-we-do/functional-roles/supply-chain-operations-officer)
+  * [ Risk ](https://www.spencerstuart.com/what-we-do/functional-roles/risk)
+
+[ View all Functions ](https://www.spencerstuart.com/what-we-do/functional-roles) [ View all Functions ](https://www.spencerstuart.com/what-we-do/functional-roles)
+People
+###  Find an expert
+We help you find and develop outstanding leaders, improve team and board performance, and align culture with your strategy. 
+
+View All Results
+Search 
+[ Visit our directory ](https://www.spencerstuart.com/our-consultants)
+  * Discover
+  * [Firm Leadership](https://www.spencerstuart.com/who-we-are/firm-leadership)
+  * [Our Global Locations](https://www.spencerstuart.com/locations)
+  * [Careers at Spencer Stuart](https://www.spencerstuart.com/who-we-are/careers-at-spencer-stuart)
+  * [Alumni Network](https://www.spencerstuart.com/alumni-network)
+
+
+Research & Insight
+  * Research & Insight 
+  * [ Board Governance Trends ](https://www.spencerstuart.com/research-and-insight/board-governance-trends)
+  * [ Spencer Stuart Board Indexes ](https://www.spencerstuart.com/research-and-insight/board-indexes)
+  * [ Career Advice ](https://www.spencerstuart.com/research-and-insight/career-advice)
+  * [ Inclusion and Diversity ](https://www.spencerstuart.com/research-and-insight/inclusion-and-diversity)
+
+[ View all Insights](https://www.spencerstuart.com/research-and-insight)
+  * [ AI, Innovation and Technology ](https://www.spencerstuart.com/research-and-insight/ai-innovation-and-technology)
+  * [ CEO Succession and Leadership Development ](https://www.spencerstuart.com/research-and-insight/leadership-development-and-succession)
+  * [ Subscribe to our newsletters ](https://www.spencerstuart.com/subscribe)
+
+[ View all insights ](https://www.spencerstuart.com/research-and-insight)
+  * Featured Publications
+  * [ Point of View 2026: Making the most of leadership transitions ](https://www.spencerstuart.com/research-and-insight/point-of-view)
+  * [ The CEO Moment ](https://www.spencerstuart.com/research-and-insight/the-ceo-moment)
+  * [ Boards Around The World ](https://www.spencerstuart.com/research-and-insight/boards-around-the-world)
+  * [ The Life Cycle of a CEO ](https://www.spencerstuart.com/research-and-insight/the-life-cycle-of-a-ceo)
+
+
+Who We Are
+  * Who We Are 
+  * [ Newsroom ](https://www.spencerstuart.com/who-we-are/newsroom)
+  * [ Firm Leadership ](https://www.spencerstuart.com/who-we-are/firm-leadership)
+  * [ Board of Directors ](https://www.spencerstuart.com/who-we-are/board-of-directors)
+  * [ Firm History ](https://www.spencerstuart.com/who-we-are/firm-history)
+  * [ Careers at Spencer Stuart ](https://www.spencerstuart.com/who-we-are/careers-at-spencer-stuart)
+
+
+  * [ Sustainability at Spencer Stuart ](https://www.spencerstuart.com/sustainability-at-spencer-stuart)
+  * [ Inclusion at Spencer Stuart ](https://www.spencerstuart.com/inclusion-at-spencer-stuart)
+  * [ Connect With Us ](https://www.spencerstuart.com/connect)
+  * [ Alumni Network ](https://www.spencerstuart.com/alumni-network)
+
+
+
+View All Results
+Search 
+Expand Search Bar Close Search Bar
+* [ English ](https://www.spencerstuart.com/) [ 简体中文 ](https://cn.spencerstuart.com/) [ Deutsch ](https://de.spencerstuart.com/) [ Français (Québec) ](https://www.spencerstuart.com/locations/montreal) [ 日本語 ](https://jp.spencerstuart.com/)
+* [Find a Location](https://www.spencerstuart.com/locations)
+* [Client Login](https://spencerstuartportal.com)
+* [Candidates](https://candidateregistration.spencerstuart.com)
+* [Contact](https://www.spencerstuart.com/contact-us)
+##  [Six Rules for C-Suite Succession](https://www.spencerstuart.com/research-and-insight/six-rules-for-getting-c-suite-succession-right)
+[ Why you should be thinking several moves ahead  ](https://www.spencerstuart.com/research-and-insight/six-rules-for-getting-c-suite-succession-right)
+[ Learn More ](https://www.spencerstuart.com/research-and-insight/six-rules-for-getting-c-suite-succession-right)
+##  Explore ways we can help. 
+![](https://www.spencerstuart.com/images/plus-yellow.svg)
+  * [Board & CEO Advisory](https://www.spencerstuart.com/what-we-do/functional-roles/board-and-ceo)
+  * [CEO Succession Planning](https://www.spencerstuart.com/what-we-do/our-capabilities/ceo-succession-planning)
+  * [Executive Assessment](https://www.spencerstuart.com/what-we-do/our-capabilities/executive-assessment-services)
+  * [Executive Search](https://www.spencerstuart.com/what-we-do/our-capabilities/executive-search)
+  * [Leadership Consulting](https://www.spencerstuart.com/what-we-do/our-capabilities/leadership-consulting)
+
+
+##  Our Insights 
+[ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/five-pitfalls/thmb-ceoaccelerationlevers-jan2026-616x434.jpg) 5 Pitfalls That Derail CEOs in the First 24 Months ](https://www.spencerstuart.com/research-and-insight/five-pitfalls-that-derail-ceos-in-the-first-24-months) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/ceo-transitions-us/thmb-us-ceotransitions-feb2026-616x434.jpg) 2025 S&P 1500 CEO Transitions ](https://www.spencerstuart.com/research-and-insight/2025-sp-1500-ceo-transitions-behind-the-ceo-moment) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/5-priorities-chief-people-officers/thmb-5priorities-mar2025-616x434.jpg) 5 Priorities for First-Time Chief People Officers ](https://www.spencerstuart.com/research-and-insight/5-priorities-for-first-time-chief-people-officers)
+##  Spencer Stuart Alumni Network 
+The Alumni Network brings together all those who have given their time and talent to our firm over the years. The network offers a meaningful way for alumni to connect with one another, stay up to date on Spencer Stuart news and advance their professional growth. 
+[SIGN UP TODAY](https://alumni.spencerstuart.com)
+![](https://www.spencerstuart.com/-/media/2025/alumni/alumni-background-100.jpg?h=1080&w=1920&la=en&hash=51B5E08946A79C713956E941EE0FF94B)
+[ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/cpli/thmb-cplindex-feb2026.jpg) 15 New CEOs, One Turbulent Year: The Top 50 Consumer Products Companies Bet Big on Rapid Change ](https://www.spencerstuart.com/research-and-insight/15-new-ceos-one-turbulent-year-the-top-50-consumer-products-companies-bet-big-on-rapid-change) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/2026-mwc/thmb-mwcinterviewkatejohnson-mar2026-616x434.jpg) Transforming a Legacy Telecom to an AI Connectivity Platform ](https://www.spencerstuart.com/research-and-insight/transforming-a-legacy-telecom-to-an-ai-connectivity-platform) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/jpm/thmb-biopharmaoutlook-feb2026-616x434.jpg) 2026 Biopharma Leadership Outlook: 4 Trends and What They Mean for Leaders ](https://www.spencerstuart.com/research-and-insight/2026-biopharma-leadership-outlook-4-trends-and-what-they-mean-for-leaders)
+[ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/five-pitfalls/thmb-ceoaccelerationlevers-jan2026-616x434.jpg) 5 Pitfalls That Derail CEOs in the First 24 Months  ](https://www.spencerstuart.com/research-and-insight/five-pitfalls-that-derail-ceos-in-the-first-24-months) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/ceo-transitions-us/thmb-us-ceotransitions-feb2026-616x434.jpg) 2025 S&P 1500 CEO Transitions  ](https://www.spencerstuart.com/research-and-insight/2025-sp-1500-ceo-transitions-behind-the-ceo-moment) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/5-priorities-chief-people-officers/thmb-5priorities-mar2025-616x434.jpg) 5 Priorities for First-Time Chief People Officers  ](https://www.spencerstuart.com/research-and-insight/5-priorities-for-first-time-chief-people-officers) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/cpli/thmb-cplindex-feb2026.jpg) 15 New CEOs, One Turbulent Year: The Top 50 Consumer Products Companies Bet Big on Rapid Change  ](https://www.spencerstuart.com/research-and-insight/15-new-ceos-one-turbulent-year-the-top-50-consumer-products-companies-bet-big-on-rapid-change) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/2026-mwc/thmb-mwcinterviewkatejohnson-mar2026-616x434.jpg) Transforming a Legacy Telecom to an AI Connectivity Platform  ](https://www.spencerstuart.com/research-and-insight/transforming-a-legacy-telecom-to-an-ai-connectivity-platform) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/jpm/thmb-biopharmaoutlook-feb2026-616x434.jpg) 2026 Biopharma Leadership Outlook: 4 Trends and What They Mean for Leaders  ](https://www.spencerstuart.com/research-and-insight/2026-biopharma-leadership-outlook-4-trends-and-what-they-mean-for-leaders) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/five-pitfalls/thmb-ceoaccelerationlevers-jan2026-616x434.jpg) 5 Pitfalls That Derail CEOs in the First 24 Months  ](https://www.spencerstuart.com/research-and-insight/five-pitfalls-that-derail-ceos-in-the-first-24-months) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/ceo-transitions-us/thmb-us-ceotransitions-feb2026-616x434.jpg) 2025 S&P 1500 CEO Transitions  ](https://www.spencerstuart.com/research-and-insight/2025-sp-1500-ceo-transitions-behind-the-ceo-moment) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/5-priorities-chief-people-officers/thmb-5priorities-mar2025-616x434.jpg) 5 Priorities for First-Time Chief People Officers  ](https://www.spencerstuart.com/research-and-insight/5-priorities-for-first-time-chief-people-officers) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/cpli/thmb-cplindex-feb2026.jpg) 15 New CEOs, One Turbulent Year: The Top 50 Consumer Products Companies Bet Big on Rapid Change  ](https://www.spencerstuart.com/research-and-insight/15-new-ceos-one-turbulent-year-the-top-50-consumer-products-companies-bet-big-on-rapid-change) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/2026-mwc/thmb-mwcinterviewkatejohnson-mar2026-616x434.jpg) Transforming a Legacy Telecom to an AI Connectivity Platform  ](https://www.spencerstuart.com/research-and-insight/transforming-a-legacy-telecom-to-an-ai-connectivity-platform) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/jpm/thmb-biopharmaoutlook-feb2026-616x434.jpg) 2026 Biopharma Leadership Outlook: 4 Trends and What They Mean for Leaders  ](https://www.spencerstuart.com/research-and-insight/2026-biopharma-leadership-outlook-4-trends-and-what-they-mean-for-leaders) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/five-pitfalls/thmb-ceoaccelerationlevers-jan2026-616x434.jpg) 5 Pitfalls That Derail CEOs in the First 24 Months  ](https://www.spencerstuart.com/research-and-insight/five-pitfalls-that-derail-ceos-in-the-first-24-months) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/ceo-transitions-us/thmb-us-ceotransitions-feb2026-616x434.jpg) 2025 S&P 1500 CEO Transitions  ](https://www.spencerstuart.com/research-and-insight/2025-sp-1500-ceo-transitions-behind-the-ceo-moment) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/5-priorities-chief-people-officers/thmb-5priorities-mar2025-616x434.jpg) 5 Priorities for First-Time Chief People Officers  ](https://www.spencerstuart.com/research-and-insight/5-priorities-for-first-time-chief-people-officers) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/cpli/thmb-cplindex-feb2026.jpg) 15 New CEOs, One Turbulent Year: The Top 50 Consumer Products Companies Bet Big on Rapid Change  ](https://www.spencerstuart.com/research-and-insight/15-new-ceos-one-turbulent-year-the-top-50-consumer-products-companies-bet-big-on-rapid-change) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/03/2026-mwc/thmb-mwcinterviewkatejohnson-mar2026-616x434.jpg) Transforming a Legacy Telecom to an AI Connectivity Platform  ](https://www.spencerstuart.com/research-and-insight/transforming-a-legacy-telecom-to-an-ai-connectivity-platform) [ ![Image alt](https://www.spencerstuart.com/-/media/2026/02/jpm/thmb-biopharmaoutlook-feb2026-616x434.jpg) 2026 Biopharma Leadership Outlook: 4 Trends and What They Mean for Leaders  ](https://www.spencerstuart.com/research-and-insight/2026-biopharma-leadership-outlook-4-trends-and-what-they-mean-for-leaders)
+## Explore Trending Topics 
+[More ](https://www.spencerstuart.com/research-and-insight)
+  * [ Board Governance Trends ](https://www.spencerstuart.com/research-and-insight/board-governance-trends)
+  * [ CEO Succession and Leadership Development ](https://www.spencerstuart.com/research-and-insight/leadership-development-and-succession)
+  * [ Inclusion and Diversity ](https://www.spencerstuart.com/research-and-insight/inclusion-and-diversity)
+  * [ Career Advice ](https://www.spencerstuart.com/research-and-insight/career-advice)
+  * [ AI, Innovation and Technology ](https://www.spencerstuart.com/research-and-insight/ai-innovation-and-technology)
+
+
+## Board Governance Trends 
+[![](https://www.spencerstuart.com/-/media/2025/10/lessons-from-directors/thmb-lessonsdirectorsactivistinvestor-oct20.jpg)](https://www.spencerstuart.com/research-and-insight/lessons-from-directors-how-boards-can-prepare-for-activist-investors)
+##  [Lessons from Directors: How Boards Can Prepare for Activist Investors](https://www.spencerstuart.com/research-and-insight/lessons-from-directors-how-boards-can-prepare-for-activist-investors)
+What is the best way for a board to prepare for an activist investor situation? More than 175 board directors shared their answers to this question. 
+[![](https://www.spencerstuart.com/-/media/2019/november/batw_newhdr.jpg)](https://www.spencerstuart.com/research-and-insight/boards-around-the-world)
+##  [Boards Around the World](https://www.spencerstuart.com/research-and-insight/boards-around-the-world)
+An interactive exploration of how boards around the world compare in terms of diversity, composition, compensation and more. 
+[![](https://www.spencerstuart.com/-/media/2025/10/chros-on-boards/thmb-chrolandingpage-oct2025-616x434.jpg)](https://www.spencerstuart.com/research-and-insight/the-missing-voice-the-rise-of-chros-on-boards)
+##  [The Missing Voice: The Rise of CHROs on Boards](https://www.spencerstuart.com/research-and-insight/the-missing-voice-the-rise-of-chros-on-boards)
+We profile several CHROs who have served on boards, to look at the outsized impact they can have on the board’s governance. 
+[View more ](https://www.spencerstuart.com/research-and-insight/board-governance-trends)
+Get connected and see what's new at Spencer Stuart.
+[ ![LinkedIn Logo](https://www.spencerstuart.com/-/media/linkedin-logo.png?h=50&w=50&hash=A0E414B82723C2549EADB880077D828A342AB543&hash=A0E414B82723C2549EADB880077D828A342AB543) ](https://www.linkedin.com/company/spencer-stuart)
+Follow us on LinkedIn to stay updated on articles, research and opportunities. 
+![](https://www.spencerstuart.com/-/media/2019/november/homepagesocial_1039.jpg?h=770&w=1093&la=en&hash=FA4B0309C1DDFD2FC1648005B9232838)
+[ ![Spencer Stuart logo](https://www.spencerstuart.com/-/media/logo-spencer-stuart-white.svg?la=en&hash=52B611F680549A870153F229D4D1493F) ](https://www.spencerstuart.com)
+## Sign up for our leadership newsletters
+Sign up for the newsletters that interest you and receive our latest leadership research and insights.  
+
+[Subscribe ](https://www.spencerstuart.com/subscribe)
+  * [](http://www.linkedin.com/company/spencer-stuart)
+  * [](http://twitter.com/SpencerStuart)
+  * [](http://www.facebook.com/SpencerStuartInternational)
+  * [](http://www.youtube.com/user/SpencerStuView)
+
+
+  * [Our People ](https://www.spencerstuart.com/our-consultants)
+  * [Find a Location ](https://www.spencerstuart.com/locations)
+  * [Research and Insight ](https://www.spencerstuart.com/research-and-insight)
+  * [What We Do ](https://www.spencerstuart","","https://spencerstuart.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Executive Search, Board & Leadership Consulting | Spencer Stuart","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","spencerstuart.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","9c622f217270eb0b6656b2b9d8726e1fba43a9e992d0af33bde5d68687725d5b","0.0","0.3","c7abc2f3-e140-5361-b656-5e218328a811","","2026-03-30T23:05:01.914014Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/spencerstuart.com.json","/tmp/tmpbk93j708/evidence/domain/spencerstuart.com.json","","2026-06-28T23:05:01.914016Z","management consulting firm director email","2026-03-30T23:04:58.108457Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://www.digitalmarketingagency-consultant.com/#content)
+[ ![The Digital Marketing Agency & Consulting Company Logo](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2021/11/The-Digital_Asset-6-e1698964378462.png) ](https://www.digitalmarketingagency-consultant.com)
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+  * [ 510-706-3755 ](tel:+15107063755)
+
+
+[ GET MY FREE PROPOSAL ](https://www.digitalmarketingagency-consultant.com/get-in-touch/)
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+[ ![The Digital Marketing Agency & Consulting Company Logo](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2021/11/The-Digital_Asset-6-e1698964378462.png) ](https://www.digitalmarketingagency-consultant.com)
+  * [ 510-706-3755 ](tel:+15107063755)
+
+
+[ GET MY FREE PROPOSAL ](https://www.digitalmarketingagency-consultant.com/get-in-touch/)
+[ ![The Digital Marketing Agency & Consulting Company Logo](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2021/11/The-Digital_Asset-6-e1698964378462.png) ](https://www.digitalmarketingagency-consultant.com)
+  * [ 510-706-3755 ](tel:+15107063755)
+
+
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+  * [Services](https://www.digitalmarketingagency-consultant.com/services/)
+    * [ Web Design ](https://www.digitalmarketingagency-consultant.com/web-design-and-development-services/)
+    * [ AI Automation Service ](https://www.digitalmarketingagency-consultant.com/ai-automation-service/)
+    * [ AI in Digital Marketing ](https://www.digitalmarketingagency-consultant.com/ai-marketing-san-jose/)
+    * [ Local SEO Services ](https://www.digitalmarketingagency-consultant.com/local-seo-san-jose/)
+    * [ Lead Generation Services ](https://www.digitalmarketingagency-consultant.com/lead-generation-san-jose/)
+    * [ Google PPC ](https://www.digitalmarketingagency-consultant.com/google-ppc-services/)
+    * [ Content Marketing Services ](https://www.digitalmarketingagency-consultant.com/content-marketing-san-jose/)
+    * [ Social Media Marketing ](https://www.digitalmarketingagency-consultant.com/social-media-marketing-san-jose/)
+    * [ Google Local Service Ads ](https://www.digitalmarketingagency-consultant.com/google-local-service-ads-in-san-jose-ca/)
+    * [ Facebook Advertising Management ](https://www.digitalmarketingagency-consultant.com/facebook-advertising-management-san-jose/)
+    * [ Facebook Ads ](https://www.digitalmarketingagency-consultant.com/services/#facebook-ads-section)
+    * [ SEO ](https://www.digitalmarketingagency-consultant.com/search-engine-optimization-agency/)
+    * [ Public Relations Services ](https://www.digitalmarketingagency-consultant.com/pr-public-relations/)
+    * [ Twitter Advertising Services ](https://www.digitalmarketingagency-consultant.com/twitter-advertising-san-jose/)
+    * [ Pinterest Advertising Services ](https://www.digitalmarketingagency-consultant.com/pinterest-advertising-san-jose/)
+    * [ Reputation Management & Google Reviews ](https://www.digitalmarketingagency-consultant.com/reputation-management-google-reviews-san-jose/)
+    * [ Conversion Rate Optimization ](https://www.digitalmarketingagency-consultant.com/conversion-rate-optimization-services-san-jose-ca/)
+    * [ Consumer Packaged Goods Marketing ](https://www.digitalmarketingagency-consultant.com/consumer-packaged-goods-marketing/)
+  * [Results](https://www.digitalmarketingagency-consultant.com/case-studies/)
+    * [Case Studies](https://www.digitalmarketingagency-consultant.com/case-studies/)
+  * [About US](https://www.digitalmarketingagency-consultant.com/about-us/)
+  * [Service Area](https://www.digitalmarketingagency-consultant.com/service-area/)
+  * [Learn](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Digital Marketing Blog](https://www.digitalmarketingagency-consultant.com/blog/)
+    * [Business Networking Events](https://www.digitalmarketingagency-consultant.com/san-jose-business-networking-events/)
+
+
+# DOMINATE 2026 WITH OUR  AI-POWERED DIGITAL MARKETING AGENCY SERVICES
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-1.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-2.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-3.png)
+# DOMINATE 2026 WITH OUR  AI-POWERED DIGITAL MARKETING AGENCY SERVICES
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-1.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-2.png)
+![Digital Marketing Services](https://www.digitalmarketingagency-consultant.com/wp-content/uploads/2025/09/Digital-Marketing-Services-3.png)
+## WHAT OUR  CLIENTS ARE SAYING 
+
+```
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ Posted on   
+ 
+  
+ 
+ 
+ Richard Slejmar 
+ 
+ 
+ 
+ Trustindex verifies that the original source of the review is Google. 
+
+Mike is a great person and very helpful. Highly recommend for all of your digital marketing and website projects!
+
+  
+ 
+  
+ 
+ 
+ 
+ Posted on   
+ 
+  
+ 
+ 
+ Bert carri 
+ 
+ 
+ 
+ Trustindex verifies that the original source of the review is Google. 
+
+Mike is a very fantastic human being, I was expecting his guidance but I got way far more than I expected. He provided a series of advices and recommendations. And sure as he asked me to proceed, my results were fantastic with my marketing program. Thank you, I highly recommend  The Digital Marketing Agency, they are just superb.
+
+  
+ 
+  
+ 
+ 
+ 
+ Posted on   
+ 
+  
+ 
+ 
+ Earl Johnson 
+ 
+ 
+ 
+ Trustindex verifies that the original source of the review is Google. 
+
+Special shoutout to The Digital Marketing Agency & Consulting Company for helping me wi","","https://digitalmarketingagency-consultant.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Digital Marketing Services | SEO, PPC and Web Design | San Jose","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","digitalmarketingagency-consultant.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/17","0.8824","llm","heuristic_no_credit","261c516915911de78cf2da136942fc0a7049c1c99d7a9d97ea12d49ed8a7bdee","0.0","0.3","01c627bf-88ca-5e3f-9b6c-dc6b2052cbc3","","2026-03-30T23:05:01.927670Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/digitalmarketingagency-consultant.com.json","/tmp/tmpbk93j708/evidence/domain/digitalmarketingagency-consultant.com.json","","2026-06-28T23:05:01.927672Z","digital marketing agency founder contact","2026-03-30T23:05:01.809807Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

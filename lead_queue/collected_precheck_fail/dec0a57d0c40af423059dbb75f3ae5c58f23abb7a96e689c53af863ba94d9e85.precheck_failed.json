@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Full Service Business Brokerage, Merger and Acquisitions Advisory Firm",
+  "lead": {
+    "business": "Full Service Business Brokerage, Merger and Acquisitions Advisory Firm",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://mabusinessadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://mabusinessadvisors.com",
+    "description": "[MENU](https://mabusinessadvisors.com/) * [Home](http://mabusinessadvisors.com/) * [](https://mabusinessadvisors.com/)[About Us](https://mabusinessadvisors.com/) \u25ba * [The Firm](https://mabusinessadvisors.com/about-us/) * [Office Locations](https://mabusinessadvisors.com/office-locations/) * [Testimonials](https://mabusinessadvisors.com/testimonials/) * [Become an Advisor](https://mabusinessadvisors.com/become-ma-business-advisors/) * [](https://mabusinessadvisors.com/)[For Sellers](https://mabusinessadvisors.com/) \u25ba * [Selling a Business](https://mabusinessadvisors.com/for-business-owners/) *",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

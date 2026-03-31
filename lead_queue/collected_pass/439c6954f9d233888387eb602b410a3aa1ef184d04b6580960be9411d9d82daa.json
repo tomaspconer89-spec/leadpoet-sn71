@@ -21,5 +21,13 @@
   "hq_city": "Salt Lake City",
   "source_type": "company_site",
   "phone_numbers": [],
-  "socials": {}
+  "socials": {
+    "linkedin": null,
+    "github": null,
+    "twitter": null,
+    "telegram": null,
+    "instagram": null,
+    "facebook": null,
+    "youtube": null
+  }
 }

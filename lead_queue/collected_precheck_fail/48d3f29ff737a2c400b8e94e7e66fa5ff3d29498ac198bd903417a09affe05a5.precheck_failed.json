@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Baker Tilly | Advisory, Tax and Assurance",
+  "lead": {
+    "business": "Baker Tilly | Advisory, Tax and Assurance",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://bakertilly.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://bakertilly.com",
+    "description": "Have questions about the Moss Adams combination? We're here to help. [Submit your inquiry.](https://www.bakertilly.com/have-questions-about-the-moss-adams-combination) [![Baker Tilly](https://www.bakertilly.com/svg/baker-tilly-logo.svg)](https://www.bakertilly.com/ \"Home\") ![](https://www.bakertilly.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fbakertilly%2FZxBKIYF3NbkBXnW-_gov-header_us-federal-office.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D528%252C0%252C864%252C1080%26w%3D768%26h%3D960&w=3840&q=75) # March 2026 Policy Pulse Stay ahead of shifting regulations.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

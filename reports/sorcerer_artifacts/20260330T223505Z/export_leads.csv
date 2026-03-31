@@ -1,0 +1,234 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T22:34:48.023857Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp4bzb04e4/evidence/domain/cansulta.com.json","","2026-06-28T22:34:48.023860Z","startup advisory services founder contact","2026-03-30T22:34:20.936484Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","b047b86cb0ca9391d6f144e7eb73a8da0a8da0e4d2898b17a9ae141dd81f155d","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T22:34:48.036698Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp4bzb04e4/evidence/domain/maynardnexsen.com.json","","2026-06-28T22:34:48.036700Z","business consulting firm advisor email","2026-03-30T22:34:24.360519Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T22:34:48.049375Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp4bzb04e4/evidence/domain/vaam.io.json","","2026-06-28T22:34:48.049377Z","SaaS startup CEO contact information","2026-03-30T22:34:27.941682Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T22:34:48.062041Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp4bzb04e4/evidence/domain/findemails.com.json","","2026-06-28T22:34:48.062043Z","SaaS startup CEO contact information","2026-03-30T22:34:29.211374Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","146b5550c1e31e3813f540232791ecc225773cc5af729d1cec651c7d6ad8f1e2","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-03-30T22:34:48.074786Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmp4bzb04e4/evidence/domain/scribd.com.json","","2026-06-28T22:34:48.074788Z","tech startup founder contact page","2026-03-30T22:34:39.590633Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[![rra-logo.svg](https://assets-prod.russellreynolds.com/api/public/content/0c38888cfd164596b4c4c88f54305211?v=1c9a829b&h=36&w=95&la=en)](https://www.russellreynolds.com/en/)
+Capabilities
+  * [Search ](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders "Search")
+    * [Search](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders "Search")
+    * [Board Search](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders/board-search "Board Search")
+    * [CEO Search](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders/ceo-search "CEO Search")
+    * [Executive Search](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders/executive-search "Executive Search")
+  * [Succession ](https://www.russellreynolds.com/en/capabilities/how-do-i-plan-for-succession "Succession")
+    * [Succession](https://www.russellreynolds.com/en/capabilities/how-do-i-plan-for-succession "Succession")
+    * [Board Succession](https://www.russellreynolds.com/en/capabilities/how-do-i-plan-for-succession/board-succession "Board Succession")
+    * [CEO Succession](https://www.russellreynolds.com/en/capabilities/how-do-i-plan-for-succession/ceo-succession "CEO Succession")
+    * [C-suite Succession](https://www.russellreynolds.com/en/capabilities/how-do-i-plan-for-succession/c-suite-succession "C-suite Succession")
+  * [Performance ](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams "Performance")
+    * [Performance](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams "Performance")
+    * [Assessment & Benchmarking](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams/assessment-benchmarking "Assessment & Benchmarking")
+    * [Executive Development](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams/executive-development "Executive Development")
+    * [Executive Transition](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams/executive-transition "Executive Transition")
+    * [Team Performance](https://www.russellreynolds.com/en/capabilities/how-do-i-boost-the-performance-of-leaders-and-teams/team-performance "Team Performance")
+  * [Accelerators ](https://www.russellreynolds.com/en/capabilities/how-do-i-become-a-better-leader "Accelerators")
+    * [Accelerators](https://www.russellreynolds.com/en/capabilities/how-do-i-become-a-better-leader "Accelerators")
+    * [Executive Mentoring](https://www.russellreynolds.com/en/capabilities/how-do-i-become-a-better-leader/executive-mentoring "Executive Mentoring")
+    * [RRA Artemis](https://www.russellreynolds.com/en/capabilities/how-do-i-become-a-better-leader/rra-artemis "RRA Artemis")
+  * [Transformation ](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation "Transformation")
+    * [Transformation](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation "Transformation")
+    * [AI and Tech](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation/artificial-intelligence-advisory "AI and Tech")
+    * [Inclusion and Culture](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation/inclusion-and-culture-advisory "Inclusion and Culture")
+    * [Strategy Decode and Activation](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation/strategy-decode-and-activation "Strategy Decode and Activation")
+    * [Sustainability](https://www.russellreynolds.com/en/capabilities/how-can-i-lead-business-transformation/sustainability "Sustainability")
+  * [Board ](https://www.russellreynolds.com/en/capabilities/how-do-i-set-my-board-up-for-success "Board")
+    * [Board](https://www.russellreynolds.com/en/capabilities/how-do-i-set-my-board-up-for-success "Board")
+    * [Board Composition](https://www.russellreynolds.com/en/capabilities/how-do-i-set-my-board-up-for-success/board-composition "Board Composition")
+    * [Board Effectiveness](https://www.russellreynolds.com/en/capabilities/how-do-i-set-my-board-up-for-success/board-effectiveness "Board Effectiveness")
+
+
+## [Executive Search Our executive search consultants help you recruit great CEOs, CxOs, and board members in as little as 14 weeks. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders/executive-search)
+Expertise
+  * [Industries ](https://www.russellreynolds.com/en/expertise/industries "Industries")
+    * [Industries](https://www.russellreynolds.com/en/expertise/industries "Industries")
+    * [Business & Professional Services](https://www.russellreynolds.com/en/expertise/industries/business-professional-services "Business & Professional Services")
+    * [Consumer](https://www.russellreynolds.com/en/expertise/industries/consumer "Consumer")
+    * [Education](https://www.russellreynolds.com/en/expertise/industries/education "Education")
+    * [Financial Services](https://www.russellreynolds.com/en/expertise/industries/financial-services "Financial Services")
+    * [Healthcare](https://www.russellreynolds.com/en/expertise/industries/healthcare "Healthcare")
+    * [Industrial & Natural Resources](https://www.russellreynolds.com/en/expertise/industries/industrial-and-natural-resources "Industrial & Natural Resources")
+    * [Technology](https://www.russellreynolds.com/en/expertise/industries/technology "Technology")
+  * [Functions ](https://www.russellreynolds.com/en/expertise/functions "Functions")
+    * [Functions](https://www.russellreynolds.com/en/expertise/functions "Functions")
+    * [Board & CEO](https://www.russellreynolds.com/en/expertise/functions/board-ceo-advisory "Board & CEO")
+    * [Corporate Affairs & Communications](https://www.russellreynolds.com/en/expertise/functions/corporate-affairs-and-communications "Corporate Affairs & Communications")
+    * [Customer Activation & Growth](https://www.russellreynolds.com/en/expertise/functions/customer-activation-and-growth "Customer Activation and Growth")
+    * [Finance](https://www.russellreynolds.com/en/expertise/functions/finance "Finance")
+    * [Human Resources](https://www.russellreynolds.com/en/expertise/functions/human-resources "Human Resources")
+    * [Legal, Risk & Compliance](https://www.russellreynolds.com/en/expertise/functions/legal-risk-and-compliance "Legal, Risk & Compliance")
+    * [Operations & Supply Chain](https://www.russellreynolds.com/en/expertise/functions/operations-and-supply-chain "Operations & Supply Chain")
+    * [Sustainability](https://www.russellreynolds.com/en/expertise/functions/sustainability "Sustainability")
+    * [Technology, Data & Digital](https://www.russellreynolds.com/en/expertise/functions/technology-data-and-digital "Technology, Data & Digital")
+  * [Organizations ](https://www.russellreynolds.com/en/expertise/organizations "Organizations")
+    * [Organizations](https://www.russellreynolds.com/en/expertise/organizations "Organizations")
+    * [Family Enterprise](https://www.russellreynolds.com/en/expertise/organizations/leadership-advice-for-family-enterprises "Leadership Advice for Family Enterprises")
+    * [ Growth Tech](https://www.russellreynolds.com/en/expertise/organizations/growth-tech " Growth Tech")
+    * [Private Capital](https://www.russellreynolds.com/en/expertise/organizations/private-capital "Private Capital")
+    * [Social Impact](https://www.russellreynolds.com/en/expertise/organizations/social-impact "Social Impact")
+
+
+## [Board & CEO Advisory Is your board ready for what is next? We help boards and CEOs face the unprecedented challenges that shape our world—from disruptive technology to shifting demographics to pressure from investors and regulators. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/expertise/functions/board-ceo-advisory)
+Insights
+  * Leadership Topics and Trends 
+    * [Leadership Topics and Trends](https://www.russellreynolds.com/en/insights/leadership-topics-and-trends "Leadership Topics and Trends")
+    * [AI and Leadership](https://www.russellreynolds.com/en/insights/artificial-intelligence-and-leadership "AI and Leadership")
+    * [Board Leadership](https://www.russellreynolds.com/en/insights/board-leadership "Board Leadership")
+    * [Career Transitions](https://www.russellreynolds.com/en/insights?insightTopicTags=9d3d74a536f84bd5853c013d1c3dd26e)
+    * [Family Enterprise Leadership](https://www.russellreynolds.com/en/insights/family-enterprise-leadership "Family Enterprise Leadership")
+    * [Leadership Development](https://www.russellreynolds.com/en/insights/leadership-development "Leadership Development")
+    * [Leadership Transformation](https://www.russellreynolds.com/en/insights/strategy-and-activation "Leadership Transformation")
+    * [Sustainable Leadership](https://www.russellreynolds.com/en/insights/sustainable-leadership "Sustainable Leadership")
+    * [Technology & Innovation](https://www.russellreynolds.com/en/insights/technology-and-innovation "Technology & Innovation")
+    * [The Future of Leadership](https://www.russellreynolds.com/en/insights/the-future-of-leadership "The Future of Leadership")
+    * [The Future of Leadership](https://www.russellreynolds.com/en/insights/the-future-of-leadership "The Future of Leadership")
+  * Leadership Labs 
+    * [Leadership Labs](https://www.russellreynolds.com/en/insights/leadership-labs "Leadership Labs")
+    * [Leadership Analytics: Predictors of CEO Success](https://www.russellreynolds.com/en/insights/leadership-labs/leadership-analytics-predictors-of-ceo-success "Leadership Analytics: Predictors of CEO Success")
+    * [Unusual Suspects: New Leadership Archetypes](https://www.russellreynolds.com/en/ "Unusual Suspects: New Leadership Archetypes")
+    * [AI Leadership, 100% Human](https://www.russellreynolds.com/en/insights/leadership-labs/ai-leadership-100-percent-human "AI Leadership, 100% Human")
+  * Flagship Research 
+    * [Flagship Research](https://www.russellreynolds.com/en/insights/flagship-research "Flagship Research")
+    * [Divides and Dividends on Sustainability](https://www.russellreynolds.com/en/insights/divides-and-dividends "Divides and Dividends on Sustainability")
+    * [Leadership for a Decade of Action](https://www.russellreynolds.com/en/leadership-decade-action "Leadership for a Decade of Action")
+    * [Global Corporate Governance Trends](https://www.russellreynolds.com/en/insights/reports-surveys/global-corporate-governance-trends/2026 "Global Corporate Governance Trends")
+    * [Transformational Leadership Study](https://www.russellreynolds.com/en/insights/reports-surveys/transformational-leadership-study "Transformational Leadership Study")
+  * Data and Indices 
+    * [Data and Indices](https://www.russellreynolds.com/en/insights/data-and-indices "Data and Indices")
+    * [Global Leadership Monitor](https://www.russellreynolds.com/en/insights/reports-surveys/global-leadership-monitor "Global Leadership Monitor")
+    * [Leadership Confidence Index](https://www.russellreynolds.com/en/insights/reports-surveys/leadership-confidence-index "Leadership Confidence Index")
+    * [Global CEO Turnover Index](https://www.russellreynolds.com/en/insights/reports-surveys/global-ceo-turnover-index "Global CEO Turnover Index")
+    * [Global CFO Turnover Index](https://www.russellreynolds.com/en/insights/reports-surveys/global-cfo-turnover-index "Global CFO Turnover Index")
+    * [Global CHRO Turnover Index](https://www.russellreynolds.com/en/insights/reports-surveys/global-chro-turnover-index "Global CHRO Turnover Index")
+    * [Global COO Turnover Index](https://www.russellreynolds.com/en/insights/reports-surveys/global-coo-turnover-index "Global COO Turnover Index")
+  * RRA Books 
+    * [RRA Books](https://www.russellreynolds.com/en/insights/books "RRA Books")
+    * [Book: The New CEO](https://www.russellreynolds.com/en/insights/books/the-new-ceo "Book: The New CEO")
+    * [Book: To the Top](https://www.russellreynolds.com/en/microsite/to-the-top-book "Book: To the Top")
+    * [Book: Sustainable Leadership](https://www.russellreynolds.com/en/microsite/sustainable-leadership-lessons-of-vision-book "Book: Sustainable Leadership")
+  * Events and Webcasts 
+    * [Events and Webcasts](https://www.russellreynolds.com/en/insights/events-and-podcasts "Events and Podcasts")
+    * [Podcast: Redefiners](https://www.russellreynolds.com/en/insights/podcasts/redefiners "Podcast: Redefiners")
+    * [Podcast: Leadership Lounge](https://www.russellreynolds.com/en/insights/podcasts/leadership-lounge "Podcast: Leadership Lounge")
+    * [Events and Webinars](https://www.russellreynolds.com/en/insights/events "Events and Webinars")
+  * Insights Library 
+    * [Insights Library](https://www.russellreynolds.com/en/insights "Insights Library")
+    * [ ](https://www.russellreynolds.com/en/insights)
+
+
+## [Global CEO Turnover Index We share the latest CEO turnover data across listed companies globally. Each quarter, you’ll find the proportion of CEO departures and appointments globally, as well as trends on CEO appointments by gender, tenure, and whether CEOs are internal or external hires. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/insights/reports-surveys/global-ceo-turnover-index)
+About
+  * People 
+    * [People](https://www.russellreynolds.com/en/people "People")
+    * [Consultants](https://www.russellreynolds.com/en/people/consultant-directory "Consultants")
+    * [Leadership](https://www.russellreynolds.com/en/people/leadership "Leadership")
+    * [Board of Directors](https://www.russellreynolds.com/en/people/board-of-directors "Board of Directors")
+    * [Office Locations](https://www.russellreynolds.com/en/locations "Office Locations")
+  * Who We Are 
+    * [Who We Are](https://www.russellreynolds.com/en/about/who-we-are "Who We Are")
+    * [Sustainability](https://www.russellreynolds.com/en/about/who-we-are/sustainability "Sustainability")
+    * [Responsible AI](https://www.russellreynolds.com/en/about/who-we-are/responsible-ai-principles "Responsible AI Principles")
+    * [Partnerships](https://www.russellreynolds.com/en/about/who-we-are/partnerships "Partnerships")
+    * [History](https://www.russellreynolds.com/en/about/who-we-are/history "History")
+  * Careers 
+    * [Careers](https://www.russellreynolds.com/en/about/careers "Careers")
+    * [Careers with our Clients](https://www.russellreynolds.com/en/about/careers/careers-with-our-clients "Careers with our Clients")
+    * [Careers at RRA](https://www.russellreynolds.com/en/about/careers/careers-at-rra "Careers at RRA")
+  * Newsroom 
+    * [Newsroom](https://www.russellreynolds.com/en/about/newsroom "Newsroom")
+
+
+## [Consultant Directory Meet the people behind Russell Reynolds Associates, building proactive relationships around the world and around the corner. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/people/consultant-directory)
+Contact Us
+  * Get In Touch 
+    * [Get In Touch](https://www.russellreynolds.com/en/contact-us)
+    * [Request Consultation](https://www.russellreynolds.com/en/contact-us "Request Consultation")
+    * [Subscribe to Newsletter](https://www.russellreynolds.com/en/subscribe-to-newsletter "Subscribe to Newsletter")
+    * [Access Events](https://www.russellreynolds.com/en/access-events "Access Events")
+    * [Submit Media Inquiry](https://www.russellreynolds.com/en/media-inquiry "Submit Media Inquiry")
+  * Advance Your Career 
+    * [Advance Your Career](https://www.russellreynolds.com/en/about/careers "Advance Your Career")
+    * [Start Career with our Clients](https://www.russellreynolds.com/en/about/careers/careers-with-our-clients "Start Career with our Clients")
+    * [Join RRA](https://www.russellreynolds.com/en/about/careers/careers-at-rra "Join RRA")
+  * Join the Conversation 
+    * [Join the Conversation](https://www.russellreynolds.com/en/join-the-conversation-on-social-media "Join the Conversation")
+    * [LinkedIn](https://www.linkedin.com/company/russell-reynolds-associates "LinkedIn")
+    * [X (formerly Twitter)](https://twitter.com/RRAonLeadership "X \(formerly Twitter\)")
+    * [YouTube](https://www.youtube.com/@RussellReynoldsAssociates "YouTube")
+    * [Spotify ](https://open.spotify.com/show/5iIg2yqTvVfjl8pBV0SAON?si=zhY0LuSJTOKweoUSx431CQ&dl_branch=1&nd=1 "Spotify ")
+    * [Apple Podcasts](https://podcasts.apple.com/ca/podcast/redefiners/id1576922162 "Apple Podcasts")
+  * Find a Local Office 
+    * [Find a Local Office](https://www.russellreynolds.com/en/locations "Find a Local Office")
+    * [Americas](https://www.russellreynolds.com/en/locations#americas "Americas")
+    * [EMEA ](https://www.russellreynolds.com/en/locations#emea "EMEA ")
+    * [Asia Pacific](https://www.russellreynolds.com/en/locations#asia-pacific "Asia Pacific")
+
+
+## [Request for Consultation Complete the contact form and we will get back to you shortly. We look forward to connecting with you. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/contact-us)
+en
+  * [English](https://www.russellreynolds.com/en)
+  * [中文(中国)](https://www.russellreynolds.com/zh-CN)
+  * [日本語 (日本)](https://www.russellreynolds.com/ja-JP)
+
+
+![](https://www.russellreynolds.com/dist/images/login-icon.svg)
+  * [Client Login](https://engage.russellreynolds.com "Client Login")
+  * [Candidate Portal +](https://engage.russellreynolds.com "Candidate Portal")
+
+
+[ Search ](https://www.russellreynolds.com/en/search) [ Search ](https://www.russellreynolds.com/en/search)
+[ Search ](https://www.russellreynolds.com/en/search) [ Search ](https://www.russellreynolds.com/en/search)
+Menu Menu Close
+  * Capabilities
+  * Expertise
+  * Insights
+  * About
+  * Contact Us
+  * ![en](https://www.russellreynolds.com/dist/images/language-icon.svg)en
+  * ![Login](https://www.russellreynolds.com/dist/images/login-icon.png)Login
+
+
+  * Back
+
+
+  * Search
+  * Succession
+  * Performance
+  * Accelerators
+  * Transformation
+  * Board
+
+
+## [Executive Search Our executive search consultants help you recruit great CEOs, CxOs, and board members in as little as 14 weeks. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/capabilities/how-do-i-find-the-best-leaders/executive-search)
+  * Back
+
+
+  * Industries
+  * Functions
+  * Organizations
+
+
+## [Board & CEO Advisory Is your board ready for what is next? We help boards and CEOs face the unprecedented challenges that shape our world—from disruptive technology to shifting demographics to pressure from investors and regulators. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/expertise/functions/board-ceo-advisory)
+  * Back
+
+
+  * Leadership Topics and Trends
+  * Leadership Labs
+  * Flagship Research
+  * Data and Indices
+  * RRA Books
+  * Events and Webcasts
+  * Insights Library
+
+
+## [Global CEO Turnover Index We share the latest CEO turnover data across listed companies globally. Each quarter, you’ll find the proportion of CEO departures and appointments globally, as well as trends on CEO appointments by gender, tenure, and whether CEOs are internal or external hires. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.russellreynolds.com/en/insights/reports-surveys/global-ceo-turnover-index)
+  * Back
+
+
+  * People
+  * Who We Are
+  * Careers
+  * Newsroom
+
+
+## [Consultant Directory Meet the people behind Russell Reynolds Associates, building proactive relationships around the world and around the corner. ![](https://www.russellreynolds.com/dist/images/arrow-white.svg) ](https://www.ru","","https://russellreynolds.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Your Leadership Challenges, Solved | Russell Reynolds Associates","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","russellreynolds.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","5513890a8506b2a338c54e34ffa7b93e4d7ab6a7a931a90468207de9c073c3c2","0.0","0.3","85ee625b-f688-599b-b3cb-a6abbc918e54","","2026-03-30T22:35:05.625651Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/russellreynolds.com.json","/tmp/tmp4bzb04e4/evidence/domain/russellreynolds.com.json","","2026-06-28T22:35:05.625657Z","management consulting firm director email","2026-03-30T22:34:43.097988Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

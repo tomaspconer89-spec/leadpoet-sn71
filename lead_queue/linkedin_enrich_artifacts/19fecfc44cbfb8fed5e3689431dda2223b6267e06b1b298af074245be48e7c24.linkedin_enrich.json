@@ -1,0 +1,749 @@
+{
+  "saved_at_utc": "2026-03-31T00:22:37.394067+00:00",
+  "queue_key": "19fecfc44cbfb8fed5e3689431dda2223b6267e06b1b298af074245be48e7c24",
+  "business": "Advisors Management Group: Financial & Tax Services in WI",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Advisors Management Group: Financial & Tax Services in WI",
+      "Advisors Management Group: Financial & Tax Services in WI linkedin company",
+      "site:linkedin.com/company advisorsmanagement.com",
+      "site:linkedin.com/in \"Advisors Management Group: Financial & Tax Services in WI\" founder",
+      "site:linkedin.com/in \"Advisors Management Group: Financial & Tax Services in WI\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "48F15s6MFcrb31l",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Advisors Management Group: Financial & Tax Services in WI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/company/advisors-management-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advisors Management Group, Inc.",
+            "description": "Financial Services. La Crosse, WI 154 followers. Registered Investment Advisor firm with financial planning, business advising, accounting, tax prep, and more.Read more",
+            "emphasizedKeywords": [
+              "Registered Investment Advisor firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Advisors Management Group, Inc.",
+            "url": "https://fr.linkedin.com/company/advisors-management-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advisors Management Group, Inc.",
+            "description": "We have offices in La Crosse, Eau Claire, and Green Bay, Wisconsin. Our mission has always been, and will always be, to help our clients reach their financial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "have offices in La Crosse, Eau Claire, and Green Bay, Wisconsin"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Fiduciary Management Group LLC",
+            "url": "https://www.linkedin.com/company/fiduciary-management-group-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fiduciary Management Group LLC",
+            "description": "250 E. Wisconsin Ave. 18th Floor Milwaukee, WI 53202 (414) 347-5658 At FMG, we strive to deliver independent, objective and unbiased fiduciary advice from a\u00a0...Read more",
+            "emphasizedKeywords": [
+              "250 E. Wisconsin Ave. 18th Floor Milwaukee, WI 53202"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8 followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Wealth Management Group-LLC",
+            "url": "https://www.linkedin.com/company/wealth-management-group-llc-wisconsin",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wealth Management Group-LLC",
+            "description": "Wealth Management Group-LLC. Financial Services. Rice Lake, WI 53 followers. Customized financial strategies aligned with your unique needs.Read more",
+            "emphasizedKeywords": [
+              "Management Group",
+              "Financial Services",
+              "WI",
+              "financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Wisconsin Financial Group",
+            "url": "https://www.linkedin.com/company/wisconsin-financial-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wisconsin Financial Group",
+            "description": "At Wisconsin Financial Group, Inc., our mission is to help create and preserve wealth for individuals and businesses. True financial planning occurs only\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Wisconsin Financial Group, Inc"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "200+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Wall, Einhorn & Chernitzer, P.C.",
+            "url": "https://my.linkedin.com/company/wall-einhorn-&-chernitzer-p-c-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wall, Einhorn & Chernitzer, P.C.",
+            "description": "The WEC team of CPAs and advisors provide a broad range of assurance, tax, and advisory services and solutions that are strategically customized to fit our\u00a0...Read more",
+            "emphasizedKeywords": [
+              "team",
+              "advisors",
+              "tax",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Wegner CPAs",
+            "url": "https://mz.linkedin.com/company/wegnercpas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wegner CPAs",
+            "description": "Our professionals guide individuals, businesses and nonprofits with personal service, education, and knowledge. We listen, research, advise, and implement\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Choice Advisors LLC",
+            "url": "https://www.linkedin.com/company/choice-financial-group---wi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Choice Advisors LLC",
+            "description": "Waukesha, WI. Type: Privately Held. Specialties: Financial Services, Investment Management, Financial Planning, and Tax Planning. Locations. Primary. N16W23233\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Specialties: Financial Services, Investment Management, Financial Planning, and Tax Planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "McAdam Financial",
+            "url": "https://sv.linkedin.com/company/mcadam-financial-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0McAdam Financial",
+            "description": "We offer comprehensive tax-efficient financial planning and investment management services, both in-person and virtually. ... Investment Management, Financial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "tax",
+              "financial",
+              "management services",
+              "Management",
+              "Financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "North Point Advisor Group",
+            "url": "https://www.linkedin.com/company/northpointadvisorgroup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0North Point Advisor Group",
+            "description": "North Point Advisor Group is an independent financial services firm. With a foundational belief that a client's financial planning should encompass investment,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "an independent financial services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "500+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/dlPDT6FhuJQJkeLcs/records/48F15s6MFcrb31l-0.html?signature=10UxyF2GnMsuN1B4zN6Nl"
+      },
+      {
+        "#debug": {
+          "requestId": "Va6KJ70qh8u0G1E",
+          "url": "http://www.google.com/search?q=Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Advisors Management Group: Financial & Tax Services in WI linkedin company",
+          "url": "http://www.google.com/search?q=Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Advisors+Management+Group%3A+Financial+%26+Tax+Services+in+WI+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/company/advisors-management-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advisors Management Group, Inc.",
+            "description": "Registered Investment Advisor firm with financial planning, business advising, accounting, tax prep, and moreRead more",
+            "emphasizedKeywords": [
+              "Registered Investment Advisor firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "A Financial Firm in Wisconsin | Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/posts/advisors-management-group-inc_about-advisors-management-group-a-financial-activity-7292593869748158465-oYPk",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a advisors-managemen...",
+            "description": "Achieving a secure financial future is a common goal, yet the path to it can be unclear. We can help guide you closer to your goal. Take the first step today.",
+            "emphasizedKeywords": [
+              "financial"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Kate Pederson - Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/in/kate-pederson-68556375",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kate Pederson",
+            "description": "Experience: Advisors Management Group, Inc. \u00b7 Education: University of Wisconsin-La Crosse \u00b7 Location: La Crosse \u00b7 114 connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Advisors Management Group, Inc"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "La Crosse, Wisconsin, United States",
+              "companyName": "Advisors Management Group, Inc.",
+              "rawText": "La Crosse, Wisconsin, United States \u00b7 Advisors Management Group, Inc."
+            },
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Careers",
+            "url": "https://advisorsmanagement.com/careers/",
+            "displayedUrl": "https://advisorsmanagement.com \u203a careers",
+            "description": "Advisors Management Group provides investment advisory, financial planning, business consulting, accounting, tax planning, and tax preparation for individuals\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Advisors Management Group",
+              "financial",
+              "business",
+              "tax",
+              "tax preparation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Kevin Siemers - Advisors Management Group",
+            "url": "https://www.linkedin.com/in/kevin-siemers-284133115",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kevin Siemers",
+            "description": "Experience: Advisors Management Group \u00b7 Education: University of Wisconsin-Eau Claire \u00b7 Location: Grand Junction \u00b7 130 connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Advisors Management Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Grand Junction, Colorado, United States",
+              "companyName": "Advisors Management Group",
+              "rawText": "Grand Junction, Colorado, United States \u00b7 Advisors Management Group"
+            },
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Contact AMG in La Crosse, Eau Claire, & Green Bay, WI",
+            "url": "https://www.advisorsmanagement.com/contact/",
+            "displayedUrl": "https://www.advisorsmanagement.com \u203a contact",
+            "description": "Contact Advisors Management Group today! We have locations in La Crosse ... Skip to the content. Financial & Tax Services in WI. La Crosse. 608.782.0200.Read more",
+            "emphasizedKeywords": [
+              "Financial & Tax Services in WI"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "averageRating": 4.4,
+            "numberOfReviews": 41,
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Rebecca Agamaite, MBA - Investment Advisor ...",
+            "url": "https://www.linkedin.com/in/rebecca-agamaite-mba-6449ba31",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rebecca Agamaite, MBA",
+            "description": "Investment Advisor Representative at Advisors Management Group. Advisors Management Group Concordia University-Wisconsin. Green Bay, Wisconsin, United States.Read more",
+            "emphasizedKeywords": [
+              "Advisors Management Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Green Bay, Wisconsin, United States",
+              "jobTitle": "Investment Advisor Representative",
+              "companyName": "Advisors Management Group",
+              "rawText": "Green Bay, Wisconsin, United States \u00b7 Investment Advisor Representative \u00b7 Advisors Management Group"
+            },
+            "followersAmount": "210+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Brett Bauer - Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/in/brettbauer2004",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Brett Bauer",
+            "description": "Experience: Advisors Management Group, Inc. \u00b7 Education: University of Wisconsin-La Crosse \u00b7 Location: La Crosse \u00b7 409 connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Advisors Management Group, Inc"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "La Crosse, Wisconsin, United States",
+              "companyName": "Advisors Management Group, Inc.",
+              "rawText": "La Crosse, Wisconsin, United States \u00b7 Advisors Management Group, Inc."
+            },
+            "followersAmount": "400+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Advisors Management Group Inc. | BBB Business Profile",
+            "url": "https://www.bbb.org/us/wi/la-crosse/profile/investment-advisory-services/advisors-management-group-inc-0694-44040763",
+            "displayedUrl": "https://www.bbb.org \u203a ... \u203a Investment Advisory Services",
+            "description": "Advisors Management Group Inc offers investment advise, tax preparation and accounting services.Read more",
+            "emphasizedKeywords": [
+              "Advisors Management Group",
+              "tax preparation",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Advisors Management Group: Financial & Tax Services in WI",
+            "url": "https://advisorsmanagement.com/",
+            "displayedUrl": "https://advisorsmanagement.com",
+            "description": "Advisors Management Group, in WI, provides financial planning, business consulting, and tax and accounting services to businesses and individuals.",
+            "emphasizedKeywords": [
+              "provides financial planning, business consulting, and tax and accounting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/sumXH268LYcnKDwXV/records/Va6KJ70qh8u0G1E-0.html?signature=my3kPom3BzgpH6YK8elz"
+      },
+      {
+        "#debug": {
+          "requestId": "2MTUZL9KKPGkbOI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+advisorsmanagement.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+advisorsmanagement.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company advisorsmanagement.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+advisorsmanagement.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+advisorsmanagement.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Advisors Management Group, Inc.",
+            "url": "https://www.linkedin.com/company/advisors-management-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advisors Management Group, Inc.",
+            "description": "Registered Investment Advisor firm with financial planning, business advising, accounting, tax prep, and moreRead more",
+            "emphasizedKeywords": [
+              "Registered Investment Advisor firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Hudson Advisors L.P.",
+            "url": "https://www.linkedin.com/company/hudson-advisors-lp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Hudson Advisors L.P.",
+            "description": "Hudson Advisors (\u201cHudson\u201d) is the dedicated asset management and execution partner to the Lone Star Funds. For 30 years, Hudson has supported the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Hudson Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "28.2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Greenberg Advisors, LLC",
+            "url": "https://cr.linkedin.com/company/greenberg-advisors-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greenberg Advisors, LLC",
+            "description": "Greenberg Advisors, LLC provides trusted M&A and strategic advice within the financial services and business services sectors worldwide.Read more",
+            "emphasizedKeywords": [
+              "provides trusted M&A and strategic advice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Hilltop Advisors",
+            "url": "https://www.linkedin.com/company/the-hilltop-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jason Hodge",
+            "description": "Hilltop Advisors is a mission-driven Investment Banking and Consulting firm to businesses at critical points in their journey. A merger, acquisition or\u00a0...Read more",
+            "emphasizedKeywords": [
+              "mission-driven Investment Banking and Consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "FA Fin Advisors Consulting Private Ltd",
+            "url": "https://at.linkedin.com/company/fa-fin-advisors-consulting-private-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FA Fin Advisors Consulting Private Ltd",
+            "description": "Fin-Advisors is a leading provider of high-value research and analytics solutions to the companies across the globe. Our customized & cost-effective\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fin-Advisors is a leading provider of high-value research and analytics solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "PL Advisors",
+            "url": "https://cn.linkedin.com/company/pl-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PL Advisors",
+            "description": "\u5730\u70b9 \u00b7 \u4e3b\u8981. 1270 Avenue of the Americas. US\uff0cNY - New York\uff0cNew York\uff0c10020. \u83b7\u53d6\u8def\u7ebf \u00b7 800 Westchester Ave. US\uff0cNY\uff0cRye Brook\uff0c10573. \u83b7\u53d6\u8def\u7ebf\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "CV Advisors",
+            "url": "https://www.linkedin.com/company/cv-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alicia Cesarina Lugo",
+            "description": "With our unique, research-driven process and advanced, proprietary technology, our multidisciplinary team provides a highly customized single-family office\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.9K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "NOAH Advisors Ltd.",
+            "url": "https://www.linkedin.com/company/noah-advisors-ltd.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ali Fayyazbakhsh",
+            "description": "NOAH Advisors a Pan-European internet-focused corporate finance boutique founded in 2009. We have to date advised successfully on many high profile Internet\u00a0...Read more",
+            "emphasizedKeywords": [
+              "NOAH Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Impact Advisors",
+            "url": "https://pt.linkedin.com/company/impact-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Impact Advisors",
+            "description": "Impact Advisors is a leading healthcare management consulting firm committed to solving the industry's emerging and evolving challenges.Read more",
+            "emphasizedKeywords": [
+              "Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "31.2K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Fountainhead Advisors",
+            "url": "https://www.linkedin.com/company/fountainhead-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fountainhead Advisors",
+            "description": "About us. Fountainhead Capital Management, LLC is an SEC Registered Investment Advisory Firm. Website: www.fountainhead-advisors.com.Read more",
+            "emphasizedKeywords": [
+              "Fountainhead Capital Management, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/NpYC1RmLT6rbYE7ED/records/2MTUZL9KKPGkbOI-0.html?signature=1Ji7snj3LAAGtbvkuiVOw"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Advisors Management Group: Financial & Tax Services in WI",
+      "https://www.linkedin.com/company/advisors-management-group-inc",
+      "https://fr.linkedin.com/company/advisors-management-group-inc",
+      "https://www.linkedin.com/company/fiduciary-management-group-llc",
+      "https://www.linkedin.com/company/wealth-management-group-llc-wisconsin",
+      "https://www.linkedin.com/company/wisconsin-financial-group",
+      "https://my.linkedin.com/company/wall-einhorn-&-chernitzer-p-c-",
+      "https://mz.linkedin.com/company/wegnercpas",
+      "https://www.linkedin.com/company/choice-financial-group---wi",
+      "https://sv.linkedin.com/company/mcadam-financial-group",
+      "https://www.linkedin.com/company/northpointadvisorgroup",
+      "https://www.linkedin.com/company/advisors-management-group-inc",
+      "https://www.linkedin.com/posts/advisors-management-group-inc_about-advisors-management-group-a-financial-activity-7292593869748158465-oYPk",
+      "https://www.linkedin.com/in/kate-pederson-68556375",
+      "https://www.linkedin.com/in/kevin-siemers-284133115",
+      "https://www.linkedin.com/in/rebecca-agamaite-mba-6449ba31",
+      "https://www.linkedin.com/in/brettbauer2004",
+      "site:linkedin.com/company advisorsmanagement.com",
+      "https://www.linkedin.com/company/advisors-management-group-inc",
+      "https://www.linkedin.com/company/hudson-advisors-lp",
+      "https://cr.linkedin.com/company/greenberg-advisors-llc",
+      "https://www.linkedin.com/company/the-hilltop-advisors",
+      "https://at.linkedin.com/company/fa-fin-advisors-consulting-private-ltd",
+      "https://cn.linkedin.com/company/pl-advisors",
+      "https://www.linkedin.com/company/cv-advisors",
+      "https://www.linkedin.com/company/noah-advisors-ltd.",
+      "https://pt.linkedin.com/company/impact-advisors",
+      "https://www.linkedin.com/company/fountainhead-advisors"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/advisors-management-group-inc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/kate-pederson-68556375",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Advisors Management Group: Financial & Tax Services in WI",
+    "description": "[Skip to the content](https://advisorsmanagement.com/#content) [![Financial & Tax Services in WI](https://advisorsmanagement.com/wp-content/uploads/2021/11/amg-logo.png)](https://advisorsmanagement.com/ \"Advisors Management Group\") [](javascript:void\\(0\\);) La Crosse [608.782.0200](tel:608.782.0200) Eau Claire [715.834.9512](tel:715.834.9512) Green Bay [920.434.2192](tel:920.434.2192) [Client center Login](https://advisorsmanagement.com/client-center-login/) * [About Us](https://advisorsmanagement.com/about-us/)![](https://advisorsmanagement.com/wp-content/themes/advisorsmanagement/images/down",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://advisorsmanagement.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://advisorsmanagement.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "advisorsmanagement.com",
+    "source_urls": [
+      "https://advisorsmanagement.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Advisors Management Group: Financial & Tax Services in WI",
+    "description": "[Skip to the content](https://advisorsmanagement.com/#content) [![Financial & Tax Services in WI](https://advisorsmanagement.com/wp-content/uploads/2021/11/amg-logo.png)](https://advisorsmanagement.com/ \"Advisors Management Group\") [](javascript:void\\(0\\);) La Crosse [608.782.0200](tel:608.782.0200) Eau Claire [715.834.9512](tel:715.834.9512) Green Bay [920.434.2192](tel:920.434.2192) [Client center Login](https://advisorsmanagement.com/client-center-login/) * [About Us](https://advisorsmanagement.com/about-us/)![](https://advisorsmanagement.com/wp-content/themes/advisorsmanagement/images/down",
+    "full_name": "Kate Pederson",
+    "first": "Kate",
+    "last": "Pederson",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://advisorsmanagement.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "https://www.linkedin.com/in/kate-pederson-68556375",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/advisors-management-group-inc",
+    "source_url": "https://advisorsmanagement.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "advisorsmanagement.com",
+    "source_urls": [
+      "https://advisorsmanagement.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://advisorsmanagement.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/advisors-management-group-inc"
+    },
+    "first": {
+      "before": "",
+      "after": "Kate"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Kate Pederson"
+    },
+    "last": {
+      "before": "",
+      "after": "Pederson"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/kate-pederson-68556375"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://advisorsmanagement.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

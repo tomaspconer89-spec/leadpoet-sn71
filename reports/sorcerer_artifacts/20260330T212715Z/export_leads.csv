@@ -1,0 +1,373 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.specialties","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:27:15.175200Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpqumwzhkp/evidence/domain/cansulta.com.json","","2026-06-28T21:27:15.175203Z","startup advisory services founder contact","2026-03-30T21:26:38.887440Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","LLC","Wielkotz & Company, LLC is a full-service accounting firm providing audit, tax, and business consulting services, primarily to local governments in New Jersey.","Not specified","https://w-cpa.com","","Pompton Lakes, New Jersey, USA","Accounting","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Wielkotz & Company, LLC","0","LLC","Not specified","","","","","","","Audit Services|Tax Services|Forensic Accounting Services|Business Advisory Services","Municipal Accounting","0.0","0.0009","0.0","0.0009","w-cpa.com","Basic company information available; Company name available; Company description available; Industry information available; Location information available; Employee count available; Ownership type available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","bed7381c9a61b11bab312f713d3e42cb9328b4c67f46f5c9ee502ec54f1c8261","0.0","0.3","e2cd6dbe-beb3-591c-9b73-8454fd5d9d2a","","2026-03-30T21:27:15.188063Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/w-cpa.com.json","/tmp/tmpqumwzhkp/evidence/domain/w-cpa.com.json","","2026-06-28T21:27:15.188065Z","business consulting firm advisor email","2026-03-30T21:26:42.780259Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to Main Content](https://www.segalmarco.com/#main-content)
+[![SegalMarcoAdvisors Logo](https://www.segalmarco.com/media/1651/smastackedlogo.svg)](https://www.segalmarco.com/) Menu 
+  *   * [ Investment Consulting ](https://www.segalmarco.com/investment-consulting)
+  * [ Investment Research ](https://www.segalmarco.com/investment-research)
+  * [ Corporate Governance ](https://www.segalmarco.com/corporate-governance)
+  * [ Industry Expertise ](https://www.segalmarco.com/)
+[Multiemployer](https://www.segalmarco.com/investment-industries/multiemployer) [Public Sector](https://www.segalmarco.com/investment-industries/public-sector-benefit-programs)
+[Corporate](https://www.segalmarco.com/investment-industries/corporate-retirement-plans) [Financial Intermediaries](https://www.segalmarco.com/investment-industries/financial-intermediaries)
+[Nonprofit](https://www.segalmarco.com/investment-industries/nonprofit-investment-programs)
+  * [ Insights ](https://www.segalmarco.com/investment-insights)
+  * [ About ](https://www.segalmarco.com/)
+[Locations](https://www.segalmarco.com/about-us/locations) [Careers](https://www.segalmarco.com/about-us/careers) [Leadership](https://www.segalmarco.com/about-us/leadership)
+[Sustainable Investing](https://www.segalmarco.com/about-us/sustainable-investing) [Client RFPs](https://www.segalmarco.com/about-us/client-rfps) [Living Our Values](https://www.segalmarco.com/about-us/living-our-values)
+[Our Story](https://www.segalmarco.com/about-us/our-story)
+  * [Search](https://www.segalmarco.com/)
+  * [Contact](https://www.segalmarco.com/contact-us)
+
+
+![Hispanic Female Investor Meeting With A Client](https://www.segalmarco.com/media/2362/hispanic-female-investor-meeting-with-a-client.jpg?crop=0,0.084266830065359483,0,0.0769096405228758&cropmode=percentage&width=1903&height=713&rnd=134182468380000000) ![Hispanic Female Investor Meeting With A Client](https://www.segalmarco.com/media/2362/hispanic-female-investor-meeting-with-a-client.jpg?anchor=center&mode=crop&width=750&height=1068&rnd=134182468380000000)
+# Investment Consulting Tailored for the Institutional Investor
+[Find Out More ](https://www.segalmarco.com/investment-consulting)
+The global investment landscape is increasingly complex. Institutional investors need the guidance of an experienced consultant with proprietary research and cutting-edge tools to produce optimal results.
+Work with us.
+## Who we are
+Segal Marco Advisors is one of the largest U.S.-based investment consulting firms, with combined discretionary and advisory assets exceeding $600 billion.
+For more than 55 years, we’ve been advising organizations on investment strategy.
+[Our History ](https://www.segalmarco.com/about-us/our-story)
+![Investor Giving Advice To His Clients.](https://www.segalmarco.com/media/2534/investor-giving-advice-to-his-clients.jpg?anchor=center&mode=crop&width=900&height=600&rnd=134182266030000000) ![Investor Giving Advice To His Clients.](https://www.segalmarco.com/media/2534/investor-giving-advice-to-his-clients.jpg?anchor=center&mode=crop&width=700&height=350&rnd=134182266030000000)
+### We’re one of the largest U.S.-based investment consultants.
+![Financial Consultation In Progress With Advisors](https://www.segalmarco.com/media/2535/financial-consultation-in-progress-with-advisors.jpg?anchor=center&mode=crop&width=900&height=600&rnd=134182266460000000) ![Financial Consultation In Progress With Advisors](https://www.segalmarco.com/media/2535/financial-consultation-in-progress-with-advisors.jpg?anchor=center&mode=crop&width=700&height=350&rnd=134182266460000000)
+## Independent advice you can count on
+We’re proud to be an independent, employee-owned firm, which enables us to provide objective, high-quality advice.
+Our senior professionals average more than 25 years of experience and have invested through all types of market conditions. They’ll draw on their expertise and Segal Marco’s research and technology to help your organization craft a comprehensive strategy or review and refine your existing one — and then execute it to help your organization achieve its investment objectives.
+[Find Out More ](https://www.segalmarco.com/investment-consulting)
+## Research to help you make informed decisions
+Find clarity in today’s markets with our proprietary research. You’ll have access to thought leadership and analysis to help your decision-making.
+[Learn About Our Research ](https://www.segalmarco.com/investment-research)
+![Business Colleagues Analyzing The Market On A Screen](https://www.segalmarco.com/media/2536/business-colleagues-analyzing-the-market-on-a-screen.jpg?anchor=center&mode=crop&width=900&height=600&rnd=134182266780000000) ![Business Colleagues Analyzing The Market On A Screen](https://www.segalmarco.com/media/2536/business-colleagues-analyzing-the-market-on-a-screen.jpg?anchor=center&mode=crop&width=700&height=350&rnd=134182266780000000)
+![A Female Investor Actively Listening To Her Business Client](https://www.segalmarco.com/media/2537/a-female-investor-actively-listening-to-her-business-client.jpg?center=0.41216216216216217,0.58912386706948638&mode=crop&width=900&height=600&rnd=134182268050000000) ![A Female Investor Actively Listening To Her Business Client](https://www.segalmarco.com/media/2537/a-female-investor-actively-listening-to-her-business-client.jpg?center=0.41216216216216217,0.58912386706948638&mode=crop&width=700&height=350&rnd=134182268050000000)
+## A team that understands your challenges
+You want to work with someone who has a proven track record of success in your industry. With our deep bench of investment consultants, we have the experience you seek. From Taft-Hartley plans and non-profits to Fortune 500 companies, we’ve got you covered.
+[See Who We Help ](https://www.segalmarco.com/investment-industries)
+## You can delegate decision-making about investing to us
+We offer discretionary investment management so your team can concentrate on what you do best without having to worry about staying on top of the ever-evolving investment industry. As your outsourced chief investment officer (OCIO), we’ll take care of your portfolio.
+![Investment Colleagues Discussing Over Market Report](https://www.segalmarco.com/media/2526/investment-colleagues-discussing-over-market-report.jpg?anchor=center&mode=crop&width=900&height=600&rnd=134171379150000000) ![Investment Colleagues Discussing Over Market Report](https://www.segalmarco.com/media/2526/investment-colleagues-discussing-over-market-report.jpg?anchor=center&mode=crop&width=700&height=350&rnd=134171379150000000)
+![Mid Adult Businesswoman Presenting Ideas To Investment Team](https://www.segalmarco.com/media/2525/mid-adult-businesswoman-presenting-ideas-to-investment-team.jpg?anchor=center&mode=crop&width=900&height=600&rnd=134171378870000000) ![Mid Adult Businesswoman Presenting Ideas To Investment Team](https://www.segalmarco.com/media/2525/mid-adult-businesswoman-presenting-ideas-to-investment-team.jpg?anchor=center&mode=crop&width=700&height=350&rnd=134171378870000000)
+## We can take care of proxy voting on your behalf
+Proxy voting is one of our corporate governance services.
+Each year, thousands of companies trust us to vote their proxies. Let us vote for your organization, guided by your proxy voting policy.
+[Corporate Governance Services ](https://www.segalmarco.com/corporate-governance)
+### Key statistics
+0 +
+**Clients in the U.S. served in a discretionary or advisory role**
+$ 0 B +
+**Combined advisory assets**
+0 +
+**Our longest client relationships span over 30 years.**
+#  Ready to take a fresh look at your investment program?
+Let’s start a conversation about how we can help.
+[Contact Us ](https://www.segalmarco.com/contact-us)
+## Read our latest insights
+[The Advisor’s Edge: Expanding Access to Alternative Investments Through Technology](https://www.segalmarco.com/investment-insights/expanding-access-to-alternative-investments-through-technology/)
+[February 2026 Market Update](https://www.segalmarco.com/investment-insights/february-2026-market-update/)
+[January 2026 Financial Markets Recap: And So, It Begins](https://www.segalmarco.com/investment-insights/january-2026-financial-markets-recap-and-so-it-begins/)
+[What to Consider When Selecting a Strategy for a Diversified Active Fixed Income Allocation](https://www.segalmarco.com/investment-insights/what-to-consider-when-selecting-a-strategy-for-a-diversified-active-fixed-income-allocation/)
+[The Federal Reserve Meets Expectations](https://www.segalmarco.com/investment-insights/the-federal-reserve-meets-expectations/)
+**Don’t miss out. Join 16,000 others who already get the latest insights from Segal and Segal Marco Advisors.**
+[![SegalMarcoAdvisors Logo](https://www.segalmarco.com/media/1651/smastackedlogo.svg)](https://www.segalmarco.com/ "Visit home page")
+**[Submit an RFP](https://www.segalmarco.com/submit-an-rfp)**
+**[Prism Login](https://prism.segalmarco.com/)**
+**[Investment Manager Login](https://im.segalmarco.com/)**
+**[Office Locations](https://www.segalmarco.com/about-us/locations)**
+[Contact Us ](https://www.segalmarco.com/contact-us)
+**[Services](https://www.segalmarco.com/)**
+[Investment Consulting](https://www.segalmarco.com/investment-consulting)
+[Investment Research](https://www.segalmarco.com/investment-research)
+**[Industry Expertise](https://www.segalmarco.com/investment-industries)**
+[Multiemployer](https://www.segalmarco.com/investment-industries/multiemployer)
+[Public Sector](https://www.segalmarco.com/investment-industries/public-sector-benefit-programs)
+[Corporate](https://www.segalmarco.com/investment-industries/corporate-retirement-plans)
+[Financial Intermediaries](https://www.segalmarco.com/investment-industries/financial-intermediaries)
+[Nonprofit](https://www.segalmarco.com/investment-industries/nonprofit-investment-programs)
+**[Insights](https://www.segalmarco.com/investment-insights)**
+**[About](https://www.segalmarco.com/about-us)**
+[Locations](https://www.segalmarco.com/about-us/locations)
+[Careers](https://www.segalmarco.com/about-us/careers)
+[Leadership](https://www.segalmarco.com/about-us/leadership)
+[Sustainable Investing](https://www.segalmarco.com/about-us/sustainable-investing)
+[Client RFPs](https://www.segalmarco.com/about-us/client-rfps)
+[Living Our Values](https://www.segalmarco.com/about-us/living-our-values)
+[Our Story](https://www.segalmarco.com/about-us/our-story)
+© 2026 by The Segal Group, Inc.[Terms & Conditions](https://www.segalmarco.com/terms-and-conditions) [Privacy Policy](https://www.segalmarco.com/privacy-policy) [Style Guide](https://styleguide.segalco.com/) [California Residents](https://www.segalmarco.com/media/1959/segal-marco-ccpa-specific-website-privacy-notice.pdf) [Sitemap](https://www.segalmarco.com/sitemap) [Disclosure](https://www.segalmarco.com/disclosure)
+[](https://www.linkedin.com/company/segal-marco/ "Follow us on LinkedIn") [](https://www.youtube.com/@Segalco)
+","","https://segalmarco.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Investment Consulting Services for Retirement Plans | Segal Marco Advisors","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","segalmarco.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","41ae1cbe51f5f1441e863f2704f42580d4a5d133d3996769789b946f36657312","0.0","0.3","957c14fa-fa10-567d-af66-b9874f2c4d15","","2026-03-30T21:27:15.201276Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/segalmarco.com.json","/tmp/tmpqumwzhkp/evidence/domain/segalmarco.com.json","","2026-06-28T21:27:15.201279Z","business consulting firm advisor email","2026-03-30T21:26:44.020567Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:27:15.214260Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpqumwzhkp/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:27:15.214262Z","business consulting firm advisor email","2026-03-30T21:26:44.968065Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:27:15.227506Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpqumwzhkp/evidence/domain/vaam.io.json","","2026-06-28T21:27:15.227508Z","SaaS startup CEO contact information","2026-03-30T21:26:48.629933Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:27:15.240472Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpqumwzhkp/evidence/domain/findemails.com.json","","2026-06-28T21:27:15.240474Z","SaaS startup CEO contact information","2026-03-30T21:26:50.846317Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Maryland Small Business Development Center
+[ ![Maryland Small Business Development Center](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/logo.png)](https://www.marylandsbdc.org/ "Maryland Small Business Development Center")
+  * [Consulting](https://www.marylandsbdc.org/consulting "Consulting")
+    * [CEO Accelerator Program](https://www.marylandsbdc.org/consulting/ceo-accelerator-program "CEO Accelerator Program")
+    * [Technology Commercialization](https://www.marylandsbdc.org/consulting/technology-commercialization "Technology Commercialization")
+    * [Hub Business Connection](https://www.marylandsbdc.org/consulting/hub-business-connection "Hub Business Connection")
+    * [Retail and Restaurant](https://www.marylandsbdc.org/consulting/retail-and-restaurants "Retail and Restaurant")
+    * [Business Research Platforms](https://www.marylandsbdc.org/consulting/business-research-platforms "Business Research Platforms")
+    * [Manufacturing Resources](https://www.marylandsbdc.org/consulting/manufacturing-resources "Manufacturing Resources")
+    * [Capital to Credit Program](https://www.marylandsbdc.org/consulting/credit-to-capital-program "Capital to Credit Program")
+  * [Training](https://www.marylandsbdc.org/training "Training")
+    * [Training Calendar ](https://mdsbdc.ecenterdirect.com/events?reset=1 "Online Training")
+    * [SBDC Open Learning ](https://umd-sbdc.catalog.instructure.com "SBDC Open Learning")
+  * [Success Stories](https://www.marylandsbdc.org/success-stories "Success Stories")
+  * [Locations](https://www.marylandsbdc.org/locations "Locations")
+  * [About Us](https://www.marylandsbdc.org/about-us "About Us")
+  * [Donate ](https://www.usmf.org/maryland-sbdc/ "Support Maryland business by donating to Maryland SBDC")
+
+
+Previous Slide◀︎ Next Slide▶︎
+  * ![Research images in triangles](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/slider/slider-110122.jpg)
+NEW! Business Research  
+Platforms 
+When you need information and/or data for your business
+[Learn More](https://www.marylandsbdc.org/consulting/business-research-platforms "Learn More")
+  * ![Business owner training and classes](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/slider/slide2.jpg)
+The Training You Need 
+We offer high quality, professional training programs at low or no cost to you!
+[Learn More](https://www.marylandsbdc.org/training "Learn More")
+  * ![Business owners receiving consulting services](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/slider/slide1.jpg)
+We Get Results   
+at NO COST TO YOU
+Using the SBDC to avoid pitfalls and increase the chance of your success is just plain smart
+[Learn More](https://www.marylandsbdc.org/consulting "Learn More")
+
+
+# Helping Small Businesses Is Our Job
+If you are an aspiring entrepreneur or an existing business owner in Maryland… the Maryland Small Business Development Center (SBDC) offers FREE individualized consulting, from start up to established businesses. Maryland SBDC also offers comprehensive training programs, from those just thinking about starting a business to executive training, with most classes at low to no cost. The Maryland SBDC Network provides Maryland small business owners with access to trusted business advisors who have experience in starting and growing businesses. We offer expertise and keen insights essential to helping you manage your concerns today, and design solid, long-range plans to secure your vision for tomorrow. Please note: We have always been only able to assist those legally present in the United States.
+[Request Assistance](https://mdsbdc.ecenterdirect.com/signup?reset=1)
+## What We Do
+Since 1988 the seasoned staff of the Maryland Small Business Development Center (SBDC) Network has provided sound advice consulting and support to entrepreneurs and small businesses across the state. We are part of a national SBDC network—founded in 1979—that helps over 500,000 U.S. businesses annually.
+### Business Consulting
+Get no- or low-cost consulting in the areas of MONEY MANAGEMENT and MARKETING.
+[Learn About Business Consulting](https://www.marylandsbdc.org/consulting "Learn more about business consulting")
+### Business Training
+Get no- or low-cost training in the areas of MONEY MANAGEMENT and MARKETING.
+[Learn About Business Training](https://www.marylandsbdc.org/training "Learn more about business training")
+### Business Funding
+We help you get funding for your business from a variety of sources.
+[Learn About Business Funding](https://www.marylandsbdc.org/resources/finance-and-venture-capital "Learn more about business funding")
+## Success Stories
+Entrepreneurs have great ideas that they want to see manifested in a successful business. Most of the time they are missing some critical information guidance or skill that would make all the difference. Here are examples of Maryland SBDC clients who were able to succeed with our guidance.
+![Volman HR Strategy, LLC](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/corridor-images/Justin-Volman%20\(crop\).jpg)  
+### [Volman HR Strategy, LLC](https://www.marylandsbdc.org/success-stories/volman-hr-strategy--llc "Learn more about Volman HR Strategy, LLC") Corridor Region
+![Riverbend Family Medicine](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/western-images/riverbend.png)  
+### [Riverbend Family Medicine](https://www.marylandsbdc.org/success-stories/riverbend-family-medicine "Learn more about Riverbend Family Medicine") Western Region
+![Bayview United Homecare Services LLC](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/southern-images/2025-09-24.webp)  
+### [Bayview United Homecare Services LLC](https://www.marylandsbdc.org/success-stories/bayview-united-homecare-services-llc "Learn more about Bayview United Homecare Services LLC") Corridor Region
+[Read More Success Stories](https://www.marylandsbdc.org/success-stories)
+## SBA Resource Guide
+Download the latest Resource Guide from the Small Business Administration.
+[Download Guide](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Documents/SBA_Resourceguide_3120_2019.pdf "Download SBA Resource Guide PDF")
+![Download SBA Resource Guide PDF](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/sba_resourceguide_3120_2019.jpg)
+## Our Success Stats
+  
+
+### 212
+New Maryland Businesses 
+  
+
+### 1288
+Maryland Jobs Created 
+  
+
+### 64
+Million In Sales Growth 
+  
+
+### 57
+Million In Secured Loans 
+The Maryland SBDC Program is funded in part through a Cooperative Agreement with the U.S. Small Business Administration. All opinions conclusions or recommendations expressed are those of the author(s) and do not necessarily reflect the views of the SBA. The support given by the U.S. Small Business Administration through such funding does not constitute an express or implied endorsement of any of the cosponsor's or participants' opinions products or services. All of SBA's programs and services are extended to the public on a non discriminatory basis.
+[![America's SBDC](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/americas-sbdc.jpg)](https://americassbdc.org)
+[![University of Maryland](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/university-of-maryland.jpg)](https://umd.edu)
+[![Maryland Business Opportunity Center](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/mboc.jpg)](https://www.marylandboc.org)
+[![Maryland Apex Accelerator](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/apex-accelerator.jpg)](https://www.marylandapex.org/program)
+[![Small Business Administation](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/sba.jpg)](https://www.sba.gov)
+* * *
+## About Us
+The Maryland SBDC is an accredited member of a national network. In addition to our support of small business development the SBDC is also accredited to provide intellectual property and technology commercialization assistance to businesses in the technology industry.
+**Operating hours are dependent upon host location and are by appointment only. Please request assistance through our[Request Assistance](https://mdsbdc.ecenterdirect.com/signup?reset=1) page.**
+![Find A Location text over Maryland map image](https://s3.amazonaws.com/bb-cms/AppData/Websites/1076/Images/ui/find-a-location2.png)
+  * [Corridor Region Office](https://www.marylandsbdc.org/locations/corridor-region "Learn about our Corridor regional office")
+  * [Eastern Region Office](https://www.marylandsbdc.org/locations/eastern-region "Learn about our Eastern regional office")
+  * [Northern Region Office](https://www.marylandsbdc.org/locations/northern-region "Learn about our Northern regional office")
+  * [Southern Region Office](https://www.marylandsbdc.org/locations/southern-region "Learn about our Southern regional office")
+  * [Western Region Office](https://www.marylandsbdc.org/locations/western-region "Learn about our Western regional office")
+  * [Baltimore Region Office](https://www.marylandsbdc.org/locations/baltimore-region "Learn about our Baltimore regional office")
+  * [Lead Center Office](https://www.marylandsbdc.org/locations/lead-center "Learn about our Lead Center")
+
+
+Scroll to top  
+_Top_
+[Home](https://www.marylandsbdc.org/) [Privacy Policy](https://www.marylandsbdc.org/privacy-policy) [Site Map](https://www.marylandsbdc.org/site-map)  
+©2026 Maryland SBDC. All Rights Reserved. [Website Design by Sprout Creatives](https://www.sproutcreatives.com/what-we-do/web-design "Learn about Sprout Creatives website design services")
+[](https://www.facebook.com/MarylandSBTDC "Visit Maryland SBDC's Facebook account") [](https://twitter.com/marylandsbdc "Visit Maryland SBDC's Twitter account")[](https://www.pinterest.com/marylandsbdc/ "Visit Maryland SBDC's Pinterest account") [](https://www.instagram.com/marylandsbdc/ "Visit Maryland SBDC's Instagram account")
+","","https://marylandsbdc.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Maryland Small Business Center (SBDC) Helps Maryland Businesses Grow / Maryland Small Business Development Center","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","marylandsbdc.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","185262caa08deb9d51a5bb73fad1bba284ed64b92efe84258d40b3e28584b380","0.0","0.3","4644cd3c-15cd-5082-80a7-903bd46a8cb3","","2026-03-30T21:27:15.253601Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/marylandsbdc.org.json","/tmp/tmpqumwzhkp/evidence/domain/marylandsbdc.org.json","","2026-06-28T21:27:15.253603Z","small business advisory firm team page","2026-03-30T21:26:59.087582Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Skip to content ](https://usstartupfounders.com/#main-content-sticky)
+  * [Home](https://usstartupfounders.com/)
+  * [Startups](https://usstartupfounders.com/category/startups/)
+  * [Funding](https://usstartupfounders.com/category/funding/)
+  * [Founders](https://usstartupfounders.com/category/founders/)
+  * [Guides](https://usstartupfounders.com/category/guides/)
+  * [Case Studies](https://usstartupfounders.com/category/case-studies/)
+  * [Failures](https://usstartupfounders.com/category/failures/)
+  * [Resources](https://usstartupfounders.com/category/resources/)
+  * [About Us](https://usstartupfounders.com/about-usstartupfounders-your-hub-for-insightful-news-trends/)
+  * [Contact Us](https://usstartupfounders.com/contact-us/)
+
+
+[ ](https://usstartupfounders.com/) [ ](https://www.instagram.com/usstartupfounders/) [ ](https://www.youtube.com/@usstartupfounders) [ ](https://www.linkedin.com/in/usstartupfounders/)
+#  [Startups Stories](https://usstartupfounders.com/)
+#  [Startups Stories](https://usstartupfounders.com/)
+  * [Home](https://usstartupfounders.com/)
+  * [Startups](https://usstartupfounders.com/category/startups/)
+    * [Latest Startups](https://usstartupfounders.com/category/startups/latest-startups/)
+    * [Tech Startups](https://usstartupfounders.com/category/startups/tech-startups/)
+    * [AI Startups](https://usstartupfounders.com/category/startups/ai-startups/)
+    * [FinTech](https://usstartupfounders.com/category/startups/fintech/)
+    * [SaaS](https://usstartupfounders.com/category/startups/saas/)
+    * [E-commerce](https://usstartupfounders.com/category/startups/e-commerce/)
+  * [Funding](https://usstartupfounders.com/category/funding/)
+    * [IPO News](https://usstartupfounders.com/category/funding/ipo-news/)
+    * [VC & Investors](https://usstartupfounders.com/category/funding/vc-investors/)
+    * [Seed Funding](https://usstartupfounders.com/category/funding/seed-funding/)
+    * [Series A/B/C](https://usstartupfounders.com/category/funding/series-a-b-c/)
+  * [Founders](https://usstartupfounders.com/category/founders/)
+    * [Interviews](https://usstartupfounders.com/category/founders/interviews/)
+    * [Success Stories](https://usstartupfounders.com/category/founders/success-stories/)
+    * [Young Entrepreneurs](https://usstartupfounders.com/category/founders/young-entrepreneurs/)
+    * [Women Founders](https://usstartupfounders.com/category/founders/women-founders/)
+  * [Guides](https://usstartupfounders.com/category/guides/)
+    * [How to Start a Startup](https://usstartupfounders.com/category/guides/how-to-start-a-startup/)
+    * [Marketing Strategies](https://usstartupfounders.com/category/guides/marketing-strategies/)
+    * [Growth Hacks](https://usstartupfounders.com/category/guides/growth-hacks/)
+    * [Legal & Compliance](https://usstartupfounders.com/category/guides/legal-compliance/)
+  * [Case Studies](https://usstartupfounders.com/category/case-studies/)
+    * [Startup Success Cases](https://usstartupfounders.com/category/case-studies/startup-success-cases/)
+    * [Business Model Breakdown](https://usstartupfounders.com/category/case-studies/business-model-breakdown/)
+    * [Revenue Strategy](https://usstartupfounders.com/category/case-studies/revenue-strategy/)
+  * [Failures](https://usstartupfounders.com/category/failures/)
+    * [Failed Startups](https://usstartupfounders.com/category/failures/failed-startups/)
+    * [Lessons Learned](https://usstartupfounders.com/category/failures/lessons-learned/)
+    * [Pivot Stories](https://usstartupfounders.com/category/failures/pivot-stories/)
+  * [Resources](https://usstartupfounders.com/category/resources/)
+    * [Tools for Startups](https://usstartupfounders.com/category/resources/tools-for-startups/)
+    * [Pitch Deck Templates](https://usstartupfounders.com/category/resources/pitch-deck-templates/)
+    * [Funding List](https://usstartupfounders.com/category/resources/funding-list/)
+    * [Grants & Accelerators](https://usstartupfounders.com/category/resources/grants-accelerators/)
+  * [About Us](https://usstartupfounders.com/about-usstartupfounders-your-hub-for-insightful-news-trends/)
+  * [Contact Us](https://usstartupfounders.com/contact-us/)
+
+
+Search for:
+### Latest Startups
+[![](https://usstartupfounders.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-15-2026-08_17_17-PM-110x85.png)](https://usstartupfounders.com/paytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch/)
+### [Paytm: How Vijay Shekhar Sharma Built India’s Mobile Payment Giant from Scratch](https://usstartupfounders.com/paytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch/)
+March 15, 2026
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/ANTHROPICAIIIII-110x85.jpg)](https://usstartupfounders.com/how-openai-anthropic-and-generative-ai-startups-are-reshaping-work-and-innovation-in-2026/)
+### [Anthropic Acquires Vercept: How Generative AI Startups Are Shaping the Future in 2026](https://usstartupfounders.com/how-openai-anthropic-and-generative-ai-startups-are-reshaping-work-and-innovation-in-2026/)
+February 27, 2026
+### Tech Startups
+[](https://usstartupfounders.com/alta-and-the-rise-of-ai-powered-b2b-gtm-platforms-shaping-the-future-of-revenue-in-2026/)
+### [Alta and the Rise of AI‑Powered B2B GTM Platforms: Shaping the Future of Revenue in 2026](https://usstartupfounders.com/alta-and-the-rise-of-ai-powered-b2b-gtm-platforms-shaping-the-future-of-revenue-in-2026/)
+February 27, 2026
+### AI Startups
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/arvaai678-1-110x85.webp)](https://usstartupfounders.com/arva-ai-and-the-future-of-ai-driven-compliance-reinventing-verification-in-fintech/)
+### [Arva AI and the Future of AI‑Driven Compliance: Reinventing Verification in FinTech](https://usstartupfounders.com/arva-ai-and-the-future-of-ai-driven-compliance-reinventing-verification-in-fintech/)
+February 27, 2026
+### FinTech
+[![](https://usstartupfounders.com/wp-content/uploads/2026/03/sport-110x85.png)](https://usstartupfounders.com/spotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden/)
+### [Spotify: How Daniel Ek Built a Global Music Streaming Empire from Sweden”](https://usstartupfounders.com/spotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden/)
+March 15, 2026
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/ranketttadnddnnd-1-110x73.webp)](https://usstartupfounders.com/ranketta-ai-visibility-seo-for-fintech-brands-in-the-age-of-generative-search-2026/)
+### [Ranketta: AI Visibility & SEO for FinTech Brands in the Age of Generative Search (2026)](https://usstartupfounders.com/ranketta-ai-visibility-seo-for-fintech-brands-in-the-age-of-generative-search-2026/)
+February 27, 2026
+### SaaS
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/peekaistartup-2-110x85.webp)](https://usstartupfounders.com/peak-the-ai-workflow-saas-transforming-enterprise-decisioning-and-automation/)
+### [Peak — The AI Workflow SaaS Transforming Enterprise Decisioning and Automation](https://usstartupfounders.com/peak-the-ai-workflow-saas-transforming-enterprise-decisioning-and-automation/)
+February 27, 2026
+### E-commerce
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/elevenlabs-1-110x85.webp)](https://usstartupfounders.com/how-elevenlabs-ai-voice-synthesis-is-amplifying-ecommerce-and-digital-experiences-in-2026/)
+### [How ElevenLabs AI Voice Synthesis Is Amplifying Ecommerce and Digital Experiences in 2026](https://usstartupfounders.com/how-elevenlabs-ai-voice-synthesis-is-amplifying-ecommerce-and-digital-experiences-in-2026/)
+February 27, 2026
+### IPO NEWS
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/dustai-1-110x85.webp)](https://usstartupfounders.com/is-dust-headed-for-an-ipo-what-the-future-holds-for-pariss-ai-bots-pioneer/)
+### [Is Dust Headed for an IPO? What the Future Holds for Paris’s AI Bots Pioneer](https://usstartupfounders.com/is-dust-headed-for-an-ipo-what-the-future-holds-for-pariss-ai-bots-pioneer/)
+February 27, 2026
+### VC & INVESTORS
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/linkervision-1-110x85.webp)](https://usstartupfounders.com/who-are-the-investors-and-venture-capital-backers-of-linker-vision/)
+### [Who Are the Investors and Venture Capital Backers of Linker Vision?](https://usstartupfounders.com/who-are-the-investors-and-venture-capital-backers-of-linker-vision/)
+February 27, 2026
+### Interviews
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/stripeapi-1-110x85.webp)](https://usstartupfounders.com/what-stripes-recent-interviews-reveal-about-its-future-in-payments-ai-and-financial-infrastructure/)
+### [What Stripe’s Recent Interviews Reveal About Its Future in Payments, AI, and Financial Infrastructure](https://usstartupfounders.com/what-stripes-recent-interviews-reveal-about-its-future-in-payments-ai-and-financial-infrastructure/)
+February 27, 2026
+### Young Entrepreneurs
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/posthogggggg-1-110x85.webp)](https://usstartupfounders.com/the-rise-of-young-entrepreneurship-how-posthog-became-a-product-analytics-unicorn/)
+### [The Rise of Young Entrepreneurship: How PostHog Became a Product Analytics Unicorn](https://usstartupfounders.com/the-rise-of-young-entrepreneurship-how-posthog-became-a-product-analytics-unicorn/)
+February 27, 2026
+### SUCCSESS STORIES
+[![](https://usstartupfounders.com/wp-content/uploads/2025/09/Ritesh-Agarwal-OYO-Founder-110x85.jpg)](https://usstartupfounders.com/the-journey-of-ritesh-agarwal-founder-of-oyo/)
+### [The Journey of Ritesh Agarwal: Founder of OYO](https://usstartupfounders.com/the-journey-of-ritesh-agarwal-founder-of-oyo/)
+September 8, 2025
+### Women Founders
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/deelglobalpayroll-1-110x85.webp)](https://usstartupfounders.com/women-in-tech-leadership-how-deel-became-a-global-payroll-and-hr-saas-powerhouse/)
+### [Women in Tech Leadership: How Deel Became a Global Payroll and HR SaaS Powerhouse](https://usstartupfounders.com/women-in-tech-leadership-how-deel-became-a-global-payroll-and-hr-saas-powerhouse/)
+February 27, 2026
+### How to Start a Startup
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/algoliasucssses-1-110x85.webp)](https://usstartupfounders.com/how-to-start-a-startup-like-algolia/)
+### [How to Start a Startup Like Algolia](https://usstartupfounders.com/how-to-start-a-startup-like-algolia/)
+February 27, 2026
+### Marketing Strategies
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/podiumaiii-1-110x85.webp)](https://usstartupfounders.com/marketing-strategies-behind-podiums-rise-as-an-ai-lead-management-platform/)
+### [Marketing Strategies Behind Podium’s Rise as an AI Lead Management Platform](https://usstartupfounders.com/marketing-strategies-behind-podiums-rise-as-an-ai-lead-management-platform/)
+February 27, 2026
+### business model breakdown
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/sakanaaihshsh-1-110x85.webp)](https://usstartupfounders.com/sakana-ais-seed-funding-how-ai-is-accelerating-scientific-research-innovation/)
+### [Sakana AI’s Seed Funding: How AI Is Accelerating Scientific Research Innovation](https://usstartupfounders.com/sakana-ais-seed-funding-how-ai-is-accelerating-scientific-research-innovation/)
+February 27, 2026
+### Failed Startups
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/weeveshhshshsh-1-110x85.webp)](https://usstartupfounders.com/is-weave-a-failed-startup-the-real-story-behind-the-saas-communication-platform/)
+### [Is Weave a Failed Startup? The Real Story Behind the SaaS Communication Platform](https://usstartupfounders.com/is-weave-a-failed-startup-the-real-story-behind-the-saas-communication-platform/)
+February 27, 2026
+### LESSON LEARNED
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/foodicscloudpos-1-110x85.webp)](https://usstartupfounders.com/how-foodics-became-a-restaurant-tech-success-story-in-cloud-pos-and-fintech/)
+### [How Foodics Became a Restaurant Tech Success Story in Cloud POS and Fintech](https://usstartupfounders.com/how-foodics-became-a-restaurant-tech-success-story-in-cloud-pos-and-fintech/)
+February 27, 2026
+### IPO NEWS
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/dustai-1-110x85.webp)](https://usstartupfounders.com/is-dust-headed-for-an-ipo-what-the-future-holds-for-pariss-ai-bots-pioneer/)
+### [Is Dust Headed for an IPO? What the Future Holds for Paris’s AI Bots Pioneer](https://usstartupfounders.com/is-dust-headed-for-an-ipo-what-the-future-holds-for-pariss-ai-bots-pioneer/)
+February 27, 2026
+###  Latest post 
+[![](https://usstartupfounders.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-15-2026-08_17_17-PM-600x300.png)](https://usstartupfounders.com/paytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch/)
+[Latest Startups](https://usstartupfounders.com/category/startups/latest-startups/)
+### [Paytm: How Vijay Shekhar Sharma Built India’s Mobile Payment Giant from Scratch](https://usstartupfounders.com/paytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch/)
+Introduction: India’s Mobile Payment Revolution In the early 2010s, India’s payment ecosystem was largely cash-dependent, with credit cards and online banking accessible to only a small fraction of the population. Amid this gap, Vijay Shekhar Sharma, a young entrepreneur from…
+[](https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fpaytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch%2F&linkname=Paytm%3A%20How%20Vijay%20Shekhar%20Sharma%20Built%20India%E2%80%99s%20Mobile%20Payment%20Giant%20from%20Scratch "Facebook")[](https://www.addtoany.com/add_to/mastodon?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fpaytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch%2F&linkname=Paytm%3A%20How%20Vijay%20Shekhar%20Sharma%20Built%20India%E2%80%99s%20Mobile%20Payment%20Giant%20from%20Scratch "Mastodon")[](https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fpaytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch%2F&linkname=Paytm%3A%20How%20Vijay%20Shekhar%20Sharma%20Built%20India%E2%80%99s%20Mobile%20Payment%20Giant%20from%20Scratch "Email")[](https://www.addtoany.com/share)
+Posted on [March 15, 2026](https://usstartupfounders.com/2026/03/) [ usstartupfounders ](https://usstartupfounders.com/author/tiwariritesh257/ "usstartupfounders")
+[![](https://usstartupfounders.com/wp-content/uploads/2026/03/sport-600x300.png)](https://usstartupfounders.com/spotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden/)
+[FinTech](https://usstartupfounders.com/category/startups/fintech/)
+### [Spotify: How Daniel Ek Built a Global Music Streaming Empire from Sweden”](https://usstartupfounders.com/spotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden/)
+1️⃣ Introduction: From Stockholm to the World In the early 2000s, music piracy was a massive problem worldwide. People downloaded music illegally, artists were losing revenue, and the music industry struggled to keep up with the digital shift. Amid this…
+[](https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fspotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden%2F&linkname=Spotify%3A%20How%20Daniel%20Ek%20Built%20a%20Global%20Music%20Streaming%20Empire%20from%20Sweden%E2%80%9D "Facebook")[](https://www.addtoany.com/add_to/mastodon?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fspotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden%2F&linkname=Spotify%3A%20How%20Daniel%20Ek%20Built%20a%20Global%20Music%20Streaming%20Empire%20from%20Sweden%E2%80%9D "Mastodon")[](https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fspotify-how-daniel-ek-built-a-global-music-streaming-empire-from-sweden%2F&linkname=Spotify%3A%20How%20Daniel%20Ek%20Built%20a%20Global%20Music%20Streaming%20Empire%20from%20Sweden%E2%80%9D "Email")[](https://www.addtoany.com/share)
+Posted on [March 15, 2026](https://usstartupfounders.com/2026/03/) [ usstartupfounders ](https://usstartupfounders.com/author/tiwariritesh257/ "usstartupfounders")
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/linkervision-1.webp)](https://usstartupfounders.com/who-are-the-investors-and-venture-capital-backers-of-linker-vision/)
+[Funding](https://usstartupfounders.com/category/funding/) [VC & Investors](https://usstartupfounders.com/category/funding/vc-investors/)
+### [Who Are the Investors and Venture Capital Backers of Linker Vision?](https://usstartupfounders.com/who-are-the-investors-and-venture-capital-backers-of-linker-vision/)
+Linker Vision recently completed a major Series A funding round of US $35 million, marking a strategic milestone for its growth and international expansion. This financing brings together a diverse group of investors — from seasoned industrial backers to AI…
+[](https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fwho-are-the-investors-and-venture-capital-backers-of-linker-vision%2F&linkname=Who%20Are%20the%20Investors%20and%20Venture%20Capital%20Backers%20of%20Linker%20Vision%3F "Facebook")[](https://www.addtoany.com/add_to/mastodon?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fwho-are-the-investors-and-venture-capital-backers-of-linker-vision%2F&linkname=Who%20Are%20the%20Investors%20and%20Venture%20Capital%20Backers%20of%20Linker%20Vision%3F "Mastodon")[](https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fwho-are-the-investors-and-venture-capital-backers-of-linker-vision%2F&linkname=Who%20Are%20the%20Investors%20and%20Venture%20Capital%20Backers%20of%20Linker%20Vision%3F "Email")[](https://www.addtoany.com/share)
+Posted on [February 27, 2026](https://usstartupfounders.com/2026/02/) [ usstartupfounders ](https://usstartupfounders.com/author/tiwariritesh257/ "usstartupfounders")
+[![](https://usstartupfounders.com/wp-content/uploads/2026/02/algoliasucssses-1.webp)](https://usstartupfounders.com/how-to-start-a-startup-like-algolia/)
+[Guides](https://usstartupfounders.com/category/guides/) [How to Start a Startup](https://usstartupfounders.com/category/guides/how-to-start-a-startup/)
+### [How to Start a Startup Like Algolia](https://usstartupfounders.com/how-to-start-a-startup-like-algolia/)
+In today’s digital economy, search is no longer just a feature. It is the engine behind user experience. Whether customers are browsing an online store, searching inside a SaaS dashboard, or exploring a marketplace, they expect instant and accurate results….
+[](https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fhow-to-start-a-startup-like-algolia%2F&linkname=How%20to%20Start%20a%20Startup%20Like%20Algolia "Facebook")[](https://www.addtoany.com/add_to/mastodon?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fhow-to-start-a-startup-like-algolia%2F&linkname=How%20to%20Start%20a%20Startup%20Like%20Algolia "Mastodon")[](https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fusstartupfounders.com%2Fhow-to-start-a-startup-like-algolia%2F&linkname=How%20to%20Start%20a%20Startup%20Like%20Algolia "Email")[](https://www.addtoany.com/share)
+Posted on [February 27, 2026](https://usstartupfounders.com/2026/02/) [ usstartupfounders ](https://usstartupfounders.com/author/tiwariritesh257/ "usstartupfounders")
+## Posts pagination
+1 [2](https://usstartupfounders.com/page/2/) … [6](https://usstartupfounders.com/page/6/) [Next](https://usstartupfounders.com/page/2/)
+## Recent Posts
+  * [Paytm: How Vijay Shekhar Sharma Built India’s Mobile Payment Giant from Scratch](https://usstartupfounders.com/paytm-how-vijay-shekhar-sharma-built-indias-mobile-payment-giant-from-scratch/)
+  * [Spotify: How Daniel Ek Built a Global Music Streaming Empire from Swe","","https://usstartupfounders.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","usstartupfounders – Inspiring Startup Stories & Growth Tips","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","usstartupfounders.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","9dd1afa15cd91818913e6aae4c9aebeed2adab5aeb4ee24083cb7dd3d5e6c58f","0.0","0.3","3281da1c-625a-5641-b303-f3f5c6bac7fc","","2026-03-30T21:27:15.267262Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/usstartupfounders.com.json","/tmp/tmpqumwzhkp/evidence/domain/usstartupfounders.com.json","","2026-06-28T21:27:15.267264Z","tech startup founder contact page","2026-03-30T21:27:02.929300Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:27:15.280092Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpqumwzhkp/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:27:15.280094Z","management consulting firm director email","2026-03-30T21:27:06.818142Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","As Philadelphia’s public R1 university, Temple’s innovative education centers student outcomes with interdisciplinary academics and real-world experiences.","","https://temple.edu","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Temple University","1","","","","","","","","","","","0.0","0.0009","0.0","0.0009","temple.edu","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/18","0.6944","llm","heuristic_no_credit","bef6cd7f0629eaeec78097a1764f0d5c25f460521196cc61d63f55e3bfd4190c","0.0","0.3","59612b1a-a770-5113-acb3-fbc418dbf159","","2026-03-30T21:27:15.317576Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/temple.edu.json","/tmp/tmpqumwzhkp/evidence/domain/temple.edu.json","","2026-06-28T21:27:15.317578Z","management consulting firm director email","2026-03-30T21:27:11.469632Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

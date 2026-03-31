@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Level-up your SaaS growth strategies | SaaS Alliance",
+  "lead": {
+    "business": "Level-up your SaaS growth strategies | SaaS Alliance",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://saasalliance.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://be.linkedin.com/company/aampe",
+    "source_url": "https://saasalliance.io",
+    "description": "[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance) [Partner](https://www.saasalliance.io/partner) [About](https://www.t",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

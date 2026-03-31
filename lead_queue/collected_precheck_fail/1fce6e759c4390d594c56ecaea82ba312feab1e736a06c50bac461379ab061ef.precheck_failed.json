@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, role, country, city",
+  "business": "CPA Santa Rosa | Dillwood Burkel & Millar, LLP",
+  "lead": {
+    "business": "CPA Santa Rosa | Dillwood Burkel & Millar, LLP",
+    "full_name": "Jennifer Pickle Cpa",
+    "first": "Jennifer",
+    "last": "Pickle Cpa",
+    "email": "",
+    "role": "",
+    "website": "https://dbmcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/jennifer-pickle-cpa-1536918",
+    "company_linkedin": "https://www.linkedin.com/company/dillwood-burkel-and-millar-llp",
+    "source_url": "https://dbmcpa.com",
+    "description": "[ ![](https://www.dbmcpa.com/wp-content/themes/dbm2019/images/dbm-25.png) ![](https://www.dbmcpa.com/wp-content/themes/dbm2019/images/top-nav-logo.png) ](https://www.dbmcpa.com/) * [About Us](https://www.dbmcpa.com/about-us/) * [About Our Firm](https://www.dbmcpa.com/about-us/) * [Our Firm Leadership](https://www.dbmcpa.com/our-partners/) * [Our Team](https://www.dbmcpa.com/our-team/) * [Services](https://www.dbmcpa.com/) * [Tax Planning and Preparation](https://www.dbmcpa.com/tax-planning-preparation/) * [Audit, Review and Compilation](https://www.dbmcpa.com/audit/) * [Business Valuation](htt",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

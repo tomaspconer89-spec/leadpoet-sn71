@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: country, city, linkedin",
+  "business": "Denver Business Advisors | Small Business Consulting Firm in Denver",
+  "lead": {
+    "business": "Denver Business Advisors | Small Business Consulting Firm in Denver",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@abadvisors.com",
+    "role": "Contact",
+    "website": "https://abadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://www.linkedin.com/company/ab_advisors",
+    "source_url": "https://abadvisors.com",
+    "description": "[303-335-4218](tel:303-335-4218) | info@abadvisors.com [![American Business Advisors](https://abadvisors.com/wp-content/uploads/2015/08/american-business-advisors-header.png)](https://abadvisors.com/) [![American Business Advisors](https://abadvisors.com/wp-content/uploads/2015/07/aba-logo-white-150.png)](https://abadvisors.com/) [![American Business Advisors](https://abadvisors.com/wp-content/uploads/2015/08/american-business-advisors-header-retina.png)](https://abadvisors.com/) [![American Business Advisors](https://abadvisors.com/wp-content/uploads/2015/07/aba-logo-white-300.png)](https://a",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ab_advisors",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

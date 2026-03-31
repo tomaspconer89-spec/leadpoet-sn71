@@ -1,0 +1,357 @@
+{
+  "saved_at_utc": "2026-03-31T00:14:43.278078+00:00",
+  "queue_key": "f436a2c87a755d0e61fdbf13f663243be2f1f477021d39d82a7d59bbdbc28b5b",
+  "business": "Level-up your SaaS growth strategies | SaaS Alliance",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Level-up your SaaS growth strategies | SaaS Alliance",
+      "Level-up your SaaS growth strategies | SaaS Alliance linkedin company",
+      "site:linkedin.com/company saasalliance.io",
+      "site:linkedin.com/in \"Level-up your SaaS growth strategies | SaaS Alliance\" founder",
+      "site:linkedin.com/in \"Level-up your SaaS growth strategies | SaaS Alliance\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "kq4eaUr5siVNgXJ",
+          "url": "http://www.google.com/search?q=Level-up+your+SaaS+growth+strategies+%7C+SaaS+Alliance+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Level-up+your+SaaS+growth+strategies+%7C+SaaS+Alliance+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Level-up your SaaS growth strategies | SaaS Alliance linkedin company",
+          "url": "http://www.google.com/search?q=Level-up+your+SaaS+growth+strategies+%7C+SaaS+Alliance+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Level-up+your+SaaS+growth+strategies+%7C+SaaS+Alliance+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "SaaS Alliance Slack",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=SaaS+Alliance+Slack&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "Future of SaaS",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Future+of+SaaS&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "Future of saas conference",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Future+of+saas+conference&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Indie Hackers",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Indie+Hackers&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhEEAE"
+          },
+          {
+            "title": "SaaS Alliance Slack",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=SaaS+Alliance+Slack&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "Future of SaaS",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Future+of+SaaS&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "Future of saas conference",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Future+of+saas+conference&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Indie Hackers",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Indie+Hackers&sa=X&ved=2ahUKEwjWzLCr7ciTAxX7RPEDHZYlLJ4Q1QJ6BAhEEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SaaS Alliance Employees, Location, Alumni",
+            "url": "https://www.linkedin.com/school/saas-alliance/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Alliance",
+            "description": "A global community where everyone from founders, to senior execs, product pros, commercial leads, talent managers, and investors can network, learn and grow.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "SaaS Alliance: Level-up your SaaS growth strategies",
+            "url": "https://www.saasalliance.io/",
+            "displayedUrl": "https://www.saasalliance.io",
+            "description": "Level-up with SaaS Alliance membership. From product marketing to customer success, tap into the tried and tested, business-wide strategies.Read more",
+            "emphasizedKeywords": [
+              "Level-up with SaaS Alliance membership"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "SaaS Growth Strategies",
+            "url": "https://www.linkedin.com/company/saasgrowthstrategies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Arihant Parsoya",
+            "description": "About us. Breakdown of strategies used by the best SaaS companies. Get in-depth breakdown of SaaS growth strategies in our newsletter (+1k readers).Read more",
+            "emphasizedKeywords": [
+              "Get in-depth breakdown of SaaS growth strategies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "#saas #growthstrategy #innovation | SaaS Alliance",
+            "url": "https://www.linkedin.com/posts/saas-alliance_saas-growthstrategy-innovation-activity-7244359957259685888-X9Yi",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a saas-alliance_saas-gr...",
+            "description": "Sep 24, 2024 \u2014 Let's make sure you're the function no one can overlook. How? By soaking up insights from industry leaders (yes, even your competitors)\u00a0...Read more",
+            "date": "2024-09-24T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "you're",
+              "up",
+              "your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "How to Grow SAAS Business Using LinkedIn",
+            "url": "https://www.linkedin.com/top-content/business-strategy/saas-business-growth/how-to-grow-saas-business-using-linkedin/",
+            "displayedUrl": "https://www.linkedin.com \u203a ... \u203a SaaS Business Growth",
+            "description": "Explore strategies for SaaS growth on LinkedIn through targeted messaging and automated engagement. See how segmented funnels and integrated marketing\u00a0...",
+            "emphasizedKeywords": [
+              "Explore strategies for SaaS growth on LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "The Future of SaaS team",
+            "url": "https://www.saasalliance.io/saas-alliance-team/",
+            "displayedUrl": "https://www.saasalliance.io \u203a saas-alliance-team",
+            "description": "Our mission is to provide an unrivaled resource to help those within SaaS organizations drive innovation and growth. Meet the team.",
+            "emphasizedKeywords": [
+              "SaaS",
+              "growth"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Are you guys actually using LinkedIn to grow your SaaS or ...",
+            "url": "https://www.reddit.com/r/SaaS/comments/1o3pikr/are_you_guys_actually_using_linkedin_to_grow_your/",
+            "displayedUrl": "Reddit\u00a0\u203a\u00a0r/SaaS",
+            "description": "Genuinely curious here. I've been experimenting with LinkedIn for our SaaS founder and the results have been... mixed.",
+            "emphasizedKeywords": [
+              "LinkedIn",
+              "SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "commentsAmount": "3 comments",
+            "lastUpdated": "5 months ago",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "#saas #businessgrowth #saasmarketing | SaaS Alliance",
+            "url": "https://www.linkedin.com/posts/saas-alliance_saas-businessgrowth-saasmarketing-activity-7272278922879270912-X_yV",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Alliance",
+            "description": "Whether you're leading marketing, sales, product, or customer success, SaaS Alliance membership helps you fast-track your company's growth\u00a0...",
+            "emphasizedKeywords": [
+              "SaaS Alliance membership helps you fast-track your company's growth"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1 year ago",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Driving SaaS Revenue Growth: The Importance of ...",
+            "url": "https://medium.com/@channelasaservice/driving-saas-revenue-growth-the-importance-of-strategic-partnerships-761cec8815b0",
+            "displayedUrl": "2 years ago",
+            "description": "Strategic partnerships can also lead to significant growth in your customer base. An alliance with a company that shares your target\u00a0...Read more",
+            "emphasizedKeywords": [
+              "growth",
+              "your",
+              "alliance",
+              "company",
+              "your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Your SaaS isn't scaling because you're still winging it.",
+            "url": "https://www.linkedin.com/posts/tkkader_your-saas-isnt-scaling-because-youre-still-activity-7316810682996256768-jLWe",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TK Kader",
+            "description": "Your SaaS isn't scaling because you're still winging it. Let's face it: In SaaS, being consistent isn't optional \u2014 it's survival.",
+            "emphasizedKeywords": [
+              "Your SaaS",
+              "you're",
+              "SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/SmULV6AUI6DedocY7/records/kq4eaUr5siVNgXJ-0.html?signature=1KH4wFop7UTwosYwGMU4A"
+      }
+    ],
+    "apify_item_count": 1,
+    "apify_linkedin_urls": [
+      "https://www.linkedin.com/school/saas-alliance/",
+      "https://www.linkedin.com/company/saasgrowthstrategies",
+      "https://www.linkedin.com/posts/saas-alliance_saas-growthstrategy-innovation-activity-7244359957259685888-X9Yi",
+      "https://www.linkedin.com/top-content/business-strategy/saas-business-growth/how-to-grow-saas-business-using-linkedin/",
+      "https://www.linkedin.com/posts/saas-alliance_saas-businessgrowth-saasmarketing-activity-7272278922879270912-X_yV",
+      "https://www.linkedin.com/posts/tkkader_your-saas-isnt-scaling-because-youre-still-activity-7316810682996256768-jLWe"
+    ],
+    "resolved_company_linkedin": "https://be.linkedin.com/company/aampe",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Level-up your SaaS growth strategies | SaaS Alliance",
+    "description": "[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance) [Partner](https://www.saasalliance.io/partner) [About](https://www.t",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://saasalliance.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://saasalliance.io",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "saasalliance.io",
+    "source_urls": [
+      "https://saasalliance.io"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Level-up your SaaS growth strategies | SaaS Alliance",
+    "description": "[![](https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/TheAlliance_Assets/alliance-logo-sm.svg)](https://www.thealliance.io/) [Technology Alliance](https://www.thealliance.io/technology-alliance) [Revenue Alliance](https://www.thealliance.io/revenue-alliance) [Marketing Alliance](https://www.thealliance.io/marketing-alliance) [Customer Alliance](https://www.thealliance.io/customer-alliance) [Product Alliance](https://www.thealliance.io/product-alliance) [Finance Alliance](https://www.thealliance.io/finance-alliance) [Partner](https://www.saasalliance.io/partner) [About](https://www.t",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://saasalliance.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://be.linkedin.com/company/aampe",
+    "source_url": "https://saasalliance.io",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "saasalliance.io",
+    "source_urls": [
+      "https://saasalliance.io"
+    ],
+    "title_raw": "founder",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://be.linkedin.com/company/aampe"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

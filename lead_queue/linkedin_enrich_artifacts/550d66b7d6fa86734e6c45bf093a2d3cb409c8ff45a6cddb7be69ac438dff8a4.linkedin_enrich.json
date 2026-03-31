@@ -1,0 +1,383 @@
+{
+  "saved_at_utc": "2026-03-31T00:19:21.303849+00:00",
+  "queue_key": "550d66b7d6fa86734e6c45bf093a2d3cb409c8ff45a6cddb7be69ac438dff8a4",
+  "business": "Welcome to the Small Business Advocacy Council (SBAC)",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Welcome to the Small Business Advocacy Council (SBAC)",
+      "Welcome to the Small Business Advocacy Council (SBAC) linkedin company",
+      "site:linkedin.com/company smallbusinessadvocacycouncil.org",
+      "site:linkedin.com/in \"Welcome to the Small Business Advocacy Council (SBAC)\" founder",
+      "site:linkedin.com/in \"Welcome to the Small Business Advocacy Council (SBAC)\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "TKOytYVIJChsMRO",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Welcome+to+the+Small+Business+Advocacy+Council+%28SBAC%29",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Welcome+to+the+Small+Business+Advocacy+Council+%28SBAC%29",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Welcome to the Small Business Advocacy Council (SBAC)",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Welcome+to+the+Small+Business+Advocacy+Council+%28SBAC%29",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Welcome+to+the+Small+Business+Advocacy+Council+%28SBAC%29",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "https://uk.linkedin.com \u203a company \u203a small-business-adv...",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Lincoln Park Chamber of Commerce",
+            "url": "https://de.linkedin.com/company/lincoln-park-chamber-of-commerce?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "https://de.linkedin.com \u203a company",
+            "description": "The Lincoln Park Chamber of Commerce (LPCC) is an organization that supports and celebrates Lincoln Park as a thriving destination to live, work and play.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/fzZV3ER9SpmEQ9dU4/records/TKOytYVIJChsMRO-0.html?signature=1qnOhmqE150ddvUjXmMwe"
+      },
+      {
+        "#debug": {
+          "requestId": "OyQGqUqdwKnpwJI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+smallbusinessadvocacycouncil.org",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+smallbusinessadvocacycouncil.org",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company smallbusinessadvocacycouncil.org",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+smallbusinessadvocacycouncil.org",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+smallbusinessadvocacycouncil.org",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://www.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Omari Prince",
+            "description": "The SBAC's non-partisan advocacy work continues to shape local, state and federal legislation for small businesses.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "https://uk.linkedin.com \u203a company \u203a small-business-adv...",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://at.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Omari Prince",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.Read more",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "National Small Business Advocacy Council",
+            "url": "https://www.linkedin.com/company/natsmallbiz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0National Small Business Advocacy Council",
+            "description": "The National Small Business Advocacy Council is an organization of small business owners advocating to create a more efficient, supportive and equitable\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Small Business Advocacy Council"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "380+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://kw.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Advocacy Council",
+            "description": "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: http://www.smallbusinessadvocacycouncil.org. \u0631\u0627\u0628\u0637 \u062e\u0627\u0631\u062c\u064a \u0644\u0640 Small Business Advocacy Council ; \u0627\u0644\u0645\u062c\u0627\u0644 \u0627\u0644\u0645\u0647\u0646\u064a: \u0627\u0644\u0645\u0646\u0638\u0645\u0627\u062a \u063a\u064a\u0631 \u0627\u0644\u0631\u0628\u062d\u064a\u0629 ; \u062d\u062c\u0645 \u0627\u0644\u0634\u0631\u0643\u0629\u00a0...Read more",
+            "emphasizedKeywords": [
+              "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: http://www.smallbusinessadvocacycouncil.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://de.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "https://de.linkedin.com \u203a company",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://pr.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Advocacy Council",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.Read more",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Small Business Advocacy Council",
+            "url": "https://ph.linkedin.com/company/small-business-advocacy-council",
+            "displayedUrl": "https://ph.linkedin.com \u203a company",
+            "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community.",
+            "emphasizedKeywords": [
+              "supporting local small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "SBAC Empower",
+            "url": "https://www.linkedin.com/company/sbac-empower",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SBAC Empower",
+            "description": "OUR PASSION is to promote entrepreneurship and small business development in economically-challenged communities. We partner with community leaders in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "to promote entrepreneurship and small business development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Cole Sadkin, LLC",
+            "url": "https://lu.linkedin.com/company/cole-sadkin-llc",
+            "displayedUrl": "https://lu.linkedin.com \u203a company \u203a cole-sadkin-llc",
+            "description": "Our goal is to keep maintaining a major presence in small business and technology referral networks, such as the Small Business Advocacy Council and 1871.",
+            "emphasizedKeywords": [
+              "Small Business Advocacy Council"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/O7kXGgKkGvLjWAuxh/records/OyQGqUqdwKnpwJI-0.html?signature=DuV6CVUfLzDzoqzMgZ8A"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Welcome to the Small Business Advocacy Council (SBAC)",
+      "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://de.linkedin.com/company/lincoln-park-chamber-of-commerce?trk=public_profile_experience-item_profile-section-card_image-click",
+      "site:linkedin.com/company smallbusinessadvocacycouncil.org",
+      "https://www.linkedin.com/company/small-business-advocacy-council",
+      "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://at.linkedin.com/company/small-business-advocacy-council",
+      "https://www.linkedin.com/company/natsmallbiz",
+      "https://kw.linkedin.com/company/small-business-advocacy-council",
+      "https://de.linkedin.com/company/small-business-advocacy-council",
+      "https://pr.linkedin.com/company/small-business-advocacy-council",
+      "https://ph.linkedin.com/company/small-business-advocacy-council",
+      "https://www.linkedin.com/company/sbac-empower",
+      "https://lu.linkedin.com/company/cole-sadkin-llc"
+    ],
+    "resolved_company_linkedin": "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Welcome to the Small Business Advocacy Council (SBAC)",
+    "description": "[Skip to content](https://www.smallbusinessadvocacycouncil.org/#content) * [Home](https://www.smallbusinessadvocacycouncil.org/) * Our Community * [Join Our Community](https://www.smallbusinessadvocacycouncil.org/join-our-community/) * [Our Story](https://www.smallbusinessadvocacycouncil.org/our-story/) * [Our Team](https://www.smallbusinessadvocacycouncil.org/staff-volunteers/) * [Our Board](https://www.smallbusinessadvocacycouncil.org/board-of-advisors/) * [Our Partners](https://www.smallbusinessadvocacycouncil.org/our-sbac-partners/) * [SBAC Directory](https://members.smallbusinessadvocacyc",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://smallbusinessadvocacycouncil.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://smallbusinessadvocacycouncil.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "smallbusinessadvocacycouncil.org",
+    "source_urls": [
+      "https://smallbusinessadvocacycouncil.org"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Welcome to the Small Business Advocacy Council (SBAC)",
+    "description": "[Skip to content](https://www.smallbusinessadvocacycouncil.org/#content) * [Home](https://www.smallbusinessadvocacycouncil.org/) * Our Community * [Join Our Community](https://www.smallbusinessadvocacycouncil.org/join-our-community/) * [Our Story](https://www.smallbusinessadvocacycouncil.org/our-story/) * [Our Team](https://www.smallbusinessadvocacycouncil.org/staff-volunteers/) * [Our Board](https://www.smallbusinessadvocacycouncil.org/board-of-advisors/) * [Our Partners](https://www.smallbusinessadvocacycouncil.org/our-sbac-partners/) * [SBAC Directory](https://members.smallbusinessadvocacyc",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://smallbusinessadvocacycouncil.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click",
+    "source_url": "https://smallbusinessadvocacycouncil.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "smallbusinessadvocacycouncil.org",
+    "source_urls": [
+      "https://smallbusinessadvocacycouncil.org"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://uk.linkedin.com/company/small-business-advocacy-council?trk=public_profile_experience-item_profile-section-card_image-click"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email",
+  "business": "Azure WAF",
+  "lead": {
+    "business": "Azure WAF",
+    "full_name": "Meetu Gupta",
+    "first": "Meetu",
+    "last": "Gupta",
+    "email": "",
+    "role": "founder",
+    "website": "https://fticonsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Ukraine",
+    "linkedin": "https://www.linkedin.com/in/meetu-gupta",
+    "company_linkedin": "https://www.linkedin.com/company/architectnow",
+    "source_url": "https://fticonsulting.com",
+    "description": "![](https://www.fticonsulting.com/.azwaf/jsc/tp/index.gif?azureRef=20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf) ### An unexpected error occured. 20260330T164059Z-r1c6b46f89d4kmsphC1LAS5nmw00000006k0000000004muf",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Ukraine",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

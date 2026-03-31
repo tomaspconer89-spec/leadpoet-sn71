@@ -1,0 +1,970 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:26:18.550712Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpz7i12clk/evidence/domain/cansulta.com.json","","2026-06-28T21:26:18.550714Z","startup advisory services founder contact","2026-03-30T21:25:48.167679Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-03-30T21:26:18.563800Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmpz7i12clk/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-28T21:26:18.563802Z","business consulting firm advisor email","2026-03-30T21:25:51.537860Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Embark is a financial consulting and advisory firm focused on optimizing finance, technology, HR, &amp; operations.","","https://embarkwithus.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Embark Financial Consulting and Advisory Firm","1","","","","","","https://www.linkedin.com/company/embarkwithus","","","","0.0","0.0009","0.0","0.0009","embarkwithus.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","a3679d0ab871da2eed90bf6461bd546787e8bafa8f6fe063b562abfb88b097d6","0.0","0.3","242b300f-6a23-5a3d-8d44-832e6de25103","","2026-03-30T21:26:18.576928Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/embarkwithus.com.json","/tmp/tmpz7i12clk/evidence/domain/embarkwithus.com.json","","2026-06-28T21:26:18.576930Z","business consulting firm advisor email","2026-03-30T21:25:52.184519Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:26:18.589829Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpz7i12clk/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:26:18.589831Z","business consulting firm advisor email","2026-03-30T21:25:53.121695Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:26:18.602884Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpz7i12clk/evidence/domain/vaam.io.json","","2026-06-28T21:26:18.602886Z","SaaS startup CEO contact information","2026-03-30T21:25:56.709434Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:26:18.615833Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpz7i12clk/evidence/domain/findemails.com.json","","2026-06-28T21:26:18.615835Z","SaaS startup CEO contact information","2026-03-30T21:25:57.648107Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://esalesclub.com/#content)
+[ ![ESL new logo](https://esalesclub.com/wp-content/uploads/2024/09/ESL-new-logo.png) ](https://esalesclub.com)
+  * Discover
+    * [Industry Email List](https://esalesclub.com/industry-email-list/)
+      * [Advertising Agencies Email List](https://esalesclub.com/advertising-agencies-email-list/)
+      * [Agriculture Industry Email List](https://esalesclub.com/industry-email-list/agriculture-industry-email-list/)
+      * [Automotive Industry Email List](https://esalesclub.com/automotive-industry-email-list/)
+      * [Aviation Industry Email List](https://esalesclub.com/industry-email-list/aviation-industry-email-list/)
+      * [Banking and Finance Industry Email List](https://esalesclub.com/industry-email-list/banking-and-finance-industry-email-list/)
+      * [Biotechnology Email List](https://esalesclub.com/industry-email-list/biotechnology-email-list/)
+      * [Beauty industry email list](https://esalesclub.com/industry-email-list/beauty-industry-email-list/)
+      * [Cannabis Dispensary Email List](https://esalesclub.com/cannabis-dispensary-email-list/)
+      * [Construction Industry Email List](https://esalesclub.com/construction-industry-email-list/)
+      * [Convenience Store Email List](https://esalesclub.com/convenience-store-email-list/)
+      * [Education Industry Email List](https://esalesclub.com/industry-email-list/education-industry-email-list/)
+      * [Facility Management Email List](https://esalesclub.com/industry-email-list/facility-management-email-list/)
+      * [Fleet Management Companies Email List](https://esalesclub.com/industry-email-list/fleet-management-companies-email-list/)
+      * [Food & Beverage Industry Email List](https://esalesclub.com/food-and-beverage-industry-email-list/)
+      * [Food Production Equipment List](https://esalesclub.com/food-production-equipment-list/)
+      * [Gems and Jewelry Email List](https://esalesclub.com/industry-email-list/gems-and-jewelry-email-list/)
+      * [Government Email List](https://esalesclub.com/industry-email-list/government-email-list/)
+      * [Hospitality Industry Email List](https://esalesclub.com/hospitality-industry-email-list/)
+      * [Insurance Industry Email List](https://esalesclub.com/insurance-industry-email-list/)
+      * [IT Industry Email List](https://esalesclub.com/industry-email-list/it-industry-email-list/)
+      * [Law Firms Email List](https://esalesclub.com/law-firms-email-list/)
+      * [Legal Services Industry Email List](https://esalesclub.com/industry-email-list/legal-services-industry-email-list/)
+      * [Manufacturing Industry Email List](https://esalesclub.com/industry-email-list/manufacturing-industry-email-list/)
+      * [Mining Industry Email List](https://esalesclub.com/industry-email-list/mining-industry-email-list/)
+      * [Oil & Gas Industry Email List](https://esalesclub.com/oil-and-gas-industry-email-list/)
+      * [Packaging Industry Email List](https://esalesclub.com/industry-email-list/packaging-industry-email-list/)
+      * [Pharmaceutical Industry Email List](https://esalesclub.com/healthcare-email-list/pharmaceutical-industry-email-list/)
+      * [Printing Industry Email List](https://esalesclub.com/printing-industry-email-list/)
+      * [Pubs Email List](https://esalesclub.com/industry-email-list/pubs-email-list/)
+      * [Real Estate Email List](https://esalesclub.com/real-estate-email-list/)
+        * [Commercial Real Estate Leads](https://esalesclub.com/industry-email-list/commercial-real-estate-leads/)
+      * [Restaurant Email List](https://esalesclub.com/industry-email-list/restaurant-email-list/)
+      * [Retail Industry Email List](https://esalesclub.com/retail-industry-email-list/)
+      * [Smoke Shops Email List](https://esalesclub.com/smoke-shops-email-list/)
+      * [Telecom Industry Email List](https://esalesclub.com/industry-email-list/telecom-industry-email-list/)
+      * [Transportation Industry Email List](https://esalesclub.com/industry-email-list/transportation-industry-email-list/)
+      * [Travel and Tourism Email List](https://esalesclub.com/industry-email-list/travel-and-tourism-email-list/)
+      * [Trucking Company Email List](https://esalesclub.com/trucking-company-email-list/)
+    * [Professionals Email List](https://esalesclub.com/professionals-mailing-list/)
+      * [Architects Email List](https://esalesclub.com/professionals-mailing-list/architects-email-list/)
+      * [Auto Dealer Email List](https://esalesclub.com/professionals-mailing-list/auto-dealer-email-list/)
+      * [Attorney Email List](https://esalesclub.com/attorney-email-list/)
+      * [Business Owners Email List](https://esalesclub.com/business-owners-email-list/)
+      * [Car Dealers Email List](https://esalesclub.com/car-dealers-email-list/)
+      * [Contractors Email List](https://esalesclub.com/professionals-mailing-list/contractors-email-list/)
+      * [CSR Contact List](https://esalesclub.com/professionals-mailing-list/csr-contact-list/)
+      * [Email List of Engineers](https://esalesclub.com/professionals-mailing-list/email-list-of-engineers/)
+      * [Founders Email List](https://esalesclub.com/professionals-mailing-list/founders-email-list/)
+      * [High Net Worth Individuals Email List](https://esalesclub.com/high-net-worth-individuals-email-list/)
+      * [HR Director Email List](https://esalesclub.com/professionals-mailing-list/hr-director-email-list/)
+      * [HR Email List](https://esalesclub.com/hr-email-list/)
+      * [Insurance Agent Email List](https://esalesclub.com/insurance-agent-email-list/)
+      * [Interior Designers Email List](https://esalesclub.com/interior-designers-email-list/)
+      * [IT Decision Makers Email List](https://esalesclub.com/professionals-mailing-list/it-decision-makers-email-list/)
+      * [Lawyers Mailing List](https://esalesclub.com/lawyers-mailing-list/)
+        * [Bankruptcy Lawyers Email List](https://esalesclub.com/lawyers-mailing-list/bankruptcy-lawyers-email-list/)
+        * [Criminal Lawyers Email List](https://esalesclub.com/lawyers-mailing-list/criminal-lawyers-email-list/)
+        * [Divorce Lawyers Email List](https://esalesclub.com/lawyers-mailing-list/divorce-lawyers-email-list/)
+        * [Personal Injury Lawyers Email List](https://esalesclub.com/personal-injury-lawyers-email-list/)
+      * [Librarian Email List](https://esalesclub.com/professionals-mailing-list/librarian-email-list/)
+      * [Mortgage Broker Email List](https://esalesclub.com/mortgage-brokers-email-list/)
+      * [Principals Email List](https://esalesclub.com/professionals-mailing-list/principals-email-list/)
+      * [Property Managers Email List](https://esalesclub.com/professionals-mailing-list/property-manager-email-list/)
+      * [Real Estate Agents Email List](https://esalesclub.com/real-estate-agents-email-list/)
+      * [Realtor Email Addresses](https://esalesclub.com/professionals-mailing-list/realtor-email-addresses/)
+      * [Restaurant Owners Email List](https://esalesclub.com/professionals-mailing-list/restaurant-owners-email-list/)
+      * [Recruiters Email List](https://esalesclub.com/professionals-mailing-list/recruiters-email-list/)
+      * [Small Business Owners List](https://esalesclub.com/professionals-mailing-list/small-business-owners-list/)
+      * [Software Engineers Email List](https://esalesclub.com/professionals-mailing-list/software-engineers-email-list/)
+      * [Social worker Email List](https://esalesclub.com/professionals-mailing-list/social-worker-email-list/)
+      * [Teachers Email List](https://esalesclub.com/professionals-mailing-list/teachers-email-list/)
+      * [Travel Agents Email List](https://esalesclub.com/travel-agents-email-list/)
+    * [Healthcare Email List](https://esalesclub.com/healthcare-email-list/)
+      * [ADA Email List](https://esalesclub.com/healthcare-email-list/ada-email-list/)
+      * [Anesthesiologist Email List](https://esalesclub.com/healthcare-email-list/anesthesiologist-email-list/)
+      * [Cardiologist Email List](https://esalesclub.com/healthcare-email-list/cardiologist-email-list/)
+      * [Chiropractor Email List](https://esalesclub.com/healthcare-email-list/chiropractor-email-list/)
+      * [Dentist Email List](https://esalesclub.com/dentist-email-list/)
+      * [Doctors Email List](https://esalesclub.com/healthcare-email-list/doctors-email-list/)
+      * [Dermatologist Email List](https://esalesclub.com/healthcare-email-list/dermatologist-email-list/)
+      * [Email List of Vets](https://esalesclub.com/healthcare-email-list/email-list-of-vets/)
+      * [Endodontists Email List](https://esalesclub.com/healthcare-email-list/endodontists-email-list/)
+      * [Endocrinologist Email List](https://esalesclub.com/healthcare-email-list/endocrinologist-email-list/)
+      * [ENT Specialist Email List](https://esalesclub.com/healthcare-email-list/ent-specialist-email-list/)
+      * [Gastroenterologist Email List](https://esalesclub.com/healthcare-email-list/gastroenterologist-email-list/)
+      * [Healthcare Firms in US](https://esalesclub.com/healthcare-email-list/healthcare-firms-in-us/)
+      * [Health and Hospice Email List](https://esalesclub.com/healthcare-email-list/health-and-hospice-email-list/)
+      * [Hematologist Email List](https://esalesclub.com/healthcare-email-list/hematologist-email-list/)
+      * [Hospital CEO Email List](https://esalesclub.com/hospital-ceo-email-list/)
+      * [Hospitals Email List](https://esalesclub.com/healthcare-email-list/hospital-email-list/)
+      * [Hospital Procurement Email List](https://esalesclub.com/healthcare-email-list/hospital-procurement-email-list/)
+      * [Medical Device Manufacturers Email List](https://esalesclub.com/healthcare-email-list/medical-device-manufacturers-email-list/)
+      * [Medical Device Distributors Mailing List](https://esalesclub.com/healthcare-email-list/medical-device-distributors-mailing-list/)
+      * [Med Spa Email List](https://esalesclub.com/med-spa-email-list/)
+      * [Neurologist Email List](https://esalesclub.com/healthcare-email-list/neurologist-email-list/)
+      * [Nurses Email List](https://esalesclub.com/nurses-email-list/)
+      * [Nurse Practitioners Email List](https://esalesclub.com/healthcare-email-list/nurse-practitioners-email-list/)
+      * [Oncologist Email List](https://esalesclub.com/healthcare-email-list/oncologist-email-list/)
+      * [Optometrist Email List](https://esalesclub.com/healthcare-email-list/optometrist-email-list/)
+      * [Oral Surgeons Email List](https://esalesclub.com/healthcare-email-list/oral-surgeons-email-list/)
+      * [Orthodontist Email List](https://esalesclub.com/healthcare-email-list/orthodontist-email-list/)
+      * [Pathologists Email List](https://esalesclub.com/healthcare-email-list/pathologists-email-list/)
+      * [Psychiatrist Email List](https://esalesclub.com/healthcare-email-list/psychiatrist-email-list/)
+      * [Physicians Email List](https://esalesclub.com/physicians-email-list/)
+      * [Physical Therapist Email List](https://esalesclub.com/healthcare-email-list/physical-therapist-email-list/)
+      * [Procurement Email List](https://esalesclub.com/procurement-email-list/)
+      * [Pediatric Dentists Email List](https://esalesclub.com/healthcare-email-list/pediatric-dentists-email-list/)
+      * [Pediatrician Email List](https://esalesclub.com/healthcare-email-list/pediatrician-email-list/)
+      * [Pharmacist Email List](https://esalesclub.com/healthcare-email-list/pharmacist-email-list/)
+      * [Pharmaceutical Industry Email List](https://esalesclub.com/healthcare-email-list/pharmaceutical-industry-email-list/)
+      * [Podiatrist Email List](https://esalesclub.com/healthcare-email-list/podiatrist-email-list/)
+      * [Primary Care Physicians Email List](https://esalesclub.com/healthcare-email-list/primary-care-physicians-email-list/)
+      * [Radiologist Email List](https://esalesclub.com/radiologist-email-list/)
+      * [Registered Nurses Email List](https://esalesclub.com/healthcare-email-list/registered-nurses-email-list/)
+      * [Surgeons Email List](https://esalesclub.com/healthcare-email-list/surgeons-email-list/)
+      * [Therapist Email List](https://esalesclub.com/healthcare-email-list/therapist-email-list/)
+      * [Urgent Care Centers Email List](https://esalesclub.com/healthcare-email-list/urgent-care-centers-email-list/)
+      * [Urologist Email List](https://esalesclub.com/healthcare-email-list/urologist-email-list/)
+      * [Veterinarian Email List](https://esalesclub.com/healthcare-email-list/veterinarian-email-list/)
+    * [Technology Users Email List](https://esalesclub.com/technology-users-email-list/)
+      * [Amazon Sellers List](https://esalesclub.com/amazon-seller-list/)
+      * [Accounting Software Users Email List](https://esalesclub.com/accounting-software-users-email-list/)
+      * [ConnectWise Users Email List](https://esalesclub.com/technology-users-email-list/connectwise-users-email-list/)
+      * [Ebay Sellers Email List](https://esalesclub.com/ebay-sellers-list/)
+      * [ESRI Users Email List](https://esalesclub.com/technology-users-email-list/esri-users-email-list/)
+      * [Ecommerce Store Owners Email List](https://esalesclub.com/ecommerce-store-owners-list/)
+      * [HubSpot CRM Users List](https://esalesclub.com/hubspot-crm-users-email-list/)
+      * [Informatica Customers List](https://esalesclub.com/technology-users-email-list/informatica-customers-list/)
+      * [Monday Work Management Users List](https://esalesclub.com/technology-users-email-list/companies-that-use-monday-com/)
+      * [Quickbooks users email list](https://esalesclub.com/quickbooks-users-email-list/)
+      * [Sage Intacct Customers List](https://esalesclub.com/technology-users-email-list/sage-intacct-users-email-list/)
+      * [Salesforce Users Email List](https://esalesclub.com/salesforce-crm-users-email-list/)
+      * [ServiceNow Email List](https://esalesclub.com/technology-users-email-list/servicenow-customers-list/)
+      * [Shopify Store Owners List](https://esalesclub.com/shopify-store-owners-email-list/)
+    * [C-Level Executives Email List](https://esalesclub.com/c-level-executives-email-list/)
+      * [CEO Email List](https://esalesclub.com/ceo-email-list/)
+      * [CFO Email List](https://esalesclub.com/cfo-email-list/)
+      * [CHRO Email List](https://esalesclub.com/c-level-executives-email-list/chro-email-list/)
+      * [CIO Email List](https://esalesclub.com/c-level-executives-email-list/cio-email-list/)
+      * [CMO Email List](https://esalesclub.com/c-level-executives-email-list/cmo-email-list/)
+      * [CNO Email List](https://esalesclub.com/c-level-executives-email-list/cno-email-list/)
+      * [CPA Email List](https://esalesclub.com/c-level-executives-email-list/cpa-email-list/)
+      * [CSO Email List](https://esalesclub.com/c-level-executives-email-list/cso-email-list/)
+      * [CTO Email List](https://esalesclub.com/c-level-executives-email-list/cto-email-list/)
+      * [CXO Email List](https://esalesclub.com/c-level-executives-email-list/cxo-email-list/)
+      * [Chief Data Officer Email List](https://esalesclub.com/c-level-executives-email-list/chief-data-officer-email-list/)
+      * [Marketing Directors Email List](https://esalesclub.com/marketing-directors-email-list/)
+    * [Investors Email List](https://esalesclub.com/investors-email-list/)
+      * [Angel Investor Email List](https://esalesclub.com/investors-email-list/angel-investor-email-list/)
+      * [Billionaire Email List](https://esalesclub.com/billionaire-email-list/)
+      * [Family Office Email List](https://esalesclub.com/investors-email-list/family-office-email-list/)
+      * [Financial Advisor Email List](https://esalesclub.com/professionals-mailing-list/financial-advisor-email-list/)
+      * [Hedge fund email list](https://esalesclub.com/investors-email-list/hedge-fund-email-list/)
+      * [Investment Advisors email list](https://esalesclub.com/professionals-mailing-list/investment-advisors-email-list/)
+      * [List of Pre-Seed Investors](https://esalesclub.com/investors-email-list/list-of-pre-seed-investors/)
+      * [Private Equity Firms Database](https://esalesclub.com/investors-email-list/private-equity-firms-database/)
+      * [Real Estate Investor email list](https://esalesclub.com/investors-email-list/real-estate-investor-email-list/)
+      * [Venture Capital Email List](https://esalesclub.com/investors-email-list/venture-capital-email-list/)
+    * Geo Data
+      * [USA Email List](https://esalesclub.com/usa-email-list/)
+        * [America Email List](https://esalesclub.com/america-email-list/)
+      * [UK Email List](https://esalesclub.com/uk-email-list/)
+        * [London Email List](https://esalesclub.com/london-email-list/)
+      * [Canada Email List](https://esalesclub.com/canada-email-list/)
+      * [Australia Email List](https://esalesclub.com/australia-email-list/)
+      * [Europe Email List](https://esalesclub.com/europe-business-email-database/)
+        * [Denmark Email List](https://esalesclub.com/denmark-email-list/)
+        * [France Business Email List](https://esalesclub.com/france-business-email-list/)
+        * [Germany Business Email List](https://esalesclub.com/germany-business-email-list/)
+        * [Ireland Email List](https://esalesclub.com/ireland-business-email-list/)
+        * [Italy Business Email List](https://esalesclub.com/italy-business-email-list/)
+        * [Netherlands Email List](https://esalesclub.com/netherlands-email-list/)
+        * [Poland Business Email List](https://esalesclub.com/poland-business-email-list/)
+        * [Sweden Email List](https://esalesclub.com/sweden-email-list/)
+        * [Switzerland Business Email List](https://esalesclub.com/switzerland-email-list/)
+      * [Middle East Business Email List](https://esalesclub.com/middle-east-email-list/)
+        * [UAE Email List](https://esalesclub.com/uae-email-list/)
+      * [New Zealand Email List](https://esalesclub.com/new-zealand-email-list/)
+      * [Singapore Business Email List](https://esalesclub.com/singapore-business-email-list/)
+    * Others
+      * [AUM Contact List](https://esalesclub.com/aum-contact-list/)
+      * [Fortune 500 Companies Email List](https://esalesclub.com/fortune-500-companies-email-list/)
+      * [Franchise Email List](https://esalesclub.com/franchise-email-list/)
+  * [Data Cards](https://esalesclub.com/b2b-data-cards)
+  * [Resources](https://blog.esalesclub.com/)
+  * [About Us](https://esalesclub.com/about-us/)
+  * [Contact Us](https://esalesclub.com/contact-us/)
+
+
+[![eSalesClub](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20675%20226'%3E%3C/svg%3E)](https://esalesclub.com)X
+[ Request a Quote ](https://esalesclub.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE3NiIsInRvZ2dsZSI6ZmFsc2V9)
+# Unlock The Power Of B2B Sales Data For Enhancing Lead Generation
+Effective lead generation and sales development requires quality B2B Data. With eSalesClub B2B Database, discover your ideal customers, gain qualified leads, and enhance conversion rates.
+[ Request For Ideal Prospects ](https://esalesclub.com/contact-us/)
+200M+
+Contacts
+95%
+Data Accuracy
+100%
+Opt-In Contacts
+7+
+Years of Experience
+## Trusted By 5K+ Global Businesses
+![Canon](https://esalesclub.com/wp-content/uploads/2024/08/Canon.png)
+![Morneau Shepell](https://esalesclub.com/wp-content/uploads/2024/08/Morneau-Shepell.png)
+![Verizon](https://esalesclub.com/wp-content/uploads/2024/08/Verizon.png)
+![Siemens](https://esalesclub.com/wp-content/uploads/2024/08/Siemens.png)
+![SAS](https://esalesclub.com/wp-content/uploads/2024/08/SAS.png)
+![Samsung](https://esalesclub.com/wp-content/uploads/2024/08/Samsung.png)
+![RedHat](https://esalesclub.com/wp-content/uploads/2024/08/RedHat.png)
+![Abbott](https://esalesclub.com/wp-content/uploads/2024/09/Abbott.png)
+![AWS](https://esalesclub.com/wp-content/uploads/2024/09/AWS.png)
+![Freshworks](https://esalesclub.com/wp-content/uploads/20","","https://esalesclub.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","eSalesClub - Trusted B2B Database | Get Accurate B2B Data","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","esalesclub.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=5/18","0.6944","llm","heuristic_no_credit","3387a17304eeadc4f7870fcf3fded34d3f3a6a25b56f70ff2cccd85bafc30c75","0.0","0.3","81e43fd2-76dc-5482-86a8-4312f4069083","","2026-03-30T21:26:18.629342Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/esalesclub.com.json","/tmp/tmpz7i12clk/evidence/domain/esalesclub.com.json","","2026-06-28T21:26:18.629344Z","venture consulting firm partner email","2026-03-30T21:26:00.651040Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![Newsweek](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fcompany_logo%2F10976513%2Fimage%2Foriginal%2Fnewsweekl-46e8d219827c1468c3e2cadb6c715f4b.svg) Newsweek Ranks Toptal  Toptal Ranked [#1 Most Reliable Professional Services Company in America](https://rankings.newsweek.com/americas-most-reliable-companies-2026). 
+  * [Skip to Navigation](https://www.toptal.com/#nav)
+  * [Skip to Content](https://www.toptal.com/#main)
+  * [Skip to Footer](https://www.toptal.com/#footer)
+
+
+[![Toptal](https://assets.toptal.io/images?url=https%3A%2F%2Fwww.toptal.com%2Ftoptal-logo.png&width=360)](https://www.toptal.com/ "Toptal")
+[Hire Top Talent](https://www.toptal.com/hire)
+Hire Talent
+Developers
+[Full-stack Developers](https://www.toptal.com/developers/full-stack)[Front-end Developers](https://www.toptal.com/developers/front-end)[Software Developers](https://www.toptal.com/developers/software)[Web Developers](https://www.toptal.com/developers/web)[Mobile App Developers](https://www.toptal.com/developers/app)[AI Engineers](https://www.toptal.com/developers/artificial-intelligence)[Android Developers](https://www.toptal.com/developers/android)[AngularJS Developers](https://www.toptal.com/developers/angular-js)[Django Developers](https://www.toptal.com/developers/django)[Drupal Developers](https://www.toptal.com/developers/drupal)[Game Developers](https://www.toptal.com/developers/game)[Hadoop Developers](https://www.toptal.com/developers/hadoop)[iOS Developers](https://www.toptal.com/developers/ios)[Java Developers](https://www.toptal.com/developers/java)[JavaScript Developers](https://www.toptal.com/developers/javascript)[Kubernetes Developers](https://www.toptal.com/developers/kubernetes)[Magento Developers](https://www.toptal.com/developers/magento)[Node.js Developers](https://www.toptal.com/developers/nodejs)[PHP Developers](https://www.toptal.com/developers/php)[PostgreSQL Developers](https://www.toptal.com/developers/postgresql)[Python Developers](https://www.toptal.com/developers/python)[React.js Developers](https://www.toptal.com/developers/react)[Ruby on Rails Developers](https://www.toptal.com/developers/ruby-on-rails)[Salesforce Developers](https://www.toptal.com/developers/salesforce)[Scala Developers](https://www.toptal.com/developers/scala)[Unity Developers](https://www.toptal.com/developers/unity)[WordPress Developers](https://www.toptal.com/developers/wordpress)[See more skills](https://www.toptal.com/developers)
+Designers
+[UX Designers](https://www.toptal.com/designers/ux)[UI Designers](https://www.toptal.com/designers/ui)[Web Designers](https://www.toptal.com/designers/web)[Mobile App Designers](https://www.toptal.com/designers/mobile)[Graphic Designers](https://www.toptal.com/designers/graphic)[Brand Designers](https://www.toptal.com/designers/brand)[UX Strategists](https://www.toptal.com/designers/ux-strategist)[3D Animators](https://www.toptal.com/designers/3d-animators)[Adobe After Effects Designers](https://www.toptal.com/designers/after-effects)[Adobe Illustrator Experts](https://www.toptal.com/designers/adobe-illustrator)[Creative Directors](https://www.toptal.com/designers/creative-direction)[Data Visualization Designers](https://www.toptal.com/designers/data-visualization)[E-commerce Designers](https://www.toptal.com/designers/e-commerce)[Illustrators](https://www.toptal.com/designers/illustration)[Landing Page Designers](https://www.toptal.com/designers/landing-page)[Logo Designers](https://www.toptal.com/designers/logo)[Mobile UX Designers](https://www.toptal.com/designers/mobile-ux)[Photoshop Experts](https://www.toptal.com/designers/photoshop)[Presentation Designers](https://www.toptal.com/designers/presentation-design)[Product Designers](https://www.toptal.com/designers/product-design)[SaaS Designers](https://www.toptal.com/designers/saas)[Shopify Designers](https://www.toptal.com/designers/shopify)[UX Researchers](https://www.toptal.com/designers/ux-research)[Webflow Designers](https://www.toptal.com/designers/webflow)[See more skills](https://www.toptal.com/designers)
+Marketing Experts
+[Fractional Chief Marketing Officers (CMOs)](https://www.toptal.com/marketing/fractional-cmos)[SEO Experts](https://www.toptal.com/marketing/seo)[Campaign Managers](https://www.toptal.com/marketing/campaign-managers)[Social Media Marketers](https://www.toptal.com/marketing/social-media)[Event Marketers](https://www.toptal.com/marketing/event)[Affiliate Marketers](https://www.toptal.com/marketing/affiliate)[B2B Marketing Strategists](https://www.toptal.com/marketing/b2b-strategists)[Brand Managers](https://www.toptal.com/marketing/brand-managers)[Community Managers](https://www.toptal.com/marketing/community-managers)[Content Managers](https://www.toptal.com/marketing/content-managers)[Copy Editors](https://www.toptal.com/marketing/copy-editors)[Copywriters](https://www.toptal.com/marketing/copywriters)[Digital Marketers](https://www.toptal.com/marketing/digital)[Email Marketers](https://www.toptal.com/marketing/email-marketing)[Facebook Ads Experts](https://www.toptal.com/marketing/facebook-ads)[Google Ads Experts](https://www.toptal.com/marketing/google-ads)[Google Search Console Experts](https://www.toptal.com/marketing/google-search-console)[Google Tag Manager (GTM) Experts](https://www.toptal.com/marketing/google-tag-manager)[Local SEO Experts](https://www.toptal.com/marketing/local-seo)[On-page SEO Experts](https://www.toptal.com/marketing/on-page-seo-optimization)[PPC Experts](https://www.toptal.com/marketing/ppc-advertising)[SEO Copywriters](https://www.toptal.com/marketing/seo-copywriters)[Social Media Content Creators](https://www.toptal.com/marketing/social-media-content-creators)[Social Media Managers](https://www.toptal.com/marketing/social-media-managers)[Writers](https://www.toptal.com/marketing/writers)[YouTube Marketers](https://www.toptal.com/marketing/youtube)[See more skills](https://www.toptal.com/marketing)
+Management Consultants
+[Finance Experts](https://www.toptal.com/management-consultants/finance)[Startup Funding Consultants](https://www.toptal.com/management-consultants/startup-funding-consultants)[Business Plan Writers](https://www.toptal.com/management-consultants/business-plan-writers)[Cash Flow Consultants](https://www.toptal.com/management-consultants/cash-flow-consultants)[CFO Consultants](https://www.toptal.com/management-consultants/cfo-consultants)[Corporate Finance Consultants](https://www.toptal.com/management-consultants/corporate-finance-consultants)[Crowdfunding Consultants](https://www.toptal.com/management-consultants/crowdfunding-consultants)[Excel Experts](https://www.toptal.com/management-consultants/excel-experts)[Financial Forecasting Consultants](https://www.toptal.com/management-consultants/financial-forecasting)[Financial Modelers](https://www.toptal.com/management-consultants/financial-modelers)[Fintech Consultants](https://www.toptal.com/management-consultants/fintech)[FP&A Consultants](https://www.toptal.com/management-consultants/financial-planning-and-analysis)[Fractional CFOs](https://www.toptal.com/management-consultants/fractional-cfo)[Fractional COOs](https://www.toptal.com/management-consultants/fractional-coo)[Fundraising Consultants](https://www.toptal.com/management-consultants/fundraising)[Hedge Fund Consultants](https://www.toptal.com/management-consultants/hedge-fund-consultants)[Interim CFOs](https://www.toptal.com/management-consultants/interim-cfos)[Investment Bankers](https://www.toptal.com/management-consultants/investment-bankers)[M&A Consultants](https://www.toptal.com/management-consultants/mergers-and-acquisitions)[Market Research Analysts](https://www.toptal.com/management-consultants/market-research-analysts)[Part-time CFOs](https://www.toptal.com/management-consultants/part-time-cfos)[Pitch Deck Consultants](https://www.toptal.com/management-consultants/pitch-deck-consultants)[Post-merger Integration Consultants](https://www.toptal.com/management-consultants/post-merger-integration)[Startup Consultants](https://www.toptal.com/management-consultants/startup-consultants)[Stock Market Experts](https://www.toptal.com/management-consultants/stock-market-experts)[Venture Capital Consultants](https://www.toptal.com/management-consultants/venture-capital-consultants)[Virtual CFOs](https://www.toptal.com/management-consultants/virtual-cfo)[See more skills](https://www.toptal.com/management-consultants)
+Project Managers
+[Web Project Managers](https://www.toptal.com/project-managers/web)[Mobile Project Managers](https://www.toptal.com/project-managers/mobile)[Solutions Architects](https://www.toptal.com/project-managers/solutions-architect)[Project Management Consultants](https://www.toptal.com/project-managers/project-management-consultant)[Agile Coaches](https://www.toptal.com/project-managers/agile-coaching)[Agile Consultants](https://www.toptal.com/project-managers/agile-consultants)[Asana Experts](https://www.toptal.com/project-managers/asana)[Digital Transformation Experts](https://www.toptal.com/project-managers/digital-transformation-experts)[E-commerce Project Managers](https://www.toptal.com/project-managers/ecommerce)[IT Professionals](https://www.toptal.com/project-managers/it-professionals)[ITIL Certified Service Delivery Managers](https://www.toptal.com/project-managers/itil-certified-service-delivery-manager)[Jira Experts](https://www.toptal.com/project-managers/jira)[Monday.com Experts](https://www.toptal.com/project-managers/monday)[PMP Project Managers](https://www.toptal.com/project-managers/pmp)[Process Design Consultants](https://www.toptal.com/project-managers/process-design-consultant)[Program Delivery Managers](https://www.toptal.com/project-managers/program-delivery-manager)[Scrum Project Managers](https://www.toptal.com/project-managers/scrum)[Wrike Project Managers](https://www.toptal.com/project-managers/wrike-pm)[See more skills](https://www.toptal.com/project-managers)
+Product Managers
+[Digital Product Managers](https://www.toptal.com/product-managers/digital)[App Product Managers](https://www.toptal.com/product-managers/app)[Business Analysts](https://www.toptal.com/product-managers/business-analyst)[Contract Product Managers](https://www.toptal.com/product-managers/contract)[Data Product Managers](https://www.toptal.com/product-managers/data)[E-commerce Product Managers](https://www.toptal.com/product-managers/ecommerce)[Finance Product Managers](https://www.toptal.com/product-managers/finance-product-managers)[Ideation Consultants](https://www.toptal.com/product-managers/ideation)[Interim CPOs](https://www.toptal.com/product-managers/interim-cpo)[IoT Product Managers](https://www.toptal.com/product-managers/iot)[Outsourced Product Management Professionals](https://www.toptal.com/product-managers/outsourced-product-management)[Product Consultants](https://www.toptal.com/product-managers/product-consultant)[Product Ideation Consultants](https://www.toptal.com/product-managers/product-ideation-consultants)[Product Management Consultants](https://www.toptal.com/product-managers/product-management-consultant)[Remote Product Managers](https://www.toptal.com/product-managers/remote)[Scrum Product Owner Contractors](https://www.toptal.com/product-managers/scrum-product-owner-contractor)[See more skills](https://www.toptal.com/product-managers)
+Sales Experts
+[Sales Consultants](https://www.toptal.com/sales/sales-consultants)[Sales Managers](https://www.toptal.com/sales/sales-managers)[Lead Generation Experts](https://www.toptal.com/sales/lead-generation-experts)[SDRs](https://www.toptal.com/sales/sales-development-representatives)[Account Managers](https://www.toptal.com/sales/account-managers)[BDRs](https://www.toptal.com/sales/business-development-representatives)[Business Development Managers](https://www.toptal.com/sales/business-development-managers)[ClickFunnels Experts](https://www.toptal.com/sales/clickfunnels)[Customer Success Managers](https://www.toptal.com/sales/customer-success-managers)[Sales Funnel Strategists](https://www.toptal.com/sales/sales-funnel)[Sales Reps](https://www.toptal.com/sales)[See more skills](https://www.toptal.com/sales)
+[Hire a Team](https://www.toptal.com/teams)
+Hire Talent
+Consulting & Services
+Technology Services
+[Artificial Intelligence](https://www.toptal.com/services/technology-services/artificial-intelligence)[Data Analytics](https://www.toptal.com/services/technology-services/data-analytics)[Cloud Services](https://www.toptal.com/services/technology-services/cloud-services)[Information Security](https://www.toptal.com/services/technology-services/information-security-services)[Apps and Integrations](https://www.toptal.com/services/technology-services/apps-and-integrations)[Custom Software Development](https://www.toptal.com/custom-software-development/)[See more services](https://www.toptal.com/services/technology-services)
+Marketing Agency
+[Digital Marketing](https://www.toptal.com/services/marketing-agency/digital-marketing)[Growth Marketing](https://www.toptal.com/services/marketing-agency/growth-marketing)[Marketing Strategy and Operations](https://www.toptal.com/services/marketing-agency/marketing-strategy-and-operations)[Brand Marketing](https://www.toptal.com/services/marketing-agency/brand-marketing)[Product Marketing](https://www.toptal.com/services/marketing-agency/product-marketing)[Creative and Content Marketing](https://www.toptal.com/services/marketing-agency/creative-and-content-marketing)[Sales and Revenue Operations](https://www.toptal.com/services/marketing-agency/sales-revenue-operations-services)[See more services](https://www.toptal.com/services/marketing-agency)
+Management Consulting
+[Strategy Consulting](https://www.toptal.com/services/management-consulting/strategy-consulting)[People Consulting](https://www.toptal.com/services/management-consulting/people-consulting)[Finance Consulting](https://www.toptal.com/services/management-consulting/finance-consulting)[Operations Consulting](https://www.toptal.com/services/management-consulting/operations-consulting)[See more services](https://www.toptal.com/services/management-consulting)
+Consulting & Services
+[Clients](https://www.toptal.com/clients)[Blog](https://www.toptal.com/blog)[About Us](https://www.toptal.com/about)
+  * Payroll Services
+Hiring Models
+* * *
+[Contractor Management](https://www.toptal.com/hireglobal/contractor-management-services)[Agent of Record](https://www.toptal.com/hireglobal/aor-services)[Virtual Employer of Record](https://www.toptal.com/hireglobal/v-eor-services)[Employer of Record](https://www.toptal.com/hireglobal/eor-services)
+Services
+* * *
+[Global payroll](https://www.toptal.com/hireglobal/global-payroll-services)[Local payroll](https://www.toptal.com/hireglobal/local-payroll)[Background checks](https://www.toptal.com/hireglobal/background-checks)
+  * [Hire Top Talent](https://www.toptal.com/hire)
+  * [Log In](https://www.toptal.com/users/login)
+
+
+I'm looking for
+TalentConsulting & Services
+# Hire the [Top 3%](https://www.toptal.com/top-3-percent) of  
+the World’s Talent™
+Toptal is an exclusive network of the top software developers, designers, marketing experts, management consultants, product managers, and project managers in the world. Top companies hire Toptal talent for their most important projects. 
+[Hire Top Talent](https://www.toptal.com/hire)
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10781529%2Ffile%2Foptimized%2FAndre%2520N.%2520Walker-9fa82d13dbbaf35b959a8a4c90741f53.png&width=1024)
+[![](https://assets.toptal.io/images?url=https%3A%2F%2Ffrontier-assets.toptal.com%2F8ca7a77d821627a5.png&width=360) Andre N. Walker **Verified Expert** ​in Marketing Previously at ![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10781528%2Ffile%2Foptimized%2FUber%2520Logo-775cd1590f9f7384ab6c0b50d66ff068.svg) ](https://www.toptal.com/marketing/resume/andre-n-walker)
+![Andre N. Walker](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10781529%2Ffile%2Foptimized%2FAndre%2520N.%2520Walker-9fa82d13dbbaf35b959a8a4c90741f53.png&width=360)
+[Andre N. Walker](https://www.toptal.com/marketing/resume/andre-n-walker)
+**Verified Expert** ​in Marketing
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10781528%2Ffile%2Foptimized%2FUber%2520Logo-775cd1590f9f7384ab6c0b50d66ff068.svg)
+![Erita Skendaj](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753808%2Ffile%2Foptimized%2FErita%2520Skendaj-90477e370eb6f0f0c44c4fc4a2cf923d.png&width=360)
+[Erita Skendaj](https://www.toptal.com/project-managers/resume/erita-skendaj)
+**Verified Expert** ​in Project Management
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753811%2Ffile%2Foptimized%2FAWS-2e106cc6221309239db22e605eb6cb54.svg)
+![Cheryl Da Silva](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753777%2Ffile%2Foptimized%2FCheryl%2520Da%2520Silva-2af6a629cf243b6aae8352373995950b.png&width=360)
+[Cheryl Da Silva](https://www.toptal.com/marketing/resume/cheryl-da-silva)
+**Verified Expert** ​in Marketing
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753775%2Ffile%2Foptimized%2FGoogle-c9662d766df20dbc8ea25251680a97e5.svg)
+![Jonah Elbaz](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753859%2Ffile%2Foptimized%2FJonah%2520Elbaz-be3c2ab3d00e0b5a2328594bac179aab.png&width=360)
+[Jonah Elbaz](https://www.toptal.com/developers/resume/jonah-elbaz)
+**Verified Expert** ​in Engineering
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753857%2Ffile%2Foptimized%2FMeta-75682f29cf7f079351c52f0a9657bb6d.svg)
+![Adrian Gonzalez](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753805%2Ffile%2Foptimized%2FAdrian%2520Gonzalez-38ecbaad4a58997104f7336d98969c8c.png&width=360)
+[Adrian Gonzalez](https://www.toptal.com/product-managers/resume/adrian-gonzalez)
+**Verified Expert** ​in Product Management
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10753807%2Ffile%2Foptimized%2FMicrosoft-67b2d1e4d60230abee21dbead2a59977.svg)
+![Jakub Rehor](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10778348%2Ffile%2Foptimized%2FJakub%2520Rehor-57fa8d36201c5b17aa90c3166ffecc1b.png&width=360)
+[Jakub Rehor](https://www.toptal.com/management-consultants/resume/jakub-rehor)
+**Verified Expert** ​in Management Consulting
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10778350%2Ffile%2Foptimized%2Fmckinseycompany-9aa8769d01b9a943e567e3f47b395604.svg)
+![Danielle Thompson](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10767367%2Ffile%2Foptimized%2FDanielle%2520Thompson-799b595451eceaf1b6aeefd4c99a9afa.png&width=360)
+[Danielle Thompson](https://www.toptal.com/designers/resume/danielle-thompson)
+**Verified Expert** ​in Design
+Previously at
+![](https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fimage%2F10767369%2Ffile%2Foptimized%2FBlackboard__262D3D-947bd23ad0a95ff1db96a93bebed61de.svg)
+![Camila Perei","","https://toptal.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Toptal - Hire Talent from the Top 3%","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","toptal.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","3bb25447b3abaee2554adfc04a756b83fd8912100e19d57789bc394186f49e3d","0.0","0.3","c5f7f139-3a1c-539e-a939-bac4fd2708b9","","2026-03-30T21:26:18.643119Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/toptal.com.json","/tmp/tmpz7i12clk/evidence/domain/toptal.com.json","","2026-06-28T21:26:18.643121Z","venture consulting firm partner email","2026-03-30T21:26:01.610757Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip To Content](https://www.bvp.com/#page_top)
+[![Bessemer Venture Partners](https://www.bvp.com/assets/themes/bvp-24/img/clear.gif)](https://www.bvp.com/)
+Toggle menu
+  * [Team](https://www.bvp.com/team)
+  * [Companies](https://www.bvp.com/companies)
+  * Roadmaps
+Close Sub Nav
+    * [AI & ML](https://www.bvp.com/ai)
+    * [Biotech](https://www.bvp.com/companies?filter=portfolio-roadmap&value=biotech#portfolio)
+    * [Cloud](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+    * [Consumer](https://www.bvp.com/consumer)
+    * [Cybersecurity](https://www.bvp.com/cybersecurity)
+    * [Crypto](https://www.bvp.com/crypto-and-web3)
+    * [Data](https://www.bvp.com/data)
+    * [Deep tech & Defense](https://www.bvp.com/deep-tech-defense)
+    * [Developer](https://www.bvp.com/atlas?filter=roadmap&value=developer#filters)
+    * [Fintech](https://www.bvp.com/companies?filter=portfolio-roadmap&value=fintech#portfolio)
+    * [Healthcare](https://www.bvp.com/atlas?filter=roadmap&value=healthcare#filters)
+    * [Marketplaces](https://www.bvp.com/companies?filter=portfolio-roadmap&value=marketplaces#portfolio)
+    * [Vertical software](https://www.bvp.com/atlas?filter=roadmap&value=vertical-software#filters)
+  * [Seed](https://www.bvp.com/early-stage)
+  * Discover
+Close Sub Nav
+    * About
+    * [Philosophy](https://www.bvp.com/philosophy)
+    * [Memos](https://www.bvp.com/memos)
+    * [Anti-Portfolio](https://www.bvp.com/anti-portfolio)
+    * [Contact](https://www.bvp.com/contact)
+    * Insights
+    * [Atlas](https://www.bvp.com/atlas)
+    * [News](https://www.bvp.com/news)
+    * [Case studies](https://www.bvp.com/case-studies)
+    * [Heart of Healthcare](https://www.bvp.com/heart-of-healthcare)
+    * Resources
+    * [Cloud Index](https://cloudindex.bvp.com/)
+    * [STRIVE](https://www.bvp.com/strive)
+    * [Portfolio careers](https://jobs.bvp.com/jobs)
+    * [Subscribe](https://www.bvp.com/subscribe)
+    * Global
+    * [Europe](https://www.bvp.com/europe)
+    * [Israel](https://www.bvp.com/israel)
+    * [India](https://www.bvp.com/india)
+    * Funds
+    * [Flagship](https://www.bvp.com/news/expanding-opportunities-with-3-85-billion-for-early-stage-investments)
+    * [Growth](https://www.bvp.com/growth)
+    * [BVP Forge](https://www.bvp.com/forge)
+  * [Subscribe](https://www.bvp.com/subscribe)
+
+
+# Forge ahead.
+We partner with entrepreneurs from their early days through every stage of growth.
+## Explore Atlas.
+Read our investment roadmaps, benchmarks, and insights on how to build a company that lasts.
+[Discover](https://www.bvp.com/atlas)
+Venture insights that matter.
+Email (required): 
+Do not fill in (spam control): 
+[ ![Untitled 1600 X 900 Px 1](https://www.bvp.com/assets/themes/bvp-24/img/clear-16x9.gif) ](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)
+[AI & ML](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[AI Infrastructure Roadmap: Five frontiers for 2026](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)
+## Building the enduring.
+With 150+ IPOs / deSPACs and 420+ portfolio companies, we support entrepreneurs from their early days through every stage of growth.
+[See All Companies](https://www.bvp.com/companies)
+[![Logo of Anthropic](https://www.bvp.com/assets/uploads/2024/08/anthropic-480x280.png)](https://www.bvp.com/companies/anthropic)
+[AI & ML](https://www.bvp.com/ai)
+[![Waymo company logo in blue](https://www.bvp.com/assets/uploads/2026/01/portfolio-waymo-blue.png)](https://www.bvp.com/companies/waymo)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Canva](https://www.bvp.com/assets/uploads/2022/12/Canva-480x280.png)](https://www.bvp.com/companies/canva)
+[Consumer](https://www.bvp.com/consumer)
+[![ramp company logo in blue](https://www.bvp.com/assets/uploads/2025/11/portfolio-ramp-blue-480x280.png)](https://www.bvp.com/companies/ramp)
+[Fintech](https://www.bvp.com/companies?filter=portfolio-roadmap&value=fintech#portfolio)
+[![Logo of Shopify](https://www.bvp.com/assets/uploads/2022/12/Shopify-480x280.png)](https://www.bvp.com/companies/shopify)
+[Cloud](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+[![Logo of EliseAI](https://www.bvp.com/assets/uploads/2025/09/EliseAI-1-480x280.png)](https://www.bvp.com/companies/eliseai)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Legora](https://www.bvp.com/assets/uploads/2025/11/Legora-1-480x280.png)](https://www.bvp.com/companies/legora)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Abridge](https://www.bvp.com/assets/uploads/2022/12/Abridge-1-480x280.png)](https://www.bvp.com/companies/abridge)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Perplexity](https://www.bvp.com/assets/uploads/2022/12/Perplexity-480x280.png)](https://www.bvp.com/companies/perplexity)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of ServiceTitan](https://www.bvp.com/assets/uploads/2022/12/ServiceTitan-480x280.png)](https://www.bvp.com/companies/servicetitan)
+[Vertical software](https://www.bvp.com/companies?filter=portfolio-roadmap&value=vertical-software#portfolio)
+[![Logo of EvenUp](https://www.bvp.com/assets/uploads/2023/06/Evenup-1-480x280.png)](https://www.bvp.com/companies/evenup)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Twilio](https://www.bvp.com/assets/uploads/2022/12/Twilio-480x280.png)](https://www.bvp.com/companies/twilio)
+[Developer](https://www.bvp.com/companies?filter=portfolio-roadmap&value=developer#portfolio)
+[![Logo of Fal.ai](https://www.bvp.com/assets/uploads/2025/02/Fal-AI-1-480x280.png)](https://www.bvp.com/companies/fal-ai)
+[AI & ML](https://www.bvp.com/ai)
+[![Logo of Rocket Lab](https://www.bvp.com/assets/uploads/2022/12/rocketlab-480x280.png)](https://www.bvp.com/companies/rocket-lab)
+[Deep tech](https://www.bvp.com/deep-tech)
+[![Logo of Toast](https://www.bvp.com/assets/uploads/2022/12/toast-480x280.png)](https://www.bvp.com/companies/toast)
+[Vertical software](https://www.bvp.com/companies?filter=portfolio-roadmap&value=vertical-software#portfolio)
+[![Logo of Pinterest](https://www.bvp.com/assets/uploads/2022/12/Pinterest-480x280.png)](https://www.bvp.com/companies/pinterest)
+[Consumer](https://www.bvp.com/consumer)
+[![Logo of LinkedIn](https://www.bvp.com/assets/uploads/2022/12/Linkedin-480x280.png)](https://www.bvp.com/companies/linkedin)
+[Consumer](https://www.bvp.com/consumer)
+[![Logo of Procore](https://www.bvp.com/assets/uploads/2022/12/procore-480x280.png)](https://www.bvp.com/companies/procore)
+[Vertical software](https://www.bvp.com/companies?filter=portfolio-roadmap&value=vertical-software#portfolio)
+## Roadmaps
+Explore our investment roadmaps, fueled by our curiosity to understand the changing world around us.
+  * [AI & ML](https://www.bvp.com/#section-3-roadmap-194)
+  * [Biotech](https://www.bvp.com/#section-3-roadmap-195)
+  * [Cloud](https://www.bvp.com/#section-3-roadmap-196)
+  * [Consumer](https://www.bvp.com/#section-3-roadmap-197)
+  * [Crypto](https://www.bvp.com/#section-3-roadmap-199)
+  * [Cybersecurity](https://www.bvp.com/#section-3-roadmap-198)
+  * [Data](https://www.bvp.com/#section-3-roadmap-295)
+  * [Deep tech](https://www.bvp.com/#section-3-roadmap-200)
+  * [Developer](https://www.bvp.com/#section-3-roadmap-201)
+  * [Fintech](https://www.bvp.com/#section-3-roadmap-202)
+  * [Healthcare](https://www.bvp.com/#section-3-roadmap-203)
+  * [Marketplaces](https://www.bvp.com/#section-3-roadmap-218)
+  * [Vertical software](https://www.bvp.com/#section-3-roadmap-204)
+
+
+### AI & ML
+Artificial intelligence is here. From new model architectures to specialized hardware with vast computing power to advanced machine learning techniques. There has never been a better time for small, ambitious teams to positively transform life as we know it. 
+[Explore AI & ML Roadmap](https://www.bvp.com/ai)
+[ ![Untitled 1600 X 900 Px 1](https://www.bvp.com/assets/uploads/2026/03/Untitled-1600-x-900-px-1.png) ](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026%09)
+[AI & ML](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[AI Infrastructure Roadmap: Five frontiers for 2026](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)
+[ ![Ada Feature Graphic Artwork](https://www.bvp.com/assets/uploads/2026/03/Ada-feature-graphic-artwork.png) ](https://www.bvp.com/atlas/ada-architecting-fanatical-cx-loops-that-power-ai-agents%09)
+[AI & ML](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[Ada: Architecting fanatical CX loops that power AI agents](https://www.bvp.com/atlas/ada-architecting-fanatical-cx-loops-that-power-ai-agents)
+[ ![ATLAS Securing AI Agents V2 ATLAS Securing AI Agents 3  Compressed](https://www.bvp.com/assets/uploads/2026/03/ATLAS_Securing-AI-agents_V2_ATLAS_Securing-AI-Agents-3_1600x900_compressed-1600x900.png) ](https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026%09)
+[AI & ML](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[Securing AI agents: the defining cybersecurity challenge of 2026](https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026)
+### Biotech
+Advances in biology and medicine over the last decade have given us some of the most transformative medicines to date. The greatest entrepreneurial opportunities live across the clinical trials value chain and an emerging class of startups now has the opportunity to revamp clinical trials as digitization becomes an urgent priority within the pharmaceutical industry.
+[Explore Biotech Roadmap](https://www.bvp.com/atlas?filter=roadmap&value=biotech#filters)
+[ ![Healthcare AI Adoption new image with stethoscope](https://www.bvp.com/assets/uploads/2025/04/ATLAS_Healthcare-AI-Adoption_new-min-1600x900.png) ](https://www.bvp.com/atlas/the-healthcare-ai-adoption-index%09)
+[Biotech](https://www.bvp.com/atlas?filter=roadmap&value=biotech#filters)
+[The Healthcare AI Adoption Index](https://www.bvp.com/atlas/the-healthcare-ai-adoption-index)
+[ ![boxes and cloud on geometric pattern](https://www.bvp.com/assets/uploads/2023/12/six-imperatives-of-ai-first-healthcare-companies-atlas-image.jpg) ](https://www.bvp.com/atlas/six-imperatives-for-ai-first-companies%09)
+[Biotech](https://www.bvp.com/atlas?filter=roadmap&value=biotech#filters)
+[Six imperatives for AI-first companies](https://www.bvp.com/atlas/six-imperatives-for-ai-first-companies)
+[ ![astronaut satellite, sea, mountains and globe on geometric pattern](https://www.bvp.com/assets/uploads/2023/06/atlas-deep-tech-min.jpg) ](https://www.bvp.com/atlas/state-of-deep-tech%09)
+[Biotech](https://www.bvp.com/atlas?filter=roadmap&value=biotech#filters)
+[State of Deep Tech](https://www.bvp.com/atlas/state-of-deep-tech)
+### Cloud
+We have one of the largest cloud portfolios in venture capital, and for the past two decades we’ve invested in the emerging technology, business models, and founders of the cloud that have gone on to revolutionize both horizontal and vertical industries. Check out our [Cloud Index](https://cloudindex.bvp.com/), [Cloud 100](https://www.bvp.com/cloud100), and [Scaling to $100M](https://www.bvp.com/atlas/scaling-to-100-million-ramping-your-cloud-gtm-engine?from=feature).
+[Explore Cloud Roadmap](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+[ ![AI is rewriting the rules](https://www.bvp.com/assets/uploads/2025/11/Byron-Forbes-byline_graphic_AI-is-rewriting-the-rules-min.png) ](https://www.bvp.com/atlas/cloud-built-the-foundation-ai-is-now-rewriting-the-rules%09)
+[Cloud](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+[Cloud built the foundation. AI is now rewriting the rules.](https://www.bvp.com/atlas/cloud-built-the-foundation-ai-is-now-rewriting-the-rules)
+[ ![AI upskilling guide part 2](https://www.bvp.com/assets/uploads/2025/11/AI-upskilling-guide-part-2-atlas-graphic-min.png) ](https://www.bvp.com/atlas/from-tasks-to-systems-a-practical-playbook-for-operationalizing-ai%09)
+[Cloud](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+[From tasks to systems: A practical playbook for operationalizing AI](https://www.bvp.com/atlas/from-tasks-to-systems-a-practical-playbook-for-operationalizing-ai)
+[ ![Scaling supernovas with fal, cursor, and anthropic graphic](https://www.bvp.com/assets/uploads/2025/11/Scaling-supernovas-graphic-artwork-4-min.png) ](https://www.bvp.com/atlas/scaling-an-ai-supernova-lessons-from-anthropic-cursor-and-fal%09)
+[Cloud](https://www.bvp.com/atlas?filter=roadmap&value=cloud#filters)
+[Scaling an AI Supernova: Lessons from Anthropic, Cursor, and fal](https://www.bvp.com/atlas/scaling-an-ai-supernova-lessons-from-anthropic-cursor-and-fal)
+### Consumer
+At Bessemer, we believe the future is built by creators, curators, community leaders, and co-owners. As commerce and communities transform on and off line, new distribution channels are emerging and our world is changing how we all connect, shop, and play. We back audacious founders, across internet marketplaces, gaming, creator tools, and more, enabling and empowering today’s hybrid reality.
+[Explore Consumer Roadmap](https://www.bvp.com/consumer)
+[ ![StubHub IPO main graphic](https://www.bvp.com/assets/uploads/2025/09/ATLAS_Stubhub-IPO-_-Campaign_V2-1-min-1600x900.png) ](https://www.bvp.com/atlas/stubhubs-ipo-25-years-in-the-making%09)
+[Consumer](https://www.bvp.com/atlas?filter=roadmap&value=consumer#filters)
+[StubHub’s IPO — 25 years in the making](https://www.bvp.com/atlas/stubhubs-ipo-25-years-in-the-making)
+[ ![consumer landscape in india](https://www.bvp.com/assets/uploads/2025/06/India-Consumer_Banner-1600-x-900-min-1600x900.png) ](https://www.bvp.com/atlas/click-watch-shop-the-consumer-opportunity-in-india%09)
+[Consumer](https://www.bvp.com/atlas?filter=roadmap&value=consumer#filters)
+[Click, watch, shop: The consumer opportunity in India](https://www.bvp.com/atlas/click-watch-shop-the-consumer-opportunity-in-india)
+[ ![Consumer AI tipping point](https://www.bvp.com/assets/uploads/2025/03/Atlas_Consumer-Prediction_final-min-1600x900.png) ](https://www.bvp.com/atlas/consumer-ais-tipping-point%09)
+[Consumer](https://www.bvp.com/atlas?filter=roadmap&value=consumer#filters)
+[Consumer AI's tipping point](https://www.bvp.com/atlas/consumer-ais-tipping-point)
+### Crypto
+We’re now in the early innings of the next shift: a new iteration and ecosystem of the web built on blockchain technology with several decades of transformation ahead of it. With [$250 million in dedicated funding](https://www.bvp.com/news/forging-the-decentralized-future-bessemer-s-commitment-to-web3), we’re excited to invest and support the audacious founders and teams building the decentralized future with a focus on consumer applications, DeFi, web3 infrastructure, and enabling technology
+[Explore Crypto Roadmap](https://www.bvp.com/crypto-and-web3)
+[ ![chain link with fingers touching](https://www.bvp.com/assets/uploads/2023/02/atlas-illustration-zero-knowledge-proof_banner-min.jpg) ](https://www.bvp.com/atlas/are-zero-knowledge-proofs-zkps-the-future-of-blockchain%09)
+[Crypto](https://www.bvp.com/atlas?filter=roadmap&value=crypto#filters)
+[Are zero-knowledge proofs (ZKPs) the future of blockchain?](https://www.bvp.com/atlas/are-zero-knowledge-proofs-zkps-the-future-of-blockchain)
+[ ![headshot of 3 men and company logos below](https://www.bvp.com/assets/uploads/2022/10/atlas-illustration-banner-desci-101-min.jpg) ](https://www.bvp.com/atlas/desci-101%09)
+[Crypto](https://www.bvp.com/atlas?filter=roadmap&value=crypto#filters)
+[DeSci 101](https://www.bvp.com/atlas/desci-101)
+[ ![visualization of bar chart overlayed on a world map](https://www.bvp.com/assets/uploads/2022/06/atlas-antidote-to-cryptophobia-min.jpg) ](https://www.bvp.com/atlas/the-antidote-to-cryptophobia%09)
+[Crypto](https://www.bvp.com/atlas?filter=roadmap&value=crypto#filters)
+[The antidote to cryptophobia](https://www.bvp.com/atlas/the-antidote-to-cryptophobia)
+### Cybersecurity
+Cybersecurity is finally taking its rightful place at the center stage of the global business and geopolitical landscape. Just a few short years since data privacy regulations such as GDPR and CCPA came into play, the international community has seen some of the most high profile attacks make their mark in the media and the boardroom. The emergence of new categories, the quick pace of change, and CISOs’ increased willingness to purchase security from startups, makes it more feasible than ever for a tiny startup to scale into a new cyber giant.
+[Explore Cybersecurity Roadmap](https://www.bvp.com/cybersecurity)
+[ ![ATLAS Securing AI Agents V2 ATLAS Securing AI Agents 3  Compressed](https://www.bvp.com/assets/uploads/2026/03/ATLAS_Securing-AI-agents_V2_ATLAS_Securing-AI-Agents-3_1600x900_compressed-1600x900.png) ](https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026%09)
+[Cybersecurity](https://www.bvp.com/atlas?filter=roadmap&value=cybersecurity#filters)
+[Securing AI agents: the defining cybersecurity challenge of 2026](https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026)
+[ ![cybersecurity trends 2024 graphic image for atlas](https://www.bvp.com/assets/uploads/2024/05/cyber-security-trends-atlas-image-feature-1600-900.jpg) ](https://www.bvp.com/atlas/cybersecurity-trends-in-2024%09)
+[Cybersecurity](https://www.bvp.com/atlas?filter=roadmap&value=cybersecurity#filters)
+[Five top cybersecurity trends our investors are tracking](https://www.bvp.com/atlas/cybersecurity-trends-in-2024)
+[ ![Axonius 100M ARR Milestone](https://www.bvp.com/assets/uploads/2024/01/Atlas_Axonius_Banner-1600-x-900-min-2-1600x900.png) ](https://www.bvp.com/atlas/lessons-from-axonius-100-million-arr-and-beyond%09)
+[Cybersecurity](https://www.bvp.com/atlas?filter=roadmap&value=cybersecurity#filters)
+[Lessons from Axonius — $100 million ARR and beyond](https://www.bvp.com/atlas/lessons-from-axonius-100-million-arr-and-beyond)
+### Data
+The future of software will be shaped by the increasing accessibility and use of data. Emerging companies are revolutionizing the way data-driven teams and businesses access, transport, work with, analyze, and leverage the power of data. 
+[Explore Data Roadmap](https://www.bvp.com/data)
+[ ![Untitled 1600 X 900 Px 1](https://www.bvp.com/assets/uploads/2026/03/Untitled-1600-x-900-px-1.png) ](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026%09)
+[Data](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[AI Infrastructure Roadmap: Five frontiers for 2026](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)
+[ ![Recall Feature Graphic Artwork](https://www.bvp.com/assets/uploads/2026/03/Recall-feature-graphic-artwork.png) ](https://www.bvp.com/atlas/recall-ai-building-the-infrastructure-behind-ai-tools-and-products-for-video-conference-recording%09)
+[Data](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[Recall.ai: Building the infrastructure behind AI tools and products for video conference recording](https://www.bvp.com/atlas/recall-ai-building-the-infrastructure-behind-ai-tools-and-products-for-video-conference-recording)
+[ ![Data 3.0 in the Lakehouse era](https://www.bvp.com/assets/uploads/2025/03/Atlas_Data-3.0-roadmap_V1_Data-3.0-Roadmap-option-1-1-min-1600x900.png) ](https://www.bvp.com/atlas/roadmap-data-3-0-in-the-lakehouse-era%09)
+[Data](https://www.bvp.com/atlas?filter=roadmap&value=ai-ml#filters)
+[Roadmap: Data 3.0 in the Lakehouse Era](https://www.bvp.com/atlas/roadmap-data-3-0-in-the-lakehouse-era)
+### Deep tech
+Deep tech companies improve the human experience through novel scientific research and directed commercialization. At Bessemer, we see tremendous opportunity for startups to build billion-dollar businesses from deep tech that runs the gamut from self-driving cars to decarbonization to space colonization. Reflecting on a century of innovation, we know that the best deep tech teams can turn today’s science fiction into tomorrow’s reality.","","https://bvp.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - Bessemer Venture Partners","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","bvp.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","66c3f31cc8b2139f82b60e0ab4cdba8e2b4e003c1a9d6564d0e104b89c3794ee","0.0","0.3","58d0201f-ffd4-562e-a5ad-b2723e475504","","2026-03-30T21:26:27.146412Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bvp.com.json","/tmp/tmpz7i12clk/evidence/domain/bvp.com.json","","2026-06-28T21:26:27.146416Z","venture consulting firm partner email","2026-03-30T21:26:03.205488Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![Foundersbase Logo](https://us.foundersbase.com/assets/img/custom/logo/foundersbase-logo.svg) ](https://us.foundersbase.com/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+[ Founders ](https://us.foundersbase.com/members)
+[ Startups ](https://us.foundersbase.com/startups)
+[ Jobs ](https://us.foundersbase.com/jobs)
+  * ![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+
+
+![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+#  Your Startup Journey Begins Here.
+Whether you're looking for co-founders, investors, mentorship or want to join a startup, Foundersbase connects you with the people you need to make it happen!
+[ Join Now ](https://us.foundersbase.com/signup) [ Learn more ](https://us.foundersbase.com/#how-it-works)
+https://www.foundersbase.com/me/emily90 
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/home1.png)
+####  Networking for Entrepreneurs
+Finding the right co-founders and supporters is tough. Foundersbase connects me with people who share my vision and move things forward.
+![Image Description](https://us.foundersbase.com/assets/img/160x160/img3.jpg)
+#####  Raphael Alstom
+CPO @ Volko
+##  Find Co-Founders
+Connect with like-minded entrepreneurs to build your dream team and start your business.
+[](https://us.foundersbase.com/members)
+##  Join a Startup
+Discover exciting startup projects and join teams to bring innovative ideas to life.
+[](https://us.foundersbase.com/startups)
+##  Get Startup Support
+Find mentors, investors, and other startup supporters to help you grow your business.
+[](https://us.foundersbase.com/login)
+##  Let's co-found   
+startups together!
+The most important decision when building a startup company is who you're building it with. Here you'll find intrinsically motivated team members who go the extra mile and beyond.
+[ Join us today! ](https://us.foundersbase.com/jobs)
+##  Founders
+[](https://us.foundersbase.com/members)
+[ ![Sandra Bustos](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7132_1138627b-b59d-40e4-a547-a2df69cdaf86.jpg) Sandra Bustos building for real life pain points, love customers/users, and will things to happen. 
+  * AI & Machine Learning
+  * Cybersecurity & Data Protection
+
+
+* Mountain View ](https://us.foundersbase.com/me/sandrabuildingmeshly)
+[ ![Shannon Gray](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/9902_08754ec7-900c-4775-896a-cbc83e20e540.jpg) Shannon Gray HEALTHCARE LEADERSHIP | LICENSED NURSE | GROWTH FOCUSED | INNOVATIVE | STRATEGIST | CREATIVE | HEALTHCARE SALES
+  * Advertising & Marketing
+  * Architecture & Construction
+
+
+* Pittsburgh ](https://us.foundersbase.com/me/Shannongray1776)
+[ ![Bentley Linthicum](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/8894_9744be52-bb51-4d77-ac0d-691f229c65c7.jpg) Bentley Linthicum Founder building simple, affordable tech projects, exploring e-commerce, and learning by creating practical solutions for everyday use.
+  * AI & Machine Learning
+  * E-Commerce & Retail
+
+
+* Winfield ](https://us.foundersbase.com/me/bentleylinthicum)
+##  Startups
+[](https://us.foundersbase.com/startups)
+[ ![Clario](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/9745_ec17ca7f-1b7e-4a79-8f51-a32c1452aaff.jpg) Clario A pre-due-diligence platform that lets investment teams quickly decide what’s worth diligencing by s
+  * AI & Machine Learning
+  * Financial & Legal Services
+
+
+* Wayne ](https://us.foundersbase.com/startup/1136)
+[ ![Qvani Technologies](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8494_af6189ff-4756-4a19-931c-656ff426bcb2.jpg) Qvani Technologies Qvani is a P2P crypto exchange. We make crypto simple for the underbanked in Emerging Markets
+  * Blockchain & Cryptocurrency
+
+
+* New York City ](https://us.foundersbase.com/startup/994)
+[ ![Quantos Labs](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8388_cddc3ec1-d39a-470f-bdda-622469191084.jpg) Quantos Labs We offer a quantum L1 blockchain and super-app that helps users access fast Web3 solutions
+  * Blockchain & Cryptocurrency
+  * Fintech & Payments
+
+
+* San Francisco ](https://us.foundersbase.com/startup/980)
+##  Jobs
+[](https://us.foundersbase.com/jobs)
+[ ![Cofounder wanted for startup](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7222_d8562f71-c383-4cbb-8ca5-d3934e33c5f1.jpg) JOB Cofounder wanted for startup An app making events more enjoyable by connecting attendees. 
+  * Entertainment & Media
+
+
+* Rockville ](https://us.foundersbase.com/job/249)
+[ ![Growth Marketing Manager](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/4852_c336af92-aeca-4ca0-8f5e-2ad6c075d778.jpg) JOB Growth Marketing Manager Co-write your story with celebrity writers. 
+  * AI & Machine Learning
+  * Entertainment & Media
+
+
+* Orlando ](https://us.foundersbase.com/job/228)
+[ ![Chief Technology Officer](https://us.foundersbase.com/assets/img/custom/defaults/default-profile-startup.jpg) JOB Chief Technology Officer We offer for you to define your own business world, to make data smarter and more connected
+  * Big Data & Analytics
+
+
+* Dallas ](https://us.foundersbase.com/job/231)
+##  Connect with   
+investors and get funded.
+Simply upload a pitch deck and get matched with private investors, business angels and institutional funding partners that help your startup reach the next level.
+##  Find business angels and institutional funding partners now. 
+[ Upload your pitch deck  ](https://us.foundersbase.com/signup)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta6.png)
+  * 1,500+ private investors
+  * Targeted matching
+  * Personal connection
+  * Free of charge
+
+
+##  What is foundersbase?
+Foundersbase is a networking platform where startup founders connect with co-founders, entrepreneurial talent, and early supporters to build their ventures.   
+  
+Members from all over the world create profiles, showcase their startup projects, and engage in direct conversations to form a founding team, find advisors and investors, or recruit startup hires.   
+  
+Unlike broad networking sites, Foundersbase is specifically designed for founder's needs and uses advanced profile curation technology to ensure that every connection is relevant - whether you're looking for a tech co-founder, a marketing expert, or someone to invest early support in your idea.
+[ Join us today! ](https://us.foundersbase.com/signup)
+https://www.founderio.com/feed
+![Founder Community Activity Feed Screenshot](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+Our team
+##  Made By Entrepreneurs
+![Founder Kai](https://us.foundersbase.com/assets/img/custom/team/kai.jpeg)
+Co-Founder / CEO
+####  Kai Lindemann
+I'm the right person to speak to about strategic partnerships and platform development. Feel free to drop me a line if you see potential!
+  * [ ](https://www.linkedin.com/in/kailindemann/)
+
+
+[](https://us.foundersbase.com/me/kailindemann)
+![Founder Anna](https://us.foundersbase.com/assets/img/custom/team/anna_martin.jpg)
+Co-Founder / Marketing
+####  Anna Martin
+I'm making sure we attract the right entrpreneurs to join our community. If you've got ideas how to collaborate, let me know!
+  * [ ](https://www.linkedin.com/in/annamartin007)
+
+
+[](https://us.foundersbase.com/me/annamartin)
+Want to work with us?  [ Tell us how you can help  ](https://us.foundersbase.com/contact)
+Feedback
+##  What Members Say
+> " I'm impressed, you've really built something with the potential to bring entrepreneurial minds closer together. It feels a bit like a LinkedIn for founders. But in a good way. Keep up the good work! "
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/michael.jpg)
+Michael Thompson
+CEO @ FinFlow
+Subscribe To
+## Foundersbase Updates
+[ Enter email Subscribe ](https://ef7e9338.sibforms.com/serve/MUIFAJ7si0ANQDDeVBaPaD_MYpXV-zBp-KuKY3ppK-6ZaBjV21kC47HUhTIGNN20Ba10tLsP9KQ4QAVX7Jve_YF414dcGUovmYTYw8FZalkDVNG91o0PRaNzdmC3BBJiEitLJJ2jj44z4uFWw4Q-LWS--ER2SIlcjRkGP1J1KBUMmjGW61HEnT-PiQNzwbEisJkZl3iERyBHEbu_)
+##  Become part of a community where ideas meet execution.
+[ Get Started - It's Free ](https://us.foundersbase.com/login)
+© foundersbase.com 2026
+  * [Countries](https://us.foundersbase.com/countries)
+  * [Terms](https://us.foundersbase.com/terms)
+  * [Privacy](https://us.foundersbase.com/privacy)
+  * [Imprint](https://us.foundersbase.com/imprint)
+
+
+Add the Foundersbase App
+[ ](javascript:;)
+","","https://foundersbase.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","foundersbase.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","3d93c29ea84c9f43a5daf50440dadf96fcd25664f3e0b1b71a845018aae10835","0.0","0.3","febada62-6f88-5180-9bb2-4c9006dfb578","","2026-03-30T21:26:27.161571Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/foundersbase.com.json","/tmp/tmpz7i12clk/evidence/domain/foundersbase.com.json","","2026-06-28T21:26:27.161573Z","tech startup founder contact page","2026-03-30T21:26:08.685268Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# 403 Forbidden
+* * *
+nginx
+","","https://campaignlake.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","403 Forbidden","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","campaignlake.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","97710faeb455e9fd623102caf5c6ac98194ae7aa2c43924757f506f02a78b652","0.0","0.3","6d211241-5231-5bb0-917c-0eabe2c83183","","2026-03-30T21:26:27.174771Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/campaignlake.com.json","/tmp/tmpz7i12clk/evidence/domain/campaignlake.com.json","","2026-06-28T21:26:27.174773Z","management consulting firm director email","2026-03-30T21:26:11.721747Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:26:27.187762Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpz7i12clk/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:26:27.187764Z","management consulting firm director email","2026-03-30T21:26:14.209543Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![](https://dmwsprod.wpenginepowered.com/wp-content/uploads/2022/02/DM-logo-dark.png)](https://www.digitalmarketer.com)
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+[ ![](https://dmwsprod.wpenginepowered.com/wp-content/uploads/2022/02/DM-logo-dark.png)](https://www.digitalmarketer.com)
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+## Where AI Meets Real-World Marketing for Real-World Businesses
+## Plan smarter. Execute faster. Grow with AI-powered marketing systems built for real businesses like yours.
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## It’s fast, it’s free, and it could save you thousands in lost leads.
+Trusted by over 125,000  | worldwide
+## Why Your Funnel Isn’t Converting Like It Should
+## Most marketers are running traffic to broken funnels. Here’s where the leaks happen... and why most fixes don’t stick.
+###  You’re Guessing at the Strategy 
+Without a clear customer journey, your campaigns feel scattered and your conversions reflect it. 
+###  Your Messaging Doesn’t Hit 
+Most funnels focus on what you want to say, not what your customer needs to hear. That disconnect kills conversion. 
+###  You’re Losing the Sale Post-Click 
+Even if your ad works, your funnel isn’t optimized to convert clicks into actual sale and there’s no follow-up. 
+###  You Have No Retention or Follow-Up 
+Most funnels are built for first-time buyers only. If you’re not maximizing LTV, you’re leaving money on the table every month. 
+## Think you might be leaking leads at one (or all) of these stages?
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Marketing Systems That Just Make Sense
+## Three simple steps. One powerful result.
+## Step 1: Learn the Framework
+**We start with structure.**
+Inside Lab, you’ll get proven marketing frameworks (like our AI-Powered CVO Model) that show you exactly how to plan campaigns, build funnels, and connect the dots from awareness to sale.
+## No guesswork. No starting from scratch. Just plug into what works.
+![](https://www.digitalmarketer.com/)
+![](https://www.digitalmarketer.com/)
+## Step 2: Plug In AI Tools
+**With the strategy mapped out, it’s time to move fast.**
+We give you AI-powered prompts, automation workflows, and smart tools that help you create high-converting content, emails, and ads in record time.
+## AI isn’t the strategy, it’s your execution engine.
+## Step 3: Launch, Optimize, Repeat
+**Push go, track performance, and make it better every time.**
+Whether you’re refining your offer or scaling a funnel, Lab helps you iterate quickly and win faster, with community support when you need it.
+## Marketing becomes a system. Growth becomes inevitable.
+![](https://www.digitalmarketer.com/)
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Let AI show you exactly where your marketing is leaking leads and sales.
+## Meet the System That Helps You Fix It All, Fast
+## DigitalMarketer Lab gives you the tools, training, and AI-enhanced frameworks to fix what’s broken and scale what’s working.
+## What You Get Inside Lab...
+###  AI Frameworks 
+Plug-and-play marketing models enhanced by AI for every stage of your funnel. 
+###  Tactical Training 
+Learn from in-the-trenches experts (not influencers) with practical, direct-to-execution lessons. 
+###  Execution Support 
+Templates, prompts, and automation workflows that cut down build time and boost quality. 
+###  Community & Coaching 
+Get feedback, accountability, and answers from a network of marketers and certified partners. 
+![](https://www.digitalmarketer.com/)
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Real Marketers, Real Results
+Seriously, we have a massive ROI and we aren't the only ones.
+__ __ __ __ __
+"100%...It. Just. Works. Seriously, we have a massive ROI and we aren't the only ones. I talked to so many partners singing praises and dancing with the success they are having. Small, mid and large size agencies. It just works." —Pol C. 
+I want to express my gratitude for the work you’ve done...
+__ __ __ __ __
+"I want to express my gratitude for the work you’ve done, and I’m very excited to enjoy the satisfaction I can create in my career thanks to the education you provide." —John Greenhow 
+This is need-to-know information for business owners!
+__ __ __ __ __
+"This is need-to-know information for business owners! Plus after some successes you can help others with the process. Great program! Don’t walk…run!" —Lisa R. Middleton 
+I receive responses and answers within minutes...
+__ __ __ __ __
+"It’s a highly engaged group, anytime I have questions I receive responses and answers within minutes from multiple people." —Bill Pescosolido 
+My goodness this stuff REALLY works.
+__ __ __ __ __
+"I have already gotten a ton of signups and even one upgrade to a $100 product. LOL I love this stuff. Now, I will have to pretty it all up and start promoting it. I just sent it to my list. Thanks you AGAIN Ryan Deiss and the TEAM!" —Kathy Hadley 
+Thanks for helping me double my business… TWICE!
+__ __ __ __ __
+"Notice how most of the courses that teach you how to advertise with Facebook have only ever advertised courses that teach how you how to advertise Facebook? EXACTLY. DM Does this stuff just like we do and their team of experts are great teachers." —Graham English 
+## Meet the Experts Behind DigitalMarketer
+## Learn from the marketing minds trusted by top brands and thousands of entrepreneurs worldwide. 
+![Ryan Deiss](https://www.digitalmarketer.com/)
+#### Ryan Deiss
+Co-Founder & CEO, DigitalMarketer
+Bestselling author, serial entrepreneur, and creator of the “Customer Value Optimization” framework, Ryan is the marketing mind behind DigitalMarketer and the Traffic & Conversion Summit. He’s helped shape the strategies modern marketers now take for granted. 
+![Lauren Petrullo](https://www.digitalmarketer.com/)
+#### Lauren Petrullo
+Founder & CEO, Mongoose Media
+Lauren is an award-winning marketer and the founder of Mongoose Media, an Orlando-based agency. She also leads multiple ventures, including Asian Beauty Essentials, Beau & Belle Littles, and the chatbot brand Bot Blondes. 
+![Scott Cunningham](https://www.digitalmarketer.com/)
+#### Scott Cunningham
+Founder & CEO, Social Lite
+Scott is the founder of Social Lite, a Shopify Partner agency helping hundreds of ecommerce brands scale through Facebook Ads, Google Ads, email marketing, and CRO. He’s a trusted growth advisor to Shopify merchants around the world. 
+![Alex Cattoni](https://www.digitalmarketer.com/)
+#### Alex Cattoni
+Founder, Copy Posse
+Alex is a copywriter, speaker, and founder of the Copy Posse, a global community of marketers mastering authentic, high-converting messaging. She’s also the creator of the Copy Posse Launch Pad and co-host of the Flight Club Mastermind. 
+![Dave Albano](https://www.digitalmarketer.com/)
+#### Dave Albano
+Founder & CEO, Joza Marketing
+Dave is a digital marketing strategist and speaker known for his high-impact 2-Day Business Intensives and results-driven approach. At Joza, he helps businesses scale through automation, funnel optimization, and lead generation strategies that work. 
+![Mandy McEwen](https://www.digitalmarketer.com/)
+#### Mandy McEwen
+Founder & CEO, Mod Girl Marketing
+Mandy is a top-rated B2B marketer and the founder of Mod Girl Marketing, where she helps enterprise teams boost revenue through LinkedIn and email. She’s also a speaker, trainer, and recognized leader in social selling. 
+![Maxwell Finn](https://www.digitalmarketer.com/)
+#### Maxwell Finn
+Founder, Future Traffik
+Max is a serial entrepreneur and TikTok ads expert who’s helped thousands of marketers master paid traffic. He’s the founder of Future Traffik, co-founder of Quantum Media, and a pioneer in both Meta and TikTok advertising for brands like ClickFunnels, Onnit, and Snow. 
+![Heather Farris](https://www.digitalmarketer.com/)
+#### Heather Farris
+Founder & CEO, Heather Farris Co.
+Heather is a Pinterest marketing expert helping content creators and service providers drive traffic and sales through strategic Pinterest campaigns. She also teaches her methods via YouTube and a thriving membership community. 
+## Learn from Real Marketers Who Actually Do This Stuff
+[ Learn From the Best ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Why DigitalMarketer?
+## Not just another AI tool. Not just another guru course. We’re where smart marketers go to systemize growth... with AI-powered strategy, execution, and support.
+## What You Get with DigitalMarketer 
+  * AI-enhanced frameworks built by marketers, for marketers
+  * Tactical training from in-the-trenches experts
+  * A system you can plug into today and grow with tomorrow
+  * Community support + certified partner implementation
+  * Built for SMBs, agencies, coaches, and creators
+  * Clear customer journeys and action plans
+  * Proven results and thousands of success stories
+
+
+## What You’re Probably Used To
+  * One-size-fits-all templates with no strategy
+  * Generic theory from influencers who don't execute
+  * Disconnected hacks that don't scale
+  * "You're on your own" style course forums
+  * Tailored for enterprise or total beginners only
+  * Overwhelming tools with no guidance
+  * Big promises, little proof
+
+
+## Ready to Upgrade Your Marketing?
+[ Start Your $1 Trial of Lab ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Ready to Start Your Marketing Transformation?
+## Choose the path that fits your goals.
+## Get a Free AI Funnel Audit
+## Find the leaks in your funnel and fix them fast. Our free audit uses AI to pinpoint where you’re losing leads and shows you exactly how to turn it around.
+[ Get My Free Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Join DigitalMarketer Lab
+## Learn the strategies, tools, and systems used by real marketers. Access our complete library of AI-enhanced frameworks, plug-and-play templates, and on-demand trainings.
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Work with Us in Elite
+## Apply to work directly with our team inside ELITE, our premier program for business owners ready to grow fast with expert guidance and hands-on help.
+[ Apply for Elite ](https://www.digitalmarketer.com/lp/elite-growth-accelerator/)
+## Frequently Asked Questions
+## Got questions about DigitalMarketer? Start here.
+What is DigitalMarketer, exactly?
+DigitalMarketer is a training, tools, and community platform for marketers, entrepreneurs, and small business owners who want to scale with smarter systems and strategies… now enhanced by AI.
+Do I need to be a tech expert to use what you offer?
+Not at all. Our tools and training are built for real-world marketers and business owners. If you can write an email or run a Facebook ad, you’ll get value from day one.
+Who is DigitalMarketer for?
+We serve small business owners, marketers, coaches, consultants, agencies, and ecommerce brands. If you’re focused on growth and want to market smarter (not harder) you’re in the right place.
+How does the free AI Funnel Audit work?
+It’s simple: you answer a few quick questions, and our AI-powered system gives you a personalized report showing where leads are falling through the cracks, and how to fix it.
+What if I already use other AI tools?
+Perfect. Our tools and frameworks plug into whatever you’re already using. Think of DigitalMarketer as your AI-enhanced strategy and execution layer, not just another tool.
+Do you offer anything beyond self-paced training?
+Yes! In addition to on-demand tools and courses, we offer a high-touch mentorship and implementation program called Elite, where we work directly with business owners who want expert support to scale fast.
+##  Smarter Marketing Starts Here
+## Join 3,500+ marketers using Lab to fix what’s broken and scale what’s working. Start your $1 trial today and plug into the system built for real businesses.
+![](https://www.digitalmarketer.com/)
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## No contracts. Cancel anytime. 100% risk-free.
+## Join 250,000+ Marketers Getting Smarter Every Week
+## Subscribe for weekly insights, tools, and behind-the-scenes strategies to help you market smarter (with or without AI).
+Email 
+Subscribe!
+## No spam. Just smart, actionable ideas delivered straight to your inbox. 
+![](https://www.digitalmarketer.com/)
+## [About](https://www.digitalmarketer.com/about-us/)
+## [Blog](https://www.digitalmarketer.com/blog/)
+## [Contact](https://www.digitalmarketer.com/contact-us/)
+## [Privacy](https://www.digitalmarketer.com/privacy-policy/)
+## [Terms](https://www.digitalmarketer.com/terms-conditions/)
+[ ![](https://www.digitalmarketer.com/)](https://www.digitalmarketer.com/)
+© Copyright 2025 DigitalMarketer.   
+All Rights Reserved.
+[ ![](https://www.digitalmarketer.com/)](https://www.digitalmarketer.com/)
+Marketing Skills
+[Digital Advertising](https://www.digitalmarketer.com/digital-advertising/)  
+[Content Marketing](https://www.digitalmarketer.com/content-marketing-2/)  
+[Email Marketing](https://www.digitalmarketer.com/email-marketing/)  
+[Search Marketing](https://www.digitalmarketer.com/search-marketing/)  
+[Social Media Marketing](https://www.digitalmarketer.com/social-media-marketing/)  
+[Copywriting](https://www.digitalmarketer.com/copywriting/)  
+[Ecommerce Marketing](https://www.digitalmarketer.com/ecommerce-marketing/)  
+[Analytics & Data](https://www.digitalmarketer.com/analytics-data/)  
+[Community Management](https://www.digitalmarketer.com/community-management/)  
+[Optimization & Testing](https://www.digitalmarketer.com/optimization-testing/)
+Marketing Topics
+[Trends/News](https://www.digitalmarketer.com/trends-news/) [Traffic Generation](https://www.digitalmarketer.com/traffic-generation/) [List Building](https://www.digitalmarketer.com/list-building/) [Conversion Optimization](https://www.digitalmarketer.com/conversion-optimization-2/) [Increase Engagement](https://www.digitalmarketer.com/increase-engagement/) [Offer/Funnel Creation](https://www.digitalmarketer.com/offer-funnel-creation/) [Campaign Creation](https://www.digitalmarketer.com/campaign-creation/) [Marketing Automation](https://www.digitalmarketer.com/marketing-automation/) [Marketing Management](https://www.digitalmarketer.com/marketing-management/)
+[Channels](https://www.digitalmarketer.com/channels/)
+[Google](https://www.digitalmarketer.com/google/)  
+[Facebook](https://www.digitalmarketer.com/facebook/)  
+[Instagram](https://www.digitalmarketer.com/instagram/)  
+[YouTube](https://www.digitalmarketer.com/youtube/)  
+[Email](https://www.digitalmarketer.com/email/)  
+[LinkedIn](https://www.digitalmarketer.com/linkedin-posts/)  
+[Twitter](https://www.digitalmarketer.com/twitter/)  
+[Pinterest](https://www.digitalmarketer.com/pinterest-posts/)  
+[TikTok](https://www.digitalmarketer.com/tiktok/)  
+[Influencer/Affiliate](https://www.digitalmarketer.com/influencer-affiliate/)
+Customer Value Journey Stages
+[Awareness](https://www.digitalmarketer.com/awareness/)  
+[Engagement](https://www.digitalmarketer.com/engagement/)  
+[Subscription](https://www.digitalmarketer.com/subscribe/)  
+[Convert](https://www.digitalmarketer.com/convert/)  
+[Excite](https://www.digitalmarketer.com/excite/)  
+[Ascend](https://www.digitalmarketer.com/ascend/)  
+[Advocate](https://www.digitalmarketer.com/advocate/)  
+[Promote](https://www.digitalmarketer.com/promote/)
+[Agencies & Consultants](https://www.digitalmarketer.com/agencies-consultants/)
+[Become A Partner](https://www.digitalmarketer.com/partners/)  
+[Find a Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+Free Resources 
+[Newsletter](https://www.digitalmarketer.com/newsletter/)  
+[Blog](https://www.digitalmarketer.com/blog/)  
+[Podcast](https://www.digitalmarketer.com/podcast/)  
+[Case Studies](https://www.digitalmarketer.com/digital-marketing-case-studies)
+Products
+[DigitalMarketer Lab](https://www.digitalmarketer.com/lab/) ","","https://digitalmarketer.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AI Marketing Systems for Real Businesses | DigitalMarketer","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","digitalmarketer.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","3a7fdeef3785dc1a0d76f9db83a2897b200b3f10456d1ec491adbfc01e4640a5","0.0","0.3","96ba797f-6773-5b2e-95a5-4d93c3207a21","","2026-03-30T21:26:27.200992Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/digitalmarketer.com.json","/tmp/tmpz7i12clk/evidence/domain/digitalmarketer.com.json","","2026-06-28T21:26:27.200994Z","digital marketing agency founder contact","2026-03-30T21:26:18.530415Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

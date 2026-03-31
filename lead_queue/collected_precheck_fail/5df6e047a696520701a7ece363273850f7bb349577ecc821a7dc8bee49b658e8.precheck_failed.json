@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Insight Partners | We Scale Ambition at Every Stage",
+  "lead": {
+    "business": "Insight Partners | We Scale Ambition at Every Stage",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "https://insightpartners.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Palo Alto with",
+    "linkedin": "",
+    "company_linkedin": "https://il.linkedin.com/company/insight--partners?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+    "source_url": "https://insightpartners.com",
+    "description": "[ Go to home page main-logo main-logo ](https://www.insightpartners.com \"home\") * [Why Insight?](https://www.insightpartners.com/onsite/) * [Portfolio](https://www.insightpartners.com/portfolio/) * [Team](https://www.insightpartners.com/team/) * [Ideas](https://www.insightpartners.com/ideas/) * [Events](https://www.insightpartners.com/events/) * [Sectors](https://www.insightpartners.com/sectors/) [ Go Login ](https://go-scale.com/ \"Go Login\") main-logo-solid * [Why Insight?](https://www.insightpartners.com/onsite/) * [Portfolio](https://www.insightpartners.com/portfolio/) * [Team](https://www.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Palo Alto with",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

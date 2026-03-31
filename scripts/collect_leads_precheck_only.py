@@ -8,7 +8,9 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import copy
 import hashlib
+import importlib.util
 import json
 import os
 import sys
@@ -92,6 +94,23 @@ def _lead_domain(lead: dict) -> str:
     )
 
 
+def _linkedin_enrich_artifact_dir() -> Path:
+    raw = (os.environ.get("LINKEDIN_ENRICH_ARTIFACTS_DIR") or "").strip()
+    if raw:
+        p = Path(raw)
+        return p if p.is_absolute() else (_REPO / p)
+    return _REPO / "lead_queue" / "linkedin_enrich_artifacts"
+
+
+def _lead_field_diff(before: dict, after: dict) -> dict[str, dict]:
+    out: dict[str, dict] = {}
+    for k in sorted(set(before) | set(after)):
+        b, a = before.get(k), after.get(k)
+        if b != a:
+            out[k] = {"before": b, "after": a}
+    return out
+
+
 async def _run(
     num: int,
     industry: str | None,
@@ -121,10 +140,40 @@ async def _run(
         print(f"Dependency import failed: {e}")
         return 1
 
+    # Optional LinkedIn-first enrichment stage (Apify-first in convert_raw_to_pending.py).
+    # This stage can enrich linkedin/company_linkedin first, then derive other fields
+    # (name, role, location, email, website, employee_count, description) from evidence.
+    enrich_linkedin_fields = None
+    use_linkedin_enrichment = (
+        os.environ.get("USE_LINKEDIN_ENRICH_STAGE", "1").strip() != "0"
+    )
+    if use_linkedin_enrichment:
+        _conv = _REPO / "scripts" / "convert_raw_to_pending.py"
+        if _conv.is_file():
+            try:
+                _spec = importlib.util.spec_from_file_location("_crtp", _conv)
+                _mod = importlib.util.module_from_spec(_spec)
+                assert _spec.loader is not None
+                _spec.loader.exec_module(_mod)
+                enrich_linkedin_fields = getattr(_mod, "enrich_linkedin_fields", None)
+            except Exception:
+                enrich_linkedin_fields = None
+
     pass_dir = _REPO / "lead_queue" / "collected_pass"
     fail_dir = _REPO / "lead_queue" / "collected_precheck_fail"
     pass_dir.mkdir(parents=True, exist_ok=True)
     fail_dir.mkdir(parents=True, exist_ok=True)
+
+    save_linkedin_enrich_artifacts = (
+        enrich_linkedin_fields is not None
+        and os.environ.get("SAVE_LINKEDIN_ENRICH_ARTIFACTS", "1").strip() != "0"
+    )
+    enrich_artifact_dir = _linkedin_enrich_artifact_dir()
+    if save_linkedin_enrich_artifacts:
+        enrich_artifact_dir.mkdir(parents=True, exist_ok=True)
+        append_work_status(
+            f"collect_leads_precheck_only linkedin_enrich_artifacts_dir={enrich_artifact_dir}"
+        )
 
     ok_n = 0
     bad_n = 0
@@ -158,11 +207,45 @@ async def _run(
                 continue
             lead = dict(lead)
             normalize_legacy_lead_shape(lead)
+            enrich_debug: dict = {}
+            before_enrich = (
+                copy.deepcopy(lead) if save_linkedin_enrich_artifacts else None
+            )
+            if enrich_linkedin_fields is not None:
+                try:
+                    lead = enrich_linkedin_fields(
+                        dict(lead),
+                        enrich_debug=enrich_debug if save_linkedin_enrich_artifacts else None,
+                    )
+                except Exception:
+                    pass
             normalize_legacy_lead_shape(lead)
             apply_email_classification(lead)
 
             key = _queue_key(lead)
             business = lead.get("business", "?")
+
+            if save_linkedin_enrich_artifacts and before_enrich is not None:
+                art_path = enrich_artifact_dir / f"{key}.linkedin_enrich.json"
+                payload = {
+                    "saved_at_utc": datetime.now(timezone.utc).isoformat(),
+                    "queue_key": key,
+                    "business": business,
+                    "apify_enrichment": enrich_debug,
+                    "lead_before_enrichment": before_enrich,
+                    "lead_after_enrichment": copy.deepcopy(lead),
+                    "field_changes": _lead_field_diff(before_enrich, lead),
+                }
+                try:
+                    art_path.write_text(
+                        json.dumps(
+                            payload, ensure_ascii=True, indent=2, default=str
+                        ),
+                        encoding="utf-8",
+                    )
+                    print(f"  Saved LinkedIn enrich artifact -> {art_path.name}")
+                except OSError:
+                    pass
             out_ok = pass_dir / f"{key}.json"
             if out_ok.exists():
                 continue
@@ -191,7 +274,7 @@ async def _run(
                     lead["identity_conflict"] = True
                 if should_run_targeted_retry(reason):
                     lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
-                        lead, reason, enrich_linkedin=None
+                        lead, reason, enrich_linkedin=enrich_linkedin_fields
                     )
                 if retry_attempts > 0:
                     lead["retry_reason"] = reason
@@ -266,10 +349,17 @@ async def _run(
     )
     print(f"Pass dir: {pass_dir}")
     print(f"Fail dir: {fail_dir}")
+    if save_linkedin_enrich_artifacts:
+        print(f"LinkedIn (Apify) enrich artifacts: {enrich_artifact_dir}")
     append_work_status(
         "collect_leads_precheck_only DONE "
         f"new_pass={ok_n} new_fail={bad_n} "
         f"pass_dir={pass_dir} fail_dir={fail_dir}"
+        + (
+            f" linkedin_enrich_artifacts={enrich_artifact_dir}"
+            if save_linkedin_enrich_artifacts
+            else ""
+        )
     )
     return 0
 

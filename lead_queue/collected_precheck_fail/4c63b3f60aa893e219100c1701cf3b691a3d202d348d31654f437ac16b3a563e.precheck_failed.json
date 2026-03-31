@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Fintalent \u2013 The Fastest Way To Staff M&A Projects",
+  "lead": {
+    "business": "Fintalent \u2013 The Fastest Way To Staff M&A Projects",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Founder",
+    "website": "https://fintalent.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "https://uk.linkedin.com/company/fintalentio",
+    "source_url": "https://fintalent.com",
+    "description": "[Skip to content](https://fintalent.com/#content \"Skip to content\") [ ![Fintalent\u00ae](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20110'%3E%3C/svg%3E)](https://fintalent.com/) Menu [ ![Fintalent\u00ae](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20902%20110'%3E%3C/svg%3E)](https://fintalent.com/ \"Fintalent\u00ae\") Menu * [Services](https://fintalent.com/) * * * #### Solutions For * * #### Capabilities * * * #### Corporate Development Buy-side M&A project management, leadership, and support.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

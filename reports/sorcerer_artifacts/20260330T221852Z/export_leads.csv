@@ -1,0 +1,321 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","Turn to McKinley Advisors for insights, strategic guidance and support to address your association’s key opportunities and challenges.","","https://mckinley-advisors.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Leading Consulting Firm For Associations","1","","","","","","https://www.linkedin.com/company/mckinley-advisors","","","","0.0","0.0009","0.0","0.0009","mckinley-advisors.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","813aabc6a29d64dc7c9986392cc187c38de01d2bb10a62e75c2214923cbbcad6","0.0","0.3","f3d7e5a3-05b4-53ce-bfef-5deb469d8f3a","","2026-03-30T22:18:44.659443Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mckinley-advisors.com.json","/tmp/tmpli6qln5g/evidence/domain/mckinley-advisors.com.json","","2026-06-28T22:18:44.659446Z","business consulting firm advisor email","2026-03-30T22:18:19.279686Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T22:18:44.672831Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpli6qln5g/evidence/domain/maynardnexsen.com.json","","2026-06-28T22:18:44.672834Z","business consulting firm advisor email","2026-03-30T22:18:20.339671Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","At Weyrich, Cronin &amp; Sorra, we understand that there is much more to accounting than number crunching and tax preparation. Over the last 40 years, we’ve learned that the better we know our clients – who they are, what they do, and where they want to go – the better we can help them achieve their goals.","","https://wcscpa.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - WCS - Baltimore, Maryland Accountants and CPAs","1","","","","","","https://www.linkedin.com/company/294291","","","","0.0","0.0009","0.0","0.0009","wcscpa.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/16","0.9375","llm","heuristic_no_credit","d832259c226ff3c2e062975d4048b5432d290accb12baf2ce9a2328e1de06892","0.0","0.3","b5a06604-7690-5103-b411-c46ed08343e2","","2026-03-30T22:18:44.686004Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/wcscpa.com.json","/tmp/tmpli6qln5g/evidence/domain/wcscpa.com.json","","2026-06-28T22:18:44.686006Z","business consulting firm advisor email","2026-03-30T22:18:21.285687Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T22:18:44.699040Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpli6qln5g/evidence/domain/vaam.io.json","","2026-06-28T22:18:44.699042Z","SaaS startup CEO contact information","2026-03-30T22:18:24.624019Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T22:18:44.712223Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpli6qln5g/evidence/domain/findemails.com.json","","2026-06-28T22:18:44.712226Z","SaaS startup CEO contact information","2026-03-30T22:18:25.580305Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ Go to home page main-logo main-logo ](https://www.insightpartners.com "home")
+  * [Why Insight?](https://www.insightpartners.com/onsite/)
+  * [Portfolio](https://www.insightpartners.com/portfolio/)
+  * [Team](https://www.insightpartners.com/team/)
+  * [Ideas](https://www.insightpartners.com/ideas/)
+  * [Events](https://www.insightpartners.com/events/)
+  * [Sectors](https://www.insightpartners.com/sectors/)
+
+
+[ Go Login ](https://go-scale.com/ "Go Login")
+main-logo-solid
+  * [Why Insight?](https://www.insightpartners.com/onsite/)
+  * [Portfolio](https://www.insightpartners.com/portfolio/)
+  * [Team](https://www.insightpartners.com/team/)
+  * [Ideas](https://www.insightpartners.com/ideas/)
+  * [Events](https://www.insightpartners.com/events/)
+  * [Sectors](https://www.insightpartners.com/sectors/)
+
+
+[ Go Login ](https://go-scale.com/ "Go Login")
+[ twitter ](https://twitter.com/insightpartners "Twitter") [ linkedin ](https://www.linkedin.com/company/insight--partners "LinkedIn") [ instagram ](https://www.instagram.com/insightpartnersnyc/ "Instagram")
+©2026 Insight Partners
+# Scale Up,  
+Take Off
+# Scaling the future of AI.
+arrow-right Previous slide arrow-left Next slide
+close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/09/writer-full-tile-1.jpg)
+Series A
+The leading AI writing platform for teams 
+May Habib is challenging a $13B incumbent 
+Series A / ScaleUp:AI Partner SAN FRANCISCO, CA
+Read Full Article 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/wiz_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2022/03/divvy_pianokey_g-scaled.jpg)
+Series A Definitive Agreement
+From Series A to $32B Acquisition 
+A Landmark Journey 
+Series A / Series C / Acq. Agreement Palo Alto, California
+Read More 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/dotmatics_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/04/dotmatics_piano_56-scaled.jpg)
+Private Round Definitive Agreement
+Healthcare 
+Digital Innovation in Science 
+Private Round / Acq. Agreement Boston, MA
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/09/crewai_pianokey_tile3.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2025/09/crew-ai-full-tile-1.jpg)
+Series A
+CrewAI is a leading AI multi-agent platform 
+Behind the Investment: meet João Moura 
+Series A / ScaleUp:AI Partner New York, NY
+Read Full Article 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2025/05/monday_piano_33.png) close ![company background image](https://www.insightpartners.com/wp-content/uploads/2023/01/gradienta_monday.jpeg)
+Series B IPO
+Business Operations 
+Rebranding Monday.com  A New Channel Partner Program  From Growth to IPO 
+Series B / Series C / Series D / IPO Tel Aviv, Israel
+ScaleUp: monday.com 
+![company logo](https://www.insightpartners.com/wp-content/uploads/2022/03/piano_key_divvy54.png) close
+Series B Acquired
+Fintech 
+Transforming Corporate Expense Tracking  Scaling Operations  Acquisition by Bill.com 
+Series B / Series C / Series D / Acquired Draper, UT
+close
+Series A Series C
+Healthtech 
+First Mental Health Unicorn 
+Series A / Series B / Series C San Francisco, CA
+close
+Series C Acquired
+Driving Digital Innovation in the Circular Economy 
+Unifying Sales and Marketing  Expanding Through Strategic Acquisitions  Transitioning to a SaaS Model 
+Series C / Series D / Acquisition Limerick, Ireland
+close
+Series C Acquired
+Enterprise Architecture 
+Accelerating Sales Growth  Building the A-Team  Channel Partner Strategy 
+Series C / Series D / Acquisition Bonn, Germany
+close
+Series D IPO
+Cybersecurity 
+Autonomous Cybersecurity  Insight Onsite - Talent and Marketing  Scaling to IPO 
+Series D / Series E / Series F / IPO Mountain View, CA
+ScaleUp: SentinelOne 
+close
+Autonomous Cybersecurity
+SentinelOne delivers autonomous endpoint protection through a single agent that successfully prevents, detects, responds, and hunts attacks across all major vectors.
+In 2019 we led SentinelOne’s $120M Series D round.
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+close
+Insight Onsite - Talent and Marketing
+Our Onsite team helped accelerate SentinelOne’s meteoric growth through several deep engagements. Our Talent Center of Excellence helped the team add their CSO and participated in active CMO interview cycles, later working with their CMO to prepare for an IPO.
+Onsite’s Talent team sourced SentinelOne’s new VP of Demand Generation to further GTM growth. Prior to this hire, Insight Onsite’s Marketing advisors helped bridge the GTM gap by providing multi-layer support for SentinelOne’s Account-Based (ABX) programs.
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+close
+Scaling to IPO
+Since our initial investment in 2019, SentinelOne has become the defining XDR platform in the market. The company launched strategic products in Ranger IoT and acquired Scalyr which was then rebranded as DataSet – an enterprise data platform.
+In 2021 we were thrilled to help SentinelOne prepare for and celebrate their IPO: NYSE: S
+Sector  Cybersecurity 
+Market  B2B 
+Investment Team  Jeff Horing  Teddie Wardi  Thomas Krane 
+[ ScaleUp: SentinelOne ](https://www.insightpartners.com/ideas/scaleup-milestone-series-sentinelones-ipo/)
+1 / 
+1 / 
+##  We scale ambition at every stage 
+For over **30 years** , Insight Partners has helped leaders turn their vision into reality faster and more seamlessly than would be possible alone.
+As the trusted partner for more than 800 transformative companies, our deeply experienced software operators, and our flexible capital across every stage of growth, provides everything leaders need to fly faster and further.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+We know what it takes to scale, to be small, and to build an enduring business.
+This is why founders choose Insight as a long-term partner. Starting with product-market fit, we bring our operating excellence, our talent and customer networks and our capital to move companies from early to growth stage. We have the team, data and expertise to ensure founders lay the right foundation for accelerated success – and we can support your future capital needs at every stage of your scale up journey.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+We’ve chartered this course before and have the engine you need to truly take off.
+Tailor-made for companies at your stage and with deep expertise across every function of a software business, we fill your growth gaps to ensure you scale seamlessly. Our Onsite team of software experts, who’ve walked in your shoes, give you competitive advantage. We’re by your side as you outpace the competition and realize your company’s full growth potential.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+##  We scale ambition at every stage 
+Sophisticated and complex, your needs require nuanced support to drive impact.
+With the industry’s most experienced late-stage software experts, entrepreneurs and seasoned executive teams have a powerful partner in Insight Partners.
+[ Contact Us ](https://www.insightpartners.com/contact/)
+About Us  Early  Growth  Late Stage 
+Join our mailing list  ## [ Learn how to unlock your ScaleUp potential  ](https://www.insightpartners.com/#footer-subscribe-form)
+## Get our latest research and report
+Receive strategies, stories, analysis, invites and more straight to your inbox.
+Loading...
+## Thank You!
+The form was submitted successfully.
+  * [About Us](https://www.insightpartners.com/about-us/)
+    * [Contact Us](https://www.insightpartners.com/contact/)
+    * [Join Insight](https://www.insightpartners.com/join-insight/)
+  * [Media](https://www.insightpartners.com/about-us/media/)
+    * [Newsroom](https://www.insightpartners.com/ideas/search/?tax=idea_types&term=news,press)
+    * [LP Portal](https://insightpartners.altareturn.com/)
+  * [Portfolio Jobs](https://jobs.insightpartners.com/jobs)
+    * [For Enterprise](https://www.insightpartners.com/insight-partners-for-enterprise/)
+    * [Responsibility](https://www.insightpartners.com/responsibility/)
+
+
+[ twitter ](https://twitter.com/insightpartners "Twitter") [ linkedin ](https://www.linkedin.com/company/insight--partners "LinkedIn") [ instagram ](https://www.instagram.com/insightpartnersnyc/ "Instagram") footer-banner-logo
+*The portfolio companies and portfolio company executives presented are examples of portfolio companies that Insight has worked with to assist the company achieve business and capital raising goals and are not intended to be a representative sample of all portfolio companies. The statements by portfolio company executives are intended to highlight their experiences working with Insight as an investor in their companies. The experiences of other portfolio companies and portfolio company executives may differ from the experiences presented. Insight did not provide compensation to the portfolio company executives or portfolio companies in connection with the statements provided by such executives. There is no guarantee that Insight’s work with other portfolio companies will produce similar results to those presented.
+© 2026 Insight Partners / [ Terms of Use ](https://www.insightpartners.com/terms-of-use/ "Terms of Use") / [ Privacy Policy ](https://www.insightpartners.com/privacy-policy/ "Privacy Policy") / [ Legal Disclaimer ](https://www.insightpartners.com/legal-disclaimer/ "Legal Disclaimer") / [ Statement Disclaimer ](https://www.insightpartners.com/statement-disclaimer/ "Statement Disclaimer") / [ Regulatory Notices ](https://www.insightpartners.com/regulatory-notices/ "Regulatory Notices") / [ CCPA Notice ](https://www.insightpartners.com/ccpa-notice/ "CCPA Notice") / Cookie Settings
+footer-banner-logo
+","","https://insightpartners.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Insight Partners | We Scale Ambition at Every Stage","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","insightpartners.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","14bfd80f26193bd7a380f574e0ef2c71fcc30a31ed4d577d58d22cb9237bc13c","0.0","0.3","209d5c7d-0fa3-5523-a4b0-0f2860a93333","","2026-03-30T22:18:52.042959Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/insightpartners.com.json","/tmp/tmpli6qln5g/evidence/domain/insightpartners.com.json","","2026-06-28T22:18:52.042965Z","venture consulting firm partner email","2026-03-30T22:18:29.315322Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-30T22:18:52.059399Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmpli6qln5g/evidence/domain/bcg.com.json","","2026-06-28T22:18:52.059401Z","venture consulting firm partner email","2026-03-30T22:18:31.276361Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![Foundersbase Logo](https://us.foundersbase.com/assets/img/custom/logo/foundersbase-logo.svg) ](https://us.foundersbase.com/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+[ Founders ](https://us.foundersbase.com/members)
+[ Startups ](https://us.foundersbase.com/startups)
+[ Jobs ](https://us.foundersbase.com/jobs)
+  * ![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+
+
+![Country Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg)
+Select language
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/fr.svg) French ](https://us.foundersbase.com/switch?langNew=fr&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/english.svg) English ](https://us.foundersbase.com/switch?langNew=en&path=/)
+[ ![Flag](https://us.foundersbase.com/assets/node_stuff/flag-icon-css/flags/1x1/es.svg) Spanish ](https://us.foundersbase.com/switch?langNew=es&path=/)
+  * [ Login ](https://us.foundersbase.com/login)
+
+
+#  Your Startup Journey Begins Here.
+Whether you're looking for co-founders, investors, mentorship or want to join a startup, Foundersbase connects you with the people you need to make it happen!
+[ Join Now ](https://us.foundersbase.com/signup) [ Learn more ](https://us.foundersbase.com/#how-it-works)
+https://www.foundersbase.com/me/emily90 
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/home1.png)
+####  Networking for Entrepreneurs
+Finding the right co-founders and supporters is tough. Foundersbase connects me with people who share my vision and move things forward.
+![Image Description](https://us.foundersbase.com/assets/img/160x160/img3.jpg)
+#####  Raphael Alstom
+CPO @ Volko
+##  Find Co-Founders
+Connect with like-minded entrepreneurs to build your dream team and start your business.
+[](https://us.foundersbase.com/members)
+##  Join a Startup
+Discover exciting startup projects and join teams to bring innovative ideas to life.
+[](https://us.foundersbase.com/startups)
+##  Get Startup Support
+Find mentors, investors, and other startup supporters to help you grow your business.
+[](https://us.foundersbase.com/login)
+##  Let's co-found   
+startups together!
+The most important decision when building a startup company is who you're building it with. Here you'll find intrinsically motivated team members who go the extra mile and beyond.
+[ Join us today! ](https://us.foundersbase.com/jobs)
+##  Founders
+[](https://us.foundersbase.com/members)
+[ ![Usman Ayobami](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7657_94b50212-95de-4f69-af10-f0c78a82eb94.jpg) Usman Ayobami Software Engineer 
+  * AI & Machine Learning
+  * Software & SaaS
+
+
+* San Mateo ](https://us.foundersbase.com/me/ayobamiu)
+[ ![Ellen Hunt](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/7873_0726350f-bef0-4284-8334-69269dcddf55.jpg) Ellen Hunt Experienced business consultant supporting startups in healthcare, logistics, and professional services.
+  * Advertising & Marketing
+  * E-Commerce & Retail
+
+
+* East Florence ](https://us.foundersbase.com/me/EllenH)
+[ ![Debopriya Ghosh](https://foundersbase.s3-eu-central-1.amazonaws.com/userfiles/6720_7e6c708e-d1b8-44ab-88a4-dc3dac05b21b.jpg) Debopriya Ghosh Ghosh Laboratory, HydroNurture Venture, Astrocytes
+  * AI & Machine Learning
+  * Biotech & Pharmaceuticals
+
+
+* Virginia ](https://us.foundersbase.com/me/debopriya_1993)
+##  Startups
+[](https://us.foundersbase.com/startups)
+[ ![Lumea](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/8562_cd5b3b0d-af32-4acc-8396-a9a77c55f241.jpg) Lumea Lumea explains why your money behavior changes — clearly, calmly, without advice
+  * AI & Machine Learning
+  * Software & SaaS
+
+
+* Wilmington ](https://us.foundersbase.com/startup/1009)
+[ ![Sazan](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/6363_618d262d-bb74-466e-9d1b-9fcfdedb7adb.jpg) Sazan Sazan connects users with the best food promos, creating savings and social experiences.
+  * Food & Beverage
+  * Software & SaaS
+
+
+* Newark ](https://us.foundersbase.com/startup/674)
+[ ![Sentinel API Group](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7795_ad97b6fc-04e8-4468-aac2-d7ed8f7cc37a.jpg) Sentinel API Group We offer re-shoring of pharmaceutical ingredient manufacturing to help resupply the US stockpile
+  * Biotech & Pharmaceuticals
+  * Chemicals & Materials
+
+
+* Tampa ](https://us.foundersbase.com/startup/857)
+##  Jobs
+[](https://us.foundersbase.com/jobs)
+[ ![Technical CoFounder CTO](https://us.foundersbase.com/assets/img/custom/defaults/default-profile-startup.jpg) JOB Technical CoFounder CTO Building the first regulated futures exchange for AI compute to enable hedging and price discovery
+  * Blockchain & Cryptocurrency
+  * Financial & Legal Services
+
+
+* New York City ](https://us.foundersbase.com/job/240)
+[ ![CoFounder  Chief Technology Officer CTO](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7344_127b413e-2134-4d35-ad38-7db783b0d790.jpg) JOB CoFounder Chief Technology Officer CTO To offer the 1st verified, automated savings system that turns real profits into transparent growth.
+  * Blockchain & Cryptocurrency
+  * Fintech & Payments
+
+
+* Cambridge ](https://us.foundersbase.com/job/258)
+[ ![Enterprise Sales Rep Co Founder](https://foundersbase.s3-eu-central-1.amazonaws.com/startupimages/7394_187da305-e110-42ed-b071-4b400cb20316.jpg) JOB Enterprise Sales Rep Co Founder We offer a meeting memory platform that helps teams recall context, stay aligned, and act decisively
+  * Software & SaaS
+
+
+* Santa Rosa ](https://us.foundersbase.com/job/265)
+##  Connect with   
+investors and get funded.
+Simply upload a pitch deck and get matched with private investors, business angels and institutional funding partners that help your startup reach the next level.
+##  Find business angels and institutional funding partners now. 
+[ Upload your pitch deck  ](https://us.foundersbase.com/signup)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta6.png)
+  * 1,500+ private investors
+  * Targeted matching
+  * Personal connection
+  * Free of charge
+
+
+##  What is foundersbase?
+Foundersbase is a networking platform where startup founders connect with co-founders, entrepreneurial talent, and early supporters to build their ventures.   
+  
+Members from all over the world create profiles, showcase their startup projects, and engage in direct conversations to form a founding team, find advisors and investors, or recruit startup hires.   
+  
+Unlike broad networking sites, Foundersbase is specifically designed for founder's needs and uses advanced profile curation technology to ensure that every connection is relevant - whether you're looking for a tech co-founder, a marketing expert, or someone to invest early support in your idea.
+[ Join us today! ](https://us.foundersbase.com/signup)
+https://www.founderio.com/feed
+![Founder Community Activity Feed Screenshot](https://us.foundersbase.com/assets/img/custom/screenshots/screenshot_beta4.png)
+Our team
+##  Made By Entrepreneurs
+![Founder Kai](https://us.foundersbase.com/assets/img/custom/team/kai.jpeg)
+Co-Founder / CEO
+####  Kai Lindemann
+I'm the right person to speak to about strategic partnerships and platform development. Feel free to drop me a line if you see potential!
+  * [ ](https://www.linkedin.com/in/kailindemann/)
+
+
+[](https://us.foundersbase.com/me/kailindemann)
+![Founder Anna](https://us.foundersbase.com/assets/img/custom/team/anna_martin.jpg)
+Co-Founder / Marketing
+####  Anna Martin
+I'm making sure we attract the right entrpreneurs to join our community. If you've got ideas how to collaborate, let me know!
+  * [ ](https://www.linkedin.com/in/annamartin007)
+
+
+[](https://us.foundersbase.com/me/annamartin)
+Want to work with us?  [ Tell us how you can help  ](https://us.foundersbase.com/contact)
+Feedback
+##  What Members Say
+> " I'm impressed, you've really built something with the potential to bring entrepreneurial minds closer together. It feels a bit like a LinkedIn for founders. But in a good way. Keep up the good work! "
+![Image Description](https://us.foundersbase.com/assets/img/custom/screenshots/michael.jpg)
+Michael Thompson
+CEO @ FinFlow
+Subscribe To
+## Foundersbase Updates
+[ Enter email Subscribe ](https://ef7e9338.sibforms.com/serve/MUIFAJ7si0ANQDDeVBaPaD_MYpXV-zBp-KuKY3ppK-6ZaBjV21kC47HUhTIGNN20Ba10tLsP9KQ4QAVX7Jve_YF414dcGUovmYTYw8FZalkDVNG91o0PRaNzdmC3BBJiEitLJJ2jj44z4uFWw4Q-LWS--ER2SIlcjRkGP1J1KBUMmjGW61HEnT-PiQNzwbEisJkZl3iERyBHEbu_)
+##  Become part of a community where ideas meet execution.
+[ Get Started - It's Free ](https://us.foundersbase.com/login)
+© foundersbase.com 2026
+  * [Countries](https://us.foundersbase.com/countries)
+  * [Terms](https://us.foundersbase.com/terms)
+  * [Privacy](https://us.foundersbase.com/privacy)
+  * [Imprint](https://us.foundersbase.com/imprint)
+
+
+Add the Foundersbase App
+[ ](javascript:;)
+","","https://founderio.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find Co-Founders, Startup Talent & Mentors | Free Entrepreneur Network","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","founderio.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","1d66ff1bb853a4e3910a108c88db5862cff29ab8888895bf5274f02e6d775e6d","0.0","0.3","ca3b5223-7a93-55d6-8e05-60c031340a09","","2026-03-30T22:18:52.072434Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/founderio.com.json","/tmp/tmpli6qln5g/evidence/domain/founderio.com.json","","2026-06-28T22:18:52.072436Z","tech startup founder contact page","2026-03-30T22:18:37.083422Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T22:18:52.085193Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpli6qln5g/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T22:18:52.085195Z","management consulting firm director email","2026-03-30T22:18:40.690582Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://mcgplc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","mcgplc.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","2b5b72f3b15b95e6dc1f739e3e8a99bad698e6acfcfaa7858381fdfaf0d86aae","0.0","0.3","d775a363-09cf-5ef9-bdf1-6063d6b4e06b","","2026-03-30T22:18:52.098029Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mcgplc.com.json","/tmp/tmpli6qln5g/evidence/domain/mcgplc.com.json","","2026-06-28T22:18:52.098031Z","management consulting firm director email","2026-03-30T22:18:41.364978Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

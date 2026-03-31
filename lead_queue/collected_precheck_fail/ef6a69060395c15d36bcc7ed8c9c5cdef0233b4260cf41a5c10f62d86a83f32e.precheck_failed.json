@@ -5,6 +5,7 @@
     "business": "Home - Hybrid Business Advisors",
     "full_name": "Joannowak",
     "first": "joannowak",
+    "last": "",
     "email": "joan@hybridbizadvisors.com",
     "role": "ceo",
     "website": "https://hybridbizadvisors.com",
@@ -23,6 +24,14 @@
     "hq_city": "I'm Joan Nowak",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

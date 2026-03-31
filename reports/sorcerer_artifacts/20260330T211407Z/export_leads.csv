@@ -1,0 +1,2083 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-30T21:13:42.278542Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp21fdpwbd/evidence/domain/cansulta.com.json","","2026-06-28T21:13:42.278545Z","startup advisory services founder contact","2026-03-30T21:12:59.307719Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[MENU](https://mabusinessadvisors.com/)
+  * [Home](http://mabusinessadvisors.com/)
+  * [](https://mabusinessadvisors.com/)[About Us](https://mabusinessadvisors.com/) ►
+    * [The Firm](https://mabusinessadvisors.com/about-us/)
+    * [Office Locations](https://mabusinessadvisors.com/office-locations/)
+    * [Testimonials](https://mabusinessadvisors.com/testimonials/)
+    * [Become an Advisor](https://mabusinessadvisors.com/become-ma-business-advisors/)
+  * [](https://mabusinessadvisors.com/)[For Sellers](https://mabusinessadvisors.com/) ►
+    * [Selling a Business](https://mabusinessadvisors.com/for-business-owners/)
+    * [Selling a Business Articles](https://mabusinessadvisors.com/blog/category/seller-articles/)
+    * [Selling a Business FAQ](https://mabusinessadvisors.com/seller-faq/)
+    * [Seller Registration](https://mabusinessadvisors.com/for-business-owners/seller-registration/)
+  * [](https://mabusinessadvisors.com/)[For Buyers](https://mabusinessadvisors.com/) ►
+    * [Buying a Business](https://mabusinessadvisors.com/for-business-buyers/)
+    * [Buying a Business Articles](https://mabusinessadvisors.com/blog/category/buyer-articles/)
+    * [Buying a Business FAQ](https://mabusinessadvisors.com/buyer-faq/)
+    * [Buyer Registration](https://mabusinessadvisors.com/for-business-buyers/buyer-registration/)
+  * [Done Deals](https://mabusinessadvisors.com/done-deals/)
+  * [Businesses For Sale](https://mabusinessadvisors.com/businesses-for-sale/)
+  * [Blog](https://mabusinessadvisors.com/blog/)
+  * [Contact Us](https://mabusinessadvisors.com/contact/)
+
+
+[M&A Business Advisors](http://mabusinessadvisors.com "M&A Business Advisors")
+The Leader in Business Sales and Acquisitions
+  * [Home](http://mabusinessadvisors.com/)
+  * [About Us](https://mabusinessadvisors.com/)
+    * [The Firm](https://mabusinessadvisors.com/about-us/)
+    * [Office Locations](https://mabusinessadvisors.com/office-locations/)
+    * [Testimonials](https://mabusinessadvisors.com/testimonials/)
+    * [Become an Advisor](https://mabusinessadvisors.com/become-ma-business-advisors/)
+  * [For Sellers](https://mabusinessadvisors.com/)
+    * [Selling a Business](https://mabusinessadvisors.com/for-business-owners/)
+    * [Selling a Business Articles](https://mabusinessadvisors.com/blog/category/seller-articles/)
+    * [Selling a Business FAQ](https://mabusinessadvisors.com/seller-faq/)
+    * [Seller Registration](https://mabusinessadvisors.com/for-business-owners/seller-registration/)
+  * [For Buyers](https://mabusinessadvisors.com/)
+    * [Buying a Business](https://mabusinessadvisors.com/for-business-buyers/)
+    * [Buying a Business Articles](https://mabusinessadvisors.com/blog/category/buyer-articles/)
+    * [Buying a Business FAQ](https://mabusinessadvisors.com/buyer-faq/)
+    * [Buyer Registration](https://mabusinessadvisors.com/for-business-buyers/buyer-registration/)
+  * [Done Deals](https://mabusinessadvisors.com/done-deals/)
+  * [Businesses For Sale](https://mabusinessadvisors.com/businesses-for-sale/)
+  * [Blog](https://mabusinessadvisors.com/blog/)
+  * [Contact Us](https://mabusinessadvisors.com/contact/)
+
+
+# Home
+  * ![](https://mabusinessadvisors.com/wp-content/uploads/revslider/home/manufacturing.jpg)
+Representing Manufacturing Businesses 
+Representing Manufacturing Businesses 
+  * ![](https://mabusinessadvisors.com/wp-content/uploads/revslider/home/distribution.jpg)
+Representing Distribution Businesses 
+Representing Distribution Businesses 
+  * ![](https://mabusinessadvisors.com/wp-content/uploads/revslider/home/service.jpg)
+Representing Services Businesses 
+Representing Services Businesses 
+  * ![](https://mabusinessadvisors.com/wp-content/uploads/revslider/home/consultation.jpg)
+Call for a Complimentary Consultation 
+Call for a Complimentary Consultation 
+
+
+## Business Sales | Mergers & Acquisitions | Valuations
+#  M&A Business Advisors  
+Representing Sellers and Buyers of Privately Owned Businesses in a Wide Range of Industries
+[](https://mabusinessadvisors.com/for-business-owners/)
+## [Selling a Business](https://mabusinessadvisors.com/for-business-owners/ "Selling a Business")
+Find advice that takes you from **preparing** your business for sale through **closing** …
+[Read More »](https://mabusinessadvisors.com/for-business-owners/)
+[](https://mabusinessadvisors.com/for-business-buyers/)
+## [Buying a Business](https://mabusinessadvisors.com/for-business-buyers/ "Buying a Business")
+Learn what it takes to go from browsing listings to **owning your own business** …
+[Read More »](https://mabusinessadvisors.com/for-business-buyers/)
+[](https://mabusinessadvisors.com/businesses-for-sale)
+## [Businesses For Sale](https://mabusinessadvisors.com/businesses-for-sale "Businesses For Sale")
+Search our **current business for sale listings** to find the one that is right for you…
+[Read More »](https://mabusinessadvisors.com/businesses-for-sale)
+**_M &A Business Advisors_** is a full-service Business Brokerage and Lower Middle Market M&A Advisory Firm and the  _**Leader in Business Sales & Acquisitions**_. ** _M &A Business Advisors_** specializes in the **CONFIDENTIAL** sale of privately-owned businesses in a wide range of industries including ** _Manufacturing, Distribution, Service, E- Commerce, Technology, Software, Health Care, Education, Construction, Automotive, Food & Beverage Related Businesses_** _as well as other industries._ We use proprietary methods and advanced technology to better serve our clients and accomplish their objectives.
+_**M &A Business Advisors **_are highly respected, experienced Advisors who are recognized as some of the top deal makers in the Business Brokerage and M&A industry. Our Advisors have extensive backgrounds as well as years of experience and knowledge in a wide range of industries. We work as a “Team” to collaborate and share our knowledge and expertise to best represent our clients. Our Advisors hold some of the top designations in the industry including the  _Certified Business Intermediaries (_ CBI) designation issued by the International Business Broker Association (IBBA), the  _Lifetime Certified Business Intermediaries_ (L-CBI) designation issued by the International Business Broker Association (IBBA), the Merger and Acquisition Master Intermediary (M&AMI) designation issued by M&A Source, and the  _Certified Business Brokers_ (CBB) designation issued by the California Association of Business Brokers. Our Advisors are considered “Influencers” and have been instrumental in improving the standards and ethics within the industry.
+Selling or buying a business can be a complex, time consuming process. The process involves 100% commitment and a “hands on” approach by the Advisor along with expertise in a wide range of fields such as financing, accounting, commercial leases, contracts, managing due diligence, negotiations, preparing contracts and more. Our years of experience along with our proprietary process and ability to work as a team to solve complex issues that arise in transactions is what separates us from the competition. Rest assured that when you are working with a M&A Business Advisor, you are working with the  _**Leader in Business Sales & Acquisitions.**_
+Our team of experienced Business Brokers / M&A Advisors serve Business Owners throughout California and Nevada including the areas of [Los Angeles](http://mabusinessadvisors.com/los-angeles/), [Ventura](http://mabusinessadvisors.com/los-angeles/), [Orange County](http://mabusinessadvisors.com/orangecounty/), [San Diego](https://mabusinessadvisors.com/san-diego/), [San Francisco / Marin](https://mabusinessadvisors.com/sanfrancisco/), [San Francisco – East Bay](https://mabusinessadvisors.com/sfeastbay/), [San Jose / Palo Alto](http://mabusinessadvisors.com/sanjose/), [Sacramento / Roseville](http://mabusinessadvisors.com/sacramento/), [Reno / Sparks](http://mabusinessadvisors.com/reno), and [Las Vegas](https://mabusinessadvisors.com/las-vegas/).
+Please refer to our list of offices and contact one of our Advisors  
+near you for a complimentary consultation.
+## Business Brokers / M&A Advisors Offices
+  * [California](https://mabusinessadvisors.com/)
+    * [Los Angeles](http://mabusinessadvisors.com/los-angeles/)
+    * [Ventura](http://mabusinessadvisors.com/los-angeles/)
+    * [Orange County](http://mabusinessadvisors.com/orangecounty/)
+    * [San Diego](https://mabusinessadvisors.com/san-diego/)
+    * [San Francisco / Marin](https://mabusinessadvisors.com/sanfrancisco/)
+    * [San Francisco – East Bay](https://mabusinessadvisors.com/sfeastbay/)
+    * [San Jose / Palo Alto](http://mabusinessadvisors.com/sanjose/)
+    * [Sacramento / Roseville](http://mabusinessadvisors.com/sacramento/)
+  * [Nevada](https://mabusinessadvisors.com/)
+    * [Reno / Sparks](http://mabusinessadvisors.com/reno)
+    * [Las Vegas](https://mabusinessadvisors.com/las-vegas/)
+  * [Texas](https://mabusinessadvisors.com/)
+    * [Houston](https://mabusinessadvisors.com/houston/)
+
+
+WATCH OUR COMPANY VIDEO
+M&A Business Advisors - The Leader in Business Sales & Acquisitions
+Please hit **play** to learn more about M&A Business Advisors
+## Industries Served
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/manufacturing.png)
+### Manufacturing
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/e-comerce.png)
+### E-Commerce
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/health.png)
+### Health Care
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/food-beverage.png)
+### Food & Beverage
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/distribution.png)
+### Distribution
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/technology.png)
+### Technology
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/automotive.png)
+### Automotive
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/retail.png)
+### Retail
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/service.png)
+### Service
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/software.png)
+### Software
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/construction.png)
+### Construction
+![](https://mabusinessadvisors.com/wp-content/uploads/2019/02/other.png)
+### Other
+## Testimonials
+> My name is George Russell and I am the co-founder of a commercial HVAC contracting business, SaferAir, in Orange County, California. I co-founded the company about 15 years ago and decided along with coowner, Christina Baldwin, that it was time to sell. Around that same time James Reppert contacted us and offered to sell our business. We had several meetings with James and we were impressed with his background, knowledge and understanding, so we hired him to represent us. James quickly went to work and put together a detailed package on our business including the company financial history, cash flow analysis, features and benefits, industry information, etc. We established the parameters the buyer would need to have in order to receive a package and then went to market. James brought to us a number of qualified prospective buyers for us to consider over the initial 6-month period. Ultimately, James came up with what we think was an ideal match for our company and we ended up selling our business to them. The most remarkable thing about this 11-month process was James’ attention to detail. He was there for every question we had and made the process more comfortable for us. The details and complexity were somewhat overwhelming and we had underestimated what was involved. James managed the entire process efficiently, including finding and screening prospective buyers, working well with our attorney, bringing in additional support from his company when needed, plus so much more. Everything was handled in a timely and professional matter. We’re not sure we could have managed all that and continued to run our successful business. James always seemed to know what was going to happen next and prepared us for all the steps involved in this process. We are very thankful to James and would highly recommend him to anyone looking for a professional Business Broker to sell their business.
+> George Russell President at Commercial HVAC contracting business, SaferAir
+> You and your staff have probably added 10 years to our lives. I believe in these uncertain times it was an excellent job all around. I will continue to send you leads on anyone I hear that’s interested in selling or buying a business.
+> Jerry Cail, President Bear Industries Printing & Publishing
+> The entire process was handled extremely professional and I look forward to working with you again.
+> Klaus Grimm, Managing Member K & KG Investments, LLC
+[View All Testimonials](https://mabusinessadvisors.com/testimonials/)
+## Latest Blog Posts
+[](https://mabusinessadvisors.com/blog/2025/09/11/sell-my-business-in-los-angeles-heres-what-every-owner-should-know/ "Sell My Business in Los Angeles? Here’s What Every Owner Should Know")![Business Brokers in Los Angeles CA | M&A Services Los Angeles | Sell My Business in Los Angeles](https://mabusinessadvisors.com/wp-content/uploads/2025/09/bigstock-Business-Investor-Group-Holdin-472780261-400x300.jpg)
+#### [Sell My Business in Los Angeles? Here’s What Every Owner Should Know](https://mabusinessadvisors.com/blog/2025/09/11/sell-my-business-in-los-angeles-heres-what-every-owner-should-know/ "Sell My Business in Los Angeles? Here’s What Every Owner Should Know")
+If you’ve ever asked yourself, “Should I sell my business in Los Angeles?”, you’re not alone. The vibrant and diverse economy of LA makes it an attractive market for buyers and investors. But selling a business is not as simple as putting up a “for sale” sign. From proper valuation to negotiation and closing, there […]
+[Read More »](https://mabusinessadvisors.com/blog/2025/09/11/sell-my-business-in-los-angeles-heres-what-every-owner-should-know/ "Read More »")
+[](https://mabusinessadvisors.com/blog/2025/08/07/mastering-your-mindset-strategic-approaches-to-selling-your-business/ "Mastering Your Mindset: Strategic Approaches to Selling Your Business")![Mastering Your Mindset: Strategic Approaches to Selling Your Business](https://mabusinessadvisors.com/wp-content/uploads/2024/04/bigstock-Focused-Mature-Businessman-Dee-371184892-400x300.jpg)
+#### [Mastering Your Mindset: Strategic Approaches to Selling Your Business](https://mabusinessadvisors.com/blog/2025/08/07/mastering-your-mindset-strategic-approaches-to-selling-your-business/ "Mastering Your Mindset: Strategic Approaches to Selling Your Business")
+At some point, the odds are exceptionally high that you’ll need to sell your business. Today, fewer businesses are being passed on to the next generation, increasing the likelihood that you will be selling your business eventually. Regardless of your business’s stage of life, the time to prepare for its eventual sale is as early [...]
+[Read More »](https://mabusinessadvisors.com/blog/2025/08/07/mastering-your-mindset-strategic-approaches-to-selling-your-business/ "Read More »")
+[](https://mabusinessadvisors.com/blog/2025/08/07/navigating-the-decision-to-sell-your-business/ "Navigating the Decision to Sell Your Business")![Navigating the Decision to Sell Your Business](https://mabusinessadvisors.com/wp-content/uploads/2024/11/bigstock-team-of-successful-business-pe-119980133-400x300.jpg)
+#### [Navigating the Decision to Sell Your Business](https://mabusinessadvisors.com/blog/2025/08/07/navigating-the-decision-to-sell-your-business/ "Navigating the Decision to Sell Your Business")
+For many business owners, deciding to sell their company is one of the most significant financial decisions they will ever face. This choice may not only alter their financial situation but also impact their lives as a whole. Life after selling a business can be vastly different, so it’s essential for owners to consider what [...]
+[Read More »](https://mabusinessadvisors.com/blog/2025/08/07/navigating-the-decision-to-sell-your-business/ "Read More »")
+[![California Association of Business Brokers](https://mabusinessadvisors.com/wp-content/uploads/2017/06/california-association-of-business-brokers-320x80.png)](https://cabb.org/)
+[![International Business Brokers Association](https://mabusinessadvisors.com/wp-content/uploads/2017/06/international-business-brokers-association-320x80.png)](https://www.ibba.org/)
+[![M&A Source](https://mabusinessadvisors.com/wp-content/uploads/2017/06/m-a-source-1-320x80.png)](http://www.masource.org/)
+[![Provisors](https://mabusinessadvisors.com/wp-content/uploads/2017/06/provisors-1-320x80.png)](http://www.provisors.com/)
+[![Echelon Business Devlopment Network](https://mabusinessadvisors.com/wp-content/uploads/2019/09/echelon-business-development-320x80.png)](https://echelonbizdev.com/)
+[![Certified Business Broker California Association of Business Brokers](https://mabusinessadvisors.com/wp-content/uploads/2017/06/certified-business-brokers-320x80.png)](https://cabb.org/education/cbb)
+[![Certified Business Intermediary](https://mabusinessadvisors.com/wp-content/uploads/2017/06/cbi-2.png)](https://www.ibba.org/cbi-certification/)
+[![Merger & Acquisition Master Intermediary](https://mabusinessadvisors.com/wp-content/uploads/2017/06/m-ami-bottom.png)](https://www.masource.org/mami-certification/)
+![M&A Business Advisors](https://mabusinessadvisors.com/wp-content/uploads/2019/02/ma-business-small.png)
+_Representing Sellers and Buyers of Privately Owned Businesses in a Wide Range of Industries._
+See the full List of Business Brokerage and M&A Offices, Click Below!
+[See List of Offices](https://mabusinessadvisors.com/office-locations/)
+#### Quick Links
+  * [Home](https://mabusinessadvisors.com/)
+  * [Become an M&A Business Advisor](https://mabusinessadvisors.com/become-ma-business-advisors/)
+  * [Testimonials](https://mabusinessadvisors.com/testimonials/)
+  * [Buyer Registration](https://mabusinessadvisors.com/for-business-buyers/buyer-registration/)
+  * [Seller Registration](https://mabusinessadvisors.com/for-business-owners/seller-registration/)
+  * [Done Deals](https://mabusinessadvisors.com/done-deals/)
+  * [Contact Us](https://mabusinessadvisors.com/contact/)
+
+
+#### Recent Posts
+  * [Sell My Business in Los Angeles? Here’s What Every Owner Should Know](https://mabusinessadvisors.com/blog/2025/09/11/sell-my-business-in-los-angeles-heres-what-every-owner-should-know/)
+  * [Mastering Your Mindset: Strategic Approaches to Selling Your Business](https://mabusinessadvisors.com/blog/2025/08/07/mastering-your-mindset-strategic-approaches-to-selling-your-business/)
+  * [Navigating the Decision to Sell Your Business](https://mabusinessadvisors.com/blog/2025/08/07/navigating-the-decision-to-sell-your-business/)
+  * [Selling a Healthcare Business in L.A.? Here’s What You Should Know](https://mabusinessadvisors.com/blog/2025/07/15/selling-a-healthcare-business-in-l-a-heres-what-you-should-know/)
+
+
+  * [](https://www.linkedin.com/company/mabusinessadvisors/ "LinkedIn")
+
+
+[Return to top of page](https://mabusinessadvisors.com/#wrap)
+Copyright © 2026 · [AgentPress Two](http://www.studiopress.com/themes/agentpress/) on [Genesis Framework](https://www.studiopress.com/) · [WordPress](https://wordpress.org/) · [Log in](https://mabusinessadvisors.com/wp-login.php)
+Business Brokerage | Mergers & Acquisitions | Business Broker | Business Advisor | Valuation | Selling a Business | Southern California | Northern California | Northern Nevada | Southern Nevada | [Los Angeles Business Broker](https://mabusinessadvisors.com/los-angeles/) | Ventura Business Broker | [Orange County](https://mabusinessadvisors.com/orangecounty/) Business Broker | San Diego Business Broker | [San Francisco Business Broker](https://mabusinessadvisors.com/sanfrancisco/) | Marin Business Broker | [San Jose Business Broker](https://mabusinessadvisors.com/sanjose/) | Palo Alto Business Broker | [Sacramento Business Broker](https://mab","","https://mabusinessadvisors.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Full Service Business Brokerage, Merger and Acquisitions Advisory Firm","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","mabusinessadvisors.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","5b13fbda8662d0b7b8a38198919420578933695e5d257b453c5a98a957aa4ba5","0.0","0.3","85459680-cd3b-5306-8bb9-8112a7843f0a","","2026-03-30T21:13:49.752934Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/mabusinessadvisors.com.json","/tmp/tmp21fdpwbd/evidence/domain/mabusinessadvisors.com.json","","2026-06-28T21:13:49.752944Z","business consulting firm advisor email","2026-03-30T21:13:03.655870Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-30T21:13:49.773547Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp21fdpwbd/evidence/domain/maynardnexsen.com.json","","2026-06-28T21:13:49.773551Z","business consulting firm advisor email","2026-03-30T21:13:04.327637Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","CA.gov is the official website for the State of California. You can find and access California services, resources, and more.","","https://ca.gov","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","California State Portal","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","ca.gov","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","7bdbc1edc8613eb62d94578943c3919dbcec91eb5511a07c417701afcc544072","0.0","0.3","19efc845-a532-56a2-8aaa-0e4c092bbc95","","2026-03-30T21:13:49.790629Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ca.gov.json","/tmp/tmp21fdpwbd/evidence/domain/ca.gov.json","","2026-06-28T21:13:49.790631Z","business consulting firm advisor email","2026-03-30T21:13:05.563177Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip Navigation](https://www.csusm.edu/#skipnav) [](https://www.csusm.edu/)
+[APPLY NOW](https://www.csusm.edu/admissions/index.html) [REQUEST INFO](https://www.csusm.edu/outreach/requests/index.html)
+  * [![document icon](https://www.csusm.edu/_resources/images/buttons/mycsusm.png)myCSUSM](https://my.csusm.edu/)
+  * [![cougar courses logo](https://www.csusm.edu/_resources/images/buttons/cc.png)COUGAR COURSES](https://cc.csusm.edu/)
+  * [![email icon](https://www.csusm.edu/_resources/images/buttons/email.png)EMAIL](https://outlook.office.com/)
+  * [![office icon](https://www.csusm.edu/_resources/images/buttons/office.png)OFFICE APPS](https://m365.cloud.microsoft/?auth=2)
+  * [![password icon](https://www.csusm.edu/_resources/images/buttons/password.png)PASSWORD  
+MANAGEMENT](https://www.csusm.edu/iits/iitsforyou/password/)
+
+
+  * ABOUT
+    * [About CSUSM](https://www.csusm.edu/about.html)
+    * [Where is San Marcos?](https://www.csusm.edu/admissions/where-is-san-marcos/index.html)
+    * [Sustainability](https://www.csusm.edu/sustainability/)
+    * [Office of the President](https://www.csusm.edu/president/)
+    * [Alumni](https://www.csusm.edu/alumni/)
+    * [Community Relations and University Engagement](https://www.csusm.edu/community/)
+    * [CSUSM Land Acknowledgement](https://www.csusm.edu/tribal/land-acknowledgement.html)
+    * [CSU Shiley Haynes Institute of Palliative Care at CSUSM](https://www.csusm.edu/palliativecare/index.html)
+
+
+  * ACADEMICS
+    * [Course Catalog](https://catalog.csusm.edu)
+    * [Class Schedule (Enrollment)](https://www.csusm.edu/enroll/enrollment/index.html)
+    * [Academic Calendar](https://www.csusm.edu/academic_programs/calendars.html)
+    * [Academic Advising](https://www.csusm.edu/academicadvising/)
+    * [Colleges & Majors](https://www.csusm.edu/academics/colleges.html)
+    * [Learning & Tutoring Services](https://www.csusm.edu/lts/index.html)
+    * [Graduate Studies](https://www.csusm.edu/gradstudies/index.html)
+    * [Office of Research](https://www.csusm.edu/research/index.html)
+    * [Library](https://biblio.csusm.edu/)
+    * [University Bookstore](https://www.bkstr.com/csusanmarcosstore/home)
+
+
+  * CAMPUS LIFE
+    * [Living on Campus](https://www.csusm.edu/housing/)
+    * [Student Life (ASI, Clubs, Sports)](https://www.csusm.edu/students/campuslife.html)
+    * [Athletics](https://www.csusmcougars.com/)
+    * [Student Events](https://www.csusm.edu/calendar/stucal.html)
+    * [University Student Union](https://www.csusm.edu/usu/index.html)
+    * [Student Organizations](https://www.csusm.edu/orgs/)
+    * [Student Centers](https://www.csusm.edu/studentlife/centers/index.html)
+    * [Dining Options](https://www.csusm.edu/dining/index.html)
+
+
+  * ADMISSIONS & AID
+    * [Admissions](https://www.csusm.edu/admissions/)
+    * [Recruitment & Outreach](https://www.csusm.edu/outreach/index.html)
+    * [Costs & Financial Aid](https://www.csusm.edu/finaid/costofattendance/index.html)
+    * [International Students](https://www.csusm.edu/global/admissions/)
+    * [Veteran Students](https://www.csusm.edu/veterans/)
+    * [First Year & Early Start](https://www.csusm.edu/fystudents/)
+
+
+  * GIVING
+    * [Giving Opportunities](https://www.csusm.edu/giving/)
+    * [Planned Giving](https://csusm.planmygift.org/)
+    * [About University Advancement](https://www.csusm.edu/advancement/index.html)
+    * [Make Your Gift](https://host.nxt.blackbaud.com/donor-form?svcid=tcs&formId=4c71fb8e-f08a-4f87-b5fa-391983ceea31&envid=p-Fakb_5oApE-skdoiQ0Xnaw&zone=usa)
+
+
+  * RESOURCES
+    * [Faculty / Staff Resources](https://www.csusm.edu/facultystaff/)
+    * [Students Resources](https://www.csusm.edu/students/index.html)
+    * [Alumni Association](https://www.csusm.edu/alumni/)
+
+
+[![CSUSM logo](https://www.csusm.edu/_resources/images/logos/csusm-textlogo-sp.png)](https://www.csusm.edu/)
+[![Open / Close Search](https://www.csusm.edu/_resources/images/buttons/controls.png)](https://www.csusm.edu/)
+[ ![Open / Close Menu](https://www.csusm.edu/_resources/images/buttons/controls.png) ](https://www.csusm.edu/)
+[CALIFORNIA STATE UNIVERSITY SAN MARCOS](https://www.csusm.edu)
+  * [![Document Icon](https://www.csusm.edu/_resources/images/buttons/mycsusm.png)myCSUSM](https://my.csusm.edu/)
+  * [![Cougar Courses Logo](https://www.csusm.edu/_resources/images/buttons/cc.png)COUGAR COURSES](https://cc.csusm.edu/)
+  * [![Email Icon](https://www.csusm.edu/_resources/images/buttons/email.png)EMAIL](https://outlook.office.com/)
+  * [![office Icon](https://www.csusm.edu/_resources/images/buttons/office.png)OFFICE APPS](https://m365.cloud.microsoft/?auth=2)
+  * [![password Icon](https://www.csusm.edu/_resources/images/buttons/password.png)PASSWORD  
+MANAGEMENT](https://www.csusm.edu/iits/iitsforyou/password/)
+
+
+[APPLY NOW](https://www.csusm.edu/admissions/index.html)[REQUEST INFO](https://www.csusm.edu/outreach/requests/index.html)
+[ ![open / close search](https://www.csusm.edu/_resources/images/buttons/controls.png) ](https://www.csusm.edu/)
+[ CAMPUS APPS  ![open close application menu](https://www.csusm.edu/_resources/images/buttons/controls.png) ](https://www.csusm.edu/)
+ABOUT
+ACADEMICS
+CAMPUS LIFE
+ADMISSIONS & AID
+GIVING
+RESOURCES
+  * [About CSUSM](https://www.csusm.edu/about.html)
+  * [Where is San Marcos?](https://www.csusm.edu/admissions/where-is-san-marcos/index.html)
+  * [Sustainability](https://www.csusm.edu/sustainability/)
+  * [Office of the President](https://www.csusm.edu/president/)
+  * [Alumni](https://www.csusm.edu/alumni/)
+  * [CSUSM Land Acknowledgement](https://www.csusm.edu/tribal/land-acknowledgement.html)
+  * [Community Relations and University Engagement](https://www.csusm.edu/community/)
+  * [CSU Shiley Haynes Institute of Palliative Care at CSUSM](https://www.csusm.edu/palliativecare/index.html)
+
+
+  * [Course Catalog](https://catalog.csusm.edu)
+  * [Class Schedule (Enrollment)](https://www.csusm.edu/enroll/enrollment/index.html)
+  * [Academic Calendar](https://www.csusm.edu/academic_programs/calendars.html)
+  * [Academic Advising](https://www.csusm.edu/academicadvising/)
+  * [Colleges & Majors](https://www.csusm.edu/academics/colleges.html)
+  * [Learning & Tutoring Services](https://www.csusm.edu/lts/index.html)
+  * [Graduate Studies](https://www.csusm.edu/gradstudies/index.html)
+  * [Office of Research](https://www.csusm.edu/research/index.html)
+  * [Library](https://biblio.csusm.edu/)
+  * [University Bookstore](https://www.bkstr.com/csusanmarcosstore/home)
+
+
+  * [Living on Campus](https://www.csusm.edu/housing/)
+  * [Student Life (ASI, Clubs, Sports)](https://www.csusm.edu/students/campuslife.html)
+  * [Athletics](https://www.csusmcougars.com/)
+  * [Student Events](https://www.csusm.edu/calendar/stucal.html)
+  * [University Student Union](https://www.csusm.edu/usu/index.html)
+  * [Student Organizations](https://www.csusm.edu/orgs/)
+  * [Student Centers](https://www.csusm.edu/studentlife/centers/index.html)
+  * [Dining Options](https://www.csusm.edu/dining/index.html)
+
+
+  * [Admissions](https://www.csusm.edu/admissions/)
+  * [Recruitment & Outreach](https://www.csusm.edu/outreach/index.html)
+  * [Costs & Financial Aid](https://www.csusm.edu/finaid/costofattendance/index.html)
+  * [International Students](https://www.csusm.edu/global/admissions/)
+  * [Veteran Students](https://www.csusm.edu/veterans/)
+  * [First Year & Early Start](https://www.csusm.edu/fystudents/)
+
+
+  * [Giving Opportunities](https://www.csusm.edu/giving/)
+  * [Planned Giving](https://www.csusm.edu/giving/planned-giving/index.html)
+  * [About University Advancement](https://www.csusm.edu/advancement/index.html)
+  * [Make Your Gift](https://host.nxt.blackbaud.com/donor-form?svcid=tcs&formId=4c71fb8e-f08a-4f87-b5fa-391983ceea31&envid=p-Fakb_5oApE-skdoiQ0Xnaw&zone=usa)
+
+
+  * [Faculty / Staff Resources](https://www.csusm.edu/facultystaff/)
+  * [Student Resources](https://www.csusm.edu/students/index.html)
+  * [Alumni Association](https://www.csusm.edu/alumni/)
+
+
+# California State University San Marcos
+## Make the Most of Your Summer
+Earn up to 13 units in 10 weeks through Summer @ CSUSM. Registration opens March 23; classes start June 1.
+[LEARN MORE](https://www.csusm.edu/el/summer-lp/?utm_source=csusm_homepage&utm_medium=banner&utm_campaign=summer_2026_homepage&utm_content=home_banner_lp)
+## EVENTS
+[View all events](https://www.csusm.edu/calendar/)
+## NEWS
+[View campus news](https://news.csusm.edu)
+![girl with book](https://www.csusm.edu/_resources/images/hp/acabook.png)
+[  
+DEGREES](https://www.csusm.edu/academics/)
+[](https://biblio.csusm.edu/)
+[  
+LEARNING](https://www.csusm.edu/el/index.html)
+[  
+TEMECULA](https://www.csusm.edu/temecula/)
+[  
+CHULA VISTA](https://www.csusm.edu/chula-vista)
+## WE ARE A FORWARD-FOCUSED UNIVERSITY  
+OF INNOVATORS AND TRAILBLAZERS
+Join us as we prepare tomorrow’s leaders, build great  
+communities and solve the critical issues of today. 
+Join us as we prepare tomorrow’s leaders, build great communities and solve the critical issues of today. 
+  * [VISIT](https://www.csusm.edu/admissions/visit-campus/index.html)
+  * [APPLY](https://www.csusm.edu/admissions/how-to-apply/index.html)
+  * [GIVE](https://www.csusm.edu/giving/)
+  * [ATHLETICS](https://www.csusmcougars.com/)
+
+
+[![CSUSM Logo](https://www.csusm.edu/_resources/images/logos/csusm-textlogo-sp.png)](https://www.csusm.edu/)
+333 S. Twin Oaks Valley Rd. San Marcos CA, 92096 
+760-750-4000
+[](https://www.csusm.edu/contacts.html)
+[](https://www.csusm.edu/map/)
+[_P_ Parking](https://www.csusm.edu/parking/)
+[ ![Instagram icon](https://www.csusm.edu/_resources/images/buttons/socialmedia.png) ](https://instagram.com/csusm) [ ![Twitter icon](https://www.csusm.edu/_resources/images/buttons/socialmedia.png) ](https://twitter.com/CSUSM) [ ![FaceBook icon](https://www.csusm.edu/_resources/images/buttons/socialmedia.png) ](https://facebook.com/csusm) [ ![YouTube icon](https://www.csusm.edu/_resources/images/buttons/socialmedia.png) ](https://youtube.com/user/csusm) [ ![LinkedIn icon](https://www.csusm.edu/_resources/images/buttons/socialmedia.png) ](https://www.linkedin.com/edu/school?id=17834&trk=edu-hp-follow-name)
+  * [Mobile App](https://www.csusm.edu/iits/services/mobile-app/index.html)
+  * [NewsCenterExternal website](https://news.csusm.edu/)
+  * [Photo LibraryExternal website](https://csusm.photoshelter.com/index)
+
+
+  * [Title IX](https://www.csusm.edu/title9/index.html)
+  * [Campus Safety Plan](https://www.csusm.edu/clery/documents/2023campussafetyplan.pdf)
+  * [Annual Security Report](https://www.csusm.edu/clery/documents/annual-security-report.pdf)
+
+
+  * [A-Z List](https://www.csusm.edu/azlist.html)
+  * [Job Opportunities](https://www.csusm.edu/jobs.html)
+  * [![CSU California State University Logo](https://www.csusm.edu/_resources/images/footer/csu.gif)](https://www.calstate.edu/)
+
+
+[Non-Discrimination Statement](https://www.csusm.edu/equity/commitment/non-discrimination-statement.html) | [Web Privacy](https://www.csusm.edu/privacy.html) | [Accessibility](https://www.csusm.edu/accessibility/)
+[](https://oucampus.csusm.edu/11/?skin=oucampus&account=csusm&site=www&action=de&path=/index.pcf)
+","","https://csusm.edu","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","California State University San Marcos in North San Diego County | CSUSM","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","csusm.edu","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","89ceeb6e01de370e262500220bef9f08cef3a5fb6dc784a2f72d99840bfa27cf","0.0","0.3","364d0109-fc0e-5429-a1a6-25a46172696f","","2026-03-30T21:13:58.981015Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/csusm.edu.json","/tmp/tmp21fdpwbd/evidence/domain/csusm.edu.json","","2026-06-28T21:13:58.981021Z","business consulting firm advisor email","2026-03-30T21:13:06.501419Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-30T21:13:59.000817Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp21fdpwbd/evidence/domain/vaam.io.json","","2026-06-28T21:13:59.000821Z","SaaS startup CEO contact information","2026-03-30T21:13:10.081729Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-30T21:13:59.018321Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp21fdpwbd/evidence/domain/findemails.com.json","","2026-06-28T21:13:59.018324Z","SaaS startup CEO contact information","2026-03-30T21:13:11.037567Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png) ![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png) LeadWave](https://getleadwave.io/)
+[18.000 SaaS List](https://getleadwave.io/list-of-saas-companies)
+[Growth Tactics](https://getleadwave.io/saas-growth-tactics)
+[All Lists](https://getleadwave.io/lists)
+[About](https://getleadwave.io/about)
+[Join Newsletter](https://saashill.beehiiv.com/subscribe)
+[ ![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png) ![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png) LeadWave](https://getleadwave.io/)
+Version 2.0 is here!
+# Ready to use lists of SaaS companies.
+Hand-crafted lists of top VCs, crypto, blockchain and lists of SaaS companies to accelerate your outreach.
+[View All Lists](https://getleadwave.io/lists)
+[View All Lists](https://getleadwave.io/lists)
+[View All Lists](https://getleadwave.io/lists)
+[18.000 SaaS List](https://getleadwave.io/list-of-saas-companies)
+[18.000 SaaS List](https://getleadwave.io/list-of-saas-companies)
+[18.000 SaaS List](https://getleadwave.io/list-of-saas-companies)
+![](https://framerusercontent.com/images/mS28QhWcSped7JSQ7vltnisa5c8.png)
+![](https://framerusercontent.com/images/mS28QhWcSped7JSQ7vltnisa5c8.png)
+![](https://framerusercontent.com/images/mS28QhWcSped7JSQ7vltnisa5c8.png)
+![](https://framerusercontent.com/images/CoAe1eW9S1x6kWgYfFZw038Bw.png)
+![](https://framerusercontent.com/images/CoAe1eW9S1x6kWgYfFZw038Bw.png)
+![](https://framerusercontent.com/images/MJeIlKDeZABMXLwJpB6Bztr0ofE.png)
+![](https://framerusercontent.com/images/MJeIlKDeZABMXLwJpB6Bztr0ofE.png)
+![](https://framerusercontent.com/images/imTUxLQSgR0w5Bap7nnfhhfhI.png)
+![](https://framerusercontent.com/images/imTUxLQSgR0w5Bap7nnfhhfhI.png)
+![](https://framerusercontent.com/images/X3a8YeMylgAscLU2UL5WxBwsKQo.png)
+![](https://framerusercontent.com/images/X3a8YeMylgAscLU2UL5WxBwsKQo.png)
+![](https://framerusercontent.com/images/apY7TnN7ARjY4H7wuilOCNTYP10.webp)
+![](https://framerusercontent.com/images/apY7TnN7ARjY4H7wuilOCNTYP10.webp)
+![](https://framerusercontent.com/images/apY7TnN7ARjY4H7wuilOCNTYP10.webp)
+![](https://framerusercontent.com/images/1eVqlrORUGooHlkB4OUVCxKsd0.png)
+![](https://framerusercontent.com/images/1eVqlrORUGooHlkB4OUVCxKsd0.png)
+![](https://framerusercontent.com/images/1eVqlrORUGooHlkB4OUVCxKsd0.png)
+![](https://framerusercontent.com/images/zW5MfdiBJmmFOhjfveZKl2QNUBg.png)
+![](https://framerusercontent.com/images/zW5MfdiBJmmFOhjfveZKl2QNUBg.png)
+![](https://framerusercontent.com/images/zW5MfdiBJmmFOhjfveZKl2QNUBg.png)
+![](https://framerusercontent.com/images/dR9iik1YzAkHThZFK2gwh481Po.svg)
+![](https://framerusercontent.com/images/KESrIk7W1uLPWbOTVtwEluUGA.png)
+![](https://framerusercontent.com/images/wMf3UIewJGHfWvsFthwId2KN1wk.png)
+![](https://framerusercontent.com/images/Vn2ynRZZbL7PgUHXDeEmpphD3Hw.svg)
+![](https://framerusercontent.com/images/hIxnJG2K9HvY3LYH7Ocir0xCg.png)
+Boost your cold outreach
+## A more effective way to reach out to SaaS companies
+LeadWave offers manually-research, hand-picked and ready-to-use lists of B2B SaaS and tech companies that might help you to develop your business.
+![](https://framerusercontent.com/images/2yiubb6fqCDSzfvOqtSxkceHU.webp)
+![](https://framerusercontent.com/images/2yiubb6fqCDSzfvOqtSxkceHU.webp)
+![](https://framerusercontent.com/images/mIeiiFyiLX8guUCulp8nzYRde7s.png)
+![](https://framerusercontent.com/images/y2xlq1h3icZ4jgx95T5M5Jv9fhg.png)
+##### 18.300 CEOs
+SaaS CEOs and founders with contact details
+##### 18.300 CEOs
+SaaS CEOs and founders with contact details
+##### 18.300 CEOs
+SaaS CEOs and founders with contact details
+##### 17.500 Companies
+SaaS companies are already added to the list
+##### 17.500 Companies
+SaaS companies are already added to the list
+##### 17.500 Companies
+SaaS companies are already added to the list
+##### 25 Datapoints
+Datapoints available for each row in the list
+##### 25 Datapoints
+Datapoints available for each row in the list
+##### 25 Datapoints
+Datapoints available for each row in the list
+##### 95%
+Email accuracy for precise cold outrech
+##### 95%
+Email accuracy for precise cold outrech
+##### 95%
+Email accuracy for precise cold outrech
+Everything you need
+## Why us and what you get
+Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly. 
+![](https://framerusercontent.com/images/QBkCPoeejpECqrXOviZdvDrmKws.png)
+#### Why LeadWave
+LeadWave is the easiest and fastest way to get in touch with all types of SaaS companies.
+![](https://framerusercontent.com/images/2aT8NM5D6n5Eiagt1uk2XS2VEvo.png)
+#### 100% Data Accuracy
+Our Data Research are focused on providing the most accurate information as possible.
+![](https://framerusercontent.com/images/v3w3Ee0g7lOrlZtCW44t0Vafzs8.png)
+#### 95% Email Accuracy
+Not perfect yet, but we are trying. If any record is wrong, we’ll replace it with a new one.
+![](https://framerusercontent.com/images/mS28QhWcSped7JSQ7vltnisa5c8.png)
+#### Custom Data Requests
+Do you need additional data fields to any of our lists of Crypto, SaaS VCs and SaaS Companies Lists?
+![](https://framerusercontent.com/images/9U5SqSQTg0nYtzEWuxa3bJ4n5ls.png)
+#### More Time
+Our goals is clear – we want to help you focus on the important things, not list of SaaS companies.
+![](https://framerusercontent.com/images/BVf8P4osWKSlvmWmgj4pyRMjYNk.png)
+#### Fresh Updates
+We constantly update our lists. You will receive an updated version of the list at no additional charge.
+All Lists We Built
+## All Ready-to-use SaaS Lists
+Enjoy customizable lists, choose what SaaS companies list will suite your unique needs.
+![](https://framerusercontent.com/images/uN52QeuRyD5BDxd8WiCSczsvwI.webp)
+![](https://framerusercontent.com/images/uN52QeuRyD5BDxd8WiCSczsvwI.webp)
+![](https://framerusercontent.com/images/uN52QeuRyD5BDxd8WiCSczsvwI.webp)
+#### List of 18.000 SaaS Companies 
+#### List of 18.000 B2B SaaS Companies 
+LeadWave's flagship list of 18000 fast-growing SaaS companies
+[View List](https://getleadwave.io/list-of-saas-companies)
+[View List](https://getleadwave.io/list-of-saas-companies)
+[View List](https://getleadwave.io/list-of-saas-companies)
+![](https://framerusercontent.com/images/2tW1GnW1dGhW6JdiaZ9oCOQ.webp)
+![](https://framerusercontent.com/images/2tW1GnW1dGhW6JdiaZ9oCOQ.webp)
+![](https://framerusercontent.com/images/2tW1GnW1dGhW6JdiaZ9oCOQ.webp)
+#### List of 9.000 USA SaaS Companies
+Get in touch with 9000 SaaS companies from the US.
+[View List](https://getleadwave.io/usa-saas-companies-list)
+[View List](https://getleadwave.io/usa-saas-companies-list)
+[View List](https://getleadwave.io/usa-saas-companies-list)
+![](https://framerusercontent.com/images/dQHdty0ULdK2jwxRRjrWJnIzw.webp)
+![](https://framerusercontent.com/images/dQHdty0ULdK2jwxRRjrWJnIzw.webp)
+![](https://framerusercontent.com/images/dQHdty0ULdK2jwxRRjrWJnIzw.webp)
+#### 5.000 Europe SaaS Companies List
+Get in touch with 5000 SaaS companies from Europe.
+[View List](https://getleadwave.io/europe-saas-companies-list)
+[View List](https://getleadwave.io/europe-saas-companies-list)
+[View List](https://getleadwave.io/europe-saas-companies-list)
+![](https://framerusercontent.com/images/DGA50lxzWuA4jIjMZ9Sy70qufw.webp)
+![](https://framerusercontent.com/images/DGA50lxzWuA4jIjMZ9Sy70qufw.webp)
+![](https://framerusercontent.com/images/DGA50lxzWuA4jIjMZ9Sy70qufw.webp)
+#### 1500 UK SaaS Companies List
+#### 1500 UK-based SaaS Companies List
+Get in touch with 1500 SaaS companies from the UK.
+[View List](https://getleadwave.io/uk-saas-companies-list)
+[View List](https://getleadwave.io/uk-saas-companies-list)
+[View List](https://getleadwave.io/uk-saas-companies-list)
+![](https://framerusercontent.com/images/wnI9zcClj2Iy9EEhx4xW7M5gug.webp)
+![](https://framerusercontent.com/images/wnI9zcClj2Iy9EEhx4xW7M5gug.webp)
+![](https://framerusercontent.com/images/wnI9zcClj2Iy9EEhx4xW7M5gug.webp)
+#### 900 Canada SaaS Companies
+#### List of 900 Canada SaaS Companies
+Get in touch with 900 SaaS companies from Canada.
+[View List](https://getleadwave.io/canada-saas-companies-list)
+[View List](https://getleadwave.io/canada-saas-companies-list)
+[View List](https://getleadwave.io/canada-saas-companies-list)
+![](https://framerusercontent.com/images/E1DenWYy2rwlO5LmKs1dgTarpQU.webp)
+![](https://framerusercontent.com/images/E1DenWYy2rwlO5LmKs1dgTarpQU.webp)
+![](https://framerusercontent.com/images/E1DenWYy2rwlO5LmKs1dgTarpQU.webp)
+#### 500 Australia SaaS Companies
+#### List of 500 Australia SaaS Companies
+Get in touch with 500 SaaS companies from Australia.
+[View List](https://getleadwave.io/list-of-saas-companies-in-australia)
+[View List](https://getleadwave.io/list-of-saas-companies-in-australia)
+[View List](https://getleadwave.io/list-of-saas-companies-in-australia)
+![](https://framerusercontent.com/images/GgdYw82sG3bJkKlRFCSny3XMq4.webp)
+![](https://framerusercontent.com/images/GgdYw82sG3bJkKlRFCSny3XMq4.webp)
+![](https://framerusercontent.com/images/GgdYw82sG3bJkKlRFCSny3XMq4.webp)
+#### List of 200+ SaaS Growth Tactics
+#### List of 18.000 B2B SaaS Companies 
+List of 170+ SaaS growth tactics and ideas to boost SaaS growth.
+[View List](https://getleadwave.io/saas-growth-tactics)
+[View List](https://getleadwave.io/saas-growth-tactics)
+[View List](https://getleadwave.io/saas-growth-tactics)
+![](https://framerusercontent.com/images/4M9iMvMVp1J0rdnARg4yWCnWbII.webp)
+![](https://framerusercontent.com/images/4M9iMvMVp1J0rdnARg4yWCnWbII.webp)
+![](https://framerusercontent.com/images/4M9iMvMVp1J0rdnARg4yWCnWbII.webp)
+#### 210+ SaaS and Tech Job Boards
+#### List of 18.000 B2B SaaS Companies 
+A hand-researched list of 210+ SaaS and tech joab boards.
+[View List](https://getleadwave.io/saas-growth-tactics)
+[View List](https://getleadwave.io/saas-growth-tactics)
+[View List](https://getleadwave.io/saas-growth-tactics)
+![](https://framerusercontent.com/images/YGpZf5JG5SY6z1UkVhsK9DCk.webp)
+![](https://framerusercontent.com/images/YGpZf5JG5SY6z1UkVhsK9DCk.webp)
+#### 2000+ Y Combinator Companies
+A manually researched list of 2000+ Y combinator companies.
+Coming Soon
+Coming Soon
+Who Built It
+## Who is Behind This?
+![](https://framerusercontent.com/images/c53cgf9X6ctC93ShgFLhKQugA.webp)
+**Hi. I'm Vlad Oleksiienko (growth at Reply.io). I help companies reach out to SaaS and tech compnaies.**
+Over my 8 years at Reply.io, I’ve seen how much time founders, VCs, marketers, and business development teams waste building high-quality prospect lists from scratch. Hours of manual research are spent just to gather accurate and relevant data.
+That’s why I built LeadWave - to provide a ready-to-use, always-up-to-date list of 18,000 SaaS companies enriched with valuable data points. I also used this list for my own projects, and it’s been so useful in saving time and finding the right opportunities.
+LeadWave helps you skip the grind and focus on what matters: growing your startup or business, building connections, and creating impact. My mission is to eliminate tedious research and empower you to make faster, smarter decisions.
+Testimonials
+## What our users say
+  * LeadWave has been a great parter in our marketing and lead gen efforts. The speed at which we are able to go from idea to experimentation has gone up with the accurate and reliable team supporting us at LeadWave.
+![](https://framerusercontent.com/images/NNLf8iSwysTGemT0q5EkwhI804.jpeg)
+Ras Gill-Boulos
+CMO at Pulse Q&A
+LeadWave made it simple for us to get in contact with a very niche market. The quality and speed of their work means we can rely on them, even when up against tough deadlines and sensitive contexts.
+![](https://framerusercontent.com/images/5OFQsszNygs4Dg1ovYfyhkoKY.jpg)
+Matt Boulos
+Founder at Course Match
+The team at LeadWave has been in awesome in sourcing new leads from the web for us. They've saved us countless hours and consistently delivered new leads with accurate information to our team.
+![](https://framerusercontent.com/images/DlwP62nGqgNGN2xpzUKQKjGMgI.jpeg)
+Geoff Roberts
+Co-founder at Outseta
+
+
+  * The team at LeadWave has been in awesome in sourcing new leads from the web for us. They've saved us countless hours and consistently delivered new leads with accurate information to our team.
+![](https://framerusercontent.com/images/DlwP62nGqgNGN2xpzUKQKjGMgI.jpeg)
+Geoff Roberts
+Co-founder at Outseta
+LeadWave has been a great parter in our marketing and lead gen efforts. The speed at which we are able to go from idea to experimentation has gone up with the accurate and reliable team supporting us at LeadWave.
+![](https://framerusercontent.com/images/NNLf8iSwysTGemT0q5EkwhI804.jpeg)
+Ras Gill-Boulos
+CMO at Pulse Q&A
+Leadwave’s SaaS company list was a game-changer for us. With 18,000 verified leads, we streamlined our outreach and saw results faster than ever. Highly recommend!
+![](https://framerusercontent.com/images/5wFLMsunD3N3IzlPs1N80xcN4.png)
+Oleg Bilozor
+CEO at Reply.io
+
+
+  * Leadwave’s SaaS company list was a game-changer for us. With 18,000 verified leads, we streamlined our outreach and saw results faster than ever. Highly recommend!
+![](https://framerusercontent.com/images/5wFLMsunD3N3IzlPs1N80xcN4.png)
+Oleg Bilozor
+CEO at Reply.io
+LeadWave has been a great parter in our marketing and lead gen efforts. The speed at which we are able to go from idea to experimentation has gone up with the accurate and reliable team supporting us at LeadWave.
+![](https://framerusercontent.com/images/NNLf8iSwysTGemT0q5EkwhI804.jpeg)
+Ras Gill-Boulos
+CMO at Pulse Q&A
+The team at LeadWave has been in awesome in sourcing new leads from the web for us. They've saved us countless hours and consistently delivered new leads with accurate information to our team.
+![](https://framerusercontent.com/images/DlwP62nGqgNGN2xpzUKQKjGMgI.jpeg)
+Geoff Roberts
+Co-founder at Outseta
+
+
+## Ready to Scale?
+Get a Free Data Sample of SaaS Companies List
+![](https://framerusercontent.com/images/F95XtBuIu9yRJpVFOQe6khYgo.png)
+![](https://framerusercontent.com/images/fTvRR9UO6UHLEJxbKleRMkrgzgo.png)
+[Get started](https://getleadwave.io/list-of-saas-companies)
+[Get started](https://getleadwave.io/list-of-saas-companies)
+[Get started](https://getleadwave.io/list-of-saas-companies)
+[Learn more](https://getleadwave.io/lists)
+[Learn more](https://getleadwave.io/lists)
+[Learn more](https://getleadwave.io/lists)
+[![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png)](https://getleadwave.io/)
+[![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png)](https://getleadwave.io/)
+[![](https://framerusercontent.com/images/Dogv0sHeR01b3p0AF6pzA73kI.png)](https://getleadwave.io/)
+LeadWave is a B2B Lead Generation company that provides a ready to use list of SaaS companies and helps accelerate outbound sales by delivering hand-curated and custom prospects'​ list based on any criteria.
+Other Lists
+[SaaS Companies BD](https://getleadwave.io/saas-companies-database)
+[SaaS Job Boards List](https://getleadwave.io/list-of-tech-job-boards)
+[SaaS Directories](https://getleadwave.io/list-of-saas-directories)
+[SaaS Unicorns](https://getleadwave.io/list-of-saas-unicorns)
+[AI Directories](https://getleadwave.io/list-of-ai-directories)
+SaaS Lists
+[18.000 SaaS Companies List](https://getleadwave.io/list-of-saas-companies)
+[SaaS Growth Tactics List](https://getleadwave.io/saas-growth-tactics)
+[UK SaaS Companies List](https://getleadwave.io/uk-saas-companies-list)
+[Europe SaaS Companies List](https://getleadwave.io/europe-saas-companies-list)
+[USA SaaS Companies List](https://getleadwave.io/usa-saas-companies-list)
+[Australia SaaS Companies List](https://getleadwave.io/list-of-saas-companies-in-australia)
+[Canada SaaS Companies List](https://getleadwave.io/canada-saas-companies-list)
+Resources
+[LinkedIn](https://www.linkedin.com/company/getleadwave/)
+[Twitter](https://x.com/getleadwave_io)
+[Blog](https://getleadwave.io/blog)
+[Contact Us](https://getleadwave.io/contact-us)
+Legal
+[Privacy Policy](https://getleadwave.io/privacy-policy)
+[Terms of Service](https://getleadwave.io/terms-service)
+[Spam Policy](https://getleadwave.io/spam-policy)
+[Data Protection](https://getleadwave.io/data-protection)
+","","https://getleadwave.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","LeadWave - SaaS Companies lists","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","getleadwave.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","d08c9dd30107e3023ce20d48b28e17c3c3cc3fd9a6a28e21f940cd292e31b908","0.0","0.3","71f4f9c4-77a3-58e5-81fb-dd6fd50feb2d","","2026-03-30T21:13:59.036167Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/getleadwave.io.json","/tmp/tmp21fdpwbd/evidence/domain/getleadwave.io.json","","2026-06-28T21:13:59.036170Z","SaaS startup CEO contact information","2026-03-30T21:13:12.271226Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://ankura.com/?_hsenc=p2ANqtz--S_k__VFsuflnZq4_ZJL4Qzf1HWevuyh8jHGvMnQtuZ3P2bn2Z8yT78oi21PP9wBSCRSKG&utm_campaign=Data%20Privacy%20Regulatory%20Reporter&utm_medium=email&utm_source=hs_email#main)
+# ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27300%27%20height=%2759%27/%3e)![Ankura](https://cms.ankura.com/app/uploads/2023/11/ANKURA_Logo_R_RGB_ColorReverse.svg)
+  * Industries
+    * [Aerospace & Defense](https://ankura.com/industries/aerospace-and-defense)
+    * [Construction & Infrastructure](https://ankura.com/industries/construction-and-infrastructure)
+    * [Cryptocurrency & Blockchain](https://ankura.com/industries/cryptocurrency-and-blockchain)
+    * [Education](https://ankura.com/industries/education)
+    * [Energy, Mining, & Natural Resources](https://ankura.com/industries/energy-mining-and-natural-resources)
+    * [Financial Services](https://ankura.com/industries/financial-services)
+    * [Healthcare & Life Sciences](https://ankura.com/industries/healthcare-and-life-sciences)
+    * [Hospitality, Gaming, & Leisure](https://ankura.com/industries/hospitality-gaming-and-leisure)
+    * [Manufacturing, Chemicals, & Industrials](https://ankura.com/industries/manufacturing-chemicals-and-industrials)
+    * [Real Estate](https://ankura.com/industries/real-estate)
+    * [Retail](https://ankura.com/industries/retail)
+    * [Sports](https://ankura.com/industries/sports)
+    * [Technology, Media, & Telecommunications](https://ankura.com/industries/technology-media-and-telecommunications)
+    * [Transportation & Logistics](https://ankura.com/industries/transportation-and-logistics)
+  * Solutions
+    * [Ankura AI](https://ankura.com/solutions/ankura-ai)
+    * [Cybersecurity & Data Privacy](https://ankura.com/solutions/cybersecurity-and-data-privacy)
+    * [Digital](https://ankura.com/solutions/digital)
+    * [Disputes](https://ankura.com/solutions/disputes)
+    * [Finance](https://ankura.com/solutions/finance)
+    * [Forensics & Investigations](https://ankura.com/solutions/forensics-and-investigations)
+    * [Global Strategic Advisory](https://ankura.com/solutions/global-strategic-advisory)
+    * [Governance](https://ankura.com/solutions/governance)
+    * [Operations](https://ankura.com/solutions/operations)
+    * [Risk & Compliance](https://ankura.com/solutions/risk-and-compliance)
+    * [Talent & Culture](https://ankura.com/services/talent-and-culture)
+    * [Transactions](https://ankura.com/solutions/transactions)
+    * [Transformation](https://ankura.com/solutions/transformation)
+    * [Turnaround & Restructuring](https://ankura.com/solutions/turnaround-and-restructuring)
+  * [Experts & Advisors](https://ankura.com/experts-and-advisors)
+  * [Insights](https://ankura.com/insights)
+    * [Conflict](https://ankura.com/insights?filter=f-conflict)
+    * [Distress](https://ankura.com/insights?filter=f-distress)
+    * [Performance](https://ankura.com/insights?filter=f-performance)
+    * [Risk](https://ankura.com/insights?filter=f-risk)
+    * [Strategy](https://ankura.com/insights?filter=f-strategy)
+    * [Transformation](https://ankura.com/insights?filter=f-transformation)
+  * [Careers](https://ankura.com/careers)
+  * About Us
+    * [Our Story](https://ankura.com/about)
+    * [News & Events](https://ankura.com/news-and-events)
+    * [Locations](https://ankura.com/locations)
+    * [Contact](https://ankura.com/contact)
+  * [Subscribe](https://forms.ankura.com/ankura_insights_2026)
+
+
+[Subscribe](https://forms.ankura.com/ankura_insights_2026)
+## Social Media Links
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://storage.googleapis.com/ankura-com-uploads/2024/02/e8543467-linkedin-logo.svg)](https://www.linkedin.com/company/ankura-consulting-group/)
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://storage.googleapis.com/ankura-com-uploads/2024/02/c6510143-twitter-x.svg)](https://twitter.com/ankura_consult)
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://storage.googleapis.com/ankura-com-uploads/2024/02/013bc0ca-youtube-icon-almost-black-logo.wine_.svg)](https://www.youtube.com/channel/UCmJVU-gP5mafJxsmFusDbzA/videos)
+
+
+Previous
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-com-uploads%2F2024%2F03%2F9dcc61af-ankura-ai-1.jpg&w=3840&q=75)
+## Intelligent transformation.
+We empower our clients to harness the transformative power of AI by enabling smarter decision-making, automating complex processes, personalizing customer experiences, driving innovation, and securing competitive advantages.
+[Learn more](https://ankura.com/solutions/ankura-ai)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F11%2F9c6a1189-home-hero-conflict.jpg&w=3840&q=75)
+## The right experts at the right time.
+Our team of cross-industry, cross-disciplinary experts are trusted advisors who partner with our clients – listening, learning, and charting the next steps that Protect, Create, and Recover Value through challenging times or events.
+[Learn more](https://ankura.com/focus-areas/conflict)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F11%2F8edb1760-home-hero-distress.jpg&w=3840&q=75)
+## Critical expertise in crisis situations.
+Disruption is the new normal and change will continue to accelerate at a dramatic pace. Our global team delivers the strategies and solutions that keep our clients ahead. Where others advise, we solve. Where others consult, we partner.
+[Learn more](https://ankura.com/focus-areas/distress)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F12%2F5e589e9e-home-hero-performance.jpg&w=3840&q=75)
+## For the opportunity. For the future.
+We are a firm of experts and advisors uniquely built to tackle each challenge or need, and we effectively combine the right expertise into solutions, services, and results. We don’t just talk about bringing the best together; we do it.
+[Learn more](https://ankura.com/focus-areas/performance)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F11%2Fe73f887f-home-hero-risk.jpg&w=3840&q=75)
+## Global coverage. Targeted impact.
+Where industries, disciplines, technologies, and trends intersect and when existential moments and events overlap – Ankura is there, putting our world-class expertise to work for our clients. We develop and execute creative, end-to-end solutions and provide the expertise and skills our clients need at critical moments. 
+[Learn more](https://ankura.com/focus-areas/risk)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F12%2F1d862b8e-home-hero-strategy.jpg&w=3840&q=75)
+## Collaborative lateral thinking.
+We are the experts and advisors who advise the world’s leading governments, businesses, and institutions to solve their biggest challenges and most complex problems by developing game-changing ideas that achieve positive outcomes.
+[Learn more](https://ankura.com/focus-areas/strategy)
+![](https://ankura.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fankura-dev-user-uploads%2F2021%2F12%2F9c66b5e6-home-hero-transformation.jpg&w=3840&q=75)
+## Experts in motion. Advisors in action. 
+Our multidisciplinary expertise comes together with efficiency and speed, allowing us to respond to events, and generate solutions in real-time. Integrating seamlessly across the firm, our team of experts and advisors work together in a collaborative model to address the challenges our clients face. 
+[Learn more](https://ankura.com/focus-areas/transformation)
+Next
+  * 1
+  * 2
+  * 3
+  * 4
+  * 5
+  * 6
+  * 7
+
+
+Collaborative lateral thinking, hard-earned experience, expertise, and multidisciplinary capabilities drive results and Ankura is unrivaled in its ability to assist clients to  
+**Protect, Create, and Recover Value TM**.
+### How can we help? [     Resolve and manage conflict     We protect value by delivering sound and compelling analysis in complex high-stakes litigation and investigations Learn more ](https://ankura.com/focus-areas/conflict)[     Overcome distress and manage crisis     We recover value by delivering stability and creating a sustainable path forward in distressed or crisis situations Learn more ](https://ankura.com/focus-areas/distress)[     Unlock and accelerate performance     We create value by improving business outcomes and translating strategy into results through end-to-end execution Learn more ](https://ankura.com/focus-areas/performance)[     Navigate compliance, cybersecurity, privacy, and geopolitical risks     We protect value through customizable and scalable programs that respond to global threats and maintain regulatory compliance Learn more ](https://ankura.com/focus-areas/risk)[     Optimize and execute strategy     We execute global programs that create value by capitalizing on new opportunities in the global economy Learn more ](https://ankura.com/focus-areas/strategy)[     Accelerate data-driven transformation     We enable and guide organizational change with precision execution that unlocks transformation at scale Learn more ](https://ankura.com/focus-areas/transformation)
+## Latest Insights
+  
+Loading insights
+## Our collective expertise
+We have built a global team of [subject matter experts and seasoned advisors](https://ankura.com/experts-and-advisors) with hard-earned industry knowledge, primed for this very moment, and for the future, given the disruptions and rapid pace of change that defines the business environment.
+[2,000+ professionals with projects in 115+ countries doing business in 44 languages](https://ankura.com/locations)
+## News and Events
+[ ![](https://ankura.com/) Ankura Strengthens Global Presence with New Latin America Advisory Practice Experienced Leadership Team Joins the Firm to Guide Strategic Expansion Ankura Consulting Group, LLC (“Ankura”), a leading global expert services and advisory firm, has announced the establishment of its new Latin America business consulting practice. The new practice will provide differentiated services and solutions to clients doing business in the region, enhancing the Firm’s existing ... Learn more ](https://ankura.com/news/ankura-strengthens-global-presence-with-new-latin-america-advisory-practice)[ ![](https://ankura.com/) Ankura Expands Global Digital Transformation Capabilities with Acquisition of Omniscient Platforms Strategic Move Strengthens Ankura’s Data, AI, and Technology Expertise, Bolsters Latin America Footprint Ankura Consulting Group, LLC (“Ankura”), a leading global expert services and advisory firm, today announced its acquisition of Omniscient Platforms and its subsidiary, Omniscient Health (collectively, “Omniscient”). This acquisition enhances Ankura’s first-in-class capabilities in digital transformation, including data and AI advisory, technology ... Learn more ](https://ankura.com/news/ankura-expands-global-digital-transformation-capabilities-with-acquisition-of-omniscient-platforms)
+[ February 3, 2026Ankura Names Karthik Chandrasekar as Global Head of Digital Ankura Consulting Group, LLC (“Ankura”), a leading global expert services and advisory firm, announced that Karthik Chandrasekar has joined the firm as Global Head of Digital, further strengthening Ankura’s commitment to solving complex business problems with emerging technologies. ](https://ankura.com/news/ankura-names-karthik-chandrasekar-as-global-head-of-digital)[ January 15, 2026Ankura Promotes 19 Professionals to Senior Managing Director (NEW YORK, NY – Jan. 15, 2026) Ankura Consulting Group LLC (“Ankura”), a global expert services and advisory firm, today announced the promotion of 19 professionals to Senior Managing Director, effective Jan. 1, 2026. This record‑setting class reflects the Firm’s strategic growth and its sustained investment in developing exceptional leaders across its global footprint. ](https://ankura.com/news/ankura-promotes-19-professionals-to-senior-managing-director-largest-smd-class-to-date-reflects-the-firms-success-in-strategic-growth-client-impact-and-commitment-to-developing-world-class)[ November 26, 2025Lexology Index Recognizes 30 Ankura Professionals as an Expert Witness in Arbitration Ankura Consulting Group LLC (“Ankura”) is pleased to celebrate the 30 Ankura professionals recently named to the Lexology Index: Arbitration Expert Witness 2025 list. This recognition highlights the unmatched talent and credentials of our colleagues working in the disputes and arbitration sector globally. Congratulations to the following Ankura colleagues honored as a 2025 Arbitration Expert ... ](https://ankura.com/news/lexology-index-recognizes-30-ankura-professionals-as-an-expert-witness-in-arbitration)[ November 12, 2025Ankura Announces Strategic Alliance with Coupa Integrating AI-Powered Spend Management and Expert Advisory to Transform Global Trade and Supply Chain Optimization Ankura Consulting Group, LLC (“Ankura”), a leading global expert services and advisory firm, today announced it has joined the Coupa partner ecosystem to deliver integrated technology and advisory solutions that help organizations achieve resilience, compliance, and sustainable growth in an ... ](https://ankura.com/news/ankura-announces-strategic-alliance-with-coupa)[ November 6, 2025Ankura Announces Launch of McLarty Associates Trade Compass Bespoke Tool Empowers Organizations to Navigate Unprecedented Trade Policy Changes Ankura Consulting Group, LLC (“Ankura”), a leading global expert services and advisory firm, today announced that McLarty Associates – an Ankura company since 2021 — has launched the “Trade Compass”, a subscription-based platform designed to help organizations monitor and respond to rapidly evolving U.S. trade ... ](https://ankura.com/news/ankura-announces-launch-of-mclarty-associates-trade-compass)
+[See All News](https://ankura.com/news-and-events)
+The content contained within Ankura’s website does not include municipal advisory services.
+### Let’s Connect
+We solve problems by operating as one firm to deliver for our clients. Where others advise, we solve. Where others consult, we partner.
+I’m interested in  
+Select an IndustryNone [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object]
+  * Aerospace & Defense
+  * Construction & Infrastructure
+  * Cryptocurrency & Blockchain
+  * Education
+  * Energy, Mining, & Natural Resources
+  * Financial Services
+  * Healthcare & Life Sciences
+  * Hospitality, Gaming, & Leisure
+  * Manufacturing, Chemicals, & Industrials
+  * Real Estate
+  * Retail
+  * Sports
+  * Technology, Media, & Telecommunications
+  * Transportation & Logistics
+
+
+I need help withSelect a SolutionNone [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object] [object Object]
+  * Ankura AI
+  * Cybersecurity & Data Privacy
+  * Digital
+  * Disputes
+  * Finance
+  * Forensics & Investigations
+  * Global Strategic Advisory
+  * Governance
+  * Operations
+  * Risk & Compliance
+  * Talent & Culture
+  * Transactions
+  * Transformation
+  * Turnaround & Restructuring
+
+
+Submit
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27200%27%20height=%2739%27/%3e)![Ankura](https://ankura.com/)  
+
+### Follow
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://ankura.com/)](https://www.linkedin.com/company/ankura-consulting-group/)
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://ankura.com/)](https://twitter.com/ankura_consult)
+  * [![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![](https://ankura.com/)](https://www.youtube.com/channel/UCmJVU-gP5mafJxsmFusDbzA/videos)
+
+
+### Explore
+  * [Experts & Advisors](https://ankura.com/experts-and-advisors)
+  * [Insights](https://ankura.com/insights)
+  * [Careers](https://ankura.com/careers)
+  * [News & Events](https://ankura.com/news-and-events)
+
+
+### Learn
+  * [Our Story](https://ankura.com/about)
+  * [Locations](https://ankura.com/locations)
+  * [Community](https://ankura.com/about#in-the-community)
+  * [Diversity](https://ankura.com/about#diversity-equity-inclusion)
+  * [Contact](https://ankura.com/contact)
+
+
+Copyright © 2026 Ankura Consulting Group, LLC. All rights reserved.
+  * [Legal](https://ankura.com/legal)
+  * [Cookie Policy](https://ankura.com/cookie-policy)
+  * [Manage Cookie Preferences](https://ankura.com/?_hsenc=p2ANqtz--S_k__VFsuflnZq4_ZJL4Qzf1HWevuyh8jHGvMnQtuZ3P2bn2Z8yT78oi21PP9wBSCRSKG&utm_campaign=Data%20Privacy%20Regulatory%20Reporter&utm_medium=email&utm_source=hs_email#cookie-preferences)
+  * [Privacy Policy](https://ankura.com/privacy-policy)
+  * [Modern Slavery Statement](https://ankura.com/modern-slavery-and-human-trafficking-statement-2024)
+
+
+","","https://ankura.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Ankura: Protect, Create, and Recover Value","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","ankura.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","5734eeb04dc5bd30557a9259eb00c6b52f6c04230adc4d6507026aee5d0ef006","0.0","0.3","c8005b3d-0aee-5cac-8204-60227e5dbbc5","","2026-03-30T21:13:59.054115Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ankura.com.json","/tmp/tmp21fdpwbd/evidence/domain/ankura.com.json","","2026-06-28T21:13:59.054118Z","venture consulting firm partner email","2026-03-30T21:13:15.844054Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to main content](https://kranz.consulting/#welcome)
+[ ![Kranz Consulting, an Addison Group Company](https://kranz.consulting/wp-content/themes/kranz-2023/images/kranz-logo.svg)](https://kranz.consulting)
+  * [Who We Are](https://kranz.consulting/about-us/)
+    * [Our Team](https://kranz.consulting/about-us/team/)
+    * [Life at Kranz](https://kranz.consulting/about-us/life-at-kranz/)
+    * [Corporate Social Responsibility](https://kranz.consulting/about-us/corporate-social-responsibility/)
+    * [Our Brands](https://kranz.consulting/about-us/our-brands/)
+    * [Our Partners](https://kranz.consulting/about-us/partners/)
+    * [Locations](https://kranz.consulting/locations/)
+    * [Careers](https://kranz.consulting/careers/)
+  * [Services](https://kranz.consulting/services/)
+    * [Startup & Emerging Growth](https://kranz.consulting/services/emerging-growth/)
+    * [Financial Planning & Analysis](https://kranz.consulting/services/financial-planning-analysis/)
+    * [Technical Accounting](https://kranz.consulting/services/technical-accounting/)
+    * [Fund Administration](https://kranz.consulting/services/venture-fund-administration/)
+    * [CFO Advisory & Strategic Finance](https://kranz.consulting/services/strategic-finance/)
+    * [Fractional Outsourced Accounting](https://kranz.consulting/services/outsourced-accounting/)
+    * [Audit Preparation](https://kranz.consulting/services/audit-preparation/)
+    * [Mergers & Acquisitions, IPO & SPAC](https://kranz.consulting/services/mergers-acquisitions-ipo/)
+    * [Digital Assets & Crypto Accounting](https://kranz.consulting/services/digital-assets/)
+    * [Shareholder Services](https://kranz.consulting/services/shareholder-services/)
+    * [Permanent Search](https://kranz.consulting/services/human-resources-legal/)
+    * [NetSuite & Technology Consulting](https://kranz.consulting/services/technology-consulting/)
+  * [Clients & Industries](https://kranz.consulting/clients-industries/)
+    * [AI, Big Data & Machine Learning](https://kranz.consulting/clients-industries/ai-big-data-machine-learning/)
+    * [Food, AgTech & Cannabis](https://kranz.consulting/clients-industries/ag-tech-cannabis/)
+    * [FinTech](https://kranz.consulting/clients-industries/fintech/)
+    * [Consumer Product & eCommerce](https://kranz.consulting/clients-industries/consumer-product-ecommerce/)
+    * [Healthcare & Life Sciences](https://kranz.consulting/clients-industries/healthcare-life-sciences/)
+    * [Internet of Things](https://kranz.consulting/clients-industries/internet-of-things/)
+    * [Manufacturing & Robotics](https://kranz.consulting/clients-industries/manufacturing/)
+    * [Professional Services](https://kranz.consulting/clients-industries/professional-services/)
+    * [SaaS](https://kranz.consulting/clients-industries/saas/)
+    * [Venture Capital & Private Equity](https://kranz.consulting/clients-industries/venture-capital-private-equity/)
+  * [Insights](https://kranz.consulting/insights/)
+    * [News](https://kranz.consulting/insights/resource/news/)
+    * [Webinars](https://kranz.consulting/webinars/)
+    * [Case Studies](https://kranz.consulting/insights/resource/case-studies/)
+    * [Resources](https://kranz.consulting/resources/)
+
+
+Search for:
+[Contact](https://kranz.consulting/contact-us/)
+## Consulting Solutions
+# Engage the  
+Power of Kranz.
+We are the preeminent accounting and financial solutions firm helping start-ups and Venture Capital companies grow. We believe that every business, at every stage of growth, is a story waiting to be told – and that all companies deserve to reach their full potential.
+[What We Do](https://kranz.consulting/services/)
+### Who We Are
+## We give our clients a competitive advantage.
+We deliver seasoned perspectives and insights, from the latest in Artificial Intelligence to M&A trends, the state of capital markets, and even the future of work. In a world of mounting uncertainty and complexity, knowledge is not just power, but peace of mind.
+We value mutual respect and true human connections beyond all else because those are the only connections that truly matter. Our trusted relationships are the common thread that guides everything we do.
+[Who We Are](https://kranz.consulting/about-us/)
+## Our Services
+### Supporting entrepreneurship at every stage.
+To see additional information about the over 25 services we provide our clients, learn more about our practices.
+### [Emerging Growth ](https://kranz.consulting/services/emerging-growth/)
+### [Technical Accounting ](https://kranz.consulting/services/technical-accounting/)
+### [Fund Administration ](https://kranz.consulting/services/venture-fund-administration/)
+[Services](https://kranz.consulting/services/)
+### Who We Are
+## We get Silicon Valley   
+…and we love growth stories
+### Stories are history personified.
+Stories, like businesses, are personal and transformational. They have definition and character.
+From inception to exit—from startup to medium growth, to earn out and beyond—there are countless stories that shape a company’s future. And we are the storytellers who help bring that future into focus every step of the way.
+[About Us](https://kranz.consulting/about-us/)
+####  1000+ Satisfied Clients
+####  600+ Venture Funds
+####  300+ Consultants
+####  30+ Years of Experience
+####  News & Insights 
+[ ![series A funding, An entrepreneurship and startups concept with wooden robotic hand showing seed and series funding stages in modern office setting](https://kranz.consulting/) ](https://kranz.consulting/insights/series-a-funding-definition-importance-challenges-startup-growth-valuation-success-efficiency/)
+[Funding](https://kranz.consulting/insights/topic/funding/), [Thought Leadership](https://kranz.consulting/insights/topic/thought-leadership/)
+### [ Series A Funding: Definition, Importance & Challenges  ](https://kranz.consulting/insights/series-a-funding-definition-importance-challenges-startup-growth-valuation-success-efficiency/)
+[ ![Series A funding, financial consulting, Laptop, planning and teamwork with business people in meeting from above for data, chart and strategy. Project management, budget and report with employees in office for finance, graph and research. SSUCv3H4sIAAAAAAAAA21S0W7jIBD8F57zEOPEtfMrp1O1wDpGBdYC3Naq8u9dwFJ7177NrNjZmbE/hIJktbh9COvclnKEbCmI2/kkIgaDscLX2A/nitDYTNGCq0xB1ksAj+Im0kKUn8e+G5468TiJlCFvCRNrM9OQ8c6LlX8d5TGvCn69qQL45fnX+aP4cQhV8I+YptHIbjZ64DeXi5bQz4OaChmkHmfEsWcir3JW0IMCJtApfR21GRWTqYfpqZOyG8Tfk3h5yxj9YRU2Y6nBNVptw70Rykupo6bhpsgXo2nZMu8y1S+Ft34CZcz7yrV0HGHWbDtsXpV10fXD9SLPsmYqD1NLarihI3NtbrEsGvd2sOpbczjcVkdgcjEpwJDC43w59o8fHpiI4FO2vpkBB36vCHdEX5GnlNeFMqVKd9i91ZEqWSmYa0WaHG1R0XubQyh1eM4L7Q6ulOx3HWXv1UYdNQlnV4PgSg9Fw75nOByUv46/r8eQ27aG8N92+jkyNiVyry1aJ/s4M3o8PgFYvXoo1gIAAA==](https://kranz.consulting/) ](https://kranz.consulting/insights/series-a-funding-post-round-activities-duties-key-considerations/)
+[Thought Leadership](https://kranz.consulting/insights/topic/thought-leadership/)
+### [ Series A Funding: Post-Round Activities, Duties, & Key Considerations  ](https://kranz.consulting/insights/series-a-funding-post-round-activities-duties-key-considerations/)
+[ ![venture capital fund administration, two businessman people holding pen writing a report data, Teamwork discussing meeting point to discuss the graph up and down financial of marketing economy on desk.](https://kranz.consulting/) ](https://kranz.consulting/insights/venture-capital-fund-administration-benefits-outsourcing-startup-growth-efficiency/)
+[Thought Leadership](https://kranz.consulting/insights/topic/thought-leadership/), [Venture Fund Administration](https://kranz.consulting/insights/topic/venture-fund-administration/)
+### [ Venture Capital Fund Administration: Benefits of Outsourcing  ](https://kranz.consulting/insights/venture-capital-fund-administration-benefits-outsourcing-startup-growth-efficiency/)
+[More Articles](https://kranz.consulting/insights/)
+## Meet the   
+Addison Group   
+Portfolio of Companies
+### Talent solutions 
+[Learn more](https://kranz.consulting/about-us/our-brands/)
+  * [ ![Addison Group Parent Brand Logo](https://kranz.consulting/) ](https://addisongroup.com/)
+  * [ ![AIM Consulting Brand Logo](https://kranz.consulting/) ](https://aimconsulting.com/)
+  * [ ![ArcLight Consulting Brand Logo](https://kranz.consulting/) ](https://arclightconsulting.com/)
+  * [ ![Bridgepoint Consulting Brand Logo](https://kranz.consulting/) ](https://bridgepointconsulting.com/)
+  * [ ![DLC Consulting Brand Logo](https://kranz.consulting/) ](https://dlcinc.com/)
+  * [ ![Harmony Healthcare Brand Logo](https://kranz.consulting/) ](https://harmony.solutions/)
+  * [ ![Mondo Staffing Brand Logo](https://kranz.consulting/) ](https://mondo.com/)
+
+
+[Learn more](https://kranz.consulting/about-us/our-brands/)
+## Interested in getting to know us?
+Let’s have a quick, no-pressure discussion to learn about your business challenges and see if Kranz Consulting is a good fit for your company.
+[Let’s Talk](https://kranz.consulting/contact-us/)
+![ArcLight Consulting](https://kranz.consulting/)
+Search for:
+![Close search popup](https://kranz.consulting/)
+### About
+For 30 years, Kranz Consulting has advised and supported entrepreneurs and founders through the complexities of building high-growth businesses. With 300+ career consultants nationwide, Kranz Consulting specializes in outsourced accounting, crypto accounting and digital assets, technical accounting, CFO advisory and strategic finance, NetSuite consulting, venture fund administration, stock administration, and transaction advisory services.
+### Subscribe to Our Blog
+Instagram
+This field is for validation purposes and should be left unchanged.
+Email*
+Subscribe
+[ Facebook ](https://www.facebook.com/kranzassoc/ "Facebook") [ Twitter ](https://twitter.com/KranzAssoc "Twitter") [ Instagram ](https://www.instagram.com/kranzandassoc/ "Instagram") [ LinkedIn ](https://www.linkedin.com/company/kranz-&-associates/ "LinkedIn") [ Youtube ](https://youtube.com/@kranz1699 "Youtube") [ Glassdoor ](https://www.glassdoor.com/Overview/Working-at-Kranz-Consulting-EI_IE897526.11,27.htm "Glassdoor")
+  * [Who We Are](https://kranz.consulting/about-us/)
+    * [Our Team](https://kranz.consulting/about-us/team/)
+    * [Corporate Social Responsibility](https://kranz.consulting/about-us/corporate-social-responsibility/)
+    * [Our Brands](https://kranz.consulting/about-us/our-brands/)
+    * [Life at Kranz](https://kranz.consulting/about-us/life-at-kranz/)
+    * [Locations](https://kranz.consulting/locations/)
+    * [Our Partners](https://kranz.consulting/about-us/partners/)
+    * [Careers](https://kranz.consulting/careers/)
+
+
+  * [Services](https://kranz.consulting/services/)
+    * [Emerging Growth](https://kranz.consulting/services/emerging-growth/)
+    * [Financial Planning & Analysis](https://kranz.consulting/services/financial-planning-analysis/)
+    * [Technical Accounting](https://kranz.consulting/services/technical-accounting/)
+    * [Fund Administration](https://kranz.consulting/services/venture-fund-administration/)
+    * [CFO Advisory & Strategic Finance](https://kranz.consulting/services/strategic-finance/)
+    * [Fractional Outsourced Accounting](https://kranz.consulting/services/outsourced-accounting/)
+    * [Audit Preparation](https://kranz.consulting/services/audit-preparation/)
+    * [Mergers & Acquisitions / IPO](https://kranz.consulting/services/mergers-acquisitions-ipo/)
+    * [Digital Assets](https://kranz.consulting/services/digital-assets/)
+    * [Shareholder Services](https://kranz.consulting/services/shareholder-services/)
+    * [Permanent Search](https://kranz.consulting/services/human-resources-legal/)
+    * [Technology Consulting](https://kranz.consulting/services/technology-consulting/)
+
+
+  * [Clients & Industries](https://kranz.consulting/clients-industries/)
+    * [AI, Big Data & Machine Learning](https://kranz.consulting/clients-industries/ai-big-data-machine-learning/)
+    * [Food, AgTech & Cannabis](https://kranz.consulting/clients-industries/ag-tech-cannabis/)
+    * [FinTech](https://kranz.consulting/clients-industries/fintech/)
+    * [Consumer Product & eCommerce](https://kranz.consulting/clients-industries/consumer-product-ecommerce/)
+    * [Healthcare & Life Sciences](https://kranz.consulting/clients-industries/healthcare-life-sciences/)
+    * [Internet of Things](https://kranz.consulting/clients-industries/internet-of-things/)
+    * [Manufacturing & Robotics](https://kranz.consulting/clients-industries/manufacturing/)
+    * [Professional Services](https://kranz.consulting/clients-industries/professional-services/)
+    * [SaaS](https://kranz.consulting/clients-industries/saas/)
+    * [Venture Capital & Private Equity](https://kranz.consulting/clients-industries/venture-capital-private-equity/)
+
+
+  * [Insights](https://kranz.consulting/insights/)
+  * [Contact](https://kranz.consulting/contact-us/)
+
+
+[655 Montgomery Street  
+12th Floor  
+San Francisco, CA 94111Open in Google Maps](https://www.google.com/maps/place/655+Montgomery+Street+++12th+Floor+++San+Francisco%2C+CA+94111) [Click to dial (650) 854-4400](tel:6508544400)
+* * *
+  * [Terms of Service](https://kranz.consulting/terms-of-service/)
+  * [Privacy Policy](https://kranz.consulting/privacy-policy/)
+  * [Home](https://kranz.consulting/)
+
+
+© 2026 Kranz Consulting, an Addison Group Company
+Notifications
+","","https://kranz.consulting","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Kranz Consulting: Finance & Fractional Outsourced Accounting","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","kranz.consulting","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","cfd3afc6dd15ffaf924416df9ba61633fa2b34ecbb1c5f8addb70d85bc32873d","0.0","0.3","66e3f538-7657-5635-904f-d72db34eec31","","2026-03-30T21:13:59.073653Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/kranz.consulting.json","/tmp/tmp21fdpwbd/evidence/domain/kranz.consulting.json","","2026-06-28T21:13:59.073655Z","venture consulting firm partner email","2026-03-30T21:13:18.978540Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://smallbusinessadvisoryfirm.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","The Small Business Advisory Firm","1","","","","","","https://www.linkedin.com/company/small-business-advisory-firm","","","","0.0","0.0009","0.0","0.0009","smallbusinessadvisoryfirm.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/17","0.8824","llm","heuristic_no_credit","79cb03d155241fda405b9c47387f3d68a428155358f9baab07c8b98c9ad7c945","0.0","0.3","4660104a-6672-54d2-883d-8d8eeb56b72f","","2026-03-30T21:13:59.086868Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessadvisoryfirm.com.json","/tmp/tmp21fdpwbd/evidence/domain/smallbusinessadvisoryfirm.com.json","","2026-06-28T21:13:59.086870Z","small business advisory firm team page","2026-03-30T21:13:22.893596Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Do you need help with your business? We are here to help, providing invaluable advice for an affordable fee. Request a meeting today!","","https://smallbusinessadvisory.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Local Small Business Advisors","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","smallbusinessadvisory.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/17","0.4412","llm","heuristic_no_credit","5c14230c6571e45753a1254af22fcc6e5067f099559cfe71557d81edaea992f9","0.0","0.3","833f7b3a-24f9-51ed-a63a-0e07e1d8c5fa","","2026-03-30T21:13:59.100071Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/smallbusinessadvisory.com.json","/tmp/tmp21fdpwbd/evidence/domain/smallbusinessadvisory.com.json","","2026-06-28T21:13:59.100073Z","small business advisory firm team page","2026-03-30T21:13:23.852576Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","The Advisory Network for Small Business helps businesses thrive. Our team of owners, entrepreneurs and corporate executives partner with you to unlock your business’s full potential while accelerating growth. Your experienced turnkey advisory board will work with you in necessary disciplines – human resources, marketing, finance, strategic planning – and provide a roadmap to continued success. Take your business to the next level and contact us today.","","https://ansb.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","ANSB - The Advisory Network for Small Business","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","ansb.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/17","0.8824","llm","heuristic_no_credit","fba9ce310fadb423b6b989f3c78e60f8ecc805059dae453116b981243f4cdf82","0.0","0.3","cbcd740f-8fa1-5fe9-b8a7-e399bd8beda9","","2026-03-30T21:13:59.113018Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ansb.org.json","/tmp/tmp21fdpwbd/evidence/domain/ansb.org.json","","2026-06-28T21:13:59.113020Z","small business advisory firm team page","2026-03-30T21:13:25.093635Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[![PitchBob.io Founders Co-pilot](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a981d_logo.svg)](https://pitchbob.io/)
+Products
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Co-Pilot](https://pitchbob.io/products/ai-startup-founders-co-pilot)[Enterprise](https://pitchbob.io/products/enterprise)[Improve Deck](https://pitchbob.io/products/improve-pitch-deck)[Business Plan](https://pitchbob.io/products/ai-business-plan-generator)[White Label](https://pitchbob.io/services/white-label)[VC analyst](https://pitchbob.io/products/vc)[Free tool](https://pitchbob.io/all-in-one)[VC Matching Tool](https://pitchbob.io/products/pitchdeck-vc-matcher)[Agreement Generator](https://pitchbob.io/products/founders-agreement-equity-tracker)[Equity Tracker](https://pitchbob.io/products/founders-agreement-equity-tracker)
+Services
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Pitch Deck Consultants](https://pitchbob.io/pitch-deck-consultants)[Scouting](https://pitchbob.io/services/scout-startup)[Startup Feedback](https://pitchbob.io/services/startup-feedback)[Outreach](https://pitchbob.io/services/outreach-team)[Mentorship & Tracking](https://pitchbob.io/services/startup-mentorship-and-tracking)[Grants](https://pitchbob.io/services/grants)
+[Pricing](https://pitchbob.io/#pricing)
+Media
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[Blog](https://pitchbob.io/blog)[Launchpad](https://pitchbob.io/launchpad)[Database](https://pitchbob.io/pitch-deck-database)[Pitch Deck Outline 101](https://pitchbob.io/pitch-deck-outline)[TOP-100 Startups](https://pitchbob.io/top100)[Job board](https://pitchbob.io/services/startup-jobs)[Co-founders board](https://pitchbob.io/services/startup-co-founders)[Library](https://pitchbob.io/library)[Secret Seeds](https://pitchbob.io/secretseeds)
+Company
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95cc_menu-arrow.svg)
+[About](https://pitchbob.io/about)[History](https://pitchbob.io/history)[Founder](https://pitchbob.io/founder)[News](https://pitchbob.io/product-updates)[FAQ](https://pitchbob.io/faq)
+[PICK A PLAN](https://pitchbob.io/#pricing)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+en
+[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg) en ](https://pitchbob.io/)
+[ ![Germany](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92da_de.svg) de ](https://pitchbob.io/de)
+[ ![yt](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a927c_fr.svg) fr ](https://pitchbob.io/fr)
+[ ![Spain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92e4_ea.svg) es ](https://pitchbob.io/es)
+[ ![AE](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg) ar ](https://pitchbob.io/ar)
+[ ![Portugal](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93cb_pt.svg) pt ](https://pitchbob.io/pt)
+[ ![russia](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93d0_646140f7bc5c993a7118d42e_ru.svg) ru ](https://pitchbob.io/ru)
+[ ![Tr](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9406_tr.svg) tr ](https://pitchbob.io/tr)
+[ ![Italy](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9347_it.svg) it ](https://pitchbob.io/it)
+[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92c4_cn.svg) ZH ](https://asia.pitchbob.io)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9345_in.svg) HI ](https://asia.pitchbob.io/hi)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a935e_kr.svg) KO ](https://asia.pitchbob.io/ko)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a934a_jp.svg) JA ](https://asia.pitchbob.io/ja)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9425_vn.svg) VI ](https://asia.pitchbob.io/vi)[ ![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9341_id.svg) ID ](https://asia.pitchbob.io/id)
+# AI Pitch Deck Generator & Co-Pilot for Entrepreneurs
+Say goodbye to the "blank page problem"! Chat with the AI bot to quickly shape your business idea, refine your pitch, and accelerate your startup journey — see [how it works](https://www.youtube.com/@pitchbobio), learn [why ChatGPT alone can’t do the same](https://pitchbob.io/#faq-gpt), and discover [what you get](https://pitchbob.io/what-you-get).
+[Pick a Plan](https://pitchbob.io/#pricing)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a6d_lines.svg)
+[![Web](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e98ac47f949648cda_Web.svg)](https://pitchbob.io/#pricing)[![WhatsApp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ef4aacf552d958bd0_WhatsApp.svg)](https://pitchbob.io/#pricing)[![Telegram](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e724477807d82a98f_Telegram.svg)](https://pitchbob.io/#pricing)[![Discord](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99e44e8f7462c96e76d_Discord.svg)](https://pitchbob.io/#pricing)[![WeChat](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ebf6c1f857bc0aebe_WeChat.svg)](https://pitchbob.io/#pricing)[![WeChat](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ebf6c1f857bc0aebe_WeChat.svg)](https://pitchbob.io/#pricing)[![Slack](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ef71fcd38c1db53ce_Slack.svg)](https://pitchbob.io/#pricing)[![Teams](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f6b99ed2f40f452bb66920_Teams.svg)](https://pitchbob.io/#pricing)
+0→1: From nothing to everything via one dialog with PitchBob
+Supported by
+![OpenAI](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a0e_openai.svg)
+![Microsoft for Startups](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a6f_microsoft.avif)
+![Google for Startups](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9a0d_google-for-startups.svg)
+[![PitchBob.io - AI pitch deck generator & startup co-pilot | Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=439847&theme=light&period=daily)](https://www.producthunt.com/posts/pitchbob-io?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-pitchbob-io)
+[![PitchBob.io - AI pitch deck generator & startup co-pilot | Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=439847&theme=light&period=weekly&topic_id=268)](https://www.producthunt.com/posts/pitchbob-io?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-pitchbob-io)
+![4.4 out of 5 based on 24 reviews](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67f826bb57dd4c08b56b45b1_trustpilot.svg)
+## Fully trusted. Officially used by
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94c9_main-alumni__logo-wrapper--logo-2.webp)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a976c_wharton.svg)
+![Startupbootcamp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9443_main-alumni__logo-wrapper--logo-4.png)
+![Bocconi](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978b_bocconi.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94dd_main-alumni__logo-wrapper--logo-5.png)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978a_eth.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a963a_startupwiseguys.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9797_lse.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e3_founder-institute.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a99a9_wu.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b85093078fe6e0bdbe_northeastern-university.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b7fc70363c1ba7ae2a_utrgv.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94c9_main-alumni__logo-wrapper--logo-2.webp)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a976c_wharton.svg)
+![Startupbootcamp](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9443_main-alumni__logo-wrapper--logo-4.png)
+![Bocconi](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978b_bocconi.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a94dd_main-alumni__logo-wrapper--logo-5.png)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a978a_eth.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a963a_startupwiseguys.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9797_lse.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e3_founder-institute.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a99a9_wu.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b85093078fe6e0bdbe_northeastern-university.svg)
+![Company logo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/6810b7b7fc70363c1ba7ae2a_utrgv.svg)
+🌱
+First-time founder, student, or corporate innovator?
+Shape, validate, and package your business idea from scratch — [all in one chat](https://pitchbob.io/#pricing) with our bot. Includes 📜 [founder agreement](https://pitchbob.io/products/founders-agreement-equity-tracker), 🧮 monthly co-founder contribution tracking. Zero to one, tons of artifacts. From a one-time $29.9.
+[PICK A PLAN](https://pitchbob.io/#pricing)
+📄
+Already have a pitch deck or one-pager?
+Don’t want to chat with the bot but need all the docs? Or want them in another language? Just 📥 [drop your file in the chat](https://pitchbob.io/products/improve-pitch-deck) — the bot handles the rest and emails everything to you. Flat one-time $99. No hassle.
+[Improve my pitch](https://pitchbob.io/products/improve-pitch-deck)
+💰
+Fundraising-mode founder or grant-seeking entrepreneur?
+We’ve got you covered: start with honest human 💬 [feedback on your idea](https://pitchbob.io/services/startup-feedback), then check if you’re eligible for 🇪🇺 [startup grants in Europe](https://pitchbob.io/services/grants). Get hands-on support from our [founder mentorship & tracking program ](https://pitchbob.io/services/startup-mentorship-and-tracking)or activate our 📬 [investor & client outreach team](https://pitchbob.io/services/outreach-team) to accelerate your journey. Use what you need, when you need it.
+🔁
+Working on your startup long-term?
+Need structure, discipline, and a continuous improvement mindset? 🧭 [PitchBob Founders Co-Pilot](https://pitchbob.io/products/ai-startup-founders-co-pilot) supports your monthly rhythm with planning, reflection, and auto-generated founder/stakeholder reports. From $19.9/month.
+🏢
+Corporation, university, accelerator, VC fund, incubator, or government hub?
+We offer 🏷️ [white-label](https://pitchbob.io/services/white-label) solutions starting from $99/month, 📊 [VC pipeline scoring](https://pitchbob.io/products/vc) scoring, 🔎 [free startup scouting](https://pitchbob.io/services/scout-startup), and 🎁 [perk partnerships](https://pitchbob.io/blog/perk-partnership-proposition-for-startup-accelerators-and-incubators) for your community.
+[Setup a call](https://calendly.com/dimamas/intro-call?back=1)
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97a6_language.png)
+Supports and [translates your deck](https://pitchbob.io/products/improve-pitch-deck) to any language
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97a3_text-and-voice.png)
+Understands both text and voice
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a97ad_learn-and-remember.png)
+Remembers and learns
+60,183
+tech entrepreneurs
+early-stage, first-time entrepreneurs, students, indie hackers, solo founders, and corporate intrapreneurs have trusted us with their innovative ideas.
+Updated: 8 Sep, 2025
+## Testimonials
+Very useful suggestions and guide to what is provided. Gives a great base for a deck which you can amend going forward.
+![Miles Ward photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95eb_Miles%20Ward.webp)![Great Britain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9305_gb.svg)
+Miles Alexander Ward
+TAP Asset Management
+Very user friendly and steps to be followed.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98ba_1516514434430.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg)
+Vinay Java
+Founder and CEO at Barrix Esports
+Step by step, very clear and clever.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9975_1597239709087.avif)![Ir](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9346_ir.svg)
+Soroush Sarabi
+Co-Founder at Green 3D Box Startup (CTO) | Raderon AI Lab Director
+I like how smooth the conversation was to craft the pitch!
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9989_1718251751200.avif)![sa](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ce_sa.svg)
+Sandy Nasser
+Operations and Events Director | Strategic Planning | Project Management | Team Leadership
+I liked the structure and proposed answers.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e4_1714654402196.avif)![Kazakhstan](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9360_kz.svg)
+**Nurbolat Sagenov**
+Founder of ON.AI
+I like how it did challenge my original ideas with new approach.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e0_1673231919157.avif)![australia round flag](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9567_australia.svg)
+Brendan Allsopp
+Transforming Talent Solutions With Innovation Backed By Data & Insights
+Very useful suggestions and guide to what is provided. Gives a great base for a deck which you can amend going forward.
+![Miles Ward photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95eb_Miles%20Ward.webp)![Great Britain](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9305_gb.svg)
+Miles Alexander Ward
+TAP Asset Management
+Very user friendly and steps to be followed.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98ba_1516514434430.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a923b_ae.svg)
+Vinay Java
+Founder and CEO at Barrix Esports
+Step by step, very clear and clever.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9975_1597239709087.avif)![Ir](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9346_ir.svg)
+Soroush Sarabi
+Co-Founder at Green 3D Box Startup (CTO) | Raderon AI Lab Director
+I like how smooth the conversation was to craft the pitch!
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9989_1718251751200.avif)![sa](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ce_sa.svg)
+Sandy Nasser
+Operations and Events Director | Strategic Planning | Project Management | Team Leadership
+I liked the structure and proposed answers.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e4_1714654402196.avif)![Kazakhstan](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9360_kz.svg)
+**Nurbolat Sagenov**
+Founder of ON.AI
+I like how it did challenge my original ideas with new approach.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98e0_1673231919157.avif)![australia round flag](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9567_australia.svg)
+Brendan Allsopp
+Transforming Talent Solutions With Innovation Backed By Data & Insights
+It’s absolut proper, nothing not proper.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a998b_1581527578182.avif)![Poland](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93bb_pl.svg)
+Kevin Johannes Worner
+Building media assets
+The language used by pitch bob is really good and professional. The flow of questions is perfect.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9820_chirag.webp)![India](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9345_in.svg)
+Chirag Goyal
+Holiday tribe
+Great idea and quite comprehensive.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9976_1689637666290.avif)![Se](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93ec_se.svg)
+Daniel Dahlstrom
+CEO and Founder @Punch
+The interaction with you has been generally useful and has provided good insights into our product and company challenges.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a9978_1718215013572.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92e4_ea.svg)
+Hector Barrio
+Technology Director
+Very accurate dissemination of input to produce quality crafted output.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a98bb_1718744587216.avif)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+Michael Murray-John
+Owner at MMJ Creative and Grillerrific
+I appreciate the inclusion of instant messaging features, which allows for convenient and real-time communication.
+![Jamil Yakasai photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95f5_Jamil%20Yakasai.webp)![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a940f_us.svg)
+Jamil Yakasai
+Cloud Software HQ
+PitchBob.io was the only product that had a copilot feel. I used Whatsapp to ‘talk’ to Bob who was generous with feedback.
+![Raymond Luk photo](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a95ec_Raymond%20Luk.webp)![Canada](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a92bb_ca.svg)
+Raymond Luk
+Hockeystick
+It’s absolut proper, nothing not proper.
+![](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a998b_1581527578182.avif)![Poland](https://cdn.prod.website-files.com/67db4bde8f92402fd46a918c/67db4bde8f92402fd46a93bb_pl.svg)
+Kevin Johannes Worner
+Building media assets
+The language used by pitch bob is really good ","","https://pitchbob.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AI Pitch Deck Generator & Co-Pilot for Building Startup | PitchBob","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","pitchbob.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","9c9faf75ccc7346c0b7f9a566b54ab73b664d2061a89fcdb0dac3eae3bd06b4c","0.0","0.3","69690e93-bc29-5c38-a5b9-8e4769571585","","2026-03-30T21:13:59.126610Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pitchbob.io.json","/tmp/tmp21fdpwbd/evidence/domain/pitchbob.io.json","","2026-06-28T21:13:59.126613Z","tech startup founder contact page","2026-03-30T21:13:28.262221Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","|   
+## My Favorite Co-Founders
+![My profile](https://founders-nation.com/images/icon_my_profile.png) [Save Favorites](javascript:openSaveingFavoritesDiv\('simplemodal-container-saveingFavorites','-1','-1'\);) ![see all](https://founders-nation.com/images/icon_see_all.png) [See all](https://founders-nation.com/Favorites.aspx) ![close](https://founders-nation.com/images/favortie_x_off.png)  |  
+| --- |  
+|  |  
+|   |  
+[Click to Favorites](https://founders-nation.com/)  
+|   
+ |   
+ |  Signup |  Login  |  
+| --- |  
+|  |  
+|   
+ | [![Founders Nation](https://founders-nation.com/images/logo.png)](https://founders-nation.com/Default.aspx "Founders Nation")  |   |   
+ |  |  
+| --- |  
+|  [Perks](https://founders-nation.com/Page.aspx?id=17&name=Perks) [Partners](https://founders-nation.com/Page.aspx?id=13&name=Partners) [Contact Us ](https://founders-nation.com/ContactUs.aspx)  |  
+|   |  
+ |  
+ |  
+|  |  
+|   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/70b60a2b-1bb9-4185-8072-e24f4c4a9c9d.jpg)  |   |   
+ | Naama |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Market...  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Designer  |  
+|  |  
+| **Industry:**  |   |   |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+My name is Naama Katan I am an Industrial and Management Engineer and I’m looking to join a startup as Co-Founder. I am confident that I have the skills to make a meaningful contribution as a business developer or a marketing wizard  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=927&name=Naama "Naama") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/f461ff1d-778a-4737-a350-5e3767ea1d98.jpg)  |   |   
+ | Keren Berler |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Mobile Apps  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+This is a unique opportunity to lead all tech and product aspects as part of an incredible and fun team. We're looking for a mobile developer who loves and understands product.  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=3653&name=Keren+Berler "Keren Berler") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/d63487b5-d148-4b96-93a3-c96fae4f3431.jpg)  |   |   
+ | Craig Brennan |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Produc...  |  
+|  |  
+| **I'm looking for:**  |   | Business Dev, Market...  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+I have a marketing and business plan ready to launch, I now need the right individual to join me and give the project the attention and dedication it deserves.  |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=4220&name=Craig+Brennan "Craig Brennan") |  
+|   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/d5e9f42a-6794-41da-b7b4-af7284c3426f.jpg)  |   |   
+ | Devon Olivia |  
+| --- |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Designer  |  
+|  |  
+| **Industry:**  |   | Mobile Apps  |  
+ |  
+ |  
+|  |  
+|   
+ |   | ![](https://founders-nation.com/images/gershaim.png)  |   |    
+I'm looking for a co-founder that can help me bring my business to market. I have a background in Accounting and Finance and started my own non-profit and have worked with great entrepreneurs.   |  
+| --- | --- | --- | --- |  
+ |  
+|  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=5413&name=Devon+Olivia "Devon Olivia") |  
+|   
+ |  **Find or Become a Start-up Co-Founder **
+##  Join in Berlin, Paris, London, Tel-Aviv, NY....and in your city. 
+ |  
+| --- |  
+|  |  
+| [![Im intersted](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Registration.aspx) |  
+ |  
+![](https://founders-nation.com/admin/App_Upload/_thumbs/70b60a2b-1bb9-4185-8072-e24f4c4a9c9d.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/f461ff1d-778a-4737-a350-5e3767ea1d98.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/d63487b5-d148-4b96-93a3-c96fae4f3431.jpg)
+![](https://founders-nation.com/admin/App_Upload/_thumbs/d5e9f42a-6794-41da-b7b4-af7284c3426f.jpg)
+ |  
+|  |  
+|   
+ |   
+ |  |  
+| --- |  
+| ![Search Advanced](https://founders-nation.com/images/bg_arrow_cantwt-find.png) |  
+|   
+ |  |  
+| --- |  
+|   
+ |   
+ |   | I'm looking for a Co-founder..  |   |   | from...  |   | who is...  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|   |  Who has a startup idea Who wants to join a startup [](https://founders-nation.com/)[Who has a startup idea](https://founders-nation.com/)
+  * [Who has a startup idea](https://founders-nation.com/#1)
+  * [Who wants to join a startup](https://founders-nation.com/#2)
+
+ |   |   |   |   |  Select  Select allCoder  
+Designer  
+Marketing Wizard  
+Sales  
+Product  
+Business Dev  |  
+|   |  
+|  |  
+|   
+ |   |  Stage of idea Got an idea Business plan  Prototype built Product tested Got Paying Customer [](https://founders-nation.com/)[Stage of idea](https://founders-nation.com/)
+  * [Stage of idea](https://founders-nation.com/#-1)
+  * [Got an idea](https://founders-nation.com/#1)
+  * [Business plan ](https://founders-nation.com/#2)
+  * [Prototype built](https://founders-nation.com/#3)
+  * [Product tested](https://founders-nation.com/#4)
+  * [Got Paying Customer](https://founders-nation.com/#5)
+
+ |   |  Hours per week: [](https://founders-nation.com/)  |   |   |  
+| --- | --- | --- | --- | --- | --- |  
+ |  
+|  |  
+|   
+ |   | I'm looking for a Co-founder..  |   |   | from...  |   | who is...  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|   |  Who has a startup idea Who wants to join a startup [](https://founders-nation.com/)[Who has a startup idea](https://founders-nation.com/)
+  * [Who has a startup idea](https://founders-nation.com/#1)
+  * [Who wants to join a startup](https://founders-nation.com/#2)
+
+ |   |   |   |   |  Select  Select allCoder  
+Designer  
+Marketing Wizard  
+Sales  
+Product  
+Business Dev  |  
+|   |  
+ |  
+|  |  
+| [![Advanced Search](https://founders-nation.com/images/bg_text_cantwt-find1.png)](javascript:openAdvancedSearch\(\);) |  
+|   |  
+ |  
+|   
+ |   
+ |  [](https://founders-nation.com/ "Close")  
+ |  |  
+| --- |  
+| 
+# Send Your Message to 
+ |  
+|  |  
+|   |  *   |  
+|  |  
+|   |  *   |  
+|  |  
+|   |  
+[](https://founders-nation.com/ "Close")  
+| [![Founders Nation](https://founders-nation.com/images/Sub_logo.png)](https://founders-nation.com/Default.aspx)  |  
+| --- |  
+|  |  
+| 
+# In order to send messages you must be a registered member. Please sign up or login.
+ |  
+|  |  
+|   
+ | [![Registration](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Login.aspx)  | [![Registration](https://founders-nation.com/images/blank.png)](https://founders-nation.com/Registration.aspx)  |  
+| --- | --- |  
+ |  
+|  |  
+| --- |  
+|  |  
+|  |  
+|   
+ | 
+#  Looking for a Co-Founder to join my [Idea](https://founders-nation.com/Ideas.aspx)
+* * *
+ |  
+| --- |  
+|  |  
+|   
+ | 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/3880d3a4-c5f4-41b0-826b-4739d3580d98.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [JAGPREET SINGH](https://founders-nation.com/Profile.aspx?id=42572&name=JAGPREET+SINGH "JAGPREET SINGH") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| India |  
+|  |  
+| **I'm a:**  |   | Business Dev, Marketing Wiza...  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Internet - Consumer  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| I’ve been building MemoX for about a year, shaping it into a next‑generation social engagement platform built around a simple belief: people want a personal yet connected digital space. MemoX gives users freedom, privacy, and control - like a persona... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42572&name=JAGPREET+SINGH "JAGPREET SINGH") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/1jagpreetsingh/)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42572',42572,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42572',42572,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/fcb51fcb-0e7e-43ab-8de5-8d5f71e62d6d.png) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Michael Setton](https://founders-nation.com/Profile.aspx?id=42490&name=Michael+Setton "Michael Setton") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| London, UK |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, UX  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| Digital2win is a platform for physical AI with Real to Sim to Real capability. Already implemented 3D Gaussian splats, avatars, voice. Part of Nvidia Inception program. Looking for a co-founder that knows full stack development and is capable of init... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42490&name=Michael+Setton "Michael Setton") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/michaelsetton)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42490',42490,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42490',42490,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/20c36cf7-f8ca-4dc6-8db3-e15f1955e027.png) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Sumit Arora](https://founders-nation.com/Profile.aspx?id=42487&name=Sumit+Arora "Sumit Arora") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Silicon Valley, US |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Marketing Wizard  |  
+|  |  
+| **Industry:**  |   | Life Sciences/Healthcare  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| I’m building TrueTime — an eligibility and intake infrastructure layer for home-based healthcare. Right now, agencies waste hours verifying insurance, interpreting documentation, and clearing patients. It’s slow, manual, and error-prone. That fric... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42487&name=Sumit+Arora "Sumit Arora") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42487',42487,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42487',42487,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/f378179f-0991-41ad-8f62-c6dff71dda01.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Kyle Mapfumo](https://founders-nation.com/Profile.aspx?id=42401&name=Kyle+Mapfumo "Kyle Mapfumo") |  
+|   
+ | Have an idea for startup  | Favorites (1)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| London, UK |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Business Dev, Sales  |  
+|  |  
+| **Industry:**  |   | Life Sciences/Healthcare  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| The idea is to build a scalable franchising model around Oath Healthcare, allowing high-quality local operators to deliver care under a strong central brand, systems, and governance framework. The core business already operates in the healthcare s... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42401&name=Kyle+Mapfumo "Kyle Mapfumo") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42401',42401,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42401',42401,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/5728311a-a067-4a5e-b14c-58092864be28.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Nigel Li-Fo-Sjoe](https://founders-nation.com/Profile.aspx?id=42326&name=Nigel+Li-Fo-Sjoe "Nigel Li-Fo-Sjoe") |  
+|   
+ | Have an idea for startup  | Favorites (1)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| New York, US |  
+|  |  
+| **I'm a:**  |   | Sales, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| The idea: I've seen thousands of companies struggle with VAT compliance when expanding from the US to Canada and Europe. The current solutions are too expensive, not flexible or generic software gets the rules wrong. I'm building AI-powered VAT compl... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42326&name=Nigel+Li-Fo-Sjoe "Nigel Li-Fo-Sjoe") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://www.linkedin.com/in/nigel-li-fo-sjoe/)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42326',42326,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42326',42326,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/94598075-439c-4203-986f-d7942bd63c60.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Guy Azar](https://founders-nation.com/Profile.aspx?id=42313&name=Guy+Azar "Guy Azar") |  
+|   
+ | Have an idea for startup  | Favorites (2)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Tel Aviv, Israel |  
+|  |  
+| **I'm a:**  |   | Business Dev, Sales  |  
+|  |  
+| **I'm looking for:**  |   | Coder, Product  |  
+|  |  
+| **Industry:**  |   | Internet - Business  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| You are an aspiring tech leader You are an enthusiast tech builder You find your way forward anywhere You learn fast, deliver fast and independent  |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42313&name=Guy+Azar "Guy Azar") |  
+  * |  |  
+| --- |  
+| 
+### Contact
+* * *
+ |   | ![](https://founders-nation.com/images/icon_contact.png)  |  
+|  |  
+|  **Learn more about me @** [![](https://founders-nation.com/images/web.png)](https://portune.io)  |  
+|  |  
+| ![](https://founders-nation.com/images/btn_send_message.png) |  
+
+
+ |  
+|   
+ |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(1,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(2,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(3,'divUsers_42313',42313,'Idea'\);)  |   | [![](https://founders-nation.com/images/trancperency_circle_big.png)](javascript:clickRegstep\(4,'divUsers_42313',42313,'Idea'\);)  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |  
+| 
+  *  |   
+ |   
+ | ![](https://founders-nation.com/admin/App_Upload/_thumbs/7258d7fd-b47b-4c57-a707-cb9b458154c9.jpg) |  
+| --- |  
+|   |   
+ |  |  
+| --- |  
+| [Sivan S](https://founders-nation.com/Profile.aspx?id=42252&name=Sivan+S "Sivan S") |  
+|   
+ | Have an idea for startup  | Favorites (0)  |   |  
+| --- | --- | --- |  
+ |  
+|  |  
+| Tel Aviv, Israel |  
+|  |  
+| **I'm a:**  |   | Business Dev, Product  |  
+|  |  
+| **I'm looking for:**  |   | Coder, UX  |  
+|  |  
+| **Industry:**  |   | eHealth  |  
+ |  
+ |  
+  * |  |  
+| --- |  
+| 
+### Elevator pitch
+* * *
+ |   | ![](https://founders-nation.com/images/icon_elevator_pitch.png)  |  
+|  |  
+| We are a MedTech startup developing an innovative medical monitoring system that integrates sensors, a mobile app, cloud infrastructure, and AI analysis. We are seeking a leading CTO – a technological leader and system integrator with strong hands-o... |  
+| [Read more](https://founders-nation.com/Profile.aspx?id=42252&name=Sivan+S ","","https://founders-nation.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Find or become a startup Co-Founder","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","founders-nation.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/16","0.3125","llm","heuristic_no_credit","440a7895228b444a4aca1799d5cd812b170560d525ca314d4a44432524dcf727","0.0","0.3","aff74710-e9e2-5711-aae7-89857d9a42bf","","2026-03-30T21:13:59.140194Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/founders-nation.com.json","/tmp/tmp21fdpwbd/evidence/domain/founders-nation.com.json","","2026-06-28T21:13:59.140196Z","tech startup founder contact page","2026-03-30T21:13:29.514676Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27217%27%20height=%2732%27/%3e)![CoFoundersLab](https://cofounderslab.com/_next/static/media/cofounderslab-logo.3885b809.svg)
+LoginFind a CoFounder
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.ad4cbf6a.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.b6e32431.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-3.8a85b438.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.a6138ec1.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.9e95a008.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-6.2ed02a9e.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-7.77447654.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-8.facbdff3.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-9.a713ec9c.jpg&w=128&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-10.a4220a46.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-11.75c2ade9.jpg&w=96&q=75)
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2756%27%20height=%2756%27/%3e)![Community member](https://cofounderslab.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-12.4694bc36.jpg&w=128&q=75)
+#  The Startup CommunityStart. Grow. Fund.
+CoFoundersLab is the largest startup community on the Internet. Accelerate your business today.
+### Find a CoFounder
+Find your perfect partner based on interests, skills and location.
+### Get the Right Advice
+Get Exclusive Access to industry leaders to accelerate your growth
+### Get Funded
+Prepare and perfect your pitch to get your business funded today!
+#### TRUSTED BY INDUSTRY LEADERS
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/pepperdine.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-slidebean.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-customerly.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-hubspot.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-undock.png)
+![Logo](https://cofounderslab.com/assets/images/home-page/trusted-by/light-pepperdine.png)
+## Building The World's NextGreat Companies
+Join the largest startup community where entrepreneurs connect, collaborate, and create the future of business together
+### Innovation First
+Turn groundbreaking ideas into reality with the right team and resources
+### Find Your Co-Founder
+Connect with complementary skills and shared vision to build something amazing
+### Scale Together
+Access mentorship, resources, and a community that supports your growth
+### Launch Faster
+Accelerate your path from concept to market with proven frameworks
+## Join a Thriving Community
+Connect with thousands of entrepreneurs, founders, and innovators from around the world
+![Community member 1](https://cofounderslab.com/)
+![Community member 2](https://cofounderslab.com/)
+![Community member 3](https://cofounderslab.com/)
+![Community member 4](https://cofounderslab.com/)
+![Community member 5](https://cofounderslab.com/)
+![Community member 6](https://cofounderslab.com/)
+And 700,000+ more entrepreneurs worldwide
+#### Our Community
+## With you every step of the way
+### Start your business
+Got the next best idea in business? Get access to everything you need to take on the world with your StartUp
+Learn More →
+### Grow your business
+Ready to grow your market? Get exclusive access to professionals and leaders to get you there!
+Learn More →
+### Fund your business
+Is your business seeking capital? Access an exclusive network of investors and prepare your business to get Funded!
+Learn More →
+#### NETWORK
+## Connect to an Expansive Global Network
+CoFoundersLab connects you to entrepreneurs, advisors & investors across 200+ cities and 6 continents.
+![Global network map showing connections across continents](https://cofounderslab.com/)
+700,000
+User worldwide
+200+
+Expert advisors
+### "Take Our Idea And Turn It into A Solid Business"
+By helping us find the right team member, CoFoundersLab really did help us take our company idea and turn it into a solid business that has the potential to change the world!
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27512%27%20height=%27512%27/%3e)![Drew Taylor](https://cofounderslab.com/)
+Drew Taylor
+CoFounder of AstroPrint
+## Building Your Dream Business
+From advisors, investors, mentors & entrepreneurs, CoFoundersLab provides you with all the means necessary to find the perfect fit for your startup.
+![CoFoundersLab](https://cofounderslab.com/white-logo.png)![CoFoundersLab](https://cofounderslab.com/logo.png)
+#### Product
+  * [Premium](https://cofounderslab.com/premium)
+
+
+#### Resources
+  * [Privacy Policy](https://cofounderslab.com/privacy)
+
+
+#### Company
+  * [Contact us](https://cofounderslab.com/support)
+
+
+#### Join Newsletter
+#### Connect with us
+[](https://www.facebook.com/cofounderslab)[](https://www.youtube.com/cofounderslab)[](https://www.instagram.com/cofounderslab)
+","","https://cofounderslab.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","cofounderslab.com","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","cofounderslab.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","6ecdfe1cb32e2d2a15711f44cdf006210c8ea96376b1adf7d279dba52838dae3","0.0","0.3","05296d9f-f230-5d5a-b166-36698c7b7684","","2026-03-30T21:13:59.153465Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cofounderslab.com.json","/tmp/tmp21fdpwbd/evidence/domain/cofounderslab.com.json","","2026-06-28T21:13:59.153467Z","tech startup founder contact page","2026-03-30T21:13:30.751049Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bookyourdata.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Buy Email List","1","","","","","","https://www.linkedin.com/company/bookyourdata.com","","","","0.0","0.0009","0.0","0.0009","bookyourdata.com","Basic company information available; Company name available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/16","0.625","llm","heuristic_no_credit","d3ad10e14ff6df47c546d531c9222b40dbcfd953b4fec1eb94fdaf8322dbc772","0.0","0.3","0389ae3a-aceb-5e5f-a0cc-772d418f2409","","2026-03-30T21:13:59.166732Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bookyourdata.com.json","/tmp/tmp21fdpwbd/evidence/domain/bookyourdata.com.json","","2026-06-28T21:13:59.166734Z","tech startup founder contact page","2026-03-30T21:13:31.709421Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","Preparing for case interviews? Watch this example to learn exactly what to expect. More Case Examples https://youtu.be/M0-c7rXzhwk?si=SRa4785a9z1EhBtR Why","","https://managementconsulted.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Management Consulted: The World&#039;s Largest Resource on Consulting and the Case Interview","1","","","","","","https://www.linkedin.com/company/10147742","","","","0.0","0.0009","0.0","0.0009","managementconsulted.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms)","1.0","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","0a9fc4bb576d79a343bc82ec3b008372b8398ff6748d175bbde5fba45559a3eb","0.0","0.3","1a6e94e1-be14-5dc0-ba7f-9d891f9ef95d","","2026-03-30T21:13:59.180517Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/managementconsulted.com.json","/tmp/tmp21fdpwbd/evidence/domain/managementconsulted.com.json","","2026-06-28T21:13:59.180519Z","management consulting firm director email","2026-03-30T21:13:35.132572Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-30T21:13:59.193623Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp21fdpwbd/evidence/domain/huronconsultinggroup.com.json","","2026-06-28T21:13:59.193625Z","management consulting firm director email","2026-03-30T21:13:36.440950Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[ ![](https://dmwsprod.wpenginepowered.com/wp-content/uploads/2022/02/DM-logo-dark.png)](https://www.digitalmarketer.com)
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+[ ![](https://dmwsprod.wpenginepowered.com/wp-content/uploads/2022/02/DM-logo-dark.png)](https://www.digitalmarketer.com)
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+  * [Start Here](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+  * [Membership](https://go.digitalmarketer.com/fnl_dmlab_1trial_29monthly_2025v1)
+  * [Partners](https://www.digitalmarketer.com/partners/)
+    * [What is a Certified Partner?](https://www.digitalmarketer.com/what-is-a-certified-partner/)
+    * [Find a Certified Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+    * [Become a Certified Partner](https://go.digitalmarketer.com/watch-info-session-cp)
+  * [Resources](https://www.digitalmarketer.com/resources/)
+    * [Blog](https://www.digitalmarketer.com/blog/)
+    * [Tools](https://www.digitalmarketer.com/tools/)
+    * [Faculty](https://www.digitalmarketer.com/faculty/)
+    * [About Us](https://www.digitalmarketer.com/about-us/)
+  * [LOGIN](https://members.digitalmarketer.com/login/)
+    * [Training Academy](https://members.digitalmarketer.com/login/)
+    * [Lab Community](https://my.digitalmarketer.com/)
+    * [Partners](https://dmcp.circle.so/)
+
+
+## Where AI Meets Real-World Marketing for Real-World Businesses
+## Plan smarter. Execute faster. Grow with AI-powered marketing systems built for real businesses like yours.
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## It’s fast, it’s free, and it could save you thousands in lost leads.
+Trusted by over 125,000  | worldwide
+## Why Your Funnel Isn’t Converting Like It Should
+## Most marketers are running traffic to broken funnels. Here’s where the leaks happen... and why most fixes don’t stick.
+###  You’re Guessing at the Strategy 
+Without a clear customer journey, your campaigns feel scattered and your conversions reflect it. 
+###  Your Messaging Doesn’t Hit 
+Most funnels focus on what you want to say, not what your customer needs to hear. That disconnect kills conversion. 
+###  You’re Losing the Sale Post-Click 
+Even if your ad works, your funnel isn’t optimized to convert clicks into actual sale and there’s no follow-up. 
+###  You Have No Retention or Follow-Up 
+Most funnels are built for first-time buyers only. If you’re not maximizing LTV, you’re leaving money on the table every month. 
+## Think you might be leaking leads at one (or all) of these stages?
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Marketing Systems That Just Make Sense
+## Three simple steps. One powerful result.
+## Step 1: Learn the Framework
+**We start with structure.**
+Inside Lab, you’ll get proven marketing frameworks (like our AI-Powered CVO Model) that show you exactly how to plan campaigns, build funnels, and connect the dots from awareness to sale.
+## No guesswork. No starting from scratch. Just plug into what works.
+![](https://www.digitalmarketer.com/)
+![](https://www.digitalmarketer.com/)
+## Step 2: Plug In AI Tools
+**With the strategy mapped out, it’s time to move fast.**
+We give you AI-powered prompts, automation workflows, and smart tools that help you create high-converting content, emails, and ads in record time.
+## AI isn’t the strategy, it’s your execution engine.
+## Step 3: Launch, Optimize, Repeat
+**Push go, track performance, and make it better every time.**
+Whether you’re refining your offer or scaling a funnel, Lab helps you iterate quickly and win faster, with community support when you need it.
+## Marketing becomes a system. Growth becomes inevitable.
+![](https://www.digitalmarketer.com/)
+[ Get Your Free AI Funnel Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Let AI show you exactly where your marketing is leaking leads and sales.
+## Meet the System That Helps You Fix It All, Fast
+## DigitalMarketer Lab gives you the tools, training, and AI-enhanced frameworks to fix what’s broken and scale what’s working.
+## What You Get Inside Lab...
+###  AI Frameworks 
+Plug-and-play marketing models enhanced by AI for every stage of your funnel. 
+###  Tactical Training 
+Learn from in-the-trenches experts (not influencers) with practical, direct-to-execution lessons. 
+###  Execution Support 
+Templates, prompts, and automation workflows that cut down build time and boost quality. 
+###  Community & Coaching 
+Get feedback, accountability, and answers from a network of marketers and certified partners. 
+![](https://www.digitalmarketer.com/)
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Real Marketers, Real Results
+Seriously, we have a massive ROI and we aren't the only ones.
+__ __ __ __ __
+"100%...It. Just. Works. Seriously, we have a massive ROI and we aren't the only ones. I talked to so many partners singing praises and dancing with the success they are having. Small, mid and large size agencies. It just works." —Pol C. 
+I want to express my gratitude for the work you’ve done...
+__ __ __ __ __
+"I want to express my gratitude for the work you’ve done, and I’m very excited to enjoy the satisfaction I can create in my career thanks to the education you provide." —John Greenhow 
+This is need-to-know information for business owners!
+__ __ __ __ __
+"This is need-to-know information for business owners! Plus after some successes you can help others with the process. Great program! Don’t walk…run!" —Lisa R. Middleton 
+I receive responses and answers within minutes...
+__ __ __ __ __
+"It’s a highly engaged group, anytime I have questions I receive responses and answers within minutes from multiple people." —Bill Pescosolido 
+My goodness this stuff REALLY works.
+__ __ __ __ __
+"I have already gotten a ton of signups and even one upgrade to a $100 product. LOL I love this stuff. Now, I will have to pretty it all up and start promoting it. I just sent it to my list. Thanks you AGAIN Ryan Deiss and the TEAM!" —Kathy Hadley 
+Thanks for helping me double my business… TWICE!
+__ __ __ __ __
+"Notice how most of the courses that teach you how to advertise with Facebook have only ever advertised courses that teach how you how to advertise Facebook? EXACTLY. DM Does this stuff just like we do and their team of experts are great teachers." —Graham English 
+## Meet the Experts Behind DigitalMarketer
+## Learn from the marketing minds trusted by top brands and thousands of entrepreneurs worldwide. 
+![Ryan Deiss](https://www.digitalmarketer.com/)
+#### Ryan Deiss
+Co-Founder & CEO, DigitalMarketer
+Bestselling author, serial entrepreneur, and creator of the “Customer Value Optimization” framework, Ryan is the marketing mind behind DigitalMarketer and the Traffic & Conversion Summit. He’s helped shape the strategies modern marketers now take for granted. 
+![Lauren Petrullo](https://www.digitalmarketer.com/)
+#### Lauren Petrullo
+Founder & CEO, Mongoose Media
+Lauren is an award-winning marketer and the founder of Mongoose Media, an Orlando-based agency. She also leads multiple ventures, including Asian Beauty Essentials, Beau & Belle Littles, and the chatbot brand Bot Blondes. 
+![Scott Cunningham](https://www.digitalmarketer.com/)
+#### Scott Cunningham
+Founder & CEO, Social Lite
+Scott is the founder of Social Lite, a Shopify Partner agency helping hundreds of ecommerce brands scale through Facebook Ads, Google Ads, email marketing, and CRO. He’s a trusted growth advisor to Shopify merchants around the world. 
+![Alex Cattoni](https://www.digitalmarketer.com/)
+#### Alex Cattoni
+Founder, Copy Posse
+Alex is a copywriter, speaker, and founder of the Copy Posse, a global community of marketers mastering authentic, high-converting messaging. She’s also the creator of the Copy Posse Launch Pad and co-host of the Flight Club Mastermind. 
+![Dave Albano](https://www.digitalmarketer.com/)
+#### Dave Albano
+Founder & CEO, Joza Marketing
+Dave is a digital marketing strategist and speaker known for his high-impact 2-Day Business Intensives and results-driven approach. At Joza, he helps businesses scale through automation, funnel optimization, and lead generation strategies that work. 
+![Mandy McEwen](https://www.digitalmarketer.com/)
+#### Mandy McEwen
+Founder & CEO, Mod Girl Marketing
+Mandy is a top-rated B2B marketer and the founder of Mod Girl Marketing, where she helps enterprise teams boost revenue through LinkedIn and email. She’s also a speaker, trainer, and recognized leader in social selling. 
+![Maxwell Finn](https://www.digitalmarketer.com/)
+#### Maxwell Finn
+Founder, Future Traffik
+Max is a serial entrepreneur and TikTok ads expert who’s helped thousands of marketers master paid traffic. He’s the founder of Future Traffik, co-founder of Quantum Media, and a pioneer in both Meta and TikTok advertising for brands like ClickFunnels, Onnit, and Snow. 
+![Heather Farris](https://www.digitalmarketer.com/)
+#### Heather Farris
+Founder & CEO, Heather Farris Co.
+Heather is a Pinterest marketing expert helping content creators and service providers drive traffic and sales through strategic Pinterest campaigns. She also teaches her methods via YouTube and a thriving membership community. 
+## Learn from Real Marketers Who Actually Do This Stuff
+[ Learn From the Best ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Why DigitalMarketer?
+## Not just another AI tool. Not just another guru course. We’re where smart marketers go to systemize growth... with AI-powered strategy, execution, and support.
+## What You Get with DigitalMarketer 
+  * AI-enhanced frameworks built by marketers, for marketers
+  * Tactical training from in-the-trenches experts
+  * A system you can plug into today and grow with tomorrow
+  * Community support + certified partner implementation
+  * Built for SMBs, agencies, coaches, and creators
+  * Clear customer journeys and action plans
+  * Proven results and thousands of success stories
+
+
+## What You’re Probably Used To
+  * One-size-fits-all templates with no strategy
+  * Generic theory from influencers who don't execute
+  * Disconnected hacks that don't scale
+  * "You're on your own" style course forums
+  * Tailored for enterprise or total beginners only
+  * Overwhelming tools with no guidance
+  * Big promises, little proof
+
+
+## Ready to Upgrade Your Marketing?
+[ Start Your $1 Trial of Lab ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Ready to Start Your Marketing Transformation?
+## Choose the path that fits your goals.
+## Get a Free AI Funnel Audit
+## Find the leaks in your funnel and fix them fast. Our free audit uses AI to pinpoint where you’re losing leads and shows you exactly how to turn it around.
+[ Get My Free Audit ](https://go.digitalmarketer.com/ai-powered-marketing-audit)
+## Join DigitalMarketer Lab
+## Learn the strategies, tools, and systems used by real marketers. Access our complete library of AI-enhanced frameworks, plug-and-play templates, and on-demand trainings.
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## Work with Us in Elite
+## Apply to work directly with our team inside ELITE, our premier program for business owners ready to grow fast with expert guidance and hands-on help.
+[ Apply for Elite ](https://www.digitalmarketer.com/lp/elite-growth-accelerator/)
+## Frequently Asked Questions
+## Got questions about DigitalMarketer? Start here.
+What is DigitalMarketer, exactly?
+DigitalMarketer is a training, tools, and community platform for marketers, entrepreneurs, and small business owners who want to scale with smarter systems and strategies… now enhanced by AI.
+Do I need to be a tech expert to use what you offer?
+Not at all. Our tools and training are built for real-world marketers and business owners. If you can write an email or run a Facebook ad, you’ll get value from day one.
+Who is DigitalMarketer for?
+We serve small business owners, marketers, coaches, consultants, agencies, and ecommerce brands. If you’re focused on growth and want to market smarter (not harder) you’re in the right place.
+How does the free AI Funnel Audit work?
+It’s simple: you answer a few quick questions, and our AI-powered system gives you a personalized report showing where leads are falling through the cracks, and how to fix it.
+What if I already use other AI tools?
+Perfect. Our tools and frameworks plug into whatever you’re already using. Think of DigitalMarketer as your AI-enhanced strategy and execution layer, not just another tool.
+Do you offer anything beyond self-paced training?
+Yes! In addition to on-demand tools and courses, we offer a high-touch mentorship and implementation program called Elite, where we work directly with business owners who want expert support to scale fast.
+##  Smarter Marketing Starts Here
+## Join 3,500+ marketers using Lab to fix what’s broken and scale what’s working. Start your $1 trial today and plug into the system built for real businesses.
+![](https://www.digitalmarketer.com/)
+[ Try Lab for Just $1 ](https://go.digitalmarketer.com/lab-1-trial-page)
+## No contracts. Cancel anytime. 100% risk-free.
+## Join 250,000+ Marketers Getting Smarter Every Week
+## Subscribe for weekly insights, tools, and behind-the-scenes strategies to help you market smarter (with or without AI).
+Email 
+Subscribe!
+## No spam. Just smart, actionable ideas delivered straight to your inbox. 
+![](https://www.digitalmarketer.com/)
+## [About](https://www.digitalmarketer.com/about-us/)
+## [Blog](https://www.digitalmarketer.com/blog/)
+## [Contact](https://www.digitalmarketer.com/contact-us/)
+## [Privacy](https://www.digitalmarketer.com/privacy-policy/)
+## [Terms](https://www.digitalmarketer.com/terms-conditions/)
+[ ![](https://www.digitalmarketer.com/)](https://www.digitalmarketer.com/)
+© Copyright 2025 DigitalMarketer.   
+All Rights Reserved.
+[ ![](https://www.digitalmarketer.com/)](https://www.digitalmarketer.com/)
+Marketing Skills
+[Digital Advertising](https://www.digitalmarketer.com/digital-advertising/)  
+[Content Marketing](https://www.digitalmarketer.com/content-marketing-2/)  
+[Email Marketing](https://www.digitalmarketer.com/email-marketing/)  
+[Search Marketing](https://www.digitalmarketer.com/search-marketing/)  
+[Social Media Marketing](https://www.digitalmarketer.com/social-media-marketing/)  
+[Copywriting](https://www.digitalmarketer.com/copywriting/)  
+[Ecommerce Marketing](https://www.digitalmarketer.com/ecommerce-marketing/)  
+[Analytics & Data](https://www.digitalmarketer.com/analytics-data/)  
+[Community Management](https://www.digitalmarketer.com/community-management/)  
+[Optimization & Testing](https://www.digitalmarketer.com/optimization-testing/)
+Marketing Topics
+[Trends/News](https://www.digitalmarketer.com/trends-news/) [Traffic Generation](https://www.digitalmarketer.com/traffic-generation/) [List Building](https://www.digitalmarketer.com/list-building/) [Conversion Optimization](https://www.digitalmarketer.com/conversion-optimization-2/) [Increase Engagement](https://www.digitalmarketer.com/increase-engagement/) [Offer/Funnel Creation](https://www.digitalmarketer.com/offer-funnel-creation/) [Campaign Creation](https://www.digitalmarketer.com/campaign-creation/) [Marketing Automation](https://www.digitalmarketer.com/marketing-automation/) [Marketing Management](https://www.digitalmarketer.com/marketing-management/)
+[Channels](https://www.digitalmarketer.com/channels/)
+[Google](https://www.digitalmarketer.com/google/)  
+[Facebook](https://www.digitalmarketer.com/facebook/)  
+[Instagram](https://www.digitalmarketer.com/instagram/)  
+[YouTube](https://www.digitalmarketer.com/youtube/)  
+[Email](https://www.digitalmarketer.com/email/)  
+[LinkedIn](https://www.digitalmarketer.com/linkedin-posts/)  
+[Twitter](https://www.digitalmarketer.com/twitter/)  
+[Pinterest](https://www.digitalmarketer.com/pinterest-posts/)  
+[TikTok](https://www.digitalmarketer.com/tiktok/)  
+[Influencer/Affiliate](https://www.digitalmarketer.com/influencer-affiliate/)
+Customer Value Journey Stages
+[Awareness](https://www.digitalmarketer.com/awareness/)  
+[Engagement](https://www.digitalmarketer.com/engagement/)  
+[Subscription](https://www.digitalmarketer.com/subscribe/)  
+[Convert](https://www.digitalmarketer.com/convert/)  
+[Excite](https://www.digitalmarketer.com/excite/)  
+[Ascend](https://www.digitalmarketer.com/ascend/)  
+[Advocate](https://www.digitalmarketer.com/advocate/)  
+[Promote](https://www.digitalmarketer.com/promote/)
+[Agencies & Consultants](https://www.digitalmarketer.com/agencies-consultants/)
+[Become A Partner](https://www.digitalmarketer.com/partners/)  
+[Find a Partner](https://www.digitalmarketer.com/find-a-certified-partner/)
+Free Resources 
+[Newsletter](https://www.digitalmarketer.com/newsletter/)  
+[Blog](https://www.digitalmarketer.com/blog/)  
+[Podcast](https://www.digitalmarketer.com/podcast/)  
+[Case Studies](https://www.digitalmarketer.com/digital-marketing-case-studies)
+Products
+[DigitalMarketer Lab](https://www.digitalmarketer.com/lab/) ","","https://digitalmarketer.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","AI Marketing Systems for Real Businesses | DigitalMarketer","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","digitalmarketer.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/17","0.5882","llm","heuristic_no_credit","608ba8500b1685693f3daa41af8ba15822e56a4209852cb50b76f8d015cf5580","0.0","0.3","96ba797f-6773-5b2e-95a5-4d93c3207a21","","2026-03-30T21:14:07.030670Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/digitalmarketer.com.json","/tmp/tmp21fdpwbd/evidence/domain/digitalmarketer.com.json","","2026-06-28T21:14:07.030676Z","digital marketing agency founder contact","2026-03-30T21:13:42.258328Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

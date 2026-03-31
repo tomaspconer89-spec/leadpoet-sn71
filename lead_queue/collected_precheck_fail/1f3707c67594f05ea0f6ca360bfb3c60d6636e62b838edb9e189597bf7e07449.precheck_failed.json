@@ -11,13 +11,27 @@
     "website": "https://sbadvisors.cc",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/heather-taylor-2203597/",
     "company_linkedin": "https://www.linkedin.com/company/smallbusinessadvisors/",
     "source_url": "https://sbadvisors.cc",
     "description": "Contact us today. Small Business Advisors provides business advice, planning and tax services.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

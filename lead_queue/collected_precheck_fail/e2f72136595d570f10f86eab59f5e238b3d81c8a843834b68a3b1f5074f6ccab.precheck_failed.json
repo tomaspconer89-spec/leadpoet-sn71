@@ -3,13 +3,25 @@
   "business": "Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach",
   "lead": {
     "business": "Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
     "website": "https://prospeo.io",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
     "company_linkedin": "https://ca.linkedin.com/company/%CF%81r%CE%BF%D1%95%D1%80%D0%B5%CE%BF",
     "source_url": "https://prospeo.io",
     "description": "Prospeo helps sales teams find verified business emails and mobile numbers. Export leads and connect with decision-makers.",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
     "socials": {
@@ -17,7 +29,9 @@
       "github": null,
       "twitter": null,
       "telegram": null,
-      "instagram": null
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
     }
   }
 }

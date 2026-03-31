@@ -11,13 +11,27 @@
     "website": "https://westexec.com",
     "industry": "Professional Services",
     "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
     "linkedin": "https://www.linkedin.com/in/robert-blair-dc/",
     "company_linkedin": "https://www.linkedin.com/company/westexec/",
     "source_url": "https://westexec.com",
     "description": "Loading... WestExec Advisors is a strategic advisory firm that offers unique geopolitical and policy expertise to help business leaders make the best decisions in a complex and volatile international landscape. We are an unrivaled, bipartisan team of senior national security leaders with the most recent experience and unmatched networks in defense, foreign policy, intelligence, economics, cybersecurity,",
     "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   }
 }

@@ -1,0 +1,627 @@
+{
+  "saved_at_utc": "2026-03-31T00:25:38.577583+00:00",
+  "queue_key": "834383d5fd36d727b6aba8e9e43bc8af113577197871ecfcae10d59826351672",
+  "business": "Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+      "Preplaced: Supercharge your career with 1:1 Long Term Mentorship linkedin company",
+      "site:linkedin.com/company preplaced.in",
+      "site:linkedin.com/in \"Preplaced: Supercharge your career with 1:1 Long Term Mentorship\" founder",
+      "site:linkedin.com/in \"Preplaced: Supercharge your career with 1:1 Long Term Mentorship\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "LjsYmIXlsAWMQYq",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SkillAxis",
+            "url": "https://www.linkedin.com/company/skillaxisgo",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SkillAxis",
+            "description": "SkillAxis | 325 followers on LinkedIn. We help founders and PMs build great things and advance their careers. | We help founders and PMs build great things\u00a0...",
+            "emphasizedKeywords": [
+              "We help founders and PMs build great things and advance their careers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "320+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Eradigm Consulting",
+            "url": "https://uk.linkedin.com/company/eradigm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Eradigm Consulting",
+            "description": "Eradigm works with select biopharmaceutical companies to develop a deeper and more nuanced understanding of their markets.Read more",
+            "emphasizedKeywords": [
+              "a",
+              "of"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.8K+ followers",
+            "type": "organic",
+            "position": 2
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/7Kfz0LjIqmDYIbRLe/records/LjsYmIXlsAWMQYq-0.html?signature=A6Oz6x542UzP9zG1340A"
+      },
+      {
+        "#debug": {
+          "requestId": "01jTbgH9J2NPkwd",
+          "url": "http://www.google.com/search?q=Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Preplaced: Supercharge your career with 1:1 Long Term Mentorship linkedin company",
+          "url": "http://www.google.com/search?q=Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Preplaced%3A+Supercharge+your+career+with+1%3A1+Long+Term+Mentorship+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "1:1 mentoring",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=1:1+mentoring&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "I need a mentor for my career",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=I+need+a+mentor+for+my+career&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhKEAE"
+          },
+          {
+            "title": "Hire mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Hire+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhLEAE"
+          },
+          {
+            "title": "Online mentorship jobs",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Online+mentorship+jobs&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhJEAE"
+          },
+          {
+            "title": "Free mentorship for software Engineer",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Free+mentorship+for+software+Engineer&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Tech mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Tech+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhIEAE"
+          },
+          {
+            "title": "Interview preparation mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Interview+preparation+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Software developer mentorship",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Software+developer+mentorship&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhGEAE"
+          },
+          {
+            "title": "1:1 mentoring",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=1:1+mentoring&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhFEAE"
+          },
+          {
+            "title": "I need a mentor for my career",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=I+need+a+mentor+for+my+career&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhKEAE"
+          },
+          {
+            "title": "Hire mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Hire+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhLEAE"
+          },
+          {
+            "title": "Online mentorship jobs",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Online+mentorship+jobs&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhJEAE"
+          },
+          {
+            "title": "Free mentorship for software Engineer",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Free+mentorship+for+software+Engineer&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhEEAE"
+          },
+          {
+            "title": "Tech mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Tech+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhIEAE"
+          },
+          {
+            "title": "Interview preparation mentor",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Interview+preparation+mentor&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhHEAE"
+          },
+          {
+            "title": "Software developer mentorship",
+            "url": "https://www.google.com/search?sca_esv=2eb1beb0bd5e5e34&hl=en&gl=US&q=Software+developer+mentorship&sa=X&ved=2ahUKEwib9L_l78iTAxXf8bsIHVJ0HwQQ1QJ6BAhGEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Pallav Bag's Post",
+            "url": "https://www.linkedin.com/posts/pallav-bag_preplaced-indias-top-job-prep-career-mentorship-activity-7149089661984968704-RJXt",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pallav Bag",
+            "description": "500 mentorship minutes completed, and I'm now an \"Attentive Achiever.\" Every minute spent with my mentor on Preplaced has been a revelation.Read more",
+            "emphasizedKeywords": [
+              "mentorship",
+              "my mentor",
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Supercharge your career with 1:1 Long Term Mentorship",
+            "url": "https://www.linkedin.com/posts/mani-kumar-088632288_preplaced-ddsupercharge-your-career-with-activity-7185857572531253249-8CVD",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a mani-kumar-088632...",
+            "description": "Apr 15, 2024 \u2014 Celebrating my 10th task completion on Preplaced! Proud to have earned the \"Task Achiever\" badge. This journey is getting more exciting with\u00a0...",
+            "date": "2024-04-15T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Celebrating my 10th task completion on Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Supercharge your career with 1:1 Long Term Mentorship",
+            "url": "https://www.linkedin.com/posts/souravmahapatra_preplaced-supercharge-your-career-with-1-activity-7334672246499672064-wKxm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sourav Mahapatra",
+            "description": "I'm sharing this lesson here to help you let go of rejection as well. Hope it helps! Find your Long Term Mentor today preplaced.in.Read more",
+            "emphasizedKeywords": [
+              "your Long Term Mentor",
+              "preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Preplaced: Supercharge your career with 1:1 Long Term ...",
+            "url": "https://www.preplaced.in/",
+            "displayedUrl": "https://www.preplaced.in",
+            "description": "Land your dream job, role, and company faster than ever with 1:1 long term mentorship. ... Every mentor on Preplaced themselves work in big companies and earn\u00a0...Read more",
+            "emphasizedKeywords": [
+              "1:1 long term mentorship"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Is Pre placed 1:1 mentorship a scam? I am considering it ...",
+            "url": "https://www.reddit.com/r/developersIndia/comments/1e0tzdl/is_pre_placed_11_mentorship_a_scam_i_am/",
+            "displayedUrl": "Reddit\u00a0\u203a\u00a0r/developersIndia",
+            "description": "preplaced mentorship certainly helped me get a job in those tough times .. it worked for me in CV preparation, preparing for the interviews,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "preplaced mentorship certainly helped me get a job in those tough times"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "commentsAmount": "20+ comments",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Preplaced",
+            "url": "https://in.linkedin.com/company/preplaced",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Preplaced",
+            "description": "At Preplaced, we are dedicated to helping people achieve their career goals by providing mentor-led guidance. Our mentors are top industry experts.Read more",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "47K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Prashant Singh",
+            "url": "https://preplaced.in/profile/prashant-singh",
+            "displayedUrl": "https://preplaced.in \u203a profile \u203a prashant-singh",
+            "description": "Elevate your career with our seasoned mentor, Prashant Singh. Gain industry insights, explore career paths & boost your professional growth. Learn more!",
+            "emphasizedKeywords": [
+              "Elevate your career with our seasoned mentor, Prashant Singh"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Become a Mentor | Long-Term Mentorship on Preplaced",
+            "url": "https://www.preplaced.in/become-a-mentor",
+            "displayedUrl": "https://www.preplaced.in \u203a become-a-mentor",
+            "description": "Join Preplaced as a mentor to share your skills, knowledge, expertise, and professional network with those seeking to grow in their careers. Learn more!",
+            "emphasizedKeywords": [
+              "Preplaced",
+              "mentor",
+              "your",
+              "professional",
+              "careers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Prakash Kumar's Post",
+            "url": "https://www.linkedin.com/posts/s-prakash-kumar_preplaced-supercharge-your-career-with-1-activity-7173535818722996224-2_QZ",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Prakash Kumar",
+            "description": "Find your Long Term Mentor today | Visit Preplaced preplaced.in. Like Comment. Share. CopyRead more",
+            "emphasizedKeywords": [
+              "your Long Term Mentor",
+              "Preplaced preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2 years ago",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Ashfak Ahamed Emon PGDMBM\u2122's Post",
+            "url": "https://www.linkedin.com/posts/ashfakemon007_preplaced-supercharge-your-career-with-1-activity-7343889019254050816-13s3",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ashfak Ahamed Emon PGDMBM\u2122",
+            "description": "Preplaced: Supercharge your career with 1:1 Long Term Mentorship preplaced.in.Read more",
+            "emphasizedKeywords": [
+              "Preplaced",
+              "Supercharge your career with 1:1 Long Term Mentorship preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/dVy4oKlPznW3bJXyB/records/01jTbgH9J2NPkwd-0.html?signature=yKzQDrwVGksI5s8RzkWw"
+      },
+      {
+        "#debug": {
+          "requestId": "V2EXVbjE28sARvI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+preplaced.in",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+preplaced.in",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company preplaced.in",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+preplaced.in",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+preplaced.in",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Preplaced",
+            "url": "https://in.linkedin.com/company/preplaced",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Preplaced",
+            "description": "At Preplaced, we are dedicated to helping people achieve their career goals by providing mentor-led guidance. Our mentors are top industry\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "47K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Berkel & Company Contractors, Inc.",
+            "url": "https://mu.linkedin.com/company/berkelandcompany?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Berkel & Company Contractors, Inc.",
+            "description": "... industrial utilizing a special type of repair known as Preplaced Aggregate Concrete, along with Sheeting & Shoring, Anchors and Tiebacks.",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "11.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Leeco AI",
+            "url": "https://www.linkedin.com/company/leeco-ai-your-learning-companion",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leeco AI",
+            "description": "Preplaced. E-Learning Providers. Bangalore, Karnatak \u00b7 LeetCode. IT Services and IT Consulting. Palo Alto, CA \u00b7 takeUforward. E-learning \u00b7 BlueJeans by Verizon.Read more",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Hey Mentor",
+            "url": "https://www.linkedin.com/company/heymentor",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Hey Mentor",
+            "description": "Hey Mentor serve as an online platform for college and career access and mentorship for underserved students - while promoting student leadership.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Hito",
+            "url": "https://www.linkedin.com/company/hitotopmate",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Hito",
+            "description": "Preplaced. E-Learning Providers. Bangalore, Karnatak \u00b7 Investis Digital. Advertising Services. London, England \u00b7 Finocontrol\u00ae. Education Administration Programs.Read more",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.5K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Data to Production",
+            "url": "https://in.linkedin.com/company/data-to-production",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Data to Production",
+            "description": "Welcome to Data to Production, the YouTube channel where we explore the journey of taking data from its raw form to production-ready applications.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "BlueJeans by Verizon",
+            "url": "https://ch.linkedin.com/company/bluejeans-by-verizon?trk=public_profile_experience-group-header",
+            "displayedUrl": "https://ch.linkedin.com \u203a company \u203a bluejeans-by-verizon",
+            "description": "Preplaced. E-Learning-Anbieter. Bangalore, Karnatak \u00b7 Sonus. Telekommunikation. Westford, MA \u00b7 Leeco AI. Bildungswesen \u00b7 project44. Softwareentwicklung. Chicago\u00a0...",
+            "emphasizedKeywords": [
+              "Preplaced"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Topmate",
+            "url": "https://uk.linkedin.com/company/topmateai",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Topmate",
+            "description": "Topmate is a platform that connects individuals seeking guidance and expertise with industry experts, creators, and mentors.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "950+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "InnoCity Partners",
+            "url": "https://www.linkedin.com/company/innocity-partners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0InnoCity Partners",
+            "description": "InnoCity Partners provides counsel to organizations across the public and private sector to design, build and execute smart city programs.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Product Bytes",
+            "url": "https://www.linkedin.com/company/product-bytes",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Product Bytes",
+            "description": "Product Bytes is a podcast for tech professionals and entrepreneurs interested in the latest trends in digital products, startups, and product management.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/g6969S6xN0Q1ihjuH/records/V2EXVbjE28sARvI-0.html?signature=1P0qqZuidBquoqGwKquIj"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+      "https://www.linkedin.com/company/skillaxisgo",
+      "https://uk.linkedin.com/company/eradigm",
+      "https://www.linkedin.com/posts/pallav-bag_preplaced-indias-top-job-prep-career-mentorship-activity-7149089661984968704-RJXt",
+      "https://www.linkedin.com/posts/mani-kumar-088632288_preplaced-ddsupercharge-your-career-with-activity-7185857572531253249-8CVD",
+      "https://www.linkedin.com/posts/souravmahapatra_preplaced-supercharge-your-career-with-1-activity-7334672246499672064-wKxm",
+      "https://in.linkedin.com/company/preplaced",
+      "https://www.linkedin.com/posts/s-prakash-kumar_preplaced-supercharge-your-career-with-1-activity-7173535818722996224-2_QZ",
+      "https://www.linkedin.com/posts/ashfakemon007_preplaced-supercharge-your-career-with-1-activity-7343889019254050816-13s3",
+      "site:linkedin.com/company preplaced.in",
+      "https://in.linkedin.com/company/preplaced",
+      "https://mu.linkedin.com/company/berkelandcompany?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/company/leeco-ai-your-learning-companion",
+      "https://www.linkedin.com/company/heymentor",
+      "https://www.linkedin.com/company/hitotopmate",
+      "https://in.linkedin.com/company/data-to-production",
+      "https://ch.linkedin.com/company/bluejeans-by-verizon?trk=public_profile_experience-group-header",
+      "https://uk.linkedin.com/company/topmateai",
+      "https://www.linkedin.com/company/innocity-partners",
+      "https://www.linkedin.com/company/product-bytes"
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/skillaxisgo",
+    "resolved_person_linkedin": "",
+    "use_scrapingdog_enrichment": false
+  },
+  "lead_before_enrichment": {
+    "business": "Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+    "description": "[](https://preplaced.in/) [Explore Mentors](https://preplaced.in/explore-mentors)[AI Mentors](https://www.leeco.ai/paths)[Success Stories](https://preplaced.in/success-stories) Login [Find your mentor ](https://preplaced.in/explore-mentors) [](https://preplaced.in/) [Find your mentor ->](https://preplaced.in/explore-mentors) Supercharge your career with # Long Term Mentorship Land your dream job, role, and company faster than ever with 1:1 long term mentorship.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://preplaced.in",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://preplaced.in",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "preplaced.in",
+    "source_urls": [
+      "https://preplaced.in"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Preplaced: Supercharge your career with 1:1 Long Term Mentorship",
+    "description": "[](https://preplaced.in/) [Explore Mentors](https://preplaced.in/explore-mentors)[AI Mentors](https://www.leeco.ai/paths)[Success Stories](https://preplaced.in/success-stories) Login [Find your mentor ](https://preplaced.in/explore-mentors) [](https://preplaced.in/) [Find your mentor ->](https://preplaced.in/explore-mentors) Supercharge your career with # Long Term Mentorship Land your dream job, role, and company faster than ever with 1:1 long term mentorship.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://preplaced.in",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/skillaxisgo",
+    "source_url": "https://preplaced.in",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "preplaced.in",
+    "source_urls": [
+      "https://preplaced.in"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/skillaxisgo"
+    }
+  }
+}

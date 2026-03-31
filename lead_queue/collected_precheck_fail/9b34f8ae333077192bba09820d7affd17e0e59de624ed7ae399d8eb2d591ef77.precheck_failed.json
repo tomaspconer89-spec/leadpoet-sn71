@@ -24,7 +24,15 @@
     "hq_city": "Tap the tab for the category you wish to search within",
     "source_type": "company_site",
     "phone_numbers": [],
-    "socials": {}
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
   },
   "queue_bucket": "B_retry_enrichment"
 }

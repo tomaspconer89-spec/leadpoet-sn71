@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Midwest Business Consulting in Chicago IL | Small Business Consulting in Chicago IL | Bernard Deir",
+  "lead": {
+    "business": "Midwest Business Consulting in Chicago IL | Small Business Consulting in Chicago IL | Bernard Deir",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://mbconsultingco.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "",
+    "company_linkedin": "",
+    "source_url": "https://mbconsultingco.com",
+    "description": "[![Midwest Business Consulting in Chicago, IL](https://www.mbconsultingco.com/img/clue/new-mbc-logo-horizontal.svg)](https://www.mbconsultingco.com/index.html) * [Home](https://www.mbconsultingco.com/index.html \"Welcome to Midwest Business Consulting! We are a veteran-owned business in Chicago, IL building and growing better companies through proper business foundations and continuous improvement consulting near Chicago, IL.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}
