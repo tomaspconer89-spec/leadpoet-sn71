@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "inTheir20s",
+  "lead": {
+    "business": "inTheir20s",
+    "full_name": "Sam Fiske",
+    "first": "Sam",
+    "last": "Fiske",
+    "email": "",
+    "role": "Executive Producer",
+    "website": "http://intheir20s.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "California",
+    "city": "San Diego",
+    "source_url": "https://technori.com",
+    "description": "The 20s are the most important time in one\u2019s life to \u201cfigure it out\u201d. We all have so many questions about what we should be doing at this point in our lives. Many students and young professionals have a difficult time finding the best mentors to give them the best advice. We provide people with the best advice on finding success in their 20s We speak with a diverse group of influential people across all industries and backgrounds to answer your questions. \ud83d\ude0e Founded by two guys in their 20s \ud83d\ude0e",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/intheir20s",
+    "linkedin": "https://linkedin.com/in/samfiske"
+  },
+  "source_failed_basename": "1d4f2a8505414a9b30291129f1c3aef7f2d36f13fbba83ed9a9a34b411032e85.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1d4f2a8505414a9b30291129f1c3aef7f2d36f13fbba83ed9a9a34b411032e85.precheck_failed.json",
+  "queue_key": "d5937275c09a29bf73925ef0ce46e5ad4ff612320de06920d823e4a695bf0b6a"
+}

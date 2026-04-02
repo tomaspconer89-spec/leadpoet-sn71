@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: email, linkedin",
+  "retry_reason": "missing_required_fields: email, linkedin",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Advisors Management Group, Inc.",
+  "lead": {
+    "business": "Advisors Management Group, Inc.",
+    "full_name": "Kate Pederson",
+    "first": "Kate",
+    "last": "Pederson",
+    "email": "",
+    "role": "partner",
+    "website": "https://www.advisorsmanagement.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Wisconsin",
+    "city": "La Crosse",
+    "source_url": "https://advisorsmanagement.com",
+    "description": "At Advisors Management Group, we are more than a typical advisory firm. We are your strategic financial advocates-helping you with all aspects of financial decision-making and partnering with individuals and small businesses throughout the year to make sure you remain on a healthy financial path. We have offices in La Crosse, Eau Claire, and Green Bay, Wisconsin. Our mission has always been, and will always be, to help our clients reach their financial goals through dedicated, collaborative and personalized support.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Wisconsin",
+    "hq_city": "La Crosse",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/advisors-management-group-inc"
+  },
+  "source_failed_basename": "19fecfc44cbfb8fed5e3689431dda2223b6267e06b1b298af074245be48e7c24.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/19fecfc44cbfb8fed5e3689431dda2223b6267e06b1b298af074245be48e7c24.precheck_failed.json",
+  "queue_key": "149cd2acb2c32bb2038ee51158367c83ab789f8ebc1ade7d203877cba7db1b10"
+}

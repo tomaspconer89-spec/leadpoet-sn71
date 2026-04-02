@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Commonwealth of Massachusetts",
+  "lead": {
+    "business": "Commonwealth of Massachusetts",
+    "full_name": "Admissions Lead",
+    "first": "Admissions",
+    "last": "Lead",
+    "email": "admissions@salemstate.edu",
+    "role": "Contact",
+    "website": "http://www.mass.gov",
+    "industry": "Government and Military",
+    "sub_industry": "Government",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "source_url": "https://salemstate.edu",
+    "description": "Year after year, the Commonwealth of Massachusetts has continued to pioneer bold legislative actions and programs, some of which have been embraced on a national scale. We are always looking for talented individuals to help us maintain this momentum and improve the services that millions of people depend on every day. If you\u2019re looking for an innovative work environment where you can really make a difference, check out the job opportunities with the Commonwealth of Massachusetts. This page is managed according to the Mass.gov social media policy:",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "Boston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/commonwealth-of-massachusetts"
+  },
+  "source_failed_basename": "8396470d42b32ba641b54125d6494b69eb82979bb5481f2f9685064f32c8e6b5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8396470d42b32ba641b54125d6494b69eb82979bb5481f2f9685064f32c8e6b5.precheck_failed.json",
+  "queue_key": "f588ca2a97cefe4371df0eda43fae1e37b6a6cee3aeb1153b47e4aec442ba7ed"
+}

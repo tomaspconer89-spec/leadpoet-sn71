@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Home.LLC",
+  "lead": {
+    "business": "Home.LLC",
+    "full_name": "Paulus Schoutsen",
+    "first": "Paulus",
+    "last": "Schoutsen",
+    "email": "",
+    "role": "President",
+    "website": "http://www.home.llc",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "New York",
+    "city": "Brooklyn",
+    "source_url": "https://ceritypartners.com",
+    "description": "\ud83c\udfe0 Home Equity Investments: Extract up to $500K from your home equity \ud83c\udfaf Homie.LLC: Achieve your goals with world class talent from $20/hr \ud83d\udcb0 Home Equity Funds: Generate strong risk-adjusted returns",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/cerity-partners",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hoominc",
+    "linkedin": "https://linkedin.com/in/schoutsen"
+  },
+  "source_failed_basename": "5724fad1d5d38bd3a9bb9bb092264f6982035479fe3d2e4d020a9c3399c0feb6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5724fad1d5d38bd3a9bb9bb092264f6982035479fe3d2e4d020a9c3399c0feb6.precheck_failed.json",
+  "queue_key": "40c9e79aba9892098160be06c91609560b60d0b55af58386d1c7c86ae93d5cf2"
+}

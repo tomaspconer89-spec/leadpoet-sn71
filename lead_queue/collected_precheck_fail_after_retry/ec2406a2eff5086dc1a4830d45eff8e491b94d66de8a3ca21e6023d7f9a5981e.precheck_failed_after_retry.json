@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: city",
+  "business": "Ideals",
+  "lead": {
+    "business": "Ideals",
+    "full_name": "John Doe",
+    "first": "John",
+    "last": "Doe",
+    "email": "john.doe@mail.com",
+    "role": "Contact",
+    "website": "https://offers.idealsvdr.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "",
+    "city": "International",
+    "source_url": "https://idealsvdr.com",
+    "description": "Ideals provides market-leading virtual data room (VDR) services to support M&A, IPOs, fundraising, private equity and venture capital deals, and other financial transactions. We enable you to securely share critical documents with other stakeholders during the due diligence phase of a transaction, accelerating your most important business decisions. Since being founded in 2008, we've served more than 1.7 million users across 175,000 organizations, and have been independently rated as the leading VDR provider on G2 for five consecutive years.",
+    "employee_count": "501-1,000",
+    "hq_country": "Global",
+    "hq_state": "",
+    "hq_city": "International",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/idealsvdr"
+  },
+  "source_failed_basename": "7b0aef3e9204aac2bc547a05446794b5756fb1bbab8de3c2719b1c6824c18917.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/7b0aef3e9204aac2bc547a05446794b5756fb1bbab8de3c2719b1c6824c18917.precheck_failed.json",
+  "queue_key": "ec2406a2eff5086dc1a4830d45eff8e491b94d66de8a3ca21e6023d7f9a5981e"
+}

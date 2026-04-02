@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "D and P Advisory",
+  "lead": {
+    "business": "D and P Advisory",
+    "full_name": "santosh n 252292a",
+    "first": "santosh",
+    "last": "n 252292a",
+    "email": "santosh.n@dandpadvisory.com",
+    "role": "ceo",
+    "website": "https://dandpadvisory.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Bengaluru",
+    "state": "",
+    "city": "",
+    "source_url": "https://dandpadvisory.com",
+    "description": "D and P India Advisory Services LLP is a Registered Valuer under the Companies Act. We are an independent valuation company engaged in valuation and related advisory services serving our clients from offices located in Mumbai, Bangalore, New Delhi. We serve our clients with a high level of independence, technical competence and professional integrity. Our team of valuation professionals provides robust and well-informed advice on valuation matters across multiple sectors and for various regulatory and decision-making requirements.",
+    "employee_count": "11-50",
+    "hq_country": "Bengaluru",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://in.linkedin.com/company/d-and-p-advisory"
+  },
+  "source_failed_basename": "d5e5b6f2df8eb8433d074e0f133a809d2a8fda320f36c16ec9beab8aa972d978.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d5e5b6f2df8eb8433d074e0f133a809d2a8fda320f36c16ec9beab8aa972d978.precheck_failed.json",
+  "queue_key": "6d2cd8d928e4fa58f6ea1b31ce9c20c872d8cbf0d7828e24b83959b3102259be"
+}

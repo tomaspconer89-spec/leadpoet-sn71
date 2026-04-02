@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Midwest Business Consulting",
+  "lead": {
+    "business": "Midwest Business Consulting",
+    "full_name": "Bernard Deir, MBA PMP",
+    "first": "Bernard",
+    "last": "Deir, MBA PMP",
+    "email": "careers@getmbc.com.read",
+    "role": "President",
+    "website": "http://www.mbconsultingco.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Greater Chicago Area",
+    "source_url": "https://mbconsultingco.com",
+    "description": "Welcome to Midwest Business Consulting. We're glad you're here! Midwest Business Consulting is a Veteran-Owned, limited liability corporation headquartered in Chicago, IL to provide world-class business and project-based consulting services to small and medium-sized clients throughout the United States. Our focus is building better companies through proper business foundations and continuous improvement. At MBC, we understand the 'business time trap' better than anyone. Business owners become so tied up working in their businesses that they never find the time to work on their businesses.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Bedford Park",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/midwest-business-consulting-llc",
+    "linkedin": "https://linkedin.com/in/bernarddeir"
+  },
+  "source_failed_basename": "6829ba28a207bdefc616fb629ddce8bf08f6d168311be56b82380c3760107a3d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6829ba28a207bdefc616fb629ddce8bf08f6d168311be56b82380c3760107a3d.precheck_failed.json",
+  "queue_key": "749895432fb432d8b3af920878640fff44ab81e15c02455903d78e83b1e7a831"
+}

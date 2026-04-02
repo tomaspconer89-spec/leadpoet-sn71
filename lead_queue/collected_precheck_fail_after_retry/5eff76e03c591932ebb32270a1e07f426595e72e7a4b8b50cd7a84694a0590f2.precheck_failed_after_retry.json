@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Boston Consulting Group (BCG)",
+  "lead": {
+    "business": "Boston Consulting Group (BCG)",
+    "full_name": "Nicholas Kick",
+    "first": "Nicholas",
+    "last": "Kick",
+    "email": "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+    "role": "Strategy Manager",
+    "website": "http://www.bcg.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Washington",
+    "city": "Seattle",
+    "source_url": "https://experiencedadvisorconsulting.com",
+    "description": "Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG was the pioneer in business strategy when it was founded in 1963. Today, we work closely with clients to embrace a transformational approach aimed at benefiting all stakeholders\u2014empowering organizations to grow, build sustainable competitive advantage, and drive positive societal impact. Our diverse, global teams bring deep industry and functional expertise and a range of perspectives that question the status quo and spark change.",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "Boston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/boston-consulting-group",
+    "linkedin": "https://linkedin.com/in/nicholaskick"
+  },
+  "source_failed_basename": "014950462bce7f8602ea3292477512d16221d98f431dc175ecd83d9c03823c56.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/014950462bce7f8602ea3292477512d16221d98f431dc175ecd83d9c03823c56.precheck_failed.json",
+  "queue_key": "5eff76e03c591932ebb32270a1e07f426595e72e7a4b8b50cd7a84694a0590f2"
+}

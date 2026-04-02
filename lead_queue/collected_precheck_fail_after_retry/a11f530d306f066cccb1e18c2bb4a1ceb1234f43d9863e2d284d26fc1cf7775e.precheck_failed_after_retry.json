@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, linkedin",
+  "business": "2150",
+  "lead": {
+    "business": "2150",
+    "full_name": "Erskine \"Chuck\" Faush",
+    "first": "Erskine \"Chuck\"",
+    "last": "Faush",
+    "email": "",
+    "role": "Chief Innovation Officer",
+    "website": "http://www.2150.vc",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "source_url": "https://2150.vc",
+    "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that cities drive the majority of global prosperity and represent the greatest opportunity for sustainable progress, 2150 backs founders developing transformative solutions across energy, industrial decarbonisation, advanced manufacturing, mobility solutions, and urban systems. 2150 manages \u20ac500 million in assets under management and invests worldwide from its offices in London, Copenhagen and Berlin.",
+    "employee_count": "11-50",
+    "hq_country": "London",
+    "hq_state": "Alabama",
+    "hq_city": "London",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/2150vc",
+    "linkedin": "https://linkedin.com/in/erskinefaush"
+  },
+  "source_failed_basename": "3157172372f00c9919538f9dc69b2b1bc4b0203f7ec586d043838e544b26079c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3157172372f00c9919538f9dc69b2b1bc4b0203f7ec586d043838e544b26079c.precheck_failed.json",
+  "queue_key": "a11f530d306f066cccb1e18c2bb4a1ceb1234f43d9863e2d284d26fc1cf7775e"
+}

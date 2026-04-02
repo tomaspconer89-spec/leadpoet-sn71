@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:admin@",
+  "business": "EntreCORPS | Consulting for Startups",
+  "lead": {
+    "business": "EntreCORPS | Consulting for Startups",
+    "full_name": "Admin Lead",
+    "first": "Rebeccaweeks",
+    "last": "Lead",
+    "email": "admin@startupcompanycounsel.com",
+    "role": "Contact",
+    "website": "https://giesbusiness.illinois.edu/entrecorps",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "source_url": "https://startupcompanycounsel.com",
+    "description": "EntreCORPS is a growth and innovation strategy consulting firm. By recruiting selectively from across the University of Illinois campus, expertise is brought together to create high-impact and entrepreneurial solutions for clients. EntreCORPS collaborates with clients ranging from early stage ventures to innovation-driving groups within Fortune 500 companies.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Champaign",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/entrecorps"
+  },
+  "source_failed_basename": "91f02c547bc88673e565708f68a9b77125bc91c3d65e7a1750d3ef28064dce6f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/91f02c547bc88673e565708f68a9b77125bc91c3d65e7a1750d3ef28064dce6f.precheck_failed.json",
+  "queue_key": "6c2a0588d8774ba6656067ac0572aa5d2bf5484aceeb52ce7cbafabf96802070"
+}

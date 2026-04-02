@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: email, role, country, city",
+  "business": "City of Boynton Beach Official",
+  "lead": {
+    "business": "City of Boynton Beach Official",
+    "full_name": "Andrew Mack",
+    "first": "Andrew",
+    "last": "Mack",
+    "email": "tysons@bbfl.us",
+    "role": "Deputy City Manager",
+    "website": "http://Boynton-Beach.org",
+    "industry": "Government and Military",
+    "sub_industry": "Government",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Boynton Beach",
+    "source_url": "https://boynton-beach.org",
+    "description": "We're excited to welcome you to our official #BetterInBoyntonBeach LinkedIn page. Here, you\u2019ll stay connected to everything our team is building, improving, and celebrating across the city. We are dedicated to enriching the lives of residents in the City of Boynton Beach by providing reliable services, fostering safe neighborhoods, and supporting a thriving community. Boynton Beach has long been known as a coastal community with everything from beautiful beaches to vibrant neighborhoods, and a relaxed South Florida spirit.",
+    "employee_count": "501-1,000",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Boynton Beach",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/city-of-boynton-beach-official",
+    "linkedin": "https://linkedin.com/in/andrew-mack-9906a712"
+  },
+  "source_failed_basename": "3c2efa65279377ec6d1046f9f3c330fb2a47905402937a91df69a8818f2034df.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3c2efa65279377ec6d1046f9f3c330fb2a47905402937a91df69a8818f2034df.precheck_failed.json",
+  "queue_key": "3f951d153073376a8b5c9893bb1b6b30aa070ece95149df1b98ba378e4d18877"
+}

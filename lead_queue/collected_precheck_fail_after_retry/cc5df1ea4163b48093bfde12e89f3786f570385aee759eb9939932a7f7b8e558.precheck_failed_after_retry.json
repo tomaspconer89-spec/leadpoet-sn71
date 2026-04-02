@@ -1,0 +1,42 @@
+{
+  "reason": "name_credential: last contains 'mba'",
+  "retry_reason": "name_credential: last contains 'mba'",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Business Management Consultants (BMC)",
+  "lead": {
+    "business": "Business Management Consultants (BMC)",
+    "full_name": "Daniel Smith AACSB MBA",
+    "first": "Daniel",
+    "last": "Smith AACSB MBA",
+    "email": "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+    "role": "Tax Specialist (Tax Accounting, Business Analysis, Business Tax Preparation,",
+    "website": "http://www.BMCpak.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Edwardsville",
+    "source_url": "https://alignmentadvising.com",
+    "description": "BMC is an independently owned and managed firm of Consultants in Pakistan. We have a credible history of 14 years of providing high quality and specialized services in most areas of business and management consultancy. We provide a range of specialist consultancy services in various functions and sectors, drawing on resources from a large domestic and international network. We operate under the principles of corporate responsibility and professional integrity.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Edwardsville",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/business-management-consultants-bmc-",
+    "linkedin": "https://linkedin.com/in/danielksmithmba"
+  },
+  "source_failed_basename": "580a08824c233e4d8e77b61817f8ecdef74d937947659b49bcd26406b22d40e6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/580a08824c233e4d8e77b61817f8ecdef74d937947659b49bcd26406b22d40e6.precheck_failed.json",
+  "queue_key": "cc5df1ea4163b48093bfde12e89f3786f570385aee759eb9939932a7f7b8e558"
+}

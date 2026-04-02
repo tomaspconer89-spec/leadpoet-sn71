@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Glenn Graydon Wright LLP Chartered Professional Accountants",
+  "lead": {
+    "business": "Glenn Graydon Wright LLP Chartered Professional Accountants",
+    "full_name": "Atif Akhtar, CPA, CA",
+    "first": "Atif",
+    "last": "Akhtar, CPA, CA",
+    "email": "info@ggw.net",
+    "role": "Partner",
+    "website": "http://www.ggw.net/",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "Canada",
+    "state": "Canada",
+    "city": "Greater Toronto Area",
+    "source_url": "https://ggw.net",
+    "description": "Glenn Graydon Wright LLP Chartered Professional Accountants has been a trusted and reliable presence in Oakville, Ontario since 1958. We are trusted by our clientele to not only service their day-to-day accounting needs but also provide proactive advice designed to help them grow and nurture their business and personal finances. We take the time to gain an appreciation of each client\u2019s specific needs and goals so we can better anticipate potential tax and business opportunities uniquely suited to them.",
+    "employee_count": "11-50",
+    "hq_country": "Ontario",
+    "hq_state": "Canada",
+    "hq_city": "Oakville",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/glenn-graydon-wright-llp-chartered-professional-accountants",
+    "linkedin": "https://linkedin.com/in/atifakhtarcpa"
+  },
+  "source_failed_basename": "8ffe530fd4549a0d879cc02858f99225d5564b2a5fced927c9e111a533c6772e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8ffe530fd4549a0d879cc02858f99225d5564b2a5fced927c9e111a533c6772e.precheck_failed.json",
+  "queue_key": "a43781c16d654d2e3e17aa3a5b38e29ed991f7b1f2fd758f6de5adbe90d3520b"
+}

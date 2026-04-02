@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Homepage Realty",
+  "lead": {
+    "business": "Homepage Realty",
+    "full_name": "Anthony Pierri",
+    "first": "Anthony",
+    "last": "Pierri",
+    "email": "",
+    "role": "Cofounder & Partner",
+    "website": "https://www.homepagerealty.com",
+    "industry": "Real Estate",
+    "sub_industry": "Real Estate",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://dfppartners.com",
+    "description": "ABOUT: At Homepage Realty, we leverage the most innovative technologies to facilitate the buying and selling of homes in Louisville, KY, and Southern Indiana. As Louisville's top brokerage, powered by industry leaders George Barrett and Carrie King, we are dedicated to providing exceptional service and expertise. Our commitment to excellence and deep local knowledge ensures our clients receive the best possible experience, whether they're first-time buyers or seasoned investors. We invite professionals to connect with us and explore opportunities within our dynamic team.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Kentucky",
+    "hq_city": "Louisville",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/homepagerealty",
+    "linkedin": "https://linkedin.com/in/anthonypierri"
+  },
+  "source_failed_basename": "b80cc321100353ca4918efb6b57c4d546886cc5a48afd46948a5110196778aa8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b80cc321100353ca4918efb6b57c4d546886cc5a48afd46948a5110196778aa8.precheck_failed.json",
+  "queue_key": "44120392cfdecf80bec0e73a56537ebddb34dfbfc9e88f88ebb8c3f94a97dc67"
+}

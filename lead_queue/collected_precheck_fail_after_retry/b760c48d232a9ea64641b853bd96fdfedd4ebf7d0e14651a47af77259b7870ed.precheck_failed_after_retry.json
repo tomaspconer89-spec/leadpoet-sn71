@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "The 502 Project",
+  "lead": {
+    "business": "The 502 Project",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://502project.org",
+    "industry": "Education",
+    "sub_industry": "Higher Education",
+    "country": "United States",
+    "state": "CA",
+    "city": "Mountain View",
+    "source_url": "https://getlatka.com",
+    "description": "Welcome to The 502 Project, an effort to design, implement, and support a new community platform to connect local events to formal pathways to cybersecurity careers, providing access to local mentors, college advisors, and others who can inspire and guide future cybersecurity professionals. The 502 Project is led by the University of South Florida in partnership with the University of West Florida, Florida International University, Tennessee Tech University, Forsyth Technical College, St. Petersburg College, Cyversity, and the Florida Center for Cybersecurity (Cyber Florida).",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Tampa",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/502-project"
+  },
+  "source_failed_basename": "845b77adc44300bf9d0336703f425aeb288459948373f87d6affd2ce827d3a07.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/845b77adc44300bf9d0336703f425aeb288459948373f87d6affd2ce827d3a07.precheck_failed.json",
+  "queue_key": "b760c48d232a9ea64641b853bd96fdfedd4ebf7d0e14651a47af77259b7870ed"
+}

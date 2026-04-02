@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Consulting Firms",
+  "lead": {
+    "business": "Consulting Firms",
+    "full_name": "TJ Londagin",
+    "first": "TJ",
+    "last": "Londagin",
+    "email": "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+    "role": "CEO and Co-Founder",
+    "website": "https://experiencedadvisorconsulting.com",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "District of Columbia",
+    "city": "Washington",
+    "source_url": "https://experiencedadvisorconsulting.com",
+    "description": "Consulting Firms est un incubateur de consultants-entrepreneurs ind\u00e9pendants.",
+    "employee_count": "2-10",
+    "hq_country": "\u00cele de France",
+    "hq_state": "District of Columbia",
+    "hq_city": "Paris",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://fr.linkedin.com/company/consulting-firms",
+    "linkedin": "https://linkedin.com/in/londagin"
+  },
+  "source_failed_basename": "791e59a61b72e9c495285f2ef88ad6ceb49e0d822ecc180a4c67bfe986a80ef4.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/791e59a61b72e9c495285f2ef88ad6ceb49e0d822ecc180a4c67bfe986a80ef4.precheck_failed.json",
+  "queue_key": "5372e3f3ee79af49ea5c5c637c837c873325b74c41d655b88a9e3e02db51b6e6"
+}

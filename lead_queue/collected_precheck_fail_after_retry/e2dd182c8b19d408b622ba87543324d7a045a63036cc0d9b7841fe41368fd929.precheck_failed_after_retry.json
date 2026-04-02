@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email",
+  "business": "Eton Venture Services",
+  "lead": {
+    "business": "Eton Venture Services",
+    "full_name": "Dalton Luong",
+    "first": "Dalton",
+    "last": "Luong",
+    "email": "",
+    "role": "Manager",
+    "website": "https://etonvs.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Washington",
+    "city": "Seattle",
+    "source_url": "https://etonvs.com",
+    "description": "Established in 2010, Eton Venture Services delivers best-in-class independent valuation and M&A advisory services through deep expertise, analytical rigor, and hands-on partnership. Our experienced team works directly with company founders, CFOs and law firms to provide clear, defensible work product and guidance for each client\u2019s unique situation.",
+    "employee_count": "11-50",
+    "hq_country": "Austin",
+    "hq_state": "Washington",
+    "hq_city": "Silicon Valley",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/eton-venture-services",
+    "linkedin": "https://linkedin.com/in/daltonluong"
+  },
+  "source_failed_basename": "95ed06511efec6a3c74c6283a791931b0e564e7de129387841bce36eb9ec57ef.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/95ed06511efec6a3c74c6283a791931b0e564e7de129387841bce36eb9ec57ef.precheck_failed.json",
+  "queue_key": "e2dd182c8b19d408b622ba87543324d7a045a63036cc0d9b7841fe41368fd929"
+}

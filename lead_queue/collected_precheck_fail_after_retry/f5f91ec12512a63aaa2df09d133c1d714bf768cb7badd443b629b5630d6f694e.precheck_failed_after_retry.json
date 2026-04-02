@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Bruder Consulting and Venture Group",
+  "lead": {
+    "business": "Bruder Consulting and Venture Group",
+    "full_name": "Scott Bruder, MD, PhD",
+    "first": "Scott",
+    "last": "Bruder, MD, PhD",
+    "email": "",
+    "role": "Founder and CEO",
+    "website": "http://www.bruderconsulting.com",
+    "industry": "Biotechnology",
+    "sub_industry": "Biotechnology",
+    "country": "United States",
+    "state": "New York",
+    "city": "West Islip",
+    "source_url": "https://bruderconsulting.com",
+    "description": "The Bruder Consulting and Venture Group (www.bruderconsulting.com) provides services to start-up through multi-national conglomerate medical device, regenerative medicine and biotechnology companies, investment banks, venture partners and private equity firms. The company\u2019s dedicated team of executive Engagement Partners offers clients a diversified expertise in technology, product and market development, clinical and regulatory affairs, reimbursement and health economics, and commercialization strategy, including financial and/or strategic partnering.",
+    "employee_count": "11-50",
+    "hq_country": "Metro NYC",
+    "hq_state": "New York",
+    "hq_city": "Salt Lake City",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bruder-consulting-venture-group",
+    "linkedin": "https://linkedin.com/in/scottbruder"
+  },
+  "source_failed_basename": "2c1d3b2098987f03a3d2f2f2a0782938b90e0cf67ab8b6804ff73b278d2574ab.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2c1d3b2098987f03a3d2f2f2a0782938b90e0cf67ab8b6804ff73b278d2574ab.precheck_failed.json",
+  "queue_key": "f5f91ec12512a63aaa2df09d133c1d714bf768cb7badd443b629b5630d6f694e"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Refresh Digital Strategy",
+  "lead": {
+    "business": "Refresh Digital Strategy",
+    "full_name": "Imran Zounaki",
+    "first": "Imran",
+    "last": "Zounaki",
+    "email": "marshberry@marshberry.com",
+    "role": "Founder",
+    "website": "https://www.letsrefresh.io",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Marketing",
+    "country": "Belgium",
+    "state": "Flemish Region",
+    "city": "Antwerp",
+    "source_url": "https://marshberry.com",
+    "description": "For business owners and marketing teams who need a high-performing website, Refresh is a Webflow and digital marketing agency that delivers fast, scalable sites. Unlike DIY builders or bloated agencies, we offer expert strategy and flexible support that actually drive results for your business.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Charlotte",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/letsrefresh-io",
+    "linkedin": "https://linkedin.com/in/imranzounaki"
+  },
+  "source_failed_basename": "15705dd38c5c475f6e04f189c8620867d4faa7d9d1f60a7f355fd725ba8a0040.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/15705dd38c5c475f6e04f189c8620867d4faa7d9d1f60a7f355fd725ba8a0040.precheck_failed.json",
+  "queue_key": "7e195dd0ce00f0bf45a476455d13d1c4a755f575bc96276d0e5d6e900ebe16e3"
+}

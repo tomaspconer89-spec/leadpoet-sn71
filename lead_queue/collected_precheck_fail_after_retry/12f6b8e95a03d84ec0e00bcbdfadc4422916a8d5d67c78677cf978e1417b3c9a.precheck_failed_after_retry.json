@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "\u03a1r\u03bf\u0455\u0440\u0435\u03bf",
+  "lead": {
+    "business": "\u03a1r\u03bf\u0455\u0440\u0435\u03bf",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "https://prospeo.io",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "Toronto",
+    "state": "",
+    "city": "",
+    "source_url": "https://prospeo.io",
+    "description": "We provides high-quality, enriched contact data to help sales teams find the right leads, improve efficiency, and close more deals.",
+    "employee_count": "11-50",
+    "hq_country": "Toronto",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/%CF%81r%CE%BF%D1%95%D1%80%D0%B5%CE%BF"
+  },
+  "source_failed_basename": "e2f72136595d570f10f86eab59f5e238b3d81c8a843834b68a3b1f5074f6ccab.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/e2f72136595d570f10f86eab59f5e238b3d81c8a843834b68a3b1f5074f6ccab.precheck_failed.json",
+  "queue_key": "12f6b8e95a03d84ec0e00bcbdfadc4422916a8d5d67c78677cf978e1417b3c9a"
+}

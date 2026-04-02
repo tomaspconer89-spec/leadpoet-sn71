@@ -1,0 +1,42 @@
+{
+  "reason": "free_email_domain:gmail.com",
+  "retry_reason": "free_email_domain:gmail.com",
+  "previous_reason": "free_email_domain:gmail.com",
+  "business": "Startup Consulting at Cornell",
+  "lead": {
+    "business": "Startup Consulting at Cornell",
+    "full_name": "Startupconsultingatcornell Lead",
+    "first": "Startupconsultingatcornell",
+    "last": "Mustafokulova",
+    "email": "startupconsultingatcornell@gmail.com",
+    "role": "Contact",
+    "website": "https://startupconsultingatcornell.notion.site/Startup-Consulting-at-Cornell-bbaf872a94234b1aa3db86410f9636e6",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "source_url": "https://startupconsultingatcornell.org",
+    "description": "Startup Consulting at Cornell is a student organization that advises startups across a diverse range of industries and functional areas. Through semester-long projects, our members learn valuable strategy consulting skills while driving a tangible impact on startups.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Ithaca",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startup-cc",
+    "linkedin": "https://www.linkedin.com/in/adrian-ivanov-830b94332"
+  },
+  "source_failed_basename": "723c1cf7f44e7be8f6ab46a42245799e11435bf2d5ba79d0c801c36f7d9f9c09.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/723c1cf7f44e7be8f6ab46a42245799e11435bf2d5ba79d0c801c36f7d9f9c09.precheck_failed.json",
+  "queue_key": "1bbfc440075548ca0424e4f4faf18871211fa9b894c3ae1b9e365d69debb8bf8"
+}

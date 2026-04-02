@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Small Business Advocacy Council",
+  "lead": {
+    "business": "Small Business Advocacy Council",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "http://www.smallbusinessadvocacycouncil.org",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://smallbusinessadvocacycouncil.org",
+    "description": "We know supporting local small businesses shows you care about the community in which you live. It's no secret that small businesses unite the community. And the SBAC\u2019s non-partisan advocacy work continues to shape local, state and federal legislation for small businesses. Support small businesses that are the character behind our neighborhoods! Learn more about the SBAC at www.sbacil.org Quick Look at the SBAC: https://linktr.ee/sbacil",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/small-business-advocacy-council"
+  },
+  "source_failed_basename": "550d66b7d6fa86734e6c45bf093a2d3cb409c8ff45a6cddb7be69ac438dff8a4.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/550d66b7d6fa86734e6c45bf093a2d3cb409c8ff45a6cddb7be69ac438dff8a4.precheck_failed.json",
+  "queue_key": "0db204b4ce10d831c052cd638ecb2567f38cfbe7505173ff1e43873ff851e18e"
+}

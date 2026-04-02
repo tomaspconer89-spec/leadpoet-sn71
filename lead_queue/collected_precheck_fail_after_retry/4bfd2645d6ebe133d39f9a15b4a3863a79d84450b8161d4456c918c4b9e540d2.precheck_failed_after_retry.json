@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "DigitalMarketer",
+  "lead": {
+    "business": "DigitalMarketer",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "http://digitalmarketer.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "source_url": "https://digitalmarketer.com",
+    "description": "Where AI meets real-world marketing for real-world businesses. At DigitalMarketer, we help marketers, entrepreneurs, and business owners plan smarter, execute faster, and grow with AI-enhanced marketing systems that actually work in the wild... not just in theory. We\u2019re not just another course platform. And we\u2019re definitely not another shiny AI tool. DigitalMarketer is where growth-focused professionals go to turn chaos into systems, guesswork into strategy, and time-wasting into real ROI.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/digital-marketer"
+  },
+  "source_failed_basename": "0d8799a8c0f10c5a89f9c8b1216485c644dbf03c134346d881347c9407d92adc.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0d8799a8c0f10c5a89f9c8b1216485c644dbf03c134346d881347c9407d92adc.precheck_failed.json",
+  "queue_key": "4bfd2645d6ebe133d39f9a15b4a3863a79d84450b8161d4456c918c4b9e540d2"
+}

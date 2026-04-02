@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "The Growth Advisory",
+  "lead": {
+    "business": "The Growth Advisory",
+    "full_name": "John Lenzen",
+    "first": "John",
+    "last": "Lenzen",
+    "email": "filler@godaddy.com",
+    "role": "Independent Marketing Consultant",
+    "website": "http://growthadvisory.net",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "source_url": "https://growthadvisory.net",
+    "description": "For the past 22 years, we have helped businesses drive brand growth. Our advisory services are designed to empower your brand and equip your business with the narrative, marketing, data and AI tools needed to succeed. We've provided Marketing Consulting For Business Growth and Brand Introductions for a large number of clients from various industries, including:",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-growth-advisory",
+    "linkedin": "https://linkedin.com/in/john-lenzen-7b27324"
+  },
+  "source_failed_basename": "0d07ce8725973185af15b38b8467e66b1fb2ab5fd8da49fbb977025119b82b4e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0d07ce8725973185af15b38b8467e66b1fb2ab5fd8da49fbb977025119b82b4e.precheck_failed.json",
+  "queue_key": "58e05f8b647ec57e7691fae3ee2a0c1aeb44f8915203d4ca31faea907c4fdd83"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Small Business Advisory Firm",
+  "lead": {
+    "business": "Small Business Advisory Firm",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "owner",
+    "website": "http://www.sbaf-rc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Virginia",
+    "city": "Quantico",
+    "source_url": "https://smallbusinessadvisoryfirm.com",
+    "description": "The Small Business Advisory Firm (SBAF) was established with the mission of making it easier to do business with the federal government for small to mid-size companies. The government contracting market is worth nearly $100 billion in sales to small businesses each year. The challenge for these businesses is that selling to the federal government is quite different from selling to the commercial sector.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Quantico",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/small-business-advisory-firm",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/small-business-advisory-firm"
+  },
+  "source_failed_basename": "4af920cc01ae3c9509cc37bb2a4ed6b5d0d8b7c51561599afa27418e1a85e81a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4af920cc01ae3c9509cc37bb2a4ed6b5d0d8b7c51561599afa27418e1a85e81a.precheck_failed.json",
+  "queue_key": "06594385cc708139881bc8e087542b8bf5597a8bc12042ce0e80a745580c5fd4"
+}

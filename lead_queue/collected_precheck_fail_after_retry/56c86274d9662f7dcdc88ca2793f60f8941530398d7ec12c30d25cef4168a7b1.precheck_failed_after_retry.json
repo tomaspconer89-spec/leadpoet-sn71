@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "University of Rhode Island College of Health Sciences",
+  "lead": {
+    "business": "University of Rhode Island College of Health Sciences",
+    "full_name": "Ben Grossman",
+    "first": "Ben",
+    "last": "Grossman",
+    "email": "",
+    "role": "URI 101 Business Mentor",
+    "website": "https://web.uri.edu/chs/",
+    "industry": "Education",
+    "sub_industry": "Higher Education",
+    "country": "United States",
+    "state": "Rhode Island",
+    "city": "Narragansett",
+    "source_url": "https://uri.edu",
+    "description": "The College of Health Sciences seeks to be a leader in education, research and outreach in the promotion of optimal health and wellness across the life span. We are committed to high quality teaching that emphasizes evidence-based practices, engages students in multidisciplinary learning, and produces graduates who can effectively translate and apply knowledge in their professions. Our research seeks to develop innovative solutions to complex problems that improve the health and well-being of others.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Rhode Island",
+    "hq_city": "Kingston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/university-of-rhode-island-college-of-health-sciences",
+    "linkedin": "https://linkedin.com/in/ben-grossman-017320101"
+  },
+  "source_failed_basename": "b75b45489624cc78cc6b28b0c445119cac460bb0b80cef0368a14b068ceb99a1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b75b45489624cc78cc6b28b0c445119cac460bb0b80cef0368a14b068ceb99a1.precheck_failed.json",
+  "queue_key": "56c86274d9662f7dcdc88ca2793f60f8941530398d7ec12c30d25cef4168a7b1"
+}

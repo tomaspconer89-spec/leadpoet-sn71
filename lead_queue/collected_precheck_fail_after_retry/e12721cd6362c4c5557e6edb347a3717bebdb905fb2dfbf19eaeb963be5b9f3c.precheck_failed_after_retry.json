@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "name_not_in_email",
+  "business": "Intro",
+  "lead": {
+    "business": "Intro",
+    "full_name": "Raad Michael Mobrem",
+    "first": "Raad Michael",
+    "last": "Mobrem",
+    "email": "",
+    "role": "CEO & Co-founder",
+    "website": "https://intro.co/?utm_source=LinkedIn&utm_medium=Bio",
+    "industry": "Education",
+    "sub_industry": "E-Learning",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "source_url": "https://intro.co",
+    "description": "Intro makes it easy to book the world\u2019s most in-demand experts & get personalized, 1:1 advice over live video. Users can connect with top experts like Rachel Zoe and Nate Berkus in various categories including Fashion & Beauty, Home, Wellness, Career, Astrology and more. Our mission is to give everyone access to anyone, empowering each other to create a better world. We believe people from all over the world should have the same opportunities to connect, learn, and enhance their lives.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Los Angeles",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/useintro",
+    "linkedin": "https://linkedin.com/in/raadmobrem"
+  },
+  "source_failed_basename": "81567b37ef28c4e2d6720b4b6d19a1146302c6f3b398cb5975c74ffad4a7a9c9.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/81567b37ef28c4e2d6720b4b6d19a1146302c6f3b398cb5975c74ffad4a7a9c9.precheck_failed.json",
+  "queue_key": "e12721cd6362c4c5557e6edb347a3717bebdb905fb2dfbf19eaeb963be5b9f3c"
+}

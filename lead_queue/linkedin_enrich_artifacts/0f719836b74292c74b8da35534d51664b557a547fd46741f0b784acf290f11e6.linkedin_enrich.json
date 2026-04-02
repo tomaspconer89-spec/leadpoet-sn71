@@ -1,0 +1,612 @@
+{
+  "saved_at_utc": "2026-04-01T14:49:03.394082+00:00",
+  "queue_key": "0f719836b74292c74b8da35534d51664b557a547fd46741f0b784acf290f11e6",
+  "business": "StartupSauce B2B SaaS Founder Community - Join Now",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company StartupSauce B2B SaaS Founder Community - Join Now",
+      "StartupSauce B2B SaaS Founder Community - Join Now linkedin company",
+      "site:linkedin.com/company startupsauce.com",
+      "site:linkedin.com/in \"StartupSauce B2B SaaS Founder Community - Join Now\" founder",
+      "site:linkedin.com/in \"StartupSauce B2B SaaS Founder Community - Join Now\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "neITthe5nutmXIn",
+          "url": "http://www.google.com/search?q=StartupSauce+B2B+SaaS+Founder+Community+-+Join+Now+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=StartupSauce+B2B+SaaS+Founder+Community+-+Join+Now+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "StartupSauce B2B SaaS Founder Community - Join Now linkedin company",
+          "url": "http://www.google.com/search?q=StartupSauce+B2B+SaaS+Founder+Community+-+Join+Now+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=StartupSauce+B2B+SaaS+Founder+Community+-+Join+Now+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Startup founders community",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Startup+founders+community&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Free SaaS listing websites",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Free+SaaS+listing+websites&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhOEAE"
+          },
+          {
+            "title": "Future Founders Startup Bootcamp",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Future+Founders+Startup+Bootcamp&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhPEAE"
+          },
+          {
+            "title": "The Founders Network",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=The+Founders+Network&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhNEAE"
+          },
+          {
+            "title": "SaaS directories list",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=SaaS+directories+list&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhMEAE"
+          },
+          {
+            "title": "SaaS Slack community",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=SaaS+Slack+community&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "How to meet startup founders",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=How+to+meet+startup+founders&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg_EAE"
+          },
+          {
+            "title": "How to connect with startup founders",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=How+to+connect+with+startup+founders&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg7EAE"
+          },
+          {
+            "title": "Startup founders community",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Startup+founders+community&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Free SaaS listing websites",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Free+SaaS+listing+websites&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhOEAE"
+          },
+          {
+            "title": "Future Founders Startup Bootcamp",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Future+Founders+Startup+Bootcamp&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhPEAE"
+          },
+          {
+            "title": "The Founders Network",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=The+Founders+Network&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhNEAE"
+          },
+          {
+            "title": "SaaS directories list",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=SaaS+directories+list&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhMEAE"
+          },
+          {
+            "title": "SaaS Slack community",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=SaaS+Slack+community&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "How to meet startup founders",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=How+to+meet+startup+founders&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg_EAE"
+          },
+          {
+            "title": "How to connect with startup founders",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=How+to+connect+with+startup+founders&sa=X&ved=2ahUKEwiZjrm88syTAxVuJ0QIHaBvDn8Q1QJ6BAg7EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "StartupSauce B2B SaaS Founder Community - Join Now",
+            "url": "https://www.startupsauce.com/",
+            "displayedUrl": "https://www.startupsauce.com",
+            "description": "A highly-engaged, global community for SaaS founder based outside the SF Bay Area. We run regular masterminds, expert workshops and more.",
+            "emphasizedKeywords": [
+              "global community for SaaS founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "StartupSauce SaaS Founder Community ($5K MRR ...",
+            "url": "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+            "description": "If your business is generating at least $5K MRR and you want to connect with and learn from other SaaS founders, you should join the StartupSauce community.Read more",
+            "emphasizedKeywords": [
+              "business",
+              "SaaS founders",
+              "join",
+              "StartupSauce community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Ryan Wardell - StartupSauce SaaS Founder Community ...",
+            "url": "https://www.linkedin.com/in/ryanwardell",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ryan Wardell",
+            "description": "Browse anonymously, connect when ready. Ryan can introduce you to 3 people at StartupSauce SaaS Founder Community ($5K MRR minimum required to join).",
+            "emphasizedKeywords": [
+              "StartupSauce SaaS Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Austin, Texas, United States",
+              "companyName": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+              "rawText": "Austin, Texas, United States \u00b7 StartupSauce SaaS Founder Community ($5K MRR minimum required to join)"
+            },
+            "followersAmount": "7.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Learnings From the First Two Years as a B2B SaaS Startup ...",
+            "url": "https://www.linkedin.com/pulse/learnings-from-first-two-years-b2b-saas-startup-founder-vorobets",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anton Vorobets",
+            "description": "In this article, I will share my main learnings from being a B2B SaaS entrepreneur during the first two years of a startup.",
+            "emphasizedKeywords": [
+              "B2B SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Dan Martell - b2b #saas #founder #startup #entrepreneur",
+            "url": "https://www.linkedin.com/posts/dmartell_b2b-saas-founder-activity-6625808809929523201-Ytb6",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dan Martell",
+            "description": "Building iLuk - an AI workers platform helping companies understand, execute, and sell in the digital world. 5y.Read more",
+            "emphasizedKeywords": [
+              "companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "How This B2B Founder Built a 50000+ Community With LinkedIn",
+            "url": "https://www.youtube.com/watch?v=IZPIFU-2WG8",
+            "displayedUrl": "YouTube\u00a0\u203a\u00a0Finn Thormeier",
+            "description": "RevGenius is an online, free 45K+ community for sales, marketing, rev-ops, and customer success professionals. They offer an inclusive space\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "views": "120+ views",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "How to overcome common SaaS startup challenges | Victor ...",
+            "url": "https://www.linkedin.com/posts/victorcheng_saas-saasfounders-startupgrowth-activity-7355759792356798465-oFGH",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Victor Cheng",
+            "description": "One of the single most important things you need to realize as a founder of a SaaS company is that's the importance of sales and marketing, and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "founder",
+              "SaaS company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "I've helped over 30 SaaS founders launch and scale a ...",
+            "url": "https://www.linkedin.com/posts/tclarkmedia_ive-helped-over-30-saas-founders-launch-activity-7263274200260317184-yuil",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Tommy Clark",
+            "description": "I've helped over 30 SaaS founders launch and scale a profitable content engine on Linkedin. If I had to start a new one from scratch...here's exactly how I'd do\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS founders",
+              "Linkedin"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "LinkedIn vs Google Ads: what works for reaching B2B app ...",
+            "url": "https://www.reddit.com/r/smallbusiness/comments/1gtfrww/linkedin_vs_google_ads_what_works_for_reaching/",
+            "displayedUrl": "Reddit\u00a0\u203a\u00a0r/smallbusiness",
+            "description": "If you're a SaaS founder and you're making $5K-$500K MRR, consider joining our premium mastermind community StartupSauce.com as well. 0\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS founder",
+              "joining",
+              "community StartupSauce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "commentsAmount": "2 comments",
+            "lastUpdated": "1 year ago",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "[Opt-in] StartupSauce Community",
+            "url": "https://www.startupsauce.com/opt-in-startupsauce-community",
+            "displayedUrl": "https://www.startupsauce.com \u203a opt-in-startupsauce-co...",
+            "description": "You're one step closer to joining our SaaS founders community. Fill out this form so we can get to know you & your business, and you'll get an email to complete\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fill out this form"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/wpwT0KVaMqeCHbd62/records/neITthe5nutmXIn-0.html?signature=yeB0hlmcUvBifjiKkTGr"
+      },
+      {
+        "#debug": {
+          "requestId": "M5rtqiqshOpUptz",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupsauce.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupsauce.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company startupsauce.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupsauce.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupsauce.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "StartupSauce SaaS Founder Community ($5K MRR ...",
+            "url": "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+            "description": "StartupSauce is a private mastermind community for SaaS founders outside Silicon Valley. If your business is generating at least $5K MRR and you want to connect\u00a0...Read more",
+            "emphasizedKeywords": [
+              "a private mastermind community for SaaS founders"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "StartupSauce SaaS Founder Community ($5K MRR ...",
+            "url": "https://ar.linkedin.com/company/startupsauce-saas-founder-community?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+            "description": "StartupSauce is a private mastermind community for SaaS founders outside Silicon Valley. If your business is generating at least $5K MRR and you want to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "a private mastermind community for SaaS founders"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Goh!ddess",
+            "url": "https://www.linkedin.com/company/gohddess",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Goh!ddess",
+            "description": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join). Technology, Information and Internet. LinkedIn \u00a9 2026; About \u00b7 Accessibility \u00b7 User\u00a0...Read more",
+            "emphasizedKeywords": [
+              "StartupSauce SaaS Founder Community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8 followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Pybop: Content Strategy Consultancy",
+            "url": "https://www.linkedin.com/company/pybop-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pybop: Content Strategy Consultancy",
+            "description": "Pybop, LLC, is a content strategy agency located in Southern California. We provide exceptional content strategy, brand messaging, and website writing\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is a content strategy agency located in Southern California"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Agua for Devs",
+            "url": "https://www.linkedin.com/company/aguafordevs/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Agua for Devs",
+            "description": "We have connected with incredible mentors and partner with industry leaders to bring the startup sauce to the millions of companies that support our continent's\u00a0...Read more",
+            "emphasizedKeywords": [
+              "startup sauce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "490+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "InfoApp, Inc",
+            "url": "https://www.linkedin.com/company/infoapp-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0InfoApp, Inc",
+            "description": "InfoApp is a lightweight, cloud-enabled solution that centralizes content into a format that can be used by individuals and small to enterprise businesses.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "SUCCESS ETC TECHNOLOGY CO., LTD",
+            "url": "https://www.linkedin.com/company/success-etc-technology-co-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SUCCESS ETC TECHNOLOGY CO., LTD",
+            "description": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join). Technology, Information and Internet. EDIL 2000 GROUP SRL. Construction. Milano\u00a0...Read more",
+            "emphasizedKeywords": [
+              "StartupSauce SaaS Founder Community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Fluencyo - Language Learning App",
+            "url": "https://www.linkedin.com/company/fluencyo",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fluencyo - Language Learning App",
+            "description": "Fluencyo is the global language learning app built around real human connection. We blend powerful AI with native-created lessons and global video calling to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global language learning app"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8 followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Institute for Political and International Studies (IPIS)- Iran",
+            "url": "https://ch.linkedin.com/company/institute-for-political-and-international-studies",
+            "displayedUrl": "https://ch.linkedin.com \u203a company \u203a institute-for-politica...",
+            "description": "The Institute for Political and International Studies (IPIS) is a foreign policy think tank based in Tehran, Iran and affiliated with Iran's Ministry of\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "CASP",
+            "url": "https://uk.linkedin.com/company/casp_research",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CASP",
+            "description": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join). Technology, Information and Internet. Show more similar pages. Show fewer similar pages.Read more",
+            "emphasizedKeywords": [
+              "StartupSauce SaaS Founder Community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/JZGA6zAFic1oesszX/records/M5rtqiqshOpUptz-0.html?signature=bUlFnWCczNzydfBipqQ"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+      "https://www.linkedin.com/in/ryanwardell",
+      "https://www.linkedin.com/pulse/learnings-from-first-two-years-b2b-saas-startup-founder-vorobets",
+      "https://www.linkedin.com/posts/dmartell_b2b-saas-founder-activity-6625808809929523201-Ytb6",
+      "https://www.linkedin.com/posts/victorcheng_saas-saasfounders-startupgrowth-activity-7355759792356798465-oFGH",
+      "https://www.linkedin.com/posts/tclarkmedia_ive-helped-over-30-saas-founders-launch-activity-7263274200260317184-yuil",
+      "site:linkedin.com/company startupsauce.com",
+      "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+      "https://ar.linkedin.com/company/startupsauce-saas-founder-community?trk=ppro_cprof",
+      "https://www.linkedin.com/company/gohddess",
+      "https://www.linkedin.com/company/pybop-llc",
+      "https://www.linkedin.com/company/aguafordevs/",
+      "https://www.linkedin.com/company/infoapp-inc",
+      "https://www.linkedin.com/company/success-etc-technology-co-ltd",
+      "https://www.linkedin.com/company/fluencyo",
+      "https://ch.linkedin.com/company/institute-for-political-and-international-studies",
+      "https://uk.linkedin.com/company/casp_research"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/ryanwardell"
+  },
+  "lead_before_enrichment": {
+    "business": "StartupSauce B2B SaaS Founder Community - Join Now",
+    "description": "# StartupSauce B2B SaaS Founder Community ## Meet Other Successful Founders Outside Silicon Valley Building a SaaS business is hard\u2026 **but you don\u2019t have to do it alone**. Learn from other founders. Get introductions. Build partnerships.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startupsauce.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://startupsauce.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startupsauce.com",
+    "source_urls": [
+      "https://startupsauce.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "StartupSauce B2B SaaS Founder Community - Join Now",
+    "description": "# StartupSauce B2B SaaS Founder Community ## Meet Other Successful Founders Outside Silicon Valley Building a SaaS business is hard\u2026 **but you don\u2019t have to do it alone**. Learn from other founders. Get introductions. Build partnerships.",
+    "full_name": "Ryanwardell",
+    "first": "Ryanwardell",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startupsauce.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Founder",
+    "linkedin": "https://www.linkedin.com/in/ryanwardell",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+    "source_url": "https://startupsauce.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Tehran",
+    "country": "United States",
+    "state": "",
+    "city": "Tehran",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startupsauce.com",
+    "source_urls": [
+      "https://startupsauce.com"
+    ],
+    "title_raw": "Founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://startupsauce.com"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Tehran"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://uk.linkedin.com/company/startupsauce-saas-founder-community"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "first": {
+      "before": "",
+      "after": "Ryanwardell"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Ryanwardell"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Tehran"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/ryanwardell"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://startupsauce.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "Founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Founder"
+    }
+  }
+}

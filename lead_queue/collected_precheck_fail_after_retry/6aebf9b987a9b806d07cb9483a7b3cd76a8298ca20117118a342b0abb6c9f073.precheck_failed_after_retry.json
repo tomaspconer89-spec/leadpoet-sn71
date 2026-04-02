@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "Denver Business Design Consulting, LLC",
+  "lead": {
+    "business": "Denver Business Design Consulting, LLC",
+    "full_name": "Patricia Langlois",
+    "first": "Patricia",
+    "last": "Langlois",
+    "email": "info@abadvisors.com",
+    "role": "Chief Executive Officer",
+    "website": "https://dbdc.us/",
+    "industry": "Professional Services",
+    "sub_industry": "Design Services",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Aurora",
+    "source_url": "https://abadvisors.com",
+    "description": "dbdc offers Advanced eCommerce Consulting that helps people selling goods online increase their sales. I\u2019m Jeff Daigle, founder of Denver Business Design Consulting. For over 20 years I\u2019ve designed and built websites and brands, and worked in industries from higher education to tech startups. Now, as a small business owner myself, my goal is to help artists, makers, and small businesses grow their revenue, reduce their workload, and achieve their dreams of making a living by doing what they love. dbdc can help you:",
+    "employee_count": "0-1",
+    "hq_country": "United States",
+    "hq_state": "Colorado",
+    "hq_city": "Denver",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ab_advisors",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/dbdcllc",
+    "linkedin": "https://linkedin.com/in/patricialanglois"
+  },
+  "source_failed_basename": "9e517b27546132c35d7dc0c0455bedfd021fb2f6aab5a14db2d200d76c08ffad.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9e517b27546132c35d7dc0c0455bedfd021fb2f6aab5a14db2d200d76c08ffad.precheck_failed.json",
+  "queue_key": "6aebf9b987a9b806d07cb9483a7b3cd76a8298ca20117118a342b0abb6c9f073"
+}

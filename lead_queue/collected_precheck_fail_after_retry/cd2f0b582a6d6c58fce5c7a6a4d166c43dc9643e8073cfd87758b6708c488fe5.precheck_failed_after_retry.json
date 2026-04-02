@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Padgett Business Services of Greenville",
+  "lead": {
+    "business": "Padgett Business Services of Greenville",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@cawg.net",
+    "role": "Contact",
+    "website": "https://greenville.padgettadvisors.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Greenville",
+    "source_url": "https://cawg.net",
+    "description": "We specialize in small to medium sized businesses. Offering everything from bookkeeping to payroll, reporting to government compliance, we put together a package that focuses on your needs and is tailored to fit your business!",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Greenville",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/padgett-enc"
+  },
+  "source_failed_basename": "4becfa74f0da102a793db4e499f7dc9e8d5117f7744375a5f8f81b7bcf073f12.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4becfa74f0da102a793db4e499f7dc9e8d5117f7744375a5f8f81b7bcf073f12.precheck_failed.json",
+  "queue_key": "cd2f0b582a6d6c58fce5c7a6a4d166c43dc9643e8073cfd87758b6708c488fe5"
+}

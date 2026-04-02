@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Alliance Consulting Group",
+  "lead": {
+    "business": "Alliance Consulting Group",
+    "full_name": "Recruiting Lead",
+    "first": "Recruiting",
+    "last": "Aaron A30501107",
+    "email": "recruiting@alliancecg.com",
+    "role": "Contact",
+    "website": "http://www.alliancecg.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "source_url": "https://alliancecg.com",
+    "description": "Alliance Consulting Group is a strategy consulting firm located in Boston, Massachusetts. Founded in 1986, Alliance helps companies define their strategic direction and remove the obstacles to profitable growth. Alliance employs a collaborative approach to deliver analytically sound insights and a commitment to action while strengthening the capabilities of the organization. Industry Practices:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "Boston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/alliance-consulting-group"
+  },
+  "source_failed_basename": "da284bf01778eb946567167f138e57961c3819fdf17d1e660a2f2ba3005f0206.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/da284bf01778eb946567167f138e57961c3819fdf17d1e660a2f2ba3005f0206.precheck_failed.json",
+  "queue_key": "9713021ace36d6a6a5b6f798ae5790e99927ce623a31218fa0e7f2145029ec17"
+}

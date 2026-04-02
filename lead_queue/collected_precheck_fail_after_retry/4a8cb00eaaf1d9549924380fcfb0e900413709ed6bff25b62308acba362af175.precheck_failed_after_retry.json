@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "EdgeCase Capital Partners",
+  "lead": {
+    "business": "EdgeCase Capital Partners",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "http://edgecasecap.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Miami",
+    "source_url": "https://govclab.com",
+    "description": "EdgeCase Capital Partners is a venture capital group dedicated to supporting innovation and creating impact in early-stage software startups. EdgeCase is the SEC, FINRA certified entity that ensures scouts get carry on deals they flag. We've extended this to top talent tracking at universities and frequently do on-campus activations for VCs. This rapidly grows the brand presence of our venture partners and actively supports the entrepreneurial ecosystems.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Miami",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/edge-case-cap"
+  },
+  "source_failed_basename": "857c4735ec711d21ace8d53d229fc078d669e993267e32bfd040d3ad95d11959.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/857c4735ec711d21ace8d53d229fc078d669e993267e32bfd040d3ad95d11959.precheck_failed.json",
+  "queue_key": "4a8cb00eaaf1d9549924380fcfb0e900413709ed6bff25b62308acba362af175"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Danfoss",
+  "lead": {
+    "business": "Danfoss",
+    "full_name": "Globe Lead",
+    "first": "Globe",
+    "last": "Kopka",
+    "email": "globe@2x.png",
+    "role": "Contact",
+    "website": "http://www.danfoss.com",
+    "industry": "Manufacturing",
+    "sub_industry": "Industrial",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "source_url": "https://kbgrowthadvisory.com",
+    "description": "Danfoss engineers solutions that increase machine productivity, reduce emissions, lower energy consumption, and enable electrification. Our solutions are used in such areas as refrigeration, air conditioning, heating, power conversion, motor control, industrial machinery, automotive, marine, and off- and on-highway equipment. We also provide solutions for renewable energy, such as solar and wind power, as well as district-energy infrastructure for cities. Our innovative engineering dates back to 1933.",
+    "employee_count": "10,001+",
+    "hq_country": "Nordborg",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/danfoss"
+  },
+  "source_failed_basename": "16a0fd2651b7ab56542f466365ada0238d2a8f1bd090cd995ac0a7e2ee2b3929.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/16a0fd2651b7ab56542f466365ada0238d2a8f1bd090cd995ac0a7e2ee2b3929.precheck_failed.json",
+  "queue_key": "c2ce62d39ab88fb00e69fc97846adb3c4cc9421f7efb8459f34387892be75dbf"
+}

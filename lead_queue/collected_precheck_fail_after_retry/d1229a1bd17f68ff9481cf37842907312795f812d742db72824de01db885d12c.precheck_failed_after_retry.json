@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "Oliver Wyman",
+  "lead": {
+    "business": "Oliver Wyman",
+    "full_name": "Nick Studer",
+    "first": "Nick",
+    "last": "Studer",
+    "email": "",
+    "role": "Chief Executive Officer",
+    "website": "http://www.oliverwyman.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Greater London",
+    "source_url": "https://oliverwyman.com",
+    "description": "At Oliver Wyman, a Marsh business, we bring deep industry insight, bold innovation, and a collaborative approach that cuts through complexity to help organizations navigate their most defining transformative moments. As a business of Marsh, we work alongside the world\u2019s leading experts across risk, reinsurance and capital, people and investments, and management consulting. Together with Marsh Risk, Guy Carpenter, and Mercer, we help organizations build resilience and competitive advantages from every angle.",
+    "employee_count": "5,001-10,000",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/oliver-wyman",
+    "linkedin": "https://linkedin.com/in/nickstuder"
+  },
+  "source_failed_basename": "11b9b97883c4abf598ed1f62c96a527a0eb407c8dbd9060a2f736e32d1da73cc.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/11b9b97883c4abf598ed1f62c96a527a0eb407c8dbd9060a2f736e32d1da73cc.precheck_failed.json",
+  "queue_key": "d1229a1bd17f68ff9481cf37842907312795f812d742db72824de01db885d12c"
+}

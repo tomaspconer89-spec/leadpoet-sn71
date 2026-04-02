@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Ramboll",
+  "lead": {
+    "business": "Ramboll",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "https://ramboll.com",
+    "industry": "Professional Services",
+    "sub_industry": "Engineering Services",
+    "country": ".",
+    "state": "",
+    "city": "Copenhagen",
+    "source_url": "https://ramboll.com",
+    "description": "Ramboll is a global architecture, engineering and consultancy company founded in Denmark in 1945. Our 18,000+ experts create sustainable solutions across Buildings, Transport, Energy, Environment & Health, Water, Management Consulting and Architecture & Landscape. Across the world, Ramboll combines local experience with a global knowledge base to create sustainable cities and societies. We combine insights with the power to drive positive change for our clients, in the form of ideas that can be realised and implemented. We call it: Bright ideas. Sustainable change. Visit us at ramboll.com",
+    "employee_count": "10,001+",
+    "hq_country": ".",
+    "hq_state": "",
+    "hq_city": "Copenhagen",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ramboll"
+  },
+  "source_failed_basename": "9de2f5f76ced6a461b75f8d4c2a0712a0d61cdae87608b3122fdfd7a2f76635b.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9de2f5f76ced6a461b75f8d4c2a0712a0d61cdae87608b3122fdfd7a2f76635b.precheck_failed.json",
+  "queue_key": "6a8eff773cb771f123a8c6d6f1bfa1e465c0abbc6d67dfd269bc08003cba7672"
+}

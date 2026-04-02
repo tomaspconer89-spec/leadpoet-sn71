@@ -1,0 +1,1224 @@
+{
+  "saved_at_utc": "2026-04-01T01:37:06.374282+00:00",
+  "queue_key": "2c42879fa4c22655750cbbe1246744f7e8bb1553099e66c52f82dde98cdb6ade",
+  "business": "SaaS Talent",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company SaaS Talent",
+      "SaaS Talent linkedin company",
+      "site:linkedin.com/company saas-talent.com",
+      "site:linkedin.com/in \"SaaS Talent\" founder",
+      "site:linkedin.com/in \"SaaS Talent\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "jWcURPbazBfexET",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+SaaS+Talent",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+SaaS+Talent",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company SaaS Talent",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+SaaS+Talent",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+SaaS+Talent",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Saas talent reviews",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+reviews&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Saas talent acquisition",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+acquisition&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Saas talent salary",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+salary&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Saas talent reviews",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+reviews&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Saas talent acquisition",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+acquisition&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Saas talent salary",
+            "url": "https://www.google.com/search?newwindow=1&sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+salary&sa=X&ved=2ahUKEwiRxfrdwcuTAxUBP_sDHZu6AFEQ1QJ6BAg8EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SaaS Talent",
+            "url": "https://www.linkedin.com/company/saas-talent33",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "SaaS Talent | 4982 followers on LinkedIn. Talent Acquisition & Recruiting For SaaS (Click \u201cAbout\u201d below to see our open jobs) | Tap below or visit our\u00a0...",
+            "emphasizedKeywords": [
+              "Talent Acquisition & Recruiting For SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "SaaS Talent",
+            "url": "https://br.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "top SaaS recruiting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Sourcing SaaS Talent",
+            "url": "https://uk.linkedin.com/company/sourcing-saas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sourcing SaaS Talent",
+            "description": "Welcome to Sourcing SaaS \u2013 your strategic partner in talent acquisition. We specialise in seamlessly integrating with your team.Read more",
+            "emphasizedKeywords": [
+              "Sourcing SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "SaaS Talent",
+            "url": "https://id.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+            "displayedUrl": "https://id.linkedin.com \u203a company",
+            "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM,\u00a0...",
+            "emphasizedKeywords": [
+              "top SaaS recruiting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "TalentDock",
+            "url": "https://www.linkedin.com/company/talentdock",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TalentDock",
+            "description": "Recruiting, Rewritten. Built for Modern SaaS Teams. Building the BEST Teams for High-Growth B2B SaaS & AI companies. TalentDock is a recruiting and strategy\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Built for Modern SaaS Teams"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "740+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "ABR Talent l Customer Success Recruitment for Start-up & ...",
+            "url": "https://uk.linkedin.com/company/abr-talent",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ABR Talent l Customer Success Recruitment for Start-up & Scale-up SaaS businesses",
+            "description": "ABR Talent isn't just another recruitment agency. We're the go-to specialists for start-ups and scale-ups in SaaS, dedicated to building unbeatable Customer\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ABR Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "34.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "IN2-SaaS | International Software-as-a-Service Recruiters",
+            "url": "https://www.linkedin.com/company/in2-saas-international-software-as-a-service-staffing-solutions",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0IN2-SaaS | International Software-as-a-Service Recruiters",
+            "description": "Led by an experienced and hands-on senior management team, we deliver high-quality talent solutions for SaaS organizations across North America and EMEA\u00a0...Read more",
+            "emphasizedKeywords": [
+              "high-quality talent solutions for SaaS organizations"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Captivate Talent",
+            "url": "https://www.linkedin.com/company/captivate-talent",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Captivate Talent",
+            "description": "Captivate Talent connects revenue talent with disruptive SaaS companies. Our human approach to recruiting allows us to build genuine relationships.Read more",
+            "emphasizedKeywords": [
+              "Captivate Talent connects revenue talent with disruptive SaaS companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "25.3K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Sales Talent Inc.",
+            "url": "https://www.linkedin.com/company/sales-talent-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sales Talent Inc.",
+            "description": "#1 ranked recruiting firm on G2 and Winter 2026 Grid Leader. 7x (2020-2026) ClearlyRated Best of Staffing Award-winner. 2026 Great Places to Work certified\u00a0...Read more",
+            "emphasizedKeywords": [
+              "1 ranked recruiting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "48.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Live Digital - Go to Market Recruitment Agency",
+            "url": "https://www.linkedin.com/company/live-saas-recruitment-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Live Digital - Go to Market Recruitment Agency",
+            "description": "At Live, we partner with SaaS businesses to identify and attract the best Go-to-Market talent in the US. Our approach is simple: we take the time to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "identify and attract the best Go-to-Market talent in"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15.9K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/RcFj3cRSgB3JrAubt/records/jWcURPbazBfexET-0.html?signature=g4HNt4XTALAVreDVTSAs"
+      },
+      {
+        "#debug": {
+          "requestId": "2PrjB9lPRGD673t",
+          "url": "http://www.google.com/search?q=SaaS+Talent+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=SaaS+Talent+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "SaaS Talent linkedin company",
+          "url": "http://www.google.com/search?q=SaaS+Talent+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=SaaS+Talent+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Saas talent linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+linkedin+company+reviews&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Saas talent linkedin company salary",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+linkedin+company+salary&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "SaaS recruiting firms",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=SaaS+recruiting+firms&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Philly tech co",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Philly+tech+co&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Saas talent linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+linkedin+company+reviews&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Saas talent linkedin company salary",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+linkedin+company+salary&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "SaaS recruiting firms",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=SaaS+recruiting+firms&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "Philly tech co",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Philly+tech+co&sa=X&ved=2ahUKEwjcxuThwcuTAxWN1DQHHcUmEUAQ1QJ6BAg9EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SaaS Talent",
+            "url": "https://www.linkedin.com/company/saas-talent33",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM, AI and Tech\u00a0...Read more",
+            "emphasizedKeywords": [
+              "top SaaS recruiting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Talent Development: Growing Leaders from Within",
+            "url": "https://www.linkedin.com/posts/saas-talent33_saastalent-leadership-talentdevelopment-activity-7439369907357732864-mJVD",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "Success stories inside a company are always the ones that say the most about how a team operates. At SaaS Talent, two of our team members\u00a0...",
+            "emphasizedKeywords": [
+              "company",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "SaaS Talent | SaaS Recruiting Firm for GTM, AI & Tech in US ...",
+            "url": "https://www.saas-talent.com/",
+            "displayedUrl": "https://www.saas-talent.com",
+            "description": "SaaS Talent is a top SaaS recruiting firm helping startups hire GTM, AI, and tech talent fast in the U.S. and Latin America. Guaranteed results.",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Why SaaS companies fail: it's a talent problem",
+            "url": "https://www.linkedin.com/posts/saas-talent33_the-1-resource-for-talent-acquisition-and-activity-7351664401273225216-mUSy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "Every problem in SaaS? It's a talent problem. Your churn issue? That's a lack of proactive CSMs. Your buggy product?",
+            "emphasizedKeywords": [
+              "Every problem in SaaS? It's a talent problem"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Misdiagnosing Growth Challenges | SaaS Talent posted on ...",
+            "url": "https://www.linkedin.com/posts/saas-talent33_saastalent-saasleadership-startupgrowth-activity-7437544934817034241-qQHU",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "US - LATAM Hiring Manager & Hiring Leader | Hunting & Hiring Top GTM, Marketing & Tech Talent for SaaS Companies US Recruitment Business\u00a0...Read more",
+            "emphasizedKeywords": [
+              "US - LATAM Hiring Manager & Hiring Leader"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Contact SaaS Talent | Connect with Our Team",
+            "url": "https://www.saas-talent.com/contact-us",
+            "displayedUrl": "https://www.saas-talent.com \u203a contact-us",
+            "description": "SaaS Talent has a 30+ member team, 25+ years of experience and 100+ SaaS and tech clients they've helped with talent and growth. Michael C. Bertoni - Founder-\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "About Us | Talent Acquisition, Recruiting and Growth ...",
+            "url": "https://www.saas-talent.com/about",
+            "displayedUrl": "https://www.saas-talent.com \u203a about",
+            "description": "SaaS Talent is an industry leading talent acquisition, recruiting & growth advisory firm to 100+ SaaS and tech clients. We get top talent in the US & LATAM.",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "SaaS Talent's Post",
+            "url": "https://www.linkedin.com/posts/saas-talent33_saas-talent-just-made-the-largest-hire-in-activity-7348024438610702336-eICW",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a saas-talent33_saas-tal...",
+            "description": "Jul 7, 2025 \u2014 SaaS Talent made a $265,000 hire! This the biggest hire in the history of our company! Thank you to all my clients, employees and\u00a0...Read more",
+            "date": "2025-07-07T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "SaaS Talent made a $265,000 hire"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "SaaS Talent Brand Launch and Value Proposition",
+            "url": "https://www.linkedin.com/pulse/saas-talent-brand-launch-value-proposition-founder-ceo",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael C. Bertoni",
+            "description": "We provide recruiting, hiring and growth solutions for our customers. This includes retained and contingent recruiting in the United States,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "We provide recruiting, hiring and growth solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Explore Top SaaS Jobs & Career Opportunities",
+            "url": "https://www.saas-talent.com/jobs-portal",
+            "displayedUrl": "https://www.saas-talent.com \u203a jobs-portal",
+            "description": "SaaS Talent offers top full-time SaaS jobs across the US and LATAM, connecting you with high-tech companies and exciting opportunities. Apply today!",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/FSPRvDVmCx20rtXO1/records/2PrjB9lPRGD673t-0.html?signature=gloUGUnVTdFoaMZ7Byk7"
+      },
+      {
+        "#debug": {
+          "requestId": "HJA2WuLAHeGTqnr",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+saas-talent.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+saas-talent.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company saas-talent.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+saas-talent.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+saas-talent.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SaaS Talent",
+            "url": "https://www.linkedin.com/company/saas-talent33",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Brozzetti",
+            "description": "SaaS Talent | 4982 followers on LinkedIn. Talent Acquisition & Recruiting For SaaS (Click \u201cAbout\u201d below to see our open jobs) | Tap below or visit our\u00a0...",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "SaaS Talent",
+            "url": "https://br.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS Talent",
+            "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "top SaaS recruiting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "SalesTalent.com Sales Recruiters",
+            "url": "https://www.linkedin.com/company/salesrecruiting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SalesTalent.com Sales Recruiters",
+            "description": "SalesTalent.com Sales Recruiters, formerly Sales Talent Command, is a top nationwide B2B sales recruitment agency expertly focused on recruiting\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SalesTalent.com Sales Recruiters"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Sourcing SaaS Talent",
+            "url": "https://uk.linkedin.com/company/sourcing-saas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sourcing SaaS Talent",
+            "description": "Welcome to Sourcing SaaS \u2013 your strategic partner in talent acquisition. We specialise in seamlessly integrating with your team.Read more",
+            "emphasizedKeywords": [
+              "Sourcing SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "SaaS Talent",
+            "url": "https://id.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+            "displayedUrl": "https://id.linkedin.com \u203a company",
+            "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM,\u00a0...",
+            "emphasizedKeywords": [
+              "top SaaS recruiting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "SaaS and Tech GROWTH Meetup",
+            "url": "https://www.linkedin.com/company/saas-tech-growth-meetup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SaaS and Tech GROWTH Meetup",
+            "description": "SaaS & Tech Growth Meetup is a curated gathering for founders, operators, and GTM leaders building and scaling high-growth technology companies.Read more",
+            "emphasizedKeywords": [
+              "SaaS & Tech Growth Meetup"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "The SaaS",
+            "url": "https://www.linkedin.com/company/the-saas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The SaaS",
+            "description": "The only SaaS community in Australia. Connecting candidates and top companies. Industry: Technology, Information and Internet. Company size: 11-50 employees.Read more",
+            "emphasizedKeywords": [
+              "SaaS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "160+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Live Digital - Go to Market Recruitment Agency",
+            "url": "https://www.linkedin.com/company/live-saas-recruitment-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Live Digital - Go to Market Recruitment Agency",
+            "description": "At Live, we partner with SaaS businesses to identify and attract the best Go-to-Market talent in the US. Our approach is simple: we take the time to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS",
+              "talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "The SaaS Jobs",
+            "url": "https://uk.linkedin.com/company/the-saas-jobs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The SaaS Jobs",
+            "description": "The SaaS Jobs is the go-to destination for professionals seeking careers in the Software as a Service (SaaS) industry. Featuring thousands of live roles,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The SaaS Jobs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Sales Talent Inc.",
+            "url": "https://www.linkedin.com/company/sales-talent-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sales Talent Inc.",
+            "description": "#1 ranked recruiting firm on G2 and Winter 2026 Grid Leader. 7x (2020-2026) ClearlyRated Best of Staffing Award-winner. 2026 Great Places to Work certified\u00a0...Read more",
+            "emphasizedKeywords": [
+              "1 ranked recruiting firm on G2 and Winter 2026 Grid Leader"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "48.3K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/tL4xwqT9HIUl1vQl9/records/HJA2WuLAHeGTqnr-0.html?signature=WQLUPECtOm4cCcrhBJOA"
+      },
+      {
+        "#debug": {
+          "requestId": "VFki3ACtjrWgi2K",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"SaaS Talent\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Saas talent founder age",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+founder+age&sa=X&ved=2ahUKEwivl7DowcuTAxURSvEDHZtzKqkQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Saas talent founder email",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+founder+email&sa=X&ved=2ahUKEwivl7DowcuTAxURSvEDHZtzKqkQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Saas talent founder age",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+founder+age&sa=X&ved=2ahUKEwivl7DowcuTAxURSvEDHZtzKqkQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Saas talent founder email",
+            "url": "https://www.google.com/search?sca_esv=3468db4eb512e84b&hl=en&gl=US&q=Saas+talent+founder+email&sa=X&ved=2ahUKEwivl7DowcuTAxURSvEDHZtzKqkQ1QJ6BAgyEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Michael C. Bertoni - SaaS Talent",
+            "url": "https://www.linkedin.com/in/michaelbertoni33",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael C. Bertoni",
+            "description": "Michael C. Bertoni ... View Michael C.'s full profile. Michael C. can introduce you to 10+ people at SaaS Talent.Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Laura Durfee - VP of Talent & Founder",
+            "url": "https://www.linkedin.com/in/lauradurfee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Laura Durfee",
+            "description": "Laura Durfee. VP of Talent & Founder | Cybersecurity & SaaS Talent Strategist | Building Resilient Workforces. Durfee Talent Solutions DePaul University -\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville Metropolitan Area",
+              "jobTitle": "Talent Advisor",
+              "companyName": "Durfee Talent Solutions",
+              "rawText": "Nashville Metropolitan Area \u00b7 Talent Advisor \u00b7 Durfee Talent Solutions"
+            },
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Eric Hawthorne - SaaS Talent Engineer",
+            "url": "https://www.linkedin.com/in/ericwhawthorne",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Eric Hawthorne",
+            "description": "Eric Hawthorne \u00b7 SaaS Talent Engineer | Co-Founder, Executive Search @ G2 Startup Advisors | Hiring GTM & Technical Leadership Teams for High-Growth Tech\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent",
+              "Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Philadelphia",
+              "jobTitle": "Co-Founder, Executive Recruiting",
+              "companyName": "G2 Startup Advisors",
+              "rawText": "Greater Philadelphia \u00b7 Co-Founder, Executive Recruiting \u00b7 G2 Startup Advisors"
+            },
+            "followersAmount": "20.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Alan Kraus - SaaS Talent - #1 Recruiting Firm for SaaS & ...",
+            "url": "https://co.linkedin.com/in/alan-kraus",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alan Kraus",
+            "description": "For 18 years I was responsible for deal sourcing, Due Diligence, obtaining funding\u2026 \u00b7 Experiencia: SaaS Talent - #1 Recruiting Firm for SaaS & Tech\u00a0...",
+            "date": "2044-04-01T01:36:33.303Z",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Medell\u00edn, Antioquia, Colombia",
+              "companyName": "SaaS Talent - #1 Recruiting Firm for SaaS & Tech",
+              "rawText": "Medell\u00edn, Antioquia, Colombia \u00b7 SaaS Talent - #1 Recruiting Firm for SaaS & Tech"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Rashmi Belsare - AI-Driven Talent Solutions",
+            "url": "https://in.linkedin.com/in/rashmibelsare",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rashmi Belsare",
+            "description": "Co-Founder. SaaS Talent. Oct 2021 - Present 4 years 6 months. Pune, Maharashtra, India. A specialized talent acquisition platform dedicated to the Software as a\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Mohamed Samy\u200f - \u200fLead Recruiter | US Startup & SaaS ...",
+            "url": "https://eg.linkedin.com/in/hrmsamy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mohamed Samy",
+            "description": "Mohamed Samy. Lead Recruiter | US Startup & SaaS Talent Acquisition Partner | Founder @ SamyRise. SamyRise Benha University. \u0627\u0644\u0642\u0627\u0647\u0631\u0629 \u0645\u0635\u0631. \u0661\u0666 \u0623\u0644\u0641 \u0645\u062a\u0627\u0628\u0639 \u0623\u0643\u062b\u0631 \u0645\u0646\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent",
+              "Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "16.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Saara Kyll\u00f6nen - Gapps",
+            "url": "https://fi.linkedin.com/in/saarakyllonen",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Saara Kyll\u00f6nen",
+            "description": "Co-Founder & Chief Talent Officer \u2b50 SaaS Talent Strategy \u2b50 Social Psychology My\u2026 \u00b7 Kokemus: Gapps \u00b7 Koulutus: Toisintekij\u00e4t \u00b7 Sijainti: Helsinki \u00b7 500+\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Helsinki, Uusimaa, Finland",
+              "companyName": "Gapps",
+              "rawText": "Helsinki, Uusimaa, Finland \u00b7 Gapps"
+            },
+            "followersAmount": "5.5K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Claire Liao - Co-Founder & COO of DataVertex",
+            "url": "https://www.linkedin.com/in/claireliao14",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Claire Liao",
+            "description": "Claire Liao is an entrepreneur and HR Tech leader with 8+ years of experience in SaaS, Talent Acquisition Software, and Data Solutions.Read more",
+            "emphasizedKeywords": [
+              "SaaS, Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Mountain View, California, United States",
+              "jobTitle": "Co-Founder & COO",
+              "companyName": "DataVertex",
+              "rawText": "Mountain View, California, United States \u00b7 Co-Founder & COO \u00b7 DataVertex"
+            },
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Anil Kasibhatla",
+            "url": "https://www.linkedin.com/in/anil06",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anil Kasibhatla",
+            "description": "Anil Kasibhatla. We saved over $13.4 Million dollars and counting in Recruiting fees for our clients. Ask me about our Hybrid SaaS talent Acquisition (\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Lekan Olawoye - CEO | Obsidi\u00ae | EY Entrepreneur of the ...",
+            "url": "https://ca.linkedin.com/in/lekan-olawoye",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lekan Olawoye",
+            "description": "At Obsidi\u00ae, I lead a high-growth company operating across SaaS, talent services, and events\u2014delivering measurable results for both employers and Black\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS, talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Canada",
+              "jobTitle": "Founder & CEO",
+              "companyName": "OBSIDI",
+              "rawText": "Canada \u00b7 Founder & CEO \u00b7 OBSIDI"
+            },
+            "followersAmount": "21.8K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/k8GgHFV2L7KLqc3M5/records/VFki3ACtjrWgi2K-0.html?signature=lFkjQrVewC5rwBgeYClE"
+      },
+      {
+        "#debug": {
+          "requestId": "3EX4MHyDDIA5534",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"SaaS Talent\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22SaaS+Talent%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Michael C. Bertoni - SaaS Talent",
+            "url": "https://www.linkedin.com/in/michaelbertoni33",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael C. Bertoni",
+            "description": "Michael C. Bertoni ... View Michael C.'s full profile. Michael C. can introduce you to 10+ people at SaaS Talent.Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Laura Durfee - VP of Talent & Founder",
+            "url": "https://www.linkedin.com/in/lauradurfee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Laura Durfee",
+            "description": "Laura Durfee. VP of Talent & Founder | Cybersecurity & SaaS Talent Strategist | Building Resilient Workforces. Durfee Talent Solutions DePaul University -\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Nashville Metropolitan Area",
+              "jobTitle": "Talent Advisor",
+              "companyName": "Durfee Talent Solutions",
+              "rawText": "Nashville Metropolitan Area \u00b7 Talent Advisor \u00b7 Durfee Talent Solutions"
+            },
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Eric Hawthorne - SaaS Talent Engineer",
+            "url": "https://www.linkedin.com/in/ericwhawthorne",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Eric Hawthorne",
+            "description": "Eric Hawthorne \u00b7 SaaS Talent Engineer | Co-Founder, Executive Search @ G2 Startup Advisors | Hiring GTM & Technical Leadership Teams for High-Growth Tech\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent",
+              "Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Philadelphia",
+              "jobTitle": "Co-Founder, Executive Recruiting",
+              "companyName": "G2 Startup Advisors",
+              "rawText": "Greater Philadelphia \u00b7 Co-Founder, Executive Recruiting \u00b7 G2 Startup Advisors"
+            },
+            "followersAmount": "20.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Anil Kasibhatla",
+            "url": "https://www.linkedin.com/in/anil06",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anil Kasibhatla",
+            "description": "Anil Kasibhatla. We saved over $13.4 Million dollars and counting in Recruiting fees for our clients. Ask me about our Hybrid SaaS talent Acquisition (\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Alan Kraus - SaaS Talent - #1 Recruiting Firm for SaaS & ...",
+            "url": "https://co.linkedin.com/in/alan-kraus",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alan Kraus",
+            "description": "For 18 years I was responsible for deal sourcing, Due Diligence, obtaining funding\u2026 \u00b7 Experiencia: SaaS Talent - #1 Recruiting Firm for SaaS & Tech\u00a0...",
+            "date": "2044-04-01T01:36:41.475Z",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Medell\u00edn, Antioquia, Colombia",
+              "companyName": "SaaS Talent - #1 Recruiting Firm for SaaS & Tech",
+              "rawText": "Medell\u00edn, Antioquia, Colombia \u00b7 SaaS Talent - #1 Recruiting Firm for SaaS & Tech"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Mohamed Samy\u200f - \u200fLead Recruiter | US Startup & SaaS ...",
+            "url": "https://eg.linkedin.com/in/hrmsamy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mohamed Samy",
+            "description": "Mohamed Samy. Lead Recruiter | US Startup & SaaS Talent Acquisition Partner | Founder @ SamyRise. SamyRise Benha University. \u0627\u0644\u0642\u0627\u0647\u0631\u0629 \u0645\u0635\u0631. \u0661\u0666 \u0623\u0644\u0641 \u0645\u062a\u0627\u0628\u0639 \u0623\u0643\u062b\u0631 \u0645\u0646\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent",
+              "Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "16.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Anushka Kandpal - SaaS Talent",
+            "url": "https://in.linkedin.com/in/anushka-kandpal-66102a35b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anushka Kandpal",
+            "description": "I'm a recruiter at SaaS Talent, where we help SaaS and Tech companies solve recruiting\u2026 \u00b7 Experience: SaaS Talent \u00b7 Education: Delhi University \u00b7 Location\u00a0...",
+            "emphasizedKeywords": [
+              "SaaS Talent",
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Philadelphia, Pennsylvania, United States",
+              "companyName": "SaaS Talent",
+              "rawText": "Philadelphia, Pennsylvania, United States \u00b7 SaaS Talent"
+            },
+            "followersAmount": "2.6K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Lauren Victoria Ahrens - Healthcare Data SaaS Talent ...",
+            "url": "https://www.linkedin.com/in/laurenvahrens",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lauren Victoria Ahrens",
+            "description": "Healthcare Data SaaS Talent Executive | Status Quo Challenger | Dog & Boy Mom | \ud83c\udff3\ufe0f\u200d   \u00b7 Lauren comes with +15 years of experience focused on the development\u00a0...",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.2K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Claire Jordan - SaaS Talent Aquisition Leader I Innovative ...",
+            "url": "https://www.linkedin.com/in/claire-jordan-3b16718",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Claire Jordan",
+            "description": "Claire Jordan. SaaS Talent Aquisition Leader I Innovative Solution Hunter I Tech & Product Community Advocate I Triple Ragnarian. CoStar Group University of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "United States",
+              "jobTitle": "Director, Talent Acquisition",
+              "companyName": "CoStar Group",
+              "rawText": "United States \u00b7 Director, Talent Acquisition \u00b7 CoStar Group"
+            },
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Rahul Khurana - Scaling SaaS, Talent Mobility and Media ...",
+            "url": "https://in.linkedin.com/in/rahul-khurana-a9899421",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rahul Khurana",
+            "description": "Rahul Khurana. Scaling SaaS, Talent Mobility and Media platforms in India. Scalemind Media Institute of Management Technology, Ghaziabad\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SaaS, Talent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Gurugram, Haryana, India",
+              "jobTitle": "Managing Partner",
+              "companyName": "Scalemind Media",
+              "rawText": "Gurugram, Haryana, India \u00b7 Managing Partner \u00b7 Scalemind Media"
+            },
+            "followersAmount": "21.9K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/TVnCfFMTuxatRmSYq/records/3EX4MHyDDIA5534-0.html?signature=dK2Y4e7c5aDCl2pvXHT9"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company SaaS Talent",
+      "https://www.linkedin.com/company/saas-talent33",
+      "https://br.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+      "https://uk.linkedin.com/company/sourcing-saas",
+      "https://id.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+      "https://www.linkedin.com/company/talentdock",
+      "https://uk.linkedin.com/company/abr-talent",
+      "https://www.linkedin.com/company/in2-saas-international-software-as-a-service-staffing-solutions",
+      "https://www.linkedin.com/company/captivate-talent",
+      "https://www.linkedin.com/company/sales-talent-inc-",
+      "https://www.linkedin.com/company/live-saas-recruitment-agency",
+      "https://www.linkedin.com/company/saas-talent33",
+      "https://www.linkedin.com/posts/saas-talent33_saastalent-leadership-talentdevelopment-activity-7439369907357732864-mJVD",
+      "https://www.linkedin.com/posts/saas-talent33_the-1-resource-for-talent-acquisition-and-activity-7351664401273225216-mUSy",
+      "https://www.linkedin.com/posts/saas-talent33_saastalent-saasleadership-startupgrowth-activity-7437544934817034241-qQHU",
+      "https://www.linkedin.com/posts/saas-talent33_saas-talent-just-made-the-largest-hire-in-activity-7348024438610702336-eICW",
+      "https://www.linkedin.com/pulse/saas-talent-brand-launch-value-proposition-founder-ceo",
+      "site:linkedin.com/company saas-talent.com",
+      "https://www.linkedin.com/company/saas-talent33",
+      "https://br.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+      "https://www.linkedin.com/company/salesrecruiting",
+      "https://uk.linkedin.com/company/sourcing-saas",
+      "https://id.linkedin.com/company/saas-talent33?trk=ppro_cprof",
+      "https://www.linkedin.com/company/saas-tech-growth-meetup",
+      "https://www.linkedin.com/company/the-saas",
+      "https://www.linkedin.com/company/live-saas-recruitment-agency",
+      "https://uk.linkedin.com/company/the-saas-jobs",
+      "https://www.linkedin.com/company/sales-talent-inc-",
+      "site:linkedin.com/in \"SaaS Talent\" founder",
+      "https://www.linkedin.com/in/michaelbertoni33",
+      "https://www.linkedin.com/in/lauradurfee",
+      "https://www.linkedin.com/in/ericwhawthorne",
+      "https://co.linkedin.com/in/alan-kraus",
+      "https://in.linkedin.com/in/rashmibelsare",
+      "https://eg.linkedin.com/in/hrmsamy",
+      "https://fi.linkedin.com/in/saarakyllonen",
+      "https://www.linkedin.com/in/claireliao14",
+      "https://www.linkedin.com/in/anil06",
+      "https://ca.linkedin.com/in/lekan-olawoye",
+      "site:linkedin.com/in \"SaaS Talent\" ceo",
+      "https://www.linkedin.com/in/michaelbertoni33",
+      "https://www.linkedin.com/in/lauradurfee",
+      "https://www.linkedin.com/in/ericwhawthorne",
+      "https://www.linkedin.com/in/anil06",
+      "https://co.linkedin.com/in/alan-kraus",
+      "https://eg.linkedin.com/in/hrmsamy",
+      "https://in.linkedin.com/in/anushka-kandpal-66102a35b",
+      "https://www.linkedin.com/in/laurenvahrens",
+      "https://www.linkedin.com/in/claire-jordan-3b16718",
+      "https://in.linkedin.com/in/rahul-khurana-a9899421"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/phillytech-co",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/michaelbertoni33"
+  },
+  "lead_before_enrichment": {
+    "business": "SaaS Talent",
+    "description": "SaaS Talent is a top SaaS recruiting firm helping startups hire GTM, AI, and tech talent fast in the U.S. and Latin America. Guaranteed results.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://saas-talent.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/phillytech-co",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/phillytech-co",
+    "source_url": "https://saas-talent.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "saas-talent.com",
+    "source_urls": [
+      "https://saas-talent.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "SaaS Talent",
+    "description": "SaaS Talent is a top SaaS recruiting firm helping startups hire GTM, AI, and tech talent fast in the U.S. and Latin America. Guaranteed results.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://saas-talent.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "https://www.linkedin.com/in/michaelbertoni33",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/phillytech-co",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/phillytech-co",
+    "source_url": "https://saas-talent.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "saas-talent.com",
+    "source_urls": [
+      "https://saas-talent.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://saas-talent.com"
+  },
+  "field_changes": {
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/michaelbertoni33"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://saas-talent.com"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

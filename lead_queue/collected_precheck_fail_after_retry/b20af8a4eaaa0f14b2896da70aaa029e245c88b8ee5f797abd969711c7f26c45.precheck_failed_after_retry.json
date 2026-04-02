@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Business Consulting Services LLC",
+  "lead": {
+    "business": "Business Consulting Services LLC",
+    "full_name": "EMTWO Business Consulting LLC, USA",
+    "first": "EMTWO",
+    "last": "Business Consulting LLC, USA",
+    "email": "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+    "role": "Chief Executive Officer",
+    "website": "http://www.consultbiz.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "city": "New York",
+    "source_url": "https://strategicventurepartners.net",
+    "description": "Business Consulting Services improves operating results through business process, workflow and information technology techniques, using only senior resources and skill sets at competitive fees. Tom Casey CMC is the founder and President of Business Consulting Services (BCS), a Small Business Enterprise. He has almost thirty years in the consulting industry, with extensive experience in the improvement of business performance and operations, as well as the planning and implementation of information technology strategies.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Pennsylvania",
+    "hq_city": "Swarthmore",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/business-consulting-services-llc",
+    "linkedin": "https://linkedin.com/in/emtwo-business-consulting-llc-usa-7341a6360"
+  },
+  "source_failed_basename": "1438b18b589e670b784dd9e93e468bf5ac814e0e5aab3f03cff27e8ca1341170.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1438b18b589e670b784dd9e93e468bf5ac814e0e5aab3f03cff27e8ca1341170.precheck_failed.json",
+  "queue_key": "b20af8a4eaaa0f14b2896da70aaa029e245c88b8ee5f797abd969711c7f26c45"
+}

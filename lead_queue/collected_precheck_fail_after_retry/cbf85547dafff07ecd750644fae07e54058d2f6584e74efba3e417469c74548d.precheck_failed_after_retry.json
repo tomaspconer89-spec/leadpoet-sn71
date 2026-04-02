@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "Strategic Advisory",
+  "lead": {
+    "business": "Strategic Advisory",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@strategicadvisorypartners.com",
+    "role": "Contact",
+    "website": "http://www.strategic-advisory.com.au",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "",
+    "city": "Pittsburgh",
+    "source_url": "https://strategicadvisorypartners.com",
+    "description": "Strategic Advisory are experts in the field of providing finance & real estate for home, investment or commercial purposes. We understand the intricacies of the the market and are able to identify the most appropriate strategy and product to help you achieve your goals. Our unique process is the most comprehensive in the marketplace, yet we are able to communicate and deliver the solution to you in a simple, straightforward and effective way.",
+    "employee_count": "11-50",
+    "hq_country": "New South Wales",
+    "hq_state": "",
+    "hq_city": "Sydney",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/strategic-financing"
+  },
+  "source_failed_basename": "660520950267266b0db56b89741ce3d17b367dda314e55293bac8dd562593ff0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/660520950267266b0db56b89741ce3d17b367dda314e55293bac8dd562593ff0.precheck_failed.json",
+  "queue_key": "cbf85547dafff07ecd750644fae07e54058d2f6584e74efba3e417469c74548d"
+}

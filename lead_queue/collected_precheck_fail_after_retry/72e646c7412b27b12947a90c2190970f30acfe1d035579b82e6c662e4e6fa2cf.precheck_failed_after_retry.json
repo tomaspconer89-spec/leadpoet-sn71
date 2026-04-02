@@ -1,0 +1,42 @@
+{
+  "reason": "email_domain_mismatch",
+  "retry_reason": "email_domain_mismatch",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Fractional Growth Advisors",
+  "lead": {
+    "business": "Fractional Growth Advisors",
+    "full_name": "Lori Brown-Simmons",
+    "first": "Lori",
+    "last": "Brown-Simmons",
+    "email": "lori@fractionalfirmadvisors.com",
+    "role": "Founder",
+    "website": "http://www.fractionalga.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "District of Columbia",
+    "city": "Washington",
+    "source_url": "https://fractionalfirmadvisors.com",
+    "description": "At Fractional Growth Advisors, we help small to mid-sized technology and consulting firms move from founder-led sales to professional sales leadership at a fraction of the cost. Our fractional leadership solutions provide expert guidance and hands-on execution across key business functions\u2014without the overhead of full-time hires. Unlock Growth with Proven Leadership Our seasoned executives bring decades of experience in scaling businesses, optimizing operations, and driving revenue growth.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Pensacola",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fractionalga",
+    "linkedin": "https://linkedin.com/in/lori-brown-simmons-293a959"
+  },
+  "source_failed_basename": "65740438769204f73bcb12167943546125f53b712f1382f51e5aabe4549cd49d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/65740438769204f73bcb12167943546125f53b712f1382f51e5aabe4549cd49d.precheck_failed.json",
+  "queue_key": "72e646c7412b27b12947a90c2190970f30acfe1d035579b82e6c662e4e6fa2cf"
+}

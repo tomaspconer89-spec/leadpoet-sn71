@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Brady Martz",
+  "lead": {
+    "business": "Brady Martz",
+    "full_name": "Brady Johs, CPA",
+    "first": "Brady",
+    "last": "Johs, CPA",
+    "email": "brady@bradymartz.com",
+    "role": "Principal",
+    "website": "http://www.bradymartz.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "North Dakota",
+    "city": "Grand Forks",
+    "source_url": "https://bradymartz.com",
+    "description": "There are no small clients at Brady Martz. There are no unimportant questions. There are no unsolvable problems. Every one of our clients deserves to work with an experienced professional who understands their business and the industry in which it operates. Our accounting, audit, tax, and consulting services blend professionalism with expertise. The people of Brady Martz are actively engaged in helping our clients achieve their financial goals. We meet you face to face, then work with you every step of the way.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "North Dakota",
+    "hq_city": "Grand Forks",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/brady-martz",
+    "linkedin": "https://linkedin.com/in/brady-johs-cpa-b7605842"
+  },
+  "source_failed_basename": "2bb1fa0e03bc9ebdf06c0634e4d8c541647e96fea56bab42a9267c0eaf8d5603.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2bb1fa0e03bc9ebdf06c0634e4d8c541647e96fea56bab42a9267c0eaf8d5603.precheck_failed.json",
+  "queue_key": "c380f8937e0a88b2cf06e444e32f0429004ec6e23ce967fe831567e7a5bc1f08"
+}

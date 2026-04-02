@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "AdvisorAssist",
+  "lead": {
+    "business": "AdvisorAssist",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@advisorassist.com",
+    "role": "Contact",
+    "website": "http://AdvisorAssist.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Marshfield",
+    "source_url": "https://advisorassist.com",
+    "description": "AdvisorAssist is a management consulting firm focused exclusively on serving investment advisory firms. Through consultative services and outsourcing, AdvisorAssist provides expertise, resources and actionable solutions that enable investment advisors to achieve their full potential. We are not your typical consulting firm. We deliver practical, actionable advice and solutions that are specific to your unique situation and business model by bringing together the three critical components of your advisory practice: People, Process and Technology. Services include:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "Marshfield",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/advisorassist",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/advisorassist"
+  },
+  "source_failed_basename": "09dd5b237b6ac4947c96e46d858d08aeab8cfe7c43fa8b9af6c70773eafe74d8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/09dd5b237b6ac4947c96e46d858d08aeab8cfe7c43fa8b9af6c70773eafe74d8.precheck_failed.json",
+  "queue_key": "41ef71d1cd0503a70a285b6a8f87b74475459d19f7cde8e0a9bf02d0a4e709cc"
+}

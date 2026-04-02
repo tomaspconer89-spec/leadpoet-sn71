@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Freedman Consulting, LLC",
+  "lead": {
+    "business": "Freedman Consulting, LLC",
+    "full_name": "Thomas Freedman",
+    "first": "Thomas",
+    "last": "Freedman",
+    "email": "",
+    "role": "Chief Executive Officer and Founder",
+    "website": "http://www.tfreedmanconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Public Policy Offices",
+    "country": "United States",
+    "state": "District of Columbia",
+    "city": "Washington",
+    "source_url": "https://tfreedmanconsulting.com",
+    "description": "Freedman Consulting, LLC, a mission-driven firm, offers strategic consulting services to foundations, nonprofit organizations, and public interest coalitions, advising many of the nation\u2019s leading philanthropic institutions. Examples of our work include strategic planning and issue landscaping for major foundations, advising and coordinating coalitions and advocacy campaigns, and creating and supporting public-private partnerships. We tackle the most interesting challenges at the intersection of policy, philanthropy, and politics to help our clients drive positive social change.",
+    "employee_count": "11-50",
+    "hq_country": "District of Columbia",
+    "hq_state": "District of Columbia",
+    "hq_city": "Washington",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/freedman-consulting-llc",
+    "linkedin": "https://linkedin.com/in/thomas-freedman-4a1987306"
+  },
+  "source_failed_basename": "755e8ee07c4718b3bd4469349b114485307e75338ae091eea2084ceb3ba49555.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/755e8ee07c4718b3bd4469349b114485307e75338ae091eea2084ceb3ba49555.precheck_failed.json",
+  "queue_key": "e1a16155a3a150be4783106c2b972c8f67495a3becb12c4e474cc0de8bcdc724"
+}

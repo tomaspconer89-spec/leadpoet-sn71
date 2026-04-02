@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: first contains invalid characters",
+  "retry_reason": "name_invalid_chars: first contains invalid characters",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "KORE1",
+  "lead": {
+    "business": "KORE1",
+    "full_name": "Thaneshwaran (Tony) Arumugam",
+    "first": "Thaneshwaran (Tony)",
+    "last": "Arumugam",
+    "email": "info@kore1.com",
+    "role": "Recruiting Manager",
+    "website": "http://www.kore1.com",
+    "industry": "Professional Services",
+    "sub_industry": "Recruiting",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "city": "Tiruchirappalli",
+    "source_url": "https://kore1.com",
+    "description": "KORE1 is a nationwide provider of recruiting and staffing services for the Technology, Engineering, Accounting & Finance, Healthcare, and Digital & Creative Services industries. Additionally, our professional services division provides software development and consulting to small, mid, and enterprise level companies. We are in business to help you maintain your competitive advantage by cost-effectively delivering business solutions when and how you need them most.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Irvine",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/kore1-technologies",
+    "linkedin": "https://linkedin.com/in/thaneshwaran-tony-arumugam-21754710a"
+  },
+  "source_failed_basename": "4debe8996bd3dd001504bc3686810b91c7a7b096cee11395fbc17b910b7be1b0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4debe8996bd3dd001504bc3686810b91c7a7b096cee11395fbc17b910b7be1b0.precheck_failed.json",
+  "queue_key": "67574dc8a68bd0e706a069371130b5811ab67ba3b3a8c1e4073c42467a63e915"
+}

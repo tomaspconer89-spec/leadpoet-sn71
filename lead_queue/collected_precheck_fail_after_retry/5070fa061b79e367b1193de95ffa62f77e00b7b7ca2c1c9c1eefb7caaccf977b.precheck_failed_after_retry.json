@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Accueil",
+  "lead": {
+    "business": "Accueil",
+    "full_name": "Helaina Pacholski",
+    "first": "Helaina",
+    "last": "Pacholski",
+    "email": "contact@matieregrise-executive.com",
+    "role": "Brother / Member - Recruitment Commitee Member",
+    "website": "http://www.accueil.it",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Greater Seattle Area",
+    "source_url": "https://matieregrise-executive.com",
+    "description": "ACCUEIL is a leading Italian company in the field of Call Center and Business Process Outsourcing Services. Special focus on Teleselling ranking on the top 5 companies in Italy. Telemarketing Teleselling Document Management Inbound Contact Center Back Office services Customer satisfaction surveys Data mining",
+    "employee_count": "501-1,000",
+    "hq_country": "Reggio Calabria",
+    "hq_state": "",
+    "hq_city": "Greater Seattle Area",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/accueil",
+    "linkedin": "https://linkedin.com/in/helainapacholski"
+  },
+  "source_failed_basename": "db11443cbca5cb580f39018e949fa7f0d00944c191fd5abbfa808587ae5cba33.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/db11443cbca5cb580f39018e949fa7f0d00944c191fd5abbfa808587ae5cba33.precheck_failed.json",
+  "queue_key": "5070fa061b79e367b1193de95ffa62f77e00b7b7ca2c1c9c1eefb7caaccf977b"
+}

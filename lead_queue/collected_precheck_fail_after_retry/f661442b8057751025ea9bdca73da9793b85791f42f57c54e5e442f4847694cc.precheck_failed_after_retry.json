@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: description",
+  "business": "Foresight Valuation Group",
+  "lead": {
+    "business": "Foresight Valuation Group",
+    "full_name": "Efrat Kasznik",
+    "first": "Efrat",
+    "last": "Kasznik",
+    "email": "media@foresightvaluation.com",
+    "role": "President",
+    "website": "http://www.foresightvaluation.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco Bay Area",
+    "source_url": "https://foresightvaluation.com",
+    "description": "In today\u2019s competitive marketplace, smart companies \u2013 from Fortune 500 firms to early stage startups \u2013 rely on innovation to keep them one step ahead of the game. They need to effectively leverage the knowledge, technologies, trade secrets, patents, trademarks, and copyrights that are critical to their success. Foresight takes a highly focused approach to extracting value from innovation. Our principals and affiliates have been involved in analyzing and commercializing cutting edge innovation for some of the world\u2019s most prominent technology companies.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Palo Alto",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/foresight-valuation-group",
+    "linkedin": "https://linkedin.com/in/ekasznik"
+  },
+  "source_failed_basename": "559672db01cddf3dabbd48d0061fbebe2f1092223380686c3edb4e45a40db847.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/559672db01cddf3dabbd48d0061fbebe2f1092223380686c3edb4e45a40db847.precheck_failed.json",
+  "queue_key": "f661442b8057751025ea9bdca73da9793b85791f42f57c54e5e442f4847694cc"
+}

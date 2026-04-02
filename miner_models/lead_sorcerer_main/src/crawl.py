@@ -1725,51 +1725,155 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
             except Exception as exc:
                 raise Exception(f"Website crawl failed: {exc}")
 
+    def _crawl4ai_fetch_one_sync(
+        self,
+        api_url: str,
+        target_url: str,
+        timeout_ms: int,
+    ) -> Optional[Dict[str, Any]]:
+        """POST one URL to Crawl4AI /scrape; returns markdown/title/links or None."""
+        payload = json.dumps(
+            {"url": target_url, "timeout_ms": timeout_ms}
+        ).encode("utf-8")
+        req = Request(
+            api_url,
+            data=payload,
+            headers={"Content-Type": "application/json", "Accept": "application/json"},
+            method="POST",
+        )
+        try:
+            response_data = json.loads(
+                urlopen(req, timeout=max(20, timeout_ms // 1000 + 5)).read().decode(
+                    "utf-8"
+                )
+            )
+        except Exception:
+            return None
+        if not isinstance(response_data, dict) or not response_data.get("success"):
+            return None
+        markdown = str(response_data.get("markdown") or "")
+        title = str(response_data.get("title") or "")
+        links = response_data.get("links") or []
+        if not isinstance(links, list):
+            links = []
+        return {
+            "markdown": markdown,
+            "title": title,
+            "links": [str(u) for u in links if u],
+            "url": target_url,
+        }
+
     async def _extract_with_crawl4ai_api(
         self,
         domain: str,
         urls_to_extract: List[str],
     ) -> Optional[Dict[str, Any]]:
         """
-        Use local Crawl4AI service to scrape a primary URL and map output
-        into the structure expected by downstream processing.
+        Use local Crawl4AI HTTP API to scrape one or more URLs (same list as
+        Apify path) and merge markdown for richer downstream regex/LLM signal.
+
+        Limits:
+          - CRAWL4AI_MAX_PAGES (default 6, max 12)
+          - CRAWL4AI_MERGED_MARKDOWN_MAX_CHARS (default 120000)
+          - CRAWL4AI_TIMEOUT_MS per page (default 45000)
         """
         if not self.crawl4ai_api_url:
             return None
 
-        target_url = urls_to_extract[0] if urls_to_extract else f"https://{domain}"
-        payload = json.dumps({"url": target_url, "timeout_ms": 45000}).encode("utf-8")
-        req = Request(
-            self.crawl4ai_api_url,
-            data=payload,
-            headers={"Content-Type": "application/json", "Accept": "application/json"},
-            method="POST",
-        )
+        try:
+            max_pages = int(os.environ.get("CRAWL4AI_MAX_PAGES", "6"))
+        except (TypeError, ValueError):
+            max_pages = 6
+        max_pages = max(1, min(max_pages, 12))
 
         try:
-            response_data = await asyncio.to_thread(
-                lambda: json.loads(urlopen(req, timeout=20).read().decode("utf-8"))
+            max_chars = int(os.environ.get("CRAWL4AI_MERGED_MARKDOWN_MAX_CHARS", "120000"))
+        except (TypeError, ValueError):
+            max_chars = 120000
+        max_chars = max(20_000, min(max_chars, 500_000))
+
+        try:
+            timeout_ms = int(os.environ.get("CRAWL4AI_TIMEOUT_MS", "45000"))
+        except (TypeError, ValueError):
+            timeout_ms = 45_000
+        timeout_ms = max(5_000, min(timeout_ms, 300_000))
+
+        base = urls_to_extract if urls_to_extract else [f"https://{domain}"]
+        ordered_urls: List[str] = []
+        norm_seen: set[str] = set()
+        for u in base:
+            u = (u or "").strip()
+            if not u:
+                continue
+            key = u.rstrip("/").lower()
+            if key in norm_seen:
+                continue
+            norm_seen.add(key)
+            ordered_urls.append(u)
+            if len(ordered_urls) >= max_pages:
+                break
+
+        if not ordered_urls:
+            ordered_urls = [f"https://{domain}"]
+
+        self.logger.info(
+            f"🕷️ Crawl4AI multi-page: {len(ordered_urls)} URL(s) for {domain}"
+        )
+
+        merged_parts: List[str] = []
+        all_links: List[str] = []
+        primary_title = ""
+        scraped_urls: List[str] = []
+
+        for i, url in enumerate(ordered_urls):
+            self.logger.info(
+                f"🕷️ Crawl4AI page {i + 1}/{len(ordered_urls)}: {url}"
             )
-        except Exception as exc:
-            self.logger.warning(f"Crawl4AI API unavailable for {domain}: {exc}")
+            page = await asyncio.to_thread(
+                self._crawl4ai_fetch_one_sync,
+                self.crawl4ai_api_url,
+                url,
+                timeout_ms,
+            )
+            if not page:
+                self.logger.warning(f"Crawl4AI failed or empty for {url}")
+                continue
+            scraped_urls.append(url)
+            if not primary_title and (page.get("title") or "").strip():
+                primary_title = str(page["title"]).strip()
+            md = (page.get("markdown") or "").strip()
+            if md:
+                merged_parts.append(f"\n\n<!-- crawl4ai: {url} -->\n\n{md}")
+            for link in page.get("links") or []:
+                if link:
+                    all_links.append(link)
+
+        if not merged_parts:
+            self.logger.warning(
+                f"Crawl4AI: no successful pages for {domain}"
+            )
             return None
 
-        if not isinstance(response_data, dict) or not response_data.get("success"):
-            self.logger.warning(f"Crawl4AI API returned unsuccessful response for {domain}")
-            return None
+        merged_markdown = "\n".join(merged_parts).strip()
+        if len(merged_markdown) > max_chars:
+            self.logger.info(
+                f"Crawl4AI merged markdown truncated "
+                f"{len(merged_markdown)} -> {max_chars} chars"
+            )
+            merged_markdown = merged_markdown[:max_chars]
 
-        markdown = str(response_data.get("markdown") or "")
-        title = str(response_data.get("title") or domain)
-        links = response_data.get("links") or []
-        if not isinstance(links, list):
-            links = []
+        deduped_links: List[str] = []
+        link_seen: set[str] = set()
+        for lk in all_links:
+            if lk not in link_seen:
+                link_seen.add(lk)
+                deduped_links.append(lk)
 
-        # Minimal structured payload compatible with existing downstream fields.
+        display_name = primary_title[:120] if primary_title else domain
         return {
             "company": {
-                "name": title[:120] if title else domain,
-                # Keep a large slice so email/LinkedIn regexes see footer/contact blocks.
-                "description": (markdown[:20000] if markdown else ""),
+                "name": display_name,
+                "description": merged_markdown,
                 "industry": "",
                 "sub_industry": "",
                 "hq_location": "",
@@ -1788,8 +1892,9 @@ IMPORTANT: If no clear intent signals are found, set business_intent_score to {i
             },
             "team_members": [],
             "crawl4ai": {
-                "url": target_url,
-                "links_count": len(links),
+                "urls": scraped_urls,
+                "pages_scraped": len(scraped_urls),
+                "links_count": len(deduped_links),
             },
         }
 

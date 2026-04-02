@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "TGC Group",
+  "lead": {
+    "business": "TGC Group",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@fortworthchamber.com",
+    "role": "Contact",
+    "website": "https://www.tgcgroup.net/",
+    "industry": "Travel and Tourism",
+    "sub_industry": "Hospitality",
+    "country": "United States",
+    "state": "Kansas",
+    "city": "Wichita",
+    "source_url": "https://fortworthchamber.com",
+    "description": "TGC Group is a vertically integrated Hospitality Development, Construction and Management Company.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Kansas",
+    "hq_city": "Wichita",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ftwchamber)[Visit",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/tgc-development-group"
+  },
+  "source_failed_basename": "853075dc89cd1264fa15f3bac96a1ba2e749abb7e7994dfbb63102e49b94d7e9.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/853075dc89cd1264fa15f3bac96a1ba2e749abb7e7994dfbb63102e49b94d7e9.precheck_failed.json",
+  "queue_key": "3e8bef084e0b3e2d09b266163298206efd3bf75ac29064a4888513402519854a"
+}

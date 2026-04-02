@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Non-profit Organization Management'",
+  "retry_reason": "invalid_sub_industry:'Non-profit Organization Management'",
+  "previous_reason": "missing_required_fields: full_name, first, last, email",
+  "business": "Fairmount Ventures",
+  "lead": {
+    "business": "Fairmount Ventures",
+    "full_name": "Aim\u00e9e Miller",
+    "first": "Aim\u00e9e",
+    "last": "Miller",
+    "email": "amiller@fairmountinc.com",
+    "role": "President",
+    "website": "http://www.fairmountinc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organization Management",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "source_url": "https://fairmountinc.com",
+    "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising, strategy, and leadership development services. Our clients range from community-based organizations to national leaders in the fields of arts and culture, the civic and public sector, climate and sustainability, economic inclusion, education, health and human services, and philanthropy. Our impact includes more than $1.6B raised for client operations, programs, capital, and endowment.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Pennsylvania",
+    "hq_city": "Philadelphia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fairmount-ventures",
+    "linkedin": "https://linkedin.com/in/aimeemiller07"
+  },
+  "source_failed_basename": "87173318c23511e687c620b7580b23ffe8eb7bb296b639a569f5bb9070597726.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/87173318c23511e687c620b7580b23ffe8eb7bb296b639a569f5bb9070597726.precheck_failed.json",
+  "queue_key": "b22e12edfded176fb928badd438cecca70d8968de7503392df4a2e27ee397fe8"
+}

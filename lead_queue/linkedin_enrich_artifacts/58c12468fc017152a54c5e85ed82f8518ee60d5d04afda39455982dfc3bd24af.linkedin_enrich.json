@@ -1,0 +1,539 @@
+{
+  "saved_at_utc": "2026-03-31T16:56:19.055052+00:00",
+  "queue_key": "58c12468fc017152a54c5e85ed82f8518ee60d5d04afda39455982dfc3bd24af",
+  "business": "MentorCruise - Connecting Mentors & Mentees",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company MentorCruise - Connecting Mentors & Mentees",
+      "MentorCruise - Connecting Mentors & Mentees linkedin company",
+      "site:linkedin.com/company mentorcruise.com",
+      "site:linkedin.com/in \"MentorCruise - Connecting Mentors & Mentees\" founder",
+      "site:linkedin.com/in \"MentorCruise - Connecting Mentors & Mentees\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "9jKs4SiBHRjw2kp",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+MentorCruise+-+Connecting+Mentors+%26+Mentees",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+MentorCruise+-+Connecting+Mentors+%26+Mentees",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company MentorCruise - Connecting Mentors & Mentees",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+MentorCruise+-+Connecting+Mentors+%26+Mentees",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+MentorCruise+-+Connecting+Mentors+%26+Mentees",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "MentorCruise",
+            "url": "https://www.linkedin.com/company/mentorcruise",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors in the industry of your interest"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "MentorCruise | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/mentorcruise?trk=ppro_cprof",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "Show the world what you are made of! Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals\u00a0...",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "MentorCruise",
+            "url": "https://nl.linkedin.com/company/mentorcruise?trk=public_profile_volunteering-position_profile-section-card_full-click",
+            "displayedUrl": "https://nl.linkedin.com \u203a company \u203a mentorcruise",
+            "description": "Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with\u00a0...",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors in the industry of your interest"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "MentorCruise",
+            "url": "https://br.linkedin.com/company/mentorcruise?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors in the industry of your interest"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "adplist.org",
+            "url": "https://ao.linkedin.com/company/adplist",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0adplist.org",
+            "description": "ADPList is a global community on a mission to democratize mentorship for all. Founded in 2021, it has since grown to 30,000+ verified mentors who have\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ADPList is a global community on a mission to democratize mentorship for all"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "176.7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "adplist.org",
+            "url": "https://www.linkedin.com/company/adplist",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Danelle Wright",
+            "description": "ADPList is a global community on a mission to democratize mentorship for all. Founded in 2021, it has since grown to 30,000+ verified mentors who have\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ADPList is a global community on a mission to democratize mentorship for all"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "176.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Mentoring Club",
+            "url": "https://www.linkedin.com/company/mentoring-club",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mentoring Club",
+            "description": "We are a vibrant and open network that connects mentors from diverse industries, languages, and domains with individuals who are eager to learn and grow.Read more",
+            "emphasizedKeywords": [
+              "connects mentors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "18.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Bytes In Balance",
+            "url": "https://www.linkedin.com/company/bytes-in-balance",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bytes In Balance",
+            "description": "We tackle stress, burnout, and growth pains through war stories, advice, and guest perspectives. Join our virtual seesaw as we navigate the world of software!Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Get Mentors",
+            "url": "https://www.linkedin.com/company/getmentorsapp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Get Mentors",
+            "description": "According to MentorCruise, mentees who engage consistently for 3+ months are 2x more likely to hit their career goals. Mistake #3: You're outsourcing your\u00a0...Read more",
+            "emphasizedKeywords": [
+              "MentorCruise",
+              "mentees"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/a3CadySfsgyKRqsQk/records/9jKs4SiBHRjw2kp-0.html?signature=B5W4OkZWnDeN4XXfCbdS"
+      },
+      {
+        "#debug": {
+          "requestId": "Dg6GbHvIOLXysJh",
+          "url": "http://www.google.com/search?q=MentorCruise+-+Connecting+Mentors+%26+Mentees+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=MentorCruise+-+Connecting+Mentors+%26+Mentees+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "MentorCruise - Connecting Mentors & Mentees linkedin company",
+          "url": "http://www.google.com/search?q=MentorCruise+-+Connecting+Mentors+%26+Mentees+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=MentorCruise+-+Connecting+Mentors+%26+Mentees+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "MentorCruise become a mentor",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+become+a+mentor&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "MentorCruise alternatives",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+alternatives&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "MentorCruise reviews",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+reviews&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "ADPList",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=ADPList&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "MentorCruise revenue",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+revenue&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "MentorCruise pricing",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+pricing&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "Best mentoring platforms",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Best+mentoring+platforms&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Mentorship app",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Mentorship+app&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "MentorCruise become a mentor",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+become+a+mentor&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "MentorCruise alternatives",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+alternatives&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhBEAE"
+          },
+          {
+            "title": "MentorCruise reviews",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+reviews&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "ADPList",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=ADPList&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "MentorCruise revenue",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+revenue&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhCEAE"
+          },
+          {
+            "title": "MentorCruise pricing",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=MentorCruise+pricing&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "Best mentoring platforms",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Best+mentoring+platforms&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Mentorship app",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Mentorship+app&sa=X&ved=2ahUKEwir5MidzcqTAxVs5ckDHZ41H4EQ1QJ6BAg-EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "MentorCruise",
+            "url": "https://www.linkedin.com/company/mentorcruise",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors in the industry of your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Find a LinkedIn mentor and reach your goals 2x faster.",
+            "url": "https://mentorcruise.com/filter/linkedin/",
+            "displayedUrl": "https://mentorcruise.com \u203a Find a Mentor",
+            "description": "A mentoring platform like MentorCruise is faster: LinkedIn mentors are pre-vetted through a process accepting under 5% of applicants, and you can start a free\u00a0...Read more",
+            "emphasizedKeywords": [
+              "LinkedIn mentors are pre-vetted through a process accepting under 5% of applicants"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Mentorship at MentorCruise: A journey of learning and ...",
+            "url": "https://www.linkedin.com/posts/leoson-hoay_spent-three-and-a-half-years-with-mentorcruise-activity-7366592790815784960-dfrK",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Leoson Hoay",
+            "description": "Here's what happens when mentorship is built for scale: \u2713 75% lift in productivity \u2713 52% lower turnover \u2713 200% higher engagement from volunteers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "mentorship"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "MentorCruise - Connecting Mentors & Mentees",
+            "url": "https://mentorcruise.com/",
+            "displayedUrl": "https://mentorcruise.com",
+            "description": "MentorCruise connects aspiring mentees with industry experts for mentorship in Software Engineering, Product Management, AI, Design and Business.",
+            "emphasizedKeywords": [
+              "MentorCruise"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Mistakes mentors make: How to truly support mentees",
+            "url": "https://www.linkedin.com/posts/mentorcruise_mentorcruise-mentorship-leadership-activity-7366127944106221571-1MKM",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "Most mentors make this mistake They jump in with their own stories, their own advice, and cut off their mentee. But mentorship isn't about\u00a0...",
+            "emphasizedKeywords": [
+              "mentors",
+              "mentee",
+              "mentorship"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Find a mentor | MentorCruise",
+            "url": "https://www.linkedin.com/posts/mentorcruise_find-a-mentor-activity-7442963605974712320-mXwh",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "If you're ready, MentorCruise connects you with mentors who've ... Business Strategy \u00b7 Change Management \u00b7 Organizational Culture \u00b7 Design\u00a0...Read more",
+            "emphasizedKeywords": [
+              "MentorCruise connects you with mentors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5 days ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Why I decided to become a mentor",
+            "url": "https://mentorcruise.com/blog/why-i-decided-to-become-a-mentor/",
+            "displayedUrl": "https://mentorcruise.com \u203a blog \u203a why-i-decided-to-bec...",
+            "description": "A few years ago, I had mentors who helped me without asking for anything back. They gave me time, clarity, and honest feedback. I absolutely\u00a0...Read more",
+            "date": "2025-11-14T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "mentors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "#careertips #career #mentorship | MentorCruise",
+            "url": "https://www.linkedin.com/posts/mentorcruise_careertips-career-mentorship-activity-7288601469975441408-O6k2",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a mentorcruise_careerti...",
+            "description": "Jan 24, 2025 \u2014 No one will care about your growth, success, or goals as much as YOU do. Waiting for someone else to hand you opportunities is a gamble you\u00a0...",
+            "date": "2025-01-24T12:00:00.000Z",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "MentorCruise",
+            "url": "https://br.linkedin.com/company/mentorcruise?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MentorCruise",
+            "description": "Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Connect with one of 2,000+ mentors in the industry of your"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Growing Your Small Business with LinkedIn in 2025",
+            "url": "https://mentorcruise.com/blog/growing-your-small-business-with-linkedin-in-2025/",
+            "displayedUrl": "https://mentorcruise.com \u203a blog \u203a growing-your-small-...",
+            "description": "Ready to find the right mentor for your goals? ... Find out if MentorCruise is a good fit for you \u2013 fast, free, and no pressure.Read more",
+            "date": "2024-12-30T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "MentorCruise"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/GoMRJo0txgDOS4vd6/records/Dg6GbHvIOLXysJh-0.html?signature=1GJAO9ibpSWIVFc1t6Tv6"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company MentorCruise - Connecting Mentors & Mentees",
+      "https://www.linkedin.com/company/mentorcruise",
+      "https://cn.linkedin.com/company/mentorcruise?trk=ppro_cprof",
+      "https://nl.linkedin.com/company/mentorcruise?trk=public_profile_volunteering-position_profile-section-card_full-click",
+      "https://br.linkedin.com/company/mentorcruise?trk=ppro_cprof",
+      "https://ao.linkedin.com/company/adplist",
+      "https://www.linkedin.com/company/adplist",
+      "https://www.linkedin.com/company/mentoring-club",
+      "https://www.linkedin.com/company/bytes-in-balance",
+      "https://www.linkedin.com/company/getmentorsapp",
+      "https://www.linkedin.com/company/mentorcruise",
+      "https://www.linkedin.com/posts/leoson-hoay_spent-three-and-a-half-years-with-mentorcruise-activity-7366592790815784960-dfrK",
+      "https://www.linkedin.com/posts/mentorcruise_mentorcruise-mentorship-leadership-activity-7366127944106221571-1MKM",
+      "https://www.linkedin.com/posts/mentorcruise_find-a-mentor-activity-7442963605974712320-mXwh",
+      "https://www.linkedin.com/posts/mentorcruise_careertips-career-mentorship-activity-7288601469975441408-O6k2",
+      "https://br.linkedin.com/company/mentorcruise?trk=ppro_cprof"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/mentorcruise",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "MentorCruise - Connecting Mentors & Mentees",
+    "description": "[ ![MentorCruise](https://cdn.mentorcruise.com/img/mc-logo-white.svg) ](https://mentorcruise.com/) Search Open menu For Businesses [Mentorship for Teams](https://mentorcruise.com/teams/) [Information for Employers](https://mentorcruise.com/teams/info/) [Fractional Executives](https://mentorcruise.com/fractional-executive/) [ Login ](https://mentorcruise.com/auth/login/ \"Login\") [ Browse all mentors ](https://mentorcruise.com/mentor/browse/ \"Find a mentor\") [ Engineering Mentors ](https://mentorcruise.com/skill/engineering/) [ Design Mentors ](https://mentorcruise.com/skill/design/) [ Startup M",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://mentorcruise.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/mentorcruise",
+    "source_url": "https://mentorcruise.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "mentorcruise.com",
+    "source_urls": [
+      "https://mentorcruise.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "MentorCruise - Connecting Mentors & Mentees",
+    "description": "[ ![MentorCruise](https://cdn.mentorcruise.com/img/mc-logo-white.svg) ](https://mentorcruise.com/) Search Open menu For Businesses [Mentorship for Teams](https://mentorcruise.com/teams/) [Information for Employers](https://mentorcruise.com/teams/info/) [Fractional Executives](https://mentorcruise.com/fractional-executive/) [ Login ](https://mentorcruise.com/auth/login/ \"Login\") [ Browse all mentors ](https://mentorcruise.com/mentor/browse/ \"Find a mentor\") [ Engineering Mentors ](https://mentorcruise.com/skill/engineering/) [ Design Mentors ](https://mentorcruise.com/skill/design/) [ Startup M",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://mentorcruise.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/mentorcruise",
+    "source_url": "https://mentorcruise.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "mentorcruise.com",
+    "source_urls": [
+      "https://mentorcruise.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {}
+}

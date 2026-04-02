@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
 Re-precheck JSON leads in lead_queue/collected_pass/, submit those that pass via the
-gateway, and move verified files to lead_queue/submitted/.
+gateway, and move files to lead_queue/submitted/ **only after verify reports success**.
 
 - Precheck failure: written to lead_queue/collected_precheck_fail/<stem>.precheck_failed.json,
   original removed from collected_pass.
-- Duplicate email / person+company LinkedIn: moved to lead_queue/failed/ (same as submit_queued_leads).
-- Gateway HTTP 409 (e.g. duplicate_email_processing, duplicate_linkedin_combo): removed from
-  collected_pass; lead_queue/failed/<stem>.gateway_rejected.json records error + lead snapshot.
-- Presign / S3 / non-409 verify failure: file stays in collected_pass for retry.
-- If lead_queue/submitted/<same filename> already exists: skipped.
+- Duplicate email / LinkedIn combo, presign failure, S3 failure, verify failure or gateway
+  conflict: optional record under lead_queue/failed/*.submission_outcome.json — **lead file
+  stays in collected_pass** for retry or manual fix.
+- **Only** ``gateway_verify_submission_outcome`` OK: move JSON to lead_queue/submitted/.
+- If lead_queue/submitted/<same filename> already exists: collision-safe ``.attemptN`` name.
 
 Usage (from repo root):
   python3 scripts/submit_collected_pass.py
@@ -215,7 +215,7 @@ def main() -> int:
     attempted_unverified_count = 0
     precheck_fail_count = 0
     enqueued_count = 0
-    moved_to_submitted = 0
+    verified_moved_to_submitted = 0
     submitted_collision_count = 0
 
     print(f"Processing up to {len(files)} file(s) from {collected}")
@@ -261,7 +261,7 @@ def main() -> int:
             continue
 
         if check_email_duplicate(email):
-            print(f"Duplicate email: {business_name} ({email})")
+            print(f"Duplicate email: {business_name} ({email}) — left in collected_pass")
             duplicate_count += 1
             _write_failed_outcome(
                 failed_dir,
@@ -271,17 +271,12 @@ def main() -> int:
                 error_code="duplicate_email",
                 message="Duplicate email already exists",
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             continue
 
         if linkedin_url and company_linkedin_url and check_linkedin_combo_duplicate(
             linkedin_url, company_linkedin_url
         ):
-            print(f"Duplicate person+company LinkedIn: {business_name}")
+            print(f"Duplicate person+company LinkedIn: {business_name} — left in collected_pass")
             duplicate_count += 1
             _write_failed_outcome(
                 failed_dir,
@@ -291,11 +286,6 @@ def main() -> int:
                 error_code="duplicate_linkedin_combo",
                 message="Duplicate LinkedIn person+company combo already exists",
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             continue
 
         if args.enqueue_pending:
@@ -322,7 +312,7 @@ def main() -> int:
         presign_result = gateway_get_presigned_url(wallet, lead)
         if not presign_result:
             print(
-                f"Presign failed for {business_name}; archiving attempt in submitted. "
+                f"Presign failed for {business_name}; left in collected_pass. "
                 "If the gateway said 'Hotkey not registered on subnet' but btcli shows you on netuid 71, "
                 "the hosted metagraph may lag."
             )
@@ -334,16 +324,11 @@ def main() -> int:
                 error_code="presign_failed",
                 message="Gateway presign failed",
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             attempted_unverified_count += 1
             continue
 
         if not gateway_upload_lead(presign_result["s3_url"], lead):
-            print(f"S3 upload failed for {business_name}; archiving attempt in submitted.")
+            print(f"S3 upload failed for {business_name}; left in collected_pass.")
             _write_failed_outcome(
                 failed_dir,
                 path.name,
@@ -353,11 +338,6 @@ def main() -> int:
                 error_code="s3_upload_failed",
                 message="Gateway S3 upload failed",
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             attempted_unverified_count += 1
             continue
 
@@ -369,7 +349,7 @@ def main() -> int:
                 submitted_collision_count += 1
             print(f"Verified: {business_name} -> submitted/{target.name}")
             path.rename(target)
-            moved_to_submitted += 1
+            verified_moved_to_submitted += 1
         elif verify_out.terminal_conflict:
             rejected_count += 1
             out = _write_failed_outcome(
@@ -382,13 +362,8 @@ def main() -> int:
                 error_code=verify_out.error_code,
                 message=verify_out.message,
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             print(
-                f"Gateway conflict (terminal): {business_name} -> submitted/{target.name} "
+                f"Gateway conflict (terminal): {business_name} left in collected_pass "
                 f"(outcome: failed/{out.name})"
             )
         else:
@@ -403,18 +378,13 @@ def main() -> int:
                 error_code=verify_out.error_code,
                 message=verify_out.message,
             )
-            target = _submitted_path_for_attempt(submitted_dir, path.name, attempt_idx)
-            if target.name != path.name:
-                submitted_collision_count += 1
-            path.rename(target)
-            moved_to_submitted += 1
             print(
-                f"Verify failed (non-terminal): {business_name} -> submitted/{target.name} "
+                f"Verify failed (non-terminal): {business_name} left in collected_pass "
                 f"(outcome: failed/{out.name})"
             )
 
     print(
-        f"Done. moved_to_submitted={moved_to_submitted} verified={verified_count} "
+        f"Done. verified_moved_to_submitted={verified_moved_to_submitted} verified={verified_count} "
         f"attempted_unverified={attempted_unverified_count} rejected={rejected_count} "
         f"duplicates={duplicate_count} submitted_name_collisions={submitted_collision_count} "
         f"enqueued_pending={enqueued_count} precheck_fail={precheck_fail_count}"

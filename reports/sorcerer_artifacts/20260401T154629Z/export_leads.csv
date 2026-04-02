@@ -1,0 +1,664 @@
+"best_contact.decision_maker","best_contact.department","best_contact.email","best_contact.full_name","best_contact.job_title","best_contact.linkedin_url","best_contact.location","best_contact.phone","best_contact.seniority","best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.emails","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","site_type","status"
+"","","","","","","","","","","","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","","true","The company provides startup advisory services, which aligns with the ICP's description of a small startup advisory and consulting firm. The mention of founder contact information also matches the ICP.","0.8","llm","llama3","ea4298439f885a2a81a5e3ca3148aca810eb94a7b80b48ce13ae6cc6040ba011","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-04-01T15:38:27.379608Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp8cgvcewu/evidence/domain/cansulta.com.json","","2026-06-30T15:38:27.379612Z","startup advisory services founder contact","2026-04-01T15:36:28.807570Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://greaterprairiebusinessconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","greaterprairiebusinessconsulting.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "The company matches the ICP in terms of industry relevance (management consulting) and geographic location (DFW). However, it's a larger firm with a call-to-action for clients to conta","0.8","llm","llama3","146684666830e745abe7d9661a1b0e311808af899f0745c2b5c3562b8359bf0a","0.0","0.3","c6a8c483-9dea-52af-a5b6-e438bc97a29e","","2026-04-01T15:38:27.392717Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/greaterprairiebusinessconsulting.com.json","/tmp/tmp8cgvcewu/evidence/domain/greaterprairiebusinessconsulting.com.json","","2026-06-30T15:38:27.392720Z","business consulting firm advisor email","2026-04-01T15:36:54.293007Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","industry_alignment_mismatch","true","The company's description suggests a consulting firm, which aligns with the ICP. However, it doesn't explicitly mention 'advisory and consulting firms' or 'founder and advisor contact information'.","0.8","llm","llama3","35980b8dd2bebee7241c2e7f7c7b5aff8fc6aecb5b8f6e034f2819f99d6724f8","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-04-01T15:38:27.405806Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp8cgvcewu/evidence/domain/maynardnexsen.com.json","","2026-06-30T15:38:27.405808Z","business consulting firm advisor email","2026-04-01T15:36:54.747508Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_alignment","true","The company provides CEO contact information for SaaS startups in the US, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","c2f677fd60cbe7bb2c90b3d7361ff68901e906622af9855032ff9210eba29c59","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-04-01T15:38:27.418782Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp8cgvcewu/evidence/domain/findemails.com.json","","2026-06-30T15:38:27.418784Z","SaaS startup CEO contact information","2026-04-01T15:37:12.770467Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","#  Bad gateway Error code 502
+Visit [cloudflare.com](https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=getlatka.com) for more information. 
+2026-03-29 17:13:33 UTC
+You
+###  Browser 
+Working
+[ ](https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=getlatka.com)
+Newark
+###  [ Cloudflare ](https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=getlatka.com)
+Working
+getlatka.com
+###  Host 
+Error
+## What happened?
+The web server reported a bad gateway error.
+## What can I do?
+Please try again in a few minutes.
+Cloudflare Ray ID: **9e40817d1b070cb0** • Your IP: Click to reveal 23.105.155.2 • Performance & security by [Cloudflare](https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=getlatka.com)
+","","","https://getlatka.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","getlatka.com | 502: Bad gateway","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","getlatka.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","industry_alignment","true","The company provides contact information for SaaS industries, which aligns with the ICP's focus on SaaS startup advisory and consulting firms.","0.8","llm","llama3","60f29e5a55450ef529d4f1335a5e7b4c57ae243e0cc0870a1093bfffb6e4c665","0.0","0.3","1884e391-9983-5bab-9923-2d6b12cd90fb","","2026-04-01T15:38:27.431853Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/getlatka.com.json","/tmp/tmp8cgvcewu/evidence/domain/getlatka.com.json","","2026-06-30T15:38:27.431855Z","SaaS startup CEO contact information","2026-04-01T15:37:13.220821Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# Sell Software and SaaS Online with PayPro Global
+
+SaaS | Software | Video Games
+
+## All-in-one platform for selling SaaS, Software & Video Games
+
+**Focus on building your products, not becoming a compliance expert.**  
+We’ll handle the stress and headaches of global payments, taxes, and regulations.
+
+![Mosaic image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/mosaic-set-8.svg)
+
+![](https://payproglobal.com/wp-content/uploads/2026/03/leader-medal.png)
+
+![](https://payproglobal.com/wp-content/uploads/2026/03/best-support-medal.png)
+
+3000+ businesses served worldwide
+
+![PayPro Global Dashboard](https://payproglobal.com/wp-content/uploads/2024/08/paypro-global-dashboard-1.png)
+
+13,000
+
+tax jurisdictions supported
+
+Discover Our Platform
+
+## Everything You Need to Sell and Stay Compliant Globally in 200+ Countries
+
+## Global Payments
+
+Boost global sales by offering familiar, local payment options. Build instant trust and improve conversion in new markets.
+
+*   **70+payment methods, 140+ currencies**
+*   **30 + Languages Supported by our checkouts**
+*   **Smart Payment Routing**
+*   **Regional and Adaptive Pricing**
+
+[Learn more](https://payproglobal.com/products/global-payments/)
+
+## SaaS Sales Tax
+
+PayPro Global acts as your reseller, managing all global tax complexities for you.
+
+*   **Real-Time sales tax, VAT, and GST Calculation**
+*   **13,000+ Tax Jurisdiction Coverage**
+*   **PCI-DSS Level One Partner**
+*   **Regulation Monitoring**
+
+[Learn more](https://payproglobal.com/products/global-saas-sales-tax/)
+
+## Fraud Protection
+
+We adapt to your needs to detect suspicious transactions, manage disputes, and secure your bottom line.
+
+*   **Full-Cycle Fraud Defense**
+*   **Dynamic Encryption and Hash Parameters**
+*   **Customizable Risk Rules**
+*   **Card Tester Blocking**
+
+[Learn more](https://payproglobal.com/products/fraud-prevention/)
+
+## Merchant of Record
+
+As your MoR, we help you expand your business by managing the operational complexities of selling in new markets and a growing customer base.
+
+*   **Tax & Compliance Management**
+*   **Payment Localization**
+*   **Customer Support**
+*   **Market Expansion**
+
+[Learn more](https://payproglobal.com/products/merchant-of-record/)
+
+## SaaS Revenue Recovery
+
+Increase authorization rates, recover lost payments, and effortlessly boost your bottom line.
+
+*   **Automatic Payment Retry**
+*   **Cascading System**
+*   **Dunning Management**
+*   **Card Updater**
+
+[Learn more](https://payproglobal.com/products/saas-revenue-recovery/)
+
+## Subscription Management
+
+From automated recurring billing to churn reduction tools, our platform maximizes your subscription revenue.
+
+*   **Manual & Auto-Renewal** 
+*   **Flexible Billing & Pricing Models**
+*   **Automated Invoice Generation** 
+*   **Robust Subscription API**
+
+[Learn more](https://payproglobal.com/products/subscription-management/)
+
+## Market Expansion
+
+PayPro Global’s platform simplifies your business’s entry into new regions, reducing operational complexity and resource requirements.
+
+*   **Email, Phone, Chat, and Website Support**
+*   **Shortest Time-to-Market**
+*   **No Need For Local Entities**
+*   **Merchant of Record**
+
+[Learn more](https://payproglobal.com/products/market-expansion/)
+
+## Customer Service
+
+Dedicated channels and proactive communication mean your customers are cared for at all times.
+
+*   **1-Day Swift Onboarding**
+*   **Assisted Integration**
+*   **Developer-Friendly Resources**
+*   **24/7/365 Support in 28+ Languages**
+
+[Learn more](https://payproglobal.com/products/customer-service/)
+
+The Right Partner For Your Business
+
+AI Tools
+
+With flexible monetization options and robust security, you can focus on building innovative AI solutions while we manage your global growth. Our all-in-one platform simplifies international sales by handling cross-border payments, taxes, and compliance.
+
+[Learn more](https://payproglobal.com/solutions/selling-ai-tools-online/)
+
+SaaS
+
+Scale your SaaS with a platform that masters recurring billing and reduces churn automatically. We act as your Merchant of Record, simplifying global payments and tax so you can dedicate your time to product innovation and customer success.
+
+[Learn more](https://payproglobal.com/solutions/selling-b2b-saas/)
+
+Software
+
+Sell software anywhere in the world. Our developer-friendly checkouts and automated billing systems are designed to increase your revenue and customer satisfaction, letting you concentrate on what you do best: creating great software.
+
+[Learn more](https://payproglobal.com/solutions/selling-software-online/)
+
+Video Games
+
+Collect in-game purchases, DLC sales, and microtransactions while providing uninterrupted checkout experiences that keep players engaged without breaking immersion.
+
+[Learn more](https://payproglobal.com/solutions/selling-video-games-online/)
+
+Subscription Businesses
+
+Eliminate subscription billing headaches with our unified platform that automates recurring payments, recovers failed transactions through intelligent dunning management, and ensures global tax compliance across all markets.
+
+[Learn more](https://payproglobal.com/solutions/implementing-subscription-business-model/)
+
+## Join thousands of ambitious SaaS businesses  
+who trust PayPro Global to **transform their global growth journey.**
+
+### See how PayPro Global helped  
+Lightkey scale globally.
+
+“With PayPro Global, I am able to focus on my business and my growth, knowing that any payment-related aspect is in safe hands.” 
+
+**Eran Brauer,**  
+Lightkey Co-Founder
+
+[Watch video](https://www.youtube.com/watch?v=layR-Ycj_sQ)
+
+### Here's how Ranktracker used  
+the MOR model to grow.
+
+“I can see PayPro Global evolving their products, adding new features, new tools to see our business grow and increase our revenue and keep our customers happy.”
+
+**Felix Rose-Collins,**  
+Ranktracker Co-Founder & CMO
+
+[Watch video](https://www.youtube.com/watch?v=blPzM6DYDc8)
+
+### Learn why Actifile chose PayPro  
+Global to expand internationally.
+
+“PayPro Global helps us grow our company because it’s built for SaaS companies.”
+
+**Guy Bavly,**  
+Actifile Founder & CEO
+
+[Watch video](https://www.youtube.com/watch?v=lP_BgibrmEU)
+
+BENEFIT 1
+
+![Step 1 image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/step-card-1.svg)
+
+### Higher Conversions, Everywhere
+
+Thanks to our localized checkout, your customer pays using their preferred local currency and payment method, leading to more sales and brand trust.
+
+BENEFIT 2
+
+![Step 2 image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/step-card-2.svg)
+
+### End-to-End Payment & Compliance Management
+
+As your Merchant of Record, PayPro Global handles everything behind the scenes — payment processing, global tax collection, currency conversions, and regulatory compliance — in over 200 countries.
+
+BENEFIT 3
+
+![Step 3 image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/step-card-3.svg)
+
+### No More Tax Registrations or Local Entities
+
+From VAT and sales tax to GDPR and PCI DSS, we take on all legal and financial liability for each sale — no need for you to register for tax IDs or set up local entities.
+
+BENEFIT 4
+
+![Step 4 image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/step-card-4.svg)
+
+### Built-in Revenue Protection
+
+Our risk and fraud prevention tools detect and block bad actors, keeping your revenue secure and your chargebacks low.
+
+BENEFIT 5
+
+![Step 5 image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/step-card-5.svg)
+
+### Reliable, Transparent Payouts
+
+We consolidate global revenue and remit your earnings reliably, with transparent reporting and full visibility over your performance.
+
+![PayPro Global Checkout Page](https://payproglobal.com/wp-content/uploads/2024/08/paypro-global-checkout-page.png) ![PayPro Global Customized Checkout Page](https://payproglobal.com/wp-content/uploads/2024/08/paypro-global-customized-checkout-page.png)
+
+## Discover  
+PayPro Global's  
+Resources
+
+### How-To Guides
+
+Our guides walk you through essential processes so you can sell confidently worldwide.
+
+[Learn more](https://payproglobal.com/how-to/)
+
+### Developer-Friendly Checkouts
+
+Whether you're code-savvy or prefer a no-code approach, we can help.
+
+[Learn more](https://developers.payproglobal.com/)
+
+### MoR Comparisons
+
+Compare the MoR solution to other models  
+and see which options is the right one –  
+for your business.
+
+[Learn more](https://payproglobal.com/comparisons/)
+
+## FAQ
+
+*   ### Why is there a charge from PayPro Global on my bank statement?
+    
+    You see a charge from us because you purchased software, a digital product, or a subscription from one of the 3,000+ businesses that use our platform to sell their products globally. We act as their official, secure Merchant of Record.
+    
+*   ### What is PayPro Global?
+    
+    PayPro Global is an all-in-one Merchant of Record that helps SaaS, software, and video game companies sell their products worldwide. We handle the complexities of global payments, taxes, compliance, and fraud prevention.
+    
+*   ### How does PayPro Global help me sell software internationally?
+    
+    We simplify international sales by handling the entire process. Our Merchant of Record platform provides localized checkouts with over 70 payment methods and 140+ currencires to boost conversions, while we manage all global taxes and fraud risks, allowing you to enter new markets instantly.
+    
+*   ### What is a Merchant of Record (MoR)?
+    
+    A Merchant of Record (MoR) is the legal entity that takes full responsibility for selling products to customers. As your MoR, we handle all payment processing, tax collection, compliance, and fraud liability for you, so you can sell globally without setting up local entities.
+    
+*   ### Is PayPro Global a secure and legitimate platform?
+    
+    Yes, absolutely. PayPro Global is a **PCI-DSS Level 1 certified** partner, ensuring the highest level of security. We are trusted by over 3,000 businesses worldwide to securely process their global sales.
+    
+*   ### I have a question about a product I bought, like MacKeeper. Can you help?
+    
+    We handle the payment and subscription billing for many software products. For questions about your payment, invoice, or subscription, please visit our Customer Support portal. For technical help with the software itself, please contact the product’s developer directly.
+    
+
+## Ready to get started?
+
+We've been where you are. Let's share our 18 years of experience and make your global dreams a reality.
+
+![Mosaic image](https://payproglobal.com/wp-content/themes/paypro/assets/svg/mosaic-set-1.svg)","","","https://payproglobal.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Sell Software and SaaS Online with PayPro Global","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","payproglobal.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch|stage_mismatch","true","The company is a SaaS startup, which matches the ICP's technology focus. However, it's not an advisory or consulting firm, but rather a resource for finding co-founders.","0.8","llm","llama3","3c10077fb7c0e771d1c9a410a8349acb0e1f34f2f00e8e04503b2b4aaddd4896","0.0","0.3","55af8a49-91e3-5379-bf13-645ca5f1c6f4","","2026-04-01T15:39:03.376956Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/payproglobal.com.json","/tmp/tmp8cgvcewu/evidence/domain/payproglobal.com.json","","2026-06-30T15:39:03.376964Z","SaaS startup CEO contact information","2026-04-01T15:37:13.667368Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# Custom Product & Software Development
+
+[
+
+### Altar.io & Dr. Rumman Chowdhury Collaborate on Ethical AI Feedback System
+
+Altar.io partnered with Dr. Rumman Chowdhury to develop a public feedback system that empowers communities to evaluate AI ethics and performance. Leveraging their product development expertise, Altar is helping establish ethical benchmarks for AI through crowd-sourced insights. This collaboration underscores Altar’s commitment to responsible technology and ethical innovation.
+
+
+
+
+
+
+
+](https://www.prnewswire.com/news-releases/altario-partners-with-dr-rumman-chowdhury-to-develop-ethical-ai-feedback-system-302317399.html?tc=eml_cleartime)
+
+[
+
+### Altar.io Client Raises $2M as it Continues to Delight Users
+
+Our client, Fave, the app for superfans to connect with like-minded music lovers and obsess over their favourite artists, has secured $2M in an ongoing round that is expected to surpass $6M. To date, Fave has secured $4.2M in funding, is now valued at $15M and boasts over 50,000 users.
+
+
+
+
+
+
+
+](https://techcrunch.com/2023/10/12/fave-the-app-for-superfans-raises-2-million/?guccounter=1)
+
+[
+
+### Altar.io Named Leading Global Company in Manifest 2022 Awards
+
+We are thrilled to share that we have been recognized as a global industry leader by The Manifest in their 2022 awards. We are grateful to be recognized among such a talented group of companies. We look forward to continuing to provide top-quality products and services to our customers in the coming year.
+
+
+
+
+
+
+
+](https://altar.io/news/altar-named-leading-global-company-in-manifest-2022-awards/)
+
+[
+
+### Altar.io Named Top B2B company by Manifest
+
+We made it into the top 3 for “most reviewed software developers in Portugal.” Thank you to everyone who wrote a review for us. Transparency is a vital part of how we work, and we appreciate you helping us with that goal.
+
+
+
+
+
+
+
+](https://themanifest.com/press-releases/awards-manifest-portugal-2022)
+
+[
+
+### Altar.io Co-Founder & CEO Interviewed by Forbes
+
+Daniel was invited by Forbes to share what we’re doing to help fuel the evolution of the Portuguese business landscape. He shared our history and dived into our mission: Not to simply write top quality code but to help entrepreneurs build successful products.
+
+
+
+
+
+
+
+](https://www.penresa.com/portugal-a-flourishing-business-destination/)
+
+[
+
+### Fast Company Recognises Altar.io Client in 2022 Awards
+
+Our client, Fave, has been named by Fast Company as one of the 10 most innovative social media companies of 2022 in their latest round of awards. Huge congratulations to Jacquelle and her team for this incredible achievement. We’re proud to be part of your startup journey.
+
+
+
+
+
+
+
+](https://www.fastcompany.com/90724474/most-innovative-companies-social-media-2022)
+
+[
+
+### Altar.io Named Top 1000 Company by Clutch
+
+We’ve continued our streak of recognition and have now been named as one of the top 1000 companies worldwide in their latest round of awards. The exclusive list contains only the top 1%, most reputable companies who use the platform, and we’re honoured to make the cut.
+
+
+
+
+
+
+
+](https://altar.io/the-reason-why-altar-won-top-agency-2020/)
+
+[
+
+### Altar.io Co-founder Interviewed by Business Magazine
+
+Recently, our co-founder, Daniel, sat down with Portugal’s Valor Magazine to discuss Altar’s future. They covered everything from the work we dedicate ourselves to, to the future challenges we plan to tackle in our endeavour to become the category queen in product development.
+
+
+
+
+
+
+
+](https://www.valormagazine.pt/os-olhos-do-mundo-numa-pequena-agencia-portuguesa/)
+
+[
+
+### Altar.io Co-Founder Paolo Sits Down With GoodFirms
+
+Our co-founder, Paolo Dotta, recently sat down with GoodFirms to discuss how Altar.io came to be, and what we have planned for the future of the company.
+
+
+
+
+
+
+
+](https://www.goodfirms.co/company/altar-io/interview)
+
+[
+
+### Apiax Recognized One to Watch in Excellence Award
+
+We are pleased to announce that our client, Apiax, has been recognized as “One to Watch” in Compliance Automation at The 3rd Regulation Asia Awards for Excellence 2020
+
+
+
+
+
+
+
+](https://www.regulationasia.com/apiax-named-one-to-watch-in-compliance-automation/)
+
+[
+
+### Altar.io named a Clutch Leader in 2020 Clutch Global Awards
+
+We are honoured to be recognised by Clutch as a Top company in their 2020 Global awards.
+
+
+
+
+
+
+
+](https://clutch.co/press-releases/honors-top-1000-service-providers-2020-exclusive-1000-list)
+
+[
+
+### PureFacts Acquires Quartal Financial Solutions
+
+PureFacts Financial Solutions, a leading WealthTech provider, has acquired our client Quartal Financial Solutions, Europe’s leading provider of fee billing and commission solutions for the financial and insurance industries. Making the combined entity a global WealthtTech Leader.
+
+
+
+
+
+
+
+](https://www.businesswire.com/news/home/20201117006164/en/PureFacts-Financial-Solutions-acquires-Quartal-Financial-Solutions-to-become-a-global-WealthTech-leader)","","","https://altar.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Custom Product & Software Development | Altar.io","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","altar.io","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","no_geo_match|no_size_match","true","The company's focus on tech startup founders and co-founders aligns well with the ICP, but it doesn't explicitly mention advisory or consulting services.","0.8","llm","llama3","69313f96afd4e176de03299b7c548450318e202e6ab7dfb910a73b8fbfa95ebf","0.0","0.3","e4345af7-ca8b-502f-97a3-eeed314df45a","","2026-04-01T15:39:41.776117Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/altar.io.json","/tmp/tmp8cgvcewu/evidence/domain/altar.io.json","","2026-06-30T15:39:41.776124Z","tech startup founder contact page","2026-04-01T15:37:54.188774Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# Unlocking transitions | AFRY
+
+![Railway on a high bridge, forest with autumn leaves](https://afry.com/sites/default/files/styles/contained/public/2026-02/railway-bridge_forest.jpg?h=aed51c8b&itok=CGBWdpV5)
+
+Resilient solutions for reliable infrastructure
+
+By combining data insights, environmental expertise and multidisciplinary engineering across the project lifecycle, we help keep Europe moving.
+
+![A wooden bench ](https://afry.com/sites/default/files/styles/contained/public/2025-12/hero_image.png?h=7ed476f5&itok=pIg9-KCc)
+
+Launching AFRY Architects
+
+Some of the Nordic region’s most renowned architects and designers are joining forces to create an international practice.
+
+## Latest news
+
+## Our offerings
+
+      ![some colleagues in front of some computers, a woman in the middle laughing](https://afry.com/sites/default/files/styles/call_to_action_full_1440x360/public/2025-11/2025_10_28_AFRY_02_056%20edited%20%281%29.png.webp?h=5f6357ed&itok=qQrpq8LI)
+
+### 
+
+Join us
+
+We believe that change happens when people with brave ideas come together.","","","https://afry.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Unlocking transitions | AFRY","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","afry.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch","true","The company is a management consulting firm, which aligns with the ICP's industry relevance. However, it's not a small startup advisory and consulting firm, as the ICP specifies.","0.6","llm","llama3","7ca3a96bf501585be7dc846cfe561285543020ac7ae5e2e20117e6f845adc71d","0.0","0.3","9f9cd040-d84e-5d29-bf9b-e29654a1bef5","","2026-04-01T15:40:20.055312Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/afry.com.json","/tmp/tmp8cgvcewu/evidence/domain/afry.com.json","","2026-06-30T15:40:20.055320Z","management consulting firm director email","2026-04-01T15:38:13.375472Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# Fusion Consulting | Life Sciences & SAP Consulting Experts
+
+![Fusion Consulting](https://fusion-consulting.com/app/uploads/2025/05/Fusion-Consulting-AG_Where-LifeScience-Meets-Global-Innovation_compressed-scaled.jpg)
+
+## Where Life Science Consulting Meets Global Innovation
+
+At Fusion, we are consulting experts who live and breathe digital transformation. Discover how we can elevate your business far and beyond.
+
+[Explore our services](https://fusion-consulting.com/empowering-global-growth/)
+
+#### Trusted by leading brands
+
+## Our latest News
+
+![](https://fusion-consulting.com/app/uploads/2025/12/Accelerating-growth.png)
+
+Accelerating Growth
+
+## Fusion Expands Across APAC
+
+Fusion Consulting AG announces the integration of Tenthpin Management Consultants APAC, a well-established management consulting firm with primary operations in China. This strategic move welcomes 170 new colleagues and a robust resource network across the Asia-Pacific region, significantly strengthening Fusion’s footprint and enhancing our ability to deliver exceptional value to clients.
+
+[Keep Reading](https://fusion-consulting.com/2025/11/28/fusion-consulting-expands-in-asia-with-the-integration-of-tenthpin-management-consultants-apac/)
+
+## Client Success Stories To Inspire You:
+
+## Our Services
+
+![Fusion Consulting Cold Chain Management Solution with SAP BTP](https://fusion-consulting.com/app/uploads/2025/04/CCMS_Fusions-Cold-Chain-Management-Solution-with-SAP-BTP-compressed.png)
+
+Fusion’s CCMS
+
+## Cold Chain Precision: Stay Compliant & Connected with SAP
+
+Ensure compliance, reduce risks, and gain real-time visibility with our SAP-driven Cold Chain Management solution.
+
+[Explore Our Solution](https://fusion-consulting.com/cold-chain-management-solution/)
+
+![](https://fusion-consulting.com/app/uploads/2025/05/Gen-3AlphaTurbo4072102555CreateaslowcinemaCropped-MalaysiawM54K-ezgif.com-video-to-gif-converter-5.gif)
+
+Global Reach, Local Expertise
+
+## Fusion Global Presence
+
+With 21+ locations worldwide, Fusion Consulting delivers expertise wherever you do business. See how our global reach fuels innovation.
+
+[Explore Our Locations](https://fusion-consulting.com/locations/)
+
+![](https://fusion-consulting.com/app/uploads/2025/04/Career-Banner-Compressed.png)
+
+Careers
+
+## Join the Journey. Shape the Future.
+
+At Fusion, we’re not just driving digital transformation — we’re crafting tomorrow. If you're driven by curiosity and fueled by purpose, your next adventure starts here.
+
+[Explore Careers](https://fusion-consulting.com/work-at-fusion/)
+
+## Follow our Story on LinkedIn
+
+*   Photo from Fusion Consulting on LinkedIn at 12/5/25 at 4:16AM
+    
+*   Photo from Fusion Consulting on LinkedIn at 12/2/25 at 7:45AM
+    
+*   Photo from Fusion Consulting on LinkedIn at 11/27/25 at 2:24AM
+    
+
+![](https://fusion-consulting.com/app/uploads/2025/05/night-sky-globe.jpg)","","","https://fusion-consulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Fusion Consulting | Life Sciences & SAP Consulting Experts","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","fusion-consulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch","true","The company is a consulting firm, which aligns with the ICP's industry relevance. However, it's not a small startup advisory and consulting firm, as it has an AG suffix indicating it's a registered company in Switzerland.","0.6","llm","llama3","1a56b28e629eec41701f5638e15a6005a9f596f2f64e803a6452434a99ad89a2","0.0","0.3","d0d04bdb-c4e9-5d64-8c7f-04dac17383a3","","2026-04-01T15:41:40.379044Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fusion-consulting.com.json","/tmp/tmp8cgvcewu/evidence/domain/fusion-consulting.com.json","","2026-06-30T15:41:40.379051Z","management consulting firm director email","2026-04-01T15:38:13.813550Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# Commercial Growth Consulting | Simon-Kucher
+
+*   Unlocking better growth.
+*   Tariffs, pricing, and power
+*   Growth Blueprint podcast
+*   Generative AI
+
+#### What We Do
+
+Our sole focus is on [unlocking better growth](https://www.simon-kucher.com/en/insights/better-growth) for our clients, increasing their long-term sales, value, and profit.  
+We achieve this by optimizing every lever of their commercial strategy – product, price, innovation, marketing, and sales.
+
+#### Our Industries
+
+*   Consumer
+*   Financial Services
+*   Healthcare & Life Sciences
+*   Industrials
+*   Technology, Media, Telecom
+
+### Putting consumers at the heart of your growth strategy.
+
+Our state-of-the-art solutions allow you to capture significant opportunities by optimizing every single lever of your commercial strategy: reinventing business models, deploying the latest technologies and using powerful insights to create confident pricing, sales, and marketing strategies.
+
+All of which put the consumer at the heart of your growth strategy.
+
+## Latest Insights
+
+We pride ourselves on being hands-on and results driven. Our projects increase our clients’ profitability by an average of 100 to 500 basis points.
+
+### **Better Growth starts here**
+
+#### With You.
+
+We understand that joining any firm is a big decision. We offer a huge range of career opportunities where you can make your own impact and build a career around you.
+
+**So, look around, get to know us, and if you like what you see, why not apply to join our team?**
+
+   ![people](https://simon-kucher.com/sites/default/files/styles/max_325x325/public/paragraph-careers-large-text-media/2025-12/testimonials_teaser_resized_1_0.png?itok=n80OBmfw)","","","https://simon-kucher.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Commercial Growth Consulting | Simon-Kucher","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","simon-kucher.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "The company matches the ICP in terms of industry relevance (management consulting), geographic location (London), and business model alignment (providing management consulting services","0.8","llm","llama3","ea22f92e85817d8a9e202b0c75771bb747b224332e84640f8a8eed6829513fb7","0.0","0.3","2682b1af-e6b0-57ca-b36b-11af35261809","","2026-04-01T15:42:38.303261Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/simon-kucher.com.json","/tmp/tmp8cgvcewu/evidence/domain/simon-kucher.com.json","","2026-06-30T15:42:38.303268Z","management consulting firm director email","2026-04-01T15:38:14.245812Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.6,   "reason": "BCG (Boston Consulting Group) is a well-known management consulting firm that matches the ICP's industry relevance and geographic location. However, it's a large company with a global ","0.6","llm","llama3","bdfe956c7b56f150bd20109771224761e881d9c60d1b9bf1c293a248730f463a","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-04-01T15:42:38.320799Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmp8cgvcewu/evidence/domain/bcg.com.json","","2026-06-30T15:42:38.320802Z","management consulting firm director email","2026-04-01T15:38:15.149389Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"","","","","","","","","","","","","","# DB Engineering & Consulting | Eisenbahn für die Welt von morgen
+
+## Expertise auf einen Blick
+
+Für die ingenieurtechnische und umweltfachliche Planung von Verkehrswegen, Bahnhöfen, Betriebshöfen oder Terminals übernehmen wir alle Aufgaben – von der Grundlagenermittlung bis zur Ausführungsplanung.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/planung/)
+
+Für die ingenieurtechnische und umweltfachliche Planung von Verkehrswegen, Bahnhöfen, Betriebshöfen oder Terminals übernehmen wir alle Aufgaben – von der Grundlagenermittlung bis zur Ausführungsplanung.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/planung/)
+
+Die Umsetzung einer Planung ist vielfältigen Unwägbarkeiten ausgesetzt. Damit auf der Baustelle alles nach Plan läuft, sichert die Bauüberwachung der DB Engineering & Consulting die Qualität Ihres Projekts im Detail.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/bauueberwachung/)
+
+Die Umsetzung einer Planung ist vielfältigen Unwägbarkeiten ausgesetzt. Damit auf der Baustelle alles nach Plan läuft, sichert die Bauüberwachung der DB Engineering & Consulting die Qualität Ihres Projekts im Detail.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/bauueberwachung/)
+
+Als weltweit führendes Beratungsunternehmen für Infrastruktur, Mobilität und Transport entwickeln wir innovative Lösungen für die erfolgreiche Zukunft Ihres Unternehmens.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/consulting/)
+
+Als weltweit führendes Beratungsunternehmen für Infrastruktur, Mobilität und Transport entwickeln wir innovative Lösungen für die erfolgreiche Zukunft Ihres Unternehmens.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/consulting/)
+
+Wir verbinden präzise Datenerfassung, intelligente Datenmodelle und digitale Workflows zu durchgängigen Prozessen für eine schnellere, sicherere und wirtschaftlichere Bahninfrastruktur.
+
+[Erfahren Sie mehr!](https://db-engineering-consulting.com/de/produktportfolio/digital-engineering/)
+
+Wir verbinden präzise Datenerfassung, intelligente Datenmodelle und digitale Workflows zu durchgängigen Prozessen für eine schnellere, sicherere und wirtschaftlichere Bahninfrastruktur.
+
+[Erfahren Sie mehr!](https://db-engineering-consulting.com/de/produktportfolio/digital-engineering/)
+
+Infrastrukturprojekte werden immer komplexer und erfordern ein hochentwickeltes Projektmanagement. Mit langjähriger Erfahrung begleiten wir Sie von A bis Z.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/projektmanagement/)
+
+Infrastrukturprojekte werden immer komplexer und erfordern ein hochentwickeltes Projektmanagement. Mit langjähriger Erfahrung begleiten wir Sie von A bis Z.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/projektmanagement/)
+
+Unsere Fachexperten begleiten Ihr Eisenbahnprojekt vom ersten Entwurf bis zur Abnahme, sichern technische Konformität und Betriebssicherheit ab und schaffen verlässliche, zukunftsfähige Lösungen.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/pruefung-und-inbetriebnahme/)
+
+Unsere Fachexperten begleiten Ihr Eisenbahnprojekt vom ersten Entwurf bis zur Abnahme, sichern technische Konformität und Betriebssicherheit ab und schaffen verlässliche, zukunftsfähige Lösungen.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/pruefung-und-inbetriebnahme/)
+
+Unsere Fachteams für Umweltplanung, Geodäsie, Geotechnik, Abfall- und Entsorgungstechnik sowie Umweltservice unterstützen Sie bei der Umsetzung und Abwicklung Ihrer Projekte und setzen dabei auf innovativ erhobene Daten.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/umwelt-und-geo-services/)
+
+Unsere Fachteams für Umweltplanung, Geodäsie, Geotechnik, Abfall- und Entsorgungstechnik sowie Umweltservice unterstützen Sie bei der Umsetzung und Abwicklung Ihrer Projekte und setzen dabei auf innovativ erhobene Daten.
+
+[Erfahren Sie hier mehr!](https://db-engineering-consulting.com/de/produktportfolio/umwelt-und-geo-services/)","","","https://db-engineering-consulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","DB Engineering & Consulting | Eisenbahn für die Welt von morgen","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","db-engineering-consulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.6,   "reason": "The company appears to be a consulting firm, which aligns with the ICP's industry relevance. However, it's not clear if the company is small and at the startup stage, as the descriptio","0.6","llm","llama3","a13465a2e499da3f22df85089d409917ec11da0be57703d3142bec7b5cefe027","0.0","0.3","2590dde6-ac71-59de-bdf1-834d0be5c5f4","","2026-04-01T15:43:14.930574Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/db-engineering-consulting.com.json","/tmp/tmp8cgvcewu/evidence/domain/db-engineering-consulting.com.json","","2026-06-30T15:43:14.930585Z","management consulting firm director email","2026-04-01T15:38:15.585723Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","","enrich_ready"
+"true","","gilvandelft@pageexecutive.com","gijsvandelft","","","","","1","","","","","","gilvandelft@pageexecutive.com|mohamadyamout@pageexecutive.com|boudewijnbeuvery@pageexecutive.com|cristinaangeles@pageexecutive.com|tomforrest@pageexecutive.com","","https://pageexecutive.com","","","","0.5","No decision maker statements found","medium","No specific intent signals found during analysis","Timeline unclear","Page Executive","1","","","","","","https://www.linkedin.com/company/page-executive","","","","0.001","0.0009","0.0","0.0019","pageexecutive.com","Basic company information available; Company name available; Location count available; Company emails available (5 emails); Medium business intent score: 0.50; Intent signals found: No specific intent signals found during analysis; Social media profiles available (1 platforms); Found 3 contacts; 3 contacts have email addresses; 3 decision makers identified","1.0","false","size_mismatch|stage_mismatch","true","The company appears to be a management consulting firm, which aligns with the ICP's focus on startup advisory and consulting firms. The description also mentions specific areas of expertise that match the ICP's industry relevance.","0.8","llm","llama3","7af2481725a839038551b22d790e518a7156ef459e020a5792be0ad0acc735f3","0.0","0.3","72a1a669-5696-5852-ade3-8f2c0e8870e3","","2026-04-01T15:46:29.317629Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/pageexecutive.com.json","/tmp/tmp8cgvcewu/evidence/domain/pageexecutive.com.json","","2026-06-30T15:46:29.317633Z","management consulting firm director email","2026-04-01T15:38:16.025301Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","information_database","enrich_ready"

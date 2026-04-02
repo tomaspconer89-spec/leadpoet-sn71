@@ -1,0 +1,41 @@
+{
+  "source_file": "ad2651ff73fb69294a7aa7d61c3f80d956ea027ff7c6b5d3cae21d12f73f5df6.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "SaasRise",
+    "full_name": "Ryan Allis",
+    "first": "Ryan",
+    "last": "Allis",
+    "email": "rallis@saasrise.com",
+    "role": "CEO & Founder",
+    "website": "https://saasrise.com",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Marketing",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "linkedin": "https://www.linkedin.com/in/ryanallis",
+    "company_linkedin": "https://www.linkedin.com/company/saasriseco",
+    "source_url": "https://saasrise.com",
+    "description": "SaasRise operates in Sales and Marketing with a focus on Marketing, serving clients through its primary website https://saasrise.com.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

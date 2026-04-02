@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Sale Leads",
+  "lead": {
+    "business": "Sale Leads",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "owner",
+    "website": "https://www.saleleads.net/",
+    "industry": "Data and Analytics",
+    "sub_industry": "Market Research",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://bookyourdata.com",
+    "description": "At SaleLeads.Net, we specialize in providing high-quality business and consumer email lists to help you reach the right audience. Our email databases are fresh, verified, and constantly updated, ensuring you get accurate and ready-to-use leads. We source our email lists from trusted platforms such as business directories, yellow pages, classified sites, and other reliable resources. Every list goes through a thorough verification process using advanced tools and professional software, so you don\u2019t have to spend time cleaning or validating them yourself.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/bookyourdata.com",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/saleleads"
+  },
+  "source_failed_basename": "0c5b2ae9e55db9ebceb783b0628625155da79a4777551f2c826bf2bb513407db.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0c5b2ae9e55db9ebceb783b0628625155da79a4777551f2c826bf2bb513407db.precheck_failed.json",
+  "queue_key": "c146f057fca83ba116494e86ccccb60ea57d40441d5fc83b69263bb019241409"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "San Jose SEO",
+  "lead": {
+    "business": "San Jose SEO",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "http://www.sanjoseseo.org",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "",
+    "city": "Calgary",
+    "source_url": "https://digitalmarketingagency-consultant.com",
+    "description": "SanJoseSEO\u2122 - Search Engine Optimization Company - Call 1-800-215-3054 - SEO, Web Design, SEM, PPC, PR, Social Media - Service Guarantee - San Jose, CA. San Jose SEO has earned a reputation as a leading SEO firm and Internet Marketing Company. Our proven approach to increasing online visibility comes from our 12+ years experience in the industry. We pride ourselves on our ability to provide clients with measurable results that positively impact their businesses.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Calgary",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/san-jose-seo"
+  },
+  "source_failed_basename": "a6b13970ed9e239702837d232df0067d8727ff761fc143d5e41b08cdf4466cf0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/a6b13970ed9e239702837d232df0067d8727ff761fc143d5e41b08cdf4466cf0.precheck_failed.json",
+  "queue_key": "3b071c975f12ba99fb58c96ab1118396de1f242ba2a4acba1fc6aefdbbfc569c"
+}

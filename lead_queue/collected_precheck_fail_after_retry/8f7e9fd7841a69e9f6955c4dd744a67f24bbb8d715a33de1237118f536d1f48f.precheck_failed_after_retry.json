@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "CoFoundersLab",
+  "lead": {
+    "business": "CoFoundersLab",
+    "full_name": "Michael Hughes",
+    "first": "Michael",
+    "last": "Hughes",
+    "email": "",
+    "role": "VP Community Development",
+    "website": "http://www.CoFoundersLab.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco",
+    "source_url": "https://cofounderslab.com",
+    "description": "CofoundersLab is making Entrepreneurship Affordable and Accessible, for Anyone, Anywhere. Full service platform for Founders & Entrepreneurs. An amazing community supporting each other's success. A platform to help you make your idea a reality. Connect, meet and collaborate with like-minded entrepreneurs all over the world by joining for FREE!",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Los Angeles",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cofounderslab",
+    "linkedin": "https://linkedin.com/in/0818michaelhughes"
+  },
+  "source_failed_basename": "5db318dfeedbb66e0b9b4cd7913ab3d302591be2804aea28ad0deb10ff782a78.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5db318dfeedbb66e0b9b4cd7913ab3d302591be2804aea28ad0deb10ff782a78.precheck_failed.json",
+  "queue_key": "8f7e9fd7841a69e9f6955c4dd744a67f24bbb8d715a33de1237118f536d1f48f"
+}

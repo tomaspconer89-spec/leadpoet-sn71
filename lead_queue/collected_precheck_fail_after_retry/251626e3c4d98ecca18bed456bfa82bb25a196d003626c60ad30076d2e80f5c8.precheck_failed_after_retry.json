@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Seamless.AI Leads",
+  "lead": {
+    "business": "Seamless.AI Leads",
+    "full_name": "Zhihua Wang",
+    "first": "Zhihua",
+    "last": "Wang",
+    "email": "zahid@revenuerecoverydoctors.com",
+    "role": "Chief Financial Officer",
+    "website": "https://pyrsonalize.com",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Marketing",
+    "country": "Canada",
+    "state": "Canada",
+    "city": "Greater Toronto Area",
+    "source_url": "https://pyrsonalize.com",
+    "description": "Please share with me your Targeted ICP, I will collect leads for you using Seamless AI. LinkedIn Sales Navigator. Apollo io, ZoomInfo, Google Maps. Email: zahid@revenuerecoverydoctors.com WhatsApp: 8801701011352",
+    "employee_count": "2-10",
+    "hq_country": "Canada",
+    "hq_state": "Canada",
+    "hq_city": "Greater Toronto Area",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/pyrsonalize",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/seamless-ai-leads",
+    "linkedin": "https://linkedin.com/in/zhihua-wang-527aa89a"
+  },
+  "source_failed_basename": "428882377769d54eed2ce6a18827af91b1d5f480520603096ab44053e6702ade.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/428882377769d54eed2ce6a18827af91b1d5f480520603096ab44053e6702ade.precheck_failed.json",
+  "queue_key": "251626e3c4d98ecca18bed456bfa82bb25a196d003626c60ad30076d2e80f5c8"
+}

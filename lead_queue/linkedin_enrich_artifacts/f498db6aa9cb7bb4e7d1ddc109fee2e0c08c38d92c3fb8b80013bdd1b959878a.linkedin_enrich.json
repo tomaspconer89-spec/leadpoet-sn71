@@ -1,0 +1,384 @@
+{
+  "saved_at_utc": "2026-04-01T01:40:07.786524+00:00",
+  "queue_key": "f498db6aa9cb7bb4e7d1ddc109fee2e0c08c38d92c3fb8b80013bdd1b959878a",
+  "business": "Business Advisory - aliveadvisor",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Business Advisory - aliveadvisor",
+      "Business Advisory - aliveadvisor linkedin company",
+      "site:linkedin.com/company aliveadvisor.com",
+      "site:linkedin.com/in \"Business Advisory - aliveadvisor\" founder",
+      "site:linkedin.com/in \"Business Advisory - aliveadvisor\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "wAdQubuaPvcwSvt",
+          "url": "http://www.google.com/search?q=Business+Advisory+-+aliveadvisor+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Business+Advisory+-+aliveadvisor+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Business Advisory - aliveadvisor linkedin company",
+          "url": "http://www.google.com/search?q=Business+Advisory+-+aliveadvisor+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Business+Advisory+-+aliveadvisor+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "AliveAdvisor PIF - Advisor",
+            "url": "https://www.linkedin.com/in/aliveadvisor-pif-23040b220",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AliveAdvisor PIF",
+            "description": "Advisor \u00b7 Experience: Freelance \u00b7 Location: West Palm Beach \u00b7 136 connections on LinkedIn. View AliveAdvisor PIF's profile on LinkedIn, a professional\u00a0...",
+            "emphasizedKeywords": [
+              "Advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Alive Advisor",
+            "url": "https://www.linkedin.com/company/alive-advisor",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alive Advisor",
+            "description": "Website: http://www.aliveadvisor.com. External link for Alive Advisor. Industry: IT Services and IT Consulting. Company size: 201-500 employees.Read more",
+            "emphasizedKeywords": [
+              "Industry: IT Services and IT Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Dr. Imperato - Expert Advisory services",
+            "url": "https://www.linkedin.com/in/dr-imperato-0aa8723",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dr. Imperato",
+            "description": "Dr. Imperato is a worldly diplomat achiever and a well learned Global Businessman and Independent Political Constitutionalist.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "aliveadvisor: Business Advisory",
+            "url": "https://aliveadvisor.com/",
+            "displayedUrl": "https://aliveadvisor.com",
+            "description": "Our Business Advisory services tackle all aspects of your business from managing finances, marketing your product or service better and more widely.Read more",
+            "emphasizedKeywords": [
+              "Business Advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Business Advisory",
+            "url": "https://aliveadvisor.com/business-advisory/",
+            "displayedUrl": "https://aliveadvisor.com \u203a business-advisory",
+            "description": "AliveAdvisor is a global business advisory company that provides integrated and digitally driven business consulting and business advisory solutions.Read more",
+            "emphasizedKeywords": [
+              "global business advisory company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Strategic International Business Solutions - Aliveadvisor",
+            "url": "https://www.issuewire.com/strategic-international-business-solutions-aliveadvisor-1718038534868404",
+            "displayedUrl": "https://www.issuewire.com \u203a strategic-international-busi...",
+            "description": "Dr. Daniel Imperato is a leading global business advisor and has achieved honorary doctorates and other accolades. He has the ability to identify problems.Read more",
+            "date": "2021-12-08T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Dr. Daniel Imperato is a leading global business advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Business Alive",
+            "url": "https://www.linkedin.com/company/business-alive",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Business Alive",
+            "description": "Business Alive is an italian training and consulting firm aimed at developing leadership, innovation and decision making competencies in companies.Read more",
+            "emphasizedKeywords": [
+              "Business Alive"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Dena Jalbert's Post - Align Business Advisory Services",
+            "url": "https://www.linkedin.com/posts/denajalbert_align-business-advisory-services-aligning-activity-7161381206394105858-T0wU",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dena Jalbert",
+            "description": "Align Business Advisory Services is a business and Mergers and Acquisitions advisory firm focused on lower-middle-market businesses nationwide.Read more",
+            "emphasizedKeywords": [
+              "Align Business Advisory Services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "50+ \"Business Advisors\" profiles",
+            "url": "https://www.linkedin.com/pub/dir/Business/Advisors?trk=public_profile_samename-see-all",
+            "displayedUrl": "https://www.linkedin.com \u203a pub \u203a dir \u203a Advisors",
+            "description": "View the profiles of professionals named \"Business Advisors\" on LinkedIn. There are 50+ professionals named \"Business Advisors\", who use LinkedIn to\u00a0...",
+            "emphasizedKeywords": [
+              "View the profiles of professionals named \"Business Advisors\" on LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "What does a business advisory do?",
+            "url": "https://www.quora.com/What-does-a-business-advisory-do",
+            "displayedUrl": "3 answers  \u00b7  3 years ago",
+            "description": "A business advisory is a professional service that can be offered to businesses in order to increase their efficiency and improve their performance.Read more",
+            "emphasizedKeywords": [
+              "business advisory"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/21kT8X57clIruDRAJ/records/wAdQubuaPvcwSvt-0.html?signature=1A7kO4WwpCilg5oF8qzUo"
+      },
+      {
+        "#debug": {
+          "requestId": "IH6eTEusITZvKKk",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+aliveadvisor.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+aliveadvisor.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company aliveadvisor.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+aliveadvisor.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+aliveadvisor.com",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Alive Advisor",
+            "url": "https://www.linkedin.com/company/alive-advisor",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alive Advisor",
+            "description": "IT Services and IT Consulting \u00b7 Report this company \u00b7 Close menu. About us. Website: http://www.aliveadvisor.com. External link for Alive Advisor. Industry: IT\u00a0...Read more",
+            "emphasizedKeywords": [
+              "http://www.aliveadvisor.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 1
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/dnYaAhuwbCdj0Guao/records/IH6eTEusITZvKKk-0.html?signature=1oab6YNRiLgErpZAxjVg5"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "https://www.linkedin.com/in/aliveadvisor-pif-23040b220",
+      "https://www.linkedin.com/company/alive-advisor",
+      "https://www.linkedin.com/in/dr-imperato-0aa8723",
+      "https://www.linkedin.com/company/business-alive",
+      "https://www.linkedin.com/posts/denajalbert_align-business-advisory-services-aligning-activity-7161381206394105858-T0wU",
+      "https://www.linkedin.com/pub/dir/Business/Advisors?trk=public_profile_samename-see-all",
+      "site:linkedin.com/company aliveadvisor.com",
+      "https://www.linkedin.com/company/alive-advisor"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/alive-advisor",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/aliveadvisor-pif-23040b220"
+  },
+  "lead_before_enrichment": {
+    "business": "Business Advisory - aliveadvisor",
+    "description": "# Business Advisory - aliveadvisor Our Business Advisory services tackle all aspects of your business from managing finances, marketing your product or service better and more widely, embarking on research and development activities, to improving your operations. ## Strategic Partnership Strategic partnering is the new buzzword. We facilitate Strategic Partnerships between two or more independent companies to cooperate in the manufacturing, development, or sale of products and services, or other business objectives.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://aliveadvisor.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://aliveadvisor.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "aliveadvisor.com",
+    "source_urls": [
+      "https://aliveadvisor.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Business Advisory - aliveadvisor",
+    "description": "# Business Advisory - aliveadvisor Our Business Advisory services tackle all aspects of your business from managing finances, marketing your product or service better and more widely, embarking on research and development activities, to improving your operations. ## Strategic Partnership Strategic partnering is the new buzzword. We facilitate Strategic Partnerships between two or more independent companies to cooperate in the manufacturing, development, or sale of products and services, or other business objectives.",
+    "full_name": "Aliveadvisor Pif",
+    "first": "Aliveadvisor",
+    "last": "Pif",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://aliveadvisor.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "https://www.linkedin.com/in/aliveadvisor-pif-23040b220",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/alive-advisor",
+    "source_url": "https://aliveadvisor.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "aliveadvisor.com",
+    "source_urls": [
+      "https://aliveadvisor.com"
+    ],
+    "title_raw": "",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://aliveadvisor.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/alive-advisor"
+    },
+    "first": {
+      "before": "",
+      "after": "Aliveadvisor"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Aliveadvisor Pif"
+    },
+    "last": {
+      "before": "",
+      "after": "Pif"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/aliveadvisor-pif-23040b220"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://aliveadvisor.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    }
+  }
+}

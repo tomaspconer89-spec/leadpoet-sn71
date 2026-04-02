@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "founderio.com | cofounders\u2022startups\u2022supporters",
+  "lead": {
+    "business": "founderio.com | cofounders\u2022startups\u2022supporters",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "co founder",
+    "website": "https://www.founderio.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Berlin",
+    "state": "",
+    "city": "Berlin",
+    "source_url": "https://foundersbase.com",
+    "description": "Find matching co-founders and entrepreneurial employees for your startup or get helped by startup-supporters to scale your business idea. Join us now on Europe's founder platform #1 - founderio.com What is founderio? Founderio is a digital Networking Platform for Founders, Startups and Supporters. Here Entrepreneurs and Startup Projects find the contacts and the support they need to successfully bring their business idea to life. Our Mission We believe in Entrepreneurs, their entrepreneurial motivation and the will to move our society forward through innovation in the 21st century.",
+    "employee_count": "2-10",
+    "hq_country": "Berlin",
+    "hq_state": "",
+    "hq_city": "Berlin",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://de.linkedin.com/company/founderio"
+  },
+  "source_failed_basename": "ab185983341f3f903dbcba6e2a945cc3b9e3e88d1ae8ac1f8a02609f78e6c738.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ab185983341f3f903dbcba6e2a945cc3b9e3e88d1ae8ac1f8a02609f78e6c738.precheck_failed.json",
+  "queue_key": "9f14198064dc21b61ea2f7151b3684dc95b1f407e0d5623cd55b8ac80c962d42"
+}

@@ -1,0 +1,781 @@
+{
+  "saved_at_utc": "2026-04-01T13:08:34.048062+00:00",
+  "queue_key": "1d4f2a8505414a9b30291129f1c3aef7f2d36f13fbba83ed9a9a34b411032e85",
+  "business": "Technori",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Technori",
+      "Technori linkedin company",
+      "site:linkedin.com/company technori.com",
+      "site:linkedin.com/in \"Technori\" founder",
+      "site:linkedin.com/in \"Technori\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "GetvuNiLu2BOHQS",
+          "url": "http://www.google.com/search?q=Technori+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Technori+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Technori linkedin company",
+          "url": "http://www.google.com/search?q=Technori+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Technori+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "LinkedIn Could Be the Ultimate B2B Platform. Instead It's in ...",
+            "url": "https://technori.com/2020/07/20593-linkedin-could-be-the-ultimate-b2b-platform-instead-its-in-decline/admin/",
+            "displayedUrl": "https://technori.com \u203a 2020/07 \u203a admin",
+            "description": "LinkedIn could have become the ultimate B2B platform \u2014 a comprehensive destination for all of a person's business needs that includes business\u00a0...Read more",
+            "date": "2020-07-28T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Unearth the World Technori Pitch - Kathryn Pisco",
+            "url": "https://www.linkedin.com/pulse/unearth-world-technori-pitch-kathryn-pisco",
+            "displayedUrl": "https://www.linkedin.com \u203a pulse \u203a unearth-world-techn...",
+            "description": "Technori Pitch is a startup showcase that gathers 500 people/month to watch 5 startups launch on stage. I have always thought of it as Shark Tank meets TED\u00a0...",
+            "emphasizedKeywords": [
+              "Technori Pitch"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Scott Kitun's Post",
+            "url": "https://www.linkedin.com/posts/kitun_today-is-a-big-day-for-the-technori-family-activity-6913595039130505216-dbey?trk=public_profile_like_view",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a kitun_today-is-a-big-...",
+            "description": "Today is a big day for the Technori family! Thank you to everyone that contributed to an incredible journey \u2026 1000s of founders, investors and early\u00a0...",
+            "date": "2026-04-01T13:05:36.714Z",
+            "emphasizedKeywords": [
+              "Technori family"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Sam Fiske - Head of Content",
+            "url": "https://www.linkedin.com/in/samfiske",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sam Fiske",
+            "description": "As part of Technori acquisition by Kingscrowd, I became head of content including digital media, email marketing, newsletters, podcasts, partnerships and more.Read more",
+            "emphasizedKeywords": [
+              "Technori acquisition by Kingscrowd"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Diego, California, United States",
+              "jobTitle": "Head of Content",
+              "companyName": "Kingscrowd",
+              "rawText": "San Diego, California, United States \u00b7 Head of Content \u00b7 Kingscrowd"
+            },
+            "followersAmount": "2K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Gainfully Unemployed: How To Land the Job Of Your Dreams",
+            "url": "https://technori.com/2012/06/2157-take-this-job-and-shove-it-the-first-step-to-the-job-of-your-dreams/robbieabed/",
+            "displayedUrl": "https://technori.com \u203a 2012/06 \u203a robbieabed",
+            "description": "Update your linkedin profile with this new company name. ... Technori began as a local meet-up designed to network with angel investors and\u00a0...Read more",
+            "date": "2012-06-28T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "linkedin",
+              "company",
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Jasmine Jung-Min Han \ub2d8 - Chief Executive Officer and ...",
+            "url": "https://kr.linkedin.com/in/jasminejungminhan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jasmine Jung-Min Han",
+            "description": "Chief Executive Officer and Founder at Technori \u00b7 Visionary and a Mobile Strategy Consultant with a demonstrated history of working in the mobile and\u00a0...",
+            "emphasizedKeywords": [
+              "Chief Executive Officer and Founder at Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "\ub300\ud55c\ubbfc\uad6d",
+              "jobTitle": "Chief Executive Officer and Founder",
+              "companyName": "Technori",
+              "rawText": "\ub300\ud55c\ubbfc\uad6d \u00b7 Chief Executive Officer and Founder \u00b7 Technori"
+            },
+            "followersAmount": "720+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Joe Depa, EY Global Chief Innovation Officer",
+            "url": "https://www.ey.com/es_uy/people/joe-depa",
+            "displayedUrl": "https://www.ey.com \u203a people \u203a joe...",
+            "description": "... Technori de los \"10 l\u00edderes en innovaci\u00f3n a los que seguir\" en 2025, el reconocimiento entre los 50 l\u00edderes en datos e inteligencia artificial de la Cumbre\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Technori - aVenture Company Research",
+            "url": "https://aventure.vc/companies/technori-dubuque-ia-us",
+            "displayedUrl": "https://aventure.vc \u203a companies \u203a technori-dubuque-ia-us",
+            "description": "Technori LLC, founded in Illinois, operates as a digital media company with a core mission to provide a platform for tech-focused companies to share their\u00a0...",
+            "emphasizedKeywords": [
+              "Technori LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "5 Ways You Can Out-Innovate the Competition",
+            "url": "https://fi.co/insight/5-ways-you-can-out-innovate-the-competition",
+            "displayedUrl": "https://fi.co \u203a insight \u203a 5-ways-you-can-out-innovate-th...",
+            "description": "Since launching in 2010, Technori has grown into Chicago's leading startup platform with hundreds of alumni companies that have raised more than a billion\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Technori has grown into Chicago's leading startup platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Technori Employee Directory, Headcount & Staff",
+            "url": "https://leadiq.com/c/technori/5a1d8a66240000240063bbe6/employee-directory",
+            "displayedUrl": "https://leadiq.com \u203a technori \u203a employee-directory",
+            "description": "Technori began as a local meet-up designed to network with angel investors and early adopters and quickly grew into one of the nation's largest media platforms\u00a0...",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "aiOverview": {
+          "type": "live",
+          "content": "Technori is a Chicago-based startup platform and digital media hub focused on tech companies, specializing in equity crowdfunding, media exposure, and strategic advisory. Founded in 2010, it helps startups raise capital and was later acquired by Kingscrowd. Technori connects founders with investors through events like \"Technori Pitch\".Key details about Technori and its LinkedIn presence include:You can find more detailed employee information, headcount, and official updates by visiting the Technori LinkedIn page or searching for alumni on LeadIQ's Technori profile.",
+          "sources": [
+            {
+              "url": "https://www.linkedin.com/in/samfiske#:~:text=Experience,2023%201%20year%2010%20months",
+              "title": "Sam Fiske - Head of Content | LinkedIn",
+              "description": "Experience. Head of Content. Kingscrowd. Mar 2022 - Present 4 years 1 month. Remote. As part of Technori acquisition by Kingscrowd..."
+            },
+            {
+              "url": "https://fi.co/insight/5-ways-you-can-out-innovate-the-competition#:~:text=This%20post%20was%20written%20by,billion%20dollars%20in%20venture%20capital.",
+              "title": "5 Ways You Can Out-Innovate the Competition",
+              "description": "Nov 27, 2024 \u2014 This post was written by Scott Kitun, CEO of Technori, a partner of the upcoming Chicago Founder Institute program. Technori is de..."
+            },
+            {
+              "url": "https://www.linkedin.com/pulse/unearth-world-technori-pitch-kathryn-pisco#:~:text=For%20many%20participants%2C%20Technori%20Pitch%20is%20a,Each%20month%2C%20Technori%20picks%20a%20different%20theme.",
+              "title": "Unearth the World Technori Pitch - LinkedIn",
+              "description": "Apr 29, 2015 \u2014 For many participants, Technori Pitch is a company's first opportunity to present themselves to the world. Each month, Technori pi..."
+            }
+          ]
+        },
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/TgfmUhYleWbMeZjS6/records/GetvuNiLu2BOHQS-0.html?signature=13b0zxzcsgMl8w7kQ5d4f"
+      },
+      {
+        "#debug": {
+          "requestId": "Z41yi1XUm8Zflmq",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+technori.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+technori.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company technori.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+technori.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+technori.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Spring Marketplace",
+            "url": "https://www.linkedin.com/company/spring-marketplace",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Spring Marketplace",
+            "description": "Spring is transforming retail marketing by connecting digital channels to in-store revenue for the first time, with no new technology or changes at point of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "transforming retail marketing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "GigaStar",
+            "url": "https://www.linkedin.com/company/gigastar",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0GigaStar",
+            "description": "Our Mission is to empower Creators with access to funding and provide Investors with unique revenue-sharing assets in the Creator economy\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Strggl.com",
+            "url": "https://www.linkedin.com/company/strggl-com",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a strggl-com",
+            "description": "Strggl.com showcases the struggles of entrepreneurs who have had hard times through their personal lives, through their business lives, and often from their own\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Strggl.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Gotara",
+            "url": "https://www.linkedin.com/company/gotara",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Gotara",
+            "description": "Gotara helps small and mid-market companies to scale profitably by guiding them through their M&A integration and/or transformation\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Gotara helps small and mid-market companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "inTheir20s",
+            "url": "https://www.linkedin.com/company/intheir20s",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0inTheir20s",
+            "description": "We provide people with the best advice on finding success in their 20s. We speak with a diverse group of influential people across all industries and\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "TicketSoft",
+            "url": "https://www.linkedin.com/company/ticktsoft",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TicketSoft",
+            "description": "TicketSoft creates state of the art ticketing software for event organisers and event goers. Website: www.ticketsoft.com. External link for TicketSoft.Read more",
+            "emphasizedKeywords": [
+              "TicketSoft"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "710+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Fire Me I Beg You",
+            "url": "https://www.linkedin.com/company/fire-me-i-beg-you",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fire Me I Beg You",
+            "description": "Technori. Technology, Information and Internet. Chicago, Illinois \u00b7 Hamad Bin Ali Al Sagri Group of Companies. Leasing Non-residential Real Estate \u00b7 Enerpal.Read more",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Spring Marketplace",
+            "url": "https://lb.linkedin.com/company/spring-marketplace",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Spring Marketplace",
+            "description": "Technori. \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0648\u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a. Chicago\u060c Illinois. Carpet Fair Commercial Flooring. \u0625\u0646\u0634\u0627\u0621\u0627\u062a. Windsor Mill\u060c Maryland. DISRVPT VENTURES. \u0627\u0644\u0639\u0642\u0627\u0631\u0627\u062a.Read more",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "CheckIT Invoice",
+            "url": "https://www.linkedin.com/company/checkit-invoice",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CheckIT Invoice",
+            "description": "CheckIT Invoice helps construction and industrial teams catch costly billing errors before they're paid. Powered by the proprietary CheckIT Engine,\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Spring Marketplace",
+            "url": "https://se.linkedin.com/company/spring-marketplace",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Spring Marketplace",
+            "description": "Spring is transforming retail marketing by connecting digital channels to in-store revenue for the first time, with no new technology or changes at point of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "transforming retail marketing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/rmao1Kag1yP5PUXgC/records/Z41yi1XUm8Zflmq-0.html?signature=1gGdA1dNlY8jQhKRdw8Zm"
+      },
+      {
+        "#debug": {
+          "requestId": "GKi600WcR8yGNzm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Technori%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Technori%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Technori\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Technori%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Technori%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Jasmine Jung-Min Han \ub2d8 - Chief Executive Officer and ...",
+            "url": "https://kr.linkedin.com/in/jasminejungminhan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jasmine Jung-Min Han",
+            "description": "\uacbd\ub825 ; Chief Executive Officer and Founder. Technori. 2018\ub144 8\uc6d4 ; Senior Product Manager, Startup Studio. SK Group. 2018\ub144 2\uc6d4 ; Mobile Strategy Consultant,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Chief Executive Officer",
+              "Founder",
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "\ub300\ud55c\ubbfc\uad6d",
+              "jobTitle": "Chief Executive Officer and Founder",
+              "companyName": "Technori",
+              "rawText": "\ub300\ud55c\ubbfc\uad6d \u00b7 Chief Executive Officer and Founder \u00b7 Technori"
+            },
+            "followersAmount": "720+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Sam Fiske - Head of Content",
+            "url": "https://www.linkedin.com/in/samfiske",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sam Fiske",
+            "description": "As part of Technori acquisition by Kingscrowd, I became head of content including digital media, email marketing, newsletters, podcasts, partnerships and more.Read more",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Diego, California, United States",
+              "jobTitle": "Head of Content",
+              "companyName": "Kingscrowd",
+              "rawText": "San Diego, California, United States \u00b7 Head of Content \u00b7 Kingscrowd"
+            },
+            "followersAmount": "2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Seth Kravitz - Founder Theory",
+            "url": "https://www.linkedin.com/in/sethkravitz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Seth Kravitz",
+            "description": "Howdy! I'm Seth. I work with founders the way a good co-founder does: a second set\u2026 \u00b7 Experience: Founder Theory \u00b7 Location: Madison \u00b7 500+ connections on\u00a0...",
+            "emphasizedKeywords": [
+              "founder",
+              "Founder"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Madison, Wisconsin, United States",
+              "companyName": "Founder Theory",
+              "rawText": "Madison, Wisconsin, United States \u00b7 Founder Theory"
+            },
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Jasmine Shells - CEO & AI Leader | Grow with Google Coach",
+            "url": "https://www.linkedin.com/in/jasmine-shells",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jasmine Shells",
+            "description": "Founder & CEO | Head of Product. Five to Nine. Jan 2018 - Present 8 ... Technori is emerging as one of the top startup showcases in the world and is\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Ethan Baehrend - CEO @ Creative 3D",
+            "url": "https://www.linkedin.com/in/ethanbaehrend",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ethan Baehrend",
+            "description": "I am Creative 3D's one and only Founder & CEO! Initially, Creative 3D Technologies was founded from the frustrations of my previous Refurbishing company that\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Jeff Hunt - Content Status",
+            "url": "https://www.linkedin.com/in/huntjeff",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jeff Hunt",
+            "description": "Jeff Hunt is CEO of Content Status, a SaaS ecommerce platform that specializes in\u2026 \u00b7 Experience: Content Status \u00b7 Education: The Ohio State University - The\u00a0...",
+            "emphasizedKeywords": [
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Denver, Colorado, United States",
+              "companyName": "Content Status",
+              "rawText": "Denver, Colorado, United States \u00b7 Content Status"
+            },
+            "followersAmount": "5.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Robbie Abed - So Many Lemons | Fire Me I Beg You",
+            "url": "https://www.linkedin.com/in/robbiejabed",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robbie Abed",
+            "description": "Chief Technology Officer. Technori. Dec 2011 - Aug 2013 1 year 9 months. Greater Chicago Area.Read more",
+            "emphasizedKeywords": [
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "34.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Dan Ptak - Founder & CEO at JumpSeat",
+            "url": "https://www.linkedin.com/in/danptak",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dan Ptak",
+            "description": "Founder & CEO at JumpSeat ... The third largest monthly startup event in the U.S., Technori is a showcase of the Midwest's most innovative\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Technori"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.8K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Mary Lemmer - Bloomsbury Publishing Plc",
+            "url": "https://www.linkedin.com/in/melemmer",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mary Lemmer",
+            "description": "I love creating. It's who I am. I'm a multidisciplinary creative, writer, speaker,\u2026 \u00b7 Experience: Bloomsbury Publishing Plc \u00b7 Education: University of\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "United States",
+              "companyName": "Bloomsbury Publishing Plc",
+              "rawText": "United States \u00b7 Bloomsbury Publishing Plc"
+            },
+            "followersAmount": "8.4K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Resha Shroff - Lynx Automation",
+            "url": "https://www.linkedin.com/in/reshashroff",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Resha Shroff",
+            "description": "The University of Chicago Booth School of Business. -. 2015 - 2015. -. 2000 - 2003. -. 1997 - 2000. Websites. Company Website: http://www.getlynx.co.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Tampa, Florida, United States",
+              "companyName": "Lynx Automation",
+              "rawText": "Tampa, Florida, United States \u00b7 Lynx Automation"
+            },
+            "followersAmount": "6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/bwYpa7HeuedS9Qydg/records/GKi600WcR8yGNzm-0.html?signature=1L8hnAAJ1tXvWfLjxykir"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "https://www.linkedin.com/pulse/unearth-world-technori-pitch-kathryn-pisco",
+      "https://www.linkedin.com/posts/kitun_today-is-a-big-day-for-the-technori-family-activity-6913595039130505216-dbey?trk=public_profile_like_view",
+      "https://www.linkedin.com/in/samfiske",
+      "https://kr.linkedin.com/in/jasminejungminhan",
+      "https://www.linkedin.com/in/samfiske#:~:text=Experience,2023%201%20year%2010%20months",
+      "https://www.linkedin.com/pulse/unearth-world-technori-pitch-kathryn-pisco#:~:text=For%20many%20participants%2C%20Technori%20Pitch%20is%20a,Each%20month%2C%20Technori%20picks%20a%20different%20theme.",
+      "site:linkedin.com/company technori.com",
+      "https://www.linkedin.com/company/spring-marketplace",
+      "https://www.linkedin.com/company/gigastar",
+      "https://www.linkedin.com/company/strggl-com",
+      "https://www.linkedin.com/company/gotara",
+      "https://www.linkedin.com/company/intheir20s",
+      "https://www.linkedin.com/company/ticktsoft",
+      "https://www.linkedin.com/company/fire-me-i-beg-you",
+      "https://lb.linkedin.com/company/spring-marketplace",
+      "https://www.linkedin.com/company/checkit-invoice",
+      "https://se.linkedin.com/company/spring-marketplace",
+      "site:linkedin.com/in \"Technori\" ceo",
+      "https://kr.linkedin.com/in/jasminejungminhan",
+      "https://www.linkedin.com/in/samfiske",
+      "https://www.linkedin.com/in/sethkravitz",
+      "https://www.linkedin.com/in/jasmine-shells",
+      "https://www.linkedin.com/in/ethanbaehrend",
+      "https://www.linkedin.com/in/huntjeff",
+      "https://www.linkedin.com/in/robbiejabed",
+      "https://www.linkedin.com/in/danptak",
+      "https://www.linkedin.com/in/melemmer",
+      "https://www.linkedin.com/in/reshashroff"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/intheir20s",
+    "resolved_person_linkedin": "https://kr.linkedin.com/in/jasminejungminhan"
+  },
+  "lead_before_enrichment": {
+    "business": "Technori",
+    "description": "By using this site, you agree to the [Privacy Policy](https://technori.com/) and [Terms of Use](https://technori.com/). [Accept](https://technori.com/) [ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \\(1\\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/) # Technori * [Startups](https://technori.com/startups/) * [AI](https://technori.com/artificial-intelligence/) * [Finance](https://technori.com/finance/) * [Leadership](https://technori.com/leade",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://technori.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://technori.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "technori.com",
+    "source_urls": [
+      "https://technori.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Technori",
+    "description": "By using this site, you agree to the [Privacy Policy](https://technori.com/) and [Terms of Use](https://technori.com/). [Accept](https://technori.com/) [ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \\(1\\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/) # Technori * [Startups](https://technori.com/startups/) * [AI](https://technori.com/artificial-intelligence/) * [Finance](https://technori.com/finance/) * [Leadership](https://technori.com/leade",
+    "full_name": "Sam Fiske",
+    "first": "Sam",
+    "last": "Fiske",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://technori.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Chief Executive Officer and",
+    "linkedin": "https://kr.linkedin.com/in/jasminejungminhan",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/intheir20s",
+    "source_url": "https://technori.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "technori.com",
+    "source_urls": [
+      "https://technori.com"
+    ],
+    "title_raw": "Chief Executive Officer and",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://technori.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/intheir20s"
+    },
+    "first": {
+      "before": "",
+      "after": "Sam"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Sam Fiske"
+    },
+    "last": {
+      "before": "",
+      "after": "Fiske"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://kr.linkedin.com/in/jasminejungminhan"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://technori.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Chief Executive Officer and"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Chief Executive Officer and"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Fintalent.com",
+  "lead": {
+    "business": "Fintalent.com",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Founder",
+    "website": "http://www.fintalent.io",
+    "industry": "Internet Services",
+    "sub_industry": "Internet",
+    "country": "London",
+    "state": "",
+    "city": "",
+    "source_url": "https://fintalent.com",
+    "description": "The Flexible Way To Staff M&A Projects. From Origination To Integration. Get tailored proposals from 2,500+ freelancers and independent M&A advisories through the Fintalent platform.",
+    "employee_count": "11-50",
+    "hq_country": "London",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/fintalentio"
+  },
+  "source_failed_basename": "4c63b3f60aa893e219100c1701cf3b691a3d202d348d31654f437ac16b3a563e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4c63b3f60aa893e219100c1701cf3b691a3d202d348d31654f437ac16b3a563e.precheck_failed.json",
+  "queue_key": "9ad1508c44e4de579a84a510c65acc73e6902033651025e757bacde8cd38d76a"
+}

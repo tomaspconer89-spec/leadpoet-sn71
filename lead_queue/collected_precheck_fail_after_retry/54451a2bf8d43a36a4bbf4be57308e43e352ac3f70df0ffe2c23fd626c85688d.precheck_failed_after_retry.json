@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last",
+  "business": "saas.group",
+  "lead": {
+    "business": "saas.group",
+    "full_name": "Tim Schumacher",
+    "first": "Tim",
+    "last": "Schumacher",
+    "email": "",
+    "role": "Co-Founder",
+    "website": "http://www.saas.group",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "source_url": "https://saas.group",
+    "description": "saas.group is a conglomerate of independent SaaS businesses founded by experienced industry veterans with proven entrepreneurial, investing, and product backgrounds. We love healthy SaaS companies and help them to reach the next level. If being acquired is something that sparks some interest or you\u2019d like to know about our process, we\u2019d love to have a chat with you. We advocate for the founder-friendly approach and are ready to offer you the exit you deserve meaning financial freedom or an opportunity to stay on board in your most exciting role.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Washington",
+    "hq_city": "Seattle",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/saas-group",
+    "linkedin": "https://linkedin.com/in/timschumacher"
+  },
+  "source_failed_basename": "9b34f8ae333077192bba09820d7affd17e0e59de624ed7ae399d8eb2d591ef77.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9b34f8ae333077192bba09820d7affd17e0e59de624ed7ae399d8eb2d591ef77.precheck_failed.json",
+  "queue_key": "54451a2bf8d43a36a4bbf4be57308e43e352ac3f70df0ffe2c23fd626c85688d"
+}

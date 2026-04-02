@@ -1,0 +1,1008 @@
+{
+  "saved_at_utc": "2026-04-01T22:57:07.574057+00:00",
+  "queue_key": "3157172372f00c9919538f9dc69b2b1bc4b0203f7ec586d043838e544b26079c",
+  "business": "2150",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Constructive Capital for Urban Tech - 2150.vc",
+      "Constructive Capital for Urban Tech - 2150.vc linkedin company",
+      "site:linkedin.com/company 2150.vc",
+      "site:linkedin.com/in \"Constructive Capital for Urban Tech - 2150.vc\" founder",
+      "site:linkedin.com/in \"Constructive Capital for Urban Tech - 2150.vc\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "M2KX63TBowpPw6g",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Constructive+Capital+for+Urban+Tech+-+2150.vc",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Constructive+Capital+for+Urban+Tech+-+2150.vc",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Constructive Capital for Urban Tech - 2150.vc",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Constructive+Capital+for+Urban+Tech+-+2150.vc",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Constructive+Capital+for+Urban+Tech+-+2150.vc",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "2150",
+            "url": "https://uk.linkedin.com/company/2150vc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a02150",
+            "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that\u00a0...Read more",
+            "emphasizedKeywords": [
+              "2150 is a venture capital firm investing in technology companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "22.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Schj\u00f8dt",
+            "url": "https://no.linkedin.com/company/advokatfirmaet-schjodt",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Schj\u00f8dt",
+            "description": "We are internationally recognised as the only top-tier law firm with a full-service offering in all Scandinavian markets in addition to strong UK law\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "LEKO",
+            "url": "https://lu.linkedin.com/company/lekolabs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0LEKO",
+            "description": "LEKO Labs is accelerating the global transition to carbon negative construction with building materials powered by AI optimization and robotic\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.1K+ followers",
+            "type": "organic",
+            "position": 3
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/04De3VvusP01taOua/records/M2KX63TBowpPw6g-0.html?signature=jwzGACrgiae9IvWc0xCd"
+      },
+      {
+        "#debug": {
+          "requestId": "qMZy3DLqquX1LsV",
+          "url": "http://www.google.com/search?q=Constructive+Capital+for+Urban+Tech+-+2150.vc+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Constructive+Capital+for+Urban+Tech+-+2150.vc+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Constructive Capital for Urban Tech - 2150.vc linkedin company",
+          "url": "http://www.google.com/search?q=Constructive+Capital+for+Urban+Tech+-+2150.vc+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Constructive+Capital+for+Urban+Tech+-+2150.vc+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Constructive capital for urban tech 2150 vc linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+capital+for+urban+tech+2150+vc+linkedin+company+reviews&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Constructive capital for urban tech 2150 vc linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+capital+for+urban+tech+2150+vc+linkedin+company+address&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Constructive llc",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+llc&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Bpl Mortgage trust LLC Oakbrook Terrace IL",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Bpl+Mortgage+trust+LLC+Oakbrook+Terrace+IL&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Constructive capital for urban tech 2150 vc linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+capital+for+urban+tech+2150+vc+linkedin+company+reviews&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Constructive capital for urban tech 2150 vc linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+capital+for+urban+tech+2150+vc+linkedin+company+address&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Constructive llc",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Constructive+llc&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Bpl Mortgage trust LLC Oakbrook Terrace IL",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Bpl+Mortgage+trust+LLC+Oakbrook+Terrace+IL&sa=X&ved=2ahUKEwi8oO_c382TAxWqSPEDHQkQIpAQ1QJ6BAg2EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Mikkel B\u00fclow-Lehnsby - Constructive Capital for Urban Tech",
+            "url": "https://www.linkedin.com/posts/mikkel-bulow-lehnsby_constructive-capital-for-urban-tech-2150-activity-6770677568468262912-ighs?trk=public_profile_like_view",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mikkel B\u00fclow-Lehnsby",
+            "description": "This is why 2150 has been set up. Not just as a venture capital investor, but as a facilitator and a collective of like-minded investors and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "2150",
+              "venture capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Urban Partners and Viessmann Generations Group ...",
+            "url": "https://urban.partners/news/urban-partners-and-viessmann-generations-group-establish-partnership-to-drive-sustainable-urban-transformation",
+            "displayedUrl": "https://urban.partners \u203a news \u203a urban-partners-and-viess...",
+            "description": "Urban Partners is a leading \u20ac21bn urban investment platform, investing to help cities address challenges accelerated by urbanisation. Combining\u00a0...Read more",
+            "date": "2025-01-22T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Urban Partners is a leading \u20ac21bn urban investment platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Constructive Capital",
+            "url": "https://www.linkedin.com/company/constructive-loans",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Constructive Capital",
+            "description": "Constructive Capital is a leading wholesale provider of business purpose capital serving mortgage brokers and their real estate investor clients nationwide.Read more",
+            "emphasizedKeywords": [
+              "Constructive Capital is a leading wholesale provider of business purpose capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Visiting Analyst ((Venture and Growth Investments) @ 2150",
+            "url": "https://jobs.2150.vc/companies/2150/jobs/29697174-visiting-analyst-venture-and-growth-investments",
+            "displayedUrl": "https://jobs.2150.vc \u203a companies \u203a jobs \u203a 29697174-vis...",
+            "description": "We back technology entrepreneurs and inventors with Constructive Capital so they can reimagine and reshape the urban environment. By building companies that\u00a0...Read more",
+            "emphasizedKeywords": [
+              "structive Capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "2150 Secures $248M in Fund II, Expands to Europe, North ...",
+            "url": "https://www.linkedin.com/posts/startup-researcher-europe_climatetech-venturecapital-sustainablecities-activity-7421496444731379713-s-vu",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a startup-researcher-eu...",
+            "description": "Jan 26, 2026 \u2014 2150 secures $248 million in Fund II to scale sustainable urban tech and hits a total $591 million AUM. The new fund will back founders\u00a0...",
+            "date": "2026-01-26T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "2150 secures $248 million in Fund II"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Using data and technology to integrate mobility modes in ...",
+            "url": "https://transport-links.com/hvt-publications/using-data-and-technology-to-integrate-mobility-modes-in-low-income-cities",
+            "displayedUrl": "https://transport-links.com \u203a HVT publications",
+            "description": "The utilisation of data and technology in transportation has given rise to new forms of flexible, on-demand mobility and urban freight services.Read more",
+            "emphasizedKeywords": [
+              "technology",
+              "urban"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "S-1",
+            "url": "https://www.sec.gov/Archives/edgar/data/1736297/000119312524040419/d285484ds1.htm",
+            "displayedUrl": "https://www.sec.gov \u203a Archives \u203a edgar \u203a data",
+            "description": "Increase our revenue-per-server-rack with generational upgrades and new products. We continue to invest in the development of new products and technologies.Read more",
+            "emphasizedKeywords": [
+              "technologies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "SWITZERLAND AS A BUSINESS LOCATION",
+            "url": "https://www.s-ge.com/sites/default/files/publication/free/handbook-for-investors-s-ge-2019-03.pdf",
+            "displayedUrl": "https://www.s-ge.com \u203a files \u203a publication \u203a free",
+            "description": "Its innovative and competitive companies, excellent universities, first-class experts and excellent infrastructure form a strong foundation. But we do not want\u00a0...Read more",
+            "emphasizedKeywords": [
+              "companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "2025 Integrated Annual Report",
+            "url": "https://assets.barco.com/m/396d2274eeb4dd65/original/Barco-IR2025-FULL.pdf",
+            "displayedUrl": "https://assets.barco.com \u203a Barco-IR2025-FULL",
+            "description": "Did 2025 bring a new sense of stability for. Barco? An: When looking at our environment, 2025 was not a return to.Read more",
+            "date": "2025-12-15T12:00:00.000Z",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/mabQ9TAIJtGck3PEz/records/qMZy3DLqquX1LsV-0.html?signature=j84Fj6j2ftmhqYItsx8n"
+      },
+      {
+        "#debug": {
+          "requestId": "hrh955rkKCsPaFL",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+2150.vc",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+2150.vc",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company 2150.vc",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+2150.vc",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+2150.vc",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "2150",
+            "url": "https://uk.linkedin.com/company/2150vc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a02150",
+            "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them.Read more",
+            "emphasizedKeywords": [
+              "2150 is a venture capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "22.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "2150",
+            "url": "https://es.linkedin.com/company/2150vc?trk=ppro_cprof",
+            "displayedUrl": "https://es.linkedin.com \u203a company \u203a 2150vc",
+            "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them.",
+            "emphasizedKeywords": [
+              "2150 is a venture capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "HSBC Innovation Banking",
+            "url": "https://www.linkedin.com/company/hsbc-innovation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0HSBC Innovation Banking",
+            "description": "2150 is a Denmark headquartered Venture Capital firm, investing in technology companies that are aiming to reshape the urban environment. Alexander Kielland,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "2150 is a Denmark headquartered Venture Capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "61.1K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Reframe Venture",
+            "url": "https://www.linkedin.com/company/reframe-venture",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Reframe Venture",
+            "description": "Reframe Venture. Venture Capital and Private Equity Principals. A global community of 500+ VCs, 110+ LPs, and their portfolio companies meaningfully integrating\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Venture Capital",
+              "VCs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Blue Vision Capital",
+            "url": "https://ca.linkedin.com/company/bluevisioncapital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Blue Vision Capital",
+            "description": "Blue Vision Capital is a Montreal based climate tech venture capital firm launched in 2022 by Meir Rabkin whose mission is to invest in seed stage innovative,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "venture capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Constructor Capital",
+            "url": "https://www.linkedin.com/company/constructor-capital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Constructor Capital",
+            "description": "A science-based global Venture Capital fund investing in early-stage startups in software and deep technology.Read more",
+            "emphasizedKeywords": [
+              "global Venture Capital fund"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "760+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Systemiq Capital",
+            "url": "https://uk.linkedin.com/company/systemiq-capital-earth",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Systemiq Capital",
+            "description": "Systemiq Capital back tech founders solving planet scale problems, investing where tech meets the physical world. We focus on Series A\u00b1 companies in UK,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Systemiq Capital"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8.2K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "ETF Partners - The Environmental Technologies Fund",
+            "url": "https://uk.linkedin.com/company/environmental-technologies-fund---etf",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ETF Partners - The Environmental Technologies Fund",
+            "description": "Founded in 2005, ETF Partners (The Environmental Technologies Fund) stands as Europe's original venture capital firm dedicated to sustainability and impact\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ETF Partners"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.1K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Zero Carbon",
+            "url": "https://uk.linkedin.com/company/zerocarbon-capital",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Zero Carbon",
+            "description": "Zero Carbon is a leading deep tech climate fund backing visionary founders across Europe with pre-seed and seed investments.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.9K+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ffg0MaJAL8IiShzhK/records/hrh955rkKCsPaFL-0.html?signature=IqFjeu0eqRL9GPwA8drs"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Constructive Capital for Urban Tech - 2150.vc",
+      "https://uk.linkedin.com/company/2150vc",
+      "https://no.linkedin.com/company/advokatfirmaet-schjodt",
+      "https://lu.linkedin.com/company/lekolabs",
+      "https://www.linkedin.com/posts/mikkel-bulow-lehnsby_constructive-capital-for-urban-tech-2150-activity-6770677568468262912-ighs?trk=public_profile_like_view",
+      "https://www.linkedin.com/company/constructive-loans",
+      "https://www.linkedin.com/posts/startup-researcher-europe_climatetech-venturecapital-sustainablecities-activity-7421496444731379713-s-vu",
+      "site:linkedin.com/company 2150.vc",
+      "https://uk.linkedin.com/company/2150vc",
+      "https://es.linkedin.com/company/2150vc?trk=ppro_cprof",
+      "https://www.linkedin.com/company/hsbc-innovation",
+      "https://www.linkedin.com/company/reframe-venture",
+      "https://ca.linkedin.com/company/bluevisioncapital",
+      "https://www.linkedin.com/company/constructor-capital",
+      "https://uk.linkedin.com/company/systemiq-capital-earth",
+      "https://uk.linkedin.com/company/environmental-technologies-fund---etf",
+      "https://uk.linkedin.com/company/zerocarbon-capital"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "about_industry": "Venture Capital and Private Equity Principals",
+        "additional_information": "Analyst jobs 694,057 open jobs Manager jobs 1,880,925 open jobs Intern jobs 71,196 open jobs Brand Marketing Specialist jobs 31,291 open jobs Head of Content jobs 2,419 open jobs Fundraiser jobs 3,233 open jobs Head of Marketing jobs 7,108 open jobs Investor Relations Specialist jobs 2,696 open jobs Chief Marketing Officer jobs 10,378 open jobs Director jobs 1,220,357 open jobs Media Specialist jobs 53,464 open jobs Scientist jobs 48,969 open jobs Communications Manager jobs 72,363 open jobs Marketing Executive jobs 66,900 open jobs Relationship Manager jobs 95,340 open jobs Project Manager jobs 253,048 open jobs Marketing Manager jobs 106,879 open jobs Marketing Specialist jobs 49,178 open jobs Associate jobs 1,091,945 open jobs Economist jobs 185,268 open jobs Show more jobs like this Show fewer jobs like this",
+        "affiliated_pages": [
+          {
+            "category": "Investment Management",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFu7owoWy7gXw/company-logo_100_100/B4DZvBVR4nJYAQ-/0/1768475139974/urbanpartners_logo?e=2147483647&v=beta&t=jt9ARpBjm5CNg-jS9Dh3sxVnQ8XZ_sxpSBG8zLcfuSc",
+            "name": "Urban Partners",
+            "url": "https://dk.linkedin.com/company/urbanpartners?trk=affiliated-pages"
+          }
+        ],
+        "all_locations": [],
+        "background_cover_image_url": "https://media.licdn.com/dms/image/v2/C4E1BAQE_hWHcfc7lww/company-background_10000/company-background_10000/0/1613766811239/2150vc_cover?e=2147483647&v=beta&t=NwIyfg-EKqxn5oDTMoMsn2B16O_6Jcph10mBdXyjj-4",
+        "company_id": "14812624",
+        "company_size": "11-50 employees",
+        "company_type": "Partnership",
+        "country_code": "GB",
+        "crunchbase_url": null,
+        "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that cities drive the majority of global prosperity and represent the greatest opportunity for sustainable progress, 2150 backs founders developing transformative solutions across energy, industrial decarbonisation, advanced manufacturing, mobility solutions, and urban systems. 2150 manages \u20ac500 million in assets under management and invests worldwide from its offices in London, Copenhagen and Berlin.",
+        "employee_count": "23",
+        "employees": [
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQHi3nMCy4AS5Q/profile-displayphoto-scale_100_100/B4EZkaJNs4GcAk-/0/1757080247707?e=2147483647&v=beta&t=dWkeLyMwitQviTP2ybOvkQZsvm69JEHqkYI4RNxKT14",
+            "name": "Christian Hernandez Gallardo",
+            "profile_url": "https://uk.linkedin.com/in/christianhern?trk=org-employees",
+            "role": "2150\u20227K followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQHzMb7P23A0-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1614028675150?e=2147483647&v=beta&t=DBM8QPDUQI66C9T-J_6ydNkWrwGMBVILIJaPTq88xls",
+            "name": "Christian J\u00f8lck",
+            "profile_url": "https://dk.linkedin.com/in/christianjolck?trk=org-employees",
+            "role": "2150\u20224K followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQG69joHJzvkuA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1634073320720?e=2147483647&v=beta&t=HpBZvKUt2EjaS2qDVLt3EhAwBRLRby8_J1prE2r9MSY",
+            "name": "Alexander Kielland",
+            "profile_url": "https://dk.linkedin.com/in/akielland?trk=org-employees",
+            "role": "2150\u20223K followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFz1cm5FPuarw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696683034719?e=2147483647&v=beta&t=Rri0sU9Rw2YPnWrIGN3yjxCsWAAMPfKCY_cuPHLkSno",
+            "name": "Derek Brooks",
+            "profile_url": "https://uk.linkedin.com/in/derekcinaderbrooks?trk=org-employees",
+            "role": "2150\u20227K followers"
+          }
+        ],
+        "followers": null,
+        "formatted_url": "https://uk.linkedin.com/company/2150vc",
+        "founded": "2019",
+        "funding": null,
+        "get_directions_url": [
+          {
+            "directions_url": "https://www.bing.com/maps?where=London+GB&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Berlin+Berlin+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Copenhagen+DK&trk=org-locations_url"
+          }
+        ],
+        "headquarters": "London",
+        "hq_address": {
+          "address": "London, GB",
+          "is_primary": true,
+          "map_url": "https://www.bing.com/maps?where=London+GB&trk=org-locations_url"
+        },
+        "industry": "Venture Capital and Private Equity Principals",
+        "info": "2150 | 22,418 followers on LinkedIn. 2150 is a venture capital firm investing in technologies that are redefining cities and the industries that sustain them | 2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that cities drive the majority of global prosperity and represent the greatest opportunity for sustainable progress, 2150 backs founders developing transformative solutions across energy, industrial decarbonisation, advanced manufacturing, mobility solutions, and urban systems. 2150 manages \u20ac500 million in assets under management and invests worldwide from its offices in London, Copenhagen and Berlin.",
+        "investors": null,
+        "jobs": [
+          {
+            "open_jobs_count": 694057,
+            "title": "Analyst jobs",
+            "url": "https://www.linkedin.com/jobs/analyst-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1880925,
+            "title": "Manager jobs",
+            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 71196,
+            "title": "Intern jobs",
+            "url": "https://www.linkedin.com/jobs/intern-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 31291,
+            "title": "Brand Marketing Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/brand-marketing-specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 2419,
+            "title": "Head of Content jobs",
+            "url": "https://www.linkedin.com/jobs/head-of-content-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 3233,
+            "title": "Fundraiser jobs",
+            "url": "https://www.linkedin.com/jobs/fundraiser-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 7108,
+            "title": "Head of Marketing jobs",
+            "url": "https://www.linkedin.com/jobs/head-of-marketing-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 2696,
+            "title": "Investor Relations Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/investor-relations-specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 10378,
+            "title": "Chief Marketing Officer jobs",
+            "url": "https://www.linkedin.com/jobs/chief-marketing-officer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1220357,
+            "title": "Director jobs",
+            "url": "https://www.linkedin.com/jobs/director-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 53464,
+            "title": "Media Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/media-specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 48969,
+            "title": "Scientist jobs",
+            "url": "https://www.linkedin.com/jobs/scientist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 72363,
+            "title": "Communications Manager jobs",
+            "url": "https://www.linkedin.com/jobs/communications-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 66900,
+            "title": "Marketing Executive jobs",
+            "url": "https://www.linkedin.com/jobs/marketing-executive-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 95340,
+            "title": "Relationship Manager jobs",
+            "url": "https://www.linkedin.com/jobs/relationship-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 253048,
+            "title": "Project Manager jobs",
+            "url": "https://www.linkedin.com/jobs/project-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 106879,
+            "title": "Marketing Manager jobs",
+            "url": "https://www.linkedin.com/jobs/marketing-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 49178,
+            "title": "Marketing Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/marketing-specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1091945,
+            "title": "Associate jobs",
+            "url": "https://www.linkedin.com/jobs/associate-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 185268,
+            "title": "Economist jobs",
+            "url": "https://www.linkedin.com/jobs/economist-jobs?trk=organization_guest-browse_jobs"
+          }
+        ],
+        "location": null,
+        "locations": [
+          {
+            "address": "London, GB",
+            "is_primary": true,
+            "map_url": "https://www.bing.com/maps?where=London+GB&trk=org-locations_url"
+          },
+          {
+            "map_url": "https://www.bing.com/maps?where=Berlin+Berlin+DE&trk=org-locations_url"
+          },
+          {
+            "map_url": "https://www.bing.com/maps?where=Copenhagen+DK&trk=org-locations_url"
+          }
+        ],
+        "name": "2150",
+        "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFzSrSBwA_3og/company-logo_200_200/company-logo_200_200/0/1630638609059/2150tech_logo?e=2147483647&v=beta&t=t4jZHyjzlqbf3uT9KIabNJVISqjgEzSBoHTKLOfGq1Y",
+        "similar_pages": [
+          {
+            "industry": "Investment Management",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFu7owoWy7gXw/company-logo_100_100/B4DZvBVR4nJYAQ-/0/1768475139974/urbanpartners_logo?e=2147483647&v=beta&t=jt9ARpBjm5CNg-jS9Dh3sxVnQ8XZ_sxpSBG8zLcfuSc",
+            "name": "Urban Partners",
+            "url": "https://dk.linkedin.com/company/urbanpartners?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFExpsbWAFA7Q/company-logo_100_100/company-logo_100_100/0/1675597165902/planet_a_logo?e=2147483647&v=beta&t=jIfQMiBRLDWxoPT-WdGzv24jGtR0CPNKpfzzvD4A-h4",
+            "name": "Planet A Ventures",
+            "url": "https://de.linkedin.com/company/planet-a?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQGNGQh9NUVUwg/company-logo_100_100/company-logo_100_100/0/1732092880785/extantia_logo?e=2147483647&v=beta&t=jJ55I06KcGXVhE2Yqip4g0jf-TxOjit3fpvo_dEwy1I",
+            "name": "Extantia",
+            "url": "https://de.linkedin.com/company/extantia?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQEXxZOaatApTg/company-logo_100_100/company-logo_100_100/0/1656997930740/pirate_impact_logo?e=2147483647&v=beta&t=VCtluPqwDow4iSFpZAZyMqjQdNplygylg5EFDZOBXuQ",
+            "name": "AENU",
+            "url": "https://de.linkedin.com/company/aenu?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "location": "Berlin, BE",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHw9-KqjsMSgA/company-logo_100_100/company-logo_100_100/0/1698076494829/worldfund_logo?e=2147483647&v=beta&t=uGb-Dvq6phmEn3gjwz3I0Ift7F1nvAkJPeoEosJ-ajk",
+            "name": "World Fund",
+            "url": "https://de.linkedin.com/company/worldfund?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "location": "Malmo, Sk\u00e5ne County",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEh2ZCxARR1WQ/company-logo_100_100/B4DZbTAxz8H8AQ-/0/1747296919124/palebluedotvcclimate_logo?e=2147483647&v=beta&t=UdQ2Id5nMpgqRsI-u785nJhh7Kq2Hcbom2tgzktoewk",
+            "name": "Pale blue dot",
+            "url": "https://se.linkedin.com/company/palebluedotvcclimate?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEaN2R-MoSuvA/company-logo_100_100/B4EZvHXlNiIcAU-/0/1768576406875/anandaventures_logo?e=2147483647&v=beta&t=ZaYPS56Bew84-UGLhaMNybxfp4yuIcmEpsifYnmFDQk",
+            "name": "Ananda Impact Ventures",
+            "url": "https://de.linkedin.com/company/anandaventures?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "location": "San Francisco, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEesXKo5AUXVA/company-logo_100_100/company-logo_100_100/0/1707193854666/voyagervc_logo?e=2147483647&v=beta&t=o-6_JkzEaNzkstTS0mzfoxMGmDGWZQmhiwl7H0szN_E",
+            "name": "Voyager Ventures",
+            "url": "https://www.linkedin.com/company/voyagervc?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "location": "Stockholm, Stockholm County",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEMQsdwqFeqMg/company-logo_100_100/B4DZTadIm6HIAQ-/0/1738831858576/norrskenvc_logo?e=2147483647&v=beta&t=qZAp8t9GMKQvhYr8Tdp7-YZIC8uRzX-WUHFw55OY0Ew",
+            "name": "Norrsken VC",
+            "url": "https://se.linkedin.com/company/norrskenvc?trk=similar-pages"
+          },
+          {
+            "industry": "Venture Capital and Private Equity Principals",
+            "location": "San Francisco, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEhdnYjLrFUPg/company-logo_100_100/company-logo_100_100/0/1630656649194/obvious_ventures_logo?e=2147483647&v=beta&t=xZyJD5VcJjpif7FSBwBtleSDFz81adV1XPJdFtK7dZ4",
+            "name": "Obvious Ventures",
+            "url": "https://www.linkedin.com/company/obvious-ventures?trk=similar-pages"
+          }
+        ],
+        "specialties": null,
+        "stock_info": null,
+        "tagline": "2150 is a venture capital firm investing in technologies that are redefining cities and the industries that sustain them",
+        "universal_name_id": "2150vc",
+        "update_data": [
+          {
+            "comments": "1",
+            "content": "J.P. Morganrecently published it's Climate Technology report in which it highlights the acceleating investment momentum into \"Grid Tech\", next-generation battery technologies, solutions for adaptation and resilience and critical mineral startups. In another recent report, the bank frames the need to scale these solutions as a \"shift to treat climate impacts as [national] security threats.\" \n\nWe are seeing the same momentum across our portfolio fromNodes & Linksapplying it's AI platform to help deliver energy projects toSiTration, Inc.andMETYCLEaccelerating access to critical minerals toBlue Frontier, Inc.andNatureMetricssupporting adaptation and resilience.\n\nClimate Tech Industry Trends:https://lnkd.in/geDS6DSBClimate Change and National Security:https://lnkd.in/gs32Z3wq#ClimateTech#CriticalMinerals#Adaptation#JPMorgan#VentureCapital#Resilience",
+            "posted_time": "Mon, 30 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "23"
+          },
+          {
+            "comments": "1",
+            "content": "Why we are excited to have co-ledCocoon's $15m funding round:\n\nThe world is racing to build compute, manufacturing, energy, and other essential infrastructure. But a key ingredient to that build out is running out. \n\nSupplementary cementitious materials (SCMs) are essential to how concrete is made today, but our conventional sources are disappearing. \n\nCocoon is tackling this shortage by unlocking new supply streams, helping the world to keep building at lower cost and lower carbon. They are moving at pace, moving from lab to real world deployment in just 18 months, and on track to break ground this year of their first commercial demonstration facility.\n\nWe\u2019re excited to partner with them on the road ahead! \ud83d\ude80https://lnkd.in/eP8BZjYH#VentureCapital#ClimateTech#SustainableCement#SustainableCities",
+            "posted_time": "Wed, 25 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "32"
+          },
+          {
+            "comments": "4",
+            "content": "Congratulations to our portfolio companiesLuxWall, Inc.andAtmosZerofor being selected for theFast CompanyMost Innovative Companies list of 2026!\n\nRead more here:https://lnkd.in/epWsKKNaOn AtmosZero: \u00a0\"It\u2019s set a record for the most powerful air-source heat pump capable of making steam directly, and uses the startup\u2019s proprietary compressors to efficiently make steam as hot at 200 degrees Celsius (392 degrees Fahrenheit).\"\n\nOn Luxwall: \"As utilities work to meet growing energy demand, an unexpected tool can help ease pressure on the power grid: windows that insulate like walls.\"",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQEFfx-V9dgLsQ/feedshare-shrink_800/B4EZ0f21wrI4Ac-/0/1774355963379?e=2147483647&v=beta&t=KWI7Zk1PxlG8I0aWM3wS-m83Psotc3ct8gJ40p5Hnfs"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "46"
+          },
+          {
+            "comments": "4",
+            "content": "\ud83d\udea8 Cocoon raises $15m co-led by2150to help the world keep building, at lower cost and lower carbon. \ud83d\udea8\n\nConcrete is the foundation of the built world. The second most consumed material on earth, we pour 30 billion tonnes of it every year, into the factories, data centers, hospitals, and infrastructure that define modern civilization. And for decades, supplementary cementitious materials (SCMs) have made that concrete cheaper and cleaner but also stronger and more durable.\nNow, the supply of SCMs is running out.CocoonCarbon is here to change that. By upcycling underutilized industrial byproducts into a low cost, low carbon, scalable SCM, Cocoon is unlocking an entirely new stream to solve the material constraints in the construction industry.\n\nWe\u2019re excited to supportEliot,Freddie,William, and the broader Cocoon team in this mission, alongsideBrick & Mortar Ventures,The Venture Collective (TVC), and existing investorsWireframe Ventures,Celsius Industries,Gigascale CapitalandSOSV. \n\nThe world needs to keep building. Cocoon makes sure it can.Axiosexclusive in the comments:#ClimateTech#SustainableCities#VentureCapital#FundingRound",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQFtyiztO9F2yQ/feedshare-shrink_2048_1536/B4EZ0FrdPfIsAk-/0/1773916771617?e=2147483647&v=beta&t=cav_J8ttnsu3PqM6IqE3ccIyrGFO_CuwaA2mkJnKpSc"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "104"
+          },
+          {
+            "comments": "6",
+            "content": "This International Women\u2019s Day 2026, we\u2019re celebrating the incredible leaders across the2150ecosystem.\n\nChair, CEO, CFO, Founder, Chief Commercial Officer, Chief Technology Officer, Investor - their leadership, expertise, and vision are shaping our common future.\n\nWe\u2019re proud to work alongside these women who are solving some of the hardest problems in climate, infrastructure, industry and urban resilience.\n\nThank you for the leadership, creativity, and determination you bring every day.Dimple Patel, CEO,NatureMetricsCamila Freitas Ribeiro, Director of Product\nKristal Kaye, CFO and Interim CEO,CarbonCure TechnologiesNara Cury, CFO,VammoBarbara Wittenberg, CTO,1KOMMA5\u00b0Carmela Borrotzu-Evans (ACMA, CGMA), CFO,Normative.ioSarah Flannigan, Chair,Normative.ioChrystin Matuszek, Chief Commercial Officer,Ampd EnergySarah Melvin, VP Strategy & Operations,SiTration, Inc.Maddalena Andriolo, Finance Director,Nodes & LinksPatricia Wexler, Venture Partner,2150Nicole Florack, Investor,2150Gemma Shepherd, Investor,2150Amber Chow, Partnerships & Sustainability,2150...and the female co-founders and leaders of investments we have yet to announce!#InternationalWomensDay#WomenInVC#WomenInClimate#IWD2026",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQGTTEYyqsDU3w/feedshare-shrink_800/B4EZzSSGc6JwAc-/0/1773054487797?e=2147483647&v=beta&t=6BD47Vz7VU8zz6Xney5A99CDoIrDWB3lzUmxs100DnY"
+              }
+            ],
+            "posted_time": "Wed, 11 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "86"
+          },
+          {
+            "comments": "1",
+            "content": "Our UNSUSTAINABLE series continues, this time with a focus on our growing demand for copper to power our path towards electrification and the growth of data centers. Demand for copper is expected to increase 50% by 2040 and it is already playing a growing role in geopolitics. \n\nDigging a new mine is not only unsustainable, it also requires an average of 17 years, but solutions and technologies like those fromSiTration, Inc.andMETYCLEcan help satisfy our growing need for this critical mineral with resources that are already above ground. \n\nRead more about our accelerating thirst for copper here:https://lnkd.in/ewbiPbQK",
+            "posted_time": "Mon, 02 Mar 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST"
+            ],
+            "reactions": "31"
+          },
+          {
+            "comments": "2",
+            "content": "An evening hosting fellow Climate investors, entrepreneurs and friends for a very special screening of David Attenborough\u2019s Ocean. With very special thanks toRevive Our Oceanand movie executive producersEnric SalaandKristin Rechbergerfor allowing us to learn about the challenges and the opportunities our oceans provide. 5 \u2b50Review!\n\nLearn more athttps://lnkd.in/g8Qx5q8i#Attenborough#Ocean#ReviveOurOcean#30by30",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQFihqfdCMjoxg/feedshare-shrink_2048_1536/B56ZwBfv2PI4Aw-/0/1769551626024?e=2147483647&v=beta&t=EDqcyiXcovf9kj5yVW07PmSjOaYuZAMYD6gVKhvB9Ro"
+              }
+            ],
+            "posted_time": "Sat, 31 Jan 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "59"
+          },
+          {
+            "content": "Some further reflections on the announcement of our Fund II and the \u20ac500m of AUM milestone below along with some great news coverage and podcasts:\n\n\ud83d\udcdd  Bloghttps://lnkd.in/eB7rkKhw\ud83d\udcf0 NewsTechCrunchhttps://lnkd.in/g5uSTX_UESG Todayhttps://lnkd.in/d6qf6GadTech.euhttps://lnkd.in/e6rZSmz6New Private Marketshttps://lnkd.in/eMN8jqUr\ud83c\udf99\ufe0f PodcastsEUVCwith our LPJan Hofmannhttps://lnkd.in/ekSjptDzHugo Rauchof New Wave withJacob Brohttps://lnkd.in/esYWbgWdSeb Johnson \ud83d\udcca\ud83c\uddea\ud83c\uddfaof Scaling Europe with Jacobhttps://lnkd.in/em9bMgUuMike Butcher \u270d\ufe0fofPathfounderswithChristian Hernandez Gallardohttps://lnkd.in/eMjTACpH#VentureCapital#ClimateTech#Fundraising#VC#SustainableCities",
+            "posted_time": "Sat, 31 Jan 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE"
+            ],
+            "reactions": "60"
+          },
+          {
+            "comments": "17",
+            "content": "2150is celebrating the final close of our second fund allowing us to reach \u20ac500m in assets under management in just short four years since we unveiled. \n\nFund II has already invested in seven companies includingMission Zero TechnologiesMETYCLEAtmosZeroGetmobiland three more due to be announced in due course. \n\nThe success of 2150 is defined by the founders that we back, by the Limited Partners that have been willing to support us, and by the amazing passionate team that has joined us.\n\nHere is to celebrating the last 4 years of our voyage and here is to celebrating what might yet come in the next 20!#VentureCapital#ClimateTech#SustainableTechnologies#EnergyResilience#VC#StartupsJacob BroChristian Hernandez GallardoChristian J\u00f8lckRahul ParekhMikkel B\u00fclow-LehnsbyPeter HirschGemma ShepherdAmber ChowDerek BrooksNicole FlorackMax BlanshardGustavo ChungAlexander KiellandChristian H\u00f8jdevang",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQHM-UH7-zSSmQ/feedshare-shrink_800/B4EZv5epsfGwAg-/0/1769417120968?e=2147483647&v=beta&t=ifrCHdXR2dhlhJYAplypA_5OHuoPFbNxkYV_BltyzRI"
+              }
+            ],
+            "posted_time": "Sat, 31 Jan 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "413"
+          },
+          {
+            "content": "Along with our friends at Undaunted at theGrantham Institute - Climate Change and the Environmentwe are launching a series of dialogues bringing together academia, innovators, policy makers and industry.\n\nJoin us for the first session on \"Rebuilding Concrete and Cement\" on Tuesday February 12th atImperial College London. \n\nRegister here:https://lnkd.in/eVEBiHMp#ClimateTech#SustainableCement#ImperialCollege",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQG2Ul4sVNc9hw/feedshare-shrink_1280/B4EZvrWb7TGQAc-/0/1769180086272?e=2147483647&v=beta&t=gBfshrlGbcmspxJBKFkunbU2kPLnmIm9uZh0mkZSaqM"
+              }
+            ],
+            "posted_time": "Sat, 31 Jan 2026 22:57:04 GMT",
+            "reaction_types": [
+              "LIKE",
+              "APPRECIATION"
+            ],
+            "reactions": "21"
+          }
+        ],
+        "url": "https://uk.linkedin.com/company/2150vc",
+        "website": "http://www.2150.vc"
+      }
+    ],
+    "resolved_company_linkedin": "https://uk.linkedin.com/company/2150vc",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Constructive Capital for Urban Tech - 2150.vc",
+    "description": "# Constructive Capital for Urban Tech [![2150.vc](https://2150.vc/wp-content/themes/2150Theme/public/images/logo-dark.svg)](https://2150.vc/ \"Homepage\") We are Taking on the biggest sustainability challenge on the planet [See more](https://2150.vc/#see-more) Who we are ## We back tech entrepreneurs who are reimagining and innovating the Urban Stack Building businesses that are changing how our cities are designed, constructed and powered, for good.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://2150.vc",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://2150.vc",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "2150.vc",
+    "source_urls": [
+      "https://2150.vc"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "2150",
+    "description": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that cities drive the majority of global prosperity and represent the greatest opportunity for sustainable progress, 2150 backs founders developing transformative solutions across energy, industrial decarbonisation, advanced manufacturing, mobility solutions, and urban systems. 2150 manages \u20ac500 million in assets under management and invests worldwide from its offices in London, Copenhagen and Berlin.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "http://www.2150.vc",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Chief Marketing Officer jobs",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/2150vc",
+    "source_url": "https://2150.vc",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "London",
+    "country": "",
+    "state": "",
+    "city": "London",
+    "employee_count": "11-50",
+    "company_domain_canonical": "2150.vc",
+    "source_urls": [
+      "https://2150.vc"
+    ],
+    "title_raw": "Chief Marketing Officer jobs",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "business": {
+      "before": "Constructive Capital for Urban Tech - 2150.vc",
+      "after": "2150"
+    },
+    "city": {
+      "before": "",
+      "after": "London"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://uk.linkedin.com/company/2150vc"
+    },
+    "description": {
+      "before": "# Constructive Capital for Urban Tech [![2150.vc](https://2150.vc/wp-content/themes/2150Theme/public/images/logo-dark.svg)](https://2150.vc/ \"Homepage\") We are Taking on the biggest sustainability challenge on the planet [See more](https://2150.vc/#see-more) Who we are ## We back tech entrepreneurs who are reimagining and innovating the Urban Stack Building businesses that are changing how our cities are designed, constructed and powered, for good.",
+      "after": "2150 is a venture capital firm investing in technology companies that are redefining cities and the industries that sustain them. Built on the belief that cities drive the majority of global prosperity and represent the greatest opportunity for sustainable progress, 2150 backs founders developing transformative solutions across energy, industrial decarbonisation, advanced manufacturing, mobility solutions, and urban systems. 2150 manages \u20ac500 million in assets under management and invests worldwide from its offices in London, Copenhagen and Berlin."
+    },
+    "hq_city": {
+      "before": "",
+      "after": "London"
+    },
+    "role": {
+      "before": "",
+      "after": "Chief Marketing Officer jobs"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Chief Marketing Officer jobs"
+    },
+    "website": {
+      "before": "https://2150.vc",
+      "after": "http://www.2150.vc"
+    }
+  }
+}

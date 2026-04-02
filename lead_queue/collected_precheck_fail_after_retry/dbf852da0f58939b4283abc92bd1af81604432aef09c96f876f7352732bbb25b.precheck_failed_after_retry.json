@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: first contains invalid characters",
+  "retry_reason": "name_invalid_chars: first contains invalid characters",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "LBMC",
+  "lead": {
+    "business": "LBMC",
+    "full_name": "James (Jim) Meade, Jr., CPA",
+    "first": "James (Jim)",
+    "last": "Meade, Jr., CPA",
+    "email": "james@lbmc.com",
+    "role": "CEO/Managing Shareholder",
+    "website": "http://www.lbmc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Tennessee",
+    "city": "Nashville Metropolitan Area",
+    "source_url": "https://lbmc.com",
+    "description": "Initially founded as a traditional accounting firm in 1984, LBMC has become the largest professional services solutions provider based in Tennessee. As a top 50 accounting firm in the country, we\u2019ve become industry leaders in accounting and finance, human resources, technology, risk and information security, and wealth advisory services for both businesses and individuals. Through all the growth and change, one defining trait has always remained the same: the genuine southern hospitality we bring to every client. Truthfully, we can\u2019t imagine doing business any other way.",
+    "employee_count": "501-1,000",
+    "hq_country": "United States",
+    "hq_state": "Tennessee",
+    "hq_city": "Brentwood",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lbmc",
+    "linkedin": "https://linkedin.com/in/jimmeadecpa"
+  },
+  "source_failed_basename": "62f9695e89de7b694334fc39a29ad2a2e1ecd1179fe7200eb06ad06f6d4a231c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/62f9695e89de7b694334fc39a29ad2a2e1ecd1179fe7200eb06ad06f6d4a231c.precheck_failed.json",
+  "queue_key": "dbf852da0f58939b4283abc92bd1af81604432aef09c96f876f7352732bbb25b"
+}

@@ -289,14 +289,20 @@ class ApifySearchClient:
 class LLMScorer:
     """LLM-based domain scoring using OpenRouter."""
 
-    def __init__(self, api_key: str, semaphore_pool: AsyncSemaphorePool):
+    def __init__(self, api_key: str, base_url: str, semaphore_pool: AsyncSemaphorePool):
         self.client = AsyncOpenAI(
-            api_key=api_key, base_url="https://openrouter.ai/api/v1"
+            api_key=api_key, base_url=base_url
         )
         self.semaphore_pool = semaphore_pool
-        self.primary_model = os.environ.get("OPENROUTER_PRIMARY_MODEL", "gpt-4o-mini")
-        self.fallback_model = os.environ.get("OPENROUTER_FALLBACK_MODEL", "gpt-3.5-turbo")
-        self.max_tokens = int(os.environ.get("OPENROUTER_MAX_TOKENS", "120"))
+        self.primary_model = os.environ.get(
+            "LLM_PRIMARY_MODEL",
+            os.environ.get("OPENROUTER_PRIMARY_MODEL", "gpt-4o-mini"),
+        )
+        self.fallback_model = os.environ.get(
+            "LLM_FALLBACK_MODEL",
+            os.environ.get("OPENROUTER_FALLBACK_MODEL", "gpt-3.5-turbo"),
+        )
+        self.max_tokens = int(os.environ.get("OPENROUTER_MAX_TOKENS", "80"))
         self.disable_llm = os.environ.get("OPENROUTER_DISABLE", "0") == "1"
 
     def _heuristic_fallback(
@@ -390,6 +396,52 @@ Return only a JSON object with this exact format:
 
 Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, technology_mismatch"""
 
+    def _extract_json_payload(self, content: str) -> Dict[str, Any]:
+        """
+        Parse a JSON object from model output, tolerating wrapper prose/fences.
+        """
+        text = (content or "").strip()
+        if not text:
+            raise json.JSONDecodeError("empty content", text, 0)
+
+        # 1) Fast path: plain JSON object
+        if text.startswith("{") and text.endswith("}"):
+            return json.loads(text)
+
+        # 2) Remove common code-fence wrappers
+        fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, flags=re.DOTALL)
+        if fence:
+            return json.loads(fence.group(1))
+
+        # 3) Find first balanced {...} object in free-form text
+        start = text.find("{")
+        while start != -1:
+            depth = 0
+            in_string = False
+            escaped = False
+            for i in range(start, len(text)):
+                ch = text[i]
+                if in_string:
+                    if escaped:
+                        escaped = False
+                    elif ch == "\\":
+                        escaped = True
+                    elif ch == '"':
+                        in_string = False
+                    continue
+                if ch == '"':
+                    in_string = True
+                elif ch == "{":
+                    depth += 1
+                elif ch == "}":
+                    depth -= 1
+                    if depth == 0:
+                        candidate = text[start : i + 1]
+                        return json.loads(candidate)
+            start = text.find("{", start + 1)
+
+        raise json.JSONDecodeError("no JSON object found", text, 0)
+
     async def score_domain(
         self, title: str, snippet: str, query: str, icp_text: str
     ) -> Tuple[float, str, List[str], str, str]:
@@ -413,6 +465,9 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
                 score, reason, flags, model_used = self._heuristic_fallback(
                     title, snippet, query, icp_text
                 )
+                logging.getLogger(TOOL_NAME).warning(
+                    "OpenRouter scoring fallback -> heuristic (disable_llm=1 or missing key)"
+                )
                 return score, reason, flags, model_used, prompt_fingerprint
 
             try:
@@ -430,6 +485,12 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
                         score, reason, flags, model_used = self._heuristic_fallback(
                             title, snippet, query, icp_text
                         )
+                        logging.getLogger(TOOL_NAME).warning(
+                            "OpenRouter scoring fallback -> heuristic (credit_limited): "
+                            "primary=%s fallback=%s",
+                            type(primary_err).__name__,
+                            type(fallback_err).__name__,
+                        )
                         return score, reason, flags, model_used, prompt_fingerprint
                     if self._is_timeout_error(primary_err) or self._is_timeout_error(fallback_err):
                         score, reason, flags, model_used = self._heuristic_fallback(
@@ -439,14 +500,20 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
                         reason = (
                             f"{reason} (OpenRouter timeout after retries on primary+fallback)"
                         )
+                        logging.getLogger(TOOL_NAME).warning(
+                            "OpenRouter scoring fallback -> heuristic (timeout): "
+                            "primary=%s fallback=%s",
+                            type(primary_err).__name__,
+                            type(fallback_err).__name__,
+                        )
                         return score, reason, flags, model_used, prompt_fingerprint
                     raise
 
             content = response.choices[0].message.content.strip()
 
-            # Parse JSON response
+            # Parse JSON response (supports local models that wrap JSON in text)
             try:
-                result = json.loads(content)
+                result = self._extract_json_payload(content)
                 score = float(result.get("score", 0.0))
                 reason = result.get("reason", "No reason provided")
                 flags = result.get("flags", [])
@@ -456,12 +523,33 @@ Example flags: geo_mismatch, size_mismatch, industry_mismatch, stage_mismatch, t
 
                 return score, reason, flags, model_used, prompt_fingerprint
             except (json.JSONDecodeError, ValueError, KeyError) as e:
-                # Fallback to default values if parsing fails
+                # Salvage score from unstructured output when possible.
                 logging.warning(f"Failed to parse LLM response: {e}")
+                lower = content.lower()
+                score_match = re.search(
+                    r'"score"\s*[:=]\s*(-?\d+(?:\.\d+)?)|score\s*[:=]\s*(-?\d+(?:\.\d+)?)',
+                    lower,
+                )
+                if not score_match:
+                    score_match = re.search(r"\b(0(?:\.\d+)?|1(?:\.0+)?)\b", lower)
+                if score_match:
+                    raw = score_match.group(1) or score_match.group(2) or score_match.group(0)
+                    try:
+                        parsed_score = max(0.0, min(1.0, float(raw)))
+                        brief_reason = (content or "").strip().replace("\n", " ")[:240]
+                        return (
+                            parsed_score,
+                            f"Unstructured LLM output parsed heuristically: {brief_reason}",
+                            ["unstructured_llm_output"],
+                            model_used,
+                            prompt_fingerprint,
+                        )
+                    except ValueError:
+                        pass
                 return (
                     0.0,
                     "Failed to parse response",
-                    [],
+                    ["unstructured_llm_output"],
                     model_used,
                     prompt_fingerprint,
                 )
@@ -775,15 +863,29 @@ class DomainTool:
             0.2, float(os.environ.get("DOMAIN_PROVIDER_RETRY_BACKOFF_S", "0.8") or 0.8)
         )
 
+        llm_base_url = os.environ.get(
+            "LLM_BASE_URL",
+            os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
+        ).strip()
         openrouter_key = os.environ.get("OPENROUTER_KEY", "").strip()
+        llm_api_key = os.environ.get("LLM_API_KEY", "").strip() or openrouter_key
+        if not llm_api_key and (
+            "localhost" in llm_base_url
+            or "127.0.0.1" in llm_base_url
+            or "0.0.0.0" in llm_base_url
+        ):
+            # Ollama/OpenAI-compatible local servers generally accept a dummy token.
+            llm_api_key = "ollama"
         self.llm_scorer = LLMScorer(
-            api_key=openrouter_key, semaphore_pool=self.semaphore_pool
+            api_key=llm_api_key,
+            base_url=llm_base_url,
+            semaphore_pool=self.semaphore_pool,
         )
-        if not openrouter_key:
+        if not llm_api_key:
             # Force deterministic heuristic scoring when no OpenRouter key is provided.
             self.llm_scorer.disable_llm = True
             logging.getLogger(TOOL_NAME).warning(
-                "OPENROUTER_KEY missing; using heuristic scorer fallback."
+                "No LLM API key configured; using heuristic scorer fallback."
             )
         blocked_default = (
             "linkedin.com,facebook.com,instagram.com,youtube.com,reddit.com,quora.com,"

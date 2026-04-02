@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "state_empty_for_usa",
+  "business": "Wastvedt & Company",
+  "lead": {
+    "business": "Wastvedt & Company",
+    "full_name": "Michael Wastvedt",
+    "first": "Michael",
+    "last": "Wastvedt",
+    "email": "legal@countingworks.com",
+    "role": "Owner/President",
+    "website": "http://www.WastvedtCo.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "California",
+    "city": "San Diego",
+    "source_url": "https://wastvedtco.com",
+    "description": "Wastvedt & Company, Inc., a CPA and business consulting firm, helps companies and individuals maximize financial opportunities and minimize liability with expert tax planning and preparation strategies. Based in San Diego, CA, Wastvedt & Company is a full-service, tax preparation, CPA firm with accounting and bookkeeping services, focusing on small and medium size business and individuals with personal IRS taxation. Ranging from businesses to high net individuals, we provide tax preparation with the personalization that software packages can't offer.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Diego",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/wastvedt-&-co-",
+    "linkedin": "https://linkedin.com/in/michael-wastvedt-7441555"
+  },
+  "source_failed_basename": "d48bce29e495210dc5271e508f077b545ca58882cf1fd67b35318e1eb35bcfd1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d48bce29e495210dc5271e508f077b545ca58882cf1fd67b35318e1eb35bcfd1.precheck_failed.json",
+  "queue_key": "6f281677b1eba1b03596b3503356ef796dfd0b7fa36a52afdeb6503c694492d6"
+}

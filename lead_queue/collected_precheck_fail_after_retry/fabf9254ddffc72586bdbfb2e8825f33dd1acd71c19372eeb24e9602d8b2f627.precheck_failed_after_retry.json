@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Valor Ventures",
+  "lead": {
+    "business": "Valor Ventures",
+    "full_name": "Judy Lead",
+    "first": "Judy",
+    "last": "Lead",
+    "email": "judy@valorventuresconsulting.com",
+    "role": "Contact",
+    "website": "http://www.valorventures.us",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Virginia",
+    "city": "Arlington",
+    "source_url": "https://valorventuresconsulting.com",
+    "description": "Valor Ventures is a national security enablement platform dedicated to manufacturing success for defense manufacturers and technology companies in service of national security. We exist to strengthen the Defense Industrial Base by enabling organizations to move from innovation to execution. Through education, technology transition, and hands-on enablement, we help manufacturers and defense technology companies build the operational readiness, market resilience, and execution discipline required to protect the United States.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Norfolk",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/valor-venture"
+  },
+  "source_failed_basename": "6fa2476ba9c1d9f6a11e0586e42105f2b284a5f3bb36a0d92fffab7bd2e53a00.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6fa2476ba9c1d9f6a11e0586e42105f2b284a5f3bb36a0d92fffab7bd2e53a00.precheck_failed.json",
+  "queue_key": "fabf9254ddffc72586bdbfb2e8825f33dd1acd71c19372eeb24e9602d8b2f627"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Financial Consulting Strategies LLC",
+  "lead": {
+    "business": "Financial Consulting Strategies LLC",
+    "full_name": "Bill Bennett",
+    "first": "Bill",
+    "last": "Bennett",
+    "email": "info@ventureplans.us",
+    "role": "Founder & President",
+    "website": "https://www.fcstrategiesllc.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Oklahoma",
+    "city": "Tulsa",
+    "source_url": "https://ventureplans.us",
+    "description": "Financial Consulting Strategies, LLC (\"FCS\") is a fast growing financial consulting firm that provides CFO and financial accounting reporting services to fast growing large and small client companies. FCS provides a broad range of accounting, financial reporting, and pre-audit expertise to a variety of clients from diverse industries. We go beyond the numbers to handle accounting and financial challenges with top-quality service based on more than 30 years of experience.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New Jersey",
+    "hq_city": "Glen Rock",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/31139649",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/financial-consulting-strategies-llc",
+    "linkedin": "https://linkedin.com/in/billbennett1"
+  },
+  "source_failed_basename": "e4082e29a65982f8f61201f7db6bed18e3ce2623a0ce660e2f2a545168b0ff3f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/e4082e29a65982f8f61201f7db6bed18e3ce2623a0ce660e2f2a545168b0ff3f.precheck_failed.json",
+  "queue_key": "66fc1d9c42c762b7db3e0f25fe32215480915e6268cf5e863eaa5ac6f7ff2936"
+}

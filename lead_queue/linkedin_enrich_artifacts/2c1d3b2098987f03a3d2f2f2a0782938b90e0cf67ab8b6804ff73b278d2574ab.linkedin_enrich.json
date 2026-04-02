@@ -1,0 +1,339 @@
+{
+  "saved_at_utc": "2026-04-01T14:26:53.938062+00:00",
+  "queue_key": "2c1d3b2098987f03a3d2f2f2a0782938b90e0cf67ab8b6804ff73b278d2574ab",
+  "business": "Regenerative Medicine | Bruder Consulting & Venture Group",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Regenerative Medicine | Bruder Consulting & Venture Group",
+      "Regenerative Medicine | Bruder Consulting & Venture Group linkedin company",
+      "site:linkedin.com/company bruderconsulting.com",
+      "site:linkedin.com/in \"Regenerative Medicine | Bruder Consulting & Venture Group\" founder",
+      "site:linkedin.com/in \"Regenerative Medicine | Bruder Consulting & Venture Group\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "JLTP1w01g5JTOTZ",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Regenerative+Medicine+%7C+Bruder+Consulting+%26+Venture+Group",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Regenerative+Medicine+%7C+Bruder+Consulting+%26+Venture+Group",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Regenerative Medicine | Bruder Consulting & Venture Group",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Regenerative+Medicine+%7C+Bruder+Consulting+%26+Venture+Group",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Regenerative+Medicine+%7C+Bruder+Consulting+%26+Venture+Group",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Regenerative medicine bruder consulting & venture group reviews",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+reviews&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Regenerative medicine bruder consulting & venture group reddit",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+reddit&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Regenerative medicine bruder consulting & venture group address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+address&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAgzEAE"
+          },
+          {
+            "title": "Regenerative medicine bruder consulting & venture group reviews",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+reviews&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Regenerative medicine bruder consulting & venture group reddit",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+reddit&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Regenerative medicine bruder consulting & venture group address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Regenerative+medicine+bruder+consulting+%26+venture+group+address&sa=X&ved=2ahUKEwjTltq67cyTAxU-xRoGHYvMDw0Q1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Bruder Consulting and Venture Group",
+            "url": "https://www.linkedin.com/company/bruder-consulting-venture-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bruder Consulting and Venture Group",
+            "description": "Bruder Consulting and Venture Group. Biotechnology Research. We Catalyze Your Success In Regenerative Medicine. Follow.Read more",
+            "emphasizedKeywords": [
+              "Biotechnology Research"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Bruder Consulting and Venture Group",
+            "url": "https://ec.linkedin.com/company/bruder-consulting-venture-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bruder Consulting and Venture Group",
+            "description": "The Bruder Consulting and Venture Group (www.bruderconsulting.com) provides services to start-up through multi-national conglomerate medical device,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides services to start-up through multi-national conglomerate medical device"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Bruder Consulting and Venture Group",
+            "url": "https://id.linkedin.com/company/bruder-consulting-venture-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bruder Consulting and Venture Group",
+            "description": "The Bruder Consulting and Venture Group (www.bruderconsulting.com) provides services to start-up through multi-national conglomerate medical device,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides services to start-up through multi-national conglomerate medical device"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Bruder Consulting and Venture Group",
+            "url": "https://ar.linkedin.com/company/bruder-consulting-venture-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bruder Consulting and Venture Group",
+            "description": "The Bruder Consulting and Venture Group (www.bruderconsulting.com) provides services to start-up through multi-national conglomerate medical device,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides services to start-up through multi-national conglomerate medical device"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Bruder Consulting and Venture Group",
+            "url": "https://id.linkedin.com/company/bruder-consulting-venture-group/?trk=organization-update_share-update_actor-image",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bruder Consulting and Venture Group",
+            "description": "The Bruder Consulting and Venture Group (www.bruderconsulting.com) provides services to start-up through multi-national conglomerate medical device,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides services to start-up through multi-national conglomerate medical device"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Dark Horse Consulting Group Inc.",
+            "url": "https://www.linkedin.com/company/dark-horse-consulting-group-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dark Horse Consulting Group Inc.",
+            "description": "We work to accelerate cell and gene therapies through our unmatched expertise. Our consulting team has extensive CGT industry experience.Read more",
+            "emphasizedKeywords": [
+              "accelerate cell and gene therapies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Regenerative Medicine Academy - USA",
+            "url": "https://www.linkedin.com/company/regenerative-medicine-academy-usa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Regenerative Medicine Academy - USA",
+            "description": "We focus on advanced regenerative medicine techniques including Platelet-Rich Plasma (PRP) therapy, stem cell applications, microfat (MFAT), bone marrow\u00a0...Read more",
+            "emphasizedKeywords": [
+              "advanced regenerative medicine techniques"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "RD3MG",
+            "url": "https://www.linkedin.com/company/rd3mg",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0RD3MG",
+            "description": "We own, invest in and manage compounding pharmacies and other business entities with a focus on longevity, anti-aging and regenerative medicine.Read more",
+            "emphasizedKeywords": [
+              "own, invest in and manage compounding pharmacies and other business entities"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "340+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Business Finland North America",
+            "url": "https://www.linkedin.com/company/business-finland-north-america",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Business Finland North America",
+            "description": "Our services are intended for Finnish enterprises seeking daring corporate expansion and renewal on global marketplaces.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "980+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Qatar Biomedical Research Institute - QBRI",
+            "url": "https://ar.linkedin.com/company/qatar-biomedical-research-institute",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Qatar Biomedical Research Institute - QBRI",
+            "description": "Our mission is pioneering translational research and leveraging strategic collaborations to advance precision health solutions in diabetes, cancer, and\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "19.2K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/2hnpe3oYPQSte0gXX/records/JLTP1w01g5JTOTZ-0.html?signature=vhpCxKBSzM6ZHcQwRvdO"
+      }
+    ],
+    "apify_item_count": 1,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Regenerative Medicine | Bruder Consulting & Venture Group",
+      "https://www.linkedin.com/company/bruder-consulting-venture-group",
+      "https://ec.linkedin.com/company/bruder-consulting-venture-group",
+      "https://id.linkedin.com/company/bruder-consulting-venture-group",
+      "https://ar.linkedin.com/company/bruder-consulting-venture-group",
+      "https://id.linkedin.com/company/bruder-consulting-venture-group/?trk=organization-update_share-update_actor-image",
+      "https://www.linkedin.com/company/dark-horse-consulting-group-inc",
+      "https://www.linkedin.com/company/regenerative-medicine-academy-usa",
+      "https://www.linkedin.com/company/rd3mg",
+      "https://www.linkedin.com/company/business-finland-north-america",
+      "https://ar.linkedin.com/company/qatar-biomedical-research-institute"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/bruder-consulting-venture-group",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Regenerative Medicine | Bruder Consulting & Venture Group",
+    "description": "# Regenerative Medicine | Bruder Consulting & Venture Group ## CATALYZING YOUR SUCCESS Regenerative Medicine - Biologics - Tissue Repair - Biomaterials ![Blue Curve Strip.png](https://static.wixstatic.com/media/a9f6c5_311eea699c1d4fcfa77f645b78e32092~mv2.png/v1/crop/x_0,y_0,w_3376,h_786/fill/w_1439,h_335,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20Curve%20Strip.png) #### The BCVG Difference \"We leverage extensive domain expertise, Integrated Insights\u2122 and industry relationships to deliver customized strategic guidance and tactical solutions.\" \u200b Scott P.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://bruderconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://bruderconsulting.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "bruderconsulting.com",
+    "source_urls": [
+      "https://bruderconsulting.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Regenerative Medicine | Bruder Consulting & Venture Group",
+    "description": "# Regenerative Medicine | Bruder Consulting & Venture Group ## CATALYZING YOUR SUCCESS Regenerative Medicine - Biologics - Tissue Repair - Biomaterials ![Blue Curve Strip.png](https://static.wixstatic.com/media/a9f6c5_311eea699c1d4fcfa77f645b78e32092~mv2.png/v1/crop/x_0,y_0,w_3376,h_786/fill/w_1439,h_335,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20Curve%20Strip.png) #### The BCVG Difference \"We leverage extensive domain expertise, Integrated Insights\u2122 and industry relationships to deliver customized strategic guidance and tactical solutions.\" \u200b Scott P.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://bruderconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bruder-consulting-venture-group",
+    "source_url": "https://bruderconsulting.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "bruderconsulting.com",
+    "source_urls": [
+      "https://bruderconsulting.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/bruder-consulting-venture-group"
+    }
+  }
+}

@@ -1,0 +1,625 @@
+{
+  "saved_at_utc": "2026-04-01T13:14:18.032780+00:00",
+  "queue_key": "36b0b3bcfda648cb860cdbeee5d727b6ac4f6654a8a4900397ff32ace78845cb",
+  "business": "Home - RCLCO Real Estate Consulting",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Home - RCLCO Real Estate Consulting",
+      "Home - RCLCO Real Estate Consulting linkedin company",
+      "site:linkedin.com/company rclco.com",
+      "site:linkedin.com/in \"Home - RCLCO Real Estate Consulting\" founder",
+      "site:linkedin.com/in \"Home - RCLCO Real Estate Consulting\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "2a4aRHXqg73dqJK",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+RCLCO+Real+Estate+Consulting",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+RCLCO+Real+Estate+Consulting",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Home - RCLCO Real Estate Consulting",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+RCLCO+Real+Estate+Consulting",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+RCLCO+Real+Estate+Consulting",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "RCLCO",
+            "url": "https://www.linkedin.com/company/rclco",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0RCLCO",
+            "description": "RCLCO (formerly Robert Charles Lesser & Co.) has been the \u201cfirst call\u201d for real estate developers, investors, the public sector, and non-real estate companies.Read more",
+            "emphasizedKeywords": [
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "RCLCO",
+            "url": "https://tn.linkedin.com/company/rclco?trk=products_details_guest_organization_image",
+            "displayedUrl": "https://tn.linkedin.com \u203a company \u203a rclco",
+            "description": "Since 1967, RCLCO (formerly Robert Charles Lesser & Co.) has been the \u201cfirst call\u201d for real estate developers, investors, the public sector, and non-real\u00a0...",
+            "emphasizedKeywords": [
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "RCLCO",
+            "url": "https://ph.linkedin.com/company/rclco?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "https://ph.linkedin.com \u203a company \u203a rclco",
+            "description": "Since 1967, RCLCO (formerly Robert Charles Lesser & Co.) has been the \u201cfirst call\u201d for real estate developers, investors, the public sector, and non-real\u00a0...",
+            "emphasizedKeywords": [
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "RCLCO",
+            "url": "https://tn.linkedin.com/company/rclco?trk=products_details_guest_organization_name",
+            "displayedUrl": "https://tn.linkedin.com \u203a company",
+            "description": "Since 1967, RCLCO (formerly Robert Charles Lesser & Co.) has been the \u201cfirst call\u201d for real estate developers, investors, the public sector, and non-real\u00a0...",
+            "emphasizedKeywords": [
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "John Burns Research and Consulting",
+            "url": "https://www.linkedin.com/company/john-burns-research-and-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Burns Research and Consulting",
+            "description": "Our team produces independent research and custom consulting advice to help executives make the most informed decisions possible.Read more",
+            "emphasizedKeywords": [
+              "independent research and custom consulting advice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "35.6K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Rise Communities, LLC",
+            "url": "https://www.linkedin.com/company/rise-communities-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rise Communities, LLC",
+            "description": "Rise Communities LLC is a preeminent developer and manager of creative, masterfully-planned, large-scale communities.Read more",
+            "emphasizedKeywords": [
+              "Rise Communities LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "590+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Republic Property Group",
+            "url": "https://lu.linkedin.com/company/republic-property-group",
+            "displayedUrl": "https://lu.linkedin.com \u203a company \u203a republic-property-g...",
+            "description": "Over the course of 50 years, Republic Property Group has developed real estate projects with a value in excess of $7 billion across eight states.",
+            "emphasizedKeywords": [
+              "Republic Property"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Rise Communities, LLC",
+            "url": "https://pa.linkedin.com/company/rise-communities-llc",
+            "displayedUrl": "https://pa.linkedin.com \u203a company \u203a rise-communities-llc",
+            "description": "Rise Communities LLC is a preeminent developer and manager of creative, masterfully-planned, large-scale communities. Formed in 2011, the executive team\u00a0...",
+            "emphasizedKeywords": [
+              "Rise Communities LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Babcock Ranch",
+            "url": "https://www.linkedin.com/company/babcock-ranch",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Babcock Ranch",
+            "description": "... RCLCO Real Estate Consulting https://www.rclco.com \u00b7 58 1 Comment \u00b7 Like Comment Share \u00b7 View organization page for Babcock Ranch \u00b7 Babcock Ranch. 3,847\u00a0...Read more",
+            "emphasizedKeywords": [
+              "RCLCO Real Estate Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Florida Land Consulting LLC",
+            "url": "https://www.linkedin.com/company/florida-land-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Florida Land Consulting LLC",
+            "description": "Specializing in residental and Built To Rent. Industry: Construction. Company size: 2-10 employees. Headquarters: Orlando, FL. Type\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Specializing in residental and Built To Rent"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/uJ12q2urrQ8OzxhPh/records/2a4aRHXqg73dqJK-0.html?signature=15mIGZU5ArKH0x7EayCs0"
+      },
+      {
+        "#debug": {
+          "requestId": "AvPJzSotZNDLqUX",
+          "url": "http://www.google.com/search?q=Home+-+RCLCO+Real+Estate+Consulting+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Home+-+RCLCO+Real+Estate+Consulting+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Home - RCLCO Real Estate Consulting linkedin company",
+          "url": "http://www.google.com/search?q=Home+-+RCLCO+Real+Estate+Consulting+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Home+-+RCLCO+Real+Estate+Consulting+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Home rclco real estate consulting linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Home+rclco+real+estate+consulting+linkedin+company+address&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Rclco linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Rclco+linkedin&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Robert charles lesser co llc",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Robert+charles+lesser+co+llc&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "RCLCO Fund Advisors",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Fund+Advisors&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "RCLCO offices",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+offices&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "RCLCO Top 50 master-Planned communities",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Top+50+master-Planned+communities&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "RCLCO Glassdoor",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Glassdoor&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Real estate consulting Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Real+estate+consulting+Group&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Home rclco real estate consulting linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Home+rclco+real+estate+consulting+linkedin+company+address&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Rclco linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Rclco+linkedin&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Robert charles lesser co llc",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Robert+charles+lesser+co+llc&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "RCLCO Fund Advisors",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Fund+Advisors&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "RCLCO offices",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+offices&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "RCLCO Top 50 master-Planned communities",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Top+50+master-Planned+communities&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "RCLCO Glassdoor",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=RCLCO+Glassdoor&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Real estate consulting Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Real+estate+consulting+Group&sa=X&ved=2ahUKEwjvt6yc3cyTAxX_mSYFHZoiCKIQ1QJ6BAg3EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "RCLCO",
+            "url": "https://www.linkedin.com/company/rclco",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0RCLCO",
+            "description": "RCLCO (formerly Robert Charles Lesser & Co.) has been the \u201cfirst call\u201d for real estate developers, investors, the public sector, and non-real estate companies.Read more",
+            "emphasizedKeywords": [
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9.5K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Kelsey Padgham - at RCLCO Real Estate Consulting",
+            "url": "https://www.linkedin.com/in/kelseypadgham",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kelsey Padgham",
+            "description": "I work at RCLCO in the management consulting group on strategic plans and executive searches for commercial real estate clients.Read more",
+            "emphasizedKeywords": [
+              "RCLCO",
+              "consulting",
+              "real estate"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "jobTitle": "Principal",
+              "companyName": "RCLCO",
+              "rawText": "New York, New York, United States \u00b7 Principal \u00b7 RCLCO"
+            },
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Scott Cottier Jr. - RCLCO Real Estate Consulting",
+            "url": "https://www.linkedin.com/in/scott-cottier-jr-7a050b1b7",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Scott Cottier Jr.",
+            "description": "Experience: RCLCO Real Estate Consulting \u00b7 Education: Boston College Carroll School of Management \u00b7 Location: Arlington \u00b7 500+ connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "RCLCO Real Estate Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Arlington, Virginia, United States",
+              "companyName": "RCLCO Real Estate Consulting",
+              "rawText": "Arlington, Virginia, United States \u00b7 RCLCO Real Estate Consulting"
+            },
+            "followersAmount": "590+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Charlie Hewlett - Managing Director at RCLCO",
+            "url": "https://www.linkedin.com/in/charlie-hewlett-0643996",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Charlie Hewlett",
+            "description": "Over the past 5 years, RCLCO has consulted on approximately $ 20 billion of real estate development projects, each year, and provided management consulting\u00a0...Read more",
+            "emphasizedKeywords": [
+              "RCLCO has consulted on approximately $ 20 billion of real estate development projects"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington DC-Baltimore Area",
+              "jobTitle": "Managing Director",
+              "companyName": "RCLCO",
+              "rawText": "Washington DC-Baltimore Area \u00b7 Managing Director \u00b7 RCLCO"
+            },
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "RCLCO's Post - Strategy for Real Estate Companies",
+            "url": "https://www.linkedin.com/posts/rclco_strategy-for-real-estate-companies-chapter-activity-7166874852635705344-7IAN",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0RCLCO",
+            "description": "In Chapter One of Strategy for Real Estate Companies, Charlie Hewlett explores why it is important for #realestate companies to have a\u00a0...",
+            "emphasizedKeywords": [
+              "Real Estate Companies",
+              "realestate companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Kelly Mangold - Principal at RCLCO",
+            "url": "https://www.linkedin.com/in/kellymangold",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kelly Mangold",
+            "description": "RCLCO is organized into three service areas: real estate economics, management consulting, and advisory services for institutional investors through RCLCO Fund\u00a0...Read more",
+            "emphasizedKeywords": [
+              "RCLCO",
+              "real estate",
+              "consulting",
+              "RCLCO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "jobTitle": "Principal, Strategic Initiatives",
+              "companyName": "RCLCO Real Estate Consulting",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Principal, Strategic Initiatives \u00b7 RCLCO Real Estate Consulting"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Home - RCLCO Real Estate Consulting",
+            "url": "https://www.rclco.com/",
+            "displayedUrl": "https://www.rclco.com",
+            "description": "RCLCO offers comprehensive consulting in investment advisory, enterprise strategy, and analytics. We help clients make strategic and enduring real estate\u00a0...",
+            "emphasizedKeywords": [
+              "RCLCO",
+              "consulting",
+              "real estate"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Erin Talkington - RCLCO Real Estate ...",
+            "url": "https://www.rclco.com/leadership/erin-talkington/",
+            "displayedUrl": "https://www.rclco.com \u203a Real Estate Economics",
+            "description": "Erin Talkington leads RCLCO's sports and entertainment and large-scale mixed-use practice, including the majority of the firm's public sector work.Read more",
+            "emphasizedKeywords": [
+              "leads RCLCO's sports and entertainment and large-scale mixed-use practice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Nicolas (Nick) Ferrante - RCLCO Real Estate Consulting",
+            "url": "https://www.linkedin.com/in/nick-ferrante",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nicolas (Nick) Ferrante",
+            "description": "RCLCO's mission is to help our clients make strategic, effective, and enduring decisions\u2026 \u00b7 Experience: RCLCO Real Estate Consulting \u00b7 Education: University\u00a0...",
+            "emphasizedKeywords": [
+              "RCLCO's mission is to help our clients make strategic, effective, and enduring decisions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Los Angeles, California, United States",
+              "companyName": "RCLCO Real Estate Consulting",
+              "rawText": "Los Angeles, California, United States \u00b7 RCLCO Real Estate Consulting"
+            },
+            "followersAmount": "560+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "RCLCO Fund Advisors",
+            "url": "https://www.linkedin.com/company/rfa-rclco-fund-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0RCLCO Fund Advisors",
+            "description": "RCLCO Fund Advisors | 718 followers on LinkedIn. Customized real estate investment advisory built on a legacy of thought leadership and analytical rigor.",
+            "emphasizedKeywords": [
+              "Customized real estate investment advisory"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "710+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/o2DbQmBg3KviuJ9ll/records/AvPJzSotZNDLqUX-0.html?signature=jHjq8Xc4MFc215HEaNRU"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Home - RCLCO Real Estate Consulting",
+      "https://www.linkedin.com/company/rclco",
+      "https://tn.linkedin.com/company/rclco?trk=products_details_guest_organization_image",
+      "https://ph.linkedin.com/company/rclco?trk=similar-pages_result-card_full-click",
+      "https://tn.linkedin.com/company/rclco?trk=products_details_guest_organization_name",
+      "https://www.linkedin.com/company/john-burns-research-and-consulting",
+      "https://www.linkedin.com/company/rise-communities-llc",
+      "https://lu.linkedin.com/company/republic-property-group",
+      "https://pa.linkedin.com/company/rise-communities-llc",
+      "https://www.linkedin.com/company/babcock-ranch",
+      "https://www.linkedin.com/company/florida-land-consulting-llc",
+      "https://www.linkedin.com/company/rclco",
+      "https://www.linkedin.com/in/kelseypadgham",
+      "https://www.linkedin.com/in/scott-cottier-jr-7a050b1b7",
+      "https://www.linkedin.com/in/charlie-hewlett-0643996",
+      "https://www.linkedin.com/posts/rclco_strategy-for-real-estate-companies-chapter-activity-7166874852635705344-7IAN",
+      "https://www.linkedin.com/in/kellymangold",
+      "https://www.linkedin.com/in/nick-ferrante",
+      "https://www.linkedin.com/company/rfa-rclco-fund-advisors"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/rclco",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/kelseypadgham"
+  },
+  "lead_before_enrichment": {
+    "business": "Home - RCLCO Real Estate Consulting",
+    "description": "# Home - RCLCO Real Estate Consulting ## Real Estate Economics | Management Consulting RCLCO Fund Advisors ## Real Estate Economics Management Consulting RCLCO Fund Advisors ## RCLCO is Organized into Three Service Areas Leveraging quantitative rigor, real estate knowledge, and a codified process to help our clients make effective and enduring decisions about real estate.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://rclco.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://rclco.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "rclco.com",
+    "source_urls": [
+      "https://rclco.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Home - RCLCO Real Estate Consulting",
+    "description": "# Home - RCLCO Real Estate Consulting ## Real Estate Economics | Management Consulting RCLCO Fund Advisors ## Real Estate Economics Management Consulting RCLCO Fund Advisors ## RCLCO is Organized into Three Service Areas Leveraging quantitative rigor, real estate knowledge, and a codified process to help our clients make effective and enduring decisions about real estate.",
+    "full_name": "Kelseypadgham",
+    "first": "Kelseypadgham",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://rclco.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Principal",
+    "linkedin": "https://www.linkedin.com/in/kelseypadgham",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/rclco",
+    "source_url": "https://rclco.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "rclco.com",
+    "source_urls": [
+      "https://rclco.com"
+    ],
+    "title_raw": "Principal",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://rclco.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/rclco"
+    },
+    "first": {
+      "before": "",
+      "after": "Kelseypadgham"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Kelseypadgham"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/kelseypadgham"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://rclco.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "Principal"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Principal"
+    }
+  }
+}

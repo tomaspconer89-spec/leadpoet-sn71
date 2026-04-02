@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Founder Advisors",
+  "lead": {
+    "business": "Founder Advisors",
+    "full_name": "Charles Lead",
+    "first": "Charles",
+    "last": "Lead",
+    "email": "charles@yourstartupadvisor.com",
+    "role": "Contact",
+    "website": "http://www.founderadvisors.tech",
+    "industry": "Professional Services",
+    "sub_industry": "Strategic Management Services",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Boulder",
+    "source_url": "https://yourstartupadvisor.com",
+    "description": "We are a coordinated team of experienced entrepreneurs and business specialists. We work proactively with you and your founder team and provide all the advisory, coaching, and fractional work you need to overcome the startup challenges you face. We match each founder team with a dedicated Lead Advisor from our community who will go deep and guide/advise you on all most pressing issues you are facing. Your Lead Advisor will also connect you to solutions specialists in our network who will help you raise capital, find customers and partners and talent to grow your team.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Colorado",
+    "hq_city": "Boulder",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/founder-advisors"
+  },
+  "source_failed_basename": "9452590ce078d5a3d1ad39399127de522091469ec44578622d776e641ee95207.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9452590ce078d5a3d1ad39399127de522091469ec44578622d776e641ee95207.precheck_failed.json",
+  "queue_key": "289df03ecd1e5a1d78fa2f1a5c59475323eeb5399b7e30bed18b3c85e60d60e9"
+}

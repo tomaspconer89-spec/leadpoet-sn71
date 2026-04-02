@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "MentorCruise",
+  "lead": {
+    "business": "MentorCruise",
+    "full_name": "Dominic Monn",
+    "first": "Dominic",
+    "last": "Monn",
+    "email": "",
+    "role": "Founder & CEO",
+    "website": "https://bit.ly/3JXDpje",
+    "industry": "Education",
+    "sub_industry": "Education",
+    "country": "Japan",
+    "state": "Wyoming",
+    "city": "Kyoto",
+    "source_url": "https://mentorcruise.com",
+    "description": "Show the world what you are made of! Connect with one of 2,000+ mentors in the industry of your interest for longterm mentorship and reach your goals quicker. We connect aspiring people with founders, veterans and talents working at the best companies in all the industries to help them push towards their goal and reach the next level of their careers.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Wyoming",
+    "hq_city": "Sheridan",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/mentorcruise",
+    "linkedin": "https://linkedin.com/in/dmonn"
+  },
+  "source_failed_basename": "58c12468fc017152a54c5e85ed82f8518ee60d5d04afda39455982dfc3bd24af.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/58c12468fc017152a54c5e85ed82f8518ee60d5d04afda39455982dfc3bd24af.precheck_failed.json",
+  "queue_key": "6a45db3a8a606d2730f4aa8ba8e39dc2264cfe0258c0bb0d5f847d3f9d65b550"
+}

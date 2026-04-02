@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "DMJPS PLLC",
+  "lead": {
+    "business": "DMJPS PLLC",
+    "full_name": "Drew Haddock, CPA",
+    "first": "Drew",
+    "last": "Haddock, CPA",
+    "email": "drew.cpa@dmjps.com",
+    "role": "Chief Executive Officer",
+    "website": "http://www.dmjps.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Apex",
+    "source_url": "https://dmjps.com",
+    "description": "DMJPS PLLC is a tax, assurance, and business advisory firm that routinely solves complex matters for individuals, privately-held businesses, and corporations with a wide range of specialized solutions. Clients work with us because we build relationships dedicated to providing exceptional results and solutions. As a leading accounting firm, DMJPS offers deep knowledge and industry-focused solutions.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Greensboro",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/dmjpsconnect",
+    "linkedin": "https://linkedin.com/in/drew-haddock-cpa-0b399151"
+  },
+  "source_failed_basename": "e1af56f3641884a014b27c80ba2cbbba54c7491bc799cc34fd5b1226aa976a6b.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/e1af56f3641884a014b27c80ba2cbbba54c7491bc799cc34fd5b1226aa976a6b.precheck_failed.json",
+  "queue_key": "4a492986c8a8f89ac0420607726dbc85ddc93f7be76d7f6c60dad1da00008177"
+}

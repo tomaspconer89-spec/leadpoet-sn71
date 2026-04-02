@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "American Marketing Association | Rochester",
+  "lead": {
+    "business": "American Marketing Association | Rochester",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "CEO",
+    "website": "http://www.ama-rochester.org/",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "New York",
+    "city": "Penfield",
+    "source_url": "https://kellblog.com",
+    "description": "AMA | Rochester is the only local professional organization run by marketers for marketers. We provide our members with a national educational resource, offer high quality, educational seminars, networking opportunities, and a Marketer of the Year competition (The Pinnacle Awards), all to give members the knowledge they need to succeed in the ever changing marketing industry.",
+    "employee_count": "0-1",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Penfield",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ama-rochester"
+  },
+  "source_failed_basename": "d0bb3d3288e976330a1e1c610808979b039edb67bf0ee1c604d3f888563038b1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d0bb3d3288e976330a1e1c610808979b039edb67bf0ee1c604d3f888563038b1.precheck_failed.json",
+  "queue_key": "7a3fd07f5aa9814f2b523c898c291d851aaea182b46ddf66d45dda0c9e75a774"
+}

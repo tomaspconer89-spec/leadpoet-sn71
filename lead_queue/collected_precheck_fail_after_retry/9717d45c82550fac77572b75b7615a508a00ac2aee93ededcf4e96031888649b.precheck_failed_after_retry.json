@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "PitchBob.io",
+  "lead": {
+    "business": "PitchBob.io",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "athi@pitchbob.io",
+    "role": "founder",
+    "website": "https://pitchbob.io/",
+    "industry": "Professional Services",
+    "sub_industry": "Fundraising",
+    "country": "Tallinn",
+    "state": "",
+    "city": "",
+    "source_url": "https://pitchbob.io",
+    "description": "PitchBob.io is a multiplatform AI-based idea management platform for entrepreneurs. Founded by Dima Maslennikov back in 2020, a seasoned entrepreneur with a track record of successful exits, PitchBob.io is on a mission to help millions of entrepreneurs and corporate innovation leaders formulate their business ideas annually and create compelling startup pitch decks. In 2023, PitchBob.io experienced a significant breakthrough with the rise of generative AI and the advent of chatGPT, becoming more intuitive and smart.",
+    "employee_count": "2-10",
+    "hq_country": "Tallinn",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ee.linkedin.com/company/pitchbobio"
+  },
+  "source_failed_basename": "c927dbab874edfd261aa41c70fa8f3f66e4921ca7d62ecc7969b12bd32f20787.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c927dbab874edfd261aa41c70fa8f3f66e4921ca7d62ecc7969b12bd32f20787.precheck_failed.json",
+  "queue_key": "9717d45c82550fac77572b75b7615a508a00ac2aee93ededcf4e96031888649b"
+}

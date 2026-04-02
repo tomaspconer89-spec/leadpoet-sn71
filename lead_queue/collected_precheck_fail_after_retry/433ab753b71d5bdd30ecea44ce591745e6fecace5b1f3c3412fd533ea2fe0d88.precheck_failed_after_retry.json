@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Startup Advisor",
+  "lead": {
+    "business": "Startup Advisor",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Founder",
+    "website": "https://startupadvisor.com.br/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Minas Gerais",
+    "state": "",
+    "city": "Belo Horizonte",
+    "source_url": "https://founderfriend.io",
+    "description": "A Startup Advisor \u00e9 um empresa de consultoria especializada na mentoria, aconselhamento e assessoria de startups e no desenvolvimento de novos neg\u00f3cios. Agregamos valor a sua empresa por meio de trabalho personalizado e focado na sua necessidade.",
+    "employee_count": "11-50",
+    "hq_country": "Minas Gerais",
+    "hq_state": "",
+    "hq_city": "Belo Horizonte",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://br.linkedin.com/company/advisorstartup"
+  },
+  "source_failed_basename": "73c791d5c3276bd75571a9d9c98bf23df1a106d5130aa98e10eb277be7c78195.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/73c791d5c3276bd75571a9d9c98bf23df1a106d5130aa98e10eb277be7c78195.precheck_failed.json",
+  "queue_key": "433ab753b71d5bdd30ecea44ce591745e6fecace5b1f3c3412fd533ea2fe0d88"
+}

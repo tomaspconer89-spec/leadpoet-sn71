@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Plante Moran Wealth Management",
+  "lead": {
+    "business": "Plante Moran Wealth Management",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Co-founder",
+    "website": "https://www.plantemoran.com/services/wealth-management",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Michigan",
+    "city": "Southfield",
+    "source_url": "https://plantemoran.com",
+    "description": "As wealth management advisors, our philosophy is simple: What matters to you, matters to us. Our clients count on us to support their unique goals, provide objective guidance, and help secure their financial legacy for future generations. Whether we\u2019re helping you reach a financial milestone or a personal one, we address your needs with a holistic, independent approach. From customized financial planning and investment strategies to proactive tax planning, and estate and trust planning, our team is ready to guide you in your wealth management journey.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Michigan",
+    "hq_city": "Southfield",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/plante-moran-wealth-management"
+  },
+  "source_failed_basename": "562a63b0734e5df8b3804450b6cc3fb2e212c0095a4d7eccbc7b034290656c17.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/562a63b0734e5df8b3804450b6cc3fb2e212c0095a4d7eccbc7b034290656c17.precheck_failed.json",
+  "queue_key": "8260eaef0021dcf0ecd0e1887451735b71d01e8d5bd556c5f7cb219d1a9293c2"
+}

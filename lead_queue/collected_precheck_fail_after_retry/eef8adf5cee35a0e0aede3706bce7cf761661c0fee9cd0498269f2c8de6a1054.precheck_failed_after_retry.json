@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "International Business Consultants LLC.",
+  "lead": {
+    "business": "International Business Consultants LLC.",
+    "full_name": "James (Jim) Scott",
+    "first": "James (Jim)",
+    "last": "Scott",
+    "email": "",
+    "role": "Founder & Principal Consultant",
+    "website": "http://www.ibconsultants.net",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Acton",
+    "source_url": "https://ibconsultants.net",
+    "description": "International Business Consultants (IBC) is a global strategic consulting firm helping Fortune 500 companies, government agencies, and innovative organizations achieve digital transformation, enterprise agility, and AI-powered solutions. We specialize in building intelligent enterprise systems by aligning strategy, people, process, and technology to accelerate value and unlock scalable, sustainable growth. Our multidisciplinary consultants combine management consulting expertise with technology implementation to deliver measurable results. Our Core Specialties:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "USA",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ibc-ai",
+    "linkedin": "https://linkedin.com/in/jimscott"
+  },
+  "source_failed_basename": "d882b9382ca2c595220c6948ef6e4557a47196f4c063ec5cb7a35afca06714fb.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d882b9382ca2c595220c6948ef6e4557a47196f4c063ec5cb7a35afca06714fb.precheck_failed.json",
+  "queue_key": "eef8adf5cee35a0e0aede3706bce7cf761661c0fee9cd0498269f2c8de6a1054"
+}

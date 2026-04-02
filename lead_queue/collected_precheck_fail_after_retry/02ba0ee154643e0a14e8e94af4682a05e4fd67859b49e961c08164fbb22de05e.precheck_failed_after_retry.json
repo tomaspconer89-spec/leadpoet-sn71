@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email",
+  "business": "Ryan Consulting Group, P.A.",
+  "lead": {
+    "business": "Ryan Consulting Group, P.A.",
+    "full_name": "Alex Moghadasi, CPA, MBA, CGMA, CTRS",
+    "first": "Alex",
+    "last": "Moghadasi, CPA, MBA, CGMA, CTRS",
+    "email": "",
+    "role": "Managing Shareholder",
+    "website": "http://ryanconsultingcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "FL",
+    "city": "Greater Tampa Bay Area",
+    "source_url": "https://ryanconsultingcpa.com",
+    "description": "Ryan Consulting Group, P.A. is home to Tampa CPA, S. Alex Moghadasi, who also possesses a Master\u2019s degree in public accounting and is highly experienced in the nuances of tax regulations. Our team of tax accountants serves our community of Tampa Bay and beyond with guidance in all matters of taxation, accounting, business advisory services. Even if you have foreign bank accounts, businesses, or any questions about expat taxation, we have the skill and experience to assist you.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Tampa",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ryan-consulting-group-p-a",
+    "linkedin": "https://linkedin.com/in/alex-moghadasi-cpa-mba-cgma-ctrs-2889713b"
+  },
+  "source_failed_basename": "1a5f7d4da15ae8edd46859df2e34c2d3f8c41bc62eccf606e27b9451f1ae5f5f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1a5f7d4da15ae8edd46859df2e34c2d3f8c41bc62eccf606e27b9451f1ae5f5f.precheck_failed.json",
+  "queue_key": "02ba0ee154643e0a14e8e94af4682a05e4fd67859b49e961c08164fbb22de05e"
+}

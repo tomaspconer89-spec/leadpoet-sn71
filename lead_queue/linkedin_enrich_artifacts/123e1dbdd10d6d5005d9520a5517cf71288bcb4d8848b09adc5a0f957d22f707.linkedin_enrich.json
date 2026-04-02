@@ -1,0 +1,604 @@
+{
+  "saved_at_utc": "2026-04-01T13:11:28.196967+00:00",
+  "queue_key": "123e1dbdd10d6d5005d9520a5517cf71288bcb4d8848b09adc5a0f957d22f707",
+  "business": "Alexander Group | Go-To-Market Management Consulting Firm",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Alexander Group | Go-To-Market Management Consulting Firm",
+      "Alexander Group | Go-To-Market Management Consulting Firm linkedin company",
+      "site:linkedin.com/company alexandergroup.com",
+      "site:linkedin.com/in \"Alexander Group | Go-To-Market Management Consulting Firm\" founder",
+      "site:linkedin.com/in \"Alexander Group | Go-To-Market Management Consulting Firm\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "9gP39mfnUgBYnLJ",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Alexander Group | Go-To-Market Management Consulting Firm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Alexander Group",
+            "url": "https://www.linkedin.com/company/the-alexander-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides go-to-market consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "26.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The Alexander Group, Executive Search",
+            "url": "https://www.linkedin.com/company/the-alexander-group_3",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Alexander Group, Executive Search",
+            "description": "The Alexander Group has been an industry-leading global executive search firm for more than 40 years, conducting searches for Board and C-Suite positions.Read more",
+            "emphasizedKeywords": [
+              "global executive search firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Alexander Group",
+            "url": "https://br.linkedin.com/company/the-alexander-group?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides go-to-market consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "26.3K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "The Alexander Group",
+            "url": "https://www.linkedin.com/company/thealexander-group-coaching",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Alexander Group",
+            "description": "The Alexander Group helps business owners navigate growth, challenges, and transformation with over 30 years of firsthand business ownership experience.Read more",
+            "emphasizedKeywords": [
+              "helps business owners navigate growth, challenges, and transformation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The Alexander Group, Inc.",
+            "url": "https://www.linkedin.com/company/the-alexander-group---commercial-real-estate",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Alexander Group, Inc.",
+            "description": "The Alexander Group is a full-service brokerage that specializes in identifying net leased commercial real estate investments for its clients.Read more",
+            "emphasizedKeywords": [
+              "The Alexander Group is a full-service brokerage"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Alexander Technology Group",
+            "url": "https://www.linkedin.com/company/alexander-technology-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Technology Group",
+            "description": "Alexander Technology Group provides a powerful variety of custom IT staffing and recruiting solutions. With an extensive base of loyal clients.Read more",
+            "emphasizedKeywords": [
+              "custom IT staffing and recruiting solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120.8K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Alexander Technology Group",
+            "url": "https://ve.linkedin.com/company/alexander-technology-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Technology Group",
+            "description": "Alexander Technology Group provides a powerful variety of custom IT staffing and recruiting solutions. With an extensive base of loyal clients,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander",
+              "Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120.8K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Alexander Partners",
+            "url": "https://uk.linkedin.com/company/alexander-partners-consulting-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Partners",
+            "description": "I support company owners and senior leaders in setting direction and improving performance. In nearly three decades as a consultant and board advisor,Read more",
+            "emphasizedKeywords": [
+              "company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Alexander Hughes",
+            "url": "https://rs.linkedin.com/company/alexander-hughes?trk=public_profile_experience-item_result-card_subtitle-click",
+            "displayedUrl": "https://rs.linkedin.com \u203a company \u203a alexander-hughes",
+            "description": "Alexander Hughes is one of the few independent European headquarters groups in executive search, able to offer a globally high-end quality and commitment to\u00a0...",
+            "emphasizedKeywords": [
+              "Alexander Hughes"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "O'Neal Alexander Consulting Group",
+            "url": "https://vg.linkedin.com/company/oaconsulting-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0O'Neal Alexander Consulting Group",
+            "description": "A legacy oriented consultancy achieving exceptionalism by facilitating investment, corporate structuring and branding. Website: oacgroup.co. External link for O\u00a0...Read more",
+            "emphasizedKeywords": [
+              "consultancy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "360+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/5vqvLgKuGBax1jyeI/records/9gP39mfnUgBYnLJ-0.html?signature=1MRtMgg79l1Ckhqj6BNHB"
+      },
+      {
+        "#debug": {
+          "requestId": "rTlUUbeGhCugirG",
+          "url": "http://www.google.com/search?q=Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Alexander Group | Go-To-Market Management Consulting Firm linkedin company",
+          "url": "http://www.google.com/search?q=Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Alexander+Group+%7C+Go-To-Market+Management+Consulting+Firm+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Alexander Group linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+linkedin&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Alexander Group Glassdoor",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+Glassdoor&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Alexander Group reddit",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+reddit&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Alexander Group salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+salary&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Alexander Group consulting",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+consulting&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Alexander Group Business Analyst",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+Business+Analyst&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "The Alexander Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=The+Alexander+Group&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Who owns alexander group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Who+owns+alexander+group&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Alexander Group linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+linkedin&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Alexander Group Glassdoor",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+Glassdoor&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Alexander Group reddit",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+reddit&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Alexander Group salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+salary&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Alexander Group consulting",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+consulting&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Alexander Group Business Analyst",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Alexander+Group+Business+Analyst&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "The Alexander Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=The+Alexander+Group&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Who owns alexander group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Who+owns+alexander+group&sa=X&ved=2ahUKEwjEy_PH3MyTAxXPrYkEHY_BCngQ1QJ6BAg0EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Alexander Group",
+            "url": "https://www.linkedin.com/company/the-alexander-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides go-to-market consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "26.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Alexander Group",
+            "url": "https://br.linkedin.com/company/the-alexander-group?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides go-to-market consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "26.3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Alexander Group's Post",
+            "url": "https://www.linkedin.com/posts/the-alexander-group_managementconsulting-topconsultingfirms-activity-7424181852053151745-tq1R",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Business Insider",
+            "description": "We are honored to share that Business Insider has named our firm among the top management consulting firms in the United States.",
+            "emphasizedKeywords": [
+              "Business",
+              "firm",
+              "management consulting firms"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Alexander Group | Go-To-Market Management Consulting Firm",
+            "url": "https://www.alexandergroup.com/",
+            "displayedUrl": "https://www.alexandergroup.com",
+            "description": "Generate sustainable revenue growth and benefit from global experience with Alexander Group. Contact us to learn more about our proven methods!",
+            "emphasizedKeywords": [
+              "Alexander Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "How to refine your go-to-market strategy | Alexander Group ...",
+            "url": "https://www.linkedin.com/posts/the-alexander-group_technology-the-go-to-market-planning-process-activity-7340744181578887170-533Z",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Our latest article examines how effective customer segmentation, routes to market, coverage models, territory design, and compensation alignment can form the\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "How MSPs can grow in the future: Alexander Group",
+            "url": "https://www.linkedin.com/posts/the-alexander-group_over-the-next-decade-msp-growth-is-expected-activity-7241534580686553088-nL_1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Group",
+            "description": "Over the next decade, MSP growth is expected to be in the double digits. So how can MSPs evolve to meet and exceed those growth projections?",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Chris Nagle - Partner at The Alexander Group",
+            "url": "https://www.linkedin.com/in/chris-nagle",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Chris Nagle",
+            "description": "Alexander Group is the largest management consulting firm focused exclusively on go-to-customer and revenue growth strategy planning and execution.Read more",
+            "emphasizedKeywords": [
+              "Alexander Group is the largest management consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "United States",
+              "jobTitle": "Partner",
+              "companyName": "The Alexander Group",
+              "rawText": "United States \u00b7 Partner \u00b7 The Alexander Group"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Sean Backe - Director at The Alexander Group",
+            "url": "https://www.linkedin.com/in/seanbacke",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sean Backe",
+            "description": "Alexander Group is the largest management consulting firm focused exclusively on go-to-customer and revenue growth strategy planning and execution. Our\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group is the largest management consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Raleigh-Durham-Chapel Hill Area",
+              "jobTitle": "Director",
+              "companyName": "The Alexander Group",
+              "rawText": "Raleigh-Durham-Chapel Hill Area \u00b7 Director \u00b7 The Alexander Group"
+            },
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Management Consultant",
+            "url": "https://www.alexandergroup.com/careers/management-consultant/",
+            "displayedUrl": "https://www.alexandergroup.com \u203a careers \u203a manageme...",
+            "description": "Alexander Group provides management consulting services to the world's leading organizations. When clients need to grow revenue, they look to Alexander\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides management consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Alexander Group: Go-to-Market Consultants",
+            "url": "https://www.youtube.com/channel/UCb8MNbBqQPO_zJoHpjMXM6w/about",
+            "displayedUrl": "https://www.youtube.com \u203a channel \u203a about",
+            "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Alexander Group provides go-to-market consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/JhiaT3Pcw5mKDypTq/records/rTlUUbeGhCugirG-0.html?signature=1ubczxIdeGiVvzf3bVxAK"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Alexander Group | Go-To-Market Management Consulting Firm",
+      "https://www.linkedin.com/company/the-alexander-group",
+      "https://www.linkedin.com/company/the-alexander-group_3",
+      "https://br.linkedin.com/company/the-alexander-group?trk=ppro_cprof",
+      "https://www.linkedin.com/company/thealexander-group-coaching",
+      "https://www.linkedin.com/company/the-alexander-group---commercial-real-estate",
+      "https://www.linkedin.com/company/alexander-technology-group",
+      "https://ve.linkedin.com/company/alexander-technology-group",
+      "https://uk.linkedin.com/company/alexander-partners-consulting-limited",
+      "https://rs.linkedin.com/company/alexander-hughes?trk=public_profile_experience-item_result-card_subtitle-click",
+      "https://vg.linkedin.com/company/oaconsulting-group",
+      "https://www.linkedin.com/company/the-alexander-group",
+      "https://br.linkedin.com/company/the-alexander-group?trk=ppro_cprof",
+      "https://www.linkedin.com/posts/the-alexander-group_managementconsulting-topconsultingfirms-activity-7424181852053151745-tq1R",
+      "https://www.linkedin.com/posts/the-alexander-group_technology-the-go-to-market-planning-process-activity-7340744181578887170-533Z",
+      "https://www.linkedin.com/posts/the-alexander-group_over-the-next-decade-msp-growth-is-expected-activity-7241534580686553088-nL_1",
+      "https://www.linkedin.com/in/chris-nagle",
+      "https://www.linkedin.com/in/seanbacke"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/the-alexander-group",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/chris-nagle"
+  },
+  "lead_before_enrichment": {
+    "business": "Alexander Group | Go-To-Market Management Consulting Firm",
+    "description": "# Alexander Group | Go-To-Market Management Consulting Firm ## Featured Insights * [ ![](https://www.alexandergroup.com/wp-content/uploads/2023/03/BizSer-TB-image5.jpg) **Article** #### Business Services: Sustain Growth Momentum into Q2 ](https://www.alexandergroup.com/insights/business-services-sustain-growth-momentum-into-q2/) * [ ![](https://www.alexandergroup.com/wp-content/uploads/2026/02/privateequity-image30-web.jpg) **Article** #### Private Equity:",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://alexandergroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://alexandergroup.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "alexandergroup.com",
+    "source_urls": [
+      "https://alexandergroup.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Alexander Group | Go-To-Market Management Consulting Firm",
+    "description": "# Alexander Group | Go-To-Market Management Consulting Firm ## Featured Insights * [ ![](https://www.alexandergroup.com/wp-content/uploads/2023/03/BizSer-TB-image5.jpg) **Article** #### Business Services: Sustain Growth Momentum into Q2 ](https://www.alexandergroup.com/insights/business-services-sustain-growth-momentum-into-q2/) * [ ![](https://www.alexandergroup.com/wp-content/uploads/2026/02/privateequity-image30-web.jpg) **Article** #### Private Equity:",
+    "full_name": "Chris Nagle",
+    "first": "Chris",
+    "last": "Nagle",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://alexandergroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Partner",
+    "linkedin": "https://www.linkedin.com/in/chris-nagle",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-alexander-group",
+    "source_url": "https://alexandergroup.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "alexandergroup.com",
+    "source_urls": [
+      "https://alexandergroup.com"
+    ],
+    "title_raw": "Partner",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://alexandergroup.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/the-alexander-group"
+    },
+    "first": {
+      "before": "",
+      "after": "Chris"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Chris Nagle"
+    },
+    "last": {
+      "before": "",
+      "after": "Nagle"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/chris-nagle"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://alexandergroup.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Partner"
+    }
+  }
+}

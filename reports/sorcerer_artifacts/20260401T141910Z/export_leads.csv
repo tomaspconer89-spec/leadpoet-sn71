@@ -1,0 +1,122 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","# Professional Services Firm | Vincents
+
+![](https://vincents.com.au/wp-content/uploads/2026/03/50.png)
+
+#### Good news for buyers – surge in homes hitting the market
+
+Australian housing listings rise gives first home buyers more choice and negotiating power — here's what rising listings mean for your plans
+
+[Read More](https://vincents.com.au/good-news-for-buyers-surge-in-homes-hitting-the-market)
+
+#### Fringe Benefits Tax 2026 | Key Changes, Reminders and How to Stay Compliant
+
+Here’s what you need to know about the 2026 Fringe Benefit Tax changes, recent cases, as well as ATO guidance and audit ‘hot spots’.
+
+[Read More](https://vincents.com.au/fringe-benefits-tax-2026-key-changes-reminders-and-how-to-stay-compliant)
+
+#### Market on Edge: Iran Tensions Drive Volatility
+
+In this episode we unpack Iran tensions shaking markets, ASX results, commodity moves and why a defensive investment approach matters now.
+
+[Read More](https://vincents.com.au/market-on-edge-iran-tensions-drive-volatility)
+
+#### Double trouble! RBA lifts cash rate by another 25 basis points to 4.10%
+
+Understand the RBA rate rise impact on your mortgage. See how the latest cash rate increase could affect your monthly home loan repayments.
+
+[Read More](https://vincents.com.au/double-trouble-rba-lifts-cash-rate-by-another-25-basis-points-to-4-10)
+
+#### Offset accounts surge as homeowners race to beat higher rates
+
+Discover how an offset account can help you reduce mortgage interest, save on your home loan, and pay off your mortgage faster.
+
+[Read More](https://vincents.com.au/offset-accounts-surge-as-homeowners-race-to-beat-higher-rates)","","https://vincents.com.au","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Professional Services Firm | Vincents","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","vincents.com.au","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","geo_mismatch","true","The company's description and services align well with the ICP, focusing on startup advisory and success management for founders.","0.8","llm","llama3","6b5cc3bfa828b74ff25e1e9f3f935b205567d335d9dd8eda78ef429ac3b330a8","0.0","0.3","cc9c9a89-10be-5136-a726-4e6c907b491a","","2026-04-01T14:16:36.007753Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vincents.com.au.json","/tmp/tmphcs8as45/evidence/domain/vincents.com.au.json","","2026-06-30T14:16:36.007763Z","startup advisory services founder contact","2026-04-01T14:14:55.618422Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","no_founder_contact|no_advisor_contact","true","The company matches well with the ICP in terms of industry relevance (business consulting) and business model alignment (advisory services). However, it does not explicitly mention founder or advisor contact information.","0.8","llm","llama3","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-04-01T14:16:36.024522Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmphcs8as45/evidence/domain/maynardnexsen.com.json","","2026-06-30T14:16:36.024525Z","business consulting firm advisor email","2026-04-01T14:14:58.463073Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.6,   "reason": "The company's focus on B2B SaaS CEOs and its description mentioning finding product-market fit aligns with the ICP's focus on startup advisory and consulting firms. However, the compan","0.6","llm","llama3","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-04-01T14:16:36.037600Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmphcs8as45/evidence/domain/vaam.io.json","","2026-06-30T14:16:36.037602Z","SaaS startup CEO contact information","2026-04-01T14:15:06.819031Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_alignment","true","The company provides CEO contact information for SaaS startups in the US, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-04-01T14:16:36.050544Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmphcs8as45/evidence/domain/findemails.com.json","","2026-06-30T14:16:36.050546Z","SaaS startup CEO contact information","2026-04-01T14:15:07.261312Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_match|size_match","true","The company provides a list of SaaS startup CEOs' contact information, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","25fb3c6536fde22fbc712557ec8d33a1eb3ebb460f05a802e6f2b89b869a5227","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-04-01T14:16:36.063697Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmphcs8as45/evidence/domain/scribd.com.json","","2026-06-30T14:16:36.063699Z","SaaS startup CEO contact information","2026-04-01T14:15:07.723348Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","ceoemail.com","","","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "The company provides CEO contact information for US companies, which aligns with the geographic location requirement of the ICP. However, it's a SaaS-focused search query, and the comp","0.8","llm","llama3","02573516d07414291e144ceda4424973bd402d79ff8044676a5c9490d722e689","0.0","0.3","14feb776-cdbc-5ee3-a864-1f4494f50086","","","","","/tmp/tmphcs8as45/evidence/domain/ceoemail.com.json","","2026-06-30T14:15:08.162408Z","SaaS startup CEO contact information","2026-04-01T14:15:08.162390Z","","","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","scored"
+"","","","","# Regenerative Medicine | Bruder Consulting & Venture Group
+
+## CATALYZING  
+YOUR SUCCESS 
+
+Regenerative Medicine  -   Biologics  -  Tissue Repair  -  Biomaterials
+
+![Blue Curve Strip.png](https://static.wixstatic.com/media/a9f6c5_311eea699c1d4fcfa77f645b78e32092~mv2.png/v1/crop/x_0,y_0,w_3376,h_786/fill/w_1439,h_335,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20Curve%20Strip.png)
+
+#### The BCVG Difference
+
+"We leverage extensive domain expertise, Integrated Insights™ and industry relationships to deliver customized strategic guidance and tactical solutions."
+
+​
+
+Scott P. Bruder, MD, PhD
+
+Bruder Consulting & Venture Group (BCVG)
+
+![Scott Circle.png](https://static.wixstatic.com/media/a9f6c5_d1057ef8990c4f78be4cb97a9bef741d~mv2.png/v1/fill/w_276,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Scott%20Circle.png)
+
+![Blue Curve Strip.png](https://static.wixstatic.com/media/a9f6c5_2255ac8fda9440ffa7c1207ec2078358~mv2.png/v1/fill/w_2500,h_335,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20Curve%20Strip.png)
+
+#### WHO WE ARE
+
+The Bruder Consulting & Venture Group is comprised of three complementary resources:
+
+*   A Core Team of personnel with extensive industry experience
+    
+*   Affiliate Firms whose expertise complements our own
+    
+*   Special Advisors who are world-renown experts from the academic research and clinical communities
+    
+
+Combined Years of Industry Experience
+
+#### 350+
+
+## I want to accelerate the growth or differentiation of my business
+
+## I want to acquire, sell or diligence an asset or business
+
+#### OUR CLIENT BASE
+
+Our client partners include medical device, biotech, and cell therapy firms located in the United States and around the world.
+
+50%
+
+of client partners are outside the USA
+
+$2B
+
+in represented transactions
+
+$2B
+
+in represented transactions
+
+#### MONTHLY NEWSLETTER
+
+January 2026
+
+New year, new milestones
+
+Happy New Year from all of us at DHC Regenerative Medicine. Wherever you are, whatever you celebrate, we hope your holiday season was peaceful and restorative.
+
+#### ACADEMIC AND INDUSTRY PRESENCE
+
+![Microphone Closeup](https://static.wixstatic.com/media/08fd4587c5c9414c8ff963a9e538e849.jpg/v1/fill/w_386,h_290,q_75,enc_avif,quality_auto/08fd4587c5c9414c8ff963a9e538e849.jpg)","","https://bruderconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Regenerative Medicine | Bruder Consulting & Venture Group","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","bruderconsulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","no_founder_contact","true","The company's description mentions a venture group and consulting firm, which aligns with the ICP's focus on startup advisory and consulting firms. However, it doesn't explicitly mention founder or advisor contact information.","0.8","llm","llama3","f1291b60bdf11027b3e234a099eb447388ee5fbdfd8f958d4d912a6efe70ffd7","0.0","0.3","17fbf2ce-8e84-515f-8dfc-289cd04eae82","","2026-04-01T14:18:40.769960Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bruderconsulting.com.json","/tmp/tmphcs8as45/evidence/domain/bruderconsulting.com.json","","2026-06-30T14:18:40.769968Z","venture consulting firm partner email","2026-04-01T14:15:11.404760Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","size_mismatch","true","The company appears to be a management consulting firm, which aligns with the ICP's focus on business development and partnership opportunities. However, it lacks specific information about being a small startup advisory and consulting firm.","0.6","llm","llama3","183382e97de5dd366537d8ab0c1cae6aadd09c47875eecd3960a283f8ecc89be","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-04-01T14:18:40.787630Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmphcs8as45/evidence/domain/huronconsultinggroup.com.json","","2026-06-30T14:18:40.787632Z","management consulting firm director email","2026-04-01T14:15:57.758173Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Holt Consulting Company, LLC
+
+The Consultant of Choice for Aviation and Surface Transportation Projects Across the Southeast
+
+ ![](https://www.holtconsultingco.com/uploads/images/_resize/DJI_0044-min2_resize_993bf2ca9dd3c6c81a52aa14ead99aac.JPG)
+
+## About Holt
+
+Holt is a multi-discipline engineering firm that provides superior planning, design, and management services for clients in need of transportation infrastructure. State and local governments turn to our team of specialists for the technical accuracy, memorable client service, and matchless value they receive.
+
+Established by long-time friends and co-workers, our culture was founded on relationships and continues to put people first, meaning both our clients and our employees. At Holt, you will find the capabilities and experience of a large company, coupled with the sincerity and approachability of a small company.
+
+We are committed to our goal of being caring service professionals that empower others to succeed, all while doing our part to enhance the communities around us through meaningful and innovative transportation solutions.","","https://holtconsultingco.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Holt Consulting Company, LLC","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","holtconsultingco.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch","true","The company matches the ICP in terms of being a consulting firm and having a director contact email. However, it's not a small startup advisory firm.","0.6","llm","llama3","23bf6052f2fe0cb834d67c70f37f976e6a5cbbe14add478f0cc0320707ecd5b5","0.0","0.3","c13753d0-4804-5492-829f-f9ce7188a7c9","","2026-04-01T14:19:10.946253Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/holtconsultingco.com.json","/tmp/tmphcs8as45/evidence/domain/holtconsultingco.com.json","","2026-06-30T14:19:10.946260Z","management consulting firm director email","2026-04-01T14:15:58.655125Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

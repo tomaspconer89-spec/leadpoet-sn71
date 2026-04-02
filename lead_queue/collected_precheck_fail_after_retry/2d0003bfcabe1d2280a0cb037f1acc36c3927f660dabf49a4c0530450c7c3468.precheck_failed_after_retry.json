@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "GTA Accounting | Business Tax Toronto",
+  "lead": {
+    "business": "GTA Accounting | Business Tax Toronto",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "tax@gtaaccounting.ca",
+    "role": "Contact",
+    "website": "https://gtaaccounting.ca/",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "Ontario",
+    "state": "",
+    "city": "Toronto",
+    "source_url": "https://gtaaccountinggroup.com",
+    "description": "GTA Accounting Professional Corporation, Chartered Professional Accountants, has extensive tax and accounting experience in the GTA. Our firm offers quality services to individuals, businesses, and not-for-profit organizations. We provide outstanding services to our clients because of our dedication to the three underlying principles of professionalism, responsiveness and quality.",
+    "employee_count": "11-50",
+    "hq_country": "Ontario",
+    "hq_state": "",
+    "hq_city": "Toronto",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/gta-accounting-usa",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/gta-accounting"
+  },
+  "source_failed_basename": "29684823bcf8ee916e2c78469521a692a14c56135739e7d4a325b735b8809049.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/29684823bcf8ee916e2c78469521a692a14c56135739e7d4a325b735b8809049.precheck_failed.json",
+  "queue_key": "2d0003bfcabe1d2280a0cb037f1acc36c3927f660dabf49a4c0530450c7c3468"
+}

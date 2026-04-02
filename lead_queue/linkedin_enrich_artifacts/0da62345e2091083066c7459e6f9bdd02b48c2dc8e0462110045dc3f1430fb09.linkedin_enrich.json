@@ -1,0 +1,771 @@
+{
+  "saved_at_utc": "2026-04-01T14:40:53.065426+00:00",
+  "queue_key": "0da62345e2091083066c7459e6f9bdd02b48c2dc8e0462110045dc3f1430fb09",
+  "business": "Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+      "Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce linkedin company",
+      "site:linkedin.com/company raleighchamber.org",
+      "site:linkedin.com/in \"Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce\" founder",
+      "site:linkedin.com/in \"Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "3x3jVzwWB2bYj9v",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Greater Raleigh Chamber",
+            "url": "https://www.linkedin.com/company/raleighchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "The Greater Raleigh Chamber of Commerce is a nonprofit, membership-based business association serving the community in Raleigh and the surrounding region.Read more",
+            "emphasizedKeywords": [
+              "nonprofit, membership-based business association"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Greater Raleigh Convention and Visitors Bureau",
+            "url": "https://ve.linkedin.com/company/grcvb?trk=public_profile_topcard-current-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Convention and Visitors Bureau",
+            "description": "The Greater Raleigh Convention and Visitors Bureau is the official and accredited destination marketing organization for all of Wake County.Read more",
+            "emphasizedKeywords": [
+              "Greater Raleigh"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Wake County Economic Development",
+            "url": "https://ec.linkedin.com/company/wced",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wake County Economic Development",
+            "description": "WCED accomplishes its mission through business recruitment, retention and expansion; marketing and public relations; talent recruitment and retention; and\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Wake County Economic Development",
+            "url": "https://at.linkedin.com/company/wced",
+            "displayedUrl": "https://at.linkedin.com \u203a company \u203a wced",
+            "description": "Wake County Economic Development is the primary economic development organization for Wake County, providing economic development support for its 12\u00a0...",
+            "emphasizedKeywords": [
+              "Wake County Economic Development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Wake County Economic Development",
+            "url": "https://ar.linkedin.com/company/wced",
+            "displayedUrl": "https://ar.linkedin.com \u203a company \u203a wced",
+            "description": "Wake County Economic Development is the primary economic development organization for Wake County, providing economic development support for its 12\u00a0...",
+            "emphasizedKeywords": [
+              "Wake County Economic Development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Wake County Economic Development",
+            "url": "https://www.linkedin.com/company/wced",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wake County Economic Development",
+            "description": "Locations. Primary. Greater Raleigh Chamber of Commerce. 800 S. Salisbury Street. Raleigh, North Carolina 27601, US. Get directions. Employees at Wake County\u00a0...Read more",
+            "emphasizedKeywords": [
+              "800"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://www.linkedin.com/company/ncchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Isabelle Powell",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://de.linkedin.com/company/ncchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NC Chamber",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Raleigh Economic Development",
+            "url": "https://www.linkedin.com/company/raleigh-econ-dev",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kyle Touchstone",
+            "description": "Raleigh Economic Development (RED) is the lead agency for economic development supporting job creation and capital investment in Raleigh, North Carolina.Read more",
+            "emphasizedKeywords": [
+              "Raleigh Economic Development (RED"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://dk.linkedin.com/company/ncchamber",
+            "displayedUrl": "https://dk.linkedin.com \u203a company \u203a ncchamber",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/cCDdNZb1TDArO2kTq/records/3x3jVzwWB2bYj9v-0.html?signature=1oSAtGGbqngc3nL7Usygh"
+      },
+      {
+        "#debug": {
+          "requestId": "biXYUdwu6xj8OLV",
+          "url": "http://www.google.com/search?q=Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce linkedin company",
+          "url": "http://www.google.com/search?q=Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Greater+Raleigh+Chamber+of+Commerce+-+Greater+Raleigh+Chamber+of+Commerce+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Raleigh Chamber of commerce directory",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Raleigh+Chamber+of+commerce+directory&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Black Chamber of Commerce Raleigh, NC",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Black+Chamber+of+Commerce+Raleigh,+NC&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Triangle Chamber of Commerce",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Triangle+Chamber+of+Commerce&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Raleigh Chamber of commerce directory",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Raleigh+Chamber+of+commerce+directory&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Black Chamber of Commerce Raleigh, NC",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Black+Chamber+of+Commerce+Raleigh,+NC&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Triangle Chamber of Commerce",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Triangle+Chamber+of+Commerce&sa=X&ved=2ahUKEwjp95bd8MyTAxXhRv4FHQzqM-MQ1QJ6BAg0EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Greater Raleigh Chamber",
+            "url": "https://www.linkedin.com/company/raleighchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "The Greater Raleigh Chamber of Commerce is a nonprofit, membership-based business association serving the community in Raleigh and the surrounding region.Read more",
+            "emphasizedKeywords": [
+              "nonprofit, membership-based business association"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Adrienne Cole - Greater Raleigh Chamber",
+            "url": "https://www.linkedin.com/in/adrienne-cole-grcceo",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Adrienne Cole",
+            "description": "Adrienne Cole is the president and CEO of the Greater Raleigh Chamber and leads the\u2026 \u00b7 Experience: Greater Raleigh Chamber \u00b7 Education: Meredith College\u00a0...",
+            "emphasizedKeywords": [
+              "Adrienne Cole is the president and CEO of the Greater Raleigh Chamber"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Raleigh, North Carolina, United States",
+              "companyName": "Greater Raleigh Chamber",
+              "rawText": "Raleigh, North Carolina, United States \u00b7 Greater Raleigh Chamber"
+            },
+            "followersAmount": "4.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Travis Brisbon on Chamber Engagement & Small Business ...",
+            "url": "https://www.linkedin.com/posts/raleighchamber_ingoodcompany-activity-7422271599807983617-pX05",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "Travis Brisbon serves as Vice Chair of Member Services & Small Business on the Greater Raleigh Chamber Board of Directors - and he's walking\u00a0...",
+            "emphasizedKeywords": [
+              "Travis Brisbon serves as Vice Chair of Member Services & Small Business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Meet Adrienne Cole",
+            "url": "https://www.raleighchamber.org/meet-adrienne-cole.html",
+            "displayedUrl": "https://www.raleighchamber.org \u203a meet-adrienne-cole",
+            "description": "Adrienne Cole is the president and CEO of the Greater Raleigh Chamber and leads the Triangle's largest business membership organization.",
+            "emphasizedKeywords": [
+              "Adrienne Cole is the president and CEO of the Greater Raleigh Chamber"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Greater Raleigh Chamber | 11 comments",
+            "url": "https://www.linkedin.com/posts/raleighchamber_raleighwlc26-womensleadership-raleighchamber-activity-7439664841008644097-5Mbf",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "Thanks to Raleigh Chamber of commerce for another year of amazing leadership conference. Every session was truly motivational and amazingly\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Raleigh Chamber of commerce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Raleigh, NC Finance",
+            "url": "https://web.raleighchamber.org/2023/Finance",
+            "displayedUrl": "https://web.raleighchamber.org \u203a Finance",
+            "description": "Raleigh, NC Finance | Greater Raleigh Chamber of Commerce | 800 S. Salisbury St, Raleigh, NC, 27601 | mmartin@raleighchamber.org.",
+            "emphasizedKeywords": [
+              "Greater Raleigh Chamber of Commerce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Janet Potter - Greater Raleigh Chamber of Commerce",
+            "url": "https://www.linkedin.com/in/janet-potter-a152806",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Janet Potter",
+            "description": "The Greater Raleigh Chamber of Commerce is the Triangle's largest business membership\u2026 \u00b7 Experience: Greater Raleigh Chamber of Commerce \u00b7 Education: North\u00a0...",
+            "emphasizedKeywords": [
+              "Greater Raleigh Chamber of Commerce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Raleigh, North Carolina, United States",
+              "companyName": "Greater Raleigh Chamber of Commerce",
+              "rawText": "Raleigh, North Carolina, United States \u00b7 Greater Raleigh Chamber of Commerce"
+            },
+            "followersAmount": "570+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Media and News",
+            "url": "https://www.raleighchamber.org/media.html",
+            "displayedUrl": "https://www.raleighchamber.org \u203a media",
+            "description": "Chamber membership means more contacts, sales, and growth for your business. \u200bFOLLOW US. Facebook \u00b7 Instagram \u00b7 Linkedin \u00b7 Twitter \u00b7 \u200bYoutube. TOP PAGES. EventsRead more",
+            "emphasizedKeywords": [
+              "Chamber membership means more contacts, sales, and growth for your business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Greater Raleigh Chamber's Post",
+            "url": "https://www.linkedin.com/posts/raleighchamber_the-triangle-regions-business-community-activity-7191839893960949760-o7bY",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "Greater Raleigh Chamber's Post. View organization page for Greater Raleigh Chamber. Greater Raleigh Chamber. 15,498 followers. 1y Edited.Read more",
+            "emphasizedKeywords": [
+              "Greater Raleigh Chamber"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "CEO Adrienne Cole on driving investment and jobs in ...",
+            "url": "https://www.linkedin.com/posts/raleighchamber_greaterraleighchamber-leadership-economicdevelopment-activity-7358158570061733888-bhpz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "CEO Adrienne Cole on driving investment and jobs in Raleigh. View organization page for Greater Raleigh Chamber. Greater Raleigh Chamber. 15,524\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Greater Raleigh Chamber"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ykbcF9ImsKh1xT6J6/records/biXYUdwu6xj8OLV-0.html?signature=1a9OPcwIWU84oH478XrWw"
+      },
+      {
+        "#debug": {
+          "requestId": "qsHuos9i3OQnwcr",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+raleighchamber.org",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+raleighchamber.org",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company raleighchamber.org",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+raleighchamber.org",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+raleighchamber.org",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Greater Raleigh Chamber",
+            "url": "https://www.linkedin.com/company/raleighchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Chamber",
+            "description": "The Greater Raleigh Chamber of Commerce is a nonprofit, membership-based business association serving the community in Raleigh and the surrounding region.Read more",
+            "emphasizedKeywords": [
+              "nonprofit, membership-based business association"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "15.6K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Greater Raleigh Convention and Visitors Bureau",
+            "url": "https://ve.linkedin.com/company/grcvb?trk=public_profile_topcard-current-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greater Raleigh Convention and Visitors Bureau",
+            "description": "The Greater Raleigh Convention and Visitors Bureau is the official and accredited destination marketing organization for all of Wake County.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Wake County Economic Development",
+            "url": "https://www.linkedin.com/company/wced",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wake County Economic Development",
+            "description": "... Raleigh Chamber of Commerce, the organization proactively creates an environment in which Wake County can grow and thrive, resulting in new jobs and capital\u00a0...",
+            "emphasizedKeywords": [
+              "Raleigh Chamber of Commerce"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Raleigh Economic Development",
+            "url": "https://www.linkedin.com/company/raleigh-econ-dev",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kyle Touchstone",
+            "description": "Raleigh Economic Development (RED) is the lead agency for economic development supporting job creation and capital investment in Raleigh, North Carolina.Read more",
+            "emphasizedKeywords": [
+              "Raleigh Economic Development (RED"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://co.linkedin.com/company/ncchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NC Chamber",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://de.linkedin.com/company/ncchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NC Chamber",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://dk.linkedin.com/company/ncchamber",
+            "displayedUrl": "https://dk.linkedin.com \u203a company \u203a ncchamber",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "NC Chamber",
+            "url": "https://www.linkedin.com/company/ncchamber",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Isabelle Powell",
+            "description": "The NC Chamber is the state's largest, broad-based business advocacy organization. We work to research, develop, advocate, and communicate for solutions and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The NC Chamber is the state's largest, broad-based business advocacy organization"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.5K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "North Carolina Economic Development Association",
+            "url": "https://nl.linkedin.com/company/north-carolina-economic-developers-association",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0North Carolina Economic Development Association",
+            "description": "Based in Raleigh, NCEDA provides professional development, advocacy and information services for its members. Website: http://www.nceda.org. Externe link voor\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides professional development, advocacy and information services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.8K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "North Carolina Department of Commerce",
+            "url": "https://cr.linkedin.com/company/north-carolina-department-of-commerce?trk=public_profile_topcard_past_company",
+            "displayedUrl": "https://cr.linkedin.com \u203a company",
+            "description": "The North Carolina Department of Commerce is the state's lead agency for economic, community and workforce development. Taking a comprehensive approach to\u00a0...",
+            "emphasizedKeywords": [
+              "is the state's lead agency for economic, community and workforce development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/QjdD6xPc2XOiRhIwe/records/qsHuos9i3OQnwcr-0.html?signature=9eaAMGOam4JzHeRNjUmi"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+      "https://www.linkedin.com/company/raleighchamber",
+      "https://ve.linkedin.com/company/grcvb?trk=public_profile_topcard-current-company",
+      "https://ec.linkedin.com/company/wced",
+      "https://at.linkedin.com/company/wced",
+      "https://ar.linkedin.com/company/wced",
+      "https://www.linkedin.com/company/wced",
+      "https://www.linkedin.com/company/ncchamber",
+      "https://de.linkedin.com/company/ncchamber",
+      "https://www.linkedin.com/company/raleigh-econ-dev",
+      "https://dk.linkedin.com/company/ncchamber",
+      "https://www.linkedin.com/company/raleighchamber",
+      "https://www.linkedin.com/in/adrienne-cole-grcceo",
+      "https://www.linkedin.com/posts/raleighchamber_ingoodcompany-activity-7422271599807983617-pX05",
+      "https://www.linkedin.com/posts/raleighchamber_raleighwlc26-womensleadership-raleighchamber-activity-7439664841008644097-5Mbf",
+      "https://www.linkedin.com/in/janet-potter-a152806",
+      "https://www.linkedin.com/posts/raleighchamber_the-triangle-regions-business-community-activity-7191839893960949760-o7bY",
+      "https://www.linkedin.com/posts/raleighchamber_greaterraleighchamber-leadership-economicdevelopment-activity-7358158570061733888-bhpz",
+      "site:linkedin.com/company raleighchamber.org",
+      "https://www.linkedin.com/company/raleighchamber",
+      "https://ve.linkedin.com/company/grcvb?trk=public_profile_topcard-current-company",
+      "https://www.linkedin.com/company/wced",
+      "https://www.linkedin.com/company/raleigh-econ-dev",
+      "https://co.linkedin.com/company/ncchamber",
+      "https://de.linkedin.com/company/ncchamber",
+      "https://dk.linkedin.com/company/ncchamber",
+      "https://www.linkedin.com/company/ncchamber",
+      "https://nl.linkedin.com/company/north-carolina-economic-developers-association",
+      "https://cr.linkedin.com/company/north-carolina-department-of-commerce?trk=public_profile_topcard_past_company"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/raleighchamber",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/adrienne-cole-grcceo"
+  },
+  "lead_before_enrichment": {
+    "business": "Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+    "description": "# Greater Raleigh Chamber of Commerce ## The Triangle\u2019s Largest Business Membership Organization With over 1,800 member firms representing two-thirds of the private sector employment in Wake County, we support the interests of our local business community. \u200bWe are paving the way forward to fully embrace the rapid progress of our region by: | | | | | | | --- | --- | --- | --- | --- | | ![Picture](https://raleighchamber.org/uploads/5/4/7/3/54735871/web-240524-priorityiconsblue-01-1_orig.png)<br><br>Creating new jobs and attracting capital investment.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://raleighchamber.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/raleighchamber",
+    "source_url": "https://raleighchamber.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "raleighchamber.org",
+    "source_urls": [
+      "https://raleighchamber.org"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Greater Raleigh Chamber of Commerce - Greater Raleigh Chamber of Commerce",
+    "description": "# Greater Raleigh Chamber of Commerce ## The Triangle\u2019s Largest Business Membership Organization With over 1,800 member firms representing two-thirds of the private sector employment in Wake County, we support the interests of our local business community. \u200bWe are paving the way forward to fully embrace the rapid progress of our region by: | | | | | | | --- | --- | --- | --- | --- | | ![Picture](https://raleighchamber.org/uploads/5/4/7/3/54735871/web-240524-priorityiconsblue-01-1_orig.png)<br><br>Creating new jobs and attracting capital investment.",
+    "full_name": "Adrienne Cole Grcceo",
+    "first": "Adrienne",
+    "last": "Cole Grcceo",
+    "email": "mmartin@raleighchamber.org",
+    "phone_numbers": [],
+    "website": "https://raleighchamber.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "president",
+    "linkedin": "https://www.linkedin.com/in/adrienne-cole-grcceo",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/raleighchamber",
+    "source_url": "https://raleighchamber.org",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Raleigh",
+    "country": "United States",
+    "state": "",
+    "city": "Raleigh",
+    "employee_count": "11-50",
+    "company_domain_canonical": "raleighchamber.org",
+    "source_urls": [
+      "https://raleighchamber.org"
+    ],
+    "title_raw": "president",
+    "name_quality": "full",
+    "email_observed": "mmartin@raleighchamber.org",
+    "person_found_on_company_site": true,
+    "email_type": "direct",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "email_source_url": "https://raleighchamber.org",
+    "linkedin_source_url": "https://raleighchamber.org"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Raleigh"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "email": {
+      "before": "",
+      "after": "mmartin@raleighchamber.org"
+    },
+    "email_observed": {
+      "before": "",
+      "after": "mmartin@raleighchamber.org"
+    },
+    "email_source_url": {
+      "before": null,
+      "after": "https://raleighchamber.org"
+    },
+    "email_type": {
+      "before": "unknown",
+      "after": "direct"
+    },
+    "first": {
+      "before": "",
+      "after": "Adrienne"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Adrienne Cole Grcceo"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Raleigh"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "last": {
+      "before": "",
+      "after": "Cole Grcceo"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/adrienne-cole-grcceo"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://raleighchamber.org"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "president"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "president"
+    }
+  }
+}

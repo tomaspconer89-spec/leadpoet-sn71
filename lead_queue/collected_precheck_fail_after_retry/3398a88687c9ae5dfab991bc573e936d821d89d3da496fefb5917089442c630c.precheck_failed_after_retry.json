@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Insight Partners",
+  "lead": {
+    "business": "Insight Partners",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "http://www.insightpartners.com",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "New York",
+    "city": "Palo Alto with",
+    "source_url": "https://insightpartners.com",
+    "description": "Insight Partners is a global software investor partnering with high-growth technology, software, and Internet startup and ScaleUp companies that are driving transformative change in their industries. As of June 30, 2025, the firm has over $90B in regulatory assets under management. Insight Partners has invested in more than 875 companies worldwide and has seen over 55 portfolio companies achieve an IPO. Headquartered in New York City, Insight has a global presence with leadership in London, Tel Aviv, and the Bay Area.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/insight--partners"
+  },
+  "source_failed_basename": "5df6e047a696520701a7ece363273850f7bb349577ecc821a7dc8bee49b658e8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5df6e047a696520701a7ece363273850f7bb349577ecc821a7dc8bee49b658e8.precheck_failed.json",
+  "queue_key": "3398a88687c9ae5dfab991bc573e936d821d89d3da496fefb5917089442c630c"
+}

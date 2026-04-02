@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "Bland Garvey, CPAs & Wealth Advisors",
+  "lead": {
+    "business": "Bland Garvey, CPAs & Wealth Advisors",
+    "full_name": "Andrew Turpin, CPA",
+    "first": "Andrew",
+    "last": "Turpin, CPA",
+    "email": "aturpin@blandgarvey.com",
+    "role": "Director",
+    "website": "http://www.BLANDGARVEY.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Richardson",
+    "source_url": "https://blandgarvey.com",
+    "description": "At Bland Garvey, we know you want to be confident about the financial decisions you make in your business and personal life. And as your business and personal wealth grows, so does the complexity of your finances. You lack the time and knowledge to ensure you aren't missing out on any key opportuniites or requirements in you accounting and financial planning. It can be confusing and intimidating to navigate without the proper expertise. At Bland Garvey, we believe you deserve to have professional guidance from someone who understands all of your finances - past, present, and future.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Richardson",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bland-garvey-pc",
+    "linkedin": "https://linkedin.com/in/andrewturpin"
+  },
+  "source_failed_basename": "9d3750aebcdb4284c16e254f1c7b21016db92ba90653df2ddca6e48bae201ae2.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9d3750aebcdb4284c16e254f1c7b21016db92ba90653df2ddca6e48bae201ae2.precheck_failed.json",
+  "queue_key": "ee05ccf85d89c858147b4b37a3c0226e6c1d515c3834da2f690abdc47ca6c22d"
+}

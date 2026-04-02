@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "WealthTrust Advisors",
+  "lead": {
+    "business": "WealthTrust Advisors",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "http://www.wealthtrustadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Investment Management",
+    "country": "United States",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "source_url": "https://schwab.com",
+    "description": "WealthTrust Advisors is a boutique wealth advisory practice that has been serving clients since 1996. We care for our clients and their families, and our entire team is committed to providing services and guidance that align with each client\u2019s financial interests. Our wealth management solutions integrate the following areas:",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Arizona",
+    "hq_city": "Scottsdale",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/wealthtrustadvisors"
+  },
+  "source_failed_basename": "69aa4120cf73e550302a0a4a0f6fa3dab89fb574687908cd6ea319ebee67403a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/69aa4120cf73e550302a0a4a0f6fa3dab89fb574687908cd6ea319ebee67403a.precheck_failed.json",
+  "queue_key": "84cb8d7c8cd7c20189d9e5bb94ef1c350444f9bb2c6cffbf7a9cc4f6914a6b6d"
+}

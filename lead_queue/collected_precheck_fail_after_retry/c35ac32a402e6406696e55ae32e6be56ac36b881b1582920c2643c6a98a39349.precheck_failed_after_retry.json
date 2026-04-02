@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Startup Advisory",
+  "lead": {
+    "business": "Startup Advisory",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://www.startupadvisory.com.au/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Sydney",
+    "source_url": "https://startupadvisory.com.au",
+    "description": "Startup Advisory offers Strategy Consulting services for Startups: investor material, business plan, growth strategy, pricing... By combining strong skills in traditional Management Consulting and experience with dozens of startups, we are able to help every single startup to reach its full potential. Based in Sydney, we provide first-class services worldwide.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Sydney",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/startup-advisory"
+  },
+  "source_failed_basename": "c33ff17f2f281c8beeeb88ff1712908d403ea00a07ca8b6f1d2266cecd9e38e1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c33ff17f2f281c8beeeb88ff1712908d403ea00a07ca8b6f1d2266cecd9e38e1.precheck_failed.json",
+  "queue_key": "c35ac32a402e6406696e55ae32e6be56ac36b881b1582920c2643c6a98a39349"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Access Venture Partners",
+  "lead": {
+    "business": "Access Venture Partners",
+    "full_name": "Peter Adams",
+    "first": "Peter",
+    "last": "Adams",
+    "email": "logo@2x.png",
+    "role": "Managing Partner",
+    "website": "http://www.accessvp.com",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Denver",
+    "source_url": "https://accessvp.com",
+    "description": "Access Venture Partners is Colorado-based venture capital firm investing in innovative early-stage technology companies in growing venture states. If you're raising a seed or Series A round, reach out to us! https://accessvp.com/contact/",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Colorado",
+    "hq_city": "Westminster",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/access-venture-partners",
+    "linkedin": "https://linkedin.com/in/peteradams"
+  },
+  "source_failed_basename": "4a82ea2c2b60c87ac7a51fe62565204304f04fcd5632a3c1f9215b7c0e0b2764.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4a82ea2c2b60c87ac7a51fe62565204304f04fcd5632a3c1f9215b7c0e0b2764.precheck_failed.json",
+  "queue_key": "3f3d340a4030b81c875058dc6d9c8ed8aec7809d0da96a37cef8d969aed1efe2"
+}

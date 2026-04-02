@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, role, country, city",
+  "business": "Dillwood Burkel & Millar, LLP",
+  "lead": {
+    "business": "Dillwood Burkel & Millar, LLP",
+    "full_name": "Jennifer Pickle, CPA",
+    "first": "Jennifer",
+    "last": "Pickle, CPA",
+    "email": "",
+    "role": "Partner",
+    "website": "http://www.dbmcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "California",
+    "city": "Santa Rosa",
+    "source_url": "https://dbmcpa.com",
+    "description": "DBM is a full-service CPA firm located in Santa Rosa with clients in the wine, real estate, manufacturing, professional services, retail and not-for-profit industries. With an office in Sonoma County, we have a strong presence in the wine industry in the North Coast of California, including both vineyards and wineries. Our knowledge of wine costing, inventory valuation and tax treatments is extensive, and our partners are frequently asked to speak at wine industry conferences and write articles for wine publications.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Santa Rosa",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/dillwood-burkel-and-millar-llp",
+    "linkedin": "https://linkedin.com/in/jennifer-pickle-cpa-1536918"
+  },
+  "source_failed_basename": "1fce6e759c4390d594c56ecaea82ba312feab1e736a06c50bac461379ab061ef.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1fce6e759c4390d594c56ecaea82ba312feab1e736a06c50bac461379ab061ef.precheck_failed.json",
+  "queue_key": "6c61fdeb3af0f10bb34a4cd699830d409090f1ee6678c8d497c540e9123dcf6b"
+}

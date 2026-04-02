@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Crunchbase",
+  "lead": {
+    "business": "Crunchbase",
+    "full_name": "Jager McConnell",
+    "first": "Jager",
+    "last": "McConnell",
+    "email": "",
+    "role": "Chief Executive Officer",
+    "website": "https://www.crunchbase.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco",
+    "source_url": "https://crunchbase.com",
+    "description": "Crunchbase is a predictive solution that provides intelligence on private companies, powered by the unique combination of live private company data, AI, and market activity from over 80 million users. We predict private market movements that matter to help investors, dealmakers, and analysts make the right decisions.",
+    "employee_count": "51-200",
+    "hq_country": "Remote First",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "public_registry",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/crunchbase",
+    "linkedin": "https://linkedin.com/in/jager"
+  },
+  "source_failed_basename": "73a19e42f9e561ca9404fe06b003fbbd0dbed725a168e12eec39744dbc6d1f6a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/73a19e42f9e561ca9404fe06b003fbbd0dbed725a168e12eec39744dbc6d1f6a.precheck_failed.json",
+  "queue_key": "6fc6e97b24679f733efaac17ac53d9e6d54e30ca97391ac712f72272006faec8"
+}

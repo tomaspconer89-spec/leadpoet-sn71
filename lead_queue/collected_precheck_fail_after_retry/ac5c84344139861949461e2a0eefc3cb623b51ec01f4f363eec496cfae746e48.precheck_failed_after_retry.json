@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city",
+  "business": "SaaS Talent",
+  "lead": {
+    "business": "SaaS Talent",
+    "full_name": "Michael C. Bertoni",
+    "first": "Michael C.",
+    "last": "Bertoni",
+    "email": "",
+    "role": "Founder and CEO",
+    "website": "https://www.saas-talent.com/jobs-portal",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "source_url": "https://saas-talent.com",
+    "description": "Tap below or visit our website to see our job board. We're a top SaaS recruiting firm who helps you drive revenue, providing access to GTM, AI and Tech talent in the US & LATAM. PLUS we deliver GTM Growth Coaching to help you generate leads, accelerate sales and sharpen product-market fit. SaaS Talent Overview: - 11 year anniversary in December 2025 - 100+ clients, 30+ people on our team - Go-To-Market (GTM), Engineering & AI talent - Flexible Talent from the US and LATAM",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Pennsylvania",
+    "hq_city": "Philadelphia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/phillytech-co",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/saas-talent33",
+    "linkedin": "https://linkedin.com/in/michaelbertoni33"
+  },
+  "source_failed_basename": "2c42879fa4c22655750cbbe1246744f7e8bb1553099e66c52f82dde98cdb6ade.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2c42879fa4c22655750cbbe1246744f7e8bb1553099e66c52f82dde98cdb6ade.precheck_failed.json",
+  "queue_key": "ac5c84344139861949461e2a0eefc3cb623b51ec01f4f363eec496cfae746e48"
+}

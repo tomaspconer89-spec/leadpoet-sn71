@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: email, role, country, city",
+  "business": "KLICHS LLP",
+  "lead": {
+    "business": "KLICHS LLP",
+    "full_name": "Kenneth Guidry, CPA",
+    "first": "Kenneth",
+    "last": "Guidry, CPA",
+    "email": "kenneth@pkftexas.com",
+    "role": "CPA, President, serving international and domestic businesses at middle market",
+    "website": "http://www.klichs.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Houston",
+    "source_url": "https://pkftexas.com",
+    "description": "KLiCHS [klIks] is a United States audit, tax, financial advisory and consulting service firm. From local retail to multinational corporations, we serve clients in numerous industries, including but not limited to, financial, automotive, electronic, technology, distribution and real estate. KLiCHS was established around a core of dedicated professionals with deep industry knowledge and experience that have come together to collaborate and lend their extensive know-how to serve your business with a one-stop-shop.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "New Jersey",
+    "hq_city": "Englewood Cliffs",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/klichs-llp",
+    "linkedin": "https://linkedin.com/in/kennethguidry"
+  },
+  "source_failed_basename": "d433760c085f57b832838f3cca4c4fff90b2cc9ec8c1f26c25e20c370d7a451e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d433760c085f57b832838f3cca4c4fff90b2cc9ec8c1f26c25e20c370d7a451e.precheck_failed.json",
+  "queue_key": "9a92349803bd6fc2017de2cc7d41c17c11c2ad58275281cf4c6156aa648ec4c0"
+}

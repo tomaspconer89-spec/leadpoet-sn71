@@ -15,16 +15,28 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import logging
 import os
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
+import logging
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
-from miner_models.lead_precheck import precheck_lead
+from miner_models.lead_precheck import (
+    FREE_EMAIL_DOMAINS,
+    MAX_ROLE_LEN,
+    MIN_ROLE_LEN,
+    _check_name_email_match,
+    precheck_lead,
+)
 from validator_models.industry_taxonomy import INDUSTRY_TAXONOMY
+
+logger = logging.getLogger(__name__)
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(_REPO_ROOT / ".env")
@@ -35,6 +47,14 @@ VALID_EMPLOYEE_COUNTS = {
     "501-1,000", "1,001-5,000", "5,001-10,000", "10,001+",
 }
 
+_ACTOR_SETUP_WARNED = False
+
+
+def _env_truthy(name: str) -> bool:
+    v = (os.getenv(name) or "").strip().lower()
+    return v in ("1", "true", "yes", "on")
+
+
 GENERIC_EMAIL_PREFIXES = {
     "info", "hello", "contact", "support", "admin", "office", "team",
     "sales", "enquiries", "inquiries", "mail", "help", "hi",
@@ -43,8 +63,29 @@ GENERIC_EMAIL_PREFIXES = {
 
 def normalize_employee_count(raw: str) -> str:
     v = (raw or "").strip()
+    v = re.sub(r"\s+employees?\s*$", "", v, flags=re.I).strip()
     if v in VALID_EMPLOYEE_COUNTS:
         return v
+    # LinkedIn company pages often return a bare count, e.g. "8" → SN71 bucket "2-10"
+    if re.fullmatch(r"\d+", v):
+        n = int(v)
+        if n <= 1:
+            return "0-1"
+        if n <= 10:
+            return "2-10"
+        if n <= 50:
+            return "11-50"
+        if n <= 200:
+            return "51-200"
+        if n <= 500:
+            return "201-500"
+        if n <= 1000:
+            return "501-1,000"
+        if n <= 5000:
+            return "1,001-5,000"
+        if n <= 10000:
+            return "5,001-10,000"
+        return "10,001+"
     low = v.lower()
     if low in {">1", "1-10"}:
         return "2-10"
@@ -81,6 +122,14 @@ def is_generic_email(email: str) -> bool:
         return True
     local = e.split("@", 1)[0]
     return local in GENERIC_EMAIL_PREFIXES
+
+
+def email_uses_free_provider_domain(email: str) -> bool:
+    """Matches ``lead_precheck`` consumer domains (gmail, hotmail, etc.)."""
+    e = (email or "").strip().lower()
+    if "@" not in e:
+        return False
+    return e.rsplit("@", 1)[-1] in FREE_EMAIL_DOMAINS
 
 
 def score_person(candidate: Dict[str, Any]) -> int:
@@ -375,33 +424,230 @@ def apify_search_items(query: str) -> List[Dict[str, Any]]:
     return []
 
 
-def _apify_run_sync_items(actor_id: str, payload: Dict[str, Any]) -> List[Dict[str, Any]]:
+def _apify_http_json(
+    url: str,
+    method: str = "GET",
+    headers: Optional[Dict[str, str]] = None,
+    body: Optional[bytes] = None,
+    *,
+    timeout: int = 60,
+) -> Any:
+    req = urllib.request.Request(url, data=body, headers=headers or {}, method=method)
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+        if not raw:
+            return None
+        return json.loads(raw.decode("utf-8"))
+
+
+def _apify_actor_runs_url(actor_id: str, token: str) -> str:
+    aid = (actor_id or "").strip()
+    if "/" in aid and "~" not in aid:
+        aid = aid.replace("/", "~", 1)
+    return (
+        "https://api.apify.com/v2/acts/"
+        f"{urllib.parse.quote(aid, safe='~')}/runs"
+        f"?token={urllib.parse.quote(token)}"
+    )
+
+
+def _apify_run_status_url(run_id: str, token: str, wait_for_finish: int = 60) -> str:
+    return (
+        "https://api.apify.com/v2/actor-runs/"
+        f"{urllib.parse.quote(run_id)}"
+        f"?token={urllib.parse.quote(token)}&waitForFinish={wait_for_finish}"
+    )
+
+
+def _apify_dataset_items_url(dataset_id: str, token: str) -> str:
+    return (
+        "https://api.apify.com/v2/datasets/"
+        f"{urllib.parse.quote(dataset_id)}/items"
+        f"?token={urllib.parse.quote(token)}&clean=true&format=json"
+    )
+
+
+def apify_run_async_items(
+    actor_id: str,
+    payload: Dict[str, Any],
+    *,
+    start_timeout: int = 60,
+    poll_timeout: int = 70,
+    max_wait_seconds: int = 420,
+    poll_interval: float = 3.0,
+) -> List[Dict[str, Any]]:
+    """
+    Start an Apify actor run, poll until finish, then return default dataset items.
+    Avoids run-sync-get-dataset-items long single HTTP hold; better for slow LinkedIn actors.
+    """
     token = os.getenv("APIFY_API_TOKEN", "").strip()
     aid = (actor_id or "").strip()
     if not token or not aid:
         return []
-    if "/" in aid and "~" not in aid:
-        aid = aid.replace("/", "~", 1)
-    run_url = (
-        "https://api.apify.com/v2/acts/"
-        f"{urllib.parse.quote(aid, safe='~')}/run-sync-get-dataset-items"
-        f"?token={urllib.parse.quote(token)}"
-    )
+
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
+
     try:
-        data = http_json(
+        run_url = _apify_actor_runs_url(aid, token)
+        logging.debug(
+            "Apify run start actor_id=%s payload_keys=%s",
+            actor_id,
+            sorted(payload.keys()),
+        )
+
+        run_data = _apify_http_json(
             run_url,
             method="POST",
             headers=headers,
             body=json.dumps(payload).encode("utf-8"),
+            timeout=start_timeout,
         )
-    except Exception:
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "ignore")
+        except Exception:
+            body = ""
+        logging.warning(
+            "Apify start failed: actor=%s status=%s payload_keys=%s body=%s",
+            actor_id,
+            getattr(e, "code", "unknown"),
+            sorted(payload.keys()),
+            (body or "").strip().replace("\n", " ")[:400],
+        )
         return []
-    if isinstance(data, list):
-        return [x for x in data if isinstance(x, dict)]
-    if isinstance(data, dict):
-        return [data]
+    except Exception as e:
+        logging.warning("Apify start failed: actor=%s err=%s msg=%s", actor_id, type(e).__name__, str(e),)
+        return []
+
+    run = (run_data or {}).get("data", {}) if isinstance(run_data, dict) else {}
+    run_id = run.get("id")
+    dataset_id = run.get("defaultDatasetId")
+
+    if not run_id:
+        logging.warning("Apify start failed: missing run_id actor=%s", actor_id)
+        return []
+
+    deadline = time.time() + max_wait_seconds
+    status: Optional[str] = None
+    while time.time() < deadline:
+        try:
+            status_data = _apify_http_json(
+                _apify_run_status_url(str(run_id), token, wait_for_finish=60),
+                method="GET",
+                headers={"Accept": "application/json"},
+                timeout=poll_timeout,
+            )
+        except Exception as e:
+            logging.warning("Apify poll failed: run_id=%s err=%s", run_id, type(e).__name__)
+            time.sleep(poll_interval)
+            continue
+
+        data = (status_data or {}).get("data", {}) if isinstance(status_data, dict) else {}
+        status = data.get("status")
+        dataset_id = data.get("defaultDatasetId") or dataset_id
+
+        if status == "SUCCEEDED":
+            break
+        if status in {"FAILED", "TIMED-OUT", "ABORTED"}:
+            logging.warning(
+                "Apify run ended badly: actor=%s run_id=%s status=%s",
+                actor_id,
+                run_id,
+                status,
+            )
+            return []
+
+        time.sleep(poll_interval)
+
+    if status != "SUCCEEDED" or not dataset_id:
+        logging.warning(
+            "Apify run did not finish in time: actor=%s run_id=%s status=%s",
+            actor_id,
+            run_id,
+            status,
+        )
+        return []
+
+    try:
+        items = _apify_http_json(
+            _apify_dataset_items_url(str(dataset_id), token),
+            method="GET",
+            headers={"Accept": "application/json"},
+            timeout=120,
+        )
+    except Exception as e:
+        logging.warning(
+            "Apify dataset fetch failed: actor=%s run_id=%s err=%s",
+            actor_id,
+            run_id,
+            type(e).__name__,
+        )
+        return []
+    if isinstance(items, list):
+        return [x for x in items if isinstance(x, dict)]
+    if isinstance(items, dict):
+        return [items]
     return []
+
+
+def _linkedin_actor_common_input() -> Dict[str, Any]:
+    """
+    Optional common inputs required by some LinkedIn actors.
+    These are passed when present and ignored by actors that do not need them.
+    """
+    common: Dict[str, Any] = {}
+    cookie = (os.getenv("APIFY_LINKEDIN_COOKIE") or "").strip()
+    proxy_json = (os.getenv("APIFY_LINKEDIN_PROXY_JSON") or "").strip()
+    if cookie:
+        common["cookie"] = cookie
+    if proxy_json:
+        try:
+            proxy_cfg = json.loads(proxy_json)
+            if isinstance(proxy_cfg, dict):
+                common["proxy"] = proxy_cfg
+        except Exception:
+            logging.warning("Invalid APIFY_LINKEDIN_PROXY_JSON; expected JSON object")
+    elif (os.getenv("APIFY_LINKEDIN_USE_APIFY_PROXY", "1").strip() != "0"):
+        # Safe default for many actors requiring proxy settings.
+        common["proxy"] = {"useApifyProxy": True}
+    return common
+
+
+def _warn_linkedin_actor_setup_once() -> None:
+    global _ACTOR_SETUP_WARNED
+    if _ACTOR_SETUP_WARNED:
+        return
+    _ACTOR_SETUP_WARNED = True
+    person_actor = (os.getenv("APIFY_LINKEDIN_PERSON_ACTOR_ID") or "").strip()
+    company_actor = (os.getenv("APIFY_LINKEDIN_COMPANY_ACTOR_ID") or "").strip()
+    if person_actor:
+        has_cookie = bool((os.getenv("APIFY_LINKEDIN_COOKIE") or "").strip())
+        has_proxy = bool((os.getenv("APIFY_LINKEDIN_PROXY_JSON") or "").strip()) or (
+            os.getenv("APIFY_LINKEDIN_USE_APIFY_PROXY", "1").strip() != "0"
+        )
+        if "curious_coder/linkedin-profile-scraper" in person_actor and (
+            not has_cookie or not has_proxy
+        ):
+            logging.warning(
+                "LinkedIn person actor may be unrunnable without APIFY_LINKEDIN_COOKIE "
+                "and proxy config. actor=%s cookie_set=%s proxy_set=%s",
+                person_actor,
+                has_cookie,
+                has_proxy,
+            )
+    if company_actor:
+        logging.info("Configured LinkedIn company actor: %s", company_actor)
+
+
+def _linkedin_actor_payload(payload: Dict[str, Any], common: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Merge actor input with cookie/proxy. Some Store actors (e.g. data-slayer) ship
+    defaultInput containing a placeholder ``linkedin_url`` (often Google's profile).
+    Apify merges defaults with the API body, so that default can win over list fields
+    like companyUrls unless we set ``linkedin_url`` to the URL we actually mean to scrape.
+    """
+    return {**payload, **common}
 
 
 def apify_linkedin_person_profile_items(linkedin_person_url: str) -> List[Dict[str, Any]]:
@@ -412,6 +658,7 @@ def apify_linkedin_person_profile_items(linkedin_person_url: str) -> List[Dict[s
     actor_id = os.getenv("APIFY_LINKEDIN_PERSON_ACTOR_ID", "").strip()
     if not actor_id:
         return []
+    common = _linkedin_actor_common_input()
     payload_candidates = [
         {"profileUrls": [url]},
         {"linkedinUrls": [url]},
@@ -420,7 +667,9 @@ def apify_linkedin_person_profile_items(linkedin_person_url: str) -> List[Dict[s
         {"url": url},
     ]
     for payload in payload_candidates:
-        items = _apify_run_sync_items(actor_id, payload)
+        merged = _linkedin_actor_payload(payload, common)
+        merged["linkedin_url"] = url
+        items = apify_run_async_items(actor_id, merged)
         if items:
             return items
     return []
@@ -439,6 +688,8 @@ def apify_linkedin_company_profile_items(
     actor_id = os.getenv("APIFY_LINKEDIN_COMPANY_ACTOR_ID", "").strip()
     if not actor_id:
         return []
+    common = _linkedin_actor_common_input()
+    primary = urls[0]
     payload_candidates = [
         {"companyUrls": urls},
         {"linkedinCompanyUrls": urls},
@@ -446,7 +697,9 @@ def apify_linkedin_company_profile_items(
         {"startUrls": [{"url": u} for u in urls]},
     ]
     for payload in payload_candidates:
-        items = _apify_run_sync_items(actor_id, payload)
+        merged = _linkedin_actor_payload(payload, common)
+        merged["linkedin_url"] = primary
+        items = apify_run_async_items(actor_id, merged)
         if items:
             return items
     return []
@@ -516,7 +769,7 @@ def _name_from_linkedin_slug(url: str) -> Tuple[str, str, str]:
     parts = [p for p in slug.split() if p and p.isalpha()]
     if len(parts) >= 2:
         first = parts[0].title()
-        last = " ".join(parts[1:]).title()
+        last = " ".join(parts[1:2]).title()
         return f"{first} {last}", first, last
     if len(parts) == 1:
         first = parts[0].title()
@@ -802,18 +1055,484 @@ def search_urls(query: str) -> List[str]:
     return urls
 
 
+def _extract_root_domain_host(host_or_domain: str) -> str:
+    """Match ``lead_precheck._check_email_domain_matches_website`` root comparison."""
+    d = (host_or_domain or "").lower().strip()
+    parts = d.split(".")
+    if len(parts) >= 2:
+        return ".".join(parts[-2:])
+    return d
+
+
+def _actor_email_passes_readme_name_match(lead: Dict[str, Any], email: str) -> bool:
+    """
+    README Lead Requirements: first/last must match email local part (same rules as
+    ``precheck_lead`` / ``_check_name_email_match``).
+    """
+    tmp = dict(lead)
+    tmp["email"] = (email or "").strip().lower()
+    ok, _reason = _check_name_email_match(tmp)
+    return ok
+
+
+def _actor_email_matches_lead_website(email: str, lead: Dict[str, Any]) -> bool:
+    """
+    SN71 precheck requires email domain root == website host root.
+    Do not apply Apify person emails that would fail this check.
+    """
+    em = (email or "").strip().lower()
+    if not em or "@" not in em:
+        return False
+    site = str(lead.get("website") or "").strip()
+    if not site:
+        return False
+    try:
+        u = site if site.startswith("http") else f"https://{site}"
+        host = (urllib.parse.urlparse(u).netloc or site).lower().strip()
+        if host.startswith("www."):
+            host = host[4:]
+        if not host or "linkedin.com" in host:
+            return False
+        email_root = _extract_root_domain_host(em.split("@")[-1])
+        site_root = _extract_root_domain_host(host)
+        return bool(email_root and site_root and email_root == site_root)
+    except Exception:
+        return False
+
+
+def _linkedin_company_slug(url: str) -> str:
+    m = re.search(r"linkedin\.com/company/([^/?#]+)", (url or "").strip(), flags=re.I)
+    if not m:
+        return ""
+    return m.group(1).strip().lower().rstrip("/")
+
+
+def _normalize_li_company_url(url: str) -> str:
+    u = (url or "").strip().lower().rstrip("/")
+    u = u.replace("https://", "").replace("http://", "")
+    u = u.replace("www.", "")
+    return u
+
+
+def _person_experience_for_target_company(
+    person: Dict[str, Any], company_linkedin: str, business: str
+) -> Optional[Dict[str, Any]]:
+    """Pick experience row that matches the lead's company LinkedIn URL or name."""
+    target_slug = _linkedin_company_slug(company_linkedin)
+    biz = (business or "").strip().lower()
+    exps = person.get("experience")
+    if not isinstance(exps, list):
+        return None
+    for e in exps:
+        if not isinstance(e, dict):
+            continue
+        cu = _normalize_li_company_url(e.get("company_url") or "")
+        if target_slug and (
+            f"/company/{target_slug}" in cu or cu.endswith(f"/company/{target_slug}")
+        ):
+            return e
+        slug_e = _linkedin_company_slug(e.get("company_url") or "")
+        if target_slug and slug_e == target_slug:
+            return e
+    if biz:
+        for e in exps:
+            if not isinstance(e, dict):
+                continue
+            cn = (e.get("company_name") or e.get("raw_company_name") or "").strip().lower()
+            if not cn:
+                continue
+            if biz in cn or cn in biz:
+                return e
+    return None
+
+
+def _headline_first_segment(headline: str) -> str:
+    h = " ".join((headline or "").strip().split())
+    if not h:
+        return ""
+    for sep in (" · ", " ✦ ", " | ", " – ", " — ", " - "):
+        if sep in h:
+            return h.split(sep)[0].strip()
+    return h
+
+
+def _person_role_from_linkedin_actor(
+    person: Dict[str, Any], company_linkedin: str, business: str
+) -> str:
+    """
+    data-slayer / LinkedIn person scrapers: use structured job fields only — never deep
+    ``title`` keys (featured articles, publications) which poisoned roles before.
+    """
+    ex = _person_experience_for_target_company(person, company_linkedin, business)
+    if ex:
+        t = (ex.get("job_title") or ex.get("raw_job_title") or "").strip()
+        if t:
+            return _truncate_role_text(t)
+    cur_co = _normalize_li_company_url(person.get("current_company_linkedin_url") or "")
+    lead_co = _normalize_li_company_url(company_linkedin or "")
+    if cur_co and lead_co and cur_co == lead_co:
+        for key in ("job_title", "raw_job_title"):
+            t = (person.get(key) or "").strip()
+            if t:
+                return _truncate_role_text(t)
+    for key in ("job_title", "raw_job_title", "occupation"):
+        t = (person.get(key) or "").strip()
+        if t:
+            return _truncate_role_text(t)
+    for key in ("profile_headline", "headline"):
+        h = (person.get(key) or "").strip()
+        if h:
+            return _truncate_role_text(_headline_first_segment(h))
+    return ""
+
+
+def _expand_us_state_if_abbrev(state_raw: str) -> str:
+    s = (state_raw or "").strip()
+    if not s:
+        return ""
+    if len(s) != 2 or not s.isalpha():
+        return s
+    abbrevs = {
+        "al": "Alabama",
+        "ak": "Alaska",
+        "az": "Arizona",
+        "ar": "Arkansas",
+        "ca": "California",
+        "co": "Colorado",
+        "ct": "Connecticut",
+        "de": "Delaware",
+        "fl": "Florida",
+        "ga": "Georgia",
+        "hi": "Hawaii",
+        "id": "Idaho",
+        "il": "Illinois",
+        "in": "Indiana",
+        "ia": "Iowa",
+        "ks": "Kansas",
+        "ky": "Kentucky",
+        "la": "Louisiana",
+        "me": "Maine",
+        "md": "Maryland",
+        "ma": "Massachusetts",
+        "mi": "Michigan",
+        "mn": "Minnesota",
+        "ms": "Mississippi",
+        "mo": "Missouri",
+        "mt": "Montana",
+        "ne": "Nebraska",
+        "nv": "Nevada",
+        "nh": "New Hampshire",
+        "nj": "New Jersey",
+        "nm": "New Mexico",
+        "ny": "New York",
+        "nc": "North Carolina",
+        "nd": "North Dakota",
+        "oh": "Ohio",
+        "ok": "Oklahoma",
+        "or": "Oregon",
+        "pa": "Pennsylvania",
+        "ri": "Rhode Island",
+        "sc": "South Carolina",
+        "sd": "South Dakota",
+        "tn": "Tennessee",
+        "tx": "Texas",
+        "ut": "Utah",
+        "vt": "Vermont",
+        "va": "Virginia",
+        "wa": "Washington",
+        "wv": "West Virginia",
+        "wi": "Wisconsin",
+        "wy": "Wyoming",
+        "dc": "District of Columbia",
+    }
+    return abbrevs.get(s.lower(), s.upper())
+
+
+def _person_geo_from_linkedin_actor(person: Dict[str, Any]) -> Tuple[str, str, str]:
+    """Contact location: top-level profile fields only (not nested SERP blobs)."""
+    loc = (person.get("location") or "").strip()
+    logger.warning("Person geo: loc=%s", loc)
+
+    if loc:
+        c, st, co = parse_hq_location(loc)
+        if not c and not st:
+            c, st, co = _extract_location_from_value(loc)
+        co = normalize_country_name(co) if co else co
+        st = _expand_us_state_if_abbrev(st) if st else st
+        if c or st or co:
+            logger.warning("Person geo: c=%s st=%s co=%s", c, st, co)
+            return c, st, co
+    jc = (person.get("job_location_city") or "").strip()
+    jst = (person.get("job_location_state") or "").strip()
+    jcc = (person.get("job_location_country") or "").strip().upper()
+    if jc or jst or jcc:
+        country = "United States" if jcc in ("US", "USA", "") else normalize_country_name(jcc)
+        st_f = _expand_us_state_if_abbrev(jst) if jst else ""
+        if not st_f and jst:
+            st_f = jst
+        return jc, st_f, country
+    jl = (person.get("job_location") or "").strip()
+    if jl:
+        c, st, co = parse_hq_location(jl)
+        co = normalize_country_name(co) if co else co
+        st = _expand_us_state_if_abbrev(st) if st else st
+        return c, st, co
+    return "", "", ""
+
+
+def _company_hq_from_linkedin_actor(company: Dict[str, Any]) -> Tuple[str, str, str]:
+    """HQ lines from company scraper only (separate from person contact city/state)."""
+    candidates: List[str] = []
+    hq = company.get("headquarters")
+    if isinstance(hq, str) and hq.strip():
+        candidates.append(hq.strip())
+    loc = company.get("location")
+    if isinstance(loc, str) and loc.strip():
+        candidates.append(loc.strip())
+    hqa = company.get("hq_address")
+    if isinstance(hqa, dict):
+        ad = (hqa.get("address") or "").strip()
+        if ad:
+            candidates.append(ad)
+    for txt in candidates:
+        c, st, co = parse_hq_location(txt)
+        co = normalize_country_name(co) if co else co
+        cc = (company.get("country_code") or "").strip().upper()
+        if not co and cc in ("US", "USA"):
+            co = "United States"
+        if c or st or co:
+            st = _expand_us_state_if_abbrev(st) if st and len(st) == 2 else st
+            return c, st, co
+    return "", "", ""
+
+
+def _truncate_role_text(raw: str) -> str:
+    s = " ".join((raw or "").strip().split())
+    if len(s) > MAX_ROLE_LEN:
+        cut = s[:MAX_ROLE_LEN]
+        s = cut.rsplit(" ", 1)[0].strip() if " " in cut else cut
+    if len(s) < MIN_ROLE_LEN:
+        return ""
+    return s
+
+
+def _apify_extract_person_identity(p: Dict[str, Any]) -> Tuple[str, str, str]:
+    fn = _pick_first_nonempty_str(
+        p, ["firstName", "first_name", "givenName", "first", "given_name"]
+    )
+    ln = _pick_first_nonempty_str(
+        p, ["lastName", "last_name", "surname", "last", "familyName"]
+    )
+    full = _pick_first_nonempty_str(
+        p, ["full_name", "fullName", "display_name", "displayName", "name"]
+    )
+    if full and (not fn or not ln):
+        f2, l2 = split_name(full)
+        fn = fn or f2
+        ln = ln or l2
+    if fn and ln and not full:
+        full = f"{fn} {ln}".strip()
+    return full, fn, ln
+
+
+def apply_apify_actor_results_to_lead(
+    lead: Dict[str, Any],
+    person_items: List[Dict[str, Any]],
+    company_items: List[Dict[str, Any]],
+) -> None:
+    """
+    Merge Apify LinkedIn **actor** dataset items (the runs for the resolved URLs) into
+    the lead. Non-empty actor fields overwrite existing values so incorrect crawl or
+    SERP-derived fields are repaired to match the actor response.
+
+    Emails from the person actor are applied only when they satisfy SN71 README rules:
+    no disallowed general-purpose locals (handled elsewhere), consumer-domain rules,
+    **website domain match** for corporate mail, and **name–email match** as in
+    ``precheck_lead``.
+
+    Set ``APIFY_LINKEDIN_SKIP_ACTOR_REPAIR=1`` to disable.
+    """
+    if _env_truthy("APIFY_LINKEDIN_SKIP_ACTOR_REPAIR"):
+        return
+
+    person = person_items[0] if person_items else {}
+    company = company_items[0] if company_items else {}
+
+    if isinstance(person, dict) and person:
+        full, fn, ln = _apify_extract_person_identity(person)
+        if full:
+            lead["full_name"] = full
+        if fn:
+            lead["first"] = fn
+        if ln:
+            lead["last"] = ln
+
+        em = _pick_first_nonempty_str(
+            person,
+            ["email", "publicEmail", "workEmail", "businessEmail", "primaryEmail"],
+        ).strip().lower()
+        if em and "@" in em:
+            name_ok = _actor_email_passes_readme_name_match(lead, em)
+            cur = str(lead.get("email") or "").strip().lower()
+            accept = False
+            if email_uses_free_provider_domain(em):
+                if name_ok and (
+                    email_uses_free_provider_domain(str(lead.get("email") or ""))
+                    or not str(lead.get("email") or "").strip()
+                ):
+                    accept = True
+            elif _actor_email_matches_lead_website(em, lead) and name_ok:
+                accept = True
+            if accept:
+                lead["email"] = em
+            elif cur == em:
+                # README / precheck would reject; do not keep actor or stale blob copy.
+                lead["email"] = ""
+
+        cl_co = str(lead.get("company_linkedin") or "")
+        biz = str(lead.get("business") or "")
+        role = _person_role_from_linkedin_actor(person, cl_co, biz)
+        if role:
+            lead["role"] = role
+
+        pc, pst, pco = _person_geo_from_linkedin_actor(person)
+        if pc:
+            lead["city"] = pc
+        if pst:
+            lead["state"] = pst
+        if pco:
+            lead["country"] = normalize_country_name(pco)
+
+        pu = _pick_first_nonempty_str(
+            person,
+            [
+                "linkedinUrl",
+                "profileUrl",
+                "publicProfileUrl",
+                "profile_link",
+                "profileLink",
+                "url",
+            ],
+        )
+        cleaned_p = clean_linkedin(pu, "person")
+        if cleaned_p:
+            lead["linkedin"] = cleaned_p
+
+    if isinstance(company, dict) and company:
+        nm = _pick_first_nonempty_str(
+            company, ["name", "companyName", "company", "title", "universalName"]
+        )
+        if not nm:
+            nm = _pick_first_nested_str(
+                company, ["companyName", "name", "company", "organization", "universalName"]
+            )
+        if nm:
+            lead["business"] = nm
+
+        cu = _pick_first_nonempty_str(
+            company, ["linkedinUrl", "companyUrl", "url", "linkedinCompanyUrl"]
+        )
+        if not cu:
+            cu = _pick_first_nested_str(company, ["linkedinUrl", "url", "companyUrl"])
+        cleaned_c = clean_linkedin(cu, "company")
+        if cleaned_c:
+            lead["company_linkedin"] = cleaned_c
+
+        w = _pick_first_nonempty_str(
+            company, ["website", "companyWebsite", "externalUrl", "callToActionUrl"]
+        )
+        if not w:
+            w = _pick_first_nested_str(
+                company, ["website", "companyWebsite", "url", "externalUrl"]
+            )
+        if w and "linkedin.com/" not in w.lower():
+            lead["website"] = w
+
+        hc, hst, hco = _company_hq_from_linkedin_actor(company)
+        if hc:
+            lead["hq_city"] = hc
+        if hst:
+            lead["hq_state"] = hst
+        if hco:
+            lead["hq_country"] = normalize_country_name(hco)
+
+        emp_hint = _pick_first_nonempty_str(
+            company,
+            [
+                "company_size",
+                "employee_count",
+                "employees",
+                "employeeCount",
+                "companySize",
+                "staffCount",
+                "employeeCountRange",
+            ],
+        )
+        if not emp_hint:
+            emp_hint = _pick_first_nested_str(
+                company, ["employees", "employeeCount", "companySize", "staffCount"]
+            )
+        if emp_hint:
+            lead["employee_count"] = normalize_employee_count(emp_hint)
+
+        ind = _pick_first_nonempty_str(
+            company, ["about_industry", "industry", "companyIndustry", "industries"]
+        )
+        if not ind:
+            ind = _pick_first_nested_str(company, ["industry", "companyIndustry"])
+        if ind:
+            li_line = ind.split(",")[0].strip() if "," in ind else ind.strip()
+            sub_n, ind_n = normalize_sub_industry_and_industry(
+                li_line, str(lead.get("industry") or "")
+            )
+            if sub_n:
+                lead["sub_industry"] = sub_n
+            if ind_n:
+                lead["industry"] = ind_n
+
+        d = _pick_first_nonempty_str(
+            company, ["description", "about", "summary", "tagline", "longDescription"]
+        )
+        if not d:
+            d = _pick_first_nested_str(
+                company, ["description", "about", "summary", "headline", "tagline"]
+            )
+        if d:
+            lead["description"] = ensure_min_description(
+                d,
+                str(lead.get("business") or ""),
+                str(lead.get("industry") or ""),
+                str(lead.get("sub_industry") or ""),
+                str(lead.get("website") or ""),
+            )
+
+    _sync_location_fields(lead)
+
+
 def enrich_linkedin_fields(
     lead: Dict[str, Any],
     *,
     enrich_debug: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
-    Fill missing LinkedIn fields and opportunistically enrich other lead fields
-    (name/role/location/email/website) from Apify search evidence.
+    Original flow: Apify search discovers LinkedIn URLs and builds evidence text;
+    slug heuristics and blob extraction fill gaps.
 
-    If ``enrich_debug`` is a dict, it is filled with Apify raw search items and
-    query metadata for offline inspection (used by collect_leads_precheck_only).
+    ``apply_apify_actor_results_to_lead`` runs **after** that so values from the
+    LinkedIn actor datasets (for the resolved URLs) overwrite incorrect crawl/SERP
+    fields.
+
+    Existing ``lead["linkedin"]`` / ``lead["company_linkedin"]`` are kept unless
+    ``APIFY_LINKEDIN_REDISCOVER_URLS=1``. Disable actor repair with
+    ``APIFY_LINKEDIN_SKIP_ACTOR_REPAIR=1``.
+
+    If ``enrich_debug`` is a dict, it is filled with search items and actor payloads.
     """
+    _warn_linkedin_actor_setup_once()
+    if _env_truthy("APIFY_LINKEDIN_REDISCOVER_URLS"):
+        lead.pop("linkedin", None)
+        lead.pop("company_linkedin", None)
+
     business = (lead.get("business") or "").strip()
     website = (lead.get("website") or "").strip()
     domain = extract_domain(website)
@@ -831,7 +1550,6 @@ def enrich_linkedin_fields(
     person_queries.append(f'site:linkedin.com/in "{business}" ceo')
     all_queries = [q for q in (company_queries + person_queries) if q.strip()]
 
-    # Prefer Apify raw items for richer evidence extraction.
     apify_items: List[Dict[str, Any]] = []
     for q in all_queries:
         apify_items.extend(apify_search_items(q))
@@ -871,7 +1589,6 @@ def enrich_linkedin_fields(
             if lead.get("linkedin"):
                 break
 
-    # Build broader evidence corpus: Apify search + optional Apify profile scrapers.
     evidence_blobs: List[str] = list(apify_blobs)
     apify_person_profile_items: List[Dict[str, Any]] = []
     apify_company_profile_items: List[Dict[str, Any]] = []
@@ -888,7 +1605,6 @@ def enrich_linkedin_fields(
         for item in apify_company_profile_items:
             _collect_text_blobs(item, evidence_blobs)
 
-    # Additional non-linkedin enrichment from LinkedIn URL + evidence corpus.
     if lead.get("linkedin"):
         full, first, last = _name_from_linkedin_slug(str(lead.get("linkedin") or ""))
         if _looks_low_quality(str(lead.get("full_name") or "")) and full:
@@ -898,7 +1614,9 @@ def enrich_linkedin_fields(
         if _looks_low_quality(str(lead.get("last") or "")) and last:
             lead["last"] = last
 
-    if _looks_low_quality(str(lead.get("full_name") or "")) or _looks_low_quality(str(lead.get("last") or "")):
+    if _looks_low_quality(str(lead.get("full_name") or "")) or _looks_low_quality(
+        str(lead.get("last") or "")
+    ):
         f2, p2, l2 = _extract_person_name_from_blobs(evidence_blobs)
         if f2:
             lead["full_name"] = f2
@@ -908,110 +1626,49 @@ def enrich_linkedin_fields(
             lead["last"] = l2
 
     em = _extract_email_from_blobs(evidence_blobs)
-    if not em and apify_person_profile_items:
-        em = _pick_first_nonempty_str(
-            apify_person_profile_items[0],
-            ["email", "publicEmail", "workEmail", "businessEmail"],
-        ).lower()
-        if "@" not in em:
-            em = ""
     cur_email = str(lead.get("email") or "").strip().lower()
-    if em and (_looks_low_quality(cur_email) or is_generic_email(cur_email)):
-        lead["email"] = em
+    if em and (
+        _looks_low_quality(cur_email)
+        or is_generic_email(cur_email)
+        or email_uses_free_provider_domain(cur_email)
+    ):
+        if (not email_uses_free_provider_domain(em)) or (
+            email_uses_free_provider_domain(cur_email) or not cur_email
+        ):
+            lead["email"] = em
 
     role = _extract_role_from_blobs(evidence_blobs)
-    if not role and apify_person_profile_items:
-        role = _pick_first_nested_str(
-            apify_person_profile_items[0],
-            ["headline", "title", "position", "jobTitle", "occupation"],
-        )
+    role = _truncate_role_text(role)
     if role and _looks_low_quality(str(lead.get("role") or "")):
         lead["role"] = role
 
     city, state, country = _extract_location_from_blobs(evidence_blobs)
-    if (not city or not country) and apify_person_profile_items:
-        loc_hint = _pick_first_nested_str(
-            apify_person_profile_items[0],
-            ["location", "geoLocation", "cityStateCountry"],
-        )
-        c2, s2, co2 = _extract_location_from_value(loc_hint)
-        city = city or c2
-        state = state or s2
-        country = country or co2
-    if (not city or not country) and apify_company_profile_items:
-        loc_hint = _pick_first_nested_str(
-            apify_company_profile_items[0],
-            ["location", "headquarters", "hqLocation", "address"],
-        )
-        c2, s2, co2 = _extract_location_from_value(loc_hint)
-        city = city or c2
-        state = state or s2
-        country = country or co2
     if city and _looks_low_quality(str(lead.get("city") or "")):
         lead["city"] = city
     if state and _looks_low_quality(str(lead.get("state") or "")):
         lead["state"] = state
     if country and _looks_low_quality(str(lead.get("country") or "")):
         lead["country"] = normalize_country_name(country)
-    if lead.get("country") and not lead.get("hq_country"):
-        lead["hq_country"] = lead.get("country")
-    if lead.get("state") and not lead.get("hq_state"):
-        lead["hq_state"] = lead.get("state")
-    if lead.get("city") and not lead.get("hq_city"):
-        lead["hq_city"] = lead.get("city")
+    _sync_location_fields(lead)
 
     if _looks_low_quality(str(lead.get("business") or "")):
         cn = _company_name_from_company_linkedin(str(lead.get("company_linkedin") or ""))
         if cn:
             lead["business"] = cn
-    if apify_company_profile_items and _looks_low_quality(str(lead.get("business") or "")):
-        nm = _pick_first_nonempty_str(
-            apify_company_profile_items[0],
-            ["name", "companyName", "company", "title"],
-        )
-        if not nm:
-            nm = _pick_first_nested_str(
-                apify_company_profile_items[0],
-                ["companyName", "name", "company", "organization"],
-            )
-        if nm:
-            lead["business"] = nm
 
     emp = _extract_employee_count_from_blobs(evidence_blobs)
-    if emp and (_looks_low_quality(str(lead.get("employee_count") or "")) or str(lead.get("employee_count") or "") not in VALID_EMPLOYEE_COUNTS):
-        lead["employee_count"] = normalize_employee_count(emp)
-    if apify_company_profile_items and (
+    if emp and (
         _looks_low_quality(str(lead.get("employee_count") or ""))
         or str(lead.get("employee_count") or "") not in VALID_EMPLOYEE_COUNTS
     ):
-        emp_hint = _pick_first_nonempty_str(
-            apify_company_profile_items[0],
-            ["employees", "employeeCount", "companySize", "staffCount"],
-        )
-        if not emp_hint:
-            emp_hint = _pick_first_nested_str(
-                apify_company_profile_items[0],
-                ["employees", "employeeCount", "companySize", "staffCount"],
-            )
-        if emp_hint:
-            lead["employee_count"] = normalize_employee_count(emp_hint)
+        lead["employee_count"] = normalize_employee_count(emp)
 
-    if _looks_low_quality(str(lead.get("website") or "")) or "linkedin.com/" in str(lead.get("website") or "").lower():
+    if _looks_low_quality(str(lead.get("website") or "")) or "linkedin.com/" in str(
+        lead.get("website") or ""
+    ).lower():
         w = _extract_non_linkedin_website_from_blobs(evidence_blobs)
         if w:
             lead["website"] = w
-    if apify_company_profile_items and _looks_low_quality(str(lead.get("website") or "")):
-        w2 = _pick_first_nonempty_str(
-            apify_company_profile_items[0],
-            ["website", "companyWebsite", "url"],
-        )
-        if not w2:
-            w2 = _pick_first_nested_str(
-                apify_company_profile_items[0],
-                ["website", "companyWebsite", "url"],
-            )
-        if w2 and "linkedin.com/" not in w2.lower():
-            lead["website"] = w2
     if not str(lead.get("source_url") or "").strip():
         lead["source_url"] = str(lead.get("website") or "")
     if _looks_low_quality(str(lead.get("description") or "")):
@@ -1022,24 +1679,10 @@ def enrich_linkedin_fields(
             str(lead.get("sub_industry") or ""),
             str(lead.get("website") or ""),
         )
-    if apify_company_profile_items and _looks_low_quality(str(lead.get("description") or "")):
-        d2 = _pick_first_nonempty_str(
-            apify_company_profile_items[0],
-            ["description", "about", "summary", "headline"],
-        )
-        if not d2:
-            d2 = _pick_first_nested_str(
-                apify_company_profile_items[0],
-                ["description", "about", "summary", "headline", "tagline"],
-            )
-        if d2:
-            lead["description"] = ensure_min_description(
-                d2,
-                str(lead.get("business") or ""),
-                str(lead.get("industry") or ""),
-                str(lead.get("sub_industry") or ""),
-                str(lead.get("website") or ""),
-            )
+
+    apply_apify_actor_results_to_lead(
+        lead, apify_person_profile_items, apify_company_profile_items
+    )
 
     if enrich_debug is not None:
         enrich_debug.clear()

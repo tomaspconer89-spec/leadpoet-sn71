@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "Howdy Partners",
+  "lead": {
+    "business": "Howdy Partners",
+    "full_name": "Logo Lead",
+    "first": "Logo",
+    "last": "Lead",
+    "email": "logo@2x.png",
+    "role": "Contact",
+    "website": "http://www.greatercolorado.vc",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Boulder",
+    "source_url": "https://accessvp.com",
+    "description": "We are a venture capital fund investing in early-stage startups headquartered across the state of Colorado, outside of the Front Range. We are working to inspire innovation in places formerly overlooked by venture funds.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Colorado",
+    "hq_city": "Telluride + Durango + Wherever We Park",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/howdyvc"
+  },
+  "source_failed_basename": "9484a49279085cf6bd97295379680fce32544de0a5e81850e23fb50420071da6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9484a49279085cf6bd97295379680fce32544de0a5e81850e23fb50420071da6.precheck_failed.json",
+  "queue_key": "8c481c4f755f6b7deb5f16c3cd12c2a5ba0fe9bf34a747c060c9f60a282e3da8"
+}

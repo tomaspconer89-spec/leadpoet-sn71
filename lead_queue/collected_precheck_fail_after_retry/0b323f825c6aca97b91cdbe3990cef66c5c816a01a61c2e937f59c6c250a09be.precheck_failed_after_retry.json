@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Fractional CFO and COO | Startup Builders",
+  "lead": {
+    "business": "Fractional CFO and COO | Startup Builders",
+    "full_name": "Ryan Knaack",
+    "first": "Ryan",
+    "last": "Knaack",
+    "email": "ernietoth@bellairadvisors.com",
+    "role": "Founding Partner",
+    "website": "http://www.cfo-fractional.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Wisconsin",
+    "city": "Sun Prairie",
+    "source_url": "https://venturegrowthpartners.com",
+    "description": "Senior-level expertise that is flexible and cost effective is increasingly in demand as companies seek enhanced profitability, growth, exit or acquisitions. Fractional CXOs have come to the rescue. Our company focus is Fractional CFO and COO services. THE FRACTIONAL CFO and COO They are seasoned executives who offer their expertise to companies on a part-time or temporary basis. Businesses can benefit from their senior-level strategic guidance at a fraction of the cost, and at a moment\u2019s notice. Key Characteristics: 1. Flexible Arrangement:",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/vgp-venture-growth-partners",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupbuilders",
+    "linkedin": "https://linkedin.com/in/ryan-knaack-51810610"
+  },
+  "source_failed_basename": "334d53608dcf83a22f6254cc496537ddfbdb0b2261c0e2248945b1eaa7a2cd4d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/334d53608dcf83a22f6254cc496537ddfbdb0b2261c0e2248945b1eaa7a2cd4d.precheck_failed.json",
+  "queue_key": "0b323f825c6aca97b91cdbe3990cef66c5c816a01a61c2e937f59c6c250a09be"
+}

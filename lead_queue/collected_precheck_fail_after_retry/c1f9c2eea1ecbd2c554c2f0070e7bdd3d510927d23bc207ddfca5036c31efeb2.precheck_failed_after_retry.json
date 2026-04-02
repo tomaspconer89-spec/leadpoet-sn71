@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country",
+  "business": "Holt Consulting Company, LLC",
+  "lead": {
+    "business": "Holt Consulting Company, LLC",
+    "full_name": "Ken Holt",
+    "first": "Ken",
+    "last": "Holt",
+    "email": "",
+    "role": "Principal",
+    "website": "https://holtconsultingco.com",
+    "industry": "Science and Engineering",
+    "sub_industry": "Civil Engineering",
+    "country": "United States",
+    "state": "South Carolina Metropolitan Area",
+    "city": "Columbia",
+    "source_url": "https://holtconsultingco.com",
+    "description": "Holt Consulting Company is a multi-discipline engineering firm that provides planning, design, and management services for transportation infrastructure. Holt Consulting was established by two long-time friends and co-workers, Paul Holt and Ken Holt. Paul and Ken worked together at a well-known transportation consulting firm for more than 25 years before launching HOLT. HOLT\u2019s relationship-based culture coupled with responsive communication and action makes them the consultant of choice for state and local governments. The two founders learned transportation consulting from the ground up;",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "South Carolina",
+    "hq_city": "Columbia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/holt-consulting-company-llc",
+    "linkedin": "https://linkedin.com/in/ken-holt-7613a7ba"
+  },
+  "source_failed_basename": "8840c82972502c8791d3f41f663470a64ca7c6f9ea9a602e9a8bfc2f2860f147.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8840c82972502c8791d3f41f663470a64ca7c6f9ea9a602e9a8bfc2f2860f147.precheck_failed.json",
+  "queue_key": "c1f9c2eea1ecbd2c554c2f0070e7bdd3d510927d23bc207ddfca5036c31efeb2"
+}

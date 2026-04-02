@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Vincents",
+  "lead": {
+    "business": "Vincents",
+    "full_name": "Vincent Maiello",
+    "first": "Vincent",
+    "last": "Maiello",
+    "email": "",
+    "role": "Founder & Managing Director | Business Transformation \u00b7 Strategy \u00b7 Revenue",
+    "website": "https://www.vincents.com.au",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "New York",
+    "city": "Bellmore",
+    "source_url": "https://vincents.com.au",
+    "description": "We are an accounting and advisory firm with a team of over 270 experts. Over the last three decades, we have developed expertise across the financial services industry. We draw upon this experience to deliver true insights and exceptional client service. Our point of difference lies in our dedication to providing comprehensive insights informed by subject matter expertise. The long-standing relationships we build with our clients are a testament to the exceptional results we deliver.",
+    "employee_count": "201-500",
+    "hq_country": "QLD",
+    "hq_state": "New York",
+    "hq_city": "Brisbane",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/vincents-australia",
+    "linkedin": "https://linkedin.com/in/vincentmaiello"
+  },
+  "source_failed_basename": "8320293041f71b782f10c3469a461174979a17bc4494a940f705478df6006b4c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8320293041f71b782f10c3469a461174979a17bc4494a940f705478df6006b4c.precheck_failed.json",
+  "queue_key": "771731fea4c5adbe0f97e427654413a3b3aab945c04c84be04e7887941fd6f34"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Everto Consulting GmbH - Ihr Spezialist f\u00fcr den Unternehmensverkauf",
+  "lead": {
+    "business": "Everto Consulting GmbH - Ihr Spezialist f\u00fcr den Unternehmensverkauf",
+    "full_name": "Lutz Braun",
+    "first": "Lutz",
+    "last": "Braun",
+    "email": "info@venture-advisory-partners.com",
+    "role": "Erfolgreicher Unternehmensverkauf",
+    "website": "https://everto-consulting.de/impressum/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Germany",
+    "state": "Baden-W\u00fcrttemberg",
+    "city": "Flein",
+    "source_url": "https://venture-advisory-partners.com",
+    "description": "Eine Strategie ist dann am besten, wenn das Ergebnis erfolgreich und profitabel wird. Ob Unternehmenskauf, Unternehmensverkauf oder Nachfolgeplanung \u2013 EVERTO erarbeitet f\u00fcr den Mittelstand seit \u00fcber 20 Jahren fundierte Entscheidungsgrundlagen wie Analysen, Konzepte und L\u00f6sungen f\u00fcr sichtbare Erfolge. Anschlie\u00dfend begleiten wir unsere Mandanten auf Wunsch auch auf dem Weg zu ihrem Ziel. So wird jedes Vorhaben eine sichere Punktlandung. Wobei d\u00fcrfen wir Sie unterst\u00fctzen?",
+    "employee_count": "2-10",
+    "hq_country": "HH",
+    "hq_state": "Baden-W\u00fcrttemberg",
+    "hq_city": "Hamburg",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://de.linkedin.com/company/everto-consulting",
+    "linkedin": "https://linkedin.com/in/lutz-braun"
+  },
+  "source_failed_basename": "c74bf5f323fe136e2c54e3502ddd842f2d446bdc79cf8b40579769fdf3f8ab2e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c74bf5f323fe136e2c54e3502ddd842f2d446bdc79cf8b40579769fdf3f8ab2e.precheck_failed.json",
+  "queue_key": "b8864bf6d73e807087b327eb0aca66eccfd30f60c5d4fff470d7be2ec22c1235"
+}

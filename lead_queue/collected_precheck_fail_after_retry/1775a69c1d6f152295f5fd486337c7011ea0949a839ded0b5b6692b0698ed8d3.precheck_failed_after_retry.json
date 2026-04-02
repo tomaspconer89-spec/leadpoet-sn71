@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "512Financial",
+  "lead": {
+    "business": "512Financial",
+    "full_name": "Info Lead",
+    "first": "Bart",
+    "last": "Davis 1B460150",
+    "email": "info@512financial.com",
+    "role": "Contact",
+    "website": "https://512financial.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "WI",
+    "city": "Psychology and Human Services from Edgewood College of Madison",
+    "source_url": "https://512financial.com",
+    "description": "512Financial is a fractional financial and organizational leadership firm built for investor-backed, high-growth companies from Series A through mid-stage, as well as select Seed companies preparing to raise. We're the right partner when growth is outpacing systems and you need senior operators building your foundation for your next stage. Six Services. One Integrated Partner. -Finance -Accounting -Transaction Advisory -People Operations -Executive Retained Search -Strategic Talent Planning",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/512-financial"
+  },
+  "source_failed_basename": "5a7f5e8f64803d2ef149b449f71d26d5e5a6fa5c71f6cb4a60301e533921d3c1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5a7f5e8f64803d2ef149b449f71d26d5e5a6fa5c71f6cb4a60301e533921d3c1.precheck_failed.json",
+  "queue_key": "1775a69c1d6f152295f5fd486337c7011ea0949a839ded0b5b6692b0698ed8d3"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Centri",
+  "lead": {
+    "business": "Centri",
+    "full_name": "Christopher Mora, CPA",
+    "first": "Christopher",
+    "last": "Mora, CPA",
+    "email": "",
+    "role": "Chief Revenue Officer & Partner, Capital Markets Practice Leader",
+    "website": "http://www.centriconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "source_url": "https://centriconsulting.com",
+    "description": "Centri Business Consulting provides the highest quality advisory consulting services to its clients by being reliable and responsive to their needs. Centri provides companies with the expertise they need to meet their reporting demands. Centri specializes in financial reporting, internal controls, technical accounting research, valuation, mergers & acquisitions, and tax, CFO and HR advisory services for companies of various sizes and industries.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Pennsylvania",
+    "hq_city": "Philadelphia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/centri-business-consulting-llc",
+    "linkedin": "https://linkedin.com/in/christophermoracpa"
+  },
+  "source_failed_basename": "a4ee32507e6118c1e61f0bf8873acfb710d73758e643773a4ef5582adb09a682.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/a4ee32507e6118c1e61f0bf8873acfb710d73758e643773a4ef5582adb09a682.precheck_failed.json",
+  "queue_key": "9d270cdd0f2fa83834f701f754412c5a1021702a93f332bfce8cdfce2bad6907"
+}

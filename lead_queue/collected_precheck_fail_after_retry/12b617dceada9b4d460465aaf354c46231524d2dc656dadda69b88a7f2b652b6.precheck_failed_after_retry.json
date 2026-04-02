@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "Welcome Home Massachusetts",
+  "lead": {
+    "business": "Welcome Home Massachusetts",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@charlesriverchamber.com",
+    "role": "Contact",
+    "website": "http://www.welcomehomemass.org",
+    "industry": "Community and Lifestyle",
+    "sub_industry": "Family",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "West Newton",
+    "source_url": "https://charlesriverchamber.com",
+    "description": "Welcome Home strives to provide families experiencing hardship with basic household items they need to live with dignity. We are a local nonprofit organization in Newton, Massachusetts, that collects and redistributes like-new household items to hundreds of people in need each month with no fees, no forms and no requirements. Any items that we cannot use are repurposed or recycled appropriately, thus benefiting the environment. We take donations by appointment several times a week. See our website for more details on making donations and how to request home goods. Note:",
+    "employee_count": "0-1",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "West Newton",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/crrchamber",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/welcome-home-massachusetts"
+  },
+  "source_failed_basename": "e4d0c49e06033e3089e163bd94719f907549fcf9a02242076b3ec72965863e28.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/e4d0c49e06033e3089e163bd94719f907549fcf9a02242076b3ec72965863e28.precheck_failed.json",
+  "queue_key": "12b617dceada9b4d460465aaf354c46231524d2dc656dadda69b88a7f2b652b6"
+}

@@ -1,0 +1,41 @@
+{
+  "source_file": "2dd9d5fa0df7d04e79d2cba3005de67af64e6efc8cae55294bcc15b50427ed7a.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "Pinewood Consulting, LLC",
+    "full_name": "Chad Pavel",
+    "first": "Chad",
+    "last": "Pavel",
+    "email": "chad@pinewoodfs.com",
+    "role": "Managing Partner",
+    "website": "https://pinewoodfs.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "linkedin": "https://www.linkedin.com/in/chadpavel",
+    "company_linkedin": "https://www.linkedin.com/company/pinewood-consulting-llc",
+    "source_url": "https://pinewoodfs.com",
+    "description": "We Help High-Growth Companies Scale by Integrating Finance, Accounting & Technology. Helping founders, CEOs, CFOs, and VC/PE sponsors.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Connecticut",
+    "hq_city": "Stamford",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "VTA Advisors",
+  "lead": {
+    "business": "VTA Advisors",
+    "full_name": "Legal Lead",
+    "first": "Legal",
+    "last": "Lead",
+    "email": "legal@countingworks.com",
+    "role": "Contact",
+    "website": "http://www.vtaadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Virginia",
+    "city": "Fairfax",
+    "source_url": "https://vtaadvisors.com",
+    "description": "At VTA Advisors we provide high quality service to our clients at reasonable rates. Our services \u2022 Tax planning and return preparation, including e-filing \u2022 Company formation and ensuring continued compliance \u2022 Accounting and book-keeping \u2022 Payroll",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Fairfax",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/vtaadvisors"
+  },
+  "source_failed_basename": "7c4289ddad9b86c5e7fdb98799eca98bb1d75c05ebf294560c1d1cc642ada62e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/7c4289ddad9b86c5e7fdb98799eca98bb1d75c05ebf294560c1d1cc642ada62e.precheck_failed.json",
+  "queue_key": "a4870d157840ec63446c18cdcf0202de5d334808b27e97df89c7b9a0ea8b90b1"
+}

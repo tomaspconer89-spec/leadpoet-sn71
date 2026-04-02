@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "free_email_domain:gmail.com",
+  "business": "Growth Advisory Partners, LLC",
+  "lead": {
+    "business": "Growth Advisory Partners, LLC",
+    "full_name": "Nestor Evancevich, Jr.",
+    "first": "Nestor",
+    "last": "Evancevich, Jr.",
+    "email": "drkimrubenstein@gmail.com",
+    "role": "Senior Consultant",
+    "website": "http://www.growth-advisory.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://growthadvisorypartners.com",
+    "description": "At Growth Advisory Partners, our sole mission is to deliver exceptional results for our clients by helping them grow or monetize their businesses. Hence, we are able to add value at a number of critical points in a company\u2019s lifecycle. So whether you are looking to accelerate growth through acquisition or obtaining additional capital, or transfer ownership of your business, we partner with you to develop and implement an optimal solution. At Growth Advisory Partners, our sole mission is to deliver exceptional results for our clients by helping them grow or monetize their businesses.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/growthadvisorypartnersllc",
+    "linkedin": "https://linkedin.com/in/nestor-evancevich-jr-8450449"
+  },
+  "source_failed_basename": "02d6ed1e0301ad68849ff17f2e180e9f018fcedb1ac30655a15c2a370d304394.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/02d6ed1e0301ad68849ff17f2e180e9f018fcedb1ac30655a15c2a370d304394.precheck_failed.json",
+  "queue_key": "250cef4ae3fbf3380443ba5194c805b8cc1e02db505a4b6111b8f5b9904e5da1"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "email_domain_mismatch",
+  "business": "The Startup Advisory",
+  "lead": {
+    "business": "The Startup Advisory",
+    "full_name": "Jason Bulger",
+    "first": "Jason",
+    "last": "Bulger",
+    "email": "jason.b@revity.com.au",
+    "role": "Founder & CEO",
+    "website": "http://www.thestartupadvisory.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Australia",
+    "state": "California",
+    "city": "Greater Melbourne Area",
+    "source_url": "https://thestartupadvisory.com",
+    "description": "I help early-stage startup founders in the USA and Australia get their businesses commercially ready to scale, without the cost or commitment of a full-time Head of Sales or CRO. Most founders I work with are strong product builders with early traction, typically doing $1\u2013$5M in revenue. They know growth is coming, but sales leadership, go-to-market structure, and revenue execution aren\u2019t yet dialed in. They need clarity, validation, and experienced guidance before hiring ahead of scale. That\u2019s where I step in.",
+    "employee_count": "0-1",
+    "hq_country": "Victoria",
+    "hq_state": "California",
+    "hq_city": "Melbourne",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-startup-advisory",
+    "linkedin": "https://linkedin.com/in/jasonbulger"
+  },
+  "source_failed_basename": "cb309ce52d9d58031c1e8c96d9818a520c5402eb155168a35677dbba688c71ff.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/cb309ce52d9d58031c1e8c96d9818a520c5402eb155168a35677dbba688c71ff.precheck_failed.json",
+  "queue_key": "f811b6dc272911c1ccca21215fa8d61bcae8973ea2262ea512d446d9fc7f6e4d"
+}

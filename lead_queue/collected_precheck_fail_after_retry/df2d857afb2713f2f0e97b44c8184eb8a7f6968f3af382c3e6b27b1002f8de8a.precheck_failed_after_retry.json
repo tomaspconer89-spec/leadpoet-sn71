@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Venture Consulting Group, Inc.",
+  "lead": {
+    "business": "Venture Consulting Group, Inc.",
+    "full_name": "Venture Consulting",
+    "first": "Venture",
+    "last": "Consulting",
+    "email": "info@venture-consulting.org",
+    "role": "Founder",
+    "website": "http://www.venture-consulting.com",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "India",
+    "state": "Gujarat",
+    "city": "Vadodara",
+    "source_url": "https://venture-consulting.org",
+    "description": "Venture Consulting Group is a team of individuals that provide a complete package of services for your company. We can guide you by consulting and carrying out services in any and all departments of business finance, technical methodology, management practices, design & online presence, industry news & information, public relations, and training to further education. No matter where you are today, we can provide a better tomorrow.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Ohio",
+    "hq_city": "Marietta",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-consulting-group-inc-",
+    "linkedin": "https://linkedin.com/in/venture-consulting-992681362"
+  },
+  "source_failed_basename": "b5025559bd6f114189fc5253956195054320eb0bacfbd134737534002f1d6363.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b5025559bd6f114189fc5253956195054320eb0bacfbd134737534002f1d6363.precheck_failed.json",
+  "queue_key": "df2d857afb2713f2f0e97b44c8184eb8a7f6968f3af382c3e6b27b1002f8de8a"
+}

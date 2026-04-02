@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Qubit Capital",
+  "lead": {
+    "business": "Qubit Capital",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Co-Founder",
+    "website": "https://qubit.capital/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Dubai",
+    "state": "",
+    "city": "",
+    "source_url": "https://qubit.capital",
+    "description": "Rare & razor-sharp hot takes on the global startup verse What do we do? We transform Startup Fundraising by bridging the gap between visionary founders and the right investors. Our innovative AI-Powered Matchmaking streamlines Investor Discovery, connecting startups with Venture Capital firms, Angel Investors, and family offices. We are on a mission to democratize access to capital, because every startup deserves a chance. Our Tailored Fundraising Solutions cover every aspect of the fundraising journey like:",
+    "employee_count": "51-200",
+    "hq_country": "Dubai",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ae.linkedin.com/company/qubit-capital"
+  },
+  "source_failed_basename": "ba0b5a0f917e28f0e1e6fbfaf597511aa770ef493949f9d8c817893d1ccf93ab.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ba0b5a0f917e28f0e1e6fbfaf597511aa770ef493949f9d8c817893d1ccf93ab.precheck_failed.json",
+  "queue_key": "3e3e961b6c087cbdae64099a9415d6988be7dde900698852f9a5af55671a7638"
+}

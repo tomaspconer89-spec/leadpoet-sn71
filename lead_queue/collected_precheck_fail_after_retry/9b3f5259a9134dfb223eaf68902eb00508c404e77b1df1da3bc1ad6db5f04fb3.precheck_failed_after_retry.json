@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "retry_reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Ocala Metro Chamber & Economic Partnership",
+  "lead": {
+    "business": "Ocala Metro Chamber & Economic Partnership",
+    "full_name": "Norman Vel\u00e1squez \u00c1lvarez",
+    "first": "Norman",
+    "last": "Vel\u00e1squez \u00c1lvarez",
+    "email": "norman@ocalacep.com",
+    "role": "Director IMPACT Entrepreneurship Services",
+    "website": "http://www.ocalacep.com",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Ocala",
+    "source_url": "https://ocalacep.com",
+    "description": "The Ocala Metro Chamber & Economic Partnership is a private, not-for-profit organization whose mission is to be the catalyst for a prosperous community. The vision for the new organization is for Ocala/Marion County to be a vibrant community with a stable, diversified economy. The CEP will drive community transformation and strengthen business! Established in 1887, the organization remains a leader in the development of programs, initiatives and events that create a healthy and prosperous environment in which to conduct business.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Ocala",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ocalacep",
+    "linkedin": "https://linkedin.com/in/norman-vel\u00e1squez-\u00e1lvarez-441537270"
+  },
+  "source_failed_basename": "4c5f1ec4d95e76a14112eab5a888f673da04e5c82f0861bda33e0480c0b1461c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4c5f1ec4d95e76a14112eab5a888f673da04e5c82f0861bda33e0480c0b1461c.precheck_failed.json",
+  "queue_key": "9b3f5259a9134dfb223eaf68902eb00508c404e77b1df1da3bc1ad6db5f04fb3"
+}

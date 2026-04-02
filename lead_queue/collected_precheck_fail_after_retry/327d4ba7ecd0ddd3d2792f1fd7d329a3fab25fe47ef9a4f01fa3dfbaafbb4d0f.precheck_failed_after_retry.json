@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "LotusAI",
+  "lead": {
+    "business": "LotusAI",
+    "full_name": "Adam Genn",
+    "first": "Adam",
+    "last": "Genn",
+    "email": "",
+    "role": "GTM",
+    "website": "http://www.lotusai.co.uk",
+    "industry": "Professional Services",
+    "sub_industry": "Professional Services",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://consultvp.com",
+    "description": "LotusAI helps leaders ignite their businesses with the power and impact of responsible, sustainable, and inclusive AI. Our clients range from established private equity to financial service enterprises like Goldman Sachs to digital technology consulting firms and PE-backed ventures. The proliferation of generative AI provides incredible opportunities, especially for those who understand the full risk and reward landscape. As AI strategists and advisors, we help leaders navigate the complexity with core offerings:",
+    "employee_count": "11-50",
+    "hq_country": "United Kingdom",
+    "hq_state": "New York",
+    "hq_city": "London",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/consult-venture-partners",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/lotusailtd",
+    "linkedin": "https://linkedin.com/in/adamgenn"
+  },
+  "source_failed_basename": "5d537285a4d7e76f5b9887a1833c202a8b1da75281699e518664ce7218d0363b.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5d537285a4d7e76f5b9887a1833c202a8b1da75281699e518664ce7218d0363b.precheck_failed.json",
+  "queue_key": "327d4ba7ecd0ddd3d2792f1fd7d329a3fab25fe47ef9a4f01fa3dfbaafbb4d0f"
+}

@@ -1,0 +1,1178 @@
+{
+  "saved_at_utc": "2026-03-31T21:50:44.907533+00:00",
+  "queue_key": "87173318c23511e687c620b7580b23ffe8eb7bb296b639a569f5bb9070597726",
+  "business": "Home | Fairmount Ventures",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Home | Fairmount Ventures",
+      "Home | Fairmount Ventures linkedin company",
+      "site:linkedin.com/company fairmountinc.com",
+      "site:linkedin.com/in \"Home | Fairmount Ventures\" founder",
+      "site:linkedin.com/in \"Home | Fairmount Ventures\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "qrtgo3TIQCAJcvs",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+%7C+Fairmount+Ventures",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+%7C+Fairmount+Ventures",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Home | Fairmount Ventures",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+%7C+Fairmount+Ventures",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+%7C+Fairmount+Ventures",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Home fairmount ventures philadelphia",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+philadelphia&sa=X&ved=2ahUKEwiE4eSRj8uTAxVyR0EAHfmHIsAQ1QJ6BAgwEAE"
+          },
+          {
+            "title": "Home fairmount ventures salary",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+salary&sa=X&ved=2ahUKEwiE4eSRj8uTAxVyR0EAHfmHIsAQ1QJ6BAgxEAE"
+          },
+          {
+            "title": "Home fairmount ventures philadelphia",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+philadelphia&sa=X&ved=2ahUKEwiE4eSRj8uTAxVyR0EAHfmHIsAQ1QJ6BAgwEAE"
+          },
+          {
+            "title": "Home fairmount ventures salary",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+salary&sa=X&ved=2ahUKEwiE4eSRj8uTAxVyR0EAHfmHIsAQ1QJ6BAgxEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://www.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "A Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising, strategy, and leadership development\u00a0...Read more",
+            "emphasizedKeywords": [
+              "A Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://ar.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "https://ar.linkedin.com \u203a company \u203a fairmount-ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://cn.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "https://cn.linkedin.com \u203a company \u203a fairmount-ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Home Technology Ventures",
+            "url": "https://www.linkedin.com/company/home-technology-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Home Technology Ventures",
+            "description": "Home Technology Ventures is an early-stage investment fund dedicated to accelerating the pace of adoption of new technologies and innovative business models in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "an early-stage investment fund"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "400+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Homegrown Ventures",
+            "url": "https://www.linkedin.com/company/homegrownventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Homegrown Ventures",
+            "description": "Homegrown Ventures is a consumer venture capital firm, focusing on early-stage consumer brands primarily from the Middle East, North Africa, and South Asia.Read more",
+            "emphasizedKeywords": [
+              "a consumer venture capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Moderne Ventures",
+            "url": "https://www.linkedin.com/company/moderne-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Carolyn Kwon",
+            "description": "Moderne Ventures invests in technology companies in and around real estate, finance, insurance, home services and sustainability.Read more",
+            "emphasizedKeywords": [
+              "invests in technology companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.9K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Bain Capital Ventures (BCV)",
+            "url": "https://www.linkedin.com/company/bain-capital-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bain Capital Ventures (BCV)",
+            "description": "BCV helps founders build iconic businesses that transform the way we live and work. We invest in B2B software startups from seed to growth.Read more",
+            "emphasizedKeywords": [
+              "BCV helps founders build iconic businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "192.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Exa Ventures LLC",
+            "url": "https://uk.linkedin.com/company/exa-vc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Exa Ventures LLC",
+            "description": "Exa Ventures (\u201dExa\u201d) invests in early-stage ventures tackling climate change through disruptive technology. We get involved as an active partner (often as\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Exa Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "580+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Dauntless Ventures",
+            "url": "https://www.linkedin.com/company/dauntless-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dauntless Ventures",
+            "description": "Dauntless Ventures backs founders building the technologies that will shape America's future security, resilience, and industrial strength.Read more",
+            "emphasizedKeywords": [
+              "Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "340+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/EHQQDvATeLqAud6Gm/records/qrtgo3TIQCAJcvs-0.html?signature=1aenMmDb1gPkKOO0yFMzx"
+      },
+      {
+        "#debug": {
+          "requestId": "067cIK6W7twEHus",
+          "url": "http://www.google.com/search?q=Home+%7C+Fairmount+Ventures+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Home+%7C+Fairmount+Ventures+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Home | Fairmount Ventures linkedin company",
+          "url": "http://www.google.com/search?q=Home+%7C+Fairmount+Ventures+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Home+%7C+Fairmount+Ventures+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://www.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "A Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising, strategy, and leadership development\u00a0...Read more",
+            "emphasizedKeywords": [
+              "A Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://ar.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "https://ar.linkedin.com \u203a company \u203a fairmount-ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Home | Fairmount Ventures",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_home-fairmount-ventures-activity-7360652544479559682-WZUP",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "We're very excited to share that Fairmount's new website is LIVE! See how our expert #Fundraising, #Strategy, and #Leadership services drive\u00a0...",
+            "emphasizedKeywords": [
+              "Fairmount's new website is LIVE"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Fairmount Ventures' Post",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_workforcedevelopment-leadershipdevelopment-activity-7436814674580365313-mF9i",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Quaiser Abdullah",
+            "description": "We're amplifying this big news from client PowerCorpsPHL! Fairmount has had the joy of working with this amazing team and program over the\u00a0...",
+            "emphasizedKeywords": [
+              "Fairmount"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3 weeks ago",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Fairmount Ventures: Home",
+            "url": "https://fairmountinc.com/",
+            "displayedUrl": "https://fairmountinc.com",
+            "description": "Fairmount Ventures is a women-owned consulting business that catalyzes social impact by building the capacity of the nonprofit, education, and public\u00a0...Read more",
+            "emphasizedKeywords": [
+              "women-owned consulting business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Registration | Fairmount Ventures",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_registration-activity-7435391790490460160-QGeV",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "Fairmount Ventures' Post. View organization page for Fairmount Ventures. Fairmount Ventures. 1,784 followers. 7m. Report this post; Close menu.Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3 weeks ago",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Fairmount Ventures' Post - sustainability",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_sustainability-activity-7420197627327160320-jYID",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "Next week! Join Fairmount VP Erica Atwood as she moderates Community Conversations: Clean, Green, and Accountable, hosted by Every Voice,\u00a0...",
+            "date": "2026-04-07T21:49:58.182Z",
+            "emphasizedKeywords": [
+              "Fairmount"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2 months ago",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Fairmount Ventures - Careers",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_careers-fairmount-ventures-activity-7426633202578055168-B2QO",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "Hiring* news: Fairmount is seeking a full-time Director of Finance and Operations. This position will oversee our company financial\u00a0...",
+            "emphasizedKeywords": [
+              "Fairmount is seeking a full-time Director of Finance and Operations"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Fairmount Ventures - search #fundraising #leadership",
+            "url": "https://www.linkedin.com/posts/fairmount-ventures_search-fundraising-leadership-activity-7424095469544538112-hqMP",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Share Food Program",
+            "description": "Fairmount is proud to have led the #search process for Share Food Program for its next Chief Development Officer.",
+            "emphasizedKeywords": [
+              "Fairmount"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Kathleen Reilly Streicher's Post",
+            "url": "https://www.linkedin.com/posts/kstreicher_so-happy-to-continue-with-fairmount-ventures-activity-7389351563217043456-bdg_",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "Fairmount Ventures is thrilled to share that effective November 1, Kathleen Reilly Streicher will advance her professional role at Fairmount as\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures",
+              "Fairmount"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/aW2WeKsG6zznZSzte/records/067cIK6W7twEHus-0.html?signature=1Lh8y0njHB8iTMdkAvEq4"
+      },
+      {
+        "#debug": {
+          "requestId": "tP5i4F4oeRxGHzu",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+fairmountinc.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+fairmountinc.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company fairmountinc.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+fairmountinc.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+fairmountinc.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://www.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://ar.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "https://ar.linkedin.com \u203a company \u203a fairmount-ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Fairmount Ventures",
+            "url": "https://cn.linkedin.com/company/fairmount-ventures",
+            "displayedUrl": "https://cn.linkedin.com \u203a company \u203a fairmount-ventures",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, education, and public sectors through expert fundraising\u00a0...",
+            "emphasizedKeywords": [
+              "is a Philadelphia-based consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Fairmount Door Corp",
+            "url": "https://www.linkedin.com/company/fairmount-door-corp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fairmount Door Corp",
+            "description": "Website: http://www.fairmountdoor.com/. External link for Fairmount Door Corp ; Industry: Building Materials ; Company size: 2-10 employees ; Headquarters: Marion,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.fairmountdoor.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "JGBowers Construction",
+            "url": "https://www.linkedin.com/company/jgbowers-construction",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0JGBowers Construction",
+            "description": "Based in Marion, Indiana, JGBowers, Inc. travels throughout the Midwest to bring more than 30 years of commercial construction experience to your job site.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Mike Anderson Chevrolet",
+            "url": "https://www.linkedin.com/company/mike-anderson-chevrolet",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mike Anderson Chevrolet",
+            "description": "Mike Anderson Chevrolet is the new and improved Chevrolet dealerships with over 40 years of selling GM products, our commitment to customer service is second\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Mike Anderson Chevrolet"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Wiley Metal Fabricating inc.",
+            "url": "https://ie.linkedin.com/company/wiley-metal-fabricating-inc.?trk=recent-update_content",
+            "displayedUrl": "https://ie.linkedin.com \u203a company \u203a wiley-metal-fabricati...",
+            "description": "Your fire engine deserves a bumper that can take the heat. We custom-build stainless, chrome, and painted steel bumpers that hold up under stress and keep their\u00a0...",
+            "emphasizedKeywords": [
+              "custom-build stainless, chrome, and painted steel bumpers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Nicholson Realty",
+            "url": "https://www.linkedin.com/company/nicholson-realty",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nicholson Realty",
+            "description": "Website: http://nicholsonrealty.ca. External link for Nicholson Realty ; Industry: Real Estate ; Company size: 11-50 employees ; Headquarters: Gas City, IN\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Nicholson Realty"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9 followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Advanced Cabinet Systems (ACS)",
+            "url": "https://www.linkedin.com/company/advanced-cabinet-systems",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advanced Cabinet Systems (ACS)",
+            "description": "At ACS we design and manufacture some of the nation's most durable and well-engineered plastic laminate furniture.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Crandall Engineering",
+            "url": "https://www.linkedin.com/company/crandall-engineering",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Crandall Engineering",
+            "description": "Crandall Engineering Inc. is a full service professional engineering company interested in helping you meet your building design needs and goals.Read more",
+            "emphasizedKeywords": [
+              "is a full service professional engineering company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/jv1mlrup4hZoGhCIj/records/tP5i4F4oeRxGHzu-0.html?signature=B3Fxrq33q0ZVADzVSZeM"
+      },
+      {
+        "#debug": {
+          "requestId": "4qeUNXe1TFuZv1f",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Home | Fairmount Ventures\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Aim\u00e9e Miller - President at Fairmount Ventures",
+            "url": "https://www.linkedin.com/in/aimeemiller07",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Aim\u00e9e Miller",
+            "description": "President at Fairmount Ventures - Positioning Nonprofits to Grow and Thrive \u00b7 Mission-driven business leader and executive with 30 years of experience as a\u00a0...",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Philadelphia, Pennsylvania, United States",
+              "jobTitle": "President",
+              "companyName": "Fairmount Ventures",
+              "rawText": "Philadelphia, Pennsylvania, United States \u00b7 President \u00b7 Fairmount Ventures"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Anelia Tomova - FAIRMOUNT VENTURES LIMITED",
+            "url": "https://uk.linkedin.com/in/anelia-tomova-69b75136b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Anelia Tomova",
+            "description": "Anelia Tomova. FAIRMOUNT VENTURES LIMITED Bath Spa University. London, England, United Kingdom. 44 followers\u00a0...Read more",
+            "emphasizedKeywords": [
+              "FAIRMOUNT VENTURES"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "London, England, United Kingdom",
+              "companyName": "FAIRMOUNT VENTURES LIMITED",
+              "rawText": "London, England, United Kingdom \u00b7 FAIRMOUNT VENTURES LIMITED"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Kathleen Reilly Streicher - Helping organizations and ...",
+            "url": "https://www.linkedin.com/in/kstreicher",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kathleen Reilly Streicher",
+            "description": "Kathleen Reilly Streicher. Helping organizations and individuals to unlock potential. Fairmount Ventures The College of New Jersey and the Mercadien Group\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Erica Atwood - Mentor, coach, people lover, problem solver.",
+            "url": "https://www.linkedin.com/in/ericadatwood",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Erica Atwood",
+            "description": "Erica Atwood. Mentor, coach, people lover, problem solver. Fairmount Ventures LeBow School of Business - Drexel University\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Ike Bailey - Founder / Owner at Brightside Property ...",
+            "url": "https://www.linkedin.com/in/ike-bailey-33a83a32",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ike Bailey",
+            "description": "Ike Bailey \u00b7 Founder / Owner at Brightside Property Ventures & Geneva Home Ventures, LLC \u00b7 View mutual connections with Ike \u00b7 Experience \u00b7 Education \u00b7 Organizations\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "Owner",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Fontana, Wisconsin, United States",
+              "jobTitle": "Founder / Owner",
+              "companyName": "Brightside Property Ventures & Geneva Home Ventures, LLC",
+              "rawText": "Fontana, Wisconsin, United States \u00b7 Founder / Owner \u00b7 Brightside Property Ventures & Geneva Home Ventures, LLC"
+            },
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Caleb Miller - Creative Home Ventures",
+            "url": "https://www.linkedin.com/in/caleb-miller-16b848341",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Caleb Miller",
+            "description": "Caleb Miller. Chief Executive Officer at Creative Home Ventures. Creative Home Ventures. La Crosse, Wisconsin, United States. 2 followers 2 connections.Read more",
+            "emphasizedKeywords": [
+              "Home Ventures",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "La Crosse, Wisconsin, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "Creative Home Ventures",
+              "rawText": "La Crosse, Wisconsin, United States \u00b7 Chief Executive Officer \u00b7 Creative Home Ventures"
+            },
+            "followersAmount": "2 followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Randy Reitz - President and Co-Founder Urban Nest ...",
+            "url": "https://www.linkedin.com/in/randy-reitz-6549a4249?trk=public_profile_samename-profile",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Randy Reitz",
+            "description": "Experience \u00b7 President. Urban Nest Homes LLC \u00b7 Partner. RAD Home Ventures. May 2023 - Present 2 years 11 months. Newcastle, Oklahoma, United States. Short term\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Vera (Xiaowen) Lin - Machine Learning Engineer",
+            "url": "https://www.linkedin.com/in/veraxlin",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vera (Xiaowen) Lin",
+            "description": "Vera (Xiaowen) Lin. RE Investor | Machine Learning Engineer | Ex-Apple, Stanford. Catalyst Home Ventures Stanford University\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco Bay Area",
+              "jobTitle": "Founder",
+              "companyName": "Catalyst Home Ventures",
+              "rawText": "San Francisco Bay Area \u00b7 Founder \u00b7 Catalyst Home Ventures"
+            },
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Brad Holcman - Turning invisible experts into the ONLY ...",
+            "url": "https://www.linkedin.com/in/brad-holcman",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Brad Holcman",
+            "description": "Founded by Brad Holcman, C&E Home Ventures focuses on flipping affordable properties within 60\u201390 minutes of Charlotte, breathing new life into overlooked homes\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founded",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Ethan Eaton - Partner at American Home Ventures",
+            "url": "https://www.linkedin.com/in/ethan-eaton-1808621b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ethan Eaton",
+            "description": "Experience \u00b7 Austin Home Ventures. 16 years 6 months. Founder. Austin Home Ventures. Nov 2009 - Present 16 years 5 months. Owner \u00b7 Partner. American Home Ventures.Read more",
+            "emphasizedKeywords": [
+              "Home Ventures",
+              "Founder",
+              "Home Ventures",
+              "Owner",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/vH8n0KFUk3srSobQj/records/4qeUNXe1TFuZv1f-0.html?signature=HrPT6YfNQMtBulr8tsZs"
+      },
+      {
+        "#debug": {
+          "requestId": "HVsObNviZQ29MKM",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Home | Fairmount Ventures\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Home+%7C+Fairmount+Ventures%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Home fairmount ventures ceo email address",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+ceo+email+address&sa=X&ved=2ahUKEwiyuP6gj8uTAxVVi68BHcJyAKYQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Home fairmount ventures ceo email",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+ceo+email&sa=X&ved=2ahUKEwiyuP6gj8uTAxVVi68BHcJyAKYQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Home fairmount ventures ceo email address",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+ceo+email+address&sa=X&ved=2ahUKEwiyuP6gj8uTAxVVi68BHcJyAKYQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Home fairmount ventures ceo email",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Home+fairmount+ventures+ceo+email&sa=X&ved=2ahUKEwiyuP6gj8uTAxVVi68BHcJyAKYQ1QJ6BAg3EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Aim\u00e9e Miller - President at Fairmount Ventures",
+            "url": "https://www.linkedin.com/in/aimeemiller07",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Aim\u00e9e Miller",
+            "description": "President at Fairmount Ventures - Positioning Nonprofits to Grow and Thrive \u00b7 Mission-driven business leader and executive with 30 years of experience as a\u00a0...",
+            "emphasizedKeywords": [
+              "President",
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Philadelphia, Pennsylvania, United States",
+              "jobTitle": "President",
+              "companyName": "Fairmount Ventures",
+              "rawText": "Philadelphia, Pennsylvania, United States \u00b7 President \u00b7 Fairmount Ventures"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Kathleen Reilly Streicher - Helping organizations and ...",
+            "url": "https://www.linkedin.com/in/kstreicher",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kathleen Reilly Streicher",
+            "description": "Kathleen Reilly Streicher. Helping organizations and individuals to unlock potential. Fairmount Ventures The College of New Jersey and the Mercadien Group\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Kamla Persaud - Platinum Home Ventures LLC",
+            "url": "https://www.linkedin.com/in/kamla-persaud-4b094783",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kamla Persaud",
+            "description": "CEO/Owner: Platinum Home Ventures LLC Hartford, CT \u00b7 Experience: Platinum Home Ventures LLC \u00b7 Education: Goodwin College \u00b7 Location: Hartford \u00b7 139\u00a0...",
+            "emphasizedKeywords": [
+              "CEO",
+              "Owner",
+              "Home Ventures",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Hartford, Connecticut, United States",
+              "companyName": "Platinum Home Ventures LLC",
+              "rawText": "Hartford, Connecticut, United States \u00b7 Platinum Home Ventures LLC"
+            },
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Erica Atwood - Mentor, coach, people lover, problem solver.",
+            "url": "https://www.linkedin.com/in/ericadatwood",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Erica Atwood",
+            "description": "Erica Atwood. Mentor, coach, people lover, problem solver. Fairmount Ventures LeBow School of Business - Drexel University\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Caleb Miller - Creative Home Ventures",
+            "url": "https://www.linkedin.com/in/caleb-miller-16b848341",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Caleb Miller",
+            "description": "Caleb Miller. Chief Executive Officer at Creative Home Ventures. Creative Home Ventures. La Crosse, Wisconsin, United States. 2 followers 2 connections.Read more",
+            "emphasizedKeywords": [
+              "Home Ventures",
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "La Crosse, Wisconsin, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "Creative Home Ventures",
+              "rawText": "La Crosse, Wisconsin, United States \u00b7 Chief Executive Officer \u00b7 Creative Home Ventures"
+            },
+            "followersAmount": "2 followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Mark Deitcher - Affordable Housing and Community ...",
+            "url": "https://www.linkedin.com/in/mark-deitcher-10965b8",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mark Deitcher",
+            "description": "Director of Business Development. Mission First Housing Group. Oct 2010 - Dec 2018 8 years 3 months. Fairmount Ventures Graphic. Vice President/Partner.Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures",
+              "President"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Zachary Nash - WI Home Ventures",
+            "url": "https://www.linkedin.com/in/zachary-nash-a22844274",
+            "displayedUrl": "https://www.linkedin.com \u203a zachary-nash-a22844274",
+            "description": "Experience: WI Home Ventures \u00b7 Location: Racine. View Zachary Nash's profile on LinkedIn, a professional community of 1 billion members.",
+            "emphasizedKeywords": [
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Racine, Wisconsin, United States",
+              "companyName": "WI Home Ventures",
+              "rawText": "Racine, Wisconsin, United States \u00b7 WI Home Ventures"
+            },
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "John Teal - Home Ventures, Inc.",
+            "url": "https://www.linkedin.com/in/john-teal-587691155",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Teal",
+            "description": "Experience: Home Ventures, Inc. \u00b7 Location: Burlington. View John Teal's profile on LinkedIn, a professional community of 1 billion members.",
+            "emphasizedKeywords": [
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Burlington, Vermont, United States",
+              "companyName": "Home Ventures, Inc.",
+              "rawText": "Burlington, Vermont, United States \u00b7 Home Ventures, Inc."
+            },
+            "followersAmount": "1 follower",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Ibrahim Choudhry - Public Administration | Social Services",
+            "url": "https://www.linkedin.com/in/ibrahim-shahbaz-choudhry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ibrahim Choudhry",
+            "description": "Fairmount Ventures, Inc. (Fairmount) is a Philadelphia-based consulting firm serving the nonprofit, public and philanthropic sectors.Read more",
+            "emphasizedKeywords": [
+              "Fairmount Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Boston, Massachusetts, United States",
+              "jobTitle": "Community Health Specialist",
+              "companyName": "Independent",
+              "rawText": "Boston, Massachusetts, United States \u00b7 Community Health Specialist \u00b7 Independent"
+            },
+            "followersAmount": "910+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Brad Holcman - Turning invisible experts into the ONLY ...",
+            "url": "https://www.linkedin.com/in/brad-holcman",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Brad Holcman",
+            "description": "Founded by Brad Holcman, C&E Home Ventures focuses on flipping affordable properties within 60\u201390 minutes of Charlotte, breathing new life into overlooked homes\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Home Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/AH7AdzecI1Va5yg58/records/HVsObNviZQ29MKM-0.html?signature=1wgj93WUNoleSRN1jbwT0"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Home | Fairmount Ventures",
+      "https://www.linkedin.com/company/fairmount-ventures",
+      "https://ar.linkedin.com/company/fairmount-ventures",
+      "https://cn.linkedin.com/company/fairmount-ventures",
+      "https://www.linkedin.com/company/home-technology-ventures",
+      "https://www.linkedin.com/company/homegrownventures",
+      "https://www.linkedin.com/company/moderne-ventures",
+      "https://www.linkedin.com/company/bain-capital-ventures",
+      "https://uk.linkedin.com/company/exa-vc",
+      "https://www.linkedin.com/company/dauntless-ventures",
+      "https://www.linkedin.com/company/fairmount-ventures",
+      "https://ar.linkedin.com/company/fairmount-ventures",
+      "https://www.linkedin.com/posts/fairmount-ventures_home-fairmount-ventures-activity-7360652544479559682-WZUP",
+      "https://www.linkedin.com/posts/fairmount-ventures_workforcedevelopment-leadershipdevelopment-activity-7436814674580365313-mF9i",
+      "https://www.linkedin.com/posts/fairmount-ventures_registration-activity-7435391790490460160-QGeV",
+      "https://www.linkedin.com/posts/fairmount-ventures_sustainability-activity-7420197627327160320-jYID",
+      "https://www.linkedin.com/posts/fairmount-ventures_careers-fairmount-ventures-activity-7426633202578055168-B2QO",
+      "https://www.linkedin.com/posts/fairmount-ventures_search-fundraising-leadership-activity-7424095469544538112-hqMP",
+      "https://www.linkedin.com/posts/kstreicher_so-happy-to-continue-with-fairmount-ventures-activity-7389351563217043456-bdg_",
+      "site:linkedin.com/company fairmountinc.com",
+      "https://www.linkedin.com/company/fairmount-ventures",
+      "https://ar.linkedin.com/company/fairmount-ventures",
+      "https://cn.linkedin.com/company/fairmount-ventures",
+      "https://www.linkedin.com/company/fairmount-door-corp",
+      "https://www.linkedin.com/company/jgbowers-construction",
+      "https://www.linkedin.com/company/mike-anderson-chevrolet",
+      "https://ie.linkedin.com/company/wiley-metal-fabricating-inc.?trk=recent-update_content",
+      "https://www.linkedin.com/company/nicholson-realty",
+      "https://www.linkedin.com/company/advanced-cabinet-systems",
+      "https://www.linkedin.com/company/crandall-engineering",
+      "site:linkedin.com/in \"Home | Fairmount Ventures\" founder",
+      "https://www.linkedin.com/in/aimeemiller07",
+      "https://uk.linkedin.com/in/anelia-tomova-69b75136b",
+      "https://www.linkedin.com/in/kstreicher",
+      "https://www.linkedin.com/in/ericadatwood",
+      "https://www.linkedin.com/in/ike-bailey-33a83a32",
+      "https://www.linkedin.com/in/caleb-miller-16b848341",
+      "https://www.linkedin.com/in/randy-reitz-6549a4249?trk=public_profile_samename-profile",
+      "https://www.linkedin.com/in/veraxlin",
+      "https://www.linkedin.com/in/brad-holcman",
+      "https://www.linkedin.com/in/ethan-eaton-1808621b",
+      "site:linkedin.com/in \"Home | Fairmount Ventures\" ceo",
+      "https://www.linkedin.com/in/aimeemiller07",
+      "https://www.linkedin.com/in/kstreicher",
+      "https://www.linkedin.com/in/kamla-persaud-4b094783",
+      "https://www.linkedin.com/in/ericadatwood",
+      "https://www.linkedin.com/in/caleb-miller-16b848341",
+      "https://www.linkedin.com/in/mark-deitcher-10965b8",
+      "https://www.linkedin.com/in/zachary-nash-a22844274",
+      "https://www.linkedin.com/in/john-teal-587691155",
+      "https://www.linkedin.com/in/ibrahim-shahbaz-choudhry",
+      "https://www.linkedin.com/in/brad-holcman"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/fairmount-ventures",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/aimeemiller07"
+  },
+  "lead_before_enrichment": {
+    "business": "Home | Fairmount Ventures",
+    "description": "[Skip to content](https://fairmountinc.com/#content) [ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com) * [About](https://fairmountinc.com/about-us/) * [Careers](https://fairmountinc.com/about-us/careers/) * [Services](https://fairmountinc.com/our-services/) * [Services Overview](https://fairmountinc.com/our-services/) * [Fundraising](https://fairmountinc.com/our-services/fundraising/) * [Strategy](https://fairmountinc.com/our-services/strategic-planning/) * [Leadership](https://fairmountinc.com/our-services",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://fairmountinc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fairmount-ventures",
+    "source_url": "https://fairmountinc.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "fairmountinc.com",
+    "source_urls": [
+      "https://fairmountinc.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Home | Fairmount Ventures",
+    "description": "[Skip to content](https://fairmountinc.com/#content) [ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com) * [About](https://fairmountinc.com/about-us/) * [Careers](https://fairmountinc.com/about-us/careers/) * [Services](https://fairmountinc.com/our-services/) * [Services Overview](https://fairmountinc.com/our-services/) * [Fundraising](https://fairmountinc.com/our-services/fundraising/) * [Strategy](https://fairmountinc.com/our-services/strategic-planning/) * [Leadership](https://fairmountinc.com/our-services",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://fairmountinc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "https://www.linkedin.com/in/aimeemiller07",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fairmount-ventures",
+    "source_url": "https://fairmountinc.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Marion",
+    "country": "United States",
+    "state": "",
+    "city": "Marion",
+    "employee_count": "11-50",
+    "company_domain_canonical": "fairmountinc.com",
+    "source_urls": [
+      "https://fairmountinc.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://fairmountinc.com"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Marion"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Marion"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/aimeemiller07"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://fairmountinc.com"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Silverman Consulting",
+  "lead": {
+    "business": "Silverman Consulting",
+    "full_name": "Michael Silverman",
+    "first": "Michael",
+    "last": "Silverman",
+    "email": "info@silvermanconsulting.net",
+    "role": "Founding Partner",
+    "website": "http://www.silvermanconsulting.net",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://silvermanconsulting.net",
+    "description": "Silverman Consulting is a Midwest-based management advisory firm with a legacy of helping companies navigate their most critical moments. Since 1978, we\u2019ve guided more than 600 public and privately held businesses\u2014ranging from $5 million to over $1 billion in annual revenue\u2014through successful turnarounds and transformations. Our clients span industries and challenges, but share a common goal: improving performance and restoring profitability.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/silverman-consulting",
+    "linkedin": "https://linkedin.com/in/michael-silverman-9391a1262"
+  },
+  "source_failed_basename": "73afa01a9dc3fe2d76bef0b6ec73e762ba523c2f6d059b587a623fc01eb6b2f1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/73afa01a9dc3fe2d76bef0b6ec73e762ba523c2f6d059b587a623fc01eb6b2f1.precheck_failed.json",
+  "queue_key": "168664a8c685d2379df775c9eff0ea80d7fd46470e8d3385fb34def266ef26dd"
+}

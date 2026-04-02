@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "EMERGE - UX Agency",
+  "lead": {
+    "business": "EMERGE - UX Agency",
+    "full_name": "Newbusiness Lead",
+    "first": "Newbusiness",
+    "last": "Lead",
+    "email": "newbusiness@ramotion.com",
+    "role": "Contact",
+    "website": "https://www.emergeagency.com",
+    "industry": "Professional Services",
+    "sub_industry": "Design Services",
+    "country": "United States",
+    "state": "CA",
+    "city": "San Francisco",
+    "source_url": "https://ramotion.com",
+    "description": "EMERGE, a top-rated UX Design Agency and Digital Product Consultancy based in Portland, OR, is a trusted partner for B2B leaders across technology, healthcare, and manufacturing sectors. With over 20 years of experience, we specialize in driving business growth by crafting elevated, engaging digital products and services. As an experienced UX Design Agency, we uniquely tailor our services to each client\u2019s needs. Our comprehensive suite includes UX/UI Design, Product Strategy, and Full-Stack Development.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Oregon",
+    "hq_city": "Portland",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/emerge-product-agency"
+  },
+  "source_failed_basename": "82372365f0599240c6ae90e1a46b5ce7f2d86b120466514095dd707e75e355fa.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/82372365f0599240c6ae90e1a46b5ce7f2d86b120466514095dd707e75e355fa.precheck_failed.json",
+  "queue_key": "24b37008ae6fba56ad83b4c607778b3ab4cfb57b10f86e167bbe95fb2b213f45"
+}

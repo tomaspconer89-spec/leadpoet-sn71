@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Leading Associations",
+  "lead": {
+    "business": "Leading Associations",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "president",
+    "website": "https://www.leadingassociations.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Denver",
+    "source_url": "https://mckinley-advisors.com",
+    "description": "Leading Associations provides training, consulting and management services to associations, showing them how to provide visionary leadership, establish an aspirational culture and produce remarkable results. We offer the #1 Board Development and Association Leadership System. Services include full-service association management, leadership consulting, interim executive, strategic planning and executive leadership retreat facilitation, board training and development, executive search, and operations and governance reviews.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Colorado",
+    "hq_city": "Denver",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/mckinley-advisors",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/leading-associations"
+  },
+  "source_failed_basename": "be18983e66c46745fd369bd56492ce1071f5573c760b045f32895e4608125f20.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/be18983e66c46745fd369bd56492ce1071f5573c760b045f32895e4608125f20.precheck_failed.json",
+  "queue_key": "34fbe9b91baf38c14c52b1aa35b615feb47838857dc44464419a2874bbc5d0ab"
+}

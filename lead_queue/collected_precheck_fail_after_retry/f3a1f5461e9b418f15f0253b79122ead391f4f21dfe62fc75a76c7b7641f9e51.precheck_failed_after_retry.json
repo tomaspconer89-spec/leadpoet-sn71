@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Home.LLC",
+  "lead": {
+    "business": "Home.LLC",
+    "full_name": "James Freestone",
+    "first": "James",
+    "last": "Freestone",
+    "email": "2022-office-people-h6gcrtcxm7o-unsplash-690x460@2x.jpg",
+    "role": "Chief Executive Officer",
+    "website": "http://www.home.llc",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Derby",
+    "source_url": "https://barnesdennig.com",
+    "description": "\ud83c\udfe0 Home Equity Investments: Extract up to $500K from your home equity \ud83c\udfaf Homie.LLC: Achieve your goals with world class talent from $20/hr \ud83d\udcb0 Home Equity Funds: Generate strong risk-adjusted returns",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hoominc",
+    "linkedin": "https://linkedin.com/in/jamestfreestone"
+  },
+  "source_failed_basename": "3c55b669b132f4e4e564e0571b90e55b702251200466febcfa749ad1fe023b47.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3c55b669b132f4e4e564e0571b90e55b702251200466febcfa749ad1fe023b47.precheck_failed.json",
+  "queue_key": "f3a1f5461e9b418f15f0253b79122ead391f4f21dfe62fc75a76c7b7641f9e51"
+}

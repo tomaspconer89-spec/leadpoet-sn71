@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Primewise Founders Club",
+  "lead": {
+    "business": "Primewise Founders Club",
+    "full_name": "Alex Guttler",
+    "first": "Alex",
+    "last": "Guttler",
+    "email": "",
+    "role": "Partnerships",
+    "website": "https://thepfclub.com/",
+    "industry": "Community and Lifestyle",
+    "sub_industry": "Social",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://techstars.com",
+    "description": "Where Ambitious Founders Build, Connect & Grow Primewise Founders Club is the go-to entrepreneurship community for startup founders, co-founders, and entrepreneurs across India, the US, and Europe. We exist to solve one challenge every founder faces\u2014you can\u2019t build a great company alone. Here, the brightest minds in the startup world come together for founder networking, peer-to-peer learning, and global connections that accelerate growth. Whether you\u2019re at the idea stage, scaling fast, or raising your next round, this is the place where experience, knowledge, and opportunity converge.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/primewise-founders-club",
+    "linkedin": "https://linkedin.com/in/alexguttler"
+  },
+  "source_failed_basename": "6571cb64610a3af6319008c8a92b58a7127692894432e8c75cb528749193f3c1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6571cb64610a3af6319008c8a92b58a7127692894432e8c75cb528749193f3c1.precheck_failed.json",
+  "queue_key": "4ca507e396f2d90ca0ecf0ba3421b7f74e17b271a92497a5243b157e276e819a"
+}

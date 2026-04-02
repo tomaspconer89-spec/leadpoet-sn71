@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "ExpoCaptive",
+  "lead": {
+    "business": "ExpoCaptive",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://www.expocaptive.com/",
+    "industry": "Information Technology",
+    "sub_industry": "Information Services",
+    "country": "United States",
+    "state": "California",
+    "city": "Santa Clara",
+    "source_url": "https://esalesclub.com",
+    "description": "ExpoCaptive is your trusted source for verified trade show and exhibitor data \u2014 helping businesses connect with decision-makers from global expos and industry events. We empower B2B marketers, sales teams, and event professionals to turn every trade show into a lead-generating opportunity. Our curated data covers 20,000+ international expos, featuring detailed exhibitor profiles, visitor insights, and company information across industries.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Santa Clara",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/expocaptive"
+  },
+  "source_failed_basename": "2cf5099c9bb885297b0d0c97704ff674e4c602930666ceac49a7de807dd42c09.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2cf5099c9bb885297b0d0c97704ff674e4c602930666ceac49a7de807dd42c09.precheck_failed.json",
+  "queue_key": "9e2964592c804a01372932c1c52074abb23febdb8ed5005fa742d452bfa6b30b"
+}

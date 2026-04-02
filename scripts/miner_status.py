@@ -16,6 +16,7 @@ import sys
 from collections import Counter
 from datetime import datetime, timezone, timedelta
 from typing import Dict, List, Any, Optional
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -92,7 +93,10 @@ def query_rate_limits(hotkey: str) -> Optional[Dict]:
 def get_metagraph_info(hotkey: str) -> Optional[Dict]:
     try:
         import bittensor as bt
-        sub = bt.subtensor(network="finney")
+        subtensor_ctor = getattr(bt, "subtensor", None) or getattr(bt, "Subtensor", None)
+        if not callable(subtensor_ctor):
+            raise RuntimeError("bittensor has no subtensor constructor")
+        sub = subtensor_ctor(network="finney")
         meta = sub.metagraph(71)
         if hotkey in meta.hotkeys:
             idx = meta.hotkeys.index(hotkey)
@@ -112,6 +116,54 @@ def get_metagraph_info(hotkey: str) -> Optional[Dict]:
     except Exception as e:
         print(f"  (Could not fetch metagraph: {e})")
     return None
+
+
+def local_submission_activity(hours: int, all_time: bool) -> Dict[str, int]:
+    """
+    Local fallback stats based on lead_queue artifacts written by submit scripts.
+    Useful when transparency_log is empty/unreachable.
+    """
+    root = Path(__file__).resolve().parent.parent / "lead_queue"
+    submitted_dir = root / "submitted"
+    failed_dir = root / "failed"
+    now_ts = datetime.now(timezone.utc).timestamp()
+    cutoff = 0 if all_time else (now_ts - hours * 3600)
+
+    def _recent(path: Path) -> bool:
+        try:
+            return path.stat().st_mtime >= cutoff
+        except OSError:
+            return False
+
+    stats = {
+        "verified_local": 0,
+        "attempted_unverified_local": 0,
+        "rejected_local": 0,
+        "duplicate_local": 0,
+    }
+
+    if submitted_dir.exists():
+        for p in submitted_dir.glob("*.json"):
+            if _recent(p):
+                stats["verified_local"] += 1
+
+    if failed_dir.exists():
+        for p in failed_dir.glob("*.submission_outcome.json"):
+            if not _recent(p):
+                continue
+            try:
+                obj = json.loads(p.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            status = str(obj.get("submission_status") or "").strip().lower()
+            if status == "attempted_unverified":
+                stats["attempted_unverified_local"] += 1
+            elif status == "rejected":
+                stats["rejected_local"] += 1
+            elif status.startswith("duplicate_"):
+                stats["duplicate_local"] += 1
+
+    return stats
 
 
 def resolve_hotkey_from_wallet(wallet_name: str, hotkey_name: str) -> Optional[str]:
@@ -352,6 +404,7 @@ def main():
     submissions = query_transparency_log(hotkey, "SUBMISSION", use_hours)
     sub_requests = query_transparency_log(hotkey, "SUBMISSION_REQUEST", use_hours)
     consensus = query_transparency_log(hotkey, "CONSENSUS_RESULT", use_hours)
+    local_stats = local_submission_activity(hours=hours, all_time=all_time)
 
     approved = [c for c in consensus if c.get("payload", {}).get("final_decision") == "approve"]
     denied = [c for c in consensus if c.get("payload", {}).get("final_decision") == "deny"]
@@ -373,6 +426,17 @@ def main():
         first_ts = submissions[-1].get("ts", "?")[:10]
         last_ts = submissions[0].get("ts", "?")[:10]
         print(f"  Date range:         {first_ts} to {last_ts}")
+    if len(submissions) == 0 and (
+        local_stats["verified_local"]
+        or local_stats["attempted_unverified_local"]
+        or local_stats["rejected_local"]
+        or local_stats["duplicate_local"]
+    ):
+        print("  (Transparency log empty; local queue artifacts in this window)")
+        print(f"  Local verified:     {local_stats['verified_local']}")
+        print(f"  Local attempted:    {local_stats['attempted_unverified_local']}")
+        print(f"  Local rejected:     {local_stats['rejected_local']}")
+        print(f"  Local duplicates:   {local_stats['duplicate_local']}")
 
     # --- 4. Rejection reasons ---
     if denied:
@@ -470,10 +534,14 @@ def main():
     # --- Summary ---
     print_header("SUMMARY")
     has_log = log_path and os.path.exists(log_path)
-    if len(submissions) == 0 and not has_log:
+    has_local_activity = any(v > 0 for v in local_stats.values())
+    if len(submissions) == 0 and not has_log and not has_local_activity:
         print(f"  No submissions in {time_label}.")
         print("  Is your miner running? Check: pgrep -f neurons/miner.py")
         print("  Try --days 0 for full history, or --logfile miner.log")
+    elif len(submissions) == 0 and has_local_activity:
+        print("  Gateway activity exists locally, but transparency_log returned none.")
+        print("  This is usually a query/permissions delay; rely on local artifact counts above.")
     elif len(submissions) == 0 and has_log:
         print(f"  No submissions reached gateway yet.")
         if log_stats.get("all_duplicates_cycles", 0) > 0:

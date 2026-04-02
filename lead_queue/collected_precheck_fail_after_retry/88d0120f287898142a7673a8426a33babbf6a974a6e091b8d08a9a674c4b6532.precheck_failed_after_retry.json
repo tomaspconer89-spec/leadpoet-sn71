@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "business": "Fusion Consulting",
+  "lead": {
+    "business": "Fusion Consulting",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "http://www.fusion-consulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Southbury",
+    "source_url": "https://fusion-consulting.com",
+    "description": "Where Life Science Consulting Meets Global Innovation Fusion Consulting is a globally leading Business and IT management consultancy specialized in the Life Sciences industry, partnering with leading companies in pharma, healthcare, and other industries. With over 700 employees and 25 offices worldwide, our mission is to revolutionize our clients' business transformation challenges and set new industry standards through innovative solutions.",
+    "employee_count": "501-1,000",
+    "hq_country": "Zug",
+    "hq_state": "",
+    "hq_city": "Zug",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fusionconsultingag"
+  },
+  "source_failed_basename": "1f0ea9675ec8d968197e901f831016b16ee620d330f6982792d6300c4fc24ede.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1f0ea9675ec8d968197e901f831016b16ee620d330f6982792d6300c4fc24ede.precheck_failed.json",
+  "queue_key": "88d0120f287898142a7673a8426a33babbf6a974a6e091b8d08a9a674c4b6532"
+}

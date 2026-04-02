@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Baker Tilly US",
+  "lead": {
+    "business": "Baker Tilly US",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Vice President",
+    "website": "http://www.bakertilly.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://bakertilly.com",
+    "description": "Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world\u2019s leading financial centers \u2013 New York, London, San Francisco, Seattle, Los Angeles, Chicago and Boston. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP (Baker Tilly) provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards.",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bakertillyus"
+  },
+  "source_failed_basename": "48d3f29ff737a2c400b8e94e7e66fa5ff3d29498ac198bd903417a09affe05a5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/48d3f29ff737a2c400b8e94e7e66fa5ff3d29498ac198bd903417a09affe05a5.precheck_failed.json",
+  "queue_key": "d28e9c226dbab860f46900f0d6983e9ac25014bad776e7627b725de2787ce88b"
+}

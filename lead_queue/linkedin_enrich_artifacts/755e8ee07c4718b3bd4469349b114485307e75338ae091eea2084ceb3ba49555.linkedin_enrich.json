@@ -1,0 +1,1083 @@
+{
+  "saved_at_utc": "2026-04-01T13:20:29.764273+00:00",
+  "queue_key": "755e8ee07c4718b3bd4469349b114485307e75338ae091eea2084ceb3ba49555",
+  "business": "Freedman Consulting, LLC",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Freedman Consulting, LLC",
+      "Freedman Consulting, LLC linkedin company",
+      "site:linkedin.com/company tfreedmanconsulting.com",
+      "site:linkedin.com/in \"Freedman Consulting, LLC\" founder",
+      "site:linkedin.com/in \"Freedman Consulting, LLC\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "H7bdP8GyCSBJKjy",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Freedman+Consulting%2C+LLC",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Freedman+Consulting%2C+LLC",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Freedman Consulting, LLC",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Freedman+Consulting%2C+LLC",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Freedman+Consulting%2C+LLC",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/company/freedman-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting, LLC",
+            "description": "Freedman Consulting, LLC, a mission-driven firm, offers strategic consulting services to foundations, nonprofit organizations, and public interest\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Friedman Consulting, LLC",
+            "url": "https://www.linkedin.com/company/friedman-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Friedman Consulting, LLC",
+            "description": "We specialize as business consultants for small businesses with a functional expertise combined with deep industry knowledge to offer our clients insight and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business consultants for small businesses"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Freedman HealthCare LLC",
+            "url": "https://www.linkedin.com/company/freedman-healthcare-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman HealthCare LLC",
+            "description": "FHC was established in 2005 to create a more efficient health care system and ensure broad community buy-in to a future vision of health care delivery.Read more",
+            "emphasizedKeywords": [
+              "FHC was established in 2005"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Plurus Strategies, LLC | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/plurusstrategies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Plurus Strategies, LLC",
+            "description": "\u76f8\u4f3c\u4e3b\u9875. Freedman Consulting, LLC. \u516c\u5171\u653f\u7b56\u529e\u516c\u5ba4. Washington\uff0cDistrict of Columbia \u00b7 BGR Group. \u516c\u5171\u4e8b\u52a1. Washington\uff0cDC \u00b7 ML Strategies, LLC. \u516c\u5171\u4e8b\u52a1.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Ad House Communications",
+            "url": "https://www.linkedin.com/company/ad-house-communications",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ad House Communications",
+            "description": "Ad House Communications is a full-service communications and consulting firm. ... Freedman Consulting, LLC. Public Policy Offices. Washington, District of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9 followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "NVG, LLC.",
+            "url": "https://www.linkedin.com/company/nvg-llc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0NVG, LLC.",
+            "description": "NVG is a dynamic government relations firm specializing in policy, advocacy, strategic advice & outreach. Website: http://www.nvgllc.com.Read more",
+            "emphasizedKeywords": [
+              "NVG is a dynamic government relations firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "900+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Renee Freedman & Company, Inc",
+            "url": "https://lu.linkedin.com/company/renee-freedman-&-company-inc",
+            "displayedUrl": "https://lu.linkedin.com \u203a company \u203a renee-freedman-&-c...",
+            "description": "We offer coaching and consulting to organizations that are composed of or must communicate with groups that have a history of opposition and now desire to\u00a0...",
+            "emphasizedKeywords": [
+              "We offer coaching and consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Plurus Strategies, LLC",
+            "url": "https://www.linkedin.com/company/plurusstrategies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Janice Negvesky",
+            "description": "A team of dedicated professionals, we work collaboratively to achieve public policy outcomes tied to real change and success for our clients' bottom lines.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Watershed Impact",
+            "url": "https://www.linkedin.com/company/watershed-impact/",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a watershed-impact",
+            "description": "Watershed Impact is a woman-owned consulting and advocacy firm that mobilizes clients to drive transformative social impact.",
+            "emphasizedKeywords": [
+              "woman-owned consulting and advocacy firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Plurus Strategies, LLC",
+            "url": "https://ec.linkedin.com/company/plurusstrategies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Plurus Strategies, LLC",
+            "description": "P\u00e1ginas similares. Freedman Consulting, LLC. Oficinas de pol\u00edtica p\u00fablica. Washington, District of Columbia \u00b7 BGR Group. Servicios de relaciones gubernamentales.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/D8v1lpUX34q6T32RP/records/H7bdP8GyCSBJKjy-0.html?signature=tPVjLe4grh0TAkRf3Wb5"
+      },
+      {
+        "#debug": {
+          "requestId": "0QJxSdDiK678cUK",
+          "url": "http://www.google.com/search?q=Freedman+Consulting%2C+LLC+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Freedman+Consulting%2C+LLC+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Freedman Consulting, LLC linkedin company",
+          "url": "http://www.google.com/search?q=Freedman+Consulting%2C+LLC+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Freedman+Consulting%2C+LLC+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Freedman consulting llc linkedin company salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+salary&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+reviews&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+address&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+california&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+email&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "What is freedman consulting",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=What+is+freedman+consulting&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Freedman Associates",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+Associates&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Freeman Consulting Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freeman+Consulting+Group&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+salary&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+reviews&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+address&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+california&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Freedman consulting llc linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+linkedin+company+email&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "What is freedman consulting",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=What+is+freedman+consulting&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg4EAE"
+          },
+          {
+            "title": "Freedman Associates",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+Associates&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg5EAE"
+          },
+          {
+            "title": "Freeman Consulting Group",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freeman+Consulting+Group&sa=X&ved=2ahUKEwiJyevK3syTAxVQoScCHR8IHxkQ1QJ6BAg2EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/company/freedman-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting, LLC",
+            "description": "Freedman Consulting, LLC, a mission-driven firm, offers strategic consulting services to foundations, nonprofit organizations, and public interest\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Freedman Consulting winds down WW+ collaborative ...",
+            "url": "https://www.linkedin.com/posts/freedman-consulting-llc_ww-collaborative-a-review-of-accomplishments-activity-7361134576309522432-XEBZ",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting, LLC",
+            "description": "Freedman Consulting launched the What Works Plus (WW+) funder collaborative in 2022 to help philanthropy coordinate its support for\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Karin Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Karin Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: UCLA \u00b7 Location: Chevy Chase \u00b7 34 connections on LinkedIn. View Karin Freedman's profile on LinkedIn,\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Freedman Consulting",
+            "url": "https://www.linkedin.com/company/freedman-consulting?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting",
+            "description": "Leadership learning and development, executive coaching, assessment, team building, cultural transformation. Partnership with world class consulting\u00a0...Read more",
+            "emphasizedKeywords": [
+              "consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7 followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Our Team",
+            "url": "https://tfreedmanconsulting.com/our-team/",
+            "displayedUrl": "https://tfreedmanconsulting.com \u203a our-team",
+            "description": "As the CEO and Co-Founder of Freedman Consulting, LLC, Tom Freedman is an advisor to leading foundations, public interest causes, and nonprofit organizations.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Thomas Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Thomas Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Carleton College \u00b7 Location: Washington \u00b7 39 connections on LinkedIn. View Thomas Freedman's profile on\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Freedman Consulting, LLC's Post",
+            "url": "https://www.linkedin.com/posts/freedman-consulting-llc_freedman-consulting-llc-activity-7257443701000409088-3AZW",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a freedman-consulting-...",
+            "description": "Oct 30, 2024 \u2014 The organization provides comprehensive wealth management and advisory services to a select group of families and entrepreneurs. Its mission is\u00a0...Read more",
+            "date": "2024-10-30T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "provides comprehensive wealth management and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Freedman Consulting, LLC's Post",
+            "url": "https://www.linkedin.com/posts/freedman-consulting-llc_we-are-excited-that-the-firm-continues-to-activity-7249776522935373824-pHcz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting, LLC",
+            "description": "We are excited that the Firm continues to grow and to announce that Kyra Jennings will serve as President of Freedman Consulting!",
+            "emphasizedKeywords": [
+              "Freedman Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Freedman Consulting",
+            "url": "https://www.influencewatch.org/for-profit/freedman-consulting/",
+            "displayedUrl": "https://www.influencewatch.org \u203a For-profits",
+            "description": "Freedman Consulting is a consulting firm for left-of-center philanthropies, public interest organizations, and policymakers that provides strategic planning\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Freedman Consulting, LLC's Post",
+            "url": "https://www.linkedin.com/posts/freedman-consulting-llc_join-freedman-consulting-in-welcoming-two-activity-7218967015946883072-leHS",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Freedman Consulting, LLC",
+            "description": "Join Freedman Consulting in welcoming two Associates to the firm \u2013 both of whom previously served as Phillip Bevington Policy & Research Interns.Read more",
+            "emphasizedKeywords": [
+              "two Associates to the firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/HCaFSUwjx2iMxRO9U/records/0QJxSdDiK678cUK-0.html?signature=1HkO3OfAcKf18bw3lCSsQ"
+      },
+      {
+        "#debug": {
+          "requestId": "c0JYbWXxqdkLWln",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Freedman Consulting, LLC\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Freedman consulting llc founder age",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+founder+age&sa=X&ved=2ahUKEwipvpfc3syTAxXARKQEHXG5HpwQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Freedman consulting llc founder email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+founder+email&sa=X&ved=2ahUKEwipvpfc3syTAxXARKQEHXG5HpwQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Freedman consulting llc founder age",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+founder+age&sa=X&ved=2ahUKEwipvpfc3syTAxXARKQEHXG5HpwQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Freedman consulting llc founder email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Freedman+consulting+llc+founder+email&sa=X&ved=2ahUKEwipvpfc3syTAxXARKQEHXG5HpwQ1QJ6BAgyEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Karin Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Karin Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: UCLA \u00b7 Location: Chevy Chase \u00b7 34 connections on LinkedIn. View Karin Freedman's profile on LinkedIn,\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Chevy Chase, Maryland, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Chevy Chase, Maryland, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Thomas Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Thomas Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Carleton College \u00b7 Location: Washington \u00b7 39 connections on LinkedIn. View Thomas Freedman's profile on\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Lindsay Acker - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/lindsay-acker-4b996822",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lindsay Acker",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Givat Haviva - The Center for a Shared Society \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "710+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Alexander Hart - Tech Policy, Advocacy, and Philanthropic ...",
+            "url": "https://www.linkedin.com/in/alexanderhart",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alexander Hart",
+            "description": "Alexander Hart. Tech Policy, Advocacy, and Philanthropic Strategy. Freedman Consulting, LLC Georgetown University. Washington,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "jobTitle": "Vice President",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Vice President \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "880+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Amanda V. - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/amandavallillee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amanda V.",
+            "description": "Currently: partnering with leading philanthropies to drive economic mobility and\u2026 \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: University of Michigan\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Chicago, Illinois, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Chicago, Illinois, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Kennedy Patlan - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/kennedy-patlan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kennedy Patlan",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Syracuse University \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn. View Kennedy Patlan's profile\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Mariana Botero - Philanthropy Advisor",
+            "url": "https://ca.linkedin.com/in/maribote",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mariana Botero",
+            "description": "Mariana Botero. Philanthropy Advisor. Freedman Consulting, LLC The University of Chicago Booth School of Business. Greater Vancouver\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Mallika Madhusudan - Bain & Company / Kellogg School of ...",
+            "url": "https://www.linkedin.com/in/mallika-madhusudan-ba919b89",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mallika Madhusudan",
+            "description": "Freedman Consulting, LLC Graphic. Spotlight Fellow. Freedman Consulting, LLC. May 2016 - May 2017 1 year 1 month. Washington D.C. Metro Area. Education.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC",
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Max Shipman - Project Director at Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/max-shipman-609725ab",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Max Shipman",
+            "description": "Project Director at Freedman Consulting, LLC \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: William & Mary \u00b7 Location: New York \u00b7 394 connections on\u00a0...",
+            "emphasizedKeywords": [
+              "Director",
+              "Freedman Consulting, LLC",
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "jobTitle": "Project Director",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "New York, New York, United States \u00b7 Project Director \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "390+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Aashna Kammila - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/aashna-kammila-ab56741b5",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Aashna Kammila",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: University of Pennsylvania ... Co-Founder and President. Green Light. Oct 2019 - Feb 2020 5 months.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC",
+              "Founder",
+              "President"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/e21459atHk4Qo2kkS/records/c0JYbWXxqdkLWln-0.html?signature=1vqFjKqmM9jSpq8uewh8n"
+      },
+      {
+        "#debug": {
+          "requestId": "WDO8hAVj09SD1dP",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Freedman Consulting, LLC\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Freedman+Consulting%2C+LLC%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Thomas Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Thomas Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Carleton College \u00b7 Location: Washington \u00b7 39 connections on LinkedIn. View Thomas Freedman's profile on\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Karin Freedman - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Karin Freedman",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: UCLA \u00b7 Location: Chevy Chase \u00b7 34 connections on LinkedIn. View Karin Freedman's profile on LinkedIn,\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Chevy Chase, Maryland, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Chevy Chase, Maryland, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Lindsay Acker - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/lindsay-acker-4b996822",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lindsay Acker",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Givat Haviva - The Center for a Shared Society \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn.",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "710+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Conor McKay - Vice President at Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/conor-mckay-105bb729",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Conor McKay",
+            "description": "Vice President at Freedman Consulting, LLC \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: University of Michigan \u00b7 Location: Washington \u00b7 500+\u00a0...",
+            "emphasizedKeywords": [
+              "President",
+              "Freedman Consulting, LLC",
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "jobTitle": "Vice President",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Vice President \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "630+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Monique Garcia Rizer - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/moniquerizer",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Monique Garcia Rizer",
+            "description": "High-performing team builder with extensive experience building movements, coalitions and\u2026 \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: Syracuse\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Amanda V. - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/amandavallillee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amanda V.",
+            "description": "Currently: partnering with leading philanthropies to drive economic mobility and\u2026 \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: University of Michigan\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Chicago, Illinois, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Chicago, Illinois, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Kennedy Patlan - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/kennedy-patlan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kennedy Patlan",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: Syracuse University \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn. View Kennedy Patlan's profile\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Emily Van Dusen - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/emilyvandusen",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Emily Van Dusen",
+            "description": "I'm a social impact strategist passionate about helping mission-driven organizations turn\u2026 \u00b7 Experience: Freedman Consulting, LLC \u00b7 Education: Georgetown\u00a0...",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Aashna Kammila - Freedman Consulting, LLC",
+            "url": "https://www.linkedin.com/in/aashna-kammila-ab56741b5",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Aashna Kammila",
+            "description": "Experience: Freedman Consulting, LLC \u00b7 Education: University of Pennsylvania ... Co-Founder and President. Green Light. Oct 2019 - Feb 2020 5 months.Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC",
+              "Founder",
+              "President"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Washington, District of Columbia, United States",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "Washington, District of Columbia, United States \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Rachel Lau - Freedman Consulting, LLC Pomona College",
+            "url": "https://www.linkedin.com/in/rachel-e-lau",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rachel Lau",
+            "description": "Rachel Lau is a Project Manager at Freedman Consulting, LLC with experience leading policy research, philanthropic strategy development, and grantmaking\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Freedman Consulting, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "jobTitle": "Project Manager",
+              "companyName": "Freedman Consulting, LLC",
+              "rawText": "New York, New York, United States \u00b7 Project Manager \u00b7 Freedman Consulting, LLC"
+            },
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/gyBNQgt6TIgdbmqK3/records/WDO8hAVj09SD1dP-0.html?signature=1GC9K0xs18QWcERK2F9XS"
+      }
+    ],
+    "apify_item_count": 4,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Freedman Consulting, LLC",
+      "https://www.linkedin.com/company/freedman-consulting-llc",
+      "https://www.linkedin.com/company/friedman-consulting-llc",
+      "https://www.linkedin.com/company/freedman-healthcare-llc",
+      "https://cn.linkedin.com/company/plurusstrategies",
+      "https://www.linkedin.com/company/ad-house-communications",
+      "https://www.linkedin.com/company/nvg-llc.",
+      "https://lu.linkedin.com/company/renee-freedman-&-company-inc",
+      "https://www.linkedin.com/company/plurusstrategies",
+      "https://www.linkedin.com/company/watershed-impact/",
+      "https://ec.linkedin.com/company/plurusstrategies",
+      "https://www.linkedin.com/company/freedman-consulting-llc",
+      "https://www.linkedin.com/posts/freedman-consulting-llc_ww-collaborative-a-review-of-accomplishments-activity-7361134576309522432-XEBZ",
+      "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+      "https://www.linkedin.com/company/freedman-consulting?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+      "https://www.linkedin.com/posts/freedman-consulting-llc_freedman-consulting-llc-activity-7257443701000409088-3AZW",
+      "https://www.linkedin.com/posts/freedman-consulting-llc_we-are-excited-that-the-firm-continues-to-activity-7249776522935373824-pHcz",
+      "https://www.linkedin.com/posts/freedman-consulting-llc_join-freedman-consulting-in-welcoming-two-activity-7218967015946883072-leHS",
+      "site:linkedin.com/in \"Freedman Consulting, LLC\" founder",
+      "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+      "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+      "https://www.linkedin.com/in/lindsay-acker-4b996822",
+      "https://www.linkedin.com/in/alexanderhart",
+      "https://www.linkedin.com/in/amandavallillee",
+      "https://www.linkedin.com/in/kennedy-patlan",
+      "https://ca.linkedin.com/in/maribote",
+      "https://www.linkedin.com/in/mallika-madhusudan-ba919b89",
+      "https://www.linkedin.com/in/max-shipman-609725ab",
+      "https://www.linkedin.com/in/aashna-kammila-ab56741b5",
+      "site:linkedin.com/in \"Freedman Consulting, LLC\" ceo",
+      "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+      "https://www.linkedin.com/in/karin-freedman-a7736b1bb",
+      "https://www.linkedin.com/in/lindsay-acker-4b996822",
+      "https://www.linkedin.com/in/conor-mckay-105bb729",
+      "https://www.linkedin.com/in/moniquerizer",
+      "https://www.linkedin.com/in/amandavallillee",
+      "https://www.linkedin.com/in/kennedy-patlan",
+      "https://www.linkedin.com/in/emilyvandusen",
+      "https://www.linkedin.com/in/aashna-kammila-ab56741b5",
+      "https://www.linkedin.com/in/rachel-e-lau"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/freedman-consulting-llc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/thomas-freedman-4a1987306"
+  },
+  "lead_before_enrichment": {
+    "business": "Freedman Consulting, LLC",
+    "description": "# Freedman Consulting, LLC ![](https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2500x1397.jpg%202500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2000x1118.jpg%202000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1500x838.jpg%201500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1000x559.jpg%201000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-500x279.jpg%20500w) ## We work with leaders who want to change the world.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://tfreedmanconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://tfreedmanconsulting.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "tfreedmanconsulting.com",
+    "source_urls": [
+      "https://tfreedmanconsulting.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Freedman Consulting, LLC",
+    "description": "# Freedman Consulting, LLC ![](https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2500x1397.jpg%202500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2000x1118.jpg%202000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1500x838.jpg%201500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1000x559.jpg%201000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-500x279.jpg%20500w) ## We work with leaders who want to change the world.",
+    "full_name": "Thomas Freedman",
+    "first": "Thomas",
+    "last": "Freedman",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://tfreedmanconsulting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "CEO",
+    "linkedin": "https://www.linkedin.com/in/thomas-freedman-4a1987306",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/freedman-consulting-llc",
+    "source_url": "https://tfreedmanconsulting.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "tfreedmanconsulting.com",
+    "source_urls": [
+      "https://tfreedmanconsulting.com"
+    ],
+    "title_raw": "CEO",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://tfreedmanconsulting.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/freedman-consulting-llc"
+    },
+    "first": {
+      "before": "",
+      "after": "Thomas"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Thomas Freedman"
+    },
+    "last": {
+      "before": "",
+      "after": "Freedman"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/thomas-freedman-4a1987306"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://tfreedmanconsulting.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "CEO"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "CEO"
+    }
+  }
+}

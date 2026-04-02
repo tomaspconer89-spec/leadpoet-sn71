@@ -1,0 +1,124 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T21:49:35.889836Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpk1bknlli/evidence/domain/cansulta.com.json","","2026-06-29T21:49:35.889843Z","startup advisory services founder contact","2026-03-31T21:49:08.723253Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T21:49:35.903204Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmpk1bknlli/evidence/domain/maynardnexsen.com.json","","2026-06-29T21:49:35.903206Z","business consulting firm advisor email","2026-03-31T21:49:12.386528Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T21:49:35.916521Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpk1bknlli/evidence/domain/vaam.io.json","","2026-06-29T21:49:35.916523Z","SaaS startup CEO contact information","2026-03-31T21:49:15.632525Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T21:49:35.929801Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmpk1bknlli/evidence/domain/findemails.com.json","","2026-06-29T21:49:35.929804Z","SaaS startup CEO contact information","2026-03-31T21:49:16.855406Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","[Skip to content](https://fairmountinc.com/#content)
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com)
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2025/05/fairmount-ventures-logo.png) ](https://fairmountinc.com)
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+  * [About](https://fairmountinc.com/about-us/)
+    * [Careers](https://fairmountinc.com/about-us/careers/)
+  * [Services](https://fairmountinc.com/our-services/)
+    * [Services Overview](https://fairmountinc.com/our-services/)
+    * [Fundraising](https://fairmountinc.com/our-services/fundraising/)
+    * [Strategy](https://fairmountinc.com/our-services/strategic-planning/)
+    * [Leadership](https://fairmountinc.com/our-services/leadership/)
+  * [Impact](https://fairmountinc.com/our-impact/)
+  * [Clients](https://fairmountinc.com/client-list/)
+  * [Insights](https://fairmountinc.com/our-insights/)
+  * [Connect](https://fairmountinc.com/contact-us/)
+
+
+## Strategic partners in driving social impact and organizational success
+Fairmount Ventures is a catalyst in creating profound social impact for nonprofits, education, and the public sector. Our team of consulting experts empowers organizations with the tools and resources needed to advance your mission, navigate uncertainty, and thrive. Through our expert Fundraising, Strategy, and Leadership consulting services, we help clients address sticky problems to drive more meaningful change. Learn more about how we can work together to achieve your goals.
+## Strategic partners in driving social impact and organizational success
+Fairmount Ventures is a catalyst in creating profound social impact for nonprofits, education, and the public sector. Our team of consulting experts empowers organizations with the tools and resources needed to advance your mission, navigate uncertainty, and thrive. Through our expert Fundraising, Strategy, and Leadership consulting services, we help clients address sticky problems to drive more meaningful change. Learn more about how we can work together to achieve your goals.
+## Proven Solutions
+We envision an inclusive future with resources for all. Our work centers this promise through engaged thought partnership, accountability, and tangible results for your organization. Our clients speak to Fairmount’s demonstrated impact on their organizations: lives and communities transformed by new missions and resources; dynamic leaders using our guidance to pivot strategy and pilot innovation; major investments in teams, facilities, and partnerships to sustain and scale operations; and significant new funding raised that propels programs to unprecedented heights.
+### Our Results Tell our story
+  * Adaptive strategic plans that offer steady guidance through times of internal or external change
+  * Cost-effective outsourcing on a project, interim, or long-term basis
+
+
+  * Over a billion and a half dollars raised for 500+ clients
+  * New leaders and boards are engaged and ready to advance missions, goals, and culture
+
+
+Explore how we can elevate your mission and achieve extraordinary outcomes. 
+### [Fundraising Elevating your nonprofit’s revenue potential ](https://fairmountinc.com/our-services/fundraising/) ### [Strategy Shaping your nonprofit’s future ](https://fairmountinc.com/our-services/strategic-planning/) ### [Leadership Finding and developing your team ](https://fairmountinc.com/our-services/leadership/)
+[ View All Services ](https://fairmountinc.com/our-services/)
+Nonprofit Consulting Experts
+## Providing Creative Solutions 
+Fairmount Ventures is certified as a Women’s Business Enterprise and is dedicated to serving as your ally and advisor. With a strong cross-sector network and a commitment to curiosity and continuous learning, we adapt our approach to your needs and project goals, enhancing your impact and success. 
+[ About Us  ](https://fairmountinc.com/about-us/)
+Proven Results
+## Case Studies
+See firsthand how we’ve empowered clients to achieve their goals and make a lasting impact in their communities. Dive into the stories of innovation, growth, and collaboration that showcase our commitment to advancing your mission.
+[ View Our Case Studies ](https://fairmountinc.com/our-impact/)
+## Hear What Our Clients are Saying
+UrbanPromise’s engagement with Fairmount was a game changer for our organization. The process of building a campaign focus, identifying committee members, realigning staff positions, and reengaging donors in new ways not only achieved our campaign goal, but created a stronger and more disciplined fundraising department. Our team “grew up” under Fairmount’s guidance and leadership—the impact in our community will be generational.
+- Bruce Main, President/Founder, UrbanPromise
+Fairmount’s insights and subject matter expertise are invaluable to Philadelphia Works and the Workforce Partnerships team managing the Good Jobs Challenge. Fairmount’s team brings an optimistic attitude and has an exceptional ability to integrate diverse perspectives into long lasting solutions, making them an ideal partner to work with. Philadelphia Works highly recommends the Fairmount Ventures team as a consultant and will continually look for opportunities to partner with them on future projects and grants.
+- Patricia Blumenauer, Chief Operating Officer, Philadelphia Works
+Fairmount guided Living Beyond Breast Cancer when the organization was formed over thirty years ago assisting in building a Board of Directors, developing a fundraising strategy, and building the staff. We have returned to Fairmount again and again and rely on their support, expertise, and partnership to help solve some of our most pressing needs. With Fairmount’s expertise and attention to detail, LBBC has been successful in securing three consecutive federal grants from the CDC. Whether working on fundraising, strategy, search, or governance, their team is smart, strategic, responsive, and has always provided a great return on our investment
+- Jean A. Sachs, CEO, Living Beyond Breast Cancer
+How Can We Support Your Mission? 
+## Reach out today for a free consultation
+Name 
+Email 
+Phone 
+Message 
+Submit Message
+[ ![Fairmount Ventures Logo](https://fairmountinc.com/wp-content/uploads/2024/07/fairmount-ventures-logo-mono.png) ](https://fairmountinc.com)
+  * 30 South 15th Street, Suite 500
+  * Philadelphia, PA 19102
+
+
+  * [ 215.717.2299 ](tel:12157172299)
+
+
+Quick Links
+  * [ About ](https://fairmountinc.com/about-us/)
+  * [ Services ](https://fairmountinc.com/our-services/)
+  * [ Impact ](https://fairmountinc.com/our-impact/)
+  * [ Clients ](https://fairmountinc.com/client-list/)
+  * [ Insights ](https://fairmountinc.com/our-insights/)
+  * [ Connect ](https://fairmountinc.com/contact-us/)
+
+
+About Us
+Fairmount Ventures is a women-owned consulting business that catalyzes social impact by building the capacity of the nonprofit, education, and public sectors, towards a more equitable and just society.
+[ ![](https://fairmountinc.com/wp-content/uploads/2024/07/WBE_Seal_dark.png) ](https://fairmountinc.com)
+[ Linkedin-in ](https://www.linkedin.com/company/142400/)
+[ Facebook-f ](https://www.facebook.com/Fairmount-Ventures-159160364273565/?fref=ts)
+","","https://fairmountinc.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home | Fairmount Ventures","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","fairmountinc.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/18","0.4167","llm","heuristic_no_credit","d1a126972c5fbfd5acd1902ca4522b4fea8fe7dc1e6e5a0b55b260dbd68556c0","0.0","0.3","aa703bc7-540a-521a-9d99-25725d44b3a4","","2026-03-31T21:49:35.943283Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/fairmountinc.com.json","/tmp/tmpk1bknlli/evidence/domain/fairmountinc.com.json","","2026-06-29T21:49:35.943286Z","venture consulting firm partner email","2026-03-31T21:49:22.810805Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T21:49:35.956443Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpk1bknlli/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T21:49:35.956445Z","management consulting firm director email","2026-03-31T21:49:32.501789Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

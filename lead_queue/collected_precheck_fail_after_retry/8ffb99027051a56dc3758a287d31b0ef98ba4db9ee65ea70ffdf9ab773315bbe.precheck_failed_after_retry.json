@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Del Mar College Small Business Development Center",
+  "lead": {
+    "business": "Del Mar College Small Business Development Center",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Owner",
+    "website": "http://www.delmar.edu/sbdc",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Corpus Christi",
+    "source_url": "https://smallbusinessadvisory.com",
+    "description": "The Del Mar College Small Business Development Center (SBDC) is proud to be the premiere service provider to small businesses in the Coastal Bend Region.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Corpus Christi",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/delmarcollegesbdc"
+  },
+  "source_failed_basename": "1afdb991b6ce2aa5392269c44adeeba6c7dbe0a2c41b23c6f5a539591132cb4e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1afdb991b6ce2aa5392269c44adeeba6c7dbe0a2c41b23c6f5a539591132cb4e.precheck_failed.json",
+  "queue_key": "8ffb99027051a56dc3758a287d31b0ef98ba4db9ee65ea70ffdf9ab773315bbe"
+}

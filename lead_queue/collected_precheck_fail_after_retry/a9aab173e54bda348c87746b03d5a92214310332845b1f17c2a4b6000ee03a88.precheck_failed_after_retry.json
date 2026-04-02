@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "StartUpNV",
+  "lead": {
+    "business": "StartUpNV",
+    "full_name": "Info Lead",
+    "first": "Jeffsaling",
+    "last": "Lead",
+    "email": "info@startupnv.org",
+    "role": "Contact",
+    "website": "http://StartUpNV.org",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "",
+    "city": "Las Vegas",
+    "source_url": "https://startupnv.org",
+    "description": "Nevada's Statewide Business Incubator and Startup Accelerator - Serving Entrepreneurs and Startup companies with locations in Las Vegas (HQ), Reno, and our rural counties. Please contact us to get involved or to apply for admission to one of our programs.",
+    "employee_count": "11-50",
+    "hq_country": "89101",
+    "hq_state": "",
+    "hq_city": "Las Vegas",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupnv.org"
+  },
+  "source_failed_basename": "c90f81a26c13c27930e30b8c83bb0326c2889f7410def37f028d05d696a75366.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c90f81a26c13c27930e30b8c83bb0326c2889f7410def37f028d05d696a75366.precheck_failed.json",
+  "queue_key": "a9aab173e54bda348c87746b03d5a92214310332845b1f17c2a4b6000ee03a88"
+}

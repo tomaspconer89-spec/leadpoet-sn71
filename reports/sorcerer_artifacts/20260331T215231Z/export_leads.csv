@@ -1,0 +1,114 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=7/15","1.0","llm","heuristic_no_credit","8f66e6d371ca9c9627310dbb8d157ecd9b9016a201011a6fe9d21b08fd5a527e","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-03-31T21:51:23.524613Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmp1n4i90v9/evidence/domain/cansulta.com.json","","2026-06-29T21:51:23.524615Z","startup advisory services founder contact","2026-03-31T21:50:58.885140Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/16","0.4688","llm","heuristic_no_credit","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-03-31T21:51:23.537654Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp1n4i90v9/evidence/domain/maynardnexsen.com.json","","2026-06-29T21:51:23.537656Z","business consulting firm advisor email","2026-03-31T21:51:02.231285Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=3/15","0.5","llm","heuristic_no_credit","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-03-31T21:51:23.550613Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmp1n4i90v9/evidence/domain/vaam.io.json","","2026-06-29T21:51:23.550615Z","SaaS startup CEO contact information","2026-03-31T21:51:05.525296Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=2/15","0.3333","llm","heuristic_no_credit","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-03-31T21:51:23.563745Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp1n4i90v9/evidence/domain/findemails.com.json","","2026-06-29T21:51:23.563747Z","SaaS startup CEO contact information","2026-03-31T21:51:06.158403Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://bcg.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","bcg.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=4/18","0.5556","llm","heuristic_no_credit","55a0e88200ed2027f86a7b97a7642154920bf86af09f0e17aeea0f106cc568b6","0.0","0.3","ec0e9348-2485-5bdd-96e2-07497915e0dc","","2026-03-31T21:51:23.576741Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/bcg.com.json","/tmp/tmp1n4i90v9/evidence/domain/bcg.com.json","","2026-06-29T21:51:23.576744Z","venture consulting firm partner email","2026-03-31T21:51:10.661401Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/18","0.8333","llm","heuristic_no_credit","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-03-31T21:51:23.589914Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmp1n4i90v9/evidence/domain/huronconsultinggroup.com.json","","2026-06-29T21:51:23.589916Z","management consulting firm director email","2026-03-31T21:51:19.842819Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Digital Marketing & Advertising Agency Jacksonville, FL
+
+## Marketing Excellence To Help You Build A Greater Connection With Your Customers.
+
+## Connect is a full-service marketing agency focused on building excellent partnerships with businesses, professionals, and organizations across varying industries.
+
+## THE PROBLEM
+
+### One person can't do everything a business needs for effective marketing.
+
+Most mid-sized businesses have **one or two people** to manage their website, social media, digital advertising, email marketing, graphic design, content creation and reporting.
+
+It’s unrealistic to expect any one person to be an expert in everything, **let alone have the bandwidth** to do it all. Keeping up with marketing trends, learning the latest tools and quickly adapting to feedback can fall by the wayside, leaving your business **doing the same things over and over** with mediocre results. 
+
+## THE SOLUTION.
+
+### You need an agency partner to fill in the gaps, so your team can focus on delivering a great customer experience.
+
+We help your businesses make sense of everything going on in your market and with your customers, to **gain insights** and **develop an effective marketing plan**. Then we put our **team of experts** to work behind the scenes, ensuring marketing channels are properly utilized, budgets are maximized and customers are delighted.
+
+We provide **guidance** and **support** at each step, so that your marketing is **one part of your business that you don’t have to worry about.**
+
+## We create competitive advantages  
+to attract + retain your most valuable customers.
+
+### Strategy & Planning
+
+Brand Development | Budget | Communications Plan | Go-to-Market Strategy
+
+### Digital Marketing
+
+SEO | SEM | Social | Content | Email
+
+### Creative Services
+
+Design | Copywriting | Video
+
+### Website Development
+
+Conversion Optimized Design | Ecommerce | Mobile-Friendly
+
+## Every business has its unique challenges.  
+Let’s solve yours.
+
+I Need An Agency Partner
+
+I Need Help With A Project
+
+I Need An Agency Partner
+
+I Need Help With A Project
+
+### I know what I want and  
+just need the right team to do it.
+
+### 1.
+
+### Schedule  
+A Meeting
+
+We get to know you, you get to know us. We get to understand your goals and desires for this project and you can decide if we would be a good fit.
+
+### 2.
+
+### Discovery  
+& Planning
+
+A strategist will work with you to define exactly what you need and establish a project scope that works for you and accomplishes your goals.
+
+### 3.
+
+### Magic  
+Happens
+
+Your account manager will shepherd the project through to completion, keeping you up to date on progress & getting your feedback along the way.
+
+## Clients Come to Us with Problems. We Find Solutions.
+
+We love partnering with companies who share our passion for excellence and who want to be the best in their respective industries.
+
+“With regards to our social media, Connect has delivered above and beyond our expectations, growing our fan base exponentially and increasing engagement with fans and followers. Thanks to their efforts, Arlington Toyota now has the most popular fan pages of any dealership in Jacksonville."
+
+Rick Doran, General ManagerArlington Toyota
+
+"Attention to detail and personalized service set Connect apart in the marketplace today. I especially appreciate their help navigating the challenges of Digital Marketing. The handle all my marketing needs so I can focus on success in my business and thrive in an ultra-competitive market."
+
+![Woodchuck's Fine Furniture | Connect Agency Clients](https://theconnectagency.com/wp-content/uploads/connect-client-woodchucks.webp)
+
+Doug Correia, OwnerWoodchuck's Fine Furniture & Decor
+
+"We have loved working with Connect Agency! They have helped us consolidate our marketing efforts around the most effective strategies for our offices and patients, and they have been an integral part of our team here. They have often gone above and beyond to make sure we have what we need to be successful."
+
+Kelly Cameron, Chief Operating OfficerFlorida Eye Specialists
+
+“With regards to our social media, Connect has delivered above and beyond our expectations, growing our fan base exponentially and increasing engagement with fans and followers. Thanks to their efforts, Arlington Toyota now has the most popular fan pages of any dealership in Jacksonville."
+
+Rick Doran, General ManagerArlington Toyota
+
+"Attention to detail and personalized service set Connect apart in the marketplace today. I especially appreciate their help navigating the challenges of Digital Marketing. The handle all my marketing needs so I can focus on success in my business and thrive in an ultra-competitive market."
+
+Doug Correia, OwnerWoodchuck's Fine Furniture & Decor
+
+At Connect Agency, we are a tight-knit team of creatives who do **smart work** and **have fun** doing it.
+
+We know that we only win when our customers win, and we always treat you like a person, not just another project.
+
+## Are You Ready To Start Building A Better Connection With Your Customers?","","https://theconnectagency.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","theconnectagency.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","scoring_fallback|credit_limited","true","Heuristic fallback used (credit-limited). Term hits=6/17","0.8824","llm","heuristic_no_credit","f3f988009eeae9cab2a556c9fa01e1f29d9aaba6c76657f376df4de2e461ba30","0.0","0.3","240ccb68-8a2e-5214-81d4-762ef260fe24","","2026-03-31T21:52:31.707660Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/theconnectagency.com.json","/tmp/tmp1n4i90v9/evidence/domain/theconnectagency.com.json","","2026-06-29T21:52:31.707668Z","digital marketing agency founder contact","2026-03-31T21:51:23.504863Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

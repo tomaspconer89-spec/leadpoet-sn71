@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: first contains invalid characters",
+  "retry_reason": "name_invalid_chars: first contains invalid characters",
+  "previous_reason": "missing_required_fields: city",
+  "business": "Preferred CFO",
+  "lead": {
+    "business": "Preferred CFO",
+    "full_name": "K. Scott Crawford",
+    "first": "K. Scott",
+    "last": "Crawford",
+    "email": "info@preferredcfo.com",
+    "role": "Partner, New Business Development, Client Prioritization / VISTAGE Resource",
+    "website": "http://www.preferredcfo.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "WI",
+    "city": "Salt Lake City Metropolitan Area",
+    "source_url": "https://preferredcfo.com",
+    "description": "Preferred CFO provides tailored outsourced CFO, systems, controller, and strategic advisory solutions to organizations of all sizes. Our team consists of experienced CFOs, expert systems advisors, controllers, and bookkeepers. This means we can augment existing teams by elevating financial strategy, or can offer fully outsourced financial solutions to organizations without an in-house team. Learn more at www.preferredcfo.com",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Utah",
+    "hq_city": "Salt Lake City",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/preferred-cfo",
+    "linkedin": "https://linkedin.com/in/k-scott-crawford-b710258"
+  },
+  "source_failed_basename": "63a960de804ad6c297f9a9dccfb7054efe0247703a24700dedc7721912774eed.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/63a960de804ad6c297f9a9dccfb7054efe0247703a24700dedc7721912774eed.precheck_failed.json",
+  "queue_key": "7f4f837a7628c66d52867d9c5982023cb324af375ad9dd818d45d874ef6265b7"
+}

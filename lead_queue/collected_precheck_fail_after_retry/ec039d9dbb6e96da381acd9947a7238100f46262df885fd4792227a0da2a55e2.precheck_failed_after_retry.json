@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Better Business Bureau",
+  "lead": {
+    "business": "Better Business Bureau",
+    "full_name": "Steven McFarland",
+    "first": "Steven",
+    "last": "McFarland",
+    "email": "janice@newjersey.bbb.org",
+    "role": "President and CEO",
+    "website": "http://www.bbb.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "California",
+    "city": "Pasadena",
+    "source_url": "https://bbb.org",
+    "description": "BBB, Inc. is the global headquarters and governing body of the Better Business Bureau network, uniting more than 90 local BBB organizations across the United States and Canada, the BBB Institute for Marketplace Trust, and BBB TrustCore. BBB, Inc. establishes the standards, governance framework, technology, and shared operating infrastructure that power one of the world\u2019s most recognized and enduring credibility networks. Each year, more than 200 million people turn to BBB.org for trusted marketplace intelligence covering more than 5.8 million businesses.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York City",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/better-business-bureau",
+    "linkedin": "https://linkedin.com/in/steven-mcfarland-04b172"
+  },
+  "source_failed_basename": "6decbd9f95d677d34eca856ba2820259795cedca9417af5d50cd99a0c06da66b.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6decbd9f95d677d34eca856ba2820259795cedca9417af5d50cd99a0c06da66b.precheck_failed.json",
+  "queue_key": "ec039d9dbb6e96da381acd9947a7238100f46262df885fd4792227a0da2a55e2"
+}

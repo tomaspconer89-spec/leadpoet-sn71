@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Nevada Business Advisors",
+  "lead": {
+    "business": "Nevada Business Advisors",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "contactinfo@nevadabusinessadvisors.com",
+    "role": "founder",
+    "website": "http://nevadabusinessadvisors.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "source_url": "https://nevadabusinessadvisors.com",
+    "description": "Nevada Business Advisors is in the business of building your business with experience you can trust. Powerful insights with Proven Delivery and Results. -",
+    "employee_count": "0-1",
+    "hq_country": "United States",
+    "hq_state": "Nevada",
+    "hq_city": "Las Vegas",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/nevada-business-advisors"
+  },
+  "source_failed_basename": "412d7b2a1238d9bb71fd9d31fc5ce95d671191ecce3a8829b705c52b93cd1568.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/412d7b2a1238d9bb71fd9d31fc5ce95d671191ecce3a8829b705c52b93cd1568.precheck_failed.json",
+  "queue_key": "cd97de37c2719ac8e8c37c496eadff0bb5df1fc98e1ed73a5e7ce7958e140b51"
+}

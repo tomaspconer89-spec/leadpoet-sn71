@@ -1,0 +1,37 @@
+{
+  "reason": "missing_required_fields: email, role, country, city",
+  "business": "Business Advisory - aliveadvisor",
+  "lead": {
+    "business": "Business Advisory - aliveadvisor",
+    "full_name": "Aliveadvisor Pif",
+    "first": "Aliveadvisor",
+    "last": "Pif",
+    "email": "",
+    "role": "",
+    "website": "https://aliveadvisor.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "linkedin": "https://www.linkedin.com/in/aliveadvisor-pif-23040b220",
+    "company_linkedin": "https://www.linkedin.com/company/alive-advisor",
+    "source_url": "https://aliveadvisor.com",
+    "description": "# Business Advisory - aliveadvisor Our Business Advisory services tackle all aspects of your business from managing finances, marketing your product or service better and more widely, embarking on research and development activities, to improving your operations. ## Strategic Partnership Strategic partnering is the new buzzword. We facilitate Strategic Partnerships between two or more independent companies to cooperate in the manufacturing, development, or sale of products and services, or other business objectives.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

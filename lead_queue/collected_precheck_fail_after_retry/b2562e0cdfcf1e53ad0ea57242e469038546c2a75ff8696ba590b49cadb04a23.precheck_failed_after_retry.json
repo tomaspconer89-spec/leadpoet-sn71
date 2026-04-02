@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "Association of Small & Medium Enterprises",
+  "lead": {
+    "business": "Association of Small & Medium Enterprises",
+    "full_name": "Hello Lead",
+    "first": "Hello",
+    "last": "Lead",
+    "email": "hello@smefoundersassociation.com",
+    "role": "Contact",
+    "website": "http://www.asme.org.sg",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organization Management",
+    "country": "United States",
+    "state": "China",
+    "city": "Chongqing",
+    "source_url": "https://smefoundersassociation.com",
+    "description": "ASME is a not-for-profit organisation whose mission is to empower SMEs for Growth and Success.",
+    "employee_count": "11-50",
+    "hq_country": "Singapore",
+    "hq_state": "China",
+    "hq_city": "Singapore",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://sg.linkedin.com/company/sgasme"
+  },
+  "source_failed_basename": "366d55a1ebd6a2c46e60e43ac6c49a7328d575e75b67e372721979e4b67982bf.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/366d55a1ebd6a2c46e60e43ac6c49a7328d575e75b67e372721979e4b67982bf.precheck_failed.json",
+  "queue_key": "b2562e0cdfcf1e53ad0ea57242e469038546c2a75ff8696ba590b49cadb04a23"
+}

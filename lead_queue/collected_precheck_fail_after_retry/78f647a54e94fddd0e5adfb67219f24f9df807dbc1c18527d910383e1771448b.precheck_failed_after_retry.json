@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Startup Grind",
+  "lead": {
+    "business": "Startup Grind",
+    "full_name": "Alex Guttler",
+    "first": "Alex",
+    "last": "Guttler",
+    "email": "",
+    "role": "Partnerships",
+    "website": "http://www.startupgrind.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://techstars.com",
+    "description": "Startup Grind is the leading global startup community dedicated to fostering the growth of early-stage companies. From bootstrapped beginnings through Series A rounds, we support our members with access to funding opportunities, expanding market reach, and connection to a robust network of founders, tech leaders, investors and partners spanning 150 countries worldwide.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Palo Alto",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startup-grind",
+    "linkedin": "https://linkedin.com/in/alexguttler"
+  },
+  "source_failed_basename": "466524e738c108b6c90bf0ae39aa9e734d26d5fff775bce0eb733a138e84dfb7.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/466524e738c108b6c90bf0ae39aa9e734d26d5fff775bce0eb733a138e84dfb7.precheck_failed.json",
+  "queue_key": "78f647a54e94fddd0e5adfb67219f24f9df807dbc1c18527d910383e1771448b"
+}

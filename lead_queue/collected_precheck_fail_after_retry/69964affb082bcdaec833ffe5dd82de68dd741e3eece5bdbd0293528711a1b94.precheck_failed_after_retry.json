@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Startup Advisory Group",
+  "lead": {
+    "business": "Startup Advisory Group",
+    "full_name": "Jason Bulger",
+    "first": "Jason",
+    "last": "Bulger",
+    "email": "",
+    "role": "Founder & CEO",
+    "website": "http://www.startupadvisorygroup.co",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "Australia",
+    "state": "New York",
+    "city": "Greater Melbourne Area",
+    "source_url": "https://startupadvisory.in",
+    "description": "Startup Advisory Group is a consulting and execution firm with over a decade of experience supporting entrepreneurs, nonprofits, and organizations as they build, operate, and scale impactful ventures. We work with founders and leadership teams to strengthen the systems behind their work\u2014growth strategy, operations, fundraising, digital infrastructure, and the responsible use of technology and AI. Our approach is practical and hands-on, focused on helping organizations move from ideas to execution and from growth to sustainability.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Staten Island",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupadvisorygroup",
+    "linkedin": "https://linkedin.com/in/jasonbulger"
+  },
+  "source_failed_basename": "c72ad7b63dc7c89966cd4f67f4d8da303c775efc2c0958ecb181dad95ea23b66.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c72ad7b63dc7c89966cd4f67f4d8da303c775efc2c0958ecb181dad95ea23b66.precheck_failed.json",
+  "queue_key": "69964affb082bcdaec833ffe5dd82de68dd741e3eece5bdbd0293528711a1b94"
+}

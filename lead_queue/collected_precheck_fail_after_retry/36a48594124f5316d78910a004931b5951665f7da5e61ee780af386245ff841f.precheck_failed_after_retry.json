@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "email_domain_mismatch",
+  "business": "UHY Forbes Andersen",
+  "lead": {
+    "business": "UHY Forbes Andersen",
+    "full_name": "Lori Keightley",
+    "first": "Lori",
+    "last": "Keightley",
+    "email": "lori.keightley@fa.ca",
+    "role": "Partner",
+    "website": "http://forbesandersen.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "source_url": "https://uhyfallp.com",
+    "description": "Founded in 1982, we are a 30 person accounting firm with locations in Toronto and Milton. For over 40 years we have been providing advice to business owners and public companies. We are committed to achieving the highest level of client satisfaction and believe that our team-based approach maximizes the value of the services we provide to our clients. In today\u2019s competitive marketplace, relationships play a major role in choosing your business advisors.",
+    "employee_count": "11-50",
+    "hq_country": "Ontario",
+    "hq_state": "Ontario",
+    "hq_city": "Toronto",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/forbes-andersen-llp",
+    "linkedin": "https://linkedin.com/in/lori-keightley-91551134"
+  },
+  "source_failed_basename": "57760d2725a38cd12ba4c6b892b8b3c2dc71e030706f160b35dd88de0d754f2f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/57760d2725a38cd12ba4c6b892b8b3c2dc71e030706f160b35dd88de0d754f2f.precheck_failed.json",
+  "queue_key": "36a48594124f5316d78910a004931b5951665f7da5e61ee780af386245ff841f"
+}

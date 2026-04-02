@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "mrge Marketing",
+  "lead": {
+    "business": "mrge Marketing",
+    "full_name": "Melissa Gallo",
+    "first": "Melissa",
+    "last": "Gallo",
+    "email": "melissa@mrgemarketing.com",
+    "role": "Founder | Marketing Strategist | Fractional CMO",
+    "website": "http://www.mrgemarketing.com",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Marketing",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Etobicoke",
+    "source_url": "https://mrgemarketing.com",
+    "description": "When referrals slow down, does your pipeline slow down with them? If the answer is yes, you don\u2019t have a marketing engine. You have a dependency problem. Many B2B tech and professional services firms reach a growth ceiling where referrals fluctuate, pipeline becomes inconsistent, and marketing efforts feel reactive instead of strategic. \u274c Leads are unpredictable \u274c Agencies execute tactics without owning strategy \u274c Internal teams lack senior marketing leadership \u274c Growth depends too heavily on relationships alone That\u2019s where mrge Marketing steps in.",
+    "employee_count": "2-10",
+    "hq_country": "ON",
+    "hq_state": "Ontario",
+    "hq_city": "Toronto",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/mrge-marketing",
+    "linkedin": "https://linkedin.com/in/melissagallo"
+  },
+  "source_failed_basename": "a6cf4caa530e66d439f4cb75699bd21c6c113529c8490b5ce382244de12b96c0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/a6cf4caa530e66d439f4cb75699bd21c6c113529c8490b5ce382244de12b96c0.precheck_failed.json",
+  "queue_key": "c57a26afd859db2970463efb58b00d3064e9e52829252b3afc502092c75efb7e"
+}

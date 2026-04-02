@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Management Consulted",
+  "lead": {
+    "business": "Management Consulted",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "https://managementconsulted.com",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "California",
+    "city": "Redding",
+    "source_url": "https://managementconsulted.com",
+    "description": "Organizations and individuals who need world-class training come to Management Consulted. \u2714 Consulting candidates work with us to navigate the case interview and land offers at 170+ global consulting firms. \u2714 Universities engage with us to give their students a leg up in the consulting recruiting process, as well as to give them best-in-class training on Excel & PowerPoint. \u2714 Companies engage with us to increase the communication, presentation, and persuasion abilities of their teams through dynamic, bespoke workshops.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Redding",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/10147742",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/management-consulted"
+  },
+  "source_failed_basename": "3572bf100b8a9845728869e5e800fa662cd13cf0400c6b1c03883fcf63fe69f1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3572bf100b8a9845728869e5e800fa662cd13cf0400c6b1c03883fcf63fe69f1.precheck_failed.json",
+  "queue_key": "a8afab4257ed50cbf50867b939f0b1c7af004388423e746ce172f9639c0f3e16"
+}

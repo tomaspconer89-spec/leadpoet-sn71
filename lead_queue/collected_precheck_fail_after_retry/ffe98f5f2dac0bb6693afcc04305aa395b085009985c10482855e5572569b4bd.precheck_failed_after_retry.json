@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Home.LLC",
+  "lead": {
+    "business": "Home.LLC",
+    "full_name": "Jeff Pasquale",
+    "first": "Jeff",
+    "last": "Pasquale",
+    "email": "hello@ventureoutny.com",
+    "role": "Founder & President",
+    "website": "http://www.home.llc",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Colorado",
+    "city": "Denver",
+    "source_url": "https://ventureoutny.com",
+    "description": "\ud83c\udfe0 Home Equity Investments: Extract up to $500K from your home equity \ud83c\udfaf Homie.LLC: Achieve your goals with world class talent from $20/hr \ud83d\udcb0 Home Equity Funds: Generate strong risk-adjusted returns",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hoominc",
+    "linkedin": "https://linkedin.com/in/jeff-pasquale-43013b12"
+  },
+  "source_failed_basename": "594fd5b0fc63e5c5fd702e505331cb571d93515148a20110174b1a37bb615d7a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/594fd5b0fc63e5c5fd702e505331cb571d93515148a20110174b1a37bb615d7a.precheck_failed.json",
+  "queue_key": "ffe98f5f2dac0bb6693afcc04305aa395b085009985c10482855e5572569b4bd"
+}

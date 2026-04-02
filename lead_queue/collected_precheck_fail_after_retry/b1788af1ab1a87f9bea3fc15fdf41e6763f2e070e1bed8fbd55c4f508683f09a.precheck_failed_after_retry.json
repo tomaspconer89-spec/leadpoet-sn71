@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Growth & Performance Solutions",
+  "lead": {
+    "business": "Growth & Performance Solutions",
+    "full_name": "Justin Barnes, FHIMSS",
+    "first": "Justin",
+    "last": "Barnes, FHIMSS",
+    "email": "blkelly@gsteammail.com",
+    "role": "Chief Executive Officer",
+    "website": "https://www.growth-performance.co.uk/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Sarasota",
+    "source_url": "https://growthsolutionsteam.com",
+    "description": "Growth & Performance Solutions helps construction businesses strengthen performance, achieve compliance, and grow sustainably. Bringing together expertise in consultancy, training, and supplier development, the company supports businesses at every stage of their commercial journey, from winning work to building capability and delivering successfully. Our consultancy services cover Health & Safety, Bid Writing, Compliance, and Business Development. We work directly with business owners to improve systems, secure accreditations, and build strategies that lead to profitable contracts.",
+    "employee_count": "0-1",
+    "hq_country": "India",
+    "hq_state": "Haryana",
+    "hq_city": "Gurugram",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/growth-performance-solutions",
+    "linkedin": "https://linkedin.com/in/justintbarnes"
+  },
+  "source_failed_basename": "01dbe849f0269ff608511b59382bf8ee73bc09c1595f8f0b1d5c8d3054137be7.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/01dbe849f0269ff608511b59382bf8ee73bc09c1595f8f0b1d5c8d3054137be7.precheck_failed.json",
+  "queue_key": "b1788af1ab1a87f9bea3fc15fdf41e6763f2e070e1bed8fbd55c4f508683f09a"
+}

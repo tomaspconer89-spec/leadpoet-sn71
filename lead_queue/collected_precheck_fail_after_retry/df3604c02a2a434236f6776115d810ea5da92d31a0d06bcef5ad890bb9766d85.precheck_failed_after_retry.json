@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Business Transformation Consulting Group",
+  "lead": {
+    "business": "Business Transformation Consulting Group",
+    "full_name": "Paul Gulbin",
+    "first": "Paul",
+    "last": "Gulbin",
+    "email": "",
+    "role": "Founder & CEO",
+    "website": "https://btcg-llc.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://foundedpartners.com",
+    "description": "\ud83d\ude80 Welcome to BTCG - Your Partner in Business Transformation \ud83c\udf10 At BTCG, we specialize in providing transformative consulting services that empower companies to evolve and thrive in today's dynamic business landscape. We are committed to driving impactful changes by implementing strategic shifts in operations and methodologies. \ud83d\udd0d Services Overview: \u2022 Project & Program Management: Navigate the complexities of your initiatives with our expert support. We excel in assisting clients in meticulous planning, seamless execution, and vigilant oversight of diverse projects and programs.",
+    "employee_count": "0-1",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "Greater Boston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/btcg-navigate-change",
+    "linkedin": "https://linkedin.com/in/paulgulbin1"
+  },
+  "source_failed_basename": "a0d799d31f9dca501883d5b2810045d9957cc6f98fd9f8ee40e89ee3218e1bd1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/a0d799d31f9dca501883d5b2810045d9957cc6f98fd9f8ee40e89ee3218e1bd1.precheck_failed.json",
+  "queue_key": "df3604c02a2a434236f6776115d810ea5da92d31a0d06bcef5ad890bb9766d85"
+}

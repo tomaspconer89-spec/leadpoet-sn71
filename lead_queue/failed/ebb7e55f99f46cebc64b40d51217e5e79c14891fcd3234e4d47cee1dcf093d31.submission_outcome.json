@@ -1,0 +1,41 @@
+{
+  "source_file": "ebb7e55f99f46cebc64b40d51217e5e79c14891fcd3234e4d47cee1dcf093d31.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "Benchmark Business Group",
+    "full_name": "Susan Clements",
+    "first": "Susan",
+    "last": "Clements",
+    "email": "sclements@benchmarkbusinessgroup.com",
+    "role": "Partner",
+    "website": "http://www.benchmarkbusinessgroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Iowa",
+    "city": "Des Moines",
+    "linkedin": "https://www.linkedin.com/in/susan-clements-2314376",
+    "company_linkedin": "https://www.linkedin.com/company/benchmark-business-group",
+    "source_url": "https://benchmarkbusinessgroup.com",
+    "description": "We\u2019re passionate about helping transform businesses. We have a core belief that owning a business should be about, \u201cValue Realized\u201d. If you\u2019re a business owner that is still involved in the day to day operations, \u201cValue Realized\u201d is having more satisfaction, less fires and stress, and more time and money. It\u2019s about designing a business that adds to your life rather than IS your life. If you\u2019re a business owner that has already designed a business that adds to your life rather than consumes your life, \u201cValue Realized\u201d is about growing your business organically or acquiring other businesses.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Iowa",
+    "hq_city": "Des Moines",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

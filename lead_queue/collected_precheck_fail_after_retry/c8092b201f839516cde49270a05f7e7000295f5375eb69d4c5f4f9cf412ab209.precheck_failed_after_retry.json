@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Russell Reynolds Associates",
+  "lead": {
+    "business": "Russell Reynolds Associates",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "CEO",
+    "website": "https://bit.ly/4nAcixB",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://russellreynolds.com",
+    "description": "Russell Reynolds Associates is a global leadership advisory firm. Our 500+ consultants in 47 offices work with public, private and nonprofit organizations across all industries and regions. We help our clients build teams of transformational leaders who can meet today\u2019s challenges and anticipate the digital, economic and political trends that are reshaping the global business environment.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/russell-reynolds-associates"
+  },
+  "source_failed_basename": "bc048670fc4dde1bae1f0aceed79945b6a4f30fcc9744d7047c56c8fa44f9b4a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/bc048670fc4dde1bae1f0aceed79945b6a4f30fcc9744d7047c56c8fa44f9b4a.precheck_failed.json",
+  "queue_key": "c8092b201f839516cde49270a05f7e7000295f5375eb69d4c5f4f9cf412ab209"
+}

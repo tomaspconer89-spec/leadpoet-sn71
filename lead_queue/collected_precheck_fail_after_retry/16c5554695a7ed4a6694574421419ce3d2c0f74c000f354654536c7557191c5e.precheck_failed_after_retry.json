@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Delap LLP",
+  "lead": {
+    "business": "Delap LLP",
+    "full_name": "Raquel Pellecer Lee, CPA",
+    "first": "Raquel",
+    "last": "Pellecer Lee, CPA",
+    "email": "rlee@delapcpa.com",
+    "role": "Assurance Manager",
+    "website": "http://www.delapcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Oregon",
+    "city": "Boring",
+    "source_url": "https://delapcpa.com",
+    "description": "Tax, Assurance, Business Advisory, Wealth Advisory, Managed IT Services \u2013 all under one roof. Delap is a fully integrated CPA and financial services firm helping privately held and mid-sized companies, business owners, and high-net-worth families achieve confidence and clarity in navigating complex financial and business decisions. Our multi-disciplinary team integrates seamlessly with your business to deliver results-driven service and long-term value. We\u2019re more than an accounting firm.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Oregon",
+    "hq_city": "Lake Oswego",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/delap-llp",
+    "linkedin": "https://linkedin.com/in/raquel-pellecer"
+  },
+  "source_failed_basename": "d67eefb9c311187af921fea93d0f0635f7a447de64c537cb04012e8e62dee5f0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d67eefb9c311187af921fea93d0f0635f7a447de64c537cb04012e8e62dee5f0.precheck_failed.json",
+  "queue_key": "16c5554695a7ed4a6694574421419ce3d2c0f74c000f354654536c7557191c5e"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Slalom",
+  "lead": {
+    "business": "Slalom",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Vice President",
+    "website": "https://www.slalom.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Washington",
+    "city": "Seattle",
+    "source_url": "https://slalom.com",
+    "description": "Slalom is a fiercely human business and technology consulting company that leads with outcomes to bring more value, in all ways, always. We team with leaders who expect more. So we bring more. From strategy through delivery, our agile teams across 53 offices in 12 countries collaborate with you to bring powerful customer experiences, innovative ways of working, and new products, services, and businesses to life. Every day, we work at the forefront of industry, combining our deep roots in technology and data, to help you tackle challenges, improve operations, and drive sustainable growth.",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "Washington",
+    "hq_city": "Seattle",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/slalom-consulting"
+  },
+  "source_failed_basename": "667c692a8a0c3fc4b908e85a2aba0843476c3b732b40a402f1b79b1ddd8c16ef.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/667c692a8a0c3fc4b908e85a2aba0843476c3b732b40a402f1b79b1ddd8c16ef.precheck_failed.json",
+  "queue_key": "6411fea381c94d888c90205ad406720aa4941470bffad55095b896a895160959"
+}

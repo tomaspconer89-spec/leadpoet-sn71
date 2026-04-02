@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, role, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, role, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "CSUSM College of Science, Technology, Engineering & Mathematics",
+  "lead": {
+    "business": "CSUSM College of Science, Technology, Engineering & Mathematics",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "atcstempmp@csusm.eduto",
+    "role": "",
+    "website": "https://www.csusm.edu/cstem/",
+    "industry": "Education",
+    "sub_industry": "Higher Education",
+    "country": "United States",
+    "state": "California",
+    "city": "San Marcos",
+    "source_url": "https://csusm.edu",
+    "description": "Our college builds upon the successes and accomplishments of the prior College of Arts and Sciences, which was established in 1991 as a \"scholarly community committed to providing comprehensive, high-quality education for students in a rapidly-changing world.\" The College of Science and Mathematics continues to promote this vision, through exemplary teaching, innovative curricula, and excellence in research. Integral to the College's instructional mission is the generation of new knowledge through research and creative activity.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Marcos",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/csusm-college-of-science-and-mathematics"
+  },
+  "source_failed_basename": "906e76cb07b7825693148df6f99ab0c34537a6f849418b5e0b41fcaaff690b55.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/906e76cb07b7825693148df6f99ab0c34537a6f849418b5e0b41fcaaff690b55.precheck_failed.json",
+  "queue_key": "a9738942f06a4daf2ea54a54343c85684dd085d1dbf1245f6ccd584ea75cc3af"
+}

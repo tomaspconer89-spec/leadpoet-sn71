@@ -1,0 +1,42 @@
+{
+  "reason": "email_domain_mismatch",
+  "retry_reason": "email_domain_mismatch",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Refresh Digital Strategy",
+  "lead": {
+    "business": "Refresh Digital Strategy",
+    "full_name": "Marshberry Lead",
+    "first": "Marshberry",
+    "last": "Kraig",
+    "email": "marshberry@marshberry.com",
+    "role": "Contact",
+    "website": "https://www.letsrefresh.io",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Marketing",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "source_url": "https://marshberry.com",
+    "description": "For business owners and marketing teams who need a high-performing website, Refresh is a Webflow and digital marketing agency that delivers fast, scalable sites. Unlike DIY builders or bloated agencies, we offer expert strategy and flexible support that actually drive results for your business.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Charlotte",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/letsrefresh-io",
+    "linkedin": "https://www.linkedin.com/in/anupamaravi"
+  },
+  "source_failed_basename": "5238b3d41460ed9116765c3c6c84ebd4fc36f0e2a60cfd2bf4f1e04871b36e68.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5238b3d41460ed9116765c3c6c84ebd4fc36f0e2a60cfd2bf4f1e04871b36e68.precheck_failed.json",
+  "queue_key": "88e63fa205b69ecc102399643f23ab44eccb17aad62dd9d74a78cb586dd75b6a"
+}

@@ -1,0 +1,778 @@
+{
+  "saved_at_utc": "2026-04-01T13:02:32.058220+00:00",
+  "queue_key": "ad95882483a6bb8fce5b2f08a0ef7f5f0e2cbc23817627fd8ccdc489bd21b0c8",
+  "business": "Home - Venture Best, a part of Michael Best & Friedrich LLP",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Home - Venture Best, a part of Michael Best & Friedrich LLP",
+      "Home - Venture Best, a part of Michael Best & Friedrich LLP linkedin company",
+      "site:linkedin.com/company venturebest.com",
+      "site:linkedin.com/in \"Home - Venture Best, a part of Michael Best & Friedrich LLP\" founder",
+      "site:linkedin.com/in \"Home - Venture Best, a part of Michael Best & Friedrich LLP\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "S7RdnfWqrM4UWfI",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Home - Venture Best, a part of Michael Best & Friedrich LLP",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Best",
+            "url": "https://www.linkedin.com/company/venture-best",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Best\u00ae",
+            "description": "Venture Best\u00ae. Legal Services. Milwaukee, WI 1,829 followers. The Legal Partner for High-Growth Entrepreneurs | A part of Michael Best & Friedrich LLP.Read more",
+            "emphasizedKeywords": [
+              "Venture Best\u00ae"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Michael Best",
+            "url": "https://www.linkedin.com/company/michaelbest",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Best",
+            "description": "Michael Best & Friedrich LLP is a leading law firm, providing a full range ... Michael Best's areas of practice include: AI services, intellectual property\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Michael Best & Friedrich LLP",
+              "Best's areas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Michael Best Strategies",
+            "url": "https://www.linkedin.com/company/michael-best-strategies",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Best Strategies",
+            "description": "Michael Best Strategies and Michael Best & Friedrich LLP were proud to join ... Venture Best\u00ae. Legal Services. Milwaukee, WI. Brunswick Group. Business\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Best",
+              "Michael Best & Friedrich LLP",
+              "Venture Best"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Amplify.LA",
+            "url": "https://www.linkedin.com/company/amplify-la",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Katie Dean",
+            "description": "Amplify is an early stage venture capital firm in Venice, CA dedicated to making early investments in LA's most promising startups.Read more",
+            "emphasizedKeywords": [
+              "Amplify is an early stage venture capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.5K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Capital Entrepreneurs",
+            "url": "https://www.linkedin.com/company/capitalentrepreneurs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Capital Entrepreneurs",
+            "description": "Venture Best\u00ae DreamBank - American Family ... Thanks to sponsors and promoting partners - StartingBlock Madison, Inc., Michael Best & Friedrich LLP\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Venture Best",
+              "Michael Best & Friedrich LLP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Amplify.LA",
+            "url": "https://cn.linkedin.com/company/amplify-la?trk=ppro_cprof",
+            "displayedUrl": "https://cn.linkedin.com \u203a company \u203a amplify-la",
+            "description": "Amplify is an early stage venture capital firm in Venice, CA dedicated to making early investments in LA's most promising startups, and is a leading\u00a0...",
+            "emphasizedKeywords": [
+              "Amplify is an early stage venture capital firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Horizon Ventures",
+            "url": "https://www.linkedin.com/company/horizon-ventures-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Horizon Ventures",
+            "description": "... Michael Best & Friedrich LLP, Justworks, Forecastr, Agora, Amazatic Solutions, SHOPLINE. No alternative text description for this image. 57 7 Comments \u00b7 Like\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Michael Best & Friedrich LLP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "VCFO Limited",
+            "url": "https://uk.linkedin.com/company/vcfo-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0VCFO Limited",
+            "description": "Michael Best & Friedrich LLP. Law Practice. Milwaukee, WI. Draper Associates. Venture Capital and Private Equity Principals. San Mateo, CA. NBK Egypt. Banking.Read more",
+            "emphasizedKeywords": [
+              "Michael Best & Friedrich LLP",
+              "Venture"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Stanford Angels & Entrepreneurs United",
+            "url": "https://www.linkedin.com/company/stanfordunited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sheila Proeve",
+            "description": "We facilitate investment, education and mentor-ship opportunities for entrepreneurs and alumni investors. We are a remote-first group of 1600+ alumni members\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "860+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Howdy Partners",
+            "url": "https://www.linkedin.com/company/howdyvc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Howdy Partners",
+            "description": "We are a venture capital fund investing in early-stage startups headquartered across the state of Colorado, outside of the Front Range.Read more",
+            "emphasizedKeywords": [
+              "venture"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/hkNLOux6R65nmwp5H/records/S7RdnfWqrM4UWfI-0.html?signature=f8377NiVRpuWXwFwwsY2"
+      },
+      {
+        "#debug": {
+          "requestId": "PhXxVs1t8tTqbmW",
+          "url": "http://www.google.com/search?q=Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Home - Venture Best, a part of Michael Best & Friedrich LLP linkedin company",
+          "url": "http://www.google.com/search?q=Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Home+-+Venture+Best%2C+a+part+of+Michael+Best+%26+Friedrich+LLP+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Michael Best & friedrich llp headquarters",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+%26+friedrich+llp+headquarters&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Michael Best Law firm ranking",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Law+firm+ranking&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Is Michael Best Big Law",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Is+Michael+Best+Big+Law&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Michael Best and Friedrich salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+and+Friedrich+salary&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Michael Best Strategies LLC",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Strategies+LLC&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Michael Best Associate salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Associate+salary&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Michael Best EDGE internship",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+EDGE+internship&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Michael Best & friedrich llp address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+%26+friedrich+llp+address&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Michael Best & friedrich llp headquarters",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+%26+friedrich+llp+headquarters&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Michael Best Law firm ranking",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Law+firm+ranking&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Is Michael Best Big Law",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Is+Michael+Best+Big+Law&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Michael Best and Friedrich salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+and+Friedrich+salary&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Michael Best Strategies LLC",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Strategies+LLC&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Michael Best Associate salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+Associate+salary&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "Michael Best EDGE internship",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+EDGE+internship&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Michael Best & friedrich llp address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Michael+Best+%26+friedrich+llp+address&sa=X&ved=2ahUKEwjNsJnA2syTAxX6VKQEHZDFLxgQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Best",
+            "url": "https://www.linkedin.com/company/venture-best",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Best\u00ae",
+            "description": "Venture Best\u00ae | 1829 followers on LinkedIn. The Legal Partner for High-Growth Entrepreneurs | A part of Michael Best & Friedrich LLP | We work closely with\u00a0...",
+            "emphasizedKeywords": [
+              "Venture Best\u00ae"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Michael Best",
+            "url": "https://www.linkedin.com/company/michaelbest",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Best",
+            "description": "Michael Best & Friedrich LLP is a leading law firm, providing a full range ... Michael Best's areas of practice include: AI services, intellectual property\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Michael Best & Friedrich LLP",
+              "firm",
+              "Best's areas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Michael Best & Friedrich LLP: Full Service Law Firm",
+            "url": "https://www.michaelbest.com/",
+            "displayedUrl": "https://www.michaelbest.com",
+            "description": "Full-Service Law Firm solving complex challenges through bold thinking, precise execution, and shared purpose.",
+            "emphasizedKeywords": [
+              "Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Home - Venture Best, a part of Michael Best & Friedrich LLP",
+            "url": "https://www.venturebest.com/",
+            "displayedUrl": "https://www.venturebest.com",
+            "description": "We help companies and investors make connections, structure and close transactions, and maximize returns. We also counsel early-stage businesses.Read more",
+            "emphasizedKeywords": [
+              "companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Bart Dillashaw - Michael Best & Friedrich LLP",
+            "url": "https://www.linkedin.com/in/bart-dillashaw-a0a658",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bart Dillashaw",
+            "description": "Bart Dillashaw is a partner with Michael Best's VentureBest group where he practices general corporate and securities law. Bart primarily works with early\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Bart Dillashaw is a partner with Michael Best's VentureBest group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "David Morris - Michael Best & Friedrich LLP",
+            "url": "https://www.linkedin.com/in/dmorr92",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0David Morris",
+            "description": "Accomplished legal and financial professional with direct experience on advising on\u2026 \u00b7 Experience: Michael Best & Friedrich LLP \u00b7 Education: Duke University\u00a0...",
+            "emphasizedKeywords": [
+              "Michael Best & Friedrich LLP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Venture Best",
+            "url": "https://www.michaelbest.com/capabilities/venture-best/",
+            "displayedUrl": "https://www.michaelbest.com \u203a capabilities \u203a venture-best",
+            "description": "Venture Best is the perfect fit for tech startups, founders and VC funds\u2013we are nationally ranked in venture financing deal volume (Top 10 in the US for 2023-\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Venture Best"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "People",
+            "url": "https://www.venturebest.com/People",
+            "displayedUrl": "https://www.venturebest.com \u203a People",
+            "description": "A full-service team of professionals bringing value-added insights to our clients' opportunities and challenges, rooted in our diverse experiences.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "#michaelbest #losangeles #venturelaw | Michael Best & ...",
+            "url": "https://www.linkedin.com/posts/michaelbest_michaelbest-losangeles-venturelaw-activity-7411820892638511104-XYIU",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Best",
+            "description": "Be part of a firm consistently ranked in the top 10 nationally for deal volume by Pitchbook. Our Venture Best practice has been\u00a0...",
+            "emphasizedKeywords": [
+              "part",
+              "firm",
+              "Venture Best"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Michael Best merges with Los Angeles-based law firm",
+            "url": "https://biztimes.com/michael-best-merges-with-los-angeles-based-law-firm/",
+            "displayedUrl": "https://biztimes.com \u203a michael-best-merges-with-los-ange...",
+            "description": "Milwaukee-based law firm Michael Best & Friedrich LLP and Los Angeles-based venture law firm O&A, PC have formally combined, effective July 1.Read more",
+            "date": "2024-07-10T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "firm Michael Best & Friedrich LLP",
+              "venture",
+              "firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/iTRRRdrT7baXym4Tk/records/PhXxVs1t8tTqbmW-0.html?signature=1uFkB3K2hjH7E7IEjXziW"
+      },
+      {
+        "#debug": {
+          "requestId": "ujaXgIhcjCo0FmL",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+venturebest.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+venturebest.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company venturebest.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+venturebest.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+venturebest.com",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venture Best",
+            "url": "https://www.linkedin.com/company/venture-best",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Best\u00ae",
+            "description": "We work closely with entrepreneurs, and with their venture capital and angel investors, to help new, high-growth companies find financial backing and grow\u00a0...",
+            "emphasizedKeywords": [
+              "We work closely with entrepreneurs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Venture Science",
+            "url": "https://sv.linkedin.com/company/vensci",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venture Science",
+            "description": "Venture Science is a growth stage investment firm located in San Francisco. The firm is best known for its use of quantitative decision principles such as\u00a0...",
+            "emphasizedKeywords": [
+              "Venture Science is a growth stage investment firm located in San Francisco"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "850+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "StartUpProgram",
+            "url": "https://www.linkedin.com/company/startupprogram-com-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0StartUpProgram",
+            "description": "More value for less cost, providing a unique suite of legal startup products and services for entrepreneurs.",
+            "emphasizedKeywords": [
+              "providing a unique suite of legal startup products and services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Michael Best Strategies",
+            "url": "https://fr.linkedin.com/company/michael-best-strategies?trk=ppro_cprof",
+            "displayedUrl": "https://fr.linkedin.com \u203a company \u203a michael-best-strategies",
+            "description": "We provide unified legal, business consulting, government relations, and PR services, and with us, you'll have access to more than 400 diverse professionals who\u00a0...",
+            "emphasizedKeywords": [
+              "unified legal, business consulting, government relations, and PR services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Blue Heron Ventures, Inc.",
+            "url": "https://www.linkedin.com/company/blue-heron-ventures-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Blue Heron Ventures, Inc.",
+            "description": "Blue Heron Ventures is an angel investment company which provides fairly priced legal services, angel investment and entrepreneurial experience.",
+            "emphasizedKeywords": [
+              "Blue Heron Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Capital Entrepreneurs",
+            "url": "https://www.linkedin.com/company/capitalentrepreneurs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Capital Entrepreneurs",
+            "description": "We, Capital Entrepreneurs, unite under the shared purpose of fostering a culture of support, collaboration, and growth.",
+            "emphasizedKeywords": [
+              "fostering a culture of support, collaboration, and growth"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Cytowski & Partners",
+            "url": "https://bo.linkedin.com/company/cytowski-llc",
+            "displayedUrl": "https://bo.linkedin.com \u203a company \u203a cytowski-llc",
+            "description": "Cytowski & Partners is a specialist law firm for startups, seed/series A and US market expansion. Our law firm has worked with 500+ founders, 100+ startups\u00a0...",
+            "emphasizedKeywords": [
+              "is a specialist law firm for startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Nebraska Angels",
+            "url": "https://ec.linkedin.com/company/nebraska-angels",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nebraska Angels",
+            "description": "Founded in 2006 to support local economic development and build the entrepreneurial community, the Nebraska Angels network is composed of 100+ active,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.5K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "K2VC \u9669\u5cf0",
+            "url": "https://www.linkedin.com/company/k2vc/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0K2VC \u9669\u5cf0",
+            "description": "\u76ee\u524d\u9669\u5cf0\u7ba1\u7406\u4eba\u6c11\u5e01\u548c\u7f8e\u5143\u53cc\u5e01\u57fa\u91d1\uff0c\u603b\u89c4\u6a21\u8d85\u8fc750\u4ebf\u5143\u4eba\u6c11\u5e01\u3002\u5df2\u6295\u8d44\u8d85\u8fc7500\u5bb6\u9ad8\u6210\u957f\u6027\u521b\u4e1a\u4f01\u4e1a\uff0c\u9636\u6bb5\u8986\u76d6\u5929\u4f7f\u81f3B\u8f6e\u3002\u5e76\u8bbe\u7acb\u9669\u5cf0\u516c\u76ca\u57fa\u91d1\u4f1a\uff0c\u81f4\u529b\u4e8e\u53d1\u73b0\u548c\u652f\u6301\u4e2d\u56fd\u516c\u76ca\u9886\u57df\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.5K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Michael Best: Culture",
+            "url": "https://www.linkedin.com/company/michaelbest/life",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a michaelbest \u203a life",
+            "description": "We have 175+ years of experience providing exceptional legal services to our clients. Our secret? We empower our attorneys and professionals to be their best.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ndKdZVXDhuFMolcAL/records/ujaXgIhcjCo0FmL-0.html?signature=h57HqHOsGxgve7w8p4f8"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Home - Venture Best, a part of Michael Best & Friedrich LLP",
+      "https://www.linkedin.com/company/venture-best",
+      "https://www.linkedin.com/company/michaelbest",
+      "https://www.linkedin.com/company/michael-best-strategies",
+      "https://www.linkedin.com/company/amplify-la",
+      "https://www.linkedin.com/company/capitalentrepreneurs",
+      "https://cn.linkedin.com/company/amplify-la?trk=ppro_cprof",
+      "https://www.linkedin.com/company/horizon-ventures-llc",
+      "https://uk.linkedin.com/company/vcfo-limited",
+      "https://www.linkedin.com/company/stanfordunited",
+      "https://www.linkedin.com/company/howdyvc",
+      "https://www.linkedin.com/company/venture-best",
+      "https://www.linkedin.com/company/michaelbest",
+      "https://www.linkedin.com/in/bart-dillashaw-a0a658",
+      "https://www.linkedin.com/in/dmorr92",
+      "https://www.linkedin.com/posts/michaelbest_michaelbest-losangeles-venturelaw-activity-7411820892638511104-XYIU",
+      "site:linkedin.com/company venturebest.com",
+      "https://www.linkedin.com/company/venture-best",
+      "https://sv.linkedin.com/company/vensci",
+      "https://www.linkedin.com/company/startupprogram-com-inc",
+      "https://fr.linkedin.com/company/michael-best-strategies?trk=ppro_cprof",
+      "https://www.linkedin.com/company/blue-heron-ventures-inc-",
+      "https://www.linkedin.com/company/capitalentrepreneurs",
+      "https://bo.linkedin.com/company/cytowski-llc",
+      "https://ec.linkedin.com/company/nebraska-angels",
+      "https://www.linkedin.com/company/k2vc/",
+      "https://www.linkedin.com/company/michaelbest/life"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/venture-best",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/bart-dillashaw-a0a658"
+  },
+  "lead_before_enrichment": {
+    "business": "Home - Venture Best, a part of Michael Best & Friedrich LLP",
+    "description": "# Venture Best, a part of Michael Best & Friedrich LLP ## About Venture Best\u00ae ## We help companies and investors make connections, structure and close transactions, and maximize returns. We also counsel early-stage businesses on their financial, organizational, and regulatory needs as they grow.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://venturebest.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://venturebest.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "venturebest.com",
+    "source_urls": [
+      "https://venturebest.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Home - Venture Best, a part of Michael Best & Friedrich LLP",
+    "description": "# Venture Best, a part of Michael Best & Friedrich LLP ## About Venture Best\u00ae ## We help companies and investors make connections, structure and close transactions, and maximize returns. We also counsel early-stage businesses on their financial, organizational, and regulatory needs as they grow.",
+    "full_name": "Bart Dillashaw",
+    "first": "Bart",
+    "last": "Dillashaw",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://venturebest.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Partner",
+    "linkedin": "https://www.linkedin.com/in/bart-dillashaw-a0a658",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-best",
+    "source_url": "https://venturebest.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "venturebest.com",
+    "source_urls": [
+      "https://venturebest.com"
+    ],
+    "title_raw": "Partner",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://venturebest.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/venture-best"
+    },
+    "first": {
+      "before": "",
+      "after": "Bart"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Bart Dillashaw"
+    },
+    "last": {
+      "before": "",
+      "after": "Dillashaw"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/bart-dillashaw-a0a658"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://venturebest.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Partner"
+    }
+  }
+}

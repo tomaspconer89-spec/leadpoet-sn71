@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "OUM & Co. LLP",
+  "lead": {
+    "business": "OUM & Co. LLP",
+    "full_name": "Ruby Padilla, CPA",
+    "first": "Ruby",
+    "last": "Padilla, CPA",
+    "email": "info@focuscpa.com",
+    "role": "Director of Tax",
+    "website": "http://www.oumcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco Bay Area",
+    "source_url": "https://focuscpa.com",
+    "description": "OUM & Co. LLP is an award-winning Accounting & Business Advisory Firm in California, with offices in San Francisco and San Diego. Our firm is listed as a Top 25 Bay Area firm, and recognized as one of the Top 200 firms in the U.S. by INSIDE Public Accounting. Most of our professional staff are experienced partners and managers (formerly with Big 4 firms). We offer solutions to our clients with timely communication, lower overhead costs compared to the Big 4, and forward thinking ideas suitable for this digital era.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/oum",
+    "linkedin": "https://linkedin.com/in/ruby-padilla-cpa-49311a10"
+  },
+  "source_failed_basename": "5daf8a29742fa12f6bf8bd3225c556b75f974316a82dd053c517d28bbe2ba058.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/5daf8a29742fa12f6bf8bd3225c556b75f974316a82dd053c517d28bbe2ba058.precheck_failed.json",
+  "queue_key": "bea8324b11877f6b7f72385b583620f0e0b77d15dd88bcf4e34ddde1879c0c1c"
+}

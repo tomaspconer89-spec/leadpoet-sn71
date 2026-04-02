@@ -1,0 +1,2095 @@
+{
+  "saved_at_utc": "2026-04-01T22:53:58.152038+00:00",
+  "queue_key": "c3690d77c362c9467e092f017d9708671cc0886cdbdeabe916926b487909d0bf",
+  "business": "Robinson Ventures, LLC",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Robinson Ventures, LLC | Strategy and Development Consulting",
+      "Robinson Ventures, LLC | Strategy and Development Consulting linkedin company",
+      "site:linkedin.com/company robinsonventures.com",
+      "site:linkedin.com/in \"Robinson Ventures, LLC | Strategy and Development Consulting\" founder",
+      "site:linkedin.com/in \"Robinson Ventures, LLC | Strategy and Development Consulting\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "CtVOhRkdP0to6hf",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Robinson Ventures, LLC | Strategy and Development Consulting",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Robinson Ventures, LLC",
+            "url": "https://www.linkedin.com/company/robinson-ventures-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Ventures, LLC",
+            "description": "As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLCRead more",
+            "emphasizedKeywords": [
+              "strategy, and development consulting",
+              "Robinson Ventures",
+              "LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "450+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Robinson Ventures",
+            "url": "https://ca.linkedin.com/company/robinsnventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Ventures",
+            "description": "Robinson Ventures is a Toronto-based private investment firm that targets and invests in start-ups and businesses focused on Manufacturing Services.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures is a Toronto-based private investment firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Robinson Ventures",
+            "url": "https://il.linkedin.com/company/robinsnventures?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "https://il.linkedin.com \u203a company",
+            "description": "Robinson Ventures is a Toronto-based private investment firm that targets and invests in start-ups and businesses focused on Manufacturing Services,\u00a0...",
+            "emphasizedKeywords": [
+              "Robinson Ventures is a Toronto-based private investment firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "APV",
+            "url": "https://ar.linkedin.com/company/a-p-ventures-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0APV",
+            "description": "Our expertise spans AI/ML, data architecture, low-code/no-code solutions, custom application development, Agile DevSecOps, and digital cloud services, ensuring\u00a0...Read more",
+            "emphasizedKeywords": [
+              "development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Robinson Advisory",
+            "url": "https://ca.linkedin.com/company/robinson-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Advisory",
+            "description": "Privately Held. Specialties: Financial Due Diligence, Mergers & Acquisitions, Integration Considerations, Strategy Development, Financial Advisory, Consulting\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Strategy Development",
+              "Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "UBIZ Venture Capital",
+            "url": "https://www.linkedin.com/company/ubizvc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0UBIZ Venture Capital",
+            "description": "UBIZ is an emerging Community Development Financial Institution (CDFI) that was incorporated in 2020 to provide much needed, low-cost capital to underserved\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "360+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "BCG Expand",
+            "url": "https://www.linkedin.com/company/bcgexpand",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0BCG Expand",
+            "description": "BCG Expand is a leading provider of proprietary data insights and strategic advisory services for financial institutions.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "16.6K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "TRIPTK",
+            "url": "https://www.linkedin.com/company/triptk",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TRIPTK",
+            "description": "TRIPTK is a global brand transformation partner. We shape the brands that shape culture. Our multidisciplinary team is built to solve multidimensional brand\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global brand transformation partner"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "H.I. Executive Consulting (H.I.E.C)",
+            "url": "https://www.linkedin.com/company/hiec",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0H.I. Executive Consulting (H.I.E.C)",
+            "description": "H.I. Executive Consulting (H.I.E.C) is a leading global executive search firm focused on hiring Board, CEO and Senior-level executives globally.Read more",
+            "emphasizedKeywords": [
+              "is a leading global executive search firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "TAMID at Northeastern",
+            "url": "https://mx.linkedin.com/company/tamid-at-northeastern",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TAMID at Northeastern",
+            "description": "The TAMID Consulting track allows our members to provide consulting for the most exciting and innovative companies coming out of Israel. TAMID members engage in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting",
+              "consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/lIcNz8Jm26qui1YZR/records/CtVOhRkdP0to6hf-0.html?signature=We7V8Gk7EyE0jE8ZTCzV"
+      },
+      {
+        "#debug": {
+          "requestId": "BJ5M6wJ4daCqPtJ",
+          "url": "http://www.google.com/search?q=Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Robinson Ventures, LLC | Strategy and Development Consulting linkedin company",
+          "url": "http://www.google.com/search?q=Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Robinson+Ventures%2C+LLC+%7C+Strategy+and+Development+Consulting+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Robinson ventures llc strategy and development consulting linkedin company phone",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Robinson+ventures+llc+strategy+and+development+consulting+linkedin+company+phone&sa=X&ved=2ahUKEwjLsJH83s2TAxVmhf0HHVf-C90Q1QJ6BAgsEAE"
+          },
+          {
+            "title": "Robinson ventures llc strategy and development consulting linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Robinson+ventures+llc+strategy+and+development+consulting+linkedin+company+address&sa=X&ved=2ahUKEwjLsJH83s2TAxVmhf0HHVf-C90Q1QJ6BAgtEAE"
+          },
+          {
+            "title": "Robinson ventures llc strategy and development consulting linkedin company phone",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Robinson+ventures+llc+strategy+and+development+consulting+linkedin+company+phone&sa=X&ved=2ahUKEwjLsJH83s2TAxVmhf0HHVf-C90Q1QJ6BAgsEAE"
+          },
+          {
+            "title": "Robinson ventures llc strategy and development consulting linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&gl=US&q=Robinson+ventures+llc+strategy+and+development+consulting+linkedin+company+address&sa=X&ved=2ahUKEwjLsJH83s2TAxVmhf0HHVf-C90Q1QJ6BAgtEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Robinson Ventures, LLC",
+            "url": "https://www.linkedin.com/company/robinson-ventures-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Ventures, LLC",
+            "description": "As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLCRead more",
+            "emphasizedKeywords": [
+              "strategy, and development consulting",
+              "Robinson Ventures",
+              "LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "450+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Robinson Ventures, LLC's Post",
+            "url": "https://www.linkedin.com/posts/robinson-ventures-consulting_robinson-ventures-is-proud-to-announce-that-activity-7414726844975058944-VPhb",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Ventures, LLC",
+            "description": "Robinson Ventures is proud to announce that after 2 degrees, 3 years of work experience and countless hours of studying, Kelsey Gibbons has\u00a0...",
+            "emphasizedKeywords": [
+              "Robinson Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Robinson Ventures",
+            "url": "https://ca.linkedin.com/company/robinsnventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Ventures",
+            "description": "Robinson Ventures is a Toronto-based private investment firm that targets and invests in start-ups and businesses focused on Manufacturing Services.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures is a Toronto-based private investment firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "As a strategy and development consulting firm ...",
+            "url": "https://www.robinsonventures.com/about-us",
+            "displayedUrl": "https://www.robinsonventures.com \u203a about-us",
+            "description": "As a strategy and development consulting firm, Robinson Ventures helps companies to improve performance through analysis of existing business problems.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Business Strategy",
+            "url": "https://www.robinsonventures.com/strategy",
+            "displayedUrl": "https://www.robinsonventures.com \u203a strategy",
+            "description": "At Robinson Ventures, our role as your strategic planning consultant is to empower your organization to define and develop forward-thinking business strategies.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "CEO Coaching",
+            "url": "https://www.robinsonventures.com/ceo-coaching",
+            "displayedUrl": "https://www.robinsonventures.com \u203a ceo-coaching",
+            "description": "Robinson Ventures, LLC is based in Hartsville, South Carolina. Innovation | Investment | Strategy | Development | For Nonprofits | Contact Us. 716-308-7357.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures, LLC is based in Hartsville, South Carolina"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Corporate Venture",
+            "url": "https://www.robinsonventures.com/corporate-venture",
+            "displayedUrl": "https://www.robinsonventures.com \u203a corporate-venture",
+            "description": "Robinson Ventures has decades of experience establishing and managing corporate venture functions and funds.Read more",
+            "emphasizedKeywords": [
+              "Robinson Ventures"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Robinson Ventures, LLC (@robinsonventuresllc)",
+            "url": "https://www.instagram.com/robinsonventuresllc/",
+            "displayedUrl": "Instagram\u00a0\u203a\u00a0robinsonventuresllc",
+            "description": "An innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals.Read more",
+            "emphasizedKeywords": [
+              "An innovation, investment, strategy, and development consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "channelName": "robinsonventuresllc",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Tina Schust Robinson - Leadership Strategist \u2737 Author of ...",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Tina Schust Robinson",
+            "description": "I design and deliver executive coaching, leadership development strategy, manager capability programs, and talent pipeline programs that shift behavior and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "development strategy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.7K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Robinson Consulting Group, LLC",
+            "url": "https://www.linkedin.com/company/robinsoncg",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robinson Consulting Group, LLC",
+            "description": "Robinson Consulting Group provides technical expertise, mission focus, and leadership to our government customer in focused areas of national security.Read more",
+            "emphasizedKeywords": [
+              "Robinson Consulting Group"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "760+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/bbf92LG9RWsl1Rbis/records/BJ5M6wJ4daCqPtJ-0.html?signature=1hfyU7W0clKHreyzLZW5i"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Robinson Ventures, LLC | Strategy and Development Consulting",
+      "https://www.linkedin.com/company/robinson-ventures-consulting",
+      "https://ca.linkedin.com/company/robinsnventures",
+      "https://il.linkedin.com/company/robinsnventures?trk=similar-pages_result-card_full-click",
+      "https://ar.linkedin.com/company/a-p-ventures-llc",
+      "https://ca.linkedin.com/company/robinson-advisory",
+      "https://www.linkedin.com/company/ubizvc",
+      "https://www.linkedin.com/company/bcgexpand",
+      "https://www.linkedin.com/company/triptk",
+      "https://www.linkedin.com/company/hiec",
+      "https://mx.linkedin.com/company/tamid-at-northeastern",
+      "https://www.linkedin.com/company/robinson-ventures-consulting",
+      "https://www.linkedin.com/posts/robinson-ventures-consulting_robinson-ventures-is-proud-to-announce-that-activity-7414726844975058944-VPhb",
+      "https://ca.linkedin.com/company/robinsnventures",
+      "https://www.linkedin.com/in/tinarobinsonspeaks",
+      "https://www.linkedin.com/company/robinsoncg"
+    ],
+    "apify_person_profile_items": [
+      {
+        "associated_hashtag": [],
+        "avatar_url": "https://media.licdn.com/dms/image/v2/D5603AQEufWXRWy5xxw/profile-displayphoto-crop_800_800/B56ZmbuGVnKMAI-/0/1759254182547?e=1776902400&v=beta&t=BzQTruLx-UNlRJ0daOvYirvPs0fKb0wxgMSfplKbOPY",
+        "background_picture": "https://media.licdn.com/dms/image/v2/D5616AQHIToJCrW88dA/profile-displaybackgroundimage-shrink_350_1400/B56ZxTNQGLKUAY-/0/1770922510116?e=1776902400&v=beta&t=3f261oxBieS-aaAg77SZK6YHbH_2GQyMBFM4akt0Mlk",
+        "birthday": {
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "certification": [
+          {
+            "authority": "TMA Performance | Formerly DecisionWise",
+            "company_id": "",
+            "name": "DecisionWise 360 Coaching Certification",
+            "startedOn": {
+              "day": null,
+              "month": 10,
+              "year": 2022
+            },
+            "url": "https://linkedin.com/company/143044"
+          },
+          {
+            "authority": "DDI | Development Dimensions International",
+            "company_id": "",
+            "name": "DDI Facilitator Certification Process Workshop",
+            "startedOn": {
+              "day": null,
+              "month": 3,
+              "year": 2008
+            },
+            "url": "https://linkedin.com/company/163390"
+          }
+        ],
+        "company_id": "18208389",
+        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQFz35j8_z1HoA/company-logo_400_400/company-logo_400_400/0/1631315188940?e=1776902400&v=beta&t=_-SdqKrJcoREliJcyF-oWZQpZ-k2quVWI1DFeTffTqA",
+        "company_industry": "Professional Training and Coaching",
+        "company_website": "http://www.workjoycoaching.com",
+        "connections": 9271,
+        "country": "United States",
+        "current_company_linkedin_url": "https://www.linkedin.com/company/workjoycoaching/",
+        "current_company_name": "WorkJoy",
+        "description": "I\u2019m an author, keynote speaker, executive coach, leadership strategist, and Top 100 HR Influencer who helps organizations treat leadership development as a business investment, not a nice-to-have initiative.\n\nAs founder of WorkJoy, I partner with C-suite executives, founders, and leadership teams navigating growth, transformation, and complexity. Together we build leadership capability that drives measurable performance, strengthens culture, and supports long-term strategy. My clients are ambitious and capable. They are not looking for inspiration alone. They want traction. We turn strategic priorities into aligned leadership behavior and sustained results.\n\nDrawing on more than two decades of experience across corporate sales, operations, and HR, I bring a practical, commercially grounded lens to leadership development. I help leaders see patterns, cut through noise, and focus on the decisions and behaviors that move the business forward. Clients describe my style as direct, insightful, and deeply human. Outcomes include sharper focus, stronger executive presence, clearer communication, and teams that perform with accountability and resilience.\n\nI design and deliver executive coaching, leadership development strategy, manager capability programs, and talent pipeline programs that shift behavior and strengthen organizational effectiveness. I advise companies on succession planning, culture transformation, and performance alignment, ensuring the right leaders are equipped to do the right work in the right ways.\n\nAs a keynote speaker and facilitator, I challenge audiences at global professional associations and national corporate events to rethink how leadership is developed and funded in an era defined by rapid technological change and rising human complexity. Learn more at https://www.tinarobinsonspeaks.com.\n\nMy book, Developing Your Business Leaders: A Guide to Investing at All Levels (ATD Press, March 17, 2026), helps workplace investors, from founders to front-line managers, build the business case for leadership investment so the right people do the right things in the right ways to achieve optimal results. Pre-order here: https://a.co/d/00wuaLyX\n\nMy clients span technology, energy, financial services, higher education, retail, nonprofit, consulting, and consumer products. Different industries. One shared truth: leadership capability determines performance.\n\nIf leadership is your competitive advantage, let\u2019s talk.",
+        "display_name": "Tina Schust Robinson",
+        "education": [
+          {
+            "description": "",
+            "ended_on": {
+              "month": 0,
+              "year": 0
+            },
+            "fields_of_study": [
+              "MBA"
+            ],
+            "grade": "",
+            "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGaTy9bx-um-g/company-logo_100_100/B4EZXuAHDOH0AQ-/0/1743454761470/michiganross_logo?e=1776902400&v=beta&t=kfGyNSXZcNo8ZwpZJl_On3jtqaBY0HNylaAjVV0A22E",
+            "social_url": "https://www.linkedin.com/school/michiganross/",
+            "started_on": {
+              "month": 0,
+              "year": 0
+            },
+            "university_id": "18634",
+            "university_name": "University of Michigan - Stephen M. Ross School of Business"
+          },
+          {
+            "description": "",
+            "ended_on": {
+              "month": 0,
+              "year": 0
+            },
+            "fields_of_study": [
+              "BA, English"
+            ],
+            "grade": "",
+            "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1776902400&v=beta&t=TIYfyd19YC3upLS3v97a8wajVVehRrRvIJMJL7yMZXs",
+            "social_url": "https://www.linkedin.com/school/university-of-virginia/",
+            "started_on": {
+              "month": 0,
+              "year": 0
+            },
+            "university_id": "19604",
+            "university_name": "University of Virginia"
+          },
+          {
+            "description": "",
+            "ended_on": {
+              "month": 0,
+              "year": 0
+            },
+            "fields_of_study": [],
+            "grade": "",
+            "logo": "",
+            "social_url": "",
+            "started_on": {
+              "month": 0,
+              "year": 0
+            },
+            "university_id": "",
+            "university_name": "Gaithersburg High School"
+          }
+        ],
+        "email": "tina@workjoycoaching.com",
+        "experience": [
+          {
+            "company_headcount_range": "2-10",
+            "company_id": "18208389",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQFz35j8_z1HoA/company-logo_400_400/company-logo_400_400/0/1631315188940?e=1776902400&v=beta&t=_-SdqKrJcoREliJcyF-oWZQpZ-k2quVWI1DFeTffTqA",
+            "company_industry": "Professional Training and Coaching",
+            "company_name": "WorkJoy",
+            "company_url": "https://www.linkedin.com/company/workjoycoaching/",
+            "company_website": "http://www.workjoycoaching.com",
+            "employment_type": "Full-time",
+            "job_description": [
+              "WorkJoy (https://www.workjoycoaching.com/) is a global leadership development firm specializing in executive and leadership coaching, leadership training, offsite facilitation, keynote speaking, and fractional talent development support. \n\nWe partner with executives, founders, HR leaders, and talent development teams to strengthen leadership capability, elevate performance, and build cultures where people and business results thrive.\n\nOur work spans the full talent lifecycle, from first-time managers to senior executives, helping leaders develop the skills, behaviors, and confidence required to navigate complexity, change, and growth. Clients engage WorkJoy for practical, business-aligned leadership solutions that translate directly into better decisions, stronger teams, and measurable impact.\n\nWorkJoy supports organizations across healthcare, technology, nonprofit, consumer brands, professional services, and mission-driven sectors. Our clients represent multiple industries and include leaders and teams from BEIS, CNM LLP, FOX Sports, Frederick Fisher and Partners, Ingenovis, KEYS Nonprofit, LRW, National Wildlife Federation, PATTERN Beauty, Plug In Ventures, Pressed Juicery, ReCharge, SAP, Spin Master, Spotify, Thermo Fisher Scientific, and The Whole Child.\n\nOur insights on leadership, culture, and talent development are regularly featured at industry-leading conferences and events, including:\n\n\u2022 SHRM Annual Conferences (2022\u20132026)\n\u2022 ATD International Conference & Exposition (2020\u20132026)\n\u2022 BambooHR Virtual Summit (2018\u20132024)\n\u2022 DisruptHR (2019\u20132024)\n\u2022 LinkedIn Talent Connect (2019)\n\u2022 Association for Animal Welfare Advancement Annual Conference (2023)\n\u2022 Veterinary Hospital Managers Association Annual Conference (2025)\n\nIf your organization is serious about leadership development, employee engagement, and turning talent investment into real business value, WorkJoy meets you where strategy and humanity intersect.\n\nVisit us at https://www.workjoycoaching.com/"
+            ],
+            "job_ended_on": "",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "Los Angeles",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "CA",
+            "job_started_on": "2017",
+            "job_still_working": true,
+            "job_title": "Founder and CEO",
+            "raw_company_name": "WorkJoy",
+            "raw_job_title": "Founder and CEO"
+          },
+          {
+            "company_headcount_range": "51-200",
+            "company_id": "15989",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQH9AM3yjz4B8g/company-logo_400_400/company-logo_400_400/0/1720642644727/association_for_talent_development_logo?e=1776902400&v=beta&t=CBl3xrSit7APrmPX1S0jLY357329bGMAd5vLv5Op1t4",
+            "company_industry": "Human Resources Services",
+            "company_name": "Association for Talent Development (ATD)",
+            "company_url": "https://www.linkedin.com/company/association-for-talent-development/",
+            "company_website": "http://www.td.org",
+            "employment_type": "",
+            "job_description": [
+              "Pub date March 17th, 2026. Available for pre-order today! \n\nPer Amazon: Invest in Leaders at All Levels as a Key Part of Your Business Strategy\n\nDrawing on nearly three decades of experience across sales operations, technology consulting, and talent development, Tina Schust Robinson offers a much-needed reimagining of leadership development. She guides all leadership investors\u2014from founders, executives, and frontline managers to those doing the hands-on design and delivery work\u2014toward a more holistic and successful development approach.\n\nMaking a powerful business case for investing intentionally in leaders, Robinson explores why leadership investment is a crucial aspect of any business strategy and what characteristics define a good leader. She shows how leadership investors can craft initiatives that are tied to their organization\u2019s and employees\u2019 specific needs, sustainable over time, and highly effective. Moving beyond quick fixes and one-off programs, Robinson makes a practical case for why investing intentionally in leaders is a crucial aspect of any business strategy.\n\nThis book shares Robinson\u2019s one-to-one, one-to-many, and one-to-all leadership investment framework. It demonstrates how organizations can pursue coaching and mentoring for individuals, improve leadership training for groups, and develop a comprehensive strategy to address leadership development throughout the talent life cycle.\n\nInterviews with successful corporate and nonprofit leaders and talent development pros bring the three-pronged framework into action. Checklists, assessments, and exercises allow leadership investors to apply the framework immediately and tailor their solutions to specific audiences and business needs.\n\nWhether you\u2019re leading a team or shaping an entire organization, this book will change how you think about leadership\u2014and the return it can deliver when you invest wisely."
+            ],
+            "job_ended_on": "",
+            "job_location": "",
+            "job_location_city": "Alexandria",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "VA",
+            "job_started_on": "2024",
+            "job_still_working": true,
+            "job_title": "Author - Developing Your Business Leaders: A Guide to Investing at All Levels",
+            "raw_company_name": "Association for Talent Development (ATD)",
+            "raw_job_title": "Author - Developing Your Business Leaders: A Guide to Investing at All Levels"
+          },
+          {
+            "company_headcount_range": "11-50",
+            "company_id": "9382579",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQFRK7rsKmESJg/company-logo_400_400/company-logo_400_400/0/1682991801377/velocity_advisory_group_logo?e=1776902400&v=beta&t=jxj9AHnPHJ2F_y1odOus8NJ1vbY8ltK001I2FlgTyq0",
+            "company_industry": "Business Consulting and Services",
+            "company_name": "Velocity Advisory Group",
+            "company_url": "https://www.linkedin.com/company/velocity-advisory-group/",
+            "company_website": "http://www.velocityadvisorygroup.com",
+            "employment_type": "Contract",
+            "job_description": [],
+            "job_ended_on": "",
+            "job_location": "",
+            "job_location_city": "Chester Springs",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "PA",
+            "job_started_on": "2026",
+            "job_still_working": true,
+            "job_title": "Executive Coach",
+            "raw_company_name": "Velocity Advisory Group",
+            "raw_job_title": "Executive Coach"
+          },
+          {
+            "company_headcount_range": "",
+            "company_id": "2475",
+            "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEie8vD0XYgWg/company-logo_400_400/company-logo_400_400/0/1630623988428/ucla_anderson_school_of_management_logo?e=1776902400&v=beta&t=XWNP7ech-8vN27DbOg6Kor4wpR-qTRDgO7fVzJ9G9Oc",
+            "company_industry": "",
+            "company_name": "UCLA Anderson School of Management",
+            "company_url": "https://www.linkedin.com/school/ucla-anderson-school-of-management/",
+            "company_website": "",
+            "employment_type": "Contract",
+            "job_description": [
+              "Provide leadership coaching to students in the Executive and Fully Employed MBA programs."
+            ],
+            "job_ended_on": "",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "",
+            "job_location_country": "",
+            "job_location_county": "",
+            "job_location_state": "",
+            "job_started_on": "2023",
+            "job_still_working": true,
+            "job_title": "Executive Coach",
+            "raw_company_name": "UCLA Anderson School of Management",
+            "raw_job_title": "Executive Coach"
+          },
+          {
+            "company_headcount_range": "201-500",
+            "company_id": "15089996",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEohnOolSneEg/company-logo_400_400/company-logo_400_400/0/1698766374099/fabletics_logo?e=1776902400&v=beta&t=dUaFM1Qk3l31bKtHFIb8lr9fkqK9JazEhsaXkeY32dA",
+            "company_industry": "Retail Apparel and Fashion",
+            "company_name": "Fabletics",
+            "company_url": "https://www.linkedin.com/company/fabletics/",
+            "company_website": "http://www.fabletics.com",
+            "employment_type": "Full-time",
+            "job_description": [
+              "Recruited to create global leadership development and in-house coaching function at pioneering incubator of digitally native fashion brands, including Yitty, JustFab, ShoeDazzle, FabKids, and Savage X Fenty. \n\nAchievements include leadership content creation + facilitation, offsite design + facilitation, executive coaching, management development programming, professional upskilling and learning initiatives, career development, succession planning, talent reviews, high-potential leader identification and program creation, mentor program development and launch, and assessments (360s, CliftonStrengths, DiSC, conflict style, etc.). \n\nPartnered with leaders and employees in the U.S., United Kingdom, Germany, and Spain."
+            ],
+            "job_ended_on": "2022",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "El Segundo",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "CA",
+            "job_started_on": "2019",
+            "job_still_working": false,
+            "job_title": "Global Head of Leadership Development | Executive Coach | Facilitator",
+            "raw_company_name": "Fabletics",
+            "raw_job_title": "Global Head of Leadership Development | Executive Coach | Facilitator"
+          },
+          {
+            "company_headcount_range": "201-500",
+            "company_id": "8107773",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFqnPyvMcxZhg/company-logo_400_400/company-logo_400_400/0/1630542407051/loyola_marymount_university_college_of_business_administration_logo?e=1776902400&v=beta&t=0SgcgWKqbEs77nrvdvW0HSShNr1sIqdqRT8IqeBdo54",
+            "company_industry": "Higher Education",
+            "company_name": "Loyola Marymount University, College of Business Administration",
+            "company_url": "https://www.linkedin.com/school/loyola-marymount-university-college-of-business-administration/",
+            "company_website": "http://cba.lmu.edu",
+            "employment_type": "Part-time",
+            "job_description": [
+              "Taught leadership, organizational behavior, and DEIB (diversity, equity, inclusion, belonging) classes to undergrad and MBA students in highly-rated business school."
+            ],
+            "job_ended_on": "2022",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "Los Angeles",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "ca",
+            "job_started_on": "2017",
+            "job_still_working": false,
+            "job_title": "Adjunct Professor Of Business",
+            "raw_company_name": "Loyola Marymount University, College of Business Administration",
+            "raw_job_title": "Adjunct Professor Of Business"
+          },
+          {
+            "company_headcount_range": "10001-0",
+            "company_id": "1115",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGmwwo0aq4jVA/company-logo_400_400/company-logo_400_400/0/1723034255614/sap_logo?e=1776902400&v=beta&t=KNmxL7NPzcIKNhwMIYRUWDTbCzcMUU7vEuA_nRM0050",
+            "company_industry": "Software Development",
+            "company_name": "SAP",
+            "company_url": "https://www.linkedin.com/company/sap/",
+            "company_website": "http://www.sap.com",
+            "employment_type": "",
+            "job_description": [
+              "Leader of board-level transformation initiative, streamlining integration of cloud businesses and developing best practices for tracking customer revenue and retention. Collaborated with global teams across regions, including North America, Latin America, Europe, Asia, and Middle East."
+            ],
+            "job_ended_on": "2017",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "Walldorf",
+            "job_location_country": "DE",
+            "job_location_county": "",
+            "job_location_state": "BW",
+            "job_started_on": "2016",
+            "job_still_working": false,
+            "job_title": "Vice President and Global Program Leader, Customer Engagement",
+            "raw_company_name": "SAP",
+            "raw_job_title": "Vice President and Global Program Leader, Customer Engagement"
+          },
+          {
+            "company_headcount_range": "1001-5000",
+            "company_id": "166185",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQG5P2DKlvtkZQ/company-logo_400_400/company-logo_400_400/0/1719839665866/sapsuccessfactors_logo?e=1776902400&v=beta&t=CF8bY7REUNmVKCF9yytx3XqKaFV4b4rVXNTnS-4l8Wo",
+            "company_industry": "Software Development",
+            "company_name": "SAP SuccessFactors",
+            "company_url": "https://www.linkedin.com/company/sapsuccessfactors/",
+            "company_website": "https://www.sap.com/products/hcm.html",
+            "employment_type": "",
+            "job_description": [
+              "Created pre-sales consulting and value advisory team's first global operations function for leading cloud-based workforce management suite. Built center of excellence in Bangalore, India, helping recruit, train, and mentor local analysts. Lived in Madrid, Spain for three months to work closely with the European sales and consulting teams. \n\nAdvised global HR customers, co-creating strategic business cases to support investment in SuccessFactors products as part of HR transformation initiatives. Created and delivered sales training. \n\nChief of Staff and Chief of Operations for global VP of consulting team. Collaborated with teams in all regions, including Latin America, Europe, Asia, Middle East, and North America."
+            ],
+            "job_ended_on": "2016",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "South San Francisco",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "California",
+            "job_started_on": "2012",
+            "job_still_working": false,
+            "job_title": "Global Operations Leader, HR Transformation Consulting and Technology Value Advisory",
+            "raw_company_name": "SAP SuccessFactors",
+            "raw_job_title": "Global Operations Leader, HR Transformation Consulting and Technology Value Advisory"
+          },
+          {
+            "company_headcount_range": "1001-5000",
+            "company_id": "392229",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQGqcqeORHcBgw/company-logo_400_400/company-logo_400_400/0/1631340912644?e=1776902400&v=beta&t=393BzDKgfmIDV9YXC6LDAHOv3eUK4NCZ_cjHBDF_OEg",
+            "company_industry": "Transportation, Logistics, Supply Chain and Storage",
+            "company_name": "Maxum Petroleum, Inc.",
+            "company_url": "https://www.linkedin.com/company/maxum-petroleum-inc./",
+            "company_website": "http://www.maxumpetroleum.com",
+            "employment_type": "",
+            "job_description": [
+              "HR leader for private equity portfolio company of Waud Capital Partners and Metalmark Capital and one of the largest independent energy logistics companies in North America, distributing 1.3B+ gallons of petroleum products and serving 15K+ customers. Created through 16+ private equity-funded acquisitions. Pilot Flying J acquired controlling interest in 2012."
+            ],
+            "job_ended_on": "2012",
+            "job_location": "Greater Los Angeles, California, United States",
+            "job_location_city": "Greenwich",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "CT",
+            "job_started_on": "2009",
+            "job_still_working": false,
+            "job_title": "Regional Head of Human Resources",
+            "raw_company_name": "Maxum Petroleum, Inc.",
+            "raw_job_title": "Regional Head of Human Resources"
+          }
+        ],
+        "featured": [
+          {
+            "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGiNlZMi0lpqQ/articleshare-shrink_1280_800/B4EZweQU.tH4AQ-/0/1770034123928?e=1775689200&v=beta&t=e8lCLLNbutazAw_NcG87_SlwbGvlS5SuVbaETnIy46c",
+            "subtitle": "Fast Company",
+            "text": "Interviewed (again!) for a Fast Company article, this one on finding and staying in the zone. \"...My recommendation for staying \u201cin the zone\u201d is to identify what this zone feels like and to recognize when you enter and leave it. Make your zone real for you\u2014and ignore everyone else\u2019s advice for maintaining high performance throughout the day....Manage your time as the gift that it is.\"",
+            "title": "From Fast Company - Expert advice on maintaining your mental edge",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks/overlay/1770441288105/single-media-viewer?type=LINK&profileId=ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog"
+          },
+          {
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGhkapVyXs4FQ/articleshare-shrink_1280_800/B56ZvWS5NzHMAU-/0/1768826840271?e=1775689200&v=beta&t=MbMvl5x-Ghmx8KLBcThz9zQOktcTSJvyHzVzKayOd08",
+            "subtitle": "Fast Company",
+            "text": "\"AI isn\u2019t the destination. It\u2019s a method of reaching it. It is the way we clear mental clutter and speed up the work that bogs us down. When we define AI as a resource and a tool rather than an identity, the whole conversation shifts, allowing us to move faster, solve problems with greater precision, and spend more time on work that advances us personally and professionally.\"",
+            "title": "Why AI skills are the new gold standard for job seekers",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks/overlay/1769561274706/single-media-viewer?type=LINK&profileId=ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog"
+          },
+          {
+            "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFWNCKGCQdspQ/articleshare-shrink_1280_800/B4EZmwD4PiHMAU-/0/1759595433803?e=1775689200&v=beta&t=GZrQDAaDj-CwmIJlFXfw69Jl80bjfUoQPjRHPgeJew4",
+            "subtitle": "ATD",
+            "text": "A practical how-to for creating a business case for coaching that yields ROI. Thank you to ATD for publishing!",
+            "title": "Making the Business Case for Coaching",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks/overlay/1769472205257/single-media-viewer?type=LINK&profileId=ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog"
+          },
+          {
+            "image": "https://media.licdn.com/dms/image/v2/D562DAQH6_1yecXeksw/profile-treasury-image-shrink_8192_8192/B56Zqj6nVUI8Ag-/0/1763686643544?e=1775689200&v=beta&t=s6qQ_7FAvbEsku77qDSWRllRLm9_NuhsgTZUDu9CQ28",
+            "subtitle": "Fast Company",
+            "text": "\"...Bottom line: you\u2019re not starting over. You\u2019re building forward. Ground yourself in where you\u2019ve been, learn what\u2019s ahead, and construct bridges between the two. That\u2019s how you climb your next mountain, starting from base camp and not from scratch.\"",
+            "title": "Fast Company article: \"How to transition to a new industry without starting over\"",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks/overlay/1763686717401/single-media-viewer?type=LINK&profileId=ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog"
+          },
+          {
+            "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEEMrx0_iuXuw/articleshare-shrink_800/articleshare-shrink_800/0/1766927210273?e=1775689200&v=beta&t=SX5XWW1JhMZreQrFPZr4ehFzA6E-ms07mItjmOIhcF8",
+            "subtitle": "ATD",
+            "text": "Wrote blog for ATD about how to re-imagine giving and receiving feedback.",
+            "title": "Three Ways Leaders Can Reframe Feedback",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/tinarobinsonspeaks/overlay/1760745227457/single-media-viewer?type=LINK&profileId=ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog"
+          }
+        ],
+        "first_name": "Tina Schust",
+        "followers": 10726,
+        "full_name": "Tina Schust Robinson",
+        "is_creator": true,
+        "is_influencer": false,
+        "is_job_seeker": false,
+        "is_openlink": false,
+        "is_premium": false,
+        "is_retired": false,
+        "job_description": [
+          "WorkJoy (https://www.workjoycoaching.com/) is a global leadership development firm specializing in executive and leadership coaching, leadership training, offsite facilitation, keynote speaking, and fractional talent development support. \n\nWe partner with executives, founders, HR leaders, and talent development teams to strengthen leadership capability, elevate performance, and build cultures where people and business results thrive.\n\nOur work spans the full talent lifecycle, from first-time managers to senior executives, helping leaders develop the skills, behaviors, and confidence required to navigate complexity, change, and growth. Clients engage WorkJoy for practical, business-aligned leadership solutions that translate directly into better decisions, stronger teams, and measurable impact.\n\nWorkJoy supports organizations across healthcare, technology, nonprofit, consumer brands, professional services, and mission-driven sectors. Our clients represent multiple industries and include leaders and teams from BEIS, CNM LLP, FOX Sports, Frederick Fisher and Partners, Ingenovis, KEYS Nonprofit, LRW, National Wildlife Federation, PATTERN Beauty, Plug In Ventures, Pressed Juicery, ReCharge, SAP, Spin Master, Spotify, Thermo Fisher Scientific, and The Whole Child.\n\nOur insights on leadership, culture, and talent development are regularly featured at industry-leading conferences and events, including:\n\n\u2022 SHRM Annual Conferences (2022\u20132026)\n\u2022 ATD International Conference & Exposition (2020\u20132026)\n\u2022 BambooHR Virtual Summit (2018\u20132024)\n\u2022 DisruptHR (2019\u20132024)\n\u2022 LinkedIn Talent Connect (2019)\n\u2022 Association for Animal Welfare Advancement Annual Conference (2023)\n\u2022 Veterinary Hospital Managers Association Annual Conference (2025)\n\nIf your organization is serious about leadership development, employee engagement, and turning talent investment into real business value, WorkJoy meets you where strategy and humanity intersect.\n\nVisit us at https://www.workjoycoaching.com/"
+        ],
+        "job_ended_on": "",
+        "job_location": "Greater Los Angeles, California, United States",
+        "job_location_city": "Los Angeles",
+        "job_location_country": "US",
+        "job_location_county": "",
+        "job_location_state": "CA",
+        "job_started_on": "2017",
+        "job_still_working": true,
+        "job_title": "Founder and CEO",
+        "language": [
+          {
+            "name": "English",
+            "proficiency": "Native or bilingual proficiency"
+          },
+          {
+            "name": "Spanish",
+            "proficiency": "Limited working proficiency"
+          }
+        ],
+        "last_name": "Robinson",
+        "linkedin_id": "3316714",
+        "linkedin_sales_link": "https://www.linkedin.com/sales/lead/urn:li:fsd_profile:ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog",
+        "location": "Los Angeles, California, United States",
+        "location_county": "Los Angeles, California",
+        "location_state": "Los Angeles, California",
+        "middle_name": "",
+        "patents": [],
+        "phone_number": null,
+        "profile_headline": "Leadership Strategist \u2737 Author of Developing Your Business Leaders: A Guide to Investing at All Levels \u2737 Keynote Speaker \u2737 Executive Coach \u2737 Top 100 HR Influencer \u2737 Fractional Talent Development Executive",
+        "profile_link": "https://linkedin.com/in/tinarobinsonspeaks",
+        "project": [],
+        "publication": [
+          {
+            "publishing_date": "",
+            "source": "ATD Press",
+            "summary": "Tina Schust Robinson offers a much-needed reimagining of leadership development. She guides all talent investors - from founders and executives committed to the growth of their people to those doing the hands-on design, building, and delivery work - toward a more holistic and successful leadership development approach. Making a powerful business case for investing intentionally in leaders, Robinson explores why leadership investment is a crucial aspect of any business strategy and what characteristics define a good leader. She shows how talent development professionals and teams can craft initiatives that are tied to their organization\u2019s and employees\u2019 specific needs, sustainable over time, and highly effective.\n\nRobinson also shares her one-to-one, one-to-many, and one-to-all leadership development framework. She demonstrates how organizations can pursue coaching and mentoring for individuals, improve leadership training for groups, and develop a comprehensive organizational strategy to address leadership development throughout the talent life cycle (from recruiting and onboarding to performance and goal management) through development, succession planning, and rewards and retention.\n\nPractical and accessible, Robinson\u2019s framework includes tools and exercises to help practitioners tailor their solutions to specific audiences and business needs. In each chapter, she shares insights from interviews with successful leaders and talent development pros to show the three-pronged framework in action. Checklists, assessments, and questionnaires allow you to apply the framework immediately.",
+            "title": "BOOK = Developing Your Business Leaders: A Guide to Investing at All Levels",
+            "url": "https://a.co/d/9R8gzDx"
+          },
+          {
+            "publishing_date": "",
+            "source": "Association for Talent Development - TD Magazine",
+            "summary": "How leaders can have \"stay conversations\" with their employees to boost engagement and support retention.",
+            "title": "https://www.td.org/magazines/td-magazine/curb-the-temptation",
+            "url": "https://www.td.org/magazines/td-magazine/curb-the-temptation"
+          }
+        ],
+        "raw_company_name": "WorkJoy",
+        "raw_job_title": "Founder and CEO",
+        "recommendations_given": [
+          {
+            "context": "Abigail was Tina Schust's client",
+            "date": "July 26, 2019",
+            "description": "As a consultant, we dream of a client that has a strong vision, a clearly-defined definition of success, and willingness to listen and co-create to achieve shared goals. With Abigail this dream become reality. We were introduced by a mutual colleague, and Abigail engaged me to help her bring to life a modularized management development program for LRW. Building on successes and misses from other programs, Abigail outlined her ideas for the curriculum, encouraging my input and giving me the space to put to paper our ideas. I so enjoyed our content reviews, as they always resulted in a stronger product. Abigail knows her stakeholders, the business strategy, and the LRW culture, ensuring our program would be well-received and value-added. She launched the program this year to high praise from managers. I can't wait for the next opportunity to partner with Abigail!\n",
+            "name": "Abigail Boudreaux",
+            "subtitle": "Professional Certified Executive Coach | I help individuals and teams navigate change and work in more fully human ways",
+            "url": "https://www.linkedin.com/in/abigailboudreaux/",
+            "urn": "urn:li:fsd_profile:ACoAAAEQvAwBiYZC6doAcHjq6bhkc9gp6YIHPOA"
+          },
+          {
+            "context": "Tina Schust worked with Tom but on different teams",
+            "date": "June 8, 2018",
+            "description": "If you seek a strategic yet hands-on executive to drive successful business outcomes and improve how the company operates, you've found him. Tom has a knack for transforming complexity into rational simplicity and then plans into action. Tom and I both were peer success coaches at SAP and worked together to deploy the global operating model improving sales and marketing alignment. He's a trusted colleague with a unique ability to work across organizational silos, bringing knowledge, insights, enthusiasm, and humor.",
+            "name": "Tom Sorge, MBA, CDMP",
+            "subtitle": "AI-driven leader blending experience with intelligent tools to streamline work, enhance revenue processes, and train AI agents that amplify human impact.",
+            "url": "https://www.linkedin.com/in/tomsorge/",
+            "urn": "urn:li:fsd_profile:ACoAAABHPAsBV2XcMYa4yBD4FYykGdCJWXk-MW8"
+          },
+          {
+            "context": "Tina Schust worked with Natalie but they were at different companies",
+            "date": "April 3, 2018",
+            "description": "I've had the pleasure of working with Natalie as a speaker and panel moderator for General Assembly. She is an accomplished event planner, able to find the right people with harmonious backgrounds to come together to tell a cohesive, engaging story. She empowers her moderator and speakers, puttings us at ease and bringing out our best stories. With all the competing events in Los Angeles and Santa Monica, I applaud Natalie's positivity and her determination to make General Assembly the go-to place for learning about the workplace of the future.",
+            "name": "Natalie Dao",
+            "subtitle": "HRBP Marketing & Creative at Liquid Death",
+            "url": "https://www.linkedin.com/in/natalie-dao/",
+            "urn": "urn:li:fsd_profile:ACoAAA4H_xsBVIG78NYC1C5eJXiMlpEbsNPN9W4"
+          },
+          {
+            "context": "Tina Schust was senior to Niveditha but didn't manage Niveditha directly",
+            "date": "May 15, 2017",
+            "description": "I had the pleasure of working closely with Niveditha to build the analytics team for SuccessFactors' Business Transformation Advisory function. Although new to the workforce technology space when hired, Niveditha brought a passion for learning, education in HR, and  detailed technical understanding of other SAP products. I was impressed by how quickly Niveditha became a go-to expert in business case analysis, especially the more complicated stories (global companies, different divisions opting for different solutions). She earned the trust of a seasoned team through her commitment to excellence, openness to feedback, and creativity grounded in technical knowledge and practical story telling. It was a joy to be Niveditha's colleague at SuccessFactors, and know she will continue to add tremendous value to any project team. ",
+            "name": "Niveditha Kesavan",
+            "subtitle": "Senior Director, SAP Business Network GTM Strategy & Operations | Advisory | Innovation | Technology",
+            "url": "https://www.linkedin.com/in/niveditha-kesavan/",
+            "urn": "urn:li:fsd_profile:ACoAAAK0M9oBfRytkEiRq5s38U9RFZT28P9DD20"
+          },
+          {
+            "context": "Tina Schust worked with Betsy but they were at different companies",
+            "date": "May 4, 2017",
+            "description": "I had the pleasure of watching Betsy in action as a guest lecturer in my organizational development class at California State University, Long Beach. Betsy had 35 students mesmerized as she described her career path from JPL to Disney to TOMS, and then engaged the class in a vibrant discussion about employee development challenges at TOMS. She asked specific questions to pull creative insights from the students, and openly brainstormed about how their recommendations could directly contribute to business success at TOMS. I so appreciate Betsy's enthusiasm for her work and for the larger field of talent development - she inspired me and the class and I look forward to having her return to the classroom.",
+            "name": "Betsy Lopez-Riley",
+            "subtitle": "Driving Organizational Transformation | Nordstrom, TOMS, Disney, NASA",
+            "url": "https://www.linkedin.com/in/betsylopezriley/",
+            "urn": "urn:li:fsd_profile:ACoAAACtEWoB-aAynxEZ4YntAIb_9hH0mm0B3PQ"
+          },
+          {
+            "context": "Tina Schust worked with Michelle on the same team",
+            "date": "March 16, 2016",
+            "description": "I had the pleasure of working with Michelle as she led the Australia-Pacific-Japan regional team of value engineers for SAP's human capital management (SuccessFactors) line of business. I admired and was inspired by her creativity, her forthright communication style, and how she empowered her team. She hired smart, agile people and provided the right support to help them be successful and to let them shine. While leading a large team within a large region, Michelle also was an energetic collaborator on global best practices. While I miss having her as a colleague at SAP I am excited for her new organizations, as they will benefit from her intelligence, insight, and grace.",
+            "name": "Michelle Botha",
+            "subtitle": "Founder, The Gifted Crown Company",
+            "url": "https://www.linkedin.com/in/michelle-botha-0911736/",
+            "urn": "urn:li:fsd_profile:ACoAAAEXd60Bd-k0o9NUW1aazYKIhGxEXMY1Rfk"
+          },
+          {
+            "context": "Tina Schust reported directly to Ken",
+            "date": "February 16, 2016",
+            "description": "I've had the pleasure of working with and for Ken Pearson during our time at SuccessFactors. As a colleague, Ken was collaborative and generous with his time, quick to share his deep knowledge of talent management honed at Walmart. As the VP of our team, Ken led by example, inspiring us to live to our potential, balance our professional and personal lives, and cross regional and functional boundaries to do the right thing. Ken has a passion for people development, and I am one of many people who have benefited from Ken's mentoring. He has the rare ability to hold one to a high expectation and yet make you feel completely supported and valued as you reach for those heights. I am grateful to know Ken and look forward to our continued partnership.",
+            "name": "Ken Pearson, GPHR, ACC, CPC  (He / Him)",
+            "subtitle": "Executive Coach & Culture Architect | HR Transformation, Talent Strategy & Leadership Development Advisor | Organizational Culture, Change Management & Inclusive Workplace Expert",
+            "url": "https://www.linkedin.com/in/pearsonken/",
+            "urn": "urn:li:fsd_profile:ACoAAAB15OQBGUg2BTYfz7g5xyJoz_CzrPvXrEk"
+          },
+          {
+            "context": "Tina Schust worked with Marites on the same team",
+            "date": "May 20, 2013",
+            "description": "I worked with Marites on the MedAssets HR team for almost five years. During that time I watched her evolve from a coordinator to a generalist to a benefits management expert, supporting larger and larger employee populations as MedAssets grew through acquisition. Marites can handle whatever is thrown her way, from mastering remote meeting technology so she could deliver orientation across the enterprise to absorbing different state employment laws to accommodate the latest acquisition. She digs into the challenge and seeks the necessary training and knowledge to achieve success. Marites has the unique ability to truly balance the HR roles of \"employee advocate\" and \"business partner\" - employees and managers alike trust her judgment and follow her guidance, even if they would like to see Marites lean a bit more on their side. With her dedication to human resources, her detail orientation and thoroughness, unflagging ethical and moral code, and warm sense of humor, Marites is an exemplary team member and an asset to any organization.",
+            "name": "Marites Foster",
+            "subtitle": "Client Services Manager",
+            "url": "https://www.linkedin.com/in/maritesfoster/",
+            "urn": "urn:li:fsd_profile:ACoAAACqFlgBhkVnOrCM2sf0pdURWIAqqyev5j8"
+          },
+          {
+            "context": "Tina Schust worked with Lisa but they were at different companies",
+            "date": "November 29, 2009",
+            "description": "Lisa has served as my professional coach and mentor, showing wisdom and sensitivity in every interaction. Not only does she actively listen during our coaching sessions, but Lisa also holds me accountable for making the changes we discuss - pushing me when I need the nudge and congratulating for a job well done to encourage  Her practical, results-oriented approach to coaching has yielded both professional and personal successes - Lisa has helped me recognize challenges and turn \"problems\" into opportunities for discovery and transformation. I always will be grateful to Lisa for the time and energy she has invested in me and my journey.",
+            "name": "Lisa Sheehan",
+            "subtitle": "Strategic Global Human Resources Leader I Expertise in Positive Employee Relations I Transformational Servant Leader & Business Partner",
+            "url": "https://www.linkedin.com/in/lisasheehan/",
+            "urn": "urn:li:fsd_profile:ACoAAAAkup8BlUUJfniiBnbpxNGP3FADauF56NE"
+          },
+          {
+            "context": "Tina Schust worked with Leslie on the same team",
+            "date": "October 27, 2009",
+            "description": "I had the pleasure of working with Leslie Lynn at the Ross School of Business Office of Career Development. Not only does she excel at the one-on-one coaching (of students, alumni, and colleagues alike), she shines as a presenter in front of large groups. Leslie makes it look easy - she has the gift of gently nudging someone down a path of insight so that someone thinks the career \"ah hah\" moments were all her own. Countless Ross graduates have her to thank for clarified career paths and life journeys. \r\n\r\nLeslie cares deeply about her staff, encouraging their creativity and professional growth, Her team members have gone onto varied careers within and outside the University, crediting Leslie's leadership and inspiration as critical to their success.\r\n\r\nI miss working with Leslie, and consider myself lucky to count her as a colleague and a friend.",
+            "name": "Leslie Lynn",
+            "subtitle": "Director, MBA Career Coaching at University of Michigan Ross School CDO",
+            "url": "https://www.linkedin.com/in/leslieclynn/",
+            "urn": "urn:li:fsd_profile:ACoAAADRMxsBkCu99eRLS__C-fZxlvOB37bsPUk"
+          },
+          {
+            "context": "Tina Schust worked with Brian on the same team",
+            "date": "December 17, 2008",
+            "description": "Brian is an excellent recruiter. His easy-going style puts candidates at ease, and his passion for his company results in most candidates desperately wanting to receive (and accept) an offer. It was a joy working with Brian, and I still call him for recruiting advice. Brian's network has no equal, and I am honored to be part of it. Overall...I just adore Mr. Ellenberger and am thrilled to endorse him.",
+            "name": "Brian Ellenberger, MA, VSP",
+            "subtitle": "Talent Acquisition Professional with Full-Cycle Recruiting Experience, Strategic Sourcer in Technology and Healthcare Organizations",
+            "url": "https://www.linkedin.com/in/brianellenbergerrecruiter/",
+            "urn": "urn:li:fsd_profile:ACoAAAAol2cBghkrn9tjOMrxwtZ9w2a14Sbi6Ec"
+          },
+          {
+            "context": "Tina Schust was Ed's client",
+            "date": "January 4, 2008",
+            "description": "My company has used Ed as a source of hard-to find healthcare management talent for the past several years. The candidates he recommends are solid and experienced. Ed's extensive network is a valuable resource for us, and we appreciate his efforts to match our specific business needs with the right candidates. Thanks Ed!",
+            "name": "Ed Simmons",
+            "subtitle": "Senior Recruiter/CEO at Belle Oaks of America",
+            "url": "https://www.linkedin.com/in/edsimmons/",
+            "urn": "urn:li:fsd_profile:ACoAAABgHYgBzqIVASRHiPu9ThMeDWSyaZv5KT4"
+          }
+        ],
+        "recommendations_received": [
+          {
+            "context": "Daniel was Tina Schust's client",
+            "date": "January 20, 2025",
+            "description": "Tina has been instrumental in guiding me through complex workplace and career challenges. Her coaching process offers a strong and efficient sounding board for making difficult decisions in a short amount of time. Beyond being an outstanding coach, she brings a deep understanding of human nature and how people work, making her guidance both practical and empathetic.",
+            "name": "Daniel Mendelzon",
+            "subtitle": "Digital Transformation | Visiting Fellow at MIT Sloan School of Management | MIT MBA | Ex-JPMorgan | Credit Products | Risk Management",
+            "url": "https://www.linkedin.com/in/dmendelzon/",
+            "urn": "urn:li:fsd_profile:ACoAAACJrGQBYxjMnoqqjZfWvbsxgmZVGn0Mkvo"
+          },
+          {
+            "context": "Lacy was Tina Schust's client",
+            "date": "January 3, 2025",
+            "description": "Tina is a wonderfully engaging facilitator! She provided significant value at our Annual Leadership Conference presenting on Imposter Syndrome and Productive Conflict. She was generous with her time and worked 1-on-1 with one of our teams. My HR team attended her SHRM 24 sessions and knew we needed to share her expertise with our staff. Highly recommend. 5 stars!",
+            "name": "Lacy Diaz",
+            "subtitle": "Director of Organizational Development and Services at Golden Spread Electric Cooperative, Inc.",
+            "url": "https://www.linkedin.com/in/lacy-diaz-576b2657/",
+            "urn": "urn:li:fsd_profile:ACoAAAwXQaoBwoyzYV_TB9iCTEzyCbz-I9yVmVo"
+          },
+          {
+            "context": "Christiane was Tina Schust's client",
+            "date": "July 10, 2024",
+            "description": "We hired Tina to facilitate two workshops using the DiSC personality profile assessment, one with our leadership team and the other for all employees. Tina was a thoughtful partner, aligning her expertise with the unique needs of our organization to deliver content that felt personalized to our culture and mission. She absorbed feedback and tailored materials to best honor our founder\u2019s priorities. As a result, our team walked away with deeper insights about their own go-to behaviors and how to adapt to meet others through more effective relationships. The workshops were high energy, with just the right balance of instruction, discussion, and humor. I highly recommend Tina as a facilitator and consultant.",
+            "name": "Christiane Pendarvis",
+            "subtitle": "Chief Executive | Brand President | Board Member | Speaker | Omni-Channel and DTC Retail Expert",
+            "url": "https://www.linkedin.com/in/christianependarvis/",
+            "urn": "urn:li:fsd_profile:ACoAAABN4sgBa9Bagyg4JlUan0PoEJWn24fJiZA"
+          },
+          {
+            "context": "Luis worked with Tina Schust but on different teams",
+            "date": "November 21, 2023",
+            "description": "Tina helped me elevate my executive presence as I prepared for a promotion to senior VP. She coordinated a robust 360 at various levels of the organization. She coached me the opportunities it revealed while reminding me of my strengths. She was tough on me and I trusted her to be honest. Tina\u2019s coaching revealed my blind spots, allowing me to address them and shift behaviors with my team members, peers, and especially other executives. The benefits of the coaching extended to my team, as I expanded my capacity to invest in them by practicing many things Tina taught me. I don\u2019t know that I could have gained the trust of the executive team in the timeframe I did without her guidance. I am grateful to Tina for her support, humor, and wisdom during my growth and recommend her to any leader in transition. ",
+            "name": "Luis Velazquez",
+            "subtitle": "SVP Product Development and Sourcing @ Fabletics | Raw Materials, Supply Chain Optimization",
+            "url": "https://www.linkedin.com/in/luisvelazquez/",
+            "urn": "urn:li:fsd_profile:ACoAAACWyX4BbWIEZ1YmgvblX1aA3jWbyrxACLA"
+          },
+          {
+            "context": "Sam worked with Tina Schust on the same team",
+            "date": "June 22, 2023",
+            "description": "I had the pleasure of hosting Tina Robinson as a speaker on the People Strategy Forum podcast, where we had a thought-provoking discussion on owning our power and unleashing our true potential.\n\nTina's extensive experience at the intersection of humans, technology, and work truly shines through. Her corporate background, directing global change management initiatives and transforming team cultures, gives her a unique perspective on aligning people, processes, and technology with business priorities.\n\nDuring our conversation, Tina eloquently explored the concept of owning our power and provided a four-step process to help us visualize, identify, initiate, and integrate our power. Her insights on visualization and the power of choice were particularly enlightening.\n\nBeyond her expertise, Tina's passion for being a keynote speaker is evident. Her ability to engage and inspire an audience is truly remarkable. Her dedication to ongoing personal and professional growth is also noteworthy, as she is an honors graduate and actively involved in international nonprofits.\n\nI highly recommend Tina Robinson as a speaker, coach, and thought leader. Her ability to guide individuals and organizations in unlocking their true power is invaluable. Working with Tina will undoubtedly lead to personal and professional growth, as she empowers individuals to embrace their strengths and achieve greater success.",
+            "name": "Sam Reeve",
+            "subtitle": "Global Compensation & Total Rewards Strategist | Helping CEOs & CHROs Build Fair, Competitive, People-Centric Pay Systems | Founder, CompTeam",
+            "url": "https://www.linkedin.com/in/samreeve/",
+            "urn": "urn:li:fsd_profile:ACoAAABPrPsBct5BVTzend3EJlHOJWs6_8k0QSA"
+          },
+          {
+            "context": "Ann was Tina Schust's client",
+            "date": "March 9, 2023",
+            "description": "I\u2019ve been so fortunate to work with Tina as a colleague , and as my career coach.  \nShe is an amazing person with a gift for tapping into your natural leadership style. \nTina created an incredible space during our sessions that gave me an opportunity to grow as a leader. \nShe challenged me with her thought provoking strategies that I still use to this day.  \nTina is a compassionate, honest and authentic soul. \nShe brings her whole self to each and every interaction.  \nI am looking forward to working with her again soon!    \n",
+            "name": "Ann Northern (Armstrong)",
+            "subtitle": "Founder & CEO, Cosmic Catalyst Group | Product, Sourcing & Operations Leadership | Scaling Consumer Brands from Concept to Production | Fractional Product & Operations Leader",
+            "url": "https://www.linkedin.com/in/ann-armstrong112252/",
+            "urn": "urn:li:fsd_profile:ACoAABw_sKcBk-NnIShFrJnnLlcHKG6TroDzaQ4"
+          },
+          {
+            "context": "Katherine worked with Tina Schust but on different teams",
+            "date": "March 2, 2023",
+            "description": "Tina is an incredible human and an invaluable asset to any organization. I\u2019ve been lucky enough to work with her on not only my own personal and professional development but also for our Retail organization. I always look forward to my time with Tina as she is always honest and gives you a perspective you may not have thought of. ",
+            "name": "Katherine D.",
+            "subtitle": "Vice President, Retail Operations & Training at Fabletics",
+            "url": "https://www.linkedin.com/in/katherinedlc/",
+            "urn": "urn:li:fsd_profile:ACoAAABbd9gBmbAyODRG7DYe8ocVgqAX667N7BI"
+          },
+          {
+            "context": "Brent worked with Tina Schust but on different teams",
+            "date": "December 13, 2022",
+            "description": "Tina coached me for 6+ months and helped me to succeed through her insightful and knowledgeable discussions. I have enjoyed working with her and learned a lot through her help. Tina is a such a joy to work with. I highly recommend if you get the opportunity to work with her that you jumped at the chance.",
+            "name": "Brent Jones",
+            "subtitle": "Software Engineering Executive | Published Author of \"Tao of the Lazy Developer\". Leading strategic technology initiatives, large-scale software delivery, and product innovation to drive measurable business outcomes.",
+            "url": "https://www.linkedin.com/in/brentajones/",
+            "urn": "urn:li:fsd_profile:ACoAAACmY8YBaX3R288xNP7EoBd7ZG5zMvmxqcI"
+          },
+          {
+            "context": "Kevin was Tina Schust's client",
+            "date": "November 19, 2022",
+            "description": "I specifically sought out Tina as a coach during the first 90 days in a larger professional role, knowing the breadth of her experience in HR and teaching leadership.  She worked with me to establish a plan based on my objectives and tracked progress over the following months, offering advice on how to overcome obstacles. Tina's style is one that made it easy to quickly establish a rapport with her, which led to a comfortable environment for open discussions. With each conversation, she helped me take a step back to keep the big picture in mind while also offering material to support addressing the challenges of the week.  I know for fact that my first 90 days went successfully in part to Tina's coaching and highly recommend her to anyone looking to improve their leadership.",
+            "name": "Kevin D'Souza",
+            "subtitle": "VP of Engineering at Nanoverse Technologies, Ltd.",
+            "url": "https://www.linkedin.com/in/kevindsouza/",
+            "urn": "urn:li:fsd_profile:ACoAAACRao8BJZY-VEN-JSbZO9IYGViyAKRIRWo"
+          },
+          {
+            "context": "Ron was senior to Tina Schust but didn't manage Tina Schust directly",
+            "date": "October 28, 2022",
+            "description": "I\u2019ve had the pleasure of working closely with Tina over the last several years. She is an absolute pro & has added a tremendous level of leadership training, mentorship & consultation to our entire leadership team. Her range of instruction has include one-on-one multi-week leadership course facilitation, executive level conflict resolution workshops, & large group (100+) leadership skills training sessions. I personally always look forward to spending time with & learning from Tina & greatly value her counsel. ",
+            "name": "Ron Harries",
+            "subtitle": "Senior Vice President, Head of Retail at Fabletics",
+            "url": "https://www.linkedin.com/in/ronharries/",
+            "urn": "urn:li:fsd_profile:ACoAAAFtRkkBI0sv1Tv0JvvP5uru_Cv1cLGNyJk"
+          },
+          {
+            "context": "Laura was senior to Tina Schust but didn't manage Tina Schust directly",
+            "date": "October 20, 2022",
+            "description": "Tina has coached myself and many on my team with a whole lot of heart.  Over the past two years she has led us to show up stronger as teams and as individuals with thought-provoking questions, rejuvenating team workshops, and an abundance of content expertly delivered both virtually and in-real-life.  Tina is a treasure!  I've learned a lot, and truly enjoyed the journey...",
+            "name": "Laura Joukovski",
+            "subtitle": "CEO, DFTBA & Good Store | Builder of Consumer Brands | Advisor & Board Director",
+            "url": "https://www.linkedin.com/in/laurajoukovski/",
+            "urn": "urn:li:fsd_profile:ACoAAAACB4IBuKrVjLe0Aa-gATsOmHiI7VwK8V0"
+          },
+          {
+            "context": "Heidi was Tina Schust's client",
+            "date": "August 1, 2022",
+            "description": "Tina presented a 2 hour Shared Values training to our firm on the topic of Goals. She customized her presentation to align with our new performance management process, captured our culture and language, brought a polished professional demeanor and enough humor to keep our professionals engaged at our end of the day workshop. Reviews from leadership were excellent. So much so, we hired her again to present a 2 hour Personal Branding workshop to our firm's Women's Initiative. Strong understanding of instructional design, excellent listening and then customization, and great command of the crowd. Strong recommendation.",
+            "name": "Heidi Banks",
+            "subtitle": "Driving enterprise Learning & Development solutions through tailored curriculum creation and curation available across multiple media platforms.",
+            "url": "https://www.linkedin.com/in/heidihbanks/",
+            "urn": "urn:li:fsd_profile:ACoAAAH8F7oBxPmkBewSv9x2l1B7HvguzVg-yq4"
+          },
+          {
+            "context": "Michael was Tina Schust's client",
+            "date": "July 25, 2022",
+            "description": "Seeking an Executive Coach - look no further than Tina Robinson. \n\nI have had the opportunity to work with Tina as my Executive Coach since 2018.  She is an excellent coach and an even better person.  Tina brings diverse professional experience/perspective to her coaching role that has been greatly beneficial and insightful as I closed a 20yr senior level corporate role \"chapter\" and started to explore new career opportunities.  \n\nShe challenged and helped me reframe many of the questions I was trying to answer regarding \"what am I going to do next\" to \"what do I want to do next and why?\".  \n\nOver the many years of working together, Tina continues to provide great insight/perspective/challenge to me as I seek to balance professional and personal interests. \n\nHaving worked with several Executive Coaches over the past 25yrs, I have found Tina to be the best, hands down.......",
+            "name": "Michael Concannon",
+            "subtitle": "C-Suite Advisor | Former CEO | Board Member | Mentor",
+            "url": "https://www.linkedin.com/in/michael-concannoniii/",
+            "urn": "urn:li:fsd_profile:ACoAAAVaSNgBnwsC9Gdlqy7LO2x90GNv_MKptxw"
+          },
+          {
+            "context": "Tina Schust was Cyndee's client",
+            "date": "July 19, 2020",
+            "description": "Working with Tina was a true pleasure. She was able to tailor our sessions to the issues and struggles I was working through, offering different angles and perspectives for me to consider. It was such a joy to talk through situations that at first seemed unsolvable, realizing that I had the courage and expertise to navigate even the most difficult problems. Tina was able to help me change my thinking on my career and strategy for the future, offering invaluable universal tools to handle both work and life situations.  I am looking forward to working with her in the future when I need to recalibrate, and recommend her as a coach to all those ready to reimagine their lives.",
+            "name": "Cyndee M.",
+            "subtitle": "SVP, Programming & Logistics at FOX Sports | Chief Member",
+            "url": "https://www.linkedin.com/in/cyndeemccarthy/",
+            "urn": "urn:li:fsd_profile:ACoAAAC_zXIBEpSJNhy5aN23106SUXE_dDmUACA"
+          },
+          {
+            "context": "Todd worked with Tina Schust but on different teams",
+            "date": "October 16, 2019",
+            "description": "Working with Tina and a customer was always a joy. I remember looking forward to her creative and very human point of view. Placing the people ahead of the processes and business problems meant that we had to discuss some sensitive issues before getting to the enabling technology. I was always reminded that it doesn't matter what problems we solve if we don't incorporate the engagement of the people we were working with. Many of her peers at the time were very focused on process and working with her there was often times a unique perspective that incorporated how the people involved would need to change/adapt. I miss working with her all the time and I miss our collaboration to the benefit of our customers people!",
+            "name": "Todd Asevedo \u2601",
+            "subtitle": "GVP Payroll,Time, & Benefits portfolio Chief Expert @ SAP SuccessFactors | SPHR CPP | GTM Portfolio lead | Industry Speaker/Author/Investor | #PayrollBADIe | Views expressed are my own",
+            "url": "https://www.linkedin.com/in/toddasevedo/",
+            "urn": "urn:li:fsd_profile:ACoAAAAYTKgBvS6fomcSUL-7_qcGdGg8SHycQ3c"
+          },
+          {
+            "context": "Aisling was Tina Schust's client",
+            "date": "July 26, 2019",
+            "description": "We engaged Tina to deliver goal-setting workshops across North America as part of a larger corporate performance management initiative. Tina helped us hone our content and then expertly led in-person and web-based sessions in Los Angeles, Arkansas, New York, and Mexico City. As a result of these engaging events, our team members felt more comfortable having goal setting discussions with their leaders, better understood their accountability in career development, and more actively submitted goals and career aspirations through Workday. We already have launched targeted learning and development programs in response to these entries. Given the intensity of work schedules, our team members are discerning about how they spend their time and demand training that is engaging, value-added, and \"real.\" They described the goal-setting workshops as \"dynamic, practical and fun\" - high praise! Tina is easy to partner with and truly cares about the success of our programs, and I am grateful for her creativity, passion, and deep knowledge of the learning space. I look forward to partnering with Tina on more projects soon, not just in North America but across our global locations.",
+            "name": "Aisling Byrne, SHRM-SCP, CEBS, CPLP",
+            "subtitle": "| People & Talent Leader | Consultant | Educator | Career Coach I Enabling People and Organizations Grow and Develop | Talks about #talent, #careers, #leadership, #employeeengagement, and #employeexperience",
+            "url": "https://www.linkedin.com/in/aisling-byrne-shrm-scp-cebs-cplp-5352842/",
+            "urn": "urn:li:fsd_profile:ACoAAABlXfkBaoFFaGHuwyrpL6Ix6sO9SLOPYuI"
+          },
+          {
+            "context": "Doug was Tina Schust's client",
+            "date": "April 14, 2019",
+            "description": "Tina Robinson is a fantastic resource!\n \nI haven\u2019t had to update my resume in some time and Tina\u2019s insight was on point and truly empowering.",
+            "name": "Doug Levy",
+            "subtitle": "Innovative Media Executive with a track record of creating content that engages audiences and supports corporate goals. Former Disney, FOX and OWN executive.",
+            "url": "https://www.linkedin.com/in/douglevy/",
+            "urn": "urn:li:fsd_profile:ACoAAACQMHEBS8xzcdhTh3TRZ4JkuIRPZA6EPBM"
+          },
+          {
+            "context": "Beth was Tina Schust's client",
+            "date": "February 21, 2019",
+            "description": "Tina exceeded my expectations with the work she provided for the California region of the National Wildlife Federation, and assisted us with HR-focused consulting, and team coaching. She quickly became a trusted advisor for me, leveraging her diverse background and deep experience. Tina served as a sounding board for organizational challenges, from people management to goal setting and prioritization, and inspired and challenged me to grow as a leader. Our team is stronger thanks to Tina\u2019s support, and I recommend Tina to any organization truly ready to optimize the talents of its people.",
+            "name": "Beth Pratt",
+            "subtitle": "Regional Executive Director, California at National Wildlife Federation",
+            "url": "https://www.linkedin.com/in/beth-pratt-941909/",
+            "urn": "urn:li:fsd_profile:ACoAAAAibgEBqvSFOwcPLANSKcfl1W1Rpm7gAiA"
+          },
+          {
+            "context": "Abigail was Tina Schust's client",
+            "date": "January 16, 2019",
+            "description": "I engaged Tina to co-create a customized development program for our people managers and am thrilled with the results! She was quick to understand our LRW culture and the kind of content and approach that would work best for our employees. After an initial brainstorming session where we defined objectives, Tina leveraged her depth of learning design and facilitation experience to create a big-picture framework, then draft topical session content, ultimately forming a cohesive curriculum for us to bring to life in the classroom. \n\nShe was a true partner during the process, hearing our goals, offering fresh ideas and quickly building on feedback my L&D team and I shared. Tina has a pragmatic approach to learning, which shined through the program presentations and activities. I especially enjoyed our \"sounding board\" sessions where we reviewed decks together, engaged in inspiring L&D discussions and co-edited to hone our final product. \n\nTina was referred to me by a friend, and I\u2019m glad we had the opportunity to work together! I look forward to continued partnership with Tina in the future, leveraging her skills as a learning strategist, talent consultant, and executive coach.",
+            "name": "Abigail Boudreaux",
+            "subtitle": "Professional Certified Executive Coach | I help individuals and teams navigate change and work in more fully human ways",
+            "url": "https://www.linkedin.com/in/abigailboudreaux/",
+            "urn": "urn:li:fsd_profile:ACoAAAEQvAwBiYZC6doAcHjq6bhkc9gp6YIHPOA"
+          },
+          {
+            "context": "Carla M was Tina Schust's client",
+            "date": "December 7, 2018",
+            "description": "We engaged Tina in 2017 to help the FamileSCN2A Foundation create its first\u00a0strategic plan. Through her patient yet focused and deliberate exploration of vision, mission, and values, our board members began to unite as a team, more willing to listen fully and to tackle the tough questions about who we are and what we imagine is possible. Tina leveraged her deep expertise in navigating organizations to walk us through a thorough skills gap assessment, board roles and responsibilities, and even interview guides to support our conversations with prospective team members. Thanks to her we added two amazing members who elevated our board to new levels. Most recently, in late 2018, we asked Tina to facilitate a critical board meeting. Once again, she patiently navigated us through a calibration and validation of our mission, the creation of a SWOT analysis, and a deep dive into the needs - and action plans - of our committees. In between group events Tina gently coached individual board members, applauding our progress, reminding us of our strengths and unique abilities, and encouraging us to own our power. Our foundation is stronger for having Tina as our coach, consultant, facilitator, and friend - and we recommend her to any organization and its leader ready to rise to and unleash full potential.",
+            "name": "Carla M Forbes",
+            "subtitle": "Non-Profit Administrative Manager | FamilieSCN2A Foundation Co-Founder | Rare Disease Advocacy Expert | Co-Chair of the Pediatric Patient and Family Advisory Council \u2013 Baystate Children\u2019s Hospital",
+            "url": "https://www.linkedin.com/in/carla-m-forbes/",
+            "urn": "urn:li:fsd_profile:ACoAABtk_aUB4my26gVF0GWe2YgPNFqicgp6y2g"
+          },
+          {
+            "context": "Judithe was Tina Schust's client",
+            "date": "October 31, 2018",
+            "description": "Tina facilitated a multi-month virtual manager training program for our Financial Services (Kaiser NCAL) mid-level managers.  \nShe kicked off the program with a vibrant in-person workshop that not only engaged the diverse audience but primed them for the learning they were to receive over the next few months. Every two weeks she lead an online session that balanced content with team application and personal reflection.  \nTina quickly reads her audience and adjusts the flow to meet shifting learning needs. She knows the content so well that she can go \"off script,\" injecting humor and weaving in activities that make the discussion \"real.\"   I welcome the opportunity to have Tina train and coach additional Financial Services (Kaiser) team members and highly recommend her to organizations ready to jump start their L&D programs.\n",
+            "name": "Judithe Sager",
+            "subtitle": "Senior Learning Consultant at TPMG Financial Services - Kaiser Permanente (Retired)",
+            "url": "https://www.linkedin.com/in/judithe-sager-3b586091/",
+            "urn": "urn:li:fsd_profile:ACoAABOGmDkBRsJ_-OzkzeyRn64FNGUFCtbCyyQ"
+          },
+          {
+            "context": "Manisha was Tina Schust's client",
+            "date": "July 13, 2018",
+            "description": "Tina has been facilitating a multi-month leadership program for our mid-level (mostly technology and product) managers. Following her theme of \"building your leadership toolbox,\" Tina effortlessly weaves together engaging content, straightforward models, hands-on application, and personal reflection to ensure value-driven \"ah hahs.\" She offers herself as a coach to her students, usually staying late to for one-on-one talks to make the training \"real\" and making herself available outside of the \"classroom\" \n\nFrom an HR perspective I have seen great improvement in our managers' ability to effectively communicate with diverse stakeholders, navigate conflict, deliver feedback - and huge leaps in the managers' self-awareness and feeling confident in their roles which was the reason for the providing the training initially. \n\nTina has also provided me insightful observations from her time here at iHerb.  I enthusiastically recommend Tina as a trainer, coach, and workplace partner - she brings wide-ranging experience, a strategic mindset to humans in the workplace, engaging wit, and a unique ability to connect with teams and individuals with her one of a kind personality! \n\nExcited for future training sessions with Tina",
+            "name": "Manisha Champaneria",
+            "subtitle": "Human Resources Business Partner (HRBP)",
+            "url": "https://www.linkedin.com/in/manishachampaneria/",
+            "urn": "urn:li:fsd_profile:ACoAAABTycsBo5LY5oi471DWb1QH8EdDwmxwPBA"
+          },
+          {
+            "context": "Natalie was Tina Schust's client",
+            "date": "June 21, 2018",
+            "description": "Tina entered my life when I was on my career \"sabbatical,\" bringing a steady stream of wisdom, relentless optimism, and a tireless commitment to my personal vision of success. Not only has she been an incredible career coach, I see her more as a cheerleader and friend.\n\nTina has challenged me to determine my future career goals, based on my passions and what brings me joy. This has allowed me to be very specific and discerning about which roles to pursue. Even after our coaching engagement ended, Tina has continued to check in with words of encouragement and helping me brainstorm ideas. She also invited me to join the WorkJoy CoachingCollectives, group coaching on specific life topics that have allowed me to share my own insights and \"what next\" learnings with the community. \n\nI recommend Tina as a coach not only to those in transition, but to everyone ready for a life of joy and curious about where the path may lead.\n\n",
+            "name": "Natalie Wong",
+            "subtitle": "Marketing and Events Strategist | Social Responsibility Leader",
+            "url": "https://www.linkedin.com/in/nataliewong/",
+            "urn": "urn:li:fsd_profile:ACoAAAKaJbsBKyyU9ysbUDrhFK5oS04xH4-p_oQ"
+          },
+          {
+            "context": "Natalie worked with Tina Schust but they were at different companies",
+            "date": "April 4, 2018",
+            "description": "Tina has moderated and spoken on panels with us at General Assembly. She is great - genuine, fun, and excels at reading the crowd and adapting the panel flow to maintain engagement. Tina knows her content, bringing expertise in humans at work from her cross-industry leadership roles in HR, org development, and workforce management technology. Overall, she is a terrific public speaker and I recommend her to any organization that wants to drive conversations about the workplace of the future. \n",
+            "name": "Natalie Dao",
+            "subtitle": "HRBP Marketing & Creative at Liquid Death",
+            "url": "https://www.linkedin.com/in/natalie-dao/",
+            "urn": "urn:li:fsd_profile:ACoAAA4H_xsBVIG78NYC1C5eJXiMlpEbsNPN9W4"
+          },
+          {
+            "context": "Christina worked with Tina Schust but they were at different companies",
+            "date": "January 3, 2018",
+            "description": "Tina is one of our valued workshop leaders and facilitators at our Summer Academy and Winter Conference for the highest achieving, low-income, first-generation college students. Tina is requested time and time again for her passionately engaging and inspiring workshops - students find her wisdom and career development tools to be spot on and meeting their exact needs. Students have cited her \"guiding energy,\" \"contagious energy and enthusiasm,\" \"100% engagement,\" and \"powerful presence.\" Behind the scenes, Tina is an intelligent and strategic thinker, quick to recommend ideal learning solutions for our diverse audience. We are fortunate to have Tina as a member of our extended team and highly recommend her as a facilitator and educator.",
+            "name": "Christina Piranio",
+            "subtitle": "Nonprofit Executive",
+            "url": "https://www.linkedin.com/in/christina-piranio-8749933/",
+            "urn": "urn:li:fsd_profile:ACoAAACtzhgBbvbb5fNI23MKHsyZgn9OehjKRjQ"
+          },
+          {
+            "context": "Xiaole was Tina Schust's client",
+            "date": "December 27, 2017",
+            "description": "Tina has been an inspiration in my transition from a 17-year career.  While Tina is very capable of offering advice on resume writing, what I found invaluable was her ability to sense when and how to give me a swift kick in the butt and confidently pursue future opportunities.  If you find yourself in an unknown space in your career, Tina can really help you navigate:  explore what your true goals are and develop strategy to get there.",
+            "name": "Xiaole Yang",
+            "subtitle": "Toyota Hydrogen Solutions",
+            "url": "https://www.linkedin.com/in/xiaole-yang-a622191/",
+            "urn": "urn:li:fsd_profile:ACoAAAA1u6oBHM2jNOW7ebxhn-5q-JklzlUBY7I"
+          },
+          {
+            "context": "Shelby was Tina Schust's client",
+            "date": "December 5, 2017",
+            "description": "I worked with Tina during a period of career transitioning.  She is a very energetic, upbeat and relatable person who provided unique insights by asking probing questions that enabled me to approach issues from a variety of perspectives.  She takes a genuine interest in people and creates a true partnership between her and those with whom she is working.",
+            "name": "Shelby Niss",
+            "subtitle": "Director of Global Financial Analysis at Toyota Financial Services",
+            "url": "https://www.linkedin.com/in/shelby-niss-21b6494/",
+            "urn": "urn:li:fsd_profile:ACoAAADOifcBCslxt37LYJaGVB-Z3a_RRJWoBsU"
+          },
+          {
+            "context": "James was Tina Schust's client",
+            "date": "November 23, 2017",
+            "description": " really enjoyed working with Tina. She made me feel very comfortable, as she is one of those people who is easy to talk to and I looked forward to every time we met. After our meetings, I walked away feeling motivated and inspired. All of our conversations were upbeat and positive and she really helped me think about what \"what is next!\" \n\nBranding and resume writing are not my favorite topics but Tina really helped me develop my self-marketing abilities. I found myself jotting down notes during our conversations and left our meetings feeling motivated! Overall, Tina was the ideal coach during my transition. I hope to have the opportunity to work with her again!",
+            "name": "James Gaidula",
+            "subtitle": "Information Systems Technology Executive",
+            "url": "https://www.linkedin.com/in/jamesgaidula/",
+            "urn": "urn:li:fsd_profile:ACoAAAie-MIByt_ih_vc0wfwZHgsN1LWYpeTS4Y"
+          },
+          {
+            "context": "Jer\u00e9 J was Tina Schust's client",
+            "date": "November 17, 2017",
+            "description": "As a coach, Tina has a unique ability to customize her approach to meet clients where they are and to purposefully navigate them along an exploration journey they didn't think themselves ready to take. Tina immediately put me at ease with her incredible energy. She skillfully tailors her humor, compassion, and confidence, and intuitively knows when I need a push or reassurance. I know that I may rely on her insight. Grounded, yet bold, Tina is a champion of my best self and has inspired me to think beyond the narrow straight path in favor of truly fulfilling opportunities. ",
+            "name": "Jer\u00e9 J Thrasher",
+            "subtitle": "Strategic Leadership | Operational Excellence | Cross-Functional Collaboration & Stakeholder Engagement",
+            "url": "https://www.linkedin.com/in/jerethrasher/",
+            "urn": "urn:li:fsd_profile:ACoAAAO8uuQB15FEj5fC9TlaApHDcigqFES-TXk"
+          },
+          {
+            "context": "Bernard was Tina Schust's client",
+            "date": "November 3, 2017",
+            "description": "Tina was instrumental in helping me successfully re-imagine my career and land my next role. After I decided not to relocate with my prior employer out of state, she tailored her career coaching to fit my unique situation and helped me develop a winning marketing strategy. In addition to providing expert critiques to my resume, she also coached me for my interviews and helped me negotiate the offer that I received. What I liked most about Tina, was that she was always encouraging and enthusiastic which was key in helping me keep a positive and forward looking attitude throughout my search process.",
+            "name": "Bernard Hsu",
+            "subtitle": "Operations Manager at Amazon",
+            "url": "https://www.linkedin.com/in/bernard-hsu-4a3252/",
+            "urn": "urn:li:fsd_profile:ACoAAAAJPTsBwMJwDRsTcw_WLR7tCuYQKaziOUk"
+          },
+          {
+            "context": "Ren\u00e9 worked with Tina Schust on the same team",
+            "date": "February 13, 2017",
+            "description": "Few people have the opportunity to work directly with a global program leader who is so human and friendly though a critical thinker, asking the uncovered -often difficult- questions, getting the facts right, proactively seeking for and adopting feedbacks from all stakeholders -- but I did when I had the pleasure of working with Tina at the SAP.\r\nI was particularly impressed by Tina\u2019s high degree of sensitivity for the transformational dimension of the change program we were driving across ~10 business entities with different backgrounds, business and levels of maturity. In a perfectly natural way, Tina made sure that decision makers, influencers and employees impacted would feel and stay involved, even while there was so much uncertainty coming from our program as we were \u2018laying train tracks while the train is chugging along\u2019.\r\nNo matter how tense a meeting, Tina made sure everyone left with a smile :-) We miss her.",
+            "name": "Ren\u00e9 Grul",
+            "subtitle": "Senior Director GTM Strategy and Operating Models | Driving Scalable SaaS Growth | Aligning Product, Marketing, Sales & Customer Success across the Customer Lifecycle",
+            "url": "https://www.linkedin.com/in/renegrul/",
+            "urn": "urn:li:fsd_profile:ACoAAAAWHgEBZKUUOUDMIcLNP9xDVROdntrtmWM"
+          },
+          {
+            "context": "Tina Schust was senior to Niveditha but didn't manage Niveditha directly",
+            "date": "February 3, 2017",
+            "description": "I had the distinguished opportunity of working under Tina when she was part of the Line of Business Value Engineering leadership team. Tina is energetic, practical and transparent from the word \u2018Go\u2019. Together, we built the SuccessFactors Business Case Methodology, HR Line of Business Content and helped scale the HR Center of Excellence to support a global team of 20+ senior HR advisors. Tina\u2019s biggest strengths lie in her ability to liaise with various parts of the organization and staying focused on solving critical business needs. She is a strong advocate of removing redundancies in process and also excels at promoting teamwork.  Her inspiring nature, humor and ability to engage with people from diverse cultures is one to admire. ",
+            "name": "Niveditha Kesavan",
+            "subtitle": "Senior Director, SAP Business Network GTM Strategy & Operations | Advisory | Innovation | Technology",
+            "url": "https://www.linkedin.com/in/niveditha-kesavan/",
+            "urn": "urn:li:fsd_profile:ACoAAAK0M9oBfRytkEiRq5s38U9RFZT28P9DD20"
+          },
+          {
+            "context": "Shailendra worked with Tina Schust but on different teams",
+            "date": "December 27, 2016",
+            "description": "Tina had a very challenging assignment of driving innovation and operational standardization across a globally spread team which was working with customers in different regions. But she managed it extremely well. She has a very uncanny ability to identify patterns in feedback coming in from diverse situations, and thus finding what exactly needs to be fixed/done. She brings in empathy and analysis in equal rigor when finding solutions to problems. Tina was able to accomplish a lot in a very short time frame, and introduced many best practices to drive customer value and impact. ",
+            "name": "Shailendra Sahay",
+            "subtitle": "Head of Industries, SAP Europe, Middle East and Africa",
+            "url": "https://www.linkedin.com/in/shailendra-sahay-a85b853/",
+            "urn": "urn:li:fsd_profile:ACoAAAC1I8UB43WdF41XRngs-Dc37bxSgu1swpo"
+          },
+          {
+            "context": "Julia worked with Tina Schust on the same team",
+            "date": "March 18, 2016",
+            "description": "Tina's calling card is her passion for continuous improvement, and her willingness to \"lean-in\" and really drive key initiatives home--  even when intense daily demands challenge execution.  Without Tina's relentless focus, and disciplined follow-through in keeping project teams moving forward, the HR Value Engineering team would never have achieved the level of professionalism we are recognized for. Tina is resourceful, and responsive, and brings a \"light-touch\" to influencing and driving change, injecting her personality and humor into group interactions, and making it a delight to work with her.   In highly ambiguous roles, navigating complex matrix organizations, these skills and attitude are essential!  and Tina brings delivers them in spades!",
+            "name": "Julia Wagner, MBA",
+            "subtitle": "Management Consulting Executive, Accenture (HR Innovation, Talent & Organization Transformation)",
+            "url": "https://www.linkedin.com/in/juliafwagner/",
+            "urn": "urn:li:fsd_profile:ACoAAAS51J8BhD0nhg2UKDUIBLWrbOzRMmNaDDM"
+          },
+          {
+            "context": "Michelle worked with Tina Schust on the same team",
+            "date": "February 23, 2016",
+            "description": "Tina was a member of the Global Value Engineering Leadership Team for SuccessFactors and she held responsibility for Global Operational Excellence. \r\n\r\nTina set up practical programs of innovation that encouraged the entire global team working together in small groups across the globe to deliver various initiatives that improved the systems and tools we used as a team to be more efficient! \r\n\r\nIn this, Tina showcased her deep care and understanding for the Customer Transformation and her passion to ensure that the Value Engineering Team could identify and track the right metrics to demonstrate the business value of a cloud technology investment.\r\n\r\nTina is a delight to work with and will be an asset to any organisation.\r\n\r\n",
+            "name": "Michelle Botha",
+            "subtitle": "Founder, The Gifted Crown Company",
+            "url": "https://www.linkedin.com/in/michelle-botha-0911736/",
+            "urn": "urn:li:fsd_profile:ACoAAAEXd60Bd-k0o9NUW1aazYKIhGxEXMY1Rfk"
+          },
+          {
+            "context": "Greg worked with Tina Schust on the same team",
+            "date": "February 17, 2016",
+            "description": "Tina is a fantastic resource. She is very innovative and creative in her thinking, yet strives for operational efficiency, impact, and results. She has a nice ability to influence others and get them to follow her lead, which is difficult to do sometimes. And TIna is one of the most interesting people I have ever worked with as she always brings new stories and perspectives to our engagements which are both thought provoking and fun.",
+            "name": "Greg Selke",
+            "subtitle": "Human Resources",
+            "url": "https://www.linkedin.com/in/greg-selke-28154344/",
+            "urn": "urn:li:fsd_profile:ACoAAAlVlcEBwzdmSLOZD-en-ge1sQFeCDpO6hU"
+          },
+          {
+            "context": "Fabio worked with Tina Schust on the same team",
+            "date": "February 15, 2016",
+            "description": "Tina is an amazing professional. She has partnered with my Latin America/Caribbean HR value engineering consultant team in a variety of areas, from content development and demand generation to deal execution. She was a key player in updating and globalizing the value selling methodology and tools we use to execute our day-to-day job, making them simple to use and more effective.  \r\n\r\nI also want to highlight Tina\u2019s global approach to her role. Her ability to engage and inspire diverse team members across cultural boundaries makes working with Tina a pleasure. I\u2019m glad I had the opportunity to partner with her and look forward to our continued collaboration.",
+            "name": "Fabio Aquino",
+            "subtitle": "SVP | Customer Experience & Transformation Leader | Driving Client Success & Operational Excellence Across Latin America | SAP Executive",
+            "url": "https://www.linkedin.com/in/fabio-aquino-9023912a/",
+            "urn": "urn:li:fsd_profile:ACoAAAYbaNIB-Vawii_0iwkB3nHxxifPpzSkpNs"
+          },
+          {
+            "context": "Ken managed Tina Schust directly",
+            "date": "February 15, 2016",
+            "description": "Tina Robinson has worked for me for the last two years in the capacity of Sr. Director, HR Value Engineering Operations.  During this time Tina has shown tremendous capability to translate strategy into action.  Her ability to bring together process, systems and people has been unparalleled in any operations support I have experienced.  Over the past two years, she led complex transformation in the HR Value Engineering team by simplifying processes and aligning technology and tirelessly working to enable and encourage the behaviors of continuous improvement.  She has demonstrated some of the strongest ability to recognize patterns, recommend actions to solve complex problems and develop plans for execution.  In addition, she has a strong drive to influence said plans from concept to reality to achieve results.  Managing by influence rather than authority is probably the most difficult leadership challenge and over the last two years Tina has performed phenomenally by building collaborative relationships to scale resources to achieve her goals.  She is a true investor in the success of the collective organization by mentoring and coaching others to peak performance.  I hope that one day the opportunity presents itself for Tina and I to work together or for me to work for her.",
+            "name": "Ken Pearson, GPHR, ACC, CPC  (He / Him)",
+            "subtitle": "Executive Coach & Culture Architect | HR Transformation, Talent Strategy & Leadership Development Advisor | Organizational Culture, Change Management & Inclusive Workplace Expert",
+            "url": "https://www.linkedin.com/in/pearsonken/",
+            "urn": "urn:li:fsd_profile:ACoAAAB15OQBGUg2BTYfz7g5xyJoz_CzrPvXrEk"
+          },
+          {
+            "context": "Aaron worked with Tina Schust on the same team",
+            "date": "March 31, 2014",
+            "description": "Tina is an exceptional strategic thinker who can turn thoughts into action. Through her insights, knowledge of improvement techniques, and passion, she is effective at creating and implementing innovative solutions to address challenging business issues. She develops lasting relationships with both client executives and staff. They often seek her out for guidance and advice. Tina excels at facilitating, creating and delivering value-added business cases that truly address a client\u2019s needs. She has an unquestionable passion and commitment for\r\nthe client's success through recommending the right solution to meet challenges in achieving corporate imperatives and helping stakeholders understand the benefits of a future state enabled by the proposed technology. Tina is an influential driving force that allows the client to make appropriate business decisions based upon the facts.",
+            "name": "Aaron Tanenbaum",
+            "subtitle": "Vice President and Head of Operations Americas at Syspro",
+            "url": "https://www.linkedin.com/in/aaron-tanenbaum-59275b6/",
+            "urn": "urn:li:fsd_profile:ACoAAAEt1n4BIjeEqTUv_VELsepFfJVOIfkNemo"
+          },
+          {
+            "context": "John managed Tina Schust directly",
+            "date": "October 21, 2012",
+            "description": "Tina is a smart, creative and dedicated leader.  She has a unique ability to understand the dynamics within the organization and leverage her learning and organizational development capabilities to deliver business solutions that drive performance.  She was a valued member of my HR leadership team.",
+            "name": "John Vitale",
+            "subtitle": "Leadership and Career Advisor",
+            "url": "https://www.linkedin.com/in/jcvitale/",
+            "urn": "urn:li:fsd_profile:ACoAAAI_HakBGREyPwRDnivHWDirDeXNcSF79bM"
+          },
+          {
+            "context": "Louise worked with Tina Schust but on different teams",
+            "date": "January 3, 2012",
+            "description": "Tina and I partnered to create a customized training curriculum for new managers. We were charged wtih building from scratch - a customized program to help augment critical supervisory skills and develop a group of leaders able to coach, manage a develop non-exempt employees - no small task.  Tina was amazing - she is really passionate, has great instincts and is very resourceful.  She called upon her many years of experience and resources to help develop and amazing program.  Not only did Tina develop the training program she encorporated really clever hands on aspects which not only kept the attendees engaged made the program all the more effective.  TIna has boundless energy, true passion and is terrifically expereinced.  She is bar none the best training partner I've ever had the pleasure to work with.",
+            "name": "Louise DeBellonia",
+            "subtitle": "CHRO/Chief People Officer with Start-up and Turnaround Experience in Healthcare and Healthcare Technology. Helping Organizations attract and retain Talent.",
+            "url": "https://www.linkedin.com/in/louise-debellonia/",
+            "urn": "urn:li:fsd_profile:ACoAAAEhsXUBwpHvfa65LCdAfPys0k4nBO1UDkU"
+          },
+          {
+            "context": "Tina Schust was senior to Marites but didn't manage Marites directly",
+            "date": "December 7, 2009",
+            "description": "Tina is extraordinary when it comes to her dedication and ability as a human resources professional She is a great role model for the company values - compassion, character, confident and commitment. I've had the pleasure to work with Tina for almost five years. Her charisma and passion for everything that she does speaks for itself.",
+            "name": "Marites Foster",
+            "subtitle": "Client Services Manager",
+            "url": "https://www.linkedin.com/in/maritesfoster/",
+            "urn": "urn:li:fsd_profile:ACoAAACqFlgBhkVnOrCM2sf0pdURWIAqqyev5j8"
+          },
+          {
+            "context": "Vicki was senior to Tina Schust but didn't manage Tina Schust directly",
+            "date": "November 17, 2009",
+            "description": "Tina is a very talented organizational development and HR professional.  As the HR Professional assigned to support our team, Tina worked very closely with our managers to develop career plans, conduct training classes, coach managers, and help manage communication to staff.  She can move successfully from trainer to HR advisor to department manager.  Tina is professional in all her interactions with others.  She is committed to exceeding expectations of her customers.  And, she is a pleasure to work with on a daily basis. Tina would be an asset to any HR or Organizational Development team.",
+            "name": "Vicki Miller",
+            "subtitle": "Principal, Palm Key Associates, LLC",
+            "url": "https://www.linkedin.com/in/vicki-miller-7466014/",
+            "urn": "urn:li:fsd_profile:ACoAAADNEuYBy5NdABsVTo6ZFeBi6ICv3jgbi-w"
+          },
+          {
+            "context": "Christine reported directly to Tina Schust",
+            "date": "October 28, 2009",
+            "description": "I worked with Tina as both my manager and colleague supporting two business units. In both capacities she has always gone above and beyond and set a positive example for those she works with. She has a passion for following through in projects and bringing everyone together. She's been able to implement solutions and inspire creatively by solving issues outside of the traditional path when needed. Tina's enthusiastic, dedicated and genuinely a nice person to work with.",
+            "name": "Christine Shaw",
+            "subtitle": "Strategic client solutions leader with consultative sales focus. Passionate about making a meaningful impact within the healthcare ecosystem.",
+            "url": "https://www.linkedin.com/in/christine-shaw-715a803/",
+            "urn": "urn:li:fsd_profile:ACoAAACxNAEBQaVMIvwva0HRB9YdGKSROwLCjps"
+          },
+          {
+            "context": "Leslie worked with Tina Schust on the same team",
+            "date": "October 27, 2009",
+            "description": "Tina is a great manager with a drive to really push the organization's performance and systems to the best level. She is a great strategic thinker, but she didn't hesitate to jump in to help solve a problem, meet a deadline, or handle a delicate issue with a student or staff member. She is very diligent in her work and very versatile in her contributions, depending on the needs at the time whether it be helping a recruiter, or giving feedback to a student. She works to develop herself while continues to grow other staff members with her mentorship.  I would love to have her on my team again!",
+            "name": "Leslie Lynn",
+            "subtitle": "Director, MBA Career Coaching at University of Michigan Ross School CDO",
+            "url": "https://www.linkedin.com/in/leslieclynn/",
+            "urn": "urn:li:fsd_profile:ACoAAADRMxsBkCu99eRLS__C-fZxlvOB37bsPUk"
+          },
+          {
+            "context": "Brian worked with Tina Schust on the same team",
+            "date": "January 24, 2009",
+            "description": "TIna is a load of fun to work with and really engages great HR initiatives with her internal stakeholders.  She is probably the best trainer or presenter I have ever seen.  She engages her audience at all levels.  I miss working with her.",
+            "name": "Brian Ellenberger, MA, VSP",
+            "subtitle": "Talent Acquisition Professional with Full-Cycle Recruiting Experience, Strategic Sourcer in Technology and Healthcare Organizations",
+            "url": "https://www.linkedin.com/in/brianellenbergerrecruiter/",
+            "urn": "urn:li:fsd_profile:ACoAAAAol2cBghkrn9tjOMrxwtZ9w2a14Sbi6Ec"
+          }
+        ],
+        "sales_id": "urn:li:fsd_profile:ACoAAAAym-oBudM2FYIRNotgr3MQMG2zjLmDCog",
+        "same_name": [],
+        "skills": [
+          "Analytical Skills",
+          "High Performance Teams",
+          "Facilitation",
+          "Training Facilitation",
+          "Cross-functional Team Leadership",
+          "Entrepreneurship",
+          "Business Development",
+          "Customer Relationship Management (CRM)",
+          "Business Relationship Management",
+          "Client Relations",
+          "Multi-channel Retail",
+          "HR Management",
+          "Cloud Applications",
+          "Career Development Coaching",
+          "Sales Operations",
+          "Sales Processes",
+          "Customer Acquisition",
+          "Executive Support",
+          "Coaching & Mentoring",
+          "Project Management"
+        ],
+        "twitter_link": "",
+        "unformatted_full_name": "Tina Schust Robinson",
+        "username": "tinarobinsonspeaks",
+        "volunteering": [
+          {
+            "description": "Talent Conference, 2022-25 and Annual Conference + Expo, 2022-24",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "",
+            "is_current_position": true,
+            "organization": "SHRM",
+            "role": "Speaker",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "International and Organizational Development conferences, 2020, 2021, 2023, 2025\n\nWriter for TD (Talent Development) magazine ",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "",
+            "is_current_position": true,
+            "organization": "Association for Talent Development (ATD)",
+            "role": "Speaker and Writer",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Invited to speak in Dallas at the 2019 Talent Connect conference, uniting 4,600+ global talent leaders who have a passion for hiring, engaging, and developing winning teams.",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Science_and_technology",
+            "is_current_position": true,
+            "organization": "LinkedIn",
+            "role": "Speaker, Talent Connect",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Invited to speak at DisruptHR LA 2018, 2019, 2023, and 2024",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Education",
+            "is_current_position": true,
+            "organization": "DisruptHR",
+            "role": "Speaker",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Invited to present as part of the world's largest virtual HR conference. https://www.bamboohr.com/virtual/",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "",
+            "is_current_position": true,
+            "organization": "BambooHR",
+            "role": "Speaker, Global Virtual HR Summit",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": null,
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Science_and_technology",
+            "is_current_position": true,
+            "organization": "General Assembly",
+            "role": "Facilitator and speaker",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Facilitate world-class Harvard content for global corporate learning clients.",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "",
+            "is_current_position": true,
+            "organization": "Harvard Business Impact Enterprise",
+            "role": "Facilitator",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Invited to speak at annual CAHR conferences (2,700+ attendees) and local events.",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "",
+            "is_current_position": true,
+            "organization": "PIHRA",
+            "role": "Speaker",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Elected to the board of the Los Angeles chapter of the largest global organization dedicated to advancing the coaching profession. The chapter has 350+ members, ICF global has 20,000+.",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Social_services",
+            "is_current_position": true,
+            "organization": "International Coaching Federation",
+            "role": "Former Board Member, Los Angeles chapter",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Organizational strategy consultant and leadership coach for international foundation focused on increasing awareness of and raising money to fund treatments and cures for SCN2A genetic disorders in children.",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Health",
+            "is_current_position": true,
+            "organization": "SCN2A- The FamilieSCN2A Foundation",
+            "role": "Strategic Planning and Organizational Processes Consultant",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          },
+          {
+            "description": "Career development coach, conference program facilitator, and consultant for outreach program, founded in 2001, that has helped 1,200+ highly motivated low-income, first generation students of color navigate and graduate from college. ",
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 0,
+              "year": 0
+            },
+            "industry": "Education",
+            "is_current_position": true,
+            "organization": "Thrive Scholars",
+            "role": "Consultant and Career Development Facilitator",
+            "start_date": {
+              "month": 0,
+              "year": 0
+            }
+          }
+        ],
+        "websites": [
+          {
+            "category": "COMPANY",
+            "url": "https://www.workjoycoaching.com/"
+          },
+          {
+            "category": "PORTFOLIO",
+            "url": "https://www.tinarobinsonspeaks.com/"
+          }
+        ],
+        "Millionverifier result": "ok",
+        "Millionverifier quality": "good"
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "about_industry": "Business Consulting and Services",
+        "additional_information": "Executive jobs 690,514 open jobs",
+        "affiliated_pages": [],
+        "all_locations": [],
+        "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D563DAQEgEKGnjZzXBg/image-scale_191_1128/image-scale_191_1128/0/1660941900258/robinson_ventures_consulting_cover?e=2147483647&v=beta&t=ocQqXaYai78IIFD3aU-FK4Ow0cXS5CK_yokVQNGTO7w",
+        "company_id": "82573697",
+        "company_size": "2-10 employees",
+        "company_type": "Privately Held",
+        "country_code": "US",
+        "crunchbase_url": null,
+        "description": "As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLC improves performance and develops future opportunities for our clients. Our approach is forming bridges between clients, thought leaders, investors, and higher education institutions. We use a variety of tools and techniques to solve business problems and create opportunities. We pride ourselves on not only suggesting the changes, but also implementing the recommended solutions to ensure success.",
+        "employee_count": "8",
+        "employees": [
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFpFrBvBYZUcA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1698946431896?e=2147483647&v=beta&t=myR2W3J35PORxYoPkKXVhqsgHUqmsEDci14KtKn3qQM",
+            "name": "Cian Robinson",
+            "profile_url": "https://www.linkedin.com/in/cianrobinson?trk=org-employees",
+            "role": "With over 23 years of\u2026\u20225K followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D5603AQHLzoj23S-l8A/profile-displayphoto-scale_100_100/B56ZwqxN2zHQAc-/0/1770244071420?e=2147483647&v=beta&t=UIH7mzMVPMM5IG_6May-3spYAa0oTszbnc4w7hFEozE",
+            "name": "Sierra Wilhoit",
+            "profile_url": "https://www.linkedin.com/in/sierra-wilhoit?trk=org-employees",
+            "role": "Robinson Ventures, LLC\u2022185 followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D5603AQGtO8UbTYOmEQ/profile-displayphoto-scale_100_100/B56ZwBM1PXKkAg-/0/1769546667438?e=2147483647&v=beta&t=GGM-ERK-gQGg5voUUqIfXfbIFgSOr1mR9vGnu4h9u84",
+            "name": "Tucker Robinson",
+            "profile_url": "https://www.linkedin.com/in/tucker-robinson-007b09182?trk=org-employees",
+            "role": "Home Zone Furniture\u202210 followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/D5603AQHlKJcWcyqhEQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673296929967?e=2147483647&v=beta&t=TfVSaeQV61pZjMuGnv59RVwK4fVmeyB2kBPAdlpPSpw",
+            "name": "Kelsey Gibbons",
+            "profile_url": "https://www.linkedin.com/in/kelseydgibbons?trk=org-employees",
+            "role": "Robinson Ventures, LLC\u2022472 followers"
+          }
+        ],
+        "followers": "456",
+        "formatted_url": "https://www.linkedin.com/company/robinson-ventures-consulting",
+        "founded": "2002",
+        "funding": null,
+        "get_directions_url": [
+          {
+            "directions_url": "https://www.bing.com/maps?where=Hartsville+South+Carolina+US&trk=org-locations_url"
+          }
+        ],
+        "headquarters": "Hartsville, South Carolina",
+        "hq_address": {
+          "address": "Hartsville, South Carolina, US",
+          "is_primary": true,
+          "map_url": "https://www.bing.com/maps?where=Hartsville+South+Carolina+US&trk=org-locations_url"
+        },
+        "industry": "Business Consulting and Services",
+        "info": "Robinson Ventures, LLC | 456 followers on LinkedIn. Delivering Results with Excellent and Integrity | As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLC improves performance and develops future opportunities for our clients. Our approach is forming bridges between clients, thought leaders, investors, and higher education institutions. We use a variety of tools and techniques to solve business problems and create opportunities.",
+        "investors": null,
+        "jobs": [
+          {
+            "open_jobs_count": 690514,
+            "title": "Executive jobs",
+            "url": "https://www.linkedin.com/jobs/executive-jobs?trk=organization_guest-browse_jobs"
+          }
+        ],
+        "location": "Hartsville, South Carolina",
+        "locations": [
+          {
+            "address": "Hartsville, South Carolina, US",
+            "is_primary": true,
+            "map_url": "https://www.bing.com/maps?where=Hartsville+South+Carolina+US&trk=org-locations_url"
+          }
+        ],
+        "name": "Robinson Ventures, LLC",
+        "profile_pic_url": "https://media.licdn.com/dms/image/v2/C560BAQEjlR0xc02Cvw/company-logo_200_200/company-logo_200_200/0/1660944637823/robinson_ventures_consulting_logo?e=2147483647&v=beta&t=bVjJ-D7ht-Ic_1p-IBxSPp-UxZ0GNCdCC41A464vMWw",
+        "similar_pages": [
+          {
+            "industry": "Aviation and Aerospace Component Manufacturing",
+            "location": "Detroit Metropolitan Area, Michigan",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQFSXXwNp-NN7w/company-logo_100_100/company-logo_100_100/0/1630552984672/blueflite_logo?e=2147483647&v=beta&t=DcWVFQYDgFYoy0KSE8TBCD7UEnx1G1WIVGP-b_j80V0",
+            "name": "blueflite",
+            "url": "https://www.linkedin.com/company/blueflite?trk=similar-pages"
+          },
+          {
+            "industry": "Investment Management",
+            "location": "Toronto, Ontario",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFfkhXzkalopA/company-logo_100_100/company-logo_100_100/0/1630581573457/robinsnventures_logo?e=2147483647&v=beta&t=EP5EGju0wOzcPFYJjpRkMGy9zXme0tx-_ubL-GemeEU",
+            "name": "Robinson Ventures",
+            "url": "https://ca.linkedin.com/company/robinsnventures?trk=similar-pages"
+          },
+          {
+            "industry": "Investment Management",
+            "location": "Greensboro, NC",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFicKAYXl8foQ/company-logo_100_100/company-logo_100_100/0/1630597175797?e=2147483647&v=beta&t=99zFZvQiPCvOdWCTxHTqSZ9rkeH1o5genTMvJ1sZ2zw",
+            "name": "Cone Health Ventures",
+            "url": "https://www.linkedin.com/company/cone-health-ventures?trk=similar-pages"
+          },
+          {
+            "industry": "Hospitals and Health Care",
+            "location": "Anderson, South Carolina",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQEw8aABE_5n4A/company-logo_100_100/company-logo_100_100/0/1644937111142/sitelabsglobal_logo?e=2147483647&v=beta&t=aaL0d2iVbhvnYpE4QsRz5iSK76gl8TlCbYbdltVS-Bw",
+            "name": "SiteLabs",
+            "url": "https://www.linkedin.com/company/sitelabsglobal?trk=similar-pages"
+          },
+          {
+            "industry": "Manufacturing",
+            "location": "Detroit, MI",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHEg90vYBgr1Q/company-logo_100_100/B56ZytzpUmHgAQ-/0/1772442523344/brce_corp_logo?e=2147483647&v=beta&t=DRkKIBMbFqRCgWt50CATFV3YfM0qoK7RjLjB6yIn8xU",
+            "name": "BRC\u0112",
+            "url": "https://www.linkedin.com/company/brce-corp?trk=similar-pages"
+          },
+          {
+            "industry": "Biotechnology Research",
+            "location": "Boston , MA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEYwdNaEEujfg/company-logo_100_100/company-logo_100_100/0/1685998205354?e=2147483647&v=beta&t=ND4qYOShvxqEtXuEr3pqHWHgDQaE7LyhEvYQ2f85Gxs",
+            "name": "Solu Therapeutics",
+            "url": "https://www.linkedin.com/company/solu-therapeutics?trk=similar-pages"
+          },
+          {
+            "industry": "Biotechnology Research",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFKFmjkSFye7A/company-logo_100_100/company-logo_100_100/0/1729799928424/odyssey_tx_logo?e=2147483647&v=beta&t=th31_qPfYjvXGAPIyE0A7ZxWLHBEMPfc8WHwJgsGnKc",
+            "name": "Odyssey Therapeutics",
+            "url": "https://www.linkedin.com/company/odyssey-tx?trk=similar-pages"
+          },
+          {
+            "industry": "Real Estate",
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "RED DOOR PROPERTY VENTURES LIMITED",
+            "url": "https://uk.linkedin.com/company/red-door-property-ventures-limited?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "SMACO (M) Sdn Bhd",
+            "url": "https://my.linkedin.com/company/smaco-m-sdn-bhd?trk=similar-pages"
+          },
+          {
+            "industry": "Business Consulting and Services",
+            "location": "Hilton Head Island, SC",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGkKPqpNcPnmg/company-logo_100_100/company-logo_100_100/0/1668619545763/methodeva_logo?e=2147483647&v=beta&t=NDJP-9AQQxpOPQjjLsj4S5Mi1IHCyH-0gMgojDQ7m8Q",
+            "name": "Ivanhoe Institute",
+            "url": "https://www.linkedin.com/company/ivanhoeinstitute?trk=similar-pages"
+          }
+        ],
+        "specialties": [
+          "Venture Investing",
+          "Strategy Development",
+          "Innovation",
+          "and Business Development"
+        ],
+        "stock_info": null,
+        "tagline": "Delivering Results with Excellent and Integrity",
+        "universal_name_id": "robinson-ventures-consulting",
+        "update_data": [
+          {
+            "content": "Today we\u2019re announcing our\u00a0quarterly magazine, \u201cRV Recap\u201d, featuring highlights from our work withBRC\u0112,Obatala Sciences, andLutheran Social Services of the National Capital Area! We also look back atThe Idea Village's 3rd Coast Venture Summit andPitchBreakfast, whereCian RobinsonandKelsey Gibbonscontinued to bring our mission to life.",
+            "posted_time": "Tue, 31 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "PRAISE",
+              "LIKE"
+            ],
+            "reactions": "4"
+          },
+          {
+            "comments": "2",
+            "content": "This city once changed how the world moves.\n\nNow, it\u2019s happening again, this time in the sky.\n\nFrom the 11th floor ofMichigan Central, this photo showsblueflite\u2019s COBALT flying high over Detroit.\n\nIt\u2019s part of our continued push to deploy advanced drone technology across healthcare, automotive and dual use applications.",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQE3Th_sm1p3kw/feedshare-shrink_2048_1536/B56Z0.xrSPHoAg-/0/1774874703215?e=2147483647&v=beta&t=g2d50_rgFf03dTENMwuWoghHGez2pO5qFlo1d8Y0hl4"
+              }
+            ],
+            "posted_time": "Mon, 30 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE"
+            ],
+            "reactions": "81"
+          },
+          {
+            "comments": "1",
+            "content": "As more people turn to supplements to support long-term health, researchers are working to better understand what those choices really mean for the body and brain.\n\nScientists at the MUSC, including Dr. Onder Albayram and Dr. Eda Karakaya, are leading that effort with new findings on fish oil supplementation and brain recovery after repetitive mild traumatic brain injury.\n\nPublished in Cell Reports, the study highlights why biological context matters and opens the door to more informed and personalized approaches to brain health.\n\nRead the full story:https://lnkd.in/eJ7VGF59#ChangingWhatsPossible",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E10AQHU009WX4IDdw/image-shrink_800/B4EZ0m1BxGKIAg-/0/1774472928614?e=2147483647&v=beta&t=uZgNXnxNZPas_n0AIUL-Yd7MmzaSom5A5eWosTnEF8c"
+              },
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E10AQG3-umLO-f2Wg/image-shrink_800/B4EZ0m1By8HQAk-/0/1774472928855?e=2147483647&v=beta&t=H8Jm7NJ1Itvqne4Xcv6OkFJnGIrHVgvneQ_FT3C0HLg"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "APPRECIATION",
+              "INTEREST"
+            ],
+            "reactions": "17"
+          },
+          {
+            "content": "Dignity Behavioral Health is accepting new clients for evening sessions, Monday through Thursday.  If you or someone you know is looking for therapy via telehealth in D.C., Maryland, or Virginia, please scan the QR code to get connected to one of our incredible therapists!",
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "11"
+          },
+          {
+            "content": "The 2025 Tampa General Hospital Annual Report, \"The DNA of Academic Health Care,\" is here!\n\nExplore an incredible year of innovation and impact across research, education and patient care as we continue advancing academic medicine alongside our partners atUSF Health.#WeAreTGH#TheAcademicDifferenceRead here:https://bit.ly/3NFEQsU",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E10AQETDApTLeIt9A/image-shrink_800/B4EZ0f7odpG0Ag-/0/1774357219583?e=2147483647&v=beta&t=jwwHxsT5KemlICuNZzezfvzepbPWgEqGazm0nrjPCfk"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "INTEREST"
+            ],
+            "reactions": "43"
+          },
+          {
+            "comments": "6",
+            "content": "\ud83c\udfc6 Obatala Sciences Named to American Business Vanguard-2026! \ud83c\udfc6\n\nWe are honored to announce thatObatala Scienceshas been recognized as the 2026 Vanguard Biotechnology Business of the Year, byGPMG. This achievement reflects the extraordinary work of our Obatala team, whose dedication and scientific excellence drive everything we do. It also represents the confidence and collaboration of our investors, partners, supporters, and community members who share our belief in what\u2019s possible when innovation is guided by purpose.\n\nAt Obatala Sciences, our mission is clear: to harness preclinical insights to help bring safe, efficacious therapies to patients\u2014making them accessible to all who need them, regardless of their backgrounds. This recognition reinforces our commitment to advancing translational science in ways that improve lives and strengthen the future of healthcare.\n\nWe are deeply grateful to the person who nominated us and to everyone who has supported our journey. This honor belongs to our entire community, and it inspires us to keep building, discovering, and delivering impact together.\n\nThank you for being part of the Obatala mission.\n\nCheck out the list of Vanguard winners here:#ObatalaSciences#Biotechnology#LifeSciences#BiotechInnovation#PreclinicalResearch#HealthEquity#VanguardAwards#TeamScience",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQHIS8I7R4wo8g/feedshare-shrink_1280/B56Z0cshCqG8AQ-/0/1774302925210?e=2147483647&v=beta&t=hlQ8tHNRFsqaPNiGfrEEomqXlZYMCHERCrL31tc5s4M"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "16"
+          },
+          {
+            "content": "Tick-tock, Health founders! The deadline for our first Virtual Qualifying Event is TODAY! Two half-days of mentorship from your own office can change the trajectory of your 2026. Don't miss the first step toward the $10,000 grand prize.",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E10AQEKdkTkZVdoJA/image-shrink_800/B4EZ0LHi7LJ0Ag-/0/1774008021348?e=2147483647&v=beta&t=6s_C39guaxyJTiRDmdUq_qXy5ujdRRMri34U7ASZjFw"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "2"
+          },
+          {
+            "content": "AtLutheran Social Services of the National Capital Area, we believe in a whole person approach to well-being, and that's why we are launching Dignity Behavioral Health. We are grateful to partner withFundamental Administrative Solutionsin this endeavor so we can focus on what we do best. \n\nOur licensed, bilingual clinicians are trained in trauma-informed treatment modalities, are available evening hours, and offer individual, family, and couples counseling. We are able to serve all ages. \n\nBook your session here:https://lnkd.in/exAGfpuP",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQFtNzAQ-_NYLQ/feedshare-shrink_1280/B56Zz3vJm7JwAM-/0/1773682858648?e=2147483647&v=beta&t=gBuf7rkBt0TMdSTfk91yGYE43LiXAvSGxudmJRabHuE"
+              }
+            ],
+            "posted_time": "Wed, 18 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "33"
+          },
+          {
+            "content": "We're down to the Final Four and TODAY is your last chance to VOTE for InnoVision 2025 Education Finalist CardioEducator byNursEdvance Innovationsand created at theUSC College of Nursing. \n\u2714\ufe0fIt only takes a minute - vote for CardioEducator TODAY!https://lnkd.in/dBw545id",
+            "media": [
+              {
+                "alt": "No alternative text description for this image",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQHMMQwjRV4EvA/feedshare-shrink_2048_1536/B4EZz2mOh2JMAg-/0/1773663742357?e=2147483647&v=beta&t=4U_vcSPGQyHvVAvA_GCMi5mV990uh-_N9E7s8T75aXA"
+              }
+            ],
+            "posted_time": "Wed, 25 Mar 2026 22:53:55 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "1"
+          },
+          {
+            "content": "Reminder! This Friday is the last day to enter for the first of twoStartup Prize: Focus on Health qualifying events on April 10-11, 2026. This event will be held virtually. You can register here:https://lnkd.in/ezapC9bb",
+            "posted_time": "Wed, 18 Mar 2026 22:53:55 GMT"
+          }
+        ],
+        "url": "https://www.linkedin.com/company/robinson-ventures-consulting",
+        "website": "https://www.robinsonventures.com/"
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/robinson-ventures-consulting",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/tinarobinsonspeaks"
+  },
+  "lead_before_enrichment": {
+    "business": "Robinson Ventures, LLC | Strategy and Development Consulting",
+    "description": "[ ![Robinson Ventures](https://www.robinsonventures.com/templates/custom/robinsonventures-2021/images/logo-robinson-ventures.png) ](https://www.robinsonventures.com/) * [Services](https://www.robinsonventures.com/) * [Innovation](https://www.robinsonventures.com/innovation) * [Cycle of Innovation](https://www.robinsonventures.com/cycle-of-innovation) * [Stage Gate Innovation](https://www.robinsonventures.com/stage-gate-innovation) * [Culture and Innovation](https://www.robinsonventures.com/culture-and-innovation) * [Investment](https://www.robinsonventures.com/) * [Corporate Venture ](https://",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://robinsonventures.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/robinson-ventures-consulting",
+    "source_url": "https://robinsonventures.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "robinsonventures.com",
+    "source_urls": [
+      "https://robinsonventures.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Robinson Ventures, LLC",
+    "description": "As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLC improves performance and develops future opportunities for our clients. Our approach is forming bridges between clients, thought leaders, investors, and higher education institutions. We use a variety of tools and techniques to solve business problems and create opportunities. We pride ourselves on not only suggesting the changes, but also implementing the recommended solutions to ensure success.",
+    "full_name": "Tina Schust Robinson",
+    "first": "Tina Schust",
+    "last": "Robinson",
+    "email": "tina@workjoycoaching.com",
+    "phone_numbers": [],
+    "website": "https://www.robinsonventures.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "From Fast Company - Expert advice on maintaining your mental edge",
+    "linkedin": "https://www.linkedin.com/in/tinarobinsonspeaks",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/robinson-ventures-consulting",
+    "source_url": "https://robinsonventures.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "South Carolina",
+    "hq_city": "Hartsville",
+    "country": "United States",
+    "state": "South Carolina",
+    "city": "Hartsville",
+    "employee_count": "11-50",
+    "company_domain_canonical": "robinsonventures.com",
+    "source_urls": [
+      "https://robinsonventures.com"
+    ],
+    "title_raw": "From Fast Company - Expert advice on maintaining your mental edge",
+    "name_quality": "full",
+    "email_observed": "tina@workjoycoaching.com",
+    "person_found_on_company_site": true,
+    "email_type": "direct",
+    "email_domain_match": false,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "email_source_url": "https://robinsonventures.com",
+    "linkedin_source_url": "https://robinsonventures.com"
+  },
+  "field_changes": {
+    "business": {
+      "before": "Robinson Ventures, LLC | Strategy and Development Consulting",
+      "after": "Robinson Ventures, LLC"
+    },
+    "city": {
+      "before": "",
+      "after": "Hartsville"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "[ ![Robinson Ventures](https://www.robinsonventures.com/templates/custom/robinsonventures-2021/images/logo-robinson-ventures.png) ](https://www.robinsonventures.com/) * [Services](https://www.robinsonventures.com/) * [Innovation](https://www.robinsonventures.com/innovation) * [Cycle of Innovation](https://www.robinsonventures.com/cycle-of-innovation) * [Stage Gate Innovation](https://www.robinsonventures.com/stage-gate-innovation) * [Culture and Innovation](https://www.robinsonventures.com/culture-and-innovation) * [Investment](https://www.robinsonventures.com/) * [Corporate Venture ](https://",
+      "after": "As an innovation, investment, strategy, and development consulting firm working in the healthcare and higher education market verticals, Robinson Ventures, LLC improves performance and develops future opportunities for our clients. Our approach is forming bridges between clients, thought leaders, investors, and higher education institutions. We use a variety of tools and techniques to solve business problems and create opportunities. We pride ourselves on not only suggesting the changes, but also implementing the recommended solutions to ensure success."
+    },
+    "email": {
+      "before": "",
+      "after": "tina@workjoycoaching.com"
+    },
+    "email_domain_match": {
+      "before": true,
+      "after": false
+    },
+    "email_observed": {
+      "before": "",
+      "after": "tina@workjoycoaching.com"
+    },
+    "email_source_url": {
+      "before": null,
+      "after": "https://robinsonventures.com"
+    },
+    "email_type": {
+      "before": "unknown",
+      "after": "direct"
+    },
+    "first": {
+      "before": "",
+      "after": "Tina Schust"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Tina Schust Robinson"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Hartsville"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "hq_state": {
+      "before": "",
+      "after": "South Carolina"
+    },
+    "last": {
+      "before": "",
+      "after": "Robinson"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/tinarobinsonspeaks"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://robinsonventures.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "From Fast Company - Expert advice on maintaining your mental edge"
+    },
+    "state": {
+      "before": "",
+      "after": "South Carolina"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "From Fast Company - Expert advice on maintaining your mental edge"
+    },
+    "website": {
+      "before": "https://robinsonventures.com",
+      "after": "https://www.robinsonventures.com/"
+    }
+  }
+}

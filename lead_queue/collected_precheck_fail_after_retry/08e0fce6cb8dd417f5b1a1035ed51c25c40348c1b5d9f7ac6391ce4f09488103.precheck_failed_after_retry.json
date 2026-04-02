@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Apptor-AI",
+  "lead": {
+    "business": "Apptor-AI",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "CEO",
+    "website": "http://apptor-ai.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "Tel Aviv",
+    "state": "",
+    "city": "",
+    "source_url": "https://seamless.ai",
+    "description": "Apptor.AI is the AI partner built exclusively for Direct Selling companies. We turn your customer and distributor data into automated actions that reduce churn, increase sales, and grow your distributor network. Our platform plugs into your CRM and starts delivering results fast \u2014 generating smart follow-ups, personalized product recommendations, and giving your leaders real-time visibility into their downlines to enable faster, smarter action.",
+    "employee_count": "11-50",
+    "hq_country": "Tel Aviv",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://il.linkedin.com/company/apptor-ai"
+  },
+  "source_failed_basename": "05cd2498cc6c494d164ab34d09bd87bfadfd0854cd9b89744c91f928613748fa.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/05cd2498cc6c494d164ab34d09bd87bfadfd0854cd9b89744c91f928613748fa.precheck_failed.json",
+  "queue_key": "08e0fce6cb8dd417f5b1a1035ed51c25c40348c1b5d9f7ac6391ce4f09488103"
+}

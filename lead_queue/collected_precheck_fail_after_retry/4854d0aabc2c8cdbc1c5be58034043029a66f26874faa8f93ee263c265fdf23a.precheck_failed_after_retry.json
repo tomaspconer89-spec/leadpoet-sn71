@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "Ad Labz",
+  "lead": {
+    "business": "Ad Labz",
+    "full_name": "Hello Lead",
+    "first": "Hello",
+    "last": "Lead",
+    "email": "hello@adlabz.co",
+    "role": "Contact",
+    "website": "https://www.adlabz.co",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "California",
+    "city": "Covina",
+    "source_url": "https://adlabz.co",
+    "description": "We turn every click into real business growth. With our Google Ads expertise, you\u2019ll see clear results without any locked-in contracts \u2013 just straightforward, effective advertising.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Covina",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ad-labz"
+  },
+  "source_failed_basename": "c138f6a4534d0bf0ffe7f5ce9fcaa2adaacb6c433fd9c75771a14caf557b7d1c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c138f6a4534d0bf0ffe7f5ce9fcaa2adaacb6c433fd9c75771a14caf557b7d1c.precheck_failed.json",
+  "queue_key": "4854d0aabc2c8cdbc1c5be58034043029a66f26874faa8f93ee263c265fdf23a"
+}

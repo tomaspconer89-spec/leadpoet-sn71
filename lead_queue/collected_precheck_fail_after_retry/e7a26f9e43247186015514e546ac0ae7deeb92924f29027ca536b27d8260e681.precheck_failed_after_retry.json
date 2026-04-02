@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Founders Network",
+  "lead": {
+    "business": "Founders Network",
+    "full_name": "Kevin Holmes",
+    "first": "Kevin",
+    "last": "Holmes",
+    "email": "",
+    "role": "Founder & CEO",
+    "website": "https://fndrs.net/3sCcMsG",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco",
+    "source_url": "https://foundersnetwork.com",
+    "description": "We know what it's like to try to go it alone as a founder, because we've been there. Since 2011, FN has curated a generous, authentic, and inclusive community of tech founders and catalyzed millions of \u201cfounder helping founder\u201d moments. We've helped thousands of tech founders answer the questions, build the relationships, and gain the perspective they needed to move faster. Today Founder's Network is 600+ global members strong with over $30B raised, collectively. Members are located in San Francisco, New York City, Los Angeles, Vancouver, Toronto, London and other tech hubs.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/founders-network",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/founders-network",
+    "linkedin": "https://linkedin.com/in/kevinholmes"
+  },
+  "source_failed_basename": "3e5402360168a92cae0e067cd490d28e426bfeb0e8d3eaf44a772e3345962489.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3e5402360168a92cae0e067cd490d28e426bfeb0e8d3eaf44a772e3345962489.precheck_failed.json",
+  "queue_key": "e7a26f9e43247186015514e546ac0ae7deeb92924f29027ca536b27d8260e681"
+}

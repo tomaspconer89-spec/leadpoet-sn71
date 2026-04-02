@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "SkillAxis",
+  "lead": {
+    "business": "SkillAxis",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "http://www.skillaxis.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "Brooklyn",
+    "state": "",
+    "city": "",
+    "source_url": "https://preplaced.in",
+    "description": "We help founders and PMs build great things and advance their careers.",
+    "employee_count": "2-10",
+    "hq_country": "Brooklyn",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/skillaxisgo"
+  },
+  "source_failed_basename": "834383d5fd36d727b6aba8e9e43bc8af113577197871ecfcae10d59826351672.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/834383d5fd36d727b6aba8e9e43bc8af113577197871ecfcae10d59826351672.precheck_failed.json",
+  "queue_key": "93fa01df8e296b13a22c2984b14c73845dbfeaae1150e64d36813ea522d62c6f"
+}

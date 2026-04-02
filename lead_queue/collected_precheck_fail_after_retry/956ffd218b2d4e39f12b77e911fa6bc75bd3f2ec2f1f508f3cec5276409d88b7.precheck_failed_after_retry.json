@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Visak Financial Services Private Limited",
+  "lead": {
+    "business": "Visak Financial Services Private Limited",
+    "full_name": "Tarun Kapoor",
+    "first": "Tarun",
+    "last": "Kapoor",
+    "email": "",
+    "role": "Group CIO - Senior Vice President (IT)",
+    "website": "http://vfsl.net",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "source_url": "https://vfsl.net",
+    "description": "We are a global financial advisory and investment banking firm delivering end-to-end solutions to businesses, promoters, institutions, and investors across multiple sectors and geographies. Headquartered in Ahmedabad, India, with a presence across key financial centres of the country, we combine strategic insight with strong execution capabilities to support clients through every phase of growth.",
+    "employee_count": "11-50",
+    "hq_country": "Gujarat",
+    "hq_state": "Delhi",
+    "hq_city": "Ahmedabad",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/visak-financial-services-private-limited---india",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://in.linkedin.com/company/visak-financial-services-private-limited---india",
+    "linkedin": "https://linkedin.com/in/tarunkapoorit"
+  },
+  "source_failed_basename": "6a15a8a31f54f34c9a84ffe1986b31db1b108895f1842f31bb5061ec9c0513ec.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6a15a8a31f54f34c9a84ffe1986b31db1b108895f1842f31bb5061ec9c0513ec.precheck_failed.json",
+  "queue_key": "956ffd218b2d4e39f12b77e911fa6bc75bd3f2ec2f1f508f3cec5276409d88b7"
+}

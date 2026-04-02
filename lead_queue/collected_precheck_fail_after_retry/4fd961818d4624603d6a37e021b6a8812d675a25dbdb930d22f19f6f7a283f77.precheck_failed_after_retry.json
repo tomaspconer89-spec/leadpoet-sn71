@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Camilla Advisory Group Inc.",
+  "lead": {
+    "business": "Camilla Advisory Group Inc.",
+    "full_name": "Jason Vandenberg",
+    "first": "Jason",
+    "last": "Vandenberg",
+    "email": "micah@micahrich.com",
+    "role": "Senior Vice President & Co-Founder",
+    "website": "http://www.camillagroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Canada",
+    "state": "",
+    "city": "Canada",
+    "source_url": "https://camillagroup.com",
+    "description": "We provide the following consulting services: Fractional Chief Financial Officer Services Employee Share Ownership Plans (ESOPs) Talent Optimization (Predictive Index) Mergers & Acquisitions Consulting Executive Coaching",
+    "employee_count": "2-10",
+    "hq_country": "Alberta",
+    "hq_state": "",
+    "hq_city": "St Albert",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/camillaadvisory",
+    "linkedin": "https://linkedin.com/in/jason-vandenberg-9491671a"
+  },
+  "source_failed_basename": "6e2a93f870fa4ce2e8f61a77388dee55d565baecdde780fb3d5b796297f95868.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6e2a93f870fa4ce2e8f61a77388dee55d565baecdde780fb3d5b796297f95868.precheck_failed.json",
+  "queue_key": "4fd961818d4624603d6a37e021b6a8812d675a25dbdb930d22f19f6f7a283f77"
+}

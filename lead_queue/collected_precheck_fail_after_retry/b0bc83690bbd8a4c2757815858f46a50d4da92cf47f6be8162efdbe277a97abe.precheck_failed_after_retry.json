@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "PayPro Global",
+  "lead": {
+    "business": "PayPro Global",
+    "full_name": "Meir A.",
+    "first": "Meir",
+    "last": "A.",
+    "email": "",
+    "role": "Chief Executive Officer",
+    "website": "http://payproglobal.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "London",
+    "source_url": "https://payproglobal.com",
+    "description": "PayPro Global (founded 2006) is a provider of premium e-commerce solutions designed for software, Saas and digital goods companies. We offer complete automation of the online sales management & optimization process through highly efficient in-house tools. By working with us, PayPro Global partners do not only maximize their revenues - they also minimize resource consumption, allowing them to fully focus on business strategy and growth. Our user-friendly platform will offer you: \u29bf A truly global solution with 110 currencies and over 70 payment methods to expand your business worldwide;",
+    "employee_count": "51-200",
+    "hq_country": "Ontario",
+    "hq_state": "CA",
+    "hq_city": "Toronto",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/paypro-global-inc-",
+    "linkedin": "https://linkedin.com/in/meir-amzllag"
+  },
+  "source_failed_basename": "00b90b539e90fe67bb56b3be4bdc54def1026199ebd78d7acb50ed2a7e19770d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/00b90b539e90fe67bb56b3be4bdc54def1026199ebd78d7acb50ed2a7e19770d.precheck_failed.json",
+  "queue_key": "b0bc83690bbd8a4c2757815858f46a50d4da92cf47f6be8162efdbe277a97abe"
+}

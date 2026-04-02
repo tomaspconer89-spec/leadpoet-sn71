@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "retry_reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Association of Fundraising Professionals (AFP Global)",
+  "lead": {
+    "business": "Association of Fundraising Professionals (AFP Global)",
+    "full_name": "Birgit Smith Burton",
+    "first": "Birgit",
+    "last": "Smith Burton",
+    "email": "birgit.burton@afpglobal.org",
+    "role": "Immediate Past Chair of AFP Global Board",
+    "website": "http://www.afpglobal.org",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "source_url": "https://afpnet.org",
+    "description": "Since 1960, AFP has inspired global change and supported efforts that generated over $1 trillion. AFP\u2019s nearly 30,000 individual and organizational members raise over $100 billion annually, equivalent to one-third of all charitable giving in North America and millions more around the world.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Arlington",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/afpglobal",
+    "linkedin": "https://linkedin.com/in/birgit-smith-burton"
+  },
+  "source_failed_basename": "00044c21187025ae4f0a22a3fd55d8b83a4665b69aacb74d5d4ebcfb222635be.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/00044c21187025ae4f0a22a3fd55d8b83a4665b69aacb74d5d4ebcfb222635be.precheck_failed.json",
+  "queue_key": "166b6ae19e8e92ad2c83c40774ff05f879a89caf3b8f98297b339fd4108173e2"
+}

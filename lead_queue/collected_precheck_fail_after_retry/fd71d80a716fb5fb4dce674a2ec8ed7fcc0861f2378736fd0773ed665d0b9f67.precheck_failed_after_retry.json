@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Alexander Group",
+  "lead": {
+    "business": "Alexander Group",
+    "full_name": "Chris Nagle",
+    "first": "Chris",
+    "last": "Nagle",
+    "email": "",
+    "role": "Partner",
+    "website": "http://www.alexandergroup.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "United States",
+    "source_url": "https://alexandergroup.com",
+    "description": "Alexander Group provides go-to-market consulting services to marketing, sales, service and talent leaders. With over 40 years of developing practical, executable solutions, we are singularly focused on helping commercial teams unlock their full potential and reach new revenue goals. With a robust network of offices, Alexander Group maximizes growth opportunities for our clients around the globe. Guided by our three core values\u2014teamwork, collaboration and innovation\u2014we deliver global expertise from planning through execution.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-alexander-group",
+    "linkedin": "https://linkedin.com/in/chris-nagle"
+  },
+  "source_failed_basename": "123e1dbdd10d6d5005d9520a5517cf71288bcb4d8848b09adc5a0f957d22f707.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/123e1dbdd10d6d5005d9520a5517cf71288bcb4d8848b09adc5a0f957d22f707.precheck_failed.json",
+  "queue_key": "fd71d80a716fb5fb4dce674a2ec8ed7fcc0861f2378736fd0773ed665d0b9f67"
+}

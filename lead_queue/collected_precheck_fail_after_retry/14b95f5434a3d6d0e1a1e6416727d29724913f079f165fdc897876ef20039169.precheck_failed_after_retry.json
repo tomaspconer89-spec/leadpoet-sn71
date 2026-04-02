@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Marcel Schwantes Group, LLC",
+  "lead": {
+    "business": "Marcel Schwantes Group, LLC",
+    "full_name": "Marcel Isler",
+    "first": "Marcel",
+    "last": "Isler",
+    "email": "m.isler@marcelisler.comopens",
+    "role": "Chief Executive Officer",
+    "website": "http://www.marcelschwantes.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Switzerland",
+    "state": "Zurich",
+    "city": "Zurich",
+    "source_url": "https://marcelisler.com",
+    "description": "The Marcel Schwantes Group was founded by internationally acclaimed speaker, leadership coach, author, and thought leader Marcel Schwantes with a clear mission: to empower leaders to unlock extraordinary business results by embracing human-centered leadership. Our services are designed to transform leaders at every level, from frontline supervisors to the C-Suite.",
+    "employee_count": "2-10",
+    "hq_country": "Global",
+    "hq_state": "Texas",
+    "hq_city": "Austin",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/marcelschwantes",
+    "linkedin": "https://linkedin.com/in/marcelisler"
+  },
+  "source_failed_basename": "36dd08ddbd81305cdc34b14e3bd7fbda4146e4105ed71c2cd579a986aa0b6306.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/36dd08ddbd81305cdc34b14e3bd7fbda4146e4105ed71c2cd579a986aa0b6306.precheck_failed.json",
+  "queue_key": "14b95f5434a3d6d0e1a1e6416727d29724913f079f165fdc897876ef20039169"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "The Financial Information System for California (FI$Cal)",
+  "lead": {
+    "business": "The Financial Information System for California (FI$Cal)",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "chief elections official for the",
+    "website": "http://www.fiscal.ca.gov",
+    "industry": "Government and Military",
+    "sub_industry": "Government",
+    "country": "United States",
+    "state": "California",
+    "city": "Sacramento",
+    "source_url": "https://ca.gov",
+    "description": "The Department of FISCal (FI$Cal) operates California\u2019s integrated budgeting, procurement, cash management, and accounting system. The FI$Cal system modernized how the state of California manages its finances and is one of the largest and most dynamic IT and business-transformation undertakings in California\u2019s history. It eliminates the need for hundreds of independent legacy systems by combining the state\u2019s financial management into a single system. To learn more about FI$Cal, visit our website.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Sacramento",
+    "source_type": "public_registry",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/fi-cal-project"
+  },
+  "source_failed_basename": "b10147bc4850845eab23a4177f55a9b053a50dc39746ba1ae59d34645c7c06b8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b10147bc4850845eab23a4177f55a9b053a50dc39746ba1ae59d34645c7c06b8.precheck_failed.json",
+  "queue_key": "6d73a6e2de10e8b2e335b9265a4c04ea30b330dbf7985919e5dda3a9468cbb9e"
+}

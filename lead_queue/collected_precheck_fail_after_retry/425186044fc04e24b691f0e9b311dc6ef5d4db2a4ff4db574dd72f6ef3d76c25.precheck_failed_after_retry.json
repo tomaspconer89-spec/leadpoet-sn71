@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Expert (Global Experts for Business Services)",
+  "lead": {
+    "business": "Expert (Global Experts for Business Services)",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "hr@global-experts.co.uk",
+    "role": "partner",
+    "website": "http://www.global-experts.co.uk",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "AL Yasmin",
+    "state": "",
+    "city": "Riyadh",
+    "source_url": "https://proselitigate.com",
+    "description": "Expert (Global Experts for Business Services) operates in Professional Services with a focus on Consulting, serving clients through its primary website http://www.global-experts.co.uk.",
+    "employee_count": "51-200",
+    "hq_country": "AL Yasmin",
+    "hq_state": "",
+    "hq_city": "Riyadh",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://eg.linkedin.com/company/expert-is-ltd"
+  },
+  "source_failed_basename": "8907d407a9d5de244b5d72f5106240d487b68896b1938c8ffadc7646e18d9610.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8907d407a9d5de244b5d72f5106240d487b68896b1938c8ffadc7646e18d9610.precheck_failed.json",
+  "queue_key": "425186044fc04e24b691f0e9b311dc6ef5d4db2a4ff4db574dd72f6ef3d76c25"
+}

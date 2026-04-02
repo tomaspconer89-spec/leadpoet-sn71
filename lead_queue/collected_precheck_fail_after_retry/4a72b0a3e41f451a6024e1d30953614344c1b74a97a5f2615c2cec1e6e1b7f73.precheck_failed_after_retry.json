@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Law Practice'",
+  "retry_reason": "invalid_sub_industry:'Law Practice'",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Keating Muething & Klekamp PLL (KMK Law)",
+  "lead": {
+    "business": "Keating Muething & Klekamp PLL (KMK Law)",
+    "full_name": "Jim McGraw",
+    "first": "Jim",
+    "last": "McGraw",
+    "email": "jmcgraw@kmklaw.com",
+    "role": "Partner",
+    "website": "http://www.kmklaw.com",
+    "industry": "Professional Services",
+    "sub_industry": "Law Practice",
+    "country": "United States",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "source_url": "https://kmklaw.com",
+    "description": "At the law firm of Keating Muething & Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy and anticipating how our clients' business goals may be affected. Our attorneys integrate themselves into our clients' businesses \u2014 strategizing from their point of view in order to develop sophisticated, high-value solutions that are efficient, effective, and economical. To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Ohio",
+    "hq_city": "Cincinnati",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+    "linkedin": "https://linkedin.com/in/jim-mcgraw-52901210"
+  },
+  "source_failed_basename": "b6ee728c402f92a8049eff5d2158fe759a4d8d544afe7ef28a137ab35982917a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b6ee728c402f92a8049eff5d2158fe759a4d8d544afe7ef28a137ab35982917a.precheck_failed.json",
+  "queue_key": "4a72b0a3e41f451a6024e1d30953614344c1b74a97a5f2615c2cec1e6e1b7f73"
+}

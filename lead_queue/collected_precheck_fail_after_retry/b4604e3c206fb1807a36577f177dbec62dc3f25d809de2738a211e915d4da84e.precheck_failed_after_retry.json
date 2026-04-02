@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:hello@",
+  "business": "Bounty Hunter Agency",
+  "lead": {
+    "business": "Bounty Hunter Agency",
+    "full_name": "Jenniferculbertson",
+    "first": "Jenniferculbertson",
+    "last": "Lead",
+    "email": "hello@adlabz.co",
+    "role": "Contact",
+    "website": "http://bountyhunter.agency/",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "Texas",
+    "city": "San Antonio",
+    "source_url": "https://adlabz.co",
+    "description": "Bounty Hunter helps B2B SaaS companies grow without burning money on random clicks or guesswork. We build PPC, CRO, and activation systems that turn traffic into trials, trials into users, and users into long-term ARR. What we work on: \u2022 Google Ads and LinkedIn Ads for SaaS \u2022 Landing pages that actually convert \u2022 Customer acquisition frameworks \u2022 Product marketing and activation \u2022 CRO built around the SaaS funnel If you want sharper SaaS growth, you\u2019re in the right place.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "San Antonio",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bounty-hunter-agency"
+  },
+  "source_failed_basename": "0adb46c2a0955650285e2e00d255f023db00bfc7767a053f0b8721d8bd275653.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0adb46c2a0955650285e2e00d255f023db00bfc7767a053f0b8721d8bd275653.precheck_failed.json",
+  "queue_key": "b4604e3c206fb1807a36577f177dbec62dc3f25d809de2738a211e915d4da84e"
+}

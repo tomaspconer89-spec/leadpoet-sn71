@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_hq_country_for_usa",
+  "retry_reason": "invalid_hq_country_for_usa",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Best powerpoint templates download pptwork.com",
+  "lead": {
+    "business": "Best powerpoint templates download pptwork.com",
+    "full_name": "Johanna Rehnvall",
+    "first": "Johanna",
+    "last": "Rehnvall",
+    "email": "johndoe@domain.com",
+    "role": "Founder | Presentitude\u00ae a PowerPoint Template & Presentation Design Agency",
+    "website": "https://www.pptwork.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "California",
+    "city": "Folsom",
+    "source_url": "https://slideteam.net",
+    "description": "Instantly download quick and easy to use professional presentation designs from https://www.pptwork.com",
+    "employee_count": "2-10",
+    "hq_country": "sakiii",
+    "hq_state": "California",
+    "hq_city": "toddd",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://hk.linkedin.com/company/powerpoint-templates-download",
+    "linkedin": "https://linkedin.com/in/johannarehnvall"
+  },
+  "source_failed_basename": "aaefa2fbcd25f9c22b98dc76e3054978f270bfa8287dc7a343d383b1c0d532c5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/aaefa2fbcd25f9c22b98dc76e3054978f270bfa8287dc7a343d383b1c0d532c5.precheck_failed.json",
+  "queue_key": "2dbac655dc2133d9d1df1ee7097e1805977f7f751c5ae5fb039193b1b1fbe52d"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city, linkedin",
+  "business": "SmartSites \ud83d\udca1",
+  "lead": {
+    "business": "SmartSites \ud83d\udca1",
+    "full_name": "Dmonteiro Lead",
+    "first": "Dmonteiro",
+    "last": "Lead",
+    "email": "dmonteiro@digitalmarketingagency.com",
+    "role": "Contact",
+    "website": "https://www.smartsites.com",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "New Jersey",
+    "city": "Kerala",
+    "source_url": "https://digitalmarketingagency.com",
+    "description": "Outsmart the competition with best-in-class digital marketing services. With over 1,000 \u2b50\u2b50\u2b50\u2b50\u2b50 reviews online, SmartSites \ud83d\udca1 is America's #1 rated digital marketing agency. Get more traffic. Acquire more customers. Sell more stuff. SmartSites works for businesses of all sizes. SmartSites is a Google Premier Partner and Facebook Marketing Partner. Winner of dozens of website design awards and seven times Inc5000 (2017-2023) fastest-growing company. Let us grow your company. Call \ud83d\udcde (201) 870 6000 for a free consultation!",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "New Jersey",
+    "hq_city": "Paramus",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/smartsites"
+  },
+  "source_failed_basename": "dbc4562291da2d4cdfb0c857f2d0bed7f398868276bf02f074bdc2a83721fabf.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/dbc4562291da2d4cdfb0c857f2d0bed7f398868276bf02f074bdc2a83721fabf.precheck_failed.json",
+  "queue_key": "c6c9e0d93f93ffc92dd305ef295ce91e73fb257ba0f083c3571fecf5f552f666"
+}

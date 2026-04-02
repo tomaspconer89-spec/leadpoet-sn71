@@ -1,0 +1,629 @@
+{
+  "saved_at_utc": "2026-04-01T15:52:09.831646+00:00",
+  "queue_key": "00b90b539e90fe67bb56b3be4bdc54def1026199ebd78d7acb50ed2a7e19770d",
+  "business": "Sell Software and SaaS Online with PayPro Global",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Sell Software and SaaS Online with PayPro Global",
+      "Sell Software and SaaS Online with PayPro Global linkedin company",
+      "site:linkedin.com/company payproglobal.com",
+      "site:linkedin.com/in \"Sell Software and SaaS Online with PayPro Global\" founder",
+      "site:linkedin.com/in \"Sell Software and SaaS Online with PayPro Global\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "F7TEOjpWGqK15Ek",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sell+Software+and+SaaS+Online+with+PayPro+Global",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sell+Software+and+SaaS+Online+with+PayPro+Global",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Sell Software and SaaS Online with PayPro Global",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sell+Software+and+SaaS+Online+with+PayPro+Global",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sell+Software+and+SaaS+Online+with+PayPro+Global",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "PayPro Global",
+            "url": "https://ca.linkedin.com/company/paypro-global-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "Sell your software online with PayPro Global E-commerce Platform. Flexible solution, Over 70 payment methods, Great support...Start Selling Globally Now!Read more",
+            "emphasizedKeywords": [
+              "Sell your software online with PayPro Global E-commerce Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "PayPro Global",
+            "url": "https://ma.linkedin.com/company/paypro-global-inc-?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "Sell your software online with PayPro Global E-commerce Platform. Flexible solution, Over 70 payment methods, Great support...Start Selling Globally Now!Read more",
+            "emphasizedKeywords": [
+              "Sell your software online with PayPro Global E-commerce Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 2
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/bV1tJ7V73t1seu4pM/records/F7TEOjpWGqK15Ek-0.html?signature=1E4POoIspOnTkgU0yXS1j"
+      },
+      {
+        "#debug": {
+          "requestId": "lw1Dpfrg80w6Dra",
+          "url": "http://www.google.com/search?q=Sell+Software+and+SaaS+Online+with+PayPro+Global+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Sell+Software+and+SaaS+Online+with+PayPro+Global+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Sell Software and SaaS Online with PayPro Global linkedin company",
+          "url": "http://www.google.com/search?q=Sell+Software+and+SaaS+Online+with+PayPro+Global+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Sell+Software+and+SaaS+Online+with+PayPro+Global+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Sell software and saas online with paypro global linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Sell+software+and+saas+online+with+paypro+global+linkedin+company+usa&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhBEAE"
+          },
+          {
+            "title": "PayPro Global charge on credit card",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+charge+on+credit+card&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhEEAE"
+          },
+          {
+            "title": "PayPro Global Cancel subscription",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+Cancel+subscription&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "How to sell software to companies",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=How+to+sell+software+to+companies&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhIEAE"
+          },
+          {
+            "title": "Sell software online free",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Sell+software+online+free&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "PayPro Global Inc",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+Inc&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Is PayPro Global legit",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Is+PayPro+Global+legit&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhCEAE"
+          },
+          {
+            "title": "PayPro Global remote jobs finder",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+remote+jobs+finder&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhAEAE"
+          },
+          {
+            "title": "Sell software and saas online with paypro global linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Sell+software+and+saas+online+with+paypro+global+linkedin+company+usa&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhBEAE"
+          },
+          {
+            "title": "PayPro Global charge on credit card",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+charge+on+credit+card&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhEEAE"
+          },
+          {
+            "title": "PayPro Global Cancel subscription",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+Cancel+subscription&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "How to sell software to companies",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=How+to+sell+software+to+companies&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhIEAE"
+          },
+          {
+            "title": "Sell software online free",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Sell+software+online+free&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "PayPro Global Inc",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+Inc&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Is PayPro Global legit",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Is+PayPro+Global+legit&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhCEAE"
+          },
+          {
+            "title": "PayPro Global remote jobs finder",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=PayPro+Global+remote+jobs+finder&sa=X&ved=2ahUKEwjT5paygM2TAxU8nokEHWcLL28Q1QJ6BAhAEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "PayPro Global",
+            "url": "https://ca.linkedin.com/company/paypro-global-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "Sell your software online with PayPro Global E-commerce Platform. Flexible solution, Over 70 payment methods, Great support...Start Selling Globally Now!Read more",
+            "emphasizedKeywords": [
+              "Sell your software online with PayPro Global E-commerce Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "PayPro Global",
+            "url": "https://www.linkedin.com/products/paypro-global-inc--paypro-global/",
+            "displayedUrl": "https://www.linkedin.com \u203a products \u203a paypro-global-inc...",
+            "description": "Sell your software online with PayPro Global E-commerce Platform. Flexible solution, Over 70 payment methods, Great support. Start Selling Globally Now!Read more",
+            "emphasizedKeywords": [
+              "Sell your software online with PayPro Global E-commerce Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "How to Sell SaaS to Enterprise Customers: Step-by-Step",
+            "url": "https://payproglobal.com/how-to/sell-saas-to-enterprise/",
+            "displayedUrl": "https://payproglobal.com \u203a How-Tos",
+            "description": "Your complete guide to sell SaaS to enterprise. Covers everything from understanding buyer needs and ABM to managing pricing, security,\u00a0...",
+            "date": "2025-11-12T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Your complete guide to sell SaaS to enterprise"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "How to Sell AI SaaS Products Online: Step-by-Step",
+            "url": "https://payproglobal.com/how-to/sell-ai-saas-products/",
+            "displayedUrl": "https://payproglobal.com \u203a How-Tos",
+            "description": "Learn how to sell AI SaaS globally. Guide covers payments, tax, compliance, pricing & security. Get started selling your AI tools online\u00a0...",
+            "date": "2025-11-12T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Learn how to sell AI SaaS globally"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "How PayPro Global helps SaaS founders with global sales",
+            "url": "https://www.linkedin.com/posts/paypro-global-inc-_we-often-talk-about-the-technical-solutions-activity-7363624833156268032-p-Eq",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a paypro-global-inc-_w...",
+            "description": "Aug 19, 2025 \u2014 See more stories of how PayPro Global simplifies global sales for tech and software companies: https://lnkd.in/dw6Hb7Sw ... Selling Ebooks Online:\u00a0...Read more",
+            "date": "2025-08-19T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "PayPro Global simplifies global sales for tech and software companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Sell Your Software Online. Anywhere in the world.",
+            "url": "https://payproglobal.com/solutions/selling-software-online/",
+            "displayedUrl": "https://payproglobal.com \u203a Solutions",
+            "description": "Sell software online with PayPro Global. Our platform handles payments, taxes, and compliance, so you can focus on growth. Book a demo today!",
+            "emphasizedKeywords": [
+              "Sell software online with PayPro Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "#saas #globalgrowth | PayPro Global",
+            "url": "https://www.linkedin.com/posts/paypro-global-inc-_saas-globalgrowth-activity-7387042626257977344-uHso",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a paypro-global-inc-_sa...",
+            "description": "Oct 23, 2025 \u2014 Ready to take your SaaS to the next level? From boosting payment success to optimizing marketing and pricing, smarter payments mean smarter\u00a0...Read more",
+            "date": "2025-10-23T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Ready to take your SaaS to the next level"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Sell Software and SaaS Online with PayPro Global",
+            "url": "https://payproglobal.com/",
+            "displayedUrl": "https://payproglobal.com",
+            "description": "Sell your software and Saas online with PayPro Global E-commerce Platform. Flexible solution, Over 70 payment methods, Great support. Start Selling Now!",
+            "emphasizedKeywords": [
+              "Sell your software and Saas online with PayPro Global E-commerce Platform"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Boost SaaS Conversions: Simplify Checkout Flow",
+            "url": "https://www.linkedin.com/posts/paypro-global-inc-_paypro-global-your-merchant-of-record-for-activity-7417873724256714752-19gc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "Boost SaaS Conversions: Simplify Checkout Flow. View organization page for PayPro Global. PayPro Global. 2,963 followers. 2mo. Report this postRead more",
+            "emphasizedKeywords": [
+              "SaaS",
+              "PayPro Global",
+              "PayPro Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "How-to Sell Online Courses: Create, Market & Profit",
+            "url": "https://payproglobal.com/how-to/sell-online-courses/",
+            "displayedUrl": "https://payproglobal.com \u203a How-Tos",
+            "description": "This guide covers the steps in establishing an online course business, including course creation, payment processing, and managing e-learning platforms.Read more",
+            "date": "2025-11-12T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "online",
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/PxYxLmGfRF07yGr4t/records/lw1Dpfrg80w6Dra-0.html?signature=fxHlL10AiiKiWNtYabxD"
+      },
+      {
+        "#debug": {
+          "requestId": "FrEcLn0GFRk8XMn",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+payproglobal.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+payproglobal.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company payproglobal.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+payproglobal.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+payproglobal.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "PayPro Global",
+            "url": "https://ca.linkedin.com/company/paypro-global-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "PayPro Global (founded 2006) is a provider of premium e-commerce solutions designed for software, Saas and digital goods companies.Read more",
+            "emphasizedKeywords": [
+              "is a provider of premium e-commerce solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "PayPro Global",
+            "url": "https://ma.linkedin.com/company/paypro-global-inc-?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro Global",
+            "description": "PayPro Global (founded 2006) is a provider of premium e-commerce solutions designed for software, Saas and digital goods companies.Read more",
+            "emphasizedKeywords": [
+              "is a provider of premium e-commerce solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Paypro",
+            "url": "https://www.linkedin.com/company/vexoraofficial",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Paypro",
+            "description": "We are an international payment service provider. Industry: Financial Services. Company size: 11-50 employees. Type: Privately Held\u00a0...Read more",
+            "emphasizedKeywords": [
+              "international payment service provider"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "PayPro",
+            "url": "https://www.linkedin.com/company/paypro/",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a paypro",
+            "description": "Online payment tools to run and boost your business: Payment methods, Recurring, Upsells, Affiliate Marketing and more.. \u00b7 Report this company \u00b7 Close menu.",
+            "emphasizedKeywords": [
+              "Online payment tools"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "PayPro International Inc.",
+            "url": "https://www.linkedin.com/company/payprointernational",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro International Inc.",
+            "description": "PayPro International helps businesses around the world accept payments from their clients. We specialize in Credit Card Processing, Point-of-Sale Systems.Read more",
+            "emphasizedKeywords": [
+              "PayPro International"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "PAYPRO",
+            "url": "https://www.linkedin.com/company/paypro-merchant",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PAYPRO",
+            "description": "PAYPRO is a different kind of payment processor. Our goal is to make you more profitable. We deliver innovative payment solutions, credit card processing\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PAYPRO is a different kind of payment processor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "PayPro International Inc.",
+            "url": "https://pa.linkedin.com/company/payprointernational?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro International Inc.",
+            "description": "PayPro International helps businesses around the world accept payments from their clients. We specialize in Credit Card Processing, Point-of-Sale Systems,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PayPro International"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "PayPro",
+            "url": "https://cl.linkedin.com/company/paypro",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PayPro",
+            "description": "Let your customers pay online in the simplest manner. PayPro is trusted by thousands of entrepreneurs in more than 30 countries. By using PayPro you always\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PayPro is trusted by thousands of entrepreneurs in more than 30 countries"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "PAYPRO",
+            "url": "https://pa.linkedin.com/company/paypro-merchant",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0PAYPRO",
+            "description": "PAYPRO is a different kind of payment processor. Our goal is to make you more profitable. We deliver innovative payment solutions, credit card processing\u00a0...Read more",
+            "emphasizedKeywords": [
+              "PAYPRO is a different kind of payment processor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Ampersand Professionals",
+            "url": "https://www.linkedin.com/company/ampersand-professionals",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ampersand Professionals",
+            "description": "A professional development training platform that businesses, career services departments, municipalities, nonprofits, and job seekers use for a confident,\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.2K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/loHdryVxTGnp2s8xk/records/FrEcLn0GFRk8XMn-0.html?signature=hPj8PapSzenP4biYjJAU"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Sell Software and SaaS Online with PayPro Global",
+      "https://ca.linkedin.com/company/paypro-global-inc-",
+      "https://ma.linkedin.com/company/paypro-global-inc-?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://ca.linkedin.com/company/paypro-global-inc-",
+      "https://www.linkedin.com/products/paypro-global-inc--paypro-global/",
+      "https://www.linkedin.com/posts/paypro-global-inc-_we-often-talk-about-the-technical-solutions-activity-7363624833156268032-p-Eq",
+      "https://www.linkedin.com/posts/paypro-global-inc-_saas-globalgrowth-activity-7387042626257977344-uHso",
+      "https://www.linkedin.com/posts/paypro-global-inc-_paypro-global-your-merchant-of-record-for-activity-7417873724256714752-19gc",
+      "site:linkedin.com/company payproglobal.com",
+      "https://ca.linkedin.com/company/paypro-global-inc-",
+      "https://ma.linkedin.com/company/paypro-global-inc-?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://www.linkedin.com/company/vexoraofficial",
+      "https://www.linkedin.com/company/paypro/",
+      "https://www.linkedin.com/company/payprointernational",
+      "https://www.linkedin.com/company/paypro-merchant",
+      "https://pa.linkedin.com/company/payprointernational?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://cl.linkedin.com/company/paypro",
+      "https://pa.linkedin.com/company/paypro-merchant",
+      "https://www.linkedin.com/company/ampersand-professionals"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://ca.linkedin.com/company/paypro-global-inc-",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Sell Software and SaaS Online with PayPro Global",
+    "description": "# Sell Software and SaaS Online with PayPro Global SaaS | Software | Video Games ## All-in-one platform for selling SaaS, Software & Video Games **Focus on building your products, not becoming a compliance expert.** We\u2019ll handle the stress and headaches of global payments, taxes, and regulations.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://payproglobal.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://payproglobal.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "payproglobal.com",
+    "source_urls": [
+      "https://payproglobal.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Sell Software and SaaS Online with PayPro Global",
+    "description": "# Sell Software and SaaS Online with PayPro Global SaaS | Software | Video Games ## All-in-one platform for selling SaaS, Software & Video Games **Focus on building your products, not becoming a compliance expert.** We\u2019ll handle the stress and headaches of global payments, taxes, and regulations.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://payproglobal.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/paypro-global-inc-",
+    "source_url": "https://payproglobal.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "payproglobal.com",
+    "source_urls": [
+      "https://payproglobal.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://ca.linkedin.com/company/paypro-global-inc-"
+    }
+  }
+}

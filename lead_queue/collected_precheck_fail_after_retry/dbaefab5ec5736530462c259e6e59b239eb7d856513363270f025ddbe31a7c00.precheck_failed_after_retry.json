@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "grIP Venture Studio",
+  "lead": {
+    "business": "grIP Venture Studio",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "http://www.gripventure.com",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "District of Columbia",
+    "city": "Washington",
+    "source_url": "https://waveup.com",
+    "description": "grIP Venture Studio is an advisory platform that helps emerging companies and venture capital investors with growth strategies, intellectual property (IP), and fundraising. Serving as an \"expert team\" for startups, it provides specialized support in areas like product management, marketing, and legal compliance to accelerate growth, often taking on advisory board positions.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "District of Columbia",
+    "hq_city": "Washington",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/grip-advisors"
+  },
+  "source_failed_basename": "8e71ca162862d452a32e4a4a401e701e27add85ca80cb61a079b24c16755702f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8e71ca162862d452a32e4a4a401e701e27add85ca80cb61a079b24c16755702f.precheck_failed.json",
+  "queue_key": "dbaefab5ec5736530462c259e6e59b239eb7d856513363270f025ddbe31a7c00"
+}

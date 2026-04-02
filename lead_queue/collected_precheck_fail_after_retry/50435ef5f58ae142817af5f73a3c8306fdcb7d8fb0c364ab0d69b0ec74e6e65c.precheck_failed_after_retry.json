@@ -1,0 +1,42 @@
+{
+  "reason": "email_domain_mismatch",
+  "retry_reason": "email_domain_mismatch",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Capital Business Brokerage",
+  "lead": {
+    "business": "Capital Business Brokerage",
+    "full_name": "Michael Donnelly",
+    "first": "Michael",
+    "last": "Donnelly",
+    "email": "michael@smallbusinessdeal.com",
+    "role": "Mergers and Acquisitions Advisor",
+    "website": "http://www.capitalbusinessbrokerage.biz",
+    "industry": "Financial Services",
+    "sub_industry": "Banking",
+    "country": "United States",
+    "state": "Illinois",
+    "city": "Chicago",
+    "source_url": "https://smallbusinessdeal.com",
+    "description": "For over 20 years, our team of experienced business brokers in Michigan has been helping small business owners achieve their dreams of successfully selling their companies. We primarily represent sellers in order to avoid conflicts of interest. Otherwise, representing both parties in the same deal can leave buyers and sellers unsure of who\u2019s working on their behalf. Still, when representing sellers, we connect entrepreneurs and those who dream of owning their own business to the right opportunities that meet their budget and goals.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Michigan",
+    "hq_city": "Farmington Hills",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/capital-business-brokerage",
+    "linkedin": "https://linkedin.com/in/michaeldonnelly2025"
+  },
+  "source_failed_basename": "9d736625290f9449c26764e03dcb889fc050ed05fba94830878e381e02587947.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9d736625290f9449c26764e03dcb889fc050ed05fba94830878e381e02587947.precheck_failed.json",
+  "queue_key": "50435ef5f58ae142817af5f73a3c8306fdcb7d8fb0c364ab0d69b0ec74e6e65c"
+}

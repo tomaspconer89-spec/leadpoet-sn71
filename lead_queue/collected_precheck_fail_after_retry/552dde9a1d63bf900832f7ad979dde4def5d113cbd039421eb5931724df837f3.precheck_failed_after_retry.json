@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Maryland Association of CPAs (MACPA)",
+  "lead": {
+    "business": "Maryland Association of CPAs (MACPA)",
+    "full_name": "Jen R Pagliaro, CPA",
+    "first": "Jen",
+    "last": "R Pagliaro, CPA",
+    "email": "",
+    "role": "Finance Director & Controller",
+    "website": "http://www.macpa.org",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "Maryland",
+    "city": "Bel Air",
+    "source_url": "https://wcscpa.com",
+    "description": "\"Connect, protect, achieve\" are the promises the Maryland Association of CPAs makes to its members. The MACPA is responsible for building and maintaining the infrastructure that supports the CPA profession and, ultimately, the U.S. capital markets. Our members represent sole practitioners who working with CPAs on Main Street, Big 4 accounting firms working internationally, CPAs serving as CFOs of public and private companies, controllers, accounting staff, educators, and government finance professionals.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Maryland",
+    "hq_city": "Timonium",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/294291",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/maryland-association-of-cpas",
+    "linkedin": "https://linkedin.com/in/jen-r-pagliaro-cpa-a15265b5"
+  },
+  "source_failed_basename": "7f44bd92a616613b71d0dd089f129fcf16faf946f3199c103e9903b36f5c69a6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/7f44bd92a616613b71d0dd089f129fcf16faf946f3199c103e9903b36f5c69a6.precheck_failed.json",
+  "queue_key": "552dde9a1d63bf900832f7ad979dde4def5d113cbd039421eb5931724df837f3"
+}

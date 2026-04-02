@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "name_not_in_email",
+  "business": "Strategic Partner Group",
+  "lead": {
+    "business": "Strategic Partner Group",
+    "full_name": "Samuel Levitz",
+    "first": "Samuel",
+    "last": "Levitz",
+    "email": "dealteam@investorreadycapital.com",
+    "role": "CEO & Founder",
+    "website": "http://www.strategicpartnergroup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Hawaii",
+    "city": "Honolulu",
+    "source_url": "https://investorreadycapital.com",
+    "description": "Strategic Partner Group (SPG) Empowering Global Growth Through Strategic Expertise Strategic Partner Group (SPG) is a global consultancy that bridges innovation, capital, and operational excellence to drive transformative outcomes for businesses worldwide. With a diverse team of seasoned professionals, SPG specializes in finance, procurement, technology, real estate, and business development, delivering comprehensive solutions that align with clients' strategic objectives. Global Expertise:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Bellmore",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/strategic-partner-group",
+    "linkedin": "https://linkedin.com/in/samuel-levitz"
+  },
+  "source_failed_basename": "3158f0c6153b4ff91e96983c6bd510860921502830516fd84ce67acfb9de9638.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3158f0c6153b4ff91e96983c6bd510860921502830516fd84ce67acfb9de9638.precheck_failed.json",
+  "queue_key": "6f91a1554ebced57aec9e8545d0e31f526067c0de4a529b29b16ac56d387c570"
+}

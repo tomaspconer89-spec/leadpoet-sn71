@@ -1,0 +1,137 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "Cansulta matches the ICP well in terms of industry relevance and business model alignment, but may not be a perfect match due to lack of specific mention of founder contact information","0.8","llm","llama3","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-04-01T14:29:31.305724Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmprvgya1kx/evidence/domain/cansulta.com.json","","2026-06-30T14:29:31.305727Z","startup advisory services founder contact","2026-04-01T14:29:06.961784Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Small Business Consultants | Lordstone Business Advisors
+
+[![lordstone-business-advisors-logo](https://lordstoneadvisors.com/rw_common/images/LBA-Logo-010519.jpeg)](http://www.lordstoneadvisors.com/)
+
+*   Gladstone Golf Club, Gladstone, MI
+    
+*   Sugarloaf Mountain, Marquette, MI
+    
+*   Little Traverse Bay - Petoskey, MI
+    
+*   St. Martin Island, MI
+    
+
+*   [](https://lordstoneadvisors.com/#)
+*   [](https://lordstoneadvisors.com/#)
+
+1.  1
+2.  2
+3.  3
+4.  4
+5.  5
+
+Business ownership can result in great rewards for the risk taken. However, owning a business can be isolating and at times disappointing and frustrating when we aren’t reaching our business goals in the timeframe we want to achieve them. Additionally, there is the whole people side of running a company, dealing with underperformance, conflict & disfunction among employees. Often, this can create stress, anxiety and make them question if business ownership is all its cracked up to be. Some business owners decide to sell, others decide to reluctantly try and persevere. But the good news is it doesn't have to be like this….there is a different way!
+
+[![Image](https://lordstoneadvisors.com/index_files/image_stack_img-4617935.jpg)](https://lordstoneadvisors.com/reports/recruiting-top-talent.html)
+
+*   We help you move from fighting fires, to preventing them through regular strategic planning. We teach you how to understand your financials and make better money decisions through our fractional CFO services.
+*   We coach you on how to attract, recruit, hire excellent employees, through our fractional HR services, enabling you to delegate more and gain freedom & flexibility in your schedule.
+*   We share how to build a healthy culture of execution, accountability, and high performance through our management consulting services.
+*   We help you build repeatable systems and processes in your business, ensuring products are built or customers served in the manner & quality you desire.
+
+Regardless of industry, we generally serve owners of small businesses with revenues between $1M - $30M, although some of our clients are larger and some smaller.
+
+Our clients want to grow their businesses, making them more valuable and easier to run. They are open to new ideas, are coachable and willing to invest their time in improving themselves and their businesses.
+
+Gladstone Office  
+P.O. Box 469  
+Gladstone, Michigan 49837  
+
+**FREE CONSULTATION** - We love small business! We routinely meet with small business owners over coffee or a virtual Zoom meeting just to learn about their businesses, challenges and goals. No sales pitch, just a get to know you and you get to know us session. To schedule, call us today.","","https://lordstoneadvisors.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Small Business Consultants | Lordstone Business Advisors","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","lordstoneadvisors.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "The company matches well with the ICP in terms of industry relevance (business consulting) and business model alignment (advisory and consulting services). However, it does not explici","0.8","llm","llama3","673ac1b15e05ba7d6d0d07671ed851751c4e6f872e93b545c248f3ec582f597f","0.0","0.3","7ac367d1-fd46-5095-8d06-07cf90e96975","","2026-04-01T14:30:02.769264Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/lordstoneadvisors.com.json","/tmp/tmprvgya1kx/evidence/domain/lordstoneadvisors.com.json","","2026-06-30T14:30:02.769272Z","business consulting firm advisor email","2026-04-01T14:29:10.484334Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.6,   "reason": "The company's focus on B2B SaaS CEOs and its description mentioning finding product-market fit aligns with the ICP's focus on startup advisory and consulting firms. However, the compan","0.6","llm","llama3","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-04-01T14:30:02.787178Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmprvgya1kx/evidence/domain/vaam.io.json","","2026-06-30T14:30:02.787180Z","SaaS startup CEO contact information","2026-04-01T14:29:14.188314Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_alignment","true","The company provides CEO contact information for SaaS startups in the US, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-04-01T14:30:02.799851Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmprvgya1kx/evidence/domain/findemails.com.json","","2026-06-30T14:30:02.799853Z","SaaS startup CEO contact information","2026-04-01T14:29:14.628121Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# Association of Fundraising Professionals
+
+## AFP ICON 2026: Register Today!
+
+AFP ICON is the world’s No. 1 fundraising conference, bringing together over 3,000 fundraising professionals for three dynamic days of learning, networking, and growth. Join us April 26-28 in San Diego for 100+ expert-led sessions and countless opportunities to connect with your community!  
+ 
+
+[
+
+![AFP logo ](https://afpnet.org/sites/default/files/styles/tile/public/2024-02/AFP-logo-4C-1500x1500_0.png?h=8a7fc05e&itok=Q2t4d6Zn)
+
+### AFP Daily: March 31
+
+](https://afpglobal.org/daily)
+
+AFP Daily & Weekly deliver the latest fundraising news and information straight to your inbox!
+
+[
+
+![Voting Diversity Concept. 4 hands representing different ethnicities place paper in a box simulating submitting a vote or nomination. Stock photo](https://afpnet.org/sites/default/files/styles/tile/public/2026-03/iStock-1200767620%20Voting%20Diversity%20Concept%20stock%20photo.jpg?h=04e96e26&itok=EvweRN3d)
+
+### Board Nominations
+
+](https://afpnet.org/boardnominations)
+
+Nominations are now open for the 2027 AFP Global Board of Directors. Completed nominations must be submitted by June 10, 2026. We look forward to your submissions and to your continued leadership in shaping the future of our association.
+
+[
+
+![Combined Federal Campaign logo](https://afpnet.org/sites/default/files/styles/tile/public/2026-03/combined%20federal%20campaign.png?h=0f625b39&itok=RK2NVfWM)
+
+### AFP Statement
+
+](https://afpnet.org/news/afp-statement-decommissioning-combined-federal-campaign-charity-portal)
+
+AFP has issued a statement expressing deep concern over the planned March 4 decommissioning of the Combined Federal Campaign (CFC) Charity Portal while 2025 funds are still being reported and disbursed.
+
+The Association of Fundraising Professionals is a member-based group that empowers individuals and organizations to practice ethical fundraising through professional education, networking, research and advocacy.  
+ 
+
+[
+
+### Immersive Courses
+
+](https://afpglobal.org/immersive-programs)
+
+Dive into intensive learning opportunities lead by industry experts.
+
+[
+
+### Short-Form Learning
+
+](https://afpglobal.org/short-form-learning)
+
+Fit learning into any schedule with our variety of shorter educational offerings.
+
+[
+
+### Resources
+
+](https://afpglobal.org/resources)
+
+Explore our topical resource guides and our tools and templates.
+
+Our mission is to empower individuals and organizations to practice ethical fundraising through professional education, networking, research and advocacy.
+
+### $100 credit for members
+
+AFP Members receive a $100 educational credit to use towards archived webinars, conference recordings and select e-courses.
+
+### Member-only webinars
+
+When you become a member, you gain access to exclusive webinars and other members-only content.
+
+### AFP Membership Benefits Refresher Webinar
+
+This session will walk you through everything you have access to as an AFP member—from networking and professional development to exclusive tools, savings, and ethical resources.
+
+![Two people shaking hands ](https://afpnet.org/sites/default/files/styles/large/public/2024-02/iStock-1188099955%20handshake%20Use%20for%20Partner%20with%20Us.jpg?h=9d96f97f&itok=tbu_l4aV)
+
+Our Partner Program provides opportunity for leading organizations to align with AFP and relationships with our members and chapters through customized marketing programs.
+
+#### AFP Members receive the latest fundraising news in their inbox everyday.  
+Not a member and want a free weekly wrap-up sent to you?
+
+  
+[Sign Up Now!](https://afpnet.org/form/email-newsletter)
+
+### Recommended for You
+
+#### Members: Sign in to view your personalized recommendations!
+
+[Sign in](https://afpnet.org/user/login?destination=/home)","","https://afpnet.org","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Association of Fundraising Professionals","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","afpnet.org","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","stage_mismatch","true","The company matches the ICP in terms of being a consulting firm and having founder/advisor contact information. However, it's not specifically mentioned as a startup advisory firm.","0.8","llm","llama3","d9f98b2485ea71b3c7c891c2d31e2d6d1f8a7e761524010a6bc9f7841819889d","0.0","0.3","7a6bca9d-e66a-56aa-8e9e-cd622355f08e","","2026-04-01T14:31:19.391537Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/afpnet.org.json","/tmp/tmprvgya1kx/evidence/domain/afpnet.org.json","","2026-06-30T14:31:19.391545Z","management consulting firm director email","2026-04-01T14:29:27.445014Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "name_not_in_email",
+  "business": "NOW CFO",
+  "lead": {
+    "business": "NOW CFO",
+    "full_name": "Jim Bennett",
+    "first": "Jim",
+    "last": "Bennett",
+    "email": "jnovak@nowcfo.com",
+    "role": "Founder and Chairman",
+    "website": "https://www.nowcfo.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "source_url": "https://nowcfo.com",
+    "description": "We specialize in providing full-service CFOs, controllers, and operational accountants to consult with our clients. The success of our clients is our singular focus. With that focus in mind, we hire advisors with extensive experience in financial reporting and management. They are skilled professionals who can take on any finance or accounting problems a company might face. NOW CFO\u2019s reputation stands on our talented management consultants and financial analysts. Our entrepreneurial spirit leads us to share our talent with many industries and businesses.",
+    "employee_count": "201-500",
+    "hq_country": "United States",
+    "hq_state": "Utah",
+    "hq_city": "Salt Lake City",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/nowcfo",
+    "linkedin": "https://linkedin.com/in/jim-bennett-nowexit"
+  },
+  "source_failed_basename": "197a4d058fe026536cf60d2fee7cae712db2593137d481a3d5050582cb76057f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/197a4d058fe026536cf60d2fee7cae712db2593137d481a3d5050582cb76057f.precheck_failed.json",
+  "queue_key": "15de1a1543c84463e32a7246085d096c341750d49ff5eaa4a7cf5bf7c9becb45"
+}

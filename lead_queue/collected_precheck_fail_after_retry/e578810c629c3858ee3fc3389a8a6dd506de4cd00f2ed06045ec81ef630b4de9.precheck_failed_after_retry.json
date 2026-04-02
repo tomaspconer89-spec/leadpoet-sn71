@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "WestExec Advisors",
+  "lead": {
+    "business": "WestExec Advisors",
+    "full_name": "Press Lead",
+    "first": "Press",
+    "last": "Blair Dc",
+    "email": "press@westexec.com",
+    "role": "Contact",
+    "website": "http://westexec.com",
+    "industry": "Professional Services",
+    "sub_industry": "International Affairs",
+    "country": "United States",
+    "state": "District of Columbia",
+    "city": "Washington",
+    "source_url": "https://westexec.com",
+    "description": "WestExec Advisors brings the Situation Room to the Board Room. Our strategic advisory firm offers unique geopolitical expertise to help business leaders make the best decisions in a complex and volatile global environment. We bring together a diverse team of experts with the most recent high-level experience in government to solve concrete problems facing our clients.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "District of Columbia",
+    "hq_city": "Washington",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/westexec"
+  },
+  "source_failed_basename": "d829003518e54500653b8844d73045b2341202cd09c582ba4d5998cf147f4baa.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d829003518e54500653b8844d73045b2341202cd09c582ba4d5998cf147f4baa.precheck_failed.json",
+  "queue_key": "e578810c629c3858ee3fc3389a8a6dd506de4cd00f2ed06045ec81ef630b4de9"
+}

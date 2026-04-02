@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Advisory Network for Small Business",
+  "lead": {
+    "business": "Advisory Network for Small Business",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Founder",
+    "website": "https://ansb.org",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "source_url": "https://ansb.org",
+    "description": "ANSB harnesses the power of experience to help local, tri-state business owners reach the next level of success.",
+    "employee_count": "11-50",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/advisorynetworkforsmallbusiness"
+  },
+  "source_failed_basename": "94f011cb87cc1da638db569f0ac505cbaf38c0c2149e5ec4fc4fb83e95651e6a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/94f011cb87cc1da638db569f0ac505cbaf38c0c2149e5ec4fc4fb83e95651e6a.precheck_failed.json",
+  "queue_key": "384b957865ab3e5d0d87caedc51cf5dd4c42b466dd558afa384bdf51f4c94eeb"
+}

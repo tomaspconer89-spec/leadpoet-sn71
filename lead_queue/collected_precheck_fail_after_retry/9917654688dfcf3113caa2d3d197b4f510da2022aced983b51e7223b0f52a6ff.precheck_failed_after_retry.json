@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "403 Forbidden Bar ( a unit of Aphera Hospitality Pvt Ltd",
+  "lead": {
+    "business": "403 Forbidden Bar ( a unit of Aphera Hospitality Pvt Ltd",
+    "full_name": "Hemant Singh Kharayat",
+    "first": "Hemant Singh",
+    "last": "Kharayat",
+    "email": "",
+    "role": "Assistant bar head",
+    "website": "http://www.403forbiddenbar.com",
+    "industry": "Food and Beverage",
+    "sub_industry": "Restaurants",
+    "country": "India",
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "source_url": "https://campaignlake.com",
+    "description": "403 Forbidden Bar ( a unit of Aphera Hospitality Pvt Ltd operates in Food and Beverage with a focus on Restaurants, serving clients through its primary website http://www.403forbiddenbar.com.",
+    "employee_count": "11-50",
+    "hq_country": "India",
+    "hq_state": "Karnataka",
+    "hq_city": "Bengaluru",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/403-forbidden-bar",
+    "linkedin": "https://linkedin.com/in/hemant-singh-kharayat-461465222"
+  },
+  "source_failed_basename": "4b6b0235bf56b430d739be833288c62537af7e125b7166961a269fababc9a315.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4b6b0235bf56b430d739be833288c62537af7e125b7166961a269fababc9a315.precheck_failed.json",
+  "queue_key": "9917654688dfcf3113caa2d3d197b4f510da2022aced983b51e7223b0f52a6ff"
+}

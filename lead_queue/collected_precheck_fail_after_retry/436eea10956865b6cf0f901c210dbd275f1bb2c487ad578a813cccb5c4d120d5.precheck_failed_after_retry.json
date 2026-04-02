@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Bessemer Trust",
+  "lead": {
+    "business": "Bessemer Trust",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "owner",
+    "website": "http://www.bessemertrust.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://bvp.com",
+    "description": "Privately owned and independent, Bessemer Trust is a family office that has served individuals and families of substantial wealth for 118 years. Through comprehensive investment management, wealth planning, and family office services, we help clients achieve peace of mind for generations.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bessemer-trust"
+  },
+  "source_failed_basename": "e1d96e6d1c409db0aa8179dc2b1138ea98c9ed505f15a7887c2448f0f435fa2d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/e1d96e6d1c409db0aa8179dc2b1138ea98c9ed505f15a7887c2448f0f435fa2d.precheck_failed.json",
+  "queue_key": "436eea10956865b6cf0f901c210dbd275f1bb2c487ad578a813cccb5c4d120d5"
+}

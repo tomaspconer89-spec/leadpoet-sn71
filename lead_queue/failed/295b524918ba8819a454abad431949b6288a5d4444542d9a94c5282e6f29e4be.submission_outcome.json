@@ -1,0 +1,41 @@
+{
+  "source_file": "295b524918ba8819a454abad431949b6288a5d4444542d9a94c5282e6f29e4be.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "U.S. Small Business Administration",
+    "full_name": "Hazel Beck",
+    "first": "Hazel",
+    "last": "Beck",
+    "email": "hazel.beck@sba.gov",
+    "role": "Deputy District Director",
+    "website": "http://www.sba.gov",
+    "industry": "Government and Military",
+    "sub_industry": "Government",
+    "country": "United States",
+    "state": "Hawaii",
+    "city": "Honolulu",
+    "linkedin": "https://www.linkedin.com/in/hazel-beck-37b3266",
+    "company_linkedin": "https://www.linkedin.com/company/us-small-business-administration",
+    "source_url": "https://sba.gov",
+    "description": "Created in 1953, the U.S. Small Business Administration (SBA) continues to help small business owners and entrepreneurs pursue the American dream. As the nation's only go-to resource and voice for small businesses, the SBA provides counseling, capital, and contracting expertise so businesses can confidently start, grow, expand, or recover. Privacy Policy: http://ow.ly/NRW430jcYYU Comment policy: http://ow.ly/ZwtC30onyBn Mentions/tags \u2260 endorsements",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "District of Columbia",
+    "hq_city": "Washington",
+    "source_type": "public_registry",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

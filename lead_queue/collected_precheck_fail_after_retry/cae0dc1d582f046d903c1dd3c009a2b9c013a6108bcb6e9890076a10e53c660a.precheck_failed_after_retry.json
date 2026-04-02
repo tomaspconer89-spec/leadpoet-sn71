@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "name_not_in_email",
+  "business": "CB Smith & Associates, PC",
+  "lead": {
+    "business": "CB Smith & Associates, PC",
+    "full_name": "Chris Smith, CPA, CGMA",
+    "first": "Chris",
+    "last": "Smith, CPA, CGMA",
+    "email": "admin@cbsmithcpa.com",
+    "role": "Owner, Certified Public Accountant",
+    "website": "https://www.cbsmithcpa.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Georgia",
+    "city": "Cumming",
+    "source_url": "https://cbsmithcpa.com",
+    "description": "CB Smith & Associates is a full-service CPA advisory firm which works to develop a strategic partnership with each client. We listen to and take a personal interest in each of our clients' business and individual situations as our goal is to be a trusted advisor. Our partners, Chris Smith, CPA, CGMA and Tim Whittemore, CPA, MTX, along with our team of dedicated professionals, understand our clients' tax and accounting challenges and provide professional advice to enable them to meet their goals. Our client\u2019s financial health and success is why we are in business.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Georgia",
+    "hq_city": "Alpharetta",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cb-smith-&-associates-pc",
+    "linkedin": "https://linkedin.com/in/chris-smith-ga-cpa"
+  },
+  "source_failed_basename": "308a240b294160d35969553d39877e6572b2820d23a2c19a364bcb3450e77d1d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/308a240b294160d35969553d39877e6572b2820d23a2c19a364bcb3450e77d1d.precheck_failed.json",
+  "queue_key": "cae0dc1d582f046d903c1dd3c009a2b9c013a6108bcb6e9890076a10e53c660a"
+}

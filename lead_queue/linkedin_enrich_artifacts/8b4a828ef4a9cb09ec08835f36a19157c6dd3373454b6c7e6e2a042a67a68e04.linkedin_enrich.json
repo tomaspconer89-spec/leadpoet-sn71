@@ -1,0 +1,556 @@
+{
+  "saved_at_utc": "2026-04-01T14:34:29.437574+00:00",
+  "queue_key": "8b4a828ef4a9cb09ec08835f36a19157c6dd3373454b6c7e6e2a042a67a68e04",
+  "business": "Small Business Consultants | Lordstone Business Advisors",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Small Business Consultants | Lordstone Business Advisors",
+      "Small Business Consultants | Lordstone Business Advisors linkedin company",
+      "site:linkedin.com/company lordstoneadvisors.com",
+      "site:linkedin.com/in \"Small Business Consultants | Lordstone Business Advisors\" founder",
+      "site:linkedin.com/in \"Small Business Consultants | Lordstone Business Advisors\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "tgVhadX493dKkJr",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Small+Business+Consultants+%7C+Lordstone+Business+Advisors",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Small+Business+Consultants+%7C+Lordstone+Business+Advisors",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Small Business Consultants | Lordstone Business Advisors",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Small+Business+Consultants+%7C+Lordstone+Business+Advisors",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Small+Business+Consultants+%7C+Lordstone+Business+Advisors",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Small business consultants lordstone business advisors reviews",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Small+business+consultants+lordstone+business+advisors+reviews&sa=X&ved=2ahUKEwiqsNCb78yTAxVfKvsDHeBTABcQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Small business consultants lordstone business advisors address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Small+business+consultants+lordstone+business+advisors+address&sa=X&ved=2ahUKEwiqsNCb78yTAxVfKvsDHeBTABcQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Small business consultants lordstone business advisors reviews",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Small+business+consultants+lordstone+business+advisors+reviews&sa=X&ved=2ahUKEwiqsNCb78yTAxVfKvsDHeBTABcQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Small business consultants lordstone business advisors address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Small+business+consultants+lordstone+business+advisors+address&sa=X&ved=2ahUKEwiqsNCb78yTAxVfKvsDHeBTABcQ1QJ6BAg2EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Lordstone Business Advisors, Inc.",
+            "url": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lordstone Business Advisors, Inc.",
+            "description": "Lordstone Business Advisors is a strategic consulting firm serving small to medium-sized business owners who want to grow their businesses.Read more",
+            "emphasizedKeywords": [
+              "Lordstone Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Small Business Consultants",
+            "url": "https://au.linkedin.com/company/small-business-consultants",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Consultants",
+            "description": "Small and Medium Business Advisors. Completely Free initial consultation. On-line consultations where you work. Powerful tools to help your business grow.Read more",
+            "emphasizedKeywords": [
+              "Small and Medium Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Small Business Consultants",
+            "url": "https://ec.linkedin.com/company/small-business-consultants",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Consultants",
+            "description": "Small and Medium Business Advisors. Completely Free initial consultation. On-line consultations where you work. Powerful tools to help your business grow.Read more",
+            "emphasizedKeywords": [
+              "Small and Medium Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "HBK CPAs & Consultants",
+            "url": "https://fr.linkedin.com/company/hbk-cpas-and-consultants?trk=public_profile_experience-item_result-card_subtitle-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0HBK CPAs & Consultants",
+            "description": "Established in 1949, HBK is a multidisciplinary financial services firm offering the collective intelligence of hundreds of professionals.Read more",
+            "emphasizedKeywords": [
+              "HBK is a multidisciplinary financial services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Small World Business Advisors",
+            "url": "https://www.linkedin.com/company/smallworldtax",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small World Business Advisors",
+            "description": "We work with clients to develop tax-efficient acquisition and investment strategies, perform rigorous U.S. tax due diligence, and design cross-border structures\u00a0...Read more",
+            "emphasizedKeywords": [
+              "develop tax-efficient acquisition and investment strategies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Small Business Financial Consultants (SBFC)",
+            "url": "https://www.linkedin.com/company/small-business-financial-consultants-sbfc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Financial Consultants (SBFC)",
+            "description": "SBFC offers accounting, financial, bookkeeping and consulting services for a wide range of business owners, executives and independent professionals.Read more",
+            "emphasizedKeywords": [
+              "SBFC offers accounting, financial, bookkeeping and consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Strategic Business Consultant",
+            "url": "https://www.linkedin.com/company/strategic-business-consultant",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a strategic-business...",
+            "description": "Strategic Business Consultant:- Skills: Operations Management \u00b7 Product Marketing \u00b7 Market Research \u00b7 Business Strategy \u00b7 Digital Marketing \u00b7 Product\u00a0...",
+            "emphasizedKeywords": [
+              "Strategic Business Consultant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Small Business Consultants",
+            "url": "https://jo.linkedin.com/company/small-business-consultants",
+            "displayedUrl": "https://jo.linkedin.com \u203a company",
+            "description": "Small and Medium Business Advisors. Completely Free initial consultation. On-line consultations where you work. Powerful tools to help your business grow.",
+            "emphasizedKeywords": [
+              "Small and Medium Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "provokebetter | leadership and management consultants",
+            "url": "https://www.linkedin.com/company/provokebetter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0provokebetter | leadership and management consultants",
+            "description": "Provoke Better provides leadership and management consulting designed for companies ready to grow without burning out their best people. We work with leaders\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Provoke Better provides leadership and management consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "International Association of Accredited Small Business ...",
+            "url": "https://www.linkedin.com/company/association-of-accredited-small-business-consultants",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0International Association of Accredited Small Business Consultants",
+            "description": "We reach across the globe to provide rigorous training and certification to professionals who demonstrate a specialized proficiency in small business and SME\u00a0...Read more",
+            "emphasizedKeywords": [
+              "rigorous training and certification"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.2K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Fb6A2Dko3IMiHMAf6/records/tgVhadX493dKkJr-0.html?signature=h4PzdCdloZ695dnsbaT4"
+      },
+      {
+        "#debug": {
+          "requestId": "DD6XWoxjTik2RMO",
+          "url": "http://www.google.com/search?q=Small+Business+Consultants+%7C+Lordstone+Business+Advisors+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Small+Business+Consultants+%7C+Lordstone+Business+Advisors+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Small Business Consultants | Lordstone Business Advisors linkedin company",
+          "url": "http://www.google.com/search?q=Small+Business+Consultants+%7C+Lordstone+Business+Advisors+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Small+Business+Consultants+%7C+Lordstone+Business+Advisors+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Lordstone Business Advisors, Inc.",
+            "url": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lordstone Business Advisors, Inc.",
+            "description": "Lordstone Business Advisors is a strategic consulting firm serving small to medium-sized business owners who want to grow their businesses.Read more",
+            "emphasizedKeywords": [
+              "Lordstone Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Lordstone Corporation",
+            "url": "https://www.linkedin.com/company/lordstone-corporation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lordstone Corporation",
+            "description": "Lordstone Corporation serves as advisors and consultants to clients, conveying best practices into board and executive level structure, hiring, development and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Lordstone Corporation serves as advisors and consultants"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "310+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Small Business Consultants",
+            "url": "https://au.linkedin.com/company/small-business-consultants",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Small Business Consultants",
+            "description": "Small and Medium Business Advisors. Completely Free initial consultation. On-line consultations where you work. Powerful tools to help your business grow.Read more",
+            "emphasizedKeywords": [
+              "Small and Medium Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Lordstone Business Advisors: Small Business Consultants",
+            "url": "https://www.lordstoneadvisors.com/",
+            "displayedUrl": "https://www.lordstoneadvisors.com",
+            "description": "We help small business owners grow valuable companies that provide freedom from \u201cday to day\u201d operations, peace of mind and generational wealth.Read more",
+            "emphasizedKeywords": [
+              "grow valuable companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Michigan Small Business Consulting Services & Resources ...",
+            "url": "https://michigansbdc.org/",
+            "displayedUrl": "https://michigansbdc.org",
+            "description": "Our mission is to help your Michigan small business succeed so we offer free support with small business consulting, tools and resources.Read more",
+            "emphasizedKeywords": [
+              "small business consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Rhode Island Small Business Development Center",
+            "url": "https://web.uri.edu/risbdc/",
+            "displayedUrl": "https://web.uri.edu \u203a risbdc",
+            "description": "We're dedicated to helping Rhode Island's small businesses thrive. Whether you're starting out or looking to grow, we offer expert guidance, hands-on training,Read more",
+            "emphasizedKeywords": [
+              "expert guidance, hands-on training"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Larimer County | Small Business Development Center",
+            "url": "https://sbdc.colorado.gov/larimer",
+            "displayedUrl": "https://sbdc.colorado.gov \u203a larimer",
+            "description": "At the Colorado SBDC, we are honored to help you navigate your journey\u2014from launch to exit\u2014by providing the advising, training, and connections you need to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "advising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Delaware SBDC: Home",
+            "url": "https://delawaresbdc.org/",
+            "displayedUrl": "https://delawaresbdc.org",
+            "description": "Explore how Delaware SBDC has been helping small businesses grow and succeed for over 40 years with no-cost training and advising.",
+            "emphasizedKeywords": [
+              "small",
+              "advising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Enterprise Business Consultants",
+            "url": "https://www.enterprisebankpgh.com/enterprise-business-consulting",
+            "displayedUrl": "https://www.enterprisebankpgh.com \u203a enterprise-busine...",
+            "description": "Enterprise Financial Group's Team of Small Business Advisors provide quality business services that are of value to businesses of any size.Read more",
+            "emphasizedKeywords": [
+              "Enterprise Financial Group's Team of Small Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Business Consultants - Organization",
+            "url": "https://greaterlouisvillekycoc.weblinkconnect.com/other/business-consultants",
+            "displayedUrl": "https://greaterlouisvillekycoc.weblinkconnect.com \u203a other",
+            "description": "FocalPoint Business Coaching 716 East Market Street Louisville, KY 40202 Work Phone: (502) 424-9158 (502) 424-9158 LinkedIn Facebook Learn MoreRead more",
+            "emphasizedKeywords": [
+              "Business",
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/KNviYts1VGIiMpVsn/records/DD6XWoxjTik2RMO-0.html?signature=1u1vJLDJ3LuTI7FLDYMdi"
+      },
+      {
+        "#debug": {
+          "requestId": "ZyLvQx883pjqppG",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+lordstoneadvisors.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+lordstoneadvisors.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company lordstoneadvisors.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+lordstoneadvisors.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+lordstoneadvisors.com",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Lordstone Business Advisors, Inc.",
+            "url": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lordstone Business Advisors, Inc.",
+            "description": "Lordstone Business Advisors is a strategic consulting firm serving small to medium-sized business owners who want to grow their businesses.Read more",
+            "emphasizedKeywords": [
+              "Lordstone Business Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 1
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/8UwBfPpcPJHqVSoBl/records/ZyLvQx883pjqppG-0.html?signature=LpLUFBhPLqWqpWEWCfbr"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Small Business Consultants | Lordstone Business Advisors",
+      "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+      "https://au.linkedin.com/company/small-business-consultants",
+      "https://ec.linkedin.com/company/small-business-consultants",
+      "https://fr.linkedin.com/company/hbk-cpas-and-consultants?trk=public_profile_experience-item_result-card_subtitle-click",
+      "https://www.linkedin.com/company/smallworldtax",
+      "https://www.linkedin.com/company/small-business-financial-consultants-sbfc",
+      "https://www.linkedin.com/company/strategic-business-consultant",
+      "https://jo.linkedin.com/company/small-business-consultants",
+      "https://www.linkedin.com/company/provokebetter",
+      "https://www.linkedin.com/company/association-of-accredited-small-business-consultants",
+      "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+      "https://www.linkedin.com/company/lordstone-corporation",
+      "https://au.linkedin.com/company/small-business-consultants",
+      "site:linkedin.com/company lordstoneadvisors.com",
+      "https://www.linkedin.com/company/lordstone-business-advisors-inc"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Small Business Consultants | Lordstone Business Advisors",
+    "description": "# Small Business Consultants | Lordstone Business Advisors [![lordstone-business-advisors-logo](https://lordstoneadvisors.com/rw_common/images/LBA-Logo-010519.jpeg)](http://www.lordstoneadvisors.com/) * Gladstone Golf Club, Gladstone, MI * Sugarloaf Mountain, Marquette, MI * Little Traverse Bay - Petoskey, MI * St. Martin Island, MI * [](https://lordstoneadvisors.com/#) * [](https://lordstoneadvisors.com/#) 1. 1 2. 2 3. 3 4. 4 5. 5 Business ownership can result in great rewards for the risk taken.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://lordstoneadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+    "source_url": "https://lordstoneadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "lordstoneadvisors.com",
+    "source_urls": [
+      "https://lordstoneadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Small Business Consultants | Lordstone Business Advisors",
+    "description": "# Small Business Consultants | Lordstone Business Advisors [![lordstone-business-advisors-logo](https://lordstoneadvisors.com/rw_common/images/LBA-Logo-010519.jpeg)](http://www.lordstoneadvisors.com/) * Gladstone Golf Club, Gladstone, MI * Sugarloaf Mountain, Marquette, MI * Little Traverse Bay - Petoskey, MI * St. Martin Island, MI * [](https://lordstoneadvisors.com/#) * [](https://lordstoneadvisors.com/#) 1. 1 2. 2 3. 3 4. 4 5. 5 Business ownership can result in great rewards for the risk taken.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://lordstoneadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lordstone-business-advisors-inc",
+    "source_url": "https://lordstoneadvisors.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "lordstoneadvisors.com",
+    "source_urls": [
+      "https://lordstoneadvisors.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {}
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "Invisionate, LLC",
+  "lead": {
+    "business": "Invisionate, LLC",
+    "full_name": "George Stepancich",
+    "first": "George",
+    "last": "Stepancich",
+    "email": "",
+    "role": "CEO and Founder",
+    "website": "http://www.invisionate.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "California",
+    "city": "Dana Point",
+    "source_url": "https://invisionate.com",
+    "description": "Invisionate is a boutique management consulting firm where business development meets venture capital. Invisionate appears on the top of the first page on an organic search under Google for \u201cventure capital consulting\". The firm connects high growth Companies seeking to increase revenue and raise capital with strategic partners and investors. As part of professional services we also provide Exeutive Leadership CEO coaching in partnership with Vistage.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Dana Point",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/invisionate-llc",
+    "linkedin": "https://linkedin.com/in/georgestepancich"
+  },
+  "source_failed_basename": "7cd419393c0a69e044bbde2d37650461dc148c9acf5dfbe1ec06d432c2ebac27.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/7cd419393c0a69e044bbde2d37650461dc148c9acf5dfbe1ec06d432c2ebac27.precheck_failed.json",
+  "queue_key": "bec50b64bed375d3ba0ea3a2c736e1a67e784bd6279276117d8a11c3e48da880"
+}

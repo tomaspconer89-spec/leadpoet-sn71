@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Alta Advisors",
+  "lead": {
+    "business": "Alta Advisors",
+    "full_name": "Gabrielle Luoma CPA, CGMA",
+    "first": "Gabrielle",
+    "last": "Luoma CPA, CGMA",
+    "email": "info@modventuresllc.com",
+    "role": "Founder and CEO",
+    "website": "https://alta.works/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Arizona",
+    "city": "Tucson",
+    "source_url": "https://modventuresllc.com",
+    "description": "Alta Advisors is a San Francisco-based strategic finance and accounting firm serving frontier technology startups. We provide fractional CFO, accounting, capital raising, and strategic support as deeply embedded partners to visionary founders and their leadership teams. We have helped our clients raise over $300 million in equity and equity debt capital and support companies backed by leading investors including Lightspeed, Coatue, Eclipse, DCVC, Founders Fund and many others.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/altaadv",
+    "linkedin": "https://linkedin.com/in/gabrielleluomacpa"
+  },
+  "source_failed_basename": "4f1f995c75292506297cbc54ad46efdd8f97e08c74582db4a08cf924d7f6a6ac.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4f1f995c75292506297cbc54ad46efdd8f97e08c74582db4a08cf924d7f6a6ac.precheck_failed.json",
+  "queue_key": "44fea0205b2a1e2cc455a8553e11a81984ed9d3403cfb13560921649ecce8033"
+}

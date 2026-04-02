@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Connectd",
+  "lead": {
+    "business": "Connectd",
+    "full_name": "Blog Image",
+    "first": "Blog",
+    "last": "Image",
+    "email": "blog-image_29_1030-x-690-@118dpi.jpg",
+    "role": "Contact",
+    "website": "https://www.connectd.com/?utm_source=linkedin&utm_medium=organic+social&utm_campaign=companyprofile",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "source_url": "https://connectd.com",
+    "description": "Connectd is a people-first platform connecting startups and scaleups with experienced fractional executives and strategic advisors. Using AI-powered insights and smart matching technology, we help ensure the right experts are placed with the right companies, so both sides can grow with confidence. In a world shaped by transformative technology, we provide a human-centred ecosystem where companies access the guidance they need to scale, and senior leaders find meaningful, flexible work that puts their experience to powerful use.",
+    "employee_count": "51-200",
+    "hq_country": "London",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/connectd-co"
+  },
+  "source_failed_basename": "bc12e7d6574c99273f915dd00bd4abbfcb0c85871b55da35badc3077714788f4.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/bc12e7d6574c99273f915dd00bd4abbfcb0c85871b55da35badc3077714788f4.precheck_failed.json",
+  "queue_key": "0d5b8ace3f2645f06c95a4f480fd69e7777f74eae68227ab93a060cb2ece8d0e"
+}

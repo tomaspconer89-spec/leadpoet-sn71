@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "LeadWave",
+  "lead": {
+    "business": "LeadWave",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "https://getleadwave.io/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Ternopil Region",
+    "state": "",
+    "city": "Ternopil",
+    "source_url": "https://getleadwave.io",
+    "description": "LeadWave is a B2B Lead Generation company that helps accelerate outbound sales by delivering hand-curated and custom prospects' list based on any criteria.",
+    "employee_count": "2-10",
+    "hq_country": "Ternopil Region",
+    "hq_state": "",
+    "hq_city": "Ternopil",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ua.linkedin.com/company/getleadwave"
+  },
+  "source_failed_basename": "ba6ea9d79f47d98a2428ffdaae18ec15bd6c0d704f99d3a891f2ac41eae0a486.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ba6ea9d79f47d98a2428ffdaae18ec15bd6c0d704f99d3a891f2ac41eae0a486.precheck_failed.json",
+  "queue_key": "5fac324da55a8918249da888f5a7f45fb100063d7c6ea9fe35de1ab7fbfecfc5"
+}

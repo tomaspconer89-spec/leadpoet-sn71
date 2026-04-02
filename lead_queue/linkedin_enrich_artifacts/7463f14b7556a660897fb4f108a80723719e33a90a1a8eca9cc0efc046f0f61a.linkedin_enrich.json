@@ -1,0 +1,526 @@
+{
+  "saved_at_utc": "2026-03-31T21:54:12.297292+00:00",
+  "queue_key": "7463f14b7556a660897fb4f108a80723719e33a90a1a8eca9cc0efc046f0f61a",
+  "business": "Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+      "Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency linkedin company",
+      "site:linkedin.com/company theconnectagency.com",
+      "site:linkedin.com/in \"Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency\" founder",
+      "site:linkedin.com/in \"Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "1LdcQfTM4awaCMn",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Digital+Marketing+%26+Advertising+Agency+Jacksonville%2C+FL+%7C+Connect+Agency",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Digital+Marketing+%26+Advertising+Agency+Jacksonville%2C+FL+%7C+Connect+Agency",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Digital+Marketing+%26+Advertising+Agency+Jacksonville%2C+FL+%7C+Connect+Agency",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Digital+Marketing+%26+Advertising+Agency+Jacksonville%2C+FL+%7C+Connect+Agency",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency address",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+address&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency jobs",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+jobs&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency email",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+email&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAgzEAE"
+          },
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency address",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+address&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency jobs",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+jobs&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Digital marketing & advertising agency jacksonville fl connect agency email",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=Digital+marketing+%26+advertising+agency+jacksonville+fl+connect+agency+email&sa=X&ved=2ahUKEwjZkfTij8uTAxW3D1kFHb1JDV4Q1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Connect Agency",
+            "url": "https://www.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Connect Agency",
+            "description": "Connect Agency. Advertising Services. Jacksonville, FL 784 followers. We help create competitive advantages to attract & retain your most valuable customers.Read more",
+            "emphasizedKeywords": [
+              "Connect Agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Connect Agency",
+            "url": "https://ph.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Connect Agency",
+            "description": "... marketing, branding, digital marketing, media planning + buying, public relations. Mga Lokasyon. Pangunahin. 131 East Bay Street. Jacksonville, FL 32202, US.Read more",
+            "emphasizedKeywords": [
+              "131 East Bay Street"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "St Johns News | StJohnsFL.org",
+            "url": "https://www.linkedin.com/company/jacksonville-digital-marketing-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0St Johns News | StJohnsFL.org",
+            "description": "Jacksonville Digital Marketing Agency (JDMA) offers affordable, comprehensive suite of services designed to elevate brands, engage customers, and deliver\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Jacksonville Digital Marketing Agency (JDMA"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "It's marketing Agency - Digital Marketing Agency",
+            "url": "https://www.linkedin.com/company/itsmarketingagency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0It's marketing Agency - Digital Marketing Agency",
+            "description": "We are a digital marketing agency focused on entrepreneurs of small or medium-sized companies looking for digital solutions to obtain profitability,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "digital marketing agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "3D Digital Agency",
+            "url": "https://www.linkedin.com/company/3d-digital-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a03D Digital Agency",
+            "description": "We collaborate with our clients to create custom projects that magnify brand messages and drive sales with a cross-channel, digitally-led, approach. From small\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "950+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "JSK Marketing",
+            "url": "https://www.linkedin.com/company/jsk-marketing-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0JSK Marketing",
+            "description": "JSK Marketing is a women-owned, full-service marketing agency located in Jacksonville Beach, Florida. Our award-winning agency has worked with 100+ clients\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Marketing",
+              "marketing agency",
+              "Jacksonville",
+              "agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Online Reservation Solutions for Hotels",
+            "url": "https://ie.linkedin.com/company/online-reservation-solutions-for-hotels",
+            "displayedUrl": "https://ie.linkedin.com \u203a company \u203a online-reservation-s...",
+            "description": "Vizergy Digital Marketing. Hospitality. Jacksonville, Florida \u00b7 Hotel Internet Marketing. Hospitality \u00b7 Hotel Website Design & Development. Hospitality \u00b7 Data and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Vizergy Digital Marketing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "5ivecanons | Creative Marketing and Advertising",
+            "url": "https://www.linkedin.com/company/5ivecanons",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a05ivecanons | Creative Marketing and Advertising",
+            "description": "We're a full-service Jacksonville advertising agency focused on consumer engagement. We fuse brands with culture. Digital Strategy | Web Design | Online\u00a0...Read more",
+            "emphasizedKeywords": [
+              "full-service Jacksonville advertising agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "550+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "The ABA Digital Marketing Agency",
+            "url": "https://www.linkedin.com/company/aba-digital-marketing-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Matthew Harrington, BCBA",
+            "description": "The ABA Digital Marketing Agency. Health and Human Services. Jacksonville, FL 89 followers. The marketing business for your ABA business. Follow.Read more",
+            "emphasizedKeywords": [
+              "The ABA Digital Marketing Agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "80+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Sunny Road",
+            "url": "https://www.linkedin.com/company/sunnyroadco",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lizzy Brownell Boyd",
+            "description": "SUNNY ROAD, an award-winning Shopify Plus agency, turns digital challenges into strategic, results-driven success.Read more",
+            "emphasizedKeywords": [
+              "SUNNY ROAD, an award-winning Shopify Plus agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.1K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Mhm0bGlrr6b5lBFfQ/records/1LdcQfTM4awaCMn-0.html?signature=uSAzcf7y9F8vuRfe2Chz"
+      },
+      {
+        "#debug": {
+          "requestId": "1eljio9WBaxTPXY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+theconnectagency.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+theconnectagency.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company theconnectagency.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+theconnectagency.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+theconnectagency.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Connect Agency",
+            "url": "https://www.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Connect Agency",
+            "description": "Connect Agency exists to make it easy for businesses to make sense of everything going on in their market and with their customers.Read more",
+            "emphasizedKeywords": [
+              "Connect Agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Connect Agency",
+            "url": "https://bo.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "https://bo.linkedin.com \u203a company \u203a the-connect-agency",
+            "description": "Sitio web: http://theconnectagency.com. Enlace externo para Connect Agency ; Sector: Servicios de publicidad ; Tama\u00f1o de la empresa: De 11 a 50 empleados ; Sede\u00a0...",
+            "emphasizedKeywords": [
+              "Sitio web: http://theconnectagency.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "The Connect Agency",
+            "url": "https://au.linkedin.com/company/connectpraustralia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Connect Agency",
+            "description": "The Connect Agency is a full service communications agency with extensive and proven experience in the consumer lifestyle space.Read more",
+            "emphasizedKeywords": [
+              "The Connect Agency"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "180+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Connect Agency",
+            "url": "https://ph.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Connect Agency",
+            "description": "Website: http://theconnectagency.com. External na link para sa Connect Agency ; Industriya: Mga Serbisyo sa Advertising ; Laki ng kompanya: 11-50 empleyado.Read more",
+            "emphasizedKeywords": [
+              "Website: http://theconnectagency.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Connect Agency",
+            "url": "https://ae.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "https://ae.linkedin.com \u203a company",
+            "description": "\u0646\u0628\u0630\u0629 \u0639\u0646\u0627 ; \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: http://theconnectagency.com. \u0631\u0627\u0628\u0637 \u062e\u0627\u0631\u062c\u064a \u0644\u0640 Connect Agency ; \u0627\u0644\u0645\u062c\u0627\u0644 \u0627\u0644\u0645\u0647\u0646\u064a: \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062a ; \u062d\u062c\u0645 \u0627\u0644\u0634\u0631\u0643\u0629: \u0661\u0661- \u0665\u0660 \u0645\u0648\u0638\u0641 ; \u0627\u0644\u0645\u0642\u0631 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u00a0...",
+            "emphasizedKeywords": [
+              "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a: http://theconnectagency.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Connect Agency",
+            "url": "https://dk.linkedin.com/company/the-connect-agency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Connect Agency",
+            "description": "Websted: http://theconnectagency.com. Eksternt link til Connect Agency ; Branche: Reklame ; Virksomhedsst\u00f8rrelse: 11-50 medarbejdere ; Hovedkvarter: Jacksonville,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Websted: http://theconnectagency.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "The Connect Agency Inc",
+            "url": "https://www.linkedin.com/company/the-connect-agency-inc-canada?trk=similar-pages",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Connect Agency Inc",
+            "description": "We generate solutions, visions and partnerships that create intellectual synergy. Our Mission is to deliver a world-class experience by elevating and executing\u00a0...Read more",
+            "emphasizedKeywords": [
+              "We generate solutions, visions and partnerships that create intellectual synergy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6 followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "The Connect Agency",
+            "url": "https://www.linkedin.com/company/thecxnagency",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a thecxnagency",
+            "description": "A space providing access to mental health care, while also reducing social stigma and serving as a resource to those in need of therapy, assessment,\u00a0...",
+            "emphasizedKeywords": [
+              "A space providing access to mental health care"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Ms Moni",
+            "url": "https://www.linkedin.com/company/msmoni",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ms Moni",
+            "description": "Ms Moni | 11 followers on LinkedIn. Educational YouTube Videos For Toddlers.",
+            "emphasizedKeywords": [
+              "Educational YouTube Videos For Toddlers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "C-ONNECT",
+            "url": "https://es.linkedin.com/company/theconnectagency",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fabiola Fontannaz",
+            "description": "Ayudamos a empresas ambiciosas a acelerar la captaci\u00f3n de clientes generando grandes vol\u00famenes de Leads. Sitio web: http://www.c-onnect.com. Enlace externo\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/sKBLzujnZwgeavyTS/records/1eljio9WBaxTPXY-0.html?signature=NJEpbNAFl7JFXsm6P618"
+      }
+    ],
+    "apify_item_count": 2,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+      "https://www.linkedin.com/company/the-connect-agency",
+      "https://ph.linkedin.com/company/the-connect-agency",
+      "https://www.linkedin.com/company/jacksonville-digital-marketing-agency",
+      "https://www.linkedin.com/company/itsmarketingagency",
+      "https://www.linkedin.com/company/3d-digital-agency",
+      "https://www.linkedin.com/company/jsk-marketing-llc",
+      "https://ie.linkedin.com/company/online-reservation-solutions-for-hotels",
+      "https://www.linkedin.com/company/5ivecanons",
+      "https://www.linkedin.com/company/aba-digital-marketing-agency",
+      "https://www.linkedin.com/company/sunnyroadco",
+      "site:linkedin.com/company theconnectagency.com",
+      "https://www.linkedin.com/company/the-connect-agency",
+      "https://bo.linkedin.com/company/the-connect-agency",
+      "https://au.linkedin.com/company/connectpraustralia",
+      "https://ph.linkedin.com/company/the-connect-agency",
+      "https://ae.linkedin.com/company/the-connect-agency",
+      "https://dk.linkedin.com/company/the-connect-agency",
+      "https://www.linkedin.com/company/the-connect-agency-inc-canada?trk=similar-pages",
+      "https://www.linkedin.com/company/thecxnagency",
+      "https://www.linkedin.com/company/msmoni",
+      "https://es.linkedin.com/company/theconnectagency"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/the-connect-agency",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+    "description": "# Digital Marketing & Advertising Agency Jacksonville, FL ## Marketing Excellence To Help You Build A Greater Connection With Your Customers. ## Connect is a full-service marketing agency focused on building excellent partnerships with businesses, professionals, and organizations across varying industries. ## THE PROBLEM ### One person can't do everything a business needs for effective marketing. Most mid-sized businesses have **one or two people** to manage their website, social media, digital advertising, email marketing, graphic design, content creation and reporting.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://theconnectagency.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://theconnectagency.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "theconnectagency.com",
+    "source_urls": [
+      "https://theconnectagency.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Digital Marketing & Advertising Agency Jacksonville, FL | Connect Agency",
+    "description": "# Digital Marketing & Advertising Agency Jacksonville, FL ## Marketing Excellence To Help You Build A Greater Connection With Your Customers. ## Connect is a full-service marketing agency focused on building excellent partnerships with businesses, professionals, and organizations across varying industries. ## THE PROBLEM ### One person can't do everything a business needs for effective marketing. Most mid-sized businesses have **one or two people** to manage their website, social media, digital advertising, email marketing, graphic design, content creation and reporting.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://theconnectagency.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-connect-agency",
+    "source_url": "https://theconnectagency.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "theconnectagency.com",
+    "source_urls": [
+      "https://theconnectagency.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/the-connect-agency"
+    }
+  }
+}

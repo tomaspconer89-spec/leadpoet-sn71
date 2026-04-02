@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: last, email, role, country, city",
+  "business": "Jones & Roth CPAs and Business Advisors",
+  "lead": {
+    "business": "Jones & Roth CPAs and Business Advisors",
+    "full_name": "Samuel Cleary, CPA",
+    "first": "Samuel",
+    "last": "Cleary, CPA",
+    "email": "triciad@jrcpa.com",
+    "role": "Senior Audit Associate",
+    "website": "http://www.jrcpa.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "Oregon",
+    "city": "Corvallis",
+    "source_url": "https://kernuttstokes.com",
+    "description": "The right people beside you. At Jones & Roth our purpose is to make a positive difference in people's lives. What people? We mean employees, clients, family, friends, vendors, and the communites in which we serve. We believe that people are more important than numbers, forms, deadlines or meetings. Jones & Roth CPAs and Business Advisors is one of the largest CPA firms in Oregon. Jones & Roth provides tax, assurance, consulting, retirement plan administration, estate planning, and business advisory services.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Oregon",
+    "hq_city": "Eugene",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/jones-and-roth-cpas-and-business-advisors",
+    "linkedin": "https://linkedin.com/in/samuelbcleary"
+  },
+  "source_failed_basename": "b7ec077cab7f69b7f7fe57682e2fab6d7b2b3d397725b690185eba58401572fe.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b7ec077cab7f69b7f7fe57682e2fab6d7b2b3d397725b690185eba58401572fe.precheck_failed.json",
+  "queue_key": "d15987ca09e40fdab328402ad785ce9d7b007b33b6d1c2f00cdea69764f4ce1e"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_hq_country_for_usa",
+  "retry_reason": "invalid_hq_country_for_usa",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+  "lead": {
+    "business": "StartupSauce SaaS Founder Community ($5K MRR minimum required to join)",
+    "full_name": "Ryan Wardell",
+    "first": "Ryan",
+    "last": "Wardell",
+    "email": "ryan@startupsauce.com",
+    "role": "CEO & Co-Founder",
+    "website": "https://startupsauce.com/",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "source_url": "https://startupsauce.com",
+    "description": "StartupSauce is a private mastermind community for SaaS founders outside Silicon Valley. If your business is generating at least $5K MRR and you want to connect with and learn from other SaaS founders, you should join the StartupSauce community.",
+    "employee_count": "2-10",
+    "hq_country": "London",
+    "hq_state": "Texas",
+    "hq_city": "Tehran",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/startupsauce-saas-founder-community",
+    "linkedin": "https://linkedin.com/in/ryanwardell"
+  },
+  "source_failed_basename": "0f719836b74292c74b8da35534d51664b557a547fd46741f0b784acf290f11e6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0f719836b74292c74b8da35534d51664b557a547fd46741f0b784acf290f11e6.precheck_failed.json",
+  "queue_key": "d9aeb33a070eb21dd56d6c6d665afb02e90cfc2991ed0e1a8a058f779e1b77e4"
+}

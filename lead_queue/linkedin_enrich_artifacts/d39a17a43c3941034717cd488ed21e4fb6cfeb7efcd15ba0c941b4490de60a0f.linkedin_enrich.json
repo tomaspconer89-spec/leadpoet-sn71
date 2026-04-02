@@ -1,0 +1,2000 @@
+{
+  "saved_at_utc": "2026-04-01T15:54:26.085249+00:00",
+  "queue_key": "d39a17a43c3941034717cd488ed21e4fb6cfeb7efcd15ba0c941b4490de60a0f",
+  "business": "Custom Product & Software Development | Altar.io",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Custom Product & Software Development | Altar.io",
+      "Custom Product & Software Development | Altar.io linkedin company",
+      "site:linkedin.com/company altar.io",
+      "site:linkedin.com/in \"Custom Product & Software Development | Altar.io\" founder",
+      "site:linkedin.com/in \"Custom Product & Software Development | Altar.io\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "k6KRu5DDG1n0rJ8",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Custom+Product+%26+Software+Development+%7C+Altar.io",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Custom+Product+%26+Software+Development+%7C+Altar.io",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Custom Product & Software Development | Altar.io",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Custom+Product+%26+Software+Development+%7C+Altar.io",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Custom+Product+%26+Software+Development+%7C+Altar.io",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Altar.io",
+            "url": "https://pt.linkedin.com/company/altar.io",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar.io",
+            "description": "We are an award-winning product and software development company formed by ex-startup founders who have a deep understanding of the startup ecosystem.Read more",
+            "emphasizedKeywords": [
+              "product",
+              "software development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Geniusee - Custom Software Product Development",
+            "url": "https://www.linkedin.com/company/geniusee",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Geniusee - Custom Software Product Development",
+            "description": "Geniusee is a software, and product development company that helps businesses gain competitive advantages and increase ROI.Read more",
+            "emphasizedKeywords": [
+              "software",
+              "product development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.5K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Makeen Custom Software Development & Technology ...",
+            "url": "https://www.linkedin.com/company/makeen",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Makeen Custom Software Development & Technology Services",
+            "description": "Based in Washington, USA, Makeen Technologies is one of the world's leading providers of end-to-end technology solutions.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "12.9K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Custom Product Builder Platform",
+            "url": "https://www.linkedin.com/company/the-custom-product-builder",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Custom Product Builder Platform",
+            "description": "At Custom Product Builder we empower makers, manufacturers and retailers to offer customization and personalization for their products online or in-store\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Custom Product",
+              "products"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "180+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "SCD Company | Software Engineering",
+            "url": "https://www.linkedin.com/company/scd-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SCD Company | Software Engineering",
+            "description": "SCD is an international offshore software development company. Since 2002, our mission has been to solve the most complex IT challenges for businesses\u00a0...Read more",
+            "emphasizedKeywords": [
+              "software development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Lab651 | Custom Software Development & Process",
+            "url": "https://www.linkedin.com/company/lab651",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Justin Grammens",
+            "description": "Lab651 provides services and a guide to help them succeed. Using best practices developed through decades of experience, we provide these leaders and their\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Custom Software Systems, Inc.",
+            "url": "https://www.linkedin.com/company/custom-software-systems-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Custom Software Systems, Inc.",
+            "description": "Headquartered in Leesburg, Virginia, Custom Software Systems, Inc. (CSS) is a certified Woman Owned Small Business (WOSB) and certified HUBZone Business.Read more",
+            "emphasizedKeywords": [
+              "Custom Software"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Custom Software Solutions",
+            "url": "https://in.linkedin.com/company/custom-software-solutions-pune",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Custom Software Solutions",
+            "description": "Established in 2013, Custom Software Solutions (CSS) is a Pune-based software development organization with a strong track record of delivering innovative\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Custom Software",
+              "software development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.2K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Softnetic Labs",
+            "url": "https://www.linkedin.com/company/softneticlabs",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Softnetic Labs",
+            "description": "Softnetic Labs is a dedicated IT system custom software development partner committed to accelerating business growth and innovation.Read more",
+            "emphasizedKeywords": [
+              "custom software development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "660+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "UITOP - B2B software development and product design",
+            "url": "https://ee.linkedin.com/company/uitop",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0UITOP - B2B software development and product design",
+            "description": "We are a software development firm specializing in high-complexity B2B systems for industrial ecosystems. We deliver mission-critical software solutions\u00a0...Read more",
+            "emphasizedKeywords": [
+              "software development",
+              "software"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "840+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/mCnRggGY7uMue3eUx/records/k6KRu5DDG1n0rJ8-0.html?signature=IGTMdeVsXBk23q7UpJ3a"
+      },
+      {
+        "#debug": {
+          "requestId": "SwJSaoM4zRHJqsO",
+          "url": "http://www.google.com/search?q=Custom+Product+%26+Software+Development+%7C+Altar.io+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Custom+Product+%26+Software+Development+%7C+Altar.io+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Custom Product & Software Development | Altar.io linkedin company",
+          "url": "http://www.google.com/search?q=Custom+Product+%26+Software+Development+%7C+Altar.io+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Custom+Product+%26+Software+Development+%7C+Altar.io+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Altar website",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Altar+website&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "ELEKS LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=ELEKS+LinkedIn&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Altar browser",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Altar+browser&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "Yalantis LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Yalantis+LinkedIn&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Azumo linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Azumo+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Closeloop Technologies linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Closeloop+Technologies+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "BairesDev linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=BairesDev+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Altar website",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Altar+website&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg7EAE"
+          },
+          {
+            "title": "ELEKS LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=ELEKS+LinkedIn&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg_EAE"
+          },
+          {
+            "title": "Altar browser",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Altar+browser&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAhAEAE"
+          },
+          {
+            "title": "Yalantis LinkedIn",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Yalantis+LinkedIn&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Azumo linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Azumo+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg8EAE"
+          },
+          {
+            "title": "Closeloop Technologies linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=Closeloop+Technologies+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg6EAE"
+          },
+          {
+            "title": "BairesDev linkedin",
+            "url": "https://www.google.com/search?sca_esv=814a2bb2323c3a73&hl=en&gl=US&q=BairesDev+linkedin&sa=X&ved=2ahUKEwiK3bCTgc2TAxUfSDABHUeXPPcQ1QJ6BAg9EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Altar.io",
+            "url": "https://pt.linkedin.com/company/altar.io",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar.io",
+            "description": "We are an award-winning product and software development company formed by ex-startup founders who have a deep understanding of the startup ecosystem.Read more",
+            "emphasizedKeywords": [
+              "product",
+              "software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Altar.io's Post - Startup Product Scaling 101",
+            "url": "https://www.linkedin.com/posts/altar.io_startup-product-scaling-101-how-to-grow-activity-7333219236426702848-3You",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a altar.io_startup-prod...",
+            "description": "May 27, 2025 \u2014 But what you're really doing is custom software development disguised as a startup. Six months later, your product is complex, no one else\u00a0...Read more",
+            "date": "2025-05-27T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "custom software development",
+              "product"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Altar.io: Custom Product & Software Development",
+            "url": "https://altar.io/",
+            "displayedUrl": "https://altar.io",
+            "description": "We are a product & custom software development company led by startup founders with over 15 years of combined experience building startups.",
+            "emphasizedKeywords": [
+              "product",
+              "custom software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Execution Trumps Ideas in Custom Software Development",
+            "url": "https://www.linkedin.com/posts/software-co_startupstrategy-productexecution-customsoftwaredevelopment-activity-7436849047790878720-1-54",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Software Co \ud83d\ude80",
+            "description": "I help e-commerce teams implement AI that actually works - smart automation, integrations & custom development. 4w.Read more",
+            "emphasizedKeywords": [
+              "custom development"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Altior",
+            "url": "https://www.linkedin.com/company/altior-io",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altior",
+            "description": "Somos una empresa nueva (startup), pero creada por profesionales con m\u00e1s de 20 a\u00f1os de experiencia en la implementaci\u00f3n de soluciones para medianas y\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "520+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Altar.io Company Profile",
+            "url": "https://techbehemoths.com/company/altar-io",
+            "displayedUrl": "https://techbehemoths.com \u203a company \u203a altar-io",
+            "description": "We are an award-winning product and software development company formed by ex-startup founders who have a deep understanding of the startup ecosystem.Read more",
+            "emphasizedKeywords": [
+              "product",
+              "software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Where is Altar.io Located? HQ, Global Offices & Company ...",
+            "url": "https://www.highperformr.ai/company/altar.io",
+            "displayedUrl": "https://www.highperformr.ai \u203a company \u203a altar",
+            "description": "Altar.io is a product innovation studio and software development company dedicated to helping startups and established businesses design, build,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Altar.io",
+              "product",
+              "software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Altar.io",
+            "url": "https://himalayas.app/companies/altar-io",
+            "displayedUrl": "https://himalayas.app \u203a Remote companies",
+            "description": "About Altar.io. We are a product & custom software development company led by startup founders with over 15 years of combined experience building startups.Read more",
+            "emphasizedKeywords": [
+              "Altar.io",
+              "product",
+              "custom software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Altar.io - Philosophical alignment",
+            "url": "https://www.linkedin.com/posts/altar.io_philosophical-alignment-activity-7203818562535276547-HWlb",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar.io",
+            "description": "Choosing the best #softwaredevelopment company for your startup is more than just the technical capabilities of the agency you're speaking\u00a0...",
+            "emphasizedKeywords": [
+              "company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "About Us",
+            "url": "https://altar.io/us/",
+            "displayedUrl": "https://altar.io \u203a ...",
+            "description": "As product experts, designers, and engineers, we plug into your team to sharpen your vision, cut through noise, and get you from idea to traction.Read more",
+            "emphasizedKeywords": [
+              "product"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/TyNZ1FcMTklQ7Wa3a/records/SwJSaoM4zRHJqsO-0.html?signature=12i3aFggPJJ2Xft4KPu0"
+      },
+      {
+        "#debug": {
+          "requestId": "NR6EHbTnASafjBY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+altar.io",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+altar.io",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company altar.io",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+altar.io",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+altar.io",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Altar.io",
+            "url": "https://pt.linkedin.com/company/altar.io",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar.io",
+            "description": "We are an award-winning product and software development company formed by ex-startup founders who have a deep understanding of the startup ecosystem.Read more",
+            "emphasizedKeywords": [
+              "an award-winning product and software development company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "ALTAR COMPUTING",
+            "url": "https://www.linkedin.com/company/altar-computing",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ALTAR COMPUTING",
+            "description": "Altar is a frontier technology company building AI-native tools and wearables to supercharge human creativity. We're reimagining how people think, create,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Altar is a frontier technology company building AI-native tools and wearables"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Altar Studio",
+            "url": "https://www.linkedin.com/company/altar-studio",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar Studio",
+            "description": "Website: altarstudio.io. External link for Altar Studio ; Industry: Design Services ; Company size: 2-10 employees ; Type: Privately Held\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: altarstudio.io"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7 followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "ALTAR Metaverse",
+            "url": "https://www.linkedin.com/company/altar-metaverse",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ALTAR Metaverse",
+            "description": "ALTAR Metaverse | 165 followers on LinkedIn. The most secure and entertaining Cross Metaverse HUB. Collect, Share and Sell your favorite items through NFT +\u00a0...",
+            "emphasizedKeywords": [
+              "ALTAR Metaverse"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "160+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Altar",
+            "url": "https://pl.linkedin.com/company/altar",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar",
+            "description": "W Altar od lat dostarczamy zaawansowane rozwi\u0105zania IT oparte m.in. na AI, kt\u00f3re pomagaj\u0105 naszym klientom osi\u0105gn\u0105\u0107 przewag\u0119 konkurencyjn\u0105.Read more",
+            "emphasizedKeywords": [
+              "zaawansowane rozwi\u0105zania IT oparte m.in. na AI"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Hudson Lab Ventures",
+            "url": "https://www.linkedin.com/company/hudson-lab-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Hudson Lab Ventures",
+            "description": "We teach students the innovation process by collaboratively working on corporations' real-world challenges.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "370+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Bring Entrepreneurs Together",
+            "url": "https://www.linkedin.com/company/bet---bring-entrepreneurs-together",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bernardo Carrasqueiro",
+            "description": "BET - Bring Entrepreneurs Together wants to promote entrepreneurship among young university students through concrete projects and events with young\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Bring"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.9K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Altar Valley Digital",
+            "url": "https://www.linkedin.com/company/altar-valley",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Altar Valley Digital",
+            "description": "Website: https://altarvalley.io. External link for Altar Valley Digital ; Industry: Public Relations and Communications Services ; Company size: 2-10 employees.Read more",
+            "emphasizedKeywords": [
+              "Website: https://altarvalley.io"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Bool",
+            "url": "https://gr.linkedin.com/company/bool",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bool",
+            "description": "Altar.io. IT Services and IT Consulting. Lisbon, \u03c3\u03b5 Lisboa e Vale do Tejo. Alts Digital. Technology, Information and Media. \u0395\u03bc\u03c6\u03ac\u03bd\u03b9\u03c3\u03b7 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03c9\u03bd \u03c0\u03b1\u03c1\u03cc\u03bc\u03bf\u03b9\u03c9\u03bd\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Altar.io"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.3K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Jumia Porto Tech Center",
+            "url": "https://www.linkedin.com/company/porto-tech-center/?originalSubdomain=pt",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jumia Porto Tech Center",
+            "description": "Altar.io. IT Services and IT Consulting. Lisbon, Lisboa e Vale do Tejo \u00b7 LUZA Group. Engineering Services. Contagem, Minas Gerais \u00b7 Tripadvisor. Software\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Altar.io"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "14.4K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/L1imuPYYCbhvgUVXX/records/NR6EHbTnASafjBY-0.html?signature=mhNKAz8hElpie6FQePEd"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Custom Product & Software Development | Altar.io",
+      "https://pt.linkedin.com/company/altar.io",
+      "https://www.linkedin.com/company/geniusee",
+      "https://www.linkedin.com/company/makeen",
+      "https://www.linkedin.com/company/the-custom-product-builder",
+      "https://www.linkedin.com/company/scd-company",
+      "https://www.linkedin.com/company/lab651",
+      "https://www.linkedin.com/company/custom-software-systems-inc.",
+      "https://in.linkedin.com/company/custom-software-solutions-pune",
+      "https://www.linkedin.com/company/softneticlabs",
+      "https://ee.linkedin.com/company/uitop",
+      "https://pt.linkedin.com/company/altar.io",
+      "https://www.linkedin.com/posts/altar.io_startup-product-scaling-101-how-to-grow-activity-7333219236426702848-3You",
+      "https://www.linkedin.com/posts/software-co_startupstrategy-productexecution-customsoftwaredevelopment-activity-7436849047790878720-1-54",
+      "https://www.linkedin.com/company/altior-io",
+      "https://www.linkedin.com/posts/altar.io_philosophical-alignment-activity-7203818562535276547-HWlb",
+      "site:linkedin.com/company altar.io",
+      "https://pt.linkedin.com/company/altar.io",
+      "https://www.linkedin.com/company/altar-computing",
+      "https://www.linkedin.com/company/altar-studio",
+      "https://www.linkedin.com/company/altar-metaverse",
+      "https://pl.linkedin.com/company/altar",
+      "https://www.linkedin.com/company/hudson-lab-ventures",
+      "https://www.linkedin.com/company/bet---bring-entrepreneurs-together",
+      "https://www.linkedin.com/company/altar-valley",
+      "https://gr.linkedin.com/company/bool",
+      "https://www.linkedin.com/company/porto-tech-center/?originalSubdomain=pt"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "about_industry": "Software Development",
+        "additional_information": "Google jobs 127,126 open jobs Analyst jobs 694,057 open jobs Engineer jobs 555,845 open jobs Manager jobs 1,880,925 open jobs Intern jobs 71,196 open jobs Project Manager jobs 253,048 open jobs Associate jobs 1,091,945 open jobs Developer jobs 258,935 open jobs Scientist jobs 48,969 open jobs Director jobs 1,220,357 open jobs Account Manager jobs 121,519 open jobs Marketing Manager jobs 106,879 open jobs Software Engineer jobs 300,699 open jobs Executive jobs 690,514 open jobs Specialist jobs 768,666 open jobs Assistant jobs 711,811 open jobs Accountant jobs 91,739 open jobs Consultant jobs 760,907 open jobs Recruiter jobs 243,016 open jobs Account Executive jobs 71,457 open jobs Show more jobs like this Show fewer jobs like this",
+        "affiliated_pages": [
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHlzyn1IsVxEw/company-logo_100_100/B56ZqiUJQ7I0AQ-/0/1763659781488/googledevelopers_logo?e=2147483647&v=beta&t=hMMixCZoxsQdPpCi1Fe-LOL30A3wM9tawlEUcaMg-D0",
+            "name": "Google for Developers",
+            "url": "https://www.linkedin.com/showcase/googledevelopers/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFIFLR7jxm2lg/company-logo_100_100/company-logo_100_100/0/1630644546845/google_cloud_logo?e=2147483647&v=beta&t=FpMRLreuFcvQOPJBLlMIBA4jPlhb8lLtofTvwbzW_i4",
+            "name": "Google Cloud",
+            "url": "https://www.linkedin.com/showcase/google-cloud/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "San Bruno, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGyUKaYgsO3cg/company-logo_100_100/B4EZb.zwGgGQAQ-/0/1748031701722/youtube_logo?e=2147483647&v=beta&t=3c105sYWqV36KrBuqm25sWKs6yKmnRQQPwOy7pAj4Gs",
+            "name": "YouTube",
+            "url": "https://www.linkedin.com/company/youtube?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQG0wixREuYNmA/company-logo_100_100/company-logo_100_100/0/1661287344336/think_with_google_logo?e=2147483647&v=beta&t=AqkMpZhRHA8KnTuHQnYo1epXuGctVizz_EI4mEcXPf0",
+            "name": "Think with Google",
+            "url": "https://www.linkedin.com/showcase/think-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQH9F59ob8d3QQ/company-logo_100_100/company-logo_100_100/0/1631424821422/google_ads__logo?e=2147483647&v=beta&t=hbxQ7d309uUZU8GdOuAas2VM3qaaMmfaKT4MYy8FRsI",
+            "name": "Google Ads",
+            "url": "https://www.linkedin.com/showcase/google-ads-/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEJjsq1jhdKqQ/company-logo_100_100/B56Zzdg8M7IYAQ-/0/1773242926435/googleworkspace_logo?e=2147483647&v=beta&t=J9BoM_yTO0CMIyoEfT8V5lyCQtx488o2GVMdAtNteNQ",
+            "name": "Google Workspace",
+            "url": "https://www.linkedin.com/showcase/googleworkspace/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHDx1a8WwtGpQ/company-logo_100_100/company-logo_100_100/0/1631433614727/google_analytics_logo?e=2147483647&v=beta&t=tRWIvJnVYJdSjfsf829-q1qs9pS6EV-_A1dumc8GiCw",
+            "name": "Google Analytics",
+            "url": "https://www.linkedin.com/showcase/google-analytics/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFUyrWqc079tw/company-logo_100_100/company-logo_100_100/0/1630570752037/community_groups_program_gdg_logo?e=2147483647&v=beta&t=Bmo1Pztm7qLGecpLIC0QOd7v3hdZB7mNCUN-sN33YrU",
+            "name": "Google Developer Groups (GDG)",
+            "url": "https://www.linkedin.com/showcase/google-developer-groups/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQG5rLrtFi47Nw/company-logo_100_100/company-logo_100_100/0/1698961278359/googleresearch_logo?e=2147483647&v=beta&t=770cou6nJgdMrEQkGgQQb9vBci23-DeSmiyZQ1QHizQ",
+            "name": "Google Research",
+            "url": "https://www.linkedin.com/showcase/googleresearch/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGzJC06vcaaeA/company-logo_100_100/company-logo_100_100/0/1631440027919/googlemarketingplatform_logo?e=2147483647&v=beta&t=uKEEOACQWM51apKxKBOtZEuvavHZMGyKhCCDoRMThio",
+            "name": "Google Marketing Platform",
+            "url": "https://www.linkedin.com/showcase/googlemarketingplatform/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHglGPtwCI4pg/company-logo_100_100/company-logo_100_100/0/1736888029474/google_for_publishers_logo?e=2147483647&v=beta&t=fav1Y2Ciy3bkCrYkmU5Vq6FJWGs1KzrLUO2hH4KJXE0",
+            "name": "Google for Publishers",
+            "url": "https://www.linkedin.com/showcase/google-for-publishers/?trk=affiliated-pages"
+          },
+          {
+            "category": "E-learning",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFFo-CL-y-UYA/company-logo_100_100/company-logo_100_100/0/1631404101430/grow_with_google_logo?e=2147483647&v=beta&t=-Cn5WCjNE0dCmvqfPSHhm8OuDcoDmGNC9mPf7b0rgSM",
+            "name": "Grow with Google",
+            "url": "https://www.linkedin.com/showcase/grow-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIJJqGnkAyeg/company-logo_100_100/B4EZstvoToJQAQ-/0/1765999020016/androiddev_logo?e=2147483647&v=beta&t=Ba1k3BtxQw4PPT1Ow8NUezXa7YWdFQEbep1isn-SfJA",
+            "name": "Android Developers",
+            "url": "https://www.linkedin.com/showcase/androiddev/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGd2bTlJsilLg/company-logo_100_100/company-logo_100_100/0/1733522182114/googleaidevs_logo?e=2147483647&v=beta&t=zUGOzqFZCVVxDK711zD5BQusciE78Vl4N3rM6Jw-XnQ",
+            "name": "Google AI for Developers",
+            "url": "https://www.linkedin.com/showcase/googleaidevs/?trk=affiliated-pages"
+          },
+          {
+            "category": "Internet Publishing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHgiaAqw0cAZQ/company-logo_100_100/company-logo_100_100/0/1630603869371/google_cloud_partners_logo?e=2147483647&v=beta&t=UxrJPG11sUfAA7EjSD9lJl22X4SfDN7wU2HbRZlAvLU",
+            "name": "Google Cloud Partners",
+            "url": "https://www.linkedin.com/showcase/google-cloud-partners/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHU22ISGMrPuw/company-logo_100_100/company-logo_100_100/0/1715877453021?e=2147483647&v=beta&t=uc7syKkA0DUlZ8too_nlyO3wyPXnyc0FxJ5OPNIrRVs",
+            "name": "Google Search Central",
+            "url": "https://www.linkedin.com/showcase/googlesearchcentral/?trk=affiliated-pages"
+          },
+          {
+            "category": "Internet Publishing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQExZlDfYW-QcA/company-logo_100_100/B4EZoxogtOIMAQ-/0/1761769295173/google_small_business_logo?e=2147483647&v=beta&t=etW5lNaiPUJEzEzhmIsjLVuYnT-kywtL3lssFYHDdVM",
+            "name": "Google Small Business",
+            "url": "https://www.linkedin.com/showcase/google-small-business/?trk=affiliated-pages"
+          },
+          {
+            "category": "IT Services and IT Consulting",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHzYXxutuas9A/company-logo_100_100/company-logo_100_100/0/1675144820383/chrome_enterprise_logo?e=2147483647&v=beta&t=yJaXeDUSDHyrsuheWt5rxksOdEuoHIVMioKkhs2DVVw",
+            "name": "ChromeOS & Chrome Enterprise",
+            "url": "https://www.linkedin.com/showcase/chrome-enterprise/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGzx2yxxDgESA/company-logo_100_100/B56Zdal_.OHoAY-/0/1749571600513/google_health_logo?e=2147483647&v=beta&t=w_rjS_zIo-3ZtN1V9vF41tkrbaxpd6UUZUWEnprO7B4",
+            "name": "Google for Health",
+            "url": "https://www.linkedin.com/showcase/google-for-health/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFt0fJxtxk-lg/company-logo_100_100/company-logo_100_100/0/1668110169199/tensorflowdev_logo?e=2147483647&v=beta&t=1I6LMbc_QVOIyJ_rYmmJskDDD7CKSuoIHADDRK5I7cs",
+            "name": "TensorFlow",
+            "url": "https://www.linkedin.com/showcase/tensorflowdev/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQF1lnr4bvrLKQ/company-logo_100_100/company-logo_100_100/0/1660157151780/flutterdevofficial_logo?e=2147483647&v=beta&t=krUjJjEp9uNpECA6JfVRwD2ZV_YrMM9s2BJ3yRyEMW0",
+            "name": "Flutter Dev",
+            "url": "https://www.linkedin.com/showcase/flutterdevofficial/?trk=affiliated-pages"
+          },
+          {
+            "category": "Human Resources Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGk9X0v8TL6xw/company-logo_100_100/company-logo_100_100/0/1631331138435?e=2147483647&v=beta&t=G0W7h1bMizbH6OP5G3CKvuuZbm_OSN29jy4n3B3MxHY",
+            "name": "re:Work with Google",
+            "url": "https://www.linkedin.com/showcase/rework-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGQQRSdCkTbBQ/company-logo_100_100/company-logo_100_100/0/1631340633685?e=2147483647&v=beta&t=UtH28reLuAN0S3goo1BWSSyG_qjSHGvOxH920Sj05Ak",
+            "name": "Google Partners",
+            "url": "https://www.linkedin.com/showcase/google-partners/?trk=affiliated-pages"
+          },
+          {
+            "category": "Online Audio and Video Media",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQENwPk8U5nwXQ/company-logo_100_100/company-logo_100_100/0/1648217189857/google_news_initiative_logo?e=2147483647&v=beta&t=0C-HWCWr9i8pZYwMjPjJ8FdghiJxGsgnwok7WEwq420",
+            "name": "Google News Initiative",
+            "url": "https://www.linkedin.com/showcase/google-news-initiative/?trk=affiliated-pages"
+          },
+          {
+            "category": "IT Services and IT Consulting",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEa9sSivPQ4cg/company-logo_100_100/company-logo_100_100/0/1658765701208/googleplaybiz_logo?e=2147483647&v=beta&t=dyrpRp9tl3YN-PQ1ULMtjV2UshXRzR4y1xlV8KOYMQs",
+            "name": "Google Play business community",
+            "url": "https://www.linkedin.com/showcase/googleplaybiz/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH_5kvrJUkLuw/company-logo_100_100/company-logo_100_100/0/1729106317821/firebase_logo?e=2147483647&v=beta&t=GkiSd0fIlVySbPXogrso5arHsyIzUjzhGX9-nJSRBSQ",
+            "name": "Firebase",
+            "url": "https://www.linkedin.com/showcase/firebase/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFAkDPGM_aNUQ/company-logo_100_100/company-logo_100_100/0/1706292924372?e=2147483647&v=beta&t=ZFLV8YOH1Lty-TjSlM3jKUBayjoSGVpQxiAPnIJLKfQ",
+            "name": "Chrome for Developers",
+            "url": "https://www.linkedin.com/showcase/chrome-for-developers/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH-GrDIhmlBVw/company-logo_100_100/B56Zsu4JmpIcAQ-/0/1766018030395/android_by_google_logo?e=2147483647&v=beta&t=5Mr-Hg1vdKEFrAXNc6fndmZeiaK1HxZ3frGrrWqKc1w",
+            "name": "Android",
+            "url": "https://www.linkedin.com/showcase/android_by_google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Venture Capital and Private Equity Principals",
+            "location": "San Francisco, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQG_2ueBNyD9mw/company-logo_100_100/company-logo_100_100/0/1630652094196/capitalg_logo?e=2147483647&v=beta&t=aC_6z-f_8kf4sOEk6SuQqXkuG6MAtfLYVjZEGLPmNV4",
+            "name": "CapitalG",
+            "url": "https://ca.linkedin.com/company/capitalg?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFWCk66BYhwMw/company-logo_100_100/company-logo_100_100/0/1631432403639?e=2147483647&v=beta&t=RP2GBimgoZKJBvDGTuh_8Zk7Azuv2c6rU5xu-omzF6o",
+            "name": "Google Pay Developers",
+            "url": "https://www.linkedin.com/showcase/google-pay/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQG5wmEaqHfmDg/company-logo_100_100/B56ZqUSJh0I4AU-/0/1763424377586/google_antigravity_logo?e=2147483647&v=beta&t=FzBjHqIOw9eBBEO6gOtFkh5aNp5zwCsfb_nfHjJs6ZQ",
+            "name": "Google Antigravity",
+            "url": "https://www.linkedin.com/showcase/google-antigravity/?trk=affiliated-pages"
+          },
+          {
+            "category": "Information Technology & Services",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGCZEOhM7Et2A/company-logo_100_100/company-logo_100_100/0/1693934124061/androidenterprise_logo?e=2147483647&v=beta&t=KpUPprQgrn53mfau8Q5qIjqzSZyaMfA12SVDS_YXzZQ",
+            "name": "Android Enterprise",
+            "url": "https://www.linkedin.com/showcase/androidenterprise/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQH06LdMOtQq_w/company-logo_100_100/company-logo_100_100/0/1630591519444/google_user_research_logo?e=2147483647&v=beta&t=a_qyxKcc-1Qvo09DYXuNJEXNWoxbzpf4oYy-MTJqfjQ",
+            "name": "Google User Experience Research",
+            "url": "https://www.linkedin.com/showcase/google-user-research./?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEowDiaLLiC6w/company-logo_100_100/B56ZfDRV81GoAQ-/0/1751327793258?e=2147483647&v=beta&t=JEnTmXkb3vprBxksDHBAjeO2IQ7ei6shBqNrxwGQqLU",
+            "name": "Google for Business India",
+            "url": "https://www.linkedin.com/showcase/google-for-biz-in/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHpUJ_qDlImBQ/company-logo_100_100/company-logo_100_100/0/1649349588413/google_chrome_logo?e=2147483647&v=beta&t=59i1N-oQyerjrz2dvD8C9LMO-FfIRmqwfZMG6IVZU4M",
+            "name": "Google Chrome",
+            "url": "https://www.linkedin.com/showcase/google-chrome/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJo0OA8b8URg/company-logo_100_100/B4EZm_zW3mHMAQ-/0/1759859535943/google_public_policy_logo?e=2147483647&v=beta&t=DFnsKyDjOxqQUC-L5svtN59RHixOeYz-IMptmk3ecvY",
+            "name": "Google Public Policy",
+            "url": "https://www.linkedin.com/showcase/google-public-policy/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQF5tjYOT4Ftww/company-logo_100_100/B56Zy0qShWIoAU-/0/1772557512211/googlemapsplatform_logo?e=2147483647&v=beta&t=Zv9jxJq15tpXhTT9ugcm0UYcOteYKSC2q6PszVyGzBo",
+            "name": "Google Maps Platform",
+            "url": "https://www.linkedin.com/showcase/googlemapsplatform/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFoGWWSOfPdVQ/company-logo_100_100/company-logo_100_100/0/1709662277992/google_developers_north_america_logo?e=2147483647&v=beta&t=K_7Ty6N8C1sqSNtmFqM7pvlp3ftNhN_RJnbKB3eVwPg",
+            "name": "Google Developers North America",
+            "url": "https://www.linkedin.com/showcase/google-developers-north-america/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQG_VLbxyJcP8A/company-logo_100_100/company-logo_100_100/0/1631345813563?e=2147483647&v=beta&t=QCpHYBG_1A083NxZYgLLaKB1t2xtShCcZW7Li7z8QLQ",
+            "name": "Adometry (acquired by Google)",
+            "url": "https://www.linkedin.com/company/adometry?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGi1gBNONsUFA/company-logo_100_100/company-logo_100_100/0/1721154916593?e=2147483647&v=beta&t=_rIUIArFqpaLNx8Y0tP8_E7fu8tKhBRyKrtHa4JYkzc",
+            "name": "Google Search Liaison",
+            "url": "https://www.linkedin.com/showcase/google-search-liaison/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQH_OmH7hYAD2A/company-logo_100_100/company-logo_100_100/0/1676486274466/google_nest_logo?e=2147483647&v=beta&t=tEmh-jB8FSZHx7WCHSQQjdYIEWrtlC8eRdVhJWZgXkE",
+            "name": "Google Nest Pro",
+            "url": "https://www.linkedin.com/showcase/google-nest/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Reston, VA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHb1o1G778-tA/company-logo_100_100/B56Zy58s77JQAQ-/0/1772646223973/google_public_sector_logo?e=2147483647&v=beta&t=SSSrQr_LeImC6PBCeRW41p0SS23Yp0Hlb8jvqV9W-vE",
+            "name": "Google Public Sector",
+            "url": "https://www.linkedin.com/showcase/google-public-sector/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGGnFFZxWR32A/company-logo_100_100/B56ZeyJ827G0AQ-/0/1751040643547?e=2147483647&v=beta&t=WhUNbMMyW6UcyEqYHcSzx-6dUtvvul2KoGBWoJZyWok",
+            "name": "Google Learning & Education",
+            "url": "https://www.linkedin.com/showcase/google-learning-edu/?trk=affiliated-pages"
+          },
+          {
+            "category": "Agriculture, Construction, Mining Machinery Manufacturing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQE-WH8Szc-oSg/company-logo_100_100/company-logo_100_100/0/1676059443081/mineral_ai_logo?e=2147483647&v=beta&t=iXoN6UtxmNr1nSTbcpDCsGdKiZMuIVQMI0ZzBlfsvNc",
+            "name": "Mineral.ai",
+            "url": "https://www.linkedin.com/company/mineral-ai?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGOSUhJSXXzrg/company-logo_100_100/B56ZahP6wxGoAQ-/0/1746462027700?e=2147483647&v=beta&t=XAgor6gqmuXqsDFhtLJC-J5Y1IMT1ArcgjDkt3ajh4k",
+            "name": "Google Arabia",
+            "url": "https://www.linkedin.com/showcase/google-arabia/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Wola, Masovian Voivodeship",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmd4NHEWe6vg/company-logo_100_100/B4EZx8p2G.GsAQ-/0/1771617870991?e=2147483647&v=beta&t=4SKwGSyBh1L6pM5DDPhqReD80KTmyeHFRkgBiK1czUU",
+            "name": "Google Polska",
+            "url": "https://pl.linkedin.com/showcase/google-polska/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGVPp0STu44BQ/company-logo_100_100/B56ZY1UVlJGUAQ-/0/1744651246595?e=2147483647&v=beta&t=HYg-tuH7iT5Vq3yODMVYLkFsNmQMqZJa5EjI4jY5070",
+            "name": "Google Italia",
+            "url": "https://www.linkedin.com/showcase/google-italia/?trk=affiliated-pages"
+          },
+          {
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "Flutter",
+            "url": "https://www.linkedin.com/showcase/flutterdev-hold/?trk=affiliated-pages"
+          },
+          {
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "Firebase",
+            "url": "https://www.linkedin.com/showcase/firebase-hold/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5F6xfbLO0XQ/company-logo_100_100/B4EZv6rlWLKYAQ-/0/1769437288496?e=2147483647&v=beta&t=5Q3zHR5qJDAsr7CPWwHnejLivYHLlj2ClRe-HgUwRps",
+            "name": "Google DACH",
+            "url": "https://www.linkedin.com/showcase/google-dach/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFeiP2CUbVYqg/company-logo_100_100/B4EZzoCanEHYAQ-/0/1773419473667?e=2147483647&v=beta&t=9zuBzyz2ALRcMJ_DEYvKOVsZdTGaiuOWCf5Cq-48R44",
+            "name": "Google AI Studio",
+            "url": "https://www.linkedin.com/showcase/google-ai-studio/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Pyrmont, NSW",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQE-75KJ1ZCGFA/company-logo_100_100/B56ZxVbtSGG4AQ-/0/1770959853254/google_for_business_aunz_logo?e=2147483647&v=beta&t=1g2-lQDWi4SpmaLMQ7MH5GrdCgg1eXHnO4uNe84Uj_U",
+            "name": "Google for Business AUNZ",
+            "url": "https://au.linkedin.com/showcase/google-for-business-aunz/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFCIDSAPaqtsg/company-logo_100_100/B56Z1AMI1aGwAQ-/0/1774898417344/rcs_for_business_logo?e=2147483647&v=beta&t=1fU5oI9npkabbudT3DgoIrzU3pqk0zaXpfy2wApWcy0",
+            "name": "RCS for Business",
+            "url": "https://www.linkedin.com/showcase/rcs-for-business/?trk=affiliated-pages"
+          }
+        ],
+        "all_locations": [
+          "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+          "111 8th Ave, New York, NY 10011, US",
+          "Claude Debussylaan 34, Amsterdam, North Holland 1082 MD, NL",
+          "Avenida Brigadeiro Faria Lima, 3477, Sao Paulo, SP 04538-133, BR",
+          "51 Breithaupt St, Kitchener, ON N2H 5G5, CA",
+          "Barrow Street, Dublin, County Dublin, IE",
+          "Old Madras Road, Bengaluru, Karnataka 560016, IN",
+          "2590 Pearl St, Boulder, CO 80302, US",
+          "601 N 34th St, Seattle, WA 98103, US",
+          "48 Pirrama Rd, Sydney, NSW 2009, AU",
+          "19510 Jamboree Rd, Irvine, CA 92612, US",
+          "320 N Morgan St, Chicago, IL 60607, US",
+          "3 Bandra Kurla Complex Road, Mumbai, Maharashtra 400051, IN",
+          "5th Ave, Taguig City, National Capital Region, PH",
+          "3 Pasir Panjang Rd, Singapore, Singapore 118484, SG",
+          "13, Hyderabad, TS 500084, IN",
+          "90 Collins St, Melbourne, VIC 3000, AU",
+          "901 Cherry Ave, San Bruno, CA 94066, US",
+          "Plaza Pablo Ruiz Picasso, Madrid, Community of Madrid 28046, ES",
+          "25 Massachusetts Ave NW, Washington, DC 20001, US",
+          "15, Gurugram, HR 122001, IN",
+          "Carrera 11A 94-45, Bogota, Bogota, D.C. 110221, CO",
+          "2 Matheson St, Wan Chai, Hong Kong, HK",
+          "1875 Explorer St, Reston, VA 20190, US",
+          "111 Richmond St W, Toronto, ON M5H 2G4, CA",
+          "345 Spear St, San Francisco, CA 94105, US",
+          "355 Main St, Cambridge, MA 02142, US",
+          "Via Federico Confalonieri, 4, Milan, Lomb. 20124, IT",
+          "St Giles High Street, London, England WC2H 8AG, GB",
+          "9606 N Mopac Expy, Austin, TX 78759, US",
+          "340 Main St, Los Angeles, CA 90291, US",
+          "Plaza Pablo Ruiz Picasso, Madrid, Community of Madrid 28020, ES",
+          "2300 Traverwood Dr, Ann Arbor, MI 48105, US",
+          "Avenida Costanera Sur, Las Condes, Santiago Metropolitan 7550000, CL",
+          "10 10th St NE, Atlanta, GA 30309, US",
+          "ulica Emilii Plater 53, Warsaw, MA 00-125, PL",
+          "3 Swamy Vivekananda Road, Bengaluru, Karnataka 560016, IN",
+          "777 6th St S, Kirkland, WA 98033, US",
+          "Erika-Mann-Strasse 33, Munich, BY 80636, DE",
+          "Montes Urales, Miguel Hidalgo, CDMX 11000, MX",
+          "Avenida Alicia Moreau de Justo 350, Buenos Aires City, Buenos Aires Autonomous City 1107, AR",
+          "8 Rue de Londres, Paris, IdF 75009, FR",
+          "Yigal Allon 98, Tel Aviv-Yafo, Tel Aviv 67891, IL",
+          "Unter den Linden 14, Berlin, BE 10117, DE",
+          "ABC-Strasse 19, Hamburg, HH 20354, DE",
+          "6175 Main St, Frisco, TX 75034, US",
+          "Brandschenkestrasse 110, Zurich, ZH 8002, CH",
+          "Kungsbron 2, Stockholm, Stockholm County 111 22, SE"
+        ],
+        "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D563DAQHQfuvbdQlFcA/image-scale_191_1128/B56Z1A7xTqJYAc-/0/1774910904293/google_cover?e=2147483647&v=beta&t=MV5cNuKec8wwo2frDo9W1Swzq54Hk3yt0vKQWG_i7Mc",
+        "company_id": "1441",
+        "company_size": "10,001+ employees",
+        "company_type": "Public Company",
+        "country_code": "US",
+        "crunchbase_url": "https://www.crunchbase.com/organization/google?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase",
+        "description": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone.\n\nCheck out our career opportunities at goo.gle/3DLEokh",
+        "employee_count": "337,774",
+        "employees": [
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQG2Lq9P131RPw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155461240?e=2147483647&v=beta&t=ClDJWsCSg7Apu-ONxPXeXlesMydT31UYg4XOw9r_S1E",
+            "name": "Linus Upson",
+            "profile_url": "https://www.linkedin.com/in/linusupson?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQHjFT5OOou_gQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155469391?e=2147483647&v=beta&t=olLng7ZMW2MyWAE-Uu2LcwrhM8q86kqOGx4Nq6ccQVQ",
+            "name": "Phillip Pearson",
+            "profile_url": "https://www.linkedin.com/in/myelin?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQFUBgdsxpc7TQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155517496?e=2147483647&v=beta&t=NTVXmimJkv7-5Jg27avSm78qudUOxxW00CPJ-6kobOk",
+            "name": "Lenny T.",
+            "profile_url": "https://www.linkedin.com/in/lennyturetsky?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C5603AQGvuUXb9LpP9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1532531607705?e=2147483647&v=beta&t=zuCe0R-uqwLItGJfjs5Sl4ExG-tq7lgNh6f27qVTl4o",
+            "name": "Brentley Beerline",
+            "profile_url": "https://www.linkedin.com/in/brentleybeerline?trk=org-employees"
+          }
+        ],
+        "followers": "41,304,728",
+        "formatted_url": "https://www.linkedin.com/company/google",
+        "founded": null,
+        "funding": {
+          "crunchbase_url": "https://www.crunchbase.com/organization/google?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase",
+          "investors": [
+            {
+              "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4D38AQEBhp9ch_ZyPA/crunchbase_investor_logo_100/B4DZqeuLX8GwAM-/0/1763599497115?e=1775664000&v=beta&t=3b0o9fkacWZZxnOJkZ0dZXRdCZU-hFsgcbEnLi6ZNLw",
+              "name": "Kleiner Perkins",
+              "url": "https://www.crunchbase.com/organization/kleiner-perkins-caufield-byers?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+            },
+            {
+              "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4E38AQHMycDtn347OQ/crunchbase_investor_logo_100/B4EZqeuLmyGYAM-/0/1763599497967?e=1775664000&v=beta&t=OoYi-61TTWTBkFbaPEOhnIY4VvLeCWztJqNVS3WW0Dw",
+              "name": "Sequoia Capital",
+              "url": "https://www.crunchbase.com/organization/sequoia-capital?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+            }
+          ],
+          "last_round": {
+            "amount": "US$ 25.0M",
+            "date": "Wed, 07 Jul 1999 00:00:00 GMT",
+            "type": "Series unknown"
+          },
+          "total_rounds": 3
+        },
+        "get_directions_url": [
+          {
+            "directions_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=111+8th+Ave+New+York+10011+NY+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Claude+Debussylaan+34+Amsterdam+1082+MD+North+Holland+NL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Brigadeiro+Faria+Lima%2C+3477+Sao+Paulo+04538-133+SP+BR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=51+Breithaupt+St+Kitchener+N2H+5G5+ON+CA&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Barrow+Street+Dublin+County+Dublin+IE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Old+Madras+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2590+Pearl+St+Boulder+80302+CO+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=601+N+34th+St+Seattle+98103+WA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=48+Pirrama+Rd+Sydney+2009+NSW+AU&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=19510+Jamboree+Rd+Irvine+92612+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=320+N+Morgan+St+Chicago+60607+IL+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Bandra+Kurla+Complex+Road+Mumbai+400051+Maharashtra+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=5th+Ave+Taguig+City+National+Capital+Region+PH&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Pasir+Panjang+Rd+Singapore+118484+Singapore+SG&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=13+Hyderabad+500084+TS+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=90+Collins+St+Melbourne+3000+VIC+AU&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=901+Cherry+Ave+San+Bruno+94066+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28046+Community+of+Madrid+ES&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=25+Massachusetts+Ave+NW+Washington+20001+DC+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=15+Gurugram+122001+HR+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Carrera+11A+94-45+Bogota+110221+Bogota%2C+D.C.+CO&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2+Matheson+St+Wan+Chai+Hong+Kong+HK&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=1875+Explorer+St+Reston+20190+VA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=111+Richmond+St+W+Toronto+M5H+2G4+ON+CA&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=345+Spear+St+San+Francisco+94105+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=355+Main+St+Cambridge+02142+MA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Via+Federico+Confalonieri%2C+4+Milan+20124+Lomb.+IT&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=St+Giles+High+Street+London+WC2H+8AG+England+GB&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=9606+N+Mopac+Expy+Austin+78759+TX+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=340+Main+St+Los+Angeles+90291+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28020+Community+of+Madrid+ES&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2300+Traverwood+Dr+Ann+Arbor+48105+MI+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Costanera+Sur+Las+Condes+7550000+Santiago+Metropolitan+CL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=10+10th+St+NE+Atlanta+30309+GA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=ulica+Emilii+Plater+53+Warsaw+00-125+MA+PL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Swamy+Vivekananda+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=777+6th+St+S+Kirkland+98033+WA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Erika-Mann-Strasse+33+Munich+80636+BY+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Montes+Urales+Miguel+Hidalgo+11000+CDMX+MX&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Alicia+Moreau+de+Justo+350+Buenos+Aires+City+1107+Buenos+Aires+Autonomous+City+AR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=8+Rue+de+Londres+Paris+75009+IdF+FR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Yigal+Allon+98+Tel+Aviv-Yafo+67891+Tel+Aviv+IL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Unter+den+Linden+14+Berlin+10117+BE+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=ABC-Strasse+19+Hamburg+20354+HH+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=6175+Main+St+Frisco+75034+TX+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Brandschenkestrasse+110+Zurich+8002+ZH+CH&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Kungsbron+2+Stockholm+111+22+Stockholm+County+SE&trk=org-locations_url"
+          }
+        ],
+        "headquarters": "Mountain View, CA",
+        "hq_address": {
+          "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+          "city_state": "Mountain View, CA 94043, US",
+          "is_primary": true,
+          "map_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url",
+          "street_address": "1600 Amphitheatre Parkway"
+        },
+        "industry": "Software Development",
+        "info": "Google | 41,304,728 followers on LinkedIn. A problem isn&#39;t truly solved until it&#39;s solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible.",
+        "investors": [
+          {
+            "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4D38AQEBhp9ch_ZyPA/crunchbase_investor_logo_100/B4DZqeuLX8GwAM-/0/1763599497115?e=1775664000&v=beta&t=3b0o9fkacWZZxnOJkZ0dZXRdCZU-hFsgcbEnLi6ZNLw",
+            "name": "Kleiner Perkins",
+            "url": "https://www.crunchbase.com/organization/kleiner-perkins-caufield-byers?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+          },
+          {
+            "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4E38AQHMycDtn347OQ/crunchbase_investor_logo_100/B4EZqeuLmyGYAM-/0/1763599497967?e=1775664000&v=beta&t=OoYi-61TTWTBkFbaPEOhnIY4VvLeCWztJqNVS3WW0Dw",
+            "name": "Sequoia Capital",
+            "url": "https://www.crunchbase.com/organization/sequoia-capital?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+          }
+        ],
+        "jobs": [
+          {
+            "open_jobs_count": 127126,
+            "title": "Google jobs",
+            "url": "https://www.linkedin.com/jobs/google-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 694057,
+            "title": "Analyst jobs",
+            "url": "https://www.linkedin.com/jobs/analyst-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 555845,
+            "title": "Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1880925,
+            "title": "Manager jobs",
+            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 71196,
+            "title": "Intern jobs",
+            "url": "https://www.linkedin.com/jobs/intern-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 253048,
+            "title": "Project Manager jobs",
+            "url": "https://www.linkedin.com/jobs/project-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1091945,
+            "title": "Associate jobs",
+            "url": "https://www.linkedin.com/jobs/associate-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 258935,
+            "title": "Developer jobs",
+            "url": "https://www.linkedin.com/jobs/developer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 48969,
+            "title": "Scientist jobs",
+            "url": "https://www.linkedin.com/jobs/scientist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1220357,
+            "title": "Director jobs",
+            "url": "https://www.linkedin.com/jobs/director-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 121519,
+            "title": "Account Manager jobs",
+            "url": "https://www.linkedin.com/jobs/account-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 106879,
+            "title": "Marketing Manager jobs",
+            "url": "https://www.linkedin.com/jobs/marketing-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 300699,
+            "title": "Software Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/software-engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 690514,
+            "title": "Executive jobs",
+            "url": "https://www.linkedin.com/jobs/executive-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 768666,
+            "title": "Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 711811,
+            "title": "Assistant jobs",
+            "url": "https://www.linkedin.com/jobs/assistant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 91739,
+            "title": "Accountant jobs",
+            "url": "https://www.linkedin.com/jobs/accountant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 760907,
+            "title": "Consultant jobs",
+            "url": "https://www.linkedin.com/jobs/consultant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 243016,
+            "title": "Recruiter jobs",
+            "url": "https://www.linkedin.com/jobs/recruiter-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 71457,
+            "title": "Account Executive jobs",
+            "url": "https://www.linkedin.com/jobs/account-executive-jobs?trk=organization_guest-browse_jobs"
+          }
+        ],
+        "location": "Mountain View, CA",
+        "locations": [
+          {
+            "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+            "city_state": "Mountain View, CA 94043, US",
+            "is_primary": true,
+            "map_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url",
+            "street_address": "1600 Amphitheatre Parkway"
+          },
+          {
+            "city_state": "New York, NY 10011, US",
+            "map_url": "https://www.bing.com/maps?where=111+8th+Ave+New+York+10011+NY+US&trk=org-locations_url",
+            "street_address": "111 8th Ave"
+          },
+          {
+            "city_state": "Amsterdam, North Holland 1082 MD, NL",
+            "map_url": "https://www.bing.com/maps?where=Claude+Debussylaan+34+Amsterdam+1082+MD+North+Holland+NL&trk=org-locations_url",
+            "street_address": "Claude Debussylaan 34"
+          },
+          {
+            "city_state": "Sao Paulo, SP 04538-133, BR",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Brigadeiro+Faria+Lima%2C+3477+Sao+Paulo+04538-133+SP+BR&trk=org-locations_url",
+            "street_address": "Avenida Brigadeiro Faria Lima, 3477"
+          },
+          {
+            "city_state": "Kitchener, ON N2H 5G5, CA",
+            "map_url": "https://www.bing.com/maps?where=51+Breithaupt+St+Kitchener+N2H+5G5+ON+CA&trk=org-locations_url",
+            "street_address": "51 Breithaupt St"
+          },
+          {
+            "city_state": "Dublin, County Dublin, IE",
+            "map_url": "https://www.bing.com/maps?where=Barrow+Street+Dublin+County+Dublin+IE&trk=org-locations_url",
+            "street_address": "Barrow Street"
+          },
+          {
+            "city_state": "Bengaluru, Karnataka 560016, IN",
+            "map_url": "https://www.bing.com/maps?where=Old+Madras+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url",
+            "street_address": "Old Madras Road"
+          },
+          {
+            "city_state": "Boulder, CO 80302, US",
+            "map_url": "https://www.bing.com/maps?where=2590+Pearl+St+Boulder+80302+CO+US&trk=org-locations_url",
+            "street_address": "2590 Pearl St"
+          },
+          {
+            "city_state": "Seattle, WA 98103, US",
+            "map_url": "https://www.bing.com/maps?where=601+N+34th+St+Seattle+98103+WA+US&trk=org-locations_url",
+            "street_address": "601 N 34th St"
+          },
+          {
+            "city_state": "Sydney, NSW 2009, AU",
+            "map_url": "https://www.bing.com/maps?where=48+Pirrama+Rd+Sydney+2009+NSW+AU&trk=org-locations_url",
+            "street_address": "48 Pirrama Rd"
+          },
+          {
+            "city_state": "Irvine, CA 92612, US",
+            "map_url": "https://www.bing.com/maps?where=19510+Jamboree+Rd+Irvine+92612+CA+US&trk=org-locations_url",
+            "street_address": "19510 Jamboree Rd"
+          },
+          {
+            "city_state": "Chicago, IL 60607, US",
+            "map_url": "https://www.bing.com/maps?where=320+N+Morgan+St+Chicago+60607+IL+US&trk=org-locations_url",
+            "street_address": "320 N Morgan St"
+          },
+          {
+            "city_state": "Mumbai, Maharashtra 400051, IN",
+            "map_url": "https://www.bing.com/maps?where=3+Bandra+Kurla+Complex+Road+Mumbai+400051+Maharashtra+IN&trk=org-locations_url",
+            "street_address": "3 Bandra Kurla Complex Road"
+          },
+          {
+            "city_state": "Taguig City, National Capital Region, PH",
+            "map_url": "https://www.bing.com/maps?where=5th+Ave+Taguig+City+National+Capital+Region+PH&trk=org-locations_url",
+            "street_address": "5th Ave"
+          },
+          {
+            "city_state": "Singapore, Singapore 118484, SG",
+            "map_url": "https://www.bing.com/maps?where=3+Pasir+Panjang+Rd+Singapore+118484+Singapore+SG&trk=org-locations_url",
+            "street_address": "3 Pasir Panjang Rd"
+          },
+          {
+            "city_state": "Hyderabad, TS 500084, IN",
+            "map_url": "https://www.bing.com/maps?where=13+Hyderabad+500084+TS+IN&trk=org-locations_url",
+            "street_address": "13"
+          },
+          {
+            "city_state": "Melbourne, VIC 3000, AU",
+            "map_url": "https://www.bing.com/maps?where=90+Collins+St+Melbourne+3000+VIC+AU&trk=org-locations_url",
+            "street_address": "90 Collins St"
+          },
+          {
+            "city_state": "San Bruno, CA 94066, US",
+            "map_url": "https://www.bing.com/maps?where=901+Cherry+Ave+San+Bruno+94066+CA+US&trk=org-locations_url",
+            "street_address": "901 Cherry Ave"
+          },
+          {
+            "city_state": "Madrid, Community of Madrid 28046, ES",
+            "map_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28046+Community+of+Madrid+ES&trk=org-locations_url",
+            "street_address": "Plaza Pablo Ruiz Picasso"
+          },
+          {
+            "city_state": "Washington, DC 20001, US",
+            "map_url": "https://www.bing.com/maps?where=25+Massachusetts+Ave+NW+Washington+20001+DC+US&trk=org-locations_url",
+            "street_address": "25 Massachusetts Ave NW"
+          },
+          {
+            "city_state": "Gurugram, HR 122001, IN",
+            "map_url": "https://www.bing.com/maps?where=15+Gurugram+122001+HR+IN&trk=org-locations_url",
+            "street_address": "15"
+          },
+          {
+            "city_state": "Bogota, Bogota, D.C. 110221, CO",
+            "map_url": "https://www.bing.com/maps?where=Carrera+11A+94-45+Bogota+110221+Bogota%2C+D.C.+CO&trk=org-locations_url",
+            "street_address": "Carrera 11A 94-45"
+          },
+          {
+            "city_state": "Wan Chai, Hong Kong, HK",
+            "map_url": "https://www.bing.com/maps?where=2+Matheson+St+Wan+Chai+Hong+Kong+HK&trk=org-locations_url",
+            "street_address": "2 Matheson St"
+          },
+          {
+            "city_state": "Reston, VA 20190, US",
+            "map_url": "https://www.bing.com/maps?where=1875+Explorer+St+Reston+20190+VA+US&trk=org-locations_url",
+            "street_address": "1875 Explorer St"
+          },
+          {
+            "city_state": "Toronto, ON M5H 2G4, CA",
+            "map_url": "https://www.bing.com/maps?where=111+Richmond+St+W+Toronto+M5H+2G4+ON+CA&trk=org-locations_url",
+            "street_address": "111 Richmond St W"
+          },
+          {
+            "city_state": "San Francisco, CA 94105, US",
+            "map_url": "https://www.bing.com/maps?where=345+Spear+St+San+Francisco+94105+CA+US&trk=org-locations_url",
+            "street_address": "345 Spear St"
+          },
+          {
+            "city_state": "Cambridge, MA 02142, US",
+            "map_url": "https://www.bing.com/maps?where=355+Main+St+Cambridge+02142+MA+US&trk=org-locations_url",
+            "street_address": "355 Main St"
+          },
+          {
+            "city_state": "Milan, Lomb. 20124, IT",
+            "map_url": "https://www.bing.com/maps?where=Via+Federico+Confalonieri%2C+4+Milan+20124+Lomb.+IT&trk=org-locations_url",
+            "street_address": "Via Federico Confalonieri, 4"
+          },
+          {
+            "city_state": "London, England WC2H 8AG, GB",
+            "map_url": "https://www.bing.com/maps?where=St+Giles+High+Street+London+WC2H+8AG+England+GB&trk=org-locations_url",
+            "street_address": "St Giles High Street"
+          },
+          {
+            "city_state": "Austin, TX 78759, US",
+            "map_url": "https://www.bing.com/maps?where=9606+N+Mopac+Expy+Austin+78759+TX+US&trk=org-locations_url",
+            "street_address": "9606 N Mopac Expy"
+          },
+          {
+            "city_state": "Los Angeles, CA 90291, US",
+            "map_url": "https://www.bing.com/maps?where=340+Main+St+Los+Angeles+90291+CA+US&trk=org-locations_url",
+            "street_address": "340 Main St"
+          },
+          {
+            "city_state": "Madrid, Community of Madrid 28020, ES",
+            "map_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28020+Community+of+Madrid+ES&trk=org-locations_url",
+            "street_address": "Plaza Pablo Ruiz Picasso"
+          },
+          {
+            "city_state": "Ann Arbor, MI 48105, US",
+            "map_url": "https://www.bing.com/maps?where=2300+Traverwood+Dr+Ann+Arbor+48105+MI+US&trk=org-locations_url",
+            "street_address": "2300 Traverwood Dr"
+          },
+          {
+            "city_state": "Las Condes, Santiago Metropolitan 7550000, CL",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Costanera+Sur+Las+Condes+7550000+Santiago+Metropolitan+CL&trk=org-locations_url",
+            "street_address": "Avenida Costanera Sur"
+          },
+          {
+            "city_state": "Atlanta, GA 30309, US",
+            "map_url": "https://www.bing.com/maps?where=10+10th+St+NE+Atlanta+30309+GA+US&trk=org-locations_url",
+            "street_address": "10 10th St NE"
+          },
+          {
+            "city_state": "Warsaw, MA 00-125, PL",
+            "map_url": "https://www.bing.com/maps?where=ulica+Emilii+Plater+53+Warsaw+00-125+MA+PL&trk=org-locations_url",
+            "street_address": "ulica Emilii Plater 53"
+          },
+          {
+            "city_state": "Bengaluru, Karnataka 560016, IN",
+            "map_url": "https://www.bing.com/maps?where=3+Swamy+Vivekananda+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url",
+            "street_address": "3 Swamy Vivekananda Road"
+          },
+          {
+            "city_state": "Kirkland, WA 98033, US",
+            "map_url": "https://www.bing.com/maps?where=777+6th+St+S+Kirkland+98033+WA+US&trk=org-locations_url",
+            "street_address": "777 6th St S"
+          },
+          {
+            "city_state": "Munich, BY 80636, DE",
+            "map_url": "https://www.bing.com/maps?where=Erika-Mann-Strasse+33+Munich+80636+BY+DE&trk=org-locations_url",
+            "street_address": "Erika-Mann-Strasse 33"
+          },
+          {
+            "city_state": "Miguel Hidalgo, CDMX 11000, MX",
+            "map_url": "https://www.bing.com/maps?where=Montes+Urales+Miguel+Hidalgo+11000+CDMX+MX&trk=org-locations_url",
+            "street_address": "Montes Urales"
+          },
+          {
+            "city_state": "Buenos Aires City, Buenos Aires Autonomous City 1107, AR",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Alicia+Moreau+de+Justo+350+Buenos+Aires+City+1107+Buenos+Aires+Autonomous+City+AR&trk=org-locations_url",
+            "street_address": "Avenida Alicia Moreau de Justo 350"
+          },
+          {
+            "city_state": "Paris, IdF 75009, FR",
+            "map_url": "https://www.bing.com/maps?where=8+Rue+de+Londres+Paris+75009+IdF+FR&trk=org-locations_url",
+            "street_address": "8 Rue de Londres"
+          },
+          {
+            "city_state": "Tel Aviv-Yafo, Tel Aviv 67891, IL",
+            "map_url": "https://www.bing.com/maps?where=Yigal+Allon+98+Tel+Aviv-Yafo+67891+Tel+Aviv+IL&trk=org-locations_url",
+            "street_address": "Yigal Allon 98"
+          },
+          {
+            "city_state": "Berlin, BE 10117, DE",
+            "map_url": "https://www.bing.com/maps?where=Unter+den+Linden+14+Berlin+10117+BE+DE&trk=org-locations_url",
+            "street_address": "Unter den Linden 14"
+          },
+          {
+            "city_state": "Hamburg, HH 20354, DE",
+            "map_url": "https://www.bing.com/maps?where=ABC-Strasse+19+Hamburg+20354+HH+DE&trk=org-locations_url",
+            "street_address": "ABC-Strasse 19"
+          },
+          {
+            "city_state": "Frisco, TX 75034, US",
+            "map_url": "https://www.bing.com/maps?where=6175+Main+St+Frisco+75034+TX+US&trk=org-locations_url",
+            "street_address": "6175 Main St"
+          },
+          {
+            "city_state": "Zurich, ZH 8002, CH",
+            "map_url": "https://www.bing.com/maps?where=Brandschenkestrasse+110+Zurich+8002+ZH+CH&trk=org-locations_url",
+            "street_address": "Brandschenkestrasse 110"
+          },
+          {
+            "city_state": "Stockholm, Stockholm County 111 22, SE",
+            "map_url": "https://www.bing.com/maps?where=Kungsbron+2+Stockholm+111+22+Stockholm+County+SE&trk=org-locations_url",
+            "street_address": "Kungsbron 2"
+          }
+        ],
+        "name": "Google",
+        "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=2147483647&v=beta&t=Hzaw0d0Yz1Yi-_mDuQ6JQo-Ph41AG50Z8pWjyaeTI0k",
+        "similar_pages": [
+          {
+            "industry": "Software Development",
+            "location": "Redmond, Washington",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=2147483647&v=beta&t=rr_7_bFRKp6umQxIHErPOZHtR8dMPIYeTjlKFdotJBY",
+            "name": "Microsoft",
+            "url": "https://www.linkedin.com/company/microsoft?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Seattle, WA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=2147483647&v=beta&t=qIUP7OofXIuuuVACb5ToeWH9PHXrPYsS8jsTZ3Q0sUg",
+            "name": "Amazon",
+            "url": "https://www.linkedin.com/company/amazon?trk=similar-pages"
+          },
+          {
+            "industry": "Computers and Electronics Manufacturing",
+            "location": "Cupertino, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=2147483647&v=beta&t=p0JNmv2WB0EMMQgvzl9R8TaXgzEaDraGS4MWR0IawjQ",
+            "name": "Apple",
+            "url": "https://www.linkedin.com/company/apple?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Menlo Park, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHBmbxCDP0JQQ/company-logo_100_100/B56ZlkdQSaI8AQ-/0/1758327015620/meta_logo?e=2147483647&v=beta&t=wKpKTUGAcanUzVRxCutYYO3NJ_Etr5c4n2AbPyOu260",
+            "name": "Meta",
+            "url": "https://www.linkedin.com/company/meta?trk=similar-pages"
+          },
+          {
+            "industry": "Entertainment Providers",
+            "location": "Los Gatos, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGMva5_E8pUjw/company-logo_100_100/company-logo_100_100/0/1736276678240/netflix_logo?e=2147483647&v=beta&t=OSlCcMLJmlXo79qPS59zP_IX873LK5R4FGYeUAWXdiQ",
+            "name": "Netflix",
+            "url": "https://www.linkedin.com/company/netflix?trk=similar-pages"
+          },
+          {
+            "industry": "Business Consulting and Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY",
+            "name": "Deloitte",
+            "url": "https://www.linkedin.com/company/deloitte?trk=similar-pages"
+          },
+          {
+            "industry": "IT Services and IT Consulting",
+            "location": "Armonk, New York, NY",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=2147483647&v=beta&t=HPSmWLOCvdPkWO1nRWwjjmCNpaCqww20rSJ4E54QtxQ",
+            "name": "IBM",
+            "url": "https://www.linkedin.com/company/ibm?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Sunnyvale, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/company/linkedin?trk=similar-pages"
+          },
+          {
+            "industry": "Computer Hardware Manufacturing",
+            "location": "Santa Clara, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGV36q2EowSyw/company-logo_100_100/company-logo_100_100/0/1724881581208/nvidia_logo?e=2147483647&v=beta&t=oCxt8kGhi0AfLuVDY7D_jzkUIEe-fAV5Q5eLaRxXzOE",
+            "name": "NVIDIA",
+            "url": "https://www.linkedin.com/company/nvidia?trk=similar-pages"
+          },
+          {
+            "industry": "Research Services",
+            "location": "San Francisco, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHpzXbqSyR74A/company-logo_100_100/B56ZT8EYB8HsAQ-/0/1739395793272/openai_logo?e=2147483647&v=beta&t=UE3RX4g5jO0WzxZIir4Dit4rZrlzHfCq5pFmYGHSLTU",
+            "name": "OpenAI",
+            "url": "https://www.linkedin.com/company/openai?trk=similar-pages"
+          }
+        ],
+        "specialties": [
+          "search",
+          "ads",
+          "mobile",
+          "android",
+          "online video",
+          "apps",
+          "machine learning",
+          "virtual reality",
+          "cloud",
+          "hardware",
+          "artificial intelligence",
+          "youtube",
+          "and software"
+        ],
+        "stock_info": null,
+        "tagline": null,
+        "universal_name_id": "google",
+        "update_data": [
+          {
+            "comments": "10",
+            "content": "When there was an opportunity to join the Cloud Business Intelligence team as a Looker Sales Lead in a new market, Rakhi made the move from India to our Melbourne Docklands office. \n\nOnce she arrived, she found that the role was about much more than just numbers.  \"Working at Google and representing Looker means more than just solving technical problems; it\u2019s about the people. From critical customer issues to representing our tech at industry events, the energy is non-stop,\" she explains. \u201cThe most impactful conversations happen when we move past 'how the tool works' and start discussing how data can reshape a business model.\u201d\n\nTo keep the creative momentum going after those big conversations, Rakhi relies on a workspace designed for spontaneous \"aha!\" moments. \"You\u2019ll find graffiti walls in meeting rooms, quirky Melbournian names for meeting rooms, large open space for events, table tennis/pool, photo booth and plenty of cozy breakout spaces with seating,\" she says about the office.\n\nToday, Rakhi\u2019s impact continues to grow beyond her day-to-day role. She leads initiatives for Women@Australia, and collaborates with Google Research on hearing health accessibility.\n\nInterested in joining Rakhi and the Cloud team? Check out our open roles \u2192https://goo.gle/4mdmcVz",
+            "media": [
+              {
+                "alt": "Rakhi smiling for a close-up selfie in front of a large, colorful Google \"G\" logo.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFiVySVUGQdDw/image-shrink_1280/B56Z1JeSuLKgAc-/0/1775054171398?e=2147483647&v=beta&t=rV2CTYnsNdNJMTeNhkHqVeYRNFawVwNtBtumMbHkFOk"
+              },
+              {
+                "alt": "A close-up shot of a Google branded sneaker featuring the \u201cGoogle\u201d logo and brand colors on the heel.\n",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFB6Md4wTDPhg/image-shrink_1280/B56Z1JeS6PJ8Ag-/0/1775054172157?e=2147483647&v=beta&t=2BaDMa_xMJLq68YHllaQmjUI8ERBce14HwVVDV3z3Po"
+              },
+              {
+                "alt": "Rakhi and a colleague sitting side-by-side at a office desk smiling to the camera.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQELjVySyECkcQ/image-shrink_1280/B56Z1JeTIqHMAc-/0/1775054173325?e=2147483647&v=beta&t=oApjm1Z1IEuHKROguSuTdgnSyYXop3YXWurP8T4DPJw"
+              },
+              {
+                "alt": "Rakhi playfully posing on a bicycle positioned under a bright green beach umbrella inside a Google office space.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQF9wUWL_L4C0w/image-shrink_1280/B56Z1JeTSKJsAg-/0/1775054173616?e=2147483647&v=beta&t=g_cxuM-pHbkqM5FD803zQsJrqrl4vxh6HWPGmLSlVcg"
+              },
+              {
+                "alt": "A cheerful selfie of Rakhi and a colleague standing in front of the iconic Google \"G\"",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQHw9CduMy4kEQ/image-shrink_800/B56Z1JeTe7HMAg-/0/1775054174434?e=2147483647&v=beta&t=_etAmzTMtueZqV-hroocZxwvrZg8ydzWjBesiG5qUBc"
+              }
+            ],
+            "posted_time": "Wed, 01 Apr 2026 14:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "204"
+          },
+          {
+            "comments": "25",
+            "content": "Next stop: The moon \ud83d\ude80  We teamed up withNASA - National Aeronautics and Space Administrationto answer your top Artemis II searches.\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 21:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "526"
+          },
+          {
+            "comments": "26",
+            "content": "How do you visualize the concept of a world model? CodersKaloyan KolevandArden Schagersat down withLogan KilpatrickandAlexander Chenshare how they used Google AI Studio to vibe code custom design tools for Project Genie. They demonstrate how hands-on tools like 3D physics sliders and custom animation timelines enable teams of designers and engineers to work together to explore new ideas.\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 20:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "590"
+          },
+          {
+            "comments": "28",
+            "content": "PSA: You can change your Google account username without losing access to your entire account history. That way, you don\u2019t have to make a new account to avoid using your Gmail address from years ago. \n\nHere\u2019s how \u2b07\ufe0f\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 18:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "503"
+          },
+          {
+            "comments": "71",
+            "content": "Tag your friend or co-worker who needs to hear this: If you\u2019re a U.S. Google user, you can now change your account username for tools like Gmail, Photos, Drive and more \u2014 while keeping your emails, data and account history. Here\u2019s what to know: \n\n1\ufe0f\u20e3 You can choose any available @gmail.comusername. \n\n2\ufe0f\u20e3 Your old username will become an alias, so you won\u2019t lose access to it. You can still sign in and send and receive emails with both usernames. Plus, you can also revert to your old username.\n\n3\ufe0f\u20e3 You can choose a new username once a year \u2014 up to three times total. \n\nHere\u2019s more information to get started -->https://goo.gle/4v3g1ry",
+            "media": [
+              {
+                "alt": "A minimalist graphic featuring an email address backspacing and  changing to a new gmail address.",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQHSLBoCyukGNA/feedshare-shrink_800/B4EZ1ECzu0IgAc-/0/1774963088416?e=2147483647&v=beta&t=WfgAH0LoiflM2rRoAkirT-h95DHB_IihmdVlyAaLYSc"
+              }
+            ],
+            "posted_time": "Tue, 31 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "1,066"
+          },
+          {
+            "comments": "50",
+            "content": "For Daniel, the path to his current job as Manager of Ads Marketing Analytics in Mexico City began with a passion for AI and a search for a culture where innovation is a fundamental part of the DNA.  He describes the Mexico City office as a \u201cdream\u201d because \u201cit combines a world-class tech environment with the vibrant, fast-paced energy of one of the most beautiful cities in the world.\u201d\n\nDaniel\u2019s day-to-day involves leading a team of data scientists and engineers to ensure every user data point serves a larger marketing purpose. His team uses \u201cadvanced analytics and cutting-edge AI to uncover key insights, optimize marketing campaigns and ensure our strategies are data-driven and highly effective.\u201d\n\nWhen it comes to joining the team, Daniel\u2019s advice for future Googlers is to move beyond the classroom and start solving real problems. \u201cDon\u2019t just take classes; contribute to open-source projects, enter Kaggle competitions or solve a problem in your local community using data. Google looks for 'owners' \u2014 people who see a problem and don't wait for permission to fix it.\u201d\n\nLooking to join the Mexico City office? Check out our open roles \u2192https://goo.gle/4qM2XDE",
+            "media": [
+              {
+                "alt": "Daniel sitting at a colorful table framed by a decorative Google-themed arch.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQE7E2_VACc0lw/image-shrink_1280/B56Z0_OkYYHoAg-/0/1774882277542?e=2147483647&v=beta&t=MRb62hJ_yr_f0J3dj72pCn_eew-5Z-3dnsd2Am0ubd8"
+              },
+              {
+                "alt": "Daniel standing in front of a decorated \"G\" logo on an office wall.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQGaKYOWm-bXDQ/image-shrink_800/B56Z0_OkmFHwAg-/0/1774882278155?e=2147483647&v=beta&t=wj-r6cfEcuuXeK0S_LLfVlwUArqu0TW2DdNZ5uNN3iA"
+              },
+              {
+                "alt": "Daniel sitting on a vibrant orange sofa in an office space.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFYr3vn17fmLA/image-shrink_800/B56Z0_OkzOJsAg-/0/1774882278881?e=2147483647&v=beta&t=sev4s8kfu9OUsW62TWFO-ykCqm2u_n4TIPAClhp-Rkw"
+              },
+              {
+                "alt": "Daniel standing in front of a large \"G\" mural on a wall.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQEos979LDY5qg/image-shrink_1280/B56Z0_Ok_4I8Ac-/0/1774882279810?e=2147483647&v=beta&t=9N8LAmHyu6dfPn7y5zE09DVXVCUHJijdi-qDzWmlEsQ"
+              }
+            ],
+            "posted_time": "Mon, 30 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "544"
+          },
+          {
+            "comments": "57",
+            "content": "Simra, a Google Recruiter in our NYC office, breaks down our interview process and shares her top tips on how to prepare. \n\nExplore our open roles \u2192https://goo.gle/4rx4sWX\u2026more",
+            "posted_time": "Sat, 28 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST",
+              "EMPATHY"
+            ],
+            "reactions": "1,179"
+          },
+          {
+            "comments": "73",
+            "content": "New month, new Gemini Drops \u2728 See what's new in the Gemini app \u2014 from transferring your chat history from other AI apps to creating 3 minute tracks.\n\nLearn more \u2192gemini.google/gemini-drops",
+            "posted_time": "Sat, 28 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "893"
+          },
+          {
+            "comments": "148",
+            "content": "It\u2019s AI Literacy Day and we\u2019re making it easier than ever to use AI tools to reach your personal and professional goals. We developed the Google AI Professional Certificate to help you learn how to use generative AI at work \u2014 designed in collaboration with employers based on workplace skills they value most. It covers tips and tricks for using AI in areas like communication, research, data analysis, content generation, planning and organization, and vibe coding. \n\nLearn more about our AI training programs and get started today \u2193https://goo.gle/3NSVgOy",
+            "media": [
+              {
+                "alt": "Abstract black background featuring orange and blue geometric curve; the Google Career Certificates logo is in the bottom right; there is text overlay \u201cGet AI skills employers want\u201d with a GIF of potential course options.",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQEwOArZnqLnKA/feedshare-shrink_2048_1536/B56Z0vz.cdGYAg-/0/1774623663522?e=2147483647&v=beta&t=mDQcxgSFtTUZjO7mV-4td8qQ7lFM1qLCY6FA_0NiK4M"
+              }
+            ],
+            "posted_time": "Fri, 27 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "INTEREST"
+            ],
+            "reactions": "1,469"
+          },
+          {
+            "comments": "54",
+            "content": "Tax season is stressful enough without the added weight of potential cyber threats. From high-priority Gmail warning banners to scam detection alerts, we have a roster of tools designed to help you protect yourself from scammers. \n\nLearn more:https://goo.gle/4bUry41",
+            "posted_time": "Fri, 27 Mar 2026 15:54:24 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST",
+              "EMPATHY"
+            ],
+            "reactions": "661"
+          }
+        ],
+        "url": "https://www.linkedin.com/company/google",
+        "website": "https://goo.gle/3DLEokh"
+      }
+    ],
+    "resolved_company_linkedin": "https://pt.linkedin.com/company/altar.io",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Custom Product & Software Development | Altar.io",
+    "description": "# Custom Product & Software Development [ ### Altar.io & Dr. Rumman Chowdhury Collaborate on Ethical AI Feedback System Altar.io partnered with Dr. Rumman Chowdhury to develop a public feedback system that empowers communities to evaluate AI ethics and performance. Leveraging their product development expertise, Altar is helping establish ethical benchmarks for AI through crowd-sourced insights. This collaboration underscores Altar\u2019s commitment to responsible technology and ethical innovation.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://altar.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://altar.io",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "altar.io",
+    "source_urls": [
+      "https://altar.io"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Custom Product & Software Development | Altar.io",
+    "description": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone. Check out our career opportunities at goo.gle/3DLEokh",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://altar.io",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://pt.linkedin.com/company/altar.io",
+    "source_url": "https://altar.io",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Washington",
+    "country": "United States",
+    "state": "",
+    "city": "Washington",
+    "employee_count": "11-50",
+    "company_domain_canonical": "altar.io",
+    "source_urls": [
+      "https://altar.io"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Washington"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://pt.linkedin.com/company/altar.io"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "# Custom Product & Software Development [ ### Altar.io & Dr. Rumman Chowdhury Collaborate on Ethical AI Feedback System Altar.io partnered with Dr. Rumman Chowdhury to develop a public feedback system that empowers communities to evaluate AI ethics and performance. Leveraging their product development expertise, Altar is helping establish ethical benchmarks for AI through crowd-sourced insights. This collaboration underscores Altar\u2019s commitment to responsible technology and ethical innovation.",
+      "after": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone. Check out our career opportunities at goo.gle/3DLEokh"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Washington"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    }
+  }
+}

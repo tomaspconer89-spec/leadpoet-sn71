@@ -1,0 +1,719 @@
+{
+  "saved_at_utc": "2026-03-31T22:01:14.177134+00:00",
+  "queue_key": "b4572db93ede5947248639707553315dc74fdda1a0c3e1a6e954de683ec5b616",
+  "business": "City of San Diego Official Website",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company City of San Diego Official Website",
+      "City of San Diego Official Website linkedin company",
+      "site:linkedin.com/company sandiego.gov",
+      "site:linkedin.com/in \"City of San Diego Official Website\" founder",
+      "site:linkedin.com/in \"City of San Diego Official Website\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "UrgKlczCmwO1avf",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City+of+San+Diego+Official+Website",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City+of+San+Diego+Official+Website",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company City of San Diego Official Website",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City+of+San+Diego+Official+Website",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City+of+San+Diego+Official+Website",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "The City of San Diego",
+            "url": "https://www.linkedin.com/company/cityofsandiego",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dads Corps",
+            "description": "Website: http://www.sandiego.gov. External link for The City of San Diego ; Industry: Government Administration ; Company size: 10,001+ employees ; Headquarters\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.sandiego.gov"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://de.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "... official boundaries of the City of San Diego, which include communities such ... Website: http://www.sandiego.gov. Externer Link zu The City of San Diego.Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.sandiego.gov"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "San Diego City Council",
+            "url": "https://www.linkedin.com/company/san-diego-city-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego City Council",
+            "description": "Find your District and Councilmember information at the San Diego City Council website. Website: https://www.sandiego.gov/citycouncil.Read more",
+            "emphasizedKeywords": [
+              "San Diego City Council website"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://br.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "The City of San Diego | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "San Diego City Attorney's Office",
+            "url": "https://www.linkedin.com/company/san-diego-city-attorney-city-of-san-diego",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego City Attorney's Office",
+            "description": "Website: https://www.sandiego.gov/cityattorney. External link for San Diego City Attorney's Office ; Industry: Government Administration ; Company size: 201-500\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: https://www.sandiego.gov/cityattorney"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "San Diego Tourism Authority",
+            "url": "https://www.linkedin.com/company/san-diego-tourism-authority",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego Tourism Authority",
+            "description": "Website: http://www.sandiego.org. External link for San Diego Tourism Authority ; Industry: Hospitality ; Company size: 51-200 employees ; Headquarters: San Diego,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.sandiego.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "23.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "San Diego Natural History Museum",
+            "url": "https://www.linkedin.com/company/san-diego-natural-history-museum",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cindy Burrascano",
+            "description": "Website: http://www.sdnat.org. External link for San Diego Natural History Museum ; Industry: Museums, Historical Sites, and Zoos ; Company size: 51-200 employees.Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.sdnat.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.2K+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/M3AzuUVFwd3fcorZg/records/UrgKlczCmwO1avf-0.html?signature=ymMg0LlEDbCdfToUWvaf"
+      },
+      {
+        "#debug": {
+          "requestId": "UXy8cxFhsJhIYxK",
+          "url": "http://www.google.com/search?q=City+of+San+Diego+Official+Website+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=City+of+San+Diego+Official+Website+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "City of San Diego Official Website linkedin company",
+          "url": "http://www.google.com/search?q=City+of+San+Diego+Official+Website+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=City+of+San+Diego+Official+Website+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "City of san diego official website linkedin company login",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+san+diego+official+website+linkedin+company+login&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "City of san diego official website linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+san+diego+official+website+linkedin+company+california&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAgxEAE"
+          },
+          {
+            "title": "City of San Diego social media",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+San+Diego+social+media&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "San Diego facebook",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=San+Diego+facebook&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "City of Dallas linkedin",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+Dallas+linkedin&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "City of san diego official website linkedin company login",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+san+diego+official+website+linkedin+company+login&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "City of san diego official website linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+san+diego+official+website+linkedin+company+california&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAgxEAE"
+          },
+          {
+            "title": "City of San Diego social media",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+San+Diego+social+media&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "San Diego facebook",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=San+Diego+facebook&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "City of Dallas linkedin",
+            "url": "https://www.google.com/search?sca_esv=d115e34c1a0f1aef&hl=en&gl=US&q=City+of+Dallas+linkedin&sa=X&ved=2ahUKEwjo0e6ukcuTAxXSVUEAHSFgASwQ1QJ6BAg0EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "The City of San Diego",
+            "url": "https://www.linkedin.com/company/cityofsandiego",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dads Corps",
+            "description": "About us ; Website: http://www.sandiego.gov. External link for The City of San Diego ; Industry: Government Administration ; Company size: 10,001+ employees.Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.sandiego.gov"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://de.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+            "displayedUrl": "https://de.linkedin.com \u203a company \u203a cityofsandiego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "The City of San Diego: Culture",
+            "url": "https://www.linkedin.com/company/cityofsandiego/life",
+            "displayedUrl": "https://www.linkedin.com \u203a cityofsandiego \u203a life",
+            "description": "The City of San Diego | 62613 followers on LinkedIn. Every day we serve our communities to make San Diego not just a fine city, but a great City.",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The City of San Diego | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Resources | City of San Diego Official Website",
+            "url": "https://www.sandiego.gov/employ-empower/resources",
+            "displayedUrl": "https://www.sandiego.gov \u203a employ-empower \u203a resources",
+            "description": "LinkedIn: Cover letter guide; SDSU's Career Services: Check out SDSU-recommended articles related to writing cover letters. UCSD's Career Center: Cover\u00a0...Read more",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "San Diego City Council",
+            "url": "https://www.linkedin.com/company/san-diego-city-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego City Council",
+            "description": "Nine Councilmember represent their districts in the City of San Diego. Find your District and Councilmember information at the San Diego City Council website.Read more",
+            "emphasizedKeywords": [
+              "San Diego City Council website"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Ethics Commission | City of San Diego Official Website",
+            "url": "https://www.sandiego.gov/ethics",
+            "displayedUrl": "https://www.sandiego.gov \u203a ethics",
+            "description": "Follow us on LinkedIn. Our mission is to preserve public confidence in our City government through education, advice, and the prompt and fair enforcement of\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Follow us on LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "The City of San Diego: Jobs",
+            "url": "https://www.linkedin.com/company/cityofsandiego/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a jobs",
+            "description": "The City of San Diego | 62901 followers on LinkedIn. Every day we serve our communities to make San Diego not just a fine city, but a great City.",
+            "emphasizedKeywords": [
+              "The City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "City of San Diego Official Website",
+            "url": "https://www.sandiego.gov/",
+            "displayedUrl": "https://www.sandiego.gov",
+            "description": "City of San Diego Official Website \u00b7 Leisure \u00b7 Resident Resources \u00b7 Doing Business \u00b7 Library \u00b7 Public Safety \u00b7 City Hall \u00b7 Inside San Diego \u00b7 Get It\u00a0...Read more",
+            "date": "2026-03-24T21:59:47.450Z",
+            "emphasizedKeywords": [
+              "City of San Diego Official Website"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/8Xw3sXgwcN5ECm4ty/records/UXy8cxFhsJhIYxK-0.html?signature=1J4POLAzILmUeu9jC9vMA"
+      },
+      {
+        "#debug": {
+          "requestId": "3M2JEiosgQEH1t8",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+sandiego.gov",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+sandiego.gov",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company sandiego.gov",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+sandiego.gov",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+sandiego.gov",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "The City of San Diego",
+            "url": "https://www.linkedin.com/company/cityofsandiego",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dads Corps",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "sandiego.gov. \u5916\u90e8The City of San Diego\u9023\u7d50. \u7522\u696d: \u653f\u5e9c\u884c\u653f. \u516c\u53f8\u898f\u6a21: 10,001+ \u540d\u54e1\u5de5. \u7e3d\u90e8: San DiegoCA. \u985e\u578b: \u653f\u5e9c\u6a5f\u69cb. \u5275\u7acb\u6642\u9593: 1769. \u5730\u9ede. \u4e3b\u8981. 202 C St.Read more",
+            "emphasizedKeywords": [
+              "sandiego",
+              "gov",
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "San Diego Police Department",
+            "url": "https://www.linkedin.com/company/sandiegopd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego Police Department",
+            "description": "Under the leadership of Chief Scott Wahl, the San Diego Police Department is dedicated to protecting and serving over 1,400,000 residents in the City of San\u00a0...Read more",
+            "emphasizedKeywords": [
+              "San Diego Police Department"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://sd.linkedin.com/company/cityofsandiego",
+            "displayedUrl": "https://sd.linkedin.com \u203a company",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...",
+            "emphasizedKeywords": [
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://br.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://es.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+            "displayedUrl": "https://es.linkedin.com \u203a company \u203a cityofsandiego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...",
+            "emphasizedKeywords": [
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "The City of San Diego",
+            "url": "https://de.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "City of San Diego"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "San Diego City Council",
+            "url": "https://www.linkedin.com/company/san-diego-city-council",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0San Diego City Council",
+            "description": "Nine Councilmember represent their districts in the City of San Diego. Find your District and Councilmember information at the San Diego City Council website.Read more",
+            "emphasizedKeywords": [
+              "Nine Councilmember represent their districts in the City of San"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "220+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "The City of San Diego | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego",
+            "description": "sandiego.gov. The City of San Diego\u7684\u5916\u90e8\u94fe\u63a5. \u6240\u5c5e\u884c\u4e1a: \u653f\u5e9c\u7ba1\u7406. \u89c4\u6a21: \u8d85\u8fc710,001 \u4eba. \u603b\u90e8: San Diego\uff0cCA. \u7c7b\u578b: \u653f\u5e9c\u673a\u6784. \u521b\u7acb: 1769. \u5730\u70b9.Read more",
+            "emphasizedKeywords": [
+              "sandiego.gov"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "62.9K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "The City of San Diego Office of the City Auditor",
+            "url": "https://www.linkedin.com/company/the-city-of-san-diego-office-of-the-city-auditor",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The City of San Diego Office of the City Auditor",
+            "description": "Through performance audits, financial audits, and special investigations, the Office of the City Auditor provides essential information to assist the City\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides essential information to assist the City"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/c4LHaxXAYrvBT9Fid/records/3M2JEiosgQEH1t8-0.html?signature=xCeMPxYM8RxDysWlXhdp"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company City of San Diego Official Website",
+      "https://www.linkedin.com/company/cityofsandiego",
+      "https://de.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+      "https://www.linkedin.com/company/san-diego-city-council",
+      "https://br.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+      "https://www.linkedin.com/company/san-diego-city-attorney-city-of-san-diego",
+      "https://www.linkedin.com/company/san-diego-tourism-authority",
+      "https://www.linkedin.com/company/san-diego-natural-history-museum",
+      "https://www.linkedin.com/company/cityofsandiego",
+      "https://de.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+      "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+      "https://www.linkedin.com/company/cityofsandiego/life",
+      "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+      "https://www.linkedin.com/company/san-diego-city-council",
+      "https://www.linkedin.com/company/cityofsandiego/jobs",
+      "site:linkedin.com/company sandiego.gov",
+      "https://www.linkedin.com/company/cityofsandiego",
+      "https://tw.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+      "https://www.linkedin.com/company/sandiegopd",
+      "https://sd.linkedin.com/company/cityofsandiego",
+      "https://br.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://es.linkedin.com/company/cityofsandiego?trk=ppro_cprof",
+      "https://de.linkedin.com/company/cityofsandiego?trk=public_profile_experience-item_profile-section-card_image-click",
+      "https://www.linkedin.com/company/san-diego-city-council",
+      "https://cn.linkedin.com/company/cityofsandiego?trk=public_profile_volunteering-position_profile-section-card_full-click",
+      "https://www.linkedin.com/company/the-city-of-san-diego-office-of-the-city-auditor"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/cityofsandiego",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "City of San Diego Official Website",
+    "description": "# City of San Diego Official Website ## A Message From the Mayor ![Photo of Mayor Gloria](https://sandiego.gov/sites/default/files/mayor-gloria-circle.png) San Diego is a special place with limitless potential, where everyone deserves equal access to opportunity, happiness, and a bright future. Our City is here to help foster those ideals in every neighborhood. It exists to serve you and be a resource for you, your family, and your community. Working together, we can create a San Diego that is responsive, transparent, and inclusive for all of us.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://sandiego.gov",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://sandiego.gov",
+    "source_type": "public_registry",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "sandiego.gov",
+    "source_urls": [
+      "https://sandiego.gov"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "City of San Diego Official Website",
+    "description": "# City of San Diego Official Website ## A Message From the Mayor ![Photo of Mayor Gloria](https://sandiego.gov/sites/default/files/mayor-gloria-circle.png) San Diego is a special place with limitless potential, where everyone deserves equal access to opportunity, happiness, and a bright future. Our City is here to help foster those ideals in every neighborhood. It exists to serve you and be a resource for you, your family, and your community. Working together, we can create a San Diego that is responsive, transparent, and inclusive for all of us.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://sandiego.gov",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Chief Scott Wahl",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cityofsandiego",
+    "source_url": "https://sandiego.gov",
+    "source_type": "public_registry",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "sandiego.gov",
+    "source_urls": [
+      "https://sandiego.gov"
+    ],
+    "title_raw": "Chief Scott Wahl",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/cityofsandiego"
+    },
+    "role": {
+      "before": "",
+      "after": "Chief Scott Wahl"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Chief Scott Wahl"
+    }
+  }
+}

@@ -1,0 +1,1195 @@
+{
+  "saved_at_utc": "2026-04-01T13:05:00.816092+00:00",
+  "queue_key": "e4082e29a65982f8f61201f7db6bed18e3ce2623a0ce660e2f2a545168b0ff3f",
+  "business": "Financial Consulting Firm",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Financial Consulting Firm",
+      "Financial Consulting Firm linkedin company",
+      "site:linkedin.com/company ventureplans.us",
+      "site:linkedin.com/in \"Info Lead\" \"Financial Consulting Firm\"",
+      "site:linkedin.com/in \"Info Lead\" \"ventureplans.us\"",
+      "site:linkedin.com/in \"Financial Consulting Firm\" founder",
+      "site:linkedin.com/in \"Financial Consulting Firm\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "jfbzNX7J9ZuYgCW",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+Consulting+Firm",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+Consulting+Firm",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Financial Consulting Firm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+Consulting+Firm",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Financial+Consulting+Firm",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Financial Consulting Strategies LLC",
+            "url": "https://www.linkedin.com/company/financial-consulting-strategies-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Strategies LLC",
+            "description": "A fast growing financial consulting firm that provides CFO and financial accounting reporting services to fast growing large and small client companies.Read more",
+            "emphasizedKeywords": [
+              "provides CFO and financial accounting reporting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "320+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Diamond Consultants - Financial Advisor Recruiters and ...",
+            "url": "https://www.linkedin.com/company/diamond-consultants",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Diamond Consultants - Financial Advisor Recruiters and Consultants",
+            "description": "Leading search & consulting firm that helps financial advisors realize their best business lives with unbiased advice.Read more",
+            "emphasizedKeywords": [
+              "Leading search & consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Strategic Financial Consulting",
+            "url": "https://www.linkedin.com/company/strategic-financial-consulting-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Strategic Financial Consulting",
+            "description": "Financial consulting firm specializing in outsourced CFO, Controller, and accounting services. Current and previous client industries include manufacturing,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Financial consulting firm specializing in outsourced CFO, Controller, and accounting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "U.S. Financial Advisory and Audit Firm (USFAAF) Inc.",
+            "url": "https://www.linkedin.com/company/usfaaf",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0U.S. Financial Advisory and Audit Firm (USFAAF) Inc.",
+            "description": "USFAAF has a team of professionals worldwide with global and diverse experience evaluating and interpreting financial transactions.Read more",
+            "emphasizedKeywords": [
+              "USFAAF"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.9K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Financial Consulting Group ( FCG )",
+            "url": "https://www.linkedin.com/company/financial-consulting-group-fcg-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Group ( FCG )",
+            "description": "FCG has a multidisciplinary team of professionals with extensive experience in M&A transactions, corporate finance, accounting and tax advisory.Read more",
+            "emphasizedKeywords": [
+              "FCG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "DT Financial",
+            "url": "https://www.linkedin.com/company/dreamteamfinancial",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0DT Financial",
+            "description": "Dream Team Financial is a financial consulting firm that specializes in helping clients achieve their financial goals. Whether it's managing investments,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Dream Team Financial is a financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.2K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Financial Consulting Partners",
+            "url": "https://www.linkedin.com/company/financial-consulting-partners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Partners",
+            "description": "A leading consulting firm providing financial modeling and strategic advisory services to companies, investors, and developers.Read more",
+            "emphasizedKeywords": [
+              "providing financial modeling and strategic advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "8 followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Environmental Financial Consulting Group, LLC (EFCG)",
+            "url": "https://www.linkedin.com/company/efcg-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Environmental Financial Consulting Group, LLC (EFCG)",
+            "description": "Founded in 1990, the Environmental Financial Consulting Group (EFCG) is a global specialized M&A advisor and management consultant to Architecture,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global specialized M&A advisor and management consultant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.7K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "New Age Financial Consulting",
+            "url": "https://www.linkedin.com/company/new-age-financial-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0New Age Financial Consulting",
+            "description": "We're a woman-owned, full-service financial consulting firm focused on helping small to mid-sized businesses streamline their operations, clarify their numbers,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "woman-owned, full-service financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "690+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "TFSCG - The Financial Services Consulting Group",
+            "url": "https://www.linkedin.com/company/tfscg",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TFSCG - The Financial Services Consulting Group",
+            "description": "TFSCG is an executive management consulting firm that focuses on supporting its clients through business changing events such as mergers, acquisitions,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "TFSCG is an executive management consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/rxG38kaRyWffM37Ju/records/jfbzNX7J9ZuYgCW-0.html?signature=NthJuQFjQqqD0rEbWsVP"
+      },
+      {
+        "#debug": {
+          "requestId": "h3R5lV49ABR0X6x",
+          "url": "http://www.google.com/search?q=Financial+Consulting+Firm+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Financial+Consulting+Firm+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Financial Consulting Firm linkedin company",
+          "url": "http://www.google.com/search?q=Financial+Consulting+Firm+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Financial+Consulting+Firm+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Financial consulting firm linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+usa&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+reviews&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+address&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+california&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Fti consulting twitter",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Fti+consulting+twitter&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Fti consulting jobs linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Fti+consulting+jobs+linkedin&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company usa",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+usa&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company reviews",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+reviews&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg3EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+address&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Financial consulting firm linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Financial+consulting+firm+linkedin+company+california&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Fti consulting twitter",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Fti+consulting+twitter&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAgyEAE"
+          },
+          {
+            "title": "Fti consulting jobs linkedin",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Fti+consulting+jobs+linkedin&sa=X&ved=2ahUKEwiv7PaZ28yTAxVc0wIHHZDYLuEQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "80+ \"Financial Consulting\" profiles",
+            "url": "https://www.linkedin.com/pub/dir/Financial/Consulting",
+            "displayedUrl": "https://www.linkedin.com \u203a pub \u203a dir \u203a Consulting",
+            "description": "80+Results for \"Financial Consulting\" \u00b7 Thomas Financial Consulting \u00b7 FINANCIAL CONSULTING \u00b7 Bell Financial Consulting \u00b7 IDDO Financial Consulting.Read more",
+            "emphasizedKeywords": [
+              "Thomas Financial Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "FTI Consulting",
+            "url": "https://www.linkedin.com/company/fti-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FTI Consulting",
+            "description": "FTI Consulting is the leading global expert firm for organizations facing crisis and transformation, with more than 8,100 employees in 32 countries and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "FTI Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "410.6K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Environmental Financial Consulting Group, LLC (EFCG)",
+            "url": "https://www.linkedin.com/company/efcg-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Environmental Financial Consulting Group, LLC (EFCG)",
+            "description": "Founded in 1990, the Environmental Financial Consulting Group (EFCG) is a global specialized M&A advisor and management consultant to Architecture,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "global specialized M&A advisor and management consultant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Financial Consulting Strategies LLC",
+            "url": "https://www.linkedin.com/company/financial-consulting-strategies-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Strategies LLC",
+            "description": "A fast growing financial consulting firm that provides CFO and financial accounting reporting services to fast growing large and small client companies.Read more",
+            "emphasizedKeywords": [
+              "provides CFO and financial accounting reporting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "320+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Financial Consulting Group ( FCG )",
+            "url": "https://www.linkedin.com/company/financial-consulting-group-fcg-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Group ( FCG )",
+            "description": "FCG has a multidisciplinary team of professionals with extensive experience in M&A transactions, corporate finance, accounting and tax advisory.Read more",
+            "emphasizedKeywords": [
+              "FCG"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "480+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "FP&A Strategy Consulting",
+            "url": "https://www.linkedin.com/company/fpa-strategy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FP&A Strategy Consulting",
+            "description": "FP&A Strategy Consulting offers services to the office of the CFO of large global companies to help them implement Digital Finance transformation strategies\u00a0...Read more",
+            "emphasizedKeywords": [
+              "offers services to the office of the CFO of large global companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Financial Consulting Group, Inc.",
+            "url": "https://www.linkedin.com/company/financial-consulting-group-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Consulting Group, Inc.",
+            "description": "Financial Consulting Group, Inc. | 76 followers on LinkedIn. We help clients navigate life's financial issues for a life well planned.",
+            "emphasizedKeywords": [
+              "Financial Consulting Group, Inc"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Financial Strategy Consulting",
+            "url": "https://www.linkedin.com/top-content/consulting/outsourcing-consulting-firms/financial-strategy-consulting/",
+            "displayedUrl": "https://www.linkedin.com \u203a outsourcing-consulting-firms",
+            "description": "Explore strategic financial planning with FP&A consultants to boost wealth. Allocate funds and manage finances with expert guidance for growth.",
+            "emphasizedKeywords": [
+              "Explore strategic financial planning with FP&A consultants"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "First Financial Consulting",
+            "url": "https://www.linkedin.com/company/first-financial-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0First Financial Consulting",
+            "description": "Fee-Only Private Financial Planning and Investment Consulting. We serve both individual and corporate clients and have an extensive history of helping\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Fee-Only Private Financial Planning and Investment Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "300+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Strategic Financial Consulting",
+            "url": "https://www.linkedin.com/company/strategic-financial-consulting-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Strategic Financial Consulting",
+            "description": "Financial consulting firm specializing in outsourced CFO, Controller, and accounting services. Current and previous client industries include manufacturing,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Financial consulting firm specializing in outsourced CFO, Controller, and accounting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/SYVoLoI0Vehn5yAti/records/h3R5lV49ABR0X6x-0.html?signature=i9Lrj5fL1VT4BNjta6u"
+      },
+      {
+        "#debug": {
+          "requestId": "L2LPjcE8tT7RW0G",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureplans.us",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureplans.us",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company ventureplans.us",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureplans.us",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ventureplans.us",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Ventureplans",
+            "url": "https://www.linkedin.com/company/ventureplans",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ventureplans\u2122",
+            "description": "Global consulting firm with a specialty in Innovation, Technology, Digital Transformation, Financing and Revenue Growth. Website: http://ventureplans.us.Read more",
+            "emphasizedKeywords": [
+              "Global consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Digimoksha Solutions",
+            "url": "https://ae.linkedin.com/company/digimoksha-solutions",
+            "displayedUrl": "https://ae.linkedin.com \u203a company",
+            "description": "Digimoksha walks with you on the path of successful business growth and help you realize your online venture plans. Our company provides you step by step\u00a0...",
+            "emphasizedKeywords": [
+              "Digimoksha walks with you on the path of successful business growth"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "OPL Logistics JSC",
+            "url": "https://www.linkedin.com/company/opl-logistics-jsc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0OPL Logistics JSC",
+            "description": "Established in 2016, OPL Logistics is proud to be one of the leading integrated logistics companies in Vietnam, providing comprehensive logistics services\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "TATCO trading & contracting co",
+            "url": "https://www.linkedin.com/company/tatco-trading-%26-contracting-co",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0TATCO trading & contracting co",
+            "description": "We are a company working in the field of constructions and real estate with more than a decade of experience.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "500+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Martin Trust Center for MIT Entrepreneurship",
+            "url": "https://cl.linkedin.com/company/martin-trust-center-for-mit-entrepreneurship?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Martin Trust Center for MIT Entrepreneurship",
+            "description": "Entrepreneurship is a craft that can be taught. Our focus is the education of MIT students to whom we provide proven frameworks, courses, co-curricular\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "14K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Digimoksha Solutions",
+            "url": "https://sv.linkedin.com/company/digimoksha-solutions",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Digimoksha Solutions",
+            "description": "Digimoksha walks with you on the path of successful business growth and help you realize your online venture plans. Our company provides you step by step\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Digimoksha walks with you on the path of successful business growth"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "HSAGP Energy",
+            "url": "https://www.linkedin.com/company/hsagpenergy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0HSAGP Energy",
+            "description": "The joint venture plans to invest $5 billion to build an EV battery cell plant in Bartow County, Georgia. Hyundai Motor Group and SK On will each hold a 50\u00a0...Read more",
+            "emphasizedKeywords": [
+              "venture plans"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Pacific Financial Advisors, Inc.",
+            "url": "https://www.linkedin.com/company/pacificfa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pacific Financial Advisors, Inc.",
+            "description": "Pacific Financial provides Investment Management, Tax, Retirement & Legacy planning in Washington, Oregon and California.Read more",
+            "emphasizedKeywords": [
+              "provides Investment Management, Tax, Retirement & Legacy planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Tokyo FinTech Association",
+            "url": "https://be.linkedin.com/company/tokyofintech",
+            "displayedUrl": "https://be.linkedin.com \u203a company \u203a tokyofintech",
+            "description": "\u4e00\u822c\u793e\u56e3\u6cd5\u4eba (General Incorporated Association) Tokyo FinTech is registered as a non-profit organization in Japan, and focused on running the largest and\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Mitsui E&P Australia (MEPAU)",
+            "url": "https://cn.linkedin.com/company/mitsui-e-p-australia-pty-ltd",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mitsui E&P Australia (MEPAU)",
+            "description": "Mitsui E&P Australia (MEPAU) is an Australian subsidiary of Mitsui & Co., Ltd. and is responsible for driving growth in energy investments in the region,\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "9K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/TbvDUGNM8RNxZBgKe/records/L2LPjcE8tT7RW0G-0.html?signature=10KyjXcYkIfKS5qhTy2xZ"
+      },
+      {
+        "#debug": {
+          "requestId": "i6zHW0s9RrSbGUK",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Financial Consulting Firm\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Kevin Callaghan - Co-Founder of Quantfi, a financial ...",
+            "url": "https://www.linkedin.com/in/kevin-callaghan-2833028/fr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kevin Callaghan",
+            "description": "Co-Founder of Quantfi, a financial consulting firm specializing in quantum computer technology. \u00b7 QuantFi is a France-based quantum start-up research firm\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "\u00c9tats-Unis",
+              "jobTitle": "CEO of Quantescence",
+              "companyName": "Quantescence",
+              "rawText": "\u00c9tats-Unis \u00b7 CEO of Quantescence \u00b7 Quantescence"
+            },
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Bill Bennett - Founder & President at Begin The Dream ...",
+            "url": "https://www.linkedin.com/in/billbennett1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bill Bennett",
+            "description": "Begin The Dream Financial is a specialized financial consulting firm dedicated to helping business owners and professionals build a solid financial blueprint\u00a0...Read more",
+            "emphasizedKeywords": [
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Tulsa, Oklahoma, United States",
+              "jobTitle": "Founder & President",
+              "companyName": "Begin The Dream Financial & White Coat Wealth Architects",
+              "rawText": "Tulsa, Oklahoma, United States \u00b7 Founder & President \u00b7 Begin The Dream Financial & White Coat Wealth Architects"
+            },
+            "followersAmount": "590+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Sherif Othman - Founder & CEO, Poise Investment Advisors",
+            "url": "https://www.linkedin.com/in/sherif-othman",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sherif Othman",
+            "description": "Managing Partner of a U.S.-based business and financial consulting firm specializing in cross-border advisory, international trade support, and strategic\u00a0...Read more",
+            "emphasizedKeywords": [
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "William Hansen CPA - President at STL CONSULTING, INC.",
+            "url": "https://www.linkedin.com/in/williamhansencpa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0William Hansen CPA",
+            "description": "Founder | President at STL CONSULTING, INC. \u00b7 ... Advanced Capital was a financial consulting firm providing accounting and financial services to small and medium\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Minneapolis-St. Paul Area",
+              "jobTitle": "Founder | President",
+              "companyName": "STL CONSULTING, INC.",
+              "rawText": "Greater Minneapolis-St. Paul Area \u00b7 Founder | President \u00b7 STL CONSULTING, INC."
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Donald Lippencott - Founder and CEO ...",
+            "url": "https://www.linkedin.com/in/donaldlippencott",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Donald Lippencott",
+            "description": "Founder & CEO. Lippencott Financial Group. 1987 - Present 39 years. East Setauket NY. Lippencott Financial Group is a financial consulting firm primarily\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "James Thomas Hoffer - Founder and Managing Director at ...",
+            "url": "https://www.linkedin.com/in/james-thomas-hoffer-116ba11b8",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0James Thomas Hoffer",
+            "description": "Founder and Managing Director at Hoffer Financial Consulting \u00b7 For the ... Financial Consulting Firm . We work side-by-side with c- level executives to\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "Financial Consulting Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Miami, Florida, United States",
+              "jobTitle": "Founder and Managing Director",
+              "companyName": "Hoffer Financial Consulting",
+              "rawText": "Miami, Florida, United States \u00b7 Founder and Managing Director \u00b7 Hoffer Financial Consulting"
+            },
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Juan Martin Duque - Founder and CEO at Duquesa ...",
+            "url": "https://www.linkedin.com/in/juan-martin-duque-b9016959",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Juan Martin Duque",
+            "description": "Juan is the Founder and CEO of Duquesa Consulting, a Strategy and Financial Consulting firm based in Miami, FL, through which he acts as the Sr. VP of Strategy\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Financial Consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Deborah Kranz - Co-Founder & CFO | Strategic Financial ...",
+            "url": "https://www.linkedin.com/in/deborahkranz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Deborah Kranz",
+            "description": "Deborah was the Founder and CEO of Kranz & Associates, a financial consulting firm grew over 25 years and successfully sold to a staffing compamy. Acted as\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco Bay Area",
+              "jobTitle": "Co-Founder",
+              "companyName": "Launch Finance",
+              "rawText": "San Francisco Bay Area \u00b7 Co-Founder \u00b7 Launch Finance"
+            },
+            "followersAmount": "4.1K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Maksim Dudchenko \u2013 Entrepreneur | Co-founder of a ...",
+            "url": "https://ua.linkedin.com/in/maksim-dudchenko-709a8aaa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Maksim Dudchenko",
+            "description": "Entrepreneur | Co-founder of a Financial Consulting Firm | Co-owner of Lift Logistic & Appstudio.com.ua | 22+ Years in International Business, Finance,\u00a0...",
+            "emphasizedKeywords": [
+              "founder",
+              "Financial Consulting Firm",
+              "owner"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "760+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Mohamed Hashem - FinVision (Financial Consulting Firm)",
+            "url": "https://eg.linkedin.com/in/mohamed-hashem2026",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mohamed Hashem",
+            "description": "Founder & CEO \u2013 FinVision (Financial Consulting Firm)\u200f \u00b7 \u200fI am the Founder & CEO of FinVision Consultant, with more than 25 years of hands-on experience\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Financial Consulting Firm",
+              "Founder",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "860+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/FhGAKOGrP1n2S6TDR/records/i6zHW0s9RrSbGUK-0.html?signature=7C3gKwpj5qETEHSrjcxM"
+      },
+      {
+        "#debug": {
+          "requestId": "uH7YKQlpKwPAXZm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Financial Consulting Firm\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Financial+Consulting+Firm%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Douglas Ceto - a national financial consulting firm",
+            "url": "https://www.linkedin.com/in/douglasceto",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Douglas Ceto",
+            "description": "President and CEO, Ceto \u2014 a national financial consulting firm \u00b7 Experience: Ceto \u00b7 Education: Ogelthorpe University \u00b7 Location: Alpharetta \u00b7 500+\u00a0...",
+            "emphasizedKeywords": [
+              "President",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Alpharetta, Georgia, United States",
+              "jobTitle": "President",
+              "companyName": "Ceto",
+              "rawText": "Alpharetta, Georgia, United States \u00b7 President \u00b7 Ceto"
+            },
+            "followersAmount": "680+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Mickel L Mercer Sr. - Principal Consultant & President ...",
+            "url": "https://www.linkedin.com/in/mickel-l-mercer-sr-1a58644b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mickel L Mercer Sr.",
+            "description": "Mickel Mercer is the CEO of Vism Financial Consulting Firm, a renowned figure in the financial industry known for his innovative strategies and leadership.Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Financial Consulting Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "John D. Hartigan - CEO, Principal at VisEx Global, Inc.",
+            "url": "https://www.linkedin.com/in/john-david-hartigan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John D. Hartigan",
+            "description": "I am a Managing Partner and Chief Executive Officer at Albion Capital Partners, LLC. This Chicago-based financial consulting firm advises global clients.Read more",
+            "emphasizedKeywords": [
+              "Chief Executive",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Sherif Othman - Founder & CEO, Poise Investment Advisors",
+            "url": "https://www.linkedin.com/in/sherif-othman",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sherif Othman",
+            "description": "Managing Partner of a U.S.-based business and financial consulting firm specializing in cross-border advisory, international trade support, and strategic\u00a0...Read more",
+            "emphasizedKeywords": [
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Bob Lobban - Newfound Consulting, Affiliated with Fischer ...",
+            "url": "https://www.linkedin.com/in/boblobban",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bob Lobban",
+            "description": "Interim President & Chief Executive Officer. Brook & Whittle, Ltd. Jan 2015 ... financial consulting firm after it had defaulted on its debt obligations.Read more",
+            "emphasizedKeywords": [
+              "President",
+              "Chief Executive",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "980+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Juan Martin Duque - Founder and CEO at Duquesa ...",
+            "url": "https://www.linkedin.com/in/juan-martin-duque-b9016959",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Juan Martin Duque",
+            "description": "Juan is the Founder and CEO of Duquesa Consulting, a Strategy and Financial Consulting firm based in Miami, FL, through which he acts as the Sr. VP of Strategy\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "Financial Consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Deborah Kranz - Co-Founder & CFO | Strategic Financial ...",
+            "url": "https://www.linkedin.com/in/deborahkranz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Deborah Kranz",
+            "description": "Deborah was the Founder and CEO of Kranz & Associates, a financial consulting firm grew over 25 years and successfully sold to a staffing compamy. Acted as\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "San Francisco Bay Area",
+              "jobTitle": "Co-Founder",
+              "companyName": "Launch Finance",
+              "rawText": "San Francisco Bay Area \u00b7 Co-Founder \u00b7 Launch Finance"
+            },
+            "followersAmount": "4.1K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Donald Lippencott - Founder and CEO ...",
+            "url": "https://www.linkedin.com/in/donaldlippencott",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Donald Lippencott",
+            "description": "Founder & CEO. Lippencott Financial Group. 1987 - Present 39 years. East Setauket NY. Lippencott Financial Group is a financial consulting firm primarily\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Robert Acheson - Principal at CEO Solutions Partners",
+            "url": "https://www.linkedin.com/in/robertachesoncfo",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Robert Acheson",
+            "description": "Robert Acheson. Principal at CEO Solutions Partners. National Financial Consulting Firm Boise State University. Greater Phoenix Area.Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Financial Consulting Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "470+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Kiaria Ross - Building Strong Financial Foundations",
+            "url": "https://www.linkedin.com/in/kiaria-ross-04291032",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kiaria Ross",
+            "description": "As CEO and Founder, I lead The Serial CEO Enterprises, a business and financial consulting firm dedicated to guiding entrepreneurs and individuals toward\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Founder",
+              "CEO",
+              "financial consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "210+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/WsHpByhXXR9FA8o1m/records/uH7YKQlpKwPAXZm-0.html?signature=1Azz7kqUFqxdNXbssHSxA"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Financial Consulting Firm",
+      "https://www.linkedin.com/company/financial-consulting-strategies-llc",
+      "https://www.linkedin.com/company/diamond-consultants",
+      "https://www.linkedin.com/company/strategic-financial-consulting-inc",
+      "https://www.linkedin.com/company/usfaaf",
+      "https://www.linkedin.com/company/financial-consulting-group-fcg-",
+      "https://www.linkedin.com/company/dreamteamfinancial",
+      "https://www.linkedin.com/company/financial-consulting-partners",
+      "https://www.linkedin.com/company/efcg-llc",
+      "https://www.linkedin.com/company/new-age-financial-consulting",
+      "https://www.linkedin.com/company/tfscg",
+      "https://www.linkedin.com/pub/dir/Financial/Consulting",
+      "https://www.linkedin.com/company/fti-consulting",
+      "https://www.linkedin.com/company/efcg-llc",
+      "https://www.linkedin.com/company/financial-consulting-strategies-llc",
+      "https://www.linkedin.com/company/financial-consulting-group-fcg-",
+      "https://www.linkedin.com/company/fpa-strategy",
+      "https://www.linkedin.com/company/financial-consulting-group-inc.",
+      "https://www.linkedin.com/top-content/consulting/outsourcing-consulting-firms/financial-strategy-consulting/",
+      "https://www.linkedin.com/company/first-financial-consulting",
+      "https://www.linkedin.com/company/strategic-financial-consulting-inc",
+      "site:linkedin.com/company ventureplans.us",
+      "https://www.linkedin.com/company/ventureplans",
+      "https://ae.linkedin.com/company/digimoksha-solutions",
+      "https://www.linkedin.com/company/opl-logistics-jsc",
+      "https://www.linkedin.com/company/tatco-trading-%26-contracting-co",
+      "https://cl.linkedin.com/company/martin-trust-center-for-mit-entrepreneurship?trk=ppro_cprof",
+      "https://sv.linkedin.com/company/digimoksha-solutions",
+      "https://www.linkedin.com/company/hsagpenergy",
+      "https://www.linkedin.com/company/pacificfa",
+      "https://be.linkedin.com/company/tokyofintech",
+      "https://cn.linkedin.com/company/mitsui-e-p-australia-pty-ltd",
+      "site:linkedin.com/in \"Financial Consulting Firm\" founder",
+      "https://www.linkedin.com/in/kevin-callaghan-2833028/fr",
+      "https://www.linkedin.com/in/billbennett1",
+      "https://www.linkedin.com/in/sherif-othman",
+      "https://www.linkedin.com/in/williamhansencpa",
+      "https://www.linkedin.com/in/donaldlippencott",
+      "https://www.linkedin.com/in/james-thomas-hoffer-116ba11b8",
+      "https://www.linkedin.com/in/juan-martin-duque-b9016959",
+      "https://www.linkedin.com/in/deborahkranz",
+      "https://ua.linkedin.com/in/maksim-dudchenko-709a8aaa",
+      "https://eg.linkedin.com/in/mohamed-hashem2026",
+      "site:linkedin.com/in \"Financial Consulting Firm\" ceo",
+      "https://www.linkedin.com/in/douglasceto",
+      "https://www.linkedin.com/in/mickel-l-mercer-sr-1a58644b",
+      "https://www.linkedin.com/in/john-david-hartigan",
+      "https://www.linkedin.com/in/sherif-othman",
+      "https://www.linkedin.com/in/boblobban",
+      "https://www.linkedin.com/in/juan-martin-duque-b9016959",
+      "https://www.linkedin.com/in/deborahkranz",
+      "https://www.linkedin.com/in/donaldlippencott",
+      "https://www.linkedin.com/in/robertachesoncfo",
+      "https://www.linkedin.com/in/kiaria-ross-04291032"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/31139649",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/johndaltonleadgen"
+  },
+  "lead_before_enrichment": {
+    "business": "Financial Consulting Firm",
+    "description": "Get funding with Harvard &amp; FINRA Accredited Experts! 10+ years in Financial Consulting, Alternative Lending, Business Financing, and Capital Raising. Tailored business consulting solutions.",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@ventureplans.us",
+    "phone_numbers": [],
+    "website": "https://ventureplans.us",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "https://www.linkedin.com/in/johndaltonleadgen",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/31139649",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/31139649",
+    "source_url": "https://ventureplans.us",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ventureplans.us",
+    "source_urls": [
+      "https://ventureplans.us"
+    ],
+    "title_raw": "Contact",
+    "name_quality": "full",
+    "email_observed": "info@ventureplans.us",
+    "email_source_url": "https://ventureplans.us",
+    "linkedin_source_url": "https://ventureplans.us",
+    "person_found_on_company_site": true,
+    "email_type": "generic",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Financial Consulting Firm",
+    "description": "Get funding with Harvard &amp; FINRA Accredited Experts! 10+ years in Financial Consulting, Alternative Lending, Business Financing, and Capital Raising. Tailored business consulting solutions.",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@ventureplans.us",
+    "phone_numbers": [],
+    "website": "https://ventureplans.us",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Contact",
+    "linkedin": "https://www.linkedin.com/in/johndaltonleadgen",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/31139649",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/31139649",
+    "source_url": "https://ventureplans.us",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Miami",
+    "country": "United States",
+    "state": "",
+    "city": "Miami",
+    "employee_count": "11-50",
+    "company_domain_canonical": "ventureplans.us",
+    "source_urls": [
+      "https://ventureplans.us"
+    ],
+    "title_raw": "Contact",
+    "name_quality": "full",
+    "email_observed": "info@ventureplans.us",
+    "email_source_url": "https://ventureplans.us",
+    "linkedin_source_url": "https://ventureplans.us",
+    "person_found_on_company_site": true,
+    "email_type": "generic",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Miami"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Miami"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    }
+  }
+}

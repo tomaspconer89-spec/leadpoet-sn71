@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "DNA Growth",
+  "lead": {
+    "business": "DNA Growth",
+    "full_name": "Mmuise Lead",
+    "first": "Mmuise",
+    "last": "Lead",
+    "email": "mmuise@muisemergersacquisitions.com",
+    "role": "Contact",
+    "website": "https://www.dnagrowth.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Austin",
+    "source_url": "https://dnagrowth.com",
+    "description": "We simplify finance for fast-growing businesses and finance heads and empower the people behind them. Our mission? To power client growth by enabling better business and financial decisions and simultaneously fostering a work culture where learning and growth go hand in hand. Whether you're a CEO, CFO, or fractional CFO, we\u2019re here to help you scale smarter and faster with data-driven financial solutions.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Bay Area",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/dnagrowth"
+  },
+  "source_failed_basename": "dde77d71d03b0e09e07d427dd629cfcf8c6694cfda613ed888d26148ae7d65ea.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/dde77d71d03b0e09e07d427dd629cfcf8c6694cfda613ed888d26148ae7d65ea.precheck_failed.json",
+  "queue_key": "a5066756e051c813056031f39e9b661776cc5609006b6de5419c450a0e265065"
+}

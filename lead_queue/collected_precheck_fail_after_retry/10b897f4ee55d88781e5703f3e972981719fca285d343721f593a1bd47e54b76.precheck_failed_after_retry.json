@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Collabor8 Digital | AI Automation & Growth Solutions",
+  "lead": {
+    "business": "Collabor8 Digital | AI Automation & Growth Solutions",
+    "full_name": "Info Lead",
+    "first": "Giselacastaneda",
+    "last": "Lead",
+    "email": "info@startupsadvisory.ai",
+    "role": "Contact",
+    "website": "http://www.collabor8digital.io",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "source_url": "https://startupsadvisory.ai",
+    "description": "Collabor8 Digital is a results-driven digital marketing and AI automation agency that helps businesses grow, engage, and convert their target audience through powerful online strategies and smart automation. We specialize in: Facebook & Instagram Advertising \u2013 running high-performing ad campaigns that drive measurable ROI. Website Design & Development \u2013 building modern, conversion-focused websites. Email Marketing \u2013 crafting campaigns that nurture, engage, and convert customers. Google My Business Optimization \u2013 improving local visibility and reputation.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Charlotte",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/collabor8digital",
+    "linkedin": "https://uk.linkedin.com/in/yiweilai"
+  },
+  "source_failed_basename": "4bb7f5575c89cf6047e897312a05a2321e2671a605809cf67ffe9d4a08d55d7f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4bb7f5575c89cf6047e897312a05a2321e2671a605809cf67ffe9d4a08d55d7f.precheck_failed.json",
+  "queue_key": "10b897f4ee55d88781e5703f3e972981719fca285d343721f593a1bd47e54b76"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Avondale Corporate",
+  "lead": {
+    "business": "Avondale Corporate",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "atav@avondale.co.uk",
+    "role": "Contact",
+    "website": "http://www.avondale.co.uk",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "London",
+    "state": "",
+    "city": "",
+    "source_url": "https://questnow.net",
+    "description": "Avondale is a leading business advisor that helps ambitious owners buy and sell companies, set up employee ownership trusts, secure investment, grow and create shareholder value. We have been advising dynamic entrepreneurs and companies on how to structure the best exit strategies to achieve their ambitions and secure maximum value for over 30 years both in the UK and internationally.",
+    "employee_count": "11-50",
+    "hq_country": "London",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/28186365",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/avondale-corporate"
+  },
+  "source_failed_basename": "6a7396227ccd6edb2d82e5e402d250b4f32e3611640fc21953f62d03b6c2a099.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6a7396227ccd6edb2d82e5e402d250b4f32e3611640fc21953f62d03b6c2a099.precheck_failed.json",
+  "queue_key": "d4bfdb7d68831b356f09d1dfe9388fbbd589a43d5fc0833374fd403f34736685"
+}

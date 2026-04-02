@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "name_not_in_email",
+  "business": "Gauvreau | Accounting Tax Law Advisory",
+  "lead": {
+    "business": "Gauvreau | Accounting Tax Law Advisory",
+    "full_name": "Robert Gauvreau, FCPA, FCA",
+    "first": "Robert",
+    "last": "Gauvreau, FCPA, FCA",
+    "email": "20admin@gauvreaucpa.ca",
+    "role": "Partner",
+    "website": "https://gauvreaucpa.ca/",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Peterborough",
+    "source_url": "https://gauvreaucpa.ca",
+    "description": "At Gauvreau Accounting Tax Law Advisory, entrepreneurship drives everything we do. Founded in 2008 as a one-person practice, we\u2019ve grown into a cloud-based, multi-disciplinary firm with more than 200 professionals serving thousands of entrepreneurs and business owners across North America. We help transform great ideas into thriving enterprises by guiding business leaders through complexity with clarity, strategy, and confidence.",
+    "employee_count": "51-200",
+    "hq_country": "Ontario",
+    "hq_state": "Ontario",
+    "hq_city": "Peterborough",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/gauvreaucpa",
+    "linkedin": "https://linkedin.com/in/robert-gauvreau"
+  },
+  "source_failed_basename": "48ab4c024fe00ac59715d95fb4fee1cbcab17bca3b51eb1a1f87ba3966c706a5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/48ab4c024fe00ac59715d95fb4fee1cbcab17bca3b51eb1a1f87ba3966c706a5.precheck_failed.json",
+  "queue_key": "3e279c5515ef9c89b0ddc9a29ea95e827e59943b01bdc3d67feeba1ea33d2908"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "retry_reason": "invalid_sub_industry:'Non-profit Organizations'",
+  "previous_reason": "name_not_in_email",
+  "business": "Greater Raleigh Chamber",
+  "lead": {
+    "business": "Greater Raleigh Chamber",
+    "full_name": "Adrienne Cole",
+    "first": "Adrienne",
+    "last": "Cole",
+    "email": "acole@raleighchamber.org",
+    "role": "President & CEO",
+    "website": "http://www.raleighchamber.org",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "source_url": "https://raleighchamber.org",
+    "description": "The Greater Raleigh Chamber is the major catalyst and community consensus builder, creating a vibrant, diverse, and sustainable business climate that encourages job growth, workforce development, and economic prosperity and affirms the Triangle as the country\u2019s best region for quality of life.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "North Carolina",
+    "hq_city": "Raleigh",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/raleighchamber",
+    "linkedin": "https://linkedin.com/in/adrienne-cole-grcceo"
+  },
+  "source_failed_basename": "0da62345e2091083066c7459e6f9bdd02b48c2dc8e0462110045dc3f1430fb09.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0da62345e2091083066c7459e6f9bdd02b48c2dc8e0462110045dc3f1430fb09.precheck_failed.json",
+  "queue_key": "0734fb040b229e816e8a874011f677ee7af856a0f49c82562aba22ce515434b1"
+}

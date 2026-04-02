@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Accueil",
+  "lead": {
+    "business": "Accueil",
+    "full_name": "om kini",
+    "first": "om",
+    "last": "kini",
+    "email": "contact@matieregrise-executive.com",
+    "role": "Content Creator",
+    "website": "http://www.accueil.it",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "India",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "source_url": "https://matieregrise-executive.com",
+    "description": "ACCUEIL is a leading Italian company in the field of Call Center and Business Process Outsourcing Services. Special focus on Teleselling ranking on the top 5 companies in Italy. Telemarketing Teleselling Document Management Inbound Contact Center Back Office services Customer satisfaction surveys Data mining",
+    "employee_count": "501-1,000",
+    "hq_country": "Reggio Calabria",
+    "hq_state": "Maharashtra",
+    "hq_city": "Mumbai",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/accueil",
+    "linkedin": "https://linkedin.com/in/omkini"
+  },
+  "source_failed_basename": "dd31074762305fa7b01e1f25e19bc63947fca52f8759e52b425f1eb67bce47ba.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/dd31074762305fa7b01e1f25e19bc63947fca52f8759e52b425f1eb67bce47ba.precheck_failed.json",
+  "queue_key": "04782f2c7a565fb36bbbef6fcad8c7438283e9e1da987dcafd85fd38cb52103a"
+}

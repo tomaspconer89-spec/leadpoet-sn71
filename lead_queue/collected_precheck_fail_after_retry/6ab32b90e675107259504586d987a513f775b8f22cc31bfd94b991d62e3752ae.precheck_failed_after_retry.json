@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Tower Creative Communications",
+  "lead": {
+    "business": "Tower Creative Communications",
+    "full_name": "Lulu Zhang",
+    "first": "Lulu",
+    "last": "Zhang",
+    "email": "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+    "role": "Innovation Analyst - Disruptive Technology",
+    "website": "https://towercreative.org",
+    "industry": "Sales and Marketing",
+    "sub_industry": "Public Relations",
+    "country": "Canada",
+    "state": "British Columbia",
+    "city": "Victoria",
+    "source_url": "https://goemerald.ca",
+    "description": "Tower Creative Communications is the nationally affiliated, student-run public relations agency at Belmont University. The agency was established in 2006 as a professional development initiative of Belmont\u2019s chapter of the Public Relations Student Society of America (PRSSA). Tower Creative gives emerging professionals the opportunity to sharpen their skills by working alongside real clients to research, plan, implement and evaluate solutions to actual communication needs.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Tennessee",
+    "hq_city": "Nashville",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/towercreative",
+    "linkedin": "https://linkedin.com/in/luluzhang919"
+  },
+  "source_failed_basename": "b8e45c1ff1860564ba0ab85f866582cf855877ba122c03a9c803f09bafe719ca.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b8e45c1ff1860564ba0ab85f866582cf855877ba122c03a9c803f09bafe719ca.precheck_failed.json",
+  "queue_key": "6ab32b90e675107259504586d987a513f775b8f22cc31bfd94b991d62e3752ae"
+}

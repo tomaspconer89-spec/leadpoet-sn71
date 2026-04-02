@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Toptal",
+  "lead": {
+    "business": "Toptal",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Vice President",
+    "website": "https://www.toptal.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "Remote",
+    "state": "",
+    "city": "Work from Anywhere",
+    "source_url": "https://toptal.com",
+    "description": "With over $5 billion in global payments, $200 million in annual revenue, 70k contracts signed \u2014 Toptal is the world\u2019s largest fully remote workforce.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "Remote",
+    "hq_state": "",
+    "hq_city": "Work from Anywhere",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/toptal"
+  },
+  "source_failed_basename": "d3fa593ea61c8409ac3a8b08517199e872a4426d99d07581102e49b80d04a65f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d3fa593ea61c8409ac3a8b08517199e872a4426d99d07581102e49b80d04a65f.precheck_failed.json",
+  "queue_key": "aecabfd7afd4320ce9351da232576fb33386ec640ce5d909de25d3f655627d01"
+}

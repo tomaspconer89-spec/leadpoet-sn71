@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Ankura",
+  "lead": {
+    "business": "Ankura",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Vice President",
+    "website": "http://ankura.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://ankura.com",
+    "description": "Ankura Consulting Group, LLC is an independent global expert services and advisory firm that delivers services and end-to-end solutions to help clients at critical inflection points related to change, risk, disputes, finance, performance, distress, and transformation. The Ankura team consists of more than 1,800 professionals in more than 35 locations globally who are leaders in their respective fields and areas of expertise.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ankura-consulting-group"
+  },
+  "source_failed_basename": "72ca89e1cc4be3abe1f2d0a69cefca2129565e2aa96407ff8a9e9c8e79f9d65f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/72ca89e1cc4be3abe1f2d0a69cefca2129565e2aa96407ff8a9e9c8e79f9d65f.precheck_failed.json",
+  "queue_key": "5436382b19c2531cf8747dfa9f10944d09ca8961eb6efc6586d5e3315f0e99ff"
+}

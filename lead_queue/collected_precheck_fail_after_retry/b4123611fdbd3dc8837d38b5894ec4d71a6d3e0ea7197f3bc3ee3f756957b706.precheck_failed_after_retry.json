@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Home.LLC",
+  "lead": {
+    "business": "Home.LLC",
+    "full_name": "Chris Newman",
+    "first": "Chris",
+    "last": "Newman",
+    "email": "",
+    "role": "Assistant to Accounting Department",
+    "website": "http://www.home.llc",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Lutz",
+    "source_url": "https://datamaelumat.com",
+    "description": "\ud83c\udfe0 Home Equity Investments: Extract up to $500K from your home equity \ud83c\udfaf Homie.LLC: Achieve your goals with world class talent from $20/hr \ud83d\udcb0 Home Equity Funds: Generate strong risk-adjusted returns",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hoominc",
+    "linkedin": "https://linkedin.com/in/chris-newman-b4a0506b"
+  },
+  "source_failed_basename": "ab4ebbc4b957226e2a3b14bdc58474fb69bc4efdb34cf4ff1473aa0285535025.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ab4ebbc4b957226e2a3b14bdc58474fb69bc4efdb34cf4ff1473aa0285535025.precheck_failed.json",
+  "queue_key": "b4123611fdbd3dc8837d38b5894ec4d71a6d3e0ea7197f3bc3ee3f756957b706"
+}

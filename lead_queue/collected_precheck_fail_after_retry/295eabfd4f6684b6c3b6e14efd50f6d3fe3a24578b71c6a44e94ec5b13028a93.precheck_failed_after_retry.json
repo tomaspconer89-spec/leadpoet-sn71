@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_sub_industry:'Engineering Services'",
+  "retry_reason": "invalid_sub_industry:'Engineering Services'",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "AFRY",
+  "lead": {
+    "business": "AFRY",
+    "full_name": "Venice Policarpio",
+    "first": "Venice",
+    "last": "Policarpio",
+    "email": "venice.policarpio@afry.com",
+    "role": "Sales Analytics",
+    "website": "https://www.afry.com",
+    "industry": "Professional Services",
+    "sub_industry": "Engineering Services",
+    "country": "Philippines",
+    "state": "National Capital Region",
+    "city": "Makati",
+    "source_url": "https://afry.com",
+    "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society. We are 19,000 devoted experts in infrastructure, industry, energy and digitalisation, creating sustainable solutions for generations to come.",
+    "employee_count": "10,001+",
+    "hq_country": "Sweden",
+    "hq_state": "Haryana",
+    "hq_city": "Stockholm",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/afry",
+    "linkedin": "https://linkedin.com/in/venicepolicarpio"
+  },
+  "source_failed_basename": "ccc2d2ba7d573fc70be2756cb65c1ca96ab20bc1246425eae58283fd9c3e2e68.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ccc2d2ba7d573fc70be2756cb65c1ca96ab20bc1246425eae58283fd9c3e2e68.precheck_failed.json",
+  "queue_key": "295eabfd4f6684b6c3b6e14efd50f6d3fe3a24578b71c6a44e94ec5b13028a93"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Startup Advisory Group",
+  "lead": {
+    "business": "Startup Advisory Group",
+    "full_name": "Angela Bao",
+    "first": "Angela",
+    "last": "Bao",
+    "email": "barboza@nytimes.com",
+    "role": "Founder and Principal",
+    "website": "http://www.startupadvisorygroup.co",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "New York",
+    "city": "San Francisco Bay Area",
+    "source_url": "https://startupadvisory.in",
+    "description": "Startup Advisory Group is a consulting and execution firm with over a decade of experience supporting entrepreneurs, nonprofits, and organizations as they build, operate, and scale impactful ventures. We work with founders and leadership teams to strengthen the systems behind their work\u2014growth strategy, operations, fundraising, digital infrastructure, and the responsible use of technology and AI. Our approach is practical and hands-on, focused on helping organizations move from ideas to execution and from growth to sustainability.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Staten Island",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startupadvisorygroup",
+    "linkedin": "https://linkedin.com/in/angelabaobeibei"
+  },
+  "source_failed_basename": "1c30004818b014b2ce1fafade0564a1cc1deb023a494da190a587594b2c34f8c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1c30004818b014b2ce1fafade0564a1cc1deb023a494da190a587594b2c34f8c.precheck_failed.json",
+  "queue_key": "44b3a36732e3c1f8a8cd8406173e7681c067ba3c5c47bc9d8c1f8d9a9c3b8023"
+}

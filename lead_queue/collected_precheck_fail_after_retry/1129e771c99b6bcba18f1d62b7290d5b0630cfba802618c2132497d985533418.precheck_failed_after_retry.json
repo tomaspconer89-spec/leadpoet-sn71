@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Black Ink Tax & Accounting",
+  "lead": {
+    "business": "Black Ink Tax & Accounting",
+    "full_name": "Info Lead",
+    "first": "Calvinhjr",
+    "last": "Lead",
+    "email": "info@bitaccounting.com",
+    "role": "Contact",
+    "website": "https://www.bitaccounting.com",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "United States",
+    "state": "New York",
+    "city": "NYC",
+    "source_url": "https://bitaccounting.com",
+    "description": "At Black Ink Tax, we are committed to delivering reliable and affordable taxation services. Located in Latham, New York, we specialize in comprehensive tax planning and accounting solutions tailored to meet the specific needs of our clients. Our expertise extends to providing optimal payroll solutions for businesses of all sizes. Our dedicated payroll specialists work meticulously to ensure accurate and efficient payroll management, empowering you to make informed business decisions. Trust Black Ink Tax for all your taxation, accounting, and payroll needs.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Brooklyn",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bitaccountingofficial"
+  },
+  "source_failed_basename": "6b6acaa1a086d7d296869db73d3b29414359d7ea8a9850f40de75a2fb622fb79.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6b6acaa1a086d7d296869db73d3b29414359d7ea8a9850f40de75a2fb622fb79.precheck_failed.json",
+  "queue_key": "1129e771c99b6bcba18f1d62b7290d5b0630cfba802618c2132497d985533418"
+}

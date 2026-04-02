@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email",
+  "business": "Expert Consulting Services, LLC",
+  "lead": {
+    "business": "Expert Consulting Services, LLC",
+    "full_name": "Dwayne A DePrizio",
+    "first": "Dwayne A",
+    "last": "DePrizio",
+    "email": "",
+    "role": "Founder/COO",
+    "website": "http://www.expertconsultingsvcs.com",
+    "industry": "Financial Services",
+    "sub_industry": "Insurance",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Lewisville",
+    "source_url": "https://consulting-experts.com",
+    "description": "Our experts are focused on building relationships and providing transparency into your case. We give you the time and guidance you deserve. Whether you\u2019re an attorney representing a client or an individual seeking advice on a claim, we'll navigate the situation together. Contact us today!",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Wisconsin",
+    "hq_city": "Appleton",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/expert-consulting-services-llc",
+    "linkedin": "https://linkedin.com/in/dwayne-a-deprizio-9513b2246"
+  },
+  "source_failed_basename": "45a8f8784b487e4344ec3ebe483881821c3261aa55c135f2055713d2ec466e99.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/45a8f8784b487e4344ec3ebe483881821c3261aa55c135f2055713d2ec466e99.precheck_failed.json",
+  "queue_key": "76b282ae0f02a831e2792dd1c943caa9e15cef1fb0843e8e835a5209775b22bc"
+}

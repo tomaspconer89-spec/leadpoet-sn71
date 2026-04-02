@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Revenge Capital",
+  "lead": {
+    "business": "Revenge Capital",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "emailkalanibyrd@revenge.capitaland",
+    "role": "FOUNDER",
+    "website": "https://usstartupfounders.com",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "CA",
+    "city": "Mountain View",
+    "source_url": "https://usstartupfounders.com",
+    "description": "Revenge Capital is an evergreen, nonpartisan, sector-agnostic, global impact fund that invests our time, network, capital and resources into overlooked founders: women, BAME, BIPOC, LGBTQIA+, disabled individuals, neurodiverse, anti-ageist, untraditionally educated, socio-economically disadvantaged \u2013 and their big disruptive ideas. We also work alongside world leaders, politicians and policymakers whose agenda it is to end the economic abuse of those most vulnerable, and whose job it is to build a more just, free, inclusive and humane world.",
+    "employee_count": "2-10",
+    "hq_country": "London",
+    "hq_state": "CA",
+    "hq_city": "Mountain View",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/revenge-capital-llp"
+  },
+  "source_failed_basename": "03b9e72879865ab43ba57a6ad9e8aafa8423b87a8cfb8e9ea31c069955faf6d8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/03b9e72879865ab43ba57a6ad9e8aafa8423b87a8cfb8e9ea31c069955faf6d8.precheck_failed.json",
+  "queue_key": "580454d352a4009e9bb0057c0ff92c9373e290311125fe83724bd160615c443a"
+}

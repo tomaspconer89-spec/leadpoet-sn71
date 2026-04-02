@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city",
+  "business": "startup! Advisors GmbH",
+  "lead": {
+    "business": "startup! Advisors GmbH",
+    "full_name": "Romain Burel",
+    "first": "Romain",
+    "last": "Burel",
+    "email": "",
+    "role": "Courtier",
+    "website": "http://www.startup-advisors.de/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "France",
+    "state": "Auvergne-Rh\u00f4ne-Alpes",
+    "city": "Annecy",
+    "source_url": "https://startup-advisory.com",
+    "description": "We enable your entrepreneurial business aspirations and allow corporates, small and medium enterprises to raise time-critical opportunities and commercialize past investments. With a unique, open approach we integrate the corporate and startup way to build new business models. We are helping you to start your business!",
+    "employee_count": "2-10",
+    "hq_country": "Nordrhein-Westfalen",
+    "hq_state": "Auvergne-Rh\u00f4ne-Alpes",
+    "hq_city": "Bonn",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://de.linkedin.com/company/startup-advisors-gmbh",
+    "linkedin": "https://linkedin.com/in/romain-burel-a4b809389"
+  },
+  "source_failed_basename": "2545c22cf64cbaad953a56c49c6e3a9a84f3dc970e592e91df1600f80092cef5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2545c22cf64cbaad953a56c49c6e3a9a84f3dc970e592e91df1600f80092cef5.precheck_failed.json",
+  "queue_key": "7a6caebbc960eb0f0089c54a8b2472f01a8b363ade870e2754d0c8947a67d07c"
+}

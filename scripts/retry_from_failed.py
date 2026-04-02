@@ -1,27 +1,58 @@
 #!/usr/bin/env python3
 """
-Retry conversion for lead_queue/failed precheck artifacts.
+Retry enrichment for precheck-failed artifacts.
 
 Flow:
-1) Read *.precheck_failed.json
-2) Reconstruct lead using available preview + /tmp crawl artifacts
-3) Enrich linkedin/company_linkedin via search
+1) Read *.precheck_failed.json from ``--failed-dir``
+2) Reconstruct lead from embedded lead payload (or preview + /tmp crawl artifacts)
+3) Run ``enrich_linkedin_fields`` from ``convert_raw_to_pending.py`` (Apify search
+   to discover URLs if missing, then Apify LinkedIn person/company actors from
+   ``APIFY_LINKEDIN_*_ACTOR_ID`` to fill fields — same as the main pipeline)
 4) Run precheck again
-5) Write valid leads to lead_queue/pending
+5) **Pass:** write to ``--pending-dir`` (e.g. collected_pass)
+6) **Still fail:** write to ``--still-fail-dir`` with ``reason`` (and prior reason),
+   then **remove** the artifact from ``--failed-dir`` (unless ``--update-source-failed``)
+7) **Pass:** write to ``--pending-dir`` and **remove** the artifact from ``--failed-dir``
+
+Requires repo-root ``.env`` with ``APIFY_API_TOKEN`` and actor IDs (see ``env.example``).
 """
 
 from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.util
 import json
-import os
-import urllib.parse
-import urllib.request
+import sys
+from collections import Counter
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple
+from typing import Any, Callable, Dict, Optional, Tuple
+
+# Ensure repository root is importable when running as:
+#   python3 scripts/retry_from_failed.py
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from miner_models.lead_precheck import precheck_lead
+
+
+def _load_enrich_linkedin_fields() -> Callable[[Dict[str, Any]], Dict[str, Any]]:
+    conv = REPO_ROOT / "scripts" / "convert_raw_to_pending.py"
+    if not conv.is_file():
+        raise FileNotFoundError(f"Missing {conv}")
+    spec = importlib.util.spec_from_file_location("_crtp_retry_failed", conv)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not load module spec for {conv}")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    fn = getattr(mod, "enrich_linkedin_fields", None)
+    if fn is None:
+        raise AttributeError(f"{conv} has no enrich_linkedin_fields")
+    return fn
+
+
+enrich_linkedin_fields = _load_enrich_linkedin_fields()
 
 
 VALID_EMPLOYEE_COUNTS = {
@@ -89,155 +120,17 @@ def clean_linkedin(url: str, kind: str) -> str:
     return u if "/company/" in u and "/in/" not in u else ""
 
 
-def http_json(url: str, method: str = "GET", headers: Optional[Dict[str, str]] = None, body: Optional[bytes] = None) -> Dict[str, Any]:
-    req = urllib.request.Request(url=url, method=method, headers=headers or {}, data=body)
-    with urllib.request.urlopen(req, timeout=12) as resp:
-        data = resp.read().decode("utf-8")
-    return json.loads(data)
-
-
-def _collect_linkedin_urls(obj: Any, out: list[str]) -> None:
-    if isinstance(obj, dict):
-        for v in obj.values():
-            _collect_linkedin_urls(v, out)
+def _unlink_if_under_failed_dir(path: Path, failed_dir: Path) -> None:
+    """Remove ``path`` only if it is a file inside ``failed_dir`` (safety guard)."""
+    try:
+        path.resolve().relative_to(failed_dir.resolve())
+    except ValueError:
         return
-    if isinstance(obj, list):
-        for v in obj:
-            _collect_linkedin_urls(v, out)
-        return
-    if isinstance(obj, str):
-        s = obj.strip()
-        if "linkedin.com/" in s.lower():
-            out.append(s)
-
-
-def apify_search_urls(query: str) -> list[str]:
-    token = os.getenv("APIFY_API_TOKEN", "").strip()
-    if not token:
-        return []
-    actor_id = os.getenv("APIFY_SEARCH_ACTOR_ID", "apify/google-search-scraper").strip()
-    run_url = f"https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items?token={urllib.parse.quote(token)}"
-    payload = {
-        "queries": [query],
-        "resultsPerPage": 10,
-        "maxPagesPerQuery": 1,
-        "mobileResults": False,
-    }
-    headers = {"Content-Type": "application/json", "Accept": "application/json"}
     try:
-        data = http_json(run_url, method="POST", headers=headers, body=json.dumps(payload).encode("utf-8"))
-        urls: list[str] = []
-        _collect_linkedin_urls(data, urls)
-        deduped: list[str] = []
-        seen = set()
-        for u in urls:
-            if u not in seen:
-                seen.add(u)
-                deduped.append(u)
-        return deduped
-    except Exception:
-        return []
-
-
-def search_urls(query: str) -> list[str]:
-    urls: list[str] = []
-    serper_key = os.getenv("SERPER_API_KEY", "").strip()
-    brave_key = os.getenv("BRAVE_API_KEY", "").strip()
-    gse_key = os.getenv("GSE_API_KEY", "").strip()
-    gse_cx = os.getenv("GSE_CX", "").strip()
-    apify_urls = apify_search_urls(query)
-    if apify_urls:
-        return apify_urls
-
-    try:
-        if serper_key:
-            payload = json.dumps({"q": query, "num": 10, "page": 1}).encode("utf-8")
-            data = http_json(
-                "https://google.serper.dev/search",
-                method="POST",
-                headers={"X-API-KEY": serper_key, "Content-Type": "application/json"},
-                body=payload,
-            )
-            for item in data.get("organic", []):
-                u = (item.get("link") or "").strip()
-                if u:
-                    urls.append(u)
-            return urls
-    except Exception:
+        if path.is_file():
+            path.unlink()
+    except OSError:
         pass
-
-    try:
-        if brave_key:
-            q = urllib.parse.quote(query)
-            data = http_json(
-                f"https://api.search.brave.com/res/v1/web/search?q={q}&count=10&offset=0",
-                headers={
-                    "Accept": "application/json",
-                    "Accept-Encoding": "gzip",
-                    "X-Subscription-Token": brave_key,
-                },
-            )
-            for item in data.get("web", {}).get("results", []):
-                u = (item.get("url") or "").strip()
-                if u:
-                    urls.append(u)
-            return urls
-    except Exception:
-        pass
-
-    try:
-        if gse_key and gse_cx:
-            q = urllib.parse.quote(query)
-            data = http_json(
-                f"https://www.googleapis.com/customsearch/v1?key={gse_key}&cx={gse_cx}&q={q}&start=1&num=10"
-            )
-            for item in data.get("items", []):
-                u = (item.get("link") or "").strip()
-                if u:
-                    urls.append(u)
-            return urls
-    except Exception:
-        pass
-    return urls
-
-
-def enrich_linkedin_fields(lead: Dict[str, Any]) -> Dict[str, Any]:
-    business = (lead.get("business") or "").strip()
-    website = (lead.get("website") or "").strip()
-    domain = website.replace("https://", "").replace("http://", "").split("/")[0].replace("www.", "")
-    person_name = (lead.get("full_name") or "").strip()
-
-    if not lead.get("company_linkedin"):
-        company_queries = [
-            f"site:linkedin.com/company {business}",
-            f"{business} linkedin company",
-            f"site:linkedin.com/company {domain}",
-        ]
-        for q in company_queries:
-            for u in search_urls(q):
-                cu = clean_linkedin(u, "company")
-                if cu:
-                    lead["company_linkedin"] = cu
-                    break
-            if lead.get("company_linkedin"):
-                break
-
-    if not lead.get("linkedin"):
-        queries = []
-        if person_name and person_name.lower() not in {"not listed", "unknown", "n/a"}:
-            queries.append(f'site:linkedin.com/in "{person_name}" "{business}"')
-            queries.append(f'site:linkedin.com/in "{person_name}" "{domain}"')
-        queries.append(f'site:linkedin.com/in "{business}" founder')
-        queries.append(f'site:linkedin.com/in "{business}" ceo')
-        for q in queries:
-            for u in search_urls(q):
-                pu = clean_linkedin(u, "person")
-                if pu:
-                    lead["linkedin"] = pu
-                    break
-            if lead.get("linkedin"):
-                break
-    return lead
 
 
 def queue_key(lead: Dict[str, Any]) -> str:
@@ -255,6 +148,9 @@ def parse_domain_from_source_file(name: str) -> str:
     # remove __N suffix if present
     if "__" in base:
         base = base.split("__")[0]
+    # Newer queue keys are sha256 digests; they are not domains.
+    if "." not in base:
+        return ""
     return base
 
 
@@ -273,6 +169,17 @@ def load_tmp_crawl_artifact(domain: str) -> Optional[Dict[str, Any]]:
 
 
 def reconstruct_lead(failed_obj: Dict[str, Any], domain: str) -> Optional[Dict[str, Any]]:
+    embedded = failed_obj.get("lead")
+    if isinstance(embedded, dict) and embedded:
+        lead = dict(embedded)
+        if not (lead.get("website") or "").strip() and domain:
+            lead["website"] = f"https://{domain}"
+        if not (lead.get("source_url") or "").strip():
+            lead["source_url"] = str(lead.get("website") or "")
+        if not (lead.get("source_type") or "").strip():
+            lead["source_type"] = "company_site"
+        return lead
+
     preview = failed_obj.get("lead_preview") or {}
     if not isinstance(preview, dict):
         preview = {}
@@ -346,14 +253,26 @@ def reconstruct_lead(failed_obj: Dict[str, Any], domain: str) -> Optional[Dict[s
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Retry failed precheck artifacts")
-    parser.add_argument("--failed-dir", default="lead_queue/failed")
-    parser.add_argument("--pending-dir", default="lead_queue/pending")
+    parser.add_argument("--failed-dir", default="lead_queue/collected_precheck_fail")
+    parser.add_argument("--pending-dir", default="lead_queue/collected_pass")
+    parser.add_argument(
+        "--still-fail-dir",
+        default="lead_queue/collected_precheck_fail_after_retry",
+        help="Where to save leads that still fail precheck after retry (with reason fields).",
+    )
+    parser.add_argument(
+        "--update-source-failed",
+        action="store_true",
+        help="Keep and rewrite the original in --failed-dir (still-fail case); default is delete after copy to --still-fail-dir.",
+    )
     parser.add_argument("--limit", type=int, default=0, help="0 = all")
     args = parser.parse_args()
 
     failed_dir = Path(args.failed_dir)
     pending_dir = Path(args.pending_dir)
+    still_fail_dir = Path(args.still_fail_dir)
     pending_dir.mkdir(parents=True, exist_ok=True)
+    still_fail_dir.mkdir(parents=True, exist_ok=True)
 
     files = sorted(failed_dir.glob("*.precheck_failed.json"))
     if args.limit > 0:
@@ -364,6 +283,7 @@ def main() -> int:
     queued = 0
     still_failed = 0
     skipped_exists = 0
+    fail_reasons: Counter[str] = Counter()
 
     for f in files:
         try:
@@ -372,6 +292,13 @@ def main() -> int:
             continue
         source_file = failed_obj.get("source_file", f.name)
         domain = parse_domain_from_source_file(source_file)
+        if not domain:
+            lead_obj = failed_obj.get("lead") if isinstance(failed_obj, dict) else {}
+            if isinstance(lead_obj, dict):
+                website = str(lead_obj.get("website") or lead_obj.get("source_url") or "").strip()
+                if website:
+                    host = website.replace("https://", "").replace("http://", "").split("/")[0]
+                    domain = host.replace("www.", "")
         lead = reconstruct_lead(failed_obj, domain)
         if not lead:
             still_failed += 1
@@ -384,17 +311,42 @@ def main() -> int:
         ok, reason = precheck_lead(lead)
         if not ok:
             still_failed += 1
-            failed_obj["retry_reason"] = reason
-            f.write_text(json.dumps(failed_obj, ensure_ascii=True, indent=2))
+            r = (reason or "unknown").strip() or "unknown"
+            fail_reasons[r] += 1
+            prev_reason = failed_obj.get("reason")
+            key = queue_key(lead)
+            after_payload: Dict[str, Any] = {
+                "reason": r,
+                "retry_reason": r,
+                "previous_reason": prev_reason,
+                "business": lead.get("business"),
+                "lead": lead,
+                "source_failed_basename": f.name,
+                "source_failed_path": str(f.resolve()),
+                "queue_key": key,
+            }
+            out_still = still_fail_dir / f"{key}.precheck_failed_after_retry.json"
+            out_still.write_text(
+                json.dumps(after_payload, ensure_ascii=True, indent=2, default=str)
+            )
+            if args.update_source_failed:
+                failed_obj["lead"] = lead
+                failed_obj["retry_reason"] = r
+                failed_obj["previous_reason"] = prev_reason
+                failed_obj["after_retry_artifact"] = str(out_still.resolve())
+                f.write_text(json.dumps(failed_obj, ensure_ascii=True, indent=2, default=str))
+            else:
+                _unlink_if_under_failed_dir(f, failed_dir)
             continue
 
         key = queue_key(lead)
         out = pending_dir / f"{key}.json"
         if out.exists():
             skipped_exists += 1
-            continue
-        out.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
-        queued += 1
+        else:
+            out.write_text(json.dumps(lead, ensure_ascii=True, indent=2))
+            queued += 1
+        _unlink_if_under_failed_dir(f, failed_dir)
 
     print(f"Failed inputs:         {total}")
     print(f"Reconstructed leads:   {reconstructed}")
@@ -402,6 +354,11 @@ def main() -> int:
     print(f"Still failing precheck:{still_failed}")
     print(f"Skipped existing:      {skipped_exists}")
     print(f"Pending dir:           {pending_dir.resolve()}")
+    print(f"Still fail after retry:{still_fail_dir.resolve()}")
+    if fail_reasons:
+        print("Top fail reasons:")
+        for reason, count in fail_reasons.most_common(10):
+            print(f"  {count} :: {reason}")
     return 0
 
 

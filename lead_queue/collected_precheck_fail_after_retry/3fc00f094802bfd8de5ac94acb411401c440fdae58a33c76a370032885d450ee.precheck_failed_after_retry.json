@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Altar.io",
+  "lead": {
+    "business": "Altar.io",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "partner",
+    "website": "https://altar.io/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Washington",
+    "source_url": "https://altar.io",
+    "description": "We are an award-winning product and software development company formed by ex-startup founders who have a deep understanding of the startup ecosystem. We leverage our entrepreneurial experience and proven processes to design and build high-quality, user-centric software products that empower entrepreneurs and business leaders to challenge and transform their industries. Our Northern Star is the success of our clients. To help them build successful products, we mimic the behaviour of an internal team through a policy of extreme transparency and close communication. Our approach includes:",
+    "employee_count": "11-50",
+    "hq_country": "Lisboa e Vale do Tejo",
+    "hq_state": "",
+    "hq_city": "Lisbon",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://pt.linkedin.com/company/altar.io"
+  },
+  "source_failed_basename": "d39a17a43c3941034717cd488ed21e4fb6cfeb7efcd15ba0c941b4490de60a0f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d39a17a43c3941034717cd488ed21e4fb6cfeb7efcd15ba0c941b4490de60a0f.precheck_failed.json",
+  "queue_key": "3fc00f094802bfd8de5ac94acb411401c440fdae58a33c76a370032885d450ee"
+}

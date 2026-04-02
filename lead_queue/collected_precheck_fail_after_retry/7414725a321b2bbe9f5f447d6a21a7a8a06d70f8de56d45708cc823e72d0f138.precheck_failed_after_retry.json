@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Venture Partner Consulting",
+  "lead": {
+    "business": "Venture Partner Consulting",
+    "full_name": "Info Lead",
+    "first": "Marktaylorws",
+    "last": "Lead",
+    "email": "info@reachvcp.com",
+    "role": "Contact",
+    "website": "https://ventureconsultingpartners.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Agadir",
+    "state": "",
+    "city": "",
+    "source_url": "https://ventureconsultingpartners.com",
+    "description": "Venture Partner Consulting (VPC) is a consulting and innovation firm specializing in Cleantech, AgriTech, and climate-smart solutions. We support farms, agribusinesses, startups, and institutions in designing and deploying data-driven agricultural systems, combining IoT sensors, AI analytics, and digital agronomy to improve productivity, sustainability, and decision-making. VPC acts as a bridge between technology providers and field realities, helping international AgriTech solutions adapt, scale, and succeed in Morocco, Africa, and EMEA markets.",
+    "employee_count": "2-10",
+    "hq_country": "Agadir",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ma.linkedin.com/company/venturepartnerconsulting"
+  },
+  "source_failed_basename": "ab70bb00078d65b568cd4645eacd707a4396644e5f38b5e746698f509c519bec.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ab70bb00078d65b568cd4645eacd707a4396644e5f38b5e746698f509c519bec.precheck_failed.json",
+  "queue_key": "7414725a321b2bbe9f5f447d6a21a7a8a06d70f8de56d45708cc823e72d0f138"
+}

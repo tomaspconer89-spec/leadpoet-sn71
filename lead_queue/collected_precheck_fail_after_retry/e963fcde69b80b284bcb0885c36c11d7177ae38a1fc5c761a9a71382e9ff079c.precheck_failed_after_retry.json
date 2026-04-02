@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "BounceBan (Verify risky emails without sending messages)",
+  "lead": {
+    "business": "BounceBan (Verify risky emails without sending messages)",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "founder",
+    "website": "https://bounceban.com/",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "Delaware",
+    "city": "Dover",
+    "source_url": "https://getprospect.com",
+    "description": "BounceBan verifies all kinds of emails and shines at verifying emails that are accept-all or protected by SEGs (Secure Email Gateway) and greylisting. We don't simply mark all accept-alls as risky like others do - we help you identify those that are deliverable indeed while achieving excellent overall delivery rates. Uncover true deliverability for accept-alls Not all accept-alls are risky. Powered by proprietary algorithms, BounceBan is the only solution that can reliably verify the true deliverability for more than 50% emails that are accept-all or protected by SEGs (Secure Email Gateway).",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Delaware",
+    "hq_city": "Dover",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bounceban"
+  },
+  "source_failed_basename": "c3757ee32fa5f84439da8b31e1b46e066bf8b78bf70af34e3418180972bfc145.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c3757ee32fa5f84439da8b31e1b46e066bf8b78bf70af34e3418180972bfc145.precheck_failed.json",
+  "queue_key": "e963fcde69b80b284bcb0885c36c11d7177ae38a1fc5c761a9a71382e9ff079c"
+}

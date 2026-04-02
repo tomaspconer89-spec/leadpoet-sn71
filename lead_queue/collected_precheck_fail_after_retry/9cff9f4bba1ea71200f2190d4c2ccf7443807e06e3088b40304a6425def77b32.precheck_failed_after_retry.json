@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "Growthink Capital",
+  "lead": {
+    "business": "Growthink Capital",
+    "full_name": "Jay Turo",
+    "first": "Jay",
+    "last": "Turo",
+    "email": "",
+    "role": "Managing Director",
+    "website": "https://growthinkcapital.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "investment banking",
+    "city": "United States",
+    "source_url": "https://growthinkcapital.com",
+    "description": "Growthink Capital specializes in raising equity and debt capital, and in executing merger, acquisition, and divestiture transactions for dynamic businesses across a wide host of industries.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Los Angeles",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/growthinkcapital",
+    "linkedin": "https://linkedin.com/in/jayturo"
+  },
+  "source_failed_basename": "b518bacfd1e35f361898b0be296c9877e25f65d828e89a6078ddd38640854a63.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b518bacfd1e35f361898b0be296c9877e25f65d828e89a6078ddd38640854a63.precheck_failed.json",
+  "queue_key": "9cff9f4bba1ea71200f2190d4c2ccf7443807e06e3088b40304a6425def77b32"
+}

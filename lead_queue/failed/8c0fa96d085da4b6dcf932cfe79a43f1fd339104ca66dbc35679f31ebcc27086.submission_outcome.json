@@ -1,0 +1,41 @@
+{
+  "source_file": "8c0fa96d085da4b6dcf932cfe79a43f1fd339104ca66dbc35679f31ebcc27086.json",
+  "submission_status": "duplicate_email",
+  "lead_id": null,
+  "http_status": null,
+  "error": "duplicate_email",
+  "message": "Duplicate email already exists",
+  "lead": {
+    "business": "StartUp To ScaleUp",
+    "full_name": "James Sinclair",
+    "first": "James",
+    "last": "Sinclair",
+    "email": "james@startuptoscaleup.com",
+    "role": "Author, Starting A StartUp: Build Products People Want",
+    "website": "https://startuptoscaleup.com",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "linkedin": "https://www.linkedin.com/in/jdsinclair",
+    "company_linkedin": "https://www.linkedin.com/company/startup-to-scaleup",
+    "source_url": "https://startuptoscaleup.com",
+    "description": "Where 140k founders read my weekly newsletter offering tactical insights to start, scale, and fund their startup. Real advice from a 3x exited founder.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Silicon Valley",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    }
+  }
+}

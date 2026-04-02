@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: country, city, linkedin",
+  "retry_reason": "missing_required_fields: country, city, linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Ruya Advisory",
+  "lead": {
+    "business": "Ruya Advisory",
+    "full_name": "Charles Lead",
+    "first": "Charles",
+    "last": "Lead",
+    "email": "charles@yourstartupadvisor.com",
+    "role": "Contact",
+    "website": "http://www.ruya-advisory.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "",
+    "state": "",
+    "city": "",
+    "source_url": "https://yourstartupadvisor.com",
+    "description": "Ruya Advisory stands at the frontier of innovation, empowering startups to bring their visionary concepts to life. Deriving our name from the Arabic word for 'vision,' we embody the spirit of foresight and aspiration that fuels entrepreneurial success. We are a startup advisory that goes beyond traditional consulting, fully dedicated to bringing founder visions to life and ensuring that each entrepreneurial journey is as groundbreaking as the ideas that sparked them.",
+    "employee_count": "2-10",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ruyaadvisory"
+  },
+  "source_failed_basename": "ba9f8055c5e970b7b807d0fc59453b4dad632d2c423500cb88f6b67b4e2cf220.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ba9f8055c5e970b7b807d0fc59453b4dad632d2c423500cb88f6b67b4e2cf220.precheck_failed.json",
+  "queue_key": "73b47f04f6d5f9b24bdb80a45ee14a0a6b35eea18ba98510ccaf3cb6c65972f2"
+}

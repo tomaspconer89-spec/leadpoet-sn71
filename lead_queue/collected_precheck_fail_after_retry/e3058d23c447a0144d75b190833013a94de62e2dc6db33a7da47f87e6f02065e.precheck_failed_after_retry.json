@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "HOME, Inc.",
+  "lead": {
+    "business": "HOME, Inc.",
+    "full_name": "Paulus Schoutsen",
+    "first": "Paulus",
+    "last": "Schoutsen",
+    "email": "nqzva@fonqivfbef.pp",
+    "role": "President",
+    "website": "http://www.homeincdsm.org",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organization Management",
+    "country": "United States",
+    "state": "New York",
+    "city": "Brooklyn",
+    "source_url": "https://sbadvisors.cc",
+    "description": "HOME, Inc. was founded in 1967 through the efforts of citizens concerned about the lack of decent, affordable housing. We are the oldest private, non-profit housing organization in Des Moines. Our mission is to meet individuals and families where they are in their housing journey. We surround our clients with compassion, support, and education so they feel empowered to make a safe, stable home for themselves or their family.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Iowa",
+    "hq_city": "Des Moines",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/home-opportunities-made-easy-inc-home-inc",
+    "linkedin": "https://linkedin.com/in/schoutsen"
+  },
+  "source_failed_basename": "1f3707c67594f05ea0f6ca360bfb3c60d6636e62b838edb9e189597bf7e07449.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1f3707c67594f05ea0f6ca360bfb3c60d6636e62b838edb9e189597bf7e07449.precheck_failed.json",
+  "queue_key": "e3058d23c447a0144d75b190833013a94de62e2dc6db33a7da47f87e6f02065e"
+}

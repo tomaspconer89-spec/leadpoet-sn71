@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Spencer Stuart",
+  "lead": {
+    "business": "Spencer Stuart",
+    "full_name": "Mon Thach",
+    "first": "Mon",
+    "last": "Thach",
+    "email": "mthach@spencerstuart.com",
+    "role": "Senior Associate",
+    "website": "http://www.spencerstuart.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Belgium",
+    "state": "Brussels Region",
+    "city": "Brussels",
+    "source_url": "https://spencerstuart.com",
+    "description": "At Spencer Stuart, we know that leadership has never mattered more. We are trusted by organizations around the world to help them make the senior level leadership decisions that have a lasting impact on their enterprises, on their stakeholders and on the world around them. Through our executive search, board and leadership advisory services, we help build and enhance high-performing teams for select clients ranging from major multinationals to emerging companies to nonprofit institutions.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "Illinois",
+    "hq_city": "Chicago",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/spencer-stuart",
+    "linkedin": "https://linkedin.com/in/mon-thach"
+  },
+  "source_failed_basename": "899b688b806416a12979d2b4a7fedaae1035db466ce8abd2206c166a9a727792.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/899b688b806416a12979d2b4a7fedaae1035db466ce8abd2206c166a9a727792.precheck_failed.json",
+  "queue_key": "bdd463e5ab6dcc55a1ec70dde4ae348390b3828daa1ce3c252f8e5fed164ff6d"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: city",
+  "business": "TechTide Solutions",
+  "lead": {
+    "business": "TechTide Solutions",
+    "full_name": "Contact Lead",
+    "first": "Apooravg",
+    "last": "Lead",
+    "email": "contact@techtidesolutions.com",
+    "role": "Contact",
+    "website": "https://techtidesolutions.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "",
+    "city": "Ngai Giao Town",
+    "source_url": "https://techtidesolutions.com",
+    "description": "Discover innovative software solutions that ride the waves of technology. We're here to transform your digital aspirations into reality. Join us on this tech-filled journey!",
+    "employee_count": "51-200",
+    "hq_country": "Ho Chi Minh City",
+    "hq_state": "",
+    "hq_city": "Ngai Giao Town",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://vn.linkedin.com/company/techtide-solutions"
+  },
+  "source_failed_basename": "b9b46200a9168a59e3462062a869c2319b5aeee2c62419a88cb8d89d6990acfd.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b9b46200a9168a59e3462062a869c2319b5aeee2c62419a88cb8d89d6990acfd.precheck_failed.json",
+  "queue_key": "f5c1452749574dff7c3eb531d604927b8dcd512545de444d990c1abb98c26be9"
+}

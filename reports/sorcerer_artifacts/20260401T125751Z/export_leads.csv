@@ -1,0 +1,366 @@
+"best_contact.decision_maker","best_contact.department","best_contact.email","best_contact.full_name","best_contact.job_title","best_contact.linkedin_url","best_contact.location","best_contact.phone","best_contact.seniority","best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.emails","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","","","","","","","","","","","https://maynardnexsen.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","maynardnexsen.com","Basic company information available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.8","false","no_founder_contact|no_advisor_contact","true","The company matches well with the ICP in terms of industry relevance (business consulting) and business model alignment (advisory services). However, it does not explicitly mention founder or advisor contact information.","0.8","llm","llama3","52f173a013f6098a7b037589ab112f6e5d6c109af4c5579108039ffdc1a429ea","0.0","0.3","f93d6fcd-ad7a-500e-b722-6c101e658a48","","2026-04-01T12:49:27.385601Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/maynardnexsen.com.json","/tmp/tmp9jrwpeyq/evidence/domain/maynardnexsen.com.json","","2026-06-30T12:49:27.385604Z","business consulting firm advisor email","2026-04-01T12:47:55.586447Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://findemails.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","findemails.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_alignment","true","The company provides CEO contact information for SaaS startups in the US, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","a2a761056e5817816133dcaec3a06151f8d2a2fd20feaa597dd4e4865351c317","0.0","0.3","0df4f62e-7301-507b-9ae6-9c95104dda79","","2026-04-01T12:49:27.398753Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/findemails.com.json","/tmp/tmp9jrwpeyq/evidence/domain/findemails.com.json","","2026-06-30T12:49:27.398756Z","SaaS startup CEO contact information","2026-04-01T12:47:59.576266Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","","","","https://scribd.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","scribd.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","industry_match|size_match","true","The company provides a list of SaaS startup CEOs' contact information, which aligns with the ICP's focus on small startup advisory and consulting firms.","0.8","llm","llama3","25fb3c6536fde22fbc712557ec8d33a1eb3ebb460f05a802e6f2b89b869a5227","0.0","0.3","677325b4-8ff2-52bd-a6ca-32b9b98c4cca","","2026-04-01T12:49:27.411626Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/scribd.com.json","/tmp/tmp9jrwpeyq/evidence/domain/scribd.com.json","","2026-06-30T12:49:27.411628Z","SaaS startup CEO contact information","2026-04-01T12:48:00.030106Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","# Venture Best, a part of Michael Best & Friedrich LLP
+
+## About Venture Best®
+
+## 
+
+We help companies and investors make connections, structure and close transactions, and maximize returns. We also counsel early-stage businesses on their financial, organizational, and regulatory needs as they grow.","","","https://venturebest.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - Venture Best, a part of Michael Best & Friedrich LLP","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","venturebest.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch|technology_mismatch","true","The company's description aligns with the ICP's focus on venture consulting and partnership opportunities. However, it's a part of a larger law firm, which might not be exactly what we're looking for.","0.8","llm","llama3","226b15219abf5a4194866c0cd9f783b34ed8fc24f9d9e03108c3d17ce257d437","0.0","0.3","02a3a678-08fd-5496-bf20-275e188d6428","","2026-04-01T12:50:22.714715Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/venturebest.com.json","/tmp/tmp9jrwpeyq/evidence/domain/venturebest.com.json","","2026-06-30T12:50:22.714723Z","venture consulting firm partner email","2026-04-01T12:48:04.768251Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"false","","info@ventureplans.us","Info Lead","","","","","99","","","","","Get funding with Harvard &amp; FINRA Accredited Experts! 10+ years in Financial Consulting, Alternative Lending, Business Financing, and Capital Raising. Tailored business consulting solutions.","info@ventureplans.us","","https://ventureplans.us","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Financial Consulting Firm","1","","","","","","https://www.linkedin.com/company/31139649","","","","0.001","0.0009","0.0","0.0019","ventureplans.us","Basic company information available; Company name available; Company description available; Location count available; Company emails available (1 emails); Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted; Social media profiles available (1 platforms); Found 1 contacts; 1 contacts have email addresses","1.0","false","size_mismatch","true","The company matches the ICP in terms of industry relevance (venture consulting firm) and geographic location (Los Angeles). However, it's a larger company with an office presence, which doesn't perfectly align with the 'small startup' requirement.","0.8","llm","llama3","220daf3bf9839fdce38005e0541bc2efe57748db33e445719cd24323b1589c95","0.0","0.3","ad52d082-a183-5787-a47d-3f91623e4350","","2026-04-01T12:51:17.261443Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/ventureplans.us.json","/tmp/tmp9jrwpeyq/evidence/domain/ventureplans.us.json","","2026-06-30T12:51:17.261447Z","venture consulting firm partner email","2026-04-01T12:48:05.211951Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","By using this site, you agree to the [Privacy Policy](https://technori.com/) and [Terms of Use](https://technori.com/).
+[Accept](https://technori.com/)
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \(1\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/)
+# Technori
+  * [Startups](https://technori.com/startups/)
+  * [AI](https://technori.com/artificial-intelligence/)
+  * [Finance](https://technori.com/finance/)
+  * [Leadership](https://technori.com/leadership/)
+  * [Software](https://technori.com/software/)
+  * [Recent](https://technori.com/blog/)
+  * [Newsletter](https://founder-fuel-newsletter.beehiiv.com/)
+
+
+[](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png)![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/ "Technori")
+[](https://technori.com/)
+[ ](https://technori.com/)
+  * [Startups](https://technori.com/startups/)
+  * [AI](https://technori.com/artificial-intelligence/)
+  * [Finance](https://technori.com/finance/)
+  * [Leadership](https://technori.com/leadership/)
+  * [Software](https://technori.com/software/)
+  * [Recent](https://technori.com/blog/)
+  * [Newsletter](https://founder-fuel-newsletter.beehiiv.com/)
+
+
+Search
+  * [Home](https://technori.com/)
+  * [Categories](https://technori.com/)
+    * [Startups](https://technori.com/startups/)
+    * [AI](https://technori.com/artificial-intelligence/)
+    * [Leadership](https://technori.com/leadership/)
+    * [Finance](https://technori.com/finance/)
+    * [Software](https://technori.com/software/)
+  * [More](https://technori.com/)
+    * [About](https://technori.com/about/)
+    * [Recent](https://technori.com/blog/)
+    * [Contact us](https://technori.com/contact-us/)
+
+
+### Top Stories
+### [Improve Your Sales: How to Lead With Transparency and Vulnerability to Win Customers’ Trust](https://technori.com/2019/01/16691-improve-your-sales-how-to-lead-with-transparency-and-vulnerability-to-win-customers-trust/admin/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+### [Can millennials beat boomers at finance?](https://technori.com/2017/06/6140-can-millennials-beat-boomers-finance/froelich/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+### [The Feed: Solar Energy, Women and Will Smith](https://technori.com/2016/12/5347-the-feed-solar-energy-women-and-will-smith/froelich/)
+[blog](https://technori.com/blog/)
+April 15, 2020
+Follow US [](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+Copyright © Ruby Theme Ltd. All Rights Reserved.
+### Top Stories
+### [Carmakers Push Smarter Assistants, Predictive Maintenance](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/)
+[Startups](https://technori.com/startups/)
+March 30, 2026
+### [DOJ Files Tie Epstein To Russian Investors](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/)
+[Startups](https://technori.com/startups/)
+March 27, 2026
+### [Oldest Whale Recordings Found On Cape Cod](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/)
+[Startups](https://technori.com/startups/)
+March 26, 2026
+[ ![fukushima reactor damage drone footage](https://technori.com/wp-content/uploads/2026/03/fukushima_reactor_damage_drone_footage-1774362439-615x410.webp) ](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/ "Drone Video Reveals Reactor Damage at Fukushima")
+[Startups](https://technori.com/startups/)
+###  [Drone Video Reveals Reactor Damage at Fukushima](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 25, 2026
+[ ![wood plastics face new test](https://technori.com/wp-content/uploads/2026/03/wood_plastics_face_new_test-1774276202-615x410.webp) ](https://technori.com/news/wood-and-plastics-face-a-new-test/ "Wood And Plastics Face A New Test")
+[Startups](https://technori.com/startups/)
+###  [Wood And Plastics Face A New Test](https://technori.com/news/wood-and-plastics-face-a-new-test/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 24, 2026
+## [Startups, AI, & Software](https://technori.com/startups/)
+[View All Startups](https://technori.com/startups/)
+[ ![carmakers push smarter assistants predictive maintenance](https://technori.com/wp-content/uploads/2026/03/carmakers_push_smarter_assistants_predictive_maintenance-1774793087-1536x864.webp) ](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/ "Carmakers Push Smarter Assistants, Predictive Maintenance")
+[Startups](https://technori.com/startups/)
+##  [Carmakers Push Smarter Assistants, Predictive Maintenance](https://technori.com/news/carmakers-push-smarter-assistants-predictive-maintenance/)
+Automakers and tech suppliers are zeroing in on two upgrades they say drivers want now: smarter in-car voice assistants and…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 30, 2026
+[ ![epstein linked to russian investors](https://technori.com/wp-content/uploads/2026/03/epstein_linked_to_russian_investors-1774535232-615x410.webp) ](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/ "DOJ Files Tie Epstein To Russian Investors")
+[Startups](https://technori.com/startups/)
+###  [DOJ Files Tie Epstein To Russian Investors](https://technori.com/news/doj-files-tie-epstein-to-russian-investors/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 27, 2026
+[ ![oldest whale recordings cape cod](https://technori.com/wp-content/uploads/2026/03/oldest_whale_recordings_cape_cod-1774448695-615x410.webp) ](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/ "Oldest Whale Recordings Found On Cape Cod")
+[Startups](https://technori.com/startups/)
+###  [Oldest Whale Recordings Found On Cape Cod](https://technori.com/news/oldest-whale-recordings-found-on-cape-cod/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 26, 2026
+[ ![fukushima reactor damage drone footage](https://technori.com/wp-content/uploads/2026/03/fukushima_reactor_damage_drone_footage-1774362439-615x410.webp) ](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/ "Drone Video Reveals Reactor Damage at Fukushima")
+[Startups](https://technori.com/startups/)
+###  [Drone Video Reveals Reactor Damage at Fukushima](https://technori.com/news/drone-video-reveals-reactor-damage-at-fukushima/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 25, 2026
+[ ![wood plastics face new test](https://technori.com/wp-content/uploads/2026/03/wood_plastics_face_new_test-1774276202-615x410.webp) ](https://technori.com/news/wood-and-plastics-face-a-new-test/ "Wood And Plastics Face A New Test")
+[Startups](https://technori.com/startups/)
+###  [Wood And Plastics Face A New Test](https://technori.com/news/wood-and-plastics-face-a-new-test/)
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 24, 2026
+### [Leadership](https://technori.com/leadership/)
+[View All Leadership](https://technori.com/leadership/)
+## [Why technical founders feel most alone right after the hard calls](https://technori.com/news/why-technical-founders-feel-alone-after-hard-calls/)
+[Leadership](https://technori.com/leadership/)
+January 21, 2026
+[ ![people having technical arguments at a table](https://technori.com/wp-content/uploads/2026/01/5qgiuubxkwm-860x574.jpg) ](https://technori.com/news/win-technical-arguments/ "How to win technical arguments without losing your team")
+[Leadership](https://technori.com/leadership/)
+###  [How to win technical arguments without losing your team](https://technori.com/news/win-technical-arguments/)
+If you are in a senior technical role long enough, you will win technical arguments…
+By [Sebastian Heinzer](https://technori.com/author/sebastian/)
+January 20, 2026
+[ ![founder standing in front of senior engineers sitting beside table with laptop computers](https://technori.com/wp-content/uploads/2026/01/gmsnxqiljp4-860x574.jpg) ](https://technori.com/news/senior-engineers-and-founders/ "Senior engineers respect founders who make this one decision early")
+[Leadership](https://technori.com/leadership/)
+###  [Senior engineers respect founders who make this one decision early](https://technori.com/news/senior-engineers-and-founders/)
+If you have ever wondered why some early-stage startups attract frighteningly good senior engineers while…
+By [Todd Shinders](https://technori.com/author/todd/)
+January 19, 2026
+## [Podcast](https://technori.com/podcast/)
+[View All Episodes](https://technori.com/podcast/)
+[ ![](https://technori.com/wp-content/uploads/2020/12/1World-Online-Illustrated_final.png) ](https://technori.com/2020/12/20810-alex-fedosseev/fiske/ "Alex Fedosseev")
+[podcast](https://technori.com/podcast/)
+##  [Alex Fedosseev](https://technori.com/2020/12/20810-alex-fedosseev/fiske/)
+Pop-up ads and auto-play videos have been inundating our feeds and web scrolls for over a decade, with no end in sight. That's why we've seen tremendous growth in ad…
+By [Sam Fiske](https://technori.com/author/fiske/)
+[ ![](https://technori.com/wp-content/uploads/2022/07/052522-100.jpg) ](https://technori.com/2022/07/21171-cody-barbo/fiske/ "Cody Barbo")
+[podcast](https://technori.com/podcast/)
+###  [Cody Barbo](https://technori.com/2022/07/21171-cody-barbo/fiske/)
+By [Sam Fiske](https://technori.com/author/fiske/)
+[ ![](https://technori.com/wp-content/uploads/2021/08/Skedulo-Illustrated-and-GTA-Image_1_1627478735661.png) ](https://technori.com/2021/08/21018-matt-fairhurst/fiske/ "Matt Fairhurst")
+[podcast](https://technori.com/podcast/)
+###  [Matt Fairhurst](https://technori.com/2021/08/21018-matt-fairhurst/fiske/)
+By [Sam Fiske](https://technori.com/author/fiske/)
+## [More News](https://technori.com/news/)
+[View All](https://technori.com/news/)
+[ ![amazon expands fast delivery service](https://technori.com/wp-content/uploads/2026/03/amazon_expands_fast_delivery_service-1774188354-1536x864.webp) ](https://technori.com/news/amazon-expands-1-and-3-hour-delivery/ "Amazon Expands 1- and 3-Hour Delivery")
+[Startups](https://technori.com/startups/)
+##  [Amazon Expands 1- and 3-Hour Delivery](https://technori.com/news/amazon-expands-1-and-3-hour-delivery/)
+Amazon announced that its rapid delivery windows are rolling out across the United States, promising order arrivals within one or…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 23, 2026
+[ ![social security investigates data breach](https://technori.com/wp-content/uploads/2026/03/social_security_investigates_data_breach-1773930194-1536x864.webp) ](https://technori.com/news/social-security-probes-alleged-data-theft/ "Social Security Probes Alleged Data Theft")
+[Startups](https://technori.com/startups/)
+##  [Social Security Probes Alleged Data Theft](https://technori.com/news/social-security-probes-alleged-data-theft/)
+The Social Security inspector general’s office has opened an investigation into claims that a former DOGE engineer removed sensitive data…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 20, 2026
+[ ![anthropic forecasts twenty billion revenue](https://technori.com/wp-content/uploads/2026/03/anthropic_forecasts_twenty_billion_revenue-1773843797-1536x864.webp) ](https://technori.com/news/anthropic-forecasts-20-billion-revenue/ "Anthropic Forecasts $20 Billion Revenue")
+[Startups](https://technori.com/startups/)
+##  [Anthropic Forecasts $20 Billion Revenue](https://technori.com/news/anthropic-forecasts-20-billion-revenue/)
+Anthropic PBC is projecting annual revenue of almost $20 billion this year, more than doubling its run rate from late…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 19, 2026
+[ ![gemini integration with workspace](https://technori.com/wp-content/uploads/2026/03/gemini_integration_with_workspace-1773757289-1536x864.webp) ](https://technori.com/news/google-brings-gemini-to-workspace/ "Google Brings Gemini To Workspace")
+[Startups](https://technori.com/startups/)
+##  [Google Brings Gemini To Workspace](https://technori.com/news/google-brings-gemini-to-workspace/)
+Google has folded its Gemini assistant into Docs, Drive, Sheets, and Slides, offering AI help that can pull details from…
+By [Ava Grinzwald](https://technori.com/author/ava/)
+March 18, 2026
+[Show More](https://technori.com/)
+## Become a smarter founder with a twice-weekly newsletter.
+![founder_fuel_green](https://technori.com/wp-content/uploads/2022/12/founder_fuel_green-1024x256.png)
+  * Advice to take your startup to the next level. 
+  * You daily dose of founder fuel.
+  * Inspiring stories from past entrepreneurs and changemakers.
+
+
+[ ![Technori](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ![technori_transparent_white_2025 \(1\)](https://technori.com/wp-content/uploads/2025/03/technori_transparent_white_2025-1.png) ](https://technori.com/)
+Technori began as a local meet-up designed to network with angel investors and early adopters and quickly grew into one of the nation’s largest media platforms for entrepreneurs. 
+### About
+  * [About](https://technori.com/about/)
+  * [Editorial Process](https://technori.com/editorial-process/)
+  * [Contact](https://technori.com/contact/)
+  * [Advertise with Us](https://technori.com/advertise-with-us/)
+
+
+### Legal
+  * [Technori Privacy Policy](https://technori.com/technori-privacy-policy/)
+  * [Terms of Use](https://technori.com/terms-of-use/)
+  * [Cookie Settings](https://technori.com/cookie-settings/)
+  * [Do Not Sell My Personal Information](https://technori.com/do-not-sell-my-personal-information/)
+
+
+### Follow Socials
+[](https://www.facebook.com/technori/)[](https://x.com/Technori)[](https://www.youtube.com/technori)[](https://www.instagram.com/technori/)[](https://www.linkedin.com/company/technori)
+Copyright – Technori, 2025 – All Rights Reserved
+Welcome Back!
+Sign in to your account
+Username or Email Address
+Password
+Remember me
+[Lost your password?](https://technori.com/wp-login.php?action=lostpassword)
+[](https://technori.com/#top)
+","","","https://technori.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Technori","1","","","","","","","","","","0.0","0.0009","0.0","0.0009","technori.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","industry_mismatch","true","The company provides a guide on how to find startup founder contact information, which aligns with the ICP's focus on business development and partnership opportunities.","0.8","llm","llama3","bbdb9a8e02a31e4c4c226c6bd8e34ec5c9b36b62e1a95d577529d3461805e0d6","0.0","0.3","18586bc0-5889-5b1e-82ce-30f3cec8c543","","2026-04-01T12:51:17.275771Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/technori.com.json","/tmp/tmp9jrwpeyq/evidence/domain/technori.com.json","","2026-06-30T12:51:17.275774Z","tech startup founder contact page","2026-04-01T12:48:50.307905Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","# Alexander Group | Go-To-Market Management Consulting Firm
+
+## Featured Insights
+
+*   [
+    
+    ![](https://www.alexandergroup.com/wp-content/uploads/2023/03/BizSer-TB-image5.jpg)
+    
+    **Article**
+    
+    #### Business Services: Sustain Growth Momentum into Q2
+    
+    
+    
+    ](https://www.alexandergroup.com/insights/business-services-sustain-growth-momentum-into-q2/)
+*   [
+    
+    ![](https://www.alexandergroup.com/wp-content/uploads/2026/02/privateequity-image30-web.jpg)
+    
+    **Article**
+    
+    #### Private Equity: Optimizing SDR and BDR Investments for Profitable Growth
+    
+    
+    
+    ](https://www.alexandergroup.com/insights/private-equity-optimizing-sdr-and-bdr-investments-for-profitable-growth/)
+*   [
+    
+    ![](https://www.alexandergroup.com/wp-content/uploads/2026/02/tech-image118-web.jpg)
+    
+    **Article**
+    
+    #### Marketing: Most Marketing Teams Invest More. The Best Invest Differently.
+    
+    
+    
+    ](https://www.alexandergroup.com/insights/marketing-most-marketing-teams-invest-more-the-best-invest-differently/)","","","https://alexandergroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Alexander Group | Go-To-Market Management Consulting Firm","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","alexandergroup.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","","true","The company appears to be a management consulting firm, which aligns with the ICP's description of small startup advisory and consulting firms. The presence of a Director of Consulting Services & Operations also matches the ICP's focus on founder and advisor contact information.","0.8","llm","llama3","7c71aee2adfc81688b7588728e58a54cf1a138423b6ad8c55b991bbe8df342af","0.0","0.3","28459bed-7701-5945-aec7-8b2d1548babf","","2026-04-01T12:53:25.985020Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/alexandergroup.com.json","/tmp/tmp9jrwpeyq/evidence/domain/alexandergroup.com.json","","2026-06-30T12:53:25.985028Z","management consulting firm director email","2026-04-01T12:49:21.887359Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","# Home - RCLCO Real Estate Consulting
+
+## Real Estate Economics | Management Consulting  
+RCLCO Fund Advisors
+
+## Real Estate Economics  
+Management Consulting  
+RCLCO Fund Advisors
+
+## RCLCO is Organized into Three Service Areas
+
+Leveraging quantitative rigor, real estate knowledge, and a codified process to help our clients make effective and enduring decisions about real estate.
+
+[![](https://www.rclco.com/wp-content/uploads/2024/05/2022-RFA-Logo-RGB-Horizontal-SMALL-ONLY-01-e1726256835595-300x61.webp)](https://rclco.com/rfa/)
+
+[![](https://www.rclco.com/wp-content/uploads/2024/02/double-chevron-green.jpg)](https://rclco.com/rfa/)
+
+Customized real estate advisory to institutional investors built on a legacy of thought leadership and analytical rigor.
+
+[![](https://www.rclco.com/wp-content/uploads/2024/05/2022-RCLCO-Service-Lines-Logo-RGB-COLOR-SMALL-ONLY-REE-e1726256863904-300x63.webp)](https://rclco.com/real-estate-economics-market-research/)
+
+[![](https://www.rclco.com/wp-content/uploads/2024/02/double-chevron-orange.jpg)](https://rclco.com/real-estate-economics-market-research/)
+
+Economics and market research services backed by 50+ years of analyzing trends and consultation to the best minds in real estate.
+
+[![](https://www.rclco.com/wp-content/uploads/2024/05/2022-RCLCO-Service-Lines-Logo-RGB-COLOR-SMALL-ONLY-MC-e1726256902940-300x62.webp)](https://rclco.com/management-consulting-for-real-estate-companies/)
+
+[![](https://www.rclco.com/wp-content/uploads/2024/02/double-chevron-teal.jpg)](https://rclco.com/management-consulting-for-real-estate-companies/)
+
+Collaborative and actionable strategy planning, and operational, portfolio, and capital consultation to real estate enterprises.
+
+## RCLCO Partners with Our Clients to Look Around the Corner
+
+Our clients turn to us to help them answer the most burning questions facing real estate investors. What trends in housing demand are lasting and which are cyclical? How do we risk-adjust real estate returns in an inflationary environment? How do real estate companies build resilient capital stacks and organizations to weather adverse market conditions?
+
+Our research and publications include:
+
+*   Articles and interactive tools analyzing the latest trends
+*   Our podcast, _Conversations with the Best Minds in Real Estate_
+
+## RCLCO Supports the Global Real Estate Investment Community
+
+We are committed to make a meaningful difference by encouraging and facilitating forums for innovation, and through the RCLCO Foundation, which strives to change lives with affordable housing initiatives.
+
+*   Live webinars analyzing the state of the market
+*   CEO Summits and MPC University bringing leadership together
+*   Discussion of the latest trends at industry events
+
+## We Measure Our Impact by the Depth of Our Client Relationships, and the Fact that Best Minds in Real Estate Continue to Trust Us in Helping Drive their Businesses
+
+## RCLCO in the News
+
+[![](https://www.rclco.com/wp-content/uploads/2026/03/construction-dive-logo-300x169.webp)](https://www.constructiondive.com/news/rays-designs-ballpark-stadium-mixed-use-megaproject/814154/)
+
+3 weeks ago
+
+[![](https://www.rclco.com/wp-content/uploads/2025/11/SavannahNewsLogo-300x158.webp)](https://www.rclco.com/press_releases/savannah-railroad-district-redevelopment-signals-mixed-use-and-adaptive-reuse-trends/)
+
+1 month ago
+
+[![](https://www.rclco.com/wp-content/uploads/2025/11/SavannahNewsLogo-300x158.webp)](https://www.savannahnow.com/story/news/local/2026/02/26/savannahs-mlk-civic-center-development-slated-for-housing-retail-mix/88860821007/)
+
+1 month ago
+
+[![](https://www.rclco.com/wp-content/uploads/2025/11/SavannahNewsLogo-300x158.webp)](https://www.rclco.com/press_releases/savannah-morning-news-savannah-plans-major-redevelopment-for-west-side-canal-district/)
+
+1 month ago
+
+[![](https://www.rclco.com/wp-content/uploads/2020/07/Engineering-News-Record-Logo-300x300.jpg)](https://www.enr.com/articles/62510-rays-reveal-renderings-of-new-tampa-ballpark-mixed-use-development)
+
+2 months ago
+
+[![BISNOW Logo](https://www.rclco.com/wp-content/uploads/2021/11/bisnow-logo-2021-300x300.jpg)](https://www.rclco.com/press_releases/rclco-in-the-news-cre-hiring-rebounds-as-dealmaking-activity-picks-up/)
+
+2 months ago
+
+[![](https://www.rclco.com/wp-content/uploads/2026/02/lake-las-vegas-BusinessPress-300x192.webp)](https://businesspress.vegas/real-estate/cadence-summerlin-in-top-10-u-s-communities-99781/)
+
+2 months ago
+
+[![](https://www.rclco.com/wp-content/uploads/2018/09/logo-houston-chronicle-41.jpg)](https://www.houstonchronicle.com/projects/2026/real-estate/top-master-planned-communities-houston-2025-2026/)
+
+2 months ago
+
+[![](https://www.rclco.com/wp-content/uploads/2020/06/yahoo-news-logo-300x300.jpg)](https://finance.yahoo.com/news/rclco-foundation-recognizes-community-first-130100594.html)
+
+2 months ago
+
+[![](https://www.rclco.com/wp-content/uploads/2019/07/Phoenix-Business-Journal-Logo-300x300.jpeg)](https://www.bizjournals.com/phoenix/news/2026/01/14/arizona-master-planned-communities-ranking.html)
+
+3 months ago","","","https://rclco.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Home - RCLCO Real Estate Consulting","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","rclco.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch","true","The company is a management consulting firm, which aligns with the ICP's industry relevance. However, it's not a small startup advisory and consulting firm, as the ICP specifies.","0.6","llm","llama3","f4ac81691d126cc9283731836d14468b4b8e8218fabc79c683a451dde0a3adbc","0.0","0.3","55c817d1-5846-54ba-8953-981540c033d6","","2026-04-01T12:56:26.350367Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/rclco.com.json","/tmp/tmp9jrwpeyq/evidence/domain/rclco.com.json","","2026-06-30T12:56:26.350374Z","management consulting firm director email","2026-04-01T12:49:22.784652Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","# Freedman Consulting, LLC
+
+  ![](https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2500x1397.jpg%202500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-2000x1118.jpg%202000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1500x838.jpg%201500w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-1000x559.jpg%201000w,%20https://tfreedmanconsulting.com/wp-content/uploads/sites/264/Untitled-design-4-500x279.jpg%20500w)
+
+## We work with leaders who want to change the world.
+
+Freedman Consulting works with leading philanthropies and nonprofits to tackle the most challenging problems at the intersections of policy, philanthropy, and politics, creating lasting impact and innovations for the greater social good.
+
+## What We Do
+
+Our approach focuses on helping clients define their goals and develop comprehensive strategies that flexibly respond to client needs.
+
+[Learn More](https://tfreedmanconsulting.com/our-work/)","","","https://tfreedmanconsulting.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Freedman Consulting, LLC","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","tfreedmanconsulting.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","size_mismatch","true","The company is a management consulting firm, which aligns with the ICP's focus on startup advisory and consulting firms. The Project Director role also matches the ICP's requirement for founder or advisor contact information.","0.8","llm","llama3","ae76d8da96820e8ec7fe19f36937cb99ecb56b2106946761f6f7f54cb1ca9a88","0.0","0.3","8ee5144a-e71c-5346-91d7-5f5404deb907","","2026-04-01T12:56:55.367587Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/tfreedmanconsulting.com.json","/tmp/tmp9jrwpeyq/evidence/domain/tfreedmanconsulting.com.json","","2026-06-30T12:56:55.367595Z","management consulting firm director email","2026-04-01T12:49:23.241685Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","","","","","","","","# Semler Brossy - Leading Executive Compensation Consulting Firm
+
+## We take off where other firms finish
+
+## Clients choose us for our partnership and creative thinking that brings strategic clarity.
+
+_We engage and focus leadership by developing thoughtful compensation, talent, and board stewardship strategies._
+
+![](https://semler-20493.kxcdn.com/wp-content/uploads/2024/06/explore-our-culture-teal1-600x600.jpg)
+
+## Discover  
+Semler Brossy
+
+We don’t settle for a ‘middle-of-the-road’ approach. Clients choose us for our partnership, thorough thinking, and creative solutions.
+
+## Latest Resources
+
+### Recent Reports & Downloads
+
+### Recent Articles & Resources","","","https://semlerbrossy.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Semler Brossy - Leading Executive Compensation Consulting Firm","1","","","","","","","","","","0.001","0.0009","0.0","0.0019","semlerbrossy.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","","true","The company appears to be a management consulting firm, which aligns with the ICP's focus on startup advisory and consulting firms. The presence of a managing director also matches the ICP's requirement for founder and advisor contact information.","0.8","llm","llama3","4317eaa34626333f230742cab58232a24e7eef54bc23b7adda6d4fb16fbbbc76","0.0","0.3","22c8f3de-f599-5812-a199-fc95801509e9","","2026-04-01T12:57:51.152385Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/semlerbrossy.com.json","/tmp/tmp9jrwpeyq/evidence/domain/semlerbrossy.com.json","","2026-06-30T12:57:51.152393Z","management consulting firm director email","2026-04-01T12:49:24.130454Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

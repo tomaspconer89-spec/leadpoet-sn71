@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Company Check",
+  "lead": {
+    "business": "Company Check",
+    "full_name": "Judy Yan",
+    "first": "Judy",
+    "last": "Yan",
+    "email": "",
+    "role": "Marketing Category Analytics Lead",
+    "website": "https://companycheck.co.uk",
+    "industry": "Information Technology",
+    "sub_industry": "Information Services",
+    "country": "United States",
+    "state": "",
+    "city": "San Francisco Bay Area",
+    "source_url": "https://thecompanycheck.com",
+    "description": "One of the UK\u2019s leading platforms for company credit data supporting businesses with due diligence, customer checks, competitor research, and business tracking. Find out more at https://companycheck.co.uk/",
+    "employee_count": "2-10",
+    "hq_country": "Wales",
+    "hq_state": "",
+    "hq_city": "Cardiff",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/company-check-ltd",
+    "linkedin": "https://linkedin.com/in/judyyan"
+  },
+  "source_failed_basename": "53e67d3447acd91d1e8d6137da57f5dc391f1ab8a3b02915d2f3e7883de96840.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/53e67d3447acd91d1e8d6137da57f5dc391f1ab8a3b02915d2f3e7883de96840.precheck_failed.json",
+  "queue_key": "99014099d66db453ffdcd466baf97addb404156cd07bb7931cc13de57227070e"
+}

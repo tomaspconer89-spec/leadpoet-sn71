@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "The City of San Diego",
+  "lead": {
+    "business": "The City of San Diego",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Chief Scott Wahl",
+    "website": "http://www.sandiego.gov",
+    "industry": "Government and Military",
+    "sub_industry": "Government",
+    "country": "United States",
+    "state": "California",
+    "city": "San Diego",
+    "source_url": "https://sandiego.gov",
+    "description": "The City of San Diego offers meaningful opportunities for professionals ready to make a lasting impact. As one of the largest municipal organizations in the country\u2014with over 12,000 employees\u2014we provide essential services that shape the lives of more than 1.4 million residents within the official boundaries of the City of San Diego, which include communities such as Downtown, City Heights, San Ysidro, La Jolla, Pacific Beach, and Rancho Bernardo. We provide competitive pay, excellent benefits, and a strong commitment to professional development. Lead with purpose.",
+    "employee_count": "10,001+",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Diego",
+    "source_type": "public_registry",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cityofsandiego"
+  },
+  "source_failed_basename": "b4572db93ede5947248639707553315dc74fdda1a0c3e1a6e954de683ec5b616.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b4572db93ede5947248639707553315dc74fdda1a0c3e1a6e954de683ec5b616.precheck_failed.json",
+  "queue_key": "df3fb2f014f8ad51cab7507ed9d5e07cb6f142a854e2b40488a36dd48632e3e6"
+}

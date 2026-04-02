@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "CFO Consulting and Advisory",
+  "lead": {
+    "business": "CFO Consulting and Advisory",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "staceyjo@cfoconsultingandadvisory.com",
+    "role": "Contact",
+    "website": "http://Cfoconsultingandadvisory.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "source_url": "https://cfoconsultingandadvisory.com",
+    "description": "CFO Consulting & Advisory is a fractional CFO firm providing finance leadership and accounting execution for growing companies\u2014without the cost of a full-time hire. We help owners and leadership teams improve cash flow, profitability, and decision-making through: \u2022 Fractional CFO: forecasting, cash planning, KPIs, board/investor reporting, pricing & margin strategy \u2022 Controller + accounting ops: month-end close, reconciliations, internal controls, management reporting \u2022 Bookkeeping support: clean, accurate books that stay audit-ready \u2022 Finance recruiting:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Ohio",
+    "hq_city": "Cleveland",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cfo-consulting-and-advisory"
+  },
+  "source_failed_basename": "8ecfe5bc24e046b4bde5ee8a23a86bf7a0583e9cd1b81452ad4e2a4ff2c2c41a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8ecfe5bc24e046b4bde5ee8a23a86bf7a0583e9cd1b81452ad4e2a4ff2c2c41a.precheck_failed.json",
+  "queue_key": "0287278082744efd55fb1eb23e22a02a1bbb787b635e4a4e3c8e3569e709e465"
+}

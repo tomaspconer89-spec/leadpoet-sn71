@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email",
+  "business": "WAF Agency | We Are The Future",
+  "lead": {
+    "business": "WAF Agency | We Are The Future",
+    "full_name": "Allan Riordan Boll",
+    "first": "Allan Riordan",
+    "last": "Boll",
+    "email": "",
+    "role": "Software Engineer",
+    "website": "https://waf.com.ua",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "",
+    "city": "San Francisco Bay Area",
+    "source_url": "https://fticonsulting.com",
+    "description": "About Us \ud83d\udca1 At WAF Agency | We Are The Future, we drive business growth through advanced IT solutions. Based in Ukraine, our Full Stack team specializes in complex web projects and IT consulting. We deliver comprehensive software development services\u2014from MVP preparation to ongoing support\u2014using the latest technologies and Agile methodologies to ensure scalable, successful outcomes. What We Do \ud83d\ude80 We offer a complete E2E development cycle: \ud83d\udee0 MVP Preparation \u2013 Quickly bringing your ideas to life. \ud83d\udcbb New Project Development \u2013 Crafting solutions tailored to your needs.",
+    "employee_count": "11-50",
+    "hq_country": "Vinnytsia",
+    "hq_state": "",
+    "hq_city": "Ukraine",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ua.linkedin.com/company/waf-company",
+    "linkedin": "https://linkedin.com/in/allanrbo"
+  },
+  "source_failed_basename": "9deb936a410110234abd16af905c1a790d1586e2ab47954b247cc1ba79d12399.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/9deb936a410110234abd16af905c1a790d1586e2ab47954b247cc1ba79d12399.precheck_failed.json",
+  "queue_key": "9509d9853731511720efb0bf5afa9e93f90a4764e4f6661b6709490367bb8806"
+}

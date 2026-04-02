@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "TechTide Solutions Inc.",
+  "lead": {
+    "business": "TechTide Solutions Inc.",
+    "full_name": "Contact Lead",
+    "first": "Contact",
+    "last": "Lead",
+    "email": "contact@techtidesolutions.com",
+    "role": "Contact",
+    "website": "https://techtidesolutions.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "source_url": "https://techtidesolutions.com",
+    "description": "TechTide Solutions is a global IT solution company providing full-cycle services in areas of custom web design, web development, mobile app development, SEO, hosting & support. Combining our solid business domain experience, technical expertise, profound knowledge of latest industry trends and quality-driven delivery model we offer progressive end-to-end solutions.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/techtide-solutions-inc"
+  },
+  "source_failed_basename": "725abd72104fec3347c14d1b37609dc3cf8acbd5efd5adc9df5bb8cc0fc6e758.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/725abd72104fec3347c14d1b37609dc3cf8acbd5efd5adc9df5bb8cc0fc6e758.precheck_failed.json",
+  "queue_key": "d861f935993788d8ca095df68a94258a57ea69b355783260eb59f87904f6677c"
+}

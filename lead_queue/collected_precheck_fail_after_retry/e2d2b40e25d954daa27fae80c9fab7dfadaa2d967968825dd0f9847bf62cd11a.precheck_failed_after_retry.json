@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Maryland Small Business Development Center",
+  "lead": {
+    "business": "Maryland Small Business Development Center",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "veteranbusiness@umd.eduwebsite",
+    "role": "partner",
+    "website": "https://www.marylandsbdc.org/",
+    "industry": "Professional Services",
+    "sub_industry": "Non-profit Organizations",
+    "country": "United States",
+    "state": "Maryland",
+    "city": "College Park",
+    "source_url": "https://marylandsbdc.org",
+    "description": "For more than 30 years, the Maryland SBDC has provided management, consulting, research and training to businesses in all phases of development and in many specialty areas--including technology. The network has more than 20 statewide locations where services are delivered.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Maryland",
+    "hq_city": "College Park",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/maryland-small-business-development-center"
+  },
+  "source_failed_basename": "68102e55f8cbf07282bbdad145c758371be4f20cad469cd93ec1e372d677dddd.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/68102e55f8cbf07282bbdad145c758371be4f20cad469cd93ec1e372d677dddd.precheck_failed.json",
+  "queue_key": "e2d2b40e25d954daa27fae80c9fab7dfadaa2d967968825dd0f9847bf62cd11a"
+}

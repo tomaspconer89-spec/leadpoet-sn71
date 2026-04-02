@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Bainbridge",
+  "lead": {
+    "business": "Bainbridge",
+    "full_name": "Info Lead",
+    "first": "Cassandrafrangos",
+    "last": "Lead",
+    "email": "info@bainbridge.com",
+    "role": "Contact",
+    "website": "http://www.bainbridge.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "California",
+    "city": "Park City",
+    "source_url": "https://bainbridge.com",
+    "description": "Founded out of MIT, Bainbridge is America\u2019s premiere technology-enabled, Strategy Consulting and Capital Advisory partner to the Fortune 1000 and MSMEs across the globe for the past 4 decades. Forbes top-ranked for 6 years in a row, teams at Bainbridge partner with clients as a single unit, with the shared goal of producing exceptional data, insights, and analysis to redefine how they look at their market and opportunities.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Diego",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bainbridge"
+  },
+  "source_failed_basename": "df33f804f40f9d2ba2a2a17d3a7a498ebe080e3e1681334e554897f12b8a27c1.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/df33f804f40f9d2ba2a2a17d3a7a498ebe080e3e1681334e554897f12b8a27c1.precheck_failed.json",
+  "queue_key": "349734fe125c27d3f99af80685ebbc9f42e1d5da06cbc5a5e2b76b3e3ed0119b"
+}

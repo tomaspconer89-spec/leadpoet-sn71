@@ -1,0 +1,733 @@
+{
+  "saved_at_utc": "2026-03-31T21:58:04.715001+00:00",
+  "queue_key": "9d3750aebcdb4284c16e254f1c7b21016db92ba90653df2ddca6e48bae201ae2",
+  "business": "Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+      "Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX linkedin company",
+      "site:linkedin.com/company blandgarvey.com",
+      "site:linkedin.com/in \"Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX\" founder",
+      "site:linkedin.com/in \"Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "idapo14YXn0PJlM",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Bland Garvey, CPAs & Wealth Advisors",
+            "url": "https://www.linkedin.com/company/bland-garvey-pc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bland Garvey, CPAs & Wealth Advisors",
+            "description": "Our CPAs and wealth advisors focus on developing a strategy according to your definition of success and provide clear guidance so you can make decisions with\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Bland Garvey Wealth Advisors, LLC",
+            "url": "https://www.linkedin.com/company/bland-garvey-wealth-advisors-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bland Garvey Wealth Advisors, LLC",
+            "description": "At Bland Garvey Wealth Advisors, we build a specific plan based on your needs, wants, and wishes so you can have a clear picture how to reach your goals.Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "MRM - CPAs and Wealth Advisors",
+            "url": "https://www.linkedin.com/company/mrmcpas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MRM - CPAs and Wealth Advisors",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Accounting. Richardson, Tx. Fitts, Roberts, Kolkhorst & Co., P.C.. Accounting. Houston, TX. Rebel Athletic. Retail Apparel\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey",
+              "Richardson",
+              "Tx",
+              "TX"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "840+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "CPS Group CPAs, PA",
+            "url": "https://www.linkedin.com/company/cps-group-cpas-pa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CPS Group CPAs, PA",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Accounting. Richardson, Tx. Kurtz Fargo LLP. Accounting. Boulder, CO. Milliken Agency Services. Insurance. Conway, NH\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey",
+              "Richardson",
+              "Tx"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "110+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The Burns Firm M&A Advisors",
+            "url": "https://www.linkedin.com/company/theburnsfirmma",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Burns Firm M&A Advisors",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Accounting. Richardson, Tx \u00b7 Burgher Haggard. Accounting. Fort Worth, TX \u00b7 GetHairMD\u2122. Health, Wellness & Fitness.Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey",
+              "Richardson",
+              "Tx",
+              "TX"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5 followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Financial Accounting Foundation (FAF)",
+            "url": "https://www.linkedin.com/company/financial-accounting-foundation",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Financial Accounting Foundation (FAF)",
+            "description": "Established in 1972, the Financial Accounting Foundation (FAF) is the independent, private-sector, not-for-profit organization based in Norwalk, Connecticut.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.4K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "NANNDI",
+            "url": "https://de.linkedin.com/company/nanndi?trk=public_profile_experience-item_result-card_subtitle-click",
+            "displayedUrl": "https://de.linkedin.com \u203a company \u203a nanndi",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Rechnungswesen. Richardson, Tx \u00b7 Moov2 | Tecnologia + Consultoria. IT-Dienstleistungen und IT-Beratung. Porto Alegre, RS\u00a0...",
+            "emphasizedKeywords": [
+              "Bland Garvey",
+              "Richardson",
+              "Tx"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Edwards, Faust & Smith CPAs",
+            "url": "https://cz.linkedin.com/company/edwards-faust-&-smith",
+            "displayedUrl": "https://cz.linkedin.com \u203a company \u203a edwards-faust-&-sm...",
+            "description": "ROY & ASSOCIATES, CPA's. \u00da\u010detnictv\u00ed a da\u0148ov\u00e9 poradenstv\u00ed. Bangor, Maine ... Bland Garvey, CPAs & Wealth Advisors. \u00da\u010detnictv\u00ed a da\u0148ov\u00e9 poradenstv\u00ed. Richardson, Tx\u00a0...",
+            "emphasizedKeywords": [
+              "CPA's",
+              "Bland Garvey",
+              "Richardson",
+              "Tx"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "MarkhamNorton Accountants+Advisors",
+            "url": "https://www.linkedin.com/company/markham-norton-accountants-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MarkhamNorton Accountants+Advisors",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Accounting. Richardson, Tx \u00b7 HBK CPAs & Consultants. Accounting. Canfield, Ohio \u00b7 HSC/Tuscan & Company, P.A.. Accounting.Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey",
+              "Richardson",
+              "Tx"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Waters Hardy & Co, P.C.",
+            "url": "https://at.linkedin.com/company/waters-hardy-co-p-c",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Waters Hardy & Co, P.C.",
+            "description": "Peters CPA, LLC. Rechnungswesen. Dallas, TX \u00b7 Bland Garvey, CPAs & Wealth Advisors. Rechnungswesen. Richardson, Tx \u00b7 Patten and Company LLC. Rechnungswesen.Read more",
+            "emphasizedKeywords": [
+              "CPA",
+              "TX",
+              "Bland Garvey",
+              "Richardson",
+              "Tx"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Qq2merrMoLsNTVJey/records/idapo14YXn0PJlM-0.html?signature=CEdUmQ3jrAh5xv8m4xO"
+      },
+      {
+        "#debug": {
+          "requestId": "z6PaqWCYmKshABK",
+          "url": "http://www.google.com/search?q=Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX linkedin company",
+          "url": "http://www.google.com/search?q=Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Bland+Garvey+CPA+%7C+Richardson%2C+TX+%E2%80%93+Bland+Garvey+CPA+%7C+Richardson%2C+TX+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Bland Garvey, CPAs & Wealth Advisors",
+            "url": "https://www.linkedin.com/company/bland-garvey-pc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bland Garvey, CPAs & Wealth Advisors",
+            "description": "Our CPAs and wealth advisors focus on developing a strategy according to your definition of success and provide clear guidance so you can make decisions with\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Careers \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/careers/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a careers",
+            "description": "Bland Garvey, P.C. is a Certified Public Accounting Firm. Bland Garvey Wealth Advisors, L.L.C. is a Registered Investment Advisor with the SEC\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Certified Public Accounting Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Andrew Turpin, CPA - Bland Garvey, CPAs & Wealth ...",
+            "url": "https://www.linkedin.com/in/andrewturpin",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Andrew Turpin, CPA",
+            "description": "Bland Garvey, CPAs & Wealth Advisors The University of Texas at Dallas - School of Management. Richardson, Texas, United States.Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey, CPAs & Wealth Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Richardson, Texas, United States",
+              "companyName": "Bland Garvey, CPAs & Wealth Advisors",
+              "rawText": "Richardson, Texas, United States \u00b7 Bland Garvey, CPAs & Wealth Advisors"
+            },
+            "followersAmount": "160+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Jeffery M Dalrymple \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/jeffery-m-dalrymple/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a jeffery-m-dalry...",
+            "description": "Jeffery Dalrymple has over 25 years of experience in public accounting. He joined Bland Garvey, PC in 2001 and today is an Officer \u2013 Audit and Assurance with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "has over 25 years of experience in public accounting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Teresa DuVall \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/teresa-walker/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a teresa-walker",
+            "description": "Teresa DuVall. CPA, CSA. Teresa DuVall joined Bland Garvey, PC in 1999 and became an officer in 2025. She has experience assisting clients in tax consulting\u00a0...Read more",
+            "emphasizedKeywords": [
+              "joined Bland Garvey, PC in 1999"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "John Garvey \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/john-garvey/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a john-garvey",
+            "description": "John Garvey, Jr. CEO | CPA/PFS. John Garvey Jr. succeeded his father as the third Managing Partner and CEO for Bland Garvey in 2008.Read more",
+            "emphasizedKeywords": [
+              "John Garvey, Jr. CEO | CPA/PFS"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Erica Whitten, CPA - Senior Associate at Bland Garvey",
+            "url": "https://www.linkedin.com/in/erica-whitten-cpa-23605272",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Erica Whitten, CPA",
+            "description": "Senior Associate at Bland Garvey \u00b7 Experience: Bland Garvey, CPAs & Wealth Advisors \u00b7 Education: The University of Texas at Dallas \u00b7 Location: Richardson\u00a0...",
+            "emphasizedKeywords": [
+              "Senior Associate at Bland Garvey"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Richardson, Texas, United States",
+              "jobTitle": "Senior Associate",
+              "companyName": "Bland Garvey, CPAs & Wealth Advisors",
+              "rawText": "Richardson, Texas, United States \u00b7 Senior Associate \u00b7 Bland Garvey, CPAs & Wealth Advisors"
+            },
+            "followersAmount": "250+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Andrew Turpin \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/andrew-turpin/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a andrew-turpin",
+            "description": "With over a decade of experience in public accounting, Andrew Turpin is a Director with Bland Garvey, PC. He has significant practice concentration in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Andrew Turpin is a Director with Bland Garvey, PC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Ling Liu \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/ling-liu/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a ling-liu",
+            "description": "Ling Liu joined Bland Garvey, PC in 2018 and is currently a Manager with the firm. She has experience assisting clients in numerous areas.Read more",
+            "emphasizedKeywords": [
+              "currently a Manager with the firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Emily Brewer \u2013 Bland Garvey CPA | Richardson, TX",
+            "url": "https://www.blandgarvey.com/team/emily-brewer/",
+            "displayedUrl": "https://www.blandgarvey.com \u203a team \u203a emily-brewer",
+            "description": "Senior Manager with Bland Garvey, PC; Experience assisting clients in tax compliance and business consulting, especially general dentists, orthodontists,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Senior Manager with Bland Garvey, PC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/nZJQY2tL8RmR4BfWe/records/z6PaqWCYmKshABK-0.html?signature=gLZAPnhgLKWdaUnNQNBf"
+      },
+      {
+        "#debug": {
+          "requestId": "vaC1hexHlJ4fhwR",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+blandgarvey.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+blandgarvey.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company blandgarvey.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+blandgarvey.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+blandgarvey.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Bland Garvey, CPAs & Wealth Advisors",
+            "url": "https://www.linkedin.com/company/bland-garvey-pc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bland Garvey, CPAs & Wealth Advisors",
+            "description": "Our CPAs and wealth advisors focus on developing a strategy according to your definition of success and provide clear guidance so you can make decisions with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CPAs and wealth advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "460+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Bland Garvey Wealth Advisors, LLC",
+            "url": "https://www.linkedin.com/company/bland-garvey-wealth-advisors-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Bland Garvey Wealth Advisors, LLC",
+            "description": "At Bland Garvey Wealth Advisors, we build a specific plan based on your needs, wants, and wishes so you can have a clear picture how to reach your goals.Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Waters Hardy & Co, P.C.",
+            "url": "https://mx.linkedin.com/company/waters-hardy-co-p-c",
+            "displayedUrl": "https://mx.linkedin.com \u203a company \u203a waters-hardy-co-p-c",
+            "description": "From guiding you through tax payment options to helping you plan estimated taxes and filing strategy, we're here to ensure your compliance and peace of mind\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "MESCH, PLLC",
+            "url": "https://www.linkedin.com/company/mesch-pllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MESCH, PLLC",
+            "description": "Founded in 1981, Mesch provides companies and individuals with assistance in advisory business and wealth management services, tax services, transaction\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "MRM - CPAs and Wealth Advisors",
+            "url": "https://www.linkedin.com/company/mrmcpas",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MRM - CPAs and Wealth Advisors",
+            "description": "We take a holistic approach that combines CPA and financial advisory services to help protect and grow your wealth. With MRM, your advisor is always available\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CPA and financial advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "840+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Meredith Vantage",
+            "url": "https://www.linkedin.com/company/meredithvantage",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meredith Vantage",
+            "description": "Founded in 1986 as Meredith & Associates, our firm has evolved over nearly four decades to meet the changing needs of modern businesses.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "430+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Edwards, Faust & Smith CPAs",
+            "url": "https://cz.linkedin.com/company/edwards-faust-&-smith",
+            "displayedUrl": "https://cz.linkedin.com \u203a company \u203a edwards-faust-&-sm...",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. \u00da\u010detnictv\u00ed a da\u0148ov\u00e9 poradenstv\u00ed. Richardson, Tx \u00b7 Kurtz Fargo LLP. \u00da\u010detnictv\u00ed a da\u0148ov\u00e9 poradenstv\u00ed. Boulder, CO \u00b7 Swindell\u00a0...",
+            "emphasizedKeywords": [
+              "Bland Garvey, CPAs & Wealth Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Desroches Partners",
+            "url": "https://www.linkedin.com/company/desroches-partners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Desroches Partners",
+            "description": "Bland Garvey, CPAs & Wealth Advisors. Accounting. Richardson, Tx \u00b7 BDO USA. Accounting. Chicago, IL \u00b7 Blazek & Vetterling. Accounting. Houston, Texas. Show more\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Bland Garvey, CPAs & Wealth Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "620+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "The Burns Firm, Ltd.",
+            "url": "https://ec.linkedin.com/company/the-burns-firm",
+            "displayedUrl": "https://ec.linkedin.com \u203a company \u203a the-burns-firm",
+            "description": "Our firm services include: - Tax planning, compliance, controversy resolution and estate planning for corporations, partnerships, individuals, trusts and\u00a0...",
+            "emphasizedKeywords": [
+              "Tax planning, compliance, controversy resolution and estate planning"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "NANNDI",
+            "url": "https://www.linkedin.com/company/nanndi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Alain Torres Quintas",
+            "description": "We are a frozen cream & pastry shop that strives to make our customers happy as they enjoy our excellent tasting treats. \u00b7 Report this company \u00b7 Close menu.Read more",
+            "emphasizedKeywords": [
+              "frozen cream & pastry shop"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/OGxB8IhpNY98Fvo60/records/vaC1hexHlJ4fhwR-0.html?signature=Rv2tGba65MVjiGuUw8Ai"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+      "https://www.linkedin.com/company/bland-garvey-pc",
+      "https://www.linkedin.com/company/bland-garvey-wealth-advisors-llc",
+      "https://www.linkedin.com/company/mrmcpas",
+      "https://www.linkedin.com/company/cps-group-cpas-pa",
+      "https://www.linkedin.com/company/theburnsfirmma",
+      "https://www.linkedin.com/company/financial-accounting-foundation",
+      "https://de.linkedin.com/company/nanndi?trk=public_profile_experience-item_result-card_subtitle-click",
+      "https://cz.linkedin.com/company/edwards-faust-&-smith",
+      "https://www.linkedin.com/company/markham-norton-accountants-advisors",
+      "https://at.linkedin.com/company/waters-hardy-co-p-c",
+      "https://www.linkedin.com/company/bland-garvey-pc",
+      "https://www.linkedin.com/in/andrewturpin",
+      "https://www.linkedin.com/in/erica-whitten-cpa-23605272",
+      "site:linkedin.com/company blandgarvey.com",
+      "https://www.linkedin.com/company/bland-garvey-pc",
+      "https://www.linkedin.com/company/bland-garvey-wealth-advisors-llc",
+      "https://mx.linkedin.com/company/waters-hardy-co-p-c",
+      "https://www.linkedin.com/company/mesch-pllc",
+      "https://www.linkedin.com/company/mrmcpas",
+      "https://www.linkedin.com/company/meredithvantage",
+      "https://cz.linkedin.com/company/edwards-faust-&-smith",
+      "https://www.linkedin.com/company/desroches-partners",
+      "https://ec.linkedin.com/company/the-burns-firm",
+      "https://www.linkedin.com/company/nanndi"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/bland-garvey-pc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/andrewturpin"
+  },
+  "lead_before_enrichment": {
+    "business": "Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+    "description": "# Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA ## Strategic Accounting, Tax, and Wealth Management **for You and Your Business** ##### At Bland Garvey, we come alongside to advise you in making financial decisions to grow, live, and retire well. ### Proactive Accounting & Tax Planning ### Real-Time Business Financial Consulting ### Personalized Wealth Management ![](https://www.blandgarvey.com/wp-content/uploads/2022/10/image-home-408-edited1-1024x846.jpg) ## There are so many details to consider in your personal and business finances.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://blandgarvey.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bland-garvey-pc",
+    "source_url": "https://blandgarvey.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "blandgarvey.com",
+    "source_urls": [
+      "https://blandgarvey.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA | Richardson, TX",
+    "description": "# Bland Garvey CPA | Richardson, TX \u2013 Bland Garvey CPA ## Strategic Accounting, Tax, and Wealth Management **for You and Your Business** ##### At Bland Garvey, we come alongside to advise you in making financial decisions to grow, live, and retire well. ### Proactive Accounting & Tax Planning ### Real-Time Business Financial Consulting ### Personalized Wealth Management ![](https://www.blandgarvey.com/wp-content/uploads/2022/10/image-home-408-edited1-1024x846.jpg) ## There are so many details to consider in your personal and business finances.",
+    "full_name": "Andrewturpin",
+    "first": "Andrewturpin",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://blandgarvey.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "CEO",
+    "linkedin": "https://www.linkedin.com/in/andrewturpin",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bland-garvey-pc",
+    "source_url": "https://blandgarvey.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "Norwalk",
+    "country": "United States",
+    "state": "",
+    "city": "Norwalk",
+    "employee_count": "11-50",
+    "company_domain_canonical": "blandgarvey.com",
+    "source_urls": [
+      "https://blandgarvey.com"
+    ],
+    "title_raw": "CEO",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://blandgarvey.com"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "Norwalk"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "first": {
+      "before": "",
+      "after": "Andrewturpin"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Andrewturpin"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Norwalk"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/andrewturpin"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://blandgarvey.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "CEO"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "CEO"
+    }
+  }
+}

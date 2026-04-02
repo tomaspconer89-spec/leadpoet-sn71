@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "New York Business Consultants LLC",
+  "lead": {
+    "business": "New York Business Consultants LLC",
+    "full_name": "Malko Ebers",
+    "first": "Malko",
+    "last": "Ebers",
+    "email": "info@newyorkbusinessconsultants.com",
+    "role": "CEO",
+    "website": "http://www.newyorkbusinessconsultants.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://newyorkbusinessconsultants.com",
+    "description": "\u2018We help companies GROW and master change. Headquartered in the financial center of the world New York Business Consultants LLC connects you with customers, distributors, investors and partners. Let us help you achieve sustainable performance and take advantage of global opportunities.\u2019 (CEO Malko Ebers) What we care about: The NYBC team cares about empowering business owners, sustainabke development and making a difference. How we do it:",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "NEW YORK",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/new-york-business-consultants",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/new-york-business-consultants",
+    "linkedin": "https://linkedin.com/in/malko-ebers-a093273b"
+  },
+  "source_failed_basename": "a7774064cc3e4bcb14595dab117c00190b7ff036c535efa5d2b78da0c862e17a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/a7774064cc3e4bcb14595dab117c00190b7ff036c535efa5d2b78da0c862e17a.precheck_failed.json",
+  "queue_key": "9c8e719e82910dc91d609102a477d0221671ba6411015c221efbb447119102d9"
+}

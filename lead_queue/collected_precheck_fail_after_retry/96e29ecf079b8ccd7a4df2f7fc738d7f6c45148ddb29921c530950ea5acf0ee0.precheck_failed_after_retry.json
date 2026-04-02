@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "name_not_in_email",
+  "business": "Startup Consulting at Cornell",
+  "lead": {
+    "business": "Startup Consulting at Cornell",
+    "full_name": "Michael Rezak",
+    "first": "Michael",
+    "last": "Rezak",
+    "email": "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+    "role": "Incoming Business Analyst Intern",
+    "website": "https://startupconsultingatcornell.notion.site/Startup-Consulting-at-Cornell-bbaf872a94234b1aa3db86410f9636e6",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://startupconsultingatcornell.org",
+    "description": "Startup Consulting at Cornell is a student organization that advises startups across a diverse range of industries and functional areas. Through semester-long projects, our members learn valuable strategy consulting skills while driving a tangible impact on startups.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "Ithaca",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/startup-cc",
+    "linkedin": "https://linkedin.com/in/michael-rezak"
+  },
+  "source_failed_basename": "62a834c2b2e7cfa6bfea38babf96402598c68f5edd977b842461d3f449c315f6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/62a834c2b2e7cfa6bfea38babf96402598c68f5edd977b842461d3f449c315f6.precheck_failed.json",
+  "queue_key": "96e29ecf079b8ccd7a4df2f7fc738d7f6c45148ddb29921c530950ea5acf0ee0"
+}

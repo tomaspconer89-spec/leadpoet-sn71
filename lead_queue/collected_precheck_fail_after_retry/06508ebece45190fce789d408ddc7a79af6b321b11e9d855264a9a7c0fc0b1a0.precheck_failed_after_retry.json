@@ -1,0 +1,42 @@
+{
+  "reason": "name_invalid_chars: last contains invalid characters",
+  "retry_reason": "name_invalid_chars: last contains invalid characters",
+  "previous_reason": "missing_required_fields: last",
+  "business": "CEO Advisor, Inc",
+  "lead": {
+    "business": "CEO Advisor, Inc",
+    "full_name": "Mark Hartsell, MBA, President",
+    "first": "Mark",
+    "last": "Hartsell, MBA, President",
+    "email": "mhartsell@ceoadvisor.com",
+    "role": "President",
+    "website": "http://www.ceoadvisor.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "California",
+    "city": "Orange County",
+    "source_url": "https://ceoadvisor.com",
+    "description": "Mergers & acquisitions and business advisory services to CEOs, Presidents and business owners of small and mid-sized companies with 1-200 employees. Specializing in Growth, Growth Capital, Growth by Acquisition, and Your Exit Strategy and the Sale of Your Company. For full information on the company and the staff of CEO Advisors, please visit the website at http://www.ceoadvisor.com.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Newport Beach",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/ceo-advisor-inc",
+    "linkedin": "https://linkedin.com/in/markhartsellceoadvisor"
+  },
+  "source_failed_basename": "df794cb9cedc11682accbb4202df14dd71119996116b560aef4042d0935b3ac7.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/df794cb9cedc11682accbb4202df14dd71119996116b560aef4042d0935b3ac7.precheck_failed.json",
+  "queue_key": "06508ebece45190fce789d408ddc7a79af6b321b11e9d855264a9a7c0fc0b1a0"
+}

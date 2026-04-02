@@ -1,0 +1,790 @@
+{
+  "saved_at_utc": "2026-04-01T13:24:05.509081+00:00",
+  "queue_key": "bcf63caa03180726dce9d2b60ec9065cd8aab9dee5bccd6242afdf2059adc762",
+  "business": "Semler Brossy - Leading Executive Compensation Consulting Firm",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Semler Brossy - Leading Executive Compensation Consulting Firm",
+      "Semler Brossy - Leading Executive Compensation Consulting Firm linkedin company",
+      "site:linkedin.com/company semlerbrossy.com",
+      "site:linkedin.com/in \"Semler Brossy - Leading Executive Compensation Consulting Firm\" founder",
+      "site:linkedin.com/in \"Semler Brossy - Leading Executive Compensation Consulting Firm\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "uX1Y2FSqz9t50HH",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Semler Brossy - Leading Executive Compensation Consulting Firm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Semler brossy leading executive compensation consulting firm salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+salary&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+address&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+email&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm salary",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+salary&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+address&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&gl=US&q=Semler+brossy+leading+executive+compensation+consulting+firm+email&sa=X&ved=2ahUKEwiXq7Oa38yTAxV8FDQIHcrlItsQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Semler Brossy",
+            "url": "https://www.linkedin.com/company/semler-brossy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Semler Brossy",
+            "description": "Semler Brossy is a leading independent consulting firm. We believe leadership matters in creating economic prosperity and value for shareholders, customers,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy is a leading independent consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "FW Cook",
+            "url": "https://www.linkedin.com/company/frederic-w.-cook-&-co.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FW Cook",
+            "description": "Our firm has grown to seven offices across the country, and has served more than 3,000 clients, including some of the largest, most successful companies in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "firm",
+              "largest",
+              "companies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Johnson Associates, Inc.",
+            "url": "https://www.linkedin.com/company/johnson-associates-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Johnson Associates, Inc.",
+            "description": "Johnson Associates is a specialized premier compensation consulting firm with second-to-none experience designing executive compensation programs.Read more",
+            "emphasizedKeywords": [
+              "Johnson Associates is a specialized premier compensation consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "850+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Pearl Meyer",
+            "url": "https://www.linkedin.com/company/pearl-meyer",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pearl Meyer",
+            "description": "Pearl Meyer is the leading advisor to boards and senior management helping organizations build, develop, and reward great leadership teams that drive long-term\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pearl Meyer is the leading advisor to boards and senior management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Compensation Advisory Partners",
+            "url": "https://www.linkedin.com/company/compensation-advisory-partners",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Compensation Advisory Partners",
+            "description": "Compensation Advisory Partners (CAP) is an independent executive compensation consulting firm. ... Semler Brossy. Business Consulting and Services. Los Angeles,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "is an independent executive compensation consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Compensia",
+            "url": "https://www.linkedin.com/company/compensia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Compensia",
+            "description": "Compensia is the leading independent compensation advisor to technology and life sciences companies. For more than two decades, Compensation Committees and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Compensia is the leading independent compensation advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Meridian Compensation Partners, LLC",
+            "url": "https://www.linkedin.com/company/meridian-compensation-partners-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meridian Compensation Partners, LLC",
+            "description": "Meridian Compensation Partners provides the most effective solutions and independent advice in executive compensation and corporate governance consulting.Read more",
+            "emphasizedKeywords": [
+              "provides the most effective solutions and independent advice in executive compensation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Farient Advisors LLC",
+            "url": "https://www.linkedin.com/company/farient-advisors-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Farient Advisors LLC",
+            "description": "Farient Advisors LLC is an independent executive compensation and corporate governance consultancy. We provide a comprehensive array of services to boards\u00a0...Read more",
+            "emphasizedKeywords": [
+              "executive compensation",
+              "consultancy",
+              "services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Pay Governance LLC",
+            "url": "https://www.linkedin.com/company/pay-governance",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Chris Brindisi",
+            "description": "Pay Governance LLC is an independent executive compensation advisory firm. ... Semler Brossy. Business Consulting and Services. Los Angeles, CA \u00b7 Meridian\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pay Governance LLC is an independent executive compensation advisory firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Compensation Advisory Partners",
+            "url": "https://nl.linkedin.com/company/compensation-advisory-partners?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Compensation Advisory Partners",
+            "description": "Our highly experienced consultants work with boards and management to design compensation programs that attract, motivate, retain, and reward the best people.Read more",
+            "emphasizedKeywords": [
+              "compensation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/0STwCsx2RKdmb18f2/records/uX1Y2FSqz9t50HH-0.html?signature=KmI3ThxREUpWgRYdkgdO"
+      },
+      {
+        "#debug": {
+          "requestId": "p9p3j9zBKzyM0NW",
+          "url": "http://www.google.com/search?q=Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Semler Brossy - Leading Executive Compensation Consulting Firm linkedin company",
+          "url": "http://www.google.com/search?q=Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Semler+Brossy+-+Leading+Executive+Compensation+Consulting+Firm+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Top executive compensation consulting firms",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Top+executive+compensation+consulting+firms&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Semler+brossy+leading+executive+compensation+consulting+firm+linkedin+company+email&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Semler+brossy+leading+executive+compensation+consulting+firm+linkedin+company+address&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "What does semler brossy do",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=What+does+semler+brossy+do&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAgzEAE"
+          },
+          {
+            "title": "Top executive compensation consulting firms",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Top+executive+compensation+consulting+firms&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg0EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Semler+brossy+leading+executive+compensation+consulting+firm+linkedin+company+email&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Semler brossy leading executive compensation consulting firm linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=Semler+brossy+leading+executive+compensation+consulting+firm+linkedin+company+address&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "What does semler brossy do",
+            "url": "https://www.google.com/search?sca_esv=4f709db2114f009d&hl=en&q=What+does+semler+brossy+do&sa=X&ved=2ahUKEwjm1rGk38yTAxUYpIkEHbHlAsoQ1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Semler Brossy",
+            "url": "https://www.linkedin.com/company/semler-brossy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Semler Brossy",
+            "description": "Semler Brossy is a leading independent consulting firm. We believe leadership matters in creating economic prosperity and value for shareholders, customers,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy is a leading independent consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Compensation Committees Evolve with Workforce Strategy",
+            "url": "https://www.linkedin.com/posts/semler-brossy_compensationcommittees-strategy-culture-activity-7430302903711694848-CnYH",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Semler Brossy",
+            "description": "View organization page for Semler Brossy. Semler Brossy. 6,122 followers. 1w. Report this post; Close menu. Stay tuned for episode 5 of The\u00a0...Read more",
+            "emphasizedKeywords": [
+              "View organization page for Semler Brossy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "John Borneman - Managing Director at Semler Brossy ...",
+            "url": "https://www.linkedin.com/in/john-borneman-7127318",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Borneman",
+            "description": "Senior executive compensation consultant with over 20 years of experience advising Compensation Committees and senior management teams.Read more",
+            "emphasizedKeywords": [
+              "Senior executive compensation consultant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Los Angeles Metropolitan Area",
+              "jobTitle": "Managing Director",
+              "companyName": "Semler Brossy Consulting Group",
+              "rawText": "Los Angeles Metropolitan Area \u00b7 Managing Director \u00b7 Semler Brossy Consulting Group"
+            },
+            "followersAmount": "520+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Semler Brossy - Leading Executive Compensation Consulting ...",
+            "url": "https://semlerbrossy.com/",
+            "displayedUrl": "https://semlerbrossy.com",
+            "description": "We engage and focus leadership by developing thoughtful compensation, talent, and board stewardship strategies.Read more",
+            "emphasizedKeywords": [
+              "and focus"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Blair Jones - Semler Brossy Consulting Group, LLC",
+            "url": "https://www.linkedin.com/in/blairnewtonjones",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Blair Jones",
+            "description": "Blair Jones works with Board Compensation Committees to align executive compensation with\u2026 \u00b7 Experience: Semler Brossy Consulting Group,\u00a0...",
+            "emphasizedKeywords": [
+              "Blair Jones works with Board Compensation Committees"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Clinton, New York, United States",
+              "companyName": "Semler Brossy Consulting Group, LLC",
+              "rawText": "Clinton, New York, United States \u00b7 Semler Brossy Consulting Group, LLC"
+            },
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Blair Jones on Board Compensation Committee Evolution",
+            "url": "https://www.linkedin.com/posts/dchia_why-your-compensation-strategy-is-your-real-activity-7432149937846595584-iiGy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Douglas Chia",
+            "description": "Blair Jones of Semler Brossy explains the evolution of the board compensation committee from being focused on the compensation of the CEO to the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "of Semler Brossy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Semler Brossy",
+            "url": "https://boardmember.com/boardroomsummit/semler-brossy/",
+            "displayedUrl": "https://boardmember.com \u203a boardroomsummit \u203a semler...",
+            "description": "Semler Brossy is a leading independent consulting firm. We partner with Boards, Compensation and Human Capital Committees, and Management teams to develop\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy is a leading independent consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Semler Brossy hiring Experienced Consultant in Los Angeles, CA",
+            "url": "https://www.linkedin.com/jobs/view/experienced-consultant-at-semler-brossy-4068298430",
+            "displayedUrl": "https://www.linkedin.com \u203a jobs \u203a view \u203a experienced-c...",
+            "description": "WHO WE ARE Semler Brossy is a leading executive compensation consulting firm focused on executive and strategic pay. We serve a broad cross-section of companies\u00a0...",
+            "emphasizedKeywords": [
+              "Semler Brossy is a leading executive compensation consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Semler Brossy Consulting Group - Overview, News & ...",
+            "url": "https://www.zoominfo.com/c/semler-brossy-consulting-group-llc/107348269",
+            "displayedUrl": "https://www.zoominfo.com \u203a semler-brossy-consulting-g...",
+            "description": "Semler Brossy is a leading executive compensation consulting firm that specializes in providing advisory services to corporate boards and management teams\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy is a leading executive compensation consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Phillip Pennell - Principal at Semler Brossy Consulting Group",
+            "url": "https://www.linkedin.com/in/phillippennell",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Phillip Pennell",
+            "description": "Principal at Semler Brossy Consulting Group \u00b7 Executive compensation consultant with experience across a broad set of industries \u00b7 Experience: Semler Brossy\u00a0...",
+            "emphasizedKeywords": [
+              "Executive compensation consultant"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Claremont, California, United States",
+              "jobTitle": "Principal",
+              "companyName": "Semler Brossy",
+              "rawText": "Claremont, California, United States \u00b7 Principal \u00b7 Semler Brossy"
+            },
+            "followersAmount": "650+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/KbljwWUJti71dBGAH/records/p9p3j9zBKzyM0NW-0.html?signature=Kk5XBRVO2OssYli2vRVb"
+      },
+      {
+        "#debug": {
+          "requestId": "Bi8Gz51XNPJSkUv",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+semlerbrossy.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+semlerbrossy.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company semlerbrossy.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+semlerbrossy.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+semlerbrossy.com",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Semler Brossy",
+            "url": "https://www.linkedin.com/company/semler-brossy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Semler Brossy",
+            "description": "Semler Brossy is a leading independent consulting firm. We believe leadership matters in creating economic prosperity and value for shareholders, customers,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "a leading independent consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Compensia",
+            "url": "https://cl.linkedin.com/company/compensia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Compensia",
+            "description": "Compensia is the leading independent compensation advisor to technology and life sciences companies. For more than two decades, Compensation Committees and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Compensia is the leading independent compensation advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "True Consulting Group, LLC",
+            "url": "https://cl.linkedin.com/company/true-consulting-group-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0True Consulting Group, LLC",
+            "description": "P\u00e1ginas similares. Semler Brossy. Consultor\u00eda y servicios a empresas. Los Angeles, CA. Build The Hill. Banca. Chapel Hill, North Carolina. Prime Nest Solutions.Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "FW Cook",
+            "url": "https://cl.linkedin.com/company/frederic-w.-cook-&-co.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0FW Cook",
+            "description": "Semler Brossy. Consultor\u00eda y servicios a empresas. Los Angeles, CA \u00b7 Pearl Meyer. Consultor\u00eda y servicios a empresas. Wellesley, Massachusetts \u00b7 Compensia.Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "The Conference Board",
+            "url": "https://cl.linkedin.com/company/the-conference-board?trk=ppro_cprof",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Conference Board",
+            "description": "... Semler Brossy sees as the future CEO skill set Rising US fiscal risk, according to the Committee for Economic Development The drivers of sustained\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Semler Brossy sees as the future CEO skill set"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "53.9K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Heidrick & Struggles",
+            "url": "https://ao.linkedin.com/company/heidrick-&-struggles?trk=ppro_cprof",
+            "displayedUrl": "https://ao.linkedin.com \u203a company \u203a heidrick-&-struggles",
+            "description": "Heidrick & Struggles is the premier provider of executive search, corporate culture and leadership consulting services. We work for more than 70% of Fortune\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "True Consulting Group, LLC",
+            "url": "https://www.linkedin.com/company/true-consulting-group-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0True Consulting Group, LLC",
+            "description": "Our network of Life Sciences industry leaders and subject matter experts bring with them a long history of success and core motivation.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Johnson Associates, Inc.",
+            "url": "https://ve.linkedin.com/company/johnson-associates-inc.",
+            "displayedUrl": "https://ve.linkedin.com \u203a company \u203a johnson-associates-i...",
+            "description": "Semler Brossy. Consultor\u00eda y servicios a empresas. Los Angeles, CA \u00b7 Pari Passu Newsletter. Servicios financieros \u00b7 Mercer. Servicios profesionales. New York,\u00a0...",
+            "emphasizedKeywords": [
+              "Semler Brossy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Pearl Meyer",
+            "url": "https://bo.linkedin.com/company/pearl-meyer",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pearl Meyer",
+            "description": "Connecting People, Purpose, and Performance.\u2122 Pearl Meyer is the leading advisor to boards and senior management helping organizations build\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Pearl Meyer is the leading advisor to boards and senior management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Meridian Compensation Partners, LLC",
+            "url": "https://cn.linkedin.com/company/meridian-compensation-partners-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meridian Compensation Partners, LLC",
+            "description": "Meridian Compensation Partners provides the most effective solutions and independent advice in executive compensation and corporate governance consulting.Read more",
+            "emphasizedKeywords": [
+              "provides the most effective solutions and independent advice in executive compensation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/5VIOEnFpH70iqiJnp/records/Bi8Gz51XNPJSkUv-0.html?signature=sgyhF5Gli7icxY3KNSBw"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Semler Brossy - Leading Executive Compensation Consulting Firm",
+      "https://www.linkedin.com/company/semler-brossy",
+      "https://www.linkedin.com/company/frederic-w.-cook-&-co.",
+      "https://www.linkedin.com/company/johnson-associates-inc.",
+      "https://www.linkedin.com/company/pearl-meyer",
+      "https://www.linkedin.com/company/compensation-advisory-partners",
+      "https://www.linkedin.com/company/compensia",
+      "https://www.linkedin.com/company/meridian-compensation-partners-llc",
+      "https://www.linkedin.com/company/farient-advisors-llc",
+      "https://www.linkedin.com/company/pay-governance",
+      "https://nl.linkedin.com/company/compensation-advisory-partners?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/company/semler-brossy",
+      "https://www.linkedin.com/posts/semler-brossy_compensationcommittees-strategy-culture-activity-7430302903711694848-CnYH",
+      "https://www.linkedin.com/in/john-borneman-7127318",
+      "https://www.linkedin.com/in/blairnewtonjones",
+      "https://www.linkedin.com/posts/dchia_why-your-compensation-strategy-is-your-real-activity-7432149937846595584-iiGy",
+      "https://www.linkedin.com/jobs/view/experienced-consultant-at-semler-brossy-4068298430",
+      "https://www.linkedin.com/in/phillippennell",
+      "site:linkedin.com/company semlerbrossy.com",
+      "https://www.linkedin.com/company/semler-brossy",
+      "https://cl.linkedin.com/company/compensia",
+      "https://cl.linkedin.com/company/true-consulting-group-llc",
+      "https://cl.linkedin.com/company/frederic-w.-cook-&-co.",
+      "https://cl.linkedin.com/company/the-conference-board?trk=ppro_cprof",
+      "https://ao.linkedin.com/company/heidrick-&-struggles?trk=ppro_cprof",
+      "https://www.linkedin.com/company/true-consulting-group-llc",
+      "https://ve.linkedin.com/company/johnson-associates-inc.",
+      "https://bo.linkedin.com/company/pearl-meyer",
+      "https://cn.linkedin.com/company/meridian-compensation-partners-llc"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/semler-brossy",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/john-borneman-7127318"
+  },
+  "lead_before_enrichment": {
+    "business": "Semler Brossy - Leading Executive Compensation Consulting Firm",
+    "description": "# Semler Brossy - Leading Executive Compensation Consulting Firm ## We take off where other firms finish ## Clients choose us for our partnership and creative thinking that brings strategic clarity. _We engage and focus leadership by developing thoughtful compensation, talent, and board stewardship strategies._ ![](https://semler-20493.kxcdn.com/wp-content/uploads/2024/06/explore-our-culture-teal1-600x600.jpg) ## Discover Semler Brossy We don\u2019t settle for a \u2018middle-of-the-road\u2019 approach. Clients choose us for our partnership, thorough thinking, and creative solutions.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://semlerbrossy.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://semlerbrossy.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "semlerbrossy.com",
+    "source_urls": [
+      "https://semlerbrossy.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Semler Brossy - Leading Executive Compensation Consulting Firm",
+    "description": "# Semler Brossy - Leading Executive Compensation Consulting Firm ## We take off where other firms finish ## Clients choose us for our partnership and creative thinking that brings strategic clarity. _We engage and focus leadership by developing thoughtful compensation, talent, and board stewardship strategies._ ![](https://semler-20493.kxcdn.com/wp-content/uploads/2024/06/explore-our-culture-teal1-600x600.jpg) ## Discover Semler Brossy We don\u2019t settle for a \u2018middle-of-the-road\u2019 approach. Clients choose us for our partnership, thorough thinking, and creative solutions.",
+    "full_name": "John Borneman",
+    "first": "John",
+    "last": "Borneman",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://semlerbrossy.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Managing Director",
+    "linkedin": "https://www.linkedin.com/in/john-borneman-7127318",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/semler-brossy",
+    "source_url": "https://semlerbrossy.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "semlerbrossy.com",
+    "source_urls": [
+      "https://semlerbrossy.com"
+    ],
+    "title_raw": "Managing Director",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://semlerbrossy.com"
+  },
+  "field_changes": {
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/semler-brossy"
+    },
+    "first": {
+      "before": "",
+      "after": "John"
+    },
+    "full_name": {
+      "before": "",
+      "after": "John Borneman"
+    },
+    "last": {
+      "before": "",
+      "after": "Borneman"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/john-borneman-7127318"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://semlerbrossy.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Managing Director"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Managing Director"
+    }
+  }
+}

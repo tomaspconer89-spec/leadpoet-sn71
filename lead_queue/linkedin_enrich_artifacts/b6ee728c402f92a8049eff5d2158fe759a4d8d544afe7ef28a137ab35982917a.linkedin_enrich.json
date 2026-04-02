@@ -1,0 +1,1118 @@
+{
+  "saved_at_utc": "2026-04-01T22:55:30.804277+00:00",
+  "queue_key": "b6ee728c402f92a8049eff5d2158fe759a4d8d544afe7ef28a137ab35982917a",
+  "business": "Keating Muething & Klekamp PLL (KMK Law)",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Keating Muething & Klekamp PLL Home Page",
+      "Keating Muething & Klekamp PLL Home Page linkedin company",
+      "site:linkedin.com/company kmklaw.com",
+      "site:linkedin.com/in \"Keating Muething & Klekamp PLL Home Page\" founder",
+      "site:linkedin.com/in \"Keating Muething & Klekamp PLL Home Page\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "3BWoO4cga6HNje9",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Keating+Muething+%26+Klekamp+PLL+Home+Page",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Keating+Muething+%26+Klekamp+PLL+Home+Page",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Keating Muething & Klekamp PLL Home Page",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Keating+Muething+%26+Klekamp+PLL+Home+Page",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Keating+Muething+%26+Klekamp+PLL+Home+Page",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com. Please\u00a0...Read more",
+            "emphasizedKeywords": [
+              "visit our website at www.kmklaw.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "KMK Consulting Company LLC",
+            "url": "https://www.linkedin.com/company/kmk-consulting-company-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KMK Consulting Company LLC",
+            "description": "KMK Consulting (KMKC) is a national consulting firm specializing in site selection, public incentive advisory, and economic development consulting.Read more",
+            "emphasizedKeywords": [
+              "is a national consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "650+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "DBL Law",
+            "url": "https://www.linkedin.com/company/dbllaw",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0DBL Law",
+            "description": "Founded in 1955, DBL Law is a full-service law firm with a tailored approach that is focused, agile, and relentlessly client-centered.Read more",
+            "emphasizedKeywords": [
+              "service law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Strauss Troy",
+            "url": "https://www.linkedin.com/company/strauss-troy",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jeffrey Hill",
+            "description": "For more than 70 years, Strauss Troy has been helping the people and businesses in our region navigate legal challenges and seize opportunities.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Kohnen & Patton, LLP",
+            "url": "https://www.linkedin.com/company/kohnen-&-patton-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kohnen & Patton, LLP",
+            "description": "Cincinnati-based Kohnen & Patton offers legal services across a focused spectrum of practice areas, including business law, litigation and estate planning.Read more",
+            "emphasizedKeywords": [
+              "offers legal services across a focused spectrum of practice areas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Thomas Law Offices",
+            "url": "https://www.linkedin.com/company/thomaslawoffices",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Thomas Law Offices",
+            "description": "We fight every case\u2014from car accident injury lawsuits to medical malpractice, product liability, and nursing home ... Keating Muething & Klekamp PLL (KMK Law).Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Wood Herron & Evans LLP",
+            "url": "https://www.linkedin.com/company/wood-herron-&-evans-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wood Herron & Evans LLP",
+            "description": "Wood Herron & Evans specializes in intellectual property law, providing strategic counsel and comprehensive legal services in the areas of patents, trademarks,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "specializes in intellectual property law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "840+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Fox & Ziepfel, LLC",
+            "url": "https://www.linkedin.com/company/fox-ziepfel-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Fox & Ziepfel, LLC",
+            "description": "Updates. View organization page for Fox &amp; Ziepfel, LLC. Fox ... Keating Muething & Klekamp PLL (KMK Law). Law Practice. Cincinnati, OH \u00b7 Kisling\u00a0...Read more",
+            "emphasizedKeywords": [
+              "page",
+              "Keating Muething & Klekamp PLL",
+              "KMK Law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Frost Brown Todd | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/frost-brown-todd?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "\u5173\u4e8e\u6211\u4eec \u00b7 \u7f51\u7ad9: http://www.frostbrowntodd.com \u00b7 \u6240\u5c5e\u884c\u4e1a: \u5f8b\u5e08\u4e8b\u52a1\u6240 \u00b7 \u89c4\u6a21: 1,001-5,000 \u4eba \u00b7 \u603b\u90e8: Cincinnati\uff0cOH \u00b7 \u7c7b\u578b: \u79c1\u4eba\u6301\u80a1 \u00b7 \u521b\u7acb: 1919 \u00b7 \u9886\u57df\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/GCRGh7aybEn2rCk2T/records/3BWoO4cga6HNje9-0.html?signature=ZGWhEd5VdsbQ7hh6s1Xd"
+      },
+      {
+        "#debug": {
+          "requestId": "7LAq5YW1XsPEIMf",
+          "url": "http://www.google.com/search?q=Keating+Muething+%26+Klekamp+PLL+Home+Page+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Keating+Muething+%26+Klekamp+PLL+Home+Page+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Keating Muething & Klekamp PLL Home Page linkedin company",
+          "url": "http://www.google.com/search?q=Keating+Muething+%26+Klekamp+PLL+Home+Page+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Keating+Muething+%26+Klekamp+PLL+Home+Page+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "K & k law firm",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=K+%26+k+law+firm&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Keating Law Group",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=Keating+Law+Group&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "KLM law firm",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=KLM+law+firm&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "MKM Law",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=MKM+Law&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhEEAE"
+          },
+          {
+            "title": "K & k law firm",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=K+%26+k+law+firm&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Keating Law Group",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=Keating+Law+Group&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "KLM law firm",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=KLM+law+firm&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "MKM Law",
+            "url": "https://www.google.com/search?sca_esv=b78cf8500232fcdc&hl=en&q=MKM+Law&sa=X&ved=2ahUKEwiZ5Z6y382TAxUKQVUIHTY2NX4Q1QJ6BAhEEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "Keating Muething & Klekamp PLL (KMK Law). Law Practice. Cincinnati, OH 3,390 followers. Trusted advisors working collaboratively to develop effective solutions\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "KMK Law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL Home Page",
+            "url": "https://www.kmklaw.com/",
+            "displayedUrl": "https://www.kmklaw.com",
+            "description": "Keating Muething & Klekamp PLL, a Cincinnati-based corporate law firm, was founded in 1954. Our mission is to provide high quality legal counsel to clients\u00a0...",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://www.linkedin.com/posts/keating-muething-%26-klekamp_kmk-law-is-proud-to-celebrate-our-founding-activity-7444742426025586688-woOR",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "View organization page for Keating Muething &amp; Klekamp PLL (KMK Law). Keating Muething & Klekamp PLL (KMK Law). 3,390 followers. 6m. Report\u00a0...Read more",
+            "emphasizedKeywords": [
+              "page",
+              "PLL",
+              "KMK Law",
+              "Keating Muething & Klekamp PLL",
+              "KMK Law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1 day ago",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)'s Post",
+            "url": "https://www.linkedin.com/posts/keating-muething-%26-klekamp_keating-muething-klekamp-has-been-named-activity-7070034542874537985-CJQa",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "Keating Muething & Klekamp PLL (KMK Law)'s Post. View organization page for Keating Muething &amp; Klekamp PLL (KMK Law). Keating Muething\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "KMK Law",
+              "page",
+              "PLL",
+              "KMK Law",
+              "Keating Muething"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Media Contact: Keating Muething & Klekamp PLL",
+            "url": "https://www.kmklaw.com/contact-media",
+            "displayedUrl": "https://www.kmklaw.com \u203a contact-media",
+            "description": "About Keating Muething & Klekamp PLL ... The law firm of Keating Muething & Klekamp PLL (KMK Law\u00ae), based in Cincinnati, Ohio, was founded in 1954. KMK has\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "firm",
+              "Keating Muething & Klekamp PLL",
+              "KMK Law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL - United States Firm",
+            "url": "https://www.bestlawyers.com/firms/keating-muething-klekamp-pll/26225/US",
+            "displayedUrl": "https://www.bestlawyers.com \u203a firms \u203a keating-muethin...",
+            "description": "The law firm of Keating Muething & Klekamp PLL (KMK Law\u00ae), based in Cincinnati, Ohio, is a nationally-recognized law firm delivering sophisticated legal\u00a0...Read more",
+            "emphasizedKeywords": [
+              "firm",
+              "Keating Muething & Klekamp PLL",
+              "KMK Law",
+              "firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Keating Muething & Klekamp - Overview, News & Similar ...",
+            "url": "https://www.zoominfo.com/c/keating-muething--klekamp/66586928",
+            "displayedUrl": "https://www.zoominfo.com \u203a keating-muething--klekamp",
+            "description": "Popular SearchesKeating Muething & KlekampKeating Muething & Klekamp PLLMalas Mary EllenColetti Robert EColetti, Robert ESIC Code 81,811NAICS Code 54,541\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & KlekampKeating Muething & Klekamp PLL"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://www.linkedin.com/posts/keating-muething-%26-klekamp_claire-v-parrish-activity-6967477852099276801-0LUY?trk=public_profile_like_view",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "Keating Muething & Klekamp PLL (KMK Law)'s Post. View organization page for Keating Muething &amp; Klekamp PLL (KMK Law). Keating Muething\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "KMK Law",
+              "page",
+              "PLL",
+              "KMK Law",
+              "Keating Muething"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Contact: Keating Muething & Klekamp PLL",
+            "url": "https://www.kmklaw.com/contact",
+            "displayedUrl": "https://www.kmklaw.com \u203a contact",
+            "description": "Keating Muething & Klekamp PLL. Cookie Settings Main Menu Main Content Search. { Banner Image }.Read more",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "Main",
+              "Main"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law) Employee ...",
+            "url": "https://leadiq.com/c/keating-muething--klekamp-pll-kmk-law/5a1d86002400002400606566/employee-directory",
+            "displayedUrl": "https://leadiq.com \u203a employee-directory",
+            "description": "Explore Keating Muething & Klekamp PLL (KMK Law)'s employee directory to find accurate email addresses and contact information. Book a demo today.",
+            "emphasizedKeywords": [
+              "Keating Muething & Klekamp PLL",
+              "KMK Law"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/kvStoVWu7H01YbJvM/records/7LAq5YW1XsPEIMf-0.html?signature=1086pRXwF0C3n5LZXKu8d"
+      },
+      {
+        "#debug": {
+          "requestId": "c3GNB4eXrYJA5Jo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+kmklaw.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+kmklaw.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company kmklaw.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+kmklaw.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+kmklaw.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "At the law firm of Keating Muething & Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://id.linkedin.com/company/keating-muething-&-klekamp?trk=public_profile_topcard-current-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Keating Muething & Klekamp PLL (KMK Law)",
+            "description": "ADVERTISING MATERIAL. Website: http://www.kmklaw.com. Link eksternal untuk Keating Muething & Klekamp PLL (KMK Law). Industri: Praktisi Hukum. Ukuran perusahaan\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Website: http://www.kmklaw.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://cn.linkedin.com/company/keating-muething-&-klekamp",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "\u7f51\u7ad9: http://www.kmklaw.com. Keating Muething & Klekamp PLL (KMK Law)\u7684\u5916\u90e8\u94fe\u63a5 ; \u6240\u5c5e\u884c\u4e1a: \u5f8b\u5e08\u4e8b\u52a1\u6240 ; \u89c4\u6a21: 201-500 \u4eba ; \u603b\u90e8: Cincinnati\uff0cOH ; \u7c7b\u578b: \u79c1\u4eba\u6301\u80a1.",
+            "emphasizedKeywords": [
+              "\u7f51\u7ad9: http://www.kmklaw.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "KMK Law",
+            "url": "https://ca.linkedin.com/company/kmk-law",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KMK Law",
+            "description": "Long standing boutique law firm in downtown Vancouver, BC, providing specialized legal services in the areas of Estates, Trusts, Administration, Elder Law,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Long standing boutique law firm in downtown Vancouver"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Keating Muething & Klekamp PLL (KMK Law)",
+            "url": "https://ru.linkedin.com/company/keating-muething-&-klekamp",
+            "displayedUrl": "https://ru.linkedin.com \u203a company",
+            "description": "\u0412\u0435\u0431-\u0441\u0430\u0439\u0442: http://www.kmklaw.com. \u0412\u043d\u0435\u0448\u043d\u044f\u044f \u0441\u0441\u044b\u043b\u043a\u0430 \u0434\u043b\u044f \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 Keating Muething & Klekamp PLL (KMK Law) ; \u041e\u0442\u0440\u0430\u0441\u043b\u044c: \u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 ; \u0420\u0430\u0437\u043c\u0435\u0440 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438: 201\u2013\u00a0...",
+            "emphasizedKeywords": [
+              "\u0412\u0435\u0431-\u0441\u0430\u0439\u0442: http://www.kmklaw.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Kenny, Burns & McGill",
+            "url": "https://www.linkedin.com/company/kenny-burns-mcgill",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kenny, Burns & McGill",
+            "description": "A Philadelphia law firm specializing in criminal defense, personal injury, and business litigation throughout PA & NJ.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "KMK Law Firm",
+            "url": "https://no.linkedin.com/company/kmk-law-firm",
+            "displayedUrl": "https://no.linkedin.com \u203a company \u203a kmk-law-firm",
+            "description": "KMK Law Firm Profile Sefa Karcioglu set-up KMK Law Firm in 2010. KMK is a key adviser to leading Turkish corporations, governmental organisations,\u00a0...",
+            "emphasizedKeywords": [
+              "KMK Law Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Kohnen & Patton, LLP",
+            "url": "https://www.linkedin.com/company/kohnen-&-patton-llp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kohnen & Patton, LLP",
+            "description": "Cincinnati-based Kohnen & Patton offers legal services across a focused spectrum of practice areas, including business law, litigation and estate planning.Read more",
+            "emphasizedKeywords": [
+              "offers legal services across a focused spectrum of practice areas"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "510+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "KMK Law",
+            "url": "https://lb.linkedin.com/company/kmk-law?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KMK Law",
+            "description": "Long standing boutique law firm in downtown Vancouver, BC, providing specialized legal services in the areas of Estates, Trusts, Administration, Elder Law,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Long standing boutique law firm in downtown Vancouver"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "KMK Law",
+            "url": "https://de.linkedin.com/company/kmk-law",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KMK Law",
+            "description": "Long standing boutique law firm in downtown Vancouver, BC, providing specialized legal services in the areas of Estates, Trusts, Administration, Elder Law,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Long standing boutique law firm in downtown Vancouver"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/VCotjIAHW7c3A6uc0/records/c3GNB4eXrYJA5Jo-0.html?signature=1ytvoq4HoUj3M3nabG51y"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Keating Muething & Klekamp PLL Home Page",
+      "https://www.linkedin.com/company/keating-muething-&-klekamp",
+      "https://www.linkedin.com/company/kmk-consulting-company-llc",
+      "https://www.linkedin.com/company/dbllaw",
+      "https://www.linkedin.com/company/strauss-troy",
+      "https://www.linkedin.com/company/kohnen-&-patton-llp",
+      "https://www.linkedin.com/company/thomaslawoffices",
+      "https://www.linkedin.com/company/wood-herron-&-evans-llp",
+      "https://www.linkedin.com/company/fox-ziepfel-llc",
+      "https://cn.linkedin.com/company/frost-brown-todd?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "https://www.linkedin.com/company/keating-muething-&-klekamp",
+      "https://www.linkedin.com/posts/keating-muething-%26-klekamp_kmk-law-is-proud-to-celebrate-our-founding-activity-7444742426025586688-woOR",
+      "https://www.linkedin.com/posts/keating-muething-%26-klekamp_keating-muething-klekamp-has-been-named-activity-7070034542874537985-CJQa",
+      "https://www.linkedin.com/posts/keating-muething-%26-klekamp_claire-v-parrish-activity-6967477852099276801-0LUY?trk=public_profile_like_view",
+      "site:linkedin.com/company kmklaw.com",
+      "https://www.linkedin.com/company/keating-muething-&-klekamp",
+      "https://id.linkedin.com/company/keating-muething-&-klekamp?trk=public_profile_topcard-current-company",
+      "https://cn.linkedin.com/company/keating-muething-&-klekamp",
+      "https://ca.linkedin.com/company/kmk-law",
+      "https://ru.linkedin.com/company/keating-muething-&-klekamp",
+      "https://www.linkedin.com/company/kenny-burns-mcgill",
+      "https://no.linkedin.com/company/kmk-law-firm",
+      "https://www.linkedin.com/company/kohnen-&-patton-llp",
+      "https://lb.linkedin.com/company/kmk-law?trk=similar-pages_result-card_full-click",
+      "https://de.linkedin.com/company/kmk-law"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [
+      {
+        "about_industry": "Law Practice",
+        "additional_information": "Controller jobs 74,523 open jobs Accountant jobs 91,739 open jobs Assistant Controller jobs 56,825 open jobs Manager jobs 1,880,925 open jobs Accounting Manager jobs 81,749 open jobs Estimator jobs 26,332 open jobs Financial Controller jobs 58,474 open jobs Project Manager jobs 253,048 open jobs Paralegal jobs 33,712 open jobs Superintendent jobs 169,156 open jobs Attorney jobs 37,177 open jobs Bookkeeper jobs 82,104 open jobs Engineer jobs 555,845 open jobs Assistant Division Controller jobs 20,246 open jobs Legal Administrator jobs 28,869 open jobs Project Engineer jobs 109,154 open jobs Accounting Controller jobs 17,865 open jobs Legal Secretary jobs 51,334 open jobs Construction Specialist jobs 43,818 open jobs Associate Attorney jobs 11,455 open jobs Show more jobs like this Show fewer jobs like this",
+        "affiliated_pages": [],
+        "all_locations": [
+          "1 E 4th St, #1400, Cincinnati, OH 45202, US",
+          "1 E 4th St, #1400, Cincinnati, OH 45202, US"
+        ],
+        "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D561BAQHqZ4e8PONyvw/company-background_10000/company-background_10000/0/1653568688831/keating_muething__klekamp_cover?e=2147483647&v=beta&t=ZwEV-bY2W4M2DLm0ni4FEEB0fKoEIZcC0Rq8v7LcC_Y",
+        "company_id": "69427",
+        "company_size": "201-500 employees",
+        "company_type": "Privately Held",
+        "country_code": "US",
+        "crunchbase_url": null,
+        "description": "At the law firm of Keating Muething & Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy and anticipating how our clients' business goals may be affected.  Our attorneys integrate themselves into our clients' businesses \u2014 strategizing from their point of view in order to develop sophisticated, high-value solutions that are efficient, effective, and economical. To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com.\n\nPlease be advised that visiting our page, viewing articles or contacting us through this page does not establish a lawyer-client relationship and this contact may not be confidential. You should consult an attorney of your choice for individual advice regarding your own situation. ADVERTISING MATERIAL.",
+        "employee_count": "259",
+        "employees": [
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4D03AQGO1mWcQy4VUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516262855054?e=2147483647&v=beta&t=3A8ekYxpAYnP2fVu8946a6iFhRepBH5BBTOSX8rIhKY",
+            "name": "Tony Verticchio",
+            "profile_url": "https://www.linkedin.com/in/tony-verticchio-00b962?trk=org-employees",
+            "role": "579 followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQE4LMb7KNMwdA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516294080635?e=2147483647&v=beta&t=OpVnlj9veOfETIzgM79G-zvezLsY33LMl-Y84JvoTP0",
+            "name": "Julie Mulhern",
+            "profile_url": "https://www.linkedin.com/in/juliemulhern?trk=org-employees",
+            "role": "Keating Muething & Klekamp\u2026\u2022923 followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQGjh3K0zROjTw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1520892578810?e=2147483647&v=beta&t=5kHBHm_FiEh8Y5pac5enxIS3Voj89KNdxKXPrW9Wz4Y",
+            "name": "Alan Fershtman",
+            "profile_url": "https://www.linkedin.com/in/alan-fershtman-0650505?trk=org-employees",
+            "role": "Keating, Muething & Klekamp\u2026\u2022753 followers"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQEA4uyCEpMSqw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1539635380892?e=2147483647&v=beta&t=lZPb0DfxBVDYV4jF7l1EppxxO97bjqftc1u5ZrjOtO4",
+            "name": "Deborah Osbun",
+            "profile_url": "https://www.linkedin.com/in/deborah-osbun-aa86785?trk=org-employees",
+            "role": "Keating Muething & Klekamp\u2022358 followers"
+          }
+        ],
+        "followers": "3,393",
+        "formatted_url": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+        "founded": "1954",
+        "funding": null,
+        "get_directions_url": [
+          {
+            "directions_url": "https://www.bing.com/maps?where=1+E+4th+St+%231400+Cincinnati+45202+OH+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=1+E+4th+St+%231400+Cincinnati+45202+OH+US&trk=org-locations_url"
+          }
+        ],
+        "headquarters": "Cincinnati, OH",
+        "hq_address": {
+          "address": "1 E 4th St, #1400, Cincinnati, OH 45202, US",
+          "city_state": "#1400",
+          "is_primary": true,
+          "map_url": "https://www.bing.com/maps?where=1+E+4th+St+%231400+Cincinnati+45202+OH+US&trk=org-locations_url",
+          "street_address": "1 E 4th St"
+        },
+        "industry": "Law Practice",
+        "info": "Keating Muething &amp; Klekamp PLL (KMK Law) | 3,393 followers on LinkedIn. Trusted advisors working collaboratively to develop effective solutions and strategies. | At the law firm of Keating Muething &amp; Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy and anticipating how our clients&#39;\u200b business goals may be affected.  Our attorneys integrate themselves into our clients&#39;\u200b businesses \u2014 strategizing from their point of view in order to develop sophisticated, high-value solutions that are efficient, effective, and economical. To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com.",
+        "investors": null,
+        "jobs": [
+          {
+            "open_jobs_count": 74523,
+            "title": "Controller jobs",
+            "url": "https://www.linkedin.com/jobs/controller-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 91739,
+            "title": "Accountant jobs",
+            "url": "https://www.linkedin.com/jobs/accountant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 56825,
+            "title": "Assistant Controller jobs",
+            "url": "https://www.linkedin.com/jobs/assistant-controller-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1880925,
+            "title": "Manager jobs",
+            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 81749,
+            "title": "Accounting Manager jobs",
+            "url": "https://www.linkedin.com/jobs/accounting-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 26332,
+            "title": "Estimator jobs",
+            "url": "https://www.linkedin.com/jobs/estimator-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 58474,
+            "title": "Financial Controller jobs",
+            "url": "https://www.linkedin.com/jobs/financial-controller-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 253048,
+            "title": "Project Manager jobs",
+            "url": "https://www.linkedin.com/jobs/project-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 33712,
+            "title": "Paralegal jobs",
+            "url": "https://www.linkedin.com/jobs/paralegal-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 169156,
+            "title": "Superintendent jobs",
+            "url": "https://www.linkedin.com/jobs/superintendent-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 37177,
+            "title": "Attorney jobs",
+            "url": "https://www.linkedin.com/jobs/attorney-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 82104,
+            "title": "Bookkeeper jobs",
+            "url": "https://www.linkedin.com/jobs/bookkeeper-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 555845,
+            "title": "Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 20246,
+            "title": "Assistant Division Controller jobs",
+            "url": "https://www.linkedin.com/jobs/assistant-division-controller-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 28869,
+            "title": "Legal Administrator jobs",
+            "url": "https://www.linkedin.com/jobs/legal-administrator-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 109154,
+            "title": "Project Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/project-engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 17865,
+            "title": "Accounting Controller jobs",
+            "url": "https://www.linkedin.com/jobs/accounting-controller-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 51334,
+            "title": "Legal Secretary jobs",
+            "url": "https://www.linkedin.com/jobs/legal-secretary-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 43818,
+            "title": "Construction Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/construction-specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 11455,
+            "title": "Associate Attorney jobs",
+            "url": "https://www.linkedin.com/jobs/associate-attorney-jobs?trk=organization_guest-browse_jobs"
+          }
+        ],
+        "location": "Cincinnati, OH",
+        "locations": [
+          {
+            "address": "1 E 4th St, #1400, Cincinnati, OH 45202, US",
+            "city_state": "#1400",
+            "is_primary": true,
+            "map_url": "https://www.bing.com/maps?where=1+E+4th+St+%231400+Cincinnati+45202+OH+US&trk=org-locations_url",
+            "street_address": "1 E 4th St"
+          },
+          {
+            "city_state": "#1400",
+            "map_url": "https://www.bing.com/maps?where=1+E+4th+St+%231400+Cincinnati+45202+OH+US&trk=org-locations_url",
+            "street_address": "1 E 4th St"
+          }
+        ],
+        "name": "Keating Muething & Klekamp PLL (KMK Law)",
+        "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGMWDhvh6rP3A/company-logo_200_200/company-logo_200_200/0/1630628486228/keating_muething__klekamp_logo?e=2147483647&v=beta&t=R5ll9fQ2q49EvWtBWtmLBX3UckbRsuFt7zehMnCHxRo",
+        "similar_pages": [
+          {
+            "industry": "Law Practice",
+            "location": "Cincinnati, OH",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFZjJVNXnGy0A/company-logo_100_100/B56ZuPR_BBHkAU-/0/1767635415470/fbt_gibbons_logo?e=2147483647&v=beta&t=l7BHv1Kv_IIrNxNVOlqHUyIMFgfjBfey0Q3-POm-B3E",
+            "name": "FBT Gibbons",
+            "url": "https://www.linkedin.com/company/fbt-gibbons?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cincinnati, Ohio",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHoxylydgK4qw/company-logo_100_100/B4EZwE1WbQJ8AQ-/0/1769607620659/dinsmore__shohl_llp_logo?e=2147483647&v=beta&t=WRNO4HQNV6gnmR6ENw0oieIPTwpqFoXfTMqendVvlkc",
+            "name": "Dinsmore & Shohl LLP",
+            "url": "https://www.linkedin.com/company/dinsmore-&-shohl-llp?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cincinnati, OH",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQH2QB9YXw9Exg/company-logo_100_100/company-logo_100_100/0/1631313918441?e=2147483647&v=beta&t=26sp5tditrTyaiX83D45zwIV0f7S5NBV8CwSEdHr33g",
+            "name": "Taft Stettinius & Hollister LLP",
+            "url": "https://www.linkedin.com/company/taftlaw?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Covington, KY",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQF-KmgLN8rTQQ/company-logo_100_100/B56ZrqjKV5L4AQ-/0/1764871677642/dbllaw_logo?e=2147483647&v=beta&t=vLp38u9e8Ju5r_1TLRMJ_9bUX1fbt4bBNI29Zx-OnTM",
+            "name": "DBL Law",
+            "url": "https://www.linkedin.com/company/dbllaw?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Columbus, OH",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEUIY2RumKLOA/company-logo_100_100/B56ZuPgHV5G4AQ-/0/1767639119804/bricker_graydon_logo?e=2147483647&v=beta&t=C1msmz83_owciqvNTzHyZtQEMbyvpL0wpVbx_GgDXKk",
+            "name": "Bricker Graydon Wyatt",
+            "url": "https://www.linkedin.com/company/bricker-graydon-wyatt?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Columbus, OH",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEqxZDMHc44ZA/company-logo_100_100/company-logo_100_100/0/1663073161860/vorys_sater_seymour_and_pease_llp_logo?e=2147483647&v=beta&t=UDuVK4MghlpAcRzW1cuFs0jRjQDv0Yg4iZfPxNm00cE",
+            "name": "Vorys, Sater, Seymour and Pease LLP",
+            "url": "https://www.linkedin.com/company/vorys-sater-seymour-and-pease-llp?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cincinnati, Ohio",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGEe9fi2Ns0ow/company-logo_100_100/company-logo_100_100/0/1631339819320?e=2147483647&v=beta&t=HxgrsjNimPbF7_w0UcSAfb7Neb8nPmVCvYoNrrfhz0E",
+            "name": "Strauss Troy",
+            "url": "https://www.linkedin.com/company/strauss-troy?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cleveland, Ohio",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHRJ8v9UliUSA/company-logo_100_100/company-logo_100_100/0/1719817284932/squirepattonboggs_logo?e=2147483647&v=beta&t=zHezB61FcgKxOjjBTSC5rHGxEhgylXFmkMZxH1dJ4ds",
+            "name": "Squire Patton Boggs",
+            "url": "https://www.linkedin.com/company/squirepattonboggs?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cleveland, Ohio",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQFc2Am06VYYPA/company-logo_100_100/company-logo_100_100/0/1630557028281/thompson_hine_llp_logo?e=2147483647&v=beta&t=w4STtdSUnpRKd1QHErrnYetuCW3PDYCkga0q6El96-Q",
+            "name": "Thompson Hine LLP",
+            "url": "https://www.linkedin.com/company/thompson-hine-llp?trk=similar-pages"
+          },
+          {
+            "industry": "Law Practice",
+            "location": "Cleveland, Ohio",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQH6cDvhQM90IA/company-logo_100_100/company-logo_100_100/0/1630580840808/calfee_halter__griswold_llp_logo?e=2147483647&v=beta&t=kzQuHDH9J51gElZktKeir4PbbpOmviVw_9rT58aSWEU",
+            "name": "Calfee, Halter & Griswold LLP",
+            "url": "https://www.linkedin.com/company/calfeehaltergriswoldllp?trk=similar-pages"
+          }
+        ],
+        "specialties": [
+          "Business Representations & Transactions",
+          "Commercial Finance & Reorganization",
+          "Employee Benefits & Compensation",
+          "Insurance Coverage & Litigation",
+          "Labor & Employment",
+          "Litigation",
+          "Private Client Services",
+          "and Real Estate"
+        ],
+        "stock_info": null,
+        "tagline": "Trusted advisors working collaboratively to develop effective solutions and strategies.",
+        "universal_name_id": "keating-muething-&-klekamp",
+        "update_data": [
+          {
+            "content": "Like a capital markets version of Spring cleaning\u2014with equal parts renovation and rearrangement\u2014the SEC dusted off several long-standing rules and reorganized key parts of its regulatory playbook in ways that could reshape both how public companies report to investors and how the agency itself polices federal securities laws. From a potentially seismic proposal to make quarterly reporting optional, to the first major overhaul of the Enforcement Division\u2019s playbook in nearly a decade, the Commission signaled a continued shift toward flexibility, cost reduction, and procedural transparency. At the same time, senior leadership and staff advanced a broader deregulatory initiative, emphasizing materiality, capital formation, and modernization of legacy requirements, while rolling out new interpretive guidance and technical filing changes with immediate practical consequences for issuers and practitioners alike. Whether these initiatives ultimately translate into lasting structural change or merely recalibrate existing frameworks, they underscore the SEC\u2019s ongoing efforts to rethink disclosure cadence, the enforcement process, and the regulatory burden as a whole. Read more here:https://lnkd.in/gqZApF86KMK Law Securities Regulation & Compliance Group:Mark Reuter,Allison Westfall,Olivia King,Chris Colloton",
+            "posted_time": "Wed, 01 Apr 2026 17:55:28 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "2"
+          },
+          {
+            "content": "KMK Law is proud to celebrate our founding partner, Donald P. Klekamp, and the rededication of theUniversity of Cincinnati College of Lawas the Donald P. Klekamp College of Law at theUniversity of Cincinnati. This change reflects his commitment to legal education, leadership, and the next generation of attorneys.\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "109"
+          },
+          {
+            "content": "Many employers include mandatory arbitration agreements as a standard part of onboarding, expecting that workplace disputes will be resolved outside of court. A recent decision from the Sixth Circuit, however, underscores an important\u2014and expansive\u2014limitation on those agreements when sexual harassment is alleged. Read more here fromGregory Robinson:https://lnkd.in/gQ96eXjM#employmentlaw",
+            "posted_time": "Fri, 27 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST"
+            ],
+            "reactions": "8"
+          },
+          {
+            "content": "The March\u00a0Monthly Minute\u00a0highlights the DOL\u2019s restoration of the 1975 investment advice fiduciary rule as well as recent employer wins in tobacco surcharge and PBM litigation. Read more here from the KMK Law Employee Benefits & Executive Compensation Group:https://lnkd.in/gaDyAU_QLisa Wintersheimer Michel,John Meisenhelder,Antoinette Schindel,Kelly MacDonald,Rachel Pappenfus#employeebenefits",
+            "posted_time": "Thu, 26 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST"
+            ],
+            "reactions": "9"
+          },
+          {
+            "content": "Most employers understand that unfair labor practices during a union organizing campaign carry significant legal consequences. In recent years, the National Labor Relations Board (NLRB) had ordered employers who engaged in unfair labor practices to bargain with a union regardless of whether the union won the election. In a decision issued on March 6, 2026, the Sixth Circuit (covering Kentucky, Michigan, Ohio, and Tennessee) limited the NLRB\u2019s ability issue such bargaining orders, rejecting the NLRB\u2019s recently announced\u00a0Cemex\u00a0framework for ordering employers to recognize and bargain with unions. Read more here fromKasey BondandKelz\u00e9 Riley:https://lnkd.in/g2ecbUjd#employmentlaw",
+            "posted_time": "Wed, 25 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY"
+            ],
+            "reactions": "6"
+          },
+          {
+            "content": "KMK Law welcomesBill Pattersonas a partner in the firm's Real Estate Group. Read more about Bill here:https://lnkd.in/gnWgMuFV#RealEstateLaw#CommercialFinancing",
+            "posted_time": "Wed, 18 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE"
+            ],
+            "reactions": "30"
+          },
+          {
+            "content": "KMK Law welcomesChristina Abercrombie SHRM-CPas Director of Human Resources. Read more about Christina here:https://lnkd.in/e5WD5pFn",
+            "posted_time": "Wed, 04 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "29"
+          },
+          {
+            "content": "Federal labor and employment standards continue to shift as agencies revisit rules issued over the past several years. For HR professionals, staying current on these developments is critical to managing compliance risk and workforce strategy. Read more fromGregory Robinsonhere:https://lnkd.in/eqnavUFx#employmentlaw#humanresources",
+            "posted_time": "Mon, 02 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "11"
+          },
+          {
+            "content": "Doing business in California has always been a daunting task for employers because of California\u2019s onerous regulations for employers. Now that we are nearly two months into 2026, it is important to ensure you are complying with the most recent regulations. Read more here fromKasey Bond:https://lnkd.in/ei33JGAK#employmentlaw",
+            "posted_time": "Mon, 02 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY"
+            ],
+            "reactions": "9"
+          },
+          {
+            "content": "The February\u00a0Monthly Minute\u00a0digs into the DOL\u2019s recent $28M mental health parity settlement with Kaiser, the 2nd\u00a0Circuit\u2019s holding on a retirement plan\u2019s arbitration clause and a 5th\u00a0Circuit decision that evaluates whether the substantial compliance doctrine was correctly applied to a defective beneficiary change. Read more here from the KMK Law Employee Benefits & Executive Compensation team:https://lnkd.in/eK6_9K5GKMK Law Employee Benefits & Executive Compensation Team:Lisa Wintersheimer Michel,John Meisenhelder,Antoinette Schindel,Kelly MacDonald,Rachel Pappenfus#employeebenefits",
+            "posted_time": "Mon, 02 Mar 2026 22:55:28 GMT",
+            "reaction_types": [
+              "LIKE"
+            ],
+            "reactions": "4"
+          }
+        ],
+        "url": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+        "website": "http://www.kmklaw.com"
+      }
+    ],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Keating Muething & Klekamp PLL Home Page",
+    "description": "# Keating Muething & Klekamp PLL Home Page * [![ALFA International](https://kmklaw.com/assets/htmlimages/ALFA%20International%20Logo%20-%20Horizontal_WHITE.png \"ALFA International\")](https://www.alfainternational.com/ \"ALFA International (opens in a new window)\") KMK Law is a proud member of ALFA International, the premier network of independent law firms. Founded in 1980, ALFA's 150 member firms throughout the world include 80 U.S.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://kmklaw.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://kmklaw.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "kmklaw.com",
+    "source_urls": [
+      "https://kmklaw.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Keating Muething & Klekamp PLL (KMK Law)",
+    "description": "At the law firm of Keating Muething & Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy and anticipating how our clients' business goals may be affected. Our attorneys integrate themselves into our clients' businesses \u2014 strategizing from their point of view in order to develop sophisticated, high-value solutions that are efficient, effective, and economical. To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "http://www.kmklaw.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "partner",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/keating-muething-&-klekamp",
+    "source_url": "https://kmklaw.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "OH",
+    "hq_city": "Cincinnati",
+    "country": "United States",
+    "state": "OH",
+    "city": "Cincinnati",
+    "employee_count": "11-50",
+    "company_domain_canonical": "kmklaw.com",
+    "source_urls": [
+      "https://kmklaw.com"
+    ],
+    "title_raw": "partner",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "business": {
+      "before": "Keating Muething & Klekamp PLL Home Page",
+      "after": "Keating Muething & Klekamp PLL (KMK Law)"
+    },
+    "city": {
+      "before": "",
+      "after": "Cincinnati"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/company/keating-muething-&-klekamp"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "# Keating Muething & Klekamp PLL Home Page * [![ALFA International](https://kmklaw.com/assets/htmlimages/ALFA%20International%20Logo%20-%20Horizontal_WHITE.png \"ALFA International\")](https://www.alfainternational.com/ \"ALFA International (opens in a new window)\") KMK Law is a proud member of ALFA International, the premier network of independent law firms. Founded in 1980, ALFA's 150 member firms throughout the world include 80 U.S.",
+      "after": "At the law firm of Keating Muething & Klekamp (KMK Law\u00ae), we strive to stay ahead of the curve in understanding the complexities of the new economy and anticipating how our clients' business goals may be affected. Our attorneys integrate themselves into our clients' businesses \u2014 strategizing from their point of view in order to develop sophisticated, high-value solutions that are efficient, effective, and economical. To explore the ways in which KMK attorneys can provide value-added solutions customized to your unique challenges, visit our website at www.kmklaw.com."
+    },
+    "hq_city": {
+      "before": "",
+      "after": "Cincinnati"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "hq_state": {
+      "before": "",
+      "after": "OH"
+    },
+    "role": {
+      "before": "",
+      "after": "partner"
+    },
+    "state": {
+      "before": "",
+      "after": "OH"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "partner"
+    },
+    "website": {
+      "before": "https://kmklaw.com",
+      "after": "http://www.kmklaw.com"
+    }
+  }
+}

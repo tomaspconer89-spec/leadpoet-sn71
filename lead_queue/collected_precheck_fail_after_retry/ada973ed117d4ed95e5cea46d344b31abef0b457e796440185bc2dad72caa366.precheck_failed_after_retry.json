@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Top 10 Digital Marketing agency",
+  "lead": {
+    "business": "Top 10 Digital Marketing agency",
+    "full_name": "Atharva Raj Shukla",
+    "first": "Atharva",
+    "last": "Raj Shukla",
+    "email": "",
+    "role": "Partner",
+    "website": "https://menhajulislam746.blogspot.com/",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "source_url": "https://directom.com",
+    "description": "I will be provide for your business develop Social Media ,E-Marketing &Blog .I also support every business page create .If u agree than contact me",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Arizona",
+    "hq_city": "Scottsdale",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/direct-online-marketing",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/menhajujl-digital-marketer-agency",
+    "linkedin": "https://in.linkedin.com/in/atharva-raj-shukla-248990229"
+  },
+  "source_failed_basename": "195f4cfe053190165c704bda0420d441c9cdef3137fb81b176cfe54e185426fa.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/195f4cfe053190165c704bda0420d441c9cdef3137fb81b176cfe54e185426fa.precheck_failed.json",
+  "queue_key": "ada973ed117d4ed95e5cea46d344b31abef0b457e796440185bc2dad72caa366"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "business": "Venture Global LNG",
+  "lead": {
+    "business": "Venture Global LNG",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "CEO",
+    "website": "http://venturegloballng.com",
+    "industry": "Energy",
+    "sub_industry": "Oil and Gas",
+    "country": "United States",
+    "state": "Virginia",
+    "city": "Barranquilla",
+    "source_url": "https://ventureglobal.com",
+    "description": "Venture Global is a long-term, low-cost provider of U.S. LNG sourced from resource rich North American natural gas basins. Venture Global\u2019s first facility, Calcasieu Pass, commenced producing LNG in January 2022. The company is also constructing or developing an additional 60 MTPA of production capacity in Louisiana to provide clean, affordable energy to the world. The company is developing Carbon Capture and Sequestration (CCS) projects at each of its LNG facilities. For more information, visit https://www.venturegloballng.com",
+    "employee_count": "501-1,000",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Arlington",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-global-lng-inc."
+  },
+  "source_failed_basename": "2329dc9044ff3c4c304a556605c580764071894f071cb2b140864b83bba02e71.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2329dc9044ff3c4c304a556605c580764071894f071cb2b140864b83bba02e71.precheck_failed.json",
+  "queue_key": "dcbe31f0c8bf47da48db16567301b2d4e094f3d9e3a1bc57a8c0d8cda39630e4"
+}

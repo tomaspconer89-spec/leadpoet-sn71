@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Venture 7 Advisors LLC",
+  "lead": {
+    "business": "Venture 7 Advisors LLC",
+    "full_name": "Khellmar Daring",
+    "first": "Khellmar",
+    "last": "Daring",
+    "email": "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+    "role": "Videographer",
+    "website": "http://www.Venture7Advisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Vermont",
+    "city": "Burlington",
+    "source_url": "https://venture7advisors.com",
+    "description": "Venture 7 Advisors is a sell-side merger and acquisition firm representing companies with revenue between $5 and $100 million per year \u2013 companies too complex for business brokers to handle and too small to get personal attention from investment banks. We help owners to navigate the entire sale process, from early exit planning and valuation through outreach to potential buyers, negotiation and closing the deal.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Vermont",
+    "hq_city": "Colchester",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-7-advisors-llc",
+    "linkedin": "https://linkedin.com/in/khellmar"
+  },
+  "source_failed_basename": "999aa3e047f92bb9e40eb5c7923e9d35fefde4333055bbc0cb07589c3ce9eaaa.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/999aa3e047f92bb9e40eb5c7923e9d35fefde4333055bbc0cb07589c3ce9eaaa.precheck_failed.json",
+  "queue_key": "9f34ede6868404e098a2b73ecf9b622105fb3ad3e8d33e5fd737b5cc8000fd95"
+}

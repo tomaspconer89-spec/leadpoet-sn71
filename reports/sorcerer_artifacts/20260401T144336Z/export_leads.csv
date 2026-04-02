@@ -1,0 +1,158 @@
+"best_contact_id","company.blog_url","company.careers_url","company.company_type","company.description","company.employee_count","company.evidence_urls","company.founded_year","company.hq_location","company.industry","company.intent.business_intent_score","company.intent.decision_maker_intent","company.intent.intent_category","company.intent.intent_signals","company.intent.timeline_indicator","company.name","company.number_of_locations","company.ownership_type","company.revenue_range","company.size_hint","company.socials.github","company.socials.instagram","company.socials.linkedin","company.socials.telegram","company.socials.twitter","company.specialties","company.sub_industry","cost.crawl_usd","cost.domain_usd","cost.enrich_usd","cost.total_usd","domain","icp.crawl_reason","icp.crawl_score","icp.filtering_strict","icp.pre_flags","icp.pre_pass","icp.pre_reason","icp.pre_score","icp.scoring_meta.method","icp.scoring_meta.model","icp.scoring_meta.prompt_fingerprint","icp.scoring_meta.temperature","icp.threshold","lead_id","provenance.cache.domain_cache_hit","provenance.crawled_at","provenance.enriched_at","provenance.evidence_paths.crawl","provenance.evidence_paths.domain","provenance.evidence_paths.enrich","provenance.next_revisit_at","provenance.queries","provenance.scored_at","provenance.tool_versions.crawl.schema_version","provenance.tool_versions.crawl.version","provenance.tool_versions.domain.schema_version","provenance.tool_versions.domain.version","provenance.tool_versions.enrich.schema_version","provenance.tool_versions.enrich.version","status"
+"","","","","","","https://cansulta.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","cansulta.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.8,   "reason": "Cansulta matches the ICP in terms of industry relevance (startup advisory services), company size and stage (small startup), and business model alignment (providing expert advisory ser","0.8","llm","llama3","1198716240d489477534e5957b90e885997fa49154e7458be05ea61f05064051","0.0","0.3","b4376412-aea7-5181-94cb-e4e2810eaf47","","2026-04-01T14:42:53.910633Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/cansulta.com.json","/tmp/tmpi2nqlg40/evidence/domain/cansulta.com.json","","2026-06-30T14:42:53.910637Z","startup advisory services founder contact","2026-04-01T14:41:51.211380Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","LLC","Consulting Experts LLC specializes in the Qualified vendor application, contract amendments, AHCCCS ID application and Readiness Review. They also specialize in Website Development, Expansion Vendor Calls, Billing Setup, DHS Licensing and Group Home policy packages.","","https://consulting-experts.com","","Phoenix, Arizona, USA","Consulting","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","Consulting Experts LLC","0","LLC","","","","","","","","Qualified Vendor Application|Contract Amendments|AHCCCS ID Application|Readiness Review|Website Development|Billing Setup|DHS Licensing|Group Home Policy Packages","Business Consulting / Vendor Application Support","0.0","0.0009","0.0","0.0009","consulting-experts.com","Basic company information available; Company name available; Company description available; Industry information available; Location information available; Ownership type available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","1.0","false","no_founder_contact|no_advisor_contact","true","The company matches the ICP in terms of industry relevance (business consulting) and geographic location (Arizona), but does not provide founder or advisor contact information.","0.6","llm","llama3","2d628bf491aa14e4a3d8ebc9226245e86cd0fea920a13102ca8b91cd5dcb8351","0.0","0.3","96c7a783-79de-5d93-a4a4-d5c46f8e6ba6","","2026-04-01T14:42:53.923994Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/consulting-experts.com.json","/tmp/tmpi2nqlg40/evidence/domain/consulting-experts.com.json","","2026-06-30T14:42:53.923997Z","business consulting firm advisor email","2026-04-01T14:42:20.867647Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://vaam.io","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","vaam.io","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","unstructured_llm_output","true","Unstructured LLM output parsed heuristically: Here is the evaluation:  {   "score": 0.6,   "reason": "The company's focus on B2B SaaS CEOs and its description mentioning finding product-market fit aligns with the ICP's focus on startup advisory and consulting firms. However, the compan","0.6","llm","llama3","848130e90c77227900103ab86351ac68c0f9addc77855637e92b9d75538d5ab8","0.0","0.3","11b81016-9b7d-50ab-adb4-9af0654969b7","","2026-04-01T14:42:53.937075Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/vaam.io.json","/tmp/tmpi2nqlg40/evidence/domain/vaam.io.json","","2026-06-30T14:42:53.937077Z","SaaS startup CEO contact information","2026-04-01T14:42:29.881562Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","# StartupSauce B2B SaaS Founder Community
+
+## Meet Other Successful Founders Outside Silicon Valley
+
+Building a SaaS business is hard… **but you don’t have to do it alone**.  
+Learn from other founders. Get introductions. Build partnerships.
+
+[JOIN NOW](https://startupsauce.typeform.com/to/ITtEsZ)
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/reBezLiGRguwy10w4Mgl_Banner-HPCORTO.png)
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153786043/settings_images/12d1673-03d3-cf77-4a4-402a4c3342b4_Icon_with_links_1_.png)
+
+FREE RESOURCE DOWNLOAD
+
+### 320+ Places To Submit Your SaaS
+
+Need more traffic and backlinks? Submit your SaaS to the sites on this list for a quick and easy SEO boost.  
+
+[DOWNLOAD NOW](https://startupsauce.com/resource_redirect/landing_pages/2150147874)
+
+## Why Join StartupSauce Academy?
+
+**  
+StartupSauce Academy is a private community for SaaS founders outside Silicon Valley.**  
+We don’t allow direct competitors to join, so you can openly and honestly discuss things you wouldn’t share publicly – like financials, conversion & churn rates, growth hacks you discovered and more.
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/WFnjPpWMRZqozyKPzOr4_feature1.png)
+
+#### Private SaaS Founder Community
+
+**Connect with other SaaS founders online** via our active & engaged Slack group, Zoom calls, and via IRL meetups & events.
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/hbgmAiJPQ9CAvqx8rXC4_feature2.png)
+
+#### Free 60-Min Consultation
+
+Get a custom **marketing audit** when you join + a lead generation **plan** based on what’s working for other founders.
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/lxQDr2uZQB4TXIUzmpxB_feature3.png)
+
+#### Regular Mastermind Calls
+
+Join a mastermind group and meet regularly with other SaaS founders to **get advice & share your expertise.**
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/hpugFFqRouoj47lbY21A_feature4.png)
+
+#### Monthly Events & Workshops
+
+Each month **we do fireside chats with experts, member knowledge-shares, hotseat calls, speed networking** and other events.
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/0rI8OGXRfOi2m6tqpRHQ_feature5.png)
+
+#### Access to Members-Only Content
+
+**Level up your knowledge** via our video library, training courses, templates & swipe files, and much more.
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/JdDl9y3YS4dTOT1z7Huq_feature6.png)
+
+#### Exclusive Discounts & Special Offers
+
+**Save money** on software tools and services from our recommended providers & **partners** and get access to exclusive offers.
+
+## Meet Some of Our Members
+
+100+ SaaS founders in 16 countries have already joined. Will you?
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/rxPzr34kQwyuZy33fwrb_member1.png)
+
+#### KELVIN MAH
+
+**RankBreeze.com  
+**Vancouver, Canada
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/PjKvZGmQwCLNtc6VnVtr_member2.png)
+
+#### JONATHAN "JZ" ZACKS
+
+**GoReminders.com  
+**New York, USA
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/ZuYoo6TTSpyMdwgDKPcJ_member3.png)
+
+#### ROBERT GELB
+
+**HeySummit.com  
+**Edinburgh, UK
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/gDh8lVhCSySwKLFkq0Hw_member4.png)
+
+#### GLAUBER RAMOS
+
+**FunRetro.io  
+**Porto Alegre, Brazil
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/chBKUvNdQdeuFLdq35bd_member5.png)
+
+#### UWE DREISSIGACKER
+
+**InvoiceBerry.com  
+**Valencia, Spain
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/fNh9BHOxSrSz2ifnmG39_member6.png)
+
+#### CHRIS RAETHKE
+
+**Notiv.com  
+**Brisbane, Australia
+
+## Who Should Join?
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/ejHrwdvmQGlKT7ZmX7uW_31.png)
+
+#### You SHOULD Apply if...
+
+*   You’re a **Founder**, Co-Founder or CEO
+*   You run a **SaaS** business
+*   You’re generating **at least $5K MRR**
+*   You’re willing to listen to others and implement what you learn
+*   You’re willing to share your knowledge and expertise to help other founders
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/dqAM3i8jQIaiE8Wc8Pc9_cross2.png)
+
+#### You SHOULD NOT Apply if...
+
+*   You’re an employee
+*   You're a consultant, coach, agency, or other service provider
+*   You run a non-SaaS business
+*   You’re doing less than $5K MRR
+*   You’re a lurker and don't plan to connect with other founders
+
+**  
+Note:** If you meet all the other criteria but aren’t quite at the $5K MRR level yet, join the waitlist and we’ll send you some guides and video content to help you get to $5K faster.  
+   
+Also if you’ve done something awesome – like sold a previous business – apply anyway and tell us about it. We might bend the rules a little, you never know.
+
+[JOIN NOW](https://startupsauce.typeform.com/to/ITtEsZ)
+
+## What Our Members Say
+
+![Video Thumbnail](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/3552515/settings_images/be8c7-1c6f-6201-650f-4f0452e74b5_3.png)
+
+![Video Thumbnail](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/3552515/settings_images/b104c85-3a-0255-e5a8-c60156b228a_2.png)
+
+![Video Thumbnail](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/3552515/settings_images/6117ec-6ef4-1783-c37-8c16cab331_4.png)
+
+![Video Thumbnail](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/3552515/settings_images/24311c-0576-3f05-b36a-3dd122d48208_5.png)
+
+## Our Value
+
+## Our Price
+
+![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3552515/settings_images/ZxUalKXTVqAKb4BDND8v_Uwe-Review2.png)","","https://startupsauce.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","StartupSauce B2B SaaS Founder Community - Join Now","1","","","","","","","","","","","0.001","0.0009","0.0","0.0019","startupsauce.com","Basic company information available; Company name available; Company description available; Location count available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.95","false","geo_mismatch","true","The company matches well with the ICP in terms of industry relevance (SaaS), geographic location mismatch (not SF Bay Area), and business model alignment (community-based).","0.8","llm","llama3","2fb4b6cb877c13c46b1dfb11f6e81c1d0bc8c744415cd38bfa4e27801de6be58","0.0","0.3","99b98f27-6f72-598a-a83b-636973c38d3a","","2026-04-01T14:43:36.778937Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/startupsauce.com.json","/tmp/tmpi2nqlg40/evidence/domain/startupsauce.com.json","","2026-06-30T14:43:36.778945Z","SaaS startup CEO contact information","2026-04-01T14:42:30.337079Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"
+"","","","","","","https://huronconsultinggroup.com","","","","0.5","No decision maker intent data available","unknown","Intent analysis not performed - no data extracted","Timeline unclear","","","","","","","","","","","","","0.0","0.0009","0.0","0.0009","huronconsultinggroup.com","Basic company information available; Medium business intent score: 0.50; Intent signals found: Intent analysis not performed - no data extracted","0.7","false","size_mismatch","true","The company matches the ICP in terms of industry relevance (management consulting) and having a managing director contact. However, it's a larger firm with over 20 years of experience, which doesn't quite fit the 'small startup' aspect.","0.6","llm","llama3","6a37e69352667be65605bbdad387b4ce9859df45cc1a963336a3dce97708e744","0.0","0.3","675e1da9-4714-5308-9bac-9b21bfa7e3e5","","2026-04-01T14:43:36.795999Z","","/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/.lead_sorcerer_cache/crawl_artifacts/huronconsultinggroup.com.json","/tmp/tmpi2nqlg40/evidence/domain/huronconsultinggroup.com.json","","2026-06-30T14:43:36.796001Z","management consulting firm director email","2026-04-01T14:42:49.233725Z","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","8055c3bc72e3878ba6e1a5f7b874d5945ec7ff3c74a9c42d6abab1ee969654ae","1.0.0","","","enrich_ready"

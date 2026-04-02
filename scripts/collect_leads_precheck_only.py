@@ -71,6 +71,16 @@ def _queue_key(lead: dict) -> str:
 
 
 _BLOCK_REASONS = ("general_purpose_email:", "free_email_domain:")
+_CRITICAL_REQUIRED_FIELDS = {
+    "full_name",
+    "first",
+    "last",
+    "email",
+    "role",
+    "country",
+    "city",
+    "linkedin",
+}
 
 
 def _domain_from_url(raw: str) -> str:
@@ -130,7 +140,7 @@ async def _run(
 
     try:
         from miner_models.lead_sorcerer_main.main_leads import get_leads
-        from miner_models.lead_precheck import precheck_lead
+        from miner_models.lead_precheck import REQUIRED_FIELDS, precheck_lead
     except Exception as e:
         msg = (
             "collect_leads_precheck_only ERROR "
@@ -262,33 +272,51 @@ async def _run(
             lead.update(conf)
             apply_email_classification(lead)
 
-            pre_ok, reason = precheck_lead(lead)
+            def _missing_required_fields(obj: dict) -> list[str]:
+                return [f for f in REQUIRED_FIELDS if not str(obj.get(f, "")).strip()]
 
-            # Targeted retry only for high-profit allowlist (LinkedIn / last / domain match).
+            missing_required = _missing_required_fields(lead)
+            lead["missing_required_fields_before_precheck"] = missing_required
+            missing_reason = (
+                f"missing_required_fields: {', '.join(missing_required)}"
+                if missing_required
+                else ""
+            )
+
+            # Retry only for missing required fields.
             retry_attempts = 0
             recovered_fields: list = []
-            if (not pre_ok) and reason:
-                if "name_not_in_email" in (reason or "") or "email_domain_mismatch" in (
-                    reason or ""
-                ):
-                    lead["identity_conflict"] = True
-                if should_run_targeted_retry(reason):
-                    lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
-                        lead, reason, enrich_linkedin=enrich_linkedin_fields
-                    )
-                if retry_attempts > 0:
-                    lead["retry_reason"] = reason
-                    lead["retry_attempts"] = retry_attempts
-                    if recovered_fields:
-                        lead["recovered_fields"] = recovered_fields
-                    normalize_legacy_lead_shape(lead)
-                    apply_email_classification(lead)
-                    conf2 = score_person_confidence(
-                        lead,
-                        title_matches_persona=title_meta["target_fit"] in ("high", "medium"),
-                    )
-                    lead.update(conf2)
-                    pre_ok, reason = precheck_lead(lead)
+            if missing_reason and should_run_targeted_retry(missing_reason):
+                lead, recovered_fields, retry_attempts = targeted_retry_enrichment(
+                    lead, missing_reason, enrich_linkedin=enrich_linkedin_fields
+                )
+
+            if retry_attempts > 0:
+                lead["retry_reason"] = missing_reason
+                lead["retry_attempts"] = retry_attempts
+                if recovered_fields:
+                    lead["recovered_fields"] = recovered_fields
+                normalize_legacy_lead_shape(lead)
+                apply_email_classification(lead)
+                conf2 = score_person_confidence(
+                    lead,
+                    title_matches_persona=title_meta["target_fit"] in ("high", "medium"),
+                )
+                lead.update(conf2)
+
+            missing_required_after = _missing_required_fields(lead)
+            lead["missing_required_fields_after_enrichment"] = missing_required_after
+            critical_missing = [
+                f for f in missing_required_after if f in _CRITICAL_REQUIRED_FIELDS
+            ]
+
+            if critical_missing:
+                pre_ok, reason = (
+                    False,
+                    f"missing_required_fields: {', '.join(missing_required_after)}",
+                )
+            else:
+                pre_ok, reason = precheck_lead(lead)
 
             store_graded = minimal_gateway_lead(lead)
 

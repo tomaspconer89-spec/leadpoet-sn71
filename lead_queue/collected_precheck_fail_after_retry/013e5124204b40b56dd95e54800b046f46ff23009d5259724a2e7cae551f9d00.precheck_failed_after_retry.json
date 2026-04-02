@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Tailwind Ventures",
+  "lead": {
+    "business": "Tailwind Ventures",
+    "full_name": "Info Lead",
+    "first": "Robertstevenkramarz",
+    "last": "Lead",
+    "email": "info@tailwindcapitaladvisors.com",
+    "role": "Contact",
+    "website": "https://tailwindventures.co",
+    "industry": "Financial Services",
+    "sub_industry": "Banking",
+    "country": "United States",
+    "state": "",
+    "city": "Calgary",
+    "source_url": "https://tailwindcapitaladvisors.com",
+    "description": "Tailwind Ventures empowers early- and growth-stage companies to withstand the scrutiny of due diligence and secure capital. Our diligent preparedness process enables ventures to build stronger businesses and improve the risk-reward relationship for ventures and investors. Tailwind Ventures has raised over $370 million for clients since 2022.",
+    "employee_count": "2-10",
+    "hq_country": "Alberta",
+    "hq_state": "",
+    "hq_city": "Calgary",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ca.linkedin.com/company/tailwindventures1",
+    "linkedin": "https://www.linkedin.com/in/amyhe1"
+  },
+  "source_failed_basename": "3368cc394745cea7e4c1aa8c9a21cfaeaaddc4a35e0ac7a74fbcb11cd1fc5a01.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3368cc394745cea7e4c1aa8c9a21cfaeaaddc4a35e0ac7a74fbcb11cd1fc5a01.precheck_failed.json",
+  "queue_key": "013e5124204b40b56dd95e54800b046f46ff23009d5259724a2e7cae551f9d00"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "MassLight",
+  "lead": {
+    "business": "MassLight",
+    "full_name": "Charley Ma",
+    "first": "Charley",
+    "last": "Ma",
+    "email": "",
+    "role": "Co-Founder, General Partner",
+    "website": "http://www.masslight.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "United States",
+    "state": "Maryland",
+    "city": "New York City Metropolitan Area",
+    "source_url": "https://masslight.com",
+    "description": "Via our Build for Equity program we're currently building software for equity in early stage startups. Apply to our Build for Equity program. You can trust our team to help scale your startup. ~~~ Who are we? We are MassLight, a mobile and web application development agency local to Washington, DC with more than 20 years of experience in the space. Some of our clients include Fannie Mae, Freddie Mac, Apple, Velocity, NRMP, AARP, CSC, InRange Systems, National Federation of Teachers, and more! Whatever the size, we view each new client engagement as the start of a long-term partnership.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Maryland",
+    "hq_city": "Bethesda",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/masslight",
+    "linkedin": "https://linkedin.com/in/charleyma"
+  },
+  "source_failed_basename": "b4b96e1b914b23219702926b53538fd5308e4fccc3f70fd2293e89b2af7f9c53.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/b4b96e1b914b23219702926b53538fd5308e4fccc3f70fd2293e89b2af7f9c53.precheck_failed.json",
+  "queue_key": "ed99c260067f7999577c1c1addf6b0b1b46a0602f49171efc1814fa862c74ba4"
+}

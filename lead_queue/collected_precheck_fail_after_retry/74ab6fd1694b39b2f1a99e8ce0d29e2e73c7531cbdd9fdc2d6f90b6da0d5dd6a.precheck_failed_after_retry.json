@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "Temple University College of Science and Technology",
+  "lead": {
+    "business": "Temple University College of Science and Technology",
+    "full_name": "Brendan Walsh",
+    "first": "Brendan",
+    "last": "Walsh",
+    "email": "",
+    "role": "Co-Founder & Chief Revenue Officer",
+    "website": "http://www.cst.temple.edu",
+    "industry": "Education",
+    "sub_industry": "Higher Education",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Miami",
+    "source_url": "https://temple.edu",
+    "description": "The College of Science and Technology, with more than 3,000 talented students and 180 world-class faculty members, includes six academic departments: Biology, Chemistry, Computer & Information Sciences, Earth & Environmental Science, Mathematics and Physics.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Pennsylvania",
+    "hq_city": "Philadelphia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/temple-university-college-of-science-and-technology",
+    "linkedin": "https://linkedin.com/in/brendan-walsh-940563a"
+  },
+  "source_failed_basename": "0521c96e71f8f92e03126519e9232b04adb4e6c32683cd958ee8d496379052bc.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/0521c96e71f8f92e03126519e9232b04adb4e6c32683cd958ee8d496379052bc.precheck_failed.json",
+  "queue_key": "74ab6fd1694b39b2f1a99e8ce0d29e2e73c7531cbdd9fdc2d6f90b6da0d5dd6a"
+}

@@ -1,0 +1,1005 @@
+{
+  "saved_at_utc": "2026-04-01T14:21:45.815954+00:00",
+  "queue_key": "8320293041f71b782f10c3469a461174979a17bc4494a940f705478df6006b4c",
+  "business": "Professional Services Firm | Vincents",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Professional Services Firm | Vincents",
+      "Professional Services Firm | Vincents linkedin company",
+      "site:linkedin.com/company vincents.com.au",
+      "site:linkedin.com/in \"Professional Services Firm | Vincents\" founder",
+      "site:linkedin.com/in \"Professional Services Firm | Vincents\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "QD330ENh8QkfTfP",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Professional+Services+Firm+%7C+Vincents",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Professional+Services+Firm+%7C+Vincents",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Professional Services Firm | Vincents",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Professional+Services+Firm+%7C+Vincents",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Professional+Services+Firm+%7C+Vincents",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Vincents",
+            "url": "https://au.linkedin.com/company/vincents-australia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincents",
+            "description": "We are an accounting and advisory firm with a team of over 270 experts. Over the last three decades, we have developed expertise across the financial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "accounting and advisory firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Vincent Consulting",
+            "url": "https://www.linkedin.com/company/vincent-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Consulting",
+            "description": "Vincent Consulting promotes professional business and personal growth education. Huge experience with coaching, consulting and instruction in Project\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Vincent Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Cooperidge Consulting Firm",
+            "url": "https://www.linkedin.com/company/cooperidge-consulting-firm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cooperidge Consulting Firm",
+            "description": "Our mission is to support our clients' success by delivering top-quality personnel, delivering a high level of customer service and driving innovation in the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "delivering top-quality personnel"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "JNC LLC High Performance Professional Services Firm ...",
+            "url": "https://www.linkedin.com/company/jncprofessionalservicefirm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0JNC LLC High Performance Professional Services Firm (PSF)",
+            "description": "Our service areas focus on operations, finance, complex accounting and auditing issues, and administrative solutions for our clients. A key area for JNC is\u00a0...Read more",
+            "emphasizedKeywords": [
+              "operations, finance, complex accounting and auditing issues, and administrative solutions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "530+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Madison | We Market Professional Services Firms",
+            "url": "https://www.linkedin.com/company/hiremadison",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sean Johnson \ud83d\udd25",
+            "description": "Madison helps boutique consultants, accountants, attorneys, and agencies grow by becoming Trusted Advisors.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "240+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "S&W",
+            "url": "https://uk.linkedin.com/company/swgroupuk",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0S&W",
+            "description": "Our specialists provide an extensive range of services from tax and accountancy, to assurance and financial advisory services. We are a business built on\u00a0...Read more",
+            "emphasizedKeywords": [
+              "tax and accountancy, to assurance and financial advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "41.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Huron",
+            "url": "https://www.linkedin.com/company/huronconsulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jonathan Krasnov",
+            "description": "Huron is a global professional services firm that collaborates with clients to put possible into practice by creating sound strategies, optimizing operations.Read more",
+            "emphasizedKeywords": [
+              "global professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "258.5K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "McKinsey & Company",
+            "url": "https://www.linkedin.com/company/mckinsey",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0McKinsey & Company",
+            "description": "McKinsey & Company is a global management consulting firm. We are the trusted advisor to the world's leading businesses, governments, and institutions.Read more",
+            "emphasizedKeywords": [
+              "global management consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7.1M+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "MG Consulting Firm, LLC",
+            "url": "https://www.linkedin.com/company/mg-consulting-firm-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0MG Consulting Firm, LLC",
+            "description": "From tech startups to established law firms and government entities, we provide bespoke consulting services designed to elevate your business. Whether you're\u00a0...Read more",
+            "emphasizedKeywords": [
+              "bespoke consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Ucvls2rOb4D4TDjeL/records/QD330ENh8QkfTfP-0.html?signature=KFAxplOeDDBwir2SrwUZ"
+      },
+      {
+        "#debug": {
+          "requestId": "XgIZDg3UFQJQt6I",
+          "url": "http://www.google.com/search?q=Professional+Services+Firm+%7C+Vincents+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Professional+Services+Firm+%7C+Vincents+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Professional Services Firm | Vincents linkedin company",
+          "url": "http://www.google.com/search?q=Professional+Services+Firm+%7C+Vincents+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Professional+Services+Firm+%7C+Vincents+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Vincents business valuation",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+business+valuation&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Vincents chartered accountants litigation Tables",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+chartered+accountants+litigation+Tables&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "Vincents financial Planning",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+financial+Planning&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "Vincents liquidators",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+liquidators&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhDEAE"
+          },
+          {
+            "title": "Pitcher Partners",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Pitcher+Partners&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhLEAE"
+          },
+          {
+            "title": "Vincents accountants Brisbane",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+accountants+Brisbane&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhIEAE"
+          },
+          {
+            "title": "Pilot Partners",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Pilot+Partners&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Vincent Accountancy & Taxation Services Ltd",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincent+Accountancy+%26+Taxation+Services+Ltd&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAg7EAE"
+          },
+          {
+            "title": "Vincents business valuation",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+business+valuation&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Vincents chartered accountants litigation Tables",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+chartered+accountants+litigation+Tables&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhGEAE"
+          },
+          {
+            "title": "Vincents financial Planning",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+financial+Planning&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhHEAE"
+          },
+          {
+            "title": "Vincents liquidators",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+liquidators&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhDEAE"
+          },
+          {
+            "title": "Pitcher Partners",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Pitcher+Partners&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhLEAE"
+          },
+          {
+            "title": "Vincents accountants Brisbane",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincents+accountants+Brisbane&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhIEAE"
+          },
+          {
+            "title": "Pilot Partners",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Pilot+Partners&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAhFEAE"
+          },
+          {
+            "title": "Vincent Accountancy & Taxation Services Ltd",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Vincent+Accountancy+%26+Taxation+Services+Ltd&sa=X&ved=2ahUKEwj9geW67MyTAxX_DrkGHVwQA28Q1QJ6BAg7EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Vincents",
+            "url": "https://au.linkedin.com/company/vincents-australia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincents",
+            "description": "We are an accounting and advisory firm with a team of over 270 experts. Over the last three decades, we have developed expertise across the financial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Vincents: Professional Services Firm",
+            "url": "https://vincents.com.au/",
+            "displayedUrl": "https://vincents.com.au",
+            "description": "We are a solutions-focused professional services firm with deep expertise in forensic, tax and advisory.",
+            "emphasizedKeywords": [
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "vincents #expert #tax #businessadvisory",
+            "url": "https://www.linkedin.com/posts/vincents-australia_vincents-expert-tax-activity-7406935496980979714-zHdS",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincents",
+            "description": "We're pleased to announce the appointment of Belinda Crowley, who joins us as a Director specialising in Tax Advisory.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "David Rose (Rosie) - Vincents : Best Australian ...",
+            "url": "https://au.linkedin.com/in/davidroseca",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0David Rose (Rosie)",
+            "description": "I am a director in the Business Advisory unit for Vincents. (Managing Partner 2011 to\u2026 \u00b7 Experience: Vincents : Best Australian Professional Services Firm\u00a0...",
+            "emphasizedKeywords": [
+              "Business",
+              "Vincents",
+              "Vincents",
+              "Professional Services Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Brisbane Area",
+              "companyName": "Vincents  : Best Australian Professional Services Firm (client choice  awards)",
+              "rawText": "Greater Brisbane Area \u00b7 Vincents  : Best Australian Professional Services Firm (client choice  awards)"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Vincent Consulting",
+            "url": "https://www.linkedin.com/company/vincent-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Consulting",
+            "description": "Vincent Consulting promotes professional business and personal growth education. Huge experience with coaching, consulting and instruction in Project\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting",
+              "business",
+              "consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Our Story - Vincents",
+            "url": "https://vincents.com.au/our-story",
+            "displayedUrl": "https://vincents.com.au \u203a our-story",
+            "description": "We are a solutions-focused professional services firm with deep expertise in Forensic, Tax and Advisory. We have been supporting our clients to see all aspects\u00a0...Read more",
+            "emphasizedKeywords": [
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Lauren Sinclair - Associate Director at Vincents",
+            "url": "https://au.linkedin.com/in/lauren-sinclair-60ab1755",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lauren Sinclair",
+            "description": "Associate Director at Vincents \u00b7 Experience: Vincents \u00b7 Education: Institute of Chartered Accountants in Australia \u00b7 Location: Brisbane \u00b7 333 connections on\u00a0...",
+            "emphasizedKeywords": [
+              "Vincents",
+              "Vincents"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Brisbane, Queensland, Australia",
+              "jobTitle": "Associate Director",
+              "companyName": "Vincents",
+              "rawText": "Brisbane, Queensland, Australia \u00b7 Associate Director \u00b7 Vincents"
+            },
+            "followersAmount": "320+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "EY - US | Shape the future with confidence",
+            "url": "https://www.ey.com/en_us",
+            "displayedUrl": "https://www.ey.com \u203a en_us",
+            "description": "At EY-Parthenon, we've reimagined strategic consulting. We're helping CEOs, boards and business leaders around the world improve profitability,\u00a0...Read more",
+            "date": "2026-03-19T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "consulting",
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Chris Bronswijk - Vincents",
+            "url": "https://au.linkedin.com/in/chris-bronswijk-820885128",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Chris Bronswijk",
+            "description": "Charted Accountant with a passion for working in the accounting industry. Currently\u2026 \u00b7 Experience: Vincents \u00b7 Education: Chartered Accountants Australia and\u00a0...",
+            "emphasizedKeywords": [
+              "Vincents"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Brisbane, Queensland, Australia",
+              "companyName": "Vincents",
+              "rawText": "Brisbane, Queensland, Australia \u00b7 Vincents"
+            },
+            "followersAmount": "160+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Vincent Consulting | \u9886\u82f1",
+            "url": "https://cn.linkedin.com/company/vincent-consulting",
+            "displayedUrl": "https://cn.linkedin.com \u203a company",
+            "description": "Vincent Consulting promotes professional business and personal growth education. Huge experience with coaching, consulting and instruction in Project\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting",
+              "business",
+              "consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/pGYYSJk43GJahGU1q/records/XgIZDg3UFQJQt6I-0.html?signature=1peMUckAnYgSyb06L9Z0y"
+      },
+      {
+        "#debug": {
+          "requestId": "tnnw3LIAiSRVQiV",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+vincents.com.au",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+vincents.com.au",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company vincents.com.au",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+vincents.com.au",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+vincents.com.au",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Vincents",
+            "url": "https://au.linkedin.com/company/vincents-australia",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincents",
+            "description": "We are an accounting and advisory firm with a team of over 270 experts. Over the last three decades, we have developed expertise across the financial\u00a0...Read more",
+            "emphasizedKeywords": [
+              "an accounting and advisory firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10.3K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "City of Vincent",
+            "url": "https://ch.linkedin.com/company/cityofvincent/?trk=organization-update_share-update_actor-text",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Vincent",
+            "description": "The City of Vincent encompasses a number of vibrant inner-city suburbs, including North Perth, Leederville, Highgate and Mount Hawthorn, plus parts of East\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of Vincent encompasses a number of vibrant inner-city suburbs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Vincent Buda & Company",
+            "url": "https://pr.linkedin.com/company/vincent-buda-&-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Buda & Company",
+            "description": "We Make & Sell Australia's Trusted Building Supplies. Trust the Buda Since 1957\u2122 Since 1975, Vincent Buda & Company has made and distributed some of the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Australia's Trusted Building Supplies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "350+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Vincents Lawyers",
+            "url": "https://au.linkedin.com/company/vincents-lawyers-au",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincents Lawyers",
+            "description": "Vincents Lawyers are specialists in conveyancing with extensive experience in property law. Offers a range of services including all aspects of conveyancing.Read more",
+            "emphasizedKeywords": [
+              "Vincents Lawyers are specialists in conveyancing"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Vincent Buda & Company",
+            "url": "https://fr.linkedin.com/company/vincent-buda-&-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Buda & Company",
+            "description": "We Make & Sell Australia's Trusted Building Supplies. Trust the Buda Since 1957\u2122 Since 1975, Vincent Buda & Company has made and distributed some of the\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Australia's Trusted Building Supplies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "350+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Vincent Buda & Company",
+            "url": "https://do.linkedin.com/company/vincent-buda-&-company",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Buda & Company",
+            "description": "Since 1975, Vincent Buda & Company has made and distributed some of the most affordable and highest quality products on the market.Read more",
+            "emphasizedKeywords": [
+              "made and distributed some of the most affordable and highest quality products"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "350+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "City of Vincent",
+            "url": "https://www.linkedin.com/company/cityofvincent/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0City of Vincent",
+            "description": "The City of Vincent encompasses a number of vibrant inner-city suburbs, including North Perth, Leederville, Highgate and Mount Hawthorn, plus parts of East\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The City of Vincent encompasses a number of vibrant inner-city suburbs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "The Macro Group Chartered Accountants",
+            "url": "https://www.linkedin.com/company/the-macro-group-accountancy-firm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Macro Group Chartered Accountants",
+            "description": "The Macro Group is a dynamic team of Chartered Accountants and business and tax advisers. The entire team is dedicated to ensuring clients are supported, as\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "780+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Vincent Buda & Company",
+            "url": "https://ro.linkedin.com/company/vincent-buda-&-company",
+            "displayedUrl": "https://ro.linkedin.com \u203a company \u203a vincent-buda-&-co...",
+            "description": "We Make & Sell Australia's Trusted Building Supplies. Trust the Buda Since 1957\u2122 Since 1975, Vincent Buda & Company has made and distributed some of the\u00a0...",
+            "emphasizedKeywords": [
+              "Australia's Trusted Building Supplies"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "St Vincent's Care",
+            "url": "https://fr.linkedin.com/company/st-vincents-care-services",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0St Vincent's Care",
+            "description": "One of Australia's largest Catholic health and aged care providers \u2013 our residents and clients have access to an extensive, world-class health network.Read more",
+            "emphasizedKeywords": [
+              "Australia's largest Catholic health and aged care providers"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/WOucDp89wQ3BtHO3f/records/tnnw3LIAiSRVQiV-0.html?signature=NS90srS46HHPBKGpdpAO"
+      },
+      {
+        "#debug": {
+          "requestId": "Z5jF9jA8x8GDwKO",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Professional+Services+Firm+%7C+Vincents%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Professional+Services+Firm+%7C+Vincents%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Professional Services Firm | Vincents\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Professional+Services+Firm+%7C+Vincents%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Professional+Services+Firm+%7C+Vincents%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Vincent Maiello - Strategic Transformation | Sales & ...",
+            "url": "https://www.linkedin.com/in/vincentmaiello",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vincent Maiello",
+            "description": "Built a high-performing professional services firm specializing in enterprise consulting, staffing solutions, and corporate training\u2014serving Fortune 500 clients\u00a0...Read more",
+            "emphasizedKeywords": [
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Bellmore, New York, United States",
+              "jobTitle": "Founder & Managing Director | Business Transformation \u00b7 Strategy \u00b7 Revenue Growth \u00b7 AI Integration",
+              "companyName": "One 8 & Company, LLC",
+              "rawText": "Bellmore, New York, United States \u00b7 Founder & Managing Director | Business Transformation \u00b7 Strategy \u00b7 Revenue Growth \u00b7 AI Integration \u00b7 One 8 & Company, LLC"
+            },
+            "followersAmount": "1K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Mark Dunning - Phenomenati",
+            "url": "https://www.linkedin.com/in/mdunning97",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Mark Dunning",
+            "description": "Are you the CEO of a small, growing professional services firm? Do you you need\u2026 \u00b7 Experience: Phenomenati \u00b7 Education: University of Vermont \u00b7 Location:\u00a0...",
+            "emphasizedKeywords": [
+              "CEO",
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Boston",
+              "companyName": "Phenomenati",
+              "rawText": "Greater Boston \u00b7 Phenomenati"
+            },
+            "followersAmount": "2.8K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Rick Braa - Seattle, Washington, United States",
+            "url": "https://www.linkedin.com/in/rick-braa-914ba11",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rick Braa",
+            "description": "First recipient from a professional services firm. Paragon Award Winner. Hospitality Finance Technology Professionals. Paragon Award Recipient- annual\u00a0...Read more",
+            "emphasizedKeywords": [
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Steven Spurr - Everything still running through the founder ...",
+            "url": "https://www.linkedin.com/in/stevenspurr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Steven Spurr",
+            "description": "I keep the work of your professional services firm moving without you constantly pushing | Founder & CEO, Spurr Growth Partners \u00b7 Experience: Spurr Growth\u00a0...",
+            "emphasizedKeywords": [
+              "professional services firm",
+              "Founder",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.5K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Gregory Kelly - Chief Executive Officer and Board Member ...",
+            "url": "https://www.linkedin.com/in/gregory-kelly-aa1b3a4",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Gregory Kelly",
+            "description": "As CEO of STV, I have the privilege of leading an award winning professional services firm offering engineering, architectural, planning, environmental,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "STV",
+              "rawText": "New York, New York, United States \u00b7 Chief Executive Officer \u00b7 STV"
+            },
+            "followersAmount": "5.4K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Richard J. Wolkowitz - Family Office Leader",
+            "url": "https://www.linkedin.com/in/richardjwolkowitz",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Richard J. Wolkowitz",
+            "description": "Richard J. Wolkowitz. Family Office Leader | Professional Services Firm Executive | Family Enterprise Continuity Advisor | Strategy & Management | Operating\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Professional Services Firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "21.6K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Glenn Fishler - Adviser to CEO's of Mid-sized Companies ...",
+            "url": "https://www.linkedin.com/in/glenn-fishler-7035174",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Glenn Fishler",
+            "description": "I'm a former professional services firm Founder, President & CEO. With over 30 years of leadership and board room experience, I've now shifted my focus to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "professional services firm Founder",
+              "President",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.9K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Eric Pliner - Executive Advisor & Coach | Former CEO",
+            "url": "https://www.linkedin.com/in/ericpliner",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Eric Pliner",
+            "description": "Former CEO of PE-backed, global professional services firm. Author of \"Difficult Decisions: How Leaders Make the Right Call with Insight, Integrity, & Empathy.\"\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "professional services firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "United States",
+              "jobTitle": "Arcade Leadership Advisory",
+              "companyName": "Arcade Leadership Advisory",
+              "rawText": "United States \u00b7 Arcade Leadership Advisory \u00b7 Arcade Leadership Advisory"
+            },
+            "followersAmount": "6.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Satish Patel - CEO & Founder | Entrepreneur",
+            "url": "https://www.linkedin.com/in/satishnpatel",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Satish Patel",
+            "description": "I'm the Founder and CEO of Analytix, a professional services company my brother and I launched in 2006 with a bold mission: to help small to mid-sized\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Boston",
+              "jobTitle": "CEO and Founder",
+              "companyName": "Analytix Solutions",
+              "rawText": "Greater Boston \u00b7 CEO and Founder \u00b7 Analytix Solutions"
+            },
+            "followersAmount": "2.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "John Watts Jr. - Chief Executive Officer at Paradigm",
+            "url": "https://www.linkedin.com/in/john-watts-jr",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0John Watts Jr.",
+            "description": "CCI, Inc. is a professional services firm that works closely with CEOs and other senior executives of large organizations. CCI was founded in 1986 and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "professional services firm",
+              "CEOs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.2K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/alWFFbv0f1ETZPiTV/records/Z5jF9jA8x8GDwKO-0.html?signature=Yc039Uk2XSA1qvrdq1jx"
+      }
+    ],
+    "apify_item_count": 4,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Professional Services Firm | Vincents",
+      "https://au.linkedin.com/company/vincents-australia",
+      "https://www.linkedin.com/company/vincent-consulting",
+      "https://www.linkedin.com/company/cooperidge-consulting-firm",
+      "https://www.linkedin.com/company/jncprofessionalservicefirm",
+      "https://www.linkedin.com/company/hiremadison",
+      "https://uk.linkedin.com/company/swgroupuk",
+      "https://www.linkedin.com/company/huronconsulting",
+      "https://www.linkedin.com/company/mckinsey",
+      "https://www.linkedin.com/company/mg-consulting-firm-llc",
+      "https://au.linkedin.com/company/vincents-australia",
+      "https://www.linkedin.com/posts/vincents-australia_vincents-expert-tax-activity-7406935496980979714-zHdS",
+      "https://au.linkedin.com/in/davidroseca",
+      "https://www.linkedin.com/company/vincent-consulting",
+      "https://au.linkedin.com/in/lauren-sinclair-60ab1755",
+      "https://au.linkedin.com/in/chris-bronswijk-820885128",
+      "https://cn.linkedin.com/company/vincent-consulting",
+      "site:linkedin.com/company vincents.com.au",
+      "https://au.linkedin.com/company/vincents-australia",
+      "https://ch.linkedin.com/company/cityofvincent/?trk=organization-update_share-update_actor-text",
+      "https://pr.linkedin.com/company/vincent-buda-&-company",
+      "https://au.linkedin.com/company/vincents-lawyers-au",
+      "https://fr.linkedin.com/company/vincent-buda-&-company",
+      "https://do.linkedin.com/company/vincent-buda-&-company",
+      "https://www.linkedin.com/company/cityofvincent/",
+      "https://www.linkedin.com/company/the-macro-group-accountancy-firm",
+      "https://ro.linkedin.com/company/vincent-buda-&-company",
+      "https://fr.linkedin.com/company/st-vincents-care-services",
+      "site:linkedin.com/in \"Professional Services Firm | Vincents\" ceo",
+      "https://www.linkedin.com/in/vincentmaiello",
+      "https://www.linkedin.com/in/mdunning97",
+      "https://www.linkedin.com/in/rick-braa-914ba11",
+      "https://www.linkedin.com/in/stevenspurr",
+      "https://www.linkedin.com/in/gregory-kelly-aa1b3a4",
+      "https://www.linkedin.com/in/richardjwolkowitz",
+      "https://www.linkedin.com/in/glenn-fishler-7035174",
+      "https://www.linkedin.com/in/ericpliner",
+      "https://www.linkedin.com/in/satishnpatel",
+      "https://www.linkedin.com/in/john-watts-jr"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/jncprofessionalservicefirm",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/vincentmaiello"
+  },
+  "lead_before_enrichment": {
+    "business": "Professional Services Firm | Vincents",
+    "description": "# Professional Services Firm | Vincents ![](https://vincents.com.au/wp-content/uploads/2026/03/50.png) #### Good news for buyers \u2013 surge in homes hitting the market Australian housing listings rise gives first home buyers more choice and negotiating power \u2014 here's what rising listings mean for your plans [Read More](https://vincents.com.au/good-news-for-buyers-surge-in-homes-hitting-the-market) #### Fringe Benefits Tax 2026 | Key Changes, Reminders and How to Stay Compliant Here\u2019s what you need to know about the 2026 Fringe Benefit Tax changes, recent cases, as well as ATO guidance and audit \u2018",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://vincents.com.au",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/jncprofessionalservicefirm",
+    "source_url": "https://vincents.com.au",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "vincents.com.au",
+    "source_urls": [
+      "https://vincents.com.au"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Professional Services Firm | Vincents",
+    "description": "# Professional Services Firm | Vincents ![](https://vincents.com.au/wp-content/uploads/2026/03/50.png) #### Good news for buyers \u2013 surge in homes hitting the market Australian housing listings rise gives first home buyers more choice and negotiating power \u2014 here's what rising listings mean for your plans [Read More](https://vincents.com.au/good-news-for-buyers-surge-in-homes-hitting-the-market) #### Fringe Benefits Tax 2026 | Key Changes, Reminders and How to Stay Compliant Here\u2019s what you need to know about the 2026 Fringe Benefit Tax changes, recent cases, as well as ATO guidance and audit \u2018",
+    "full_name": "Vincentmaiello",
+    "first": "Vincentmaiello",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://vincents.com.au",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "Partner",
+    "linkedin": "https://www.linkedin.com/in/vincentmaiello",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/jncprofessionalservicefirm",
+    "source_url": "https://vincents.com.au",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "vincents.com.au",
+    "source_urls": [
+      "https://vincents.com.au"
+    ],
+    "title_raw": "Partner",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://vincents.com.au"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Vincentmaiello"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Vincentmaiello"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/vincentmaiello"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://vincents.com.au"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "Partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Partner"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: city, linkedin",
+  "retry_reason": "missing_required_fields: city, linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "CaseBasix",
+  "lead": {
+    "business": "CaseBasix",
+    "full_name": "Support Lead",
+    "first": "Support",
+    "last": "Lead",
+    "email": "support@casebasix.com",
+    "role": "Contact",
+    "website": "https://www.casebasix.com/",
+    "industry": "Education",
+    "sub_industry": "E-Learning",
+    "country": "United States",
+    "state": "",
+    "city": "",
+    "source_url": "https://casebasix.com",
+    "description": "CaseBasix helps students prep for management consulting interviews for firms like McKinsey, BCG, Bain, Deloitte, EY, PwC, KMPG.",
+    "employee_count": "11-50",
+    "hq_country": "New York",
+    "hq_state": "",
+    "hq_city": "",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/case-basix"
+  },
+  "source_failed_basename": "bedf99ca31761cd2b0aa7c320dd595c956b4d5ffbb78c15db4bf37128d3a01a7.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/bedf99ca31761cd2b0aa7c320dd595c956b4d5ffbb78c15db4bf37128d3a01a7.precheck_failed.json",
+  "queue_key": "620a9cfa655428a337837b1bc1b6b59ebc6461a361bfe756182a79ee3eb03702"
+}

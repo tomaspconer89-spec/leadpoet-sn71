@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Valor Ventures",
+  "lead": {
+    "business": "Valor Ventures",
+    "full_name": "Lisa Calhoun",
+    "first": "Lisa",
+    "last": "Calhoun",
+    "email": "judy@valorventuresconsulting.com",
+    "role": "Founding Managing Partner",
+    "website": "http://www.valorventures.us",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "source_url": "https://valorventuresconsulting.com",
+    "description": "Valor Ventures is a national security enablement platform dedicated to manufacturing success for defense manufacturers and technology companies in service of national security. We exist to strengthen the Defense Industrial Base by enabling organizations to move from innovation to execution. Through education, technology transition, and hands-on enablement, we help manufacturers and defense technology companies build the operational readiness, market resilience, and execution discipline required to protect the United States.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Virginia",
+    "hq_city": "Norfolk",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/valor-venture",
+    "linkedin": "https://linkedin.com/in/lisacalhoun"
+  },
+  "source_failed_basename": "47700aec2ed2302807fe54a12bb1f47dbd2fe7c9b1b8b9f99498f76323304a07.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/47700aec2ed2302807fe54a12bb1f47dbd2fe7c9b1b8b9f99498f76323304a07.precheck_failed.json",
+  "queue_key": "8b79d9a02c678c4d547d8991f584b01d31da780bbc7e2cf3f72bb1fe1423cf5f"
+}

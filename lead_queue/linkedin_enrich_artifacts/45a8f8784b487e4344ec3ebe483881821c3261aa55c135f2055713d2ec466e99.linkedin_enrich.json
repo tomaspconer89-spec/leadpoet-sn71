@@ -1,0 +1,1165 @@
+{
+  "saved_at_utc": "2026-04-01T14:46:24.072304+00:00",
+  "queue_key": "45a8f8784b487e4344ec3ebe483881821c3261aa55c135f2055713d2ec466e99",
+  "business": "Consulting Experts LLC",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Consulting Experts LLC",
+      "Consulting Experts LLC linkedin company",
+      "site:linkedin.com/company consulting-experts.com",
+      "site:linkedin.com/in \"Consulting Experts LLC\" founder",
+      "site:linkedin.com/in \"Consulting Experts LLC\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "1IKpRtCgxREi7hh",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Consulting+Experts+LLC",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Consulting+Experts+LLC",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Consulting Experts LLC",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Consulting+Experts+LLC",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Consulting+Experts+LLC",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Expert Consulting Services, LLC",
+            "url": "https://www.linkedin.com/company/expert-consulting-services-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting Services, LLC",
+            "description": "Our experts are focused on building relationships and providing transparency into your case. We give you the time and guidance you deserve.Read more",
+            "emphasizedKeywords": [
+              "experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Healthcare Consulting Experts LLC",
+            "url": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Healthcare Consulting Experts LLC",
+            "description": "With greater than 27 years of experience in the healthcare industry, we specialize and are certified in matters concerning infection prevention, quality\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Guidance Consulting Experts, LLC.",
+            "url": "https://www.linkedin.com/company/guidance-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Guidance Consulting Experts, LLC.",
+            "description": "For over 15 years, Guidance Consulting Experts has been delivering profitable technology results to everything from small private firms, to Fortune 500\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Guidance Consulting Experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Accelerate Consulting Experts, LLC (ACE)",
+            "url": "https://www.linkedin.com/company/accelerate-consulting-experts-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Accelerate Consulting Experts, LLC (ACE)",
+            "description": "ACE is a management consulting company with global diversity and sustainability expertise. We believe diversity and sustainability make for a better world to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "consulting",
+              "expertise"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Lunisis Consulting Experts, LLC",
+            "url": "https://www.linkedin.com/company/lunisis-consulting-experts-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kathleen D. DePrizio, MBA",
+            "description": "We are an Expert Consulting firm designed to connect you to experts in the fields you are looking for. We will connect you to a vast expert base to ensure\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Expert Consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "600+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Consult Expert LLC",
+            "url": "https://www.linkedin.com/company/consult-expert",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Consult Expert LLC",
+            "description": "Consult Expert LLC provides scope of services including international company formation and Representative offices accreditation in Russia.Read more",
+            "emphasizedKeywords": [
+              "international company formation and Representative offices accreditation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Expert Consulting LLC",
+            "url": "https://www.linkedin.com/company/expert-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting LLC",
+            "description": "Servicing the DMV area's Cambodian community with their accounting and tax needs for both small businesses and personal. Industry: Accounting. Company size: 2-\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Servicing the DMV area's Cambodian community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6 followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Integrity Consulting Experts, LLC (Integrity CE)",
+            "url": "https://www.linkedin.com/company/integrity-ce-inc-",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Integrity Consulting Experts, LLC (Integrity CE)",
+            "description": "Integrity Consulting Experts helps organizations strengthen how they learn, grow, and deliver. Our work begins with eLearning, where we design digital learning\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Integrity Consulting Experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "ACEL - Agile Consulting Experts, LLC",
+            "url": "https://www.linkedin.com/company/acel-agileconsultingexpertsllc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ACEL - Agile Consulting Experts, LLC",
+            "description": "Agile Consulting Experts LLC is a Service Disabled Veteran Owned Small Business (SDVOSB) of very experienced former military officers.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Expert Consulting Services, LLC - ECS",
+            "url": "https://www.linkedin.com/company/expert-consulting-services-llc-legal-expert-witness-consulting",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting Services, LLC - ECS",
+            "description": "At ECS, we specialize in litigation and consulting services tailored for nursing homes, assisted living facilities, and all elder care settings.Read more",
+            "emphasizedKeywords": [
+              "litigation and consulting services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/AMdOS0sJfyMAo3RG5/records/1IKpRtCgxREi7hh-0.html?signature=c8hmLFge2cSh4HS1gOek"
+      },
+      {
+        "#debug": {
+          "requestId": "8LylE9nScE90I4T",
+          "url": "http://www.google.com/search?q=Consulting+Experts+LLC+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Consulting+Experts+LLC+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Consulting Experts LLC linkedin company",
+          "url": "http://www.google.com/search?q=Consulting+Experts+LLC+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Consulting+Experts+LLC+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "CONSULTING EXPERTS",
+            "url": "https://in.linkedin.com/company/consulting-experts1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CONSULTING EXPERTS",
+            "description": "Welcome to our Consulting Experts firm, Consulting Experts is a top-notch consulting firm that specializes in recruitment and vendor management services.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts is a top-notch consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "640+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Consult Expert LLC",
+            "url": "https://www.linkedin.com/company/consult-expert",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Consult Expert LLC",
+            "description": "Consult Expert LLC provides scope of services including international company formation and Representative offices accreditation in Russia.Read more",
+            "emphasizedKeywords": [
+              "Expert LLC",
+              "services",
+              "international company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Expert Consulting Services, LLC",
+            "url": "https://www.linkedin.com/company/expert-consulting-services-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting Services, LLC",
+            "description": "Our experts are focused on building relationships and providing transparency into your case. We give you the time and guidance you deserve.Read more",
+            "emphasizedKeywords": [
+              "building relationships and providing transparency into your case"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "ConsultExperts",
+            "url": "https://www.linkedin.com/company/consultexperts",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a consultexperts",
+            "description": "Specialties: M&A, P&L Turnaround, Strategy, Sales and Operations, Pre-M&A Due Diligence, Post-M&A integration, Partner Strategy, Global Expansion, Business\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Specialties: M&A, P&L Turnaround, Strategy, Sales and Operations"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Guidance Consulting Experts, LLC.",
+            "url": "https://www.linkedin.com/company/guidance-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Guidance Consulting Experts, LLC.",
+            "description": "For over 15 years, Guidance Consulting Experts has been delivering profitable technology results to everything from small private firms, to Fortune 500\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Guidance Consulting Experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "20+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Expert Consulting LLC",
+            "url": "https://www.linkedin.com/company/expert-consulting-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting LLC",
+            "description": "Servicing the DMV area's Cambodian community with their accounting and tax needs for both small businesses and personal. Industry: Accounting. Company size: 2-\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Servicing the DMV area's Cambodian community"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6 followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Healthcare Consulting Experts LLC",
+            "url": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Healthcare Consulting Experts LLC",
+            "description": "With greater than 27 years of experience in the healthcare industry, we specialize and are certified in matters concerning infection prevention, quality\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Experts Consulting Inc",
+            "url": "https://www.linkedin.com/company/experts-consulting-inc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Experts Consulting Inc",
+            "description": "Experts Consulting is a consulting firm that incorporates expediency and proficiency in delivering solutions that suit the demands of companies.Read more",
+            "emphasizedKeywords": [
+              "Experts Consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "ExpertsConsult",
+            "url": "https://www.linkedin.com/company/expertsconsult-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ExpertsConsult",
+            "description": "ExpertsConsult helps professionals to connect with experts and seek consultation to overcome business and operational challenges, gain market insights, develop\u00a0...Read more",
+            "emphasizedKeywords": [
+              "ExpertsConsult"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Advanced Consulting Experts",
+            "url": "https://www.linkedin.com/company/advanced-consulting-experts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advanced Consulting Experts",
+            "description": "IT consulting with a focus on cyber security, risk management, NIST compliance, disaster recovery, government contracting IT policies and procedures, cyber\u00a0...Read more",
+            "emphasizedKeywords": [
+              "IT consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/4ZTrkypN19cN4iJnN/records/8LylE9nScE90I4T-0.html?signature=ZmVnISNYiODwNI5YRkz7"
+      },
+      {
+        "#debug": {
+          "requestId": "xAOE7U3acKZgbGY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+consulting-experts.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+consulting-experts.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company consulting-experts.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+consulting-experts.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+consulting-experts.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "CONSULTING EXPERTS",
+            "url": "https://in.linkedin.com/company/consulting-experts1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0CONSULTING EXPERTS",
+            "description": "Welcome to our Consulting Experts firm, Consulting Experts is a top-notch consulting firm that specializes in recruitment and vendor management services.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts is a top-notch consulting firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "640+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The Consulting Experts",
+            "url": "https://in.linkedin.com/company/de-consulting-experts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Consulting Experts",
+            "description": "Training & Placement services for motivation and mindset in right target. We has excellent database of professional from all over M.P. The database is reviewed,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Training & Placement services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "290+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "CONSULTING EXPERTS-WARTER",
+            "url": "https://www.linkedin.com/company/consulting-experts-warter",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a consulting-exper...",
+            "description": "Consulting Experts-Warter, founded in 2004, is a management consulting firm operating in Romania and abroad. Our philosophy is based on our conviction that\u00a0...",
+            "emphasizedKeywords": [
+              "is a management consulting firm operating in Romania and abroad"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Expert Consulting Services, LLC",
+            "url": "https://www.linkedin.com/company/expert-consulting-services-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Expert Consulting Services, LLC",
+            "description": "Our experts are focused on building relationships and providing transparency into your case. We give you the time and guidance you deserve.Read more",
+            "emphasizedKeywords": [
+              "experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Experts.com",
+            "url": "https://www.linkedin.com/company/experts.com",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Experts.com",
+            "description": "Experts.com promotes its qualified Members to the legal, business and media communities. Our Experts include authors, consultants, engineers, physicians,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Experts.com"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "560+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Digitalization and Digital Transformation for B2B companies",
+            "url": "https://www.linkedin.com/company/digital-consulting-experts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Digital Consulting Experts \u2013 Digitalization and Digital Transformation for B2B companies",
+            "description": "The Digital Consulting Experts are a team of engineers, market, sales and marketing experts as well as change managers.Read more",
+            "emphasizedKeywords": [
+              "of engineers, market, sales and marketing experts"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "50+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Consulting Engineers & Scientists, Inc.",
+            "url": "https://www.linkedin.com/company/consulting-engineers-and-scientists-inc.",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Richard Daniels",
+            "description": "CESI provides investigative services, supporting expert reports, and testimony for matters that are in or have the potential for litigation.Read more",
+            "emphasizedKeywords": [
+              "provides investigative services, supporting expert reports, and testimony"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "250+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Amazon Consulting Experts (ACE)",
+            "url": "https://www.linkedin.com/company/amazon-consulting-experts-ace",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amazon Consulting Experts (ACE)",
+            "description": "We are your one stop shop for all seller's information on Amazon. Collectively along with our clients we bought & sold over $2 Billion worth of products.Read more",
+            "emphasizedKeywords": [
+              "Amazon"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Advanced Consulting Experts",
+            "url": "https://www.linkedin.com/company/advanced-consulting-experts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advanced Consulting Experts",
+            "description": "About us. IT consulting with a focus on cyber security, risk management, NIST compliance, disaster recovery, government contracting IT policies and procedures,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "IT consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Healthcare Consulting Experts LLC",
+            "url": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Healthcare Consulting Experts LLC",
+            "description": "Our services include leadership education, policy-program development, guidance for COVID management and full scale mock surveys to ensure alignment with\u00a0...Read more",
+            "emphasizedKeywords": [
+              "leadership education, policy-program development, guidance for COVID management"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.4K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/pDHPtoFSXmohsoK0w/records/xAOE7U3acKZgbGY-0.html?signature=1h8ygnEZ6AqeQqfxpan4r"
+      },
+      {
+        "#debug": {
+          "requestId": "w0w4JH5NziAkIN0",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Consulting Experts LLC\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Dwayne A DePrizio - Lunisis Consulting Experts, LLC",
+            "url": "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dwayne A DePrizio",
+            "description": "Dwayne A DePrizio. Lunisis Consulting Experts, LLC University of Phoenix. Lewisville, Texas, United States. 72\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Lewisville, Texas, United States",
+              "companyName": "Lunisis Consulting Experts, LLC",
+              "rawText": "Lewisville, Texas, United States \u00b7 Lunisis Consulting Experts, LLC"
+            },
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Sally Horvath Beckman - Experienced Post-Acute Leader ...",
+            "url": "https://www.linkedin.com/in/sally-horvath-beckman-9122284a",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sally Horvath Beckman",
+            "description": "Company Owner. Accreditation Consulting Experts LLC. Mar 2022 - Present 4 years 1 month. Phoeniz, AZ. Owner of agency specializing in survey accreditation\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Owner",
+              "Consulting Experts LLC",
+              "Owner"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Queen Creek, Arizona, United States",
+              "jobTitle": "Company Owner",
+              "companyName": "Accreditation Consulting Experts LLC",
+              "rawText": "Queen Creek, Arizona, United States \u00b7 Company Owner \u00b7 Accreditation Consulting Experts LLC"
+            },
+            "followersAmount": "600+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Triva Manley - TSimone Consulting Experts",
+            "url": "https://www.linkedin.com/in/triva-manley-132ab2271",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Triva Manley",
+            "description": "As a transaction coordinator at TSimone Consulting Experts LLC, Triva Manley utilizes her\u2026 Services. Real Estate \u00b7 Team Building \u00b7 Email Marketing \u00b7 Property\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Detroit Metropolitan Area",
+              "companyName": "TSimone Consulting Experts",
+              "rawText": "Detroit Metropolitan Area \u00b7 TSimone Consulting Experts"
+            },
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Lindsay Thompson - President at Liberty8a",
+            "url": "https://www.linkedin.com/in/lindsay-thompson-16023071",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lindsay Thompson",
+            "description": "After 4 years with a consulting firm Lindsay opened her own business LT Consulting Experts, LLC, now LIBERTY8a, in 2013. Over the years she has helped hundreds\u00a0...Read more",
+            "date": "2030-04-01T14:45:08.948Z",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Tampa Bay Area",
+              "jobTitle": "President",
+              "companyName": "Liberty8a",
+              "rawText": "Greater Tampa Bay Area \u00b7 President \u00b7 Liberty8a"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Kevin Newshan - Senior Consultant at ACE LLC",
+            "url": "https://www.linkedin.com/in/kevinnewshan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kevin Newshan",
+            "description": "Kevin Newshan. Senior Consultant at ACE LLC. Accelerate Consulting Experts, LLC (ACE) St. John's University. Wantagh, New York, United States. 1K followers 500+\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Wantagh, New York, United States",
+              "jobTitle": "Senior Consultant",
+              "companyName": "Accelerate Consulting Experts, LLC (ACE)",
+              "rawText": "Wantagh, New York, United States \u00b7 Senior Consultant \u00b7 Accelerate Consulting Experts, LLC (ACE)"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Ken Rheault - Safety and Compliance Coordinator at ...",
+            "url": "https://www.linkedin.com/in/ken-rheault-284493186",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Ken Rheault",
+            "description": "Ken has worked in the safety/risk control industry for the past 5 years. He is proficient in injury prevention, claims management and injury investigation.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Fargo-Moorhead",
+              "jobTitle": "Safety and Compliance Coordinator",
+              "companyName": "Magnum Companies",
+              "rawText": "Fargo-Moorhead \u00b7 Safety and Compliance Coordinator \u00b7 Magnum Companies"
+            },
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Jeff Wells, CCEP - Strategic compliance leader ...",
+            "url": "https://www.linkedin.com/in/jeff-wells-ccep-38294b7",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Jeff Wells, CCEP",
+            "description": "Jeff Wells, CCEP \u00b7 Strategic compliance leader with experience in EHS, global supply chain integrity, product compliance, and third-party risk management across\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Chattanooga, Tennessee, United States",
+              "jobTitle": "National Safety Manager",
+              "companyName": "SEI Group - USA",
+              "rawText": "Chattanooga, Tennessee, United States \u00b7 National Safety Manager \u00b7 SEI Group - USA"
+            },
+            "followersAmount": "470+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Matthew Grove - Salco Products Inc.",
+            "url": "https://www.linkedin.com/in/matthew-grove-5625223a",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Matthew Grove",
+            "description": "Experienced Plant Manager with a demonstrated history of working in the\u2026 \u00b7 Experience: Salco Products Inc. \u00b7 Education: Pennsylvania State University\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Du Bois, Pennsylvania, United States",
+              "companyName": "Salco Products Inc.",
+              "rawText": "Du Bois, Pennsylvania, United States \u00b7 Salco Products Inc."
+            },
+            "followersAmount": "500+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Michael Winn - Safety & Compliance Officer at National ...",
+            "url": "https://www.linkedin.com/in/michael-winn1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Michael Winn",
+            "description": "I have worked for National Product Sales for over 20 years. Have served as the Safety & Compliance Officer for the last 10 years.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Salt Lake City, Utah, United States",
+              "jobTitle": "Safety & Compliance Officer",
+              "companyName": "National Product Sales",
+              "rawText": "Salt Lake City, Utah, United States \u00b7 Safety & Compliance Officer \u00b7 National Product Sales"
+            },
+            "followersAmount": "100+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/GcUWyyKNNyhMJMKlB/records/w0w4JH5NziAkIN0-0.html?signature=10FTC3WDNydhmSggzODIz"
+      },
+      {
+        "#debug": {
+          "requestId": "2uHhPKtJkKYKhT4",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Consulting Experts LLC\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Consulting+Experts+LLC%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Kathleen D. DePrizio, MBA - Lunisis Consulting Experts, LLC",
+            "url": "https://www.linkedin.com/in/kdeprizio76",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kathleen D. DePrizio, MBA",
+            "description": "Kathleen D. DePrizio, MBA. Lunisis Consulting Experts, LLC University of Phoenix. Davidson, North Carolina, United States.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Davidson, North Carolina, United States",
+              "companyName": "Lunisis Consulting Experts, LLC",
+              "rawText": "Davidson, North Carolina, United States \u00b7 Lunisis Consulting Experts, LLC"
+            },
+            "followersAmount": "5.7K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Dwayne A DePrizio - Lunisis Consulting Experts, LLC",
+            "url": "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dwayne A DePrizio",
+            "description": "Dwayne A DePrizio. Lunisis Consulting Experts, LLC University of Phoenix. Lewisville, Texas, United States. 72\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Lewisville, Texas, United States",
+              "companyName": "Lunisis Consulting Experts, LLC",
+              "rawText": "Lewisville, Texas, United States \u00b7 Lunisis Consulting Experts, LLC"
+            },
+            "followersAmount": "70+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Triva Manley - TSimone Consulting Experts",
+            "url": "https://www.linkedin.com/in/triva-manley-132ab2271",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Triva Manley",
+            "description": "As a transaction coordinator at TSimone Consulting Experts LLC, Triva Manley utilizes her\u2026 Services. Real Estate \u00b7 Team Building \u00b7 Email Marketing \u00b7 Property\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Detroit Metropolitan Area",
+              "companyName": "TSimone Consulting Experts",
+              "rawText": "Detroit Metropolitan Area \u00b7 TSimone Consulting Experts"
+            },
+            "followersAmount": "10+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Samuel Eliott Cohen - Amazon Consulting Experts",
+            "url": "https://www.linkedin.com/in/samecohen-ace",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Samuel Eliott Cohen",
+            "description": "Amazon Consulting Experts LLC. President & CEO. Jan 2011 - Present. www.amazonconsultingexperts.com.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts LLC",
+              "President",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Long Branch, New Jersey, United States",
+              "companyName": "Amazon Consulting Experts",
+              "rawText": "Long Branch, New Jersey, United States \u00b7 Amazon Consulting Experts"
+            },
+            "followersAmount": "17.9K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Carl Alam - ACEL-AGILE CONSULTING EXPERTS, LLC",
+            "url": "https://www.linkedin.com/in/carl-alam-482900170",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Carl Alam",
+            "description": "Carl Alam. ACEL-AGILE CONSULTING EXPERTS, LLC Webster University. Baltimore City County, Maryland, United States.Read more",
+            "emphasizedKeywords": [
+              "CONSULTING EXPERTS, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Baltimore City County, Maryland, United States",
+              "companyName": "ACEL-AGILE CONSULTING EXPERTS, LLC",
+              "rawText": "Baltimore City County, Maryland, United States \u00b7 ACEL-AGILE CONSULTING EXPERTS, LLC"
+            },
+            "followersAmount": "240+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Bill Hucke",
+            "url": "https://www.linkedin.com/in/bill-hucke-5a84531a",
+            "displayedUrl": "https://www.linkedin.com \u203a ...",
+            "description": "Experience. Vice President and Principal Expert III, Aviation Engineering Programs. Agile Consulting Experts LLC (ACEL). Jan 2007 - Present 19 years 2 months.",
+            "emphasizedKeywords": [
+              "President",
+              "Consulting Experts LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Dominick Schilleci,US Veteran - ACEL",
+            "url": "https://www.linkedin.com/in/dominick-schilleci-us-veteran-47864a5a",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Dominick Schilleci,US Veteran",
+            "description": "Dominick Schilleci,US Veteran. ACEL - Agile Consulting Experts, LLC Excelsior College. Elizabeth City, North Carolina, United States.Read more",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Nicole Jurczyk - President & Senior Consultant at ...",
+            "url": "https://www.linkedin.com/in/nicolejurczyk",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Nicole Jurczyk",
+            "description": "Experience: \u2022President & CEO of MSS - a risk management consulting, auditing, and training firm with a focus on Product Stewardship, Quality, Environmental,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "President",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "390+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Wendy Buckley - \u2728 HazMat Expert | Risk & Compliance ...",
+            "url": "https://www.linkedin.com/in/wendy-buckley-48304223",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Wendy Buckley",
+            "description": "With nearly 30 years of hands-on experience in hazardous materials transportation, compliance, and safety, I help companies navigate the complexities of\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Indianapolis",
+              "jobTitle": "President & CEO",
+              "companyName": "STARS HazMat Consulting",
+              "rawText": "Greater Indianapolis \u00b7 President & CEO \u00b7 STARS HazMat Consulting"
+            },
+            "followersAmount": "9.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Lindsay Thompson - President at Liberty8a",
+            "url": "https://www.linkedin.com/in/lindsay-thompson-16023071",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lindsay Thompson",
+            "description": "After 4 years with a consulting firm Lindsay opened her own business LT Consulting Experts, LLC, now LIBERTY8a, in 2013. Over the years she has helped hundreds\u00a0...Read more",
+            "date": "2030-04-01T14:45:24.502Z",
+            "emphasizedKeywords": [
+              "Consulting Experts, LLC"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Greater Tampa Bay Area",
+              "jobTitle": "President",
+              "companyName": "Liberty8a",
+              "rawText": "Greater Tampa Bay Area \u00b7 President \u00b7 Liberty8a"
+            },
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/O0t1Vn4ZnTa7OtEBJ/records/2uHhPKtJkKYKhT4-0.html?signature=48AKnZA0Yrm1LcnCtJqm"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Consulting Experts LLC",
+      "https://www.linkedin.com/company/expert-consulting-services-llc",
+      "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+      "https://www.linkedin.com/company/guidance-consulting-llc",
+      "https://www.linkedin.com/company/accelerate-consulting-experts-llc",
+      "https://www.linkedin.com/company/lunisis-consulting-experts-llc",
+      "https://www.linkedin.com/company/consult-expert",
+      "https://www.linkedin.com/company/expert-consulting-llc",
+      "https://www.linkedin.com/company/integrity-ce-inc-",
+      "https://www.linkedin.com/company/acel-agileconsultingexpertsllc",
+      "https://www.linkedin.com/company/expert-consulting-services-llc-legal-expert-witness-consulting",
+      "https://in.linkedin.com/company/consulting-experts1",
+      "https://www.linkedin.com/company/consult-expert",
+      "https://www.linkedin.com/company/expert-consulting-services-llc",
+      "https://www.linkedin.com/company/consultexperts",
+      "https://www.linkedin.com/company/guidance-consulting-llc",
+      "https://www.linkedin.com/company/expert-consulting-llc",
+      "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+      "https://www.linkedin.com/company/experts-consulting-inc",
+      "https://www.linkedin.com/company/expertsconsult-llc",
+      "https://www.linkedin.com/company/advanced-consulting-experts",
+      "site:linkedin.com/company consulting-experts.com",
+      "https://in.linkedin.com/company/consulting-experts1",
+      "https://in.linkedin.com/company/de-consulting-experts",
+      "https://www.linkedin.com/company/consulting-experts-warter",
+      "https://www.linkedin.com/company/expert-consulting-services-llc",
+      "https://www.linkedin.com/company/experts.com",
+      "https://www.linkedin.com/company/digital-consulting-experts",
+      "https://www.linkedin.com/company/consulting-engineers-and-scientists-inc.",
+      "https://www.linkedin.com/company/amazon-consulting-experts-ace",
+      "https://www.linkedin.com/company/advanced-consulting-experts",
+      "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+      "site:linkedin.com/in \"Consulting Experts LLC\" founder",
+      "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246",
+      "https://www.linkedin.com/in/sally-horvath-beckman-9122284a",
+      "https://www.linkedin.com/in/triva-manley-132ab2271",
+      "https://www.linkedin.com/in/lindsay-thompson-16023071",
+      "https://www.linkedin.com/in/kevinnewshan",
+      "https://www.linkedin.com/in/ken-rheault-284493186",
+      "https://www.linkedin.com/in/jeff-wells-ccep-38294b7",
+      "https://www.linkedin.com/in/matthew-grove-5625223a",
+      "https://www.linkedin.com/in/michael-winn1",
+      "site:linkedin.com/in \"Consulting Experts LLC\" ceo",
+      "https://www.linkedin.com/in/kdeprizio76",
+      "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246",
+      "https://www.linkedin.com/in/triva-manley-132ab2271",
+      "https://www.linkedin.com/in/samecohen-ace",
+      "https://www.linkedin.com/in/carl-alam-482900170",
+      "https://www.linkedin.com/in/bill-hucke-5a84531a",
+      "https://www.linkedin.com/in/dominick-schilleci-us-veteran-47864a5a",
+      "https://www.linkedin.com/in/nicolejurczyk",
+      "https://www.linkedin.com/in/wendy-buckley-48304223",
+      "https://www.linkedin.com/in/lindsay-thompson-16023071"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246"
+  },
+  "lead_before_enrichment": {
+    "business": "Consulting Experts LLC",
+    "description": "Consulting Experts LLC specializes in the Qualified vendor application, contract amendments, AHCCCS ID application and Readiness Review. They also specialize in Website Development, Expansion Vendor Calls, Billing Setup, DHS Licensing and Group Home policy packages.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://consulting-experts.com",
+    "industry": "Consulting",
+    "sub_industry": "Business Consulting / Vendor Application Support",
+    "role": "",
+    "linkedin": "",
+    "region": "Phoenix, Arizona, USA",
+    "founded_year": "",
+    "ownership_type": "LLC",
+    "company_type": "LLC",
+    "number_of_locations": "0",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+    "source_url": "https://consulting-experts.com",
+    "source_type": "company_site",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "USA",
+    "hq_country": "USA",
+    "hq_state": "Arizona",
+    "hq_city": "Phoenix",
+    "employee_count": "11-50",
+    "company_domain_canonical": "consulting-experts.com",
+    "source_urls": [
+      "https://consulting-experts.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Consulting Experts LLC",
+    "description": "Consulting Experts LLC specializes in the Qualified vendor application, contract amendments, AHCCCS ID application and Readiness Review. They also specialize in Website Development, Expansion Vendor Calls, Billing Setup, DHS Licensing and Group Home policy packages.",
+    "full_name": "Dwayne A Deprizio",
+    "first": "Dwayne",
+    "last": "A Deprizio",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://consulting-experts.com",
+    "industry": "Consulting",
+    "sub_industry": "Business Consulting / Vendor Application Support",
+    "role": "Partner",
+    "linkedin": "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246",
+    "region": "Phoenix, Arizona, USA",
+    "founded_year": "",
+    "ownership_type": "LLC",
+    "company_type": "LLC",
+    "number_of_locations": "0",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/healthcare-consulting-experts-llc",
+    "source_url": "https://consulting-experts.com",
+    "source_type": "company_site",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "USA",
+    "hq_country": "USA",
+    "hq_state": "Arizona",
+    "hq_city": "Phoenix",
+    "employee_count": "11-50",
+    "company_domain_canonical": "consulting-experts.com",
+    "source_urls": [
+      "https://consulting-experts.com"
+    ],
+    "title_raw": "Partner",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://consulting-experts.com"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Dwayne"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Dwayne A Deprizio"
+    },
+    "last": {
+      "before": "",
+      "after": "A Deprizio"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/dwayne-a-deprizio-9513b2246"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://consulting-experts.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "Partner"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "Partner"
+    }
+  }
+}

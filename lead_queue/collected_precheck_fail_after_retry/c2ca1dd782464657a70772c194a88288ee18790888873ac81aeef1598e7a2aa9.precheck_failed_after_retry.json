@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: last",
+  "business": "bdh Tax",
+  "lead": {
+    "business": "bdh Tax",
+    "full_name": "Kevin Indig",
+    "first": "Kevin",
+    "last": "Indig",
+    "email": "joan@hybridbizadvisors.com",
+    "role": "Brand Visibility Expert",
+    "website": "http://www.bdhtax.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "Germany",
+    "state": "founder of Hybrid Business Advisors. Based in New Jersey and serving clients nationwide",
+    "city": "Germany",
+    "source_url": "https://hybridbizadvisors.com",
+    "description": "bdh Tax delivers tax and financial solutions in the UK and Australia for migrants moving to Australia from the UK, Australians returning home from overseas, Australians living in the UK, and expats from the UK or Australia working in a low tax/no tax jurisdiction. We provide assistance with income tax and capital gains tax in the UK and in Australia, inheritance tax in the UK, and estate tax planning in Australia.",
+    "employee_count": "2-10",
+    "hq_country": "New South Wales",
+    "hq_state": "founder of Hybrid Business Advisors. Based in New Jersey and serving clients nationwide",
+    "hq_city": "Sydney",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://au.linkedin.com/company/bdhtax",
+    "linkedin": "https://linkedin.com/in/kevinindig"
+  },
+  "source_failed_basename": "2a81ca10800575bb8dea8bf0bb4c2a2d419c9a08239f0b0a2c548dfe7d818f2b.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2a81ca10800575bb8dea8bf0bb4c2a2d419c9a08239f0b0a2c548dfe7d818f2b.precheck_failed.json",
+  "queue_key": "c2ca1dd782464657a70772c194a88288ee18790888873ac81aeef1598e7a2aa9"
+}

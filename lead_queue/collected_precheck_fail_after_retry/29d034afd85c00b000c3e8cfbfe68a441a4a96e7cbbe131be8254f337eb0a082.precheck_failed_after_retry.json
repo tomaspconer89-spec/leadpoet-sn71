@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "Coolwater Capital",
+  "lead": {
+    "business": "Coolwater Capital",
+    "full_name": "David Teten",
+    "first": "David",
+    "last": "Teten",
+    "email": "",
+    "role": "Venture Partner (formerly Partner)",
+    "website": "http://coolwatercap.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://teten.com",
+    "description": "creating a new model to launch, build, and scale emerging fund managers",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Utah",
+    "hq_city": "Salt Lake City",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/coolwatercapital",
+    "linkedin": "https://linkedin.com/in/teten"
+  },
+  "source_failed_basename": "aaaf27a9e1406955615e68c89e3db4f549bfe7bdaa3ccb92269bd27dd7c590f5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/aaaf27a9e1406955615e68c89e3db4f549bfe7bdaa3ccb92269bd27dd7c590f5.precheck_failed.json",
+  "queue_key": "29d034afd85c00b000c3e8cfbfe68a441a4a96e7cbbe131be8254f337eb0a082"
+}

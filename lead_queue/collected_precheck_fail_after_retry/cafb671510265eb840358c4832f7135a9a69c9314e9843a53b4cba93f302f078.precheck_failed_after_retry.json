@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: last",
+  "business": "Mainpage SGPS",
+  "lead": {
+    "business": "Mainpage SGPS",
+    "full_name": "Edwin Robert Lap",
+    "first": "Edwin Robert",
+    "last": "Lap",
+    "email": "advisors@xonapartners.comsubject",
+    "role": "Managing Partner",
+    "website": "http://www.mainpage.pt",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "California",
+    "city": "Coronado",
+    "source_url": "https://xonapartners.com",
+    "description": "Mainpage SGPS is a 100% portuguese company that covers interests in several business areas. Investing in both national and international markets, it focuses on sustainable and diversified structures, focusing on telecommunications, construction and real estate.",
+    "employee_count": "11-50",
+    "hq_country": "Lisboa",
+    "hq_state": "California",
+    "hq_city": "San Diego. We are the first private",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://pt.linkedin.com/company/mainpage-sgps",
+    "linkedin": "https://linkedin.com/in/edwinlap"
+  },
+  "source_failed_basename": "c0a454977f3d1a48564ed4f19de134e8736fda324991d261f9e74f94b6647f98.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c0a454977f3d1a48564ed4f19de134e8736fda324991d261f9e74f94b6647f98.precheck_failed.json",
+  "queue_key": "cafb671510265eb840358c4832f7135a9a69c9314e9843a53b4cba93f302f078"
+}

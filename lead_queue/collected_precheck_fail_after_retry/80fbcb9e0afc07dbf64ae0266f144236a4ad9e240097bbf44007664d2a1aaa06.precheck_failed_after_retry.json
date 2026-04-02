@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "IAG M&A Advisors",
+  "lead": {
+    "business": "IAG M&A Advisors",
+    "full_name": "Info Lead",
+    "first": "Juliusdixon",
+    "last": "Lead",
+    "email": "info@nexeonbiz.com",
+    "role": "Contact",
+    "website": "https://iagmerger.com/about-iag/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Carrollton",
+    "source_url": "https://nexeonbiz.com",
+    "description": "IAG M&A Advisors is a business intermediary consulting firm, facilitating the buying and selling of businesses. IAG has helped the owners of privately-held companies \"cash in\" on all their hard work and get the best payoff possible. Services include consulting services, securing accredited third party business valuations and pro forma portrayals of future business performance, seller-buyer matching, providing funding resources for buy/sell transactions, and tax planning and deal structure analysis.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Carrollton",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/iag-llc"
+  },
+  "source_failed_basename": "dcd052db6d67809a0c77547bcfb2bb7d41601eb98508fc88780d98d2dcad80ac.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/dcd052db6d67809a0c77547bcfb2bb7d41601eb98508fc88780d98d2dcad80ac.precheck_failed.json",
+  "queue_key": "80fbcb9e0afc07dbf64ae0266f144236a4ad9e240097bbf44007664d2a1aaa06"
+}

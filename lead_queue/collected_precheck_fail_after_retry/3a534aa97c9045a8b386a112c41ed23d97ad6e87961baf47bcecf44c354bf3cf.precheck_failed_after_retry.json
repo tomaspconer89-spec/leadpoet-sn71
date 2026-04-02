@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Venture Best\u00ae",
+  "lead": {
+    "business": "Venture Best\u00ae",
+    "full_name": "David Morris",
+    "first": "David",
+    "last": "Morris",
+    "email": "",
+    "role": "Partner and Corporate Attorney",
+    "website": "https://www.venturebest.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Legal",
+    "country": "United States",
+    "state": "North Carolina",
+    "city": "Durham",
+    "source_url": "https://venturebest.com",
+    "description": "We work closely with entrepreneurs, and with their venture capital and angel investors, to help new, high-growth companies find financial backing and grow their businesses. We help companies and investors make connections, structure and close transactions, and maximize returns. We also counsel early-stage businesses on their financial, organizational, and regulatory needs as they grow.",
+    "employee_count": "501-1,000",
+    "hq_country": "United States",
+    "hq_state": "Wisconsin",
+    "hq_city": "Milwaukee",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/venture-best",
+    "linkedin": "https://linkedin.com/in/dmorr92"
+  },
+  "source_failed_basename": "ad95882483a6bb8fce5b2f08a0ef7f5f0e2cbc23817627fd8ccdc489bd21b0c8.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ad95882483a6bb8fce5b2f08a0ef7f5f0e2cbc23817627fd8ccdc489bd21b0c8.precheck_failed.json",
+  "queue_key": "3a534aa97c9045a8b386a112c41ed23d97ad6e87961baf47bcecf44c354bf3cf"
+}

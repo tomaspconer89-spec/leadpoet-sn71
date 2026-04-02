@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Agency Leads - Lead Generation Tool for Staffing Agencies",
+  "lead": {
+    "business": "Agency Leads - Lead Generation Tool for Staffing Agencies",
+    "full_name": "Ceo Lead",
+    "first": "Ceo",
+    "last": "Lead",
+    "email": "ceo@saasfounders.net",
+    "role": "Contact",
+    "website": "https://agency-leads.com",
+    "industry": "Professional Services",
+    "sub_industry": "Recruiting",
+    "country": "United States",
+    "state": "Arizona",
+    "city": "Tempe",
+    "source_url": "https://saasfounders.net",
+    "description": "\u27a4 OUR MISSION: To help organizations successfully grow their business and practice, anywhere. \u27a4 WHAT WE DO: We are providing Agency Leads software which has generated over 125,000 verified LEADS over the last few years. An Agency Lead is an open job position for which a company is hiring a staffing firm to fill the position. All the Agency Leads are manually verified by our Lead Geniuses and we add 1,500+ new & fresh Leads every week. You can tell us what type of job positions you want to fill and we provide you with the right and verified LEADS fulfilling your requirements. \u27a4 HOW WE DO IT:",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Arizona",
+    "hq_city": "Tempe",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/agency-leads"
+  },
+  "source_failed_basename": "d86ccfeb98e4308e1d5fbaafe5f19d74191cb17170b7d413270e86801a6d6c9e.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d86ccfeb98e4308e1d5fbaafe5f19d74191cb17170b7d413270e86801a6d6c9e.precheck_failed.json",
+  "queue_key": "5ea8f34338ef01d7c715c0fc16530a639617050dee19c22d1560efe7b9f277f1"
+}

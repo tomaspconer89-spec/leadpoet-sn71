@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Innomax Startup Advisory Pvt Ltd",
+  "lead": {
+    "business": "Innomax Startup Advisory Pvt Ltd",
+    "full_name": "Jason Bulger",
+    "first": "Jason",
+    "last": "Bulger",
+    "email": "jason.b@revity.com.au",
+    "role": "Founder & CEO",
+    "website": "http://innomaxstartup.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Australia",
+    "state": "California",
+    "city": "Greater Melbourne Area",
+    "source_url": "https://thestartupadvisory.com",
+    "description": "Innomax StartUp is a Power Scaling Ecosystem that identifies,Invests and scales, budding companies in FinTech. we help startups to scale new growth trajectories. Driven by a strong team across USA, Europe, and India ,Innomax StartUp has nurtured startups to next orbit of Growth.",
+    "employee_count": "11-50",
+    "hq_country": "Telanagana",
+    "hq_state": "California",
+    "hq_city": "Hyderabad",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/innomax-startup-advisory-pvt-ltd",
+    "linkedin": "https://linkedin.com/in/jasonbulger"
+  },
+  "source_failed_basename": "2cc50ae43c82e823750e4015ca361dc40b409c117694fbf6f7950f13cbd5fa94.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/2cc50ae43c82e823750e4015ca361dc40b409c117694fbf6f7950f13cbd5fa94.precheck_failed.json",
+  "queue_key": "5bc743d027deca966be7c7764ef76ae4a85efdabab3886b20b71b9b7bb032316"
+}

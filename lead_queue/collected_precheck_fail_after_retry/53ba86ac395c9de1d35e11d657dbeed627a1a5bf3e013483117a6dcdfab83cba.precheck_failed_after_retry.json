@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "state_empty_for_usa",
+  "business": "Blackbaud",
+  "lead": {
+    "business": "Blackbaud",
+    "full_name": "Hero Agent",
+    "first": "Hero",
+    "last": "Agent",
+    "email": "hero-dev-agent@2x-scaled.png",
+    "role": "Contact",
+    "website": "http://www.blackbaud.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "South Carolina",
+    "city": "Error: Got empty search results page (0 organic + paid results)",
+    "source_url": "https://blackbaud.com",
+    "description": "Blackbaud (NASDAQ: BLKB) is the leading software provider exclusively dedicated to powering social impact. Serving the nonprofit and education sectors, companies committed to social responsibility, and individual change makers, Blackbaud\u2019s essential software is built to accelerate impact in fundraising, nonprofit financial management, digital giving, grantmaking, corporate social responsibility and education management.",
+    "employee_count": "1,001-5,000",
+    "hq_country": "United States",
+    "hq_state": "South Carolina",
+    "hq_city": "Charleston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/blackbaud"
+  },
+  "source_failed_basename": "4c0d2c0abf22c887d1ce61eb79650e86e2b57415fa690f7a6e3ee1ca67c5140f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4c0d2c0abf22c887d1ce61eb79650e86e2b57415fa690f7a6e3ee1ca67c5140f.precheck_failed.json",
+  "queue_key": "53ba86ac395c9de1d35e11d657dbeed627a1a5bf3e013483117a6dcdfab83cba"
+}

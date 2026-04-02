@@ -1,0 +1,33 @@
+{
+  "business": "The O'Kelly Consulting Group",
+  "full_name": "Mike O'Kelly",
+  "first": "Mike",
+  "last": "O'Kelly",
+  "email": "mike@okellyconsulting.com",
+  "role": "Founder/CEO",
+  "website": "http://www.okellyconsulting.com",
+  "industry": "Sales and Marketing",
+  "sub_industry": "Marketing",
+  "country": "United States",
+  "state": "Georgia",
+  "city": "Atlanta",
+  "source_url": "https://okellyconsulting.com",
+  "description": "The O'Kelly Consulting Group has partnered with cutting-edge brands offering boutique marketing, advertising, branding, public relations, business consulting, and digital media packages for nearly two decades. We help businesses grow and get noticed.",
+  "employee_count": "2-10",
+  "hq_country": "United States",
+  "hq_state": "Georgia",
+  "hq_city": "Atlanta",
+  "source_type": "company_site",
+  "phone_numbers": [],
+  "socials": {
+    "linkedin": null,
+    "github": null,
+    "twitter": null,
+    "telegram": null,
+    "instagram": null,
+    "facebook": null,
+    "youtube": null
+  },
+  "company_linkedin": "https://www.linkedin.com/company/the-okelly-consulting-group",
+  "linkedin": "https://linkedin.com/in/okellyconsulting"
+}

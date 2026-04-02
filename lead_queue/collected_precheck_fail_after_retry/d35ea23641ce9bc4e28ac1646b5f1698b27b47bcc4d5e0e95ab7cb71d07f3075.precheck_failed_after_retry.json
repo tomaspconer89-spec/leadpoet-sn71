@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Growth Advisory Group",
+  "lead": {
+    "business": "Growth Advisory Group",
+    "full_name": "Anand Sharma",
+    "first": "Anand",
+    "last": "Sharma",
+    "email": "user@domain.com",
+    "role": "Founder & CEO",
+    "website": "https://growthadvisory.io",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Florida",
+    "city": "West Palm Beach",
+    "source_url": "https://growthadvisory.io",
+    "description": "Growth Advisory Group is a provider of business consulting services, specializing in sales and sales operations. Our dedicated team of experts is committed to helping companies optimize their go-to-market strategies, maximize sales performance, and streamline operations for sustainable growth and profitability. We understand the challenges businesses face in today's competitive marketplace. That's why we offer a comprehensive suite of services tailored to meet the unique needs of each client.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Mauritius",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/growth-advisory-group",
+    "linkedin": "https://linkedin.com/in/anandsharma3"
+  },
+  "source_failed_basename": "106e0a8e298018b744a3b32e4fc100c568a9ce8b64368358f649ec49a8de766c.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/106e0a8e298018b744a3b32e4fc100c568a9ce8b64368358f649ec49a8de766c.precheck_failed.json",
+  "queue_key": "d35ea23641ce9bc4e28ac1646b5f1698b27b47bcc4d5e0e95ab7cb71d07f3075"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "email_domain_mismatch",
+  "business": "CFO Leadership Council",
+  "lead": {
+    "business": "CFO Leadership Council",
+    "full_name": "Jack McCullough",
+    "first": "Jack",
+    "last": "McCullough",
+    "email": "customerservice@chiefexecutivegroup.com",
+    "role": "President",
+    "website": "http://www.cfolc.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "source_url": "https://cfoleadership.com",
+    "description": "Be Empowered! Build lasting connections with your finance peers while elevating your career. The CFO Leadership Council is a community of finance executives that challenges your strategic approach in a comfortable, open setting both live and online. Founded in 2006, we are now have many chapters across the US & Canada! Our programs feature expert panels and sessions whose content is selected and curated by our membership and Advisory Boards. Our sponsors are hand-picked of relevant industry thought leaders and key resources for our CFOLC community.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Massachusetts",
+    "hq_city": "North Andover",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/cfoleadershipcouncil",
+    "linkedin": "https://linkedin.com/in/jackmcculloughcfo"
+  },
+  "source_failed_basename": "817ace98f949ca1c9b6e4b49330ff069e56972df1fea4e4f2e62d19830366e2d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/817ace98f949ca1c9b6e4b49330ff069e56972df1fea4e4f2e62d19830366e2d.precheck_failed.json",
+  "queue_key": "e523a00112498315e9dbb0ae113fb2b158cbb7f6de51fbfb6a231bb554eee9cb"
+}

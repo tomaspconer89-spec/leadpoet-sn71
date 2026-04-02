@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "B2B Consultancy",
+  "lead": {
+    "business": "B2B Consultancy",
+    "full_name": "Stan Stojanovic",
+    "first": "Stan",
+    "last": "Stojanovic",
+    "email": "info@infotanksmedia.com",
+    "role": "Founder",
+    "website": "http://b2bconsultancyuae.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Serbia",
+    "state": "",
+    "city": "Belgrade",
+    "source_url": "https://iinfotanks.com",
+    "description": "We are consultancy firm based in UAE, providing variety of business solutions to all types of companies. Our strong relation with Auditors, Bankers, Lawyers & Business services companies makes us unique in the market. As independent consultant, we search products and solution from different resources to ensure that you get the maximum benefit with flexible terms. Our wide experience and strong interaction with different industries makes us confident to offer you financial or administration solutions for your company.",
+    "employee_count": "2-10",
+    "hq_country": "Sharjah",
+    "hq_state": "",
+    "hq_city": "UAE",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/b2b-consultancy",
+    "linkedin": "https://linkedin.com/in/strahinja-stojanovic"
+  },
+  "source_failed_basename": "4808b2fd978388080ad9f26730039bbdd901f617513d8b31c216bec0b30e687a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/4808b2fd978388080ad9f26730039bbdd901f617513d8b31c216bec0b30e687a.precheck_failed.json",
+  "queue_key": "91317a2fa45db563e4cb2b7ac0c6502b65b34156d99bc8229c9b1e3275b1d2be"
+}

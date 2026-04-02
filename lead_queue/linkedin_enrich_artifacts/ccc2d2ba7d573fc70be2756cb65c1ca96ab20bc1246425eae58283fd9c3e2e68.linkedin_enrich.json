@@ -1,0 +1,2710 @@
+{
+  "saved_at_utc": "2026-04-01T15:56:11.155759+00:00",
+  "queue_key": "ccc2d2ba7d573fc70be2756cb65c1ca96ab20bc1246425eae58283fd9c3e2e68",
+  "business": "Unlocking transitions | AFRY",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Unlocking transitions | AFRY",
+      "Unlocking transitions | AFRY linkedin company",
+      "site:linkedin.com/company afry.com",
+      "site:linkedin.com/in \"Unlocking transitions | AFRY\" founder",
+      "site:linkedin.com/in \"Unlocking transitions | AFRY\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "ZLtvK4qMt5XXEoa",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Unlocking+transitions+%7C+AFRY",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Unlocking+transitions+%7C+AFRY",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Unlocking transitions | AFRY",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Unlocking+transitions+%7C+AFRY",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Unlocking+transitions+%7C+AFRY",
+        "hasNextPage": true,
+        "serpProviderCode": "L",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "AFRY",
+            "url": "https://mr.linkedin.com/company/afry",
+            "displayedUrl": "https://mr.linkedin.com \u203a company \u203a afry",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "AFRY",
+            "url": "https://bn.linkedin.com/company/afry?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AFRY",
+            "description": "AFRY provides engineering, project management, and advisory services that enable the energy and industrial transition and strengthen resilience in society.Read more",
+            "emphasizedKeywords": [
+              "AFRY provides engineering, project management, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6.6L+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "AFRY",
+            "url": "https://tr.linkedin.com/company/afry?trk=companies_directory",
+            "displayedUrl": "https://tr.linkedin.com \u203a company \u203a afry",
+            "description": "AFRY provides engineering, project management, and advisory services that enable the energy and industrial transition and strengthen resilience in society.",
+            "emphasizedKeywords": [
+              "AFRY provides engineering, project management, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Unlock Potential - HR Consulting & Coaching Services",
+            "url": "https://www.linkedin.com/company/unlock-potential-hr-consulting-coaching-services",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Vimary Velez-Chardon",
+            "description": "I support high-achieving individuals and leaders who are navigating change, not just in their careers, but in who they are becoming.Read more",
+            "emphasizedKeywords": [
+              "navigating change"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "190+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "UNLOCK project",
+            "url": "https://es.linkedin.com/company/unlock-project",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0UNLOCK project",
+            "description": "15 partners from 7 EU countries work together to transform waste from the poultry industry into bio-based products for agricultural applications.Read more",
+            "emphasizedKeywords": [
+              "transform waste from the poultry industry into bio-based products"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "600+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "UNLOCK",
+            "url": "https://www.linkedin.com/company/unlock-world",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0UNLOCK",
+            "description": "We're a learning platform unlocking new potential and possibilities for visionary leaders in business. Through educational content and shared community\u00a0...Read more",
+            "emphasizedKeywords": [
+              "learning platform unlocking new potential and possibilities"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "310+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "AFRY",
+            "url": "https://ro.linkedin.com/company/afry?trk=nav_type_overview",
+            "displayedUrl": "https://ro.linkedin.com \u203a company",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Energy Unlocked",
+            "url": "https://uk.linkedin.com/company/energy-unlocked",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Energy Unlocked",
+            "description": "Energy Unlocked is an independent not-for-profit working internationally to accelerate the pace of energy systems transitions to meet climate change targets.Read more",
+            "emphasizedKeywords": [
+              "accelerate the pace of energy systems transitions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "320+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Unlocked Leadership",
+            "url": "https://www.linkedin.com/company/unlocked-leadership",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Unlocked Leadership",
+            "description": "Unlocked Leadership\u00ae is an Executive Coaching practice that works with senior executives and emerging leaders who find themselves at moments of transition. Our\u00a0...Read more",
+            "emphasizedKeywords": [
+              "works with senior executives and emerging leaders"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "140+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Energy Transitions Commission",
+            "url": "https://uk.linkedin.com/company/energy-transitions-commission",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Energy Transitions Commission",
+            "description": "The Energy Transitions Commission was convened to help identify pathways for change in our energy systems to ensure both better growth and a better climate.Read more",
+            "emphasizedKeywords": [
+              "help identify pathways for change in our energy systems"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "19.6K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/OPwTSd8qbds9J9Xmr/records/ZLtvK4qMt5XXEoa-0.html?signature=1zgFNyLKfFqF23g7G4M4Z"
+      },
+      {
+        "#debug": {
+          "requestId": "6tpPBkLhLOm7BrL",
+          "url": "http://www.google.com/search?q=Unlocking+transitions+%7C+AFRY+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Unlocking+transitions+%7C+AFRY+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Unlocking transitions | AFRY linkedin company",
+          "url": "http://www.google.com/search?q=Unlocking+transitions+%7C+AFRY+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Unlocking+transitions+%7C+AFRY+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Unlocking transitions | AFRY",
+            "url": "https://www.linkedin.com/posts/afry_unlocking-transitions-activity-7392150179627552768-L5IF",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "Unlocking transitions. Join us in Making Future. At AFRY, we believe transitions are key to a sustainable and resilient future.",
+            "emphasizedKeywords": [
+              "transitions are key to a sustainable and resilient future"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "AFRY Management Consulting's Post",
+            "url": "https://www.linkedin.com/posts/afry-management-consulting_makingfuture-unlockingtransitions-activity-7397655796010065920-ruLp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AFRY Management Consulting",
+            "description": "As the energy transition accelerates, maintaining grid stability and flexibility is becoming a critical challenge.",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Unlocking transitions - AFRY's Post",
+            "url": "https://www.linkedin.com/posts/afry_nab%C3%ADz%C3%ADme-%C5%99e%C5%A1en%C3%AD-pro-budouc%C3%AD-generace-activity-7173301819014688769-t_EJ",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "We have just launched afry.com website for the Czech Republic and Slovakia! We are delighted to release the latest version of afry.com \u2013 for\u00a0...",
+            "emphasizedKeywords": [
+              "afry.com website"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "AFRY - Unlocking transitions",
+            "url": "https://www.linkedin.com/posts/afry_providing-leading-solutions-for-generations-activity-6643127081146421249-z_ZC",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "AFRYn suomenkieliset nettisivut ovat nyt auki! Sivustolta l\u00f6ytyy kattavan palvelutarjontamme ja yhteyshenkil\u00f6iden lis\u00e4ksi my\u00f6s projekteja ja\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "AFRY presents new strategy and announces financial ...",
+            "url": "https://www.linkedin.com/posts/afry_afry-presents-new-strategy-and-announces-activity-7391383819377041409-9xPc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "AFRY presents new strategy and announces financial targets for 2028. Today, we are presenting our new strategy \u2013 Unlocking AFRY.",
+            "emphasizedKeywords": [
+              "AFRY presents new strategy and announces financial targets for 2028"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "#unlockingtransitions #makingfuture #afry | Gabriela Piazon",
+            "url": "https://www.linkedin.com/posts/gabrielaiervolinopiazon_unlockingtransitions-makingfuture-afry-activity-7435331547597242368-hDxw",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Gabriela Piazon",
+            "description": "I'm celebrating 10 years at AFRY. I started as an intern, driven by the desire to learn, contribute and grow. Throughout this journey, I\u00a0...",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Linda P\u00e5lsson\u2666\ufe0f's Post",
+            "url": "https://www.linkedin.com/posts/linda-p%C3%A5lsson%E2%99%A6%EF%B8%8F-67516bb_this-week-we-had-the-pleasure-of-welcoming-activity-7392198907759411203-9xfw",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Linda P\u00e5lsson\u2666\ufe0f",
+            "description": "We are now sharpening our focus on segments with major transition needs \u2013 enabling the energy and industrial transformation, and strengthening\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "AFRY's Post",
+            "url": "https://www.linkedin.com/posts/afry_unlocking-potential-overcoming-barriers-activity-7132729419395125248-1ogA",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a afry_unlocking-pote...",
+            "description": "Nov 21, 2023 \u2014 Join AFRY Management Consulting for our next webinar on 12th December at 14:00 CET as we delve into Colombian and Peruvian electricity\u00a0...",
+            "date": "2023-11-21T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "energytransition #makingfuture - AFRY's Post",
+            "url": "https://www.linkedin.com/posts/afry_energytransition-makingfuture-activity-7432750032841404417-FZRm",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "Exciting initiative! Turning the complexity of the energy transition into actionable, bankable projects is exactly what the sector needs.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Why IT Migration Tools Are Essential for Corporate Growth",
+            "url": "https://www.linkedin.com/posts/communiquepr_unlock-seamless-transitions-why-it-migration-activity-7295234032261287936-ub_0",
+            "displayedUrl": "https://www.linkedin.com \u203a posts \u203a communiquepr_unlo...",
+            "description": "Feb 11, 2025 \u2014 In the fast-paced business world, IT migrations are more than just a technical task\u2014they're a strategic opportunity to drive efficiency,\u00a0...",
+            "date": "2025-02-11T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "business"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/oelgsLrATy8WLdfhO/records/6tpPBkLhLOm7BrL-0.html?signature=1iXlmENCHUI8OfSl1cRbi"
+      },
+      {
+        "#debug": {
+          "requestId": "z7VQ7G31dllDiNL",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afry.com",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afry.com",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company afry.com",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afry.com",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afry.com",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "AFRY",
+            "url": "https://www.linkedin.com/company/afry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Siobahn Butler",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.Read more",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "658.4K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "AFRY: Culture",
+            "url": "https://www.linkedin.com/company/afry/life",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a afry \u203a life",
+            "description": "AFRY | 658116 followers on LinkedIn. AFRY is a European leader in engineering, design, and advisory services, with a global reach.",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "AFRY",
+            "url": "https://hu.linkedin.com/company/afry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AFRY",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.Read more",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "658.4K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "\u00c5F",
+            "url": "https://www.linkedin.com/company/afgroup/",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Josefin Elvmarker",
+            "description": "AFRY is an international leader within engineering, design and advisory services. We create solutions to support our customers worldwide to act on\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AFRY is an international leader within engineering, design and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "159.6K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "AFRY",
+            "url": "https://il.linkedin.com/company/afry?trk=ppro_cprof",
+            "displayedUrl": "https://il.linkedin.com \u203a company \u203a afry",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "AFRY",
+            "url": "https://la.linkedin.com/company/afry?trk=ppro_cprof",
+            "displayedUrl": "https://la.linkedin.com \u203a company \u203a afry",
+            "description": "AFRY is a European leader in engineering, design, and advisory services, with a global reach. We accelerate the transition towards a sustainable society.",
+            "emphasizedKeywords": [
+              "AFRY is a European leader in engineering, design, and advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "AFRY: Jobs",
+            "url": "https://www.linkedin.com/company/afry/jobs",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a afry \u203a jobs",
+            "description": "AFRY | 658476 followers on LinkedIn. AFRY is a European leader in engineering, design, and advisory services, with a global reach.",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "AFRY Capital Limited",
+            "url": "https://uk.linkedin.com/company/afry-capital-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AFRY Capital Limited",
+            "description": "AFRY Capital is the investment banking arm of AFRY. Based in London, we are an independent, sector-focused M&A and corporate finance advisory business.Read more",
+            "emphasizedKeywords": [
+              "AFRY Capital is the investment banking arm of AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "AFRY: Jobs",
+            "url": "https://gh.linkedin.com/company/afry/jobs",
+            "displayedUrl": "https://gh.linkedin.com \u203a company \u203a afry \u203a jobs",
+            "description": "AFRY | 656826 followers on LinkedIn. AFRY is a European leader in engineering, design, and advisory services, with a global reach.",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "AFRY: Jobs",
+            "url": "https://pk.linkedin.com/company/afry/jobs",
+            "displayedUrl": "https://pk.linkedin.com \u203a company \u203a afry \u203a jobs",
+            "description": "AFRY | 658159 followers on LinkedIn. AFRY is a European leader in engineering, design, and advisory services, with a global reach.",
+            "emphasizedKeywords": [
+              "AFRY"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/CSfMb3h4jwvNPIBg0/records/z7VQ7G31dllDiNL-0.html?signature=9jkncRzWQL8y9qi02owM"
+      },
+      {
+        "#debug": {
+          "requestId": "VlgR4QwUvsvJCsf",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Unlocking transitions | AFRY\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+founder",
+        "hasNextPage": false,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Venice Policarpio - Unlocking Transitions through Data",
+            "url": "https://ph.linkedin.com/in/venicepolicarpio",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Venice Policarpio",
+            "description": "Unlocking Transitions through Data \u00b7 With 12 years of experience across diverse industries, I have built a solid foundation in customer management,\u00a0...",
+            "emphasizedKeywords": [
+              "Unlocking Transitions"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Makati, National Capital Region, Philippines",
+              "jobTitle": "Sales Analytics",
+              "companyName": "AFRY",
+              "rawText": "Makati, National Capital Region, Philippines \u00b7 Sales Analytics \u00b7 AFRY"
+            },
+            "followersAmount": "810+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "SivaDeepthi Velagapudi \u2013 Test Engineer and Certified ...",
+            "url": "https://se.linkedin.com/in/sivadeepthi-velagapudi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SivaDeepthi Velagapudi",
+            "description": "Experienced Test Engineer & Certified Scrum Master (CSM) with 7+ years of expertise in software testing, Agile project management, and defect resolution.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Sverige",
+              "jobTitle": "Consultant",
+              "companyName": "AFRY",
+              "rawText": "Sverige \u00b7 Consultant \u00b7 AFRY"
+            },
+            "followersAmount": "410+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Joakim Hellkvist \u2013 AFRY",
+            "url": "https://se.linkedin.com/in/joakim-hellkvist-2903107",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Joakim Hellkvist",
+            "description": "Erfarenhet: AFRY \u00b7 Plats: Karlskrona \u00b7 331 kontakter p\u00e5 LinkedIn. Visa Joakim Hellkvists profil p\u00e5 LinkedIn, ett yrkesn\u00e4tverk med 1 miljard\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Karlskrona, Blekinge l\u00e4n, Sverige",
+              "companyName": "AFRY",
+              "rawText": "Karlskrona, Blekinge l\u00e4n, Sverige \u00b7 AFRY"
+            },
+            "followersAmount": "340+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Timi Oksanen - OP Financial Group",
+            "url": "https://fi.linkedin.com/in/timi-oksanen-1987001a0",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Timi Oksanen",
+            "description": "Kokemus: OP Financial Group \u00b7 Koulutus: Aalto University \u00b7 Sijainti: Espoo \u00b7 268 yhteydet LinkedIn. Katso Timi Oksanen profiili LinkedIn,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Espoo, Uusimaa, Finland",
+              "companyName": "OP Financial Group",
+              "rawText": "Espoo, Uusimaa, Finland \u00b7 OP Financial Group"
+            },
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Elin F. \u2013 Greater Stockholm Metropolitan Area | Yrkesprofil",
+            "url": "https://se.linkedin.com/in/elin-f-8b28a01",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Elin F.",
+            "description": "Certified Scrum Master. -. Scrum Product Owner. -. Spr\u00e5k. English. Fullst\u00e4ndig professionell niv\u00e5. Swedish. Modersm\u00e5ls- eller tv\u00e5spr\u00e5kig niv\u00e5.Read more",
+            "emphasizedKeywords": [
+              "Owner"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "750+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Renata Alvarenga Ferreira - Supervisora de Engenharia ...",
+            "url": "https://br.linkedin.com/in/renata-alvarenga-ferreira-8b2a8950",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Renata Alvarenga Ferreira",
+            "description": "Supervisora de Engenharia na Afry Brasil \u00b7 Desde 1992, atuando na elabora\u00e7\u00e3o e coordena\u00e7\u00e3o de projetos civis residenciais, prediais e industriais,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Belo Horizonte, Minas Gerais, Brasil",
+              "jobTitle": "Supervisora de Engenharia",
+              "companyName": "AFRY",
+              "rawText": "Belo Horizonte, Minas Gerais, Brasil \u00b7 Supervisora de Engenharia \u00b7 AFRY"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Roberto Pereira da Silva - P\u00f6yry",
+            "url": "https://br.linkedin.com/in/roberto-pereira-da-silva-a765a567",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Roberto Pereira da Silva",
+            "description": "Forma\u00e7\u00e3o acad\u00eamica. FAMEC Faculdade Maria Montessori de Cultura. -. 2006 - 2007. Atividades e grupos:Artes Visuais. -. 2004 - 2006.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brasil",
+              "companyName": "P\u00f6yry",
+              "rawText": "S\u00e3o Paulo, S\u00e3o Paulo, Brasil \u00b7 P\u00f6yry"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 7
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/qUqgkPi5TkwEFZnzW/records/VlgR4QwUvsvJCsf-0.html?signature=1z19p8aQNa2r15XGMCeaf"
+      },
+      {
+        "#debug": {
+          "requestId": "r0gqMCVzbJA7Shm",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Unlocking transitions | AFRY\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Unlocking+transitions+%7C+AFRY%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "SivaDeepthi Velagapudi \u2013 Test Engineer and Certified ...",
+            "url": "https://se.linkedin.com/in/sivadeepthi-velagapudi",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0SivaDeepthi Velagapudi",
+            "description": "Experienced Test Engineer & Certified Scrum Master (CSM) with 7+ years of expertise in software testing, Agile project management, and defect resolution.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Sverige",
+              "jobTitle": "Consultant",
+              "companyName": "AFRY",
+              "rawText": "Sverige \u00b7 Consultant \u00b7 AFRY"
+            },
+            "followersAmount": "410+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Joakim Hellkvist \u2013 AFRY",
+            "url": "https://se.linkedin.com/in/joakim-hellkvist-2903107",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Joakim Hellkvist",
+            "description": "Erfarenhet: AFRY \u00b7 Plats: Karlskrona \u00b7 331 kontakter p\u00e5 LinkedIn. Visa Joakim Hellkvists profil p\u00e5 LinkedIn, ett yrkesn\u00e4tverk med 1 miljard\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Karlskrona, Blekinge l\u00e4n, Sverige",
+              "companyName": "AFRY",
+              "rawText": "Karlskrona, Blekinge l\u00e4n, Sverige \u00b7 AFRY"
+            },
+            "followersAmount": "340+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Timi Oksanen - OP Financial Group",
+            "url": "https://fi.linkedin.com/in/timi-oksanen-1987001a0",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Timi Oksanen",
+            "description": "Kokemus: OP Financial Group \u00b7 Koulutus: Aalto University \u00b7 Sijainti: Espoo \u00b7 268 yhteydet LinkedIn. Katso Timi Oksanen profiili LinkedIn,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Espoo, Uusimaa, Finland",
+              "companyName": "OP Financial Group",
+              "rawText": "Espoo, Uusimaa, Finland \u00b7 OP Financial Group"
+            },
+            "followersAmount": "260+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Elin F. \u2013 Greater Stockholm Metropolitan Area | Yrkesprofil",
+            "url": "https://se.linkedin.com/in/elin-f-8b28a01",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Elin F.",
+            "description": "Certified Scrum Master. -. Scrum Product Owner. -. Spr\u00e5k. English. Fullst\u00e4ndig professionell niv\u00e5. Swedish. Modersm\u00e5ls- eller tv\u00e5spr\u00e5kig niv\u00e5.Read more",
+            "emphasizedKeywords": [
+              "Owner"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "750+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Felipe Babiak - Thiene",
+            "url": "https://br.linkedin.com/in/felipe-babiak-7ab56a19b",
+            "displayedUrl": "https://br.linkedin.com \u203a ...",
+            "description": "Mechanical Engineering undergraduate at UTFPR \u2013 Curitiba campus, currently in the 10th\u2026 Experi\u00eancia. Thiene. Curitiba, Paran\u00e1, Brasil\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Renata Alvarenga Ferreira - Supervisora de Engenharia ...",
+            "url": "https://br.linkedin.com/in/renata-alvarenga-ferreira-8b2a8950",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Renata Alvarenga Ferreira",
+            "description": "Supervisora de Engenharia na Afry Brasil \u00b7 Desde 1992, atuando na elabora\u00e7\u00e3o e coordena\u00e7\u00e3o de projetos civis residenciais, prediais e industriais,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Belo Horizonte, Minas Gerais, Brasil",
+              "jobTitle": "Supervisora de Engenharia",
+              "companyName": "AFRY",
+              "rawText": "Belo Horizonte, Minas Gerais, Brasil \u00b7 Supervisora de Engenharia \u00b7 AFRY"
+            },
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Danielle Pessoa da Silva - Engenharia Civil | Projetos",
+            "url": "https://br.linkedin.com/in/dpessoasilva",
+            "displayedUrl": "https://br.linkedin.com \u203a dpessoasilva",
+            "description": "Engenheira Civil com mais de 20 anos de experi\u00eancia em projetos e gest\u00e3o de engenharia em empreendimentos de grande porte nos setores de minera\u00e7\u00e3o,\u00a0...",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Roberto Pereira da Silva - P\u00f6yry",
+            "url": "https://br.linkedin.com/in/roberto-pereira-da-silva-a765a567",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Roberto Pereira da Silva",
+            "description": "Forma\u00e7\u00e3o acad\u00eamica. FAMEC Faculdade Maria Montessori de Cultura. -. 2006 - 2007. Atividades e grupos:Artes Visuais. -. 2004 - 2006.Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brasil",
+              "companyName": "P\u00f6yry",
+              "rawText": "S\u00e3o Paulo, S\u00e3o Paulo, Brasil \u00b7 P\u00f6yry"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 8
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/S0M3JlHHQqrbfSc44/records/r0gqMCVzbJA7Shm-0.html?signature=ObneQgGwJPSyJWXUQW1B"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Unlocking transitions | AFRY",
+      "https://mr.linkedin.com/company/afry",
+      "https://bn.linkedin.com/company/afry?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "https://tr.linkedin.com/company/afry?trk=companies_directory",
+      "https://www.linkedin.com/company/unlock-potential-hr-consulting-coaching-services",
+      "https://es.linkedin.com/company/unlock-project",
+      "https://www.linkedin.com/company/unlock-world",
+      "https://ro.linkedin.com/company/afry?trk=nav_type_overview",
+      "https://uk.linkedin.com/company/energy-unlocked",
+      "https://www.linkedin.com/company/unlocked-leadership",
+      "https://uk.linkedin.com/company/energy-transitions-commission",
+      "https://www.linkedin.com/posts/afry_unlocking-transitions-activity-7392150179627552768-L5IF",
+      "https://www.linkedin.com/posts/afry-management-consulting_makingfuture-unlockingtransitions-activity-7397655796010065920-ruLp",
+      "https://www.linkedin.com/posts/afry_nab%C3%ADz%C3%ADme-%C5%99e%C5%A1en%C3%AD-pro-budouc%C3%AD-generace-activity-7173301819014688769-t_EJ",
+      "https://www.linkedin.com/posts/afry_providing-leading-solutions-for-generations-activity-6643127081146421249-z_ZC",
+      "https://www.linkedin.com/posts/afry_afry-presents-new-strategy-and-announces-activity-7391383819377041409-9xPc",
+      "https://www.linkedin.com/posts/gabrielaiervolinopiazon_unlockingtransitions-makingfuture-afry-activity-7435331547597242368-hDxw",
+      "https://www.linkedin.com/posts/linda-p%C3%A5lsson%E2%99%A6%EF%B8%8F-67516bb_this-week-we-had-the-pleasure-of-welcoming-activity-7392198907759411203-9xfw",
+      "https://www.linkedin.com/posts/afry_unlocking-potential-overcoming-barriers-activity-7132729419395125248-1ogA",
+      "https://www.linkedin.com/posts/afry_energytransition-makingfuture-activity-7432750032841404417-FZRm",
+      "https://www.linkedin.com/posts/communiquepr_unlock-seamless-transitions-why-it-migration-activity-7295234032261287936-ub_0",
+      "site:linkedin.com/company afry.com",
+      "https://www.linkedin.com/company/afry",
+      "https://www.linkedin.com/company/afry/life",
+      "https://hu.linkedin.com/company/afry",
+      "https://www.linkedin.com/company/afgroup/",
+      "https://il.linkedin.com/company/afry?trk=ppro_cprof",
+      "https://la.linkedin.com/company/afry?trk=ppro_cprof",
+      "https://www.linkedin.com/company/afry/jobs",
+      "https://uk.linkedin.com/company/afry-capital-limited",
+      "https://gh.linkedin.com/company/afry/jobs",
+      "https://pk.linkedin.com/company/afry/jobs",
+      "site:linkedin.com/in \"Unlocking transitions | AFRY\" founder",
+      "https://ph.linkedin.com/in/venicepolicarpio",
+      "https://se.linkedin.com/in/sivadeepthi-velagapudi",
+      "https://se.linkedin.com/in/joakim-hellkvist-2903107",
+      "https://fi.linkedin.com/in/timi-oksanen-1987001a0",
+      "https://se.linkedin.com/in/elin-f-8b28a01",
+      "https://br.linkedin.com/in/renata-alvarenga-ferreira-8b2a8950",
+      "https://br.linkedin.com/in/roberto-pereira-da-silva-a765a567",
+      "site:linkedin.com/in \"Unlocking transitions | AFRY\" ceo",
+      "https://se.linkedin.com/in/sivadeepthi-velagapudi",
+      "https://se.linkedin.com/in/joakim-hellkvist-2903107",
+      "https://fi.linkedin.com/in/timi-oksanen-1987001a0",
+      "https://se.linkedin.com/in/elin-f-8b28a01",
+      "https://br.linkedin.com/in/felipe-babiak-7ab56a19b",
+      "https://br.linkedin.com/in/renata-alvarenga-ferreira-8b2a8950",
+      "https://br.linkedin.com/in/dpessoasilva",
+      "https://br.linkedin.com/in/roberto-pereira-da-silva-a765a567"
+    ],
+    "apify_person_profile_items": [
+      {
+        "associated_hashtag": [],
+        "avatar_url": "https://media.licdn.com/dms/image/v2/D4D03AQFCTqlZGgy6kA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713521403324?e=1776902400&v=beta&t=4J_9FlkAo54j9aUH9wagyazgvGaGavaKiEX0XN6SBJc",
+        "background_picture": "https://media.licdn.com/dms/image/v2/D5616AQFiZBQKfhTbrQ/profile-displaybackgroundimage-shrink_350_1400/B56Z0K8WmEJwAY-/0/1774005087095?e=1776902400&v=beta&t=Ns11RRRE8HMGSsR2UCj6Q5PEhligesQtXfHfZTxoTHc",
+        "birthday": {
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "certification": [
+          {
+            "authority": "Google Ads",
+            "company_id": "",
+            "name": "Google Ads Fundamentals",
+            "startedOn": {
+              "day": null,
+              "month": 6,
+              "year": 2018
+            },
+            "url": ""
+          },
+          {
+            "authority": "Google Ads",
+            "company_id": "",
+            "name": "Google Ads Search Certification",
+            "startedOn": {
+              "day": null,
+              "month": 9,
+              "year": 2018
+            },
+            "url": ""
+          }
+        ],
+        "company_id": "113025038",
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEFlTHvl_NIbw/company-logo_400_400/B56Z0LB8CTI0AY-/0/1774006551115/postleads_logo?e=1776902400&v=beta&t=pc1DoyWEiq7RUAQH24i0JhmuF-xtsqCJt_2Ltk9MyGM",
+        "company_industry": "",
+        "company_website": "",
+        "connections": 5152,
+        "country": "India",
+        "current_company_linkedin_url": "https://www.linkedin.com/company/postleads/",
+        "current_company_name": "PostLeads",
+        "description": "Every viral LinkedIn post is a lead list hiding in plain sight.\n \n2,000 people commented. 500 reacted. They told you what they care about. They showed intent. Their exact words are sitting right there in the comment section.\n \nAnd then nothing happens. You scroll through a few, maybe connect with two or three, and the rest disappear into the feed forever.\n \nI've spent the last few months obsessing over one question: what happens when you treat LinkedIn engagement as a prospecting signal instead of a vanity metric?\n \nTurns out, a lot. Commenters convert 4x better than random cold lists. People who ask questions in comments are the highest-intent leads you'll ever find. And the data sitting inside a single viral post, job titles, companies, industries, seniority, is richer than most paid databases.\n \nSo I built PostLeads.\n \nPaste any LinkedIn post URL. Get a CSV of every commenter and reactor, enriched with 36 fields of profile data, company info, engagement context (including their exact comment text), and verified work emails.\n \nNo LinkedIn login. No Chrome extension. No subscription. CSV in your inbox in 5\u201315 minutes.\n \nI write about intent-based outbound, LinkedIn engagement signals, and the shift from spray-and-pray to signal-based selling.\n \nTry it \u2192 getpostleads.com",
+        "display_name": "Mayank Chaba",
+        "education": [
+          {
+            "description": "",
+            "ended_on": {
+              "month": 0,
+              "year": 2018
+            },
+            "fields_of_study": [
+              "Bachelor's degree, Chemical Engineeing with specialisation in Refining and Petrochemicals"
+            ],
+            "grade": "",
+            "logo": "https://media.licdn.com/dms/image/v2/C560BAQGIsLgya7K1ZA/company-logo_200_200/company-logo_200_200/0/1642751223450/upesdehradun_logo?e=1776902400&v=beta&t=tj0tgCjdRd_-FVEw-B9h7v_RoFrDtccDQcwh2A7CA4I",
+            "social_url": "https://www.linkedin.com/school/upesdehradun/",
+            "started_on": {
+              "month": 0,
+              "year": 2014
+            },
+            "university_id": "43557",
+            "university_name": "UPES"
+          },
+          {
+            "description": "",
+            "ended_on": {
+              "month": 0,
+              "year": 2014
+            },
+            "fields_of_study": [],
+            "grade": "",
+            "logo": "",
+            "social_url": "",
+            "started_on": {
+              "month": 0,
+              "year": 2007
+            },
+            "university_id": "",
+            "university_name": "Delhi Public School, Moradabad"
+          }
+        ],
+        "email": "",
+        "experience": [
+          {
+            "company_headcount_range": "",
+            "company_id": "113025038",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEFlTHvl_NIbw/company-logo_400_400/B56Z0LB8CTI0AY-/0/1774006551115/postleads_logo?e=1776902400&v=beta&t=pc1DoyWEiq7RUAQH24i0JhmuF-xtsqCJt_2Ltk9MyGM",
+            "company_industry": "",
+            "company_name": "PostLeads",
+            "company_url": "https://www.linkedin.com/company/postleads/",
+            "company_website": "",
+            "employment_type": "Full-time",
+            "job_description": [
+              "PostLeads turns LinkedIn post engagement into verified prospect lists. Paste a post URL, get a CSV with 36 fields of enriched data - profiles, companies, engagement context, and verified work emails. Used by B2B sales teams, creators, and agencies to convert content engagement into pipeline. getpostleads.com"
+            ],
+            "job_ended_on": "",
+            "job_location": "Gurugram",
+            "job_location_city": "",
+            "job_location_country": "",
+            "job_location_county": "",
+            "job_location_state": "",
+            "job_started_on": "3-2026",
+            "job_still_working": true,
+            "job_title": "Founder",
+            "raw_company_name": "PostLeads",
+            "raw_job_title": "Founder"
+          },
+          {
+            "company_headcount_range": "11-50",
+            "company_id": "14484917",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEgeoosLZNwGA/company-logo_400_400/B4DZljBGYLIYAY-/0/1758302857516/soukmediaglobal_logo?e=1776902400&v=beta&t=2TLujUuDunnIV8jvcylqg86LevpOxvc_2cHcq9bHvOY",
+            "company_industry": "Marketing Services",
+            "company_name": "SoukMedia LLC",
+            "company_url": "https://www.linkedin.com/company/soukmediaglobal/",
+            "company_website": "http://www.soukmedia.co",
+            "employment_type": "",
+            "job_description": [],
+            "job_ended_on": "",
+            "job_location": "",
+            "job_location_city": "Wilmington",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "Delaware",
+            "job_started_on": "3-2022",
+            "job_still_working": true,
+            "job_title": "Partner",
+            "raw_company_name": "SoukMedia LLC",
+            "raw_job_title": "Partner"
+          },
+          {
+            "company_headcount_range": "",
+            "company_id": "75535459",
+            "company_image": "",
+            "company_industry": "",
+            "company_name": "DataChroma",
+            "company_url": "",
+            "company_website": "",
+            "employment_type": "Full-time",
+            "job_description": [
+              "Data Chroma is a LinkedIn lead generation tool that gives you the ability to enrich contact and company data directly from LinkedIn."
+            ],
+            "job_ended_on": "11-2023",
+            "job_location": "Gurugram, Haryana, India",
+            "job_location_city": "",
+            "job_location_country": "",
+            "job_location_county": "",
+            "job_location_state": "",
+            "job_started_on": "3-2021",
+            "job_still_working": false,
+            "job_title": "Co-Founder",
+            "raw_company_name": "DataChroma",
+            "raw_job_title": "Co-Founder"
+          },
+          {
+            "company_headcount_range": "2-10",
+            "company_id": "28738388",
+            "company_image": "https://media.licdn.com/dms/image/v2/C510BAQH8GaOTu614IA/company-logo_400_400/company-logo_400_400/0/1630573849152/surge_street_logo?e=1776902400&v=beta&t=ADggT4TpsFC40Lwa0clOZRIsRBBzeTX0yo4LvI9orE4",
+            "company_industry": "Technology, Information and Internet",
+            "company_name": "Surge Street",
+            "company_url": "https://www.linkedin.com/company/surge-street/",
+            "company_website": "http://www.surgestreet.com",
+            "employment_type": "Full-time",
+            "job_description": [],
+            "job_ended_on": "4-2021",
+            "job_location": "Gurgaon, India",
+            "job_location_city": "Gurugram",
+            "job_location_country": "IN",
+            "job_location_county": "",
+            "job_location_state": "Haryana",
+            "job_started_on": "11-2019",
+            "job_still_working": false,
+            "job_title": "Co-Founder",
+            "raw_company_name": "Surge Street",
+            "raw_job_title": "Co-Founder"
+          },
+          {
+            "company_headcount_range": "11-50",
+            "company_id": "13754208",
+            "company_image": "https://media.licdn.com/dms/image/v2/C510BAQFQ1YFtmZltZQ/company-logo_400_400/company-logo_400_400/0/1630588567406/voxturr_logo?e=1776902400&v=beta&t=s11Wt-HMqiUp5COAOE_eF4NfMrlp6MWVPMAI5qNN8w0",
+            "company_industry": "Advertising Services",
+            "company_name": "Voxturr",
+            "company_url": "https://www.linkedin.com/company/voxturr/",
+            "company_website": "http://www.voxturr.com",
+            "employment_type": "Full-time",
+            "job_description": [],
+            "job_ended_on": "9-2019",
+            "job_location": "Gurugram, Haryana, India",
+            "job_location_city": "San Francisco",
+            "job_location_country": "US",
+            "job_location_county": "",
+            "job_location_state": "California",
+            "job_started_on": "8-2018",
+            "job_still_working": false,
+            "job_title": "Growth Marketer",
+            "raw_company_name": "Voxturr",
+            "raw_job_title": "Growth Marketer"
+          },
+          {
+            "company_headcount_range": "11-50",
+            "company_id": "13460092",
+            "company_image": "https://media.licdn.com/dms/image/v2/C510BAQEeol-oZmrEpw/company-logo_400_400/company-logo_400_400/0/1630591020964/energydais_logo?e=1776902400&v=beta&t=KtmjyeXxaew291yY9dSLnJVkbZqGXySKOwYefMolr_I",
+            "company_industry": "Oil and Gas",
+            "company_name": "Energy Dais",
+            "company_url": "https://www.linkedin.com/company/energydais/",
+            "company_website": "https://www.energydais.com/augury2022",
+            "employment_type": "",
+            "job_description": [],
+            "job_ended_on": "8-2019",
+            "job_location": "Gurgaon, Haryana, India",
+            "job_location_city": "Gurgaon",
+            "job_location_country": "IN",
+            "job_location_county": "",
+            "job_location_state": "Haryana",
+            "job_started_on": "11-2018",
+            "job_still_working": false,
+            "job_title": "Client Growth Specialist",
+            "raw_company_name": "Energy Dais",
+            "raw_job_title": "Client Growth Specialist"
+          },
+          {
+            "company_headcount_range": "1001-5000",
+            "company_id": "1156753",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHigOCGOWofHw/company-logo_400_400/company-logo_400_400/0/1735536516661/pcblchemical_logo?e=1776902400&v=beta&t=2JK3oVQviIo_5y5RJ05aFmwvg3fMsbYPcDyw7ZQQxJI",
+            "company_industry": "Chemical Manufacturing",
+            "company_name": "Phillips Carbon Black Limited",
+            "company_url": "https://www.linkedin.com/company/pcblchemical/",
+            "company_website": "http://www.pcblltd.com",
+            "employment_type": "",
+            "job_description": [],
+            "job_ended_on": "7-2017",
+            "job_location": "kochi ",
+            "job_location_city": "Kolkata",
+            "job_location_country": "IN",
+            "job_location_county": "",
+            "job_location_state": "Kolkata",
+            "job_started_on": "6-2017",
+            "job_still_working": false,
+            "job_title": "Summer Intern",
+            "raw_company_name": "Phillips Carbon Black Limited",
+            "raw_job_title": "Summer Intern"
+          },
+          {
+            "company_headcount_range": "",
+            "company_id": "",
+            "company_image": "",
+            "company_industry": "",
+            "company_name": "IIChE UPES Student Chapter",
+            "company_url": "",
+            "company_website": "",
+            "employment_type": "",
+            "job_description": [],
+            "job_ended_on": "3-2017",
+            "job_location": "",
+            "job_location_city": "",
+            "job_location_country": "",
+            "job_location_county": "",
+            "job_location_state": "",
+            "job_started_on": "4-2016",
+            "job_still_working": false,
+            "job_title": "Head of Public Relations",
+            "raw_company_name": "IIChE UPES Student Chapter",
+            "raw_job_title": "Head of Public Relations"
+          },
+          {
+            "company_headcount_range": "",
+            "company_id": "",
+            "company_image": "",
+            "company_industry": "",
+            "company_name": "IIChE UPES Student Chapter",
+            "company_url": "",
+            "company_website": "",
+            "employment_type": "",
+            "job_description": [],
+            "job_ended_on": "5-2016",
+            "job_location": "",
+            "job_location_city": "",
+            "job_location_country": "",
+            "job_location_county": "",
+            "job_location_state": "",
+            "job_started_on": "5-2015",
+            "job_still_working": false,
+            "job_title": "Core committee member-Public Relations",
+            "raw_company_name": "IIChE UPES Student Chapter",
+            "raw_job_title": "Core committee member-Public Relations"
+          }
+        ],
+        "featured": [
+          {
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHaMRYInVLb8g/articleshare-shrink_1280_800/B56Z0bZ.8xJgAQ-/0/1774281291308?e=1775664000&v=beta&t=iipV3CC_wGI_ztTRHP8kJQjlOWilzZqGVwMVFYsDzeg",
+            "subtitle": "getpostleads.com",
+            "text": "No LinkedIn login required | No chrome extensions",
+            "title": "Turn any LinkedIn post into a verified lead list",
+            "type": "Link",
+            "url": "https://www.linkedin.com/in/mayankchaba/overlay/1774436833738/single-media-viewer?type=LINK&profileId=ACoAABVjDE4BxX5R567a4KjIWqwi0dG5HUrXYf8"
+          },
+          {
+            "image": "",
+            "subtitle": "",
+            "text": "A single LinkedIn post generated 5,088 warm leads.\nNot from ads. Not from a database. From the comment section.\n\nTaylor Haren posted about replacing Clay with Claude Code. 5,088 people commented \"CODE\" because they want a better lead enrichment system.\n\nEvery one of them publicly revealed their name, job title, company, and exactly what they care about.\nThat's insane intent data. But LinkedIn gives you no way to export it, filter it, or use it.\n\nSo I built a tool that does.\n\nIt's called PostLeads. \n\nPaste any LinkedIn post URL \u2192 get every commenter and reactor exported to a CSV with enriched profiles and verified work emails.\n\nI ran it on Taylor's post. 9 minutes later:\n\u2192 5,088 leads exported \u2192 Full name, headline, job title, company, industry, location \u2192 1,900+ verified work emails \u2192 The exact comment each person left \u2192 A flag on every commenter who asked a question (your hottest leads) \u2192 36 data points per person\n\nFrom one URL. In 9 minutes.\n\nNow imagine sending a DM that says: \"Saw your comment on Taylor's post about Clay alternatives, I actually built something that might help.\"\n\nThat's not cold outreach. That's a warm conversation starter with someone who just told you what they need.\n\nThe tool is live. getpostleads(dot)com (link in comments).\n\nStarts at $5. No subscription. No LinkedIn login. No Chrome extension.\nI put together a sample from this exact export, 50 rows with all 36 columns visible so you can see exactly what you get.\n\nComment \u201cLEADS\" and I'll send it to you.\n\nVideo walkthrough\ud83d\udc47",
+            "title": "",
+            "type": "Post",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441882455084560385?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7441882455084560385%29"
+          }
+        ],
+        "first_name": "Mayank",
+        "followers": 5251,
+        "full_name": "Mayank Chaba",
+        "is_creator": true,
+        "is_influencer": false,
+        "is_job_seeker": false,
+        "is_openlink": true,
+        "is_premium": false,
+        "is_retired": false,
+        "job_description": [
+          "PostLeads turns LinkedIn post engagement into verified prospect lists. Paste a post URL, get a CSV with 36 fields of enriched data - profiles, companies, engagement context, and verified work emails. Used by B2B sales teams, creators, and agencies to convert content engagement into pipeline. getpostleads.com"
+        ],
+        "job_ended_on": "",
+        "job_location": "Gurugram",
+        "job_location_city": "",
+        "job_location_country": "",
+        "job_location_county": "",
+        "job_location_state": "",
+        "job_started_on": "3-2026",
+        "job_still_working": true,
+        "job_title": "Founder",
+        "language": [
+          {
+            "name": "English",
+            "proficiency": "Professional working proficiency"
+          },
+          {
+            "name": "Hindi",
+            "proficiency": "Native or bilingual proficiency"
+          }
+        ],
+        "last_name": "Chaba",
+        "linkedin_id": "358812750",
+        "linkedin_sales_link": "https://www.linkedin.com/sales/lead/urn:li:fsd_profile:ACoAABVjDE4BxX5R567a4KjIWqwi0dG5HUrXYf8",
+        "location": "Gurugram, Haryana, India",
+        "location_county": "Gurugram, Haryana",
+        "location_state": "Gurugram, Haryana",
+        "middle_name": "",
+        "patents": [],
+        "phone_number": null,
+        "profile_headline": "LinkedIn post engagers \u2192 Verified leads in 5 mins | No LinkedIn login required",
+        "profile_link": "https://linkedin.com/in/mayankchaba",
+        "project": [],
+        "publication": [],
+        "raw_company_name": "PostLeads",
+        "raw_job_title": "Founder",
+        "recommendations_given": [],
+        "recommendations_received": [],
+        "sales_id": "urn:li:fsd_profile:ACoAABVjDE4BxX5R567a4KjIWqwi0dG5HUrXYf8",
+        "same_name": [],
+        "skills": [
+          "LinkedIn Lead Generation",
+          "B2B Data",
+          "Data Enrichment",
+          "B2B Prospecting",
+          "Sales Operations",
+          "CRM Data Enrichment",
+          "Lead Verification",
+          "Lead Generation",
+          "Demand Generation",
+          "list building",
+          "Sales Prospecting",
+          "b2b lead gen",
+          "LinkedIn Marketing",
+          "Newsletters",
+          "Email Marketing",
+          "B2B Marketing",
+          "b2b lead generation",
+          "Start-up Leadership",
+          "Sales",
+          "Marketing"
+        ],
+        "twitter_link": "",
+        "unformatted_full_name": "Mayank Chaba",
+        "username": "mayankchaba",
+        "volunteering": [
+          {
+            "description": null,
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 2,
+              "year": 2015
+            },
+            "industry": "Education",
+            "is_current_position": false,
+            "organization": "Internshala",
+            "role": "Internshala Student Partner",
+            "start_date": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "description": null,
+            "duration": {
+              "months": 0,
+              "years": 0
+            },
+            "end_date": {
+              "month": 10,
+              "year": 2015
+            },
+            "industry": "Social_services",
+            "is_current_position": false,
+            "organization": "Yuva: The voice of change",
+            "role": "Social worker",
+            "start_date": {
+              "month": 8,
+              "year": 2014
+            }
+          }
+        ],
+        "websites": [
+          {
+            "category": "COMPANY",
+            "url": "https://datachroma.com"
+          }
+        ],
+        "Millionverifier result": null,
+        "Millionverifier quality": null
+      }
+    ],
+    "apify_company_profile_items": [
+      {
+        "about_industry": "Software Development",
+        "additional_information": "Google jobs 127,126 open jobs Analyst jobs 694,057 open jobs Engineer jobs 555,845 open jobs Manager jobs 1,880,925 open jobs Intern jobs 71,196 open jobs Project Manager jobs 253,048 open jobs Associate jobs 1,091,945 open jobs Developer jobs 258,935 open jobs Scientist jobs 48,969 open jobs Director jobs 1,220,357 open jobs Account Manager jobs 121,519 open jobs Marketing Manager jobs 106,879 open jobs Software Engineer jobs 300,699 open jobs Executive jobs 690,514 open jobs Specialist jobs 768,666 open jobs Assistant jobs 711,811 open jobs Accountant jobs 91,739 open jobs Consultant jobs 760,907 open jobs Recruiter jobs 243,016 open jobs Account Executive jobs 71,457 open jobs Show more jobs like this Show fewer jobs like this",
+        "affiliated_pages": [
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHlzyn1IsVxEw/company-logo_100_100/B56ZqiUJQ7I0AQ-/0/1763659781488/googledevelopers_logo?e=2147483647&v=beta&t=hMMixCZoxsQdPpCi1Fe-LOL30A3wM9tawlEUcaMg-D0",
+            "name": "Google for Developers",
+            "url": "https://www.linkedin.com/showcase/googledevelopers/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFIFLR7jxm2lg/company-logo_100_100/company-logo_100_100/0/1630644546845/google_cloud_logo?e=2147483647&v=beta&t=FpMRLreuFcvQOPJBLlMIBA4jPlhb8lLtofTvwbzW_i4",
+            "name": "Google Cloud",
+            "url": "https://www.linkedin.com/showcase/google-cloud/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "San Bruno, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGyUKaYgsO3cg/company-logo_100_100/B4EZb.zwGgGQAQ-/0/1748031701722/youtube_logo?e=2147483647&v=beta&t=3c105sYWqV36KrBuqm25sWKs6yKmnRQQPwOy7pAj4Gs",
+            "name": "YouTube",
+            "url": "https://www.linkedin.com/company/youtube?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQG0wixREuYNmA/company-logo_100_100/company-logo_100_100/0/1661287344336/think_with_google_logo?e=2147483647&v=beta&t=AqkMpZhRHA8KnTuHQnYo1epXuGctVizz_EI4mEcXPf0",
+            "name": "Think with Google",
+            "url": "https://www.linkedin.com/showcase/think-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQH9F59ob8d3QQ/company-logo_100_100/company-logo_100_100/0/1631424821422/google_ads__logo?e=2147483647&v=beta&t=hbxQ7d309uUZU8GdOuAas2VM3qaaMmfaKT4MYy8FRsI",
+            "name": "Google Ads",
+            "url": "https://www.linkedin.com/showcase/google-ads-/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEJjsq1jhdKqQ/company-logo_100_100/B56Zzdg8M7IYAQ-/0/1773242926435/googleworkspace_logo?e=2147483647&v=beta&t=J9BoM_yTO0CMIyoEfT8V5lyCQtx488o2GVMdAtNteNQ",
+            "name": "Google Workspace",
+            "url": "https://www.linkedin.com/showcase/googleworkspace/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHDx1a8WwtGpQ/company-logo_100_100/company-logo_100_100/0/1631433614727/google_analytics_logo?e=2147483647&v=beta&t=tRWIvJnVYJdSjfsf829-q1qs9pS6EV-_A1dumc8GiCw",
+            "name": "Google Analytics",
+            "url": "https://www.linkedin.com/showcase/google-analytics/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFUyrWqc079tw/company-logo_100_100/company-logo_100_100/0/1630570752037/community_groups_program_gdg_logo?e=2147483647&v=beta&t=Bmo1Pztm7qLGecpLIC0QOd7v3hdZB7mNCUN-sN33YrU",
+            "name": "Google Developer Groups (GDG)",
+            "url": "https://www.linkedin.com/showcase/google-developer-groups/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQG5rLrtFi47Nw/company-logo_100_100/company-logo_100_100/0/1698961278359/googleresearch_logo?e=2147483647&v=beta&t=770cou6nJgdMrEQkGgQQb9vBci23-DeSmiyZQ1QHizQ",
+            "name": "Google Research",
+            "url": "https://www.linkedin.com/showcase/googleresearch/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGzJC06vcaaeA/company-logo_100_100/company-logo_100_100/0/1631440027919/googlemarketingplatform_logo?e=2147483647&v=beta&t=uKEEOACQWM51apKxKBOtZEuvavHZMGyKhCCDoRMThio",
+            "name": "Google Marketing Platform",
+            "url": "https://www.linkedin.com/showcase/googlemarketingplatform/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHglGPtwCI4pg/company-logo_100_100/company-logo_100_100/0/1736888029474/google_for_publishers_logo?e=2147483647&v=beta&t=fav1Y2Ciy3bkCrYkmU5Vq6FJWGs1KzrLUO2hH4KJXE0",
+            "name": "Google for Publishers",
+            "url": "https://www.linkedin.com/showcase/google-for-publishers/?trk=affiliated-pages"
+          },
+          {
+            "category": "E-learning",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFFo-CL-y-UYA/company-logo_100_100/company-logo_100_100/0/1631404101430/grow_with_google_logo?e=2147483647&v=beta&t=-Cn5WCjNE0dCmvqfPSHhm8OuDcoDmGNC9mPf7b0rgSM",
+            "name": "Grow with Google",
+            "url": "https://www.linkedin.com/showcase/grow-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIJJqGnkAyeg/company-logo_100_100/B4EZstvoToJQAQ-/0/1765999020016/androiddev_logo?e=2147483647&v=beta&t=Ba1k3BtxQw4PPT1Ow8NUezXa7YWdFQEbep1isn-SfJA",
+            "name": "Android Developers",
+            "url": "https://www.linkedin.com/showcase/androiddev/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGd2bTlJsilLg/company-logo_100_100/company-logo_100_100/0/1733522182114/googleaidevs_logo?e=2147483647&v=beta&t=zUGOzqFZCVVxDK711zD5BQusciE78Vl4N3rM6Jw-XnQ",
+            "name": "Google AI for Developers",
+            "url": "https://www.linkedin.com/showcase/googleaidevs/?trk=affiliated-pages"
+          },
+          {
+            "category": "Internet Publishing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHgiaAqw0cAZQ/company-logo_100_100/company-logo_100_100/0/1630603869371/google_cloud_partners_logo?e=2147483647&v=beta&t=UxrJPG11sUfAA7EjSD9lJl22X4SfDN7wU2HbRZlAvLU",
+            "name": "Google Cloud Partners",
+            "url": "https://www.linkedin.com/showcase/google-cloud-partners/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHU22ISGMrPuw/company-logo_100_100/company-logo_100_100/0/1715877453021?e=2147483647&v=beta&t=uc7syKkA0DUlZ8too_nlyO3wyPXnyc0FxJ5OPNIrRVs",
+            "name": "Google Search Central",
+            "url": "https://www.linkedin.com/showcase/googlesearchcentral/?trk=affiliated-pages"
+          },
+          {
+            "category": "Internet Publishing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQExZlDfYW-QcA/company-logo_100_100/B4EZoxogtOIMAQ-/0/1761769295173/google_small_business_logo?e=2147483647&v=beta&t=etW5lNaiPUJEzEzhmIsjLVuYnT-kywtL3lssFYHDdVM",
+            "name": "Google Small Business",
+            "url": "https://www.linkedin.com/showcase/google-small-business/?trk=affiliated-pages"
+          },
+          {
+            "category": "IT Services and IT Consulting",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHzYXxutuas9A/company-logo_100_100/company-logo_100_100/0/1675144820383/chrome_enterprise_logo?e=2147483647&v=beta&t=yJaXeDUSDHyrsuheWt5rxksOdEuoHIVMioKkhs2DVVw",
+            "name": "ChromeOS & Chrome Enterprise",
+            "url": "https://www.linkedin.com/showcase/chrome-enterprise/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGzx2yxxDgESA/company-logo_100_100/B56Zdal_.OHoAY-/0/1749571600513/google_health_logo?e=2147483647&v=beta&t=w_rjS_zIo-3ZtN1V9vF41tkrbaxpd6UUZUWEnprO7B4",
+            "name": "Google for Health",
+            "url": "https://www.linkedin.com/showcase/google-for-health/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFt0fJxtxk-lg/company-logo_100_100/company-logo_100_100/0/1668110169199/tensorflowdev_logo?e=2147483647&v=beta&t=1I6LMbc_QVOIyJ_rYmmJskDDD7CKSuoIHADDRK5I7cs",
+            "name": "TensorFlow",
+            "url": "https://www.linkedin.com/showcase/tensorflowdev/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQF1lnr4bvrLKQ/company-logo_100_100/company-logo_100_100/0/1660157151780/flutterdevofficial_logo?e=2147483647&v=beta&t=krUjJjEp9uNpECA6JfVRwD2ZV_YrMM9s2BJ3yRyEMW0",
+            "name": "Flutter Dev",
+            "url": "https://www.linkedin.com/showcase/flutterdevofficial/?trk=affiliated-pages"
+          },
+          {
+            "category": "Human Resources Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGk9X0v8TL6xw/company-logo_100_100/company-logo_100_100/0/1631331138435?e=2147483647&v=beta&t=G0W7h1bMizbH6OP5G3CKvuuZbm_OSN29jy4n3B3MxHY",
+            "name": "re:Work with Google",
+            "url": "https://www.linkedin.com/showcase/rework-with-google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGQQRSdCkTbBQ/company-logo_100_100/company-logo_100_100/0/1631340633685?e=2147483647&v=beta&t=UtH28reLuAN0S3goo1BWSSyG_qjSHGvOxH920Sj05Ak",
+            "name": "Google Partners",
+            "url": "https://www.linkedin.com/showcase/google-partners/?trk=affiliated-pages"
+          },
+          {
+            "category": "Online Audio and Video Media",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQENwPk8U5nwXQ/company-logo_100_100/company-logo_100_100/0/1648217189857/google_news_initiative_logo?e=2147483647&v=beta&t=0C-HWCWr9i8pZYwMjPjJ8FdghiJxGsgnwok7WEwq420",
+            "name": "Google News Initiative",
+            "url": "https://www.linkedin.com/showcase/google-news-initiative/?trk=affiliated-pages"
+          },
+          {
+            "category": "IT Services and IT Consulting",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEa9sSivPQ4cg/company-logo_100_100/company-logo_100_100/0/1658765701208/googleplaybiz_logo?e=2147483647&v=beta&t=dyrpRp9tl3YN-PQ1ULMtjV2UshXRzR4y1xlV8KOYMQs",
+            "name": "Google Play business community",
+            "url": "https://www.linkedin.com/showcase/googleplaybiz/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH_5kvrJUkLuw/company-logo_100_100/company-logo_100_100/0/1729106317821/firebase_logo?e=2147483647&v=beta&t=GkiSd0fIlVySbPXogrso5arHsyIzUjzhGX9-nJSRBSQ",
+            "name": "Firebase",
+            "url": "https://www.linkedin.com/showcase/firebase/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFAkDPGM_aNUQ/company-logo_100_100/company-logo_100_100/0/1706292924372?e=2147483647&v=beta&t=ZFLV8YOH1Lty-TjSlM3jKUBayjoSGVpQxiAPnIJLKfQ",
+            "name": "Chrome for Developers",
+            "url": "https://www.linkedin.com/showcase/chrome-for-developers/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH-GrDIhmlBVw/company-logo_100_100/B56Zsu4JmpIcAQ-/0/1766018030395/android_by_google_logo?e=2147483647&v=beta&t=5Mr-Hg1vdKEFrAXNc6fndmZeiaK1HxZ3frGrrWqKc1w",
+            "name": "Android",
+            "url": "https://www.linkedin.com/showcase/android_by_google/?trk=affiliated-pages"
+          },
+          {
+            "category": "Venture Capital and Private Equity Principals",
+            "location": "San Francisco, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQG_2ueBNyD9mw/company-logo_100_100/company-logo_100_100/0/1630652094196/capitalg_logo?e=2147483647&v=beta&t=aC_6z-f_8kf4sOEk6SuQqXkuG6MAtfLYVjZEGLPmNV4",
+            "name": "CapitalG",
+            "url": "https://ca.linkedin.com/company/capitalg?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFWCk66BYhwMw/company-logo_100_100/company-logo_100_100/0/1631432403639?e=2147483647&v=beta&t=RP2GBimgoZKJBvDGTuh_8Zk7Azuv2c6rU5xu-omzF6o",
+            "name": "Google Pay Developers",
+            "url": "https://www.linkedin.com/showcase/google-pay/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQG5wmEaqHfmDg/company-logo_100_100/B56ZqUSJh0I4AU-/0/1763424377586/google_antigravity_logo?e=2147483647&v=beta&t=FzBjHqIOw9eBBEO6gOtFkh5aNp5zwCsfb_nfHjJs6ZQ",
+            "name": "Google Antigravity",
+            "url": "https://www.linkedin.com/showcase/google-antigravity/?trk=affiliated-pages"
+          },
+          {
+            "category": "Information Technology & Services",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGCZEOhM7Et2A/company-logo_100_100/company-logo_100_100/0/1693934124061/androidenterprise_logo?e=2147483647&v=beta&t=KpUPprQgrn53mfau8Q5qIjqzSZyaMfA12SVDS_YXzZQ",
+            "name": "Android Enterprise",
+            "url": "https://www.linkedin.com/showcase/androidenterprise/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQH06LdMOtQq_w/company-logo_100_100/company-logo_100_100/0/1630591519444/google_user_research_logo?e=2147483647&v=beta&t=a_qyxKcc-1Qvo09DYXuNJEXNWoxbzpf4oYy-MTJqfjQ",
+            "name": "Google User Experience Research",
+            "url": "https://www.linkedin.com/showcase/google-user-research./?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEowDiaLLiC6w/company-logo_100_100/B56ZfDRV81GoAQ-/0/1751327793258?e=2147483647&v=beta&t=JEnTmXkb3vprBxksDHBAjeO2IQ7ei6shBqNrxwGQqLU",
+            "name": "Google for Business India",
+            "url": "https://www.linkedin.com/showcase/google-for-biz-in/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHpUJ_qDlImBQ/company-logo_100_100/company-logo_100_100/0/1649349588413/google_chrome_logo?e=2147483647&v=beta&t=59i1N-oQyerjrz2dvD8C9LMO-FfIRmqwfZMG6IVZU4M",
+            "name": "Google Chrome",
+            "url": "https://www.linkedin.com/showcase/google-chrome/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJo0OA8b8URg/company-logo_100_100/B4EZm_zW3mHMAQ-/0/1759859535943/google_public_policy_logo?e=2147483647&v=beta&t=DFnsKyDjOxqQUC-L5svtN59RHixOeYz-IMptmk3ecvY",
+            "name": "Google Public Policy",
+            "url": "https://www.linkedin.com/showcase/google-public-policy/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQF5tjYOT4Ftww/company-logo_100_100/B56Zy0qShWIoAU-/0/1772557512211/googlemapsplatform_logo?e=2147483647&v=beta&t=Zv9jxJq15tpXhTT9ugcm0UYcOteYKSC2q6PszVyGzBo",
+            "name": "Google Maps Platform",
+            "url": "https://www.linkedin.com/showcase/googlemapsplatform/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFoGWWSOfPdVQ/company-logo_100_100/company-logo_100_100/0/1709662277992/google_developers_north_america_logo?e=2147483647&v=beta&t=K_7Ty6N8C1sqSNtmFqM7pvlp3ftNhN_RJnbKB3eVwPg",
+            "name": "Google Developers North America",
+            "url": "https://www.linkedin.com/showcase/google-developers-north-america/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Mountain View, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQG_VLbxyJcP8A/company-logo_100_100/company-logo_100_100/0/1631345813563?e=2147483647&v=beta&t=QCpHYBG_1A083NxZYgLLaKB1t2xtShCcZW7Li7z8QLQ",
+            "name": "Adometry (acquired by Google)",
+            "url": "https://www.linkedin.com/company/adometry?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGi1gBNONsUFA/company-logo_100_100/company-logo_100_100/0/1721154916593?e=2147483647&v=beta&t=_rIUIArFqpaLNx8Y0tP8_E7fu8tKhBRyKrtHa4JYkzc",
+            "name": "Google Search Liaison",
+            "url": "https://www.linkedin.com/showcase/google-search-liaison/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQH_OmH7hYAD2A/company-logo_100_100/company-logo_100_100/0/1676486274466/google_nest_logo?e=2147483647&v=beta&t=tEmh-jB8FSZHx7WCHSQQjdYIEWrtlC8eRdVhJWZgXkE",
+            "name": "Google Nest Pro",
+            "url": "https://www.linkedin.com/showcase/google-nest/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Reston, VA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHb1o1G778-tA/company-logo_100_100/B56Zy58s77JQAQ-/0/1772646223973/google_public_sector_logo?e=2147483647&v=beta&t=SSSrQr_LeImC6PBCeRW41p0SS23Yp0Hlb8jvqV9W-vE",
+            "name": "Google Public Sector",
+            "url": "https://www.linkedin.com/showcase/google-public-sector/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGGnFFZxWR32A/company-logo_100_100/B56ZeyJ827G0AQ-/0/1751040643547?e=2147483647&v=beta&t=WhUNbMMyW6UcyEqYHcSzx-6dUtvvul2KoGBWoJZyWok",
+            "name": "Google Learning & Education",
+            "url": "https://www.linkedin.com/showcase/google-learning-edu/?trk=affiliated-pages"
+          },
+          {
+            "category": "Agriculture, Construction, Mining Machinery Manufacturing",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQE-WH8Szc-oSg/company-logo_100_100/company-logo_100_100/0/1676059443081/mineral_ai_logo?e=2147483647&v=beta&t=iXoN6UtxmNr1nSTbcpDCsGdKiZMuIVQMI0ZzBlfsvNc",
+            "name": "Mineral.ai",
+            "url": "https://www.linkedin.com/company/mineral-ai?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGOSUhJSXXzrg/company-logo_100_100/B56ZahP6wxGoAQ-/0/1746462027700?e=2147483647&v=beta&t=XAgor6gqmuXqsDFhtLJC-J5Y1IMT1ArcgjDkt3ajh4k",
+            "name": "Google Arabia",
+            "url": "https://www.linkedin.com/showcase/google-arabia/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Wola, Masovian Voivodeship",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmd4NHEWe6vg/company-logo_100_100/B4EZx8p2G.GsAQ-/0/1771617870991?e=2147483647&v=beta&t=4SKwGSyBh1L6pM5DDPhqReD80KTmyeHFRkgBiK1czUU",
+            "name": "Google Polska",
+            "url": "https://pl.linkedin.com/showcase/google-polska/?trk=affiliated-pages"
+          },
+          {
+            "category": "Technology, Information and Internet",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGVPp0STu44BQ/company-logo_100_100/B56ZY1UVlJGUAQ-/0/1744651246595?e=2147483647&v=beta&t=HYg-tuH7iT5Vq3yODMVYLkFsNmQMqZJa5EjI4jY5070",
+            "name": "Google Italia",
+            "url": "https://www.linkedin.com/showcase/google-italia/?trk=affiliated-pages"
+          },
+          {
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "Flutter",
+            "url": "https://www.linkedin.com/showcase/flutterdev-hold/?trk=affiliated-pages"
+          },
+          {
+            "logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "name": "Firebase",
+            "url": "https://www.linkedin.com/showcase/firebase-hold/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5F6xfbLO0XQ/company-logo_100_100/B4EZv6rlWLKYAQ-/0/1769437288496?e=2147483647&v=beta&t=5Q3zHR5qJDAsr7CPWwHnejLivYHLlj2ClRe-HgUwRps",
+            "name": "Google DACH",
+            "url": "https://www.linkedin.com/showcase/google-dach/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "location": "Mountain View, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFeiP2CUbVYqg/company-logo_100_100/B4EZzoCanEHYAQ-/0/1773419473667?e=2147483647&v=beta&t=9zuBzyz2ALRcMJ_DEYvKOVsZdTGaiuOWCf5Cq-48R44",
+            "name": "Google AI Studio",
+            "url": "https://www.linkedin.com/showcase/google-ai-studio/?trk=affiliated-pages"
+          },
+          {
+            "category": "Advertising Services",
+            "location": "Pyrmont, NSW",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQE-75KJ1ZCGFA/company-logo_100_100/B56ZxVbtSGG4AQ-/0/1770959853254/google_for_business_aunz_logo?e=2147483647&v=beta&t=1g2-lQDWi4SpmaLMQ7MH5GrdCgg1eXHnO4uNe84Uj_U",
+            "name": "Google for Business AUNZ",
+            "url": "https://au.linkedin.com/showcase/google-for-business-aunz/?trk=affiliated-pages"
+          },
+          {
+            "category": "Software Development",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFCIDSAPaqtsg/company-logo_100_100/B56Z1AMI1aGwAQ-/0/1774898417344/rcs_for_business_logo?e=2147483647&v=beta&t=1fU5oI9npkabbudT3DgoIrzU3pqk0zaXpfy2wApWcy0",
+            "name": "RCS for Business",
+            "url": "https://www.linkedin.com/showcase/rcs-for-business/?trk=affiliated-pages"
+          }
+        ],
+        "all_locations": [
+          "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+          "111 8th Ave, New York, NY 10011, US",
+          "Claude Debussylaan 34, Amsterdam, North Holland 1082 MD, NL",
+          "Avenida Brigadeiro Faria Lima, 3477, Sao Paulo, SP 04538-133, BR",
+          "51 Breithaupt St, Kitchener, ON N2H 5G5, CA",
+          "Barrow Street, Dublin, County Dublin, IE",
+          "Old Madras Road, Bengaluru, Karnataka 560016, IN",
+          "2590 Pearl St, Boulder, CO 80302, US",
+          "601 N 34th St, Seattle, WA 98103, US",
+          "48 Pirrama Rd, Sydney, NSW 2009, AU",
+          "19510 Jamboree Rd, Irvine, CA 92612, US",
+          "320 N Morgan St, Chicago, IL 60607, US",
+          "3 Bandra Kurla Complex Road, Mumbai, Maharashtra 400051, IN",
+          "5th Ave, Taguig City, National Capital Region, PH",
+          "3 Pasir Panjang Rd, Singapore, Singapore 118484, SG",
+          "13, Hyderabad, TS 500084, IN",
+          "90 Collins St, Melbourne, VIC 3000, AU",
+          "901 Cherry Ave, San Bruno, CA 94066, US",
+          "Plaza Pablo Ruiz Picasso, Madrid, Community of Madrid 28046, ES",
+          "25 Massachusetts Ave NW, Washington, DC 20001, US",
+          "15, Gurugram, HR 122001, IN",
+          "Carrera 11A 94-45, Bogota, Bogota, D.C. 110221, CO",
+          "2 Matheson St, Wan Chai, Hong Kong, HK",
+          "1875 Explorer St, Reston, VA 20190, US",
+          "111 Richmond St W, Toronto, ON M5H 2G4, CA",
+          "345 Spear St, San Francisco, CA 94105, US",
+          "355 Main St, Cambridge, MA 02142, US",
+          "Via Federico Confalonieri, 4, Milan, Lomb. 20124, IT",
+          "St Giles High Street, London, England WC2H 8AG, GB",
+          "9606 N Mopac Expy, Austin, TX 78759, US",
+          "340 Main St, Los Angeles, CA 90291, US",
+          "Plaza Pablo Ruiz Picasso, Madrid, Community of Madrid 28020, ES",
+          "2300 Traverwood Dr, Ann Arbor, MI 48105, US",
+          "Avenida Costanera Sur, Las Condes, Santiago Metropolitan 7550000, CL",
+          "10 10th St NE, Atlanta, GA 30309, US",
+          "ulica Emilii Plater 53, Warsaw, MA 00-125, PL",
+          "3 Swamy Vivekananda Road, Bengaluru, Karnataka 560016, IN",
+          "777 6th St S, Kirkland, WA 98033, US",
+          "Erika-Mann-Strasse 33, Munich, BY 80636, DE",
+          "Montes Urales, Miguel Hidalgo, CDMX 11000, MX",
+          "Avenida Alicia Moreau de Justo 350, Buenos Aires City, Buenos Aires Autonomous City 1107, AR",
+          "8 Rue de Londres, Paris, IdF 75009, FR",
+          "Yigal Allon 98, Tel Aviv-Yafo, Tel Aviv 67891, IL",
+          "Unter den Linden 14, Berlin, BE 10117, DE",
+          "ABC-Strasse 19, Hamburg, HH 20354, DE",
+          "6175 Main St, Frisco, TX 75034, US",
+          "Brandschenkestrasse 110, Zurich, ZH 8002, CH",
+          "Kungsbron 2, Stockholm, Stockholm County 111 22, SE"
+        ],
+        "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D563DAQHQfuvbdQlFcA/image-scale_191_1128/B56Z1A7xTqJYAc-/0/1774910904293/google_cover?e=2147483647&v=beta&t=MV5cNuKec8wwo2frDo9W1Swzq54Hk3yt0vKQWG_i7Mc",
+        "company_id": "1441",
+        "company_size": "10,001+ employees",
+        "company_type": "Public Company",
+        "country_code": "US",
+        "crunchbase_url": "https://www.crunchbase.com/organization/google?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase",
+        "description": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone.\n\nCheck out our career opportunities at goo.gle/3DLEokh",
+        "employee_count": "337,774",
+        "employees": [
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQG2Lq9P131RPw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155461240?e=2147483647&v=beta&t=ClDJWsCSg7Apu-ONxPXeXlesMydT31UYg4XOw9r_S1E",
+            "name": "Linus Upson",
+            "profile_url": "https://www.linkedin.com/in/linusupson?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQHjFT5OOou_gQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155469391?e=2147483647&v=beta&t=olLng7ZMW2MyWAE-Uu2LcwrhM8q86kqOGx4Nq6ccQVQ",
+            "name": "Phillip Pearson",
+            "profile_url": "https://www.linkedin.com/in/myelin?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQFUBgdsxpc7TQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516155517496?e=2147483647&v=beta&t=NTVXmimJkv7-5Jg27avSm78qudUOxxW00CPJ-6kobOk",
+            "name": "Lenny T.",
+            "profile_url": "https://www.linkedin.com/in/lennyturetsky?trk=org-employees"
+          },
+          {
+            "image_url": "https://media.licdn.com/dms/image/v2/C5603AQGvuUXb9LpP9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1532531607705?e=2147483647&v=beta&t=zuCe0R-uqwLItGJfjs5Sl4ExG-tq7lgNh6f27qVTl4o",
+            "name": "Brentley Beerline",
+            "profile_url": "https://www.linkedin.com/in/brentleybeerline?trk=org-employees"
+          }
+        ],
+        "followers": "41,304,754",
+        "formatted_url": "https://www.linkedin.com/company/google",
+        "founded": null,
+        "funding": {
+          "crunchbase_url": "https://www.crunchbase.com/organization/google?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase",
+          "investors": [
+            {
+              "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4D38AQEBhp9ch_ZyPA/crunchbase_investor_logo_100/B4DZqeuLX8GwAM-/0/1763599497115?e=1775664000&v=beta&t=3b0o9fkacWZZxnOJkZ0dZXRdCZU-hFsgcbEnLi6ZNLw",
+              "name": "Kleiner Perkins",
+              "url": "https://www.crunchbase.com/organization/kleiner-perkins-caufield-byers?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+            },
+            {
+              "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4E38AQHMycDtn347OQ/crunchbase_investor_logo_100/B4EZqeuLmyGYAM-/0/1763599497967?e=1775664000&v=beta&t=OoYi-61TTWTBkFbaPEOhnIY4VvLeCWztJqNVS3WW0Dw",
+              "name": "Sequoia Capital",
+              "url": "https://www.crunchbase.com/organization/sequoia-capital?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+            }
+          ],
+          "last_round": {
+            "amount": "US$ 25.0M",
+            "date": "Wed, 07 Jul 1999 00:00:00 GMT",
+            "type": "Series unknown"
+          },
+          "total_rounds": 3
+        },
+        "get_directions_url": [
+          {
+            "directions_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=111+8th+Ave+New+York+10011+NY+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Claude+Debussylaan+34+Amsterdam+1082+MD+North+Holland+NL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Brigadeiro+Faria+Lima%2C+3477+Sao+Paulo+04538-133+SP+BR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=51+Breithaupt+St+Kitchener+N2H+5G5+ON+CA&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Barrow+Street+Dublin+County+Dublin+IE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Old+Madras+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2590+Pearl+St+Boulder+80302+CO+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=601+N+34th+St+Seattle+98103+WA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=48+Pirrama+Rd+Sydney+2009+NSW+AU&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=19510+Jamboree+Rd+Irvine+92612+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=320+N+Morgan+St+Chicago+60607+IL+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Bandra+Kurla+Complex+Road+Mumbai+400051+Maharashtra+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=5th+Ave+Taguig+City+National+Capital+Region+PH&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Pasir+Panjang+Rd+Singapore+118484+Singapore+SG&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=13+Hyderabad+500084+TS+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=90+Collins+St+Melbourne+3000+VIC+AU&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=901+Cherry+Ave+San+Bruno+94066+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28046+Community+of+Madrid+ES&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=25+Massachusetts+Ave+NW+Washington+20001+DC+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=15+Gurugram+122001+HR+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Carrera+11A+94-45+Bogota+110221+Bogota%2C+D.C.+CO&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2+Matheson+St+Wan+Chai+Hong+Kong+HK&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=1875+Explorer+St+Reston+20190+VA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=111+Richmond+St+W+Toronto+M5H+2G4+ON+CA&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=345+Spear+St+San+Francisco+94105+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=355+Main+St+Cambridge+02142+MA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Via+Federico+Confalonieri%2C+4+Milan+20124+Lomb.+IT&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=St+Giles+High+Street+London+WC2H+8AG+England+GB&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=9606+N+Mopac+Expy+Austin+78759+TX+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=340+Main+St+Los+Angeles+90291+CA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28020+Community+of+Madrid+ES&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=2300+Traverwood+Dr+Ann+Arbor+48105+MI+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Costanera+Sur+Las+Condes+7550000+Santiago+Metropolitan+CL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=10+10th+St+NE+Atlanta+30309+GA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=ulica+Emilii+Plater+53+Warsaw+00-125+MA+PL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=3+Swamy+Vivekananda+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=777+6th+St+S+Kirkland+98033+WA+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Erika-Mann-Strasse+33+Munich+80636+BY+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Montes+Urales+Miguel+Hidalgo+11000+CDMX+MX&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Avenida+Alicia+Moreau+de+Justo+350+Buenos+Aires+City+1107+Buenos+Aires+Autonomous+City+AR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=8+Rue+de+Londres+Paris+75009+IdF+FR&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Yigal+Allon+98+Tel+Aviv-Yafo+67891+Tel+Aviv+IL&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Unter+den+Linden+14+Berlin+10117+BE+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=ABC-Strasse+19+Hamburg+20354+HH+DE&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=6175+Main+St+Frisco+75034+TX+US&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Brandschenkestrasse+110+Zurich+8002+ZH+CH&trk=org-locations_url"
+          },
+          {
+            "directions_url": "https://www.bing.com/maps?where=Kungsbron+2+Stockholm+111+22+Stockholm+County+SE&trk=org-locations_url"
+          }
+        ],
+        "headquarters": "Mountain View, CA",
+        "hq_address": {
+          "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+          "city_state": "Mountain View, CA 94043, US",
+          "is_primary": true,
+          "map_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url",
+          "street_address": "1600 Amphitheatre Parkway"
+        },
+        "industry": "Software Development",
+        "info": "Google | 41,304,754 followers on LinkedIn. A problem isn&#39;t truly solved until it&#39;s solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible.",
+        "investors": [
+          {
+            "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4D38AQEBhp9ch_ZyPA/crunchbase_investor_logo_100/B4DZqeuLX8GwAM-/0/1763599497115?e=1775664000&v=beta&t=3b0o9fkacWZZxnOJkZ0dZXRdCZU-hFsgcbEnLi6ZNLw",
+            "name": "Kleiner Perkins",
+            "url": "https://www.crunchbase.com/organization/kleiner-perkins-caufield-byers?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+          },
+          {
+            "logo_url": "https://media.licdn.com/dms/image/sync/v2/D4E38AQHMycDtn347OQ/crunchbase_investor_logo_100/B4EZqeuLmyGYAM-/0/1763599497967?e=1775664000&v=beta&t=OoYi-61TTWTBkFbaPEOhnIY4VvLeCWztJqNVS3WW0Dw",
+            "name": "Sequoia Capital",
+            "url": "https://www.crunchbase.com/organization/sequoia-capital?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor_anon&trk=funding_investors"
+          }
+        ],
+        "jobs": [
+          {
+            "open_jobs_count": 127126,
+            "title": "Google jobs",
+            "url": "https://www.linkedin.com/jobs/google-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 694057,
+            "title": "Analyst jobs",
+            "url": "https://www.linkedin.com/jobs/analyst-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 555845,
+            "title": "Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1880925,
+            "title": "Manager jobs",
+            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 71196,
+            "title": "Intern jobs",
+            "url": "https://www.linkedin.com/jobs/intern-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 253048,
+            "title": "Project Manager jobs",
+            "url": "https://www.linkedin.com/jobs/project-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1091945,
+            "title": "Associate jobs",
+            "url": "https://www.linkedin.com/jobs/associate-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 258935,
+            "title": "Developer jobs",
+            "url": "https://www.linkedin.com/jobs/developer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 48969,
+            "title": "Scientist jobs",
+            "url": "https://www.linkedin.com/jobs/scientist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 1220357,
+            "title": "Director jobs",
+            "url": "https://www.linkedin.com/jobs/director-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 121519,
+            "title": "Account Manager jobs",
+            "url": "https://www.linkedin.com/jobs/account-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 106879,
+            "title": "Marketing Manager jobs",
+            "url": "https://www.linkedin.com/jobs/marketing-manager-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 300699,
+            "title": "Software Engineer jobs",
+            "url": "https://www.linkedin.com/jobs/software-engineer-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 690514,
+            "title": "Executive jobs",
+            "url": "https://www.linkedin.com/jobs/executive-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 768666,
+            "title": "Specialist jobs",
+            "url": "https://www.linkedin.com/jobs/specialist-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 711811,
+            "title": "Assistant jobs",
+            "url": "https://www.linkedin.com/jobs/assistant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 91739,
+            "title": "Accountant jobs",
+            "url": "https://www.linkedin.com/jobs/accountant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 760907,
+            "title": "Consultant jobs",
+            "url": "https://www.linkedin.com/jobs/consultant-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 243016,
+            "title": "Recruiter jobs",
+            "url": "https://www.linkedin.com/jobs/recruiter-jobs?trk=organization_guest-browse_jobs"
+          },
+          {
+            "open_jobs_count": 71457,
+            "title": "Account Executive jobs",
+            "url": "https://www.linkedin.com/jobs/account-executive-jobs?trk=organization_guest-browse_jobs"
+          }
+        ],
+        "location": "Mountain View, CA",
+        "locations": [
+          {
+            "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, US",
+            "city_state": "Mountain View, CA 94043, US",
+            "is_primary": true,
+            "map_url": "https://www.bing.com/maps?where=1600+Amphitheatre+Parkway+Mountain+View+94043+CA+US&trk=org-locations_url",
+            "street_address": "1600 Amphitheatre Parkway"
+          },
+          {
+            "city_state": "New York, NY 10011, US",
+            "map_url": "https://www.bing.com/maps?where=111+8th+Ave+New+York+10011+NY+US&trk=org-locations_url",
+            "street_address": "111 8th Ave"
+          },
+          {
+            "city_state": "Amsterdam, North Holland 1082 MD, NL",
+            "map_url": "https://www.bing.com/maps?where=Claude+Debussylaan+34+Amsterdam+1082+MD+North+Holland+NL&trk=org-locations_url",
+            "street_address": "Claude Debussylaan 34"
+          },
+          {
+            "city_state": "Sao Paulo, SP 04538-133, BR",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Brigadeiro+Faria+Lima%2C+3477+Sao+Paulo+04538-133+SP+BR&trk=org-locations_url",
+            "street_address": "Avenida Brigadeiro Faria Lima, 3477"
+          },
+          {
+            "city_state": "Kitchener, ON N2H 5G5, CA",
+            "map_url": "https://www.bing.com/maps?where=51+Breithaupt+St+Kitchener+N2H+5G5+ON+CA&trk=org-locations_url",
+            "street_address": "51 Breithaupt St"
+          },
+          {
+            "city_state": "Dublin, County Dublin, IE",
+            "map_url": "https://www.bing.com/maps?where=Barrow+Street+Dublin+County+Dublin+IE&trk=org-locations_url",
+            "street_address": "Barrow Street"
+          },
+          {
+            "city_state": "Bengaluru, Karnataka 560016, IN",
+            "map_url": "https://www.bing.com/maps?where=Old+Madras+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url",
+            "street_address": "Old Madras Road"
+          },
+          {
+            "city_state": "Boulder, CO 80302, US",
+            "map_url": "https://www.bing.com/maps?where=2590+Pearl+St+Boulder+80302+CO+US&trk=org-locations_url",
+            "street_address": "2590 Pearl St"
+          },
+          {
+            "city_state": "Seattle, WA 98103, US",
+            "map_url": "https://www.bing.com/maps?where=601+N+34th+St+Seattle+98103+WA+US&trk=org-locations_url",
+            "street_address": "601 N 34th St"
+          },
+          {
+            "city_state": "Sydney, NSW 2009, AU",
+            "map_url": "https://www.bing.com/maps?where=48+Pirrama+Rd+Sydney+2009+NSW+AU&trk=org-locations_url",
+            "street_address": "48 Pirrama Rd"
+          },
+          {
+            "city_state": "Irvine, CA 92612, US",
+            "map_url": "https://www.bing.com/maps?where=19510+Jamboree+Rd+Irvine+92612+CA+US&trk=org-locations_url",
+            "street_address": "19510 Jamboree Rd"
+          },
+          {
+            "city_state": "Chicago, IL 60607, US",
+            "map_url": "https://www.bing.com/maps?where=320+N+Morgan+St+Chicago+60607+IL+US&trk=org-locations_url",
+            "street_address": "320 N Morgan St"
+          },
+          {
+            "city_state": "Mumbai, Maharashtra 400051, IN",
+            "map_url": "https://www.bing.com/maps?where=3+Bandra+Kurla+Complex+Road+Mumbai+400051+Maharashtra+IN&trk=org-locations_url",
+            "street_address": "3 Bandra Kurla Complex Road"
+          },
+          {
+            "city_state": "Taguig City, National Capital Region, PH",
+            "map_url": "https://www.bing.com/maps?where=5th+Ave+Taguig+City+National+Capital+Region+PH&trk=org-locations_url",
+            "street_address": "5th Ave"
+          },
+          {
+            "city_state": "Singapore, Singapore 118484, SG",
+            "map_url": "https://www.bing.com/maps?where=3+Pasir+Panjang+Rd+Singapore+118484+Singapore+SG&trk=org-locations_url",
+            "street_address": "3 Pasir Panjang Rd"
+          },
+          {
+            "city_state": "Hyderabad, TS 500084, IN",
+            "map_url": "https://www.bing.com/maps?where=13+Hyderabad+500084+TS+IN&trk=org-locations_url",
+            "street_address": "13"
+          },
+          {
+            "city_state": "Melbourne, VIC 3000, AU",
+            "map_url": "https://www.bing.com/maps?where=90+Collins+St+Melbourne+3000+VIC+AU&trk=org-locations_url",
+            "street_address": "90 Collins St"
+          },
+          {
+            "city_state": "San Bruno, CA 94066, US",
+            "map_url": "https://www.bing.com/maps?where=901+Cherry+Ave+San+Bruno+94066+CA+US&trk=org-locations_url",
+            "street_address": "901 Cherry Ave"
+          },
+          {
+            "city_state": "Madrid, Community of Madrid 28046, ES",
+            "map_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28046+Community+of+Madrid+ES&trk=org-locations_url",
+            "street_address": "Plaza Pablo Ruiz Picasso"
+          },
+          {
+            "city_state": "Washington, DC 20001, US",
+            "map_url": "https://www.bing.com/maps?where=25+Massachusetts+Ave+NW+Washington+20001+DC+US&trk=org-locations_url",
+            "street_address": "25 Massachusetts Ave NW"
+          },
+          {
+            "city_state": "Gurugram, HR 122001, IN",
+            "map_url": "https://www.bing.com/maps?where=15+Gurugram+122001+HR+IN&trk=org-locations_url",
+            "street_address": "15"
+          },
+          {
+            "city_state": "Bogota, Bogota, D.C. 110221, CO",
+            "map_url": "https://www.bing.com/maps?where=Carrera+11A+94-45+Bogota+110221+Bogota%2C+D.C.+CO&trk=org-locations_url",
+            "street_address": "Carrera 11A 94-45"
+          },
+          {
+            "city_state": "Wan Chai, Hong Kong, HK",
+            "map_url": "https://www.bing.com/maps?where=2+Matheson+St+Wan+Chai+Hong+Kong+HK&trk=org-locations_url",
+            "street_address": "2 Matheson St"
+          },
+          {
+            "city_state": "Reston, VA 20190, US",
+            "map_url": "https://www.bing.com/maps?where=1875+Explorer+St+Reston+20190+VA+US&trk=org-locations_url",
+            "street_address": "1875 Explorer St"
+          },
+          {
+            "city_state": "Toronto, ON M5H 2G4, CA",
+            "map_url": "https://www.bing.com/maps?where=111+Richmond+St+W+Toronto+M5H+2G4+ON+CA&trk=org-locations_url",
+            "street_address": "111 Richmond St W"
+          },
+          {
+            "city_state": "San Francisco, CA 94105, US",
+            "map_url": "https://www.bing.com/maps?where=345+Spear+St+San+Francisco+94105+CA+US&trk=org-locations_url",
+            "street_address": "345 Spear St"
+          },
+          {
+            "city_state": "Cambridge, MA 02142, US",
+            "map_url": "https://www.bing.com/maps?where=355+Main+St+Cambridge+02142+MA+US&trk=org-locations_url",
+            "street_address": "355 Main St"
+          },
+          {
+            "city_state": "Milan, Lomb. 20124, IT",
+            "map_url": "https://www.bing.com/maps?where=Via+Federico+Confalonieri%2C+4+Milan+20124+Lomb.+IT&trk=org-locations_url",
+            "street_address": "Via Federico Confalonieri, 4"
+          },
+          {
+            "city_state": "London, England WC2H 8AG, GB",
+            "map_url": "https://www.bing.com/maps?where=St+Giles+High+Street+London+WC2H+8AG+England+GB&trk=org-locations_url",
+            "street_address": "St Giles High Street"
+          },
+          {
+            "city_state": "Austin, TX 78759, US",
+            "map_url": "https://www.bing.com/maps?where=9606+N+Mopac+Expy+Austin+78759+TX+US&trk=org-locations_url",
+            "street_address": "9606 N Mopac Expy"
+          },
+          {
+            "city_state": "Los Angeles, CA 90291, US",
+            "map_url": "https://www.bing.com/maps?where=340+Main+St+Los+Angeles+90291+CA+US&trk=org-locations_url",
+            "street_address": "340 Main St"
+          },
+          {
+            "city_state": "Madrid, Community of Madrid 28020, ES",
+            "map_url": "https://www.bing.com/maps?where=Plaza+Pablo+Ruiz+Picasso+Madrid+28020+Community+of+Madrid+ES&trk=org-locations_url",
+            "street_address": "Plaza Pablo Ruiz Picasso"
+          },
+          {
+            "city_state": "Ann Arbor, MI 48105, US",
+            "map_url": "https://www.bing.com/maps?where=2300+Traverwood+Dr+Ann+Arbor+48105+MI+US&trk=org-locations_url",
+            "street_address": "2300 Traverwood Dr"
+          },
+          {
+            "city_state": "Las Condes, Santiago Metropolitan 7550000, CL",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Costanera+Sur+Las+Condes+7550000+Santiago+Metropolitan+CL&trk=org-locations_url",
+            "street_address": "Avenida Costanera Sur"
+          },
+          {
+            "city_state": "Atlanta, GA 30309, US",
+            "map_url": "https://www.bing.com/maps?where=10+10th+St+NE+Atlanta+30309+GA+US&trk=org-locations_url",
+            "street_address": "10 10th St NE"
+          },
+          {
+            "city_state": "Warsaw, MA 00-125, PL",
+            "map_url": "https://www.bing.com/maps?where=ulica+Emilii+Plater+53+Warsaw+00-125+MA+PL&trk=org-locations_url",
+            "street_address": "ulica Emilii Plater 53"
+          },
+          {
+            "city_state": "Bengaluru, Karnataka 560016, IN",
+            "map_url": "https://www.bing.com/maps?where=3+Swamy+Vivekananda+Road+Bengaluru+560016+Karnataka+IN&trk=org-locations_url",
+            "street_address": "3 Swamy Vivekananda Road"
+          },
+          {
+            "city_state": "Kirkland, WA 98033, US",
+            "map_url": "https://www.bing.com/maps?where=777+6th+St+S+Kirkland+98033+WA+US&trk=org-locations_url",
+            "street_address": "777 6th St S"
+          },
+          {
+            "city_state": "Munich, BY 80636, DE",
+            "map_url": "https://www.bing.com/maps?where=Erika-Mann-Strasse+33+Munich+80636+BY+DE&trk=org-locations_url",
+            "street_address": "Erika-Mann-Strasse 33"
+          },
+          {
+            "city_state": "Miguel Hidalgo, CDMX 11000, MX",
+            "map_url": "https://www.bing.com/maps?where=Montes+Urales+Miguel+Hidalgo+11000+CDMX+MX&trk=org-locations_url",
+            "street_address": "Montes Urales"
+          },
+          {
+            "city_state": "Buenos Aires City, Buenos Aires Autonomous City 1107, AR",
+            "map_url": "https://www.bing.com/maps?where=Avenida+Alicia+Moreau+de+Justo+350+Buenos+Aires+City+1107+Buenos+Aires+Autonomous+City+AR&trk=org-locations_url",
+            "street_address": "Avenida Alicia Moreau de Justo 350"
+          },
+          {
+            "city_state": "Paris, IdF 75009, FR",
+            "map_url": "https://www.bing.com/maps?where=8+Rue+de+Londres+Paris+75009+IdF+FR&trk=org-locations_url",
+            "street_address": "8 Rue de Londres"
+          },
+          {
+            "city_state": "Tel Aviv-Yafo, Tel Aviv 67891, IL",
+            "map_url": "https://www.bing.com/maps?where=Yigal+Allon+98+Tel+Aviv-Yafo+67891+Tel+Aviv+IL&trk=org-locations_url",
+            "street_address": "Yigal Allon 98"
+          },
+          {
+            "city_state": "Berlin, BE 10117, DE",
+            "map_url": "https://www.bing.com/maps?where=Unter+den+Linden+14+Berlin+10117+BE+DE&trk=org-locations_url",
+            "street_address": "Unter den Linden 14"
+          },
+          {
+            "city_state": "Hamburg, HH 20354, DE",
+            "map_url": "https://www.bing.com/maps?where=ABC-Strasse+19+Hamburg+20354+HH+DE&trk=org-locations_url",
+            "street_address": "ABC-Strasse 19"
+          },
+          {
+            "city_state": "Frisco, TX 75034, US",
+            "map_url": "https://www.bing.com/maps?where=6175+Main+St+Frisco+75034+TX+US&trk=org-locations_url",
+            "street_address": "6175 Main St"
+          },
+          {
+            "city_state": "Zurich, ZH 8002, CH",
+            "map_url": "https://www.bing.com/maps?where=Brandschenkestrasse+110+Zurich+8002+ZH+CH&trk=org-locations_url",
+            "street_address": "Brandschenkestrasse 110"
+          },
+          {
+            "city_state": "Stockholm, Stockholm County 111 22, SE",
+            "map_url": "https://www.bing.com/maps?where=Kungsbron+2+Stockholm+111+22+Stockholm+County+SE&trk=org-locations_url",
+            "street_address": "Kungsbron 2"
+          }
+        ],
+        "name": "Google",
+        "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=2147483647&v=beta&t=Hzaw0d0Yz1Yi-_mDuQ6JQo-Ph41AG50Z8pWjyaeTI0k",
+        "similar_pages": [
+          {
+            "industry": "Software Development",
+            "location": "Redmond, Washington",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=2147483647&v=beta&t=rr_7_bFRKp6umQxIHErPOZHtR8dMPIYeTjlKFdotJBY",
+            "name": "Microsoft",
+            "url": "https://www.linkedin.com/company/microsoft?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Seattle, WA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=2147483647&v=beta&t=qIUP7OofXIuuuVACb5ToeWH9PHXrPYsS8jsTZ3Q0sUg",
+            "name": "Amazon",
+            "url": "https://www.linkedin.com/company/amazon?trk=similar-pages"
+          },
+          {
+            "industry": "Computers and Electronics Manufacturing",
+            "location": "Cupertino, California",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=2147483647&v=beta&t=p0JNmv2WB0EMMQgvzl9R8TaXgzEaDraGS4MWR0IawjQ",
+            "name": "Apple",
+            "url": "https://www.linkedin.com/company/apple?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Menlo Park, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHBmbxCDP0JQQ/company-logo_100_100/B56ZlkdQSaI8AQ-/0/1758327015620/meta_logo?e=2147483647&v=beta&t=wKpKTUGAcanUzVRxCutYYO3NJ_Etr5c4n2AbPyOu260",
+            "name": "Meta",
+            "url": "https://www.linkedin.com/company/meta?trk=similar-pages"
+          },
+          {
+            "industry": "Entertainment Providers",
+            "location": "Los Gatos, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGMva5_E8pUjw/company-logo_100_100/company-logo_100_100/0/1736276678240/netflix_logo?e=2147483647&v=beta&t=OSlCcMLJmlXo79qPS59zP_IX873LK5R4FGYeUAWXdiQ",
+            "name": "Netflix",
+            "url": "https://www.linkedin.com/company/netflix?trk=similar-pages"
+          },
+          {
+            "industry": "Business Consulting and Services",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY",
+            "name": "Deloitte",
+            "url": "https://www.linkedin.com/company/deloitte?trk=similar-pages"
+          },
+          {
+            "industry": "IT Services and IT Consulting",
+            "location": "Armonk, New York, NY",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=2147483647&v=beta&t=HPSmWLOCvdPkWO1nRWwjjmCNpaCqww20rSJ4E54QtxQ",
+            "name": "IBM",
+            "url": "https://www.linkedin.com/company/ibm?trk=similar-pages"
+          },
+          {
+            "industry": "Software Development",
+            "location": "Sunnyvale, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/company/linkedin?trk=similar-pages"
+          },
+          {
+            "industry": "Computer Hardware Manufacturing",
+            "location": "Santa Clara, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGV36q2EowSyw/company-logo_100_100/company-logo_100_100/0/1724881581208/nvidia_logo?e=2147483647&v=beta&t=oCxt8kGhi0AfLuVDY7D_jzkUIEe-fAV5Q5eLaRxXzOE",
+            "name": "NVIDIA",
+            "url": "https://www.linkedin.com/company/nvidia?trk=similar-pages"
+          },
+          {
+            "industry": "Research Services",
+            "location": "San Francisco, CA",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHpzXbqSyR74A/company-logo_100_100/B56ZT8EYB8HsAQ-/0/1739395793272/openai_logo?e=2147483647&v=beta&t=UE3RX4g5jO0WzxZIir4Dit4rZrlzHfCq5pFmYGHSLTU",
+            "name": "OpenAI",
+            "url": "https://www.linkedin.com/company/openai?trk=similar-pages"
+          }
+        ],
+        "specialties": [
+          "search",
+          "ads",
+          "mobile",
+          "android",
+          "online video",
+          "apps",
+          "machine learning",
+          "virtual reality",
+          "cloud",
+          "hardware",
+          "artificial intelligence",
+          "youtube",
+          "and software"
+        ],
+        "stock_info": null,
+        "tagline": null,
+        "universal_name_id": "google",
+        "update_data": [
+          {
+            "comments": "10",
+            "content": "When there was an opportunity to join the Cloud Business Intelligence team as a Looker Sales Lead in a new market, Rakhi made the move from India to our Melbourne Docklands office. \n\nOnce she arrived, she found that the role was about much more than just numbers.  \"Working at Google and representing Looker means more than just solving technical problems; it\u2019s about the people. From critical customer issues to representing our tech at industry events, the energy is non-stop,\" she explains. \u201cThe most impactful conversations happen when we move past 'how the tool works' and start discussing how data can reshape a business model.\u201d\n\nTo keep the creative momentum going after those big conversations, Rakhi relies on a workspace designed for spontaneous \"aha!\" moments. \"You\u2019ll find graffiti walls in meeting rooms, quirky Melbournian names for meeting rooms, large open space for events, table tennis/pool, photo booth and plenty of cozy breakout spaces with seating,\" she says about the office.\n\nToday, Rakhi\u2019s impact continues to grow beyond her day-to-day role. She leads initiatives for Women@Australia, and collaborates with Google Research on hearing health accessibility.\n\nInterested in joining Rakhi and the Cloud team? Check out our open roles \u2192https://goo.gle/4mdmcVz",
+            "media": [
+              {
+                "alt": "Rakhi smiling for a close-up selfie in front of a large, colorful Google \"G\" logo.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFiVySVUGQdDw/image-shrink_1280/B56Z1JeSuLKgAc-/0/1775054171398?e=2147483647&v=beta&t=rV2CTYnsNdNJMTeNhkHqVeYRNFawVwNtBtumMbHkFOk"
+              },
+              {
+                "alt": "A close-up shot of a Google branded sneaker featuring the \u201cGoogle\u201d logo and brand colors on the heel.\n",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFB6Md4wTDPhg/image-shrink_1280/B56Z1JeS6PJ8Ag-/0/1775054172157?e=2147483647&v=beta&t=2BaDMa_xMJLq68YHllaQmjUI8ERBce14HwVVDV3z3Po"
+              },
+              {
+                "alt": "Rakhi and a colleague sitting side-by-side at a office desk smiling to the camera.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQELjVySyECkcQ/image-shrink_1280/B56Z1JeTIqHMAc-/0/1775054173325?e=2147483647&v=beta&t=oApjm1Z1IEuHKROguSuTdgnSyYXop3YXWurP8T4DPJw"
+              },
+              {
+                "alt": "Rakhi playfully posing on a bicycle positioned under a bright green beach umbrella inside a Google office space.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQF9wUWL_L4C0w/image-shrink_1280/B56Z1JeTSKJsAg-/0/1775054173616?e=2147483647&v=beta&t=g_cxuM-pHbkqM5FD803zQsJrqrl4vxh6HWPGmLSlVcg"
+              },
+              {
+                "alt": "A cheerful selfie of Rakhi and a colleague standing in front of the iconic Google \"G\"",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQHw9CduMy4kEQ/image-shrink_800/B56Z1JeTe7HMAg-/0/1775054174434?e=2147483647&v=beta&t=_etAmzTMtueZqV-hroocZxwvrZg8ydzWjBesiG5qUBc"
+              }
+            ],
+            "posted_time": "Wed, 01 Apr 2026 14:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "206"
+          },
+          {
+            "comments": "25",
+            "content": "Next stop: The moon \ud83d\ude80  We teamed up withNASA - National Aeronautics and Space Administrationto answer your top Artemis II searches.\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 21:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "527"
+          },
+          {
+            "comments": "26",
+            "content": "How do you visualize the concept of a world model? CodersKaloyan KolevandArden Schagersat down withLogan KilpatrickandAlexander Chenshare how they used Google AI Studio to vibe code custom design tools for Project Genie. They demonstrate how hands-on tools like 3D physics sliders and custom animation timelines enable teams of designers and engineers to work together to explore new ideas.\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 20:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "590"
+          },
+          {
+            "comments": "28",
+            "content": "PSA: You can change your Google account username without losing access to your entire account history. That way, you don\u2019t have to make a new account to avoid using your Gmail address from years ago. \n\nHere\u2019s how \u2b07\ufe0f\u2026more",
+            "posted_time": "Tue, 31 Mar 2026 18:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "503"
+          },
+          {
+            "comments": "71",
+            "content": "Tag your friend or co-worker who needs to hear this: If you\u2019re a U.S. Google user, you can now change your account username for tools like Gmail, Photos, Drive and more \u2014 while keeping your emails, data and account history. Here\u2019s what to know: \n\n1\ufe0f\u20e3 You can choose any available @gmail.comusername. \n\n2\ufe0f\u20e3 Your old username will become an alias, so you won\u2019t lose access to it. You can still sign in and send and receive emails with both usernames. Plus, you can also revert to your old username.\n\n3\ufe0f\u20e3 You can choose a new username once a year \u2014 up to three times total. \n\nHere\u2019s more information to get started -->https://goo.gle/4v3g1ry",
+            "media": [
+              {
+                "alt": "A minimalist graphic featuring an email address backspacing and  changing to a new gmail address.",
+                "url": "https://media.licdn.com/dms/image/v2/D4E22AQHSLBoCyukGNA/feedshare-shrink_800/B4EZ1ECzu0IgAc-/0/1774963088416?e=2147483647&v=beta&t=WfgAH0LoiflM2rRoAkirT-h95DHB_IihmdVlyAaLYSc"
+              }
+            ],
+            "posted_time": "Tue, 31 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "EMPATHY"
+            ],
+            "reactions": "1,066"
+          },
+          {
+            "comments": "50",
+            "content": "For Daniel, the path to his current job as Manager of Ads Marketing Analytics in Mexico City began with a passion for AI and a search for a culture where innovation is a fundamental part of the DNA.  He describes the Mexico City office as a \u201cdream\u201d because \u201cit combines a world-class tech environment with the vibrant, fast-paced energy of one of the most beautiful cities in the world.\u201d\n\nDaniel\u2019s day-to-day involves leading a team of data scientists and engineers to ensure every user data point serves a larger marketing purpose. His team uses \u201cadvanced analytics and cutting-edge AI to uncover key insights, optimize marketing campaigns and ensure our strategies are data-driven and highly effective.\u201d\n\nWhen it comes to joining the team, Daniel\u2019s advice for future Googlers is to move beyond the classroom and start solving real problems. \u201cDon\u2019t just take classes; contribute to open-source projects, enter Kaggle competitions or solve a problem in your local community using data. Google looks for 'owners' \u2014 people who see a problem and don't wait for permission to fix it.\u201d\n\nLooking to join the Mexico City office? Check out our open roles \u2192https://goo.gle/4qM2XDE",
+            "media": [
+              {
+                "alt": "Daniel sitting at a colorful table framed by a decorative Google-themed arch.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQE7E2_VACc0lw/image-shrink_1280/B56Z0_OkYYHoAg-/0/1774882277542?e=2147483647&v=beta&t=MRb62hJ_yr_f0J3dj72pCn_eew-5Z-3dnsd2Am0ubd8"
+              },
+              {
+                "alt": "Daniel standing in front of a decorated \"G\" logo on an office wall.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQGaKYOWm-bXDQ/image-shrink_800/B56Z0_OkmFHwAg-/0/1774882278155?e=2147483647&v=beta&t=wj-r6cfEcuuXeK0S_LLfVlwUArqu0TW2DdNZ5uNN3iA"
+              },
+              {
+                "alt": "Daniel sitting on a vibrant orange sofa in an office space.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQFYr3vn17fmLA/image-shrink_800/B56Z0_OkzOJsAg-/0/1774882278881?e=2147483647&v=beta&t=sev4s8kfu9OUsW62TWFO-ykCqm2u_n4TIPAClhp-Rkw"
+              },
+              {
+                "alt": "Daniel standing in front of a large \"G\" mural on a wall.",
+                "url": "https://media.licdn.com/dms/image/v2/D5610AQEos979LDY5qg/image-shrink_1280/B56Z0_Ok_4I8Ac-/0/1774882279810?e=2147483647&v=beta&t=9N8LAmHyu6dfPn7y5zE09DVXVCUHJijdi-qDzWmlEsQ"
+              }
+            ],
+            "posted_time": "Mon, 30 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "544"
+          },
+          {
+            "comments": "57",
+            "content": "Simra, a Google Recruiter in our NYC office, breaks down our interview process and shares her top tips on how to prepare. \n\nExplore our open roles \u2192https://goo.gle/4rx4sWX\u2026more",
+            "posted_time": "Sat, 28 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST",
+              "EMPATHY"
+            ],
+            "reactions": "1,179"
+          },
+          {
+            "comments": "73",
+            "content": "New month, new Gemini Drops \u2728 See what's new in the Gemini app \u2014 from transferring your chat history from other AI apps to creating 3 minute tracks.\n\nLearn more \u2192gemini.google/gemini-drops",
+            "posted_time": "Sat, 28 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "EMPATHY",
+              "PRAISE"
+            ],
+            "reactions": "893"
+          },
+          {
+            "comments": "148",
+            "content": "It\u2019s AI Literacy Day and we\u2019re making it easier than ever to use AI tools to reach your personal and professional goals. We developed the Google AI Professional Certificate to help you learn how to use generative AI at work \u2014 designed in collaboration with employers based on workplace skills they value most. It covers tips and tricks for using AI in areas like communication, research, data analysis, content generation, planning and organization, and vibe coding. \n\nLearn more about our AI training programs and get started today \u2193https://goo.gle/3NSVgOy",
+            "media": [
+              {
+                "alt": "Abstract black background featuring orange and blue geometric curve; the Google Career Certificates logo is in the bottom right; there is text overlay \u201cGet AI skills employers want\u201d with a GIF of potential course options.",
+                "url": "https://media.licdn.com/dms/image/v2/D5622AQEwOArZnqLnKA/feedshare-shrink_2048_1536/B56Z0vz.cdGYAg-/0/1774623663522?e=2147483647&v=beta&t=mDQcxgSFtTUZjO7mV-4td8qQ7lFM1qLCY6FA_0NiK4M"
+              }
+            ],
+            "posted_time": "Fri, 27 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "PRAISE",
+              "INTEREST"
+            ],
+            "reactions": "1,469"
+          },
+          {
+            "comments": "54",
+            "content": "Tax season is stressful enough without the added weight of potential cyber threats. From high-priority Gmail warning banners to scam detection alerts, we have a roster of tools designed to help you protect yourself from scammers. \n\nLearn more:https://goo.gle/4bUry41",
+            "posted_time": "Fri, 27 Mar 2026 15:56:07 GMT",
+            "reaction_types": [
+              "LIKE",
+              "INTEREST",
+              "EMPATHY"
+            ],
+            "reactions": "661"
+          }
+        ],
+        "url": "https://www.linkedin.com/company/google",
+        "website": "https://goo.gle/3DLEokh"
+      }
+    ],
+    "resolved_company_linkedin": "https://bn.linkedin.com/company/afry?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+    "resolved_person_linkedin": "https://ph.linkedin.com/in/venicepolicarpio"
+  },
+  "lead_before_enrichment": {
+    "business": "Unlocking transitions | AFRY",
+    "description": "# Unlocking transitions | AFRY ![Railway on a high bridge, forest with autumn leaves](https://afry.com/sites/default/files/styles/contained/public/2026-02/railway-bridge_forest.jpg?h=aed51c8b&itok=CGBWdpV5) Resilient solutions for reliable infrastructure By combining data insights, environmental expertise and multidisciplinary engineering across the project lifecycle, we help keep Europe moving.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://afry.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "",
+    "source_url": "https://afry.com",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "afry.com",
+    "source_urls": [
+      "https://afry.com"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Unlocking transitions | AFRY",
+    "description": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone. Check out our career opportunities at goo.gle/3DLEokh",
+    "full_name": "Venicepolicarpio",
+    "first": "Venicepolicarpio",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://afry.com",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "https://ph.linkedin.com/in/venicepolicarpio",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://bn.linkedin.com/company/afry?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+    "source_url": "https://afry.com",
+    "source_type": "company_site",
+    "hq_country": "United States",
+    "hq_state": "",
+    "hq_city": "London",
+    "country": "United States",
+    "state": "",
+    "city": "London",
+    "employee_count": "11-50",
+    "company_domain_canonical": "afry.com",
+    "source_urls": [
+      "https://afry.com"
+    ],
+    "title_raw": "founder",
+    "name_quality": "first_only",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://afry.com"
+  },
+  "field_changes": {
+    "city": {
+      "before": "",
+      "after": "London"
+    },
+    "company_linkedin": {
+      "before": "",
+      "after": "https://bn.linkedin.com/company/afry?trk=public_profile_experience-item_profile-section-card_subtitle-click"
+    },
+    "country": {
+      "before": "",
+      "after": "United States"
+    },
+    "description": {
+      "before": "# Unlocking transitions | AFRY ![Railway on a high bridge, forest with autumn leaves](https://afry.com/sites/default/files/styles/contained/public/2026-02/railway-bridge_forest.jpg?h=aed51c8b&itok=CGBWdpV5) Resilient solutions for reliable infrastructure By combining data insights, environmental expertise and multidisciplinary engineering across the project lifecycle, we help keep Europe moving.",
+      "after": "A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone. Check out our career opportunities at goo.gle/3DLEokh"
+    },
+    "first": {
+      "before": "",
+      "after": "Venicepolicarpio"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Venicepolicarpio"
+    },
+    "hq_city": {
+      "before": "",
+      "after": "London"
+    },
+    "hq_country": {
+      "before": "",
+      "after": "United States"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://ph.linkedin.com/in/venicepolicarpio"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://afry.com"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "first_only"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Venture Partner Consulting",
+  "lead": {
+    "business": "Venture Partner Consulting",
+    "full_name": "Venture Consulting",
+    "first": "Venture",
+    "last": "Consulting",
+    "email": "info@reachvcp.com",
+    "role": "Founder",
+    "website": "https://ventureconsultingpartners.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "India",
+    "state": "Gujarat",
+    "city": "Vadodara",
+    "source_url": "https://ventureconsultingpartners.com",
+    "description": "Venture Partner Consulting (VPC) is a consulting and innovation firm specializing in Cleantech, AgriTech, and climate-smart solutions. We support farms, agribusinesses, startups, and institutions in designing and deploying data-driven agricultural systems, combining IoT sensors, AI analytics, and digital agronomy to improve productivity, sustainability, and decision-making. VPC acts as a bridge between technology providers and field realities, helping international AgriTech solutions adapt, scale, and succeed in Morocco, Africa, and EMEA markets.",
+    "employee_count": "2-10",
+    "hq_country": "Agadir",
+    "hq_state": "Gujarat",
+    "hq_city": "Vadodara",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ma.linkedin.com/company/venturepartnerconsulting",
+    "linkedin": "https://linkedin.com/in/venture-consulting-992681362"
+  },
+  "source_failed_basename": "3e19f840adb0c2ad42fe8c833ebdb904e808f1d4f946377bfdfac43b7d0534d0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3e19f840adb0c2ad42fe8c833ebdb904e808f1d4f946377bfdfac43b7d0534d0.precheck_failed.json",
+  "queue_key": "48dbc712079b42a11633a3e40a4e5ab3e9010a7a37c4071f3fef05696e29a452"
+}

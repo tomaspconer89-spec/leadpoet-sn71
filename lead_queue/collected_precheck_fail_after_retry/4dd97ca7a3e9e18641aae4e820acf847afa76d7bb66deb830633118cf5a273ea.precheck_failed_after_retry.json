@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_region_format",
+  "retry_reason": "invalid_region_format",
+  "previous_reason": "name_invalid_chars: last contains invalid characters",
+  "business": "Very Good Advisors",
+  "lead": {
+    "business": "Very Good Advisors",
+    "full_name": "Olga Zubareva",
+    "first": "Olga",
+    "last": "Zubareva",
+    "email": "olga@verygoodadvisors.com",
+    "role": "Business Development Director",
+    "website": "http://verygoodadvisors.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "Portugal",
+    "state": "Set\u00fabal",
+    "city": "Set\u00fabal",
+    "source_url": "https://verygoodadvisors.com",
+    "description": "We help tech companies accelerate growth by developing winning strategies, finding product-market fit, and raising capital. We help investors make prudent investment decisions by performing due diligence and determining a target's full potential. We help tech companies (1) Develop a strategic plan, (2) Build a financial model, (3) Analyze markets and competitors, (4) Prepare a pitch deck and engage with investors, (5) Submit applications for grants, accelerators, incubators, (6) Build a Minimum Viable Product (MVP), (7) Safe R&D costs by hiring software development teams in Eastern Europe.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/very-good-advisors",
+    "linkedin": "https://linkedin.com/in/olga-zubareva-6a76081b7"
+  },
+  "source_failed_basename": "c05890bb9a5d9040c58494d4e013df42a82f9799c66d3ffcb8deb895919b0344.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/c05890bb9a5d9040c58494d4e013df42a82f9799c66d3ffcb8deb895919b0344.precheck_failed.json",
+  "queue_key": "4dd97ca7a3e9e18641aae4e820acf847afa76d7bb66deb830633118cf5a273ea"
+}

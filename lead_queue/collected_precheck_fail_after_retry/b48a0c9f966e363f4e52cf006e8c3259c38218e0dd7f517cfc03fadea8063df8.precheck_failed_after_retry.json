@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "name_not_in_email",
+  "business": "You are launched",
+  "lead": {
+    "business": "You are launched",
+    "full_name": "Stephen Waters",
+    "first": "Stephen",
+    "last": "Waters",
+    "email": "i@urlaunched.com",
+    "role": "Technical Product Manager (AI & LLMs)",
+    "website": "https://www.urlaunched.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "South Africa",
+    "state": "Western Cape",
+    "city": "Cape Town",
+    "source_url": "https://urlaunched.com",
+    "description": "\u2139\ufe0fABOUT US: We are the Lean Startup Evangelists who are after your budget saving through wise development (and not price/rate damping). For the last 3 years, we launched over 70 startups and 20 of them could get to a profit zone. This means, that the success probability is x95 more than the average number on the market. \u261d\ufe0fOUTLOOK: Our partners are getting into accelerations: - YC Startup School; - FB Start; - Millenials Menorca; - Tech Stars; Our partners are raising funds and Grants from: - Facebook; - European Union; - Amazon; - Paul Hamlyn Foundation. \ud83e\udd47ACHIEVEMENTS:",
+    "employee_count": "11-50",
+    "hq_country": "Limassol",
+    "hq_state": "Texas",
+    "hq_city": "Limassol Municipality",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/urlaunched",
+    "linkedin": "https://linkedin.com/in/stephenwatersinspired"
+  },
+  "source_failed_basename": "1ea72648d1f48f73060ec7829eb987e60d5bf55abcc7ee50cf2b8c350c9b1bb2.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/1ea72648d1f48f73060ec7829eb987e60d5bf55abcc7ee50cf2b8c350c9b1bb2.precheck_failed.json",
+  "queue_key": "b48a0c9f966e363f4e52cf006e8c3259c38218e0dd7f517cfc03fadea8063df8"
+}

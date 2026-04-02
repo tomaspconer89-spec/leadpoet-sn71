@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "email_domain_mismatch",
+  "business": "Financial Consulting Strategies LLC",
+  "lead": {
+    "business": "Financial Consulting Strategies LLC",
+    "full_name": "Lisa Petrie",
+    "first": "Lisa",
+    "last": "Petrie",
+    "email": "lisa.petrie@thepetriegroup.com",
+    "role": "Contact",
+    "website": "https://www.fcstrategiesllc.com/",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "New Jersey",
+    "city": "Glen Rock",
+    "source_url": "https://tsgwm.com",
+    "description": "Financial Consulting Strategies, LLC (\"FCS\") is a fast growing financial consulting firm that provides CFO and financial accounting reporting services to fast growing large and small client companies. FCS provides a broad range of accounting, financial reporting, and pre-audit expertise to a variety of clients from diverse industries. We go beyond the numbers to handle accounting and financial challenges with top-quality service based on more than 30 years of experience.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "New Jersey",
+    "hq_city": "Glen Rock",
+    "source_type": "search_result",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/financial-consulting-strategies-llc"
+  },
+  "source_failed_basename": "60912169688c56807770fcd00ae87d62b494988fe5d2e79191449ba6e0bb42d7.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/60912169688c56807770fcd00ae87d62b494988fe5d2e79191449ba6e0bb42d7.precheck_failed.json",
+  "queue_key": "25a23113ef72ec78f54ef425d436088854b36ecfe836e3dbcf1f4e1cc194bbd2"
+}

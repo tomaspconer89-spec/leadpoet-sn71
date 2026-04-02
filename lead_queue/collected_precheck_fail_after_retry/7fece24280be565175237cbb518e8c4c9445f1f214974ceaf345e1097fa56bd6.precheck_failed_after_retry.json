@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: last, email, country, city",
+  "business": "Startup Accelerator",
+  "lead": {
+    "business": "Startup Accelerator",
+    "full_name": "Wil Schroter",
+    "first": "Wil",
+    "last": "Schroter",
+    "email": "",
+    "role": "Founder + CEO",
+    "website": "https://www.startupaccelerator.nl",
+    "industry": "Administrative Services",
+    "sub_industry": "Human Resources",
+    "country": "United States",
+    "state": "Ohio",
+    "city": "Columbus",
+    "source_url": "https://startups.com",
+    "description": "Startup Accelerator has been established to help you startup your freelance career in DataOps, MLOps & GitOps consultancy, including a project of your choice. Since 2018, we\u2019ve worked with Data and AI professionals to find consultancy roles they love at companies such as KLM, ING, Vattenfall, and the Randstad Group, in fields including Machine Learning Engineering, Data Engineering, Cloud Engineering, SRE, and Platform Engineering. In our vision, freelance consultants or contractors can still be The Future of Work. That\u2019s a difficult step for some to take, but we\u2019ve found a solution.",
+    "employee_count": "2-10",
+    "hq_country": "North Holland",
+    "hq_state": "Ohio",
+    "hq_city": "Amsterdam",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://nl.linkedin.com/company/startupaccelerator",
+    "linkedin": "https://linkedin.com/in/wilschroter"
+  },
+  "source_failed_basename": "481894421f24cba64f3cf4a5815bb1f55110299807758f08a0fac894e70528d3.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/481894421f24cba64f3cf4a5815bb1f55110299807758f08a0fac894e70528d3.precheck_failed.json",
+  "queue_key": "7fece24280be565175237cbb518e8c4c9445f1f214974ceaf345e1097fa56bd6"
+}

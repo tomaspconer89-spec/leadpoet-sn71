@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "AKIF CPA",
+  "lead": {
+    "business": "AKIF CPA",
+    "full_name": "Mohammad Akif, Author, MBA, Tax Pro, CPA (USA), CA (CANADA)",
+    "first": "Mohammad",
+    "last": "Akif, Author, MBA, Tax Pro, CPA (USA), CA (CANADA)",
+    "email": "",
+    "role": "Founder",
+    "website": "https://linktr.ee/akifcpa",
+    "industry": "Professional Services",
+    "sub_industry": "Accounting",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Mississauga",
+    "source_url": "https://akifcpa.com",
+    "description": "We are a Solution Focused and Relationship Driven Firm. With Office in both Houston and Toronto servicing business and Individual in the US and around the world. Tax Accounting and Bookkeeping Business Advisory and Valuation Cross-Border and Internation Tax Anti-Money Laundering Payroll Management",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Texas",
+    "hq_city": "Houston",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/akif-cpa-pllc",
+    "linkedin": "https://linkedin.com/in/mohammad-akif"
+  },
+  "source_failed_basename": "3fbd0e1217b58b4e18407c0a12573c7c829b8a26ec0821aca7f5e1cb8cff3b3d.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3fbd0e1217b58b4e18407c0a12573c7c829b8a26ec0821aca7f5e1cb8cff3b3d.precheck_failed.json",
+  "queue_key": "61dda535b927bef9f91fe1dc3686e89e5782310a609473278550ab11013894e1"
+}

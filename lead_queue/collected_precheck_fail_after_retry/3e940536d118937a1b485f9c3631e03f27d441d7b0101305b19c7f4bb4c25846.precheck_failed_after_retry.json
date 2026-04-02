@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: linkedin",
+  "business": "Empowered Startups",
+  "lead": {
+    "business": "Empowered Startups",
+    "full_name": "Info Lead",
+    "first": "Info",
+    "last": "Lead",
+    "email": "info@matrixventurestudio.com",
+    "role": "Contact",
+    "website": "http://empoweredstartups.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "",
+    "city": "Vancouver",
+    "source_url": "https://matrixventurestudio.com",
+    "description": "Empowered Startups is an innovative startup incubator and foundry focused on innovation and transnational migration. Headquartered in Vancouver, British Columbia, Canada, with offices in Canada, France, the US, and Portugal, we train, mentor, and network entrepreneurs to successfully launch new innovative businesses in diverse markets and bring immediate value to local ecosystems. Empowered Startups is recognized by the Canadian Government as a designated startup business incubator and by the Portuguese government as a critical strategic partner.",
+    "employee_count": "11-50",
+    "hq_country": "British Columbia",
+    "hq_state": "",
+    "hq_city": "Vancouver",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/empoweredstartups"
+  },
+  "source_failed_basename": "6b97a9dacc5c9b1c8e1d69d245da4e4671f056ba40a93d753dfb3ced874d4ef6.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/6b97a9dacc5c9b1c8e1d69d245da4e4671f056ba40a93d753dfb3ced874d4ef6.precheck_failed.json",
+  "queue_key": "3e940536d118937a1b485f9c3631e03f27d441d7b0101305b19c7f4bb4c25846"
+}

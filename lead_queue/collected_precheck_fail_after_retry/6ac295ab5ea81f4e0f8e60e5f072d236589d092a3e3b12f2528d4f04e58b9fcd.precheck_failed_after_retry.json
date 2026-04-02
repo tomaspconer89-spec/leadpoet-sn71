@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "general_purpose_email:help@",
+  "business": "GUIDEcx",
+  "lead": {
+    "business": "GUIDEcx",
+    "full_name": "Help Lead",
+    "first": "Help",
+    "last": "Lead",
+    "email": "help@onboardmeetings.com",
+    "role": "Contact",
+    "website": "https://www.guidecx.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "Utah",
+    "city": "Lehi",
+    "source_url": "https://onboardmeetings.com",
+    "description": "GUIDEcx is a client onboarding and implementation platform that keeps your clients at the center of every project by providing complete visibility into setup progress. \u2022 Invite everyone to the project\u2014internal resources, customer teams, and third-party vendors. \u2022 Guide each step and stay on track with automated tasks, reminders, and updates. \u2022 Engage teams by enabling them to interact with the project in the way they prefer. They can complete tasks, view status, send updates, make notes, and more \u2014through the portal, email, or mobile app.",
+    "employee_count": "51-200",
+    "hq_country": "United States",
+    "hq_state": "Utah",
+    "hq_city": "Lehi",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/guidecx"
+  },
+  "source_failed_basename": "480d0883bccf1f2af46733f389dc5f7527de07a7b42b85b2af2da3aa6a338750.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/480d0883bccf1f2af46733f389dc5f7527de07a7b42b85b2af2da3aa6a338750.precheck_failed.json",
+  "queue_key": "6ac295ab5ea81f4e0f8e60e5f072d236589d092a3e3b12f2528d4f04e58b9fcd"
+}

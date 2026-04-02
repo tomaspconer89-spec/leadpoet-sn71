@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "general_purpose_email:info@",
+  "business": "Evolved Ideas",
+  "lead": {
+    "business": "Evolved Ideas",
+    "full_name": "Aaron Shoon",
+    "first": "Aaron",
+    "last": "Shoon",
+    "email": "",
+    "role": "Fractional Head of GTM, Enterprise",
+    "website": "https://www.evolved-ideas.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "New York",
+    "city": "Hastings-On-Hudson",
+    "source_url": "https://devsquad.com",
+    "description": "Evolved Ideas is a trusted long-term partner of startups, scale-ups and enterprises. Evolved ideas is synonymous with not just building technology but building businesses designed for scale. Headquartered in the UK with 3+ offices, Evolved Ideas provides access to more than 100 engineers and growing, we equip technology leaders with the top engineering talent from some of the world\u2019s most respected tech hubs. Our teams work hand-in-hand with our clients\u2019 in-house teams to advise and execute their product vision to accelerate their roadmap, innovate faster and more efficiently.",
+    "employee_count": "51-200",
+    "hq_country": "England",
+    "hq_state": "New York",
+    "hq_city": "Leicester",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://uk.linkedin.com/company/evolved-ideas",
+    "linkedin": "https://linkedin.com/in/aaronshoon"
+  },
+  "source_failed_basename": "733163b6c3296eaaf88a159a07d62296d4bc06c4cb555a74b25fe49ce785daa5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/733163b6c3296eaaf88a159a07d62296d4bc06c4cb555a74b25fe49ce785daa5.precheck_failed.json",
+  "queue_key": "04c5991ecd483d0b564f12e8c6e6ab1aaf12698f9db6609710897952f88ca010"
+}

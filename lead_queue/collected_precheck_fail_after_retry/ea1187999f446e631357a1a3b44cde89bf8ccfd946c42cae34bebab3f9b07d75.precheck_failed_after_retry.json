@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Hamptons Group",
+  "lead": {
+    "business": "Hamptons Group",
+    "full_name": "Group Lead",
+    "first": "Group",
+    "last": "Lead",
+    "email": "group-1297@2x-1200x711-1-1024x432.jpg",
+    "role": "Contact",
+    "website": "http://www.hamptonsgroup.com",
+    "industry": "Financial Services",
+    "sub_industry": "Venture Capital",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Asia Pacific and operating globally.Read",
+    "source_url": "https://hamptonsgroup.com",
+    "description": "Hamptons Group is a privately held alternative investment and advisory firm headquartered in Miami with offices in Florida, New York, and California. The firm has a global platform with assets, investments, projects, and clients across multiple sectors, industries, geographies, and asset classes in the United States and worldwide. Hamptons Group\u2019s business segments include Private Capital, through equity, credit, and venture capital; Ventures, focused on launching start-ups and operating hybrid start-ups; Catalyst, emphasizing social and environmental impact investments;",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Coral Gables",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hamptons-group-llc"
+  },
+  "source_failed_basename": "ba5f06546f92b5613acbf625778c4aa0a1f5d7d0257ce16215e917604ccd9365.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/ba5f06546f92b5613acbf625778c4aa0a1f5d7d0257ce16215e917604ccd9365.precheck_failed.json",
+  "queue_key": "ea1187999f446e631357a1a3b44cde89bf8ccfd946c42cae34bebab3f9b07d75"
+}

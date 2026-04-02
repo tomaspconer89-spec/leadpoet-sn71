@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "UITOP - B2B software development and product design",
+  "lead": {
+    "business": "UITOP - B2B software development and product design",
+    "full_name": "Dave Siegel",
+    "first": "Dave",
+    "last": "Siegel",
+    "email": "",
+    "role": "Manager, Experience Design",
+    "website": "https://uitop.design/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "United States",
+    "state": "California",
+    "city": "San Francisco",
+    "source_url": "https://charisol.io",
+    "description": "We are a software development company with UX-first approach specializing in high-complexity B2B systems for industrial ecosystems. We deliver mission-critical software solutions built to digitize and optimize physical operations, asset-heavy industries, and global value chains. Our achievements: Optimized operational workflows saving clients $1.1M+ via scalable, modular software architecture. Built long-term trust, with 71% of partners integrating us as their core product team for 2+ years. Delivered $25.3M in yearly revenue impact through strategic B2B systems.",
+    "employee_count": "51-200",
+    "hq_country": "Tallinn",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/charisoltech",
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/uitop",
+    "linkedin": "https://linkedin.com/in/dasiegel"
+  },
+  "source_failed_basename": "61c840ac8d7fe465ae3f78d647f9037d5bd8d8c7bf7bc5b4ab6a56f09d10dd8f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/61c840ac8d7fe465ae3f78d647f9037d5bd8d8c7bf7bc5b4ab6a56f09d10dd8f.precheck_failed.json",
+  "queue_key": "2e8cda409f09e8b7266cbf48dccf4bd412819b23049a498e252633f38bebd7b6"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Connect Agency",
+  "lead": {
+    "business": "Connect Agency",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "http://theconnectagency.com",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "source_url": "https://theconnectagency.com",
+    "description": "Most businesses have one person handling all marketing. It's unrealistic to expect any one person to be an expert in everything, let alone have the bandwidth to do it all. Connect Agency exists to make it easy for businesses to make sense of everything going on in their market and with their customers, develop effective plans, and take action. And behind the scenes we put our team of experts to work, ensuring marketing channels and budgets are maximized, customers are delighted, and guidance and support is provided at each step.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "Florida",
+    "hq_city": "Jacksonville",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/the-connect-agency"
+  },
+  "source_failed_basename": "7463f14b7556a660897fb4f108a80723719e33a90a1a8eca9cc0efc046f0f61a.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/7463f14b7556a660897fb4f108a80723719e33a90a1a8eca9cc0efc046f0f61a.precheck_failed.json",
+  "queue_key": "5fffbc07c711f121b37db80c1db38c76f870b433b59bb0861973c063d09bea23"
+}

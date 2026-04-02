@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Home.LLC",
+  "lead": {
+    "business": "Home.LLC",
+    "full_name": "Heather Taylor",
+    "first": "Heather",
+    "last": "Taylor",
+    "email": "nabe@nabe.com",
+    "role": "Founder, Designer",
+    "website": "http://www.home.llc",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "source_url": "https://nabe.com",
+    "description": "\ud83c\udfe0 Home Equity Investments: Extract up to $500K from your home equity \ud83c\udfaf Homie.LLC: Achieve your goals with world class talent from $20/hr \ud83d\udcb0 Home Equity Funds: Generate strong risk-adjusted returns",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "San Francisco",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/hoominc",
+    "linkedin": "https://linkedin.com/in/heather-taylor-2203597"
+  },
+  "source_failed_basename": "8b8c07f01a5db1c5558007ebf7994267b639b8f537916b110c8fb28fe5995bd0.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8b8c07f01a5db1c5558007ebf7994267b639b8f537916b110c8fb28fe5995bd0.precheck_failed.json",
+  "queue_key": "e4f053c1f3dd2da64442e879d93ca8459c579ea347519794d3134f002a2fbb4e"
+}

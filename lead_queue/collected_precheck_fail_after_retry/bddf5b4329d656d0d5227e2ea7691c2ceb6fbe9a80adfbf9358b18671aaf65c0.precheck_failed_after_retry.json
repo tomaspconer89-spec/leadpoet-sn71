@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: email, country, city",
+  "business": "Bizidex",
+  "lead": {
+    "business": "Bizidex",
+    "full_name": "Jenny Walzman",
+    "first": "Jenny",
+    "last": "Walzman",
+    "email": "",
+    "role": "Founder",
+    "website": "https://bizidex.com/",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "Israel",
+    "state": "Tel Aviv District",
+    "city": "Or Yehuda",
+    "source_url": "https://bizidex.com",
+    "description": "# Find and be Found with Bizidex Popular Categories ## Browse Top Categories Featured Listings ## Bizidex in United States New in Bizidex ## New in United States Latest News ## News and Updates #### [Advertising The Basics](https://bizidex.com/blog/advertising-the-basics) Advertising is a marketing strategy that helps you market your business to increase sales, get new customers, or make your target audience aware about your products and services.",
+    "employee_count": "11-50",
+    "hq_country": "Israel",
+    "hq_state": "Tel Aviv District",
+    "hq_city": "Or Yehuda",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/bizidex",
+    "linkedin": "https://linkedin.com/in/jenny-walzman-6a8464103"
+  },
+  "source_failed_basename": "74ae4c35ac35ca1350c66b77a492d5356a3174829c720785e99bcf4655c326bb.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/74ae4c35ac35ca1350c66b77a492d5356a3174829c720785e99bcf4655c326bb.precheck_failed.json",
+  "queue_key": "bddf5b4329d656d0d5227e2ea7691c2ceb6fbe9a80adfbf9358b18671aaf65c0"
+}

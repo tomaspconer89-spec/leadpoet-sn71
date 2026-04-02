@@ -1,0 +1,42 @@
+{
+  "reason": "invalid_hq_country_for_usa",
+  "retry_reason": "invalid_hq_country_for_usa",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, country, city, linkedin",
+  "business": "Liberty Consulting and Management",
+  "lead": {
+    "business": "Liberty Consulting and Management",
+    "full_name": "Gent Ademaj",
+    "first": "Gent",
+    "last": "Ademaj",
+    "email": "gentademaj@libertyconsultingandmanagement.com",
+    "role": "Director Of Operations",
+    "website": "https://www.libertyconsultingandmanagement.com/",
+    "industry": "Advertising",
+    "sub_industry": "Advertising",
+    "country": "United States",
+    "state": "New York",
+    "city": "New York",
+    "source_url": "https://libertyconsultingandmanagement.com",
+    "description": "We pride ourselves on being an organization that is known for working with some of the most renowned businesses and sharing a healthy relationship with them while steadily building new ones.",
+    "employee_count": "11-50",
+    "hq_country": "New York",
+    "hq_state": "New York",
+    "hq_city": "New York",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/liberty-consulting-management",
+    "linkedin": "https://linkedin.com/in/gent-ademaj-2a250b1b0"
+  },
+  "source_failed_basename": "999ca12bdbed7e5d292190c20f1685e8ec804302f95c0320c6464ea62f2b8f8f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/999ca12bdbed7e5d292190c20f1685e8ec804302f95c0320c6464ea62f2b8f8f.precheck_failed.json",
+  "queue_key": "c05f5aecfda19dfc2229421c067a78a43652a3cfb0b90638150b282777a9df81"
+}

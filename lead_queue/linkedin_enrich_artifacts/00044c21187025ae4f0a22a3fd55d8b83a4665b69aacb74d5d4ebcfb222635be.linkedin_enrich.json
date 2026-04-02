@@ -1,0 +1,1218 @@
+{
+  "saved_at_utc": "2026-04-01T14:36:26.056937+00:00",
+  "queue_key": "00044c21187025ae4f0a22a3fd55d8b83a4665b69aacb74d5d4ebcfb222635be",
+  "business": "Association of Fundraising Professionals",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Association of Fundraising Professionals",
+      "Association of Fundraising Professionals linkedin company",
+      "site:linkedin.com/company afpnet.org",
+      "site:linkedin.com/in \"Association of Fundraising Professionals\" founder",
+      "site:linkedin.com/in \"Association of Fundraising Professionals\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "WICDbydcoqaoryk",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Association+of+Fundraising+Professionals",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Association+of+Fundraising+Professionals",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Association of Fundraising Professionals",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Association+of+Fundraising+Professionals",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Association+of+Fundraising+Professionals",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://www.linkedin.com/company/afpglobal",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Elizabeth Wagner, CFRE",
+            "description": "AFP supports ethical fundraising through professional education, networking, research and advocacy.Read more",
+            "emphasizedKeywords": [
+              "AFP supports ethical fundraising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP) Silicon ...",
+            "url": "https://www.linkedin.com/company/afpsv",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP) Silicon Valley Chapter",
+            "description": "The Association of Fundraising Professionals Silicon Valley Chapter consists of over 300 members working to advance philanthropy through education, advocacy,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "consists of over 300 members"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "960+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "New York City Chapter (AFP-NYC)",
+            "url": "https://www.linkedin.com/company/nycafp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals - New York City Chapter (AFP-NYC)",
+            "description": "Founded in 1960 as the National Society of Fund Raisers, AFP fosters development and growth of fundraising professionals and promotes high ethical standards in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "fosters development and growth of fundraising professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.7K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Association of Fundraising Professionals Massachusetts ...",
+            "url": "https://www.linkedin.com/company/afp-massachusetts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals Massachusetts Chapter (AFP MA)",
+            "description": "The Association of Fundraising Professionals is an individual member association that advances and promotes philanthropy through education, training and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "an individual member association"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.1K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Association of Fundraising Professionals Chicago Chapter",
+            "url": "https://www.linkedin.com/company/afpchicago",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals Chicago Chapter",
+            "description": "The Association of Fundraising Professionals empowers individuals and organizations to practice ethical fundraising through professional education,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "empowers individuals and organizations to practice ethical fundraising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Association of Fundraising Professionals, Golden Gate ...",
+            "url": "https://www.linkedin.com/company/association-of-fundraising-professionals---golden-gate-chapter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals, Golden Gate Chapter (AFP Golden Gate)",
+            "description": "AFP Golden Gate is one of the largest chapters of the Association of Fundraising Professionals, serving the Bay Area's diverse nonprofit community.Read more",
+            "emphasizedKeywords": [
+              "AFP Golden Gate"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP-DC ...",
+            "url": "https://www.linkedin.com/company/afp-dc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP-DC) Washington, DC Metro Area Chapter",
+            "description": "The Washington DC Metro Area Chapter of the Association of Fundraising Professionals (AFP DC) is one of the largest and most active chapters in the nation.Read more",
+            "emphasizedKeywords": [
+              "one of the largest and most active chapters in the nation"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://pr.linkedin.com/company/afpglobal?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP Global)",
+            "description": "Since 1960, AFP has inspired global change and supported efforts that generated over $1 trillion. AFP's nearly 30,000 individual and organizational members\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Association of Fundraising Professionals - St. Louis ...",
+            "url": "https://www.linkedin.com/company/afpstl",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals - St. Louis Regional Chapter",
+            "description": "At AFP St. Louis, we are committed to promoting philanthropy in our region and strengthening local nonprofits. We do this by empowering dedicated nonprofit\u00a0...Read more",
+            "emphasizedKeywords": [
+              "promoting philanthropy in our region and strengthening local nonprofits"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.2K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Association of Fundraising Professionals, Greater Atlanta ...",
+            "url": "https://www.linkedin.com/company/afpgreateratl",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Camp Twin Lakes",
+            "description": "We promote professional development, networking and volunteer opportunities for those working in the fundraising arena.Read more",
+            "emphasizedKeywords": [
+              "professional development, networking and volunteer opportunities"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/oRRpTrUVeksRqmvlF/records/WICDbydcoqaoryk-0.html?signature=1rKHJwmB0L8Ca3aqjTZ3x"
+      },
+      {
+        "#debug": {
+          "requestId": "KdSUb0jk0ukM93R",
+          "url": "http://www.google.com/search?q=Association+of+Fundraising+Professionals+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Association+of+Fundraising+Professionals+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Association of Fundraising Professionals linkedin company",
+          "url": "http://www.google.com/search?q=Association+of+Fundraising+Professionals+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Association+of+Fundraising+Professionals+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Association of fundraising professionals linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+linkedin+company+california&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Association of fundraising professionals logo",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+logo&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg4EAE"
+          },
+          {
+            "title": "AFP Association of fundraising professionals",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=AFP+Association+of+fundraising+professionals&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg5EAE"
+          },
+          {
+            "title": "Association of fundraising Professionals 990",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+Professionals+990&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Association of fundraising professionals Code of Ethics",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+Code+of+Ethics&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg2EAE"
+          },
+          {
+            "title": "Association of fundraising professionals San Antonio",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+San+Antonio&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Association of Fundraising professionals Houston",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+Fundraising+professionals+Houston&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Association of fundraising professionals St louis",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+St+louis&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAgzEAE"
+          },
+          {
+            "title": "Association of fundraising professionals linkedin company california",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+linkedin+company+california&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg0EAE"
+          },
+          {
+            "title": "Association of fundraising professionals logo",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+logo&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg4EAE"
+          },
+          {
+            "title": "AFP Association of fundraising professionals",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=AFP+Association+of+fundraising+professionals&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg5EAE"
+          },
+          {
+            "title": "Association of fundraising Professionals 990",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+Professionals+990&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg3EAE"
+          },
+          {
+            "title": "Association of fundraising professionals Code of Ethics",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+Code+of+Ethics&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg2EAE"
+          },
+          {
+            "title": "Association of fundraising professionals San Antonio",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+San+Antonio&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAg1EAE"
+          },
+          {
+            "title": "Association of Fundraising professionals Houston",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+Fundraising+professionals+Houston&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAgyEAE"
+          },
+          {
+            "title": "Association of fundraising professionals St louis",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+St+louis&sa=X&ved=2ahUKEwiC6uPi78yTAxUlL0QIHVE4J28Q1QJ6BAgzEAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://www.linkedin.com/company/afpglobal",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Elizabeth Wagner, CFRE",
+            "description": "AFP supports ethical fundraising through professional education, networking, research and advocacy.Read more",
+            "emphasizedKeywords": [
+              "AFP supports ethical fundraising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP-DC ...",
+            "url": "https://www.linkedin.com/company/afp-dc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP-DC) Washington, DC Metro Area Chapter",
+            "description": "We focus on delivering innovative educational programs and events to help you reach your goals. AFP DC is your link to professional networking breakfasts;\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.3K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Fundraising and Development on LinkedIn: A Guide for ...",
+            "url": "https://afpglobal.org/fundraising-and-development-linkedin-guide-nonprofits",
+            "displayedUrl": "https://afpglobal.org \u203a fundraising-and-development-lin...",
+            "description": "LinkedIn can be a great platform for fundraising and development professionals to find and engage with donors, board members, and other groups and individuals.Read more",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Leveraging LinkedIn for Marketing: A Guide for Nonprofits",
+            "url": "https://afpglobal.org/leveraging-linkedin-marketing-guide-nonprofits",
+            "displayedUrl": "https://afpglobal.org \u203a leveraging-linkedin-marketing-g...",
+            "description": "LinkedIn is not only a great marketing asset for nonprofits but it also provides features that can enhance your approaches to fundraising and donor engagement.Read more",
+            "date": "2023-12-07T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP) Silicon ...",
+            "url": "https://www.linkedin.com/company/afpsv",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP) Silicon Valley Chapter",
+            "description": "AFP Silicon Valley Chapter is the premier source for Fundraising education, Professional Development opportunities and peer-to-peer networking in the Bay Area.Read more",
+            "emphasizedKeywords": [
+              "AFP Silicon Valley Chapter"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "960+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Association of Fundraising Professionals, Golden Gate ...",
+            "url": "https://www.linkedin.com/company/association-of-fundraising-professionals---golden-gate-chapter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals, Golden Gate Chapter (AFP Golden Gate)",
+            "description": "Our 400+ members include fundraisers, board members, and sector leaders committed to ethical fundraising, professional development, and inclusive networking. We\u00a0...Read more",
+            "emphasizedKeywords": [
+              "fundraising",
+              "professional"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "New York City Chapter (AFP-NYC)",
+            "url": "https://www.linkedin.com/company/nycafp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals - New York City Chapter (AFP-NYC)",
+            "description": "Founded in 1960 as the National Society of Fund Raisers, AFP fosters development and growth of fundraising professionals and promotes high ethical standards in\u00a0...Read more",
+            "emphasizedKeywords": [
+              "fosters development and growth of fundraising professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Benefits & Resources",
+            "url": "https://afpglobal.org/benefits",
+            "displayedUrl": "https://afpglobal.org \u203a benefits",
+            "description": "Stay connected through AFP's social media platforms, including LinkedIn, Facebook, X, YouTube, Instagram, and benefit from shared expertise, resources, and peer\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Stay connected through AFP's social media platforms, including LinkedIn"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "History of the Association of Fundraising Professionals",
+            "url": "https://afpglobal.org/history-association-fundraising-professionals",
+            "displayedUrl": "https://afpglobal.org \u203a history-association-fundraising-p...",
+            "description": "The American Association of Fund Raising Counsel (AAFRC) had represented fundraising firms for 25 years, and many local fundraising organizations existed.Read more",
+            "emphasizedKeywords": [
+              "Association of Fund Raising",
+              "fundraising",
+              "fundraising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "AFP Membership FAQ",
+            "url": "https://afpglobal.org/afp-membership-faq",
+            "displayedUrl": "https://afpglobal.org \u203a afp-membership-faq",
+            "description": "Have questions about AFP membership? The FAQs below should answer them. If you have more, please contact the Member/Chapter Services Department at AFP Global.Read more",
+            "emphasizedKeywords": [
+              "AFP",
+              "AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/9PllZUEdpbpGavjg7/records/KdSUb0jk0ukM93R-0.html?signature=mz6XBUTOJh7aQEFFn6qA"
+      },
+      {
+        "#debug": {
+          "requestId": "Ng2E4FPZLYL8k7Z",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afpnet.org",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afpnet.org",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company afpnet.org",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afpnet.org",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+afpnet.org",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://www.linkedin.com/company/afpglobal",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Elizabeth Wagner, CFRE",
+            "description": "AFP supports ethical fundraising through professional education, networking, research and advocacy.Read more",
+            "emphasizedKeywords": [
+              "AFP supports ethical fundraising"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://cl.linkedin.com/company/afpglobal?trk=public_profile_profile-section-card_subtitle-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP Global)",
+            "description": "Since 1960, AFP has inspired global change and supported efforts that generated over $1 trillion. AFP's nearly 30,000 individual and organizational members\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Association of Fundraising Professionals, Western MA ...",
+            "url": "https://www.linkedin.com/company/association-of-fundraising-professionals-western-ma-chapter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Adria Giordano",
+            "description": "The Association of Fundraising Professionals (AFP) Western MA Chapter provides professional development and networking opportunities for fund raising\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides professional development and networking opportunities"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Professional Fundraisers",
+            "url": "https://www.linkedin.com/company/professional-fundraisers",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a professional-fun...",
+            "description": "Website: http://www.afpnet.org/. External link for Professional Fundraisers ; Industry: Fundraising ; Company size: 11-50 employees ; Headquarters: Arlington, VA\u00a0...",
+            "emphasizedKeywords": [
+              "Website: http://www.afpnet.org"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "New York City Chapter (AFP-NYC)",
+            "url": "https://www.linkedin.com/company/nycafp",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals - New York City Chapter (AFP-NYC)",
+            "description": "The Association of Fundraising Professionals (AFP) represents nearly 31,000 members in more than 200 chapters throughout the world, working to advance\u00a0...Read more",
+            "emphasizedKeywords": [
+              "represents nearly 31,000 members in more than 200 chapters"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.7K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Association for Financial Professionals",
+            "url": "https://www.linkedin.com/company/association-for-financial-professionals",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association for Financial Professionals",
+            "description": "The Association for Financial Professionals (AFP) is the professional society committed to advancing the success of treasury and finance members and their\u00a0...Read more",
+            "emphasizedKeywords": [
+              "The Association for Financial Professionals (AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "58.2K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://fr.linkedin.com/company/afpglobal?trk=public_profile_topcard-current-company",
+            "displayedUrl": "https://fr.linkedin.com \u203a company \u203a afpglobal",
+            "description": "Since 1960, AFP has inspired global change and supported efforts that generated over $1 trillion. AFP's nearly 30,000 individual and organizational members\u00a0...",
+            "emphasizedKeywords": [
+              "AFP"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Association of Fundraising Professionals - Memphis Chapter",
+            "url": "https://www.linkedin.com/company/association-of-fundraising-professionals-memphis-chapter",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals - Memphis Chapter",
+            "description": "Founded in 1960, AFP advances philanthropy through its more than 30,000 members in 227 chapters throughout the world. The Memphis Chapter was founded in 1985\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AFP advances philanthropy through its more than 30,000 members"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "180+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Association of Fundraising Professionals (AFP Global)",
+            "url": "https://pr.linkedin.com/company/afpglobal?trk=public_profile_profile-section-card_subtitle-click",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Association of Fundraising Professionals (AFP Global)",
+            "description": "Sitio web: http://www.afpglobal.org. Enlace externo para Association of Fundraising Professionals (AFP Global) ; Sector: Organizaciones sin \u00e1nimo de lucro.Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals (AFP Global"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "116.9K+ followers",
+            "type": "organic",
+            "position": 9
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/1HOopc8GqvEqSl9VF/records/Ng2E4FPZLYL8k7Z-0.html?signature=Dk0JAaqNxhNr5rQ8ZsvL"
+      },
+      {
+        "#debug": {
+          "requestId": "8jQwLRbneufGUfl",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+founder",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+founder",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Association of Fundraising Professionals\" founder",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+founder",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+founder",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Birgit Smith Burton - Association of Fundraising ...",
+            "url": "https://www.linkedin.com/in/birgit-smith-burton",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Birgit Smith Burton",
+            "description": "Birgit Smith Burton. Association of Fundraising Professionals (AFP Global) Medaille College. Atlanta, Georgia, United States.Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Atlanta, Georgia, United States",
+              "companyName": "Association of Fundraising Professionals (AFP Global)",
+              "rawText": "Atlanta, Georgia, United States \u00b7 Association of Fundraising Professionals (AFP Global)"
+            },
+            "followersAmount": "5.8K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Karen S. Cochran, CFRE - Founder and Chief ...",
+            "url": "https://www.linkedin.com/in/karen-cochran",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Karen S. Cochran, CFRE",
+            "description": "Founder and Chief Philanthropic Innovator | Forbes Nonprofit Council Member | AFP ... Association of Fundraising Professionals (AFP Global) \u00b7 Education\u00a0...",
+            "emphasizedKeywords": [
+              "Founder",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.1K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Pazit Levitan EdD - Real Estate I Philanthropic Leadership ...",
+            "url": "https://www.linkedin.com/in/pazitlevitan",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Pazit Levitan EdD",
+            "description": "Founder/CEO. Pazit Productions. 2006 - 2012 6 years ... The New York City Chapter, the founding chapter of The Association of Fundraising Professionals\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Founder",
+              "CEO",
+              "founding",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "New York, New York, United States",
+              "jobTitle": "Lead Consultant",
+              "companyName": "The Path to Impact",
+              "rawText": "New York, New York, United States \u00b7 Lead Consultant \u00b7 The Path to Impact"
+            },
+            "followersAmount": "2.1K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Amy Eisenstein, ACFRE - CEO + Co-Founder Capital ...",
+            "url": "https://www.linkedin.com/in/amyeisensteinacfre",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amy Eisenstein, ACFRE",
+            "description": "I became an AFP-certified Master Trainer in 2009, and served as the president of the board of the Association of Fundraising Professionals (AFP) New Jersey\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Craig Shelley, CFRE - Schultz & Williams",
+            "url": "https://www.linkedin.com/in/craig-shelley-cfre",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Craig Shelley, CFRE",
+            "description": "The New York City Chapter is the founding chapter of The Association of Fundraising Professionals. Show less. Association of Fundraising Professionals - New\u00a0...Read more",
+            "emphasizedKeywords": [
+              "founding",
+              "Association of Fundraising Professionals",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.2K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Deborah Lubbe - Association of Fundraising Professionals ...",
+            "url": "https://www.linkedin.com/in/deborahlubbe",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Deborah Lubbe",
+            "description": "Deborah Lubbe. Association of Fundraising Professionals (AFP Global) Oglethorpe University. Atlanta, Georgia, United States.Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Atlanta, Georgia, United States",
+              "companyName": "Association of Fundraising Professionals (AFP Global)",
+              "rawText": "Atlanta, Georgia, United States \u00b7 Association of Fundraising Professionals (AFP Global)"
+            },
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Gayle Roberts, CFRM - Fundraising & AI Strategy Consultant",
+            "url": "https://www.linkedin.com/in/gayleroberts",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Gayle Roberts, CFRM",
+            "description": "The Association of Fundraising Professionals empowers individuals and organizations to practice ethical fundraising through professional education, networking,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "6K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Cory Martin, CFRE - Association of Fundraising Professionals",
+            "url": "https://www.linkedin.com/in/corymartin-ufh",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Cory Martin, CFRE",
+            "description": "Cory Martin, CFRE. Association of Fundraising Professionals - Greater Los Angeles Chapter (AFP-GLAC) The College of New Jersey. Los Angeles, California\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Los Angeles, California, United States",
+              "companyName": "Association of Fundraising Professionals - Greater Los Angeles Chapter (AFP-GLAC)",
+              "rawText": "Los Angeles, California, United States \u00b7 Association of Fundraising Professionals - Greater Los Angeles Chapter (AFP-GLAC)"
+            },
+            "followersAmount": "2.7K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Rochelle M. J. - Cultivating Connections, Securing ...",
+            "url": "https://www.linkedin.com/in/rochellejerry",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rochelle M. J.",
+            "description": "She is the CEO & Co-Founder of Jerry Consulting Group, adjunct faculty ... Association of Fundraising Professionals (AFP-Global) Graphic. Volunteer\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Founder",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "3.7K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Maureen Neal, CFRE - CEO and Founder at Nonprofit ...",
+            "url": "https://www.linkedin.com/in/maureen-neal-cfre-4a8abb6",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Maureen Neal, CFRE",
+            "description": "CEO and Founder at Nonprofit Management Services \u00b7 Experience: Nonprofit ... Association of Fundraising Professionals (AFP-IHQ)--Central VA Chapter Graphic\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Founder",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/EhUdEQZsplzgYyUqX/records/8jQwLRbneufGUfl-0.html?signature=uODswyn19vZrBqoQdSMA"
+      },
+      {
+        "#debug": {
+          "requestId": "VQUSoIELnCBbOvp",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+ceo",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+ceo",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/in \"Association of Fundraising Professionals\" ceo",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+ceo",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Association+of+Fundraising+Professionals%22+ceo",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Association of fundraising professionals ceo email",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+ceo+email&sa=X&ved=2ahUKEwiwtZz378yTAxXoK_sDHYsUMiwQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Association of fundraising professionals ceo email address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+ceo+email+address&sa=X&ved=2ahUKEwiwtZz378yTAxXoK_sDHYsUMiwQ1QJ6BAg1EAE"
+          },
+          {
+            "title": "Association of fundraising professionals ceo email",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+ceo+email&sa=X&ved=2ahUKEwiwtZz378yTAxXoK_sDHYsUMiwQ1QJ6BAg2EAE"
+          },
+          {
+            "title": "Association of fundraising professionals ceo email address",
+            "url": "https://www.google.com/search?sca_esv=031e7e0cba0603c0&hl=en&gl=US&q=Association+of+fundraising+professionals+ceo+email+address&sa=X&ved=2ahUKEwiwtZz378yTAxXoK_sDHYsUMiwQ1QJ6BAg1EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Amy Eisenstein, ACFRE - CEO + Co-Founder Capital ...",
+            "url": "https://www.linkedin.com/in/amyeisensteinacfre",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Amy Eisenstein, ACFRE",
+            "description": "I became an AFP-certified Master Trainer in 2009, and served as the president of the board of the Association of Fundraising Professionals (AFP) New Jersey\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "7K+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Karen S. Cochran, CFRE - Founder and Chief ...",
+            "url": "https://www.linkedin.com/in/karen-cochran",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Karen S. Cochran, CFRE",
+            "description": "... Association of Fundraising Professionals (AFP Global) \u00b7 Education ... Interim Vice President for Advancement and Interim CEO of the UCF Foundation.Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals",
+              "CEO"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "4.1K+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Susan Madon, MBA CFRE - CEO @ Minerva NonProfit ...",
+            "url": "https://www.linkedin.com/in/susanmadon",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Susan Madon, MBA CFRE",
+            "description": "Her MBA from Columbia University and leadership in the Association of Fundraising Professionals, NYC Chapter further enhance her ability to transform nonprofit\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.8K+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Greg Cole, M.Div., CFRE - President and CEO \u27b8 Nonprofit ...",
+            "url": "https://www.linkedin.com/in/gregcole",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Greg Cole, M.Div., CFRE",
+            "description": "President and CEO \u27b8 Nonprofit & Mission Driven Organizations \u27b8 Program ... Association of Fundraising Professionals, Greater Atlanta Chapter Graphic\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Atlanta, Georgia, United States",
+              "jobTitle": "President and CEO",
+              "companyName": "BCM Georgia",
+              "rawText": "Atlanta, Georgia, United States \u00b7 President and CEO \u00b7 BCM Georgia"
+            },
+            "followersAmount": "1.3K+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Craig Shelley, CFRE - Schultz & Williams",
+            "url": "https://www.linkedin.com/in/craig-shelley-cfre",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Craig Shelley, CFRE",
+            "description": "I help nonprofits achieve transformative results\u2014faster. As CEO of Schultz ... Association of Fundraising Professionals - New York City Chapter (AFP-NYC).Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5.2K+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "R.J. Konkoleski - Non-profit CEO",
+            "url": "https://www.linkedin.com/in/r-j-konkoleski-bb747b19",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0R.J. Konkoleski",
+            "description": "Association of Fundraising Professionals. Member. Sep 2002 - Present. Adena Lions Club. Past President. Apr 1999 - Present. Websites. Company Website: http://\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Adena, Ohio, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "Helping Heroes, Inc.",
+              "rawText": "Adena, Ohio, United States \u00b7 Chief Executive Officer \u00b7 Helping Heroes, Inc."
+            },
+            "followersAmount": "190+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Maureen Neal, CFRE - CEO and Founder at Nonprofit ...",
+            "url": "https://www.linkedin.com/in/maureen-neal-cfre-4a8abb6",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Maureen Neal, CFRE",
+            "description": "CEO and Founder at Nonprofit Management Services \u00b7 Experience: Nonprofit ... Association of Fundraising Professionals (AFP-IHQ)--Central VA Chapter Graphic\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "1.7K+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Roger D. Ali, MBA, C. Dir., CFRE - Executive Leader",
+            "url": "https://ca.linkedin.com/in/rogeraliexecutiveleader",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Roger D. Ali, MBA, C. Dir., CFRE",
+            "description": "... Association of Fundraising Professionals (AFP) Global. Roger is a major gifts strategist with a proven track record of leading teams and comprehensive\u00a0...",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "2.9K+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Meghan Cummings - President & CEO at Philanthropy Ohio",
+            "url": "https://www.linkedin.com/in/meghancummings1",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Meghan Cummings",
+            "description": "Previously, I served as President of the Association of Fundraising Professionals, Greater Cincinnati Chapter. I am a frequent speaker and panelist. I hold an\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "Cincinnati, Ohio, United States",
+              "jobTitle": "President & CEO",
+              "companyName": "Philanthropy Ohio",
+              "rawText": "Cincinnati, Ohio, United States \u00b7 President & CEO \u00b7 Philanthropy Ohio"
+            },
+            "followersAmount": "1.6K+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Sarah Barone, CFRE - Strategic Leader & Nonprofit CEO",
+            "url": "https://www.linkedin.com/in/sarah-barone-cfre-6452345b",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Sarah Barone, CFRE",
+            "description": "Strategic Leader & Nonprofit CEO | Fundraising Professional | Mental Health ... Association of Fundraising Professionals, St. Louis Chapter. Fellow. 2015\u00a0...Read more",
+            "emphasizedKeywords": [
+              "CEO",
+              "Association of Fundraising Professionals"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "personalInfo": {
+              "location": "St Louis, Missouri, United States",
+              "jobTitle": "Chief Executive Officer",
+              "companyName": "Kids In The Middle",
+              "rawText": "St Louis, Missouri, United States \u00b7 Chief Executive Officer \u00b7 Kids In The Middle"
+            },
+            "followersAmount": "790+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/5mgNez27c9tjYeOiy/records/VQUSoIELnCBbOvp-0.html?signature=1K9mJyzIS5HZw2TKbWuyH"
+      }
+    ],
+    "apify_item_count": 5,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Association of Fundraising Professionals",
+      "https://www.linkedin.com/company/afpglobal",
+      "https://www.linkedin.com/company/afpsv",
+      "https://www.linkedin.com/company/nycafp",
+      "https://www.linkedin.com/company/afp-massachusetts",
+      "https://www.linkedin.com/company/afpchicago",
+      "https://www.linkedin.com/company/association-of-fundraising-professionals---golden-gate-chapter",
+      "https://www.linkedin.com/company/afp-dc",
+      "https://pr.linkedin.com/company/afpglobal?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "https://www.linkedin.com/company/afpstl",
+      "https://www.linkedin.com/company/afpgreateratl",
+      "https://www.linkedin.com/company/afpglobal",
+      "https://www.linkedin.com/company/afp-dc",
+      "https://www.linkedin.com/company/afpsv",
+      "https://www.linkedin.com/company/association-of-fundraising-professionals---golden-gate-chapter",
+      "https://www.linkedin.com/company/nycafp",
+      "site:linkedin.com/company afpnet.org",
+      "https://www.linkedin.com/company/afpglobal",
+      "https://cl.linkedin.com/company/afpglobal?trk=public_profile_profile-section-card_subtitle-click",
+      "https://www.linkedin.com/company/association-of-fundraising-professionals-western-ma-chapter",
+      "https://www.linkedin.com/company/professional-fundraisers",
+      "https://www.linkedin.com/company/nycafp",
+      "https://www.linkedin.com/company/association-for-financial-professionals",
+      "https://fr.linkedin.com/company/afpglobal?trk=public_profile_topcard-current-company",
+      "https://www.linkedin.com/company/association-of-fundraising-professionals-memphis-chapter",
+      "https://pr.linkedin.com/company/afpglobal?trk=public_profile_profile-section-card_subtitle-click",
+      "site:linkedin.com/in \"Association of Fundraising Professionals\" founder",
+      "https://www.linkedin.com/in/birgit-smith-burton",
+      "https://www.linkedin.com/in/karen-cochran",
+      "https://www.linkedin.com/in/pazitlevitan",
+      "https://www.linkedin.com/in/amyeisensteinacfre",
+      "https://www.linkedin.com/in/craig-shelley-cfre",
+      "https://www.linkedin.com/in/deborahlubbe",
+      "https://www.linkedin.com/in/gayleroberts",
+      "https://www.linkedin.com/in/corymartin-ufh",
+      "https://www.linkedin.com/in/rochellejerry",
+      "https://www.linkedin.com/in/maureen-neal-cfre-4a8abb6",
+      "site:linkedin.com/in \"Association of Fundraising Professionals\" ceo",
+      "https://www.linkedin.com/in/amyeisensteinacfre",
+      "https://www.linkedin.com/in/karen-cochran",
+      "https://www.linkedin.com/in/susanmadon",
+      "https://www.linkedin.com/in/gregcole",
+      "https://www.linkedin.com/in/craig-shelley-cfre",
+      "https://www.linkedin.com/in/r-j-konkoleski-bb747b19",
+      "https://www.linkedin.com/in/maureen-neal-cfre-4a8abb6",
+      "https://ca.linkedin.com/in/rogeraliexecutiveleader",
+      "https://www.linkedin.com/in/meghancummings1",
+      "https://www.linkedin.com/in/sarah-barone-cfre-6452345b"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/afpglobal",
+    "resolved_person_linkedin": "https://www.linkedin.com/in/birgit-smith-burton"
+  },
+  "lead_before_enrichment": {
+    "business": "Association of Fundraising Professionals",
+    "description": "# Association of Fundraising Professionals ## AFP ICON 2026: Register Today! AFP ICON is the world\u2019s No. 1 fundraising conference, bringing together over 3,000 fundraising professionals for three dynamic days of learning, networking, and growth. Join us April 26-28 in San Diego for 100+ expert-led sessions and countless opportunities to connect with your community! [ ![AFP logo ](https://afpnet.org/sites/default/files/styles/tile/public/2024-02/AFP-logo-4C-1500x1500_0.png?h=8a7fc05e&itok=Q2t4d6Zn) ### AFP Daily:",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://afpnet.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/afpglobal",
+    "source_url": "https://afpnet.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "afpnet.org",
+    "source_urls": [
+      "https://afpnet.org"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Association of Fundraising Professionals",
+    "description": "# Association of Fundraising Professionals ## AFP ICON 2026: Register Today! AFP ICON is the world\u2019s No. 1 fundraising conference, bringing together over 3,000 fundraising professionals for three dynamic days of learning, networking, and growth. Join us April 26-28 in San Diego for 100+ expert-led sessions and countless opportunities to connect with your community! [ ![AFP logo ](https://afpnet.org/sites/default/files/styles/tile/public/2024-02/AFP-logo-4C-1500x1500_0.png?h=8a7fc05e&itok=Q2t4d6Zn) ### AFP Daily:",
+    "full_name": "Birgit Smith Burton",
+    "first": "Birgit",
+    "last": "Smith Burton",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://afpnet.org",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "https://www.linkedin.com/in/birgit-smith-burton",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/afpglobal",
+    "source_url": "https://afpnet.org",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "afpnet.org",
+    "source_urls": [
+      "https://afpnet.org"
+    ],
+    "title_raw": "founder",
+    "name_quality": "full",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false,
+    "linkedin_source_url": "https://afpnet.org"
+  },
+  "field_changes": {
+    "first": {
+      "before": "",
+      "after": "Birgit"
+    },
+    "full_name": {
+      "before": "",
+      "after": "Birgit Smith Burton"
+    },
+    "last": {
+      "before": "",
+      "after": "Smith Burton"
+    },
+    "linkedin": {
+      "before": "",
+      "after": "https://www.linkedin.com/in/birgit-smith-burton"
+    },
+    "linkedin_source_url": {
+      "before": null,
+      "after": "https://afpnet.org"
+    },
+    "name_quality": {
+      "before": "missing",
+      "after": "full"
+    },
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

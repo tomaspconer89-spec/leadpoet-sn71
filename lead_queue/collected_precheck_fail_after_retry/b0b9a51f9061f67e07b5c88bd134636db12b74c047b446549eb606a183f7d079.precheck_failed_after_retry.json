@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, role, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "Lordstone Business Advisors, Inc.",
+  "lead": {
+    "business": "Lordstone Business Advisors, Inc.",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "",
+    "website": "http://www.lordstoneadvisors.com",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Michigan",
+    "city": "GLADSTONE",
+    "source_url": "https://lordstoneadvisors.com",
+    "description": "Lordstone Business Advisors is a strategic consulting firm serving small to medium-sized business owners who want to grow their businesses. We provide a proven pathway to growth through diligent planning, timely execution and accountability for results. Our ideal clients are in two segments, small businesses with annual sales of $500k to $1.9 million and small-medium sized enterprises (SME's) with annual sales of $2 million to $50 million.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Michigan",
+    "hq_city": "GLADSTONE",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/lordstone-business-advisors-inc"
+  },
+  "source_failed_basename": "8b4a828ef4a9cb09ec08835f36a19157c6dd3373454b6c7e6e2a042a67a68e04.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/8b4a828ef4a9cb09ec08835f36a19157c6dd3373454b6c7e6e2a042a67a68e04.precheck_failed.json",
+  "queue_key": "b0b9a51f9061f67e07b5c88bd134636db12b74c047b446549eb606a183f7d079"
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "name_not_in_email",
+  "business": "Website Design Web Development Brand Design Agency Web Designer Website Developer Company",
+  "lead": {
+    "business": "Website Design Web Development Brand Design Agency Web Designer Website Developer Company",
+    "full_name": "Sarah Hackman",
+    "first": "Sarah",
+    "last": "Hackman",
+    "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+    "role": "Founder, Owner / Creative Director + Principal Designer",
+    "website": "https://thiyadigital.com/",
+    "industry": "Professional Services",
+    "sub_industry": "Consulting",
+    "country": "United States",
+    "state": "Missouri",
+    "city": "Boonville",
+    "source_url": "https://inkandkey.com",
+    "description": "We are #WebsiteDesigner & #WebsiteDevelopmentAgency. As a Experienced Web Development & Design Company, Our Services are not limited to #WebsiteDesign, #WebDevelopment, #BrandDesign & Many More...",
+    "employee_count": "11-50",
+    "hq_country": "New York",
+    "hq_state": "SC",
+    "hq_city": "Columbia",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/website-design-web-development-brand-design-agency",
+    "linkedin": "https://linkedin.com/in/sarahjhackman"
+  },
+  "source_failed_basename": "3d95904e085a05ed18a5d979579669a8c9c98863d2ef09c88bfa85d4a631e6d5.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3d95904e085a05ed18a5d979579669a8c9c98863d2ef09c88bfa85d4a631e6d5.precheck_failed.json",
+  "queue_key": "6a7087fa2f191cef9e8a9a23770539a7ae1a6daa5c11c7398cf68aeae54c8b80"
+}

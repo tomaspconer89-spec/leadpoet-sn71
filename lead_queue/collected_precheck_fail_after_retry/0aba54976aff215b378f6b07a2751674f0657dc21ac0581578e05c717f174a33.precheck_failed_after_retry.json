@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: linkedin",
+  "retry_reason": "missing_required_fields: linkedin",
+  "previous_reason": "invalid_region_format",
+  "business": "Saleshandy",
+  "lead": {
+    "business": "Saleshandy",
+    "full_name": "Chen Lead",
+    "first": "Chen",
+    "last": "Fung",
+    "email": "s.chen@acmecorp.com",
+    "role": "Contact",
+    "website": "https://www.saleshandy.com/",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "a professional community of",
+    "state": "",
+    "city": "\u00b7 Education: University of Florida \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Ethan Chen-Fung's profile on LinkedIn",
+    "source_url": "https://saleshandy.com",
+    "description": "Saleshandy is a sales engagement platform that enables sales teams to scale their email outreach operations seamlessly. Campaigns on Saleshandy are the easiest way to schedule and send hundreds (or thousands) of multi-stage automated follow-up emails to your leads at once. You can personalize your email campaign using merge tags, and have automated follow-ups sent based on engagement (open or clicks) on the last email. You can schedule these emails to go out in your recipient\u2019s time zone too, so your emails don\u2019t get buried in their inbox.",
+    "employee_count": "51-200",
+    "hq_country": "Gujarat",
+    "hq_state": "",
+    "hq_city": "Ahmedabad",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://in.linkedin.com/company/saleshandy"
+  },
+  "source_failed_basename": "d61bc1dbd2cecd1e93fe8af160e9eb57502f9aaa4dbf9bbae9c9e8416d96f695.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/d61bc1dbd2cecd1e93fe8af160e9eb57502f9aaa4dbf9bbae9c9e8416d96f695.precheck_failed.json",
+  "queue_key": "0aba54976aff215b378f6b07a2751674f0657dc21ac0581578e05c717f174a33"
+}

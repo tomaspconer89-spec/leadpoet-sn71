@@ -1,0 +1,714 @@
+{
+  "saved_at_utc": "2026-03-31T16:53:23.174389+00:00",
+  "queue_key": "c33ff17f2f281c8beeeb88ff1712908d403ea00a07ca8b6f1d2266cecd9e38e1",
+  "business": "Startup Advisory \u2013 Strategy Consulting for Startups",
+  "apify_enrichment": {
+    "provider_primary": "apify_google_search",
+    "queries": [
+      "site:linkedin.com/company Startup Advisory \u2013 Strategy Consulting for Startups",
+      "Startup Advisory \u2013 Strategy Consulting for Startups linkedin company",
+      "site:linkedin.com/company startupadvisory.com.au",
+      "site:linkedin.com/in \"Startup Advisory \u2013 Strategy Consulting for Startups\" founder",
+      "site:linkedin.com/in \"Startup Advisory \u2013 Strategy Consulting for Startups\" ceo"
+    ],
+    "apify_items": [
+      {
+        "#debug": {
+          "requestId": "IDKr13H6Ykytzkt",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company Startup Advisory \u2013 Strategy Consulting for Startups",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startup Advisory",
+            "url": "https://au.linkedin.com/company/startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory",
+            "description": "Startup Advisory offers Strategy Consulting services for Startups: investor material, business plan, growth strategy, pricing... By combining strong skills\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Strategy Consulting services for Startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Strategic Startup Advisory",
+            "url": "https://www.linkedin.com/company/strategic-startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Strategic Startup Advisory",
+            "description": "SSA is a small boutique firm, who's principals provide business and management advisory and consulting services to startups, startup investors, and startup\u00a0...Read more",
+            "emphasizedKeywords": [
+              "business",
+              "management advisory",
+              "consulting",
+              "startups",
+              "startup",
+              "startup"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5 followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Startup Advisory Group",
+            "url": "https://www.linkedin.com/company/startupadvisorygroup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory Group",
+            "description": "Startup Advisory Group is a consulting and execution firm with over a decade of experience supporting entrepreneurs, nonprofits, and organizations as they\u00a0...Read more",
+            "emphasizedKeywords": [
+              "consulting and execution firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Startup Advisors",
+            "url": "https://www.linkedin.com/company/startup-advisors-pl?trk=similar-pages_result-card_full-click",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a startup-advisors-pl",
+            "description": "We advise Startups on how to commercialize their ideas in the most efficient way using Lean Startup methodology and also raise funds needed for this purpose. We\u00a0...",
+            "emphasizedKeywords": [
+              "how to commercialize their ideas in the most efficient way"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Startups Advisory \u2013 Global Talent & AI Agents",
+            "url": "https://www.linkedin.com/company/startupsadvisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startups Advisory \u2013 Global Talent & AI Agents",
+            "description": "StartupsAdvisory equips startups and enterprises with the resources to grow efficiently. \u2022 Offshore talent recruitment and staff augmentation \u2022 AI agents\u00a0...Read more",
+            "emphasizedKeywords": [
+              "equips startups and enterprises with the resources to grow efficiently"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "270+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Startup Growth Advisors",
+            "url": "https://www.linkedin.com/company/startup-growth-advisors",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Growth Advisors",
+            "description": "Startup Growth Advisors is a venture builder, incubator, growth accelerator, and corporate innovation ecosystem that helps international startups, early and\u00a0...Read more",
+            "emphasizedKeywords": [
+              "venture builder, incubator, growth accelerator, and corporate innovation ecosystem"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "GRAB | Global Resource Advisory Board",
+            "url": "https://www.linkedin.com/company/global-resource-advisory-board",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Teagan Barr",
+            "description": "At GRAB - the Global Resource Advisory Board, we specialize in connecting early-stage startups, spinouts, social enterprises, and NFPs worldwide with a global\u00a0...Read more",
+            "emphasizedKeywords": [
+              "GRAB - the Global Resource Advisory Board"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "820+ followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "ESSA Ventures",
+            "url": "https://www.linkedin.com/company/essa-ventures",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0ESSA Ventures",
+            "description": "ESSA Ventures provides strategic consulting, startup advisory services, and early-stage funding to entrepreneurs and companies leveraging technology to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "provides strategic consulting, startup advisory services"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "170+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Startup Guides",
+            "url": "https://www.linkedin.com/company/startup-guides",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Guides",
+            "description": "If 2026 is the year you want to prioritize real business growth without burnout, we at Startup Guides offer startup consulting and founder wellness coaching\u00a0...Read more",
+            "emphasizedKeywords": [
+              "startup consulting"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "40+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Kamil Dzikowski Startup Advisory",
+            "url": "https://ae.linkedin.com/company/kamil-dzikowski",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Kamil Dzikowski Startup Advisory",
+            "description": "Startup Consultancy: I work hands-on with startups and scale-ups to optimize business models, identify new revenue streams, cut unnecessary costs, and drive\u00a0...Read more",
+            "emphasizedKeywords": [
+              "optimize business models, identify new revenue streams, cut unnecessary costs"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "90+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/ErBwUFJ1uzMc01lcp/records/IDKr13H6Ykytzkt-0.html?signature=LHcBqgUl2oVWdz9qDlG4"
+      },
+      {
+        "#debug": {
+          "requestId": "g3TM70PVSsdz9ls",
+          "url": "http://www.google.com/search?q=Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups+linkedin+company",
+          "loadedUrl": "http://www.google.com/search?q=Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups+linkedin+company",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "Startup Advisory \u2013 Strategy Consulting for Startups linkedin company",
+          "url": "http://www.google.com/search?q=Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups+linkedin+company",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=Startup+Advisory+%E2%80%93+Strategy+Consulting+for+Startups+linkedin+company",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [
+          {
+            "title": "Startup advisory strategy consulting for startups linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Startup+advisory+strategy+consulting+for+startups+linkedin+company+address&sa=X&ved=2ahUKEwj-8NjMzMqTAxU1U6QEHUCaDoQQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Startup advisory strategy consulting for startups linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Startup+advisory+strategy+consulting+for+startups+linkedin+company+email&sa=X&ved=2ahUKEwj-8NjMzMqTAxU1U6QEHUCaDoQQ1QJ6BAg9EAE"
+          },
+          {
+            "title": "Startup advisory strategy consulting for startups linkedin company address",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Startup+advisory+strategy+consulting+for+startups+linkedin+company+address&sa=X&ved=2ahUKEwj-8NjMzMqTAxU1U6QEHUCaDoQQ1QJ6BAg-EAE"
+          },
+          {
+            "title": "Startup advisory strategy consulting for startups linkedin company email",
+            "url": "https://www.google.com/search?sca_esv=8d67f07cd29c129e&hl=en&gl=US&q=Startup+advisory+strategy+consulting+for+startups+linkedin+company+email&sa=X&ved=2ahUKEwj-8NjMzMqTAxU1U6QEHUCaDoQQ1QJ6BAg9EAE"
+          }
+        ],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startup advisory",
+            "url": "https://www.linkedin.com/company/eulenadvisors",
+            "displayedUrl": "https://www.linkedin.com \u203a company \u203a eulenadvisors",
+            "description": "We design and deliver high-impact corporate offsites and workshops for executive teams focused on: M&A Strategy & Integration Technology & Digital\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Strategy"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "Top Startup Advisory Services in the USA",
+            "url": "https://www.linkedin.com/posts/digital-reference_%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F%3F-activity-7404871330493431808-0FnI",
+            "displayedUrl": "https://www.linkedin.com \u203a posts",
+            "description": "Dec 11, 2025 \u2014 Top Startup Advisory Services in the USA Digital Reference has released a new guide spotlighting standout Startup Advisors & Consultants,\u00a0...Read more",
+            "date": "2025-12-11T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "Startup Advisory",
+              "Startup Advisors"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Startup Advisor Tips: Getting Started and Contributing",
+            "url": "https://www.linkedin.com/posts/jlcreech_advising-startupadvisory-entrepreneurship-activity-7441861336352960512-_xsn",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0James Creech",
+            "description": "Want to become a startup advisor? I've been advising founders for over 10 years. Still one of the most energizing parts of what I do.",
+            "emphasizedKeywords": [
+              "startup advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Anyone used any startup advisors/consultants?",
+            "url": "https://www.reddit.com/r/startups/comments/16w90x5/anyone_used_any_startup_advisorsconsultants/",
+            "displayedUrl": "Reddit\u00a0\u203a\u00a0r/startups",
+            "description": "Best practices for hiring startup consultants. Value of startup strategy consulting. Advice on choosing a business advisor. Top challenges\u00a0...Read more",
+            "emphasizedKeywords": [
+              "startup",
+              "startup strategy consulting",
+              "Advice",
+              "business advisor"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "commentsAmount": "40+ comments",
+            "lastUpdated": "2 years ago",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "Top 7 Growth Advisors for Tech Startups in 2025: Who to Hire",
+            "url": "https://www.linkedin.com/pulse/top-7-growth-advisors-tech-startups-2025-who-hire-pierson-p-e--v1zyc",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Lillian Pierson, P.E.",
+            "description": "This guide highlights seven top growth advisors for 2025 and matches them to specific startup stages, from pre-revenue to scaling at $6M ARR.Read more",
+            "emphasizedKeywords": [
+              "advisors",
+              "startup"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Startup Advisory Group",
+            "url": "https://www.linkedin.com/company/startupadvisorygroup",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory Group",
+            "description": "Startup Advisory Group is a consulting and execution firm with over a decade of experience supporting entrepreneurs, nonprofits, and organizations as they\u00a0...Read more",
+            "emphasizedKeywords": [
+              "a consulting and execution firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "120+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Strategic Startup Advisory",
+            "url": "https://www.linkedin.com/company/strategic-startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Strategic Startup Advisory",
+            "description": "SSA is a small boutique firm, who's principals provide business and management advisory and consulting services to startups, startup investors, and startup\u00a0...Read more",
+            "emphasizedKeywords": [
+              "SSA is a small boutique firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "5 followers",
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "Startup Consulting & Advisory Services",
+            "url": "https://www.cansulta.com/expertise/startups/",
+            "displayedUrl": "https://www.cansulta.com \u203a Expertise",
+            "description": "Get crucial startup advice from Cansulta's expert strategic advisory services. We're here to help your business succeed.",
+            "emphasizedKeywords": [
+              "Get crucial startup advice"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Startup Advisory",
+            "url": "https://au.linkedin.com/company/startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory",
+            "description": "Startup Advisory offers Strategy Consulting services for Startups: investor material, business plan, growth strategy, pricing... By combining strong skills\u00a0...Read more",
+            "emphasizedKeywords": [
+              "Strategy Consulting services for Startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Why Startup Consulting is a Bad Idea - Karl Hughes",
+            "url": "https://www.karllhughes.com/posts/startup-consulting",
+            "displayedUrl": "https://www.karllhughes.com \u203a posts \u203a startup-consulting",
+            "description": "A startup consultant is someone whose business is to come into a small company, ask some questions, analyze the data, prepare a report, and make\u00a0...Read more",
+            "date": "2026-01-23T12:00:00.000Z",
+            "emphasizedKeywords": [
+              "startup",
+              "business",
+              "company"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/zxFOpbUB2nBTcO9lA/records/g3TM70PVSsdz9ls-0.html?signature=19T188ckSb0ctcarUo5VN"
+      },
+      {
+        "#debug": {
+          "requestId": "fSr6zNYmqf9gWEw",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupadvisory.com.au",
+          "loadedUrl": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupadvisory.com.au",
+          "method": "GET",
+          "retryCount": 0,
+          "errorMessages": [],
+          "statusCode": 200
+        },
+        "#error": false,
+        "searchQuery": {
+          "term": "site:linkedin.com/company startupadvisory.com.au",
+          "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupadvisory.com.au",
+          "device": "DESKTOP",
+          "page": 1,
+          "type": "SEARCH",
+          "domain": "google.com",
+          "countryCode": "US",
+          "languageCode": null,
+          "locationUule": null,
+          "resultsPerPage": 10
+        },
+        "url": "http://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+startupadvisory.com.au",
+        "hasNextPage": true,
+        "serpProviderCode": "N",
+        "resultsTotal": null,
+        "relatedQueries": [],
+        "paidResults": [],
+        "paidProducts": [],
+        "organicResults": [
+          {
+            "title": "Startup Advisory",
+            "url": "https://au.linkedin.com/company/startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory",
+            "description": "Startup Advisory offers Strategy Consulting services for Startups: investor material, business plan, growth strategy, pricing... By combining strong skills\u00a0...Read more",
+            "emphasizedKeywords": [
+              "offers Strategy Consulting services for Startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 1
+          },
+          {
+            "title": "The Startup Advisory",
+            "url": "https://au.linkedin.com/company/the-startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0The Startup Advisory",
+            "description": "We are a commercial marketing advisory firm providing fractional CRO, CMO and Sales Leadership services to early-stage and medium-sized B2B businesses to\u00a0...Read more",
+            "emphasizedKeywords": [
+              "commercial marketing advisory firm"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 2
+          },
+          {
+            "title": "Startup Advisory",
+            "url": "https://fr.linkedin.com/company/startup-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Startup Advisory",
+            "description": "Startup Advisory offers Strategy Consulting services for Startups: investor material, business plan, growth strategy, pricing... By combining strong skills\u00a0...Read more",
+            "emphasizedKeywords": [
+              "offers Strategy Consulting services for Startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "150+ followers",
+            "type": "organic",
+            "position": 3
+          },
+          {
+            "title": "Utiliti Group",
+            "url": "https://au.linkedin.com/company/utiliti-group",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Utiliti Group",
+            "description": "At Utiliti Group, we're pioneering Active Advantage Investing, a specialist approach for critical technology firms in health, government, infrastructure,\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "810+ followers",
+            "type": "organic",
+            "position": 4
+          },
+          {
+            "title": "KC Ventures",
+            "url": "https://au.linkedin.com/company/kc-ventures-au",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0KC Ventures",
+            "description": "KC Ventures works with some of Australia's most promising startups, helping guide them through their journey to scale. We are founders and business owners\u00a0...Read more",
+            "emphasizedKeywords": [
+              "KC Ventures works with some of Australia's most promising startups"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "440+ followers",
+            "type": "organic",
+            "position": 5
+          },
+          {
+            "title": "Eagle Advisory",
+            "url": "https://au.linkedin.com/company/eagleadvisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Eagle Advisory",
+            "description": "We help startups and scaleups manage their risk, grow their capital and investor base, and scale to new markets, products and services. Website: https://www.Read more",
+            "emphasizedKeywords": [
+              "grow their capital and investor base"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "130+ followers",
+            "type": "organic",
+            "position": 6
+          },
+          {
+            "title": "Rimon Advisory",
+            "url": "https://cz.linkedin.com/company/rimon-advisory",
+            "displayedUrl": "https://cz.linkedin.com \u203a company \u203a rimon-advisory",
+            "description": "O n\u00e1s ; Web: http://www.rimon.com.au. Extern\u00ed odkaz pro organizaci Rimon Advisory ; Obor: Obchodn\u00ed poradenstv\u00ed a slu\u017eby ; Velikost spole\u010dnosti: 11 - 50 zam\u011bstnanc\u016f.",
+            "emphasizedKeywords": [
+              "au"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "type": "organic",
+            "position": 7
+          },
+          {
+            "title": "AH&O Advisory",
+            "url": "https://au.linkedin.com/company/ah-o-advisory",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0AH&O Advisory",
+            "description": "AH&O is a boutique digital advisory that brings together deep functional expertise fused with technology knowledge to help organisations adapt,\u00a0...Read more",
+            "emphasizedKeywords": [
+              "AH&O is a boutique digital advisory"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "30+ followers",
+            "type": "organic",
+            "position": 8
+          },
+          {
+            "title": "Rimon Advisory",
+            "url": "https://sv.linkedin.com/company/rimon-advisory?trk=parent-company_org_title",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Rimon Advisory",
+            "description": "Sitio web: http://www.rimon.com.au. Enlace externo para Rimon Advisory ; Sector: Consultor\u00eda y servicios a empresas ; Tama\u00f1o de la empresa: De 11 a 50 empleados.Read more",
+            "emphasizedKeywords": [
+              "au"
+            ],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "610+ followers",
+            "type": "organic",
+            "position": 9
+          },
+          {
+            "title": "Advisory, Development, Project Management, Construction",
+            "url": "https://www.linkedin.com/company/allia-international-limited",
+            "displayedUrl": "LinkedIn\u00a0\u203a\u00a0Advisory, Development, Project Management, Construction",
+            "description": "We provide strategic advisory, consulting, program management, development management and project management services. These services are to publicly listed\u00a0...Read more",
+            "emphasizedKeywords": [],
+            "siteLinks": [],
+            "productInfo": {},
+            "followersAmount": "60+ followers",
+            "type": "organic",
+            "position": 10
+          }
+        ],
+        "suggestedResults": [],
+        "peopleAlsoAsk": [],
+        "customData": null,
+        "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/3ZJDNY9GysUiGgTeo/records/fSr6zNYmqf9gWEw-0.html?signature=1zHUGzGAhnPNu4xMUTEBp"
+      }
+    ],
+    "apify_item_count": 3,
+    "apify_linkedin_urls": [
+      "site:linkedin.com/company Startup Advisory \u2013 Strategy Consulting for Startups",
+      "https://au.linkedin.com/company/startup-advisory",
+      "https://www.linkedin.com/company/strategic-startup-advisory",
+      "https://www.linkedin.com/company/startupadvisorygroup",
+      "https://www.linkedin.com/company/startup-advisors-pl?trk=similar-pages_result-card_full-click",
+      "https://www.linkedin.com/company/startupsadvisory",
+      "https://www.linkedin.com/company/startup-growth-advisors",
+      "https://www.linkedin.com/company/global-resource-advisory-board",
+      "https://www.linkedin.com/company/essa-ventures",
+      "https://www.linkedin.com/company/startup-guides",
+      "https://ae.linkedin.com/company/kamil-dzikowski",
+      "https://www.linkedin.com/company/eulenadvisors",
+      "https://www.linkedin.com/posts/digital-reference_%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F%3F-activity-7404871330493431808-0FnI",
+      "https://www.linkedin.com/posts/jlcreech_advising-startupadvisory-entrepreneurship-activity-7441861336352960512-_xsn",
+      "https://www.linkedin.com/pulse/top-7-growth-advisors-tech-startups-2025-who-hire-pierson-p-e--v1zyc",
+      "https://www.linkedin.com/company/startupadvisorygroup",
+      "https://www.linkedin.com/company/strategic-startup-advisory",
+      "https://au.linkedin.com/company/startup-advisory",
+      "site:linkedin.com/company startupadvisory.com.au",
+      "https://au.linkedin.com/company/startup-advisory",
+      "https://au.linkedin.com/company/the-startup-advisory",
+      "https://fr.linkedin.com/company/startup-advisory",
+      "https://au.linkedin.com/company/utiliti-group",
+      "https://au.linkedin.com/company/kc-ventures-au",
+      "https://au.linkedin.com/company/eagleadvisory",
+      "https://cz.linkedin.com/company/rimon-advisory",
+      "https://au.linkedin.com/company/ah-o-advisory",
+      "https://sv.linkedin.com/company/rimon-advisory?trk=parent-company_org_title",
+      "https://www.linkedin.com/company/allia-international-limited"
+    ],
+    "apify_person_profile_items": [],
+    "apify_company_profile_items": [],
+    "resolved_company_linkedin": "https://www.linkedin.com/company/strategic-startup-advisory",
+    "resolved_person_linkedin": ""
+  },
+  "lead_before_enrichment": {
+    "business": "Startup Advisory \u2013 Strategy Consulting for Startups",
+    "description": "[ Skip to content ](https://www.startupadvisory.com.au/#content) [![](https://www.startupadvisory.com.au/wp-content/uploads/2019/08/logo_small.jpg)](https://www.startupadvisory.com.au/) * [Our Work](https://www.startupadvisory.com.au/#focus) * [Our Team](https://www.startupadvisory.com.au/#team) * [Testimonials](https://www.startupadvisory.com.au/#testimonial) * [Contact us](https://www.startupadvisory.com.au/#contact) [![](https://www.startupadvisory.com.au/wp-content/uploads/2019/08/logo_small.jpg)](https://www.startupadvisory.com.au/) Navigation Menu Navigation Menu * [Our Work](https://www",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startupadvisory.com.au",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/strategic-startup-advisory",
+    "source_url": "https://startupadvisory.com.au",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startupadvisory.com.au",
+    "source_urls": [
+      "https://startupadvisory.com.au"
+    ],
+    "title_raw": "",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "lead_after_enrichment": {
+    "business": "Startup Advisory \u2013 Strategy Consulting for Startups",
+    "description": "[ Skip to content ](https://www.startupadvisory.com.au/#content) [![](https://www.startupadvisory.com.au/wp-content/uploads/2019/08/logo_small.jpg)](https://www.startupadvisory.com.au/) * [Our Work](https://www.startupadvisory.com.au/#focus) * [Our Team](https://www.startupadvisory.com.au/#team) * [Testimonials](https://www.startupadvisory.com.au/#testimonial) * [Contact us](https://www.startupadvisory.com.au/#contact) [![](https://www.startupadvisory.com.au/wp-content/uploads/2019/08/logo_small.jpg)](https://www.startupadvisory.com.au/) Navigation Menu Navigation Menu * [Our Work](https://www",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "phone_numbers": [],
+    "website": "https://startupadvisory.com.au",
+    "industry": "Professional Services",
+    "sub_industry": "Management Consulting",
+    "role": "founder",
+    "linkedin": "",
+    "region": "",
+    "founded_year": "",
+    "ownership_type": "",
+    "company_type": "",
+    "number_of_locations": "1",
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/strategic-startup-advisory",
+    "source_url": "https://startupadvisory.com.au",
+    "source_type": "company_site",
+    "hq_country": "",
+    "hq_state": "",
+    "hq_city": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "employee_count": "11-50",
+    "company_domain_canonical": "startupadvisory.com.au",
+    "source_urls": [
+      "https://startupadvisory.com.au"
+    ],
+    "title_raw": "founder",
+    "name_quality": "missing",
+    "email_observed": "",
+    "person_found_on_company_site": true,
+    "email_type": "unknown",
+    "email_domain_match": true,
+    "source_count": 1,
+    "identity_conflict": false,
+    "source_freshness_days": 0,
+    "account_only_signal": false
+  },
+  "field_changes": {
+    "role": {
+      "before": "",
+      "after": "founder"
+    },
+    "title_raw": {
+      "before": "",
+      "after": "founder"
+    }
+  }
+}

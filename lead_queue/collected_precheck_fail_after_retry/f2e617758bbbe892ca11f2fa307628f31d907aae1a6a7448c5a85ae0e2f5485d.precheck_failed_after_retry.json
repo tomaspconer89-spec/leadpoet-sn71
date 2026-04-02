@@ -1,0 +1,42 @@
+{
+  "reason": "missing_required_fields: email",
+  "retry_reason": "missing_required_fields: email",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city",
+  "business": "Softwisery",
+  "lead": {
+    "business": "Softwisery",
+    "full_name": "Michael Ratnikov",
+    "first": "Michael",
+    "last": "Ratnikov",
+    "email": "",
+    "role": "Founder",
+    "website": "https://softwisery.com",
+    "industry": "Software",
+    "sub_industry": "Software",
+    "country": "Indonesia",
+    "state": "Bali",
+    "city": "Denpasar",
+    "source_url": "https://softwisery.com",
+    "description": "\u2705 15 Years Of Tech Industry Experience \u2705 10 Startups Built From Scratch To Finish \u2705 1000+ Projects Designed Developed & Deployed \u270d \u275dSoftwisery has been instrumental in building our Insurance SaaS Platform from scratch. Their expertise in solution architecture and meticulous attention to detail have delivered outstanding results. The seamless communication and collaborative approach made them an invaluable partner.",
+    "employee_count": "2-10",
+    "hq_country": "United States",
+    "hq_state": "Bali",
+    "hq_city": "APAC",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/softwisery",
+    "linkedin": "https://linkedin.com/in/michaelratnikov"
+  },
+  "source_failed_basename": "242a41b659205cab98c3f27888d43968ca064b8743c7bfd24c38755ef01d1a82.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/242a41b659205cab98c3f27888d43968ca064b8743c7bfd24c38755ef01d1a82.precheck_failed.json",
+  "queue_key": "f2e617758bbbe892ca11f2fa307628f31d907aae1a6a7448c5a85ae0e2f5485d"
+}

@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin, company_linkedin",
+  "business": "M&A Business Advisors",
+  "lead": {
+    "business": "M&A Business Advisors",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "http://mabusinessadvisors.com",
+    "industry": "Financial Services",
+    "sub_industry": "Banking",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "source_url": "https://mabusinessadvisors.com",
+    "description": "M&A Business Advisors is a full-service Business Brokerage and Lower Middle Market M&A Advisory Firm and the Leader in Business Sales & Acquisitions. M&A Business Advisors specializes in the CONFIDENTIAL sale of privately owned businesses in a wide range of industries including Manufacturing, Wholesale Distribution, Service, Retail, Health Care, E-Commerce, Software, Construction, Food & Beverage and more. We have multiple offices in the Western US and we use proprietary methods to better serve our clients and accomplish their objectives. Valuation services also provided.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Los Angeles",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/mabusinessadvisors"
+  },
+  "source_failed_basename": "dec0a57d0c40af423059dbb75f3ae5c58f23abb7a96e689c53af863ba94d9e85.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/dec0a57d0c40af423059dbb75f3ae5c58f23abb7a96e689c53af863ba94d9e85.precheck_failed.json",
+  "queue_key": "40c34f6517d243e0a99a879ff0b4da3e6666e9d3a67f5a19bd74ed29d72ee7e1"
+}

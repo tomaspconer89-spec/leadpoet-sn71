@@ -1,0 +1,42 @@
+{
+  "reason": "name_not_in_email",
+  "retry_reason": "name_not_in_email",
+  "previous_reason": "missing_required_fields: country, city",
+  "business": "Business Management Consultants (BMC)",
+  "lead": {
+    "business": "Business Management Consultants (BMC)",
+    "full_name": "Ricardo Islas",
+    "first": "Ricardo",
+    "last": "Islas",
+    "email": "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+    "role": "Cetera Networks - Business Management Consultant",
+    "website": "http://www.BMCpak.com",
+    "industry": "Financial Services",
+    "sub_industry": "Financial Services",
+    "country": "United States",
+    "state": "California",
+    "city": "Pico Rivera",
+    "source_url": "https://alignmentadvising.com",
+    "description": "BMC is an independently owned and managed firm of Consultants in Pakistan. We have a credible history of 14 years of providing high quality and specialized services in most areas of business and management consultancy. We provide a range of specialist consultancy services in various functions and sectors, drawing on resources from a large domestic and international network. We operate under the principles of corporate responsibility and professional integrity.",
+    "employee_count": "11-50",
+    "hq_country": "United States",
+    "hq_state": "California",
+    "hq_city": "Pico Rivera",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/business-management-consultants-bmc-",
+    "linkedin": "https://linkedin.com/in/ricardo-islas"
+  },
+  "source_failed_basename": "656094413495a739e0bc075f0476d4ab8a65ac3b326acf19b4bbb8c4556bf103.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/656094413495a739e0bc075f0476d4ab8a65ac3b326acf19b4bbb8c4556bf103.precheck_failed.json",
+  "queue_key": "fbcd96a64441fbc1cd6e1e626128f88e60d8487017ee39bde677d848046354fb"
+}

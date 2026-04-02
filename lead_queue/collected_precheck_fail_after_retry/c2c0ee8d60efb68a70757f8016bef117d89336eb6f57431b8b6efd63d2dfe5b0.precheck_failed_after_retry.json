@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: last, email, linkedin",
+  "retry_reason": "missing_required_fields: last, email, linkedin",
+  "previous_reason": "missing_required_fields: last, email",
+  "business": "MarketingLens Ltd.",
+  "lead": {
+    "business": "MarketingLens Ltd.",
+    "full_name": "Barib",
+    "first": "barib",
+    "last": "",
+    "email": "",
+    "role": "ceo",
+    "website": "https://www.marketinglens.com",
+    "industry": "Hardware",
+    "sub_industry": "3D Technology",
+    "country": "to your LinkedIn profile so you appear in recruiter searches for local roles.",
+    "state": "assess your eligibility",
+    "city": "Including your specific city makes it easier for employers to find you",
+    "source_url": "https://marketinglens.com",
+    "description": "Digital Marketing Strategy consulting firm with xGoogle and xMeta experts!",
+    "employee_count": "51-200",
+    "hq_country": "Dublin",
+    "hq_state": "assess your eligibility",
+    "hq_city": "Dublin 2",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://ie.linkedin.com/company/marketinglens"
+  },
+  "source_failed_basename": "3ab9258f8d875cc27519f7ad0bbab877555dcc2545b3ae9f8a68ebecef2106dc.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/3ab9258f8d875cc27519f7ad0bbab877555dcc2545b3ae9f8a68ebecef2106dc.precheck_failed.json",
+  "queue_key": "c2c0ee8d60efb68a70757f8016bef117d89336eb6f57431b8b6efd63d2dfe5b0"
+}

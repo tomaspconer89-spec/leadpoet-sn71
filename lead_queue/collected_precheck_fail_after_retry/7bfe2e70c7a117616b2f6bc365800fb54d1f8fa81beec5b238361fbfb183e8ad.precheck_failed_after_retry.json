@@ -1,0 +1,41 @@
+{
+  "reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "retry_reason": "missing_required_fields: full_name, first, last, email, linkedin",
+  "previous_reason": "missing_required_fields: full_name, first, last, email, role, country, city, linkedin",
+  "business": "My Consulting Offer",
+  "lead": {
+    "business": "My Consulting Offer",
+    "full_name": "",
+    "first": "",
+    "last": "",
+    "email": "",
+    "role": "Partner",
+    "website": "http://www.myconsultingoffer.org",
+    "industry": "Education",
+    "sub_industry": "Training",
+    "country": "United States",
+    "state": "",
+    "city": "London",
+    "source_url": "https://preplounge.com",
+    "description": "Management consulting prep for aspiring McKinsey, Bain, BCG, and other top consulting firm candidates designed by former MBB recruiters, managers, and interviewers. Since 2017, our team has reviewed 285,000+ resumes, conducted 50,000+ interviews, and helped 800+ alumni land consulting offers. We provide application review and strategy, case interview coaching, and consulting career guidance to help you secure your consulting offer. Let\u2019s connect and kickstart your consulting journey.",
+    "employee_count": "11-50",
+    "hq_country": "Florida",
+    "hq_state": "",
+    "hq_city": "London",
+    "source_type": "company_site",
+    "phone_numbers": [],
+    "socials": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "telegram": null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null
+    },
+    "company_linkedin": "https://www.linkedin.com/company/my-consulting-offer"
+  },
+  "source_failed_basename": "cc9178da6d328728979d843166e02e043702b3fa9dc86b4ec7a22be9354eec3f.precheck_failed.json",
+  "source_failed_path": "/media/bsai2/Software/Work_shop/leadpoet-sn71(old)/lead_queue/collected_precheck_fail/cc9178da6d328728979d843166e02e043702b3fa9dc86b4ec7a22be9354eec3f.precheck_failed.json",
+  "queue_key": "7bfe2e70c7a117616b2f6bc365800fb54d1f8fa81beec5b238361fbfb183e8ad"
+}
